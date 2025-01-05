@@ -1,5 +1,3 @@
-import json
-
 class EventInfo:
     name: str
     image: str
@@ -30,7 +28,7 @@ class EventInfo:
         """Convert the EventInfo object to a dictionary."""
         return {
             "name": self.name,
-            "image": self.image,
+            "imageUrl": self.image,
             "venue": self.venue,
             "date": self.date,
             "url": self.url
@@ -41,7 +39,7 @@ class EventInfo:
         """Create an EventInfo object from a dictionary."""
         return cls(
             name=data["name"],
-            image=data["image"],
+            image=data["imageUrl"],
             venue=data["venue"],
             date=data["date"],
             url=data["url"]
