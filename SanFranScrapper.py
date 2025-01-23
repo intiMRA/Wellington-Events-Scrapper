@@ -1,4 +1,6 @@
 import requests
+
+from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from enum import Enum
 import re
@@ -86,10 +88,18 @@ class SanFranScrapper:
                     date_str = event[PossibleKeys.eventDate]
                     date_format = '%Y-%m-%dT%H:%M:%SZ'
                     date = datetime.strptime(date_str, date_format)
-                    formatted_date = date.strftime("%a %d %b %Y %I:%M%p").lower()
-                    events.append(EventInfo(name=re.sub('\W+',' ', event[PossibleKeys.name]), image=event[PossibleKeys.image], venue="San Fran", date=formatted_date, url=eventURL))
+                    displayDate = DateFormatting.formatDisplayDate(date)
+                    dateStamp = DateFormatting.formatDateStamp(date)
+                    events.append(EventInfo(name=re.sub('\W+',' ', event[PossibleKeys.name]).strip(),
+                                            image=event[PossibleKeys.image],
+                                            venue="San Fran",
+                                            date=dateStamp,
+                                            displayDate=displayDate,
+                                            url=eventURL,
+                                            source="sanfran"))
                 page += 1
             except Exception as e:
+                print("san fran")
                 print(e)
                 break
 

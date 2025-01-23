@@ -1,7 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
+from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
+from datetime import datetime
 
 class ValhallaScrapper:
     @staticmethod
@@ -21,6 +24,21 @@ class ValhallaScrapper:
                 imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
                 date = event.find_element(By.CLASS_NAME, 'eventlist-column-date').text
                 date = date.replace("\n", " ")
+                firstDatePattern = r"([A-Za-z]{3} \d{1,2})"
+                firstDate = re.findall(firstDatePattern, date)
+                if not firstDate:
+                    continue
+                firstDate = firstDate[0]
+                lastDatePattern = r"(\d{1,2} [A-Za-z]{3})"
+                lastDate = re.findall(lastDatePattern, date)
+
+                firstDateObject = datetime.strptime(firstDate, '%b %d')
+                dateStamp = DateFormatting.formatDateStamp(firstDateObject)
+                displatyDate = DateFormatting.formatDisplayDate(firstDateObject)
+
+                if lastDate:
+                    lastDateObject = datetime.strptime(lastDate[0], '%d %b')
+                    displatyDate += " to " + DateFormatting.formatDisplayDate(lastDateObject)
                 title: str = event.find_element(By.CLASS_NAME, 'eventlist-title').text
                 venue = "Valhalla"
                 title_element = event.find_element(By.CLASS_NAME, "eventlist-title").find_element(By.TAG_NAME, "a")
@@ -28,7 +46,13 @@ class ValhallaScrapper:
                 if not title:
                     continue
 
-                eventInfo = EventInfo(name=title, date=date,image=imageURL, url=url, venue=venue)
+                eventInfo = EventInfo(name=title,
+                                      date=dateStamp,
+                                      displayDate=displatyDate,
+                                      image=imageURL,
+                                      url=url,
+                                      venue=venue,
+                                      source="valhalla")
                 events[title] = eventInfo
 
 

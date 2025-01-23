@@ -1,7 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
+
+from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
+from datetime import datetime
 
 class RougueScrapper:
 
@@ -22,7 +25,7 @@ class RougueScrapper:
                 title = titleTag.get_text()
 
                 dateTag = event.find_all('span', class_='lite')[0].text
-                date = re.sub('\W+', ' ', dateTag).strip()
+                dateString = re.sub('\W+', ' ', dateTag).strip()
                 venue = "Rogue And Vagabond"
                 imageDivs = event.find_all('div', class_='gig-image')
                 if imageDivs:
@@ -32,7 +35,17 @@ class RougueScrapper:
                         imageURL = imageTag.get('src')
                     if a_tag:
                         url = a_tag.get('href')
-                eventsInfo.append(EventInfo(name=title, date=date,image=imageURL, url=url, venue=venue))
+                date_format = '%a %d %B %I %M%p'
+                date = datetime.strptime(DateFormatting.cleanUpDate(dateString), date_format)
+                dateStamp = DateFormatting.formatDateStamp(date)
+                displayDate = DateFormatting.formatDisplayDate(date)
+                eventsInfo.append(EventInfo(name=title,
+                                            date=dateStamp,
+                                            displayDate=displayDate,
+                                            image=imageURL,
+                                            url=url,
+                                            venue=venue,
+                                            source="rogue"))
         else:
             print(f"Failed to retrieve the page. Status code: {response.status_code}")
 

@@ -1,4 +1,6 @@
 import requests
+
+from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from enum import Enum
 from datetime import datetime
@@ -63,24 +65,32 @@ class TicketmasterScrapper:
                     index = event[0]
                     event = event[1]
                     date_str = event[PossibleKeys.dates][PossibleKeys.startDate]
-                    date_format = '%Y-%m-%dT%H:%M:%SZ'
                     try:
-                        date = datetime.strptime(date_str, date_format)
+                        date = datetime.fromisoformat(date_str.replace("Z", "+00:00")).replace(tzinfo=None)
                         current_date = datetime.utcnow()
-                        if (date - current_date).days > 14:
+                        if (date - current_date).days > 30:
                             if index == 0:
                                 return events
                             continue
-                        formatted_date = date.strftime("%a %d %b %Y %I:%M%p").lower()
+                        displayDate = DateFormatting.formatDisplayDate(date)
+                        dateStamp = DateFormatting.formatDateStamp(date)
                         venue = f"{event[PossibleKeys.venue][PossibleKeys.name]}, {event[PossibleKeys.venue][PossibleKeys.city]}"
-                        events.append(EventInfo(name=event[PossibleKeys.title], image=None, venue=venue, date=formatted_date, url=event[PossibleKeys.url]))
-                    except ValueError:
-                        print(ValueError)
+                        events.append(EventInfo(name=event[PossibleKeys.title],
+                                                image="https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
+                                                venue=venue,
+                                                date=dateStamp,
+                                                displayDate=displayDate,
+                                                url=event[PossibleKeys.url],
+                                                source="ticketmaster"))
+                    except ValueError as v:
+                        print("ticket master")
+                        print(v)
                         continue
                 if count >= data[PossibleKeys.total]:
                     break
                 page += 1
             except Exception as e:
+                print("ticket master")
                 print(e)
                 break
         return events

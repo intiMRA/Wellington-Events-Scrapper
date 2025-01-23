@@ -4,8 +4,43 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from EventInfo import EventInfo
 import re
+from datetime import datetime, timedelta
+from DateFormatting import DateFormatting
 
 class EventFinderScrapper:
+    @staticmethod
+    def get_time_from_string(time_string: str):
+        # Get the current date
+        today = datetime.now()
+
+        # Check if the string mentions "Tomorrow" or "Today"
+        if "Tomorrow" in time_string:
+            target_date = today + timedelta(days=1)  # Add one day for tomorrow
+        elif "Today" in time_string:
+            target_date = today  # Use today's date
+        else:
+            return None  # If the string doesn't contain "Today" or "Tomorrow"
+
+        # Extract the time (e.g., 6:30pm)
+        time_match = re.search(r'(\d{1,2}):(\d{2})(am|pm)', time_string, re.IGNORECASE)
+
+        if time_match:
+            hour = int(time_match.group(1))
+            minute = int(time_match.group(2))
+            am_pm = time_match.group(3).lower()
+
+            # Convert to 24-hour format if in PM
+            if am_pm == "pm" and hour != 12:
+                hour += 12
+            if am_pm == "am" and hour == 12:
+                hour = 0
+
+            # Combine the target date with the time
+            target_time = target_date.replace(hour=hour, minute=minute, second=0, microsecond=0)
+            return target_time
+
+        return None
+
     @staticmethod
     def getEvents(url: str) -> [EventInfo]:
         events: [EventInfo] = []
@@ -28,11 +63,30 @@ class EventFinderScrapper:
             for event in html:
                 imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
                 date = event.find_element(By.CLASS_NAME, 'dtstart').text
-                title: str = event.find_element(By.CLASS_NAME, 'card-title').text
+                if "Tomorrow" in date or "Today" in date:
+                    dateObject = EventFinderScrapper.get_time_from_string(date)
+                    displayDate = DateFormatting.formatDisplayDate(dateObject)
+                    dateStamp = DateFormatting.formatDateStamp(dateObject)
+                else:
+                    cleaned_date_str = DateFormatting.cleanUpDate(date)
+                    try:
+                        date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %I:%M%p')
+                    except:
+                        date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %Y %I:%M%p')
+                    displayDate = DateFormatting.formatDisplayDate(date_obj)
+                    dateStamp = DateFormatting.formatDateStamp(date_obj)
+                title = event.find_element(By.CLASS_NAME, 'card-title').text
                 venue = event.find_element(By.CLASS_NAME, 'p-locality').text
                 title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
                 eventURL = title_element.get_attribute("href")
-                events.append(EventInfo(name=title, date=date,image=imageURL, url=eventURL, venue=venue))
+                events.append(EventInfo(
+                    name=title,
+                    date=dateStamp,
+                    displayDate=displayDate,
+                    image=imageURL,
+                    url=eventURL,
+                    venue=venue,
+                    source="event finder"))
             driver.close()
             currentPage += 1
 
@@ -54,7 +108,20 @@ class EventFinderScrapper:
         eventsDict = {}
         for event in events:
             if event.name in eventsDict.keys():
-                eventsDict[event.name] = EventInfo(name=event.name, date=event.date + " - More dates",image=event.image, url=event.url, venue=event.venue)
+                originalDate = eventsDict[event.name].displayDate.split(" to ")[0]
+                eventsDict[event.name] = EventInfo(name=eventsDict[event.name].name,
+                                                   date=eventsDict[event.name].date,
+                                                   displayDate=originalDate + " to " + event.displayDate,
+                                                   image=eventsDict[event.name].image,
+                                                   url=eventsDict[event.name].url,
+                                                   venue=eventsDict[event.name].venue,
+                                                   source="event finder")
             else:
-                eventsDict[event.name] = EventInfo(name=event.name, date=event.date , image=event.image, url=event.url, venue=event.venue)
+                eventsDict[event.name] = EventInfo(name=event.name,
+                                                   date=event.date,
+                                                   displayDate=event.displayDate,
+                                                   image=event.image,
+                                                   url=event.url,
+                                                   venue=event.venue,
+                                                   source="event finder")
         return list(eventsDict.values())

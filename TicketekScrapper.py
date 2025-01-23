@@ -1,7 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
+
+from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
+from datetime import datetime
 
 class TicketekScrapper:
 
@@ -56,7 +59,33 @@ class TicketekScrapper:
                             urlTag = a_tag.get('href')
                             if urlTag:
                                 url = f"https://premier.ticketek.co.nz{urlTag}"
-                    eventsInfo.append(EventInfo(name=title, date=date,image=imageURL, url=url, venue=venue))
+
+
+                    date = re.sub(':', ' ', date)
+                    pattern = r"([A-Za-z]{3} \d{1,2} [A-Za-z]{3} \d{4}(?: \d{1,2} \d{2}[ap]m)?)"
+                    dates = re.findall(pattern, date)
+                    dateStamp = None
+                    displayDate = None
+                    for d in dates:
+                        date_obj = None
+                        try:
+                            date_obj = datetime.strptime(d, '%a %d %b %Y %I %M%p')
+                        except:
+                            date_obj = datetime.strptime(d, '%a %d %b %Y')
+                        if displayDate == None:
+                            displayDate = DateFormatting.formatDisplayDate(date_obj)
+                        else:
+                            displayDate += " to " + DateFormatting.formatDisplayDate(date_obj)
+
+                        if dates[0] == d:
+                            dateStamp = DateFormatting.formatDateStamp(date_obj)
+                    eventsInfo.append(EventInfo(name=title,
+                                                date=dateStamp,
+                                                displayDate=displayDate,
+                                                image="https://"+imageURL,
+                                                url=url,
+                                                venue=venue,
+                                                source="ticketek"))
                 tag = soup.find_all('div', class_='paginationResults')
                 tag = re.sub('\W+',' ', tag[0].text).strip().split(" of ")
                 firstTag = tag[0].split(" ")[-1].strip()
@@ -69,3 +98,5 @@ class TicketekScrapper:
                 break
 
         return eventsInfo
+
+TicketekScrapper.fetch_events()
