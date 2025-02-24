@@ -98,5 +98,5 @@ class WellingtonNZScrapper:
             numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
             numberOfEvents = re.findall("\d+", numberOfEvents.text)
             page += 1
-        eventsInfo = WellingtonNZScrapper.slow_scroll_to_bottom(driver, 300)
+        eventsInfo = WellingtonNZScrapper.slow_scroll_to_bottom(driver, 400)
         return list(eventsInfo)

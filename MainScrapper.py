@@ -38,6 +38,7 @@ data =  (san_fran_events
          + rogue_events
          + wellyNZ_events
          + humanitix_events)
+
 eventsDict = {}
 for event in data:
     name = re.sub('\W+', ' ', event.name).replace(" ", "")
@@ -49,5 +50,12 @@ for event in data:
         eventsDict[name] = event
 data = list(eventsDict.values())
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
+eventsWithNoDate = list(filter(lambda x: not x["dates"], data))
+events = list(filter(lambda x: x not in eventsWithNoDate, data))
 with open( "evens.json" , "w" ) as write:
+    write.write('{ "eventsWithNoDate":')
+    json.dump(eventsWithNoDate, write)
+    write.write(',')
+    write.write('"events":')
     json.dump( data , write )
+    write.write('}')
