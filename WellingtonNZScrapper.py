@@ -24,6 +24,7 @@ class WellingtonNZScrapper:
             rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
             for event in rawEvents:
                 title = event.find_element(By.CLASS_NAME, 'tile-content__title').text
+                dateStamps =[]
                 if not title:
                     continue
                 try:
@@ -35,7 +36,7 @@ class WellingtonNZScrapper:
                 if re.match(r"\d+ – \d+", dateString):
                     splitDateString = dateString.split(" – ")
                     date = datetime.strptime(splitDateString[-1], '%d %B %Y')
-                    dateStamp = DateFormatting.formatDateStamp(date)
+                    dateStamps = [DateFormatting.formatDateStamp(date)]
                     displayDate = DateFormatting.formatDisplayDate(date)
                 elif re.match(r"(\d{1,2} [A-Za-z]+ \d{4})\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
                     match = re.match(r"(\d{1,2} [A-Za-z]+ \d{4})\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString)
@@ -43,7 +44,7 @@ class WellingtonNZScrapper:
                     endDateString = match.group(2)
 
                     startDate = datetime.strptime(startDateString, '%d %B %Y')
-                    dateStamp = DateFormatting.formatDateStamp(startDate)
+                    dateStamps = [DateFormatting.formatDateStamp(startDate), DateFormatting.formatDateStamp(endDate)]
                     endDate = datetime.strptime(endDateString, '%d %B %Y')
                     displayDate = DateFormatting.formatDisplayDate(startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
@@ -52,22 +53,22 @@ class WellingtonNZScrapper:
                     endDateString = match.group(2)
 
                     startDate = datetime.strptime(startDateString, '%d %B')
-                    dateStamp = DateFormatting.formatDateStamp(startDate)
                     endDate = datetime.strptime(endDateString, '%d %B %Y')
+                    dateStamps = [DateFormatting.formatDisplayDate(startDate),
+                                  DateFormatting.formatDisplayDate(endDate)]
                     displayDate = DateFormatting.formatDisplayDate(startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif dateString:
                     try:
                         date = datetime.strptime(dateString, '%d %B %Y')
-                        dateStamp = DateFormatting.formatDateStamp(date)
+                        dateStamps = [DateFormatting.formatDateStamp(date)]
                         displayDate = DateFormatting.formatDisplayDate(date)
                     except:
                         print(title)
                         print(dateString)
                         date = datetime.strptime(dateString, '%d %B %Y')
-                        dateStamp = DateFormatting.formatDateStamp(date)
+                        dateStamps = [DateFormatting.formatDateStamp(date)]
                         displayDate = DateFormatting.formatDisplayDate(date)
                 else:
-                    dateStamp = None
                     displayDate = "not listed"
                 imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
                 # print(imageUrl)
@@ -77,7 +78,7 @@ class WellingtonNZScrapper:
                 eventInfo = EventInfo(name=title,
                                       image=imageUrl,
                                       venue=venue,
-                                      date=dateStamp,
+                                      dates=dateStamps,
                                       displayDate=displayDate,
                                       url=eventUrl,
                                       source="wellingtonNZ")
@@ -90,7 +91,7 @@ class WellingtonNZScrapper:
         sleep(3)
         numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
         numberOfEvents = re.findall("\d+", numberOfEvents.text)
-        page = 5
+        page = 1
         while numberOfEvents[0] != numberOfEvents[1]:
             driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}')
             sleep(3)

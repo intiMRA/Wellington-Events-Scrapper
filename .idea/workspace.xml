@@ -7,12 +7,10 @@
     <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateFormatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DateFormatting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EevtsBrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/EevtsBrite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventFinderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventFinderScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HumanitixScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/HumanitixScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RougueScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/RougueScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SanFranScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SanFranScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TicketekScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicketekScrapper.py" afterDir="false" />
@@ -20,13 +18,19 @@
       <change beforePath="$PROJECT_DIR$/UnderTheRaderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnderTheRaderScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ValhallaScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ValhallaScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellingtonNZScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/WellingtonNZScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellintonCityCoucil.py" beforeDir="false" afterPath="$PROJECT_DIR$/WellintonCityCoucil.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evens.json" beforeDir="false" afterPath="$PROJECT_DIR$/evens.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.FacebookScrapper.executor&quot;: &quot;Run&quot;,
     &quot;Python.MainScrapper.executor&quot;: &quot;Run&quot;,
     &quot;Python.TicketmasterScrapper.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -52,10 +57,34 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Python.MainScrapper">
+    <configuration name="FacebookScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FacebookScrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MainScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -105,6 +134,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.MainScrapper" />
+        <item itemvalue="Python.FacebookScrapper" />
         <item itemvalue="Python.TicketmasterScrapper" />
       </list>
     </recent_temporary>
@@ -128,7 +158,14 @@
       <workItem from="1736116249275" duration="1000" />
       <workItem from="1736986635507" duration="466000" />
       <workItem from="1736987113871" duration="3486000" />
-      <workItem from="1737584525134" duration="3462000" />
+      <workItem from="1737584525134" duration="4348000" />
+      <workItem from="1738010788028" duration="3590000" />
+      <workItem from="1738014395405" duration="12007000" />
+      <workItem from="1739148340281" duration="283000" />
+      <workItem from="1739762283202" duration="93000" />
+      <workItem from="1739762379853" duration="734000" />
+      <workItem from="1740340925599" duration="1350000" />
+      <workItem from="1740431154795" duration="1003000" />
     </task>
     <servers />
   </component>
@@ -136,7 +173,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1737601342993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1740431264050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$FacebookScrapper.coverage" NAME="FacebookScrapper Coverage Results" MODIFIED="1739762393983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketmasterScrapper.coverage" NAME="TicketmasterScrapper Coverage Results" MODIFIED="1737064088384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

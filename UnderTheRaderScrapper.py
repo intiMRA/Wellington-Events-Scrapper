@@ -24,7 +24,7 @@ class UnderTheRaderScrapper:
             title_element = event.find_element(By.CLASS_NAME, "gig-title").find_element(By.TAG_NAME, "a")
             url = title_element.get_attribute("href")
             events.append(EventInfo(name=title,
-                                    date=dateStamp,
+                                    dates=[dateStamp],
                                     displayDate=displayDate,
                                     image=imageURL,
                                     url=url,

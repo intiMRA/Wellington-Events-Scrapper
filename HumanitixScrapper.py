@@ -52,17 +52,20 @@ class HumanitixScrapper:
                 imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
                 venue = event.find_element(By.CLASS_NAME, 'cbGrdm').text
                 eventUrl = event.get_attribute('href')
+                dateStamps = []
                 dates = HumanitixScrapper.get_date(dateString)
                 if len(dates) == 2:
                     startDate, endDate = dates
                     dateStamp = DateFormatting.formatDateStamp(startDate)
+                    lastDateStamp = DateFormatting.formatDateStamp(endDate)
+                    dateStamps = [dateStamp, lastDateStamp]
                     displayDate = DateFormatting.formatDisplayDate(startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 else:
                     date = dates[0]
-                    dateStamp = DateFormatting.formatDateStamp(date)
+                    dateStamps = [DateFormatting.formatDateStamp(date)]
                     displayDate = DateFormatting.formatDisplayDate(date)
                 events.append(EventInfo(name=title,
-                                        date=dateStamp,
+                                        dates=dateStamps,
                                         displayDate=displayDate,
                                         image=imageURL,
                                         url=eventUrl,

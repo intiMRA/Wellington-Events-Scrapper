@@ -40,7 +40,7 @@ class RougueScrapper:
                 dateStamp = DateFormatting.formatDateStamp(date)
                 displayDate = DateFormatting.formatDisplayDate(date)
                 eventsInfo.append(EventInfo(name=title,
-                                            date=dateStamp,
+                                            dates=[dateStamp],
                                             displayDate=displayDate,
                                             image=imageURL,
                                             url=url,

@@ -24,6 +24,7 @@ class ValhallaScrapper:
                 imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
                 date = event.find_element(By.CLASS_NAME, 'eventlist-column-date').text
                 date = date.replace("\n", " ")
+                dates = []
                 firstDatePattern = r"([A-Za-z]{3} \d{1,2})"
                 firstDate = re.findall(firstDatePattern, date)
                 if not firstDate:
@@ -34,11 +35,14 @@ class ValhallaScrapper:
 
                 firstDateObject = datetime.strptime(firstDate, '%b %d')
                 dateStamp = DateFormatting.formatDateStamp(firstDateObject)
+                dates.append(dateStamp)
                 displatyDate = DateFormatting.formatDisplayDate(firstDateObject)
 
                 if lastDate:
                     lastDateObject = datetime.strptime(lastDate[0], '%d %b')
                     displatyDate += " to " + DateFormatting.formatDisplayDate(lastDateObject)
+                    lastDateStamp = DateFormatting.formatDateStamp(lastDateObject)
+                    dates.append(lastDateStamp)
                 title: str = event.find_element(By.CLASS_NAME, 'eventlist-title').text
                 venue = "Valhalla"
                 title_element = event.find_element(By.CLASS_NAME, "eventlist-title").find_element(By.TAG_NAME, "a")
@@ -47,7 +51,7 @@ class ValhallaScrapper:
                     continue
 
                 eventInfo = EventInfo(name=title,
-                                      date=dateStamp,
+                                      dates=dates,
                                       displayDate=displatyDate,
                                       image=imageURL,
                                       url=url,

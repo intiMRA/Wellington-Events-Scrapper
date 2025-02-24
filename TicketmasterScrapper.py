@@ -78,7 +78,7 @@ class TicketmasterScrapper:
                         events.append(EventInfo(name=event[PossibleKeys.title],
                                                 image="https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
                                                 venue=venue,
-                                                date=dateStamp,
+                                                dates=[dateStamp],
                                                 displayDate=displayDate,
                                                 url=event[PossibleKeys.url],
                                                 source="ticketmaster"))

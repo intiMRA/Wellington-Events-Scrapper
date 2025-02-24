@@ -1,4 +1,5 @@
-#
+
+from xmlrpc.client import DateTime
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -61,6 +62,7 @@ class EventFinderScrapper:
             driver.get(pageURL)
             html = driver.find_element(By.CLASS_NAME, 'listings-events').find_elements(By.CLASS_NAME, 'card')
             for event in html:
+                date_obj = None
                 imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
                 date = event.find_element(By.CLASS_NAME, 'dtstart').text
                 if "Tomorrow" in date or "Today" in date:
@@ -72,7 +74,12 @@ class EventFinderScrapper:
                     try:
                         date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %I:%M%p')
                     except:
-                        date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %Y %I:%M%p')
+                        print("error: " + date)
+                        print("title: " + event.find_element(By.CLASS_NAME, 'card-title').text)
+                        if cleaned_date_str:
+                            date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %Y %I:%M%p')
+                    if not date_obj:
+                        date_obj = datetime.now()
                     displayDate = DateFormatting.formatDisplayDate(date_obj)
                     dateStamp = DateFormatting.formatDateStamp(date_obj)
                 title = event.find_element(By.CLASS_NAME, 'card-title').text
@@ -81,7 +88,7 @@ class EventFinderScrapper:
                 eventURL = title_element.get_attribute("href")
                 events.append(EventInfo(
                     name=title,
-                    date=dateStamp,
+                    dates=[dateStamp],
                     displayDate=displayDate,
                     image=imageURL,
                     url=eventURL,
@@ -109,8 +116,12 @@ class EventFinderScrapper:
         for event in events:
             if event.name in eventsDict.keys():
                 originalDate = eventsDict[event.name].displayDate.split(" to ")[0]
+                dates: [str] = eventsDict[event.name].dates
+                currentEventDate = event.dates[0]
+                if currentEventDate not in dates:
+                    dates.append(currentEventDate)
                 eventsDict[event.name] = EventInfo(name=eventsDict[event.name].name,
-                                                   date=eventsDict[event.name].date,
+                                                   dates=dates,
                                                    displayDate=originalDate + " to " + event.displayDate,
                                                    image=eventsDict[event.name].image,
                                                    url=eventsDict[event.name].url,
@@ -118,7 +129,7 @@ class EventFinderScrapper:
                                                    source="event finder")
             else:
                 eventsDict[event.name] = EventInfo(name=event.name,
-                                                   date=event.date,
+                                                   dates=event.dates,
                                                    displayDate=event.displayDate,
                                                    image=event.image,
                                                    url=event.url,

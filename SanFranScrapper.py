@@ -93,7 +93,7 @@ class SanFranScrapper:
                     events.append(EventInfo(name=re.sub('\W+',' ', event[PossibleKeys.name]).strip(),
                                             image=event[PossibleKeys.image],
                                             venue="San Fran",
-                                            date=dateStamp,
+                                            dates=[dateStamp],
                                             displayDate=displayDate,
                                             url=eventURL,
                                             source="sanfran"))

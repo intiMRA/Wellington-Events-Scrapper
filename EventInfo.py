@@ -6,12 +6,12 @@ class EventInfo:
     name: str
     image: str
     venue: str
-    date: str
+    dates: [str]
     displayDate: str
     url: str
     source: str
 
-    def __init__(self: str, name: str, image: str, venue: str, date: str, displayDate: str, url: str, source: str):
+    def __init__(self: str, name: str, image: str, venue: str, dates: [str], displayDate: str, url: str, source: str):
         """
         @type name: str
         @param name: The name of the event.
@@ -19,8 +19,8 @@ class EventInfo:
         @param image: The image of the event.
         @type venue: str
         @param venue: The venue for the event.
-        @type date: str
-        @param date: The date of the event.
+        @type dates: str
+        @param dates: The date of the event.
         @type displayDate: str
         @param date: The display date of the event.
         @type url: str
@@ -32,7 +32,7 @@ class EventInfo:
         self.name = name
         self.image = image
         self.venue = venue
-        self.date = date
+        self.dates = dates
         self.displayDate = displayDate
         self.url = url
         self.source = source
@@ -44,7 +44,7 @@ class EventInfo:
             "name": self.name,
             "imageUrl": self.image,
             "venue": self.venue,
-            "date": self.date,
+            "dates": self.dates,
             "displayDate": self.displayDate,
             "url": self.url,
             "source": self.source
@@ -57,7 +57,7 @@ class EventInfo:
             name=data["name"],
             image=data["imageUrl"],
             venue=data["venue"],
-            date=data["date"],
+            dates=data["dates"],
             displayDate=data["displayDate"],
             url=data["url"],
             source=data["source"]

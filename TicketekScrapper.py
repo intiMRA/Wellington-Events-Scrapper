@@ -65,6 +65,7 @@ class TicketekScrapper:
                     pattern = r"([A-Za-z]{3} \d{1,2} [A-Za-z]{3} \d{4}(?: \d{1,2} \d{2}[ap]m)?)"
                     dates = re.findall(pattern, date)
                     dateStamp = None
+                    dateStamps = []
                     displayDate = None
                     for d in dates:
                         date_obj = None
@@ -76,11 +77,12 @@ class TicketekScrapper:
                             displayDate = DateFormatting.formatDisplayDate(date_obj)
                         else:
                             displayDate += " to " + DateFormatting.formatDisplayDate(date_obj)
-
-                        if dates[0] == d:
-                            dateStamp = DateFormatting.formatDateStamp(date_obj)
+                        dateStamp = DateFormatting.formatDateStamp(date_obj)
+                        if dateStamp not in dateStamps:
+                            dateStamps.append(dateStamp)
+                        
                     eventsInfo.append(EventInfo(name=title,
-                                                date=dateStamp,
+                                                dates=dateStamps,
                                                 displayDate=displayDate,
                                                 image="https://"+imageURL,
                                                 url=url,
