@@ -47,12 +47,11 @@ class HumanitixScrapper:
             if not eventsData:
                 return events
             for event in eventsData:
-                title = event.find_element(By.CLASS_NAME, 'jlfRBE').text
-                dateString = event.find_element(By.CLASS_NAME, 'bAQRIM').text
+                title = event.find_element(By.CLASS_NAME, 'PvMBQ').text
+                dateString = event.find_element(By.CLASS_NAME, 'fMFwJG').text
                 imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
-                venue = event.find_element(By.CLASS_NAME, 'cbGrdm').text
+                venue = event.find_element(By.CLASS_NAME, 'cgLmvO').text
                 eventUrl = event.get_attribute('href')
-                dateStamps = []
                 dates = HumanitixScrapper.get_date(dateString)
                 if len(dates) == 2:
                     startDate, endDate = dates

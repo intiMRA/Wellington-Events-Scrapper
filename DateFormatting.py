@@ -8,7 +8,8 @@ class DateFormatting:
 
     @staticmethod
     def formatDateStamp(date: datetime) -> str :
-        return date.strftime("%d-%m")
+        date = date.replace(year=datetime.today().year)
+        return date.strftime("%d-%m-%Y")
 
     @staticmethod
     def cleanUpDate(dateString: str) -> str:

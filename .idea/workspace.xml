@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DateFormatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DateFormatting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventFinderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventFinderScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WellingtonNZScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/WellingtonNZScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evens.json" beforeDir="false" afterPath="$PROJECT_DIR$/evens.json" afterDir="false" />
@@ -155,7 +157,7 @@
       <workItem from="1739762283202" duration="93000" />
       <workItem from="1739762379853" duration="734000" />
       <workItem from="1740340925599" duration="1350000" />
-      <workItem from="1740431154795" duration="5177000" />
+      <workItem from="1740431154795" duration="13729000" />
     </task>
     <servers />
   </component>
@@ -163,7 +165,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1740437581469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1740458555559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$FacebookScrapper.coverage" NAME="FacebookScrapper Coverage Results" MODIFIED="1739762393983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketmasterScrapper.coverage" NAME="TicketmasterScrapper Coverage Results" MODIFIED="1737064088384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

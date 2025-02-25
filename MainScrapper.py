@@ -21,14 +21,17 @@ rogue_events = RougueScrapper.fetch_events()
 wellyNZ_events = WellingtonNZScrapper.fetch_events()
 humanitix_events = HumanitixScrapper.fetch_events()
 
-print(len(san_fran_events))
-print(len(ticket_events))
-print(len(ticket_master_events))
-print(len(under_the_radar_events))
-print(len(valhalla_events))
-print(len(event_finder_event))
-print(len(rogue_events))
+print("san fran: ", len(san_fran_events))
+print("ticket: ", len(ticket_events))
+print("ticket master: ", len(ticket_master_events))
+print("under the radar: ", len(under_the_radar_events))
+print("valhalla: ", len(valhalla_events))
+print("event finder: ", len(event_finder_event))
+print("rogue: ", len(rogue_events))
+print("wellington nz: ", len(wellyNZ_events))
+print("humanitix: ", len(humanitix_events))
 
+# data = event_finder_event
 data =  (san_fran_events
          + ticket_events
          + ticket_master_events

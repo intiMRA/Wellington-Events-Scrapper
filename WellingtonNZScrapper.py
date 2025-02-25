@@ -54,8 +54,8 @@ class WellingtonNZScrapper:
 
                     startDate = datetime.strptime(startDateString, '%d %B')
                     endDate = datetime.strptime(endDateString, '%d %B %Y')
-                    dateStamps = [DateFormatting.formatDisplayDate(startDate),
-                                  DateFormatting.formatDisplayDate(endDate)]
+                    dateStamps = [DateFormatting.formatDateStamp(startDate),
+                                  DateFormatting.formatDateStamp(endDate)]
                     displayDate = DateFormatting.formatDisplayDate(startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif dateString:
                     try:

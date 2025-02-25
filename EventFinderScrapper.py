@@ -86,6 +86,7 @@ class EventFinderScrapper:
                 venue = event.find_element(By.CLASS_NAME, 'p-locality').text
                 title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
                 eventURL = title_element.get_attribute("href")
+                print(dateStamp)
                 events.append(EventInfo(
                     name=title,
                     dates=[dateStamp],
