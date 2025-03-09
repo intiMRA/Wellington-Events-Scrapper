@@ -11,7 +11,7 @@ import json
 class HumanitixScrapper:
     @staticmethod
     def get_date(dateString: str) -> [datetime]:
-        if re.findall(r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s-\s\d+([:]*\d{1,2})?[amp]+\s[aA-zZ]*)", dateString):
+        if re.findall(r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[ampAMP]+)", dateString):
             matchString = re.findall(r"([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})", dateString)[0]
 
             date = datetime.strptime(matchString, '%a, %d %b')
@@ -43,14 +43,15 @@ class HumanitixScrapper:
                 driver.execute_script(f"window.scrollBy(0, {100});")
 
                 scrolledAmount += 100
-            eventsData = driver.find_elements(By.CLASS_NAME, 'lbYPyp')
+            eventsData = driver.find_elements(By.CLASS_NAME, 'test')
             if not eventsData:
                 return events
             for event in eventsData:
-                title = event.find_element(By.CLASS_NAME, 'PvMBQ').text
-                dateString = event.find_element(By.CLASS_NAME, 'fMFwJG').text
+                dateString, venue = event.find_elements(By.TAG_NAME, 'p')
+                dateString = dateString.text
+                venue = venue.text
+                title = event.find_element(By.TAG_NAME, 'h6').text
                 imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
-                venue = event.find_element(By.CLASS_NAME, 'cgLmvO').text
                 eventUrl = event.get_attribute('href')
                 dates = HumanitixScrapper.get_date(dateString)
                 if len(dates) == 2:
@@ -72,3 +73,7 @@ class HumanitixScrapper:
                                         source="humanitix"))
             page += 1
         return events
+# 
+# events = list(map(lambda x: x.to_dict(), sorted(HumanitixScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)
