@@ -7,6 +7,12 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime, timedelta
 from DateFormatting import DateFormatting
+from selenium.webdriver.ie.webdriver import WebDriver
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+import pandas
+import json
 
 class EventFinderScrapper:
     @staticmethod
@@ -43,6 +49,49 @@ class EventFinderScrapper:
         return None
 
     @staticmethod
+    def getAllEventDates(url: str, title: str) -> ([str], str):
+        dateStamps = []
+        try:
+            driver = webdriver.Chrome()
+            driver.get(url)
+            try:
+                allDatesButton = driver.find_element(By.CLASS_NAME, "show-more")
+                allDatesButton.click()
+            except:
+                pass
+            dateTable = driver.find_element(By.CLASS_NAME, "sessions-info")
+            dates = dateTable.find_elements(By.TAG_NAME, "time")
+            startDate = None
+            for date in dates:
+                dateString = date.get_attribute("datetime")
+                try:
+                    # datetime 2024-08-01, 09:00–13:00
+                    dateString = dateString.split(",")[0]
+                    if len(dateString.split("–")) > 1:
+                        start, last = dateString.split("–")
+                        start_date_obj = datetime.strptime(start, "%Y-%m-%d")
+                        end_date_obj = datetime.strptime(last, "%Y-%m-%d")
+                        range = pandas.date_range(start_date_obj, end_date_obj - timedelta(days=1), freq='d')
+                        if startDate == None:
+                            startDate = DateFormatting.formatDisplayDate(start_date_obj)
+                        for date in range:
+                            dateStamps.append(DateFormatting.formatDateStamp(date))
+                    else:
+                        date_obj = datetime.strptime(dateString, '%Y-%m-%d')
+                        if date_obj >= datetime.now():
+                            dateStamp = DateFormatting.formatDateStamp(date_obj)
+                            if startDate is None:
+                                startDate = DateFormatting.formatDisplayDate(date_obj)
+                            dateStamps.append(dateStamp)
+                except:
+                    print("error: ", dateString, " title: ", title)
+            driver.close()
+        except:
+            print("error: ", url, " title: ", title)
+        return dateStamps, startDate
+
+
+    @staticmethod
     def getEvents(url: str) -> [EventInfo]:
         events: [EventInfo] = []
         driver = webdriver.Chrome()
@@ -64,8 +113,15 @@ class EventFinderScrapper:
             for event in html:
                 date_obj = None
                 imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
+                title = event.find_element(By.CLASS_NAME, 'card-title').text
+                title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
+                eventURL = title_element.get_attribute("href")
+                metaDate = event.find_element(By.CLASS_NAME, "meta-date").text
                 date = event.find_element(By.CLASS_NAME, 'dtstart').text
-                if "Tomorrow" in date or "Today" in date:
+                dataStamps = None
+                if "more dates" in metaDate:
+                    dataStamps, displayDate = EventFinderScrapper.getAllEventDates(eventURL, title)
+                elif "Tomorrow" in date or "Today" in date:
                     dateObject = EventFinderScrapper.get_time_from_string(date)
                     displayDate = DateFormatting.formatDisplayDate(dateObject)
                     dateStamp = DateFormatting.formatDateStamp(dateObject)
@@ -82,13 +138,12 @@ class EventFinderScrapper:
                         date_obj = datetime.now()
                     displayDate = DateFormatting.formatDisplayDate(date_obj)
                     dateStamp = DateFormatting.formatDateStamp(date_obj)
-                title = event.find_element(By.CLASS_NAME, 'card-title').text
+                if not dataStamps:
+                    dataStamps = [dateStamp]
                 venue = event.find_element(By.CLASS_NAME, 'p-locality').text
-                title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
-                eventURL = title_element.get_attribute("href")
                 events.append(EventInfo(
                     name=title,
-                    dates=[dateStamp],
+                    dates=dataStamps,
                     displayDate=displayDate,
                     image=imageURL,
                     url=eventURL,
@@ -136,3 +191,7 @@ class EventFinderScrapper:
                                                    venue=event.venue,
                                                    source="event finder")
         return list(eventsDict.values())
+
+# events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)
