@@ -8,6 +8,7 @@ from EventFinderScrapper import EventFinderScrapper
 from RougueScrapper import RougueScrapper
 from WellingtonNZScrapper import WellingtonNZScrapper
 from HumanitixScrapper import HumanitixScrapper
+from FacebookScrapper import FacebookScrapper
 import json
 import re
 
@@ -20,6 +21,7 @@ event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events()
 rogue_events = RougueScrapper.fetch_events()
 wellyNZ_events = WellingtonNZScrapper.fetch_events()
 humanitix_events = HumanitixScrapper.fetch_events()
+facebook_events = FacebookScrapper.fetch_events()
 
 print("san fran: ", len(san_fran_events))
 print("ticket: ", len(ticket_events))
@@ -30,6 +32,7 @@ print("event finder: ", len(event_finder_event))
 print("rogue: ", len(rogue_events))
 print("wellington nz: ", len(wellyNZ_events))
 print("humanitix: ", len(humanitix_events))
+print("facebook: ", len(facebook_events))
 
 # data = event_finder_event
 data =  (san_fran_events
@@ -40,7 +43,8 @@ data =  (san_fran_events
          + event_finder_event
          + rogue_events
          + wellyNZ_events
-         + humanitix_events)
+         + humanitix_events
+         + facebook_events)
 
 eventsDict = {}
 for event in data:
@@ -55,10 +59,23 @@ data = list(eventsDict.values())
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
 eventsWithNoDate = list(filter(lambda x: not x["dates"], data))
 events = list(filter(lambda x: x not in eventsWithNoDate, data))
-with open( "evens.json" , "w" ) as write:
+with open( "events.json" , "w" ) as write:
     write.write('{ "eventsWithNoDate":')
     json.dump(eventsWithNoDate, write)
     write.write(',')
     write.write('"events":')
     json.dump( data , write )
+    write.write(',')
+    write.write('"sources": ')
+    write.write('[ "san fran", '
+                '"ticket", '
+                '"ticket master",'
+                '"under the radar", '
+                '"valhalla", '
+                '"event finder",'
+                '"rogue",'
+                '"wellington nz",'
+                '"humanitix",'
+                '"facebook" ]'
+                )
     write.write('}')

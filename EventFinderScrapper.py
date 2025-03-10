@@ -71,11 +71,14 @@ class EventFinderScrapper:
                         start, last = dateString.split("–")
                         start_date_obj = datetime.strptime(start, "%Y-%m-%d")
                         end_date_obj = datetime.strptime(last, "%Y-%m-%d")
-                        range = pandas.date_range(start_date_obj, end_date_obj - timedelta(days=1), freq='d')
+                        range = pandas.date_range(start_date_obj, end_date_obj - timedelta(days=1))
                         if startDate == None:
                             startDate = DateFormatting.formatDisplayDate(start_date_obj)
                         for date in range:
-                            dateStamps.append(DateFormatting.formatDateStamp(date))
+                            stamp = DateFormatting.formatDateStamp(date)
+                            if stamp in dateStamps:
+                                continue
+                            dateStamps.append(stamp)
                     else:
                         date_obj = datetime.strptime(dateString, '%Y-%m-%d')
                         if date_obj >= datetime.now():
@@ -170,18 +173,7 @@ class EventFinderScrapper:
         eventsDict = {}
         for event in events:
             if event.name in eventsDict.keys():
-                originalDate = eventsDict[event.name].displayDate.split(" to ")[0]
-                dates: [str] = eventsDict[event.name].dates
-                currentEventDate = event.dates[0]
-                if currentEventDate not in dates:
-                    dates.append(currentEventDate)
-                eventsDict[event.name] = EventInfo(name=eventsDict[event.name].name,
-                                                   dates=dates,
-                                                   displayDate=originalDate + " to " + event.displayDate,
-                                                   image=eventsDict[event.name].image,
-                                                   url=eventsDict[event.name].url,
-                                                   venue=eventsDict[event.name].venue,
-                                                   source="event finder")
+                continue
             else:
                 eventsDict[event.name] = EventInfo(name=event.name,
                                                    dates=event.dates,
