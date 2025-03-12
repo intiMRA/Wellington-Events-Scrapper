@@ -25,7 +25,7 @@ class WellingtonNZScrapper:
             scrolledAmount += scroll_increment
             rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
             for event in rawEvents:
-                title = event.find_element(By.CLASS_NAME, 'tile-content__title').text
+                title = event.find_element(By.TAG_NAME, 'h2').text
                 dateStamps = []
                 if not title:
                     continue
@@ -85,23 +85,28 @@ class WellingtonNZScrapper:
                                       dates=dateStamps,
                                       displayDate=displayDate,
                                       url=eventUrl,
-                                      source="wellingtonNZ",
+                                      source="wellington nz",
                                       eventType="Other")
-                events[title] = eventInfo
+                cleanTitle = re.match(r'[aA-zZ0-9]+', title)
+                events[cleanTitle] = eventInfo
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
         driver = webdriver.Chrome()
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
-        sleep(3)
+        driver.switch_to.window(driver.current_window_handle)
+        driver.implicitly_wait(2)
         numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
         numberOfEvents = re.findall("\d+", numberOfEvents.text)
         page = 1
         while numberOfEvents[0] != numberOfEvents[1]:
             driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}')
-            sleep(3)
+            driver.implicitly_wait(2)
             numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
             numberOfEvents = re.findall("\d+", numberOfEvents.text)
             page += 1
         eventsInfo = WellingtonNZScrapper.slow_scroll_to_bottom(driver, 400)
         return list(eventsInfo)
+# events = list(map(lambda x: x.to_dict(), sorted(WellingtonNZScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)
