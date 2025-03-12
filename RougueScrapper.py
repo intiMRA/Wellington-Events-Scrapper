@@ -6,6 +6,7 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime
 
+
 class RougueScrapper:
 
     @staticmethod
@@ -45,9 +46,9 @@ class RougueScrapper:
                                             image=imageURL,
                                             url=url,
                                             venue=venue,
-                                            source="rogue"))
+                                            source="rogue",
+                                            eventType="Music"))
         else:
             print(f"Failed to retrieve the page. Status code: {response.status_code}")
-
 
         return eventsInfo

@@ -5,6 +5,7 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from datetime import datetime
 
+
 class UnderTheRaderScrapper:
     @staticmethod
     def fetch_events() -> [EventInfo]:
@@ -29,6 +30,7 @@ class UnderTheRaderScrapper:
                                     image=imageURL,
                                     url=url,
                                     venue=venue,
-                                    source="under the radar"))
+                                    source="under the radar",
+                                    eventType="Music"))
         driver.close()
         return events

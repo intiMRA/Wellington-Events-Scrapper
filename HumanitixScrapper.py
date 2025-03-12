@@ -8,6 +8,7 @@ from datetime import datetime
 from DateFormatting import DateFormatting
 import json
 
+
 class HumanitixScrapper:
     @staticmethod
     def get_date(dateString: str) -> [datetime]:
@@ -16,7 +17,9 @@ class HumanitixScrapper:
 
             date = datetime.strptime(matchString, '%a, %d %b')
             return [date]
-        elif re.findall(r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s-\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s[aA-zZ]*)", dateString):
+        elif re.findall(
+                r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s-\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s[aA-zZ]*)",
+                dateString):
             startDateString = re.findall(r'([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})', dateString)[0]
             endDateString = re.findall(r'(\d{1,2}\s[aA-zZ]{3})', dateString)[-1]
             startDate = datetime.strptime(startDateString, '%a, %d %b')
@@ -27,6 +30,7 @@ class HumanitixScrapper:
             print(dateString)
             print("-" * 15)
             return []
+
     @staticmethod
     def fetch_events() -> [EventInfo]:
         events: [EventInfo] = []
@@ -59,7 +63,8 @@ class HumanitixScrapper:
                     dateStamp = DateFormatting.formatDateStamp(startDate)
                     lastDateStamp = DateFormatting.formatDateStamp(endDate)
                     dateStamps = [dateStamp, lastDateStamp]
-                    displayDate = DateFormatting.formatDisplayDate(startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
+                    displayDate = DateFormatting.formatDisplayDate(
+                        startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 else:
                     date = dates[0]
                     dateStamps = [DateFormatting.formatDateStamp(date)]
@@ -70,7 +75,8 @@ class HumanitixScrapper:
                                         image=imageURL,
                                         url=eventUrl,
                                         venue=venue,
-                                        source="humanitix"))
+                                        source="humanitix",
+                                        eventType="Other"))
             page += 1
         return events
 # 

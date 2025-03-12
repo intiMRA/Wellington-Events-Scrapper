@@ -10,8 +10,18 @@ class EventInfo:
     displayDate: str
     url: str
     source: str
+    eventType: str
 
-    def __init__(self: str, name: str, image: str, venue: str, dates: [str], displayDate: str, url: str, source: str):
+    def __init__(
+            self: str,
+            name: str,
+            image: str,
+            venue: str,
+            dates: [str],
+            displayDate: str,
+            url: str,
+            source: str,
+            eventType: str):
         """
         @type name: str
         @param name: The name of the event.
@@ -27,6 +37,8 @@ class EventInfo:
         @param url: The url of the event.
         @type source: str
         @param source: The source of the event.
+        @type eventType: str
+        @param eventType: The type of event.
         """
         self.id = uuid4().urn
         self.name = name
@@ -36,6 +48,7 @@ class EventInfo:
         self.displayDate = displayDate
         self.url = url
         self.source = source
+        self.eventType = eventType
 
     def to_dict(self):
         """Convert the EventInfo object to a dictionary."""
@@ -47,7 +60,8 @@ class EventInfo:
             "dates": self.dates,
             "displayDate": self.displayDate,
             "url": self.url,
-            "source": self.source
+            "source": self.source,
+            "eventType": self.eventType
         }
 
     @classmethod
@@ -60,5 +74,6 @@ class EventInfo:
             dates=data["dates"],
             displayDate=data["displayDate"],
             url=data["url"],
-            source=data["source"]
+            source=data["source"],
+            eventType=data["eventType"]
         )

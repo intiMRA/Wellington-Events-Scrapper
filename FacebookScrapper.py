@@ -20,8 +20,10 @@ import re
 from datetime import datetime, timedelta
 import os
 from pathlib import Path
+
 dotenv_path = Path('venv/.env')
 load_dotenv(dotenv_path=dotenv_path)
+
 
 class FacebookScrapper:
     @staticmethod
@@ -80,8 +82,6 @@ class FacebookScrapper:
             print("date: ", date, " error: ", e)
             return None
 
-
-
     @staticmethod
     def slow_scroll_to_bottom(driver, scroll_increment=300) -> [EventInfo]:
         oldEventTitles = {}
@@ -115,17 +115,19 @@ class FacebookScrapper:
                     imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
 
                     newEventTitles[title] = EventInfo(name=title,
-                                        dates=dates,
-                                        displayDate=displayDate,
-                                        image=imageUrl,
-                                        url=eventUrl,
-                                        venue=venue,
-                                        source="facebook")
-                except:
+                                                      dates=dates,
+                                                      displayDate=displayDate,
+                                                      image=imageUrl,
+                                                      url=eventUrl,
+                                                      venue=venue,
+                                                      source="facebook",
+                                                      eventType="Other")
+                except Exception as e:
+                    if len(event.text) > 50:
+                        print("error: ", e)
                     continue
             if oldEventTitles.keys() == newEventTitles.keys():
                 driver.close()
-                print(len(newEventTitles))
                 return newEventTitles.values()
             oldEventTitles = newEventTitles.copy()
         return list(events.values())
@@ -141,6 +143,7 @@ class FacebookScrapper:
 
         # Initialize the ChromeDriver
         driver = webdriver.Chrome(options=options)
-        driver.get("https://www.facebook.com/events/?date_filter_option=ANY_DATE&discover_tab=CUSTOM&location_id=114912541853133")
+        driver.get(
+            "https://www.facebook.com/events/?date_filter_option=ANY_DATE&discover_tab=CUSTOM&location_id=114912541853133")
         sleep(1)
         return list(FacebookScrapper.slow_scroll_to_bottom(driver, scroll_increment=5000))

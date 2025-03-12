@@ -12,6 +12,7 @@ from FacebookScrapper import FacebookScrapper
 import json
 import re
 
+facebook_events = FacebookScrapper.fetch_events()
 san_fran_events: [EventInfo] = SanFranScrapper.fetch_events()
 ticket_events: [EventInfo] = TicketekScrapper.fetch_events()
 ticket_master_events: [EventInfo] = TicketmasterScrapper.fetch_events()
@@ -21,8 +22,8 @@ event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events()
 rogue_events = RougueScrapper.fetch_events()
 wellyNZ_events = WellingtonNZScrapper.fetch_events()
 humanitix_events = HumanitixScrapper.fetch_events()
-facebook_events = FacebookScrapper.fetch_events()
 
+print("facebook: ", len(facebook_events))
 print("san fran: ", len(san_fran_events))
 print("ticket: ", len(ticket_events))
 print("ticket master: ", len(ticket_master_events))
@@ -32,19 +33,18 @@ print("event finder: ", len(event_finder_event))
 print("rogue: ", len(rogue_events))
 print("wellington nz: ", len(wellyNZ_events))
 print("humanitix: ", len(humanitix_events))
-print("facebook: ", len(facebook_events))
 
 # data = event_finder_event
-data =  (san_fran_events
-         + ticket_events
-         + ticket_master_events
-         + under_the_radar_events
-         + valhalla_events
-         + event_finder_event
-         + rogue_events
-         + wellyNZ_events
-         + humanitix_events
-         + facebook_events)
+data = (facebook_events
+        + san_fran_events
+        + ticket_events
+        + ticket_master_events
+        + under_the_radar_events
+        + valhalla_events
+        + event_finder_event
+        + rogue_events
+        + wellyNZ_events
+        + humanitix_events)
 
 eventsDict = {}
 for event in data:
@@ -59,12 +59,12 @@ data = list(eventsDict.values())
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
 eventsWithNoDate = list(filter(lambda x: not x["dates"], data))
 events = list(filter(lambda x: x not in eventsWithNoDate, data))
-with open( "events.json" , "w" ) as write:
+with open("events.json", "w") as write:
     write.write('{ "eventsWithNoDate":')
     json.dump(eventsWithNoDate, write)
     write.write(',')
     write.write('"events":')
-    json.dump( data , write )
+    json.dump(data, write)
     write.write(',')
     write.write('"sources": ')
     write.write('[ "san fran", '
@@ -76,6 +76,11 @@ with open( "events.json" , "w" ) as write:
                 '"rogue",'
                 '"wellington nz",'
                 '"humanitix",'
-                '"facebook" ]'
-                )
+                '"facebook" ]')
+    write.write(',')
+    write.write('"filters": {')
+    write.write('"eventTypes": ')
+    write.write('[ "Music",'
+                '"Other" ]')
+    write.write('}')
     write.write('}')

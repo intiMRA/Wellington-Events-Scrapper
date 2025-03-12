@@ -6,6 +6,7 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime
 
+
 class TicketekScrapper:
 
     @staticmethod
@@ -13,7 +14,8 @@ class TicketekScrapper:
         eventsInfo: [EventInfo] = []
         page = 1
         while True:
-            response = requests.get(f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}")
+            response = requests.get(
+                f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}")
             if response.status_code == 200:
                 soup = BeautifulSoup(response.content, 'html.parser')
                 # Find all divs with class 'deal_title'
@@ -27,15 +29,15 @@ class TicketekScrapper:
                     venue = None
                     titleTag = event.find('h6')
                     if titleTag:
-                        title = re.sub('\W+',' ', titleTag.text).strip()
+                        title = re.sub('\W+', ' ', titleTag.text).strip()
                     dateTag = event.find_all('div', class_='contentResultSummary')
                     if dateTag:
                         text = dateTag[0].text.strip()
                         textArray = text.split('\n')
                         if len(textArray) >= 2:
                             if re.search('\d+', textArray[1]):
-                                date = re.sub('\W+',' ', textArray[1])
-                                venue = re.sub('\W+',' ', textArray[0])
+                                date = re.sub('\W+', ' ', textArray[1])
+                                venue = re.sub('\W+', ' ', textArray[0])
                             else:
                                 date = re.sub('\W+', ' ', textArray[0])
                                 venue = re.sub('\W+', ' ', textArray[1])
@@ -60,7 +62,6 @@ class TicketekScrapper:
                             if urlTag:
                                 url = f"https://premier.ticketek.co.nz{urlTag}"
 
-
                     date = re.sub(':', ' ', date)
                     pattern = r"([A-Za-z]{3} \d{1,2} [A-Za-z]{3} \d{4}(?: \d{1,2} \d{2}[ap]m)?)"
                     dates = re.findall(pattern, date)
@@ -80,16 +81,17 @@ class TicketekScrapper:
                         dateStamp = DateFormatting.formatDateStamp(date_obj)
                         if dateStamp not in dateStamps:
                             dateStamps.append(dateStamp)
-                        
+
                     eventsInfo.append(EventInfo(name=title,
                                                 dates=dateStamps,
                                                 displayDate=displayDate,
-                                                image="https://"+imageURL,
+                                                image="https://" + imageURL,
                                                 url=url,
                                                 venue=venue,
-                                                source="ticketek"))
+                                                source="ticketek",
+                                                eventType="Other"))
                 tag = soup.find_all('div', class_='paginationResults')
-                tag = re.sub('\W+',' ', tag[0].text).strip().split(" of ")
+                tag = re.sub('\W+', ' ', tag[0].text).strip().split(" of ")
                 firstTag = tag[0].split(" ")[-1].strip()
                 secondTag = tag[1].strip()
                 if firstTag == secondTag:
@@ -100,5 +102,6 @@ class TicketekScrapper:
                 break
 
         return eventsInfo
+
 
 TicketekScrapper.fetch_events()

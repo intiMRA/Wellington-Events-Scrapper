@@ -6,6 +6,7 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime
 
+
 class ValhallaScrapper:
     @staticmethod
     def slow_scroll_to_bottom(driver, scroll_increment=300) -> [EventInfo]:
@@ -56,9 +57,9 @@ class ValhallaScrapper:
                                       image=imageURL,
                                       url=url,
                                       venue=venue,
-                                      source="valhalla")
+                                      source="valhalla",
+                                      eventType="Music")
                 events[title] = eventInfo
-
 
     @staticmethod
     def fetch_events() -> [EventInfo]:

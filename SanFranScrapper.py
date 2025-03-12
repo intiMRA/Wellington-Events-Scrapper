@@ -6,6 +6,7 @@ from enum import Enum
 import re
 from datetime import datetime
 
+
 class SanFranScrapper:
     # noinspection PyBroadException
     @staticmethod
@@ -78,7 +79,7 @@ class SanFranScrapper:
             api_url = f'https://www.sanfran.co.nz/api/search/events?Url=%2Fwhats-on&Page={page}&PageSize=20'
 
             # sending get request and saving the response as response object
-            r = requests.get(url = api_url, headers= headers)
+            r = requests.get(url=api_url, headers=headers)
 
             # extracting data in json format
             try:
@@ -90,13 +91,14 @@ class SanFranScrapper:
                     date = datetime.strptime(date_str, date_format)
                     displayDate = DateFormatting.formatDisplayDate(date)
                     dateStamp = DateFormatting.formatDateStamp(date)
-                    events.append(EventInfo(name=re.sub('\W+',' ', event[PossibleKeys.name]).strip(),
+                    events.append(EventInfo(name=re.sub('\W+', ' ', event[PossibleKeys.name]).strip(),
                                             image=event[PossibleKeys.image],
                                             venue="San Fran",
                                             dates=[dateStamp],
                                             displayDate=displayDate,
                                             url=eventURL,
-                                            source="sanfran"))
+                                            source="sanfran",
+                                            eventType="Music"))
                 page += 1
             except Exception as e:
                 print("san fran")

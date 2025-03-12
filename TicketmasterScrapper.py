@@ -5,6 +5,7 @@ from EventInfo import EventInfo
 from enum import Enum
 from datetime import datetime
 
+
 class TicketmasterScrapper:
     @staticmethod
     def fetch_events() -> [EventInfo]:
@@ -12,7 +13,7 @@ class TicketmasterScrapper:
             id = 'id'
             total = 'total'
             title = 'title'
-            discoveryId ='discoveryId'
+            discoveryId = 'discoveryId'
             dates = 'dates'
             presaleDates = 'presaleDates'
             url = 'url'
@@ -60,7 +61,8 @@ class TicketmasterScrapper:
             try:
                 data = r.json()
                 count += len(data[PossibleKeys.events])
-                for event in enumerate(sorted(data[PossibleKeys.events], key = lambda x: x[PossibleKeys.dates][PossibleKeys.startDate])):
+                for event in enumerate(
+                        sorted(data[PossibleKeys.events], key=lambda x: x[PossibleKeys.dates][PossibleKeys.startDate])):
                     # TODO: get the images
                     index = event[0]
                     event = event[1]
@@ -81,7 +83,8 @@ class TicketmasterScrapper:
                                                 dates=[dateStamp],
                                                 displayDate=displayDate,
                                                 url=event[PossibleKeys.url],
-                                                source="ticketmaster"))
+                                                source="ticketmaster",
+                                                eventType="Other"))
                     except ValueError as v:
                         print("ticket master")
                         print(v)

@@ -6,6 +6,8 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from selenium import webdriver
 import re
+
+
 # import json
 
 class WellingtonNZScrapper:
@@ -24,7 +26,7 @@ class WellingtonNZScrapper:
             rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
             for event in rawEvents:
                 title = event.find_element(By.CLASS_NAME, 'tile-content__title').text
-                dateStamps =[]
+                dateStamps = []
                 if not title:
                     continue
                 try:
@@ -46,7 +48,8 @@ class WellingtonNZScrapper:
                     startDate = datetime.strptime(startDateString, '%d %B %Y')
                     dateStamps = [DateFormatting.formatDateStamp(startDate), DateFormatting.formatDateStamp(endDate)]
                     endDate = datetime.strptime(endDateString, '%d %B %Y')
-                    displayDate = DateFormatting.formatDisplayDate(startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
+                    displayDate = DateFormatting.formatDisplayDate(
+                        startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
                     match = re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString)
                     startDateString = match.group(1)
@@ -56,7 +59,8 @@ class WellingtonNZScrapper:
                     endDate = datetime.strptime(endDateString, '%d %B %Y')
                     dateStamps = [DateFormatting.formatDateStamp(startDate),
                                   DateFormatting.formatDateStamp(endDate)]
-                    displayDate = DateFormatting.formatDisplayDate(startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
+                    displayDate = DateFormatting.formatDisplayDate(
+                        startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif dateString:
                     try:
                         date = datetime.strptime(dateString, '%d %B %Y')
@@ -81,7 +85,8 @@ class WellingtonNZScrapper:
                                       dates=dateStamps,
                                       displayDate=displayDate,
                                       url=eventUrl,
-                                      source="wellingtonNZ")
+                                      source="wellingtonNZ",
+                                      eventType="Other")
                 events[title] = eventInfo
 
     @staticmethod

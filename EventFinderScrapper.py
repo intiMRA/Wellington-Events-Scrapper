@@ -1,4 +1,3 @@
-
 from xmlrpc.client import DateTime
 
 from selenium import webdriver
@@ -13,6 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import pandas
 import json
+
 
 class EventFinderScrapper:
     @staticmethod
@@ -93,7 +93,6 @@ class EventFinderScrapper:
             print("error: ", url, " title: ", title)
         return dateStamps, startDate
 
-
     @staticmethod
     def getEvents(url: str) -> [EventInfo]:
         events: [EventInfo] = []
@@ -151,7 +150,8 @@ class EventFinderScrapper:
                     image=imageURL,
                     url=eventURL,
                     venue=venue,
-                    source="event finder"))
+                    source="event finder",
+                    eventType="Other"))
             driver.close()
             currentPage += 1
 
@@ -163,7 +163,7 @@ class EventFinderScrapper:
         todaysEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/today"
         tomorrowsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/tomorrow"
         thisWeekEndsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/this-weekend"
-        nextWeeksEventsUrl ="https://www.eventfinda.co.nz/whatson/events/wellington/next-week"
+        nextWeeksEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/next-week"
 
         todaysEvents = EventFinderScrapper.getEvents(todaysEventsUrl)
         tomorrowsEvents = EventFinderScrapper.getEvents(tomorrowsEventsUrl)
@@ -181,7 +181,8 @@ class EventFinderScrapper:
                                                    image=event.image,
                                                    url=event.url,
                                                    venue=event.venue,
-                                                   source="event finder")
+                                                   source="event finder",
+                                                   eventType=event.eventType)
         return list(eventsDict.values())
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))
