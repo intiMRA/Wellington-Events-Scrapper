@@ -11389,26 +11389,22 @@
             "eventType": "Other"
         }
     ],
-    "filters": [
-        {
-            "Sources": [
-                "san fran",
-                "ticket",
-                "ticket master",
-                "under the radar",
-                "valhalla",
-                "event finder",
-                "rogue",
-                "wellington nz",
-                "humanitix",
-                "facebook"
-            ]
-        },
-        {
-            "Event Types": [
-                "Music",
-                "Other"
-            ]
-        }
-    ]
+    "filters": {
+        "Sources": [
+            "san fran",
+            "ticket",
+            "ticket master",
+            "under the radar",
+            "valhalla",
+            "event finder",
+            "rogue",
+            "wellington nz",
+            "humanitix",
+            "facebook"
+        ],
+        "Event Types": [
+            "Music",
+            "Other"
+        ]
+    }
 }
