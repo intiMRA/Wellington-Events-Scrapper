@@ -82,5 +82,18 @@ with open("events.json", "w") as write:
     write.write('"eventTypes": ')
     write.write('[ "Music",'
                 '"Other" ]')
+
+    write.write(',')
+    write.write('"sources": ')
+    write.write('[ "san fran", '
+                '"ticket", '
+                '"ticket master",'
+                '"under the radar", '
+                '"valhalla", '
+                '"event finder",'
+                '"rogue",'
+                '"wellington nz",'
+                '"humanitix",'
+                '"facebook" ]')
     write.write('}')
     write.write('}')

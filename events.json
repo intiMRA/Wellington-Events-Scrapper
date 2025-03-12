@@ -11389,7 +11389,12 @@
       "eventType": "Other"
     }
   ],
-  "sources": [
+  "filters": {
+    "eventTypes": [
+      "Music",
+      "Other"
+    ],
+     "sources": [
     "san fran",
     "ticket",
     "ticket master",
@@ -11400,11 +11405,6 @@
     "wellington nz",
     "humanitix",
     "facebook"
-  ],
-  "filters": {
-    "eventTypes": [
-      "Music",
-      "Other"
-    ]
+  ]
   }
 }

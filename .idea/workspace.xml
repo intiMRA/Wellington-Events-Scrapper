@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventFinderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventFinderScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventInfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacebookScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HumanitixScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/HumanitixScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RougueScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/RougueScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SanFranScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SanFranScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketekScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicketekScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketmasterScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicketmasterScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderTheRaderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnderTheRaderScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ValhallaScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ValhallaScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellingtonNZScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/WellingtonNZScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/events.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +205,7 @@
       <workItem from="1739762379853" duration="734000" />
       <workItem from="1740340925599" duration="1350000" />
       <workItem from="1740431154795" duration="18699000" />
-      <workItem from="1740541155049" duration="41240000" />
+      <workItem from="1740541155049" duration="41985000" />
     </task>
     <servers />
   </component>
