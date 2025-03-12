@@ -59,6 +59,28 @@ data = list(eventsDict.values())
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
 eventsWithNoDate = list(filter(lambda x: not x["dates"], data))
 events = list(filter(lambda x: x not in eventsWithNoDate, data))
+filters = {
+    "filters":
+        {
+            "eources": [
+                "san fran",
+                "ticket",
+                "ticket master",
+                "under the radar",
+                "valhalla",
+                "event finder",
+                "rogue",
+                "wellington nz",
+                "humanitix",
+                "facebook"
+            ]
+            ,
+            "eventTypes": [
+                "Music",
+                "Other"
+            ]
+        }
+}
 with open("events.json", "w") as write:
     write.write('{ "eventsWithNoDate":')
     json.dump(eventsWithNoDate, write)
@@ -66,34 +88,5 @@ with open("events.json", "w") as write:
     write.write('"events":')
     json.dump(data, write)
     write.write(',')
-    write.write('"sources": ')
-    write.write('[ "san fran", '
-                '"ticket", '
-                '"ticket master",'
-                '"under the radar", '
-                '"valhalla", '
-                '"event finder",'
-                '"rogue",'
-                '"wellington nz",'
-                '"humanitix",'
-                '"facebook" ]')
-    write.write(',')
-    write.write('"filters": {')
-    write.write('"eventTypes": ')
-    write.write('[ "Music",'
-                '"Other" ]')
-
-    write.write(',')
-    write.write('"sources": ')
-    write.write('[ "san fran", '
-                '"ticket", '
-                '"ticket master",'
-                '"under the radar", '
-                '"valhalla", '
-                '"event finder",'
-                '"rogue",'
-                '"wellington nz",'
-                '"humanitix",'
-                '"facebook" ]')
-    write.write('}')
+    json.dump(filters, write)
     write.write('}')
