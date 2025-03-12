@@ -11390,7 +11390,7 @@
         }
     ],
     "filters": {
-        "Sources": [
+        "eources": [
             "san fran",
             "ticket",
             "ticket master",
@@ -11402,7 +11402,7 @@
             "humanitix",
             "facebook"
         ],
-        "Event Types": [
+        "eventTypes": [
             "Music",
             "Other"
         ]
