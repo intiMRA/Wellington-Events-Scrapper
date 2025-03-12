@@ -12,6 +12,7 @@ from FacebookScrapper import FacebookScrapper
 import json
 import re
 
+wellyNZ_events = WellingtonNZScrapper.fetch_events()
 facebook_events = FacebookScrapper.fetch_events()
 san_fran_events: [EventInfo] = SanFranScrapper.fetch_events()
 ticket_events: [EventInfo] = TicketekScrapper.fetch_events()
@@ -20,7 +21,6 @@ under_the_radar_events: [EventInfo] = UnderTheRaderScrapper.fetch_events()
 valhalla_events: [EventInfo] = ValhallaScrapper.fetch_events()
 event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events()
 rogue_events = RougueScrapper.fetch_events()
-wellyNZ_events = WellingtonNZScrapper.fetch_events()
 humanitix_events = HumanitixScrapper.fetch_events()
 
 print("facebook: ", len(facebook_events))
