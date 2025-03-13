@@ -28,6 +28,9 @@ class WellingtonNZScrapper:
             rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
             for event in rawEvents:
                 title = event.find_element(By.TAG_NAME, 'h2').text
+                cleanTitle = re.match(r'[aA-zZ0-9]+', title)
+                if cleanTitle in events.keys():
+                    continue
                 dateStamps = []
                 if not title:
                     continue
@@ -94,7 +97,6 @@ class WellingtonNZScrapper:
                                       url=eventUrl,
                                       source="wellington nz",
                                       eventType="Other")
-                cleanTitle = re.match(r'[aA-zZ0-9]+', title)
                 events[cleanTitle] = eventInfo
 
     @staticmethod

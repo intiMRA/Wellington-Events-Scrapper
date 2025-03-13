@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellingtonNZScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/WellingtonNZScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/events.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.cleanUpFile">
+  <component name="RunManager" selected="Python.MainScrapper">
     <configuration name="EventFinderScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -171,8 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cleanUpFile" />
         <item itemvalue="Python.MainScrapper" />
+        <item itemvalue="Python.cleanUpFile" />
         <item itemvalue="Python.WellingtonNZScrapper" />
         <item itemvalue="Python.FacebookScrapper" />
         <item itemvalue="Python.EventFinderScrapper" />
@@ -207,7 +209,7 @@
       <workItem from="1740340925599" duration="1350000" />
       <workItem from="1740431154795" duration="18699000" />
       <workItem from="1740541155049" duration="47517000" />
-      <workItem from="1741826724755" duration="3449000" />
+      <workItem from="1741826724755" duration="5966000" />
     </task>
     <servers />
   </component>
@@ -216,7 +218,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$cleanUpFile.coverage" NAME="cleanUpFile Coverage Results" MODIFIED="1741833848358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1741827828967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1741902007075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$HumanitixScrapper.coverage" NAME="HumanitixScrapper Coverage Results" MODIFIED="1740460424783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$EventFinderScrapper.coverage" NAME="EventFinderScrapper Coverage Results" MODIFIED="1741576416037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$FacebookScrapper.coverage" NAME="FacebookScrapper Coverage Results" MODIFIED="1741596299344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
