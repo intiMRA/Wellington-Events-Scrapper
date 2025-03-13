@@ -65,11 +65,9 @@ class TicketekScrapper:
                     date = re.sub(':', ' ', date)
                     pattern = r"(\d{1,2} [A-Za-z]{3} \d{4}(?: \d{1,2} \d{2}[ap]m)?)"
                     dates = re.findall(pattern, date)
-                    dateStamp = None
                     dateStamps = []
                     displayDate = None
                     for d in dates:
-                        date_obj = None
                         try:
                             date_obj = datetime.strptime(d, '%d %b %Y %I %M%p')
                         except:

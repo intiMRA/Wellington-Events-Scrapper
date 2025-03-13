@@ -60,9 +60,7 @@ data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip()
 eventsWithNoDate = list(filter(lambda x: not x["dates"], data))
 events = list(filter(lambda x: x not in eventsWithNoDate, data))
 filters = {
-    "filters":
-        {
-            "eources": [
+            "sources": [
                 "san fran",
                 "ticket",
                 "ticket master",
@@ -73,14 +71,12 @@ filters = {
                 "wellington nz",
                 "humanitix",
                 "facebook"
-            ]
-            ,
+            ] ,
             "eventTypes": [
                 "Music",
                 "Other"
             ]
         }
-}
 with open("events.json", "w") as write:
     write.write('{ "eventsWithNoDate":')
     json.dump(eventsWithNoDate, write)
@@ -88,5 +84,6 @@ with open("events.json", "w") as write:
     write.write('"events":')
     json.dump(data, write)
     write.write(',')
+    write.write('"filters":')
     json.dump(filters, write)
     write.write('}')
