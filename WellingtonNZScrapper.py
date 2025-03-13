@@ -1,14 +1,16 @@
 from time import sleep
-from datetime import datetime
+from datetime import datetime, timedelta
 from selenium.webdriver.common.by import By
 
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from selenium import webdriver
 import re
+from dateutil import parser
 
 
-# import json
+import json
+import pandas
 
 class WellingtonNZScrapper:
     @staticmethod
@@ -45,9 +47,12 @@ class WellingtonNZScrapper:
                     startDateString = match.group(1)
                     endDateString = match.group(2)
 
-                    startDate = datetime.strptime(startDateString, '%d %B %Y')
-                    dateStamps = [DateFormatting.formatDateStamp(startDate), DateFormatting.formatDateStamp(endDate)]
-                    endDate = datetime.strptime(endDateString, '%d %B %Y')
+                    startDate = parser.parse(startDateString)
+                    endDate = parser.parse(endDateString)
+
+                    range = pandas.date_range(startDate, endDate - timedelta(days=1))
+
+                    dateStamps = list(map(lambda x: DateFormatting.formatDateStamp(x), range))
                     displayDate = DateFormatting.formatDisplayDate(
                         startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
@@ -55,10 +60,12 @@ class WellingtonNZScrapper:
                     startDateString = match.group(1)
                     endDateString = match.group(2)
 
-                    startDate = datetime.strptime(startDateString, '%d %B')
-                    endDate = datetime.strptime(endDateString, '%d %B %Y')
-                    dateStamps = [DateFormatting.formatDateStamp(startDate),
-                                  DateFormatting.formatDateStamp(endDate)]
+                    startDate = parser.parse(startDateString)
+                    endDate = parser.parse(endDateString)
+
+                    range = pandas.date_range(startDate, endDate - timedelta(days=1))
+
+                    dateStamps = list(map(lambda x: DateFormatting.formatDateStamp(x), range))
                     displayDate = DateFormatting.formatDisplayDate(
                         startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif dateString:
