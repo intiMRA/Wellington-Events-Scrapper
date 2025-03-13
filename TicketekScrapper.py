@@ -63,7 +63,7 @@ class TicketekScrapper:
                                 url = f"https://premier.ticketek.co.nz{urlTag}"
 
                     date = re.sub(':', ' ', date)
-                    pattern = r"([A-Za-z]{3} \d{1,2} [A-Za-z]{3} \d{4}(?: \d{1,2} \d{2}[ap]m)?)"
+                    pattern = r"(\d{1,2} [A-Za-z]{3} \d{4}(?: \d{1,2} \d{2}[ap]m)?)"
                     dates = re.findall(pattern, date)
                     dateStamp = None
                     dateStamps = []
@@ -71,9 +71,9 @@ class TicketekScrapper:
                     for d in dates:
                         date_obj = None
                         try:
-                            date_obj = datetime.strptime(d, '%a %d %b %Y %I %M%p')
+                            date_obj = datetime.strptime(d, '%d %b %Y %I %M%p')
                         except:
-                            date_obj = datetime.strptime(d, '%a %d %b %Y')
+                            date_obj = datetime.strptime(d, '%d %b %Y')
                         if displayDate == None:
                             displayDate = DateFormatting.formatDisplayDate(date_obj)
                         else:
