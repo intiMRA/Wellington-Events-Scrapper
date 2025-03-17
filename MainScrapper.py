@@ -62,7 +62,7 @@ events = list(filter(lambda x: x not in eventsWithNoDate, data))
 filters = {
             "sources": [
                 "san fran",
-                "ticket",
+                "ticketek",
                 "ticket master",
                 "under the radar",
                 "valhalla",
