@@ -59,7 +59,7 @@ class FacebookScrapper:
                 day = date.split(" ")[1]
                 date_object = FacebookScrapper.parse_day_of_week(day)
                 return [DateFormatting.formatDateStamp(date_object)], DateFormatting.formatDisplayDate(date_object)
-            elif "-" in date:
+            elif "-" in date and len(date.split("-")[-1]) > 3:
                 parts = date.split(",")[1].split("-")
                 firstPart, secondPart = parts[0], parts[1]
                 firstPart = firstPart.strip()
@@ -73,9 +73,13 @@ class FacebookScrapper:
                     if stamp in dateStamps:
                         continue
                     dateStamps.append(stamp)
+
+                if not dateStamps:
+                    date = parser.parse(firstPart)
+                    return [DateFormatting.formatDateStamp(date)], DateFormatting.formatDisplayDate(date)
                 return dateStamps, DateFormatting.formatDisplayDate(startDate)
             elif "," in date:
-                dateString = " ".join(date.split(",")[1:2])
+                dateString = " ".join(date.split(",")[-1].strip().split(" ")[:2])
                 date = parser.parse(dateString)
                 return [DateFormatting.formatDateStamp(date)], DateFormatting.formatDisplayDate(date)
             else:
@@ -129,7 +133,7 @@ class FacebookScrapper:
                     if len(event.text) > 50:
                         print("error: ", e)
                     continue
-            if oldEventTitles.keys() == newEventTitles.keys():
+            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 500:
                 driver.close()
                 return newEventTitles.values()
             oldEventTitles = newEventTitles.copy()
@@ -149,7 +153,7 @@ class FacebookScrapper:
         start_date = datetime.now()
         start_date_string = start_date.strftime("%Y-%m-%d")
         start_date_string += "T05%3A00%3A00.000Z"
-        end_date = start_date + relativedelta(months=3)
+        end_date = start_date + relativedelta(months=2)
         end_date_string = end_date.strftime("%Y-%m-%d")
         end_date_string += "T05%3A00%3A00.000Z"
         driver.get(
@@ -161,4 +165,6 @@ class FacebookScrapper:
             f"&end_date={end_date_string}")
         sleep(1)
         return list(FacebookScrapper.slow_scroll_to_bottom(driver, scroll_increment=5000))
-facebooks = FacebookScrapper.fetch_events()
+# events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)
