@@ -4,6 +4,7 @@ import re
 class DateFormatting:
     @staticmethod
     def formatDisplayDate(date: datetime) -> str :
+        date = date.replace(year=datetime.today().year)
         return date.strftime("%a %d %b")
 
     @staticmethod
