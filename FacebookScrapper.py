@@ -1,3 +1,5 @@
+from turtledemo.penrose import start
+
 from dotenv import load_dotenv
 import time
 from time import sleep
@@ -20,6 +22,7 @@ import re
 from datetime import datetime, timedelta
 import os
 from pathlib import Path
+from dateutil.relativedelta import relativedelta
 
 dotenv_path = Path('venv/.env')
 load_dotenv(dotenv_path=dotenv_path)
@@ -143,7 +146,19 @@ class FacebookScrapper:
 
         # Initialize the ChromeDriver
         driver = webdriver.Chrome(options=options)
+        start_date = datetime.now()
+        start_date_string = start_date.strftime("%Y-%m-%d")
+        start_date_string += "T05%3A00%3A00.000Z"
+        end_date = start_date + relativedelta(months=3)
+        end_date_string = end_date.strftime("%Y-%m-%d")
+        end_date_string += "T05%3A00%3A00.000Z"
         driver.get(
-            "https://www.facebook.com/events/?date_filter_option=ANY_DATE&discover_tab=CUSTOM&location_id=114912541853133")
+            f"https://www.facebook.com/events/?"
+            f"date_filter_option=CUSTOM_DATE_RANGE"
+            f"&discover_tab=CUSTOM"
+            f"&location_id=114912541853133"
+            f"&start_date={start_date_string}"
+            f"&end_date={end_date_string}")
         sleep(1)
         return list(FacebookScrapper.slow_scroll_to_bottom(driver, scroll_increment=5000))
+facebooks = FacebookScrapper.fetch_events()

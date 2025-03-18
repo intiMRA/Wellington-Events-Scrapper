@@ -7,7 +7,8 @@ from EventInfo import EventInfo
 from selenium import webdriver
 import re
 from dateutil import parser
-
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 import json
 import pandas
@@ -104,7 +105,8 @@ class WellingtonNZScrapper:
         driver = webdriver.Chrome()
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)
-        driver.implicitly_wait(2)
+        wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
+        _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
         numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
         numberOfEvents = re.findall("\d+", numberOfEvents.text)
         page = 1
