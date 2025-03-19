@@ -51,35 +51,40 @@ class HumanitixScrapper:
             if not eventsData:
                 return events
             for event in eventsData:
-                dateString, venue = event.find_elements(By.TAG_NAME, 'p')
-                dateString = dateString.text
-                venue = venue.text
-                title = event.find_element(By.TAG_NAME, 'h6').text
-                imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
-                eventUrl = event.get_attribute('href')
-                dates = HumanitixScrapper.get_date(dateString)
-                if len(dates) == 2:
-                    startDate, endDate = dates
-                    dateStamp = DateFormatting.formatDateStamp(startDate)
-                    lastDateStamp = DateFormatting.formatDateStamp(endDate)
-                    dateStamps = [dateStamp, lastDateStamp]
-                    displayDate = DateFormatting.formatDisplayDate(
-                        startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
-                else:
-                    date = dates[0]
-                    dateStamps = [DateFormatting.formatDateStamp(date)]
-                    displayDate = DateFormatting.formatDisplayDate(date)
-                events.append(EventInfo(name=title,
-                                        dates=dateStamps,
-                                        displayDate=displayDate,
-                                        image=imageURL,
-                                        url=eventUrl,
-                                        venue=venue,
-                                        source="humanitix",
-                                        eventType="Other"))
+                try:
+                    venue = event.find_element(By.TAG_NAME, 'p')
+                    dateString = event.find_elements(By.TAG_NAME, 'div')[-2].text
+
+                    venue = venue.text
+                    title = event.find_element(By.TAG_NAME, 'h6').text
+                    imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
+                    eventUrl = event.get_attribute('href')
+                    dates = HumanitixScrapper.get_date(dateString)
+                    if len(dates) == 2:
+                        startDate, endDate = dates
+                        dateStamp = DateFormatting.formatDateStamp(startDate)
+                        lastDateStamp = DateFormatting.formatDateStamp(endDate)
+                        dateStamps = [dateStamp, lastDateStamp]
+                        displayDate = DateFormatting.formatDisplayDate(
+                            startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
+                    else:
+                        date = dates[0]
+                        dateStamps = [DateFormatting.formatDateStamp(date)]
+                        displayDate = DateFormatting.formatDisplayDate(date)
+                    events.append(EventInfo(name=title,
+                                            dates=dateStamps,
+                                            displayDate=displayDate,
+                                            image=imageURL,
+                                            url=eventUrl,
+                                            venue=venue,
+                                            source="humanitix",
+                                            eventType="Other"))
+                except Exception as e:
+                    print(e)
+                    print("error: ", event.text)
             page += 1
         return events
-# 
+
 # events = list(map(lambda x: x.to_dict(), sorted(HumanitixScrapper.fetch_events(), key=lambda k: k.name.strip())))
 # with open('wellys.json', 'w') as outfile:
 #     json.dump(events, outfile)
