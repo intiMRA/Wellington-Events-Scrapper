@@ -66,7 +66,7 @@ class FacebookScrapper:
                 secondPart = secondPart.strip()
                 startDate = parser.parse(firstPart)
                 endDate = parser.parse(secondPart)
-                range = pandas.date_range(startDate, endDate - timedelta(days=1))
+                range = DateFormatting.createRange(startDate, endDate)
                 dateStamps = []
                 for date in range:
                     stamp = DateFormatting.formatDateStamp(date)
