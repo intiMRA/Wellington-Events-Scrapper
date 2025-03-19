@@ -81,17 +81,19 @@ class EventFinderScrapper:
                             dateStamps.append(stamp)
                     else:
                         date_obj = datetime.strptime(dateString, '%Y-%m-%d')
-                        if date_obj >= datetime.now():
-                            dateStamp = DateFormatting.formatDateStamp(date_obj)
-                            if startDate is None:
-                                startDate = DateFormatting.formatDisplayDate(date_obj)
-                            dateStamps.append(dateStamp)
-                except:
+                        dateStamp = DateFormatting.formatDateStamp(date_obj)
+                        if startDate is None:
+                            startDate = DateFormatting.formatDisplayDate(date_obj)
+                        dateStamps.append(dateStamp)
+                except Exception as e:
                     print("error: ", dateString, " title: ", title)
+                    print(e)
             driver.close()
-        except:
+            return dateStamps, startDate
+        except Exception as e:
             print("error: ", url, " title: ", title)
-        return dateStamps, startDate
+            print(e)
+        return dateStamps, None
 
     @staticmethod
     def getEvents(url: str) -> [EventInfo]:
