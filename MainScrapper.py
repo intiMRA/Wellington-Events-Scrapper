@@ -55,7 +55,7 @@ eventsDict = {}
 for event in data:
     dates = []
     for date in event.dates:
-        if parser.parse(date) <= datetime.now():
+        if parser.parse(date) < datetime.now():
             continue
         dates.append(date)
     if not dates:
