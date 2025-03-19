@@ -11,6 +11,8 @@ from HumanitixScrapper import HumanitixScrapper
 from FacebookScrapper import FacebookScrapper
 import json
 import re
+from dateutil import parser
+from datetime import datetime
 
 wellyNZ_events = WellingtonNZScrapper.fetch_events()
 facebook_events = FacebookScrapper.fetch_events()
@@ -46,8 +48,26 @@ data = (facebook_events
         + wellyNZ_events
         + humanitix_events)
 
+filtered = []
+
 eventsDict = {}
+
 for event in data:
+    dates = []
+    for date in event.dates:
+        if parser.parse(date) <= datetime.now():
+            continue
+        dates.append(date)
+    if not dates:
+        continue
+    event = EventInfo(name=event.name,
+                              dates=dates,
+                              displayDate=event.displayDate,
+                              image=event.image,
+                              url=event.url,
+                              venue=event.venue,
+                              source=event.source,
+                              eventType=event.eventType)
     name = re.sub('\W+', ' ', event.name).replace(" ", "")
     if name not in eventsDict:
         eventsDict[name] = event
@@ -55,28 +75,29 @@ for event in data:
         if not event.image:
             continue
         eventsDict[name] = event
+
 data = list(eventsDict.values())
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
 eventsWithNoDate = list(filter(lambda x: not x["dates"], data))
 events = list(filter(lambda x: x not in eventsWithNoDate, data))
 filters = {
-            "sources": [
-                "san fran",
-                "ticketek",
-                "ticket master",
-                "under the radar",
-                "valhalla",
-                "event finder",
-                "rogue",
-                "wellington nz",
-                "humanitix",
-                "facebook"
-            ] ,
-            "eventTypes": [
-                "Music",
-                "Other"
-            ]
-        }
+    "sources": [
+        "san fran",
+        "ticketek",
+        "ticket master",
+        "under the radar",
+        "valhalla",
+        "event finder",
+        "rogue",
+        "wellington nz",
+        "humanitix",
+        "facebook"
+    ],
+    "eventTypes": [
+        "Music",
+        "Other"
+    ]
+}
 with open("events.json", "w") as write:
     write.write('{ "eventsWithNoDate":')
     json.dump(eventsWithNoDate, write)

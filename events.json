@@ -41,19 +41,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:6454c0fb-9389-4064-8da5-e6874effd2fb",
-      "name": "$15 Pizza Wednesday",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480778589_1252082576388748_1921240878060183390_n.jpg?stp=c0.60.960.458a_dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=aqU9eXEO9g0Q7kNvgF2kOOZ&_nc_oc=AdkYwVbva3L7b7QFMgnfBgpwe1lXpEak3Sk3XpgjWMr4rVoAyu-LDE3lOJrWZh4tLrFfpH4won607DdV004ubwYX&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=sXtMmBb-rflIcDhxZCXDzQ&oh=00_AYHC2gdvGXOmstHQ1VttGjotCymcsjRyOF007kbiKA_XUg&oe=67DFE024",
-      "venue": "167 Riddiford St, Newtown, Wellington, New Zealand 6021",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/617576951155978",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:e62c5644-e68f-49eb-a879-895490011e99",
       "name": "$5 Tostadas Tuesday @Saint Diablo",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/472501394_122223002456020824_5268003398952551718_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=3-WqAGCo9C0Q7kNvgF59F2Q&_nc_oc=AdnpmEJF-mXIQxnWw-hSP4cpWsGvdGBNpX3CkK0Wb9AMBSD9AqMgyhiRT-SVF0w9cAeJmAs68n_npWIkfK4MGFC3&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=AmZEt6B-ukfL6_Leq5NalQ&oh=00_AYFDTAzi82yEqbLfpaUpxkVh_a92erTnfh1g4NuV9w8dUQ&oe=67DFF104",
@@ -93,19 +80,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:445578c3-5021-485c-a862-6d3e48ef8bdf",
-      "name": "(K\u0101piti) Childhood: NZ Youth Choir Fundraising Concert",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FB8RGgOnoQqikK5QgK2t8&w=1920&q=75",
-      "venue": "Raumati Church Hall",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://events.humanitix.com/childhood-kapiti?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:5b67b803-9e97-44c0-99f7-c3b0b72fb1c0",
       "name": "(Upper Hutt) Structured Approach to Literacy MoE funded Year 0-3 + 4-8",
       "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FV5CBXniiQVOjv6MDqY6G&w=1920&q=75",
@@ -132,19 +106,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:bf7abec2-7d68-41bc-b84c-ab31fb71a537",
-      "name": "*TONIGHT* Tech N9ne (USA) + Special Guest Joey Cool (USA) | Meow Nui, Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481251600_1047058770801722_2280107333930069905_n.jpg?stp=c0.29.1920.917a_dst-jpg_s640x640_tt6&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Ko_EdfvU-t4Q7kNvgE5P1Sn&_nc_oc=Adlsjm0tSEufsvO4IHJm-UsbZBYi9RXbWxPhmy27s49TdX-jKAXnU-5bDmNH1ez8YTZHQ7iOJfaxoMX9oSakZgVb&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=oMP7Cpj9pqS68nvWTbUzfw&oh=00_AYGxWv3cRaJeHYQvfY-u6yG3_xYKSHxOzWxwiFyVqButFw&oe=67DFEF8C",
-      "venue": "Meow Nui",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/946305447532592",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:4242423b-28ee-477c-9ec6-f0ef32accc52",
       "name": "10cc \u2014 Ultimate Greatest Hits Tour",
       "imageUrl": "https://wellingtonnz.bynder.com/transform/ea9e709c-0d2b-465b-be08-3b75c55c7f37/10cc?io=transform:fill,width:230,height:230",
@@ -168,19 +129,6 @@
       ],
       "displayDate": "Thu 17 Apr",
       "url": "https://www.facebook.com/events/698432282479041",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:d53ad85d-2e49-4c3a-bf5e-0f0d8d0180e0",
-      "name": "2025 Best Foods Comedy Gala Hosted by Hayley Sproull - Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484494563_1133887795202544_698399513777888832_n.jpg?stp=c23.0.982.469a_dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ATkjIbmHAbYQ7kNvgFyfNuO&_nc_oc=AdnXJxW-YL9EaBGYbX4A3D1gvmxcfABJN3-lkiKTw8bSMC-75ldRiMeAWN94PeuRhho7pyl43r_8xGR8D3a4ZYUl&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=SbvF9Tm1qdYBromWB6jMdw&oh=00_AYHcdzyQA3joXjBEWb1TO6KQArFTW4foR-yKvrBSj6qVIg&oe=67E007BA",
-      "venue": "Wellington Opera House",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.facebook.com/events/1093471258339788",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -299,9 +247,6 @@
         "28-09-2025",
         "29-09-2025",
         "30-09-2025",
-        "01-10-2025",
-        "02-10-2025",
-        "03-10-2025",
         "04-10-2025",
         "05-10-2025",
         "06-10-2025",
@@ -505,11 +450,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
-        "24-04-2025",
-        "01-05-2025"
+        "24-04-2025"
       ],
       "displayDate": "Thu 20 Mar",
       "url": "https://www.eventfinda.co.nz/2025/advanced-yoga-class-level-5/wellington",
@@ -565,19 +508,6 @@
       ],
       "displayDate": "Fri 04 Apr",
       "url": "https://www.facebook.com/events/989871719350152",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:54711bd1-162c-4887-ba8b-b8ab4e2df11f",
-      "name": "Afterwork",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480811518_1051548990348429_5714603203670686699_n.jpg?stp=c0.483.1125.537a_dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=2cfibwZeN88Q7kNvgGQd-vk&_nc_oc=AdlL55vR-E6rJZEWQf1Zv9i6GvTd1F4yRoTBlGl4C-hul5HmC68Mokr0CS_gbFMIgwK_-n9JEx7Dqe-Z-3Zvvlcx&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=Rdhb0k9ptCjjrAdoumUARg&oh=00_AYGApzdwHcdYg7pgrEUIx_g_x-KZQHhZkZNd_nJ_7ml4Aw&oe=67E00174",
-      "venue": "Chapman Taylors Cafe and Inn",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/2038386333339970",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -680,11 +610,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
         "24-04-2025",
-        "01-05-2025",
         "08-05-2025",
         "15-05-2025",
         "22-05-2025",
@@ -693,7 +621,6 @@
         "12-06-2025",
         "19-06-2025",
         "26-06-2025",
-        "03-07-2025",
         "10-07-2025",
         "17-07-2025",
         "24-07-2025",
@@ -706,7 +633,6 @@
         "11-09-2025",
         "18-09-2025",
         "25-09-2025",
-        "02-10-2025",
         "09-10-2025",
         "16-10-2025",
         "23-10-2025",
@@ -920,19 +846,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:88208bdc-aa33-4ec4-95d8-f67263d5642f",
-      "name": "Aquafit Morning Tea at Freyberg Pool",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484440110_1037467705070355_1695568374612481353_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=8e1R_vMIQrgQ7kNvgHIl9d0&_nc_oc=AdmxbxK_4ZHi7G3in_AI1W3-AG5AzwuLesVQAAeK_ILySRX1M6nqGu9hFTqzdlbTczkvcJP8Y9kQc3Lr_ZIMi42w&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=JkWg13eewQgw_JI-lnc0_w&oh=00_AYHrtwGQQca28SV7urUxYiYxiwF4owk9HfVC_PGkwVUV9A&oe=67DFE606",
-      "venue": "Freyberg Pool and Fitness Centre",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://www.facebook.com/events/1874779663259442",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:ddbe9cc8-8e0f-48d3-a156-0f45393865ae",
       "name": "Arma-QUEER-don: A Nerdy Drag Show",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484100123_1063930329088906_5906636864027130631_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=J5dwzFS0LvgQ7kNvgEB9iVt&_nc_oc=AdnoXwz1UhPjrswZlj8UhiKoj6gWTCqRp2gnU4W4aAdamUM0uc72MSIWhHrMoaDc-PBAF05WgUowTwxOA0M07d6N&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=RcsjcBO5I8rVbZJB7yMpYg&oh=00_AYGTnAFpBgKIYZzVV73NPNbYUYJdM5yWL8DQ3F12IMcnAQ&oe=67DFF6C3",
@@ -951,8 +864,6 @@
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480883026_654229583795578_5988815902568181682_n.jpg?stp=c0.110.640.306a_dst-jpg_s640x305_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=T5uu21J8Uf4Q7kNvgEGYBHU&_nc_oc=Adm1j5JBxHp4eNUUh8Y8K-MzG9xQlKAVuYqkVJnKTN-xEvRJ4Yeue-ieM_n1VH4T2qnIyX2UEdMVh5LaPMOi71Mc&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=Wj7tOUQDt61evUjHpItgGg&oh=00_AYHKQPpUTxmdsOGQ6jxy35U4a3pdQUoK26JDa97a7qc5XQ&oe=67DFE70B",
       "venue": "1/408 The Esplanade, Island Bay, Wellington, New Zealand 6023",
       "dates": [
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025"
@@ -1081,20 +992,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:6f7ce697-a631-4304-be2c-acf75f843a77",
-      "name": "Australia s Thunder From Down Under",
-      "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx96264.png",
-      "venue": "Nationwide",
-      "dates": [
-        "16-02-2025",
-        "21-02-2025"
-      ],
-      "displayDate": "Sun 16 Feb to Fri 21 Feb",
-      "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=THUNDER26",
-      "source": "ticketek",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:ed9d64f2-5b96-426d-93d1-ef16f50285ff",
       "name": "Author M. Darusha Wehm in conversation at Waitohi | Johnsonville Library",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/476233597_1086633030167788_8290615390678932737_n.jpg?stp=c0.18.1200.573a_dst-jpg_s640x640_tt6&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=fHZNjuD_VOcQ7kNvgFzdWPd&_nc_oc=AdmXeCvYQm7W4t0CyJoW9n9maS_maRdPRq7HpgPFPSB90Ww4EJ4IjOHj3xECpHAErx5txTS6C58rLCxaysjr-cGf&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=AAWXT3ftvZitIhuGNkxQGQ&oh=00_AYGU5J6UcMPvWn7EQn-F-mbM0QE0l3uNkwdjDXjwMed2kA&oe=67E00FA1",
@@ -1104,19 +1001,6 @@
       ],
       "displayDate": "Wed 26 Mar",
       "url": "https://www.facebook.com/events/4028418087435786",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:455d49bc-85fe-42e3-ac74-67397a15aca7",
-      "name": "Author Talk: Mrs Forsythe by Vivienne Lingard",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484615801_1045484270942212_2378280309201840284_n.jpg?stp=c0.30.2000.954a_dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=TtGhFk9RRfoQ7kNvgEffHWy&_nc_oc=AdlyNNv7MxY4DJpPUYVo0EP7_a0eSKPqBsnF9g3s-fO4nF95lSiYeXWBK6rWfAHLcFy3LuZmtM10Ml-6sFI2Wz2N&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=RF0keE-nv3pGuShGxe77ug&oh=00_AYGygJHCpAoGnF-mXkZMb3C9kjG_n5OtjeR2UWDM6CBbog&oe=67E01761",
-      "venue": "57 Willis Street, Wellington, New Zealand 6011",
-      "dates": [
-        "01-04-2025"
-      ],
-      "displayDate": "Tue 01 Apr",
-      "url": "https://www.facebook.com/events/1016311850356731",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -1227,7 +1111,6 @@
         "11-05-2025",
         "18-05-2025",
         "25-05-2025",
-        "01-06-2025",
         "08-06-2025",
         "15-06-2025",
         "22-06-2025",
@@ -1250,7 +1133,6 @@
         "11-04-2025",
         "18-04-2025",
         "25-04-2025",
-        "02-05-2025",
         "09-05-2025",
         "16-05-2025",
         "23-05-2025",
@@ -1325,7 +1207,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -1436,11 +1317,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
         "24-04-2025",
-        "01-05-2025",
         "08-05-2025",
         "15-05-2025",
         "22-05-2025",
@@ -1449,7 +1328,6 @@
         "12-06-2025",
         "19-06-2025",
         "26-06-2025",
-        "03-07-2025",
         "10-07-2025",
         "17-07-2025",
         "24-07-2025",
@@ -1462,7 +1340,6 @@
         "11-09-2025",
         "18-09-2025",
         "25-09-2025",
-        "02-10-2025",
         "09-10-2025",
         "16-10-2025",
         "23-10-2025",
@@ -1553,7 +1430,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -1658,7 +1534,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -1671,7 +1546,6 @@
         "11-06-2025",
         "18-06-2025",
         "25-06-2025",
-        "02-07-2025",
         "09-07-2025",
         "16-07-2025",
         "23-07-2025",
@@ -1680,11 +1554,9 @@
         "13-08-2025",
         "20-08-2025",
         "27-08-2025",
-        "03-09-2025",
         "10-09-2025",
         "17-09-2025",
         "24-09-2025",
-        "01-10-2025",
         "08-10-2025",
         "15-10-2025",
         "22-10-2025",
@@ -1693,7 +1565,6 @@
         "12-11-2025",
         "19-11-2025",
         "26-11-2025",
-        "03-12-2025",
         "10-12-2025",
         "17-12-2025"
       ],
@@ -1725,19 +1596,6 @@
       ],
       "displayDate": "Sat 26 Apr",
       "url": "https://www.wellingtonnz.com/visit/events/ben-elton-authentic-stupidity",
-      "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:3848dcac-1262-47eb-bbcd-0814414ebbea",
-      "name": "Best Foods Comedy Gala",
-      "imageUrl": "https://wellingtonnz.bynder.com/transform/980ab8e6-91f4-42df-ac77-cece3159bd1a/Best-Foods-Comedy-Gala?io=transform:fill,width:230,height:230",
-      "venue": "The Opera House",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.wellingtonnz.com/visit/events/best-foods-comedy-gala",
       "source": "wellington nz",
       "eventType": "Other"
     },
@@ -1778,19 +1636,6 @@
       "displayDate": "Sat 16 Aug",
       "url": "https://www.wellingtonnz.com/visit/events/best-of-the-bee-gees",
       "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:07f1fe2a-f63a-40a8-9c5e-73b3bb46563c",
-      "name": "Better Football 5aside - Winter 2025 Season",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484999221_1391598845484462_731362767482176666_n.png?stp=c157.0.1623.775a_dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=aZQ5fpy77VQQ7kNvgHSL5Zv&_nc_oc=AdmstycNSY88shVM5gRV8caGmddDOGWQGGA4OEiTDIxY6TUXft6Mrf2klw8FPdoR_1KDDUjBP1Pg4YPGB3pTd6tB&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=9YKD1Wy38b833qFIOEOeEw&oh=00_AYE6aVv5sC7MP9g0emdGdRbP5awGgwVh0uASECKm9Pqw4Q&oe=67DFE006",
-      "venue": "Toit\u016b P\u014dneke Hub",
-      "dates": [
-        "01-04-2025"
-      ],
-      "displayDate": "Tue 01 Apr",
-      "url": "https://www.facebook.com/events/1585443852139580",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -1892,7 +1737,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -1904,8 +1748,7 @@
         "04-06-2025",
         "11-06-2025",
         "18-06-2025",
-        "25-06-2025",
-        "02-07-2025"
+        "25-06-2025"
       ],
       "displayDate": "Wed 19 Mar",
       "url": "https://www.eventfinda.co.nz/2025/blend-bar-quiz-night/upper-hutt",
@@ -1918,7 +1761,6 @@
       "imageUrl": "https://wellingtonnz.bynder.com/transform/f6b324c6-cf31-484f-8b3b-22aab2ea5ddb/Circa-Theatre-2025-Season-2?io=transform:fill,width:230,height:230",
       "venue": "Circa Theatre",
       "dates": [
-        "18-03-2025",
         "19-03-2025",
         "20-03-2025",
         "21-03-2025",
@@ -1932,9 +1774,6 @@
         "29-03-2025",
         "30-03-2025",
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025",
@@ -2043,19 +1882,6 @@
       ],
       "displayDate": "Wed 19 Mar",
       "url": "https://www.facebook.com/events/1270434430706115",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:215a33d3-3129-4998-b63e-8952cba0c6fe",
-      "name": "Book Launch: The Cat Operator's Manual by Queen Olivia III",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/482054091_1033748035449169_5419599185558892179_n.jpg?stp=c0.30.2000.954a_dst-jpg_s640x640_tt6&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=c5vqUG1rBmIQ7kNvgHOP8Nv&_nc_oc=AdnQY9LvRJF9G0zJ6_T2uPjGpFJHiPreCf7l65_CyQFIsW9A5xuJCGOJnEXRAaBze1PF3ZTLSckZDpG6fQwaXA_A&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=Er1EqrRHaAyCVa-oBBa9bA&oh=00_AYF8JcnoJmKb75Y2LZ89SpAy0tReF2m5AOEzQBWMO9670g&oe=67E01546",
-      "venue": "57 Willis Street, Wellington, New Zealand 6011",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/1161179798326055",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -2322,19 +2148,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:bc8c2a02-740f-4e8f-a7d0-bc415dbb1804",
-      "name": "CAUGHT INSIDE Live @ San Fran",
-      "imageUrl": "https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
-      "venue": "San Fran, Wellington",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.moshtix.co.nz/v2/event/caught-inside-live-san-fran/177932",
-      "source": "ticketmaster",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:c4a9c50f-867c-483f-ac69-5190f423d621",
       "name": "CBD Cuban Salsa Classes with Rafael",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/467593688_1210041930687175_5338818637781650597_n.jpg?stp=c0.136.480.229a_dst-jpg_s480x229_tt6&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=AETwUju5VAAQ7kNvgFS4kGH&_nc_oc=AdmRAUrdhepO3bFaEN2AnvKHnIowjWMkVG1A8IM95Aw2hKAh6f3yoUVl92J0V9RqkzjIDg__cOb0UB1NAejRJjQV&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=9XCFFZZG8-NzxEeIRGk6WQ&oh=00_AYHHYoiOYraF_PejFGeH9W4zykoVnTke8UUmcLyHrBpRgQ&oe=67E00B54",
@@ -2344,19 +2157,6 @@
       ],
       "displayDate": "Tue 25 Mar",
       "url": "https://www.facebook.com/events/1141639427170361",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:8ec2d95e-7d5b-4305-8c0d-6d981b7ce350",
-      "name": "CCC WGN workshop - Plain language, better outcomes",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/474856971_625627913517931_8252509537011967679_n.jpg?stp=c0.128.2048.977a_dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=szu3H7ZCv8YQ7kNvgGqkruD&_nc_oc=Adn48o52XiBTZ-N1uXUVDNq_9Z7fAabacuQ4Z1Z8UtwjCXCIKD0KisGZVhqM2pHyRdfcXbVdml2CjOGg7hKHJetj&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=JYd48qqANIqDcvYBlv3fSg&oh=00_AYF2GQDfkSzdeu-W0IhVWIUen9YesdpL5BZ0AJ0qr53MKA&oe=67E009E9",
-      "venue": "St John's In The City Wellington",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.facebook.com/events/984831193183969",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -2374,19 +2174,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:095ce7d1-7020-45ab-8dd9-aaeef970f0bd",
-      "name": "COMPOSER WORKSHOP: Stephen Gallagher, Scoring The War of the Rohirrim",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484914562_10162656071239882_6800145338355940996_n.jpg?stp=c0.461.1365.651a_dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=jkXOL4uAawcQ7kNvgFA8QQf&_nc_oc=AdlGSRIomzbMDjzzUYw0ymqm-5udUPLUFyesVKh-GC6H_d1cgCXSUAZ1mVq22_P0eD3kXqnZKuC-OjO4V8R4ibiI&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=-gpKwYl9q4D91L-jcYimAw&oh=00_AYG__DDf-WNAnGONTgBDQidAou19SNBztkYetYN8tMmzUQ&oe=67DFDEF8",
-      "venue": "Adam Concert Room",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/1739328493337384",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:860d77a1-72e9-488f-b431-c4f8abc2bb91",
       "name": "CPD: Mastering Masterspec Specifications WELLINGTON | \u2b50 20 CPD Points",
       "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2F4sXu6ttQleRPZZNcasbA&w=1920&q=75",
@@ -2397,19 +2184,6 @@
       "displayDate": "Wed 06 Aug",
       "url": "https://events.humanitix.com/cpd-mastering-masterspec-specifications-wellington-or-20-cpd-points-bfmrvtdh?hxchl=mkt-sch",
       "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:432bf89f-3655-4b6a-89f0-e7c9e8b2c45e",
-      "name": "CRYWANK [UK] - Solo - WELLINGTON - SAN FRAN",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481346651_1161132785705034_7004827729071070909_n.jpg?stp=c0.31.2048.978a_dst-jpg_s640x640_tt6&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=MkRPRuHq7MwQ7kNvgEzYw8N&_nc_oc=Adn9fJWbShzOwoCe_vx38YEqUefOww0U1JteC15dA0zWvGp4ccNsBFx7BZV0z9QDJLpBc-Km9_g4dJuMsSoLoexZ&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=-gpKwYl9q4D91L-jcYimAw&oh=00_AYE0mfgQtnC6c2srKxaRtsXSjdV5VozjJbj-NdZ6GB2eqg&oe=67DFDF0A",
-      "venue": "San Fran",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://www.facebook.com/events/618152904479346",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -2466,19 +2240,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:11bfaf08-08bc-462d-aca2-d8248da79ab0",
-      "name": "Canine Acupressure Massage Training \ud83d\udc15",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484571454_1164200095715931_505578731178506437_n.jpg?stp=c0.38.612.292a_dst-jpg_s612x292_tt6&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-E-3JH6uEGIQ7kNvgHV3fFB&_nc_oc=AdkjJbm1e29yTbvRm1GY1YBLLOBVveKJfqgLyyLWNP-wX_b324RDo0hab6a5Q5ET1GdV3QXrdXju6_nWa9fM5Gr4&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=RcsjcBO5I8rVbZJB7yMpYg&oh=00_AYEkA-eiTkPtmFaeuCGIADCptVg4rHibsZgNEJ4Hyg405w&oe=67E00A6A",
-      "venue": "Khandallah",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.facebook.com/events/1693009501604783",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:d507b19d-5a6f-42f1-ac89-a5e8cf71a82b",
       "name": "Canine Acupressure Massage Training \ud83d\udc15 (Class option 2)",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484093735_1164660362336571_6884620778319514786_n.jpg?stp=c0.38.612.292a_dst-jpg_s612x292_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=n_sNOLM4SPYQ7kNvgEzTUas&_nc_oc=AdmKxl49qi2RPxWRkSr0R_3fogi_HZToKugkyBLCd17cqOiqj2xOHEO5RzJxOLxLIvwvRgaWTwiX2env_6pCF1_S&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=oMP7Cpj9pqS68nvWTbUzfw&oh=00_AYEscqxGAdFA7fnkuLWnhgUzzNzJjEDwVDGzIhN6Cshmlg&oe=67DFE264",
@@ -2488,19 +2249,6 @@
       ],
       "displayDate": "Fri 11 Apr",
       "url": "https://www.facebook.com/events/1149402010246901",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:dcd7ec7e-c724-4851-9179-5bbf3ad24250",
-      "name": "Capital Crimes - Karori Mystery in the Library",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484516150_1045185200968298_6219756776616733976_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Z_5DujHlcZ4Q7kNvgEUc2Pe&_nc_oc=Adn9qN6uA1PrIz9H96DTx58E0CIGeLKqp8eTLrjI4offaLpC4yXix7xKYTYh2x3mAAQQ8OkzFWaIBnjuPdQxavy0&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=LQECGh6BpTZWia9_OyOJmg&oh=00_AYEXhFGijeo9a-rgWSReptWZM-rdbxgzuTD4LkMmZu-wuA&oe=67E0092D",
-      "venue": "Karori Library, 247 Karori Road, Wellington",
-      "dates": [
-        "01-05-2025"
-      ],
-      "displayDate": "Thu 01 May",
-      "url": "https://www.facebook.com/events/1316694969682084",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -2527,19 +2275,6 @@
       ],
       "displayDate": "Sat 22 Mar",
       "url": "https://www.facebook.com/events/592546647067957",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:76bb86e4-6bdd-459e-bab0-fc51907399c9",
-      "name": "Caught Inside Live at San Fran",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484224814_1028602109288764_4651108917332120502_n.jpg?stp=c0.58.2048.977a_cp6_dst-jpg_s640x640_tt6&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ifmUMJ28G4AQ7kNvgEx7yMR&_nc_oc=AdmRL-JlB6aaOLse56LPwhDaoV9HiJnErCNcbL5zutsy8QBQsXEybNQAKYAQXhW6ufrJ_62O2HDGI4MEvTO5a-rQ&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=uEqKTdR_fSSDl3VDpH0dFA&oh=00_AYH_1qhbtmCMLI61WCXx4N_-IznhAvfPyCv1bl9y-KxFxA&oe=67E009D4",
-      "venue": "San Fran",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.facebook.com/events/918883356823379",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -2787,19 +2522,15 @@
       "venue": "S&Ms, Wellington",
       "dates": [
         "20-03-2025",
-        "03-04-2025",
         "17-04-2025",
-        "01-05-2025",
         "22-05-2025",
         "05-06-2025",
         "19-06-2025",
-        "03-07-2025",
         "17-07-2025",
         "07-08-2025",
         "21-08-2025",
         "04-09-2025",
         "18-09-2025",
-        "02-10-2025",
         "16-10-2025",
         "06-11-2025",
         "20-11-2025",
@@ -2833,19 +2564,6 @@
       ],
       "displayDate": "Sat 19 Apr",
       "url": "https://events.humanitix.com/comfy-concerts-in-support-of-arohanui-strings?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:de2ef244-0d9e-4b4b-814f-6bc114b0ef0f",
-      "name": "Comfy Concert 3 at The Long Hall - The Chamber Pot Pourri Ensemble performance for Kaibosh",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FN1JinqFQgusnO4W96ls3&w=1920&q=75",
-      "venue": "The Long Hall, 13b Maida Vale Road, Roseneath",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://events.humanitix.com/comfy-concert-2-the-long-hall-chamber-pot-pourri-ensemble-3-may-kaibosh?hxchl=mkt-sch",
       "source": "humanitix",
       "eventType": "Other"
     },
@@ -3190,9 +2908,6 @@
         "29-08-2025",
         "30-08-2025",
         "31-08-2025",
-        "01-09-2025",
-        "02-09-2025",
-        "03-09-2025",
         "04-09-2025",
         "05-09-2025"
       ],
@@ -3226,19 +2941,6 @@
       "url": "https://www.undertheradar.co.nz/gig/94991/Cruelly-Tour-Fundraiser-w-HalfAngel-and-Danse-Macabre.utr",
       "source": "under the radar",
       "eventType": "Music"
-    },
-    {
-      "id": "urn:uuid:b6929796-0692-47be-b83d-149c45a475a0",
-      "name": "Crywank (UK) \u2013 Solo",
-      "imageUrl": "https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
-      "venue": "San Fran, Wellington",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://www.moshtix.co.nz/v2/event/crywank-uk-solo/177630",
-      "source": "ticketmaster",
-      "eventType": "Other"
     },
     {
       "id": "urn:uuid:3c997ed8-deed-46e7-91f8-05ac0889926e",
@@ -3359,19 +3061,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:c128e51f-18a5-4ca9-af7f-4a06a3161034",
-      "name": "DISC Certification Wellington",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2F1wm6aPX1Q9CsRsuT8Npn&w=1920&q=75",
-      "venue": "DiSC Certification Wellington - Level 6, Berl House",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://events.humanitix.com/copy-of-disc-certification-wellington?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:ec302043-3c3a-47ff-a8f1-e933d915e32a",
       "name": "DOUBLE POETRY LAUNCH",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/477719903_1183841483749706_3719285289903539310_n.jpg?stp=c0.186.1080.516a_dst-jpg_s640x640_tt6&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FOg4are5UrMQ7kNvgHddq8r&_nc_oc=Adnc79nLocwC7dCfM6ymeb_ajr6jRfag2rN90D9PdDZr7YPRlU-E80lQXg9KSBtwIiKv9e1AKrpcsnI2SbvkkDaP&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=-gpKwYl9q4D91L-jcYimAw&oh=00_AYHn_4VODTTomMf0IVfMoPbMmenntEFu1Cco3qUjBGLyYg&oe=67E0114C",
@@ -3448,19 +3137,6 @@
       "url": "https://www.eventfinda.co.nz/2025/dancing-and-drinking-society2/wellington",
       "source": "event finder",
       "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:206b8b24-6dd5-41b9-bc17-d66d637c5928",
-      "name": "Danica Bryant + Tia Ward Live",
-      "imageUrl": "https://www.undertheradar.co.nz/images/image.php/95285-644149.jpg?width=280&cropratio=1:1.4&image=/images/showImages/95285-644149.jpg",
-      "venue": "Rogue And Vagabond",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.undertheradar.co.nz/gig/95285/Danica-Bryant--Tia-Ward-Live.utr",
-      "source": "rogue",
-      "eventType": "Music"
     },
     {
       "id": "urn:uuid:ca18dd5d-f0ea-4016-9f36-4cacfea115af",
@@ -3593,19 +3269,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:2fe0cd68-f44e-4bdd-802f-a9c018a66cdf",
-      "name": "Deb Webber Live - BDO Renwick Sports & Events Centre - Renwick",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FEE3VvhxuRRO7OhpF8Lb9&w=1920&q=75",
-      "venue": "BDO Renwick Sports & Events Centre",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://events.humanitix.com/deb-webber-live-bdo-renwick-sports-and-events-centre-renwick?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:d7b0c246-c00a-431b-b978-6f81ae38a847",
       "name": "Digital Steps Computer Classes",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481658960_1047336354084877_8990703996188695063_n.jpg?stp=c0.29.1920.917a_dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=uRjcXhDfQloQ7kNvgGEbszZ&_nc_oc=Adke9VzUjT9uIr-b_KXtfyofxjekJ5v9Q-WZ8jQtK1CSJxSGLNTgBMg9elQCOKr64EHjJMY0G-puqnSpopODt7aL&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=vZuRvMC1ZWxieU9N9BTvVw&oh=00_AYHpv35H0aTe4s3RviSY6INalxAHNF1xuv0u_a3urKhoXw&oe=67DFE4B8",
@@ -3684,33 +3347,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:556889c6-0a3c-44ef-9235-7cd7d453f321",
-      "name": "Discovery - Daft Punk Tribute | Meow Nui Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481999750_1182854127177066_301872653278754087_n.jpg?stp=c369.0.1602.765a_dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=LpYoSzLZAIIQ7kNvgH2UcXz&_nc_oc=AdniKTw6pBiDpwBQu7jb7MZWILlX0GaJWtE6fm5ZQBvknFPBpjgIPtuz33KGxTIikIy60w1HDG7HIMCRzrwQFzea&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=0sBvAQIEZ33qgO9Z86jWsg&oh=00_AYF6Fu2aTCAx_g-20y-Iv0qJ1o22E11XRNwgkGeiHE8LSA&oe=67E01339",
-      "venue": "92 Vivian St, Te Aro, Wellington 6011, New Zealand",
-      "dates": [
-        "01-05-2025"
-      ],
-      "displayDate": "Thu 01 May",
-      "url": "https://www.facebook.com/events/885972696887317",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:18e23818-1435-429d-9c5d-5e601b3dcc13",
-      "name": "Discovery Daft Punk Tribute",
-      "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx96407.jpg",
-      "venue": "Nationwide",
-      "dates": [
-        "02-05-2025",
-        "03-05-2025"
-      ],
-      "displayDate": "Fri 02 May to Sat 03 May",
-      "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=DAFTPUNK25",
-      "source": "ticketek",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:c15ce2dc-2eb5-4657-84e2-331592a1e8b2",
       "name": "Discovery Time",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/475043368_1012232697605338_1192626215903252584_n.jpg?stp=c0.220.2000.954a_dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=KaqkctV9JP8Q7kNvgHKH_gf&_nc_oc=Adlc_cF0a61QdWq0nrxPNwA5TOXRbdAKRb06uyx-EjEJLZvK7fY2ju2Y5yYjWoToRV3wRrFRM-VXb77eGDj60Ynf&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=AmZEt6B-ukfL6_Leq5NalQ&oh=00_AYH6r0nGPllo3puZAQ8VJYIhLnuZJPgiEOhzYhVIkgltAQ&oe=67DFEB39",
@@ -3782,7 +3418,6 @@
       "imageUrl": "https://wellingtonnz.bynder.com/transform/7f3386aa-b8e9-42c3-846a-580afbe9430f/Disney-The-Magic-of-Animation-Takina-23?io=transform:fill,width:230,height:230",
       "venue": "T\u0101kina Wellington Convention and Exhibition Centre | 10am\u20145pm (last entry 4pm)",
       "dates": [
-        "18-03-2025",
         "19-03-2025",
         "20-03-2025",
         "21-03-2025",
@@ -3796,9 +3431,6 @@
         "29-03-2025",
         "30-03-2025",
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025",
@@ -3826,9 +3458,6 @@
         "28-04-2025",
         "29-04-2025",
         "30-04-2025",
-        "01-05-2025",
-        "02-05-2025",
-        "03-05-2025",
         "04-05-2025",
         "05-05-2025",
         "06-05-2025",
@@ -3857,9 +3486,6 @@
         "29-05-2025",
         "30-05-2025",
         "31-05-2025",
-        "01-06-2025",
-        "02-06-2025",
-        "03-06-2025",
         "04-06-2025",
         "05-06-2025",
         "06-06-2025",
@@ -3887,9 +3513,6 @@
         "28-06-2025",
         "29-06-2025",
         "30-06-2025",
-        "01-07-2025",
-        "02-07-2025",
-        "03-07-2025",
         "04-07-2025",
         "05-07-2025",
         "06-07-2025",
@@ -3902,32 +3525,6 @@
       "displayDate": "Thu 20 Feb to Sun 13 Jul",
       "url": "https://www.wellingtonnz.com/visit/events/disney-the-magic-of-animation",
       "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:4e9a6939-af68-480e-a825-eba1ce08358d",
-      "name": "Disney: The Magic of Animation Exhibition - Flexi Ticket",
-      "imageUrl": "https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
-      "venue": "T\u0101kina Wellington Convention and Exhibition Centre, Wellington",
-      "dates": [
-        "20-02-2025"
-      ],
-      "displayDate": "Thu 20 Feb",
-      "url": "https://www.ticketmaster.co.nz/disney-the-magic-of-animation-exhibition-wellington-20-02-2025/event/2400616689E220F0",
-      "source": "ticketmaster",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:2c0ab27d-ca5a-423c-9fb8-365ff1a87dfc",
-      "name": "Disney: The Magic of Animation Exhibition - Superfan Ticket",
-      "imageUrl": "https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
-      "venue": "T\u0101kina Wellington Convention and Exhibition Centre, Wellington",
-      "dates": [
-        "20-02-2025"
-      ],
-      "displayDate": "Thu 20 Feb",
-      "url": "https://www.ticketmaster.co.nz/disney-the-magic-of-animation-exhibition-wellington-20-02-2025/event/2400622984C80B7F",
-      "source": "ticketmaster",
       "eventType": "Other"
     },
     {
@@ -4121,19 +3718,6 @@
       ],
       "displayDate": "Fri 30 May",
       "url": "https://events.humanitix.com/egls-wellington?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:9ea39e35-6943-479f-bc5b-edc398087e57",
-      "name": "EVolocity Arduino Workshop - Wellington 2025",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FlPJNGjivTQKHPlY16QLJ&w=1920&q=75",
-      "venue": "Upper Hutt College, Wellington",
-      "dates": [
-        "01-08-2025"
-      ],
-      "displayDate": "Fri 01 Aug",
-      "url": "https://events.humanitix.com/evolocity-arduino-workshop-wellington-2025?hxchl=mkt-sch",
       "source": "humanitix",
       "eventType": "Other"
     },
@@ -4355,9 +3939,6 @@
         "28-03-2025",
         "29-03-2025",
         "30-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025",
@@ -4679,19 +4260,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:d51448e5-aaf3-44ee-858d-b6079ba325ea",
-      "name": "Film Adjacent",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484823731_577410422009100_5896045120394460581_n.jpg?stp=c0.448.1448.691a_dst-jpg_s640x640_tt6&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ISBr46uZrmUQ7kNvgHafjn5&_nc_oc=Adl8lbdvNeoXrnI7rA0uW_lHXIZThaMxmw8_Jwz8FZXz_sV2ofF4PFSzh2SSp93BBWn7adSURF4ekSDExj3-lXTv&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=vZuRvMC1ZWxieU9N9BTvVw&oh=00_AYG6oi6t-m0GxAcfGTO6VdPAMObRNo_WCq4_JGFt60pZaw&oe=67DFF53D",
-      "venue": "118 Tory Street, Wellington, New Zealand",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://www.facebook.com/events/2144761545985035",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:98045ca0-648d-40d5-8ef0-8106c09dfa57",
       "name": "Film, Food and Freedom - Justice for Palestine Presents 'The Wanted 18'",
       "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FLXwi5YK6RYi5wzJDIOkQ&w=1920&q=75",
@@ -4783,19 +4351,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:6cadbf89-7330-425c-b871-8f3d30fecede",
-      "name": "Fluid Movement Yoga Classes",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2F8JzAiA5TiyzAT4FmRK4R&w=1920&q=75",
-      "venue": "Te Whaea National Dance and Drama Centre",
-      "dates": [
-        "01-05-2025"
-      ],
-      "displayDate": "Thu 01 May",
-      "url": "https://events.humanitix.com/fluid-movement-yoga-classes?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:dd81854e-724d-4dae-ac28-bc449fc985ef",
       "name": "Foil Arms & Hog \u2014 Skittish",
       "imageUrl": "https://wellingtonnz.bynder.com/transform/986ad725-c3ec-4a38-90c1-f38124fa4993/Foil-Arms-Hog-Skittish?io=transform:fill,width:230,height:230",
@@ -4853,7 +4408,6 @@
       "imageUrl": "https://wellingtonnz.bynder.com/transform/908e0be1-08c4-4c6f-b777-12629231d317/Fortune-Wellington-Museum-6?io=transform:fill,width:230,height:230",
       "venue": "Wellington Museum",
       "dates": [
-        "18-03-2025",
         "19-03-2025",
         "20-03-2025",
         "21-03-2025",
@@ -4867,9 +4421,6 @@
         "29-03-2025",
         "30-03-2025",
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025",
@@ -5068,19 +4619,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:e5113dd2-39b6-4059-8362-7699d3133fd7",
-      "name": "Fungi Kingdom, Part One",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481009899_1058890126278029_8218353761886362009_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=pyd6833VVKcQ7kNvgEyhx4G&_nc_oc=AdlZCazZKvdQ7qtTOzxUgVx8IXIdZ4kOVI1GessL1UGOwcVyPjJ3XEY-6DAIG7nZ7qM_Zhs7fKvVEZ6YMjbf72gF&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=5jxMR4Y6iIAZzrKGihqt6g&oh=00_AYGI7lg9smUB43b_d1NT0P_XBgw7g7kFIqa-Ikzx-ZMsUw&oe=67DFEED6",
-      "venue": "Otari-Wilton's Bush",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.facebook.com/events/1166468924885605",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:da04ff68-4e00-424f-959e-7d024acc0bee",
       "name": "Fungi Kingdom, Part Two",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480802632_1058890962944612_2392219812219528072_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=dBFiv69ZJ8AQ7kNvgEpHguV&_nc_oc=AdkDu7yhqC6eDXS2D8axDSsYiZzsLMUh_smavPUwcIiN9Vzcwtl3fHJ2uBMWI0Ayoaz08Bth668SZJsv1yqitRI5&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=6iVFd2YyQWpXuh2JBztf6Q&oh=00_AYEqLPsUtRlsip8GhYnXooNJe5EH4XsgsV53Zs0MfZyuGw&oe=67DFE0FB",
@@ -5133,19 +4671,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:fec63a5a-68f7-4e36-94f8-4882f41df54f",
-      "name": "GYGO: May the Fourth be With You. Star Wars Day and Sci Fi Fair",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/462220768_967918168697425_6655855010375345585_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=yu6J4n52n9cQ7kNvgFTY7Js&_nc_oc=AdkSsXOUILJkFRzTJBMpIwx1yvudqZS2SMyakCIjtuaEpHfQU6cM3XP1EsPKx3H8Op98G0KDzhAqgqEJ1_7GSeO8&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=rYikGtG9BWv-I4HGrRYi8Q&oh=00_AYFot6B5AdxtL5Fb3qre9QiKFAg4fxXwahLhtcqtmq0PGw&oe=67E003D5",
-      "venue": "Te Whaea\u2014National Dance & Drama Centre",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.facebook.com/events/1209691576710205",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:c708e478-02d0-4ff5-b566-5ed25d5a3c91",
       "name": "Galactic Funk",
       "imageUrl": "https://www.undertheradar.co.nz/images/image.php/95054-563517.jpg?width=280&cropratio=1:1.4&image=/images/showImages/95054-563517.jpg",
@@ -5191,7 +4716,6 @@
       "venue": "Yoga in Daily Life Centre, Wellington",
       "dates": [
         "25-03-2025",
-        "01-04-2025",
         "08-04-2025",
         "15-04-2025",
         "22-04-2025",
@@ -5224,7 +4748,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -5237,7 +4760,6 @@
         "11-06-2025",
         "18-06-2025",
         "25-06-2025",
-        "02-07-2025",
         "09-07-2025",
         "16-07-2025",
         "23-07-2025",
@@ -5246,11 +4768,9 @@
         "13-08-2025",
         "20-08-2025",
         "27-08-2025",
-        "03-09-2025",
         "10-09-2025",
         "17-09-2025",
         "24-09-2025",
-        "01-10-2025",
         "08-10-2025",
         "15-10-2025",
         "22-10-2025",
@@ -5259,7 +4779,6 @@
         "12-11-2025",
         "19-11-2025",
         "26-11-2025",
-        "03-12-2025",
         "10-12-2025",
         "17-12-2025"
       ],
@@ -5292,9 +4811,6 @@
         "28-04-2025",
         "29-04-2025",
         "30-04-2025",
-        "01-05-2025",
-        "02-05-2025",
-        "03-05-2025",
         "04-05-2025",
         "05-05-2025",
         "06-05-2025",
@@ -5693,7 +5209,6 @@
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/476612991_1132664748870060_4288917540385451201_n.jpg?stp=c0.152.2000.954a_dst-jpg_s640x640_tt6&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=lEWrRuqiahcQ7kNvgHqKxro&_nc_oc=AdnnsfOwv4CnhG8RI6dBsnZHLGa4GPP7B0L1s3id1HakUn_QlqDj-Ycr3KNNG9Mto3uJe_bbf48fdCwqrIg9pm2Q&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=o2Z4DPCdOxBNVNJP8xMNtQ&oh=00_AYG6IWLlEBhdKAOIjJbNcT0wC_MPHDze4CSzEwwQlk9txg&oe=67E0149F",
       "venue": "Queen Margaret College",
       "dates": [
-        "03-04-2025",
         "04-04-2025"
       ],
       "displayDate": "Thu 03 Apr",
@@ -5863,25 +5378,11 @@
       "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx94111.jpg",
       "venue": "Meow Nui Wellington New Zealand James Hay Theatre Christchurch Canterbury",
       "dates": [
-        "03-04-2025",
         "04-04-2025"
       ],
       "displayDate": "Thu 03 Apr to Fri 04 Apr",
       "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=HOODOOG25",
       "source": "ticketek",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:ce1010d2-9bdc-4e8d-8ffa-f24341863047",
-      "name": "Hoodoo Gurus - Meow Nui - Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/451342219_904800605000943_4701681094584160040_n.jpg?stp=c57.0.1056.504a_dst-jpg_s640x640_tt6&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_aid=0&_nc_ohc=tEZYgTRu4N4Q7kNvgGpbQuq&_nc_oc=AdnEn199YnSyoQtXC340zqnTIqOSy7Fx0qyjRIQqqfdDUviYcW0ymdYEqOlRg36zGUPuG5Yi9Bt9EQjcRaWPWJDN&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=jtf_rwiO0LLLg2UpAANZyQ&oh=00_AYFKUI_02K8_q3hvYedtcuxj6MsFUARhR70Kp7J95adptA&oe=67DFFBCC",
-      "venue": "92 Vivian St, Te Aro, Wellington 6011, New Zealand",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.facebook.com/events/517802987241304",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -5896,19 +5397,6 @@
       "url": "https://www.undertheradar.co.nz/gig/94856/Hoonhunters.utr",
       "source": "rogue",
       "eventType": "Music"
-    },
-    {
-      "id": "urn:uuid:c4adafef-04e3-4123-bf72-2fe4b644d4ba",
-      "name": "Hot Mess: No Wheels",
-      "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2064600-881097-34.png",
-      "venue": "The Cavern Club, Wellington",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.eventfinda.co.nz/2025/hot-mess-no-wheels/wellington",
-      "source": "event finder",
-      "eventType": "Other"
     },
     {
       "id": "urn:uuid:d722b9a3-fe18-4659-8bef-2f49412f22eb",
@@ -6029,19 +5517,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:e5c9083e-5590-4b17-892e-87aa6c635222",
-      "name": "Inspire and Succeed 2025 Wellington",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FNTPuvpH7QgW4OQ6XCBI3&w=1920&q=75",
-      "venue": "Takina Wellington Convention and Exhibition Centre",
-      "dates": [
-        "02-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://events.humanitix.com/inspire-and-succeed-2025-wellington?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:94029635-a122-4321-9662-0c9d9168f809",
       "name": "Intermediate Social Dance Classes, Course 1b",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481946826_1210393127756376_3383061084468271848_n.jpg?stp=c0.58.2048.978a_dst-jpg_s640x640_tt6&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=CY1YtB7ZhwAQ7kNvgGW-27x&_nc_oc=Adm5Zg1fuIPJ7EwDClH2UieuBt_CZlvehtm1Iqr2K7lzWzC7eoDJ51MOcJEOo2eNG1UomTyrsxCs5iWdIDwNgIXk&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=-KQioywzrz9iv_N9A8h_wQ&oh=00_AYFQMlTTcpizH5ws2O-oPOIG9WMKI_3L95CfOmEaDq49NQ&oe=67DFFA68",
@@ -6062,7 +5537,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -6152,19 +5626,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:810017db-1598-44ec-b7bd-ea7191f0adda",
-      "name": "Italian Short Film Night - Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481665113_1176640524465794_377856465158784128_n.jpg?stp=c0.35.1280.611a_dst-jpg_s640x640_tt6&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=GpSE7a8b84wQ7kNvgECm0yr&_nc_oc=Adkr6ClzupTMc-HfflziixzHyLKypVd7jeXjyn3xXlsJZ9jXVbsJ-hhn3QoUH6HXsWwYwEz1TFJ8KiNgaftHBEPo&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=9XCFFZZG8-NzxEeIRGk6WQ&oh=00_AYH_zrmja9Sl_uKPTFbSSK_w7F2hwE6DUPnAWdjaes2bAw&oe=67DFFF63",
-      "venue": "Southern Cross Garden Bar Restaurant",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://www.facebook.com/events/1690890988503641",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:0acd0dce-e056-44aa-be5c-51eb4c5554db",
       "name": "Italian Tutorials for College and University Students",
       "imageUrl": "https://cdn.eventfinda.co.nz/images/global/sample-images/sample-images-workshops-34.webp?b",
@@ -6176,8 +5637,7 @@
         "13-05-2025",
         "14-05-2025",
         "20-05-2025",
-        "21-05-2025",
-        "03-06-2025"
+        "21-05-2025"
       ],
       "displayDate": "Mon 24 Mar",
       "url": "https://www.eventfinda.co.nz/2025/italian-tutorials-for-college-and-university-students/wellington",
@@ -6261,19 +5721,6 @@
       "displayDate": "Wed 19 Mar",
       "url": "https://www.facebook.com/events/1157759842320000",
       "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:726a07aa-be2a-4140-9fa3-171ad065048a",
-      "name": "Jazz Orchestra Composer Series Presents: The Mantle Septet",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FVrVLpOShR6WzO3GTZ7dG&w=1920&q=75",
-      "venue": "Bedlam & Squalor",
-      "dates": [
-        "02-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://events.humanitix.com/jazz-orchestra-composer-series-presents-the-mantle-septet?hxchl=mkt-sch",
-      "source": "humanitix",
       "eventType": "Other"
     },
     {
@@ -6518,7 +5965,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025"
       ],
       "displayDate": "Wed 19 Mar",
@@ -6534,11 +5980,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
         "24-04-2025",
-        "01-05-2025",
         "08-05-2025",
         "15-05-2025",
         "22-05-2025",
@@ -6547,7 +5991,6 @@
         "12-06-2025",
         "19-06-2025",
         "26-06-2025",
-        "03-07-2025",
         "10-07-2025",
         "17-07-2025",
         "24-07-2025",
@@ -6560,7 +6003,6 @@
         "11-09-2025",
         "18-09-2025",
         "25-09-2025",
-        "02-10-2025",
         "09-10-2025",
         "16-10-2025",
         "23-10-2025",
@@ -6638,9 +6080,6 @@
         "27-03-2025",
         "28-03-2025",
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "07-04-2025",
         "08-04-2025",
@@ -6650,8 +6089,6 @@
         "28-04-2025",
         "29-04-2025",
         "30-04-2025",
-        "01-05-2025",
-        "02-05-2025",
         "05-05-2025",
         "06-05-2025",
         "07-05-2025",
@@ -6672,7 +6109,6 @@
         "28-05-2025",
         "29-05-2025",
         "30-05-2025",
-        "03-06-2025",
         "04-06-2025",
         "05-06-2025",
         "06-06-2025",
@@ -6704,9 +6140,6 @@
       "dates": [
         "30-05-2025",
         "31-05-2025",
-        "01-06-2025",
-        "02-06-2025",
-        "03-06-2025",
         "04-06-2025",
         "05-06-2025",
         "06-06-2025",
@@ -6763,7 +6196,6 @@
         "25-07-2025",
         "29-08-2025",
         "27-09-2025",
-        "01-11-2025",
         "28-11-2025"
       ],
       "displayDate": "Fri 28 Mar",
@@ -6795,19 +6227,6 @@
       "displayDate": "Fri 21 Mar",
       "url": "https://www.eventfinda.co.nz/2025/kings-of-the-rollers-gray-skeptical-wellington/wellington",
       "source": "event finder",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:a778a439-f594-495b-9667-f0e550020f19",
-      "name": "Kinnoull Station led trailride",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481987092_1062337985930131_5758064987595018803_n.jpg?stp=c34.0.1980.945a_dst-jpg_s640x640_tt6&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=pxF-LivIdsoQ7kNvgHLN6nj&_nc_oc=Adl6KYESyl1Xd2u-3kLo5uU7SmPBoaDZ33tcw1hfenOV7Vtn3g4Acgzmsv-eqvQREKIc6SoNd0XX75GcsIvj2f3v&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=2ARuxtynsrns8QK2v6uO5w&oh=00_AYH2i2AgYhABa6vetJ-fOhTX4ufuXbjcL3gwDeIZStncsQ&oe=67DFFC52",
-      "venue": "South Makara Rd, Makara, Wellington 6972, New Zealand",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.facebook.com/events/1011001637171343",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -6993,19 +6412,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:e34ce269-3ca7-4763-8b27-c2fbc9d605b9",
-      "name": "Let's Go LEGO\u00ae",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/476851649_1022934423201832_4636604373984284904_n.jpg?stp=c0.220.2000.954a_dst-jpg_s640x640_tt6&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ZJ3W-QarR9EQ7kNvgHuz6i1&_nc_oc=Adklvp0gy4ZHw-NIvw9LydxBgYBr52iFGdf-QK7HA2Gpm_gYasDVxbbFC2hFde3-e99Yw_QEtp1MeZLHTOdqp08M&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=JYd48qqANIqDcvYBlv3fSg&oh=00_AYEP-fbaYP50cKbsdLdqlyY56rP55c8H5CWgMvFBKj2MjA&oe=67DFE54B",
-      "venue": "158 Main Road, Tawa, Wellington, New Zealand 5028",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/3933525583594390",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:8ff96a1c-96d3-4394-bc2d-2d4895b2236c",
       "name": "Level 1 Olympic Weightlifting - May 10th & 11th Wellington",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480679093_1160669318974969_8518018478305461972_n.jpg?stp=c0.40.1396.666a_cp6_dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=JBiv3mmAV-0Q7kNvgFDUo55&_nc_oc=Adn2ovVRiCMG6RZnotZyDmT1NTSCD_L0DCg0oZMWS-UVfzOVSUwe3yOzFB9xi5qxLfyzzBrHNCZoHC0mqSxLeyhw&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=AmZEt6B-ukfL6_Leq5NalQ&oh=00_AYEthQ7zGr3kdA0RqnbvdJ1eWf_bgNJDwdVjMi1J7dn8Gg&oe=67E00FDC",
@@ -7052,7 +6458,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -7065,7 +6470,6 @@
         "11-06-2025",
         "18-06-2025",
         "25-06-2025",
-        "02-07-2025",
         "09-07-2025",
         "16-07-2025",
         "23-07-2025",
@@ -7074,11 +6478,9 @@
         "13-08-2025",
         "20-08-2025",
         "27-08-2025",
-        "03-09-2025",
         "10-09-2025",
         "17-09-2025",
         "24-09-2025",
-        "01-10-2025",
         "08-10-2025",
         "15-10-2025",
         "22-10-2025",
@@ -7087,7 +6489,6 @@
         "12-11-2025",
         "19-11-2025",
         "26-11-2025",
-        "03-12-2025",
         "10-12-2025"
       ],
       "displayDate": "Wed 19 Mar",
@@ -7200,32 +6601,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:e4e746b7-6080-4c11-9d87-3f43f71cdf54",
-      "name": "Lost Wax Casting - 6 Weeks Course - Wednesdays",
-      "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2058986-878342-34.jpg?v=8",
-      "venue": "Workspace Studios Ltd, Wellington",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.eventfinda.co.nz/2025/lost-wax-casting-weeks-course-wednesdays/wellington",
-      "source": "event finder",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:f1fce98f-8d44-4cc2-afe1-cdb14b7f2bf8",
-      "name": "Lost Wax Casting - 6 weeks, Wednesdays",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480484166_1163399402462961_6697897547710943865_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=4xPH5IkloTgQ7kNvgHU09rx&_nc_oc=Adl85UAOUJxE6TMVJe28TWm5tuc9Xh1VMSrgHIGCT5rLZfqGThoCyAdEtrVgfJlHMHXVXCx05xB6ieRNGjQIsX0q&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=WZaLoHyNkbQcJw0ESdinFg&oh=00_AYErXr5Vn0mTZrRzoUjLCZ01HLw7J_Y8uRcwwI1BLptR5Q&oe=67E00759",
-      "venue": "65 Abel Smith St, Wellington, New Zealand 6011",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/1142177440938408",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:d28b0130-a154-43a3-9e3c-f5b7f965efe3",
       "name": "Louis Baker, Supported by Mo Etc.",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2065517-881585-34.jpg",
@@ -7276,7 +6651,6 @@
         "26-03-2025",
         "28-03-2025",
         "31-03-2025",
-        "02-04-2025",
         "04-04-2025",
         "07-04-2025",
         "09-04-2025",
@@ -7293,19 +6667,6 @@
       "displayDate": "Wed 19 Mar",
       "url": "https://www.eventfinda.co.nz/2025/lunchtime-yoga-class-mon-wed-fri/wellington",
       "source": "event finder",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:28dc949a-c928-4fd7-84a5-b39039fc1987",
-      "name": "MAKING ART FROM REAL LIFE WITH NIKI BOON",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481664624_942556244737833_5065974237489587587_n.jpg?stp=c0.128.2048.977a_dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Fs6ZJWESQ6IQ7kNvgEWtM6e&_nc_oc=AdmOXwZkaj8AHznNEe58txZawQO8WKX9LbRP10YgAGSROl1m5-axyjw2hMsr-w_lI1yfwh66xQ6pq_fJu-AhZxRt&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=SbvF9Tm1qdYBromWB6jMdw&oh=00_AYHyLBygKQ3ugix_0xzjGrmHgjdUrmB7D2edZgTmBeLVVw&oe=67E00C4C",
-      "venue": "Catherine Cattanach Photography",
-      "dates": [
-        "17-03-2025"
-      ],
-      "displayDate": "Mon 17 Mar",
-      "url": "https://www.facebook.com/events/1347880289734342",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -7675,20 +7036,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:295d4998-935e-467d-a91c-0df65a3fb748",
-      "name": "Masterson Method\u00ae Beyond Horse Massage Seminar",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/474474970_1161164966015534_3686921487847646377_n.jpg?stp=c0.427.1583.755a_dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=kOrViZHbq9kQ7kNvgG-1gLL&_nc_oc=AdlDLxxoXdIOYY7ryPZMld4Tort92dsg3wkc2qSqS7H3kR_pMifLGeAzVtIMvwlf_hkO3i_dCZpdll8W5qB-rvWs&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=AAWXT3ftvZitIhuGNkxQGQ&oh=00_AYF5iMLPY5YTx1oils9XLzjt5oCa99tjFHw3FkWCAv8gkA&oe=67DFE073",
-      "venue": "Christchurch",
-      "dates": [
-        "02-05-2025",
-        "03-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://www.facebook.com/events/923062260027568",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:e3ca060e-35ce-4bad-a4b1-20fb4a04d6e3",
       "name": "Masterworks \u2014 Mozart, Beethoven, and Grieg",
       "imageUrl": "https://wellingtonnz.bynder.com/transform/d6550c5f-5a2f-4e4a-9ad4-7a6f78c6014e/NZSO-2025-Season-06?io=transform:fill,width:230,height:230",
@@ -7721,7 +7068,6 @@
       "venue": "Yoga in Daily Life Centre, Wellington",
       "dates": [
         "25-03-2025",
-        "01-04-2025",
         "08-04-2025"
       ],
       "displayDate": "Tue 25 Mar",
@@ -7821,19 +7167,6 @@
       "displayDate": "Sat 17 May",
       "url": "https://www.facebook.com/events/1126510602529011",
       "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:8ed53bbd-a5ac-474a-a8c2-fc08ec082c4b",
-      "name": "Mills Albert Wellington Saints vs Franklin Bulls",
-      "imageUrl": "https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
-      "venue": "TSB Arena, Wellington",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.ticketmaster.co.nz/mills-albert-wellington-saints-vs-franklin-wellington-03-04-2025/event/2400617B96EF0DA9",
-      "source": "ticketmaster",
       "eventType": "Other"
     },
     {
@@ -7986,7 +7319,6 @@
       "venue": "Moon, Wellington",
       "dates": [
         "25-03-2025",
-        "01-04-2025",
         "08-04-2025",
         "15-04-2025",
         "22-04-2025",
@@ -7995,11 +7327,9 @@
         "13-05-2025",
         "20-05-2025",
         "27-05-2025",
-        "03-06-2025",
         "10-06-2025",
         "17-06-2025",
         "24-06-2025",
-        "01-07-2025",
         "08-07-2025",
         "15-07-2025",
         "22-07-2025",
@@ -8008,7 +7338,6 @@
         "12-08-2025",
         "19-08-2025",
         "26-08-2025",
-        "02-09-2025",
         "09-09-2025",
         "16-09-2025",
         "23-09-2025",
@@ -8021,7 +7350,6 @@
         "11-11-2025",
         "18-11-2025",
         "25-11-2025",
-        "02-12-2025",
         "09-12-2025",
         "16-12-2025"
       ],
@@ -8089,8 +7417,7 @@
       "venue": "Saint Diablo, Wellington",
       "dates": [
         "20-03-2025",
-        "27-03-2025",
-        "03-04-2025"
+        "27-03-2025"
       ],
       "displayDate": "Thu 20 Mar",
       "url": "https://www.eventfinda.co.nz/2024/musical-bingo/wellington",
@@ -8296,19 +7623,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:fe206b9b-00f6-4cd8-9dae-96a5586c498b",
-      "name": "Nada Yoga Workshop The Yoga of Sound",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FIlUNmC6zQ3Oet2LdGCkd&w=1920&q=75",
-      "venue": "Pause Yoga Studio",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://events.humanitix.com/nada-yoga-workshop-the-yoga-of-sound?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:6e427bd2-2819-45b7-b1a1-76dbcb621f06",
       "name": "Nano Stern in Wellington",
       "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2F6Jn2F4wxT3643j2efNeY&w=1920&q=75",
@@ -8400,32 +7714,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:ffd74fff-a362-4daf-bd0b-f5ff9b778d70",
-      "name": "Network & Connect: Wellington April",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FiR0oKhaQBOiGodDlfkJY&w=1920&q=75",
-      "venue": "two/fiftyseven",
-      "dates": [
-        "01-04-2025"
-      ],
-      "displayDate": "Tue 01 Apr",
-      "url": "https://events.humanitix.com/network-and-connect-wellington-april-event?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:5e1a3440-93a3-426b-baf2-72444990b873",
-      "name": "Network & Connect: Wellington June",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FiR0oKhaQBOiGodDlfkJY&w=1920&q=75",
-      "venue": "two/fiftyseven",
-      "dates": [
-        "03-06-2025"
-      ],
-      "displayDate": "Tue 03 Jun",
-      "url": "https://events.humanitix.com/network-and-connect-wellington-june?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:9fcaf2f7-c645-4069-b3ab-32bdcade6718",
       "name": "Neurodiversity Workshop",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2055849-876789-34.jpg?v=8",
@@ -8513,19 +7801,6 @@
       ],
       "displayDate": "Sat 22 Mar",
       "url": "https://www.facebook.com/events/513088798527000",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:31e30df9-074b-4044-b817-d81875bb6ca7",
-      "name": "Ng\u0101 Hononga Ora Conference 2025",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/475853083_1045189757649517_5267912220682570790_n.jpg?stp=c0.128.2048.977a_dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ZRwuCtmAI7YQ7kNvgHNOAvO&_nc_oc=AdmjLSpwoh5Nh_1pnRRVp1DG3DrANPXGAEsqcTtqsJNkOASOdVFW16LlSRi4FSKH7GqrnstFpMNOtjrgHpjkac4U&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=G--mpYGW1tUr2qQpThoM8A&oh=00_AYEuhaRilYBuAWqCcYfyZgJ2s_BndpqNnE18-dWM3kEpvA&oe=67DFF969",
-      "venue": "Wellington, Takina",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.facebook.com/events/3997504117231635",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -8631,19 +7906,6 @@
       "displayDate": "Sun 24 Aug",
       "url": "https://www.wellingtonnz.com/visit/events/nurse-john-short-staffed-tour",
       "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:f0e54d82-77d4-4730-bba7-89b387e6baa3",
-      "name": "Ocean Film Festival",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481116631_1216155130519608_1420445454445654163_n.jpg?stp=c0.194.798.381a_cp6_dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=z42xHmOVeh8Q7kNvgHyHbbQ&_nc_oc=AdnLXvxX-vcXmNq3nrC_9grxpHmLgER5Rcp2AnCR_u2Uvxuj-Gux7q7sj7ySzoqkLjNMSjPHoTqPtMmjvrAShUVB&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=ZRABQkSyixJF1rcRtEX3DA&oh=00_AYEgzuL7G71Z8_okKGGui_WeIT1ObStGaIAPe8HP-DfH5Q&oe=67DFE0B5",
-      "venue": "Embassy Theatre",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/1369782024214102",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -8758,11 +8020,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
-        "24-04-2025",
-        "01-05-2025"
+        "24-04-2025"
       ],
       "displayDate": "Thu 20 Mar",
       "url": "https://www.eventfinda.co.nz/2024/open-decks/wellington",
@@ -9044,19 +8304,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:3c90efb1-7344-4e66-8e5b-88f7bffce299",
-      "name": "Parked in Dub - DJ Night",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/482090757_1067508115418943_3683649431764849447_n.jpg?stp=c0.448.1448.691a_dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=GM4hAv_gMTsQ7kNvgGGYXRq&_nc_oc=AdleYvpH2vyATZ47KH3LuXOXg2rcJ9TWUFrYtfThj3y3BTd8XnP659rwLGCVlPyctjrCe5QIGhIr5NLRBkfvWlJ4&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=LUVUaba9_S-8h0fZ4WgwXg&oh=00_AYFQ2TdHo1rso3XtMgyEfdEkatPbpadQUrQrt7bkZZ7s4Q&oe=67E00991",
-      "venue": "Vogelmorn Bowling Club",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.facebook.com/events/1289542875458316",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:39484ad3-c584-4b9d-999e-9020e6b19a5e",
       "name": "Parrotdog Quiz Night",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2062142-879914-34.jpg?v=2",
@@ -9069,7 +8316,6 @@
         "22-05-2025",
         "05-06-2025",
         "19-06-2025",
-        "03-07-2025",
         "17-07-2025",
         "31-07-2025",
         "14-08-2025",
@@ -9204,19 +8450,6 @@
       "displayDate": "Sat 05 Jul",
       "url": "https://www.wellingtonnz.com/visit/events/peppa-pigs-fun-day-out-live",
       "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:1e234036-a574-4ce1-8f37-d816f28b6e1a",
-      "name": "Pete Murray Solo Acoustic New Zealand Tour - Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/483817493_626105180046900_2014390560350134293_n.jpg?stp=c0.31.2048.978a_dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ksronyZbAKgQ7kNvgGu4KTK&_nc_oc=AdnnikY08MhZ3-O4qPuxANlcmkUbsgc5Ym9ZXto6EenEmpE3CFZ49yH2HBr624VF1LsP4m9Z9xwPAUrId3uyamLi&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=MQkw6f1RSp-FPy1dKhJwYQ&oh=00_AYEz49ZnhS_l01jbOS9xFx7p8LzMCFid9PngcBgC4gA_9g&oe=67E00F5B",
-      "venue": "San Fran",
-      "dates": [
-        "02-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://www.facebook.com/events/510268368805032",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -9400,19 +8633,6 @@
       "displayDate": "Sun 30 Mar",
       "url": "https://www.eventfinda.co.nz/2025/poprox-improv-comedy-nights-2025/wellington",
       "source": "event finder",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:51d4492d-41e0-4c8b-970f-2f6f5b00d9bc",
-      "name": "Porirua Rocks",
-      "imageUrl": "https://wellingtonnz.bynder.com/transform/1824e4b8-d940-4d5d-856c-069c3dd98eab/Porirua-Rocks-1?io=transform:fill,width:230,height:230",
-      "venue": "Te Rauparaha Arena",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.wellingtonnz.com/visit/events/porirua-rocks",
-      "source": "wellington nz",
       "eventType": "Other"
     },
     {
@@ -9631,19 +8851,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:01a10dd5-6eb7-42d4-9c0b-646ccd63fec6",
-      "name": "Public Lecture by the 2025 Sir Howard Kippenberger Visiting Chair in Strategic Studies Amitav Acharya",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FnUwCUNfUTVGx8NFfag06&w=1920&q=75",
-      "venue": "Rutherford House Lecture Theatre 1",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://events.humanitix.com/2025-kippenberger-visiting-chiar-public-lecture-by-amitav-acharya?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:5269b059-1ac2-4244-870c-450a8e825f3f",
       "name": "Pukeahu Play Festival",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2063814-880661-34.png",
@@ -9714,7 +8921,6 @@
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2059082-878386-34.jpg?v=2",
       "venue": "Awhi Yoga and Wellbeing Centre, Wellington",
       "dates": [
-        "18-03-2025",
         "19-03-2025",
         "20-03-2025",
         "21-03-2025",
@@ -9728,9 +8934,6 @@
         "29-03-2025",
         "30-03-2025",
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025",
@@ -9807,7 +9010,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025"
       ],
       "displayDate": "Wed 19 Mar",
@@ -9822,7 +9024,6 @@
       "venue": "Dakota Bar, Wellington",
       "dates": [
         "25-03-2025",
-        "01-04-2025",
         "08-04-2025",
         "15-04-2025",
         "22-04-2025",
@@ -9831,11 +9032,9 @@
         "13-05-2025",
         "20-05-2025",
         "27-05-2025",
-        "03-06-2025",
         "10-06-2025",
         "17-06-2025",
         "24-06-2025",
-        "01-07-2025",
         "08-07-2025",
         "15-07-2025",
         "22-07-2025",
@@ -9844,7 +9043,6 @@
         "12-08-2025",
         "19-08-2025",
         "26-08-2025",
-        "02-09-2025",
         "09-09-2025",
         "16-09-2025",
         "23-09-2025",
@@ -9857,7 +9055,6 @@
         "11-11-2025",
         "18-11-2025",
         "25-11-2025",
-        "02-12-2025",
         "09-12-2025",
         "16-12-2025"
       ],
@@ -9902,19 +9099,6 @@
       ],
       "displayDate": "Sun 06 Apr",
       "url": "https://www.facebook.com/events/609956085282880",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:81915587-9cdd-44bc-9bd3-aaff77daadf4",
-      "name": "RPG Campaign: The Cursed Caravan",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481250942_1165659045355929_7783002194757476633_n.jpg?stp=c0.92.1683.804a_dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ZF4uZXsZCcMQ7kNvgGwtnmF&_nc_oc=Adl0UZu_OPFJfCwlXNv4kZmPQ2yKX9or39oPTEyyYNBrigcXXjtbqplM2JdJybzLeK00niQeKJY-5etc061s2QJi&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=rguC_rb0qYwMB3UdX-g_sw&oh=00_AYGCz5aEbVX2eAA63_lpdzVv4P6fDG_PNL9PG1xEPxZ4gw&oe=67DFE2CA",
-      "venue": "94 Manners Street, Wellington, New Zealand 6011",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/9951953104832363",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -10038,7 +9222,6 @@
         "12-05-2025",
         "19-05-2025",
         "26-05-2025",
-        "02-06-2025",
         "09-06-2025",
         "16-06-2025",
         "23-06-2025",
@@ -10072,45 +9255,6 @@
       ],
       "displayDate": "Sun 23 Mar",
       "url": "https://www.facebook.com/events/1657786525174405",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:594f4bbc-7aa1-40e6-b643-3eb3f929aa35",
-      "name": "Reb Fountain",
-      "imageUrl": "https://wellingtonnz.bynder.com/transform/19e90a4e-b1ea-4481-a4cf-8cf1483dd937/Reb-Fountain-1?io=transform:fill,width:230,height:230",
-      "venue": "The Opera House",
-      "dates": [
-        "02-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://www.wellingtonnz.com/visit/events/reb-fountain",
-      "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:acd2bdaf-27b9-44f6-a6f1-cb06030c385f",
-      "name": "Reb Fountain How Love Bends Tour | Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/476759249_603702935620458_5389207301387012908_n.jpg?stp=c0.31.2048.978a_dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=8HQsu7V55L0Q7kNvgGZgQKg&_nc_oc=AdkKU3A3g6G4UanURnHzN7Lw4aTbJRfjYz6r8St_ERnGq2XErDpzqNoEzgZiy6PfZPDSNcC6-08b2inA6czMujA0&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=ZRABQkSyixJF1rcRtEX3DA&oh=00_AYGDuo-0wRh3CQMoHFB21U0ge8QMc0ckRVQR6eynspLxtA&oe=67DFF732",
-      "venue": "The Opera House",
-      "dates": [
-        "02-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://www.facebook.com/events/1998480627335599",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:daba2187-97b1-4f3d-b306-ac15686707fd",
-      "name": "Reel Rock 19 Film Screening",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484303718_1208118934647087_7888873803923761195_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=dD5pH0NofEwQ7kNvgFo2bIJ&_nc_oc=AdlsElCZ_bnMnhm8Y0ViYgeWGRJvd5ep38D26xCUi9xTvqYKajyWXTvKOdM7diF9Ya7_9zpnEGkQBaIjb17pNwkX&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=mAplmMI1oqqK1I9GqduZ7g&oh=00_AYEac-BuTXXi3rt4O8c_CK77AldPEV4blrIWB3c2o_OsRg&oe=67DFEF44",
-      "venue": "Penthouse Cinema and Cafe, Wellington",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://www.facebook.com/events/663908576174048",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -10616,19 +9760,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:c93aff7f-8309-4eaf-9738-7a2a42d80d98",
-      "name": "Scots Got Talent 2025",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FASMZU8GTamyP5t0TU83r&w=1920&q=75",
-      "venue": "Scots College - College Hall",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://events.humanitix.com/scots-got-talent-2025?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:9beeab92-4853-4bc8-b86b-c30935256e51",
       "name": "Seamus Johnson & Chris Armour Play The Shed",
       "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FGTaKfQPRjWIM49g3b82A&w=1920&q=75",
@@ -10678,19 +9809,6 @@
       "displayDate": "Fri 21 Mar",
       "url": "https://www.facebook.com/events/613983237911409",
       "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:113183eb-c844-4309-9bfc-2dccf90ff515",
-      "name": "Serenades across cultures- songs by Edith Piaf, Jacques Brel, Charles Aznavour, Bessa, Fanja Andriamanantena and more",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FFxCAm03wSgaJLpbSHQMS&w=1920&q=75",
-      "venue": "St. Peter's on Willis",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://events.humanitix.com/serenades-across-cultures-songs-by-edith-piaf-jacques-brel-charles-aznavour-bessa-fanja-andriamanantena-and-more?hxchl=mkt-sch",
-      "source": "humanitix",
       "eventType": "Other"
     },
     {
@@ -10905,7 +10023,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -10938,8 +10055,7 @@
       "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx92849.jpg",
       "venue": "Sky Stadium Car Park, Wellington, New Zealand",
       "dates": [
-        "29-03-2025",
-        "02-05-2025"
+        "29-03-2025"
       ],
       "displayDate": "Sat 29 Mar to Fri 02 May",
       "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHXCPARK25",
@@ -10972,19 +10088,6 @@
       "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=BCWFPARK25",
       "source": "ticketek",
       "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:60f7832d-94be-4ff2-a7d8-1238b96d0c68",
-      "name": "Slow Jazz",
-      "imageUrl": "https://www.undertheradar.co.nz/images/image.php/95104-824879.jpeg?width=280&cropratio=1:1.4&image=/images/showImages/95104-824879.jpeg",
-      "venue": "Rogue And Vagabond",
-      "dates": [
-        "01-05-2025"
-      ],
-      "displayDate": "Thu 01 May",
-      "url": "https://www.undertheradar.co.nz/gig/95104/Slow-Jazz.utr",
-      "source": "rogue",
-      "eventType": "Music"
     },
     {
       "id": "urn:uuid:8871eab6-847d-4015-bbce-f29ac2e34c7b",
@@ -11035,19 +10138,6 @@
       ],
       "displayDate": "Thu 27 Mar",
       "url": "https://www.facebook.com/events/511365301769217",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:27c62fa3-de5f-472f-8a3b-5673facd5182",
-      "name": "Sourdough Doughnuts @ The Animal Medical Centre.",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484023828_1195875889206135_1271136286750063298_n.png?stp=c0.96.431.206a_dst-jpg_s431x205_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=fByMsqFCm_QQ7kNvgGoTguY&_nc_oc=Adm2KYyefHrYBBJO2EPbhu_qAo02JjSAv_ps7n-bddWXrl0GC0HbkUSmB5C1kTDatkfkTa67MRHRKm50CwjgFq46&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=mkbkUrixPwCz_AfCYltrbg&oh=00_AYE8BsqYwGxRD7Dug70zD_NqQb5ISyTik8xAexog4DUXzg&oe=67E01212",
-      "venue": "ANIMAL MEDICAL CENTRE. 114 Middleton Rd, Churton Park",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/541174238985451",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -11182,19 +10272,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:fd509691-2465-43ee-b5b3-a63fbd060d65",
-      "name": "Stabat Mater \u2014 Rossini",
-      "imageUrl": "https://wellingtonnz.bynder.com/transform/40ff87db-8b66-4d4e-b676-72b4f3c46352/NZSO-2025-Season-03?io=transform:fill,width:230,height:230",
-      "venue": "Michael Fowler Centre",
-      "dates": [
-        "02-10-2025"
-      ],
-      "displayDate": "Thu 02 Oct",
-      "url": "https://www.wellingtonnz.com/visit/events/new-zealand-symphony-orchestra-2025-season",
-      "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:1e5ceef3-f380-4b5c-b2a6-965568ce0a00",
       "name": "Stacking Rings - March",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2058951-878330-34.jpg?v=22",
@@ -11270,19 +10347,6 @@
       "displayDate": "Fri 24 Oct",
       "url": "https://www.wellingtonnz.com/visit/events/stardew-valley-symphony-of-seasons",
       "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:07f97d77-09f0-4440-875d-ba27e2e5d229",
-      "name": "Stargazing 101: Astronomy for Beginners",
-      "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2040766-870288-34.jpg?v=7",
-      "venue": "Space Place at Carter Observatory, Wellington",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.eventfinda.co.nz/2025/stargazing-101-astronomy-for-beginners5/wellington",
-      "source": "event finder",
       "eventType": "Other"
     },
     {
@@ -11378,7 +10442,6 @@
         "11-04-2025",
         "18-04-2025",
         "25-04-2025",
-        "02-05-2025",
         "09-05-2025",
         "16-05-2025",
         "23-05-2025",
@@ -11391,7 +10454,6 @@
         "11-07-2025",
         "18-07-2025",
         "25-07-2025",
-        "01-08-2025",
         "08-08-2025",
         "22-08-2025",
         "29-08-2025",
@@ -11399,7 +10461,6 @@
         "12-09-2025",
         "19-09-2025",
         "26-09-2025",
-        "03-10-2025",
         "10-10-2025",
         "17-10-2025",
         "24-10-2025",
@@ -11593,7 +10654,6 @@
         "22-06-2025",
         "06-07-2025",
         "20-07-2025",
-        "03-08-2025",
         "17-08-2025",
         "31-08-2025"
       ],
@@ -11749,19 +10809,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:2e499195-10f9-402b-beb7-44250e664518",
-      "name": "Swamp Princess Party: Doechii Appreciation Night - Wellington",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480806364_1025873232895663_5650880836070567441_n.jpg?stp=c0.29.1920.917a_dst-jpg_s640x640_tt6&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=bMt_XrmqtcoQ7kNvgEvP0NZ&_nc_oc=AdlOwWUHlSWjTX-6fu9RNH5Ym5BybWx0F-4ZD8VbnAGVO_yWsnLLs1npQXyENCvFRmvsllT9ObVmJwHyVVP3sQQ6&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=gXsMRzdY9gQYABAL09lgVw&oh=00_AYGl9HsNYafeC-W6URg9yApqrC-hrOz4kMs4mmvtt6BCmQ&oe=67E01179",
-      "venue": "San Fran",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.facebook.com/events/612324331581705",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:5e87f8ac-67e9-46f4-9dd2-bf1a9e9c490a",
       "name": "Sweet Treat Burlesque",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2063303-880430-34.jpg?v=2",
@@ -11786,7 +10833,6 @@
         "12-04-2025",
         "19-04-2025",
         "26-04-2025",
-        "03-05-2025",
         "10-05-2025",
         "17-05-2025",
         "24-05-2025",
@@ -12033,19 +11079,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:fcb75239-6d70-4fd6-9ad7-37a478ddc381",
-      "name": "Taming the Admin! April.25",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2F8WNGFW8yQlWx4pCw5Gub&w=1920&q=75",
-      "venue": "Carterton Community Courthouse",
-      "dates": [
-        "02-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://events.humanitix.com/taming-the-admin-rb5mhktm?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:3b383ab9-1313-4623-aeec-e3506ab61311",
       "name": "Taming the Admin! Oct.25",
       "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FqjdiwaDTxC29i0ze1M66&w=1920&q=75",
@@ -12176,21 +11209,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:8fc79d71-5975-4a59-b7bc-8e0b96ea0418",
-      "name": "Tea Pea WAREHOUSE Sale",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484146231_1068256092007050_136218170568279563_n.jpg?stp=c155.0.1610.768a_dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=WpoEDsZRcMMQ7kNvgEd_gMu&_nc_oc=AdnACSVUS8g45qDiSiyUnPpNIvha6CHTMOmyHI2-Z-93B0gIyTzc7DpGFLmvXb3SO3EEpeWw-AeIKMxUPZ13GDvn&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=5cirlDR-fDX14LrXW1AsVw&oh=00_AYFEKdlqvwHNq25ileag_DJv_fl-fBEQD-XOux4DGw_unA&oe=67E00807",
-      "venue": "35A Box Hl, Khandallah, Wellington 6035, New Zealand",
-      "dates": [
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025"
-      ],
-      "displayDate": "Tue 01 Apr",
-      "url": "https://www.facebook.com/events/553013647803075",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:27100247-6b60-4f13-8f8e-96153ec9ccab",
       "name": "Terror-Fi Presents: DEATH OF A UNICORN (Australasian Premiere - Wellington)",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481309834_934566738662410_5972750727014140157_n.jpg?stp=c0.29.1920.917a_dst-jpg_s640x640_tt6&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=tAvHLYiCwfEQ7kNvgEP__C-&_nc_oc=Adk-jyjvHpf7LA2goz1c489vfw7S-JGuFld8CpBw6gsUIElG5Bv9cKkBoZjNAqw2R7nN_BXf1CSbvv3Dy873l_c7&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=WZaLoHyNkbQcJw0ESdinFg&oh=00_AYGAxBz9U6Vny6nWyD4J9aon-M-bRgOi3gh9I10ArQ7xqA&oe=67DFE306",
@@ -12249,7 +11267,6 @@
       "venue": "Shady Lady, Wellington",
       "dates": [
         "25-03-2025",
-        "01-04-2025",
         "08-04-2025",
         "15-04-2025",
         "22-04-2025",
@@ -12258,11 +11275,9 @@
         "13-05-2025",
         "20-05-2025",
         "27-05-2025",
-        "03-06-2025",
         "10-06-2025",
         "17-06-2025",
         "24-06-2025",
-        "01-07-2025",
         "08-07-2025",
         "15-07-2025",
         "22-07-2025"
@@ -12418,19 +11433,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:668c9b27-4d80-4ab1-b5e9-4046fbe9ce41",
-      "name": "The DeSotos",
-      "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2064548-881071-34.jpg?v=2",
-      "venue": "The Undercurrent, Wellington",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.eventfinda.co.nz/2025/the-desotos/wellington",
-      "source": "event finder",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:b557551b-03e2-43ff-b7ea-0ef08b2798a1",
       "name": "The Dementia Wellington Heartland Flyer",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/482233363_1187311080062507_2088133511060373676_n.jpg?stp=c0.128.2048.978a_dst-jpg_s640x640_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=3hsrx4TaXXQQ7kNvgF3WZFj&_nc_oc=AdnVepE88IJ4RUQj1y9UAT0-mkd8QCm-KxOIouz15Dsem9-_eINr-FDvLF10-GiWg8MIw2ZZTu5a7Ekniqj_R76i&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=6hMjd34O56Meepg8OhaDaA&oh=00_AYHtK2dNd_J_fkc1TYO09uJ8mm4Om1RNHRcmAoVg7Z8Hig&oe=67DFFE58",
@@ -12527,9 +11529,7 @@
       "imageUrl": "https://wellingtonnz.bynder.com/transform/dcf8b091-8a0c-4aa7-9dc3-2a3a8eeb864e/RNZB-Season-2025-14?io=transform:fill,width:230,height:230",
       "venue": "St James Theatre",
       "dates": [
-        "30-04-2025",
-        "01-05-2025",
-        "02-05-2025"
+        "30-04-2025"
       ],
       "displayDate": "Wed 30 Apr to Sat 03 May",
       "url": "https://www.wellingtonnz.com/visit/events/royal-new-zealand-ballet-2025-season",
@@ -12557,7 +11557,6 @@
       "dates": [
         "19-03-2025",
         "26-03-2025",
-        "02-04-2025",
         "09-04-2025",
         "16-04-2025",
         "23-04-2025",
@@ -12566,19 +11565,6 @@
       "displayDate": "Wed 19 Mar",
       "url": "https://www.eventfinda.co.nz/2025/the-fringe-bar-comedy-club/wellington",
       "source": "event finder",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:284f0c8f-1ec0-41c9-8828-1e0029efde32",
-      "name": "The Jungle Giants",
-      "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx96042.jpg",
-      "venue": "Meow Nui, Wellington, New Zealand",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=JGIANTS25",
-      "source": "ticketek",
       "eventType": "Other"
     },
     {
@@ -12638,19 +11624,6 @@
       "displayDate": "Wed 26 Mar",
       "url": "https://www.facebook.com/events/1137964401445280",
       "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:01095fe1-7644-4d78-9f25-9531fb91fbb1",
-      "name": "The Manager's Toolbox",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FRESjVbIwT9e9dl5JAgyj&w=1920&q=75",
-      "venue": "46 Perry Street",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://events.humanitix.com/the-manager-s-toolbox?hxchl=mkt-sch",
-      "source": "humanitix",
       "eventType": "Other"
     },
     {
@@ -12714,9 +11687,6 @@
       "dates": [
         "30-10-2025",
         "31-10-2025",
-        "01-11-2025",
-        "02-11-2025",
-        "03-11-2025",
         "04-11-2025",
         "05-11-2025",
         "06-11-2025",
@@ -12737,19 +11707,6 @@
       ],
       "displayDate": "Fri 21 Mar",
       "url": "https://www.facebook.com/events/1534702747227048",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:239dc699-1e8e-43bc-bd5f-ebe4bff06140",
-      "name": "The Pines Market",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481465997_625103890279723_3244162306517472516_n.jpg?stp=c0.47.1640.782a_dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=R_pqhRHKMDwQ7kNvgH1n3hw&_nc_oc=AdnogMJImxTg5Vl0XZz8atMbO8lMz2M8ydLTFDiEZ3CzXquwiad7XKFdpzSVlQZfl9DZemJCFdDX0_CHL4E2qScm&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=SbvF9Tm1qdYBromWB6jMdw&oh=00_AYEDrrHkMXHezI-G4hCgJd8Jz5inLBd9XKUBSYnT3FLapA&oe=67DFFB5A",
-      "venue": "The Pines",
-      "dates": [
-        "03-05-2025"
-      ],
-      "displayDate": "Sat 03 May",
-      "url": "https://www.facebook.com/events/1433580368051473",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -12889,8 +11846,7 @@
         "28-07-2025",
         "29-07-2025",
         "30-07-2025",
-        "31-07-2025",
-        "01-08-2025"
+        "31-07-2025"
       ],
       "displayDate": "Sat 05 Jul to Sat 02 Aug",
       "url": "https://www.wellingtonnz.com/visit/events/circa-theatre-2025-season",
@@ -13067,19 +12023,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:f7618386-656e-45b3-b092-b6e7601e3287",
-      "name": "Their Eyes Were Flowers 'Radio' Release Show",
-      "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2067672-882652-34.jpg?v=2",
-      "venue": "Valhalla, Wellington",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.eventfinda.co.nz/2025/their-eyes-were-flowers-radio-release-show/wellington",
-      "source": "event finder",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:2a17308c-aa69-41f8-828e-b7591cee06fc",
       "name": "Their Eyes Were Flowers 'Radio' Single Release",
       "imageUrl": "https://www.undertheradar.co.nz/images/image.php/95334-922193.jpeg?width=280&cropratio=1:1.4&image=/images/showImages/95334-922193.jpeg",
@@ -13206,19 +12149,6 @@
       ],
       "displayDate": "Sat 10 May",
       "url": "https://www.facebook.com/events/9182078715204236",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:6a38b043-c3ab-4607-bf15-5c746f175f3f",
-      "name": "T\u016bhura Tech @ Waitohi",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/475038079_1024120966428303_3117493377504639534_n.jpg?stp=c361.0.1111.530a_dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=dtzdVgpGpD4Q7kNvgGvCtHI&_nc_oc=Adn5gj8xpFphV54PpThaRR1ISDjvoGED8l0dgFCwH8hKTP8spHf3E68SLXWR4UPov1kpMD6YzjVTAwTVTKUyOGvV&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=ZRABQkSyixJF1rcRtEX3DA&oh=00_AYGdQ9CUFNCR5IYu0Dm-etYQ4FZh0XnBBmLKwU5aF3kikQ&oe=67DFF800",
-      "venue": "34 Moorefield Road, Johnsonville, Wellington, New Zealand 6037",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/1844077643065079",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -13527,7 +12457,6 @@
       "imageUrl": "https://wellingtonnz.bynder.com/transform/3942bb0d-4649-4af1-9cdc-560c8f09253f/Vivienne-Westwood-Jewellery-09?io=transform:fill,width:230,height:230",
       "venue": "Museum of New Zealand Te Papa Tongarewa",
       "dates": [
-        "18-03-2025",
         "19-03-2025",
         "20-03-2025",
         "21-03-2025",
@@ -13541,9 +12470,6 @@
         "29-03-2025",
         "30-03-2025",
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025",
@@ -13647,11 +12573,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
         "24-04-2025",
-        "01-05-2025",
         "08-05-2025",
         "15-05-2025",
         "22-05-2025",
@@ -13660,7 +12584,6 @@
         "12-06-2025",
         "19-06-2025",
         "26-06-2025",
-        "03-07-2025",
         "10-07-2025",
         "17-07-2025",
         "24-07-2025",
@@ -13673,7 +12596,6 @@
         "11-09-2025",
         "18-09-2025",
         "25-09-2025",
-        "02-10-2025",
         "09-10-2025",
         "16-10-2025",
         "23-10-2025",
@@ -13689,19 +12611,6 @@
       "displayDate": "Thu 20 Mar",
       "url": "https://www.eventfinda.co.nz/2025/wrac-toddler-time/wellington",
       "source": "event finder",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:0aa70c12-eff2-4ae6-bacd-6f088a44305f",
-      "name": "WRRA Fitness Test",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/484903032_1474758583880008_1430370137326977303_n.jpg?stp=c0.47.750.358a_dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=SL9a9Bwt8rEQ7kNvgE-Fa4H&_nc_oc=AdlGmtntyDKfIlxRmutWMs3hfaGc8MLYTHaBnFisu3-c_gyMI2aAmx1LuT6FWKkDWyjU_qjwn_Xz7KoQuSoJjY-Z&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=rguC_rb0qYwMB3UdX-g_sw&oh=00_AYEg9OfX1J2eWJMhs6vOCPNkf3106fMxywDW1QgihRy7Eg&oe=67E01269",
-      "venue": "Petone Recreation Ground",
-      "dates": [
-        "17-03-2025"
-      ],
-      "displayDate": "Mon 17 Mar",
-      "url": "https://www.facebook.com/events/894710199328580",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -13819,32 +12728,6 @@
       "displayDate": "Fri 25 Apr",
       "url": "https://events.humanitix.com/war-and-peace-an-anzac-concert?hxchl=mkt-sch",
       "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:bed661c9-9fe5-4ce0-8dc7-61845feee047",
-      "name": "Wednesday GRASSHOPPER Karate for 3-6 years",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/478335147_1235992958534288_425480874541456303_n.jpg?stp=c159.0.642.306a_dst-jpg_s640x640_tt6&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=TkjmgCTKM8oQ7kNvgGaAb6j&_nc_oc=Adn61HGTljXd-ibl0L1DkhbBxC_L6MNiwDlUc1di0pBqxb4V9nZPkz6OrNUX2s9MlaHX1U1-gxzbTrjhpl288Ap8&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=5jxMR4Y6iIAZzrKGihqt6g&oh=00_AYHTIXOPgpFQSa_mxBfUJ1LKabVwWdZSbdVL-_pt_wGS0g&oe=67DFE38E",
-      "venue": "Brooklyn Community Centre",
-      "dates": [
-        "18-03-2025"
-      ],
-      "displayDate": "Tue 18 Mar",
-      "url": "https://www.facebook.com/events/1296863708308196",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:09fda4d1-4d98-4f74-a933-b03571f102f5",
-      "name": "Wednesday Wander, Tawatawa Reserve",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/481108935_10160937872788240_2675815265118848875_n.jpg?stp=c0.128.2048.977a_dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=hr7DMdZEJUIQ7kNvgFkH72F&_nc_oc=AdmivX-2VH8de1BiFA75GTRcstGmBD0wrCNUrrNot_9m5VoAryYKhtcoDp2Vlh8Ie9k1STBdx-1naCinwGoej_Fk&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=glZFX2pyn4x8cJIJGDCK5g&oh=00_AYFDui99sUj0CIB0tr_-_REP2fW1Y5cSvUfZDttRMfvH_g&oe=67DFE8B1",
-      "venue": "Owhiro Bay Pde, Wellington 6023, New Zealand",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://www.facebook.com/events/1183268203405993",
-      "source": "facebook",
       "eventType": "Other"
     },
     {
@@ -14085,19 +12968,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:da5e9799-9c55-473d-8928-6d7491e9bf23",
-      "name": "Wellington Italian Short Film Night - Show Me Shorts",
-      "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FqQsjYOeQT5etUvPuDMN6&w=1920&q=75",
-      "venue": "Southern Cross Garden Bar Restaurant",
-      "dates": [
-        "02-04-2025"
-      ],
-      "displayDate": "Wed 02 Apr",
-      "url": "https://events.humanitix.com/wellington-italian-short-film-night-show-me-shorts-j7qgr67b?hxchl=mkt-sch",
-      "source": "humanitix",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:fe7a4795-515c-4e76-bab9-4cf2ab7d45f0",
       "name": "Wellington Language Exchange",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2044776-872027-34.png?v=2",
@@ -14105,11 +12975,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
         "24-04-2025",
-        "01-05-2025",
         "08-05-2025"
       ],
       "displayDate": "Thu 20 Mar",
@@ -14137,9 +13005,6 @@
       "venue": "Thistle Hall Community Venue",
       "dates": [
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025"
       ],
       "displayDate": "Mon 31 Mar",
@@ -14166,8 +13031,7 @@
       "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx90493.jpg",
       "venue": "All Wellington Phoenix Bundles Games ",
       "dates": [
-        "20-10-2025",
-        "02-05-2025"
+        "20-10-2025"
       ],
       "displayDate": "Mon 20 Oct to Fri 02 May",
       "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHOENIX25",
@@ -14180,8 +13044,7 @@
       "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx92854.jpg",
       "venue": "Sky Stadium Wellington",
       "dates": [
-        "06-02-2025",
-        "02-05-2025"
+        "06-02-2025"
       ],
       "displayDate": "Thu 06 Feb to Fri 02 May",
       "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=WPXHOSPO25",
@@ -14194,8 +13057,7 @@
       "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx94285.jpg",
       "venue": "Sky Stadium Wellington New Zealand",
       "dates": [
-        "29-03-2025",
-        "02-05-2025"
+        "29-03-2025"
       ],
       "displayDate": "Sat 29 Mar to Fri 02 May",
       "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=EPHX0000025NC",
@@ -14304,32 +13166,6 @@
         "27-04-2025"
       ],
       "displayDate": "Sun 27 Apr",
-      "url": "https://www.wellingtonnz.com/visit/events/mills-albert-wellington-saints-2025-season",
-      "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:01adc54d-95d5-4302-a8d7-0a16b3b75afb",
-      "name": "Wellington Saints vs Canterbury Rams",
-      "imageUrl": "https://wellingtonnz.bynder.com/transform/a8372a29-317f-4e04-b395-28cff239835d/Mills-Albert-Saints-09?io=transform:fill,width:230,height:230",
-      "venue": "TSB Arena",
-      "dates": [
-        "01-07-2025"
-      ],
-      "displayDate": "Tue 01 Jul",
-      "url": "https://www.wellingtonnz.com/visit/events/mills-albert-wellington-saints-2025-season",
-      "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:72e08b2c-0424-45bf-8e19-b93e9817c134",
-      "name": "Wellington Saints vs Franklin Bulls",
-      "imageUrl": "https://wellingtonnz.bynder.com/transform/85ce815f-e83d-43ad-8d41-40051fd5b76d/Mills-Albert-Saints-10?io=transform:fill,width:230,height:230",
-      "venue": "TSB Arena",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
       "url": "https://www.wellingtonnz.com/visit/events/mills-albert-wellington-saints-2025-season",
       "source": "wellington nz",
       "eventType": "Other"
@@ -14621,19 +13457,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:fe868df1-3fd0-4dc7-9b09-ae4bbf480d43",
-      "name": "Women\u2019s Amateur Asia-Pacific Championship",
-      "imageUrl": "https://wellingtonnz.bynder.com/transform/0819fc0b-24a7-45bf-8867-404ccf865287/Women-s-Amateur-Asia-Pacific-Championship-4?io=transform:fill,width:230,height:230",
-      "venue": "Royal Wellington Golf Club, Upper Hutt",
-      "dates": [
-        "15-02-2025"
-      ],
-      "displayDate": "Sat 15 Feb",
-      "url": "https://www.wellingtonnz.com/visit/events/womens-amateur-asia-pacific-championship",
-      "source": "wellington nz",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:411b3b74-59d4-44b2-874d-9e55df8de784",
       "name": "Women\u2019s Phoenix FC vs Central Coast Mariners",
       "imageUrl": "https://wellingtonnz.bynder.com/transform/84a04c78-b119-4674-ae0c-8311dcc8432e/Wellington-Phoenix-06?io=transform:fill,width:230,height:230",
@@ -14738,19 +13561,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:e9d141e7-bc8b-4b0c-ab76-b95a397e59ad",
-      "name": "W\u0101 T\u0101karo- games and k\u014drero",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/482276297_1068060512025047_2152316480558567442_n.jpg?stp=c64.0.2184.1042a_dst-jpg_s640x640_tt6&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=yW1-5N-fUZsQ7kNvgEabPGh&_nc_oc=AdkEMZi0LArqvwh8gpHpH9O-U42g0Tv1lS5Ko7lZgXUBMwXFR-eRKCDIJUEO2X1mRggSIIcv4dvZ1eAc6qj_UYCE&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=Qwyo3_N5Bvr_Ft1_JSnayg&oh=00_AYEmpBqcovQe0r3gXDKSJv7KYjH3fn1rVjeQ5EecZ-SPvw&oe=67E00A3D",
-      "venue": "9 Batchelor Street, Newlands, Wellington, New Zealand 6037",
-      "dates": [
-        "01-04-2025"
-      ],
-      "displayDate": "Tue 01 Apr",
-      "url": "https://www.facebook.com/events/587703050934698",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:2605eb35-96ce-4553-bb48-9a4609c12c90",
       "name": "YLC x MAS Wine & Cheese",
       "imageUrl": "https://humanitix.com/_next/image?url=https%3A%2F%2Fcdn.filestackcontent.com%2Fquality%3Dvalue%3A75%2Foutput%3Dformat%3Ajpg%2Fresize%3Dwidth%3A496%2FNiRCd7MaR321G6M4JVsA&w=1920&q=75",
@@ -14797,11 +13607,9 @@
       "dates": [
         "20-03-2025",
         "27-03-2025",
-        "03-04-2025",
         "10-04-2025",
         "17-04-2025",
-        "24-04-2025",
-        "01-05-2025"
+        "24-04-2025"
       ],
       "displayDate": "Thu 20 Mar",
       "url": "https://www.eventfinda.co.nz/2025/yoga-class-koha/wellington",
@@ -14854,19 +13662,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:28e37ee1-2282-4dc4-9cc0-19833b333462",
-      "name": "Yoga with Bubs!",
-      "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2059174-878431-34.jpg?v=2",
-      "venue": "Awhi Yoga and Wellbeing Centre, Wellington",
-      "dates": [
-        "20-02-2025"
-      ],
-      "displayDate": "Thu 20 Feb",
-      "url": "https://www.eventfinda.co.nz/2025/yoga-with-bubs/wellington",
-      "source": "event finder",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:e7c92108-2437-48c1-a426-e3c324f8f31b",
       "name": "Yoga with Kevin",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/476486821_660378486338830_5038025717127268493_n.jpg?stp=c0.58.2048.977a_dst-jpg_s640x640_tt6&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=6Fys20r5CY8Q7kNvgGXKc8d&_nc_oc=AdmH2IMPvIjlA--qGQaCmRcOCtoQ6CzmULoLxKqWBHYyjoIlvi6unvZgDl0tmLJq-saeTIosrqlhDmZnBmv6H4BJ&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=5jxMR4Y6iIAZzrKGihqt6g&oh=00_AYEUtnZKsNqYXcizQ-ONhLWlKukTBXb4Lxrbd7xFQmlkgQ&oe=67E00384",
@@ -14906,19 +13701,6 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:9a7a5637-81d6-4204-8bf6-81575df41aba",
-      "name": "Youth Paint 'n' Sip | Te Tai Ohinga",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/482348017_623896703678584_6914442270828085531_n.jpg?stp=c0.54.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=TVcmASJMcE4Q7kNvgGDm6Wb&_nc_oc=AdmfcMBxjS95eHy2L1Jxy1DWKzwfumCTL5CmGLBNb_6BDvUGZXwY2xOVLNdZxsfqGxbMhxihoYRWuLzNR9DV3mQQ&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=gSc4-SBsYEgK6OqzgTdkFw&oh=00_AYEYy-ewX1pY6sMaytKLc8eMBPgSXWjUnIpPSa1x1-LKNQ&oe=67DFE7AE",
-      "venue": "203 Willis Street, Te Aro, Wellington, 6011 | Te Tai Ohinga",
-      "dates": [
-        "17-03-2025"
-      ],
-      "displayDate": "Mon 17 Mar",
-      "url": "https://www.facebook.com/events/1613770045899025",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:8b72aedc-4fed-466d-9ee7-71eda6f0423b",
       "name": "Yurt Party - Single Release Tour 'The Gambler'",
       "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/480194560_1197241915744558_7197291847795427444_n.jpg?stp=c0.29.1920.917a_dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=OePr4cDboKkQ7kNvgHCnQNf&_nc_oc=AdkTUuRv5K9YyqAjCmyrn5AfFlZk_BxfHMVabcwUzg-Vslu9OuDWF4GdeVl6HCSZ8uit4IDW1dQrYMMTlHwWkS_w&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=LQECGh6BpTZWia9_OyOJmg&oh=00_AYHYSB6iBBhQS4AOJmEkGVnnLjsDwqX6gHHrEG7doRM_pw&oe=67DFEA52",
@@ -14928,19 +13710,6 @@
       ],
       "displayDate": "Sat 12 Apr",
       "url": "https://www.facebook.com/events/2661903777328642",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
-      "id": "urn:uuid:3676c20b-946c-45ef-9b6b-daa508f8a7f5",
-      "name": "ZM Presents Mills Albert Saints vs Franklin Bulls",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/472714196_1062883652518094_4377522330416861432_n.jpg?stp=c0.44.1920.916a_dst-jpg_s640x640_tt6&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=3TMShv3SkZEQ7kNvgFWdqsP&_nc_oc=Adm0j0cv90jWAbxtCo-lnjdypiJ7WxM86eP59Z6wEYSmwE8UP0CqzhNAvtxPftgq1AX9UoNQEbItFguWWYmnGUJk&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=rg_m2no3BSoccyTpsxJ7Ug&oh=00_AYEnNUK4SuN5HtV2AqITNb6B-PEQRMhfSEms4FZvlGYLNQ&oe=67E00DA8",
-      "venue": "TSB Arena",
-      "dates": [
-        "03-04-2025"
-      ],
-      "displayDate": "Thu 03 Apr",
-      "url": "https://www.facebook.com/events/1337080837448633",
       "source": "facebook",
       "eventType": "Other"
     },
@@ -15052,25 +13821,11 @@
       "eventType": "Other"
     },
     {
-      "id": "urn:uuid:c733af55-04b1-4956-947c-3c1c4a74d6ba",
-      "name": "\u014ctari Glow Worm Tour",
-      "imageUrl": "https://scontent.faqp1-1.fna.fbcdn.net/v/t39.30808-6/483980803_1074978474669194_1648084866335190125_n.jpg?stp=c57.0.1056.504a_dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=pQh1947NfSwQ7kNvgGZugNS&_nc_oc=Adkk0u_hnDhY6Y7XKVyKoUI8zAJAagJidBiuWf-DrPTYVBGjNh4qrkjtHbcA3NxUQuaST3G0ysV-sA5qXa8NqttZ&_nc_zt=23&_nc_ht=scontent.faqp1-1.fna&_nc_gid=oMP7Cpj9pqS68nvWTbUzfw&oh=00_AYEcc91-RgJZnEBwNNRrAK_WXjuO_wv1_MRu2j_OzQr-Rw&oe=67DFF407",
-      "venue": "Otari-Wilton's Bush",
-      "dates": [
-        "02-05-2025"
-      ],
-      "displayDate": "Fri 02 May",
-      "url": "https://www.facebook.com/events/3932279250420379",
-      "source": "facebook",
-      "eventType": "Other"
-    },
-    {
       "id": "urn:uuid:6340b5f0-5d23-45ff-a160-ec4b3d784cd9",
       "name": "\u014ctari Raranga Weavers 2025 Season",
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2057204-876707-34.jpg",
       "venue": "\u014ctari-Wilton\u2019s Bush, Wellington",
       "dates": [
-        "18-03-2025",
         "19-03-2025",
         "20-03-2025",
         "21-03-2025",
@@ -15084,9 +13839,6 @@
         "29-03-2025",
         "30-03-2025",
         "31-03-2025",
-        "01-04-2025",
-        "02-04-2025",
-        "03-04-2025",
         "04-04-2025",
         "05-04-2025",
         "06-04-2025",
@@ -15114,9 +13866,6 @@
         "28-04-2025",
         "29-04-2025",
         "30-04-2025",
-        "01-05-2025",
-        "02-05-2025",
-        "03-05-2025",
         "04-05-2025",
         "05-05-2025",
         "06-05-2025",
@@ -15156,8 +13905,7 @@
       "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2062406-880034-34.jpg",
       "venue": "T\u0101ne Whakapiripiri - \u014ctari Visitors Centre, Wellington",
       "dates": [
-        "25-03-2025",
-        "01-04-2025"
+        "25-03-2025"
       ],
       "displayDate": "Tue 25 Mar",
       "url": "https://www.eventfinda.co.nz/2025/otari-seminar-series-2025/wellington",

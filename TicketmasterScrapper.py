@@ -69,7 +69,7 @@ class TicketmasterScrapper:
                     date_str = event[PossibleKeys.dates][PossibleKeys.startDate]
                     try:
                         date = datetime.fromisoformat(date_str.replace("Z", "+00:00")).replace(tzinfo=None)
-                        current_date = datetime.utcnow()
+                        current_date = datetime.now()
                         if (date - current_date).days > 30:
                             if index == 0:
                                 return events
