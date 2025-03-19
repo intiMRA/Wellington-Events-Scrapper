@@ -5,9 +5,50 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from datetime import datetime
+from dateutil import parser
+import json
 
 
 class TicketekScrapper:
+    @staticmethod
+    def extractEvents(url: str, nationWide: bool) -> [EventInfo]:
+        events = []
+        response = requests.get(url)
+        if response.status_code != 200:
+            return []
+        soup = BeautifulSoup(response.text, "html.parser")
+        htmlEvents = soup.find_all("div", attrs={"class": "event-item"})
+        hasWellingtonTitle = any("- Wellington" in event.find("h6").text for event in htmlEvents)
+        for htmlEvent in htmlEvents:
+            try:
+                title = htmlEvent.find("h6").text
+                imageURL = htmlEvent.find("img").get("src")
+                dateString, venue = htmlEvent.find("div", attrs={"class": "event-venue-dates"}).find_all("p")
+                dateString = dateString.text
+                dateString = re.findall(r"\d+ [aA-zZ]{3} [0-9]{4}", dateString)[0]
+                venue = venue.text
+                date = parser.parse(dateString)
+                eventUrl = htmlEvent.find("a").get("href")
+                dateStamp = DateFormatting.formatDateStamp(date)
+                displayDate = DateFormatting.formatDisplayDate(date)
+                title = re.sub(r"([\t\n\r])", "", title).strip()
+                venue = re.sub(r"([\t\n\r])", "", venue).strip()
+                if hasWellingtonTitle and "wellington" not in title.lower():
+                    continue
+                if nationWide and "wellington" not in title.lower() and "wellington" not in venue.lower():
+                    continue
+
+                events.append(EventInfo(name=title,
+                                        dates=[dateStamp],
+                                        displayDate=displayDate,
+                                        image="https://" + imageURL,
+                                        url=eventUrl,
+                                        venue=venue,
+                                        source="ticketek",
+                                        eventType="Other"))
+            except Exception as e:
+                print("error: ", e)
+        return events
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
@@ -67,6 +108,10 @@ class TicketekScrapper:
                     dates = re.findall(pattern, date)
                     dateStamps = []
                     displayDate = None
+                    if len(dates) > 1 or venue == "Nationwide":
+                        events = TicketekScrapper.extractEvents(url, venue == "Nationwide")
+                        eventsInfo += events
+                        continue
                     for d in dates:
                         try:
                             date_obj = datetime.strptime(d, '%d %b %Y %I %M%p')
@@ -80,6 +125,8 @@ class TicketekScrapper:
                         if dateStamp not in dateStamps:
                             dateStamps.append(dateStamp)
 
+                    title = re.sub(r"([\t\n\r])", "", title).strip()
+                    venue = re.sub(r"([\t\n\r])", "", venue).strip()
                     eventsInfo.append(EventInfo(name=title,
                                                 dates=dateStamps,
                                                 displayDate=displayDate,
@@ -102,4 +149,6 @@ class TicketekScrapper:
         return eventsInfo
 
 
-TicketekScrapper.fetch_events()
+# events = list(map(lambda x: x.to_dict(), sorted(TicketekScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)
