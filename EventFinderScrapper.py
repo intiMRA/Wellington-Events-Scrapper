@@ -71,7 +71,7 @@ class EventFinderScrapper:
                         start, last = dateString.split("–")
                         start_date_obj = datetime.strptime(start, "%Y-%m-%d")
                         end_date_obj = datetime.strptime(last, "%Y-%m-%d")
-                        range = pandas.date_range(start_date_obj, end_date_obj - timedelta(days=1))
+                        range = DateFormatting.createRange(start_date_obj, end_date_obj)
                         if startDate == None:
                             startDate = DateFormatting.formatDisplayDate(start_date_obj)
                         for date in range:

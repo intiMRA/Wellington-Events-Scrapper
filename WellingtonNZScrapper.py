@@ -54,7 +54,7 @@ class WellingtonNZScrapper:
                     startDate = parser.parse(startDateString)
                     endDate = parser.parse(endDateString)
 
-                    range = pandas.date_range(startDate, endDate - timedelta(days=1))
+                    range = DateFormatting.createRange(startDate, endDate)
 
                     dateStamps = list(map(lambda x: DateFormatting.formatDateStamp(x), range))
                     displayDate = DateFormatting.formatDisplayDate(
@@ -67,7 +67,7 @@ class WellingtonNZScrapper:
                     startDate = parser.parse(startDateString)
                     endDate = parser.parse(endDateString)
 
-                    range = pandas.date_range(startDate, endDate - timedelta(days=1))
+                    range = DateFormatting.createRange(startDate, endDate)
 
                     dateStamps = list(map(lambda x: DateFormatting.formatDateStamp(x), range))
                     displayDate = DateFormatting.formatDisplayDate(
