@@ -1,5 +1,6 @@
 import uuid
 from uuid import uuid4
+from dateutil import parser
 
 class EventInfo:
     id: str
@@ -40,11 +41,12 @@ class EventInfo:
         @type eventType: str
         @param eventType: The type of event.
         """
-        self.id = uuid4().urn
+        self.id = f"{name}-{venue}-{source}"
         self.name = name
         self.image = image
         self.venue = venue
         self.dates = dates
+        sorted(self.dates, key=lambda date: parser.parse(date))
         self.displayDate = displayDate
         self.url = url
         self.source = source
