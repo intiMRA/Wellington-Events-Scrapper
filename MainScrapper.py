@@ -53,11 +53,8 @@ filtered = []
 eventsDict = {}
 
 for event in data:
-    dates = []
-    for date in event.dates:
-        if parser.parse(date) < datetime.now():
-            continue
-        dates.append(date)
+    dates = event.dates
+    dates = list(filter(lambda x: parser.parse(x) < datetime.now(), dates))
     if not dates:
         continue
     event = EventInfo(name=event.name,
