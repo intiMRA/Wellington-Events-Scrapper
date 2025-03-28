@@ -5,7 +5,7 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from datetime import datetime
-
+import json
 
 class RougueScrapper:
 
@@ -38,17 +38,22 @@ class RougueScrapper:
                         url = a_tag.get('href')
                 date_format = '%a %d %B %I %M%p'
                 date = datetime.strptime(DateFormatting.cleanUpDate(dateString), date_format)
-                dateStamp = DateFormatting.formatDateStamp(date)
-                displayDate = DateFormatting.formatDisplayDate(date)
-                eventsInfo.append(EventInfo(name=title,
-                                            dates=[dateStamp],
-                                            displayDate=displayDate,
-                                            image=imageURL,
-                                            url=url,
-                                            venue=venue,
-                                            source="rogue",
-                                            eventType="Music"))
+                date = date.replace(year=datetime.now().year)
+                try:
+                    eventsInfo.append(EventInfo(name=title,
+                                                dates=[date],
+                                                image=imageURL,
+                                                url=url,
+                                                venue=venue,
+                                                source="rogue",
+                                                eventType="Music"))
+                except Exception as e:
+                    print(f"rogue: {e}")
         else:
             print(f"Failed to retrieve the page. Status code: {response.status_code}")
 
         return eventsInfo
+
+# events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)

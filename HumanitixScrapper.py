@@ -7,29 +7,33 @@ import re
 from datetime import datetime
 from DateFormatting import DateFormatting
 import json
+from dateutil import parser
 
 
 class HumanitixScrapper:
     @staticmethod
     def get_date(dateString: str) -> [datetime]:
-        if re.findall(r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[ampAMP]+)", dateString):
-            matchString = re.findall(r"([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})", dateString)[0]
+        try:
+            if re.findall(r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[ampAMP]+)", dateString):
+                matchString = re.findall(r"([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})", dateString)[0]
 
-            date = datetime.strptime(matchString, '%a, %d %b')
-            return [date]
-        elif re.findall(
-                r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s-\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s[aA-zZ]*)",
-                dateString):
-            startDateString = re.findall(r'([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})', dateString)[0]
-            endDateString = re.findall(r'(\d{1,2}\s[aA-zZ]{3})', dateString)[-1]
-            startDate = datetime.strptime(startDateString, '%a, %d %b')
-            endDate = datetime.strptime(endDateString, '%d %b')
-            return [startDate, endDate]
-        else:
-            print("fail")
+                date = parser.parse(matchString)
+                return [date]
+            elif re.findall(
+                    r"([A-Za-z]{3},\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s-\s\d+\s[aA-zZ]{3},\s\d+([:]*\d{1,2})?[amp]+\s[aA-zZ]*)",
+                    dateString):
+                startDateString = re.findall(r'([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})', dateString)[0]
+                endDateString = re.findall(r'(\d{1,2}\s[aA-zZ]{3})', dateString)[-1]
+                startDate = parser.parse(startDateString)
+                endDate = parser.parse(endDateString)
+                return [startDate, endDate]
+            else:
+                print("fail")
+                print(dateString)
+                print("-" * 15)
+                return []
+        except:
             print(dateString)
-            print("-" * 15)
-            return []
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
@@ -60,27 +64,15 @@ class HumanitixScrapper:
                     imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
                     eventUrl = event.get_attribute('href')
                     dates = HumanitixScrapper.get_date(dateString)
-                    if len(dates) == 2:
-                        startDate, endDate = dates
-                        dateStamp = DateFormatting.formatDateStamp(startDate)
-                        lastDateStamp = DateFormatting.formatDateStamp(endDate)
-                        dateStamps = [dateStamp, lastDateStamp]
-                        displayDate = DateFormatting.formatDisplayDate(
-                            startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
-                    else:
-                        date = dates[0]
-                        dateStamps = [DateFormatting.formatDateStamp(date)]
-                        displayDate = DateFormatting.formatDisplayDate(date)
                     events.append(EventInfo(name=title,
-                                            dates=dateStamps,
-                                            displayDate=displayDate,
+                                            dates=dates,
                                             image=imageURL,
                                             url=eventUrl,
                                             venue=venue,
                                             source="humanitix",
                                             eventType="Other"))
                 except Exception as e:
-                    print(e)
+                    print(f"humanitix: {e}")
                     print("error: ", event.text)
             page += 1
         return events
