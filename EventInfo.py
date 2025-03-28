@@ -1,6 +1,10 @@
 import uuid
 from uuid import uuid4
 from dateutil import parser
+from datetime import datetime
+from DateFormatting import DateFormatting
+from numpy.f2py.auxfuncs import throw_error
+
 
 class EventInfo:
     id: str
@@ -18,8 +22,7 @@ class EventInfo:
             name: str,
             image: str,
             venue: str,
-            dates: [str],
-            displayDate: str,
+            dates: [datetime],
             url: str,
             source: str,
             eventType: str):
@@ -45,9 +48,17 @@ class EventInfo:
         self.name = name
         self.image = image
         self.venue = venue
-        self.dates = dates
-        sorted(self.dates, key=lambda date: parser.parse(date))
-        self.displayDate = displayDate
+        ogDates = dates
+        dates = list(filter(lambda date: date >= datetime.now(), dates))
+        dates = list(sorted(dates, key=lambda date: date))
+        if not dates:
+            print(f"in: {ogDates}")
+            print(f"out: {dates}")
+            raise Exception(f"No dates found for: {name}")
+        self.displayDate = DateFormatting.formatDisplayDate(dates[0]) \
+            if len(dates) == 1 \
+            else f"{DateFormatting.formatDisplayDate(dates[0])} to {DateFormatting.formatDisplayDate(dates[-1])}"
+        self.dates = list(map(lambda date: DateFormatting.formatDateStamp(date), dates))
         self.url = url
         self.source = source
         self.eventType = eventType

@@ -29,25 +29,21 @@ class TicketekScrapper:
                 venue = venue.text
                 date = parser.parse(dateString)
                 eventUrl = htmlEvent.find("a").get("href")
-                dateStamp = DateFormatting.formatDateStamp(date)
-                displayDate = DateFormatting.formatDisplayDate(date)
                 title = re.sub(r"([\t\n\r])", "", title).strip()
                 venue = re.sub(r"([\t\n\r])", "", venue).strip()
                 if hasWellingtonTitle and "wellington" not in title.lower():
                     continue
                 if nationWide and "wellington" not in title.lower() and "wellington" not in venue.lower():
                     continue
-
                 events.append(EventInfo(name=title,
-                                        dates=[dateStamp],
-                                        displayDate=displayDate,
+                                        dates=[date],
                                         image="https://" + imageURL,
                                         url=eventUrl,
                                         venue=venue,
                                         source="ticketek",
                                         eventType="Other"))
             except Exception as e:
-                print("error: ", e)
+                print("tiket error: ", e)
         return events
 
     @staticmethod
@@ -104,37 +100,31 @@ class TicketekScrapper:
                                 url = f"https://premier.ticketek.co.nz{urlTag}"
 
                     date = re.sub(':', ' ', date)
-                    pattern = r"(\d{1,2} [A-Za-z]{3} \d{4}(?: \d{1,2} \d{2}[ap]m)?)"
+                    pattern = r"(\d{1,2} [A-Za-z]{3} \d{4})"
                     dates = re.findall(pattern, date)
-                    dateStamps = []
-                    displayDate = None
+                    dateObjects = []
                     if len(dates) > 1 or venue == "Nationwide":
                         events = TicketekScrapper.extractEvents(url, venue == "Nationwide")
                         eventsInfo += events
                         continue
                     for d in dates:
-                        try:
-                            date_obj = datetime.strptime(d, '%d %b %Y %I %M%p')
-                        except:
-                            date_obj = datetime.strptime(d, '%d %b %Y')
-                        if displayDate == None:
-                            displayDate = DateFormatting.formatDisplayDate(date_obj)
-                        else:
-                            displayDate += " to " + DateFormatting.formatDisplayDate(date_obj)
-                        dateStamp = DateFormatting.formatDateStamp(date_obj)
-                        if dateStamp not in dateStamps:
-                            dateStamps.append(dateStamp)
+
+                        date_obj = parser.parse(d)
+                        if date_obj not in dateObjects:
+                            dateObjects.append(date_obj)
 
                     title = re.sub(r"([\t\n\r])", "", title).strip()
                     venue = re.sub(r"([\t\n\r])", "", venue).strip()
-                    eventsInfo.append(EventInfo(name=title,
-                                                dates=dateStamps,
-                                                displayDate=displayDate,
-                                                image="https://" + imageURL,
-                                                url=url,
-                                                venue=venue,
-                                                source="ticketek",
-                                                eventType="Other"))
+                    try:
+                        eventsInfo.append(EventInfo(name=title,
+                                                    dates=dateObjects,
+                                                    image="https://" + imageURL,
+                                                    url=url,
+                                                    venue=venue,
+                                                    source="ticketek",
+                                                    eventType="Other"))
+                    except Exception as e:
+                        print(f"tiket: {e}")
                 tag = soup.find_all('div', class_='paginationResults')
                 tag = re.sub('\W+', ' ', tag[0].text).strip().split(" of ")
                 firstTag = tag[0].split(" ")[-1].strip()

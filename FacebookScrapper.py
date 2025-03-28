@@ -44,21 +44,21 @@ class FacebookScrapper:
             return None  # Or raise a more specific exception
 
     @staticmethod
-    def parseDate(date: str) -> ([str], str):
+    def parseDate(date: str) -> [datetime]:
         try:
             today = datetime.now()
 
             # Check if the string mentions "Tomorrow" or "Today"
             if "Tomorrow" in date:
                 target_date = today + timedelta(days=1)
-                return [DateFormatting.formatDateStamp(target_date)], DateFormatting.formatDisplayDate(target_date)
+                return [target_date]
             elif "Today" in date:
                 target_date = today
-                return [DateFormatting.formatDateStamp(target_date)], DateFormatting.formatDisplayDate(target_date)
+                return [target_date]
             elif "This" in date:
                 day = date.split(" ")[1]
                 date_object = FacebookScrapper.parse_day_of_week(day)
-                return [DateFormatting.formatDateStamp(date_object)], DateFormatting.formatDisplayDate(date_object)
+                return [date_object]
             elif "-" in date and len(date.split("-")[-1]) > 3:
                 parts = date.split(",")[1].split("-")
                 firstPart, secondPart = parts[0], parts[1]
@@ -66,27 +66,17 @@ class FacebookScrapper:
                 secondPart = secondPart.strip()
                 startDate = parser.parse(firstPart)
                 endDate = parser.parse(secondPart)
-                range = DateFormatting.createRange(startDate, endDate)
-                dateStamps = []
-                for date in range:
-                    stamp = DateFormatting.formatDateStamp(date)
-                    if stamp in dateStamps:
-                        continue
-                    dateStamps.append(stamp)
-
-                if not dateStamps:
-                    date = parser.parse(firstPart)
-                    return [DateFormatting.formatDateStamp(date)], DateFormatting.formatDisplayDate(date)
-                return dateStamps, DateFormatting.formatDisplayDate(startDate)
+                dates = list(DateFormatting.createRange(startDate, endDate))
+                return dates
             elif "," in date:
                 dateString = " ".join(date.split(",")[-1].strip().split(" ")[:2])
                 date = parser.parse(dateString)
-                return [DateFormatting.formatDateStamp(date)], DateFormatting.formatDisplayDate(date)
+                return [date]
             else:
-                print(date)
+                print(f"facebook: {date}")
                 return None
         except Exception as e:
-            print("date: ", date, " error: ", e)
+            print("facebook date: ", date, " error: ", e)
             return None
 
     @staticmethod
@@ -114,7 +104,7 @@ class FacebookScrapper:
                     title = filtered[1]
                     if title in newEventTitles.keys():
                         continue
-                    dates, displayDate = FacebookScrapper.parseDate(date)
+                    dates = FacebookScrapper.parseDate(date)
                     venue = filtered[2]
                     eventUrl = event.get_attribute('href')
                     regex = r'https://www.facebook.com/events/\d+'
@@ -123,15 +113,14 @@ class FacebookScrapper:
 
                     newEventTitles[title] = EventInfo(name=title,
                                                       dates=dates,
-                                                      displayDate=displayDate,
                                                       image=imageUrl,
                                                       url=eventUrl,
                                                       venue=venue,
                                                       source="facebook",
                                                       eventType="Other")
                 except Exception as e:
-                    if len(event.text) > 50:
-                        print("error: ", e)
+                    if f"{e}" != "list index out of range":
+                        print("facebook error: ", e)
                     continue
             if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 500:
                 driver.close()
@@ -143,7 +132,6 @@ class FacebookScrapper:
     def fetch_events() -> [EventInfo]:
         # Path to your Chrome profile directory
         profile_path = "/Users/ialbuquerque/ChromeTestProfile"  # Replace with your actual path
-        print(profile_path)
         # Set Chrome options
         options = Options()
         options.add_argument(f"user-data-dir={profile_path}")

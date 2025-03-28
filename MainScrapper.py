@@ -53,18 +53,6 @@ filtered = []
 eventsDict = {}
 
 for event in data:
-    dates = event.dates
-    dates = list(filter(lambda x: parser.parse(x) < datetime.now(), dates))
-    if not dates:
-        continue
-    event = EventInfo(name=event.name,
-                              dates=dates,
-                              displayDate=event.displayDate,
-                              image=event.image,
-                              url=event.url,
-                              venue=event.venue,
-                              source=event.source,
-                              eventType=event.eventType)
     name = re.sub('\W+', ' ', event.name).replace(" ", "")
     if name not in eventsDict:
         eventsDict[name] = event
@@ -75,8 +63,6 @@ for event in data:
 
 data = list(eventsDict.values())
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
-eventsWithNoDate = list(filter(lambda x: not x["dates"], data))
-events = list(filter(lambda x: x not in eventsWithNoDate, data))
 filters = {
     "sources": [
         "san fran",
@@ -96,10 +82,7 @@ filters = {
     ]
 }
 with open("events.json", "w") as write:
-    write.write('{ "eventsWithNoDate":')
-    json.dump(eventsWithNoDate, write)
-    write.write(',')
-    write.write('"events":')
+    write.write('{ "events":')
     json.dump(data, write)
     write.write(',')
     write.write('"filters":')

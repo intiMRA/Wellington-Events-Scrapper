@@ -10,6 +10,7 @@ from selenium.webdriver.ie.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from dateutil import parser
 import pandas
 import json
 
@@ -49,8 +50,8 @@ class EventFinderScrapper:
         return None
 
     @staticmethod
-    def getAllEventDates(url: str, title: str) -> ([str], str):
-        dateStamps = []
+    def getAllEventDates(url: str, title: str) -> [datetime]:
+        dateObjects = []
         try:
             driver = webdriver.Chrome()
             driver.get(url)
@@ -71,29 +72,19 @@ class EventFinderScrapper:
                         start, last = dateString.split("–")
                         start_date_obj = datetime.strptime(start, "%Y-%m-%d")
                         end_date_obj = datetime.strptime(last, "%Y-%m-%d")
-                        range = DateFormatting.createRange(start_date_obj, end_date_obj)
-                        if startDate == None:
-                            startDate = DateFormatting.formatDisplayDate(start_date_obj)
-                        for date in range:
-                            stamp = DateFormatting.formatDateStamp(date)
-                            if stamp in dateStamps:
-                                continue
-                            dateStamps.append(stamp)
+                        dateObjects = list(DateFormatting.createRange(start_date_obj, end_date_obj))
                     else:
                         date_obj = datetime.strptime(dateString, '%Y-%m-%d')
-                        dateStamp = DateFormatting.formatDateStamp(date_obj)
-                        if startDate is None:
-                            startDate = DateFormatting.formatDisplayDate(date_obj)
-                        dateStamps.append(dateStamp)
+                        dateObjects.append(date_obj)
                 except Exception as e:
                     print("error: ", dateString, " title: ", title)
-                    print(e)
+                    print(f"event finder: {e}")
             driver.close()
-            return dateStamps, startDate
+            return dateObjects
         except Exception as e:
             print("error: ", url, " title: ", title)
-            print(e)
-        return dateStamps, None
+            print(f"event finder: {e}")
+        return dateObjects
 
     @staticmethod
     def getEvents(url: str) -> [EventInfo]:
@@ -122,38 +113,42 @@ class EventFinderScrapper:
                 eventURL = title_element.get_attribute("href")
                 metaDate = event.find_element(By.CLASS_NAME, "meta-date").text
                 date = event.find_element(By.CLASS_NAME, 'dtstart').text
-                dataStamps = None
+                dates = []
                 if "more dates" in metaDate:
-                    dataStamps, displayDate = EventFinderScrapper.getAllEventDates(eventURL, title)
+                    dates = EventFinderScrapper.getAllEventDates(eventURL, title)
                 elif "Tomorrow" in date or "Today" in date:
                     dateObject = EventFinderScrapper.get_time_from_string(date)
-                    displayDate = DateFormatting.formatDisplayDate(dateObject)
-                    dateStamp = DateFormatting.formatDateStamp(dateObject)
+                    dates.append(dateObject)
                 else:
                     cleaned_date_str = DateFormatting.cleanUpDate(date)
                     try:
                         date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %I:%M%p')
+                        dates.append(date_obj)
                     except:
-                        print("error: " + date)
+                        print("event finder error: " + date)
                         print("title: " + event.find_element(By.CLASS_NAME, 'card-title').text)
                         if cleaned_date_str:
                             date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %Y %I:%M%p')
+                            dates.append(date_obj)
                     if not date_obj:
-                        date_obj = datetime.now()
-                    displayDate = DateFormatting.formatDisplayDate(date_obj)
-                    dateStamp = DateFormatting.formatDateStamp(date_obj)
-                if not dataStamps:
-                    dataStamps = [dateStamp]
-                venue = event.find_element(By.CLASS_NAME, 'p-locality').text
-                events.append(EventInfo(
-                    name=title,
-                    dates=dataStamps,
-                    displayDate=displayDate,
-                    image=imageURL,
-                    url=eventURL,
-                    venue=venue,
-                    source="event finder",
-                    eventType="Other"))
+                        print(f"event finder error: {event.text}")
+                        dates.append(datetime.now())
+                try:
+                    venue = event.find_element(By.CLASS_NAME, 'p-locality').text
+                except:
+                    print(f"event finder error on locality: {url}")
+                try:
+                    events.append(EventInfo(
+                        name=title,
+                        dates=dates,
+                        image=imageURL,
+                        url=eventURL,
+                        venue=venue,
+                        source="event finder",
+                        eventType="Other"))
+                except Exception as e:
+                    print(f"event finder: {e}")
+                    pass
             driver.close()
             currentPage += 1
 
@@ -177,14 +172,16 @@ class EventFinderScrapper:
             if event.name in eventsDict.keys():
                 continue
             else:
-                eventsDict[event.name] = EventInfo(name=event.name,
-                                                   dates=event.dates,
-                                                   displayDate=event.displayDate,
-                                                   image=event.image,
-                                                   url=event.url,
-                                                   venue=event.venue,
-                                                   source="event finder",
-                                                   eventType=event.eventType)
+                try:
+                    eventsDict[event.name] = EventInfo(name=event.name,
+                                                       dates=list(map(lambda x: parser.parse(x), event.dates)),
+                                                       image=event.image,
+                                                       url=event.url,
+                                                       venue=event.venue,
+                                                       source="event finder",
+                                                       eventType=event.eventType)
+                except Exception as e:
+                    print(f"event finder: {e}")
         return list(eventsDict.values())
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))

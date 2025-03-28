@@ -35,15 +35,11 @@ class ValhallaScrapper:
                 lastDate = re.findall(lastDatePattern, date)
 
                 firstDateObject = datetime.strptime(firstDate, '%b %d')
-                dateStamp = DateFormatting.formatDateStamp(firstDateObject)
-                dates.append(dateStamp)
-                displatyDate = DateFormatting.formatDisplayDate(firstDateObject)
+                dates.append(firstDateObject)
 
                 if lastDate:
                     lastDateObject = datetime.strptime(lastDate[0], '%d %b')
-                    displatyDate += " to " + DateFormatting.formatDisplayDate(lastDateObject)
-                    lastDateStamp = DateFormatting.formatDateStamp(lastDateObject)
-                    dates.append(lastDateStamp)
+                    dates.append(lastDateObject)
                 title: str = event.find_element(By.CLASS_NAME, 'eventlist-title').text
                 venue = "Valhalla"
                 title_element = event.find_element(By.CLASS_NAME, "eventlist-title").find_element(By.TAG_NAME, "a")
@@ -53,7 +49,6 @@ class ValhallaScrapper:
 
                 eventInfo = EventInfo(name=title,
                                       dates=dates,
-                                      displayDate=displatyDate,
                                       image=imageURL,
                                       url=url,
                                       venue=venue,

@@ -4,8 +4,8 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from enum import Enum
 from datetime import datetime
-
-
+import json
+from dateutil import parser
 class TicketmasterScrapper:
     @staticmethod
     def fetch_events() -> [EventInfo]:
@@ -36,6 +36,7 @@ class TicketmasterScrapper:
             artists = 'artists'
             price = 'price'
             startDate = 'startDate'
+            endDate = 'endDate'
             name = 'name'
             events = 'events'
             city = 'city'
@@ -58,42 +59,48 @@ class TicketmasterScrapper:
         while True:
             api_url = f'https://www.ticketmaster.co.nz/api/search/events?q=wellington&region=750&sort=date&page={page}'
             r = requests.get(url=api_url, headers=headers)
+            if r.status_code != 200:
+                return events
             try:
                 data = r.json()
                 count += len(data[PossibleKeys.events])
-                for event in enumerate(
-                        sorted(data[PossibleKeys.events], key=lambda x: x[PossibleKeys.dates][PossibleKeys.startDate])):
+                for event in data[PossibleKeys.events]:
                     # TODO: get the images
-                    index = event[0]
-                    event = event[1]
-                    date_str = event[PossibleKeys.dates][PossibleKeys.startDate]
+                    startDate = event[PossibleKeys.dates][PossibleKeys.startDate].split("T")[0]
+                    startDateObj = parser.parse(startDate)
+                    if PossibleKeys.endDate in event[PossibleKeys.dates].keys():
+                        endDate = event[PossibleKeys.dates][PossibleKeys.endDate].split("T")[0]
+                        endDateObj = parser.parse(endDate)
+                        if startDateObj == endDateObj:
+                            dates = [startDateObj]
+                        else:
+                            dates = list(DateFormatting.createRange(startDateObj, endDateObj))
+                    else:
+                        dates = [startDateObj]
+                    if not dates:
+                        print(event[PossibleKeys.dates].keys(), PossibleKeys.endDate in event[PossibleKeys.dates].keys())
                     try:
-                        date = datetime.fromisoformat(date_str.replace("Z", "+00:00")).replace(tzinfo=None)
-                        current_date = datetime.now()
-                        if (date - current_date).days > 30:
-                            if index == 0:
-                                return events
-                            continue
-                        displayDate = DateFormatting.formatDisplayDate(date)
-                        dateStamp = DateFormatting.formatDateStamp(date)
                         venue = f"{event[PossibleKeys.venue][PossibleKeys.name]}, {event[PossibleKeys.venue][PossibleKeys.city]}"
                         events.append(EventInfo(name=event[PossibleKeys.title],
                                                 image="https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
                                                 venue=venue,
-                                                dates=[dateStamp],
-                                                displayDate=displayDate,
+                                                dates=dates,
                                                 url=event[PossibleKeys.url],
                                                 source="ticketmaster",
                                                 eventType="Other"))
-                    except ValueError as v:
-                        print("ticket master")
+                    except Exception as v:
+                        print("ticket master error")
                         print(v)
+                        count += 1
                         continue
                 if count >= data[PossibleKeys.total]:
                     break
                 page += 1
             except Exception as e:
-                print("ticket master")
+                print("ticket master error")
                 print(e)
-                break
+                count+=1
         return events
+# events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)

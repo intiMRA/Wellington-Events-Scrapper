@@ -32,21 +32,30 @@ class WellingtonNZScrapper:
                 cleanTitle = re.match(r'[aA-zZ0-9]+', title)
                 if cleanTitle in events.keys():
                     continue
-                dateStamps = []
+                dateObjects = []
                 if not title:
                     continue
                 try:
                     venue = event.find_element(By.CLASS_NAME, 'event-content__info').text
                 except:
                     venue = "not listed"
-                # print(venue)
                 dateString = event.find_element(By.CLASS_NAME, 'event-content__date').text
                 if re.match(r"\d+ – \d+", dateString):
-                    splitDateString = dateString.split(" – ")
-                    date = datetime.strptime(splitDateString[-1], '%d %B %Y')
-                    dateStamps = [DateFormatting.formatDateStamp(date)]
-                    displayDate = DateFormatting.formatDisplayDate(date)
+
+                    first, rest = dateString.split(" – ")
+                    if len(rest) > 2:
+                        rest = rest.split(" ")
+                        last = rest[0]
+                        months = " ".join(rest[1:])
+                        date1 = parser.parse(first + " " + months)
+                        date2 = parser.parse(last + " " + months)
+                        dateObjects = list(DateFormatting.createRange(date1, date2))
+                    else:
+                        splitDateString = dateString.split(" – ")
+                        date = datetime.strptime(splitDateString[-1], '%d %B %Y')
+                        dateObjects = [date]
                 elif re.match(r"(\d{1,2} [A-Za-z]+ \d{4})\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
+
                     match = re.match(r"(\d{1,2} [A-Za-z]+ \d{4})\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString)
                     startDateString = match.group(1)
                     endDateString = match.group(2)
@@ -54,12 +63,10 @@ class WellingtonNZScrapper:
                     startDate = parser.parse(startDateString)
                     endDate = parser.parse(endDateString)
 
-                    range = DateFormatting.createRange(startDate, endDate)
+                    dateObjects = list(DateFormatting.createRange(startDate, endDate))
 
-                    dateStamps = list(map(lambda x: DateFormatting.formatDateStamp(x), range))
-                    displayDate = DateFormatting.formatDisplayDate(
-                        startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
                 elif re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
+
                     match = re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString)
                     startDateString = match.group(1)
                     endDateString = match.group(2)
@@ -67,38 +74,26 @@ class WellingtonNZScrapper:
                     startDate = parser.parse(startDateString)
                     endDate = parser.parse(endDateString)
 
-                    range = DateFormatting.createRange(startDate, endDate)
-
-                    dateStamps = list(map(lambda x: DateFormatting.formatDateStamp(x), range))
-                    displayDate = DateFormatting.formatDisplayDate(
-                        startDate) + " to " + DateFormatting.formatDisplayDate(endDate)
+                    dateObjects = list(DateFormatting.createRange(startDate, endDate))
                 elif dateString:
-                    try:
-                        date = datetime.strptime(dateString, '%d %B %Y')
-                        dateStamps = [DateFormatting.formatDateStamp(date)]
-                        displayDate = DateFormatting.formatDisplayDate(date)
-                    except:
-                        print(title)
-                        print(dateString)
-                        date = datetime.strptime(dateString, '%d %B %Y')
-                        dateStamps = [DateFormatting.formatDateStamp(date)]
-                        displayDate = DateFormatting.formatDisplayDate(date)
+                    date = parser.parse(dateString)
+                    dateObjects = [date]
                 else:
-                    displayDate = "not listed"
+                    print(f"WellingtonNz failed to load: {event.text}")
                 imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
-                # print(imageUrl)
                 eventUrl = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
-                # print(eventUrl)
-
-                eventInfo = EventInfo(name=title,
-                                      image=imageUrl,
-                                      venue=venue,
-                                      dates=dateStamps,
-                                      displayDate=displayDate,
-                                      url=eventUrl,
-                                      source="wellington nz",
-                                      eventType="Other")
-                events[cleanTitle] = eventInfo
+                try:
+                    eventInfo = EventInfo(name=title,
+                                          image=imageUrl,
+                                          venue=venue,
+                                          dates=dateObjects,
+                                          url=eventUrl,
+                                          source="wellington nz",
+                                          eventType="Other")
+                    events[cleanTitle] = eventInfo
+                except Exception as e:
+                    print(f"WellingtonNz: {e}")
+                    pass
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
