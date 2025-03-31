@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from datetime import datetime
@@ -13,6 +14,8 @@ class UnderTheRaderScrapper:
         events: [EventInfo] = []
         driver = webdriver.Chrome()
         driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
+        wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
+        _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "vevent")))
         html = driver.find_elements(By.CLASS_NAME, 'vevent')
         for event in html:
             imageURL = event.find_element(By.CSS_SELECTOR, ".gig-image img").get_attribute("data-original")
