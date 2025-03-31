@@ -40,6 +40,8 @@ class WellingtonNZScrapper:
                 except:
                     venue = "not listed"
                 dateString = event.find_element(By.CLASS_NAME, 'event-content__date').text
+                if not dateString:
+                    continue
                 if re.match(r"\d+ – \d+", dateString):
 
                     first, rest = dateString.split(" – ")
@@ -80,6 +82,9 @@ class WellingtonNZScrapper:
                     dateObjects = [date]
                 else:
                     print(f"WellingtonNz failed to load: {event.text}")
+                if not dateObjects:
+                    print(dateString)
+                    raise Exception(f"WellingtonNz failed to load: {event.text}")
                 imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
                 eventUrl = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
                 try:
