@@ -14,15 +14,25 @@ import re
 from dateutil import parser
 from datetime import datetime
 
+print("fetching wellington NZ")
 wellyNZ_events = WellingtonNZScrapper.fetch_events()
+print("fetching facebook")
 facebook_events = FacebookScrapper.fetch_events()
+print("fetching san fran")
 san_fran_events: [EventInfo] = SanFranScrapper.fetch_events()
+print("fetching tiket")
 ticket_events: [EventInfo] = TicketekScrapper.fetch_events()
+print("fetching ticket master")
 ticket_master_events: [EventInfo] = TicketmasterScrapper.fetch_events()
+print("fetching under the radar")
 under_the_radar_events: [EventInfo] = UnderTheRaderScrapper.fetch_events()
+print("fetching valhalla")
 valhalla_events: [EventInfo] = ValhallaScrapper.fetch_events()
+print("fetching event finder")
 event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events()
+print("fetching rogue")
 rogue_events = RougueScrapper.fetch_events()
+print("fetching mumanitix")
 humanitix_events = HumanitixScrapper.fetch_events()
 
 print("facebook: ", len(facebook_events))

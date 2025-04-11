@@ -112,7 +112,7 @@ class WellingtonNZScrapper:
         page = 1
         while numberOfEvents[0] != numberOfEvents[1]:
             driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}')
-            driver.implicitly_wait(2)
+            _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
             numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
             numberOfEvents = re.findall("\d+", numberOfEvents.text)
             page += 1

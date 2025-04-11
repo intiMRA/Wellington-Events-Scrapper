@@ -112,10 +112,22 @@ class EventFinderScrapper:
             html = driver.find_element(By.CLASS_NAME, 'listings-events').find_elements(By.CLASS_NAME, 'card')
             for event in html:
                 date_obj = None
-                imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
-                title = event.find_element(By.CLASS_NAME, 'card-title').text
+                title = None
+                try:
+                    title = event.find_element(By.CLASS_NAME, 'p-name').text
+                except:
+                    print(f"no title: {event.text}")
+                    continue
                 title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
-                eventURL = title_element.get_attribute("href")
+                try:
+                    eventURL = title_element.get_attribute("href")
+                except:
+                    print(f"invalid event: {title}")
+                try:
+                    imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
+                except Exception as e:
+                    print(f"event finder no image found: {eventURL}")
+
                 metaDate = event.find_element(By.CLASS_NAME, "meta-date").text
                 date = event.find_element(By.CLASS_NAME, 'dtstart').text
                 dates = []
@@ -168,7 +180,6 @@ class EventFinderScrapper:
         tomorrowsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/tomorrow"
         thisWeekEndsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/this-weekend"
         nextWeeksEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/next-week"
-
         todaysEvents = EventFinderScrapper.getEvents(todaysEventsUrl)
         tomorrowsEvents = EventFinderScrapper.getEvents(tomorrowsEventsUrl)
         thisWeekEndsEvents = EventFinderScrapper.getEvents(thisWeekEndsEventsUrl)

@@ -17,9 +17,15 @@ class SanFranScrapper:
         page = 1
         while True:
             headers = {
+                "accept": "*/*",
+                "cache-control": "no-cache",
+                "pragma": "no-cache",
+                "priority": "u=1, i",
                 "referer": "https://www.sanfran.co.nz/whats-on",
-                "x-site": "sanfran.co.nz",
-                "x-culture": "x-culture"
+                "sec-ch-ua": '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+                "x-culture": "en-NZ",
+                "x-site": "www.sanfran.co.nz"
             }
             api_url = f'https://www.sanfran.co.nz/api/search/events?Url=%2Fwhats-on&Page={page}&PageSize=20'
 
@@ -29,7 +35,8 @@ class SanFranScrapper:
             if r.status_code != 200:
                 return events
             data = r.json()
-
+            if not data['documents']:
+                return events
             for event in data['documents']:
                 try:
                     eventURL = f"https://www.sanfran.co.nz{event['localizations'][0]['url']}"
