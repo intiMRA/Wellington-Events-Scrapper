@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventFinderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventFinderScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SanFranScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SanFranScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WellingtonNZScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/WellingtonNZScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/events.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,32 +32,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.EventFinderScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FacebookScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HumanitixScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RougueScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SanFranScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TicketekScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TicketmasterScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UnderTheRaderScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WellingtonNZScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cleanUpFile.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ialbuquerque/PycharmProjects/WellingtonEventsScrapper&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.EventFinderScrapper.executor": "Run",
+    "Python.FacebookScrapper.executor": "Run",
+    "Python.HumanitixScrapper.executor": "Run",
+    "Python.MainScrapper.executor": "Run",
+    "Python.RougueScrapper.executor": "Run",
+    "Python.SanFranScrapper.executor": "Run",
+    "Python.TicketekScrapper.executor": "Run",
+    "Python.TicketmasterScrapper.executor": "Run",
+    "Python.UnderTheRaderScrapper.executor": "Run",
+    "Python.WellingtonNZScrapper.executor": "Run",
+    "Python.cleanUpFile.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "add-events",
+    "last_opened_file_path": "/Users/ialbuquerque/PycharmProjects/WellingtonEventsScrapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.SanFranScrapper">
     <configuration name="EventFinderScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -218,7 +214,7 @@
       <workItem from="1740541155049" duration="47517000" />
       <workItem from="1741826724755" duration="8407000" />
       <workItem from="1743274529519" duration="11684000" />
-      <workItem from="1743733106756" duration="30024000" />
+      <workItem from="1743733106756" duration="30943000" />
     </task>
     <servers />
   </component>

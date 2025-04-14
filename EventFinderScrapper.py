@@ -101,6 +101,7 @@ class EventFinderScrapper:
             pagination = driver.find_element(By.CLASS_NAME, 'pagination')
             lastPage = int(re.sub('\W+', ' ', pagination.text).strip().split(" ")[-1])
         except:
+            print("error: ", url)
             pass
 
         currentPage = 1

@@ -54,7 +54,7 @@ class SanFranScrapper:
                     print(f"san fran: {event}")
                     print(e)
                     break
-                page += 1
+            page += 1
         return events
 
 
