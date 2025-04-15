@@ -57,7 +57,7 @@ class EventInfo:
             raise Exception(f"No dates found for: {name}")
         self.displayDate = DateFormatting.formatDisplayDate(dates[0]) \
             if len(dates) == 1 \
-            else f"{DateFormatting.formatDisplayDate(dates[0])} to {DateFormatting.formatDisplayDate(dates[-1])}"
+            else f"{DateFormatting.formatDisplayDate(dates[0])} + more"
         self.dates = list(map(lambda date: DateFormatting.formatDateStamp(date), dates))
         self.url = url
         self.source = source
