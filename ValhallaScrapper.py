@@ -46,15 +46,18 @@ class ValhallaScrapper:
                 url = title_element.get_attribute("href")
                 if not title:
                     continue
-
-                eventInfo = EventInfo(name=title,
-                                      dates=dates,
-                                      image=imageURL,
-                                      url=url,
-                                      venue=venue,
-                                      source="valhalla",
-                                      eventType="Music")
-                events[title] = eventInfo
+                dates = list(map(lambda date: date.replace(year=datetime.today().year), dates))
+                try:
+                    eventInfo = EventInfo(name=title,
+                                          dates=dates,
+                                          image=imageURL,
+                                          url=url,
+                                          venue=venue,
+                                          source="valhalla",
+                                          eventType="Music")
+                    events[title] = eventInfo
+                except:
+                    print(f"valhalla: {e}")
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
