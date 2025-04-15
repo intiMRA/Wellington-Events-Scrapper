@@ -43,7 +43,6 @@ class WellingtonNZScrapper:
                 if not dateString:
                     continue
                 if re.match(r"\d+ – \d+", dateString):
-
                     first, rest = dateString.split(" – ")
                     if len(rest) > 2:
                         rest = rest.split(" ")
