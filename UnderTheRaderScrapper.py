@@ -22,7 +22,7 @@ class UnderTheRaderScrapper:
             date = event.find_element(By.CLASS_NAME, 'lite').text
             cleaned_date_str = DateFormatting.cleanUpDate(date)
             date_obj = datetime.strptime(cleaned_date_str, '%a %d %B %I:%M%p')
-            date_obj = date_obj.replace(year=datetime.today().year)
+            date_obj = DateFormatting.replaceYear(date_obj)
             title: str = event.find_element(By.CLASS_NAME, 'gig-title').text
             venue = event.find_element(By.CLASS_NAME, 'venue-title').text
             title_element = event.find_element(By.CLASS_NAME, "gig-title").find_element(By.TAG_NAME, "a")

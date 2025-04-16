@@ -61,7 +61,7 @@ class HumanitixScrapper:
                 if re.findall(r"([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})", dateString):
                     matchString = re.findall(r"([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})", dateString)[0]
                     date = parser.parse(matchString)
-                    date = date.replace(year=datetime.today().year)
+                    date = DateFormatting.replaceYear(date)
                     return [date]
             except:
                 print("humanitix failed to extract date from " + dateString)

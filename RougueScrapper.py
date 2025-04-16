@@ -38,7 +38,7 @@ class RougueScrapper:
                         url = a_tag.get('href')
                 date_format = '%a %d %B %I %M%p'
                 date = datetime.strptime(DateFormatting.cleanUpDate(dateString), date_format)
-                date = date.replace(year=datetime.now().year)
+                date = DateFormatting.replaceYear(date)
                 try:
                     eventsInfo.append(EventInfo(name=title,
                                                 dates=[date],

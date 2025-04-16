@@ -73,13 +73,13 @@ class EventFinderScrapper:
                         start_date_obj = datetime.strptime(start, "%Y-%m-%d")
                         end_date_obj = datetime.strptime(last, "%Y-%m-%d")
 
-                        start_date_obj = start_date_obj.replace(year=datetime.now().year)
+                        start_date_obj = DateFormatting.replaceYear(start_date_obj)
 
-                        end_date_obj = end_date_obj.replace(year=datetime.now().year)
+                        end_date_obj = DateFormatting.replaceYear(end_date_obj)
                         dateObjects = list(DateFormatting.createRange(start_date_obj, end_date_obj))
                     else:
                         date_obj = datetime.strptime(dateString, '%Y-%m-%d')
-                        date_obj = date_obj.replace(year=datetime.now().year)
+                        date_obj = DateFormatting.replaceYear(date_obj)
                         dateObjects.append(date_obj)
                 except Exception as e:
                     print("error: ", dateString, " title: ", title)
@@ -141,14 +141,14 @@ class EventFinderScrapper:
                     cleaned_date_str = DateFormatting.cleanUpDate(date)
                     try:
                         date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %I:%M%p')
-                        date_obj = date_obj.replace(year=datetime.now().year)
+                        date_obj = DateFormatting.replaceYear(date_obj)
                         dates.append(date_obj)
                     except:
                         print("event finder error: " + date)
                         print("title: " + event.find_element(By.CLASS_NAME, 'card-title').text)
                         if cleaned_date_str:
                             date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %Y %I:%M%p')
-                            date_obj = date_obj.replace(year=datetime.now().year)
+                            date_obj = DateFormatting.replaceYear(date_obj)
                             dates.append(date_obj)
                     if not date_obj:
                         print(f"event finder error: {event.text}")
