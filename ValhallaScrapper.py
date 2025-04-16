@@ -46,7 +46,7 @@ class ValhallaScrapper:
                 url = title_element.get_attribute("href")
                 if not title:
                     continue
-                dates = list(map(lambda date: date.replace(year=datetime.today().year), dates))
+                dates = list(map(lambda date: DateFormatting.replaceYear(date), dates))
                 try:
                     eventInfo = EventInfo(name=title,
                                           dates=dates,
@@ -56,7 +56,7 @@ class ValhallaScrapper:
                                           source="valhalla",
                                           eventType="Music")
                     events[title] = eventInfo
-                except:
+                except Exception as e:
                     print(f"valhalla: {e}")
 
     @staticmethod
