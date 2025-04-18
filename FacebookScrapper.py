@@ -47,7 +47,9 @@ class FacebookScrapper:
     def parseDate(date: str) -> [datetime]:
         try:
             today = datetime.now()
-
+            hour = " 10:00"
+            if re.findall(r"at\s\d+:\d+", date):
+                hour = " " + date.split("at")[-1].split(" ")[1]
             # Check if the string mentions "Tomorrow" or "Today"
             if "Tomorrow" in date:
                 target_date = today + timedelta(days=1)
@@ -62,14 +64,14 @@ class FacebookScrapper:
             elif "-" in date and len(date.split("-")[-1]) > 3:
                 parts = date.split(",")[1].split("-")
                 firstPart, secondPart = parts[0], parts[1]
-                firstPart = firstPart.strip()
-                secondPart = secondPart.strip()
+                firstPart = firstPart.strip() + hour
+                secondPart = secondPart.strip() + hour
                 startDate = parser.parse(firstPart)
                 endDate = parser.parse(secondPart)
                 dates = list(DateFormatting.createRange(startDate, endDate))
                 return dates
             elif "," in date:
-                dateString = " ".join(date.split(",")[-1].strip().split(" ")[:2])
+                dateString = " ".join(date.split(",")[-1].strip().split(" ")[:2]) + hour
                 date = parser.parse(dateString)
                 return [date]
             else:

@@ -3,9 +3,9 @@ import requests
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from enum import Enum
-from datetime import datetime
 import json
 from dateutil import parser
+
 class TicketmasterScrapper:
     @staticmethod
     def fetch_events() -> [EventInfo]:
@@ -66,10 +66,11 @@ class TicketmasterScrapper:
                 count += len(data[PossibleKeys.events])
                 for event in data[PossibleKeys.events]:
                     # TODO: get the images
-                    startDate = event[PossibleKeys.dates][PossibleKeys.startDate].split("T")[0]
+                    startDate = event[PossibleKeys.dates][PossibleKeys.startDate]
                     startDateObj = parser.parse(startDate)
                     if PossibleKeys.endDate in event[PossibleKeys.dates].keys():
-                        endDate = event[PossibleKeys.dates][PossibleKeys.endDate].split("T")[0]
+                        endDate = event[PossibleKeys.dates][PossibleKeys.endDate]
+                        endDate = endDate.split("T")[0] + "T" + startDate.split("T")[1]
                         endDateObj = parser.parse(endDate)
                         if startDateObj == endDateObj:
                             dates = [startDateObj]

@@ -35,11 +35,11 @@ class HumanitixScrapper:
         form = driver.find_element(By.TAG_NAME, "form")
         listElements = form.find_elements(By.TAG_NAME, "li")
         for element in listElements:
-            reg = r"(\d{1,2}\s[aA-zZ]{3})"
+            reg = r"(\d{1,2}\s[aA-zZ]{3},\s[aA-ZZ0-9:]*[amp]{2})"
             matches = re.findall(reg, element.text)
             if len(matches) > 1:
-                startDate = parser.parse(matches[0])
-                endDate = parser.parse(matches[-1])
+                startDate = parser.parse(matches[0].replace(",", ""))
+                endDate = parser.parse(matches[-1].replace(",", ""))
                 range = DateFormatting.createRange(startDate, endDate)
                 for date in range:
                     dates.append(date)
@@ -58,13 +58,15 @@ class HumanitixScrapper:
                 return HumanitixScrapper.getDatesFromEvent(eventUrl)
         for dateString in divStrings:
             try:
-                if re.findall(r"([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})", dateString):
-                    matchString = re.findall(r"([A-Za-z]{3},\s\d{1,2}\s[aA-zZ]{3})", dateString)[0]
+                if re.findall(r"(\d{1,2}\s[aA-zZ]{3},\s[aA-ZZ0-9:]*[AMP]{2})", dateString):
+                    matchString = re.findall(r"(\d{1,2}\s[aA-zZ]{3},\s[aA-ZZ0-9:]*[AMP]{2})", dateString)[0]
+                    matchString = matchString.replace(",", "")
                     date = parser.parse(matchString)
                     date = DateFormatting.replaceYear(date)
                     return [date]
-            except:
+            except Exception as e:
                 print("humanitix failed to extract date from " + dateString)
+                print(e)
 
     @staticmethod
     def fetch_events() -> [EventInfo]:

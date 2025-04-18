@@ -5,6 +5,8 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from datetime import datetime
+import json
+from dateutil import parser
 
 
 class ValhallaScrapper:
@@ -34,11 +36,11 @@ class ValhallaScrapper:
                 lastDatePattern = r"(\d{1,2} [A-Za-z]{3})"
                 lastDate = re.findall(lastDatePattern, date)
 
-                firstDateObject = datetime.strptime(firstDate, '%b %d')
+                firstDateObject = parser.parse(firstDate + " 10:00am")
                 dates.append(firstDateObject)
 
                 if lastDate:
-                    lastDateObject = datetime.strptime(lastDate[0], '%d %b')
+                    lastDateObject = parser.parse(lastDate[0] + " 10:00am")
                     dates.append(lastDateObject)
                 title: str = event.find_element(By.CLASS_NAME, 'eventlist-title').text
                 venue = "Valhalla"
@@ -64,3 +66,7 @@ class ValhallaScrapper:
         driver = webdriver.Chrome()
         driver.get("https://www.valhallatavern.com/events-1")
         return list(ValhallaScrapper.slow_scroll_to_bottom(driver, scroll_increment=1000))
+
+# events = list(map(lambda x: x.to_dict(), sorted(ValhallaScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# with open('wellys.json', 'w') as outfile:
+#     json.dump(events, outfile)

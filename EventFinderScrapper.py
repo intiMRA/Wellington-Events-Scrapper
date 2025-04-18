@@ -67,18 +67,24 @@ class EventFinderScrapper:
                 dateString = date.get_attribute("datetime")
                 try:
                     # datetime 2024-08-01, 09:00–13:00
+                    fullString = dateString
                     dateString = dateString.split(",")[0]
                     if len(dateString.split("–")) > 1:
+                        print("FULL: " + fullString)
                         start, last = dateString.split("–")
-                        start_date_obj = datetime.strptime(start, "%Y-%m-%d")
-                        end_date_obj = datetime.strptime(last, "%Y-%m-%d")
+                        hour = fullString.split(",")[-1].split("–")[0]
+                        start += " " + hour
+                        last += " " + hour
+                        start_date_obj = parser.parse(start)
+                        end_date_obj = parser.parse(last)
 
                         start_date_obj = DateFormatting.replaceYear(start_date_obj)
 
                         end_date_obj = DateFormatting.replaceYear(end_date_obj)
                         dateObjects = list(DateFormatting.createRange(start_date_obj, end_date_obj))
                     else:
-                        date_obj = datetime.strptime(dateString, '%Y-%m-%d')
+                        dateString = dateString + " " + fullString.split(",")[-1].split("–")[0]
+                        date_obj = parser.parse(dateString)
                         date_obj = DateFormatting.replaceYear(date_obj)
                         dateObjects.append(date_obj)
                 except Exception as e:
@@ -140,16 +146,12 @@ class EventFinderScrapper:
                 else:
                     cleaned_date_str = DateFormatting.cleanUpDate(date)
                     try:
-                        date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %I:%M%p')
+                        date_obj = parser.parse(cleaned_date_str)
                         date_obj = DateFormatting.replaceYear(date_obj)
                         dates.append(date_obj)
                     except:
                         print("event finder error: " + date)
                         print("title: " + event.find_element(By.CLASS_NAME, 'card-title').text)
-                        if cleaned_date_str:
-                            date_obj = datetime.strptime(cleaned_date_str, '%a %d %b %Y %I:%M%p')
-                            date_obj = DateFormatting.replaceYear(date_obj)
-                            dates.append(date_obj)
                     if not date_obj:
                         print(f"event finder error: {event.text}")
                         dates.append(datetime.now())

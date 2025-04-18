@@ -1,3 +1,5 @@
+import re
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -6,6 +8,7 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from datetime import datetime
 import json
+from dateutil import parser
 
 
 class UnderTheRaderScrapper:
@@ -21,7 +24,8 @@ class UnderTheRaderScrapper:
             imageURL = event.find_element(By.CSS_SELECTOR, ".gig-image img").get_attribute("data-original")
             date = event.find_element(By.CLASS_NAME, 'lite').text
             cleaned_date_str = DateFormatting.cleanUpDate(date)
-            date_obj = datetime.strptime(cleaned_date_str, '%a %d %B %I:%M%p')
+            match = re.findall(r"(\d{1,2}\s\w+\s\d{1,2}[:0-9AMP]+)", cleaned_date_str)[0]
+            date_obj = parser.parse(match)
             date_obj = DateFormatting.replaceYear(date_obj)
             title: str = event.find_element(By.CLASS_NAME, 'gig-title').text
             venue = event.find_element(By.CLASS_NAME, 'venue-title').text

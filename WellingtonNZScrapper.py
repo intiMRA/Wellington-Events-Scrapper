@@ -48,8 +48,8 @@ class WellingtonNZScrapper:
                         rest = rest.split(" ")
                         last = rest[0]
                         months = " ".join(rest[1:])
-                        date1 = parser.parse(first + " " + months)
-                        date2 = parser.parse(last + " " + months)
+                        date1 = parser.parse(first + " " + months + " 10:00am")
+                        date2 = parser.parse(last + " " + months + " 10:00am")
                         dateObjects = list(DateFormatting.createRange(date1, date2))
                     else:
                         splitDateString = dateString.split(" – ")
@@ -61,29 +61,29 @@ class WellingtonNZScrapper:
                     startDateString = match.group(1)
                     endDateString = match.group(2)
 
-                    startDate = parser.parse(startDateString)
-                    endDate = parser.parse(endDateString)
+                    startDate = parser.parse(startDateString + " 10:00am")
+                    endDate = parser.parse(endDateString + " 10:00am")
 
                     dateObjects = list(DateFormatting.createRange(startDate, endDate))
 
-                elif re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
-
-                    match = re.match(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString)
-                    startDateString = match.group(1)
-                    endDateString = match.group(2)
-
+                elif re.findall(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
+                    parts = dateString.split(" – ")
+                    startDateString = re.findall(r"(\d{1,2} [A-Za-z]+)", parts[0])[0]
+                    endDateString = re.findall(r"(\d{1,2} [A-Za-z]+)", parts[-1])[-1]
+                    startDateString = startDateString + " 10:00am"
+                    endDateString = endDateString + " 10:00am"
                     startDate = parser.parse(startDateString)
                     endDate = parser.parse(endDateString)
 
                     dateObjects = list(DateFormatting.createRange(startDate, endDate))
                 elif dateString:
-                    date = parser.parse(dateString)
+                    date = parser.parse(dateString + " 10:00am")
                     dateObjects = [date]
                 else:
                     print(f"WellingtonNz failed to load: {event.text}")
                 if not dateObjects:
                     print(dateString)
-                    raise Exception(f"WellingtonNz failed to load: {event.text}")
+                    print(f"WellingtonNz failed to load: {event.text}")
                 imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
                 eventUrl = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
                 try:
