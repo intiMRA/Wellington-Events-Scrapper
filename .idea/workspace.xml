@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DateFormatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/DateFormatting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventFinderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventFinderScrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HumanitixScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/HumanitixScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RougueScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/RougueScrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SanFranScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SanFranScrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketekScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicketekScrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketmasterScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicketmasterScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnderTheRaderScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnderTheRaderScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ValhallaScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ValhallaScrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WellingtonNZScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/WellingtonNZScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/events.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,56 +44,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.EventFinderScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FacebookScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HumanitixScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.RougueScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SanFranScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TicketekScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TicketmasterScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UnderTheRaderScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.WellingtonNZScrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cleanUpFile.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;improve-date-scrapping&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ialbuquerque/PycharmProjects/WellingtonEventsScrapper&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.EventFinderScrapper.executor": "Run",
+    "Python.FacebookScrapper.executor": "Run",
+    "Python.HumanitixScrapper.executor": "Run",
+    "Python.MainScrapper.executor": "Run",
+    "Python.RougueScrapper.executor": "Run",
+    "Python.SanFranScrapper.executor": "Run",
+    "Python.TicketekScrapper.executor": "Run",
+    "Python.TicketmasterScrapper.executor": "Run",
+    "Python.UnderTheRaderScrapper.executor": "Run",
+    "Python.ValhallaScrapper.executor": "Run",
+    "Python.WellingtonNZScrapper.executor": "Run",
+    "Python.cleanUpFile.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ialbuquerque/PycharmProjects/WellingtonEventsScrapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.MainScrapper">
-    <configuration name="HumanitixScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HumanitixScrapper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="MainScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -98,36 +81,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.9" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainScrapper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SanFranScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SanFranScrapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,20 +141,66 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="UnderTheRaderScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnderTheRaderScrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ValhallaScrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ValhallaScrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.HumanitixScrapper" />
+      <item itemvalue="Python.UnderTheRaderScrapper" />
+      <item itemvalue="Python.ValhallaScrapper" />
       <item itemvalue="Python.MainScrapper" />
-      <item itemvalue="Python.SanFranScrapper" />
       <item itemvalue="Python.TicketekScrapper" />
       <item itemvalue="Python.TicketmasterScrapper" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.MainScrapper" />
-        <item itemvalue="Python.HumanitixScrapper" />
+        <item itemvalue="Python.ValhallaScrapper" />
+        <item itemvalue="Python.UnderTheRaderScrapper" />
         <item itemvalue="Python.TicketmasterScrapper" />
         <item itemvalue="Python.TicketekScrapper" />
-        <item itemvalue="Python.SanFranScrapper" />
       </list>
     </recent_temporary>
   </component>
@@ -239,16 +244,17 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$cleanUpFile.coverage" NAME="cleanUpFile Coverage Results" MODIFIED="1742353674007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$SanFranScrapper.coverage" NAME="SanFranScrapper Coverage Results" MODIFIED="1744335863828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketekScrapper.coverage" NAME="TicketekScrapper Coverage Results" MODIFIED="1744740657362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1744805513441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$RougueScrapper.coverage" NAME="RougueScrapper Coverage Results" MODIFIED="1743120681538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$HumanitixScrapper.coverage" NAME="HumanitixScrapper Coverage Results" MODIFIED="1744742324998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$EventFinderScrapper.coverage" NAME="EventFinderScrapper Coverage Results" MODIFIED="1744207111332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$FacebookScrapper.coverage" NAME="FacebookScrapper Coverage Results" MODIFIED="1744226822312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$UnderTheRaderScrapper.coverage" NAME="UnderTheRaderScrapper Coverage Results" MODIFIED="1743380002901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketmasterScrapper.coverage" NAME="TicketmasterScrapper Coverage Results" MODIFIED="1744741086920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$UnderTheRaderScrapper.coverage" NAME="UnderTheRaderScrapper Coverage Results" MODIFIED="1745002372226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$WellingtonNZScrapper.coverage" NAME="WellingtonNZScrapper Coverage Results" MODIFIED="1743376643808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$ValhallaScrapper.coverage" NAME="ValhallaScrapper Coverage Results" MODIFIED="1745002637270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$cleanUpFile.coverage" NAME="cleanUpFile Coverage Results" MODIFIED="1742353674007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$SanFranScrapper.coverage" NAME="SanFranScrapper Coverage Results" MODIFIED="1744985759202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketekScrapper.coverage" NAME="TicketekScrapper Coverage Results" MODIFIED="1744998976267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1745015125821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$HumanitixScrapper.coverage" NAME="HumanitixScrapper Coverage Results" MODIFIED="1744983615208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$RougueScrapper.coverage" NAME="RougueScrapper Coverage Results" MODIFIED="1744984692869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$EventFinderScrapper.coverage" NAME="EventFinderScrapper Coverage Results" MODIFIED="1744974577482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$FacebookScrapper.coverage" NAME="FacebookScrapper Coverage Results" MODIFIED="1744978795754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketmasterScrapper.coverage" NAME="TicketmasterScrapper Coverage Results" MODIFIED="1745001908562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

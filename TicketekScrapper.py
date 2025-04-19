@@ -25,10 +25,9 @@ class TicketekScrapper:
                 imageURL = htmlEvent.find("img").get("src")
                 dateString, venue = htmlEvent.find("div", attrs={"class": "event-venue-dates"}).find_all("p")
                 dateString = dateString.text
-                dateString = re.findall(r"\d+ [aA-zZ]{3} [0-9]{4}", dateString)[0]
+                dateString = re.findall(r"(\d{1,2}\s\w+\s\d{4}\s[pam0-9:]+)", dateString)[0]
                 venue = venue.text
                 date = parser.parse(dateString)
-                eventUrl = htmlEvent.find("a").get("href")
                 title = re.sub(r"([\t\n\r])", "", title).strip()
                 venue = re.sub(r"([\t\n\r])", "", venue).strip()
                 if hasWellingtonTitle and "wellington" not in title.lower():
@@ -38,7 +37,7 @@ class TicketekScrapper:
                 events.append(EventInfo(name=title,
                                         dates=[date],
                                         image="https://" + imageURL,
-                                        url=eventUrl,
+                                        url=url,
                                         venue=venue,
                                         source="ticketek",
                                         eventType="Other"))
@@ -78,6 +77,12 @@ class TicketekScrapper:
                             else:
                                 date = re.sub('\W+', ' ', textArray[0])
                                 venue = re.sub('\W+', ' ', textArray[1])
+                            parts = date.strip().split(' ')
+                            parts1 = parts[0:6]
+                            parts2 = parts[6:]
+                            time1 = ":".join(parts1[-2:])
+                            time2 = ":".join(parts2[-2:])
+                            date = ' '.join(parts1[0:-2]) + ' ' + time1 + ' ' + ' '.join(parts2[0:-2]) + ' ' + time2
                         else:
                             date = "not listed"
                             venue = "not listed"
@@ -99,19 +104,20 @@ class TicketekScrapper:
                             if urlTag:
                                 url = f"https://premier.ticketek.co.nz{urlTag}"
 
-                    date = re.sub(':', ' ', date)
-                    pattern = r"(\d{1,2} [A-Za-z]{3} \d{4})"
+                    pattern = r"(\d{1,2}\s\w+\s\d{4})"
                     dates = re.findall(pattern, date)
+                    times = re.findall(r"\d{1,2}[:]*\d{0,2}[amp]{2}", date)
                     dateObjects = []
-                    if len(dates) > 1 or venue == "Nationwide":
+                    if len(dates) > 1 or venue == "Nationwide" or not dates:
                         events = TicketekScrapper.extractEvents(url, venue == "Nationwide")
                         eventsInfo += events
                         continue
-                    for d in dates:
-
-                        date_obj = parser.parse(d)
-                        if date_obj not in dateObjects:
-                            dateObjects.append(date_obj)
+                    if not times:
+                        times = ["10am"]
+                    date = dates[0] + " " + times[0]
+                    date_obj = parser.parse(date)
+                    if date_obj not in dateObjects:
+                        dateObjects.append(date_obj)
 
                     title = re.sub(r"([\t\n\r])", "", title).strip()
                     venue = re.sub(r"([\t\n\r])", "", venue).strip()

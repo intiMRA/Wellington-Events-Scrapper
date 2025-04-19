@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
 import re
 import pandas
+import pytz
+from dateutil import parser
 
 class DateFormatting:
     @staticmethod
@@ -17,13 +19,21 @@ class DateFormatting:
     @staticmethod
     def formatDateStamp(date: datetime) -> str :
         DateFormatting.replaceYear(date)
-        return date.strftime("%d-%m-%Y")
+        return date.isoformat()
 
     @staticmethod
     def createRange(startDate: datetime, endDate: datetime) -> pandas.DatetimeIndex:
-        if startDate < datetime.now():
-            startDate = datetime.now()
-        return pandas.date_range(startDate, endDate - timedelta(days=1))
+        try:
+            if startDate < datetime.now():
+                startDate = datetime.now()
+            return pandas.date_range(startDate, endDate - timedelta(days=1))
+        except:
+            now = datetime.now().isoformat().split("T")[0] + "T" + startDate.isoformat().split("T")[1]
+            now = parser.parse(now)
+            if startDate < now:
+                startDate = now
+            pds = pandas.date_range(startDate, endDate - timedelta(days=1))
+            return pds
 
     @staticmethod
     def cleanUpDate(dateString: str) -> str:

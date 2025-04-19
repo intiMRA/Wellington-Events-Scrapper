@@ -6,7 +6,7 @@ from enum import Enum
 import re
 from datetime import datetime
 import json
-
+from dateutil import parser
 
 class SanFranScrapper:
     # noinspection PyBroadException
@@ -41,8 +41,8 @@ class SanFranScrapper:
                 try:
                     eventURL = f"https://www.sanfran.co.nz{event['localizations'][0]['url']}"
                     date_str = event["eventDate"]
-                    date_format = '%Y-%m-%dT%H:%M:%SZ'
-                    date = datetime.strptime(date_str, date_format)
+                    date = parser.parse(date_str)
+
                     events.append(EventInfo(name=re.sub('\W+', ' ', event["name"]).strip(),
                                             image=event["image"],
                                             venue="San Fran",

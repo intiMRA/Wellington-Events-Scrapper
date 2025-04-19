@@ -4,7 +4,8 @@ from dateutil import parser
 from datetime import datetime
 from DateFormatting import DateFormatting
 from numpy.f2py.auxfuncs import throw_error
-
+import pytz
+utc=pytz.UTC
 
 class EventInfo:
     id: str
@@ -49,7 +50,10 @@ class EventInfo:
         self.image = image
         self.venue = venue
         ogDates = dates
-        dates = list(filter(lambda date: date >= datetime.now(), dates))
+        try:
+            dates = list(filter(lambda date: date >= datetime.now(), dates))
+        except:
+            dates = list(filter(lambda date: date >= utc.localize(datetime.now()), dates))
         dates = list(sorted(dates, key=lambda date: date))
         if not dates:
             print(f"in: {ogDates}")

@@ -6,6 +6,7 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime
 import json
+from dateutil import parser
 
 class RougueScrapper:
 
@@ -36,8 +37,13 @@ class RougueScrapper:
                         imageURL = imageTag.get('src')
                     if a_tag:
                         url = a_tag.get('href')
-                date_format = '%a %d %B %I %M%p'
-                date = datetime.strptime(DateFormatting.cleanUpDate(dateString), date_format)
+
+                dateString = DateFormatting.cleanUpDate(dateString)
+                match = re.findall(r"(\d{1,2}\s\w+\s\d{1,2}\s[pam0-9]{4})", dateString)[0]
+                parts = match.split(" ")
+                time = ":".join(parts[-2:])
+                match = " ".join(parts[:-2]) + " " + time
+                date = parser.parse(match)
                 date = DateFormatting.replaceYear(date)
                 try:
                     eventsInfo.append(EventInfo(name=title,
