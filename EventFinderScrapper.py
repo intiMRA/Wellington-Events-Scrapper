@@ -70,7 +70,6 @@ class EventFinderScrapper:
                     fullString = dateString
                     dateString = dateString.split(",")[0]
                     if len(dateString.split("–")) > 1:
-                        print("FULL: " + fullString)
                         start, last = dateString.split("–")
                         hour = fullString.split(",")[-1].split("–")[0]
                         start += " " + hour
