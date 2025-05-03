@@ -72,24 +72,12 @@ for event in data:
         eventsDict[name] = event
 
 data = list(eventsDict.values())
+eventTypes = set([event.eventType for event in data])
+sources = set([event.source for event in data])
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
 filters = {
-    "sources": [
-        "san fran",
-        "ticketek",
-        "ticket master",
-        "under the radar",
-        "valhalla",
-        "event finder",
-        "rogue",
-        "wellington nz",
-        "humanitix",
-        "facebook"
-    ],
-    "eventTypes": [
-        "Music",
-        "Other"
-    ]
+    "sources": list(sources),
+    "eventTypes": list(eventTypes)
 }
 with open("events.json", "w") as write:
     write.write('{ "events":')

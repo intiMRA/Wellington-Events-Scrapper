@@ -67,46 +67,64 @@ class HumanitixScrapper:
             except Exception as e:
                 print("humanitix failed to extract date from " + dateString)
                 print(e)
+    @staticmethod
+    def formatInput(input_string):
+        if not input_string:
+            return input_string
+        input_string = input_string.replace("&", "And").replace(" ", "").replace(",", "")
+        return input_string[0].lower() + input_string[1:]
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
         events: [EventInfo] = []
+        eventTitles = set()
         driver = webdriver.Chrome()
-        page = 0
-        while True:
-            url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}'
-            driver.get(url)
-            height = driver.execute_script("return document.body.scrollHeight")
-            scrolledAmount = 0
+        driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
+        categoriesButton = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
+        categoriesButton.click()
+        categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
+        categories = [(HumanitixScrapper.formatInput(category.text), category.text) for category in categories]
+        for category, categoryName in categories:
+            print(category, categoryName)
+            page = 0
             while True:
-                if scrolledAmount > height:
-                    break
-                driver.execute_script(f"window.scrollBy(0, {100});")
+                url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
+                driver.get(url)
+                _ = WebDriverWait(driver, 10, poll_frequency=1).until(EC.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
+                height = driver.execute_script("return document.body.scrollHeight")
+                scrolledAmount = 0
+                while True:
+                    if scrolledAmount > height:
+                        break
+                    driver.execute_script(f"window.scrollBy(0, {100});")
 
-                scrolledAmount += 100
-            eventsData = driver.find_elements(By.CLASS_NAME, 'test')
-            if not eventsData:
-                return events
-            for event in eventsData:
-                try:
-                    venue = event.find_element(By.TAG_NAME, 'p')
-                    divs = list(map(lambda x: x.text, event.find_elements(By.TAG_NAME, 'div')))
-                    venue = venue.text
-                    title = event.find_element(By.TAG_NAME, 'h6').text
-                    imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
-                    eventUrl = event.get_attribute('href')
-                    dates = HumanitixScrapper.get_date(divs, eventUrl)
-                    events.append(EventInfo(name=title,
-                                            dates=dates,
-                                            image=imageURL,
-                                            url=eventUrl,
-                                            venue=venue,
-                                            source="humanitix",
-                                            eventType="Other"))
-                except Exception as e:
-                    print(f"humanitix: {e}")
-                    print("error: ", event.text)
-            page += 1
+                    scrolledAmount += 100
+                eventsData = driver.find_elements(By.CLASS_NAME, 'test')
+                if not eventsData:
+                    break
+                for event in eventsData:
+                    try:
+                        venue = event.find_element(By.TAG_NAME, 'p')
+                        divs = list(map(lambda x: x.text, event.find_elements(By.TAG_NAME, 'div')))
+                        venue = venue.text
+                        title = event.find_element(By.TAG_NAME, 'h6').text
+                        if title in eventTitles:
+                            continue
+                        eventTitles.add(title)
+                        imageURL = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
+                        eventUrl = event.get_attribute('href')
+                        dates = HumanitixScrapper.get_date(divs, eventUrl)
+                        events.append(EventInfo(name=title,
+                                                dates=dates,
+                                                image=imageURL,
+                                                url=eventUrl,
+                                                venue=venue,
+                                                source="humanitix",
+                                                eventType=categoryName))
+                    except Exception as e:
+                        print(f"humanitix: {e}")
+                        print("error: ", event.text)
+                page += 1
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(HumanitixScrapper.fetch_events(), key=lambda k: k.name.strip())))
