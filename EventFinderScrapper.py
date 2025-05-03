@@ -158,6 +158,11 @@ class EventFinderScrapper:
                     venue = event.find_element(By.CLASS_NAME, 'p-locality').text
                 except:
                     print(f"event finder error on locality: {url}")
+                eventType = None
+                try:
+                    eventType = event.find_element(By.CLASS_NAME, 'category').text
+                except:
+                    print("event finder event has no category")
                 try:
                     events.append(EventInfo(
                         name=title,
@@ -166,7 +171,7 @@ class EventFinderScrapper:
                         url=eventURL,
                         venue=venue,
                         source="event finder",
-                        eventType="Other"))
+                        eventType=eventType if eventType else "Other",))
                 except Exception as e:
                     print(f"event finder: {e}")
                     pass

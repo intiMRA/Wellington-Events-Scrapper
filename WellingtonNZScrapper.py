@@ -15,17 +15,16 @@ import pandas
 
 class WellingtonNZScrapper:
     @staticmethod
-    def slow_scroll_to_bottom(driver, scroll_increment=300) -> [EventInfo]:
+    def slow_scroll_to_bottom(driver, category: str, eventNames: set) -> [EventInfo]:
         events = {}
         height = driver.execute_script("return document.body.scrollHeight")
         scrolledAmount = 0
         while True:
             if scrolledAmount > height:
-                driver.close()
                 return events.values()
-            driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
+            driver.execute_script(f"window.scrollBy(0, {400});")
 
-            scrolledAmount += scroll_increment
+            scrolledAmount += 400
             rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
             for event in rawEvents:
                 title = event.find_element(By.TAG_NAME, 'h2').text
@@ -35,6 +34,9 @@ class WellingtonNZScrapper:
                 dateObjects = []
                 if not title:
                     continue
+                if title in eventNames:
+                    continue
+                eventNames.add(title)
                 try:
                     venue = event.find_element(By.CLASS_NAME, 'event-content__info').text
                 except:
@@ -93,7 +95,7 @@ class WellingtonNZScrapper:
                                           dates=dateObjects,
                                           url=eventUrl,
                                           source="wellington nz",
-                                          eventType="Other")
+                                          eventType=category)
                     events[cleanTitle] = eventInfo
                 except Exception as e:
                     print(f"WellingtonNz: {e}")
@@ -106,17 +108,27 @@ class WellingtonNZScrapper:
         driver.switch_to.window(driver.current_window_handle)
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
         _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
+        categories = driver.find_elements(By.CLASS_NAME, 'search-button-filter')
+
+        categories = [(cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]) for cat in categories]
         numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
         numberOfEvents = re.findall("\d+", numberOfEvents.text)
-        page = 1
-        while numberOfEvents[0] != numberOfEvents[1]:
-            driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}')
-            _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
-            numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
-            numberOfEvents = re.findall("\d+", numberOfEvents.text)
-            page += 1
-        eventsInfo = WellingtonNZScrapper.slow_scroll_to_bottom(driver, 400)
-        return list(eventsInfo)
+        eventsInfo = []
+        eventNames = set()
+        for cat in categories:
+            cat = cat[0]
+            page = 1
+            while numberOfEvents[0] != numberOfEvents[1]:
+                driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}&categories={cat}')
+                _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
+                numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
+                numberOfEvents = re.findall("\d+", numberOfEvents.text)
+                page += 1
+            numberOfEvents = [0, 1]
+            eventsInfo += list(WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, eventNames))
+
+        driver.close()
+        return eventsInfo
 # events = list(map(lambda x: x.to_dict(), sorted(WellingtonNZScrapper.fetch_events(), key=lambda k: k.name.strip())))
 # with open('wellys.json', 'w') as outfile:
 #     json.dump(events, outfile)

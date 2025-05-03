@@ -5,6 +5,7 @@ from datetime import datetime
 from DateFormatting import DateFormatting
 from numpy.f2py.auxfuncs import throw_error
 import pytz
+from CategoryMapping import CategoryMapping
 utc=pytz.UTC
 
 class EventInfo:
@@ -65,7 +66,7 @@ class EventInfo:
         self.dates = list(map(lambda date: DateFormatting.formatDateStamp(date), dates))
         self.url = url
         self.source = source
-        self.eventType = eventType
+        self.eventType = CategoryMapping.map_category(eventType)
 
     def to_dict(self):
         """Convert the EventInfo object to a dictionary."""
