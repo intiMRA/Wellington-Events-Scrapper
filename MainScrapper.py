@@ -76,8 +76,8 @@ eventTypes = set([event.eventType for event in data])
 sources = set([event.source for event in data])
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
 filters = {
-    "sources": list(sources),
-    "eventTypes": list(eventTypes)
+    "sources": sorted(list(sources)),
+    "eventTypes": sorted(list(eventTypes))
 }
 with open("events.json", "w") as write:
     write.write('{ "events":')
