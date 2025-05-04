@@ -5,15 +5,15 @@ class CategoryMapping:
             "Community & Culture": "Community & Culture",
             "Charity & Causes": "Community & Culture",
             "Drum & Bass": "Music & Concerts",
-            "Markets and Fairs": "Other",
+            "Markets and Fairs": "Markets & Fairs",
             "TheaterEvent": "Arts & Theatre",
             "Jazz": "Music & Concerts",
             "Games, Hobbies": "Hobbies & Interests",
             "Fun Runs & Walks": "Sports & Fitness",
             "Film": "Film & Media",
-            "Festival": "Other",
+            "Festival": "Festivals",
             "World": "Music & Concerts",
-            "Dance": "Music & Concerts",
+            "Dance": "Arts & Theatre",
             "School Activities": "Education & Learning",
             "Family & Lifestyle": "Community & Culture",
             "Quiz, Karaoke": "Hobbies & Interests",
@@ -23,7 +23,7 @@ class CategoryMapping:
             "Swing, Big Bands": "Music & Concerts",
             "Choir, Vocal Music": "Music & Concerts",
             "Family & Education": "Education & Learning",
-            "Festivals": "Other",
+            "Festivals": "Festivals",
             "Government & Politics": "Community & Culture",
             "Concerts": "Music & Concerts",
             "Mind & Body": "Health & Wellness",
@@ -33,19 +33,18 @@ class CategoryMapping:
             "Country": "Music & Concerts",
             "Performing & Visual Arts": "Arts & Theatre",
             "Sports & Fitness": "Sports & Fitness",
-            "Business & Professional": "Other",
-            "Religion & Spirituality": "Other",
-            "Literary": "Other",
+            "Business & Professional": "Business & Networking",
+            "Religion & Spirituality": "Religion & Spirituality",
+            "Literary": "Arts & Theatre",
             "Food & Drink": "Food & Drink",
             "Arts and Crafts": "Hobbies & Interests",
             "Rock": "Music & Concerts",
             "Classical Music": "Music & Concerts",
-            "Drag Performance": "Music & Concerts",
+            "Drag Performance": "Arts & Theatre",
             "Singer-Songwriter": "Music & Concerts",
             "Sports": "Sports & Fitness",
             "Commemorations, Ceremonies": "Community & Culture",
             "Comedy": "Arts & Theatre",
-            "Other": "Other",
             "Film, Media & Entertainment": "Film & Media",
             "Ethnic, Multicultural": "Community & Culture",
             "Exhibitions": "Arts & Theatre",
@@ -59,10 +58,31 @@ class CategoryMapping:
             "Food, Gourmet, Wine": "Food & Drink",
             "Soccer": "Sports & Fitness",
             "Children, Kids, Holidays": "Community & Culture",
-            "Covers, Tribute Bands": "Music & Concerts"
+            "Covers, Tribute Bands": "Music & Concerts",
+            "Gardening": "Hobbies & Interests",
+            "Professional networking": "Business & Networking",
+            "Foods": "Food & Drink",
+            "Drinks": "Food & Drink",
+            "Music and audio": "Music & Concerts",
+            "Parties": "Community & Culture",
+            "Healthy living and self-care": "Health & Wellness",
+            "Classics": "Music & Concerts",
+            "Fitness & workouts": "Sports & Fitness",
+            "Shopping": "Community & Culture",
+            "Games": "Hobbies & Interests",
+            "TV and films": "Film & Media",
+            "Visual arts": "Arts & Theatre",
+            "Religions": "Religion & Spirituality",
+            "Crafts": "Hobbies & Interests",
+            "Social issues": "Community & Culture",
+            "Health & medical": "Health & Wellness",
+            "Other": "Other"
         }
-        cat = category_mapping[category]
+        cat = category_mapping.get(category)
         if cat:
             return cat
-        print(f"Category Not Found {category}")
+        with open("missingcats.txt", "w+") as f:
+            f.write(category)
+            f.write("\n")
+            print(f"Category Not Found {category}")
         return "Other"
