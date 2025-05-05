@@ -41,7 +41,7 @@ class FacebookScrapper:
             return next_occurrence.replace(hour=0, minute=0, second=0, microsecond=0)
 
         except ValueError:
-            return None  # Or raise a more specific exception
+            return None
 
     @staticmethod
     def parseDate(date: str) -> [datetime]:
@@ -50,7 +50,6 @@ class FacebookScrapper:
             hour = " 10:00"
             if re.findall(r"at\s\d+:\d+", date):
                 hour = " " + date.split("at")[-1].split(" ")[1]
-            # Check if the string mentions "Tomorrow" or "Today"
             if "Tomorrow" in date:
                 target_date = today + timedelta(days=1)
                 return [target_date]
@@ -132,7 +131,7 @@ class FacebookScrapper:
                     if f"{e}" != "list index out of range":
                         print("facebook error: ", e)
                     continue
-            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 500:
+            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 250:
                 return newEventTitles.values(), titles.union(foundTitles)
             oldEventTitles = newEventTitles.copy()
         return list(events.values()), titles.union(foundTitles)

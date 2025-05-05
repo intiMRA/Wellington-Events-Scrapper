@@ -76,12 +76,33 @@ class CategoryMapping:
             "Crafts": "Hobbies & Interests",
             "Social issues": "Community & Culture",
             "Health & medical": "Health & Wellness",
+            "SportsEvent": "Sports & Fitness",
+            "Home and garden": "Hobbies & Interests",
+            "Pop": "Music & Concerts",
+            "Charity, Fundraisers": "Community & Culture",
+            "Open Mic, Jams": "Music & Concerts",
+            "Skating": "Sports & Fitness",
+            "Alternative, Indie": "Music & Concerts",
+            "Folk": "Music & Concerts",
+            "Family Entertainment": "Community & Culture",
+            "Cabaret, Burlesque": "Music & Concerts",
+            "Socials, Singles, Balls": "Community & Culture",
+            "R&B, Soul": "Music & Concerts",
+            "Funk": "Music & Concerts",
+            "Arts & Theatre": "Arts & Theatre",
+            "Hobbies & Interests": "Hobbies & Interests",
+            "Film & Media": "Film & Media",
+            "Music & Concerts": "Music & Concerts",
+            "Education & Learning": "Community & Culture",
+            "Business & Networking": "Other",
+            "Auto, Boat & Air": "Other",
+            "Experiences": "Other",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
         if cat:
             return cat
-        with open("missingcats.txt", "w+") as f:
+        with open("missingcats.txt", "a") as f:
             f.write(category)
             f.write("\n")
             print(f"Category Not Found {category}")

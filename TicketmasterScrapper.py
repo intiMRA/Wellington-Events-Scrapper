@@ -5,6 +5,10 @@ from EventInfo import EventInfo
 from enum import Enum
 import json
 from dateutil import parser
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from time import sleep
+import time
 
 majorCats = {
     "MusicEvent": ["1", "2", "3", "4", "5", "52", "60", "171", "200", "201", "1001", "1002", "1012", "1201", "1202",
@@ -58,6 +62,20 @@ minorCats = {
 
 class TicketmasterScrapper:
     @staticmethod
+    def get_image_url_with_timeout(driver, timeout=10):
+        start_time = time.time()
+
+        while True:
+            try:
+                image_url = driver.find_element(By.TAG_NAME, "img").get_attribute("src")
+                return image_url
+            except:
+                if time.time() - start_time > timeout:
+                    print("Timeout reached. Image element not found.")
+                    return None
+                time.sleep(0.1)
+
+    @staticmethod
     def fetch_events() -> [EventInfo]:
         class PossibleKeys(str, Enum):
             id = 'id'
@@ -104,15 +122,25 @@ class TicketmasterScrapper:
             "Accept-Encoding": "gzip, deflate, br",
             "Connection": "keep-alive"
         }
+
         page = 0
         count = 0
+        titles = set()
+        driver = webdriver.Chrome()
         while True:
+            print(f"fetching page {page}")
             api_url = f'https://www.ticketmaster.co.nz/api/search/events?q=wellington&region=750&sort=date&page={page}'
             r = requests.get(url=api_url, headers=headers)
             if r.status_code != 200:
+                driver.close()
                 return events
             try:
                 data = r.json()
+                if not data[PossibleKeys.events]:
+
+                    driver.close()
+                    return events
+
                 cat = data["events"][0]["majorCategory"]["id"]
                 catergoryName = None
                 for m in majorCats.keys():
@@ -129,7 +157,12 @@ class TicketmasterScrapper:
 
                 count += len(data[PossibleKeys.events])
                 for event in data[PossibleKeys.events]:
-                    # TODO: get the images
+                    title = event[PossibleKeys.title]
+                    if title in titles:
+                        continue
+                    titles.add(title)
+                    driver.get(event[PossibleKeys.url])
+                    imageURL = TicketmasterScrapper.get_image_url_with_timeout(driver)
                     startDate = event[PossibleKeys.dates][PossibleKeys.startDate]
                     startDateObj = parser.parse(startDate)
                     if PossibleKeys.endDate in event[PossibleKeys.dates].keys():
@@ -147,8 +180,8 @@ class TicketmasterScrapper:
                               PossibleKeys.endDate in event[PossibleKeys.dates].keys())
                     try:
                         venue = f"{event[PossibleKeys.venue][PossibleKeys.name]}, {event[PossibleKeys.venue][PossibleKeys.city]}"
-                        events.append(EventInfo(name=event[PossibleKeys.title],
-                                                image="https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
+                        events.append(EventInfo(name=title,
+                                                image= imageURL if imageURL else "https://business.ticketmaster.co.nz/wp-content/uploads/2024/07/Copy-of-TM-Partnership-Branded-Lockup.png",
                                                 venue=venue,
                                                 dates=dates,
                                                 url=event[PossibleKeys.url],
@@ -166,6 +199,8 @@ class TicketmasterScrapper:
                 print("ticket master error")
                 print(e)
                 count += 1
+
+        driver.close()
         return events
 
 

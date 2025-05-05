@@ -47,7 +47,7 @@ class HumanitixScrapper:
                 date = parser.parse(matches[0])
                 dates.append(date)
             else:
-                print(element.text)
+                print("date: ", element.text)
         driver.close()
         return dates
 
@@ -85,7 +85,7 @@ class HumanitixScrapper:
         categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
         categories = [(HumanitixScrapper.formatInput(category.text), category.text) for category in categories]
         for category, categoryName in categories:
-            print(category, categoryName)
+            print("cat: ", category, " ", categoryName)
             page = 0
             while True:
                 url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
