@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketmasterScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicketmasterScrapper.py" afterDir="false" />
-    </list>
+    <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +223,7 @@
       <workItem from="1743733106756" duration="30943000" />
       <workItem from="1744765218427" duration="1283000" />
       <workItem from="1744767948905" duration="7525000" />
-      <workItem from="1746290597384" duration="46716000" />
+      <workItem from="1746290597384" duration="47181000" />
     </task>
     <servers />
   </component>
