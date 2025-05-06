@@ -62,12 +62,18 @@ minorCats = {
 
 class TicketmasterScrapper:
     @staticmethod
-    def get_image_url_with_timeout(driver, timeout=10):
+    def get_image_url_with_timeout(driver, url: str, timeout=10):
         start_time = time.time()
 
         while True:
             try:
-                image_url = driver.find_element(By.TAG_NAME, "img").get_attribute("src")
+                if "moshtix" in url:
+                    image_url = ("https:" + driver
+                                 .find_element(By.CLASS_NAME, "page_headleftimage")
+                                 .find_element(By.TAG_NAME, "img")
+                                 .get_attribute("src"))
+                else:
+                    image_url = driver.find_element(By.TAG_NAME, "img").get_attribute("src")
                 return image_url
             except:
                 if time.time() - start_time > timeout:
@@ -162,7 +168,7 @@ class TicketmasterScrapper:
                         continue
                     titles.add(title)
                     driver.get(event[PossibleKeys.url])
-                    imageURL = TicketmasterScrapper.get_image_url_with_timeout(driver)
+                    imageURL = TicketmasterScrapper.get_image_url_with_timeout(driver, event[PossibleKeys.url])
                     startDate = event[PossibleKeys.dates][PossibleKeys.startDate]
                     startDateObj = parser.parse(startDate)
                     if PossibleKeys.endDate in event[PossibleKeys.dates].keys():
