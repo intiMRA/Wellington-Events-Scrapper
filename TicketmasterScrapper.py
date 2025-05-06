@@ -68,10 +68,12 @@ class TicketmasterScrapper:
         while True:
             try:
                 if "moshtix" in url:
-                    image_url = ("https:" + driver
+                    image_url = (driver
                                  .find_element(By.CLASS_NAME, "page_headleftimage")
                                  .find_element(By.TAG_NAME, "img")
                                  .get_attribute("src"))
+                    if "https:" in image_url:
+                        image_url = "https:" + image_url
                 else:
                     image_url = driver.find_element(By.TAG_NAME, "img").get_attribute("src")
                 return image_url
