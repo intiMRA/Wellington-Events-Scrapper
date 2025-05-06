@@ -19,9 +19,10 @@ class DateFormatting:
     @staticmethod
     def formatDateStamp(date: datetime) -> str :
         DateFormatting.replaceYear(date)
+        date = date.replace(microsecond=0, second=0)
         parts = date.isoformat().split("+")
-        date = parts[0] + "Z" if len(parts) > 1 else parts[0]
-        return date + "Z" if "Z" in date else date
+        date = parts[0]
+        return date if "Z" in date else date + "Z"
 
     @staticmethod
     def createRange(startDate: datetime, endDate: datetime) -> pandas.DatetimeIndex:
