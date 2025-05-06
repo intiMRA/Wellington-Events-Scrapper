@@ -7,9 +7,6 @@
     <list default="true" id="d864ed45-e968-459f-880d-5411b64dc74c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CategoryMapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/CategoryMapping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacebookScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HumanitixScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/HumanitixScrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketmasterScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/TicketmasterScrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/events.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +227,7 @@
       <workItem from="1743733106756" duration="30943000" />
       <workItem from="1744765218427" duration="1283000" />
       <workItem from="1744767948905" duration="7525000" />
-      <workItem from="1746290597384" duration="30005000" />
+      <workItem from="1746290597384" duration="38515000" />
     </task>
     <servers />
   </component>
@@ -245,11 +242,11 @@
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$cleanUpFile.coverage" NAME="cleanUpFile Coverage Results" MODIFIED="1745426624557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$SanFranScrapper.coverage" NAME="SanFranScrapper Coverage Results" MODIFIED="1744985759202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketekScrapper.coverage" NAME="TicketekScrapper Coverage Results" MODIFIED="1745421227352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1746474888998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$MainScrapper.coverage" NAME="MainScrapper Coverage Results" MODIFIED="1746540680513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$RougueScrapper.coverage" NAME="RougueScrapper Coverage Results" MODIFIED="1744984692869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$HumanitixScrapper.coverage" NAME="HumanitixScrapper Coverage Results" MODIFIED="1745376888330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$EventFinderScrapper.coverage" NAME="EventFinderScrapper Coverage Results" MODIFIED="1745377108149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$FacebookScrapper.coverage" NAME="FacebookScrapper Coverage Results" MODIFIED="1746318261291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketmasterScrapper.coverage" NAME="TicketmasterScrapper Coverage Results" MODIFIED="1746462323069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WellingtonEventsScrapper$TicketmasterScrapper.coverage" NAME="TicketmasterScrapper Coverage Results" MODIFIED="1746540553212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

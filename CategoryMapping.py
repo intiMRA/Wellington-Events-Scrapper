@@ -97,6 +97,8 @@ class CategoryMapping:
             "Business & Networking": "Other",
             "Auto, Boat & Air": "Other",
             "Experiences": "Other",
+            "Cycling": "Sports & Fitness",
+            "Markets & Fairs": "Markets & Fairs",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
