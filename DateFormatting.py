@@ -27,14 +27,20 @@ class DateFormatting:
     @staticmethod
     def createRange(startDate: datetime, endDate: datetime) -> pandas.DatetimeIndex:
         try:
+            hour = startDate.hour
             if startDate < datetime.now():
                 startDate = datetime.now()
+            startDate = startDate.replace(hour=hour)
+            endDate = endDate.replace(hour=hour)
             return pandas.date_range(startDate, endDate - timedelta(days=1))
         except:
             now = datetime.now().isoformat().split("T")[0] + "T" + startDate.isoformat().split("T")[1]
             now = parser.parse(now)
+            hour = startDate.hour
             if startDate < now:
                 startDate = now
+            startDate = startDate.replace(hour=hour)
+            endDate = endDate.replace(hour=hour)
             pds = pandas.date_range(startDate, endDate - timedelta(days=1))
             return pds
 
