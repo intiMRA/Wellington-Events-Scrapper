@@ -99,6 +99,8 @@ class CategoryMapping:
             "Experiences": "Other",
             "Cycling": "Sports & Fitness",
             "Markets & Fairs": "Markets & Fairs",
+            "Variety Concerts": "Music & Concerts",
+            "Adventure, Extreme": "Hobbies & Interests",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
