@@ -9,7 +9,6 @@ import re
 from dateutil import parser
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
 import json
 import pandas
 
@@ -23,14 +22,10 @@ class WellingtonNZScrapper:
             if scrolledAmount > height:
                 return events.values()
             driver.execute_script(f"window.scrollBy(0, {400});")
-
             scrolledAmount += 400
             rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
             for event in rawEvents:
                 title = event.find_element(By.TAG_NAME, 'h2').text
-                cleanTitle = re.match(r'[aA-zZ0-9]+', title)
-                if cleanTitle in events.keys():
-                    continue
                 dateObjects = []
                 if not title:
                     continue
@@ -96,7 +91,7 @@ class WellingtonNZScrapper:
                                           url=eventUrl,
                                           source="wellington nz",
                                           eventType=category)
-                    events[cleanTitle] = eventInfo
+                    events[title] = eventInfo
                 except Exception as e:
                     print(f"WellingtonNz: {e}")
                     pass
@@ -126,7 +121,6 @@ class WellingtonNZScrapper:
                 page += 1
             numberOfEvents = [0, 1]
             eventsInfo += list(WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, eventNames))
-
         driver.close()
         return eventsInfo
 # events = list(map(lambda x: x.to_dict(), sorted(WellingtonNZScrapper.fetch_events(), key=lambda k: k.name.strip())))
