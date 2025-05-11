@@ -101,6 +101,7 @@ class CategoryMapping:
             "Markets & Fairs": "Markets & Fairs",
             "Variety Concerts": "Music & Concerts",
             "Adventure, Extreme": "Hobbies & Interests",
+            "Electronica": "Other",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
