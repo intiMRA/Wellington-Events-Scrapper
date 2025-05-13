@@ -1,5 +1,5 @@
 from xmlrpc.client import DateTime
-
+from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from EventInfo import EventInfo
@@ -115,7 +115,15 @@ class EventFinderScrapper:
             driver = webdriver.Chrome()
             pageURL = url + f'/page/{currentPage}'
             driver.get(pageURL)
-            html = driver.find_element(By.CLASS_NAME, 'listings-events').find_elements(By.CLASS_NAME, 'card')
+            i = 0
+            html = []
+            while i < 10:
+                try:
+                    html = driver.find_element(By.CLASS_NAME, 'listings-events').find_elements(By.CLASS_NAME, 'card')
+                    break
+                except:
+                    i+=1
+                    sleep(1)
             for event in html:
                 date_obj = None
                 title = None

@@ -60,12 +60,19 @@ class FacebookScrapper:
                 day = date.split(" ")[1]
                 date_object = FacebookScrapper.parse_day_of_week(day)
                 return [date_object]
-            elif re.findall(r"and \d+ more", date):
-                parts = date.split(",")[1].split("-")
-                firstPart, secondPart = parts[0], parts[1]
-                firstPart = firstPart.strip() + hour
-                startDate = parser.parse(firstPart)
-                return [startDate]
+            elif re.findall(r"and \d{1,2} more", date):
+                if "-" in date:
+                    parts = date.split(",")[1].split("-")
+                    firstPart, secondPart = parts[0], parts[1]
+                    firstPart = firstPart.strip() + hour
+                    startDate = parser.parse(firstPart)
+                    return [startDate]
+                else:
+                    parts = date.split(",")[1]
+                    firstPart = re.findall(r"\d{1,2}\s\w{3}", parts)[0]
+                    firstPart = firstPart.strip() + hour
+                    startDate = parser.parse(firstPart)
+                    return [startDate]
             elif "-" in date and len(date.split("-")[-1]) > 3:
                 parts = date.split(",")[1].split("-")
                 firstPart, secondPart = parts[0], parts[1]
@@ -97,15 +104,16 @@ class FacebookScrapper:
             html = driver.find_elements(By.TAG_NAME, 'a')
             print("size of html: ", len(html))
             for event in html:
+                info = event.find_elements(By.TAG_NAME, "span")
+                filtered = []
+                for i in info:
+                    i = i.text.strip()
+                    if not i or i in filtered:
+                        continue
+                    filtered.append(i)
                 try:
-                    info = event.find_elements(By.TAG_NAME, "span")
-                    filtered = []
-                    for i in info:
-                        i = i.text.strip()
-                        if not i or i in filtered:
-                            continue
-                        filtered.append(i)
-
+                    if len(filtered) < 3:
+                        continue
                     date = filtered[0]
                     if date == "Happening now":
                         continue
@@ -128,9 +136,12 @@ class FacebookScrapper:
                                                       source="facebook",
                                                       eventType=category)
                 except Exception as e:
-                    if f"{e}" != "list index out of range":
+                    if "No dates found for" in str(e):
                         print("facebook error: ", e)
-                    continue
+                        print("facebook error: ", filtered)
+                        continue
+                    else:
+                        raise e
             if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 250:
                 return newEventTitles.values(), titles.union(foundTitles)
             oldEventTitles = newEventTitles.copy()
