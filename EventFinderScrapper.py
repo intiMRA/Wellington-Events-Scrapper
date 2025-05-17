@@ -60,8 +60,16 @@ class EventFinderScrapper:
                 allDatesButton.click()
             except:
                 pass
-            dateTable = driver.find_element(By.CLASS_NAME, "sessions-info")
-            dates = dateTable.find_elements(By.TAG_NAME, "time")
+            i = 0
+            dates = []
+            while i < 2:
+                try:
+                    dateTable = driver.find_element(By.CLASS_NAME, "sessions-info")
+                    dates = dateTable.find_elements(By.TAG_NAME, "time")
+                    break
+                except:
+                    i += 1
+                    sleep(1)
             startDate = None
             for date in dates:
                 dateString = date.get_attribute("datetime")
