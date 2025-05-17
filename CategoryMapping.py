@@ -102,6 +102,8 @@ class CategoryMapping:
             "Variety Concerts": "Music & Concerts",
             "Adventure, Extreme": "Hobbies & Interests",
             "Electronica": "Other",
+            "Musicals": "Music & Concerts",
+            "Conservation, Environment": "Conservation, Environment",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
