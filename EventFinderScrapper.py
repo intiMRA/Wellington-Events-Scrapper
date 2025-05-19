@@ -105,7 +105,7 @@ class EventFinderScrapper:
         return dateObjects
 
     @staticmethod
-    def getEvents(url: str) -> [EventInfo]:
+    def getEvents(url: str, titles: set) -> [EventInfo]:
         events: [EventInfo] = []
         driver = webdriver.Chrome()
         driver.get(url)
@@ -140,6 +140,9 @@ class EventFinderScrapper:
                 except:
                     print(f"no title: {event.text}")
                     continue
+                if title in titles:
+                    continue
+                titles.add(title)
                 title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
                 try:
                     eventURL = title_element.get_attribute("href")
@@ -198,15 +201,15 @@ class EventFinderScrapper:
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
-
+        titles = set()
         todaysEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/today"
         tomorrowsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/tomorrow"
         thisWeekEndsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/this-weekend"
         nextWeeksEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/next-week"
-        todaysEvents = EventFinderScrapper.getEvents(todaysEventsUrl)
-        tomorrowsEvents = EventFinderScrapper.getEvents(tomorrowsEventsUrl)
-        thisWeekEndsEvents = EventFinderScrapper.getEvents(thisWeekEndsEventsUrl)
-        nextWeeksEvents = EventFinderScrapper.getEvents(nextWeeksEventsUrl)
+        todaysEvents = EventFinderScrapper.getEvents(todaysEventsUrl, titles)
+        tomorrowsEvents = EventFinderScrapper.getEvents(tomorrowsEventsUrl, titles)
+        thisWeekEndsEvents = EventFinderScrapper.getEvents(thisWeekEndsEventsUrl, titles)
+        nextWeeksEvents = EventFinderScrapper.getEvents(nextWeeksEventsUrl, titles)
         events: [EventInfo] = todaysEvents + tomorrowsEvents + thisWeekEndsEvents + nextWeeksEvents
         eventsDict = {}
         for event in events:
