@@ -1,5 +1,5 @@
 import re
-
+from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -17,6 +17,13 @@ class UnderTheRaderScrapper:
         events: [EventInfo] = []
         driver = webdriver.Chrome()
         driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
+        while True:
+            try:
+                loadModeButton = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
+                loadModeButton.click()
+                sleep(1)
+            except:
+                break
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
         _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "vevent")))
         html = driver.find_elements(By.CLASS_NAME, 'vevent')
