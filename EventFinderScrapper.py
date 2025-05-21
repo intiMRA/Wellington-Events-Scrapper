@@ -13,7 +13,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from dateutil import parser
 import pandas
 import json
-
+from dateutil.relativedelta import relativedelta
 
 class EventFinderScrapper:
     @staticmethod
@@ -55,6 +55,13 @@ class EventFinderScrapper:
         try:
             driver = webdriver.Chrome()
             driver.get(url)
+            try:
+                driver.find_element(By.XPATH, "//*[contains(., 'HTTP')]")
+                print("AAAAAAHH")
+                sleep(2)
+                driver.get(url)
+            except:
+                pass
             try:
                 allDatesButton = driver.find_element(By.CLASS_NAME, "show-more")
                 allDatesButton.click()
@@ -105,7 +112,7 @@ class EventFinderScrapper:
         return dateObjects
 
     @staticmethod
-    def getEvents(url: str) -> [EventInfo]:
+    def getEvents(url: str, titles: set) -> [EventInfo]:
         events: [EventInfo] = []
         driver = webdriver.Chrome()
         driver.get(url)
@@ -140,6 +147,9 @@ class EventFinderScrapper:
                 except:
                     print(f"no title: {event.text}")
                     continue
+                if title in titles:
+                    continue
+                titles.add(title)
                 title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
                 try:
                     eventURL = title_element.get_attribute("href")
@@ -198,32 +208,12 @@ class EventFinderScrapper:
 
     @staticmethod
     def fetch_events() -> [EventInfo]:
-
-        todaysEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/today"
-        tomorrowsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/tomorrow"
-        thisWeekEndsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/this-weekend"
-        nextWeeksEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/next-week"
-        todaysEvents = EventFinderScrapper.getEvents(todaysEventsUrl)
-        tomorrowsEvents = EventFinderScrapper.getEvents(tomorrowsEventsUrl)
-        thisWeekEndsEvents = EventFinderScrapper.getEvents(thisWeekEndsEventsUrl)
-        nextWeeksEvents = EventFinderScrapper.getEvents(nextWeeksEventsUrl)
-        events: [EventInfo] = todaysEvents + tomorrowsEvents + thisWeekEndsEvents + nextWeeksEvents
-        eventsDict = {}
-        for event in events:
-            if event.name in eventsDict.keys():
-                continue
-            else:
-                try:
-                    eventsDict[event.name] = EventInfo(name=event.name,
-                                                       dates=list(map(lambda x: parser.parse(x), event.dates)),
-                                                       image=event.image,
-                                                       url=event.url,
-                                                       venue=event.venue,
-                                                       source="event finder",
-                                                       eventType=event.eventType)
-                except Exception as e:
-                    print(f"event finder: {e}")
-        return list(eventsDict.values())
+        titles = set()
+        start_date = datetime.now()
+        end_date = start_date + relativedelta(days=30)
+        eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"
+        events: [EventInfo] = EventFinderScrapper.getEvents(eventsUrl, titles)
+        return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))
 # with open('wellys.json', 'w') as outfile:

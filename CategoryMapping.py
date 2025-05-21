@@ -104,6 +104,7 @@ class CategoryMapping:
             "Electronica": "Other",
             "Musicals": "Music & Concerts",
             "Conservation, Environment": "Conservation, Environment",
+            "Hip Hop, Rap": "Music & Concerts",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
