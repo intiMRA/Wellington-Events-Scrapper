@@ -13,7 +13,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from dateutil import parser
 import pandas
 import json
-
+from dateutil.relativedelta import relativedelta
 
 class EventFinderScrapper:
     @staticmethod
@@ -55,6 +55,13 @@ class EventFinderScrapper:
         try:
             driver = webdriver.Chrome()
             driver.get(url)
+            try:
+                driver.find_element(By.XPATH, "//*[contains(., 'HTTP')]")
+                print("AAAAAAHH")
+                sleep(2)
+                driver.get(url)
+            except:
+                pass
             try:
                 allDatesButton = driver.find_element(By.CLASS_NAME, "show-more")
                 allDatesButton.click()
@@ -202,31 +209,11 @@ class EventFinderScrapper:
     @staticmethod
     def fetch_events() -> [EventInfo]:
         titles = set()
-        todaysEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/today"
-        tomorrowsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/tomorrow"
-        thisWeekEndsEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/this-weekend"
-        nextWeeksEventsUrl = "https://www.eventfinda.co.nz/whatson/events/wellington/next-week"
-        todaysEvents = EventFinderScrapper.getEvents(todaysEventsUrl, titles)
-        tomorrowsEvents = EventFinderScrapper.getEvents(tomorrowsEventsUrl, titles)
-        thisWeekEndsEvents = EventFinderScrapper.getEvents(thisWeekEndsEventsUrl, titles)
-        nextWeeksEvents = EventFinderScrapper.getEvents(nextWeeksEventsUrl, titles)
-        events: [EventInfo] = todaysEvents + tomorrowsEvents + thisWeekEndsEvents + nextWeeksEvents
-        eventsDict = {}
-        for event in events:
-            if event.name in eventsDict.keys():
-                continue
-            else:
-                try:
-                    eventsDict[event.name] = EventInfo(name=event.name,
-                                                       dates=list(map(lambda x: parser.parse(x), event.dates)),
-                                                       image=event.image,
-                                                       url=event.url,
-                                                       venue=event.venue,
-                                                       source="event finder",
-                                                       eventType=event.eventType)
-                except Exception as e:
-                    print(f"event finder: {e}")
-        return list(eventsDict.values())
+        start_date = datetime.now()
+        end_date = start_date + relativedelta(days=30)
+        eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"
+        events: [EventInfo] = EventFinderScrapper.getEvents(eventsUrl, titles)
+        return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))
 # with open('wellys.json', 'w') as outfile:
