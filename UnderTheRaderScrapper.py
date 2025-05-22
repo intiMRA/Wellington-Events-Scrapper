@@ -13,7 +13,7 @@ from dateutil import parser
 
 class UnderTheRaderScrapper:
     @staticmethod
-    def fetch_events() -> [EventInfo]:
+    def fetch_events(previousTitles: set) -> [EventInfo]:
         events: [EventInfo] = []
         driver = webdriver.Chrome()
         driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
@@ -28,13 +28,15 @@ class UnderTheRaderScrapper:
         _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "vevent")))
         html = driver.find_elements(By.CLASS_NAME, 'vevent')
         for event in html:
+            title: str = event.find_element(By.CLASS_NAME, 'gig-title').text
+            if title in previousTitles:
+                continue
             imageURL = event.find_element(By.CSS_SELECTOR, ".gig-image img").get_attribute("data-original")
             date = event.find_element(By.CLASS_NAME, 'lite').text
             cleaned_date_str = DateFormatting.cleanUpDate(date)
             match = re.findall(r"(\d{1,2}\s\w+\s\d{1,2}[:0-9AMP]+)", cleaned_date_str)[0]
             date_obj = parser.parse(match)
             date_obj = DateFormatting.replaceYear(date_obj)
-            title: str = event.find_element(By.CLASS_NAME, 'gig-title').text
             venue = event.find_element(By.CLASS_NAME, 'venue-title').text
             title_element = event.find_element(By.CLASS_NAME, "gig-title").find_element(By.TAG_NAME, "a")
             url = title_element.get_attribute("href")

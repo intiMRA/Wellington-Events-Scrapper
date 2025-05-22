@@ -1,4 +1,3 @@
-from xmlrpc.client import DateTime
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -6,13 +5,7 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime, timedelta
 from DateFormatting import DateFormatting
-from selenium.webdriver.ie.webdriver import WebDriver
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
 from dateutil import parser
-import pandas
-import json
 from dateutil.relativedelta import relativedelta
 
 class EventFinderScrapper:
@@ -207,8 +200,8 @@ class EventFinderScrapper:
         return events
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
-        titles = set()
+    def fetch_events(previousTitles: set) -> [EventInfo]:
+        titles = previousTitles
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
         eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"

@@ -1,11 +1,6 @@
 import requests
-
-from DateFormatting import DateFormatting
 from EventInfo import EventInfo
-from enum import Enum
 import re
-from datetime import datetime
-import json
 from dateutil import parser
 
 class SanFranScrapper:
@@ -13,7 +8,6 @@ class SanFranScrapper:
     @staticmethod
     def fetch_events() -> [EventInfo]:
         events: [EventInfo] = []
-
         page = 1
         while True:
             headers = {

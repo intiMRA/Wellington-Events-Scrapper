@@ -150,7 +150,7 @@ class FacebookScrapper:
     @staticmethod
     def fetch_events() -> [EventInfo]:
         # Path to your Chrome profile directory
-        profile_path = "/Users/ialbuquerque/ChromeTestProfile"  # Replace with your actual path
+        profile_path = "~/ChromeTestProfile"  # Replace with your actual path
         # Set Chrome options
         options = Options()
         options.add_argument(f"user-data-dir={profile_path}")
@@ -170,7 +170,6 @@ class FacebookScrapper:
             f"&location_id=114912541853133"
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
-
         element = driver.find_element(By.XPATH, "//span[contains(., 'Classics')]")
         element.click()
         sleep(3)

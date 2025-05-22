@@ -1,11 +1,8 @@
-import uuid
-from uuid import uuid4
-from dateutil import parser
 from datetime import datetime
 from DateFormatting import DateFormatting
-from numpy.f2py.auxfuncs import throw_error
 import pytz
 from CategoryMapping import CategoryMapping
+from dateutil import parser
 utc=pytz.UTC
 
 class EventInfo:
@@ -85,13 +82,15 @@ class EventInfo:
     @classmethod
     def from_dict(cls, data: dict):
         """Create an EventInfo object from a dictionary."""
-        return cls(
-            name=data["name"],
-            image=data["imageUrl"],
-            venue=data["venue"],
-            dates=data["dates"],
-            displayDate=data["displayDate"],
-            url=data["url"],
-            source=data["source"],
-            eventType=data["eventType"]
-        )
+        try:
+            return cls(
+                name=data["name"],
+                image=data["imageUrl"],
+                venue=data["venue"],
+                dates=[parser.parse(date) for date in data["dates"]],
+                url=data["url"],
+                source=data["source"],
+                eventType=data["eventType"]
+            )
+        except:
+            return None

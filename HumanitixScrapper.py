@@ -1,14 +1,10 @@
-# https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463
-# https://humanitix.com/_next/data/hze7h3WN8iE4RUuQho5-Z/nz/search.json?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page=0
 from time import sleep
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from EventInfo import EventInfo
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 from DateFormatting import DateFormatting
-import json
 from dateutil import parser
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -75,9 +71,9 @@ class HumanitixScrapper:
         return input_string[0].lower() + input_string[1:]
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
+    def fetch_events(previousTitles: set) -> [EventInfo]:
         events: [EventInfo] = []
-        eventTitles = set()
+        eventTitles = previousTitles
         driver = webdriver.Chrome()
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
         categoriesButton = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
