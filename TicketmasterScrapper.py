@@ -3,11 +3,9 @@ import requests
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from enum import Enum
-import json
 from dateutil import parser
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from time import sleep
 import time
 
 majorCats = {
@@ -84,7 +82,7 @@ class TicketmasterScrapper:
                 time.sleep(0.1)
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
+    def fetch_events(previousTitles: set) -> [EventInfo]:
         class PossibleKeys(str, Enum):
             id = 'id'
             total = 'total'
@@ -132,8 +130,8 @@ class TicketmasterScrapper:
         }
 
         page = 0
+        titles = previousTitles
         count = 0
-        titles = set()
         driver = webdriver.Chrome()
         while True:
             print(f"fetching page {page}")
@@ -145,7 +143,6 @@ class TicketmasterScrapper:
             try:
                 data = r.json()
                 if not data[PossibleKeys.events]:
-
                     driver.close()
                     return events
 

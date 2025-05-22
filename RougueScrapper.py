@@ -4,14 +4,12 @@ from bs4 import BeautifulSoup
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
-from datetime import datetime
-import json
 from dateutil import parser
 
 class RougueScrapper:
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
+    def fetch_events(previousTitltes: set) -> [EventInfo]:
         eventsInfo: [EventInfo] = []
         response = requests.get(f"https://rogueandvagabond.co.nz/")
         if response.status_code == 200:
@@ -25,6 +23,8 @@ class RougueScrapper:
                 titleDiv = event.find_all('div', class_='gig-title')[0]
                 titleTag = titleDiv.find('a')
                 title = titleTag.get_text()
+                if title in previousTitltes:
+                    continue
 
                 dateTag = event.find_all('span', class_='lite')[0].text
                 dateString = re.sub('\W+', ' ', dateTag).strip()

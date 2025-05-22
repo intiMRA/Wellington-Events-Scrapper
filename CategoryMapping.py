@@ -105,6 +105,9 @@ class CategoryMapping:
             "Musicals": "Music & Concerts",
             "Conservation, Environment": "Conservation, Environment",
             "Hip Hop, Rap": "Music & Concerts",
+            "Food+%26+Drink": "Food & Drink",
+            "Blues": "Music & Concerts",
+            "Snooker, Billiards, Pool": "Hobbies & Interests",
             "Other": "Other"
         }
         cat = category_mapping.get(category)

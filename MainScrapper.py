@@ -12,28 +12,52 @@ from FacebookScrapper import FacebookScrapper
 import json
 import re
 from dateutil import parser
-from datetime import datetime
+
+with open("events.json", mode="r") as f:
+    evts = json.loads(f.read())
+    previousEventTitles = evts["events"]
 
 print("fetching wellington NZ")
-wellyNZ_events = WellingtonNZScrapper.fetch_events()
+wellingtonNZPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "wellington nz"]
+wellingtonNZPrevious = [event for event in wellingtonNZPrevious if event is not None]
+wellyNZ_events = WellingtonNZScrapper.fetch_events(set([event.name for event in wellingtonNZPrevious])) + wellingtonNZPrevious
+
 print("fetching facebook")
 facebook_events = FacebookScrapper.fetch_events()
+
 print("fetching san fran")
 san_fran_events: [EventInfo] = SanFranScrapper.fetch_events()
+
 print("fetching tiket")
 ticket_events: [EventInfo] = TicketekScrapper.fetch_events()
+
 print("fetching ticket master")
-ticket_master_events: [EventInfo] = TicketmasterScrapper.fetch_events()
+ticketMasterPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "ticketmaster"]
+ticketMasterPrevious = [event for event in ticketMasterPrevious if event is not None]
+ticket_master_events: [EventInfo] = TicketmasterScrapper.fetch_events(set([event.name for event in ticketMasterPrevious])) + ticketMasterPrevious
+
 print("fetching under the radar")
-under_the_radar_events: [EventInfo] = UnderTheRaderScrapper.fetch_events()
+utrPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "under the radar"]
+utrPrevious = [event for event in utrPrevious if event is not None]
+under_the_radar_events: [EventInfo] = UnderTheRaderScrapper.fetch_events(set([event.name for event in utrPrevious])) + utrPrevious
+
 print("fetching valhalla")
 valhalla_events: [EventInfo] = ValhallaScrapper.fetch_events()
+
 print("fetching event finder")
-event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events()
+eventFinderPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "event finder"]
+eventFinderPrevious = [event for event in eventFinderPrevious if event is not None]
+event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events(set([event.name for event in eventFinderPrevious])) + eventFinderPrevious
+
 print("fetching rogue")
-rogue_events = RougueScrapper.fetch_events()
+roguePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "rogue"]
+roguePrevious = [event for event in roguePrevious if event is not None]
+rogue_events = RougueScrapper.fetch_events(set([event.name for event in roguePrevious])) + roguePrevious
+
 print("fetching mumanitix")
-humanitix_events = HumanitixScrapper.fetch_events()
+humanitixPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "humanitix"]
+humanitixPrevious = [event for event in humanitixPrevious if event is not None]
+humanitix_events = HumanitixScrapper.fetch_events(set([event.name for event in humanitixPrevious])) + humanitixPrevious
 
 print("facebook: ", len(facebook_events))
 print("san fran: ", len(san_fran_events))
@@ -79,11 +103,11 @@ sources = set([event.source for event in data])
 data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
 data = sorted(data, key=lambda k: k["name"])
 data = sorted(data, key=lambda k: parser.parse(k["dates"][0]))
-eventTypes = list(eventTypes)
+eventTypes = sorted(list(eventTypes))
 eventTypes.append("Other")
 filters = {
     "sources": sorted(list(sources)),
-    "eventTypes": sorted(eventTypes),
+    "eventTypes": eventTypes,
 }
 with open("events.json", "w") as write:
     write.write('{ "events":')

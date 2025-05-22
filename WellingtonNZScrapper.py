@@ -1,5 +1,4 @@
-from time import sleep
-from datetime import datetime, timedelta
+from datetime import datetime
 from selenium.webdriver.common.by import By
 
 from DateFormatting import DateFormatting
@@ -9,8 +8,6 @@ import re
 from dateutil import parser
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import json
-import pandas
 
 class WellingtonNZScrapper:
     @staticmethod
@@ -97,7 +94,7 @@ class WellingtonNZScrapper:
                     pass
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
+    def fetch_events(previousTitles: set) -> [EventInfo]:
         driver = webdriver.Chrome()
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)
@@ -109,7 +106,7 @@ class WellingtonNZScrapper:
         numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
         numberOfEvents = re.findall("\d+", numberOfEvents.text)
         eventsInfo = []
-        eventNames = set()
+        eventNames = previousTitles
         for cat in categories:
             cat = cat[0]
             page = 1

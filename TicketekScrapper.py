@@ -1,13 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-
-from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
-from datetime import datetime
 from dateutil import parser
-import json
-from time import sleep
 
 class TicketekScrapper:
     @staticmethod
