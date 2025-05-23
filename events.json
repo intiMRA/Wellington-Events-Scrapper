@@ -15478,7 +15478,2321 @@
       "url": "https://www.moshtix.co.nz/v2/event/amble-wellington/180813",
       "source": "ticketmaster",
       "eventType": "Arts & Theatre"
-    }
+    },
+    {
+    "id": "Acing The Interview-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Acing The Interview",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/L5CSMUnfU1OvMjPxUIN308Vsa04FLCeVxd9kTBQvgKgCyey9/amy-hirschi-K0c8ko3e6AA-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z",
+      "2025-08-09T09:30:00Z",
+      "2025-11-22T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1563-acing-the-interview",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Adobe InDesign - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Adobe InDesign - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/NTxcNDgisUclq7ZxpBNCOMnLQIqDCkUcUN7FPwtehd21lnjn/gpi-indesign-logo.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:00:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/390-adobe-indesign-beginners",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Adobe Photoshop - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Adobe Photoshop - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/nhruIrkhaMds9By5M1c6JTUAwUwtcOfNQl9vLljdlnig7uF0/photoshop.jpeg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-18T09:00:00Z"
+    ],
+    "displayDate": "Sat 18 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/763-adobe-photoshop-beginners",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Art Workshop - Drawing and Sketching-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Art Workshop - Drawing and Sketching",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/qbJ7odJ0Ocr7D6zjFhbWC4Blm9gDijgSFOKFlSs1madJuoKO/Kaye%20Paget_s%20class%20students%20drawing.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-09T09:30:00Z"
+    ],
+    "displayDate": "Sat 09 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1486-art-workshop-drawing-and-sketching",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Assertiveness - Stand Up for Yourself-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Assertiveness - Stand Up for Yourself",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/7Q1Yix179hz9Cx2GgSC2FXq5HP5XJBund2pfhWA1X8KCjPzJ/asser.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z",
+      "2025-10-07T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/797-assertiveness-stand-up-for-yourself",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Beekeeping - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Beekeeping - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/g5Af8vyG0GTGZpV0NVItzLiTgFxgk8zqMA0iyGloMRJ3pnUZ/bee-sipping-nectar-on-flower-during-daytime-144252.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-11T09:30:00Z",
+      "2025-11-08T09:30:00Z"
+    ],
+    "displayDate": "Sat 11 Oct + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/410-beekeeping-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Beekeeping - Next Step-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Beekeeping - Next Step",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/3zCn2BYiHTdbUYdB7RHfcRdU1dMiiPUBDx1Zeus7Zfb9kPuG/revolt-QJfew6cDpR4-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-15T09:30:00Z"
+    ],
+    "displayDate": "Sat 15 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/655-beekeeping-next-step",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Beeswax Candle Making-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Beeswax Candle Making",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/ikplXGaEeNgWrnZ8nrtgGkD8MHleDg7jShgo3vrRLNcavxAL/pexels-sunsetoned-5913178.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-31T19:00:00Z",
+      "2025-11-06T19:00:00Z"
+    ],
+    "displayDate": "Thu 31 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1574-beeswax-candle-making",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Bike Maintenance for Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Bike Maintenance for Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/okkFaWfr0N380PbqL34vzDYGdNGA9dWaB915AKEkFZOzspi3/pexels-rehook-bike-10263879.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z",
+      "2025-11-22T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1656-bike-maintenance-for-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Bob Ross Landscape Painting Workshop (held in Seaview, Lower Hutt)-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Bob Ross Landscape Painting Workshop (held in Seaview, Lower Hutt)",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/fIpb9DWBkl3IlGtKC7L2ursW6iqTVc94Zj6S8emEl6sKjgJY/15%20November%202025%20image.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:00:00Z",
+      "2025-11-15T09:00:00Z"
+    ],
+    "displayDate": "Sat 30 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1696-bob-ross-landscape-painting-workshop-held-in-seaview-lower-hutt",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Calligratherapy - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Calligratherapy - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/e3m5koU5h1i75dVdOydepHsbXAnuVzLXKvjTdamAbCYN2LWw/marco-zuppone-zHwWnUDMizo-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1636-calligratherapy-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Car Maintenance - The Basics-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Car Maintenance - The Basics",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/meSS6FsOUjcATwQj5dodRTuVeROrf3EskRwBCuj92T3Cir7D/pexels-mark-vegera-1089425.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-11T09:30:00Z",
+      "2025-11-01T09:30:00Z"
+    ],
+    "displayDate": "Sat 11 Oct + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/413-car-maintenance-the-basics",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cheesemaking - Brie and Queso Fresco-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cheesemaking - Brie and Queso Fresco",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/NXsb23X7X66PCQDdvoFmoAnT92RIi9mVZzYeZk4zzrTTWZDN/pexels-polina-tankilevitch-4109939.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-02T09:30:00Z",
+      "2025-11-01T09:30:00Z"
+    ],
+    "displayDate": "Sat 02 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1517-cheesemaking-brie-and-queso-fresco",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cheesemaking - Farmhouse Cheddar Cheese Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cheesemaking - Farmhouse Cheddar Cheese Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/CfZ7hlSiwgtwU4HeFjVH1qCcusIVhnsmWNGrSFO1n0IAV9ww/Cheese%20making%20smiling%20ladies.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-08T09:30:00Z"
+    ],
+    "displayDate": "Sat 08 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1370-cheesemaking-farmhouse-cheddar-cheese-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cheesemaking - Halloumi and Ricotta-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cheesemaking - Halloumi and Ricotta",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/mlOxSaazEpOtJqg3ACLg6PpJcCwvAHYYQT5PJdoMVGNOdaig/Cheese%20making%204%20ladies%20in%20a%20row.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/953-cheesemaking-halloumi-and-ricotta",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Chinese Mandarin - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Chinese Mandarin - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/LAqROxBDdBdxeYEahfTUTzWDYHTLay5OM2PP0eWOJSaWfJr7/yiranding-aIG78YGhDmM-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T17:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/408-chinese-mandarin-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Chinese Mandarin - Introductory 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Chinese Mandarin - Introductory 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/7enH9k0DnbmZp8W0yphRLgiGcGmvucNMX3q9RKtrZ2h76HIc/hanson-lu-_8EFj6ISA08-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-08T17:30:00Z"
+    ],
+    "displayDate": "Wed 08 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/407-chinese-mandarin-introductory-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Chooks in the City-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Chooks in the City",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/bUFf9bt959Q6oYECXkTcLILN9cYG12fGZXgdysNFi0vdnupM/Chooks%20-%20Charlotte%27s.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-08T09:30:00Z"
+    ],
+    "displayDate": "Sat 08 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1009-chooks-in-the-city",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Communication English - Level 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Communication English - Level 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/73VYguchEO3vnN0jYClxOo4uj5Yodxg1EdPaCFur396vcH45/IMG_3693.JPG",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-21T12:30:00Z",
+      "2025-10-06T12:30:00Z"
+    ],
+    "displayDate": "Mon 21 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/941-communication-english-level-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Communication English - Level 3-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Communication English - Level 3",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/MJ37YCXzJDSMKSHex94KGoJcv5tpwf0jjzQOJhCabuBLNVZu/Penny%27s%20ESOL%20Colonial%20Cottage%20-%20May%20%281%29.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-21T09:15:00Z",
+      "2025-10-06T09:15:00Z"
+    ],
+    "displayDate": "Mon 21 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/942-communication-english-level-3",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Conflict Management and Resolution Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Conflict Management and Resolution Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/vziZHWSb6XlHAmBeD78rHcpLEDBq4O39mODeTO23MRW7C89f/afif-ramdhasuma-mv38TB_Ljj8-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-05-24T09:30:00Z"
+    ],
+    "displayDate": "Sat 24 May",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1775-conflict-management-and-resolution-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: Gourmet Sausage Making-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Gourmet Sausage Making",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/sda1KKNrg5DArjmehjWwQwC9DypzpqDtrfNdWKMeNSPAumYT/sausage-making__FocusFillWzc2OCw0NzQsInkiLDE5XQ.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-09-02T18:00:00Z"
+    ],
+    "displayDate": "Tue 02 Sep",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1540-cooking-gourmet-sausage-making",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Homemade Chinese Dumplings and Spring Rolls-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Homemade Chinese Dumplings and Spring Rolls",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/AhR2jMtjM1PPIOgFeWqNnaNpugGqdijT1IxZFweOsCNyZxhQ/alex-hu-6m_cJSVxUHs-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-01T09:30:00Z"
+    ],
+    "displayDate": "Sat 01 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1731-cooking-homemade-chinese-dumplings-and-spring-rolls",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Homemade Chinese Egg Noodles and Pan-fried Buns-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Homemade Chinese Egg Noodles and Pan-fried Buns",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/wLlSisZE3jzJuX0Lm21vadPqaELlRKtmkeVCWXp1Qch7Ty4K/Webp.net-resizeimage%20%284%29.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-26T09:30:00Z"
+    ],
+    "displayDate": "Sat 26 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1513-cooking-homemade-chinese-egg-noodles-and-panfried-buns",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: Indian Homestyle-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Indian Homestyle",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/mOeJSeShYjjLi9xR33r259WrLKciRoxD5Xykt95peERHfm0J/Webp.net-resizeimage%20%282%29.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-20T17:30:00Z"
+    ],
+    "displayDate": "Wed 20 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1475-cooking-indian-homestyle",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: Indian Vegan-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Indian Vegan",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/SqwhURaKRhpllnTrAzSSBx5FFdH7fbJVMXBSPbAEjLXHPC1M/Webp.net-resizeimage%20%283%29.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-05-29T17:30:00Z",
+      "2025-11-05T17:30:00Z"
+    ],
+    "displayDate": "Thu 29 May + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1476-cooking-indian-vegan",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: Indian Vegetarian-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Indian Vegetarian",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/VJGN4rkYbTpeX1FQhcKl1BPAnAyrPXoLC1Clkt2KxjSbwYSI/Indian%20Vegetarian%20closeup%20of%20green%20herbs%20in%20bowl.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/775-cooking-indian-vegetarian",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: Japanese Home-Style-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Japanese Home-Style",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/uluzFCatcUfJi5mBw5x0jrOGi8MuifghpgO7nBrlfrcLEX7t/Japanese.cooking.course.image3.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-19T17:30:00Z",
+      "2025-10-08T17:30:00Z"
+    ],
+    "displayDate": "Tue 19 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1741-cooking-japanese-homestyle",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Lentils \u2013 Types, Recipes and How to Cook Them-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Lentils \u2013 Types, Recipes and How to Cook Them",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/KoLkmsXXdkcMJ7jtMLypnFYBJZM7uvqL4ACTKZulaDi830rE/len.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1581-cooking-lentils-types-recipes-and-how-to-cook-them",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Masalas and Breads from India-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Masalas and Breads from India",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/I2ZxXnjxFkljuPQBC93Sz0sxJuR2use6rwbSY0dgNF53CUj9/Manjula%20stirring%20bowl%20and%20students%20sitting.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z",
+      "2025-10-18T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1355-cooking-masalas-and-breads-from-india",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: More Tastes of Singapore Street Food-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: More Tastes of Singapore Street Food",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/DBFO33haJCuc4wU33T1Dczr6BqurAN39UvHTd5pyPxl0LPuL/chicken-rendang.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-23T09:30:00Z"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1478-cooking-more-tastes-of-singapore-street-food",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: More Tastes of Vietnamese Street Food-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: More Tastes of Vietnamese Street Food",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/DBC2DvdXRGvf5BMHdsyxK958HvuXYgEoxCZdlMny0bOho9wM/viet.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1704-cooking-more-tastes-of-vietnamese-street-food",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Mumbai Street Food-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Mumbai Street Food",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/oVGYGWJxVz7OqHEgSOyLMnmP8fMRscH8cyUeU8PSqFsB4tf4/Manjula%20cooking.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1306-cooking-mumbai-street-food",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Cooking: Singapore Nyonya Food-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Singapore Nyonya Food",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/1B8D49ZRIhG4zWnpODUD7A5wvxFxmmzzOT0swkmpgT1Eb0d2/singa.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-22T09:30:00Z"
+    ],
+    "displayDate": "Sat 22 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1575-cooking-singapore-nyonya-food",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Thai Food with Aranya-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Thai Food with Aranya",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/4tI1Sjtvph8E8247lcx7DiXQ6WZbTJ8gmO98p7e5ZiuY7Sgs/thai%20food.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-04T17:30:00Z"
+    ],
+    "displayDate": "Tue 04 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1709-cooking-thai-food-with-aranya",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Thai Home-Style-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Thai Home-Style",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/OkjeK5KxCPRVpTBGWlIC0tUZof54MnSe2nLXrwiE8B8oVRuO/pad%20thai.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:30:00Z",
+      "2025-11-15T09:30:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1708-cooking-thai-homestyle",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "Cooking: Vietnamese Street Food-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Cooking: Vietnamese Street Food",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/SBP4QBCC9E1uussxD6pHeIykfxLW5A5P4WtLPSrcd1v6Bp8Z/Wrap%20and%20roll%202.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1360-cooking-vietnamese-street-food",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Creative Problem-Solving Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Creative Problem-Solving Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/aQ0ap8wKtLkDi0QKzmUx7uL7ewHwmBh3l3gmxGe87ntDlp3y/karla-hernandez-LrlyZzX6Sws-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1787-creative-problemsolving-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Creative Writing - A Tasting Plate-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Creative Writing - A Tasting Plate",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/b72GiZOB1rGROdb3KGFvx8TG02Xy9whVmnDumGZ2gC7QL2P3/allef-vinicius-P2BoE6tb8ig-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T17:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1208-creative-writing-a-tasting-plate",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Creative Writing - From Idea to Page-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Creative Writing - From Idea to Page",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/BdW5jj8pd62qR3GxbEzuodrwQKz3ecNGJR0OhEwsHgtxhkJU/lilartsy-333oj7zFsdg-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z",
+      "2025-11-08T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1734-creative-writing-from-idea-to-page",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Crime Writing - An Introduction-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Crime Writing - An Introduction",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/3p7zJ8derSjshcIv7vWIyZua6kbItlzFJfhfme69cTdkvBWm/writing%20crime.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-26T09:30:00Z"
+    ],
+    "displayDate": "Sat 26 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1567-crime-writing-an-introduction",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Crochet - Christmas Special!-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Crochet - Christmas Special!",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/RUZeKEpBV8EOhPqqpPedRWQYM3N2lW72KQ90J1QXbTNi0UTx/Crochet%20Xmas%20Special%20Jerseys.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-18T09:30:00Z"
+    ],
+    "displayDate": "Sat 18 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1737-crochet-christmas-special",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Crochet for Calmness-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Crochet for Calmness",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/hgIYx4Dh5FPlMd2XFAOWJDuVUsicZb9CEnKuwSgMwhNdO88j/Starting%20a%20medallion.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z",
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1361-crochet-for-calmness",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Dance Lab-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Dance Lab",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/CF0LcS9kAjkHRjmogKKqH0yjbGQV4caOZqxIbAFky5W9BSnv/three%20young%20people%20dancing.jpeg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-23T09:30:00Z",
+      "2025-10-18T09:30:00Z"
+    ],
+    "displayDate": "Sat 23 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1762-dance-lab",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Dare to Be Seen \u2013 Overcome Stage Fright and Performance Anxiety-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Dare to Be Seen \u2013 Overcome Stage Fright and Performance Anxiety",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/dbdUp6NgKluq2bJb1ZhKJsvdJMkZgAdYFzbCNtu8C1UQUKWM/pexels-luis-quintero-2146712.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-18T09:30:00Z"
+    ],
+    "displayDate": "Sat 18 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1674-dare-to-be-seen-overcome-stage-fright-and-performance-anxiety",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Drawing and Painting for Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Drawing and Painting for Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/bVL8q2PgZbnz3Qknrc8H9ViS0iAHngv2m7I7iR3OtNGksPW4/mike-petrucci-f6Xv0xs9JWg-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z",
+      "2025-10-07T19:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1048-drawing-and-painting-for-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Drawing for Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Drawing for Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/mKdgxTb823LB3DTYuzJcafs6zYxde1Stsbe9uie6oDTG4G32/dusan-kipic-pyMbXQhPK0k-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T19:30:00Z",
+      "2025-10-08T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1690-drawing-for-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Dried Flowers: Christmas Wreath-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Dried Flowers: Christmas Wreath",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/3sLJRuOgDqxqzVgDxLOeruWImzkwGcNzqG348NTIJxMkyvA2/Untitled-1-02.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-15T09:30:00Z",
+      "2025-11-22T09:30:00Z"
+    ],
+    "displayDate": "Sat 15 Nov + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1757-dried-flowers-christmas-wreath",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Dried Flowers: Meadow Hoop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Dried Flowers: Meadow Hoop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/vy8tqccuooZz5lohrfDwxms82UzcQJiX0TAc0D5XTYLPIS2q/Meadow%20hoop%20flower%20closeup%20list%20image-04.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-26T09:30:00Z"
+    ],
+    "displayDate": "Sat 26 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1767-dried-flowers-meadow-hoop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Dried Flowers: Wreath Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Dried Flowers: Wreath Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/2DkrLio8DkyNqkpLIQd64zbAvZBNR2ni0bPG8hGGJSbKIH55/Floral%20wreath%20orange%202025%20hero%20image%20collage-01.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1756-dried-flowers-wreath-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Dutch - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Dutch - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/qQm0lDxBce4W8M5wkWkmuKFdbaDHwEnVOc8dX74XRx2DC8pf/robin-benzrihem-4ZtYoQavCVI-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/876-dutch-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "ESOL - Level 1-2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "ESOL - Level 1-2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/EyAdVBcsJzoWn9l1Z3ERsldySklAwPpapSnyLgoM8uP9BK30/esol%201-2.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z",
+      "2025-10-07T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1607-esol-level-12",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "ESOL - Level 3-4-Wellington High School Community Education Centre-Wellington High School",
+    "name": "ESOL - Level 3-4",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/fZroRjzSbFr6rHvPvXFbtSFQv6Z5WACYNr01Mha3fv0GQZpL/IMG_0105.JPG",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z",
+      "2025-10-07T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1608-esol-level-34",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Effective Listening and Speaking [ESOL Levels 3 and 4]-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Effective Listening and Speaking [ESOL Levels 3 and 4]",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/cpksyi0C06pcER9XHgEDtC8UtQ3ZaXC7UCvgVdKBvhhcoif5/n.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z",
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/454-effective-listening-and-speaking-esol-levels-3-and-4",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Empower & Protect: A One-Day Self-Defense Course-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Empower & Protect: A One-Day Self-Defense Course",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/XrzTeBZLj2ktal5zEHwKhoubWpzUfsCYW3sHeSM5vff1g33f/pexels-rdne-7045658.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T13:00:00Z",
+      "2025-08-09T13:00:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1783-empower-protect-a-oneday-selfdefense-course",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "English in the Community: Johnsonville - Beginners+ (ESOL Level 1-2)-Wellington High School Community Education Centre-Wellington High School",
+    "name": "English in the Community: Johnsonville - Beginners+ (ESOL Level 1-2)",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/294HqTHx1swEx5LKvVVy9REKBed6n7Lcd2jewMZ7o5hblCHB/20190401_102155_IMG_5781.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-21T09:30:00Z",
+      "2025-07-23T09:30:00Z",
+      "2025-10-06T09:30:00Z",
+      "2025-10-08T09:30:00Z"
+    ],
+    "displayDate": "Mon 21 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1400-english-in-the-community-johnsonville-beginners-esol-level-12",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "English in the Community: Johnsonville - Elementary (ESOL Level 2)-Wellington High School Community Education Centre-Wellington High School",
+    "name": "English in the Community: Johnsonville - Elementary (ESOL Level 2)",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/UTnLrkZx7SNAVAFQVVFCloZ7FcBoLAzSKC4Lgo42Gw2nmTmS/IMG_0395.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T09:30:00Z",
+      "2025-07-25T09:30:00Z",
+      "2025-10-07T09:30:00Z",
+      "2025-10-10T09:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1325-english-in-the-community-johnsonville-elementary-esol-level-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "English in the Community: Johnsonville - Next Step (ESOL Level 3-4)-Wellington High School Community Education Centre-Wellington High School",
+    "name": "English in the Community: Johnsonville - Next Step (ESOL Level 3-4)",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/dDYVhDqIYwmVhOTVGh14d21O6dZhsKM4deFfJDJFII65jSZf/20190605_105223_IMG_5989.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T12:00:00Z",
+      "2025-07-25T12:00:00Z",
+      "2025-10-07T12:00:00Z",
+      "2025-10-10T12:00:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1211-english-in-the-community-johnsonville-next-step-esol-level-34",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Financial Planning for Retirement-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Financial Planning for Retirement",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/XV9pwzdR5psNhtP54L838A988KuWgucZCQvp6FEMFXNLsXBg/james-hose-jr-6D58t6uZT5M-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-09-06T09:00:00Z",
+      "2025-11-01T09:00:00Z"
+    ],
+    "displayDate": "Sat 06 Sep + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1629-financial-planning-for-retirement",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Fly Fishing-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Fly Fishing",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/bBiT2srBUU6LKK0DaMFCPEufwnxNnQaT19FULjFMrIILdUCX/robson-hatsukami-morgan-qr7tsSwDOg0-unsplash%20%281%29.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-16T19:30:00Z"
+    ],
+    "displayDate": "Thu 16 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/883-fly-fishing",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Focus on Grammar [ESOL Levels 3 and 4]-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Focus on Grammar [ESOL Levels 3 and 4]",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/nVQ8skefKGd2Dv0VE58rWXaE7YGbP3xQSBpu0gpfm3Fj4rdg/20190404_181811_IMG_0701.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T19:30:00Z",
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/464-focus-on-grammar-esol-levels-3-and-4",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "French - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "French - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/VAiyFlbp74rt9TdXb8Cj9wxcvfBaCbPOaNbtbmf5FzyUps9d/20180522_194707.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/348-french-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "French - Introductory 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "French - Introductory 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/UYHbdeh9AvPq0E1zMCzVwLVS4pogdJw7AltqhSogfOyt5jhB/zohre-nemati-yiVHJnTJ2Ro-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/347-french-introductory-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "French - Introductory 3-Wellington High School Community Education Centre-Wellington High School",
+    "name": "French - Introductory 3",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/p2eMnVLeegSPLCgYGWJt41bLwNUIbhuSNftar3QC0osk6Az6/20180522_194545.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/354-french-introductory-3",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "French - Introductory 4-Wellington High School Community Education Centre-Wellington High School",
+    "name": "French - Introductory 4",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/lwlWSKJJnajUMjXyEPqxOCjygdPzBvcddRetclGMLEL6f2IJ/arthur-humeau-3xwdarHxHqI-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-07T17:30:00Z"
+    ],
+    "displayDate": "Tue 07 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/361-french-introductory-4",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Garden Planting Design-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Garden Planting Design",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/EumbcS3Zc4fgGHmGU3cbNKEaDXoWcY1WMd4L5HfR5vwFzkTI/pexels-manuel-torres-garcia-8558330.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-31T18:00:00Z"
+    ],
+    "displayDate": "Thu 31 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1677-garden-planting-design",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Genealogy - Basics of ancestry.com DNA tests-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Genealogy - Basics of ancestry.com DNA tests",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/JyGpV44dtIdeV3Z8ah9jkB1l16bskdgLKuEkwhprHbqozubB/ances.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-11T09:30:00Z"
+    ],
+    "displayDate": "Sat 11 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1519-genealogy-basics-of-ancestrycom-dna-tests",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Get the Job: CV and Cover Letters-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Get the Job: CV and Cover Letters",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/DcQUhQGiwdAcdJse5dJnbZad9BKbYOQhIev9Qud7e49rnaGy/joao-ferrao-4YzrcDNcRVg-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:30:00Z",
+      "2025-08-02T09:30:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1650-get-the-job-cv-and-cover-letters",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Get the Job: STARR Interview Technique and Preparation-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Get the Job: STARR Interview Technique and Preparation",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/y4lHVgQN84nEsaXQiQpec7UpcA5KnXQ0v51bu7zrS1ziyv9c/christina-wocintechchat-com-LQ1t-8Ms5PY-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-26T09:30:00Z"
+    ],
+    "displayDate": "Sat 26 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1729-get-the-job-starr-interview-technique-and-preparation",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Guitar - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Guitar - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/td9NPpYdOzXiE6gcACyQtqmMYfx7opKDGKrZoPYu7FLSbIBO/pexels-tima-miroshnichenko-5045943.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z",
+      "2025-07-23T18:30:00Z",
+      "2025-10-07T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/329-guitar-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Guitar - Next Step-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Guitar - Next Step",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/4Btir5y9kme4TmODbRsrrSKetv7R3gfEl1qULrIMTei76g8k/20180522_191307.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-08T18:30:00Z"
+    ],
+    "displayDate": "Wed 08 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/326-guitar-next-step",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Harakeke (Flax Weaving) Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Harakeke (Flax Weaving) Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/LebyD4m1AOJHQ3IHJnL5g2lybhBjeL6xxEQ859YbfdSH0uUv/317936671_10160109529159876_1704507494736486624_n.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-18T09:30:00Z"
+    ],
+    "displayDate": "Sat 18 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1066-harakeke-flax-weaving-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "How to be a DJ - An Introduction-Wellington High School Community Education Centre-Wellington High School",
+    "name": "How to be a DJ - An Introduction",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/w7WI7D5PcWlDNdPXk1dDFYRxAXsuYGMgeOQFdJUIlVPU4PGz/Shan%27s%20students.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z",
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1402-how-to-be-a-dj-an-introduction",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "IELTS: How to Succeed [ESOL Levels 3 and 4]-Wellington High School Community Education Centre-Wellington High School",
+    "name": "IELTS: How to Succeed [ESOL Levels 3 and 4]",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/gXUWWSMZCqzQt8x4mt8hT6jH8hhoNJJdkpI9Tfd1D6rFaiIo/IELTS%20CLASS%20HAPPY%20STUDENTS.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/449-ielts-how-to-succeed-esol-levels-3-and-4",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Improv for the Stage-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Improv for the Stage",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/eraL9I94OuRKtbzDHAyvrY0OzUlxJQHfrgYfeCS0Gmwt4fpy/joi_eventfindabanner.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T19:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1270-improv-for-the-stage",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Intro to Standup Comedy-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Intro to Standup Comedy",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/XWX4b7L96O3dK9E2MId3QLLbQcVPuddsykaQfvVHQIyPRQtW/Neil%20Thorton%201.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z",
+      "2025-11-08T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1695-intro-to-standup-comedy",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Italian - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Italian - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/pB5PXhtgXlAbYpptvPq5Wp5Df6sgHYsWZM7lGYN1v9lI8O7g/jonathan-bean-Q5BVSGt9Ljc-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T19:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/392-italian-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Italian - Introductory 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Italian - Introductory 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/4L9bGzNB0GYBTJcPc7YFbSVp8GwCUyrZ4oZigf5YxLQM802b/italian%20flag.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-07T19:30:00Z"
+    ],
+    "displayDate": "Tue 07 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/389-italian-introductory-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Japanese - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Japanese - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/rSsHQoYSg9Za43Zhb5oW1mQbSuoOLWXwg91yNh0G3eFt3h7R/resized.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T18:00:00Z",
+      "2025-10-09T18:00:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/402-japanese-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Japanese - Introductory 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Japanese - Introductory 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/WTTWguPm4tLQUmUd1XqKfHqDiZHJ7rTocMUd9dDn3eOobKFa/Temples.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T18:00:00Z",
+      "2025-10-07T18:00:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/399-japanese-introductory-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Jewellery Making - Faceted Gemstone Settings-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Jewellery Making - Faceted Gemstone Settings",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/bXTt6PQHrOu5XTpffxuZG1XmlJggESI9bl7Xisuo0WJOEMIG/IMG_20231024_161026.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1733-jewellery-making-faceted-gemstone-settings",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Jewellery Making - Lost Wax Cast Rings-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Jewellery Making - Lost Wax Cast Rings",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/TaFgcqcR4HQr33wXjMYYdpYW3atbv8j0Y5VeGvcY06dW45jV/six%20rings.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T18:00:00Z",
+      "2025-10-09T18:00:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1701-jewellery-making-lost-wax-cast-rings",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Jewellery Making - Precious Stones in Cast Rings-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Jewellery Making - Precious Stones in Cast Rings",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/Ga0w6v3ZVb1gVmQm1xsdUjkiWr1eUoVAfbz3u43i8hjUJKkJ/3%20rings%20on%20palm%20of%20hand.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T18:00:00Z",
+      "2025-10-07T18:00:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1732-jewellery-making-precious-stones-in-cast-rings",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Jewellery Making - Soldered Fidget Rings-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Jewellery Making - Soldered Fidget Rings",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/5YoHNGG7YTK0i52LmnAyuBU2f0XY3Sj31iAnlgUvUlKmIDb8/Fidget%20rings%20group%201.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-26T09:30:00Z",
+      "2025-11-15T09:30:00Z"
+    ],
+    "displayDate": "Sat 26 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1710-jewellery-making-soldered-fidget-rings",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Jewellery Making - Vintage Silver Charms-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Jewellery Making - Vintage Silver Charms",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/ppSpJBXeGPNAjASGM2pfcmL99tXT0ugOx2GWkYuwnbOYXepC/IMG20250222104954-EDIT.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:30:00Z",
+      "2025-08-26T09:30:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1780-jewellery-making-vintage-silver-charms",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Jewellery Making Intensive - Beginners' Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Jewellery Making Intensive - Beginners' Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/xbRgEYH1S2qnRpnwgGObPHJPIaFox0QYPXSk47EcxhUUEQDS/20180522_192831.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-09-06T09:00:00Z",
+      "2025-10-18T09:00:00Z"
+    ],
+    "displayDate": "Sat 06 Sep + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/670-jewellery-making-intensive-beginners-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Jewellery Making \u2013 Silver Spell Rings-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Jewellery Making \u2013 Silver Spell Rings",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/XYSEIloxSp354at8yEWSyYv2lHEI6wfFaKc4jSwD7qJ8uA3d/IMG20250222104506.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-09T09:30:00Z"
+    ],
+    "displayDate": "Sat 09 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1779-jewellery-making-silver-spell-rings",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Junk Journaling-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Junk Journaling",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/LMIypQA0nXkT38PswKG5ZWAWTVQDcwqcPWUYIRHJTvFOdjMH/Photo%20for%20website%20from%20Larissa%202.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-23T09:30:00Z"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1751-junk-journaling",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Knitting - Next Level-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Knitting - Next Level",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/0vsfUeJM5IW92iuqGOG1NbDruBGELKfWaeRdukldTHELTNpz/pexels-eva-bronzini-5660156.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1761-knitting-next-level",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Knitting for Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Knitting for Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/H1GQBZ0HJnuTFQKgjnPbv9PrRl6q02lVEOsOhHPsgcFqLBij/pexels-miriam-alonso-7585738.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-26T09:30:00Z",
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Sat 26 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1571-knitting-for-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Lampshade Making-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Lampshade Making",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/oCM8g2yqpQqt96ZnDSq0Rd8he6T9oadG5ztYdI9TBkloju8p/Webp.net-resizeimage.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-11T09:30:00Z"
+    ],
+    "displayDate": "Sat 11 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1130-lampshade-making",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Latin American Dance-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Latin American Dance",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/dbqIqKOs9GGYiIWPmUofoC5FEr7dNB7EAbhxNk9hHLc84H4s/Latin%20Am%20Alex%20and%20partner.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-08T19:30:00Z"
+    ],
+    "displayDate": "Wed 08 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/507-latin-american-dance",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Leadlighting/Stained Glass-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Leadlighting/Stained Glass",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/xk0tdmyzUivLOpVjiAJGAk3VthmZjH8VARoMsANQ10XPwANS/93101463_10158018185284876_8018110952677310464_o.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-08T17:15:00Z",
+      "2025-10-08T19:45:00Z",
+      "2025-10-09T19:45:00Z"
+    ],
+    "displayDate": "Wed 08 Oct + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/574-leadlighting-stained-glass",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Leadlighting/Stained Glass - Next Step-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Leadlighting/Stained Glass - Next Step",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/BNZMVKe3DSUjFHbVyvXuXVt1oX1if75hNN2O0F1uMLn2zjrj/logan-cameron-vrr-nnei4pE-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T17:15:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1743-leadlighting-stained-glass-next-step",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Life Drawing - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Life Drawing - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/PMpJg6T2dBbgF0o4L8yMJZF4jn0JZ1kBeMNKXOO5NJ6qlW7V/life.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1645-life-drawing-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Make Your Own Roman Blinds-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Make Your Own Roman Blinds",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/JHe574HtU8xvsbG2gka3ErFw2LcSjqADOJyqd3DieFcYQKOT/blinds.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-08T18:00:00Z"
+    ],
+    "displayDate": "Wed 08 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1566-make-your-own-roman-blinds",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Makeup Makeover for Mature Skin-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Makeup Makeover for Mature Skin",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/QqZ8YpbAqj1jwt2tl454CTGeRlV0h3YsSqGAOxJiVUpUOrc2/Makeup%20Makeover%20March%202018.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-23T09:30:00Z"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1286-makeup-makeover-for-mature-skin",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Massage - The Basics-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Massage - The Basics",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/S3Qupo84emfPi09pyBmshpII9pxI9xBgeg2ncwyeLpIfywiU/mass.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z",
+      "2025-11-08T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1276-massage-the-basics",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Memory Mastery for Confidence-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Memory Mastery for Confidence",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/YYhl5IGwbAvE9nYHvPv7swIiMZRoeTabuj5LqLLrbLbPUehm/josh-riemer-OH5BRdggi2w-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-05-24T09:30:00Z"
+    ],
+    "displayDate": "Sat 24 May",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1768-memory-mastery-for-confidence",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Men\u2019s Health & Aging Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Men\u2019s Health & Aging Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/rDL1WGNTuf6kHaGsnyiQNBSFh98rg5dWfgftMoGPR9dnc3kJ/Memes%20Slideshow.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:30:00Z",
+      "2025-08-23T09:30:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1760-mens-health-aging-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Microsoft Excel - Advanced-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Microsoft Excel - Advanced",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/67wNe1lFzt2ydMQ7unt1AbTB0tkVJ47LzRVUVAiysYrV116P/ms-excel-logo.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:00:00Z",
+      "2025-11-22T09:00:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/751-microsoft-excel-advanced",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Microsoft Excel - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Microsoft Excel - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/Dp4ZreGswjatYpFeOrzzTp9A3BCPXEHms3lGu5mjMfLUaLWO/Man%20in%20front%20of%20computer%20woman%20behind.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-09T09:00:00Z",
+      "2025-11-01T09:00:00Z"
+    ],
+    "displayDate": "Sat 09 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/756-microsoft-excel-beginners",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Microsoft Excel - Intermediate-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Microsoft Excel - Intermediate",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/9K3u8ZJd1S1XsVVDRZOmyx5McLuruPqFeaBXziKnioVIqhFS/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-05-24T09:00:00Z",
+      "2025-11-08T09:00:00Z"
+    ],
+    "displayDate": "Sat 24 May + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/757-microsoft-excel-intermediate",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Mindful Awareness Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Mindful Awareness Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/QSa1jrYJ0cYZJO7nNpuLJ0P1C47R9e5Yd52062NSOWpKz2Kr/lina-trochez-ktPKyUs3Qjs-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:30:00Z",
+      "2025-07-26T09:30:00Z",
+      "2025-10-11T09:30:00Z",
+      "2025-11-15T09:30:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1788-mindful-awareness-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Mindfulness Meditation-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Mindfulness Meditation",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/WAAioOpdeSZmrhpwiNR5PEuAh40vRXThGcDMQbeQr7YwPBcs/tim-foster-80Wreh-DNgw-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T18:00:00Z"
+    ],
+    "displayDate": "Wed 23 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1136-mindfulness-meditation",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Mosaic Design-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Mosaic Design",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/GfBIvcng3fuAGvu5za3zeyEkcvAGPX69Ia7cZUt3Xo5hlB4k/pexels-axp-photography-500641970-27397568.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-20T19:00:00Z",
+      "2025-10-09T19:00:00Z"
+    ],
+    "displayDate": "Wed 20 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/378-mosaic-design",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "NZ Sign Language - Introductory 1A-Wellington High School Community Education Centre-Wellington High School",
+    "name": "NZ Sign Language - Introductory 1A",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/tyBfgeltbpbqQj6XkC1DPWNA3OoRzmDLPAZ0Lls1rVdnl5vS/jo-hilton-ZLtsJXwQ2Fg-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T17:30:00Z",
+      "2025-07-23T19:30:00Z",
+      "2025-10-07T17:30:00Z",
+      "2025-10-07T19:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/785-nz-sign-language-introductory-1a",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Negotiation Skills for Successful Outcomes-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Negotiation Skills for Successful Outcomes",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/KbBqIJwiW3mVdwk1dlsIII8fNj2qOJjIHZW90HwWs3EBvJIH/bahador-Goe0YHDCwXk-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1777-negotiation-skills-for-successful-outcomes",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Neurodiversity Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Neurodiversity Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/BnmymZquiUiMPViOut7ebeywynzsScuBOzkDAdsXdRuyX71h/LittleShadow_ar1400x3168_aspect_ratio1400x3168px513ppilogo_styl_21ddce8a-877c-4cce-9e53-3066dfb3aa48.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:30:00Z"
+    ],
+    "displayDate": "Sat 14 Jun",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1744-neurodiversity-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Night Photography - In the Dark-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Night Photography - In the Dark",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/ZzOBJN9nCerf14oKhcoBxvRj3zREUmwqdhj3mzfmqjtARat4/bird-s-eye-view-of-city-during-evening-4037071.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T19:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1447-night-photography-in-the-dark",
+    "source": "Wellington High School",
+    "eventType": "Photography & Visual Arts"
+  },
+  {
+    "id": "Oil Painting Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Oil Painting Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/ZAx7uq6WJqwoIIadtTFoaVvJeavBcnm1zEtlweeMjuoW7NHK/paintigplaid2Asset%202-100.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1411-oil-painting-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Overcoming Imposter Syndrome for Creatives-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Overcoming Imposter Syndrome for Creatives",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/0ayUJN4I4ZWSazsZNeff73qtQYO6a7R4Vbr7nSFFp2NiRFlR/chris-yang-1tnS_BVy9Jk-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-02T09:30:00Z"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1769-overcoming-imposter-syndrome-for-creatives",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Paint Pouring \u2013 Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Paint Pouring \u2013 Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/9DNj7fnhs1yD3fCbxkGMmHAMfBKrez36OMrVUUdtcUdL5Js6/366221137_621696296809058_6593374452011640988_n.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1786-paint-pouring-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Painting & Pizza in Seaview (Bob Ross Style - Lower Hutt)-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Painting & Pizza in Seaview (Bob Ross Style - Lower Hutt)",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/9HZ8Zd0fSgTiRCeRmkPp7qLJmXDfcvvRAs8TDf7ELTQ5Um8f/IMG_6366.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-21T18:00:00Z"
+    ],
+    "displayDate": "Fri 21 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1719-painting-pizza-in-seaview-bob-ross-style-lower-hutt",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Patterns from Favourite Garments-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Patterns from Favourite Garments",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/VPejN5TptY05c1iKzZSL67TUvoSuKN0K7Y2Arvu50PsBNeld/patter.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-23T09:30:00Z",
+      "2025-11-08T09:30:00Z"
+    ],
+    "displayDate": "Sat 23 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/614-patterns-from-favourite-garments",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Pelvic Power Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Pelvic Power Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/wUynWc1lNZz6hxIRfGlSHdXPiDM6SaQ6o0eNQi7j4lRblDdp/pel.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-02T09:30:00Z"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/909-pelvic-power-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Photography - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Photography - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/phwJKkBXzIga0ZKEZ1aIRpz298FExnsSeKJY6na2hiM9wZx5/DSC_0952.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z",
+      "2025-10-15T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/621-photography-beginners",
+    "source": "Wellington High School",
+    "eventType": "Photography & Visual Arts"
+  },
+  {
+    "id": "Photography - Street and Urban-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Photography - Street and Urban",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/FFzc6KWuX0ajI5YIkdfUOettPVaip494U5dfm6IbmBXSWxaF/jorik-kleen-ankVgCqOMGw-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-14T19:30:00Z"
+    ],
+    "displayDate": "Tue 14 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1713-photography-street-and-urban",
+    "source": "Wellington High School",
+    "eventType": "Photography & Visual Arts"
+  },
+  {
+    "id": "Photography - Travel-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Photography - Travel",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/IlgK4ebSLXSICb493EsMOQSmqGHwz3GEuEiPxPs75mSGeco9/black-dslr-camera-mounted-on-black-tripod-212372.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-04T17:30:00Z"
+    ],
+    "displayDate": "Tue 04 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/991-photography-travel",
+    "source": "Wellington High School",
+    "eventType": "Photography & Visual Arts"
+  },
+  {
+    "id": "Photography: Unlocking the Secrets to Captivating Images-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Photography: Unlocking the Secrets to Captivating Images",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/wK4doZMmkw23SpHTNFKMnBZxvuIfLKemPcvMqevJIB5is2Mg/soragrit-wongsa-aV5xrpB0bwQ-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z",
+      "2025-11-06T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1764-photography-unlocking-the-secrets-to-captivating-images",
+    "source": "Wellington High School",
+    "eventType": "Photography & Visual Arts"
+  },
+  {
+    "id": "Piano Keyboards - All Levels-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Piano Keyboards - All Levels",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/LPP6LJmEyM3xiD9F1RWwwwl6I3zU60Vi2l2I1nfBafRyRKiz/pexels-cleyder-duque-3816115.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-07T19:00:00Z"
+    ],
+    "displayDate": "Tue 07 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1643-piano-keyboards-all-levels",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Piano Keyboards - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Piano Keyboards - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/c8YzADgzVuho1Gks3AJ4LlZwq6hTyDc0hvFRWhuunExn7gLb/close-up-photo-of-person-playing-piano-1246437.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T18:00:00Z",
+      "2025-07-22T19:00:00Z",
+      "2025-10-07T18:00:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/384-piano-keyboards-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Poetry Lab-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Poetry Lab",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/7vqHdRX4wTgZFyO30tRBc0eAFYj0AjeYkv3FYxB3pvDPDhbM/Poetry.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T17:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1755-poetry-lab",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Posture Perfection is Possible!-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Posture Perfection is Possible!",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/5owg7ngbR6tmb0uAybMjH5bbdrCA9HzjinkHTRGvxKANrXPx/back%20posture.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-18T09:30:00Z"
+    ],
+    "displayDate": "Sat 18 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/616-posture-perfection-is-possible",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Pottery - Handbuilding Basics-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Pottery - Handbuilding Basics",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/IyNI3qyh0likwEkcWX6IOaBRj4TNnkUIlWNlKov8qiC6HKj1/alex-jones-Tq4YjCa2BSc-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-21T17:30:00Z",
+      "2025-07-25T10:00:00Z",
+      "2025-10-06T17:30:00Z"
+    ],
+    "displayDate": "Mon 21 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1678-pottery-handbuilding-basics",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Pottery - Throwing: Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Pottery - Throwing: Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/FwZD7z3jFDG0bXUa4SwwxiPz4oogVlbI8dAypzTwKcsZa6Kr/wheel%202.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-21T09:30:00Z",
+      "2025-07-23T09:30:00Z",
+      "2025-07-24T17:30:00Z",
+      "2025-10-06T09:30:00Z"
+    ],
+    "displayDate": "Mon 21 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1416-pottery-throwing-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Pottery - Throwing: Next Step-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Pottery - Throwing: Next Step",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/dSlhps7TDjg5C1RPnLnjhsQ0fNllWQXn6cLL1mgvbzmZ8DQI/handmade-ceramics-pottery-workshop-22823.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-21T19:30:00Z",
+      "2025-07-24T19:30:00Z",
+      "2025-10-09T19:30:00Z"
+    ],
+    "displayDate": "Mon 21 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1457-pottery-throwing-next-step",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Professional Trouser Sewing Techniques-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Professional Trouser Sewing Techniques",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/MtaOBFUFwQTW6VTdmsOnFzHLPeQDRIS01dmu9OVpIZZ7h6ft/pexels-vlad-deep-10415854.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-01T09:30:00Z"
+    ],
+    "displayDate": "Sat 01 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1662-professional-trouser-sewing-techniques",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Psychology of Money Management-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Psychology of Money Management",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/aqKY8dd1JMQ5BlV0OBFmIZOlbZogEjbL2IBg9S3bKAnVD9sE/pexels-ron-lach-9169326.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-02T09:30:00Z"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1773-psychology-of-money-management",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Raising Great Kids in an Overindulgent World-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Raising Great Kids in an Overindulgent World",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/4ja4zdP3gkDgKenqQTL9L0rHudynUESuAlpBcv0jZa5HTfKR/kids1.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-31T19:30:00Z"
+    ],
+    "displayDate": "Thu 31 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1438-raising-great-kids-in-an-overindulgent-world",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Retirement Reinvented-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Retirement Reinvented",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/7buZq3YbmxSRjCpDqYOCrC6gmc7opgSMVjmhrn0243mF8rQX/retirement.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-14T09:30:00Z",
+      "2025-08-02T09:30:00Z",
+      "2025-08-16T09:30:00Z",
+      "2025-09-06T09:30:00Z"
+    ],
+    "displayDate": "Sat 14 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1487-retirement-reinvented",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Samoan - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Samoan - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/fOANP2fS3apa5mndejun6A1jVyhrPtFea37kXdfXqyox0CRy/Samoan-Language-Week-1.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T17:30:00Z",
+      "2025-10-08T17:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/514-samoan-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Samoan - Introductory 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Samoan - Introductory 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/uggNzFoEiVA96RulzEFtDiibFP9kAbOfebDOg6ci29DSLqEH/Polynesian_Cultural_Center_-_Canoe_Pageant_%288328364423%29.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z",
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/521-samoan-introductory-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Samoan - Ongoing-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Samoan - Ongoing",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/mYS2rJ5cuM0k1chS8E0bw5tU0l8E6OjXRNulK4pkDD7b4KmB/wilson-stratton-DpjsRxqdtgI-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T19:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1772-samoan-ongoing",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Scottish Country Dancing-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Scottish Country Dancing",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/ESHYi55P3Ed1Jhy25vg0xNonlNWqErWayH52mNgoewRlwXPU/Scottish%20Country%20Dancing.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-07T19:30:00Z"
+    ],
+    "displayDate": "Tue 07 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/683-scottish-country-dancing",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Screenprinting with Photosensitive Emulsion-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Screenprinting with Photosensitive Emulsion",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/Ex9g3NoX2CQ3EWNQUndylUrI3JLMHLXxZWwjd35PDsVfU0aG/emarts-emarts-ZCTh4f4mv18-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-05-24T09:30:00Z",
+      "2025-08-30T09:30:00Z"
+    ],
+    "displayDate": "Sat 24 May + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1785-screenprinting-with-photosensitive-emulsion",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Scriptwriting-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Scriptwriting",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/Be4dgaH6w80MFTbWWebNqL4QFSIcDKdlZIJukqz5gDt7qCfx/scrp.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 09 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1530-scriptwriting",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Sculpture - Intro to Creature Sculpting-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Sculpture - Intro to Creature Sculpting",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/A3dLGcURQObievVgDe5CMrqyaJnfwPFIlqDJxYhdE2LPSrtg/TRichards-sporachnid_1340_c.jpeg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-02T09:30:00Z",
+      "2025-10-11T09:30:00Z"
+    ],
+    "displayDate": "Sat 02 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1711-sculpture-intro-to-creature-sculpting",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Self-Defence for Women-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Self-Defence for Women",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/ro7o1JWp0MByZCaSxj8FAHUbt68JCL4EyJM0SZCBdAmscfDw/self.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun",
+    "url": "https://www.cecwellington.ac.nz/w/courses/654-selfdefence-for-women",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Self-Hypnosis - Hypnotise Yourself-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Self-Hypnosis - Hypnotise Yourself",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/jMwzve49rrEMwHEn6nusLCubuQ5ccAq9jKxh1H5mPW9ad3zx/benoit-beaumatin-xdai21Y9pek-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-15T09:00:00Z"
+    ],
+    "displayDate": "Sat 15 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1439-selfhypnosis-hypnotise-yourself",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Sew Many Tips and Tricks-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Sew Many Tips and Tricks",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/8kZvoTlqZI2jLR3F7EhH6MZNHcrI7alqobRJNI2J1Tw9YjcY/sewing.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-11-05T17:30:00Z"
+    ],
+    "displayDate": "Wed 05 Nov",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1659-sew-many-tips-and-tricks",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Sewing - All Levels-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Sewing - All Levels",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/29zc7ZChnMkPZC1OnKHl3Mb2dJd1oX8FZ8reJNlIdfqUc0by/Sewing.png",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z",
+      "2025-07-22T19:30:00Z",
+      "2025-07-24T17:30:00Z",
+      "2025-07-24T19:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/483-sewing-all-levels",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Sewing - The Basics-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Sewing - The Basics",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/xu8WNZsymCe7U29IZG4x6Feb4TPtHbesQ4f3PZYj290SAEix/juan-jose-porta-YsoCJDGoiG4-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-02T09:00:00Z",
+      "2025-10-18T09:00:00Z"
+    ],
+    "displayDate": "Sat 02 Aug + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1080-sewing-the-basics",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Sing Your Heart Out!-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Sing Your Heart Out!",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/9v3CURb810oC7hW3aSnSHur468igfwkxAhGbYerD9RpEILz5/Webp.net-resizeimage%20%287%29.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/999-sing-your-heart-out",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Small Business Management-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Small Business Management",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/QeJZySwnBkAwI6N115MranC9TvMd1mY6zgRp2fUyzQenVgy9/Resize.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1748-small-business-management",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Social Media Marketing for Small Businesses Masterclass: Visual Impact-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Social Media Marketing for Small Businesses Masterclass: Visual Impact",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/B7hulOvccLzdhshi5w10yO0rScOqz6ISXTtc4M5Dq150zFPm/nordwood-themes-yyMJNPgQ-X8-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-23T09:30:00Z"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1765-social-media-marketing-for-small-businesses-masterclass-visual-impact",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Social Media Marketing for Small Enterprises: Visual Impact-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Social Media Marketing for Small Enterprises: Visual Impact",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/PXRC7cVMdxMvCaNWMs3RhiALqqGXTFmuTJbkugutSDzLq1gF/melanie-deziel-U33fHryBYBU-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-05T17:30:00Z",
+      "2025-08-21T17:30:00Z",
+      "2025-10-09T17:30:00Z"
+    ],
+    "displayDate": "Thu 05 Jun + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1766-social-media-marketing-for-small-enterprises-visual-impact",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Songwriting: How to Write Your Own Songs-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Songwriting: How to Write Your Own Songs",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/4cSkDzlmYIqWf8651An15Aj2k47RpSj1uzuWEBx3XMDo2pS8/kati-hoehl-BE-kfosZFtg-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-08T19:30:00Z"
+    ],
+    "displayDate": "Wed 08 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1675-songwriting-how-to-write-your-own-songs",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Spanish - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Spanish - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/eKP4KsXONd49ajI6S8go5OepRai2FcAdbwbYxLg0xNGL5deY/Blockchain_in_bus_1.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T19:30:00Z",
+      "2025-10-07T19:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/493-spanish-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Spanish - Introductory 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Spanish - Introductory 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/yMpa7iaPjiou6gkQVx8VGebd9B5e0me68QXsx06VLuaCq6bU/barcelona.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T19:30:00Z",
+      "2025-10-08T19:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/492-spanish-introductory-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Speaking to an Audience-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Speaking to an Audience",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/9nwzchuQOeZSze42IeVSRIgCDmtc7giuFQmyyV4mXtvaf1z5/kane-reinholdtsen-LETdkk7wHQk-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-28T09:30:00Z"
+    ],
+    "displayDate": "Sat 28 Jun",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1440-speaking-to-an-audience",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Storytelling On Stage-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Storytelling On Stage",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/JcQdnr9etEusfRggDHwWTBoBbVSW9qw0hgeYr7gjwUfZH18y/Neil%20Thorton%201.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T19:30:00Z",
+      "2025-10-07T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1694-storytelling-on-stage",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Tai Chi-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Tai Chi",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/RKjBPmX5OvjxgWblbDqZ18RjC0vYIzcmCRUpBARkmKR8SUkQ/4caa8508b842369d429f4534fbc1ca00.jpeg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T17:30:00Z",
+      "2025-10-08T17:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/502-tai-chi",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Te Reo M\u0101ori - Intensive W\u0101nanga-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Te Reo M\u0101ori - Intensive W\u0101nanga",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/vTjY48XpcipI5nxn6T0zguOqTUGbTgn50FvQYI1Ja40UByC0/1527908372381.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1241-te-reo-m%C4%81ori-intensive-w%C4%81nanga",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Te Reo M\u0101ori - Introductory 1-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Te Reo M\u0101ori - Introductory 1",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/YZSRcTYgR5N8eIZjzfwiXBcLurM8GnQjplMPee0MLRDBx59Z/Te%20reo%20fence.JPG",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z",
+      "2025-07-23T18:00:00Z",
+      "2025-10-07T17:30:00Z",
+      "2025-10-08T18:00:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/368-te-reo-m%C4%81ori-introductory-1",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Te Reo M\u0101ori - Introductory 2-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Te Reo M\u0101ori - Introductory 2",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/i9fOgiEICWfYvILMDgqmqAmQGA7AGi4ws08tX7ggeRmDWMg9/1336295-592589-34.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T18:00:00Z",
+      "2025-10-07T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/367-te-reo-m%C4%81ori-introductory-2",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Tea - A Sensory Experience-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Tea - A Sensory Experience",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/FSpsU4T1Tvcli2kBxRuZiIEalJdQhIAQHH0NKRU4bRBsYa6U/Tea%20wheel%20and%20dry%20tea%20laid%20out.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-05-29T18:00:00Z",
+      "2025-11-06T18:00:00Z"
+    ],
+    "displayDate": "Thu 29 May + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1726-tea-a-sensory-experience",
+    "source": "Wellington High School",
+    "eventType": "Food & Drink"
+  },
+  {
+    "id": "The Joy of Improvisation-Wellington High School Community Education Centre-Wellington High School",
+    "name": "The Joy of Improvisation",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/6uaM8VmZqlB1Bqbn0SvZtXz3mgp7d9JTvuMUR0I7aZwJ0WJH/joi_eventfindabanner_2.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T19:30:00Z",
+      "2025-10-09T19:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/391-the-joy-of-improvisation",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Ukulele - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Ukulele - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/xc0SaXK8IHqlIwLdk1B16cn6924e1Q8IPfiGIrtfKIfnEVBa/John%20Rae%20Ukulele.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T18:30:00Z",
+      "2025-10-07T18:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/549-ukulele-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Ukulele - Next Step-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Ukulele - Next Step",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/4JZfMxSbDM1FFYmn1rsdcqxW8tCNgiqZFJfabMHEXgqg2ybk/hawaiian-ukulele-kaneohe.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-08T17:30:00Z"
+    ],
+    "displayDate": "Wed 08 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/546-ukulele-next-step",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "WOMP 3D Digital Design - An Introduction-Wellington High School Community Education Centre-Wellington High School",
+    "name": "WOMP 3D Digital Design - An Introduction",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/UevN8T9oI0OfFCiyPkE8cvhFmCeQcXmczrAaFpShltByyJq2/Womp-3D-A-new-intuitive-3D-modelling-platform-for-beginners_2.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-06-07T09:30:00Z"
+    ],
+    "displayDate": "Sat 07 Jun",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1778-womp-3d-digital-design-an-introduction",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Watercolour Basics-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Watercolour Basics",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/HkbhxerEEPU5pgh87c2vpGcG9In8V0VVaIK1GsIPVWEvA7Te/Watercolour%20basics%20720x480.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-23T17:30:00Z",
+      "2025-07-23T19:30:00Z",
+      "2025-11-05T17:30:00Z",
+      "2025-11-05T19:30:00Z"
+    ],
+    "displayDate": "Wed 23 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/951-watercolour-basics",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Women's Health and Aging Workshop-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Women's Health and Aging Workshop",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/C4jL59FPQetIJ3CKSElyfk7OqLdFkyYyf8Jo2cdjLdHfJ4Br/vonecia-carswell-0aMMMUjiiEQ-unsplash.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1752-womens-health-and-aging-workshop",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Write Well [ESOL Levels 3 and 4]-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Write Well [ESOL Levels 3 and 4]",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/YicdEeNct3QCq8d5ObOub48LhNP6aJRInhhuX160rZjZzwlR/20171114_135403_IMG_1702.JPG",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-24T17:30:00Z",
+      "2025-10-09T19:30:00Z"
+    ],
+    "displayDate": "Thu 24 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/461-write-well-esol-levels-3-and-4",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Writing a Novel-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Writing a Novel",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/I8TRwciYvcsrcwieO1V2fsoKMocEcNM5IPHs54sM5v3vbo1n/novel%201.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T17:30:00Z"
+    ],
+    "displayDate": "Tue 22 Jul",
+    "url": "https://www.cecwellington.ac.nz/w/courses/766-writing-a-novel",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Writing for Children-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Writing for Children",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/fU08bENXggw7OZveIphvdvd4qeb3eChaSqAhskdkrTHN9BJj/pexels-cottonbro-3661193.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-10-11T09:30:00Z"
+    ],
+    "displayDate": "Sat 11 Oct",
+    "url": "https://www.cecwellington.ac.nz/w/courses/982-writing-for-children",
+    "source": "Wellington High School",
+    "eventType": "Education & Learning"
+  },
+  {
+    "id": "Yoga - All Levels-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Yoga - All Levels",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/sDwz0c3kShjQUInfkIFFZHdN8NUjHJN4L5V6YQPWYXnX2NQy/Playful%20Tree%20copy.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-07-22T19:00:00Z",
+      "2025-10-07T19:00:00Z"
+    ],
+    "displayDate": "Tue 22 Jul + more",
+    "url": "https://www.cecwellington.ac.nz/w/courses/535-yoga-all-levels",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Your Life\u2019s Purpose \u2013 Discover Your Emotional Needs and Core Values-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Your Life\u2019s Purpose \u2013 Discover Your Emotional Needs and Core Values",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/RIQiHjSdbEIW8N9TU2TWybIyvxeFYzw99avX1b6aDgtV3T6G/live%20life%202.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:00:00Z"
+    ],
+    "displayDate": "Sat 30 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1569-your-lifes-purpose-discover-your-emotional-needs-and-core-values",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Zentangle\u00ae Method - Beginners-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Zentangle\u00ae Method - Beginners",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/SaZfgv8autJfTmvA0qaN0eYgrW9A5ZkUY4wn6uA1JYKwJxvg/Zentangle2.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-16T09:30:00Z"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1605-zentangle-method-beginners",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  },
+  {
+    "id": "Zine Making - Introduction-Wellington High School Community Education Centre-Wellington High School",
+    "name": "Zine Making - Introduction",
+    "imageUrl": "https://wc1.prod3.arlocdn.net/p/9b8bb4f6db054e1ea5533342dff8e453/d/xk4FE3MDRxQRMyp9SnRR2X33KgZlFeB5QdgqdOGhUcQjFmXe/IMG_20250226_115357.jpg",
+    "venue": "Wellington High School Community Education Centre",
+    "dates": [
+      "2025-08-30T09:30:00Z"
+    ],
+    "displayDate": "Sat 30 Aug",
+    "url": "https://www.cecwellington.ac.nz/w/courses/1781-zine-making-introduction",
+    "source": "Wellington High School",
+    "eventType": "Hobbies & Interests"
+  }
   ],
   "filters": {
     "sources": [
@@ -15491,7 +17805,8 @@
       "ticketmaster",
       "under the radar",
       "valhalla",
-      "wellington nz"
+      "wellington nz",
+      "Wellington High School"
     ],
     "eventTypes": [
       "Arts & Theatre",

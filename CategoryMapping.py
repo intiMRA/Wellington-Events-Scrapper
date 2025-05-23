@@ -93,7 +93,7 @@ class CategoryMapping:
             "Hobbies & Interests": "Hobbies & Interests",
             "Film & Media": "Film & Media",
             "Music & Concerts": "Music & Concerts",
-            "Education & Learning": "Community & Culture",
+            "Education & Learning": "Education & Learning",
             "Business & Networking": "Other",
             "Auto, Boat & Air": "Other",
             "Experiences": "Other",
@@ -108,6 +108,16 @@ class CategoryMapping:
             "Food+%26+Drink": "Food & Drink",
             "Blues": "Music & Concerts",
             "Snooker, Billiards, Pool": "Hobbies & Interests",
+            "Speak": "Education & Learning",
+            "Write": "Education & Learning",
+            "Look": "Photography & Visual Arts",
+            "Make": "Hobbies & Interests",
+            "Taste": "Food & Drink",
+            "Explore": "Hobbies & Interests",
+            "Play": "Hobbies & Interests",
+            "Develop": "Education & Learning",
+            "Short Talks": "Other",
+            "Free courses": "Education & Learning",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
