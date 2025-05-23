@@ -54,10 +54,15 @@ roguePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if 
 roguePrevious = [event for event in roguePrevious if event is not None]
 rogue_events = RougueScrapper.fetch_events(set([event.name for event in roguePrevious])) + roguePrevious
 
-print("fetching mumanitix")
+print("fetching humanitix")
 humanitixPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "humanitix"]
 humanitixPrevious = [event for event in humanitixPrevious if event is not None]
 humanitix_events = HumanitixScrapper.fetch_events(set([event.name for event in humanitixPrevious])) + humanitixPrevious
+
+print("fetching wellington High School")
+wellingtonHighschoolPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Wellington High School"]
+wellingtonHighschoolPrevious = [event for event in wellingtonHighschoolPrevious if event is not None]
+wellingtonHighschool_events = wellingtonHighschoolScrapper.fetch_events(set([event.name for event in wellingtonHighschoolPrevious])) + wellingtonHighschoolPrevious
 
 print("facebook: ", len(facebook_events))
 print("san fran: ", len(san_fran_events))
@@ -69,6 +74,7 @@ print("event finder: ", len(event_finder_event))
 print("rogue: ", len(rogue_events))
 print("wellington nz: ", len(wellyNZ_events))
 print("humanitix: ", len(humanitix_events))
+print("wellington High School: ", len(wellingtonHighschool_events))
 
 # data = event_finder_event
 data = (facebook_events
@@ -80,7 +86,8 @@ data = (facebook_events
         + event_finder_event
         + rogue_events
         + wellyNZ_events
-        + humanitix_events)
+        + humanitix_events
+        + wellingtonHighschool_events)
 
 filtered = []
 
