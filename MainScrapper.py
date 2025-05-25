@@ -9,6 +9,8 @@ from RougueScrapper import RougueScrapper
 from WellingtonNZScrapper import WellingtonNZScrapper
 from HumanitixScrapper import HumanitixScrapper
 from FacebookScrapper import FacebookScrapper
+from WellingtonHighschoolScrapper import WellingtonHighschoolScrapper
+from EventbriteScrapper import EventbriteScrapper
 import json
 import re
 from dateutil import parser
@@ -62,7 +64,12 @@ humanitix_events = HumanitixScrapper.fetch_events(set([event.name for event in h
 print("fetching wellington High School")
 wellingtonHighschoolPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Wellington High School"]
 wellingtonHighschoolPrevious = [event for event in wellingtonHighschoolPrevious if event is not None]
-wellingtonHighschool_events = wellingtonHighschoolScrapper.fetch_events(set([event.name for event in wellingtonHighschoolPrevious])) + wellingtonHighschoolPrevious
+wellingtonHighschool_events = WellingtonHighschoolScrapper.fetch_events(set([event.name for event in wellingtonHighschoolPrevious])) + wellingtonHighschoolPrevious
+
+print("fetching event brite")
+eventBritePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "eventbrite"]
+eventBritePrevious = [event for event in eventBritePrevious if event is not None]
+eventbrite_events = EventbriteScrapper.fetch_events(set([event.name for event in eventBritePrevious])) + eventBritePrevious
 
 print("facebook: ", len(facebook_events))
 print("san fran: ", len(san_fran_events))
@@ -75,6 +82,7 @@ print("rogue: ", len(rogue_events))
 print("wellington nz: ", len(wellyNZ_events))
 print("humanitix: ", len(humanitix_events))
 print("wellington High School: ", len(wellingtonHighschool_events))
+print("event brite: ", len(eventbrite_events))
 
 # data = event_finder_event
 data = (facebook_events
@@ -87,7 +95,8 @@ data = (facebook_events
         + rogue_events
         + wellyNZ_events
         + humanitix_events
-        + wellingtonHighschool_events)
+        + wellingtonHighschool_events
+        + eventbrite_events)
 
 filtered = []
 

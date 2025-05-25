@@ -24,7 +24,7 @@ class CategoryMapping:
             "Choir, Vocal Music": "Music & Concerts",
             "Family & Education": "Education & Learning",
             "Festivals": "Festivals",
-            "Government & Politics": "Community & Culture",
+            "Government & Politics": "Government & Politics",
             "Concerts": "Music & Concerts",
             "Mind & Body": "Health & Wellness",
             "Bar DJs": "Music & Concerts",
@@ -118,6 +118,17 @@ class CategoryMapping:
             "Develop": "Education & Learning",
             "Short Talks": "Other",
             "Free courses": "Education & Learning",
+            "Business": "Business & Networking",
+            "Health": "Health & Wellness",
+            "Community": "Community & Culture",
+            "Hobbies": "Hobbies & Interests",
+            "Home & Lifestyle": "Hobbies & Interests",
+            "Government": "Government & Politics",
+            "Science & Tech": "Education & Learning",
+            "Holidays": "Other",
+            "Metal": "Other",
+            "Travel & Outdoor": "Other",
+            "Photography & Visual Arts": "Photography & Visual Arts",
             "Other": "Other"
         }
         cat = category_mapping.get(category)

@@ -5,11 +5,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from EventInfo import EventInfo
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 from DateFormatting import DateFormatting
 from dateutil import parser
-from dateutil.relativedelta import relativedelta
-import json
 
 class WellingtonHighschoolScrapper:
     @staticmethod
