@@ -1,26 +1,16 @@
-from turtledemo.penrose import start
-
 from dotenv import load_dotenv
-import time
 from time import sleep
 import json
 from dateutil import parser
-import pandas
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup as bs
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
 
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from datetime import datetime, timedelta
-import os
 from pathlib import Path
 from dateutil.relativedelta import relativedelta
 

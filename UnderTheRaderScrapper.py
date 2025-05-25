@@ -6,8 +6,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
-from datetime import datetime
-import json
 from dateutil import parser
 
 

@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 import re
 import pandas
-import pytz
 from dateutil import parser
 
 class DateFormatting:
