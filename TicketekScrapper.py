@@ -54,8 +54,14 @@ class TicketekScrapper:
             print(f"categoryName: {categoryName}, categoryTag: {categoryTag}")
             page = 1
             while True:
-                response = requests.get(
-                    f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
+                for r in range(10):
+                    try:
+                        response = requests.get(
+                            f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
+                        break
+                    except:
+                        if r > 8:
+                            page += 1
                 if response.status_code == 200:
                     soup = BeautifulSoup(response.content, 'html.parser')
                     error = soup.find_all("p", class_="noResultsMessage")

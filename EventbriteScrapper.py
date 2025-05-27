@@ -56,12 +56,15 @@ class EventbriteScrapper:
             nextUrl = re.sub(r"page=\d+", f"page={curentPage}", driver.current_url)
             driver.get(nextUrl)
             try:
+                sleep(1)
                 pagination = driver.find_element(By.XPATH, "//li[@data-testid='pagination-parent']")
-                lastPage = int(pagination.text.split(" of ")[-1])
-                if curentPage > lastPage:
+                firstPage, lastPage = pagination.text.split(" of ")
+                firstPage = int(firstPage)
+                lastPage = int(lastPage)
+                if firstPage > lastPage:
                     return events
-            except:
-                pass
+            except Exception as e:
+                print(f"error finding paginstion: {e}")
             curentPage += 1
             #search-event
             cards = driver.find_elements(By.XPATH, "//div[@data-testid='search-event']")
