@@ -8,6 +8,7 @@ import re
 from datetime import datetime
 from DateFormatting import DateFormatting
 from dateutil import parser
+import json
 
 class WellingtonHighschoolScrapper:
     @staticmethod
@@ -66,7 +67,13 @@ class WellingtonHighschoolScrapper:
                     continue
                 titles.add(title)
                 eventLink = element.find_element(By.TAG_NAME, "a").get_attribute("href")
-                dates = WellingtonHighschoolScrapper.getAllEventDates(eventLink)
+                dates = []
+                for i in range(10):
+                    try:
+                        dates = WellingtonHighschoolScrapper.getAllEventDates(eventLink)
+                        break
+                    except:
+                        pass
                 imageLink = element.find_element(By.TAG_NAME, "img").get_attribute("src")
                 events.append(EventInfo(name=title,
                                         image=imageLink,
@@ -107,6 +114,13 @@ class WellingtonHighschoolScrapper:
             events += WellingtonHighschoolScrapper.getEvents(url, titles, categoryName, driver)
         driver.close()
         return events
+
+# with open("events.json", mode="r") as f:
+#     evts = json.loads(f.read())
+#     previousEventTitles = evts["events"]
+# wellingtonHighschoolPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Wellington High School"]
+# wellingtonHighschoolPrevious = [event for event in wellingtonHighschoolPrevious if event is not None]
+# wellingtonHighschool_events = WellingtonHighschoolScrapper.fetch_events(set([event.name for event in wellingtonHighschoolPrevious]))
 
 # events = list(map(lambda x: x.to_dict(), sorted(WellingtonHighschoolScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
 # with open('wellys.json', 'w') as outfile:
