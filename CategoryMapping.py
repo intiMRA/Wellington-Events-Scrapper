@@ -130,6 +130,7 @@ class CategoryMapping:
             "Travel & Outdoor": "Other",
             "Photography & Visual Arts": "Photography & Visual Arts",
             "Spirituality": "Religion & Spirituality",
+            "Martial Arts": "Hobbies & Interests",
             "Other": "Other"
         }
         cat = category_mapping.get(category)

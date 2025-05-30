@@ -3,7 +3,8 @@ from DateFormatting import DateFormatting
 import pytz
 from CategoryMapping import CategoryMapping
 from dateutil import parser
-utc=pytz.UTC
+
+nz_tz = pytz.timezone("Pacific/Auckland")
 
 class EventInfo:
     id: str
@@ -51,7 +52,7 @@ class EventInfo:
         try:
             dates = list(filter(lambda date: date >= datetime.now(), dates))
         except:
-            dates = list(filter(lambda date: date >= utc.localize(datetime.now()), dates))
+            dates = list(filter(lambda date: date >= datetime.now(nz_tz), dates))
         dates = list(sorted(dates, key=lambda date: date))
         if not dates:
             print(f"in: {ogDates}")
