@@ -22,7 +22,7 @@ class DateFormatting:
     def formatDateStamp(date: datetime) -> str :
         DateFormatting.replaceYear(date)
         date = date.replace(microsecond=0, second=0)
-        return date.strftime("%Y-%m-%dT%H:%M")
+        return date.strftime("%Y-%m-%d-%H:%M")
 
     @staticmethod
     def createRange(startDate: datetime, endDate: datetime) -> pandas.DatetimeIndex:
