@@ -2,6 +2,9 @@ from datetime import datetime, timedelta
 import re
 import pandas
 from dateutil import parser
+import pytz
+
+nz_tz = pytz.timezone("Pacific/Auckland")
 
 class DateFormatting:
     @staticmethod
@@ -19,9 +22,7 @@ class DateFormatting:
     def formatDateStamp(date: datetime) -> str :
         DateFormatting.replaceYear(date)
         date = date.replace(microsecond=0, second=0)
-        parts = date.isoformat().split("+")
-        date = parts[0]
-        return date if "Z" in date else date + "Z"
+        return date.strftime("%Y-%m-%d-%H:%M")
 
     @staticmethod
     def createRange(startDate: datetime, endDate: datetime) -> pandas.DatetimeIndex:
@@ -33,14 +34,13 @@ class DateFormatting:
             endDate = endDate.replace(hour=hour)
             return pandas.date_range(startDate, endDate - timedelta(days=1))
         except:
-            now = datetime.now().isoformat().split("T")[0] + "T" + startDate.isoformat().split("T")[1]
-            now = parser.parse(now)
+            now = datetime.now(nz_tz)
             hour = startDate.hour
             if startDate < now:
                 startDate = now
             startDate = startDate.replace(hour=hour)
             endDate = endDate.replace(hour=hour)
-            pds = pandas.date_range(startDate, endDate - timedelta(days=1))
+            pds = pandas.date_range(startDate, endDate - timedelta(days=1), freq="D", tz='Pacific/Auckland')
             return pds
 
     @staticmethod

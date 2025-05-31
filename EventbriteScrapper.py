@@ -78,7 +78,8 @@ class EventbriteScrapper:
                     "Sales end soon",
                     "Selling quickly",
                     "Nearly full",
-                    "Just added"
+                    "Just added",
+                    "Not Yet On Sale"
                 ]
 
                 soldTags = [

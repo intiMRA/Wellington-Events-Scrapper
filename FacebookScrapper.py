@@ -132,7 +132,7 @@ class FacebookScrapper:
                         continue
                     else:
                         raise e
-            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 250:
+            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 400:
                 return newEventTitles.values(), titles.union(foundTitles)
             oldEventTitles = newEventTitles.copy()
         return list(events.values()), titles.union(foundTitles)

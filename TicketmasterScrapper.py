@@ -1,5 +1,5 @@
 import requests
-
+import json
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from enum import Enum
@@ -7,7 +7,8 @@ from dateutil import parser
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-
+import pytz
+nz_timezone = pytz.timezone('Pacific/Auckland')
 majorCats = {
     "MusicEvent": ["1", "2", "3", "4", "5", "52", "60", "171", "200", "201", "1001", "1002", "1012", "1201", "1202",
                    "1220", "1221", "1229", "1230", "1231", "1232", "1233", "1234", "1235", "1236", "1237", "1238",
@@ -59,6 +60,16 @@ minorCats = {
 
 
 class TicketmasterScrapper:
+    @staticmethod
+    def convert_to_nz_time(datetime_str):
+        dt = parser.isoparse(datetime_str)
+
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=pytz.UTC)
+
+        nz_dt = dt.astimezone(nz_timezone)
+        return nz_dt
+
     @staticmethod
     def get_image_url_with_timeout(driver, url: str, timeout=10):
         start_time = time.time()
@@ -169,11 +180,10 @@ class TicketmasterScrapper:
                     driver.get(event[PossibleKeys.url])
                     imageURL = TicketmasterScrapper.get_image_url_with_timeout(driver, event[PossibleKeys.url])
                     startDate = event[PossibleKeys.dates][PossibleKeys.startDate]
-                    startDateObj = parser.parse(startDate)
+                    startDateObj = TicketmasterScrapper.convert_to_nz_time(startDate)
                     if PossibleKeys.endDate in event[PossibleKeys.dates].keys():
                         endDate = event[PossibleKeys.dates][PossibleKeys.endDate]
-                        endDate = endDate.split("T")[0] + "T" + startDate.split("T")[1]
-                        endDateObj = parser.parse(endDate)
+                        endDateObj = TicketmasterScrapper.convert_to_nz_time(endDate)
                         if startDateObj == endDateObj:
                             dates = [startDateObj]
                         else:
@@ -209,6 +219,6 @@ class TicketmasterScrapper:
         return events
 
 
-# events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
 # with open('wellys.json', 'w') as outfile:
 #     json.dump(events, outfile)
