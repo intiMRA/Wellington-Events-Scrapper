@@ -181,9 +181,13 @@ class TicketmasterScrapper:
                     imageURL = TicketmasterScrapper.get_image_url_with_timeout(driver, event[PossibleKeys.url])
                     startDate = event[PossibleKeys.dates][PossibleKeys.startDate]
                     startDateObj = TicketmasterScrapper.convert_to_nz_time(startDate)
+                    if startDateObj.hour == 0:
+                        startDateObj = startDateObj.replace(hour=10)
                     if PossibleKeys.endDate in event[PossibleKeys.dates].keys():
                         endDate = event[PossibleKeys.dates][PossibleKeys.endDate]
                         endDateObj = TicketmasterScrapper.convert_to_nz_time(endDate)
+                        if endDateObj.hour == 0:
+                            endDateObj = endDateObj.replace(hour=10)
                         if startDateObj == endDateObj:
                             dates = [startDateObj]
                         else:
