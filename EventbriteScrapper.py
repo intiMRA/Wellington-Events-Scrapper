@@ -91,6 +91,8 @@ class EventbriteScrapper:
                     continue
                 if texts[0] in tags:
                     texts = texts[1:]
+                if len(texts) < 3:
+                    continue
                 title = texts[0]
                 if title in titles:
                     continue
