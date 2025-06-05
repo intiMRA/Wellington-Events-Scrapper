@@ -1,9 +1,10 @@
+import json
 from datetime import datetime
 from DateFormatting import DateFormatting
 import pytz
 from CategoryMapping import CategoryMapping
 from dateutil import parser
-
+import re
 nz_tz = pytz.timezone("Pacific/Auckland")
 
 class EventInfo:
@@ -65,6 +66,11 @@ class EventInfo:
         self.url = url
         self.source = source
         self.eventType = CategoryMapping.map_category(eventType)
+        with open("potentialWrongs.txt", mode="a") as f:
+            if re.findall(r"\d", name):
+                f.write(f"name: {name}, url: {url}\n")
+            if re.findall(r"\d", venue):
+                f.write(f"venue: {venue}, url: {url}\n")
 
     def to_dict(self):
         """Convert the EventInfo object to a dictionary."""
