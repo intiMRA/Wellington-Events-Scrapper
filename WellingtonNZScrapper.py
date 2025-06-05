@@ -8,6 +8,7 @@ import re
 from dateutil import parser
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import json
 
 class WellingtonNZScrapper:
     @staticmethod
@@ -30,7 +31,7 @@ class WellingtonNZScrapper:
                     continue
                 eventNames.add(title)
                 try:
-                    venue = event.find_element(By.CLASS_NAME, 'event-content__info').text
+                    venue = event.find_element(By.CLASS_NAME, 'event-content__info').get_attribute('textContent')
                 except:
                     venue = "not listed"
                 dateString = event.find_element(By.CLASS_NAME, 'event-content__date').text
