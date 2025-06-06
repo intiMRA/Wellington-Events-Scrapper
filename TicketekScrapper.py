@@ -34,7 +34,7 @@ class TicketekScrapper:
                                         image="https://" + imageURL,
                                         url=url,
                                         venue=venue,
-                                        source="ticketek",
+                                        source="Ticketek",
                                         eventType=categoryName))
             except Exception as e:
                 print("tiket error: ", e)
@@ -143,7 +143,7 @@ class TicketekScrapper:
                                                         image="https://" + imageURL,
                                                         url=url,
                                                         venue=venue,
-                                                        source="ticketek",
+                                                        source="Ticketek",
                                                         eventType=categoryName))
                         except Exception as e:
                             print(f"tiket: {e}")

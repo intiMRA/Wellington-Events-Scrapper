@@ -52,7 +52,7 @@ class ValhallaScrapper:
                                           image=imageURL,
                                           url=url,
                                           venue=venue,
-                                          source="valhalla",
+                                          source="Valhalla",
                                           eventType="Music")
                     events[title] = eventInfo
                 except Exception as e:
