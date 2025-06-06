@@ -42,7 +42,7 @@ class SanFranScrapper:
                                             venue="San Fran",
                                             dates=[date],
                                             url=eventURL,
-                                            source="sanfran",
+                                            source="San Fran",
                                             eventType="Music"))
                 except Exception as e:
                     print(f"san fran: {event}")

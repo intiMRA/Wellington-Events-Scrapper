@@ -127,7 +127,7 @@ class EventbriteScrapper:
                                             venue=venue,
                                             dates=dates,
                                             url=eventLink,
-                                            source="eventbrite",
+                                            source="Event Brite",
                                             eventType=category))
                 except Exception as e:
                     if "No dates found for" in str(e):

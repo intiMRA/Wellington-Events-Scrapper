@@ -87,7 +87,7 @@ class WellingtonNZScrapper:
                                           venue=venue,
                                           dates=dateObjects,
                                           url=eventUrl,
-                                          source="wellington nz",
+                                          source="Wellington NZ",
                                           eventType=category)
                     events[title] = eventInfo
                 except Exception as e:

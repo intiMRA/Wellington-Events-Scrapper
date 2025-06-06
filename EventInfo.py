@@ -66,11 +66,11 @@ class EventInfo:
         self.url = url
         self.source = source
         self.eventType = CategoryMapping.map_category(eventType)
-        with open("potentialWrongs.txt", mode="a") as f:
-            if re.findall(r"\d", name):
-                f.write(f"name: {name}, url: {url}\n")
-            if re.findall(r"\d", venue):
-                f.write(f"venue: {venue}, url: {url}\n")
+        # with open("potentialWrongs.txt", mode="a") as f:
+        #     if re.findall(r"\d", name):
+        #         f.write(f"name: {name}, url: {url}\n")
+        #     if re.findall(r"\d", venue):
+        #         f.write(f"venue: {venue}, url: {url}\n")
 
     def to_dict(self):
         """Convert the EventInfo object to a dictionary."""

@@ -108,7 +108,7 @@ class FacebookScrapper:
                     if date == "Happening now":
                         continue
                     title = filtered[1]
-                    if title in newEventTitles.keys() or title in foundTitles:
+                    if title in newEventTitles.keys() or title in foundTitles or title in titles:
                         continue
                     titles.add(title)
                     dates = FacebookScrapper.parseDate(date)
@@ -123,7 +123,7 @@ class FacebookScrapper:
                                                       image=imageUrl,
                                                       url=eventUrl,
                                                       venue=venue,
-                                                      source="facebook",
+                                                      source="Facebook",
                                                       eventType=category)
                 except Exception as e:
                     if "No dates found for" in str(e):
@@ -160,6 +160,7 @@ class FacebookScrapper:
             f"&location_id=114912541853133"
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
+        sleep(2)
         element = driver.find_element(By.XPATH, "//span[contains(., 'Classics')]")
         element.click()
         sleep(3)

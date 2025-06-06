@@ -44,7 +44,7 @@ class UnderTheRaderScrapper:
                                         image=imageURL,
                                         url=url,
                                         venue=venue,
-                                        source="under the radar",
+                                        source="Under The Radar",
                                         eventType="Music"))
             except Exception as e:
                 print(f"under the radar: {e}")

@@ -189,7 +189,7 @@ class EventFinderScrapper:
                         image=imageURL,
                         url=eventURL,
                         venue=venue,
-                        source="event finder",
+                        source="Event Finder",
                         eventType=eventType if eventType else "Other",))
                 except Exception as e:
                     print(f"event finder: {e}")

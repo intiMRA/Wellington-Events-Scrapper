@@ -204,7 +204,7 @@ class TicketmasterScrapper:
                                                 venue=venue,
                                                 dates=dates,
                                                 url=event[PossibleKeys.url],
-                                                source="ticketmaster",
+                                                source="Ticket Master",
                                                 eventType=catergoryName if catergoryName else "Other"))
                     except Exception as v:
                         print("ticket master error")

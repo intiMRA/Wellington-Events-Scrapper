@@ -115,7 +115,7 @@ class HumanitixScrapper:
                                                 image=imageURL,
                                                 url=eventUrl,
                                                 venue=venue,
-                                                source="humanitix",
+                                                source="Humanitix",
                                                 eventType=categoryName))
                     except Exception as e:
                         print(f"humanitix: {e}")

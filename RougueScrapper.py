@@ -51,7 +51,7 @@ class RougueScrapper:
                                                 image=imageURL,
                                                 url=url,
                                                 venue=venue,
-                                                source="rogue",
+                                                source="Rogue & Vagabond",
                                                 eventType="Music"))
                 except Exception as e:
                     print(f"rogue: {e}")

@@ -22,7 +22,7 @@ cacheFile = open("cached.json", mode="w")
 cacheFile.write("{\n")
 
 print("fetching wellington NZ")
-wellingtonNZPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "wellington nz"]
+wellingtonNZPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Wellington NZ"]
 wellingtonNZPrevious = [event for event in wellingtonNZPrevious if event is not None]
 wellyNZ_events = WellingtonNZScrapper.fetch_events(set([event.name for event in wellingtonNZPrevious])) + wellingtonNZPrevious
 json.dump([e.to_dict() for e in wellyNZ_events], cacheFile)
@@ -44,14 +44,14 @@ json.dump([e.to_dict() for e in ticket_events], cacheFile)
 cacheFile.write(",\n")
 
 print("fetching ticket master")
-ticketMasterPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "ticketmaster"]
+ticketMasterPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Ticket Master"]
 ticketMasterPrevious = [event for event in ticketMasterPrevious if event is not None]
 ticket_master_events: [EventInfo] = TicketmasterScrapper.fetch_events(set([event.name for event in ticketMasterPrevious])) + ticketMasterPrevious
 json.dump([e.to_dict() for e in ticket_master_events], cacheFile)
 cacheFile.write(",\n")
 
 print("fetching under the radar")
-utrPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "under the radar"]
+utrPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Under The Radar"]
 utrPrevious = [event for event in utrPrevious if event is not None]
 under_the_radar_events: [EventInfo] = UnderTheRaderScrapper.fetch_events(set([event.name for event in utrPrevious])) + utrPrevious
 json.dump([e.to_dict() for e in under_the_radar_events], cacheFile)
@@ -63,21 +63,21 @@ json.dump([e.to_dict() for e in valhalla_events], cacheFile)
 cacheFile.write(",\n")
 
 print("fetching event finder")
-eventFinderPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "event finder"]
+eventFinderPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Event Finder"]
 eventFinderPrevious = [event for event in eventFinderPrevious if event is not None]
 event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events(set([event.name for event in eventFinderPrevious])) + eventFinderPrevious
 json.dump([e.to_dict() for e in event_finder_event], cacheFile)
 cacheFile.write(",\n")
 
 print("fetching rogue")
-roguePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "rogue"]
+roguePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Rogue & Vagabond"]
 roguePrevious = [event for event in roguePrevious if event is not None]
 rogue_events = RougueScrapper.fetch_events(set([event.name for event in roguePrevious])) + roguePrevious
 json.dump([e.to_dict() for e in rogue_events], cacheFile)
 cacheFile.write(",\n")
 
 print("fetching humanitix")
-humanitixPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "humanitix"]
+humanitixPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Humanitix"]
 humanitixPrevious = [event for event in humanitixPrevious if event is not None]
 humanitix_events = HumanitixScrapper.fetch_events(set([event.name for event in humanitixPrevious])) + humanitixPrevious
 json.dump([e.to_dict() for e in humanitix_events], cacheFile)
@@ -92,7 +92,7 @@ cacheFile.write("\n}")
 cacheFile.close()
 
 print("fetching event brite")
-eventBritePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "eventbrite"]
+eventBritePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Event Brite"]
 eventBritePrevious = [event for event in eventBritePrevious if event is not None]
 eventbrite_events = EventbriteScrapper.fetch_events(set([event.name for event in eventBritePrevious])) + eventBritePrevious
 
