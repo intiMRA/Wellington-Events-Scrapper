@@ -1,6 +1,6 @@
 class CategoryMapping:
     @staticmethod
-    def map_category(category: str):
+    def map_category(category: str) -> str:
         category_mapping = {
             "Community & Culture": "Community & Culture",
             "Charity & Causes": "Community & Culture",

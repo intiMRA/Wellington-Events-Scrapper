@@ -8,6 +8,7 @@ import re
 from datetime import datetime
 from DateFormatting import DateFormatting
 from dateutil import parser
+from typing import List, Tuple, Set
 import json
 
 class WellingtonHighschoolScrapper:
@@ -23,7 +24,7 @@ class WellingtonHighschoolScrapper:
             prevHeight = height
 
     @staticmethod
-    def getAllEventDates(url: str) -> [datetime]:
+    def getAllEventDates(url: str) -> List[datetime]:
         driver = webdriver.Chrome()
         driver.get(url)
         sleep(1)
@@ -33,10 +34,10 @@ class WellingtonHighschoolScrapper:
             texts = event.text.split("\n")
             try:
                 dateTag = " ".join(texts[0].split(" ")[1:])
-                if re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMPM]{2}", texts[1]):
-                    hours = re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMPM]{2}", texts[1])[0]
-                elif re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMPM]{2}", texts[2]):
-                    hours = re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMPM]{2}", texts[2])[0]
+                if re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMP]{2}", texts[1]):
+                    hours = re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMP]{2}", texts[1])[0]
+                elif re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMP]{2}", texts[2]):
+                    hours = re.findall(r"\d{1,2}\s*[:0-9 ]*\s*[AMP]{2}", texts[2])[0]
                 else:
                     print("no hours: ")
                     print(texts)
@@ -54,8 +55,8 @@ class WellingtonHighschoolScrapper:
         return dates
 
     @staticmethod
-    def getEvents(url: str, titles: set, category: str, driver: webdriver) -> [EventInfo]:
-        events: [EventInfo] = []
+    def getEvents(url: str, titles: set, category: str, driver: webdriver) -> List[EventInfo]:
+        events: List[EventInfo] = []
         driver.get(url)
         WellingtonHighschoolScrapper.slow_scroll_to_bottom(driver)
         catalog = driver.find_element(By.CLASS_NAME, "catalogue")
@@ -91,7 +92,7 @@ class WellingtonHighschoolScrapper:
         return events
 
     @staticmethod
-    def getCategories() -> [(str, str)]:
+    def getCategories() -> List[Tuple[str, str]]:
         driver = webdriver.Chrome()
         driver.get("https://www.cecwellington.ac.nz/w/courses/")
         filters = driver.find_elements(By.CLASS_NAME, "radio-filter")
@@ -104,7 +105,7 @@ class WellingtonHighschoolScrapper:
         return categories
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> [EventInfo]:
+    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
         titles = previousTitles
         categories = WellingtonHighschoolScrapper.getCategories()
         driver = webdriver.Chrome()

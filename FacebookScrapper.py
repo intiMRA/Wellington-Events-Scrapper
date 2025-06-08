@@ -13,6 +13,7 @@ import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from dateutil.relativedelta import relativedelta
+from typing import List, Optional, Tuple, Set
 
 dotenv_path = Path('venv/.env')
 load_dotenv(dotenv_path=dotenv_path)
@@ -20,7 +21,7 @@ load_dotenv(dotenv_path=dotenv_path)
 
 class FacebookScrapper:
     @staticmethod
-    def parse_day_of_week(day_string: str) -> datetime:
+    def parse_day_of_week(day_string: str) -> Optional[datetime]:
         """Parses a day of the week string into a datetime object representing the next occurrence of that day."""
         try:
             today = datetime.now()
@@ -34,7 +35,7 @@ class FacebookScrapper:
             return None
 
     @staticmethod
-    def parseDate(date: str) -> [datetime]:
+    def parseDate(date: str) -> Optional[List[datetime]]:
         try:
             today = datetime.now()
             hour = " 10:00"
@@ -84,7 +85,60 @@ class FacebookScrapper:
             return None
 
     @staticmethod
-    def slow_scroll_to_bottom(driver, category: str, foundTitles: set, scroll_increment=300) -> ([EventInfo], set):
+    def slow_scroll_to_bottom_other(driver, foundTitles: Set[str], scroll_increment=300) -> List[EventInfo]:
+        eventsInfo: List[EventInfo] = []
+        titles = set()
+        while True:
+            html = driver.find_elements(By.TAG_NAME, 'a')
+            while len(html) < 700:
+                driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
+                driver.implicitly_wait(2)
+                html = driver.find_elements(By.TAG_NAME, 'a')
+
+            print("size of html: ", len(html))
+            for event in html:
+                info = event.find_elements(By.TAG_NAME, "span")
+                filtered = []
+                for i in info:
+                    i = i.text.strip()
+                    if not i or i in filtered:
+                        continue
+                    filtered.append(i)
+                try:
+                    if len(filtered) < 3:
+                        continue
+                    date = filtered[0]
+                    if date == "Happening now":
+                        continue
+                    title = filtered[1]
+                    if title in foundTitles or title in titles:
+                        continue
+                    titles.add(title)
+                    dates = FacebookScrapper.parseDate(date)
+                    venue = filtered[2]
+                    eventUrl = event.get_attribute('href')
+                    regex = r'https://www.facebook.com/events/\d+'
+                    eventUrl = re.findall(regex, eventUrl)[0]
+                    imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
+
+                    eventsInfo.append(EventInfo(name=title,
+                                                      dates=dates,
+                                                      image=imageUrl,
+                                                      url=eventUrl,
+                                                      venue=venue,
+                                                      source="Facebook",
+                                                      eventType="Other"))
+                except Exception as e:
+                    if "No dates found for" in str(e):
+                        print("facebook error: ", e)
+                        print("facebook error: ", filtered)
+                        continue
+                    else:
+                        raise e
+            return eventsInfo
+
+    @staticmethod
+    def slow_scroll_to_bottom(driver, category: str, foundTitles: Set[str], scroll_increment=300) -> Tuple[List[EventInfo], Set[str]]:
         oldEventTitles = {}
         newEventTitles = {}
         titles = set()
@@ -93,6 +147,7 @@ class FacebookScrapper:
             driver.implicitly_wait(2)
             html = driver.find_elements(By.TAG_NAME, 'a')
             print("size of html: ", len(html))
+            print(len(newEventTitles))
             for event in html:
                 info = event.find_elements(By.TAG_NAME, "span")
                 filtered = []
@@ -132,13 +187,12 @@ class FacebookScrapper:
                         continue
                     else:
                         raise e
-            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 400:
-                return newEventTitles.values(), titles.union(foundTitles)
+            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 200:
+                return list(newEventTitles.values()), titles.union(foundTitles)
             oldEventTitles = newEventTitles.copy()
-        return list(events.values()), titles.union(foundTitles)
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
+    def fetch_events() -> List[EventInfo]:
         # Path to your Chrome profile directory
         profile_path = "~/ChromeTestProfile"  # Replace with your actual path
         # Set Chrome options
@@ -205,7 +259,7 @@ class FacebookScrapper:
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
         sleep(1)
-        events += list(FacebookScrapper.slow_scroll_to_bottom(driver, "Other", titles, scroll_increment=5000)[0])
+        events += FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, scroll_increment=5000)
         driver.close()
         return events
 # events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(), key=lambda k: k.name.strip())))

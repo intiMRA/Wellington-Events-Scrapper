@@ -8,17 +8,18 @@ import re
 from dateutil import parser
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from typing import List, Set
 import json
 
 class WellingtonNZScrapper:
     @staticmethod
-    def slow_scroll_to_bottom(driver, category: str, eventNames: set) -> [EventInfo]:
+    def slow_scroll_to_bottom(driver, category: str, eventNames: Set[str]) -> List[EventInfo]:
         events = {}
         height = driver.execute_script("return document.body.scrollHeight")
         scrolledAmount = 0
         while True:
             if scrolledAmount > height:
-                return events.values()
+                return list(events.values())
             driver.execute_script(f"window.scrollBy(0, {400});")
             scrolledAmount += 400
             rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
@@ -95,7 +96,7 @@ class WellingtonNZScrapper:
                     pass
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> [EventInfo]:
+    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
         driver = webdriver.Chrome()
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)

@@ -10,10 +10,11 @@ from dateutil.relativedelta import relativedelta
 from dateutil import parser
 import json
 from time import sleep
+from typing import List, Tuple, Set
 
 class EventbriteScrapper:
     @staticmethod
-    def getAllDates(url: str) -> [datetime]:
+    def getAllDates(url: str) -> List[datetime]:
         driver = webdriver.Chrome()
         driver.get(url)
         sleep(1)
@@ -37,7 +38,7 @@ class EventbriteScrapper:
         except:
             return []
     @staticmethod
-    def getCategories(driver: webdriver) -> [(str, str)]:
+    def getCategories(driver: webdriver) -> List[Tuple[str, str]]:
         categories = []
         driver.find_element(By.CLASS_NAME, "filter-toggle").click()
         filters = driver.find_element(By.CLASS_NAME, "filter-choice-items")
@@ -49,7 +50,7 @@ class EventbriteScrapper:
         return categories
 
     @staticmethod
-    def getEvents(driver: webdriver, titles: set, category: str) -> [EventInfo]:
+    def getEvents(driver: webdriver, titles: Set[str], category: str) -> List[EventInfo]:
         curentPage = 1
         events = []
         while True:
@@ -138,7 +139,7 @@ class EventbriteScrapper:
 
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> [EventInfo]:
+    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
         events = []
         driver = webdriver.Chrome()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')

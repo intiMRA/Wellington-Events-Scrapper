@@ -5,12 +5,13 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from dateutil import parser
+from typing import  List, Set
 
 class RougueScrapper:
 
     @staticmethod
-    def fetch_events(previousTitltes: set) -> [EventInfo]:
-        eventsInfo: [EventInfo] = []
+    def fetch_events(previousTitltes: Set[str]) -> List[EventInfo]:
+        eventsInfo: List[EventInfo] = []
         response = requests.get(f"https://rogueandvagabond.co.nz/")
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, 'html.parser')

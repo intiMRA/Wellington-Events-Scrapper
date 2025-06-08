@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from DateFormatting import DateFormatting
 from dateutil import parser
 from dateutil.relativedelta import relativedelta
+from typing import List
 
 class EventFinderScrapper:
     @staticmethod
@@ -43,7 +44,7 @@ class EventFinderScrapper:
         return None
 
     @staticmethod
-    def getAllEventDates(url: str, title: str) -> [datetime]:
+    def getAllEventDates(url: str, title: str) -> List[datetime]:
         dateObjects = []
         try:
             driver = webdriver.Chrome()
@@ -105,8 +106,8 @@ class EventFinderScrapper:
         return dateObjects
 
     @staticmethod
-    def getEvents(url: str, titles: set) -> [EventInfo]:
-        events: [EventInfo] = []
+    def getEvents(url: str, titles: set) -> List[EventInfo]:
+        events: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get(url)
         lastPage = 1
@@ -148,9 +149,11 @@ class EventFinderScrapper:
                     eventURL = title_element.get_attribute("href")
                 except:
                     print(f"invalid event: {title}")
+                    continue
                 try:
                     imageURL = event.find_element(By.TAG_NAME, "img").get_attribute("src")
                 except Exception as e:
+                    imageURL = ""
                     print(f"event finder no image found: {eventURL}")
 
                 metaDate = event.find_element(By.CLASS_NAME, "meta-date").text
@@ -176,6 +179,7 @@ class EventFinderScrapper:
                 try:
                     venue = event.find_element(By.CLASS_NAME, 'p-locality').text
                 except:
+                    venue = "not listed"
                     print(f"event finder error on locality: {url}")
                 eventType = None
                 try:
@@ -200,12 +204,12 @@ class EventFinderScrapper:
         return events
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> [EventInfo]:
+    def fetch_events(previousTitles: set) -> List[EventInfo]:
         titles = previousTitles
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
         eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"
-        events: [EventInfo] = EventFinderScrapper.getEvents(eventsUrl, titles)
+        events: List[EventInfo] = EventFinderScrapper.getEvents(eventsUrl, titles)
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))

@@ -7,12 +7,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from dateutil import parser
-
+from typing import List, Set
 
 class UnderTheRaderScrapper:
     @staticmethod
-    def fetch_events(previousTitles: set) -> [EventInfo]:
-        events: [EventInfo] = []
+    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
+        events: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
         while True:

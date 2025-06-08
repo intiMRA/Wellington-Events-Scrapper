@@ -2,12 +2,13 @@ import requests
 from EventInfo import EventInfo
 import re
 from dateutil import parser
+from typing import List
 
 class SanFranScrapper:
     # noinspection PyBroadException
     @staticmethod
-    def fetch_events() -> [EventInfo]:
-        events: [EventInfo] = []
+    def fetch_events() -> List[EventInfo]:
+        events: List[EventInfo] = []
         page = 1
         while True:
             headers = {
@@ -49,7 +50,6 @@ class SanFranScrapper:
                     print(e)
                     break
             page += 1
-        return events
 
 
 # events = list(map(lambda x: x.to_dict(), sorted(SanFranScrapper.fetch_events(), key=lambda k: k.name.strip())))

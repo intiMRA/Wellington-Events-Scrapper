@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 import re
 import pandas
-from dateutil import parser
 import pytz
 
 nz_tz = pytz.timezone("Pacific/Auckland")
