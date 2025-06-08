@@ -4,18 +4,18 @@ from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from dateutil import parser
-
+from typing import List
 
 class ValhallaScrapper:
     @staticmethod
-    def slow_scroll_to_bottom(driver, scroll_increment=300) -> [EventInfo]:
+    def slow_scroll_to_bottom(driver, scroll_increment=300) -> List[EventInfo]:
         events = {}
         height = driver.execute_script("return document.body.scrollHeight")
         scrolledAmount = 0
         while True:
             if scrolledAmount > height:
                 driver.close()
-                return events.values()
+                return list(events.values())
             driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
 
             scrolledAmount += scroll_increment
@@ -59,7 +59,7 @@ class ValhallaScrapper:
                     print(f"valhalla: {e}")
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
+    def fetch_events() -> List[EventInfo]:
         driver = webdriver.Chrome()
         driver.get("https://www.valhallatavern.com/events-1")
         return list(ValhallaScrapper.slow_scroll_to_bottom(driver, scroll_increment=1000))

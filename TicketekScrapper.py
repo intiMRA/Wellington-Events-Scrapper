@@ -3,10 +3,11 @@ from bs4 import BeautifulSoup
 from EventInfo import EventInfo
 import re
 from dateutil import parser
+from typing import List
 
 class TicketekScrapper:
     @staticmethod
-    def extractEvents(url: str, nationWide: bool, categoryName: str) -> [EventInfo]:
+    def extractEvents(url: str, nationWide: bool, categoryName: str) -> List[EventInfo]:
         events = []
         response = requests.get(url)
         if response.status_code != 200:
@@ -41,8 +42,8 @@ class TicketekScrapper:
         return events
 
     @staticmethod
-    def fetch_events() -> [EventInfo]:
-        eventsInfo: [EventInfo] = []
+    def fetch_events() -> List[EventInfo]:
+        eventsInfo: List[EventInfo] = []
         response = requests.get(
             f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
         soup = BeautifulSoup(response.text, "html.parser")

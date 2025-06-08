@@ -8,6 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import pytz
+from typing import List
+
 nz_timezone = pytz.timezone('Pacific/Auckland')
 majorCats = {
     "MusicEvent": ["1", "2", "3", "4", "5", "52", "60", "171", "200", "201", "1001", "1002", "1012", "1201", "1202",
@@ -93,7 +95,7 @@ class TicketmasterScrapper:
                 time.sleep(0.1)
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> [EventInfo]:
+    def fetch_events(previousTitles: set) -> List[EventInfo]:
         class PossibleKeys(str, Enum):
             id = 'id'
             total = 'total'
@@ -126,7 +128,7 @@ class TicketmasterScrapper:
             events = 'events'
             city = 'city'
 
-        events: [EventInfo] = []
+        events: List[EventInfo] = []
         headers = {
             "accept": "*/*",
             "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",

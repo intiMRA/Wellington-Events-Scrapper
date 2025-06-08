@@ -4,6 +4,7 @@ from DateFormatting import DateFormatting
 import pytz
 from CategoryMapping import CategoryMapping
 from dateutil import parser
+from typing import List
 import re
 nz_tz = pytz.timezone("Pacific/Auckland")
 
@@ -12,7 +13,7 @@ class EventInfo:
     name: str
     image: str
     venue: str
-    dates: [str]
+    dates: List[str]
     displayDate: str
     url: str
     source: str
@@ -23,7 +24,7 @@ class EventInfo:
             name: str,
             image: str,
             venue: str,
-            dates: [datetime],
+            dates: List[datetime],
             url: str,
             source: str,
             eventType: str):

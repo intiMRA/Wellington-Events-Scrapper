@@ -8,13 +8,13 @@ from DateFormatting import DateFormatting
 from dateutil import parser
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-
+from typing import List, Optional, Set
 
 class HumanitixScrapper:
 
     @staticmethod
-    def getDatesFromEvent(url)-> [datetime]:
-        dates: [datetime] = []
+    def getDatesFromEvent(url)-> List[datetime]:
+        dates: List[datetime] = []
         driver = webdriver.Chrome()
         driver.get(url)
         driver.maximize_window()
@@ -48,7 +48,7 @@ class HumanitixScrapper:
         return dates
 
     @staticmethod
-    def get_date(divStrings: [str], eventUrl: str) -> [datetime]:
+    def get_date(divStrings: List[str], eventUrl: str) -> Optional[List[datetime]]:
         for dateString in divStrings:
             if "more times" in dateString:
                 return HumanitixScrapper.getDatesFromEvent(eventUrl)
@@ -71,8 +71,8 @@ class HumanitixScrapper:
         return input_string[0].lower() + input_string[1:]
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> [EventInfo]:
-        events: [EventInfo] = []
+    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
+        events: List[EventInfo] = []
         eventTitles = previousTitles
         driver = webdriver.Chrome()
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
