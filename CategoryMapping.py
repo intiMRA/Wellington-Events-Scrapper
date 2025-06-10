@@ -132,6 +132,7 @@ class CategoryMapping:
             "Spirituality": "Religion & Spirituality",
             "Martial Arts": "Hobbies & Interests",
             "Fashion": "Hobbies & Interests",
+            "Lifestyle Shows, Expos": "Health & Wellness",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
