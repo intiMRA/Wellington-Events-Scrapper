@@ -1,3 +1,5 @@
+from time import sleep
+
 import requests
 import json
 from DateFormatting import DateFormatting
@@ -83,10 +85,11 @@ class TicketmasterScrapper:
                                  .find_element(By.CLASS_NAME, "page_headleftimage")
                                  .find_element(By.TAG_NAME, "img")
                                  .get_attribute("src"))
-                    if "https:" in image_url:
+                    if "https:" not in image_url:
                         image_url = "https:" + image_url
                 else:
-                    image_url = driver.find_element(By.TAG_NAME, "img").get_attribute("src")
+                    tag = driver.find_element(By.XPATH, "//section[@aria-label='Event Header']")
+                    image_url = tag.find_element(By.TAG_NAME, "img").get_attribute("src")
                 return image_url
             except:
                 if time.time() - start_time > timeout:
