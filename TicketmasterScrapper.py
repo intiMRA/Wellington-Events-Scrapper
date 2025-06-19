@@ -77,7 +77,6 @@ class TicketmasterScrapper:
     @staticmethod
     def get_image_url_with_timeout(driver, url: str, timeout=10):
         start_time = time.time()
-
         while True:
             try:
                 if "moshtix" in url:
@@ -88,14 +87,19 @@ class TicketmasterScrapper:
                     if "https:" not in image_url:
                         image_url = "https:" + image_url
                 else:
-                    tag = driver.find_element(By.XPATH, "//section[@aria-label='Event Header']")
-                    image_url = tag.find_element(By.TAG_NAME, "img").get_attribute("src")
+                    driver.implicitly_wait(2)
+                    image_urls = driver.find_elements(By.TAG_NAME, "img")
+                    image_url = ""
+                    for url in image_urls:
+                        url = url.get_attribute("src")
+                        if "ticketm" in url:
+                            image_url = url
                 return image_url
             except:
                 if time.time() - start_time > timeout:
                     print("Timeout reached. Image element not found.")
                     return None
-                time.sleep(0.1)
+                time.sleep(10)
 
     @staticmethod
     def fetch_events(previousTitles: set) -> List[EventInfo]:
