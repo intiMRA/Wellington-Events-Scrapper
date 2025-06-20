@@ -85,17 +85,22 @@ class FacebookScrapper:
             return None
 
     @staticmethod
-    def slow_scroll_to_bottom_other(driver, foundTitles: Set[str], scroll_increment=300) -> List[EventInfo]:
+    def slow_scroll_to_bottom_other(driver, foundTitles: Set[str], scroll_increment=300) -> (List[EventInfo], Set[str]):
         eventsInfo: List[EventInfo] = []
         titles = set()
         while True:
             html = driver.find_elements(By.TAG_NAME, 'a')
+            oldLenght = len(html)
             while len(html) < 700:
                 driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
-                driver.implicitly_wait(2)
+                sleep(2)
                 html = driver.find_elements(By.TAG_NAME, 'a')
+                if oldLenght == len(html):
+                    break
+                else:
+                    oldLenght = len(html)
 
-            print("size of html: ", len(html))
+            print(f"facebook finished finding html {len(html)}")
             for event in html:
                 info = event.find_elements(By.TAG_NAME, "span")
                 filtered = []
@@ -135,7 +140,7 @@ class FacebookScrapper:
                         continue
                     else:
                         raise e
-            return eventsInfo
+            return eventsInfo, titles.union(foundTitles)
 
     @staticmethod
     def slow_scroll_to_bottom(driver, category: str, foundTitles: Set[str], scroll_increment=300) -> Tuple[List[EventInfo], Set[str]]:
@@ -144,7 +149,7 @@ class FacebookScrapper:
         titles = set()
         while True:
             driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
-            driver.implicitly_wait(2)
+            sleep(2)
             html = driver.find_elements(By.TAG_NAME, 'a')
             print("size of html: ", len(html))
             print(len(newEventTitles))
@@ -187,7 +192,9 @@ class FacebookScrapper:
                         continue
                     else:
                         raise e
-            if oldEventTitles.keys() == newEventTitles.keys() or len(oldEventTitles.keys()) >= 200:
+            if (len(newEventTitles) ==0
+                    or oldEventTitles.keys() == newEventTitles.keys()
+                    or len(oldEventTitles.keys()) >= 200):
                 return list(newEventTitles.values()), titles.union(foundTitles)
             oldEventTitles = newEventTitles.copy()
 
@@ -247,10 +254,25 @@ class FacebookScrapper:
             driver.execute_script("arguments[0].scrollIntoView(true);", catButton)
             catButton.click()
             sleep(1)
-            t = FacebookScrapper.slow_scroll_to_bottom(driver, cat, titles, scroll_increment=5000)
+            t = FacebookScrapper.slow_scroll_to_bottom(driver, cat, titles)
             events += list(t[0])
             titles = t[1]
             catButton.click()
+        # wellington region 1590021457900572
+        # wellington city 114912541853133
+        driver.get(
+            f"https://www.facebook.com/events/?"
+            f"date_filter_option=CUSTOM_DATE_RANGE"
+            f"&discover_tab=CUSTOM"
+            f"&location_id=1590021457900572"
+            f"&start_date={start_date_string}"
+            f"&end_date={end_date_string}")
+        sleep(1)
+
+        t = FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, scroll_increment=5000)
+        events += t[0]
+        titles = t[1]
+
         driver.get(
             f"https://www.facebook.com/events/?"
             f"date_filter_option=CUSTOM_DATE_RANGE"
@@ -259,7 +281,9 @@ class FacebookScrapper:
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
         sleep(1)
-        events += FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, scroll_increment=5000)
+        t = FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, scroll_increment=5000)
+        wellingTonSpecific = t[0]
+        events += wellingTonSpecific
         driver.close()
         return events
 # events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(), key=lambda k: k.name.strip())))
