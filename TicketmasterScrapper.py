@@ -87,7 +87,7 @@ class TicketmasterScrapper:
                     if "https:" not in image_url:
                         image_url = "https:" + image_url
                 else:
-                    driver.implicitly_wait(2)
+                    sleep(2)
                     image_urls = driver.find_elements(By.TAG_NAME, "img")
                     image_url = ""
                     for url in image_urls:

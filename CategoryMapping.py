@@ -134,6 +134,8 @@ class CategoryMapping:
             "Fashion": "Hobbies & Interests",
             "Lifestyle Shows, Expos": "Health & Wellness",
             "Marathon, Running": "Sports & Fitness",
+            "Fitness": "Sports & Fitness",
+            "Ballet": "Arts & Theatre",
             "Other": "Other"
         }
         cat = category_mapping.get(category)

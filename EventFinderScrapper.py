@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from DateFormatting import DateFormatting
 from dateutil import parser
 from dateutil.relativedelta import relativedelta
-from typing import List
+from typing import List, Set
 
 class EventFinderScrapper:
     @staticmethod
@@ -51,7 +51,6 @@ class EventFinderScrapper:
             driver.get(url)
             try:
                 driver.find_element(By.XPATH, "//*[contains(., 'HTTP')]")
-                print("AAAAAAHH")
                 sleep(2)
                 driver.get(url)
             except:
@@ -106,7 +105,7 @@ class EventFinderScrapper:
         return dateObjects
 
     @staticmethod
-    def getEvents(url: str, titles: set) -> List[EventInfo]:
+    def getEvents(url: str, titles: Set[str]) -> (List[EventInfo], Set[str]):
         events: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get(url)
@@ -201,15 +200,19 @@ class EventFinderScrapper:
             driver.close()
             currentPage += 1
 
-        return events
+        return events, titles
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> List[EventInfo]:
+    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
         titles = previousTitles
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
+        eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington-region/date/to-month/{end_date.month}/to-day/{end_date.day}"
+        events, titles = EventFinderScrapper.getEvents(eventsUrl, titles)
+
         eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"
-        events: List[EventInfo] = EventFinderScrapper.getEvents(eventsUrl, titles)
+        wellingTonSpecific, _ = EventFinderScrapper.getEvents(eventsUrl, titles)
+        events += wellingTonSpecific
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))
