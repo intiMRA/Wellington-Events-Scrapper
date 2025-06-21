@@ -136,6 +136,11 @@ class CategoryMapping:
             "Marathon, Running": "Sports & Fitness",
             "Fitness": "Sports & Fitness",
             "Ballet": "Arts & Theatre",
+            "Wrestling": "Sports & Fitness",
+            "Classic Rock": "Music & Concerts",
+            "Dance Sport": "Sports & Fitness",
+            "Opera": "Music & Concerts",
+            "Latin": "Hobbies & Interests",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
