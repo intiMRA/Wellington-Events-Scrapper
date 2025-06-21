@@ -8,6 +8,7 @@ from DateFormatting import DateFormatting
 from dateutil import parser
 from dateutil.relativedelta import relativedelta
 from typing import List, Set
+import json
 
 class EventFinderScrapper:
     @staticmethod
@@ -108,19 +109,18 @@ class EventFinderScrapper:
     def getEvents(url: str, titles: Set[str]) -> (List[EventInfo], Set[str]):
         events: List[EventInfo] = []
         driver = webdriver.Chrome()
-        driver.get(url)
+        driver.get(url+ f'/page/{2}')
         lastPage = 1
         try:
-            pagination = driver.find_element(By.CLASS_NAME, 'pagination')
-            lastPage = int(re.sub('\W+', ' ', pagination.text).strip().split(" ")[-1])
+            pagination = driver.find_element(By.CLASS_NAME, 'lead')
+            lastPage = int(re.sub('\W+', ' ', pagination.text).strip().split("of")[-1])
         except:
             print("error: ", url)
             pass
-
         currentPage = 1
         driver.close()
+        driver = webdriver.Chrome()
         while currentPage <= lastPage:
-            driver = webdriver.Chrome()
             pageURL = url + f'/page/{currentPage}'
             driver.get(pageURL)
             i = 0
@@ -134,7 +134,6 @@ class EventFinderScrapper:
                     sleep(1)
             for event in html:
                 date_obj = None
-                title = None
                 try:
                     title = event.find_element(By.CLASS_NAME, 'p-name').text
                 except:
@@ -197,7 +196,6 @@ class EventFinderScrapper:
                 except Exception as e:
                     print(f"event finder: {e}")
                     pass
-            driver.close()
             currentPage += 1
 
         return events, titles
@@ -215,6 +213,6 @@ class EventFinderScrapper:
         events += wellingTonSpecific
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
 # with open('wellys.json', 'w') as outfile:
 #     json.dump(events, outfile)
