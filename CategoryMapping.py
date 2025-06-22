@@ -141,6 +141,7 @@ class CategoryMapping:
             "Dance Sport": "Sports & Fitness",
             "Opera": "Music & Concerts",
             "Latin": "Hobbies & Interests",
+            "Diving": "Other",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
