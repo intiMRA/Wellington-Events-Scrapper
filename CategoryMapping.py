@@ -141,6 +141,7 @@ class CategoryMapping:
             "Dance Sport": "Sports & Fitness",
             "Opera": "Music & Concerts",
             "Latin": "Hobbies & Interests",
+            "Reggae": "Music & Concerts",
             "Diving": "Other",
             "Other": "Other"
         }
