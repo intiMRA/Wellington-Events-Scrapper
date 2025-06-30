@@ -44,8 +44,8 @@ class WellingtonNZScrapper:
                         rest = rest.split(" ")
                         last = rest[0]
                         months = " ".join(rest[1:])
-                        date1 = parser.parse(first + " " + months + " 10:00am")
-                        date2 = parser.parse(last + " " + months + " 10:00am")
+                        date1 = parser.parse(first + " " + months + " 1:01AM")
+                        date2 = parser.parse(last + " " + months + " 1:01AM")
                         dateObjects = list(DateFormatting.createRange(date1, date2))
                     else:
                         splitDateString = dateString.split(" – ")
@@ -57,8 +57,8 @@ class WellingtonNZScrapper:
                     startDateString = match.group(1)
                     endDateString = match.group(2)
 
-                    startDate = parser.parse(startDateString + " 10:00am")
-                    endDate = parser.parse(endDateString + " 10:00am")
+                    startDate = parser.parse(startDateString + " 1:01AM")
+                    endDate = parser.parse(endDateString + " 1:01AM")
 
                     dateObjects = list(DateFormatting.createRange(startDate, endDate))
 
@@ -66,14 +66,14 @@ class WellingtonNZScrapper:
                     parts = dateString.split(" – ")
                     startDateString = re.findall(r"(\d{1,2} [A-Za-z]+)", parts[0])[0]
                     endDateString = re.findall(r"(\d{1,2} [A-Za-z]+)", parts[-1])[-1]
-                    startDateString = startDateString + " 10:00am"
-                    endDateString = endDateString + " 10:00am"
+                    startDateString = startDateString + " 1:01AM"
+                    endDateString = endDateString + " 1:01AM"
                     startDate = parser.parse(startDateString)
                     endDate = parser.parse(endDateString)
 
                     dateObjects = list(DateFormatting.createRange(startDate, endDate))
                 elif dateString:
-                    date = parser.parse(dateString + " 10:00am")
+                    date = parser.parse(dateString + " 1:01AM")
                     dateObjects = [date]
                 else:
                     print(f"WellingtonNz failed to load: {event.text}")

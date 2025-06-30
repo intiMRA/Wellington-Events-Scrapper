@@ -144,6 +144,7 @@ class CategoryMapping:
             "Reggae": "Music & Concerts",
             "Diving": "Other",
             "Swimming": "Sports & Fitness",
+            "Rugby Union": "Sports & Fitness",
             "Other": "Other"
         }
         cat = category_mapping.get(category)

@@ -25,19 +25,19 @@ class ValhallaScrapper:
                 date = event.find_element(By.CLASS_NAME, 'eventlist-column-date').text
                 date = date.replace("\n", " ")
                 dates = []
-                firstDatePattern = r"([A-Za-z]{3} \d{1,2})"
+                firstDatePattern = r"([A-Za-z]{3,4} \d{1,2})"
                 firstDate = re.findall(firstDatePattern, date)
                 if not firstDate:
                     continue
                 firstDate = firstDate[0]
-                lastDatePattern = r"(\d{1,2} [A-Za-z]{3})"
+                lastDatePattern = r"(\d{1,2} [A-Za-z]{3,4})"
                 lastDate = re.findall(lastDatePattern, date)
 
-                firstDateObject = parser.parse(firstDate + " 10:00am")
+                firstDateObject = parser.parse(firstDate + " 1:01AM")
                 dates.append(firstDateObject)
 
                 if lastDate:
-                    lastDateObject = parser.parse(lastDate[0] + " 10:00am")
+                    lastDateObject = parser.parse(lastDate[0] + " 1:01AM")
                     dates.append(lastDateObject)
                 title: str = event.find_element(By.CLASS_NAME, 'eventlist-title').text
                 venue = "Valhalla"
