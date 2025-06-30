@@ -42,7 +42,7 @@ class WellingtonHighschoolScrapper:
                     print("no hours: ")
                     print(texts)
                     print("-"*30)
-                    hours = "10 AM"
+                    hours = "1:01AM"
                 dateString = dateTag + " " + hours
                 date_obj = parser.parse(dateString)
                 date_obj = DateFormatting.replaceYear(date_obj)

@@ -130,7 +130,7 @@ class TicketekScrapper:
                             eventsInfo += events
                             continue
                         if not times:
-                            times = ["10am"]
+                            times = ["1:01AM"]
                         date = dates[0] + " " + times[0]
                         date_obj = parser.parse(date)
                         if date_obj not in dateObjects:
