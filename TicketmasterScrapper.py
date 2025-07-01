@@ -1,7 +1,6 @@
 from time import sleep
 
 import requests
-import json
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from enum import Enum
@@ -191,12 +190,14 @@ class TicketmasterScrapper:
                     startDate = event[PossibleKeys.dates][PossibleKeys.startDate]
                     startDateObj = TicketmasterScrapper.convert_to_nz_time(startDate)
                     if startDateObj.hour == 0:
-                        startDateObj = startDateObj.replace(hour=10)
+                        startDateObj = startDateObj.replace(hour=1)
+                        startDateObj = startDateObj.replace(minute=1)
                     if PossibleKeys.endDate in event[PossibleKeys.dates].keys():
                         endDate = event[PossibleKeys.dates][PossibleKeys.endDate]
                         endDateObj = TicketmasterScrapper.convert_to_nz_time(endDate)
                         if endDateObj.hour == 0:
-                            endDateObj = endDateObj.replace(hour=10)
+                            startDateObj = startDateObj.replace(hour=1)
+                            startDateObj = startDateObj.replace(minute=1)
                         if startDateObj == endDateObj:
                             dates = [startDateObj]
                         else:

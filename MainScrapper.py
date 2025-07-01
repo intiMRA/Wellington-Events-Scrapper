@@ -14,6 +14,7 @@ from EventbriteScrapper import EventbriteScrapper
 import json
 import re
 from dateutil import parser
+from typing import List
 
 with open("events.json", mode="r") as f:
     evts = json.loads(f.read())
@@ -45,38 +46,40 @@ for e in facebookPrevious:
 # cacheFile.write(",\n")
 
 print("fetching san fran")
-san_fran_events: [EventInfo] = SanFranScrapper.fetch_events()
+san_fran_events: List[EventInfo] = SanFranScrapper.fetch_events()
 # json.dump([e.to_dict() for e in san_fran_events], cacheFile)
 # cacheFile.write(",\n")
 
 print("fetching tiket")
-ticket_events: [EventInfo] = TicketekScrapper.fetch_events()
+ticket_events: List[EventInfo] = TicketekScrapper.fetch_events()
 # json.dump([e.to_dict() for e in ticket_events], cacheFile)
 # cacheFile.write(",\n")
 
 print("fetching ticket master")
 ticketMasterPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Ticket Master"]
 ticketMasterPrevious = [event for event in ticketMasterPrevious if event is not None]
-ticket_master_events: [EventInfo] = TicketmasterScrapper.fetch_events(set([event.name for event in ticketMasterPrevious])) + ticketMasterPrevious
+ticket_master_events: List[EventInfo] = TicketmasterScrapper.fetch_events(set([event.name for event in ticketMasterPrevious])) + ticketMasterPrevious
 # json.dump([e.to_dict() for e in ticket_master_events], cacheFile)
 # cacheFile.write(",\n")
 
 print("fetching under the radar")
 utrPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Under The Radar"]
 utrPrevious = [event for event in utrPrevious if event is not None]
-under_the_radar_events: [EventInfo] = UnderTheRaderScrapper.fetch_events(set([event.name for event in utrPrevious])) + utrPrevious
+under_the_radar_events: List[EventInfo] = UnderTheRaderScrapper.fetch_events(set([event.name for event in utrPrevious])) + utrPrevious
 # json.dump([e.to_dict() for e in under_the_radar_events], cacheFile)
 # cacheFile.write(",\n")
 
 print("fetching valhalla")
-valhalla_events: [EventInfo] = ValhallaScrapper.fetch_events()
+valhallaPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Valhalla"]
+valhallaPrevious = [event for event in valhallaPrevious if event is not None]
+valhalla_events: List[EventInfo] = ValhallaScrapper.fetch_events(set([event.name for event in valhallaPrevious])) + valhallaPrevious
 # json.dump([e.to_dict() for e in valhalla_events], cacheFile)
 # cacheFile.write(",\n")
 
 print("fetching event finder")
 eventFinderPrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Event Finder"]
 eventFinderPrevious = [event for event in eventFinderPrevious if event is not None]
-event_finder_event: [EventInfo] = EventFinderScrapper.fetch_events(set([event.name for event in eventFinderPrevious])) + eventFinderPrevious
+event_finder_event: List[EventInfo] = EventFinderScrapper.fetch_events(set([event.name for event in eventFinderPrevious])) + eventFinderPrevious
 # json.dump([e.to_dict() for e in event_finder_event], cacheFile)
 # cacheFile.write(",\n")
 
