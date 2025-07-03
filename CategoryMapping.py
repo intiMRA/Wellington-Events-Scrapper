@@ -145,6 +145,7 @@ class CategoryMapping:
             "Diving": "Other",
             "Swimming": "Sports & Fitness",
             "Rugby Union": "Sports & Fitness",
+            "Outdoors, Tramping": "Other",
             "Other": "Other"
         }
         cat = category_mapping.get(category)
