@@ -36,8 +36,8 @@ class HumanitixScrapper:
             if len(matches) > 1:
                 startDate = parser.parse(matches[0].replace(",", ""))
                 endDate = parser.parse(matches[-1].replace(",", ""))
-                range = DateFormatting.createRange(startDate, endDate)
-                for date in range:
+                date_range = DateFormatting.createRange(startDate, endDate)
+                for date in date_range:
                     dates.append(date)
             elif len(matches) == 1:
                 date = parser.parse(matches[0])
@@ -63,6 +63,7 @@ class HumanitixScrapper:
             except Exception as e:
                 print("humanitix failed to extract date from " + dateString)
                 print(e)
+        return []
     @staticmethod
     def formatInput(input_string):
         if not input_string:
