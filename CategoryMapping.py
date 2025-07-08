@@ -145,6 +145,7 @@ class CategoryMapping:
             "Diving": "Other",
             "Swimming": "Sports & Fitness",
             "Rugby Union": "Sports & Fitness",
+            "Dub, Roots": "Music & Concerts",
             "Outdoors, Tramping": "Other",
             "Other": "Other"
         }
