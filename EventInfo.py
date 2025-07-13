@@ -4,20 +4,24 @@ from DateFormatting import DateFormatting
 import pytz
 from CategoryMapping import CategoryMapping
 from dateutil import parser
-from typing import List
-import re
+from typing import List, Optional
+from CoordinatesMapper import CoordinatesMapper
 nz_tz = pytz.timezone("Pacific/Auckland")
 
 class EventInfo:
+    locationsCache: dict[str, Optional[dict[str, str]]] = {}
+
     id: str
     name: str
     image: str
     venue: str
+    coordinates: Optional[dict[str, str]]
     dates: List[str]
     displayDate: str
     url: str
     source: str
     eventType: str
+    description: str
 
     def __init__(
             self: str,
@@ -27,7 +31,9 @@ class EventInfo:
             dates: List[datetime],
             url: str,
             source: str,
-            eventType: str):
+            eventType: str,
+            description: str = "",
+            coordinates: Optional[dict[str, str]] = None):
         """
         @type name: str
         @param name: The name of the event.
@@ -50,6 +56,7 @@ class EventInfo:
         self.name = name
         self.image = image
         self.venue = venue
+        self.description = description
         ogDates = dates
         try:
             dates = list(filter(lambda date: date >= datetime.now(), dates))
@@ -63,6 +70,7 @@ class EventInfo:
         self.displayDate = DateFormatting.formatDisplayDate(dates[0]) \
             if len(dates) == 1 \
             else f"{DateFormatting.formatDisplayDate(dates[0])} + more"
+        self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
         self.dates = list(map(lambda date: DateFormatting.formatDateStamp(date), dates))
         self.url = url
         self.source = source
@@ -80,11 +88,13 @@ class EventInfo:
             "name": self.name,
             "imageUrl": self.image,
             "venue": self.venue,
+            "coordinates": self.coordinates,
             "dates": self.dates,
             "displayDate": self.displayDate,
             "url": self.url,
             "source": self.source,
-            "eventType": self.eventType
+            "eventType": self.eventType,
+            "description": self.description
         }
 
     @classmethod
@@ -98,7 +108,18 @@ class EventInfo:
                 dates=[parser.parse(date) for date in data["dates"]],
                 url=data["url"],
                 source=data["source"],
-                eventType=data["eventType"]
+                eventType=data["eventType"],
+                coordinates=data["coordinates"],
+                description=data["description"]
             )
         except:
             return None
+    @staticmethod
+    def get_location(venue: str) -> Optional[dict[str, str]]:
+        if venue in EventInfo.locationsCache.keys():
+            return EventInfo.locationsCache[venue]
+        else:
+            coordinates = CoordinatesMapper.get_coordinates(venue)
+            EventInfo.locationsCache[venue] = coordinates
+            return coordinates
+

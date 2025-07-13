@@ -6,6 +6,7 @@ from EventInfo import EventInfo
 import re
 from dateutil import parser
 from typing import  List, Set
+import json
 
 class RougueScrapper:
 
@@ -29,7 +30,7 @@ class RougueScrapper:
 
                 dateTag = event.find_all('span', class_='lite')[0].text
                 dateString = re.sub('\W+', ' ', dateTag).strip()
-                venue = "Rogue And Vagabond"
+                venue = "The Rogue & Vagabond"
                 imageDivs = event.find_all('div', class_='gig-image')
                 if imageDivs:
                     a_tag = event.find('a')
@@ -61,6 +62,6 @@ class RougueScrapper:
 
         return eventsInfo
 
-# events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(), key=lambda k: k.name.strip())))
-# with open('wellys.json', 'w') as outfile:
-#     json.dump(events, outfile)
+events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+with open('wellys.json', 'w') as outfile:
+    json.dump(events, outfile)
