@@ -45,6 +45,13 @@ class EventFinderScrapper:
 
     @staticmethod
     def get_event(url: str, category: Optional[str], driver: webdriver) -> Optional[EventInfo]:
+        try:
+            driver.find_element(By.XPATH, "//*[contains(., 'HTTP')]")
+            sleep(60 * 20)
+            driver.get(url)
+        except:
+            pass
+
         driver.get(url)
         title: str = driver.find_element(By.CLASS_NAME, "value-title").text
         venue: str = driver.find_element(By.CLASS_NAME, "venue").text
