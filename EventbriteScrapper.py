@@ -214,6 +214,6 @@ class EventbriteScrapper:
         return events
 
 
-events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.test(), key=lambda k: k.name.strip())))
-with open('eventsBrite.json', 'w') as outfile:
-    json.dump(events, outfile)
+# events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.test(), key=lambda k: k.name.strip())))
+# with open('eventsBrite.json', 'w') as outfile:
+#     json.dump(events, outfile)
