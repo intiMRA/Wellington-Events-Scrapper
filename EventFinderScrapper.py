@@ -115,7 +115,7 @@ class EventFinderScrapper:
                     date_obj = DateFormatting.replaceYear(date_obj)
                     date_objects.append(date_obj)
             except Exception as e:
-                print(f"event finder: {e}")
+                print(f"error: {e}")
         return date_objects
 
     @staticmethod
@@ -172,6 +172,7 @@ class EventFinderScrapper:
         for parts in event_urls:
             url = parts[0]
             category = parts[1]
+            category = category if category else "Other"
             print(f"category: {category} url: {url}")
             try:
                 EventFinderScrapper.get_event(url, category, driver)
