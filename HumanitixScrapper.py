@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from EventInfo import EventInfo
 import re
 from datetime import datetime
-from DateFormatting import DateFormatting
 from dateutil import parser
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
@@ -19,7 +18,6 @@ class HumanitixScrapper:
         driver.maximize_window()
         driver.execute_script("window.scrollTo(200, 500);")
         if multiple_dates:
-            count = 0
             while True:
                 try:
                     element = driver.find_element(By.XPATH, "//button[contains(., 'more dates')]")
@@ -28,13 +26,10 @@ class HumanitixScrapper:
                 except:
                     driver.execute_script("window.scrollTo(200, 500);")
                     sleep(1)
-                    if count >= 3:
-                        raise Exception("")
-                count += 1
             form = driver.find_element(By.TAG_NAME, "form")
             listElements = form.find_elements(By.TAG_NAME, "li")
             for element in listElements:
-                reg = r"(\d{1,2}\s[aA-zZ]{3},\s[aA-ZZ0-9:]*[amp]{2})"
+                reg = r"(\d{1,2}\s[aA-zZ]{3},\s[aA-zZ0-9:]*[AMPamp]{2})"
                 matches = re.findall(reg, element.text)
                 if len(matches) > 1:
                     for match in matches:
@@ -43,11 +38,11 @@ class HumanitixScrapper:
                     date = parser.parse(matches[0])
                     dates.append(date)
                 else:
-                    print("date: ", element.text)
+                    print("multiple dates: ", element.text)
             return dates
         else:
             date_string = driver.find_element(By.CLASS_NAME, "datetime").text.split("\n")[0]
-            reg = r"(\d{1,2}\s[aA-zZ]{3},\s[aA-ZZ0-9:]*[amp]{2})"
+            reg = r"(\d{1,2}\s[aA-zZ]{3}\s*[0-9]*,\s[aA-zZ0-9:]*[AMPamp]{2})"
             matches = re.findall(reg, date_string)
             if len(matches) > 1:
                 for match in matches:
@@ -56,7 +51,7 @@ class HumanitixScrapper:
                 date = parser.parse(matches[0])
                 dates.append(date)
             else:
-                print("date: ", date_string)
+                print("single date: ", date_string)
             return dates
     @staticmethod
     def format_input(input_string):
@@ -73,14 +68,13 @@ class HumanitixScrapper:
             image_url: str = driver.find_element(By.CLASS_NAME, "banner").find_element(By.TAG_NAME, "img").get_attribute('src')
         except:
             image_url = ""
-
         try:
             location = driver.find_element(By.CLASS_NAME, "EventLocation").find_element(By.CLASS_NAME, "address").text
             venue: str = location.split("\n")[1]
         except:
             venue: str = driver.find_element(By.CLASS_NAME, "address").text
         venue = venue.split("  ·  ")[0]
-        print(venue)
+        print(f"venue: {venue}")
         dates: List[datetime] = HumanitixScrapper.get_dates_from_event(driver, multiple_dates)
         description: str = driver.find_element(By.CLASS_NAME, "RichContent").text
         return EventInfo(name=title,
@@ -95,50 +89,50 @@ class HumanitixScrapper:
     @staticmethod
     def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
         events: List[EventInfo] = []
-        # eventTitles = previousTitles
+        eventTitles = previousTitles
         driver = webdriver.Chrome()
-        # driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
-        # categoriesButton = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
-        # categoriesButton.click()
-        # categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
-        # categories = [(HumanitixScrapper.format_input(category.text), category.text) for category in categories]
+        driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
+        categoriesButton = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
+        categoriesButton.click()
+        categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
+        categories = [(HumanitixScrapper.format_input(category.text), category.text) for category in categories]
         event_urls: List[tuple[str, str, bool]] = []
-        # for category, categoryName in categories:
-        #     print("cat: ", category, " ", categoryName)
-        #     page = 0
-        #     while True:
-        #         url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
-        #         driver.get(url)
-        #         _ = WebDriverWait(driver, 10, poll_frequency=1).until(EC.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
-        #         height = driver.execute_script("return document.body.scrollHeight")
-        #         scrolledAmount = 0
-        #         while True:
-        #             if scrolledAmount > height:
-        #                 break
-        #             driver.execute_script(f"window.scrollBy(0, {100});")
-        #
-        #             scrolledAmount += 100
-        #         eventsData = driver.find_elements(By.CLASS_NAME, 'test')
-        #         if not eventsData:
-        #             break
-        #         for event in eventsData:
-        #             title = event.find_element(By.TAG_NAME, 'h6').text
-        #             if title in eventTitles:
-        #                 continue
-        #             event_url = event.get_attribute('href')
-        #             divs = [x.text for x in event.find_elements(By.TAG_NAME, 'div')]
-        #             multiple_dates = False
-        #             for date_string in divs:
-        #                 if "more times" in date_string:
-        #                     multiple_dates = True
-        #                     break
-        #             event_urls.append((event_url, categoryName, multiple_dates))
-        #         page += 1
-        # with open("humanitixUrls.json", mode="w") as f:
-        #     json.dump(event_urls, f, indent=2)
+        for category, categoryName in categories:
+            print("cat: ", category, " ", categoryName)
+            page = 0
+            while True:
+                url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
+                driver.get(url)
+                _ = WebDriverWait(driver, 10, poll_frequency=1).until(EC.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
+                height = driver.execute_script("return document.body.scrollHeight")
+                scrolledAmount = 0
+                while True:
+                    if scrolledAmount > height:
+                        break
+                    driver.execute_script(f"window.scrollBy(0, {100});")
 
-        with open("humanitixUrls.json", mode="r") as f:
-            event_urls = json.loads(f.read())
+                    scrolledAmount += 100
+                eventsData = driver.find_elements(By.CLASS_NAME, 'test')
+                if not eventsData:
+                    break
+                for event in eventsData:
+                    title = event.find_element(By.TAG_NAME, 'h6').text
+                    if title in eventTitles:
+                        continue
+                    event_url = event.get_attribute('href')
+                    divs = [x.text for x in event.find_elements(By.TAG_NAME, 'div')]
+                    multiple_dates = False
+                    for date_string in divs:
+                        if "more times" in date_string:
+                            multiple_dates = True
+                            break
+                    event_urls.append((event_url, categoryName, multiple_dates))
+                page += 1
+        with open("humanitixUrls.json", mode="w") as f:
+            json.dump(event_urls, f, indent=2)
+
+        # with open("humanitixUrls.json", mode="r") as f:
+        #     event_urls = json.loads(f.read())
         out_file = open('humanitixEvents.json', 'w')
         out_file.write("[\n")
         for part in event_urls:
