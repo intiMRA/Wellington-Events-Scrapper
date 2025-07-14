@@ -14,7 +14,6 @@ class RougueScrapper:
         driver.get(url)
         title: str = driver.find_element(By.CLASS_NAME, "display_title_1").text
         date_string = driver.find_element(By.CLASS_NAME, "col-md-9").text.split("\n")[2].split(",")[0]
-        print(date_string)
         parts = date_string.split(" ")
         date = parser.parse(f"{parts[1]} {parts[2]}")
         image_url = driver.find_element(By.CLASS_NAME, "img-responsive").get_attribute('src')
