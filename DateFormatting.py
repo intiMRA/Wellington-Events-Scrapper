@@ -31,7 +31,7 @@ class DateFormatting:
                 startDate = datetime.now()
             startDate = startDate.replace(hour=hour)
             endDate = endDate.replace(hour=hour)
-            return pandas.date_range(startDate, endDate - timedelta(days=1))
+            return pandas.date_range(startDate, endDate)
         except:
             now = datetime.now(nz_tz)
             hour = startDate.hour
@@ -39,7 +39,7 @@ class DateFormatting:
                 startDate = now
             startDate = startDate.replace(hour=hour)
             endDate = endDate.replace(hour=hour)
-            pds = pandas.date_range(startDate, endDate - timedelta(days=1), freq="D", tz='Pacific/Auckland')
+            pds = pandas.date_range(startDate, endDate, freq="D", tz='Pacific/Auckland')
             return pds
 
     @staticmethod
