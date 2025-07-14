@@ -1,67 +1,62 @@
-import requests
-from bs4 import BeautifulSoup
-
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from time import sleep
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from dateutil import parser
-from typing import  List, Set
+from typing import List, Set, Optional
 import json
 
 class RougueScrapper:
-
+    @staticmethod
+    def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
+        driver.get(url)
+        title: str = driver.find_element(By.CLASS_NAME, "display_title_1").text
+        date_string = driver.find_element(By.CLASS_NAME, "col-md-9").text.split("\n")[2].split(",")[0]
+        print(date_string)
+        parts = date_string.split(" ")
+        date = parser.parse(f"{parts[1]} {parts[2]}")
+        image_url = driver.find_element(By.CLASS_NAME, "img-responsive").get_attribute('src')
+        venue = "The Rogue & Vagabond"
+        description = driver.find_element(By.CLASS_NAME, "description").text
+        return EventInfo(name=title,
+                        dates=[date],
+                        image=image_url,
+                        url=url,
+                        venue=venue,
+                        source="Rogue & Vagabond",
+                        eventType="Music",
+                         description=description)
     @staticmethod
     def fetch_events(previousTitltes: Set[str]) -> List[EventInfo]:
         eventsInfo: List[EventInfo] = []
-        response = requests.get(f"https://rogueandvagabond.co.nz/")
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.content, 'html.parser')
-            # Find all divs with class 'deal_title'
-            events = soup.find_all('div', class_='vevent')
-            # Loop through each div and extract the title
-            for event in events:
-                imageURL = None
-                url = None
-                titleDiv = event.find_all('div', class_='gig-title')[0]
-                titleTag = titleDiv.find('a')
-                title = titleTag.get_text()
-                if title in previousTitltes:
-                    continue
-
-                dateTag = event.find_all('span', class_='lite')[0].text
-                dateString = re.sub('\W+', ' ', dateTag).strip()
-                venue = "The Rogue & Vagabond"
-                imageDivs = event.find_all('div', class_='gig-image')
-                if imageDivs:
-                    a_tag = event.find('a')
-                    imageTag = event.find('img')
-                    if imageTag:
-                        imageURL = imageTag.get('src')
-                    if a_tag:
-                        url = a_tag.get('href')
-
-                dateString = DateFormatting.cleanUpDate(dateString)
-                match = re.findall(r"(\d{1,2}\s\w+\s\d{1,2}\s[pam0-9]{4})", dateString)[0]
-                parts = match.split(" ")
-                time = ":".join(parts[-2:])
-                match = " ".join(parts[:-2]) + " " + time
-                date = parser.parse(match)
-                date = DateFormatting.replaceYear(date)
-                try:
-                    eventsInfo.append(EventInfo(name=title,
-                                                dates=[date],
-                                                image=imageURL,
-                                                url=url,
-                                                venue=venue,
-                                                source="Rogue & Vagabond",
-                                                eventType="Music"))
-                except Exception as e:
-                    print(f"rogue: {e}")
-        else:
-            print(f"Failed to retrieve the page. Status code: {response.status_code}")
-
+        driver = webdriver.Chrome()
+        event_urls: List[str] = []
+        driver.get("https://rogueandvagabond.co.nz/")
+        sleep(2)
+        titles = driver.find_elements(By.CLASS_NAME, "vevent")
+        for title in titles:
+            if title.text in previousTitltes:
+                continue
+            event_urls.append(title.find_element(By.TAG_NAME, "a").get_attribute("href"))
+        with open("rougeUrls.json", mode="w") as f:
+            json.dump(event_urls, f)
+        out_file = open("rougeEvents.json", mode="w")
+        out_file.write("[\n")
+        for url in event_urls:
+            print(f"url: {url}")
+            try:
+                event = RougueScrapper.get_event(url, driver)
+                if event:
+                    eventsInfo.append(event)
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
+            except Exception as e:
+                print(e)
+            print("-" * 100)
+        out_file.write("]\n")
+        driver.close()
         return eventsInfo
 
-events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
-with open('wellys.json', 'w') as outfile:
-    json.dump(events, outfile)
+# events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

@@ -147,6 +147,7 @@ class HumanitixScrapper:
                 print(f"error: {e}")
             print("-"*100)
         out_file.write("]\n")
+        driver.close()
         return events
 
-events = list(map(lambda x: x.to_dict(), sorted(HumanitixScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(HumanitixScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

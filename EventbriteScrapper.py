@@ -154,41 +154,20 @@ class EventbriteScrapper:
                     continue
                 titles.add(title)
                 event_urls.add(eventLink)
+        with open("eventFinderUrls.json", mode="a") as f:
+            json.dump(event_urls, f)
+        out_file = open("eventsBrite.json", mode="a")
         for url in event_urls:
-            print(f"url: {url}")
+            print(f"category: {category} url: {url}")
             try:
                 event: Optional[EventInfo] = EventbriteScrapper.get_event(url, driver, category)
                 if event:
                     events.append(event)
+                    json.dump(event.to_dict(), out_file)
+                    out_file.write(",\n")
             except Exception as e:
                 print(e)
-            print("-"*100)
-        return events
-
-    # TODO: delete
-    @staticmethod
-    def test() -> List[EventInfo]:
-        events = []
-        driver = webdriver.Chrome()
-        event_urls: dict = {}
-        with open("eventBriteUrls.json", mode="r") as f:
-            event_urls = json.loads(f.read())
-        for key in event_urls.keys():
-            print(key)
             print("_" * 100)
-            for url in event_urls[key]:
-                print(url)
-                try:
-                    event: Optional[EventInfo] = EventbriteScrapper.get_event(url, driver, key)
-                    if event:
-                        events.append(event)
-                except Exception as e:
-                    print(e)
-            print("_" * 100)
-        try:
-            driver.close()
-        except:
-            pass
         return events
 
     @staticmethod

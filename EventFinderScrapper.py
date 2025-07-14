@@ -176,6 +176,9 @@ class EventFinderScrapper:
                     print(f"invalid event: {title}")
                     continue
             currentPage += 1
+        with open("eventFinderUrls.json", mode="a") as f:
+            json.dump(event_urls, f, indent=2)
+        out_file = open("eventFinder.json", mode="a")
         for parts in event_urls:
             url = parts[0]
             category = parts[1]
@@ -184,6 +187,8 @@ class EventFinderScrapper:
                 event = EventFinderScrapper.get_event(url, category, driver)
                 if event:
                     events.append(event)
+                    out_file.write(event.to_dict())
+                    out_file.write(",\n")
             except Exception as e:
                 print(e)
             print("-"*100)
