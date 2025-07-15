@@ -12,8 +12,17 @@ class RougueScrapper:
         driver.get(url)
         title: str = driver.find_element(By.CLASS_NAME, "display_title_1").text
         date_string = driver.find_element(By.CLASS_NAME, "col-md-9").text.split("\n")[2].split(",")[0]
+        info_texts = driver.find_element(By.CLASS_NAME, "gig-guide-side-bar").text.split("\n")
+        time = "1:01AM"
+        found_gig_start = False
+        for text in info_texts:
+            if "Gig starts" in text:
+                found_gig_start = True
+            elif found_gig_start:
+                time = text
+                break
         parts = date_string.split(" ")
-        date = parser.parse(f"{parts[1]} {parts[2]}")
+        date = parser.parse(f"{parts[1]} {parts[2]} {time}")
         image_url = driver.find_element(By.CLASS_NAME, "img-responsive").get_attribute('src')
         venue = "The Rogue & Vagabond"
         description = driver.find_element(By.CLASS_NAME, "description").text
