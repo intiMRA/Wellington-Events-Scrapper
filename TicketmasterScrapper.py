@@ -216,14 +216,14 @@ class TicketmasterScrapper:
                 image_url = "https:" + image_url
             venue = driver.find_element(By.CLASS_NAME, "event-venue").text
             date_string = driver.find_element(By.CLASS_NAME, "event-date").text
-            date_matches = re.findall(r"\d{1,2}:\d{2}[amp]{2},\s[aA-zZ]{3}\s\d\s[aA-zZ]*,\s\d{4}", date_string)
+            date_matches = re.findall(r"\d{1,2}:\d{2}[amp]{2},\s[aA-zZ]{3}\s\d{1,2}\s[aA-zZ]*,\s\d{4}", date_string)
             dates = []
             for date_match in date_matches:
                 date_parts = date_match.split(",")
                 date_day = " ".join(date_parts[1].split(" ")[1:])
-                date_string = f"{date_day} {date_parts[-1]} {date_parts[0]}"
+                date_string = f"{date_day}{date_parts[-1]} {date_parts[0]}"
                 print(date_string)
-                dates.append(date_string)
+                dates.append(parser.parse(date_string))
             #  4:00pm, Sat 6 September, 2025 - 3:00am, Sun 7 September, 2025
             details = driver.find_element(By.ID, "event-details-section")
             description = details.find_element(By.XPATH, "//div[contains(@class, 'moduleseparator')]").text
