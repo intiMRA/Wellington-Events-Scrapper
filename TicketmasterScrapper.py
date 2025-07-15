@@ -1,5 +1,6 @@
 import json
 import re
+import subprocess
 from time import sleep
 
 import requests
@@ -8,10 +9,13 @@ from EventInfo import EventInfo
 from enum import Enum
 from dateutil import parser
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
 import pytz
 from typing import List, Optional
+from os import path
+import os
 
 nz_timezone = pytz.timezone('Pacific/Auckland')
 majorCats = {
@@ -288,7 +292,20 @@ class TicketmasterScrapper:
         page = 0
         titles = previousTitles
         count = 0
-        driver = webdriver.Chrome()
+        # 1. First kill all Chrome processes
+        subprocess.run(['pkill', '-f', 'Google Chrome'])
+
+        # 2. Use the exact path from your chrome://version
+        profile_path = "/Users/intialbuquerque/Library/Application Support/Google/Chrome"
+
+        options = Options()
+        options.add_argument("--profile-directory=Profile 2")  # Specify profile name only
+
+        # For Apple Silicon Macs
+        options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+        driver = webdriver.Chrome(options=options)
+
         event_urls: List[tuple[str, str]] = []
         while True:
             print(f"fetching page {page}")
@@ -351,8 +368,9 @@ class TicketmasterScrapper:
             except Exception as e:
                 print(e)
             print("-"*100)
+        out_file.write("]\n")
         driver.close()
         return events
 
 
-events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
