@@ -1,9 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
-from DateFormatting import DateFormatting
 from EventInfo import EventInfo
-import re
 from dateutil import parser
 from typing import List, Set, Optional
 import json

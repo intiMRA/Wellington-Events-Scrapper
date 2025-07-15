@@ -1,167 +1,113 @@
-import requests
-from bs4 import BeautifulSoup
+import json
+from datetime import datetime
 from EventInfo import EventInfo
 import re
 from dateutil import parser
-from typing import List
+from typing import List, Optional, Set
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 class TicketekScrapper:
     @staticmethod
-    def extractEvents(url: str, nationWide: bool, categoryName: str) -> List[EventInfo]:
-        events = []
-        response = requests.get(url)
-        if response.status_code != 200:
-            return []
-        soup = BeautifulSoup(response.text, "html.parser")
-        htmlEvents = soup.find_all("div", attrs={"class": "event-item"})
-        hasWellingtonTitle = any("- Wellington" in event.find("h6").text for event in htmlEvents)
-        for htmlEvent in htmlEvents:
-            try:
-                title = htmlEvent.find("h6").text
-                imageURL = htmlEvent.find("img").get("src")
-                dateString, venue = htmlEvent.find("div", attrs={"class": "event-venue-dates"}).find_all("p")
-                dateString = dateString.text
-                dateString = re.findall(r"(\d{1,2}\s\w+\s\d{4}\s[pam0-9:]+)", dateString)[0]
-                venue = venue.text
-                date = parser.parse(dateString)
-                title = re.sub(r"([\t\n\r])", "", title).strip()
-                venue = re.sub(r"([\t\n\r])", "", venue).strip()
-                if hasWellingtonTitle and "wellington" not in title.lower():
-                    continue
-                if nationWide and "wellington" not in title.lower() and "wellington" not in venue.lower():
-                    continue
-                events.append(EventInfo(name=title,
-                                        dates=[date],
-                                        image="https://" + imageURL,
-                                        url=url,
-                                        venue=venue,
-                                        source="Ticketek",
-                                        eventType=categoryName))
-            except Exception as e:
-                print("tiket error: ", e)
-        return events
+    def extract_date(driver: webdriver) -> List[datetime]:
+        dates: List[datetime] = []
+        date_string: str = driver.find_element(By.CLASS_NAME, "selectDateBlock").text.split("\n")[1]
+        matches: List[str] = re.findall(r"\d{1,2}\s[aA-zZ]{3,4}\s\d{4}", date_string)
+        for match in matches:
+            dates.append(parser.parse(match))
+        return dates
 
     @staticmethod
-    def fetch_events() -> List[EventInfo]:
-        eventsInfo: List[EventInfo] = []
-        response = requests.get(
-            f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
-        soup = BeautifulSoup(response.text, "html.parser")
-        cats = soup.find_all('a', class_="cat-nav-item")
-        cats = [(cat.text, cat.get("href").split("c=")[-1]) for cat in cats if len(cat.get("href").split("c=")) > 1]
+    def get_event(url: str, category:str, driver: webdriver, previous_titles: Set[str]) -> Optional[List[EventInfo]]:
+        driver.get(url)
+        sub_events = driver.find_elements(By.CLASS_NAME, "event-item")
+        if sub_events:
+            sub_driver = webdriver.Chrome()
+            print("fetching sub events: ")
+            events_info: List[EventInfo] = []
+            for event in sub_events:
+                venue_text: str = event.find_element(By.CLASS_NAME, "event-venue-dates").text
+                if "wellington" in venue_text.lower():
+                    url: str = event.find_element(By.CLASS_NAME, "event-buttons").find_element(By.TAG_NAME, "a").get_attribute("href")
+                    print(f"sub event url: {url}")
+                    parsed_events = TicketekScrapper.get_event(url, category, sub_driver, previous_titles)
+                    if parsed_events:
+                        for parsed_event in parsed_events:
+                            events_info.append(parsed_event)
+            if not events_info:
+                print("none in wellington")
+            sub_driver.close()
+            return events_info
+
+        title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
+        if title in previous_titles:
+            return []
+        previous_titles.add(title)
+        dates = TicketekScrapper.extract_date(driver)
+        image_url: str = driver.find_element(By.CLASS_NAME, "desktop-tablet-banner").get_attribute("src")
+        venue: str = driver.find_element(By.CLASS_NAME, "selectVenueBlock").text.split("\n")[1]
+        description: str = driver.find_element(By.CLASS_NAME, "info-details").text
+        print(f"title: {title}")
+        return [EventInfo(name=title,
+                                dates=dates,
+                                image="https://" + image_url,
+                                url=url,
+                                venue=venue,
+                                source="Ticketek",
+                                eventType=category,
+                                description=description)]
+
+    @staticmethod
+    def fetch_events(previous_titles: Set[str]) -> List[EventInfo]:
+        events_info: List[EventInfo] = []
+        driver = webdriver.Chrome()
+        driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
+        cats = driver.find_elements(By.CLASS_NAME, "cat-nav-item")
+        cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
         cats.append(("Other", "Other"))
-        titles = set()
+        event_urls: List[tuple[str, str]] = []
         for categoryName, categoryTag in cats:
-            print(f"categoryName: {categoryName}, categoryTag: {categoryTag}")
+            print(f"urls for categoryName: {categoryName}, categoryTag: {categoryTag}")
             page = 1
             while True:
-                for r in range(10):
-                    try:
-                        response = requests.get(
-                            f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
+                driver.get(f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
+                buttons = driver.find_elements(By.CLASS_NAME, "resultBuyNow")
+                content_events = driver.find_elements(By.CLASS_NAME, "contentEvent")
+                for button, content_event in zip(buttons, content_events):
+                    title = content_event.text.split("\n")[0]
+                    if title in previous_titles:
+                        continue
+                    previous_titles.add(title)
+                    event_urls.append((button.find_element(By.TAG_NAME, "a").get_attribute("href"), categoryName))
+                page += 1
+                try:
+                    if driver.find_element(By.CLASS_NAME, "noResultsMessage"):
                         break
-                    except:
-                        if r > 8:
-                            page += 1
-                if response.status_code == 200:
-                    soup = BeautifulSoup(response.content, 'html.parser')
-                    error = soup.find_all("p", class_="noResultsMessage")
-                    if error:
-                        break
-                    # Find all divs with class 'deal_title'
-                    events = soup.find_all('div', class_='resultContainer')
-                    # Loop through each div and extract the title
-                    for event in events:
-                        title = None
-                        date = None
-                        imageURL = None
-                        url = None
-                        venue = None
-                        titleTag = event.find('h6')
-                        if titleTag:
-                            title = re.sub('\W+', ' ', titleTag.text).strip()
-                        if title in titles:
-                            continue
-                        titles.add(title)
-                        dateTag = event.find_all('div', class_='contentResultSummary')
-                        if dateTag:
-                            text = dateTag[0].text.strip()
-                            textArray = text.split('\n')
-                            if len(textArray) >= 2:
-                                if re.search('\d+', textArray[1]):
-                                    date = re.sub('\W+', ' ', textArray[1])
-                                    venue = re.sub('\W+', ' ', textArray[0])
-                                else:
-                                    date = re.sub('\W+', ' ', textArray[0])
-                                    venue = re.sub('\W+', ' ', textArray[1])
-                                parts = date.strip().split(' ')
-                                parts1 = parts[0:6]
-                                parts2 = parts[6:]
-                                time1 = ":".join(parts1[-2:])
-                                time2 = ":".join(parts2[-2:])
-                                date = ' '.join(parts1[0:-2]) + ' ' + time1 + ' ' + ' '.join(parts2[0:-2]) + ' ' + time2
-                            else:
-                                date = "not listed"
-                                venue = "not listed"
-                        if date == None:
-                            dateTag = event.find_all('div', class_='contentDate')
-                            if dateTag:
-                                date = dateTag[0].text.strip()
-                            locationTag = event.find_all('div', class_='contentLocation')
-                            if locationTag:
-                                venue = locationTag[0].text.strip()
-                        imageDivs = event.find_all('div', class_='contentImage')
-                        if imageDivs:
-                            a_tag = event.find('a')
-                            imageTag = event.find('img')
-                            if imageTag:
-                                imageURL = imageTag.get('src')[2:]
-                            if a_tag:
-                                urlTag = a_tag.get('href')
-                                if urlTag:
-                                    url = f"https://premier.ticketek.co.nz{urlTag}"
-
-                        pattern = r"(\d{1,2}\s\w+\s\d{4})"
-                        dates = re.findall(pattern, date)
-                        times = re.findall(r"\d{1,2}[:]*\d{0,2}[amp]{2}", date)
-                        dateObjects = []
-                        if len(dates) > 1 or venue == "Nationwide" or not dates:
-                            events = TicketekScrapper.extractEvents(url, venue == "Nationwide", categoryName)
-                            eventsInfo += events
-                            continue
-                        if not times:
-                            times = ["1:01AM"]
-                        date = dates[0] + " " + times[0]
-                        date_obj = parser.parse(date)
-                        if date_obj not in dateObjects:
-                            dateObjects.append(date_obj)
-
-                        title = re.sub(r"([\t\n\r])", "", title).strip()
-                        venue = re.sub(r"([\t\n\r])", "", venue).strip()
-                        try:
-                            eventsInfo.append(EventInfo(name=title,
-                                                        dates=dateObjects,
-                                                        image="https://" + imageURL,
-                                                        url=url,
-                                                        venue=venue,
-                                                        source="Ticketek",
-                                                        eventType=categoryName))
-                        except Exception as e:
-                            print(f"tiket: {e}")
-                    tag = soup.find_all('div', class_='paginationResults')
-                    tag = re.sub('\W+', ' ', tag[0].text).strip().split(" of ")
-                    firstTag = tag[0].split(" ")[-1].strip()
-                    secondTag = tag[1].strip()
-                    if firstTag == secondTag:
-                        break
-                    page += 1
-                else:
-                    print(f"Failed to retrieve the page. Status code: {response.status_code}")
+                except:
+                    pass
+                pagination = driver.find_element(By.CLASS_NAME, "paginationResults").text.split("-")[1]
+                start, end = pagination.split(" of ")
+                if start == end:
                     break
+        with open("ticketekUrls.json", mode="w") as f:
+            json.dump(event_urls, f, indent=2)
+        out_file = open("ticketekEvents.json", mode="w")
+        out_file.write("[\n")
+        for part in event_urls:
+            print(f"category: {part[1]} url: {part[0]}")
+            try:
+                events = TicketekScrapper.get_event(part[0], part[1], driver, previous_titles)
+                for event in events:
+                    if event:
+                        events_info.append(event)
+                        json.dump(event.to_dict(), out_file, indent=2)
+                        out_file.write(",\n")
+            except Exception as e:
+                print(e)
+            print("-"*100)
+        out_file.write("]\n")
+        driver.close()
+        return events_info
 
-        return eventsInfo
 
-
-# events = list(map(lambda x: x.to_dict(), sorted(TicketekScrapper.fetch_events(), key=lambda k: k.name.strip())))
-# with open('wellys.json', 'w') as outfile:
-#     json.dump(events, outfile)
+# events = list(map(lambda x: x.to_dict(), sorted(TicketekScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
