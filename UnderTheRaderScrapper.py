@@ -21,13 +21,11 @@ class UnderTheRaderScrapper:
         time = "1:01AM"
         found_gig_start = False
         for text in info_texts:
-            if "Gig starts" in text:
+            if "GIG STARTS" in text:
                 found_gig_start = True
             elif found_gig_start:
                 time = text
                 break
-        print(time)
-        sleep(5000)
         date_string = header[2].split(",")[0]
         parts = date_string.split(" ")
         date = parser.parse(f"{parts[1]} {parts[2]} {time}")
@@ -48,28 +46,26 @@ class UnderTheRaderScrapper:
         events: List[EventInfo] = []
         event_urls: List[str] = []
         driver = webdriver.Chrome()
-        # driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
-        # while True:
-        #     try:
-        #         loadModeButton = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
-        #         loadModeButton.click()
-        #         sleep(1)
-        #     except:
-        #         break
-        # wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
-        # _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "vevent")))
-        # html = driver.find_elements(By.CLASS_NAME, 'vevent')
-        # for event in html:
-        #     title: WebElement = event.find_element(By.CLASS_NAME, 'gig-title')
-        #     if title.text in previousTitles:
-        #         continue
-        #     previousTitles.add(title.text)
-        #     url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
-        #     event_urls.append(url)
-        # with open("underTheRaderUrls.json", mode="w") as f:
-        #     json.dump(event_urls, f)
-        with open("underTheRaderUrls.json", mode="r") as f:
-            event_urls = json.loads(f.read())
+        driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
+        while True:
+            try:
+                loadModeButton = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
+                loadModeButton.click()
+                sleep(1)
+            except:
+                break
+        wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
+        _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "vevent")))
+        html = driver.find_elements(By.CLASS_NAME, 'vevent')
+        for event in html:
+            title: WebElement = event.find_element(By.CLASS_NAME, 'gig-title')
+            if title.text in previousTitles:
+                continue
+            previousTitles.add(title.text)
+            url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
+            event_urls.append(url)
+        with open("underTheRaderUrls.json", mode="w") as f:
+            json.dump(event_urls, f)
         out_file = open("underTheRaderEvents.json", mode="w")
         out_file.write("[\n")
         for url in event_urls:
@@ -84,6 +80,8 @@ class UnderTheRaderScrapper:
                 print(e)
             print("-"*100)
         driver.close()
+        out_file.write("]\n")
+        out_file.close()
         return events
 
 events = list(map(lambda x: x.to_dict(), sorted(UnderTheRaderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

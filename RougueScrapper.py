@@ -16,7 +16,7 @@ class RougueScrapper:
         time = "1:01AM"
         found_gig_start = False
         for text in info_texts:
-            if "Gig starts" in text:
+            if "GIG STARTS" in text:
                 found_gig_start = True
             elif found_gig_start:
                 time = text
