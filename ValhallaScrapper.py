@@ -98,4 +98,4 @@ class ValhallaScrapper:
         return ValhallaScrapper.slow_scroll_to_bottom(driver, titles, scroll_increment=1000)
 
 
-events = list(map(lambda x: x.to_dict(), sorted(ValhallaScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(ValhallaScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
