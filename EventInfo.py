@@ -68,11 +68,11 @@ class EventInfo:
             print(f"in: {og_dates}")
             print(f"out: {dates}")
             raise Exception(f"No dates found for: {name}")
-        self.displayDate = DateFormatting.formatDisplayDate(dates[0]) \
+        self.displayDate = DateFormatting.format_display_date(dates[0]) \
             if len(dates) == 1 \
-            else f"{DateFormatting.formatDisplayDate(dates[0])} + more"
+            else f"{DateFormatting.format_display_date(dates[0])} + more"
         self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
-        self.dates = list(map(lambda date: DateFormatting.formatDateStamp(date), dates))
+        self.dates = list(map(lambda date: DateFormatting.format_date_stamp(date), dates))
         self.url = url
         self.source = source
         self.eventType = CategoryMapping.map_category(event_type)

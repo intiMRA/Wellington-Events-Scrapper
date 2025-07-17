@@ -38,7 +38,7 @@ class WellingtonNZScrapper:
                 start_date = f"{start_day} {month_year} {hour}"
                 end_date = f"{end_day} {month_year} {hour}"
 
-            dates = DateFormatting.createRange(parser.parse(start_date), parser.parse(end_date))
+            dates = DateFormatting.create_range(parser.parse(start_date), parser.parse(end_date))
         else:
             dates.append(parser.parse(f"{date_string} {hour}"))
         return dates

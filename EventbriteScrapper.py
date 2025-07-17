@@ -36,7 +36,7 @@ class EventbriteScrapper:
                 if len(parts) > 3:
                     parts = parts[1:]
                     dateString = parts[0] + " " + parts[1] + " " + parts[2]
-                    dates.append(DateFormatting.replaceYear(parser.parse(dateString)))
+                    dates.append(DateFormatting.replace_year(parser.parse(dateString)))
             return dates
         except:
             try:

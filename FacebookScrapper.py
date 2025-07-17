@@ -71,7 +71,7 @@ class FacebookScrapper:
                 second_part = second_part.strip() + hour
                 start_date = parser.parse(first_part)
                 end_date = parser.parse(second_part)
-                dates = list(DateFormatting.createRange(start_date, end_date))
+                dates = list(DateFormatting.create_range(start_date, end_date))
                 return dates
             elif "," in date:
                 date_string = " ".join(date.split(",")[-1].strip().split(" ")[:2]) + hour
