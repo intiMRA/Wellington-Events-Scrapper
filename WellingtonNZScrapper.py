@@ -1,5 +1,9 @@
 from datetime import datetime
+from time import sleep
+
+from numpy.ma.core import count
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
@@ -8,120 +12,166 @@ import re
 from dateutil import parser
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from typing import List, Set
+from typing import List, Set, Optional
 import json
+
 
 class WellingtonNZScrapper:
     @staticmethod
-    def slow_scroll_to_bottom(driver, category: str, eventNames: Set[str]) -> List[EventInfo]:
-        events = {}
-        height = driver.execute_script("return document.body.scrollHeight")
-        scrolledAmount = 0
-        while True:
-            if scrolledAmount > height:
-                return list(events.values())
-            driver.execute_script(f"window.scrollBy(0, {400});")
-            scrolledAmount += 400
-            rawEvents = driver.find_elements(By.CLASS_NAME, 'grid-item')
-            for event in rawEvents:
-                title = event.find_element(By.TAG_NAME, 'h2').text
-                dateObjects = []
-                if not title:
-                    continue
-                if title in eventNames:
-                    continue
-                eventNames.add(title)
-                try:
-                    venue = event.find_element(By.CLASS_NAME, 'event-content__info').get_attribute('textContent')
-                except:
-                    venue = "not listed"
-                dateString = event.find_element(By.CLASS_NAME, 'event-content__date').text
-                if not dateString:
-                    continue
-                if re.match(r"\d+ – \d+", dateString):
-                    first, rest = dateString.split(" – ")
-                    if len(rest) > 2:
-                        rest = rest.split(" ")
-                        last = rest[0]
-                        months = " ".join(rest[1:])
-                        date1 = parser.parse(first + " " + months + " 1:01AM")
-                        date2 = parser.parse(last + " " + months + " 1:01AM")
-                        dateObjects = list(DateFormatting.createRange(date1, date2))
-                    else:
-                        splitDateString = dateString.split(" – ")
-                        date = datetime.strptime(splitDateString[-1], '%d %B %Y')
-                        dateObjects = [date]
-                elif re.match(r"(\d{1,2} [A-Za-z]+ \d{4})\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
+    def get_dates(date_string: str) -> List[datetime]:
+        dates = []
+        string_parts: List[str] = date_string.split(" – ")
+        hour = "1:01AM"
+        if len(string_parts) > 1:
+            if len(string_parts[0]) > 2:
+                start_day = string_parts[0]
+                month_parts = string_parts[1].split(" ")
+                end_day = month_parts[0]
+                month_year = " ".join(month_parts[1:])
+                start_date = f"{start_day} {hour}"
+                end_date = f"{end_day} {month_year} {hour}"
+            else:
+                start_day = string_parts[0]
+                month_parts = string_parts[1].split(" ")
+                end_day = month_parts[0]
+                month_year = " ".join(month_parts[1:])
+                start_date = f"{start_day} {month_year} {hour}"
+                end_date = f"{end_day} {month_year} {hour}"
 
-                    match = re.match(r"(\d{1,2} [A-Za-z]+ \d{4})\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString)
-                    startDateString = match.group(1)
-                    endDateString = match.group(2)
-
-                    startDate = parser.parse(startDateString + " 1:01AM")
-                    endDate = parser.parse(endDateString + " 1:01AM")
-
-                    dateObjects = list(DateFormatting.createRange(startDate, endDate))
-
-                elif re.findall(r"(\d{1,2} [A-Za-z]+)\s+–\s+(\d{1,2} [A-Za-z]+ \d{4})", dateString):
-                    parts = dateString.split(" – ")
-                    startDateString = re.findall(r"(\d{1,2} [A-Za-z]+)", parts[0])[0]
-                    endDateString = re.findall(r"(\d{1,2} [A-Za-z]+)", parts[-1])[-1]
-                    startDateString = startDateString + " 1:01AM"
-                    endDateString = endDateString + " 1:01AM"
-                    startDate = parser.parse(startDateString)
-                    endDate = parser.parse(endDateString)
-
-                    dateObjects = list(DateFormatting.createRange(startDate, endDate))
-                elif dateString:
-                    date = parser.parse(dateString + " 1:01AM")
-                    dateObjects = [date]
-                else:
-                    print(f"WellingtonNz failed to load: {event.text}")
-                if not dateObjects:
-                    print(dateString)
-                    print(f"WellingtonNz failed to load: {event.text}")
-                imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
-                eventUrl = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
-                try:
-                    eventInfo = EventInfo(name=title,
-                                          image=imageUrl,
-                                          venue=venue,
-                                          dates=dateObjects,
-                                          url=eventUrl,
-                                          source="Wellington NZ",
-                                          eventType=category)
-                    events[title] = eventInfo
-                except Exception as e:
-                    print(f"WellingtonNz: {e}")
-                    pass
+            dates = DateFormatting.createRange(parser.parse(start_date), parser.parse(end_date))
+        else:
+            dates.append(parser.parse(f"{date_string} {hour}"))
+        return dates
 
     @staticmethod
-    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
+    def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
+        driver.get(url)
+        sleep(1)
+        count = 0
+        while True:
+            try:
+                image_url: str = driver.find_element(By.XPATH,
+                                                     "//img[contains(@class, 'site-picture__img')]").get_attribute("src")
+                break
+            except:
+                if count >= 10:
+                    raise Exception(f"no image found {url}")
+                sleep(1)
+                count += 1
+        driver.execute_script(f"window.scrollBy(0, {500});")
+        sleep(1)
+        count = 0
+        while True:
+            try:
+                title: str = driver.find_element(By.XPATH, "//h1[contains(@class, 'image-header__title')]").text
+                break
+            except:
+                if count >= 10:
+                    raise Exception(f"no title found {url}")
+                driver.execute_script(f"window.scrollBy(0, {500});")
+                sleep(1)
+                count += 1
+        header_section: WebElement = driver.find_element(By.XPATH,
+                                                         "//section[contains(@class, 'image-header__details--layout-listing')]")
+        header_section_text = header_section.text
+        text_parts = header_section_text.split("\n")
+        date_string = ""
+        found_date_title = False
+        venue_string = ""
+        found_venue_title = False
+        for text_part in text_parts:
+            if "DATE" in text_part:
+                found_date_title = True
+            elif found_date_title and not date_string:
+                date_string = text_part
+            elif "VENUE" in text_part or "LOCATION" in text_parts:
+                found_venue_title = True
+            elif found_venue_title and not venue_string:
+                venue_string = text_part
+            else:
+                print(text_part)
+        if venue_string and "wellington" not in venue_string.lower():
+            venue_string += ", Wellington, New Zealand"
+        print(f"date string {date_string} venue string {venue_string}")
+        dates = WellingtonNZScrapper.get_dates(date_string)
+        description: str = driver.find_element(By.CLASS_NAME, "typography").text
+        return EventInfo(name=title,
+                         image=image_url,
+                         venue=venue_string,
+                         dates=dates,
+                         url=url,
+                         source="Wellington NZ",
+                         eventType=category,
+                         description=description)
+
+    @staticmethod
+    def slow_scroll_to_bottom(driver, category: str, event_names: Set[str], urls_file, out_file) -> List[EventInfo]:
+        events = []
+        height = driver.execute_script("return document.body.scrollHeight")
+        scrolled_amount = 0
+        event_urls: Set[tuple[str, str]] = set()
+        while True:
+            if scrolled_amount > height:
+                break
+            driver.execute_script(f"window.scrollBy(0, {400});")
+            scrolled_amount += 400
+            raw_events = driver.find_elements(By.CLASS_NAME, 'grid-item')
+            for event in raw_events:
+                title = event.find_element(By.TAG_NAME, 'h2').text
+                if not title:
+                    continue
+                if title in event_names:
+                    continue
+                event_names.add(title)
+                event_url = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
+                event_urls.add((event_url, category))
+        json.dump(list(event_urls), urls_file, indent=2)
+        for part in event_urls:
+            print(f"category: {part[1]} url: {part[0]}")
+            try:
+                event = WellingtonNZScrapper.get_event(part[0], part[1], driver)
+                if event:
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
+            except Exception as e:
+                print(e)
+            print("-" * 100)
+        return events
+
+    @staticmethod
+    def fetch_events(previous_titles: Set[str]) -> List[EventInfo]:
         driver = webdriver.Chrome()
+        urls_file = open("wellingtonNzUrls.json", mode="w")
+        out_file = open("wellingtonNzEvents.json", mode="w")
+        out_file.write("[\n")
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
         _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
         categories = driver.find_elements(By.CLASS_NAME, 'search-button-filter')
 
-        categories = [(cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]) for cat in categories]
-        numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
-        numberOfEvents = re.findall("\d+", numberOfEvents.text)
-        eventsInfo = []
-        eventNames = previousTitles
+        categories = [(cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]) for cat
+                      in categories]
+        number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
+        number_of_events = re.findall("\d+", number_of_events.text)
+        events_info = []
+        event_names = previous_titles
         for cat in categories:
             cat = cat[0]
             page = 1
-            while numberOfEvents[0] != numberOfEvents[1]:
+            while number_of_events[0] != number_of_events[1]:
                 driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}&categories={cat}')
                 _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
-                numberOfEvents = driver.find_element(By.CLASS_NAME, "pagination__position")
-                numberOfEvents = re.findall("\d+", numberOfEvents.text)
+                number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
+                number_of_events = re.findall("\d+", number_of_events.text)
                 page += 1
-            numberOfEvents = [0, 1]
-            eventsInfo += list(WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, eventNames))
+            number_of_events = [0, 1]
+            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, event_names, urls_file, out_file)
+        out_file.write("]\n")
+        out_file.close()
+        urls_file.close()
         driver.close()
-        return eventsInfo
-# events = list(map(lambda x: x.to_dict(), sorted(WellingtonNZScrapper.fetch_events(), key=lambda k: k.name.strip())))
-# with open('wellys.json', 'w') as outfile:
-#     json.dump(events, outfile)
+        return events_info
+
+
+# events = list(map(lambda x: x.to_dict(), sorted(WellingtonNZScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
