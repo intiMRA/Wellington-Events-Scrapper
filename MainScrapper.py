@@ -57,9 +57,9 @@ print("-"*200)
 
 print("fetching ticket master")
 print("-"*200)
-ticketMasterPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Ticket Master"]
-ticketMasterPrevious = [event for event in ticketMasterPrevious if event is not None]
-ticket_master_events: List[EventInfo] = TicketmasterScrapper.fetch_events(set([event.name for event in ticketMasterPrevious])) + ticketMasterPrevious
+ticket_master_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Ticket Master"]
+ticket_master_previous = [event for event in ticket_master_previous if event is not None]
+ticket_master_events: List[EventInfo] = TicketmasterScrapper.fetch_events(set([event.url for event in ticket_master_previous])) + ticket_master_previous
 print("-"*200)
 
 print("fetching under the radar")

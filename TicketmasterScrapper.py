@@ -14,8 +14,6 @@ from selenium.webdriver.common.by import By
 import time
 import pytz
 from typing import List, Optional
-from os import path
-import os
 
 nz_timezone = pytz.timezone('Pacific/Auckland')
 majorCats = {
@@ -242,7 +240,7 @@ class TicketmasterScrapper:
         return None
 
     @staticmethod
-    def fetch_events(previousTitles: set) -> List[EventInfo]:
+    def fetch_events(previous_urls: set) -> List[EventInfo]:
         class PossibleKeys(str, Enum):
             id = 'id'
             total = 'total'
@@ -290,14 +288,9 @@ class TicketmasterScrapper:
         }
 
         page = 0
-        titles = previousTitles
         count = 0
         # 1. First kill all Chrome processes
         subprocess.run(['pkill', '-f', 'Google Chrome'])
-
-        # 2. Use the exact path from your chrome://version
-        profile_path = "/Users/intialbuquerque/Library/Application Support/Google/Chrome"
-
         options = Options()
         options.add_argument("--profile-directory=Profile 2")  # Specify profile name only
 
@@ -321,27 +314,27 @@ class TicketmasterScrapper:
                     return events
 
                 cat = data["events"][0]["majorCategory"]["id"]
-                catergoryName = None
+                category_name = None
                 for m in majorCats.keys():
                     key, value = m, majorCats[m]
                     if cat in value:
-                        catergoryName = key
+                        category_name = key
                         break
-                if not catergoryName:
+                if not category_name:
                     for m in minorCats.keys():
                         key, value = m, minorCats[m]
                         if cat in value:
-                            catergoryName = key
+                            category_name = key
                             break
-                catergoryName = catergoryName if catergoryName else "Other"
+                category_name = category_name if category_name else "Other"
 
                 count += len(data[PossibleKeys.events])
                 for event in data[PossibleKeys.events]:
-                    title = event[PossibleKeys.title]
-                    if title in titles:
+                    event_url = event[PossibleKeys.url]
+                    if event_url in previous_urls:
                         continue
-                    titles.add(title)
-                    event_urls.append((event[PossibleKeys.url], catergoryName))
+                    previous_urls.add(event_url)
+                    event_urls.append((event_url, category_name))
                 if count >= data[PossibleKeys.total]:
                     break
                 page += 1
@@ -371,6 +364,5 @@ class TicketmasterScrapper:
         out_file.write("]\n")
         driver.close()
         return events
-
 
 # events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
