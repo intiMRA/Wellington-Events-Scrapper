@@ -6,6 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
+import ScrapperNames
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
@@ -182,7 +183,7 @@ class FacebookScrapper:
                                                       image=image_url,
                                                       url=event_url,
                                                       venue=venue,
-                                                      source="Facebook",
+                                                      source=ScrapperNames.FACEBOOK,
                                                       event_type=category)
                 except Exception as e:
                     if "No dates found for" in str(e):

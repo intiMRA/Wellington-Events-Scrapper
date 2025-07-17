@@ -1,5 +1,7 @@
 import json
 from datetime import datetime
+
+import ScrapperNames
 from EventInfo import EventInfo
 import re
 from dateutil import parser
@@ -53,7 +55,7 @@ class TicketekScrapper:
                           image="https://" + image_url,
                           url=url,
                           venue=venue,
-                          source="Ticketek",
+                          source=ScrapperNames.TICKETEK,
                           event_type=category,
                           description=description)]
 

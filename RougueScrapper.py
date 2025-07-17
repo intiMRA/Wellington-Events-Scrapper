@@ -1,6 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
+
+import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
 from typing import List, Set, Optional
@@ -31,7 +33,7 @@ class RougueScrapper:
                          image=image_url,
                          url=url,
                          venue=venue,
-                         source="Rogue & Vagabond",
+                         source=ScrapperNames.ROGUE_AND_VAGABOND,
                          event_type="Music",
                          description=description)
     @staticmethod

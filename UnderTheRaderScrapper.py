@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+
+import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
 from typing import List, Set, Optional
@@ -35,7 +37,7 @@ class UnderTheRaderScrapper:
                          image=image_url,
                          url=url,
                          venue=venue,
-                         source="Under The Radar",
+                         source=ScrapperNames.UNDER_THE_RADAR,
                          event_type="Music",
                          description=description)
 

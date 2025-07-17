@@ -2,6 +2,7 @@ from datetime import datetime
 
 from selenium.webdriver.remote.webelement import WebElement
 
+import ScrapperNames
 from DateFormatting import DateFormatting
 
 from selenium.webdriver.common.by import By
@@ -99,7 +100,7 @@ class EventbriteScrapper:
                          venue=venue,
                          dates=dates,
                          url=event_link,
-                         source="Event Brite",
+                         source=ScrapperNames.EVENT_BRITE,
                          event_type=category,
                          description=description)
 

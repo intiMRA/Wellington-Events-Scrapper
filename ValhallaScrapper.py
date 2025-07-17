@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
+import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
 from typing import List, Set, Optional
@@ -44,35 +45,33 @@ class ValhallaScrapper:
                          image=image_url,
                          url=url,
                          venue=venue,
-                         source="Valhalla",
+                         source=ScrapperNames.VALHALLA,
                          event_type="Music",
                          description=description)
 
     @staticmethod
     def slow_scroll_to_bottom(driver, titles: Set[str], scroll_increment=300) -> List[EventInfo]:
         events: List[EventInfo] = []
-        # height = driver.execute_script("return document.body.scrollHeight")
-        # scrolled_amount = 0
+        height = driver.execute_script("return document.body.scrollHeight")
+        scrolled_amount = 0
         event_urls: Set[tuple[str, str]] = set()
-        # while True:
-        #     if scrolled_amount > height:
-        #         break
-        #     driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
-        #
-        #     scrolled_amount += scroll_increment
-        #     html = driver.find_elements(By.CLASS_NAME, 'eventlist-event')
-        #     for event in html:
-        #         title_element: WebElement = event.find_element(By.CLASS_NAME, 'eventlist-title')
-        #         if not title_element.text or title_element.text in titles:
-        #             continue
-        #         titles.add(title_element.text)
-        #         url = title_element.find_element(By.TAG_NAME, "a").get_attribute("href")
-        #         image_url = event.find_element(By.TAG_NAME, "img").get_attribute("src")
-        #         event_urls.add((url, image_url))
-        # with open("valhallaUrls.json", mode="w") as f:
-        #     json.dump(list(event_urls), f)
-        with open("valhallaUrls.json", mode="r") as f:
-            event_urls = json.loads(f.read())
+        while True:
+            if scrolled_amount > height:
+                break
+            driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
+
+            scrolled_amount += scroll_increment
+            html = driver.find_elements(By.CLASS_NAME, 'eventlist-event')
+            for event in html:
+                title_element: WebElement = event.find_element(By.CLASS_NAME, 'eventlist-title')
+                if not title_element.text or title_element.text in titles:
+                    continue
+                titles.add(title_element.text)
+                url = title_element.find_element(By.TAG_NAME, "a").get_attribute("href")
+                image_url = event.find_element(By.TAG_NAME, "img").get_attribute("src")
+                event_urls.add((url, image_url))
+        with open("valhallaUrls.json", mode="w") as f:
+            json.dump(list(event_urls), f)
         out_file = open("valhallaEvents.json", mode="w")
         out_file.write("[\n")
         for part in event_urls:

@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
+import ScrapperNames
 from EventInfo import EventInfo
 import re
 from datetime import datetime
@@ -59,7 +60,7 @@ class WellingtonHighschoolScrapper:
                          venue="Wellington High School, 249 Taranaki Street, Te Aro, Wellington",
                          dates=dates,
                          url=url,
-                         source="Wellington High School",
+                         source=ScrapperNames.WELLINGTON_HIGH_SCHOOL,
                          event_type=category,
                          description=description)
 

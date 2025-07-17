@@ -5,6 +5,8 @@ from time import sleep
 
 import requests
 from selenium.webdriver.remote.webelement import WebElement
+
+import ScrapperNames
 from EventInfo import EventInfo
 from enum import Enum
 from dateutil import parser
@@ -204,7 +206,7 @@ class TicketmasterScrapper:
                              venue=venue,
                              dates=dates,
                              url=url,
-                             source="Ticket Master",
+                             source=ScrapperNames.TICKET_MASTER,
                              event_type=category,
                              description=description)
         elif "moshtix.co" in url:

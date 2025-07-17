@@ -30,7 +30,7 @@ print("-"*200)
 
 print("fetching facebook")
 print("-"*200)
-facebookPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Ticket Master"]
+facebookPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.FACEBOOK]
 facebookPrevious = [event for event in facebookPrevious if event is not None]
 facebook_events = FacebookScrapper.fetch_events()
 for e in facebookPrevious:
@@ -51,63 +51,63 @@ print("-"*200)
 
 print("fetching tiket")
 print("-"*200)
-ticketek_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Ticketek"]
+ticketek_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.TICKETEK]
 ticketek_previous = [event for event in ticketek_previous if event is not None]
 ticket_events: List[EventInfo] = TicketekScrapper.fetch_events(set([event.url for event in ticketek_previous])) + ticketek_previous
 print("-"*200)
 
 print("fetching ticket master")
 print("-"*200)
-ticket_master_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Ticket Master"]
+ticket_master_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.TICKET_MASTER]
 ticket_master_previous = [event for event in ticket_master_previous if event is not None]
 ticket_master_events: List[EventInfo] = TicketmasterScrapper.fetch_events(set([event.url for event in ticket_master_previous])) + ticket_master_previous
 print("-"*200)
 
 print("fetching under the radar")
 print("-"*200)
-utr_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Under The Radar"]
+utr_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.UNDER_THE_RADAR]
 utr_previous = [event for event in utr_previous if event is not None]
 under_the_radar_events: List[EventInfo] = UnderTheRaderScrapper.fetch_events(set([event.url for event in utr_previous])) + utr_previous
 print("-"*200)
 
 print("fetching valhalla")
 print("-"*200)
-valhallaPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Valhalla"]
+valhallaPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.VALHALLA]
 valhallaPrevious = [event for event in valhallaPrevious if event is not None]
 valhalla_events: List[EventInfo] = ValhallaScrapper.fetch_events(set([event.name for event in valhallaPrevious])) + valhallaPrevious
 print("-"*200)
 
 print("fetching event finder")
 print("-"*200)
-event_finder_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Event Finder"]
+event_finder_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.EVENT_FINDER]
 event_finder_previous = [event for event in event_finder_previous if event is not None]
 event_finder_event: List[EventInfo] = EventFinderScrapper.fetch_events(set([event.url for event in event_finder_previous])) + event_finder_previous
 print("-"*200)
 
 print("fetching rogue")
 print("-"*200)
-rogue_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Rogue & Vagabond"]
+rogue_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.ROGUE_AND_VAGABOND]
 rogue_previous = [event for event in rogue_previous if event is not None]
 rogue_events = RougueScrapper.fetch_events(set([event.url for event in rogue_previous])) + rogue_previous
 print("-"*200)
 
 print("fetching humanitix")
 print("-"*200)
-humanitix_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Humanitix"]
+humanitix_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.HUMANITIX]
 humanitix_previous = [event for event in humanitix_previous if event is not None]
 humanitix_events = HumanitixScrapper.fetch_events(set([event.url for event in humanitix_previous])) + humanitix_previous
 print("-"*200)
 
 print("fetching wellington High School")
 print("-"*200)
-wellingtonHighschoolPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Wellington High School"]
+wellingtonHighschoolPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.WELLINGTON_HIGH_SCHOOL]
 wellingtonHighschoolPrevious = [event for event in wellingtonHighschoolPrevious if event is not None]
 wellingtonHighschool_events = WellingtonHighschoolScrapper.fetch_events(set([event.name for event in wellingtonHighschoolPrevious])) + wellingtonHighschoolPrevious
 print("-"*200)
 
 print("fetching event brite")
 print("-"*200)
-event_brite_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Event Brite"]
+event_brite_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.EVENT_BRITE]
 event_brite_previous = [event for event in event_brite_previous if event is not None]
 eventbrite_events = EventbriteScrapper.fetch_events(set([event.url for event in event_brite_previous])) + event_brite_previous
 print("-"*200)

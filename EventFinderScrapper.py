@@ -1,6 +1,8 @@
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
+import ScrapperNames
 from EventInfo import EventInfo
 import re
 from datetime import datetime, timedelta
@@ -69,7 +71,7 @@ class EventFinderScrapper:
             image=image_url,
             url=url,
             venue=venue,
-            source="Event Finder",
+            source=ScrapperNames.EVENT_FINDER,
             event_type=category if category else "Other",
             description=description)
 

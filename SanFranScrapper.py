@@ -1,6 +1,8 @@
 from time import sleep
 
 import requests
+
+import ScrapperNames
 from EventInfo import EventInfo
 import re
 from dateutil import parser
@@ -49,7 +51,7 @@ class SanFranScrapper:
                                       venue="San Fran, Wellington",
                                       dates=[date],
                                       url=event_url,
-                                      source="San Fran",
+                                      source=ScrapperNames.SAN_FRAN,
                                       event_type="Music",
                                       description=event["description"])
                     events.append(event)

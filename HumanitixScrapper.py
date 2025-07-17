@@ -1,6 +1,8 @@
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
+import ScrapperNames
 from EventInfo import EventInfo
 import re
 from datetime import datetime
@@ -82,7 +84,7 @@ class HumanitixScrapper:
                          venue=venue,
                          dates=dates,
                          url=url,
-                         source="Humanitix",
+                         source=ScrapperNames.HUMANITIX,
                          event_type=category,
                          description=description)
 
