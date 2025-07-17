@@ -50,7 +50,9 @@ print("-"*200)
 
 print("fetching tiket")
 print("-"*200)
-ticket_events: List[EventInfo] = TicketekScrapper.fetch_events()
+ticketek_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Ticketek"]
+ticketek_previous = [event for event in ticketek_previous if event is not None]
+ticket_events: List[EventInfo] = TicketekScrapper.fetch_events(set([event.url for event in ticketek_previous])) + ticketek_previous
 print("-"*200)
 
 print("fetching ticket master")
