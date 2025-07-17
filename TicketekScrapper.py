@@ -18,7 +18,7 @@ class TicketekScrapper:
         return dates
 
     @staticmethod
-    def get_event(url: str, category:str, driver: webdriver, previous_titles: Set[str]) -> Optional[List[EventInfo]]:
+    def get_event(url: str, category:str, driver: webdriver, previous_urls: Set[str]) -> Optional[List[EventInfo]]:
         driver.get(url)
         sub_events = driver.find_elements(By.CLASS_NAME, "event-item")
         if sub_events:
@@ -30,7 +30,7 @@ class TicketekScrapper:
                 if "wellington" in venue_text.lower():
                     url: str = event.find_element(By.CLASS_NAME, "event-buttons").find_element(By.TAG_NAME, "a").get_attribute("href")
                     print(f"sub event url: {url}")
-                    parsed_events = TicketekScrapper.get_event(url, category, sub_driver, previous_titles)
+                    parsed_events = TicketekScrapper.get_event(url, category, sub_driver, previous_urls)
                     if parsed_events:
                         for parsed_event in parsed_events:
                             events_info.append(parsed_event)
@@ -40,9 +40,9 @@ class TicketekScrapper:
             return events_info
 
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
-        if title in previous_titles:
-            return []
-        previous_titles.add(title)
+        if url in previous_urls:
+            return None
+        previous_urls.add(url)
         dates = TicketekScrapper.extract_date(driver)
         image_url: str = driver.find_element(By.CLASS_NAME, "desktop-tablet-banner").get_attribute("src")
         venue: str = driver.find_element(By.CLASS_NAME, "selectVenueBlock").text.split("\n")[1]
@@ -58,7 +58,7 @@ class TicketekScrapper:
                           description=description)]
 
     @staticmethod
-    def fetch_events(previous_titles: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         events_info: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
@@ -74,11 +74,11 @@ class TicketekScrapper:
                 buttons = driver.find_elements(By.CLASS_NAME, "resultBuyNow")
                 content_events = driver.find_elements(By.CLASS_NAME, "contentEvent")
                 for button, content_event in zip(buttons, content_events):
-                    title = content_event.text.split("\n")[0]
-                    if title in previous_titles:
+                    event_url = button.find_element(By.TAG_NAME, "a").get_attribute("href")
+                    if event_url in previous_urls:
                         continue
-                    previous_titles.add(title)
-                    event_urls.append((button.find_element(By.TAG_NAME, "a").get_attribute("href"), categoryName))
+                    previous_urls.add(event_url)
+                    event_urls.append((event_url, categoryName))
                 page += 1
                 try:
                     if driver.find_element(By.CLASS_NAME, "noResultsMessage"):
@@ -96,7 +96,7 @@ class TicketekScrapper:
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
-                events = TicketekScrapper.get_event(part[0], part[1], driver, previous_titles)
+                events = TicketekScrapper.get_event(part[0], part[1], driver, previous_urls)
                 for event in events:
                     if event:
                         events_info.append(event)
