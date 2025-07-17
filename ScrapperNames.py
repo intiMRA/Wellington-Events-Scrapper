@@ -1,0 +1,1 @@
+WELLINGTON_NZ = "Wellington NZ"

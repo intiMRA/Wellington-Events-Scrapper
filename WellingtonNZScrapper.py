@@ -1,17 +1,17 @@
 from datetime import datetime
 from time import sleep
 
-from numpy.ma.core import count
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
+import ScrapperNames
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 from selenium import webdriver
 import re
 from dateutil import parser
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from typing import List, Set, Optional
 import json
 
@@ -100,12 +100,12 @@ class WellingtonNZScrapper:
                          venue=venue_string,
                          dates=dates,
                          url=url,
-                         source="Wellington NZ",
+                         source=ScrapperNames.WELLINGTON_NZ,
                          event_type=category,
                          description=description)
 
     @staticmethod
-    def slow_scroll_to_bottom(driver, category: str, event_names: Set[str], urls_file, out_file) -> List[EventInfo]:
+    def slow_scroll_to_bottom(driver, category: str, previous_urls: Set[str], urls_file, out_file) -> List[EventInfo]:
         events = []
         height = driver.execute_script("return document.body.scrollHeight")
         scrolled_amount = 0
@@ -117,13 +117,10 @@ class WellingtonNZScrapper:
             scrolled_amount += 400
             raw_events = driver.find_elements(By.CLASS_NAME, 'grid-item')
             for event in raw_events:
-                title = event.find_element(By.TAG_NAME, 'h2').text
-                if not title:
-                    continue
-                if title in event_names:
-                    continue
-                event_names.add(title)
                 event_url = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
+                if event_url in previous_urls:
+                    continue
+                previous_urls.add(event_url)
                 event_urls.add((event_url, category))
         json.dump(list(event_urls), urls_file, indent=2)
         for part in event_urls:
@@ -139,7 +136,7 @@ class WellingtonNZScrapper:
         return events
 
     @staticmethod
-    def fetch_events(previous_titles: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         driver = webdriver.Chrome()
         urls_file = open("wellingtonNzUrls.json", mode="w")
         out_file = open("wellingtonNzEvents.json", mode="w")
@@ -147,7 +144,7 @@ class WellingtonNZScrapper:
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
-        _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
+        _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
         categories = driver.find_elements(By.CLASS_NAME, 'search-button-filter')
 
         categories = [(cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]) for cat
@@ -155,23 +152,21 @@ class WellingtonNZScrapper:
         number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
         number_of_events = re.findall("\d+", number_of_events.text)
         events_info = []
-        event_names = previous_titles
         for cat in categories:
             cat = cat[0]
             page = 1
             while number_of_events[0] != number_of_events[1]:
                 driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}&categories={cat}')
-                _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
+                _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
                 number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
                 number_of_events = re.findall("\d+", number_of_events.text)
                 page += 1
             number_of_events = [0, 1]
-            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, event_names, urls_file, out_file)
+            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file, out_file)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()
         driver.close()
         return events_info
-
 
 # events = list(map(lambda x: x.to_dict(), sorted(WellingtonNZScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

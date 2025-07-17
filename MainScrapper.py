@@ -1,3 +1,4 @@
+import ScrapperNames
 from EventInfo import EventInfo
 from SanFranScrapper import SanFranScrapper
 from TicketekScrapper import TicketekScrapper
@@ -22,9 +23,9 @@ with open("events.json", mode="r") as f:
 
 print("fetching wellington NZ")
 print("-"*200)
-wellingtonNZPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Wellington NZ"]
-wellingtonNZPrevious = [event for event in wellingtonNZPrevious if event is not None]
-wellyNZ_events = WellingtonNZScrapper.fetch_events(set([event.name for event in wellingtonNZPrevious])) + wellingtonNZPrevious
+wellington_nz_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == ScrapperNames.WELLINGTON_NZ]
+wellington_nz_previous = [event for event in wellington_nz_previous if event is not None]
+wellyNZ_events = WellingtonNZScrapper.fetch_events(set([event.url for event in wellington_nz_previous])) + wellington_nz_previous
 print("-"*200)
 
 print("fetching facebook")
