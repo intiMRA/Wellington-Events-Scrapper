@@ -106,7 +106,7 @@ class EventbriteScrapper:
                          description=description)
 
     @staticmethod
-    def get_events(driver: webdriver, previous_urls: Set[str], category: str) -> List[EventInfo]:
+    def get_events(driver: webdriver, previous_urls: Set[str], category: str, out_file, urls_file) -> List[EventInfo]:
         current_page = 1
         events = []
         event_urls: Set[str] = set()
@@ -153,9 +153,7 @@ class EventbriteScrapper:
                 if event_url in previous_urls or event_url in event_urls:
                     continue
                 event_urls.add(event_url)
-        with open(FileNames.EVENTBRITE_URLS, mode="a") as f:
-            json.dump(event_urls, f)
-        out_file = open(FileNames.EVENTBRITE_EVENTS, mode="a")
+            json.dump(event_urls, urls_file)
         for url in event_urls:
             print(f"category: {category} url: {url}")
             try:
@@ -180,6 +178,9 @@ class EventbriteScrapper:
         driver = webdriver.Chrome()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')
         cats = EventbriteScrapper.get_categories(driver)
+        out_file = open(FileNames.EVENTBRITE_EVENTS, mode="w")
+        urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
+        out_file.write("[\n")
         for cat in cats:
             cat_name, link = cat
             print("fetching: ", cat_name)
@@ -192,8 +193,11 @@ class EventbriteScrapper:
                        + f"/?page=1&start_date={start_date.year}-{start_date.month}-{start_date.day}"
                          f"&end_date={end_date.year}-{end_date.month}-{end_date.day}")
             driver.get(new_url)
-            events += EventbriteScrapper.get_events(driver, previous_urls, cat_name)
+            events += EventbriteScrapper.get_events(driver, previous_urls, cat_name, out_file, urls_file)
         driver.close()
+        out_file.write("]\n")
+        out_file.close()
+        urls_file.close()
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.test(), key=lambda k: k.name.strip())))

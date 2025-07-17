@@ -205,6 +205,7 @@ class EventFinderScrapper:
     def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         out_file = open(FileNames.EVENT_FINDER_EVENTS, mode="w")
         urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
+        out_file.write("[\n")
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
         print("getting wellington region")
