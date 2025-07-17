@@ -202,7 +202,7 @@ class EventFinderScrapper:
         return events, previous_urls
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file = open(FileNames.EVENT_FINDER_EVENTS, mode="w")
         urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
         out_file.write("[\n")

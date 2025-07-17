@@ -51,11 +51,13 @@ class UnderTheRaderScrapper:
                          description=description)
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
-        events: List[EventInfo] = []
+    def get_urls(driver, previous_urls, from_file: bool) -> List[str]:
         event_urls: List[str] = []
-        driver = webdriver.Chrome()
-        driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
+        if from_file:
+            with open(FileNames.UNDER_THE_RADAR_URLS, mode="r") as f:
+                event_urls = json.loads(f.read())
+            return event_urls
+
         while True:
             try:
                 load_mode_button = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
@@ -73,7 +75,16 @@ class UnderTheRaderScrapper:
                 continue
             event_urls.append(url)
         with open(FileNames.UNDER_THE_RADAR_URLS, mode="w") as f:
-            json.dump(event_urls, f)
+            json.dump(event_urls, f, indent=2)
+        return event_urls
+
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        events: List[EventInfo] = []
+        event_urls: List[str] = []
+        driver = webdriver.Chrome()
+        driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
+        UnderTheRaderScrapper.get_urls(driver, previous_urls, False)
         out_file = open(FileNames.UNDER_THE_RADAR_EVENTS, mode="w")
         out_file.write("[\n")
         for url in event_urls:
@@ -82,7 +93,7 @@ class UnderTheRaderScrapper:
                 event = UnderTheRaderScrapper.get_event(url, driver)
                 if event:
                     events.append(event)
-                    json.dump(event.to_dict(), out_file)
+                    json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):

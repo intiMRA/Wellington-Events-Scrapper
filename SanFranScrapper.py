@@ -7,13 +7,13 @@ import ScrapperNames
 from EventInfo import EventInfo
 import re
 from dateutil import parser
-from typing import List, Set
+from typing import List, Set, Optional
 import json
 
 class SanFranScrapper:
     # noinspection PyBroadException
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         events: List[EventInfo] = []
         page = 1
         out_file = open(FileNames.SAN_FRAN_EVENTS, mode="w")

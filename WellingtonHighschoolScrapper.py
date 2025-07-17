@@ -111,7 +111,7 @@ class WellingtonHighschoolScrapper:
         return categories
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         categories = WellingtonHighschoolScrapper.get_categories()
         driver = webdriver.Chrome()
         events = []

@@ -1,5 +1,5 @@
 import json
-from typing import Any, List, Set
+from typing import Any, List, Set, Optional
 
 from EventFinderScrapper import EventFinderScrapper
 from EventbriteScrapper import EventbriteScrapper
@@ -20,6 +20,7 @@ import ScrapperNames
 with open(FileNames.EVENTS, mode="r") as f:
     evts = json.loads(f.read())
     previous_event_titles = evts["events"]
+
 
 def get_event_scrapper(scrapper_name: str) -> Any:
     if scrapper_name == ScrapperNames.WELLINGTON_NZ:
@@ -48,8 +49,10 @@ def get_event_scrapper(scrapper_name: str) -> Any:
         return EventbriteScrapper
     raise Exception(f"No scrapper found for {scrapper_name}")
 
-def get_previous_events(scrapper_name: str) -> tuple[List[EventInfo], Set[str]]:
+
+def get_previous_events(scrapper_name: str) -> tuple[List[EventInfo], Set[str], Optional[Set[str]]]:
     previous_scrapper_events = [EventInfo.from_dict(event) for event in previous_event_titles if
-                              event["source"] == scrapper_name]
+                                event["source"] == scrapper_name]
     previous_scrapper_events = [event for event in previous_scrapper_events if event is not None]
-    return previous_scrapper_events, set([event.url for event in previous_scrapper_events])
+    return previous_scrapper_events, set([event.url for event in previous_scrapper_events]), set(
+        [event.name for event in previous_scrapper_events])

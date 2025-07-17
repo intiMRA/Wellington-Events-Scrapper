@@ -16,7 +16,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
 import pytz
-from typing import List, Optional
+from typing import List, Optional, Set
 
 nz_timezone = pytz.timezone('Pacific/Auckland')
 majorCats = {
@@ -241,9 +241,14 @@ class TicketmasterScrapper:
                              event_type=category,
                              description=description)
         return None
-
     @staticmethod
-    def fetch_events(previous_urls: set) -> List[EventInfo]:
+    def get_urls(previous_urls: set, previous_titles: set, from_file: bool) ->List[tuple[str, str]]:
+        event_urls: List[tuple[str, str]] = []
+        if from_file:
+            with open(FileNames.TICKET_MASTER_URLS, mode="r") as f:
+                event_urls = json.loads(f.read())
+            return event_urls
+
         class PossibleKeys(str, Enum):
             id = 'id'
             total = 'total'
@@ -276,7 +281,6 @@ class TicketmasterScrapper:
             events = 'events'
             city = 'city'
 
-        events: List[EventInfo] = []
         headers = {
             "accept": "*/*",
             "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
@@ -292,29 +296,17 @@ class TicketmasterScrapper:
 
         page = 0
         count = 0
-        # 1. First kill all Chrome processes
-        subprocess.run(['pkill', '-f', 'Google Chrome'])
-        options = Options()
-        options.add_argument("--profile-directory=Profile 2")  # Specify profile name only
 
-        # For Apple Silicon Macs
-        options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-
-        driver = webdriver.Chrome(options=options)
-
-        event_urls: List[tuple[str, str]] = []
         while True:
             print(f"fetching page {page}")
             api_url = f'https://www.ticketmaster.co.nz/api/search/events?q=wellington&region=750&sort=date&page={page}'
             r = requests.get(url=api_url, headers=headers)
             if r.status_code != 200:
-                driver.close()
-                return events
+                return []
             try:
                 data = r.json()
                 if not data[PossibleKeys.events]:
-                    driver.close()
-                    return events
+                    return []
 
                 cat = data["events"][0]["majorCategory"]["id"]
                 category_name = None
@@ -334,8 +326,10 @@ class TicketmasterScrapper:
                 count += len(data[PossibleKeys.events])
                 for event in data[PossibleKeys.events]:
                     event_url = event[PossibleKeys.url]
-                    if event_url in previous_urls:
+                    title = event[PossibleKeys.title]
+                    if event_url in previous_urls or  title in previous_titles:
                         continue
+                    previous_titles.add(title)
                     previous_urls.add(event_url)
                     event_urls.append((event_url, category_name))
                 if count >= data[PossibleKeys.total]:
@@ -347,6 +341,23 @@ class TicketmasterScrapper:
                 count += 1
         with open(FileNames.TICKET_MASTER_URLS, mode="w") as f:
             json.dump(event_urls, f, indent=2)
+        return event_urls
+
+
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        events: List[EventInfo] = []
+
+        subprocess.run(['pkill', '-f', 'Google Chrome'])
+        options = Options()
+        options.add_argument("--profile-directory=Profile 2")  # Specify profile name only
+
+        # For Apple Silicon Macs
+        options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+        driver = webdriver.Chrome(options=options)
+        event_urls = TicketmasterScrapper.get_urls(previous_urls, previous_titles, False)
+
         out_file = open(FileNames.TICKET_MASTER_EVENTS, mode="w")
         out_file.write("[\n")
         for part in event_urls:

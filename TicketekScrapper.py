@@ -61,7 +61,7 @@ class TicketekScrapper:
                           description=description)]
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         events_info: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
@@ -100,6 +100,8 @@ class TicketekScrapper:
             print(f"category: {part[1]} url: {part[0]}")
             try:
                 events = TicketekScrapper.get_event(part[0], part[1], driver, previous_urls)
+                if not events:
+                    continue
                 for event in events:
                     if event:
                         events_info.append(event)

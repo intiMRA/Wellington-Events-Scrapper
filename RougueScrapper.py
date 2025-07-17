@@ -38,7 +38,7 @@ class RougueScrapper:
                          event_type="Music",
                          description=description)
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         events_info: List[EventInfo] = []
         driver = webdriver.Chrome()
         event_urls: List[str] = []

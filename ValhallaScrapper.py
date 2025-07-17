@@ -99,7 +99,7 @@ class ValhallaScrapper:
         return events
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         driver = webdriver.Chrome()
         driver.get("https://www.valhallatavern.com/events-1")
         return ValhallaScrapper.slow_scroll_to_bottom(driver, previous_urls, scroll_increment=1000)

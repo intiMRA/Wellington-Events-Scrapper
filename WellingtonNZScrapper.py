@@ -146,7 +146,7 @@ class WellingtonNZScrapper:
         return events
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         driver = webdriver.Chrome()
         urls_file = open(FileNames.WELLINGTON_NZ_URLS, mode="w")
         out_file = open(FileNames.WELLINGTON_NZ_EVENTS, mode="w")

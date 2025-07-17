@@ -173,7 +173,7 @@ class EventbriteScrapper:
         return events
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         events = []
         driver = webdriver.Chrome()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')

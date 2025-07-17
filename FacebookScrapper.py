@@ -199,7 +199,7 @@ class FacebookScrapper:
             old_event_titles = new_event_titles.copy()
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         # Path to your Chrome profile directory
         profile_path = "~/ChromeTestProfile"  # Replace with your actual path
         # Set Chrome options

@@ -90,7 +90,7 @@ class HumanitixScrapper:
                          description=description)
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         events: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')

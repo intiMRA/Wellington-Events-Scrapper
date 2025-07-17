@@ -32,6 +32,9 @@ def write_to_events_file(data: List[EventInfo]):
         "sources": sorted(list(sources)),
         "eventTypes": event_types,
     }
+    with open(FileNames.EVENTS, "r") as f:
+        with open(FileNames.EVENTS, "r") as copy:
+            copy.write(f.read())
     with open(FileNames.EVENTS, "w") as write:
         write.write('{ "events":')
         json.dump(data, write, indent=2)

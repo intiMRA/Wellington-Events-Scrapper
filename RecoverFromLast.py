@@ -19,15 +19,15 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
         print(f"fetching {scrapper_name}...")
         print("-" * 100)
         scrapper = ScrapperFactory.get_event_scrapper(scrapper_name)
-        previous_list, previous_urls = ScrapperFactory.get_previous_events(scrapper_name)
-        scrapper_events = (scrapper.fetch_events(previous_urls) + previous_list)
+        previous_list, previous_urls, previous_titles = ScrapperFactory.get_previous_events(scrapper_name)
+        scrapper_events = (scrapper.fetch_events(previous_urls, previous_titles) + previous_list)
         for event in scrapper_events:
             loaded_urls.add(event.url)
         data += scrapper_events
         print(f"fetched: {len(data)} events")
         print("-" * 200)
     else:
-        previous_list, previous_urls = ScrapperFactory.get_previous_events(scrapper_name)
+        previous_list, _, _ = ScrapperFactory.get_previous_events(scrapper_name)
         for event in previous_list:
             loaded_urls.add(event.url)
         data += previous_list
