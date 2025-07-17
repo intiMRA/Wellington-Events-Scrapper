@@ -34,7 +34,8 @@ class EventInfo:
             source: str,
             event_type: str,
             description: str = "",
-            coordinates: Optional[dict[str, str]] = None):
+            coordinates: Optional[dict[str, str]] = None,
+            loaded_from_dict: bool = False):
         """
         @type name: str
         @param name: The name of the event.
@@ -71,16 +72,17 @@ class EventInfo:
         self.displayDate = DateFormatting.format_display_date(dates[0]) \
             if len(dates) == 1 \
             else f"{DateFormatting.format_display_date(dates[0])} + more"
-        self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
+        if coordinates:
+            print(coordinates)
+        if loaded_from_dict:
+            self.coordinates = None
+        else:
+            self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
         self.dates = list(map(lambda date: DateFormatting.format_date_stamp(date), dates))
         self.url = url
         self.source = source
         self.eventType = CategoryMapping.map_category(event_type)
-        # with open("potentialWrongs.txt", mode="a") as f:
-        #     if re.findall(r"\d", name):
-        #         f.write(f"name: {name}, url: {url}\n")
-        #     if re.findall(r"\d", venue):
-        #         f.write(f"venue: {venue}, url: {url}\n")
+
 
     def to_dict(self):
         """Convert the EventInfo object to a dictionary."""
@@ -111,7 +113,8 @@ class EventInfo:
                 source=data["source"],
                 event_type=data["eventType"],
                 coordinates=data["coordinates"],
-                description=data["description"]
+                description=data["description"],
+                loaded_from_dict=True
             )
         except:
             return None

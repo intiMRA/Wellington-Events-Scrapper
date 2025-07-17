@@ -6,6 +6,7 @@ from time import sleep
 import requests
 from selenium.webdriver.remote.webelement import WebElement
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 from enum import Enum
@@ -344,11 +345,9 @@ class TicketmasterScrapper:
                 print("ticket master error")
                 print(e)
                 count += 1
-        with open("ticketMasterUrls.json", mode="w") as f:
+        with open(FileNames.TICKET_MASTER_URLS, mode="w") as f:
             json.dump(event_urls, f, indent=2)
-        # with open("ticketMasterUrls.json", mode="r") as f:
-        #     event_urls = json.loads(f.read())
-        out_file = open("tickedMasterEvents.json", mode="w")
+        out_file = open(FileNames.TICKET_MASTER_EVENTS, mode="w")
         out_file.write("[\n")
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")

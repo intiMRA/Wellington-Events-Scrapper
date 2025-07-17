@@ -5,7 +5,6 @@ import pytz
 
 nz_tz = pytz.timezone("Pacific/Auckland")
 
-
 class DateFormatting:
     @staticmethod
     def format_display_date(date: datetime) -> str:

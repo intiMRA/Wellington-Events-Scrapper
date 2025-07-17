@@ -2,6 +2,7 @@ from time import sleep
 
 import requests
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -15,7 +16,7 @@ class SanFranScrapper:
     def fetch_events() -> List[EventInfo]:
         events: List[EventInfo] = []
         page = 1
-        out_file = open("sanFranEvents.json", mode="w")
+        out_file = open(FileNames.SAN_FRAN_EVENTS, mode="w")
         out_file.write("[\n")
         while True:
             headers = {

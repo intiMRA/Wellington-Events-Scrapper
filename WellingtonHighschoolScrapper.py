@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -80,7 +81,6 @@ class WellingtonHighschoolScrapper:
             event_url = element.find_element(By.TAG_NAME, "a").get_attribute("href")
             event_urls.add(event_url)
         json.dump(list(event_urls), urls_file, indent=2)
-        out_file.write("[\n")
         for event_url in event_urls:
             print(f"category: {category} url: {event_url}")
             try:
@@ -113,13 +113,17 @@ class WellingtonHighschoolScrapper:
         categories = WellingtonHighschoolScrapper.get_categories()
         driver = webdriver.Chrome()
         events = []
-        out_file = open("wellingtonHighSchoolEvents.json", mode="w")
-        urls_file = open("wellingtonHighSchoolUrls.json", mode="w")
+        out_file = open(FileNames.WELLINGTON_HIGH_SCHOOL_EVENTS, mode="w")
+        urls_file = open(FileNames.WELLINGTON_HIGH_SCHOOL_URLS, mode="w")
+        out_file.write("[\n")
         for category in categories:
             category_name, url = category
             events += WellingtonHighschoolScrapper.get_events(url, titles, category_name, driver, urls_file, out_file)
+        out_file.write("]\n")
+        out_file.close()
+        urls_file.close()
         driver.close()
         return events
 
 
-# events = list(map(lambda x: x.to_dict(), sorted(WellingtonHighschoolScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(WelxlingtonHighschoolScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

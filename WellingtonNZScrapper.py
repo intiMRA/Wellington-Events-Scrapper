@@ -4,6 +4,7 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
+import FileNames
 import ScrapperNames
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
@@ -138,8 +139,8 @@ class WellingtonNZScrapper:
     @staticmethod
     def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         driver = webdriver.Chrome()
-        urls_file = open("wellingtonNzUrls.json", mode="w")
-        out_file = open("wellingtonNzEvents.json", mode="w")
+        urls_file = open(FileNames.WELLINGTON_NZ_URLS, mode="w")
+        out_file = open(FileNames.WELLINGTON_NZ_EVENTS, mode="w")
         out_file.write("[\n")
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)

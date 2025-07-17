@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -91,9 +92,9 @@ class TicketekScrapper:
                 start, end = pagination.split(" of ")
                 if start == end:
                     break
-        with open("ticketekUrls.json", mode="w") as f:
+        with open(FileNames.TICKETEK_URLS, mode="w") as f:
             json.dump(event_urls, f, indent=2)
-        out_file = open("ticketekEvents.json", mode="w")
+        out_file = open(FileNames.TICKETEK_EVENTS, mode="w")
         out_file.write("[\n")
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")

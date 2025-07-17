@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
@@ -49,9 +50,9 @@ class RougueScrapper:
             if event_url in previous_urls or event_url in event_urls:
                 continue
             event_urls.append(event_url)
-        with open("rougeUrls.json", mode="w") as f:
+        with open(FileNames.ROGUE_URLS, mode="w") as f:
             json.dump(event_urls, f)
-        out_file = open("rougeEvents.json", mode="w")
+        out_file = open(FileNames.ROGUE_EVENTS, mode="w")
         out_file.write("[\n")
         for url in event_urls:
             print(f"url: {url}")

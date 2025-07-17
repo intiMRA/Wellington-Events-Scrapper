@@ -6,6 +6,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
@@ -63,9 +64,9 @@ class UnderTheRaderScrapper:
             if url in previous_urls or url in event_urls:
                 continue
             event_urls.append(url)
-        with open("underTheRaderUrls.json", mode="w") as f:
+        with open(FileNames.UNDER_THE_RADAR_URLS, mode="w") as f:
             json.dump(event_urls, f)
-        out_file = open("underTheRaderEvents.json", mode="w")
+        out_file = open(FileNames.UNDER_THE_RADAR_EVENTS, mode="w")
         out_file.write("[\n")
         for url in event_urls:
             print(f"url: {url}")

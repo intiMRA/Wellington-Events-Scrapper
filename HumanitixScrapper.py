@@ -2,6 +2,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -129,10 +130,10 @@ class HumanitixScrapper:
                             break
                     event_urls.append((event_url, categoryName, multiple_dates))
                 page += 1
-        with open("humanitixUrls.json", mode="w") as f:
+        with open(FileNames.HUMANITIX_URLS, mode="w") as f:
             json.dump(event_urls, f, indent=2)
 
-        out_file = open('humanitixEvents.json', 'w')
+        out_file = open(FileNames.HUMANITIX_EVENTS, 'w')
         out_file.write("[\n")
         for part in event_urls:
             print(f"category: {part[0]} url: {part[1]}")

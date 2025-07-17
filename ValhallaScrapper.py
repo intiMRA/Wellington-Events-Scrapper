@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
@@ -70,9 +71,9 @@ class ValhallaScrapper:
                 url = title_element.find_element(By.TAG_NAME, "a").get_attribute("href")
                 image_url = event.find_element(By.TAG_NAME, "img").get_attribute("src")
                 event_urls.add((url, image_url))
-        with open("valhallaUrls.json", mode="w") as f:
+        with open(FileNames.VALHALLA_URLS, mode="w") as f:
             json.dump(list(event_urls), f)
-        out_file = open("valhallaEvents.json", mode="w")
+        out_file = open(FileNames.VALHALLA_EVENTS, mode="w")
         out_file.write("[\n")
         for part in event_urls:
             print(f"url: {part[0]}")

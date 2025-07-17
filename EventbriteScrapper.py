@@ -2,6 +2,7 @@ from datetime import datetime
 
 from selenium.webdriver.remote.webelement import WebElement
 
+import FileNames
 import ScrapperNames
 from DateFormatting import DateFormatting
 
@@ -152,9 +153,9 @@ class EventbriteScrapper:
                 if event_url in previous_urls or event_url in event_urls:
                     continue
                 event_urls.add(event_url)
-        with open("eventFinderUrls.json", mode="a") as f:
+        with open(FileNames.EVENTBRITE_URLS, mode="a") as f:
             json.dump(event_urls, f)
-        out_file = open("eventsBrite.json", mode="a")
+        out_file = open(FileNames.EVENTBRITE_EVENTS, mode="a")
         for url in event_urls:
             print(f"category: {category} url: {url}")
             try:
@@ -191,5 +192,3 @@ class EventbriteScrapper:
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.test(), key=lambda k: k.name.strip())))
-# with open('eventsBrite.json', 'w') as outfile:
-#     json.dump(events, outfile)

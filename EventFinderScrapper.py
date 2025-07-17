@@ -2,6 +2,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -197,8 +198,8 @@ class EventFinderScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
-        out_file = open("eventFinder.json", mode="w")
-        urls_file = open("eventFinderUrls.json", mode="w")
+        out_file = open(FileNames.EVENT_FINDER_EVENTS, mode="w")
+        urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
         print("getting wellington region")

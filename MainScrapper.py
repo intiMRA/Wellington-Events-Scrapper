@@ -169,8 +169,8 @@ filters = {
 }
 with open("events.json", "w") as write:
     write.write('{ "events":')
-    json.dump(data, write)
+    json.dump(data, write, indent=2)
     write.write(',')
     write.write('"filters":')
-    json.dump(filters, write)
+    json.dump(filters, write, indent=2)
     write.write('}')
