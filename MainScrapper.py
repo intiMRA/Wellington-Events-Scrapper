@@ -90,9 +90,9 @@ print("-"*200)
 
 print("fetching humanitix")
 print("-"*200)
-humanitixPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Humanitix"]
-humanitixPrevious = [event for event in humanitixPrevious if event is not None]
-humanitix_events = HumanitixScrapper.fetch_events(set([event.name for event in humanitixPrevious])) + humanitixPrevious
+humanitix_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Humanitix"]
+humanitix_previous = [event for event in humanitix_previous if event is not None]
+humanitix_events = HumanitixScrapper.fetch_events(set([event.url for event in humanitix_previous])) + humanitix_previous
 print("-"*200)
 
 print("fetching wellington High School")

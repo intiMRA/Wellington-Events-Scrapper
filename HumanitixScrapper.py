@@ -5,7 +5,7 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime
 from dateutil import parser
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 from typing import List, Optional, Set
 import json
@@ -27,8 +27,8 @@ class HumanitixScrapper:
                     driver.execute_script("window.scrollTo(200, 500);")
                     sleep(1)
             form = driver.find_element(By.TAG_NAME, "form")
-            listElements = form.find_elements(By.TAG_NAME, "li")
-            for element in listElements:
+            list_elements = form.find_elements(By.TAG_NAME, "li")
+            for element in list_elements:
                 reg = r"(\d{1,2}\s[aA-zZ]{3},\s[aA-zZ0-9:]*[AMPamp]{2})"
                 matches = re.findall(reg, element.text)
                 if len(matches) > 1:
@@ -87,13 +87,12 @@ class HumanitixScrapper:
                          description=description)
 
     @staticmethod
-    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         events: List[EventInfo] = []
-        eventTitles = previousTitles
         driver = webdriver.Chrome()
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
-        categoriesButton = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
-        categoriesButton.click()
+        categories_button = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
+        categories_button.click()
         categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
         categories = [(HumanitixScrapper.format_input(category.text), category.text) for category in categories]
         event_urls: List[tuple[str, str, bool]] = []
@@ -103,23 +102,23 @@ class HumanitixScrapper:
             while True:
                 url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
                 driver.get(url)
-                _ = WebDriverWait(driver, 10, poll_frequency=1).until(EC.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
+                _ = WebDriverWait(driver, 10, poll_frequency=1).until(ec.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
                 height = driver.execute_script("return document.body.scrollHeight")
-                scrolledAmount = 0
+                scrolled_amount = 0
                 while True:
-                    if scrolledAmount > height:
+                    if scrolled_amount > height:
                         break
                     driver.execute_script(f"window.scrollBy(0, {100});")
 
-                    scrolledAmount += 100
-                eventsData = driver.find_elements(By.CLASS_NAME, 'test')
-                if not eventsData:
+                    scrolled_amount += 100
+                events_data = driver.find_elements(By.CLASS_NAME, 'test')
+                if not events_data:
                     break
-                for event in eventsData:
-                    title = event.find_element(By.TAG_NAME, 'h6').text
-                    if title in eventTitles:
-                        continue
+                for event in events_data:
                     event_url = event.get_attribute('href')
+                    if event_url in previous_urls:
+                        continue
+                    previous_urls.add(event_url)
                     divs = [x.text for x in event.find_elements(By.TAG_NAME, 'div')]
                     multiple_dates = False
                     for date_string in divs:
@@ -131,8 +130,6 @@ class HumanitixScrapper:
         with open("humanitixUrls.json", mode="w") as f:
             json.dump(event_urls, f, indent=2)
 
-        # with open("humanitixUrls.json", mode="r") as f:
-        #     event_urls = json.loads(f.read())
         out_file = open('humanitixEvents.json', 'w')
         out_file.write("[\n")
         for part in event_urls:
