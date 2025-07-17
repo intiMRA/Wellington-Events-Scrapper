@@ -10,6 +10,7 @@ from dateutil.relativedelta import relativedelta
 from typing import List, Set, Optional
 import json
 
+
 class EventFinderScrapper:
     @staticmethod
     def get_time_from_string(time_string: str) -> Optional[datetime]:
@@ -129,7 +130,7 @@ class EventFinderScrapper:
     def get_events(url: str, previous_urls: Set[str], urls_file, out_file) -> (List[EventInfo], Set[str]):
         events: List[EventInfo] = []
         driver = webdriver.Chrome()
-        driver.get(url+ f'/page/{2}')
+        driver.get(url + f'/page/{2}')
         last_page = 1
         try:
             pagination = driver.find_element(By.CLASS_NAME, 'lead')
@@ -151,7 +152,7 @@ class EventFinderScrapper:
                     html = driver.find_element(By.CLASS_NAME, 'listings-events').find_elements(By.CLASS_NAME, 'card')
                     break
                 except:
-                    i+=1
+                    i += 1
                     sleep(1)
             for event in html:
                 title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
@@ -185,7 +186,7 @@ class EventFinderScrapper:
                     out_file.write(",\n")
             except Exception as e:
                 print(e)
-            print("-"*100)
+            print("-" * 100)
         try:
             driver.close()
         except:
@@ -199,7 +200,7 @@ class EventFinderScrapper:
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
         print("getting wellington region")
-        print("-"*100)
+        print("-" * 100)
         events_url = f"https://www.eventfinda.co.nz/whatson/events/wellington-region/date/to-month/{end_date.month}/to-day/{end_date.day}"
         events, previous_urls = EventFinderScrapper.get_events(events_url, previous_urls, urls_file, out_file)
 

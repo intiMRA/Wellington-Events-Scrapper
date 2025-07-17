@@ -5,20 +5,21 @@ import pytz
 
 nz_tz = pytz.timezone("Pacific/Auckland")
 
+
 class DateFormatting:
     @staticmethod
-    def formatDisplayDate(date: datetime) -> str :
+    def formatDisplayDate(date: datetime) -> str:
         DateFormatting.replaceYear(date)
         return date.strftime("%a %d %b")
-    
+
     @staticmethod
-    def replaceYear(date: datetime) -> datetime :
+    def replaceYear(date: datetime) -> datetime:
         if date.year < datetime.today().year:
             return date.replace(year=datetime.today().year)
         return date
 
     @staticmethod
-    def formatDateStamp(date: datetime) -> str :
+    def formatDateStamp(date: datetime) -> str:
         DateFormatting.replaceYear(date)
         date = date.replace(microsecond=0, second=0)
         return date.strftime("%Y-%m-%d-%H:%M")

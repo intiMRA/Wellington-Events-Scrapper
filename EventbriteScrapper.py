@@ -176,7 +176,7 @@ class EventbriteScrapper:
         for cat in cats:
             cat_name, link = cat
             print("fetching: ", cat_name)
-            print("_"*100)
+            print("_" * 100)
             driver.get(link)
             start_date = datetime.now()
             end_date = start_date + relativedelta(days=30)
@@ -188,7 +188,6 @@ class EventbriteScrapper:
             events += EventbriteScrapper.get_events(driver, previous_urls, cat_name)
         driver.close()
         return events
-
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.test(), key=lambda k: k.name.strip())))
 # with open('eventsBrite.json', 'w') as outfile:

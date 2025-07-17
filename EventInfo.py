@@ -5,7 +5,9 @@ from CategoryMapping import CategoryMapping
 from dateutil import parser
 from typing import List, Optional
 from CoordinatesMapper import CoordinatesMapper
+
 nz_tz = pytz.timezone("Pacific/Auckland")
+
 
 class EventInfo:
     locationsCache: dict[str, Optional[dict[str, str]]] = {}
@@ -113,6 +115,7 @@ class EventInfo:
             )
         except:
             return None
+
     @staticmethod
     def get_location(venue: str) -> Optional[dict[str, str]]:
         if venue in EventInfo.locationsCache.keys():
@@ -121,4 +124,3 @@ class EventInfo:
             coordinates = CoordinatesMapper.get_coordinates(venue)
             EventInfo.locationsCache[venue] = coordinates
             return coordinates
-
