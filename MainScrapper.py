@@ -64,9 +64,9 @@ print("-"*200)
 
 print("fetching under the radar")
 print("-"*200)
-utrPrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Under The Radar"]
-utrPrevious = [event for event in utrPrevious if event is not None]
-under_the_radar_events: List[EventInfo] = UnderTheRaderScrapper.fetch_events(set([event.name for event in utrPrevious])) + utrPrevious
+utr_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Under The Radar"]
+utr_previous = [event for event in utr_previous if event is not None]
+under_the_radar_events: List[EventInfo] = UnderTheRaderScrapper.fetch_events(set([event.url for event in utr_previous])) + utr_previous
 print("-"*200)
 
 print("fetching valhalla")

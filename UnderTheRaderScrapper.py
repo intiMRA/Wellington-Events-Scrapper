@@ -1,12 +1,10 @@
 import json
-import re
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from DateFormatting import DateFormatting
+from selenium.webdriver.support import expected_conditions as ec
 from EventInfo import EventInfo
 from dateutil import parser
 from typing import List, Set, Optional
@@ -42,27 +40,26 @@ class UnderTheRaderScrapper:
                          description=description)
 
     @staticmethod
-    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         events: List[EventInfo] = []
         event_urls: List[str] = []
         driver = webdriver.Chrome()
         driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
         while True:
             try:
-                loadModeButton = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
-                loadModeButton.click()
+                load_mode_button = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
+                load_mode_button.click()
                 sleep(1)
             except:
                 break
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
-        _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "vevent")))
+        _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "vevent")))
         html = driver.find_elements(By.CLASS_NAME, 'vevent')
         for event in html:
             title: WebElement = event.find_element(By.CLASS_NAME, 'gig-title')
-            if title.text in previousTitles:
-                continue
-            previousTitles.add(title.text)
             url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
+            if url in previous_urls or url in event_urls:
+                continue
             event_urls.append(url)
         with open("underTheRaderUrls.json", mode="w") as f:
             json.dump(event_urls, f)
