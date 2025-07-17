@@ -82,8 +82,8 @@ class EventFinderScrapper:
         except:
             pass
         try:
-            allDates_button = driver.find_element(By.CLASS_NAME, "show-more")
-            allDates_button.click()
+            all_dates_button = driver.find_element(By.CLASS_NAME, "show-more")
+            all_dates_button.click()
         except:
             pass
         i = 0
@@ -126,24 +126,24 @@ class EventFinderScrapper:
         return date_objects
 
     @staticmethod
-    def get_events(url: str, titles: Set[str]) -> (List[EventInfo], Set[str]):
+    def get_events(url: str, previous_urls: Set[str], urls_file, out_file) -> (List[EventInfo], Set[str]):
         events: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get(url+ f'/page/{2}')
-        lastPage = 1
+        last_page = 1
         try:
             pagination = driver.find_element(By.CLASS_NAME, 'lead')
-            lastPage = int(re.sub('\W+', ' ', pagination.text).strip().split("of")[-1])
+            last_page = int(re.sub('\W+', ' ', pagination.text).strip().split("of")[-1])
         except:
             print("error: ", url)
             pass
-        currentPage = 1
+        current_page = 1
         driver.close()
         driver = webdriver.Chrome()
         event_urls: Set[tuple[str, Optional[str]]] = set()
-        while currentPage <= lastPage:
-            pageURL = url + f'/page/{currentPage}'
-            driver.get(pageURL)
+        while current_page <= last_page:
+            page_url = url + f'/page/{current_page}'
+            driver.get(page_url)
             i = 0
             html = []
             while i < 10:
@@ -154,31 +154,25 @@ class EventFinderScrapper:
                     i+=1
                     sleep(1)
             for event in html:
-                date_obj = None
-                try:
-                    title = event.find_element(By.CLASS_NAME, 'p-name').text
-                except:
-                    print(f"no title: {event.text}")
-                    continue
-                if title in titles:
-                    continue
-                titles.add(title)
                 title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
                 try:
                     event_url = title_element.get_attribute("href")
+                    if event_url in previous_urls:
+                        continue
+                    previous_urls.add(event_url)
                     category: Optional[str] = None
                     try:
                         category = event.find_element(By.CLASS_NAME, 'category').text
                     except:
                         pass
                     event_urls.add((event_url, category if category else "Other"))
+
                 except:
-                    print(f"invalid event: {title}")
+                    print(f"invalid event")
                     continue
-            currentPage += 1
-        with open("eventFinderUrls.json", mode="a") as f:
-            json.dump(event_urls, f, indent=2)
-        out_file = open("eventFinder.json", mode="a")
+            current_page += 1
+
+        json.dump(event_urls, urls_file, indent=2)
         for parts in event_urls:
             url = parts[0]
             category = parts[1]
@@ -196,23 +190,27 @@ class EventFinderScrapper:
             driver.close()
         except:
             pass
-        return events, titles
+        return events, previous_urls
 
     @staticmethod
-    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
-        titles = previousTitles
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+        out_file = open("eventFinder.json", mode="w")
+        urls_file = open("eventFinderUrls.json", mode="w")
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
         print("getting wellington region")
         print("-"*100)
-        eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington-region/date/to-month/{end_date.month}/to-day/{end_date.day}"
-        events, titles = EventFinderScrapper.get_events(eventsUrl, titles)
+        events_url = f"https://www.eventfinda.co.nz/whatson/events/wellington-region/date/to-month/{end_date.month}/to-day/{end_date.day}"
+        events, previous_urls = EventFinderScrapper.get_events(events_url, previous_urls, urls_file, out_file)
 
         print("getting wellington")
         print("-" * 100)
-        eventsUrl = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"
-        wellingTonSpecific, _ = EventFinderScrapper.get_events(eventsUrl, titles)
-        events += wellingTonSpecific
+        events_url = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"
+        wellington_specific, _ = EventFinderScrapper.get_events(events_url, previous_urls, urls_file, out_file)
+        events += wellington_specific
+        out_file.write("]\n")
+        out_file.close()
+        urls_file.close()
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
