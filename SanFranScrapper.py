@@ -43,13 +43,13 @@ class SanFranScrapper:
                     date_str = event["eventDate"]
                     date = parser.parse(date_str)
                     event = EventInfo(name=re.sub('\W+', ' ', event["name"]).strip(),
-                                            image=event["image"],
-                                            venue="San Fran, Wellington",
-                                            dates=[date],
-                                            url=eventURL,
-                                            source="San Fran",
-                                            eventType="Music",
-                                            description=event["description"])
+                                      image=event["image"],
+                                      venue="San Fran, Wellington",
+                                      dates=[date],
+                                      url=eventURL,
+                                      source="San Fran",
+                                      event_type="Music",
+                                      description=event["description"])
                     events.append(event)
                     json.dump(event.to_dict(), out_file)
                     out_file.write(",\n")

@@ -33,12 +33,12 @@ class UnderTheRaderScrapper:
         venue = header[4]
         description = driver.find_element(By.CLASS_NAME, "description").text
         return EventInfo(name=title,
-                        dates=[date],
-                        image=image_url,
-                        url=url,
-                        venue=venue,
-                        source="Under The Radar",
-                        eventType="Music",
+                         dates=[date],
+                         image=image_url,
+                         url=url,
+                         venue=venue,
+                         source="Under The Radar",
+                         event_type="Music",
                          description=description)
 
     @staticmethod

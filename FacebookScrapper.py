@@ -127,12 +127,12 @@ class FacebookScrapper:
                     imageUrl = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
 
                     eventsInfo.append(EventInfo(name=title,
-                                                      dates=dates,
-                                                      image=imageUrl,
-                                                      url=eventUrl,
-                                                      venue=venue,
-                                                      source="Facebook",
-                                                      eventType="Other"))
+                                                dates=dates,
+                                                image=imageUrl,
+                                                url=eventUrl,
+                                                venue=venue,
+                                                source="Facebook",
+                                                event_type="Other"))
                 except Exception as e:
                     if "No dates found for" in str(e):
                         print("facebook error: ", e)
@@ -184,7 +184,7 @@ class FacebookScrapper:
                                                       url=eventUrl,
                                                       venue=venue,
                                                       source="Facebook",
-                                                      eventType=category)
+                                                      event_type=category)
                 except Exception as e:
                     if "No dates found for" in str(e):
                         print("facebook error: ", e)

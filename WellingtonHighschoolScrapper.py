@@ -60,7 +60,7 @@ class WellingtonHighschoolScrapper:
                          dates=dates,
                          url=url,
                          source="Wellington High School",
-                         eventType=category,
+                         event_type=category,
                          description=description)
 
     @staticmethod

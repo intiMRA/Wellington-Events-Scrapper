@@ -174,7 +174,7 @@ class TicketmasterScrapper:
                              dates=dates,
                              url=url,
                              source="Ticket Master",
-                             eventType=category,
+                             event_type=category,
                              description=description)
         elif "universe.com" in url:
             print("universe.com")
@@ -207,7 +207,7 @@ class TicketmasterScrapper:
                              dates=dates,
                              url=url,
                              source="Ticket Master",
-                             eventType=category,
+                             event_type=category,
                              description=description)
         elif "moshtix.co" in url:
             print("moshtix.co")
@@ -237,7 +237,7 @@ class TicketmasterScrapper:
                              dates=dates,
                              url=url,
                              source="Ticket Master",
-                             eventType=category,
+                             event_type=category,
                              description=description)
         return None
 

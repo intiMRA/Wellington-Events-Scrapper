@@ -49,13 +49,13 @@ class TicketekScrapper:
         description: str = driver.find_element(By.CLASS_NAME, "info-details").text
         print(f"title: {title}")
         return [EventInfo(name=title,
-                                dates=dates,
-                                image="https://" + image_url,
-                                url=url,
-                                venue=venue,
-                                source="Ticketek",
-                                eventType=category,
-                                description=description)]
+                          dates=dates,
+                          image="https://" + image_url,
+                          url=url,
+                          venue=venue,
+                          source="Ticketek",
+                          event_type=category,
+                          description=description)]
 
     @staticmethod
     def fetch_events(previous_titles: Set[str]) -> List[EventInfo]:

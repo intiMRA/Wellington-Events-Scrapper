@@ -1,4 +1,3 @@
-import json
 from datetime import datetime
 from DateFormatting import DateFormatting
 import pytz
@@ -31,7 +30,7 @@ class EventInfo:
             dates: List[datetime],
             url: str,
             source: str,
-            eventType: str,
+            event_type: str,
             description: str = "",
             coordinates: Optional[dict[str, str]] = None):
         """
@@ -57,14 +56,14 @@ class EventInfo:
         self.image = image
         self.venue = venue
         self.description = description
-        ogDates = dates
+        og_dates = dates
         try:
             dates = list(filter(lambda date: date >= datetime.now(), dates))
         except:
             dates = list(filter(lambda date: date >= datetime.now(nz_tz), dates))
         dates = list(sorted(dates, key=lambda date: date))
         if not dates:
-            print(f"in: {ogDates}")
+            print(f"in: {og_dates}")
             print(f"out: {dates}")
             raise Exception(f"No dates found for: {name}")
         self.displayDate = DateFormatting.formatDisplayDate(dates[0]) \
@@ -74,7 +73,7 @@ class EventInfo:
         self.dates = list(map(lambda date: DateFormatting.formatDateStamp(date), dates))
         self.url = url
         self.source = source
-        self.eventType = CategoryMapping.map_category(eventType)
+        self.eventType = CategoryMapping.map_category(event_type)
         # with open("potentialWrongs.txt", mode="a") as f:
         #     if re.findall(r"\d", name):
         #         f.write(f"name: {name}, url: {url}\n")
@@ -108,7 +107,7 @@ class EventInfo:
                 dates=[parser.parse(date) for date in data["dates"]],
                 url=data["url"],
                 source=data["source"],
-                eventType=data["eventType"],
+                event_type=data["eventType"],
                 coordinates=data["coordinates"],
                 description=data["description"]
             )

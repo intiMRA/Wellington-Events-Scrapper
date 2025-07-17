@@ -83,7 +83,7 @@ class HumanitixScrapper:
                          dates=dates,
                          url=url,
                          source="Humanitix",
-                         eventType=category,
+                         event_type=category,
                          description=description)
 
     @staticmethod

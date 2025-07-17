@@ -69,7 +69,7 @@ class EventFinderScrapper:
             url=url,
             venue=venue,
             source="Event Finder",
-            eventType=category if category else "Other",
+            event_type=category if category else "Other",
             description=description)
 
     @staticmethod
@@ -214,5 +214,3 @@ class EventFinderScrapper:
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
-# with open('eventFinder.json', 'w') as outfile:
-#     json.dump(events, outfile)

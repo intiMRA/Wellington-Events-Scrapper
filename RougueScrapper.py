@@ -27,12 +27,12 @@ class RougueScrapper:
         venue = "The Rogue & Vagabond"
         description = driver.find_element(By.CLASS_NAME, "description").text
         return EventInfo(name=title,
-                        dates=[date],
-                        image=image_url,
-                        url=url,
-                        venue=venue,
-                        source="Rogue & Vagabond",
-                        eventType="Music",
+                         dates=[date],
+                         image=image_url,
+                         url=url,
+                         venue=venue,
+                         source="Rogue & Vagabond",
+                         event_type="Music",
                          description=description)
     @staticmethod
     def fetch_events(previousTitltes: Set[str]) -> List[EventInfo]:

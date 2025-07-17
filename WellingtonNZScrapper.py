@@ -101,7 +101,7 @@ class WellingtonNZScrapper:
                          dates=dates,
                          url=url,
                          source="Wellington NZ",
-                         eventType=category,
+                         event_type=category,
                          description=description)
 
     @staticmethod

@@ -100,7 +100,7 @@ class EventbriteScrapper:
                          dates=dates,
                          url=event_link,
                          source="Event Brite",
-                         eventType=category,
+                         event_type=category,
                          description=description)
 
     @staticmethod

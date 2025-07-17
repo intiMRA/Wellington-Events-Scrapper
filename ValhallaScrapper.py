@@ -45,7 +45,7 @@ class ValhallaScrapper:
                          url=url,
                          venue=venue,
                          source="Valhalla",
-                         eventType="Music",
+                         event_type="Music",
                          description=description)
 
     @staticmethod
