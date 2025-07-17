@@ -35,17 +35,18 @@ class RougueScrapper:
                          event_type="Music",
                          description=description)
     @staticmethod
-    def fetch_events(previousTitltes: Set[str]) -> List[EventInfo]:
-        eventsInfo: List[EventInfo] = []
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
+        events_info: List[EventInfo] = []
         driver = webdriver.Chrome()
         event_urls: List[str] = []
         driver.get("https://rogueandvagabond.co.nz/")
         sleep(2)
         titles = driver.find_elements(By.CLASS_NAME, "vevent")
         for title in titles:
-            if title.text in previousTitltes:
+            event_url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
+            if event_url in previous_urls or event_url in event_urls:
                 continue
-            event_urls.append(title.find_element(By.TAG_NAME, "a").get_attribute("href"))
+            event_urls.append(event_url)
         with open("rougeUrls.json", mode="w") as f:
             json.dump(event_urls, f)
         out_file = open("rougeEvents.json", mode="w")
@@ -55,7 +56,7 @@ class RougueScrapper:
             try:
                 event = RougueScrapper.get_event(url, driver)
                 if event:
-                    eventsInfo.append(event)
+                    events_info.append(event)
                     json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
@@ -63,6 +64,6 @@ class RougueScrapper:
             print("-" * 100)
         out_file.write("]\n")
         driver.close()
-        return eventsInfo
+        return events_info
 
 # events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

@@ -83,9 +83,9 @@ print("-"*200)
 
 print("fetching rogue")
 print("-"*200)
-roguePrevious = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Rogue & Vagabond"]
-roguePrevious = [event for event in roguePrevious if event is not None]
-rogue_events = RougueScrapper.fetch_events(set([event.name for event in roguePrevious])) + roguePrevious
+rogue_previous = [EventInfo.from_dict(event) for event in previous_event_titles if event["source"] == "Rogue & Vagabond"]
+rogue_previous = [event for event in rogue_previous if event is not None]
+rogue_events = RougueScrapper.fetch_events(set([event.url for event in rogue_previous])) + rogue_previous
 print("-"*200)
 
 print("fetching humanitix")
