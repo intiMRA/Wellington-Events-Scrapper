@@ -1,12 +1,29 @@
-WELLINGTON_NZ = "Wellington NZ"
-WELLINGTON_HIGH_SCHOOL = "Wellington High School"
-VALHALLA = "Valhalla"
-UNDER_THE_RADAR = "Under The Radar"
-TICKET_MASTER = "Ticket Master"
-TICKETEK = "Ticketek"
-SAN_FRAN = "San Fran"
-ROGUE_AND_VAGABOND = "Rogue & Vagabond"
-HUMANITIX= "Humanitix"
-FACEBOOK = "Facebook"
-EVENT_FINDER = "Event Finder"
-EVENT_BRITE = "Event Brite"
+from typing import List
+
+WELLINGTON_NZ: str = "Wellington NZ"
+WELLINGTON_HIGH_SCHOOL: str = "Wellington High School"
+VALHALLA: str = "Valhalla"
+UNDER_THE_RADAR: str = "Under The Radar"
+TICKET_MASTER: str = "Ticket Master"
+TICKETEK: str = "Ticketek"
+SAN_FRAN: str = "San Fran"
+ROGUE_AND_VAGABOND: str = "Rogue & Vagabond"
+HUMANITIX: str = "Humanitix"
+FACEBOOK: str = "Facebook"
+EVENT_FINDER: str = "Event Finder"
+EVENT_BRITE: str = "Event Brite"
+
+ALL_SCRAPER_NAMES: List[str] = [
+    WELLINGTON_NZ,
+    WELLINGTON_HIGH_SCHOOL,
+    VALHALLA,
+    UNDER_THE_RADAR,
+    TICKET_MASTER,
+    TICKETEK,
+    SAN_FRAN,
+    ROGUE_AND_VAGABOND,
+    HUMANITIX,
+    FACEBOOK,
+    EVENT_FINDER,
+    EVENT_BRITE
+]

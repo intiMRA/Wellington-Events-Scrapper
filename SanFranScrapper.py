@@ -13,7 +13,7 @@ import json
 class SanFranScrapper:
     # noinspection PyBroadException
     @staticmethod
-    def fetch_events() -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         events: List[EventInfo] = []
         page = 1
         out_file = open(FileNames.SAN_FRAN_EVENTS, mode="w")

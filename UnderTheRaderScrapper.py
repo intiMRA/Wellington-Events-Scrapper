@@ -19,16 +19,24 @@ class UnderTheRaderScrapper:
         title: str = driver.find_element(By.CLASS_NAME, "display_title_1").text
         header = driver.find_element(By.CLASS_NAME, "col-md-9").text.split("\n")
         info_texts = driver.find_element(By.CLASS_NAME, "gig-guide-side-bar").text.split("\n")
-        time = "1:01AM"
+        time = None
         found_gig_start = False
+        doors_open = "1:01AM"
+        found_doors_open = False
         for text in info_texts:
             if "GIG STARTS" in text:
                 found_gig_start = True
             elif found_gig_start:
                 time = text
                 break
+            if "Doors open" in text:
+                found_doors_open = True
+            elif found_doors_open:
+                doors_open = text
         date_string = header[2].split(",")[0]
         parts = date_string.split(" ")
+        time = time if time else doors_open
+        print(f"parts {parts} date string {date_string}")
         date = parser.parse(f"{parts[1]} {parts[2]} {time}")
         image_url = driver.find_element(By.CLASS_NAME, "img-responsive").get_attribute('src')
         venue = header[4]
@@ -77,7 +85,12 @@ class UnderTheRaderScrapper:
                     json.dump(event.to_dict(), out_file)
                     out_file.write(",\n")
             except Exception as e:
-                print(e)
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
             print("-"*100)
         driver.close()
         out_file.write("]\n")

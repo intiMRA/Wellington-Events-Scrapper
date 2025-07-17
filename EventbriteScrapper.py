@@ -165,7 +165,12 @@ class EventbriteScrapper:
                     json.dump(event.to_dict(), out_file)
                     out_file.write(",\n")
             except Exception as e:
-                print(e)
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
             print("_" * 100)
         return events
 

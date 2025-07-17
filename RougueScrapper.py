@@ -63,7 +63,12 @@ class RougueScrapper:
                     json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
-                print(e)
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
             print("-" * 100)
         out_file.write("]\n")
         driver.close()

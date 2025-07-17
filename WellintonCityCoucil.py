@@ -1,1 +1,0 @@
-# https://wellington.govt.nz/news-and-events/events-and-festivals

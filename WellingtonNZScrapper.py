@@ -21,27 +21,30 @@ class WellingtonNZScrapper:
     @staticmethod
     def get_dates(date_string: str) -> List[datetime]:
         dates = []
-        string_parts: List[str] = date_string.split(" – ")
-        hour = "1:01AM"
-        if len(string_parts) > 1:
-            if len(string_parts[0]) > 2:
-                start_day = string_parts[0]
-                month_parts = string_parts[1].split(" ")
-                end_day = month_parts[0]
-                month_year = " ".join(month_parts[1:])
-                start_date = f"{start_day} {hour}"
-                end_date = f"{end_day} {month_year} {hour}"
-            else:
-                start_day = string_parts[0]
-                month_parts = string_parts[1].split(" ")
-                end_day = month_parts[0]
-                month_year = " ".join(month_parts[1:])
-                start_date = f"{start_day} {month_year} {hour}"
-                end_date = f"{end_day} {month_year} {hour}"
+        try:
+            string_parts: List[str] = date_string.split(" – ")
+            hour = "1:01AM"
+            if len(string_parts) > 1:
+                if len(string_parts[0]) > 2:
+                    start_day = string_parts[0]
+                    month_parts = string_parts[1].split(" ")
+                    end_day = month_parts[0]
+                    month_year = " ".join(month_parts[1:])
+                    start_date = f"{start_day} {hour}"
+                    end_date = f"{end_day} {month_year} {hour}"
+                else:
+                    start_day = string_parts[0]
+                    month_parts = string_parts[1].split(" ")
+                    end_day = month_parts[0]
+                    month_year = " ".join(month_parts[1:])
+                    start_date = f"{start_day} {month_year} {hour}"
+                    end_date = f"{end_day} {month_year} {hour}"
 
-            dates = DateFormatting.create_range(parser.parse(start_date), parser.parse(end_date))
-        else:
-            dates.append(parser.parse(f"{date_string} {hour}"))
+                dates = DateFormatting.create_range(parser.parse(start_date), parser.parse(end_date))
+            else:
+                dates.append(parser.parse(f"{date_string} {hour}"))
+        except Exception as e:
+            print(e)
         return dates
 
     @staticmethod
@@ -52,7 +55,8 @@ class WellingtonNZScrapper:
         while True:
             try:
                 image_url: str = driver.find_element(By.XPATH,
-                                                     "//img[contains(@class, 'site-picture__img')]").get_attribute("src")
+                                                     "//img[contains(@class, 'site-picture__img')]").get_attribute(
+                    "src")
                 break
             except:
                 if count >= 10:
@@ -132,7 +136,12 @@ class WellingtonNZScrapper:
                     json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
-                print(e)
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
             print("-" * 100)
         return events
 

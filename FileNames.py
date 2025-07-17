@@ -50,3 +50,4 @@ ALL_EVENT_FILES = [
 ]
 
 EVENTS = "events.json"
+LAST_SCRAPPER = "lastSrapper.txt"
