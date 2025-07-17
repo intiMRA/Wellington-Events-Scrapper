@@ -1,8 +1,10 @@
+from time import sleep
+
 import requests
 from EventInfo import EventInfo
 import re
 from dateutil import parser
-from typing import List
+from typing import List, Set
 import json
 
 class SanFranScrapper:
@@ -39,27 +41,26 @@ class SanFranScrapper:
                 return events
             for event in data['documents']:
                 try:
-                    eventURL = f"https://www.sanfran.co.nz{event['localizations'][0]['url']}"
+                    event_url = f"https://www.sanfran.co.nz{event['localizations'][0]['url']}"
                     date_str = event["eventDate"]
                     date = parser.parse(date_str)
                     event = EventInfo(name=re.sub('\W+', ' ', event["name"]).strip(),
                                       image=event["image"],
                                       venue="San Fran, Wellington",
                                       dates=[date],
-                                      url=eventURL,
+                                      url=event_url,
                                       source="San Fran",
                                       event_type="Music",
                                       description=event["description"])
                     events.append(event)
                     json.dump(event.to_dict(), out_file)
                     out_file.write(",\n")
-                    print(f"url: {eventURL}")
+                    print(f"url: {event_url}")
                 except Exception as e:
                     print(f"san fran: {event}")
                     print(e)
                     break
                 print("-"*100)
             page += 1
-
 
 # events = list(map(lambda x: x.to_dict(), sorted(SanFranScrapper.fetch_events(), key=lambda k: k.name.strip())))
