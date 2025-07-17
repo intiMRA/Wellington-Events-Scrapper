@@ -1,5 +1,4 @@
-# https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/
-from datetime import datetime, timedelta
+from datetime import datetime
 
 from selenium.webdriver.remote.webelement import WebElement
 
@@ -105,29 +104,29 @@ class EventbriteScrapper:
                          description=description)
 
     @staticmethod
-    def get_events(driver: webdriver, titles: Set[str], category: str) -> List[EventInfo]:
-        curentPage = 1
+    def get_events(driver: webdriver, previous_urls: Set[str], category: str) -> List[EventInfo]:
+        current_page = 1
         events = []
         event_urls: Set[str] = set()
         while True:
-            nextUrl = re.sub(r"page=\d+", f"page={curentPage}", driver.current_url)
-            driver.get(nextUrl)
+            next_url = re.sub(r"page=\d+", f"page={current_page}", driver.current_url)
+            driver.get(next_url)
             try:
                 sleep(1)
                 pagination = driver.find_element(By.XPATH, "//li[@data-testid='pagination-parent']")
-                firstPage, lastPage = pagination.text.split(" of ")
-                firstPage = int(firstPage)
-                lastPage = int(lastPage)
-                if firstPage > lastPage:
+                first_page, last_page = pagination.text.split(" of ")
+                first_page = int(first_page)
+                last_page = int(last_page)
+                if first_page > last_page:
                     break
             except Exception as e:
                 print(f"error finding paginstion: {e}")
-            curentPage += 1
+            current_page += 1
             # search-event
             cards = driver.find_elements(By.XPATH, "//div[@data-testid='search-event']")
             for card in cards:
-                titleTag = card.find_element(By.CLASS_NAME, "event-card-link ")
-                eventLink = titleTag.get_attribute("href")
+                title_tag = card.find_element(By.CLASS_NAME, "event-card-link ")
+                event_url = title_tag.get_attribute("href")
                 texts = card.text.split("\n")
 
                 tags = [
@@ -149,11 +148,9 @@ class EventbriteScrapper:
                     texts = texts[1:]
                 if len(texts) < 3:
                     continue
-                title = texts[0]
-                if title in titles or eventLink in event_urls:
+                if event_url in previous_urls or event_url in event_urls:
                     continue
-                titles.add(title)
-                event_urls.add(eventLink)
+                event_urls.add(event_url)
         with open("eventFinderUrls.json", mode="a") as f:
             json.dump(event_urls, f)
         out_file = open("eventsBrite.json", mode="a")
@@ -171,14 +168,14 @@ class EventbriteScrapper:
         return events
 
     @staticmethod
-    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str]) -> List[EventInfo]:
         events = []
         driver = webdriver.Chrome()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')
         cats = EventbriteScrapper.get_categories(driver)
         for cat in cats:
-            catName, link = cat
-            print("fetching: ", catName)
+            cat_name, link = cat
+            print("fetching: ", cat_name)
             print("_"*100)
             driver.get(link)
             start_date = datetime.now()
@@ -188,7 +185,7 @@ class EventbriteScrapper:
                        + f"/?page=1&start_date={start_date.year}-{start_date.month}-{start_date.day}"
                          f"&end_date={end_date.year}-{end_date.month}-{end_date.day}")
             driver.get(new_url)
-            events += EventbriteScrapper.get_events(driver, previousTitles, catName)
+            events += EventbriteScrapper.get_events(driver, previous_urls, cat_name)
         driver.close()
         return events
 

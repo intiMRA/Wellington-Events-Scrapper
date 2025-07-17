@@ -129,9 +129,9 @@ print("-"*200)
 
 print("fetching event brite")
 print("-"*200)
-eventBritePrevious = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Event Brite"]
-eventBritePrevious = [event for event in eventBritePrevious if event is not None]
-eventbrite_events = EventbriteScrapper.fetch_events(set([event.name for event in eventBritePrevious])) + eventBritePrevious
+event_brite_previous = [EventInfo.from_dict(event) for event in previousEventTitles if event["source"] == "Event Brite"]
+event_brite_previous = [event for event in event_brite_previous if event is not None]
+eventbrite_events = EventbriteScrapper.fetch_events(set([event.url for event in event_brite_previous])) + event_brite_previous
 print("-"*200)
 
 print("facebook: ", len(facebook_events))
