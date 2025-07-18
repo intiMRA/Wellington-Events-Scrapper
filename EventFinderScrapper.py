@@ -176,7 +176,7 @@ class EventFinderScrapper:
                     continue
             current_page += 1
 
-        json.dump(event_urls, urls_file, indent=2)
+        json.dump(list(event_urls), urls_file, indent=2)
         for parts in event_urls:
             url = parts[0]
             category = parts[1]
@@ -185,7 +185,7 @@ class EventFinderScrapper:
                 event = EventFinderScrapper.get_event(url, category, driver)
                 if event:
                     events.append(event)
-                    out_file.write(event.to_dict())
+                    json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):
@@ -204,7 +204,7 @@ class EventFinderScrapper:
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file = open(FileNames.EVENT_FINDER_EVENTS, mode="w")
-        urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
+        urls_file = open(FileNames.EVENT_FINDER_URLS, mode="w")
         out_file.write("[\n")
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)

@@ -147,6 +147,7 @@ class CategoryMapping:
             "Rugby Union": "Sports & Fitness",
             "Dub, Roots": "Music & Concerts",
             "Outdoors, Tramping": "Other",
+            "Punk": "Music & Concerts",
             "Other": "Other"
         }
         cat = category_mapping.get(category)

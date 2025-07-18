@@ -1,3 +1,5 @@
+import json
+
 from dotenv import load_dotenv
 from time import sleep
 from dateutil import parser
@@ -6,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-import ScrapperNames
+import FileNames
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
@@ -85,7 +87,7 @@ class FacebookScrapper:
             return None
 
     @staticmethod
-    def slow_scroll_to_bottom_other(driver, found_titles: Set[str], scroll_increment=300) -> (List[EventInfo], Set[str]):
+    def slow_scroll_to_bottom_other(driver, found_titles: Set[str], out_file, scroll_increment=300) -> (List[EventInfo], Set[str]):
         events_info: List[EventInfo] = []
         titles = set()
         while True:
@@ -125,14 +127,17 @@ class FacebookScrapper:
                     regex = r'https://www.facebook.com/events/\d+'
                     event_url = re.findall(regex, event_url)[0]
                     image_url = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
+                    event = EventInfo(name=title,
+                                    dates=dates,
+                                    image=image_url,
+                                    url=event_url,
+                                    venue=venue,
+                                    source="Facebook",
+                                    event_type="Other")
 
-                    events_info.append(EventInfo(name=title,
-                                                dates=dates,
-                                                image=image_url,
-                                                url=event_url,
-                                                venue=venue,
-                                                source="Facebook",
-                                                event_type="Other"))
+                    events_info.append(event)
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
                 except Exception as e:
                     if "No dates found for" in str(e):
                         print("facebook error: ", e)
@@ -143,7 +148,7 @@ class FacebookScrapper:
             return events_info, titles.union(found_titles)
 
     @staticmethod
-    def slow_scroll_to_bottom(driver, category: str, found_titles: Set[str], scroll_increment=300) -> Tuple[List[EventInfo], Set[str]]:
+    def slow_scroll_to_bottom(driver, category: str, found_titles: Set[str], out_file, scroll_increment=300) -> Tuple[List[EventInfo], Set[str]]:
         old_event_titles = {}
         new_event_titles = {}
         titles = set()
@@ -178,13 +183,17 @@ class FacebookScrapper:
                     event_url = re.findall(regex, event_url)[0]
                     image_url = event.find_element(By.TAG_NAME, 'img').get_attribute('src')
 
-                    new_event_titles[title] = EventInfo(name=title,
-                                                      dates=dates,
-                                                      image=image_url,
-                                                      url=event_url,
-                                                      venue=venue,
-                                                      source=ScrapperNames.FACEBOOK,
-                                                      event_type=category)
+                    event = EventInfo(name=title,
+                                      dates=dates,
+                                      image=image_url,
+                                      url=event_url,
+                                      venue=venue,
+                                      source="Facebook",
+                                      event_type=category)
+
+                    new_event_titles[title] = event
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
                 except Exception as e:
                     if "No dates found for" in str(e):
                         print("facebook error: ", e)
@@ -214,6 +223,8 @@ class FacebookScrapper:
         end_date = start_date + relativedelta(days=30)
         end_date_string = end_date.strftime("%Y-%m-%d")
         end_date_string += "T05%3A00%3A00.000Z"
+        out_file = open(FileNames.FACEBOOK_EVENTS, mode="w")
+        out_file.write("[\n")
         driver.get(
             f"https://www.facebook.com/events/?"
             f"date_filter_option=CUSTOM_DATE_RANGE"
@@ -254,7 +265,7 @@ class FacebookScrapper:
             driver.execute_script("arguments[0].scrollIntoView(true);", cat_button)
             cat_button.click()
             sleep(1)
-            t = FacebookScrapper.slow_scroll_to_bottom(driver, cat, titles)
+            t = FacebookScrapper.slow_scroll_to_bottom(driver, cat, titles, out_file)
             events += list(t[0])
             titles = t[1]
             cat_button.click()
@@ -269,7 +280,7 @@ class FacebookScrapper:
             f"&end_date={end_date_string}")
         sleep(1)
 
-        t = FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, scroll_increment=5000)
+        t = FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, out_file, scroll_increment=5000)
         events += t[0]
         titles = t[1]
 
@@ -281,9 +292,11 @@ class FacebookScrapper:
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
         sleep(1)
-        t = FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, scroll_increment=5000)
+        t = FacebookScrapper.slow_scroll_to_bottom_other(driver, titles, out_file, scroll_increment=5000)
         welling_ton_specific = t[0]
         events += welling_ton_specific
         driver.close()
+        out_file.write("]\n")
+        out_file.close()
         return events
 # events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(), key=lambda k: k.name.strip())))

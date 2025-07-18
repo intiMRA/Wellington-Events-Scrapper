@@ -75,8 +75,10 @@ class EventbriteScrapper:
             button.click()
         except:
             pass
-
-        location_text: str = driver.find_element(By.CLASS_NAME, "location-info__address").text
+        try:
+            location_text: str = driver.find_element(By.CLASS_NAME, "location-info__address").text
+        except:
+            return None
         if "leadflake" in location_text:
             return None
         split: List[str] = location_text.split("\n")
@@ -90,7 +92,10 @@ class EventbriteScrapper:
             title: str = driver.find_element(By.CLASS_NAME, "event-title").text
         except:
             raise Exception("no title")
-        image_url = driver.find_element(By.XPATH, "//img[@data-testid='hero-img']").get_attribute("src")
+        try:
+            image_url = driver.find_element(By.XPATH, "//img[@data-testid='hero-img']").get_attribute("src")
+        except:
+            image_url = ""
         event_link: str = url
         dates: List[datetime] = EventbriteScrapper.get_all_dates(driver)
         description: str = driver.find_element(By.ID, "event-description").text
@@ -153,14 +158,14 @@ class EventbriteScrapper:
                 if event_url in previous_urls or event_url in event_urls:
                     continue
                 event_urls.add(event_url)
-            json.dump(event_urls, urls_file)
+        json.dump(list(event_urls), urls_file, indent=2)
         for url in event_urls:
             print(f"category: {category} url: {url}")
             try:
                 event: Optional[EventInfo] = EventbriteScrapper.get_event(url, driver, category)
                 if event:
                     events.append(event)
-                    json.dump(event.to_dict(), out_file)
+                    json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):
