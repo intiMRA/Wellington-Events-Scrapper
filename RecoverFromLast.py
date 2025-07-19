@@ -35,7 +35,10 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
 for file in FileNames.ALL_EVENT_FILES:
     print(f"proccessing: {file}")
     with open(file, mode="r") as f:
-        file_json = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
+        file_text = f.read()
+        if not file_text:
+            continue
+        file_json = json.loads(file_text.replace(',\n}', '\n}').replace(',\n]', '\n]'))
         for event_dict in file_json:
             try:
                 event = EventInfo.from_dict(event_dict)

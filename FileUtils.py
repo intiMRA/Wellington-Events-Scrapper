@@ -33,7 +33,7 @@ def write_to_events_file(data: List[EventInfo]):
         "eventTypes": event_types,
     }
     with open(FileNames.EVENTS, "r") as f:
-        with open(FileNames.EVENTS, "r") as copy:
+        with open(FileNames.EVENTS_COPY, "w") as copy:
             copy.write(f.read())
     with open(FileNames.EVENTS, "w") as write:
         write.write('{ "events":')
@@ -50,3 +50,13 @@ def write_last_scrapper(scrapper_name: str):
 def load_last_scrapper() -> str:
     with open(FileNames.LAST_SCRAPPER, mode="r") as f:
         return f.read()
+
+def load_event(from_file = FileNames.EVENTS) -> List[EventInfo]:
+    with open(from_file, mode="r") as f:
+        events_json = json.loads(f.read())
+        events = []
+        for event_json in events_json["events"]:
+            event = EventInfo.from_dict(event_json)
+            if event:
+                events.append(event)
+        return events

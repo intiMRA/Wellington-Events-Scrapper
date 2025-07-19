@@ -6,12 +6,18 @@ class CoordinatesMapper:
     @staticmethod
     def get_coordinates(address: str) -> Optional[dict[str, str]]:
         geolocator = Nominatim(user_agent="wlleington_events")
+        variations = [address]
 
         first_part = ",".join(address.split(",")[1:]).strip()
-        wellington_first_part = first_part + ", Wellington, New Zealand"
+        if first_part:
+            variations.append(first_part)
+            wellington_first_part = first_part + ", Wellington, New Zealand"
+            variations.append(wellington_first_part)
         wellington_first_full = address + ", Wellington, New Zealand"
+        variations.append(wellington_first_full)
         last_part = ",".join(address.split(",")[0:-2]).strip()
-        variations = [address, first_part, wellington_first_part, wellington_first_full, last_part]
+        if last_part:
+            variations.append(last_part)
         if len(address.split(",")) > 1 and not re.findall(r"\d+", address):
             new_variations = []
             for variation in variations:
