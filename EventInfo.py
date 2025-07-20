@@ -1,10 +1,14 @@
 from datetime import datetime
+
+import Summarizer
 from DateFormatting import DateFormatting
 import pytz
 from CategoryMapping import CategoryMapping
 from dateutil import parser
 from typing import List, Optional
 from CoordinatesMapper import CoordinatesMapper
+from bs4 import BeautifulSoup
+import re
 
 nz_tz = pytz.timezone("Pacific/Auckland")
 
@@ -57,8 +61,6 @@ class EventInfo:
         self.id = f"{name}-{venue}-{source}"
         self.name = name
         self.image = image
-        self.venue = venue
-        self.description = description
         og_dates = dates
         try:
             dates = list(filter(lambda date: date >= datetime.now(), dates))
@@ -72,12 +74,17 @@ class EventInfo:
         self.displayDate = DateFormatting.format_display_date(dates[0]) \
             if len(dates) == 1 \
             else f"{DateFormatting.format_display_date(dates[0])} + more"
-        if coordinates:
-            print(coordinates)
+
         if loaded_from_dict:
-            self.coordinates = None
+            self.description = description
+            self.venue = venue
+            self.coordinates = coordinates
         else:
             self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
+            self.venue = re.sub(r"#?[Ll](?:evel)?\s?(\d+)|\s*#?(\d+)", "", venue)
+            description = EventInfo.clean_html_tags(description)
+            description = Summarizer.sumerize(description)
+            self.description = description
         self.dates = list(map(lambda date: DateFormatting.format_date_stamp(date), dates))
         self.url = url
         self.source = source
@@ -127,3 +134,15 @@ class EventInfo:
             coordinates = CoordinatesMapper.get_coordinates(venue)
             EventInfo.locationsCache[venue] = coordinates
             return coordinates
+
+    @staticmethod
+    def clean_html_tags(html_text: str) -> str:
+        if not html_text:
+            return ""
+
+        soup = BeautifulSoup(html_text, 'html.parser')
+        clean_text = soup.get_text()
+        clean_text = '\n'.join(line.strip() for line in clean_text.splitlines() if line.strip())
+        clean_text = clean_text.strip()
+        return clean_text
+
