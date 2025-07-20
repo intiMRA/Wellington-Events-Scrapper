@@ -21,6 +21,7 @@ for event in stored_events:
     else:
         event_description = EventInfo.clean_html_tags(event.description)
         if event_description:
+            event_description = Summarizer.sumerize(event_description)
             event.description = event_description
         description_events.append(event)
 FileUtils.write_to_events_file(description_events)

@@ -74,14 +74,13 @@ class EventInfo:
         self.displayDate = DateFormatting.format_display_date(dates[0]) \
             if len(dates) == 1 \
             else f"{DateFormatting.format_display_date(dates[0])} + more"
-
+        self.venue = venue
         if loaded_from_dict:
             self.description = description
-            self.venue = venue
             self.coordinates = coordinates
         else:
+            venue = re.sub(r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)", "", venue)
             self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
-            self.venue = re.sub(r"#?[Ll](?:evel)?\s?(\d+)|\s*#?(\d+)", "", venue)
             description = EventInfo.clean_html_tags(description)
             description = Summarizer.sumerize(description)
             self.description = description
