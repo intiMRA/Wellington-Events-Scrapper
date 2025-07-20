@@ -1,13 +1,28 @@
 [
 {
+  "id": "Workshop Series: Export 101 | Wellington-1 Whitmore Street, Wellington Central, Wellington 6011, New Zealand-Humanitix",
+  "name": "Workshop Series: Export 101 | Wellington",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/KgJYvrQDacy2gEOu8lQy",
+  "venue": "1 Whitmore Street, Wellington Central, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2817519,
+    "long": 174.7786277
+  },
+  "dates": [
+    "2025-08-21-10:00"
+  ],
+  "displayDate": "Thu 21 Aug",
+  "url": "https://events.humanitix.com/workshop-series-export-101-wellington?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Business & Networking",
+  "description": "Export 101 Series: Exporting to Germany and the EU A series of in-person workshops designed to equip you with the essential tools and knowledge for successful market entry and growth in Germany.\nWhether you're new to exporting or looking to enhance your presence, this series is tailored to meet your needs.\nThis workshop series offers insider knowledge and practical advice from experienced exporters, helping you navigate the German market with confidence.\nYou'll learn how to leverage opportunities from the EU-NZ Free Trade Agreement, connect with peers and trade professionals, and walk away with actionable steps and tools to support your export journey.\nThis workshop series is proudly sponsored by bnz, Go Logistics, and Messe Berlin, in partnership with EMA."
+},
+{
   "id": "Welly Green Thinks - Winter Edition-Odlins Square, Taranaki Wharf 2 Taranaki Street, Waterfront, Wellington 6011, New Zealand-Humanitix",
   "name": "Welly Green Thinks - Winter Edition",
   "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/bLf8lWh6Rcy6kA4MtWIE",
   "venue": "Odlins Square, Taranaki Wharf 2 Taranaki Street, Waterfront, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.5000831,
-    "long": 172.8344077
-  },
+  "coordinates": null,
   "dates": [
     "2025-07-30-08:00"
   ],
@@ -15,7 +30,43 @@
   "url": "https://events.humanitix.com/welly-green-thinks-winter-edition?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Business & Networking",
-  "description": "Integrating Regenerative Thinking in Adaptation\n\nJoin us for a morning discussion aimed at intertwining regenerative thinking with climate adaptation. We will look beyond traditional approaches for addressing climate change including flooding, sea-level rise, urban heat and hydrological impacts. Featuring compelling international case studies, including a hallmark of proactive climate adaptation planning, the Denmark\u2019s iconic \u201ccloudburst\u201d stormwater management. We will challenge attendees to adopt a systemic approach to overcoming climate challenges.\nBe part of the conversation that aims to shape sustainable and resilient futures for our communities.\n\nWe can\u2019t wait to see you there!"
+  "description": "Integrating Regenerative Thinking in Adaptation Join us for a morning discussion aimed at intertwining regenerative thinking with climate adaptation.\nWe will look beyond traditional approaches for addressing climate change including flooding, sea-level rise, urban heat and hydrological impacts.\nFeaturing compelling international case studies, including a hallmark of proactive climate adaptation planning, the Denmark\u2019s iconic \u201ccloudburst\u201d stormwater management.\nWe will challenge attendees to adopt a systemic approach to overcoming climate challenges.\nBe part of the conversation that aims to shape sustainable and resilient futures for our communities."
+},
+{
+  "id": "Healthy Hospo Building Resilience Hamilton-15 Turakina Rise, Rototuna North, Hamilton 3210-Humanitix",
+  "name": "Healthy Hospo Building Resilience Hamilton",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/rxTzxdMRLax4Y6ZvxjNK",
+  "venue": "15 Turakina Rise, Rototuna North, Hamilton 3210",
+  "coordinates": {
+    "lat": -37.7213813,
+    "long": 175.2575731
+  },
+  "dates": [
+    "2025-08-11-14:00"
+  ],
+  "displayDate": "Mon 11 Aug",
+  "url": "https://events.humanitix.com/healthy-hospo-resilience-hamilton?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Business & Networking",
+  "description": "Why this matters: In our rapidly changing world, resilience emerges as a fundamental skill.\nResilience enables individuals to navigate uncertainty with confidence and adaptability.\nThis 90-minute workshop delves into the profound significance of resilience, offering participants practical insights and actionable strategies to cultivate resilience and harness the potential of the mind.\nBy equipping individuals with these tools, the workshop empowers them to not only weather storms but also thrive in dynamic environments.\nSarah is motivated to continue creating positive change and to educate people about the power of the mind and how to use life's challenges as an opportunity for growth."
+},
+{
+  "id": "Healthy Hospo Building Resilience Auckland-11th Floor, 99 Albert Street Auckland, New Zealand-Humanitix",
+  "name": "Healthy Hospo Building Resilience Auckland",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/rZllkuuNT0O9wRh6XHMy",
+  "venue": "11th Floor, 99 Albert Street Auckland, New Zealand",
+  "coordinates": {
+    "lat": -36.8487889,
+    "long": 174.7628464
+  },
+  "dates": [
+    "2025-08-12-14:00"
+  ],
+  "displayDate": "Tue 12 Aug",
+  "url": "https://events.humanitix.com/healthy-hospo-resilience-auckland?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Business & Networking",
+  "description": "Why this matters: In our rapidly changing world, resilience emerges as a fundamental skill.\nResilience enables individuals to navigate uncertainty with confidence and adaptability.\nThis 90-minute workshop delves into the profound significance of resilience, offering participants practical insights and actionable strategies to cultivate resilience and harness the potential of the mind.\nBy equipping individuals with these tools, the workshop empowers them to not only weather storms but also thrive in dynamic environments.\nSarah is motivated to continue creating positive change and to educate people about the power of the mind and how to use life's challenges as an opportunity for growth."
 },
 {
   "id": "July Work Smarter Horowhenua. Everyday AI for Everyday Businesses-102 Liverpool Street, Levin 5510, New Zealand-Humanitix",
@@ -33,7 +84,7 @@
   "url": "https://events.humanitix.com/horowhenua-ai?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Business & Networking",
-  "description": "This event has been postponed from 17 July to 25 July due to illness. If the postponement date doesn't work for you, please contact info@littleandloud.co.nz.\nWe\u2019re living in a world where AI adoption is outpacing AI literacy.\n\nGlobal research shows that three in four employees say they\u2019re using some form of AI at work.\nOf these, over 50% say that they hide their AI use on important tasks, and up to 80% say that they are bringing their own AI to work.\nMore people are using AI, without understanding how it works, without telling their employers that they are using it, without considering the implications, and without knowing how to get the most from the tools they\u2019re using.\nThis is where AI literacy becomes essential - it\u2019s not just knowing how to use AI tools, it\u2019s about understanding what\u2019s possible, and knowing you don\u2019t need to be technically savvy to use it well.\nThis practical two-hour in-person workshop is for real people in real businesses; who want to use AI to do more with the resources and tools they already have.\nYou\u2019ll learn:\nWhat AI actually is, where it\u2019s heading, and why it matters for every kind of business\nThe best tools for things like admin, planning, performance, content, customer service, and strategy \u2013 and what to avoid\nHow to use AI responsibly: the risks, red flags, and how to keep it ethical\nHow to \u201ctrain\u201d AI to sound like you and reflect your business, not bland templates\nStep-by-step ways to save yourself hours each week, without sacrificing quality\nHow to onboard AI into your organisation, and avoid spending hours setting up new tools\nWhy mindset is everything \u2013 and how early adopters are getting ahead fast.\nThis workshop is built for:\n\u2714\ufe0f Both AI beginners and curious dabblers\n\u2714\ufe0f Business owners and operators\n\u2714\ufe0f SME teams across any sector: retail, trades, services, health, education, not-for-profit, and more\n\u2714\ufe0f Anyone who\u2019s been avoiding AI or feeling overwhelmed by the hype.\n\nYou\u2019ll walk away with:\nA clear, practical understanding of how AI works and how to use it\nProven tools tailored for small businesses\nPlug-and-play workflows to save time and reduce mental load\nConfidence to use AI without compromising your brand, your values, or your people.\nNo tech jargon. No hype. Just real-world tools, clear explanations, and fresh thinking for busy people in any business.\n*2024 Work Trend Index Annual Report from Microsoft and LinkedIn\nDon\u2019t just take our word for it\nPeople from all over the country have attended our AI workshops. Check out some feedback below.\n\u201cLoved it, great balanced presentation, lots covered but the pace was good.  Very different to other tech-based presentations without all the 'show-off jargon'.  Lizi was passionate but realistic and gave the pros and cons.  An intentional and thoughtful presentation, thank you.\u201d\n\u201cYou made such a daunting topic so easy and clear to understand and navigate.\u201d\n\u201cThank you for a fantastic session this morning. I\u2019ve come away with a whole lot more knowledge and food for thought than I was anticipating and feel empowered to start implementing AI tools from today.\u201d\n\nAbout Lizi Guest (your workshop facilitator)\nI\u2019m the founder of Little & Loud, an award-winning public relations and communications agency that\u2019s worked with more than a hundred organisations; from local councils and government agencies to fast-growing businesses and national brands.\n\nI\u2019ve spent my career helping teams work smarter, minimise risks and leverage opportunities that come from doing business in our fast-changing world. I\u2019ve been working with AI tools in real-world settings, working out what actually works and applying these lessons across our broad client base. My focus is on making AI accessible, ethical, and practical for people who don\u2019t have time to waste. After all, tech should make your job easier, not harder."
+  "description": "More people are using AI, without understanding how it works, without telling their employers that they are using it, without considering the implications, and without knowing how to get the most from the tools they\u2019re using.\nThis is where AI literacy becomes essential - it\u2019s not just knowing how to use AI tools, it\u2019s about understanding what\u2019s possible, and knowing you don\u2019t need to be technically savvy to use it well.\nYou\u2019ll walk away with: A clear, practical understanding of how AI works and how to use it Proven tools tailored for small businesses Plug-and-play workflows to save time and reduce mental load Confidence to use AI without compromising your brand, your values, or your people.\nNo tech jargon.\nI\u2019ve come away with a whole lot more knowledge and food for thought than I was anticipating and feel empowered to start implementing AI tools from today.\u201d About Lizi Guest (your workshop facilitator) I\u2019m the founder of Little & Loud, an award-winning public relations and communications agency that\u2019s worked with more than a hundred organisations; from local councils and government agencies to fast-growing businesses and national brands."
 },
 {
   "id": "August Work Smarter Horowhenua - Everyday AI for Everyday Businesses-102 Liverpool Street, Levin 5510, New Zealand-Humanitix",
@@ -51,7 +102,7 @@
   "url": "https://events.humanitix.com/work-smarter-horowhenua-august?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Business & Networking",
-  "description": "After selling out our first workshop in Horowhenua with a waitlist, we're back for a second workshop on 28 August.\n\nWe\u2019re living in a world where AI adoption is outpacing AI literacy.\n\nGlobal research shows that three in four employees say they\u2019re using some form of AI at work.\nOf these, over 50% say that they hide their AI use on important tasks, and up to 80% say that they are bringing their own AI to work.\nMore people are using AI, without understanding how it works, without telling their employers that they are using it, without considering the implications, and without knowing how to get the most from the tools they\u2019re using.\nThis is where AI literacy becomes essential - it\u2019s not just knowing how to use AI tools, it\u2019s about understanding what\u2019s possible, and knowing you don\u2019t need to be technically savvy to use it well.\nThis practical two-hour in-person workshop is for real people in real businesses; who want to use AI to do more with the resources and tools they already have.\nYou\u2019ll learn:\nWhat AI actually is, where it\u2019s heading, and why it matters for every kind of business\nThe best tools for things like admin, planning, performance, content, customer service, and strategy \u2013 and what to avoid\nHow to use AI responsibly: the risks, red flags, and how to keep it ethical\nHow to \u201ctrain\u201d AI to sound like you and reflect your business, not bland templates\nStep-by-step ways to save yourself hours each week, without sacrificing quality\nHow to onboard AI into your organisation, and avoid spending hours setting up new tools\nWhy mindset is everything \u2013 and how early adopters are getting ahead fast.\nThis workshop is built for:\n\u2714\ufe0f Both AI beginners and curious dabblers\n\u2714\ufe0f Business owners and operators\n\u2714\ufe0f SME teams across any sector: retail, trades, services, health, education, not-for-profit, and more\n\u2714\ufe0f Anyone who\u2019s been avoiding AI or feeling overwhelmed by the hype.\n\nYou\u2019ll walk away with:\nA clear, practical understanding of how AI works and how to use it\nProven tools tailored for small businesses\nPlug-and-play workflows to save time and reduce mental load\nConfidence to use AI without compromising your brand, your values, or your people.\nNo tech jargon. No hype. Just real-world tools, clear explanations, and fresh thinking for busy people in any business.\n*2024 Work Trend Index Annual Report from Microsoft and LinkedIn\nDon\u2019t just take our word for it\nPeople from all over the country have attended our AI workshops. Check out some feedback below.\n\u201cLoved it, great balanced presentation, lots covered but the pace was good.  Very different to other tech-based presentations without all the 'show-off jargon'.  Lizi was passionate but realistic and gave the pros and cons.  An intentional and thoughtful presentation, thank you.\u201d\n\u201cYou made such a daunting topic so easy and clear to understand and navigate.\u201d\n\u201cThank you for a fantastic session this morning. I\u2019ve come away with a whole lot more knowledge and food for thought than I was anticipating and feel empowered to start implementing AI tools from today.\u201d\n\nAbout Lizi Guest (your workshop facilitator)\nI\u2019m the founder of Little & Loud, an award-winning public relations and communications agency that\u2019s worked with more than a hundred organisations; from local councils and government agencies to fast-growing businesses and national brands.\n\nI\u2019ve spent my career helping teams work smarter, minimise risks and leverage opportunities that come from doing business in our fast-changing world. I\u2019ve been working with AI tools in real-world settings, working out what actually works and applying these lessons across our broad client base. My focus is on making AI accessible, ethical, and practical for people who don\u2019t have time to waste. After all, tech should make your job easier, not harder."
+  "description": "More people are using AI, without understanding how it works, without telling their employers that they are using it, without considering the implications, and without knowing how to get the most from the tools they\u2019re using.\nThis is where AI literacy becomes essential - it\u2019s not just knowing how to use AI tools, it\u2019s about understanding what\u2019s possible, and knowing you don\u2019t need to be technically savvy to use it well.\nThis practical two-hour in-person workshop is for real people in real businesses; who want to use AI to do more with the resources and tools they already have.\nNo tech jargon.\nI\u2019ve spent my career helping teams work smarter, minimise risks and leverage opportunities that come from doing business in our fast-changing world."
 },
 {
   "id": "Beyond the Frontlines: an award-winning documentary about Palestinian humanity-65 Dixon Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
@@ -69,7 +120,25 @@
   "url": "https://events.humanitix.com/documentary-screening-beyond-the-frontlines?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Community & Culture",
-  "description": "Justice for Palestine and Aotearoa Healthcare Workers for Palestine present Alexandra Dols' award-winning documentary about the impacts of dehumanising violence on Palestinian people. This screening is intended to provide an antidote to the inflammatory anti-Palestinian programming decisions of Doc Edge.\nIn an environment where language of 'objectivity' and 'neutrality' is used to prop up colonial structures, we are proud to screen a documentary that refuses to buy into this framing. Embark on a journey across Palestine alongside Palestinian psychiatrist Dr. Samah Jabr and discover the resistance and resilience of a people affected by the invisible wounds of war and occupation.\nCheck out the trailer here.\nNet revenue from tickets and donations will be donated to the Gaza Mental Health Foundation: https://www.gazamentalhealth.org/\nArrive from 5.30pm for a 6pm start.\nFilm is 1 hour, 53 minutes so will finish approximately 8pm, including welcome and introduction.\n\"The film is brave because it does not claim to be \"balanced\" through positioning itself an equal distance from the occupier and the occupied of Palestine. Instead, it sheds light on the Palestinian experience and point of view: experiences and views which are usually silenced, distorted, or vilified by mainstream media. The film does not turn away from people who are labeled \"controversial\" and thus to be avoided and ignored. This film brings together a diversity of interviewees whose strong voices do not fade into an all-too-common passive submission to power and dominance. The interviewees differ ideologically among themselves yet a reunited in their striving for liberation.\"\nDr. Samah Jabr\n\u201cDr. Samah Jabr is a wise and thoughtful woman. She reflects on the subtle, devastating effect on the Palestinian people of years of brutal occupation. Alexandra Dols\u2019 film shares her insights with us, generous, humane and deeply disturbing. Please see this film.\u201d\nKen Loach"
+  "description": "Justice for Palestine and Aotearoa Healthcare Workers for Palestine present Alexandra Dols' award-winning documentary about the impacts of dehumanising violence on Palestinian people.\nIn an environment where language of 'objectivity' and 'neutrality' is used to prop up colonial structures, we are proud to screen a documentary that refuses to buy into this framing.\nEmbark on a journey across Palestine alongside Palestinian psychiatrist Dr. Samah Jabr and discover the resistance and resilience of a people affected by the invisible wounds of war and occupation.\nCheck out the trailer here.\nNet revenue from tickets and donations will be donated to the Gaza Mental Health Foundation: https://www.gazamentalhealth.org/ Arrive from 5.30pm for a 6pm start."
+},
+{
+  "id": "Dynamic Planet: Screening + Panel Discussion-10 Kent Terrace, Mount Victoria, Wellington 6011, New Zealand-Humanitix",
+  "name": "Dynamic Planet: Screening + Panel Discussion",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/f2sCdEcrSxyJF2MfkBhQ",
+  "venue": "10 Kent Terrace, Mount Victoria, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2943273,
+    "long": 174.7840349
+  },
+  "dates": [
+    "2025-08-11-17:30"
+  ],
+  "displayDate": "Mon 11 Aug",
+  "url": "https://events.humanitix.com/dynamic-planet?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Community & Culture",
+  "description": "\"With restoration of the land, comes restoration of the people.\"\nGoodlife Collective is proud to bring this screening of Dynamic Planet by Kiwi Producer Martha Jeffries to Tara-a-Wh\u0101nganui Wellington, with the support of Commonsense Organics & Greater Wellington Regional Council.\nDon't miss this rare opportunity to hear from the filmmaker herself, recently returned to New Zealand after 13 years in New York.\nThey reveal how science, nature, and traditional knowledge can prepare us for the future.\nComprised of four episodes: Earth, Water, Fire & Ice - we will be screening the 'Earth' episode."
 },
 {
   "id": "FutureVoices 2025-550 High Street, Boulcott, Lower Hutt 5010, New Zealand-Humanitix",
@@ -88,7 +157,7 @@
   "url": "https://events.humanitix.com/futurevoices-2025?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Community & Culture",
-  "description": "Inspired by Tedx, FutureVoices 2025 will be an evening spotlighting a diverse range of passionate speakers, innovators and leaders sharing their ideas from the Wellington Youth Community on our theme for this year of \u2018Redefining Tomorrow\u2019. FutureVoices 2025 is about empowering youth to speak up and take action using their initiatives to better local and wider communities. \nOur event will take place on Friday July 18th, from 6-9pm at St Oran\u2019s College Rutherford Art Centre, 550 High Street, Lower Hutt Wellington. The evening will consist of 8 speakers, from a range of ages between 14 and 27. It is a celebration of youth leadership and achievements; bold ideas and actions, and sharing youth voices and visions for a better, brighter future."
+  "description": "Inspired by Tedx, FutureVoices 2025 will be an evening spotlighting a diverse range of passionate speakers, innovators and leaders sharing their ideas from the Wellington Youth Community on our theme for this year of \u2018Redefining Tomorrow\u2019.\nFutureVoices 2025 is about empowering youth to speak up and take action using their initiatives to better local and wider communities.\nOur event will take place on Friday July 18th, from 6-9pm at St Oran\u2019s College Rutherford Art Centre, 550 High Street, Lower Hutt Wellington.\nThe evening will consist of 8 speakers, from a range of ages between 14 and 27.\nIt is a celebration of youth leadership and achievements; bold ideas and actions, and sharing youth voices and visions for a better, brighter future."
 },
 {
   "id": "The Fantastic 4: First Steps - Fundraiser screening For Short film \"Possum\"-29 Wigan Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
@@ -106,7 +175,7 @@
   "url": "https://events.humanitix.com/the-fantastic-4-first-steps-fundraiser-screening-for-short-film-possum?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Film & Media",
-  "description": "The Fantastic 4: First Steps \u2013 Fundraiser Screening for Short Film Possum\nJoin us for a thrilling night of a fresh reboot of The Fantastic Four. Come support our upcoming short film \"Possum\"\n\"Possum\" is a 3rd year Massey University Short Film that follows a young man entering a ritualistic drinking cult. The film is in the horror/thriller genre, think a grittier Midsummer with elements of Get Out sprinkled in. The story is based on the real NZ drinking game, Possum, where the participants climb a tree with a box of beer and attempt to finish the beers without falling out. \nWhether you're Interested in supporting local student films or in seeing Pedro Pascal, please buy a ticket !!\nIf you want to learn more about our film -https://www.thearts.co.nz/boosted/projects/possum?tab=about"
+  "description": "The Fantastic 4: First Steps \u2013 Fundraiser Screening for Short Film Possum Join us for a thrilling night of a fresh reboot of The Fantastic Four.\nCome support our upcoming short film \"Possum\" \"Possum\" is a 3rd year Massey University Short Film that follows a young man entering a ritualistic drinking cult.\nThe film is in the horror/thriller genre, think a grittier Midsummer with elements of Get Out sprinkled in.\nThe story is based on the real NZ drinking game, Possum, where the participants climb a tree with a box of beer and attempt to finish the beers without falling out.\nIf you want to learn more about our film -https://www.thearts.co.nz/boosted/projects/possum?tab=about"
 },
 {
   "id": "NZLSA Inaugural Alumni Breakfast-107 Customhouse Quay, Wellington Central, Wellington 6011, New Zealand-Humanitix",
@@ -124,7 +193,7 @@
   "url": "https://events.humanitix.com/nzlsa-inaugural-alumni-breakfast?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Food & Drink",
-  "description": "Thanks to our friends at IPLS, NZLSA invites all former NZLSA and LSS/LSA Presidents to a complimentary breakfast at Pravda Cafe & Grill in Wellington Central. Join us from 8:30 am onwards on Friday, 26 September, at our Inaugural Alumni Breakfast with NZLSA Patron Justice Glazebrook!"
+  "description": "Thanks to our friends at IPLS, NZLSA invites all former NZLSA and LSS/LSA Presidents to a complimentary breakfast at Pravda Cafe & Grill in Wellington Central.\nJoin us from 8:30 am onwards on Friday, 26 September, at our Inaugural Alumni Breakfast with NZLSA Patron Justice Glazebrook!"
 },
 {
   "id": "Sound Healing Experience with Claudio at Pause Yoga August 23rd of August-28 Moana Road, Days Bay, Lower Hutt 5013, New Zealand-Humanitix",
@@ -142,7 +211,7 @@
   "url": "https://events.humanitix.com/sound-healing-experience-with-claudio-at-pause-yoga-august-23rd-of-august?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Health & Wellness",
-  "description": "Join us for this special evening of harmonising pure sounds, inspiring music and relaxation in the beautiful Pause Yoga studio in Eastbourne.\nGive yourself a peaceful moment and space of quiet awareness. Discover the power of your own voice, mantra and silence working to find inner peace and contentment. Bring an intention, get comfortable and let the sound waves take over. Invite the sound to take you into a journey within, into your heart, to rest, to release physical, mental and emotional tension. Surrender to the sound of Gong, Tibetan and Crystal Bowls, Native American flutes, Harmonium, Sitar ,Esraj, Bells etc..\nClaudio brings high quality amplification so you can feel the sound in your body and take into a immersive experience.Feel free to bring a pillow and blanket to assure comfort. \nAbout Claudio: Claudio is a 3rd generation Multinstrumentalist Musician from Mexico City now based in Wellington. Claudio comes from a musicians family he started playing music since very early years. When he finished music school as a classical guitarist he moved to Montreal, Canada and explored new genres such a Jazz, World Music, and Spiritual Music. Traveling he discovered Indian Music and the Yoga Tradition and they became a very important influence on his career and lifestyle, and allowed him to study Music and Yoga with teachers in Europe and Asia. He learnt to play the Tibetan Singing Bowls in Kathmandu Nepal and Varanasi India.He explored many instruments and music styles such as Classical Guitar, Sitar, Esraj, Bansuri, Harmonium, Flutes, Gongs and Voice.Claudio is an active Sound Healing practitioner and performer. He has been playing the Tibetan bowls for more than 10 years now"
+  "description": "Join us for this special evening of harmonising pure sounds, inspiring music and relaxation in the beautiful Pause Yoga studio in Eastbourne.\nGive yourself a peaceful moment and space of quiet awareness.\nSurrender to the sound of Gong, Tibetan and Crystal Bowls, Native American flutes, Harmonium, Sitar ,Esraj, Bells etc.. Claudio brings high quality amplification so you can feel the sound in your body and take into a immersive experience.Feel free to bring a pillow and blanket to assure comfort.\nClaudio comes from a musicians family he started playing music since very early years.\nHe learnt to play the Tibetan Singing Bowls in Kathmandu Nepal and Varanasi India.He explored many instruments and music styles such as Classical Guitar, Sitar, Esraj, Bansuri, Harmonium, Flutes, Gongs and Voice.Claudio is an active Sound Healing practitioner and performer."
 },
 {
   "id": "Sound Healing Experience with Claudio at Pause Yoga 6th of December-28 Moana Road, Days Bay, Lower Hutt 5013, New Zealand-Humanitix",
@@ -160,7 +229,7 @@
   "url": "https://events.humanitix.com/sound-healing-experience-with-claudio-at-pause-yoga-6th-of-december?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Health & Wellness",
-  "description": "Join us for this special evening of harmonising pure sounds, inspiring music and relaxation in the beautiful Pause Yoga studio in Eastbourne.\nGive yourself a peaceful moment and space of quiet awareness. Discover the power of your own voice, mantra and silence working to find inner peace and contentment. Bring an intention, get comfortable and let the sound waves take over. Invite the sound to take you into a journey within, into your heart, to rest, to release physical, mental and emotional tension. Surrender to the sound of Gong, Tibetan and Crystal Bowls, Native American flutes, Harmonium, Sitar ,Esraj, Bells etc..\nClaudio brings high quality amplification so you can feel the sound in your body and take into a immersive experience.Feel free to bring a pillow and blanket to assure comfort. \nAbout Claudio: Claudio is a 3rd generation Multinstrumentalist Musician from Mexico City now based in Wellington. Claudio comes from a musicians family he started playing music since very early years. When he finished music school as a classical guitarist he moved to Montreal, Canada and explored new genres such a Jazz, World Music, and Spiritual Music. Traveling he discovered Indian Music and the Yoga Tradition and they became a very important influence on his career and lifestyle, and allowed him to study Music and Yoga with teachers in Europe and Asia. He learnt to play the Tibetan Singing Bowls in Kathmandu Nepal and Varanasi India.He explored many instruments and music styles such as Classical Guitar, Sitar, Esraj, Bansuri, Harmonium, Flutes, Gongs and Voice.Claudio is an active Sound Healing practitioner and performer. He has been playing the Tibetan bowls for more than 10 years now"
+  "description": "Join us for this special evening of harmonising pure sounds, inspiring music and relaxation in the beautiful Pause Yoga studio in Eastbourne.\nGive yourself a peaceful moment and space of quiet awareness.\nSurrender to the sound of Gong, Tibetan and Crystal Bowls, Native American flutes, Harmonium, Sitar ,Esraj, Bells etc.. Claudio brings high quality amplification so you can feel the sound in your body and take into a immersive experience.Feel free to bring a pillow and blanket to assure comfort.\nClaudio comes from a musicians family he started playing music since very early years.\nHe learnt to play the Tibetan Singing Bowls in Kathmandu Nepal and Varanasi India.He explored many instruments and music styles such as Classical Guitar, Sitar, Esraj, Bansuri, Harmonium, Flutes, Gongs and Voice.Claudio is an active Sound Healing practitioner and performer."
 },
 {
   "id": "Sound Healing Experience with Claudio at Pause Yoga 11th October-28 Moana Road, Days Bay, Lower Hutt 5013, New Zealand-Humanitix",
@@ -178,25 +247,79 @@
   "url": "https://events.humanitix.com/sound-healing-experience-with-claudio-at-pause-yoga-11th-october?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Health & Wellness",
-  "description": "Join us for this special evening of harmonising pure sounds, inspiring music and relaxation in the beautiful Pause Yoga studio in Eastbourne.\nGive yourself a peaceful moment and space of quiet awareness. Discover the power of your own voice, mantra and silence working to find inner peace and contentment. Bring an intention, get comfortable and let the sound waves take over. Invite the sound to take you into a journey within, into your heart, to rest, to release physical, mental and emotional tension. Surrender to the sound of Gong, Tibetan and Crystal Bowls, Native American flutes, Harmonium, Sitar ,Esraj, Bells etc..\nClaudio brings high quality amplification so you can feel the sound in your body and take into a immersive experience.Feel free to bring a pillow and blanket to assure comfort. \nAbout Claudio: Claudio is a 3rd generation Multinstrumentalist Musician from Mexico City now based in Wellington. Claudio comes from a musicians family he started playing music since very early years. When he finished music school as a classical guitarist he moved to Montreal, Canada and explored new genres such a Jazz, World Music, and Spiritual Music. Traveling he discovered Indian Music and the Yoga Tradition and they became a very important influence on his career and lifestyle, and allowed him to study Music and Yoga with teachers in Europe and Asia. He learnt to play the Tibetan Singing Bowls in Kathmandu Nepal and Varanasi India.He explored many instruments and music styles such as Classical Guitar, Sitar, Esraj, Bansuri, Harmonium, Flutes, Gongs and Voice.Claudio is an active Sound Healing practitioner and performer. He has been playing the Tibetan bowls for more than 10 years now"
+  "description": "Join us for this special evening of harmonising pure sounds, inspiring music and relaxation in the beautiful Pause Yoga studio in Eastbourne.\nGive yourself a peaceful moment and space of quiet awareness.\nSurrender to the sound of Gong, Tibetan and Crystal Bowls, Native American flutes, Harmonium, Sitar ,Esraj, Bells etc.. Claudio brings high quality amplification so you can feel the sound in your body and take into a immersive experience.Feel free to bring a pillow and blanket to assure comfort.\nClaudio comes from a musicians family he started playing music since very early years.\nHe learnt to play the Tibetan Singing Bowls in Kathmandu Nepal and Varanasi India.He explored many instruments and music styles such as Classical Guitar, Sitar, Esraj, Bansuri, Harmonium, Flutes, Gongs and Voice.Claudio is an active Sound Healing practitioner and performer."
 },
 {
-  "id": "An Invitation to Love-211 Willis Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
-  "name": "An Invitation to Love",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/zmhv9cYQMaPXjDjgrJDP",
-  "venue": "211 Willis Street, Te Aro, Wellington 6011, New Zealand",
+  "id": "International Packraft Film Festival - Wellington-205 Ohiro Road, Brooklyn, Wellington 6021, New Zealand-Humanitix",
+  "name": "International Packraft Film Festival - Wellington",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/b6XB1zyrRhOHeK36jZls",
+  "venue": "205 Ohiro Road, Brooklyn, Wellington 6021, New Zealand",
   "coordinates": {
-    "lat": -41.2920933,
-    "long": 174.7731809
+    "lat": -41.3058382,
+    "long": 174.7634702
   },
   "dates": [
-    "2025-09-07-15:00"
+    "2025-07-31-19:00"
   ],
-  "displayDate": "Sun 07 Sep",
-  "url": "https://events.humanitix.com/an-invitation-to-love?hxchl=mkt-sch",
+  "displayDate": "Thu 31 Jul",
+  "url": "https://events.humanitix.com/ipff-wellington?hxchl=mkt-sch",
   "source": "Humanitix",
-  "eventType": "Music & Concerts",
-  "description": "You're invited!\n\nCantoris is excited to announce our second concert for 2025: An Invitation to Love. \nDirected by Ingrid Schofield | Accompanied by Heather Easting\n\nRomantic love, sacred love, and even friendship will be captured through the works of Tallis, Ireland, Whitacre, and the shimmering centrepiece of Lauridsen's Nocturnes. New works by Wellington's own Jonathan Berkahn sit alongside a vibrant selection of madrigals that capture the joy, longing, and playful spirit that love inspires.\n\nWe cannot wait to perform and share our love of this music with you.\n\n\ud83d\udd52 Sunday 7th September | 3pm\n \ud83d\udccd  St Peter's Anglican Church | 211 Willis Street, P\u014dneke"
+  "eventType": "Hobbies & Interests",
+  "description": "Join PRANZ and Blue Duck Packrafts for the Wellington screening of the International Packrafting Film Festival 2025 What to Expect.... A night of soulful river journeys and epic whitewater.\nFirst descents, big swims, wild country, and quiet moments.\nFilms by paddlers, for paddlers \u2014 with stories that matter.\nA chance to connect with the local community and chat with local suppliers.\nSpot prizes, chance to network with other adventurers and maybe a few surprises\u2026 Grab a drink and some nibbles from the cash bar and meet some fellow adventurers."
+},
+{
+  "id": "Friday Night Mahjong (Aug 2025)-17 Tinakori Road, Thorndon, Wellington 6011, New Zealand-Humanitix",
+  "name": "Friday Night Mahjong (Aug 2025)",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/WboTro6Rxq9wexLwlVOi",
+  "venue": "17 Tinakori Road, Thorndon, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2697934,
+    "long": 174.780281
+  },
+  "dates": [
+    "2025-08-01-19:30"
+  ],
+  "displayDate": "Fri 01 Aug",
+  "url": "https://events.humanitix.com/friday-night-mahjong-aug-2025?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Hobbies & Interests",
+  "description": "Fancy joining our Friday evening session of Mahjong?\nCome along to enjoy some friendly games.\nWe offer a variety of Mahjong styles to suit your preference, including Cantonese, Sichuan, and Taiwanese.\nWe are happy to answer the occasional question during the session, but we will not be running any lessons.\nFee: $10 per person Supper: Tea, coffee and light snacks provided."
+},
+{
+  "id": "Hands on Deck: Cup and Saucer-1 Upland Road, Kelburn, Wellington 6012, New Zealand-Humanitix",
+  "name": "Hands on Deck: Cup and Saucer",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/ntRtSpMkSlWCW5a70Lv4",
+  "venue": "1 Upland Road, Kelburn, Wellington 6012, New Zealand",
+  "coordinates": {
+    "lat": -41.2895051,
+    "long": 174.7636113
+  },
+  "dates": [
+    "2025-08-07-16:30"
+  ],
+  "displayDate": "Thu 07 Aug",
+  "url": "https://events.humanitix.com/hands-on-deck-cup-and-saucer?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Hobbies & Interests",
+  "description": "Handbuild your own cup with matching saucer.\nOnce you\u2019ve finished your set, choose how you want them glazed, and Laila will take it from there.\nYour set will be available for pick up from Cable Top Eatery 2-3 weeks after the event.\nIf you live locally in Kelburn, a drop off can also be requested.\nMax 7 guests per session."
+},
+{
+  "id": "Author Alley-289 Mazengarb Road, Paraparaumu 5032, New Zealand-Humanitix",
+  "name": "Author Alley",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/JZJAhShsTJimcihLUHXN",
+  "venue": "289 Mazengarb Road, Paraparaumu 5032, New Zealand",
+  "coordinates": {
+    "lat": -40.8967087,
+    "long": 175.0113085
+  },
+  "dates": [
+    "2025-08-10-10:00"
+  ],
+  "displayDate": "Sun 10 Aug",
+  "url": "https://events.humanitix.com/author-alley?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Hobbies & Interests",
+  "description": "Indulge in a stroll through Bookmark K\u0101piti\u2019s very own Author Alley.\nMeet local authors, creatives and service providers within the workshop space of Big Mac Slabs, transformed for one day only in a book-lovers market.\nVenture down to discover your next great read and make connections with others in the industry.\nCome down anytime between 10\u20133pm.\nStallholders can register interest via our website, click here"
 },
 {
   "id": "Spring C\u00e9il\u00ed Dance with The Great Beag C\u00e9il\u00ed Band-81 Upland Road, Kelburn, Wellington 6012, New Zealand-Humanitix",
@@ -214,25 +337,43 @@
   "url": "https://events.humanitix.com/beag-ceili-spring-ceili-2025?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Music & Concerts",
-  "description": "Spring has sprung, the days are getting longer, the rain is falling sideways. Must be about time we had another c\u00e9il\u00ed! Join The Great Beag C\u00e9il\u00ed Band at St Michael\u2019s Hall in Kelburn for a rousing evening of dancing to foot-stomping celtic tunes. Our Autumn c\u00e9il\u00ed sold out so make sure you get your tickets early!\nIf you\u2019ve never been to a c\u00e9il\u00ed (or ceilidh) before, fear not - c\u00e9il\u00ed dancing is very easy! No fancy moves or any previous experience required: our caller will explain each dance, and we\u2019ll all walk it through a couple of times before adding the music.\nThis is social dancing so bring all your friends! No need to bring a specific partner - there\u2019ll be lots of friendly people to dance with.\nDiscounted online tickets are available until midnight on September 26th. Some door sales may be available on the day: $30 / $20 concession (cash only). Keep an eye on the Facebook event for updates.\n\u2014\nDoors open 7:30pm\nAdults and age 10+ welcome. Under 16s accompanied by an adult.\nLight refreshments will be available. We recommend bringing a water bottle to grab a quick drink between dances - hydration is key!\nThis is an alcohol-free event.\nGetting here: St Michael\u2019s Hall is located at 81 Upland Road in Kelburn Village, just behind the church.\nThere is very limited on-street parking in the village. We recommend public transport: the 4, 18, 21, and 22 buses stop regularly right outside coming up from Te Aro or down from Northland and Karori.\nBe safe online: Tickets are only available online from the Humanitix event. Do not buy tickets from other sources such as Facebook comments or resale sites - these are always scams. If you can no longer attend, please contact us via Humanitix, our socials, or email to discuss refunds.\nHealth notice: C\u00e9il\u00ed dancing is a great way to meet lots of people. If you are feeling unwell then please stay home and rest this time, we will see you at the next one."
+  "description": "If you\u2019ve never been to a c\u00e9il\u00ed (or ceilidh) before, fear not - c\u00e9il\u00ed dancing is very easy!\nNo need to bring a specific partner - there\u2019ll be lots of friendly people to dance with.\nThis is an alcohol-free event.\nBe safe online: Tickets are only available online from the Humanitix event.\nIf you are feeling unwell then please stay home and rest this time, we will see you at the next one."
 },
 {
-  "id": "Jazz Orchestra Composer Series Presents: Dave Wilson-1/18 Garrett Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
-  "name": "Jazz Orchestra Composer Series Presents: Dave Wilson",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/1xInoJUkSWaoj6hQgcuO",
-  "venue": "1/18 Garrett Street, Te Aro, Wellington 6011, New Zealand",
+  "id": "An Invitation to Love-211 Willis Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+  "name": "An Invitation to Love",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/zmhv9cYQMaPXjDjgrJDP",
+  "venue": "211 Willis Street, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -41.2937209,
-    "long": 174.7751971
+    "lat": -41.2920933,
+    "long": 174.7731809
   },
   "dates": [
-    "2025-07-18-19:00"
+    "2025-09-07-15:00"
   ],
-  "displayDate": "Fri 18 Jul",
-  "url": "https://events.humanitix.com/jazz-orchestra-composer-series-presents-dave-wilson?hxchl=mkt-sch",
+  "displayDate": "Sun 07 Sep",
+  "url": "https://events.humanitix.com/an-invitation-to-love?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Music & Concerts",
-  "description": "The next concert in our series presents a new project by Dave Wilson titled Free, Free: Meditations on Liberation. This project brings together a collective of musicians from across the music communities of P\u014dneke in an invitation to explore the expansive possibilities for what liberation might sound like.\n\nFree, Free draws from legacies of musical collectivity, and celebrates a commitment to both collaboration and the distinct expression of each individual.\nRanging from contemplative minimalism to ecstatic ensemble energy and body-moving grooves, the music of Free, Free invites musicians and other listeners to tend to each moment, making their own offerings to shape the collective sound.\n\nDave Wilson is a saxophonist, clarinettist, composer, producer, and interdisciplinary scholar. His music bridges avant-garde and experimental music with various groove-oriented styles from the worlds of jazz, R&B, electronic music, and more.\n \nWith his 2023 album Ephemeral, described as \u201cquite spiritually intense music\u201d by The Guardian, he was a finalist for Te Manu Taki Tautito o te Tau | Best Jazz Artist at the Aotearoa Music Awards, and for the APRA Best Jazz Composition Award. Before relocating to Te Whanganui-a-Tara Wellington in 2016, Dave grew up in the Chicago area, lived for a decade in Los Angeles, and spent several stints living in Skopje, North Macedonia.\n \nFree, Free: Meditations on Liberation\nDave Wilson, Tyaan Singh \u2013 alto saxophone\nLouisa Williamson \u2013 tenor saxophone\nMonique Lapins, Mana Waiariki \u2013 violin\nKen Ichinose \u2013 cello\nKaito Walley, Natania Ngawhau \u2013 trombone\nBen Hunt \u2013 trumpet\nDaniel Hayles, Andrew Faleatua \u2013 piano and keyboard\nPhoebe Johnson \u2013 bass\nCallum Allardice \u2013 guitar\nHikurangi Schaverien-Kaa \u2013 drums\n\nThe performance will begin with an opening set by Flute Journeys, an offbeat mass flute ensemble with the self-described playing abilities of 5\u201312-year-olds, embodying a form of liberation in music.\n\nThe Jazz Orchestra Composer Series showcases original music for large jazz ensemble by New Zealand composers. Concerts take place every 1st and 3rd Friday of the month, from May to October, from 7pm. Tickets are $15, door sales $20.\nThanks to CNZ for their generous support."
+  "description": "Cantoris is excited to announce our second concert for 2025: An Invitation to Love.\nDirected by Ingrid Schofield | Accompanied by Heather Easting Romantic love, sacred love, and even friendship will be captured through the works of Tallis, Ireland, Whitacre, and the shimmering centrepiece of Lauridsen's Nocturnes.\nNew works by Wellington's own Jonathan Berkahn sit alongside a vibrant selection of madrigals that capture the joy, longing, and playful spirit that love inspires.\nWe cannot wait to perform and share our love of this music with you.\n\ud83d\udd52 Sunday 7th September | 3pm \ud83d\udccd  St Peter's Anglican Church | 211 Willis Street, P\u014dneke"
+},
+{
+  "id": "Vocal Blokes Back on Track-209 The Parade, Island Bay, Wellington 6023, New Zealand-Humanitix",
+  "name": "Vocal Blokes Back on Track",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/hO1T0Lg1QryWeCHo3pbH",
+  "venue": "209 The Parade, Island Bay, Wellington 6023, New Zealand",
+  "coordinates": {
+    "lat": -41.3368935,
+    "long": 174.772994
+  },
+  "dates": [
+    "2025-08-17-15:00"
+  ],
+  "displayDate": "Sun 17 Aug",
+  "url": "https://events.humanitix.com/vocal-blokes-back-on-track?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Music & Concerts",
+  "description": "All aboard for an afternoon of music, mateship, and rhythm!\nThe Vocal Blokes are back \u2014 refreshed, re-energised, and ready to raise the roof with a mix of toe-tapping favourites and brand-new tunes.\nUnder the dynamic leadership of Music Director Paddy Shanahan, and joined by the electrifying Andreas Lepper on percussion, this isn\u2019t your average choir concert.\nExpect rich harmonies, big energy, and a few surprises.\nWhether you're a longtime fan or a curious newcomer, you\u2019ll leave smiling (and maybe singing a tune or two)."
 },
 {
   "id": "Jazz Orchestra Composer Series Presents: Callum Passells-Level 1/18 Garrett Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
@@ -240,8 +381,8 @@
   "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/KsT0eVWQb6nVBJG75u7R",
   "venue": "Level 1/18 Garrett Street, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -41.5000831,
-    "long": 172.8344077
+    "lat": -41.29336,
+    "long": 174.7745002
   },
   "dates": [
     "2025-08-01-19:00"
@@ -250,25 +391,25 @@
   "url": "https://events.humanitix.com/jazz-orchestra-composer-series-presents-callum-passells?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Music & Concerts",
-  "description": "The seventh concert in our series is a new suite of music by T\u0101maki Makaurau composer, performer, and educator; Callum Passells.\nFor the Jazz Orchestra Composer Series Callum brings new music for his ensemble LCR, an ensemble which features three identical saxophone trios (sax, bass, and drums) that play with and against each other in a kaleidoscopic and often explosive fashion. The new pieces commissioned for this series continue to stretch at the fabric of jazz and improvised forms, and are inspired by Morton Feldman, Lennie Tristano, Henry Threadgill and Sly Stone.\nCallum has been deeply involved in the New Zealand jazz and improvised music scene for over a decade, and is a busy freelancer in the wider music community in Auckland. He has performed with Aldous Harding, Hans Pucket, the Exploding Rainbow Orchestra, the Auckland Philharmonia Orchestra, among many others. In 2021, Callum was commissioned to compose a large-scale work 'Solid Spirit, Liquid Body' for the Wellington Jazz Festival. He is currently completing a Master of Music degree at the University of Auckland, where he also teaches saxophone.\nThe Jazz Orchestra Composer Series showcases original music for large jazz ensemble by New Zealand composers. Concerts take place every 1st and 3rd Friday of the month, from May to October, from 7pm. Tickets are $15, door sales $20."
+  "description": "The new pieces commissioned for this series continue to stretch at the fabric of jazz and improvised forms, and are inspired by Morton Feldman, Lennie Tristano, Henry Threadgill and Sly Stone.\nCallum has been deeply involved in the New Zealand jazz and improvised music scene for over a decade, and is a busy freelancer in the wider music community in Auckland.\nHe has performed with Aldous Harding, Hans Pucket, the Exploding Rainbow Orchestra, the Auckland Philharmonia Orchestra, among many others.\nIn 2021, Callum was commissioned to compose a large-scale work 'Solid Spirit, Liquid Body' for the Wellington Jazz Festival.\nThe Jazz Orchestra Composer Series showcases original music for large jazz ensemble by New Zealand composers."
 },
 {
-  "id": "The Tempests EP Release-62 Bell Street, Featherston 5710, New Zealand-Humanitix",
-  "name": "The Tempests EP Release",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/jldjpfMGSCiBYbbsJj2J",
-  "venue": "62 Bell Street, Featherston 5710, New Zealand",
+  "id": "KPOP PARTY | Friends of Korea x Kick Back Events-17b Allen Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+  "name": "KPOP PARTY | Friends of Korea x Kick Back Events",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/RVbrmtvzSwG3rkAaDQ35",
+  "venue": "17b Allen Street, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -41.1157439,
-    "long": 175.3286014
+    "lat": -41.2929705,
+    "long": 174.7826363
   },
   "dates": [
-    "2025-07-19-19:30"
+    "2025-08-01-20:00"
   ],
-  "displayDate": "Sat 19 Jul",
-  "url": "https://events.humanitix.com/the-tempests-ep-release-c6udvwt5?hxchl=mkt-sch",
+  "displayDate": "Fri 01 Aug",
+  "url": "https://events.humanitix.com/kpop-party-or-friends-of-korea-x-kick-back-events?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Music & Concerts",
-  "description": "The Tempests\nVocalists Jade Eru and Lynley Christoffersen weave vocal magic born from a shared experience and bond that only comes from years of singing together to create a sound greater than the sum of its parts. \nSoulful, sweet harmonies skillfully backed by a band of accomplished yet understated musicians.\nDrummer Richard Te One, bassist Miklin Halstead, guitarists Chris Armour and Rob Matthews form the backbone of The Tempests. Drawing from a deep well of musical knowledge and influences, their supportive and tenacious musicianship help to swell the sound of the Tempests and serve the song. \nThe Tempests have crafted timeless melodies and emotionally rich songs into vivid aural tapestries.\nHamish Graham.\nHamish has often been found on a baritone guitar with Wellington stalwarts Hobnail, or fronting his own cello-pop ensemble, Milkthistle.\nHamish brings his distinctive take on the world around us with lush and lively approaches to well-crafted songs that follow an arc of experiences and emotions."
+  "description": "Wellington\u2019s KPOP Party: Through the Ages of KPOP!\n\ud83c\uddf0\ud83c\uddf7 From the old school beats of SHINee and SNSD to the futuristic sounds of aespa, we\u2019re taking you on a journey through the years of KPOP.\nCome and have some fun with us on this night you won\u2019t want to miss!\nDoor sales will be available if tickets are not sold out.\nYou can refund your ticket up to 1 days before the event."
 },
 {
   "id": "Kim Churchill (Australia) LIVE at St Peter's Village Hall | Paekakariki-Beach Road, Paek\u0101k\u0101riki 5034, New Zealand-Humanitix",
@@ -286,7 +427,25 @@
   "url": "https://events.humanitix.com/kim-churchill-australia-live-at-st-peter-s-village-hall-or-paekakariki?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Music & Concerts",
-  "description": "Experience Kim Churchill Live \u2013 For the First Time Ever in New Zealand!\nBeloved for his soulful storytelling and breathtaking live shows, Kim Churchill is finally bringing his dynamic sound across the Tasman. This marks Kim\u2019s debut tour of Aotearoa, and you will have the rare opportunity to witness his mesmerizing performances in intimate venues around the country. With his unique blend of folk, blues, and layered acoustic textures, these shows promise to be unforgettable nights of music, heart, and connection!\nNovember 30 @ St Peter's Village Hall, Paekakariki\n2:30pm doors / 3:00pm start\nOver the past 12 years Kim has achieved some incredible things as a professional musician. He\u2019s recognised as much internationally as he is in Australia, having performed headline shows, festivals and supports alike all over the planet. Notable performances include Glastonbury, Splendour in the Grass, Falls Festival, Montreal Jazz, Telluride Blues, and supports with Milky Chance, Billy Bragg, Michael Franti and Nahko and the Medicine People,\nKnown for his magnetic, dynamic stage presence, Kim unites lyrical artistry with fierce vocals; he is a sonic architect \u2013 using his guitar to create landscapes, which animate his lyrics. Don\u2019t miss your chance to see Kim Churchill up close, as he delivers the full force of his artistry \u2013 weaving raw emotion with technical brilliance and passion. Whether you\u2019ve followed his journey from afar or are discovering his music for the first time, this tour is set to be a celebration of song and spirit from one of Australia\u2019s most compelling live performers.\nA Message From Kim\nI feel like I\u2019m just beginning. Which is strange because for the last 15 years I\u2019ve been living in the back of a camper van playing gigs and chasing this crazy dream. I grew up in a small town on the east coast of Australia called Merimbula. We\u2019re mainly known for Surfing, Oysters and Whale Watching. I started busking at local farmers markets when I was 15 and had a fake ID so I could play some pubs around my area. I set off in a van straight after high school to chase my dreams and surf my way across the country.\nIn that first year I was lucky to win the Byron Bluesfest Busking comp and became Folk Artist of the Year and the National Folk Festival. This led to some incredible adventures to Japan, North America and Europe. I busked all over the world and bought 2 more camper vans on different continents. I have three now and each year I fly between them playing festivals and seeking the far corners of world and all the beautiful places I can play music I was lucky enough to become good friends with Billy Bragg from England early on and he taught me a lot about longevity and living as an artist for the long haul. He took me across America, Canada, Europe and England In a tour bus for a whole year and we played Glastonbury Music Festival together. After that time, I wrote a song called \u2018Window to the Sky\u2019. It was on an album called \u2018Silence/Win\u2019 which really helped me step up a few notches. I signed major record deals with Warner, Atlantic Records (UK) and Universal (Europe). \u2018Window to the Sky\u2019 was the most played song on triple J at that time and it went on to be 42 in the Hottest 100 and is Platinum in Australia, Gold in Canada and Germany .and has over 50 million streams!\nI manage myself these days and am at the wheel of this beautiful ship. I have amazing people around the world who have become dear friends over the years and help me on my path. But I\u2019m so so proud to be an artist in control of my own journey. Big thanks to Billy! for setting such a fine example\nA few years ago, I started waking up before Dawn and creating a little sunrise ritual out of my song writing. Every morning I get up at about 5am and light some candles and write music. This inspired my last album \u2018Dawn Sounds\u2019 which came out in January 2023. I toured it around the world as an independent self managed artist.and sold over 12 thousand tickets and played 149 concerts Now I'm back in Australia in my camper van writing this from a small town on the Eyre Peninsula in South Australia. I\u2019m have a new album coming out October 11th and am. excited tour it all around the world. It\u2019s called \u2018It\u2019s Lovely To Have You Here\u2019"
+  "description": "Whether you\u2019ve followed his journey from afar or are discovering his music for the first time, this tour is set to be a celebration of song and spirit from one of Australia\u2019s most compelling live performers.\nI have three now and each year I fly between them playing festivals and seeking the far corners of world and all the beautiful places I can play music I was lucky enough to become good friends with Billy Bragg from England early on and he taught me a lot about longevity and living as an artist for the long haul.\n\u2018Window to the Sky\u2019 was the most played song on triple J at that time and it went on to be 42 in the Hottest 100 and is Platinum in Australia, Gold in Canada and Germany .and has over 50 million streams!\nI toured it around the world as an independent self managed artist.and sold over 12 thousand tickets and played 149 concerts Now I'm back in Australia in my camper van writing this from a small town on the Eyre Peninsula in South Australia.\nI\u2019m have a new album coming out October 11th and am."
+},
+{
+  "id": "august meet-up \u2605 new project announcement!-85 Ghuznee Street, Te Aro, Wellington 6012, New Zealand-Humanitix",
+  "name": "august meet-up \u2605 new project announcement!",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/3fPEhCSx6HrIbjfdthaQ",
+  "venue": "85 Ghuznee Street, Te Aro, Wellington 6012, New Zealand",
+  "coordinates": {
+    "lat": -41.2929493,
+    "long": 174.7742582
+  },
+  "dates": [
+    "2025-08-05-18:00"
+  ],
+  "displayDate": "Tue 05 Aug",
+  "url": "https://events.humanitix.com/august-meet-up-new-project-announcement?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Arts & Theatre",
+  "description": "We have been working on a beautiful new project!\nThis is one that you can make and submit photographs for, to eventually share in a special event we are hosting!\nThis meet-up will focus on introducing to you this special project, delving into the theme, and providing some examples and inspirations to get your creativity flowing.\nWe will be joined by local photographers Russell Kleyn and Abigail Legg who will show us some of their photographs and chat through their process."
 },
 {
   "id": "One for the Road - a queer poetry showcase-8 Chews Lane, Wellington 6011, New Zealand-Humanitix",
@@ -305,7 +464,7 @@
   "url": "https://events.humanitix.com/one-for-the-road-a-queer-poetry-showcase?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Arts & Theatre",
-  "description": "An intoxicating night of poetry reading at elixir, P\u014dneke's most enchanting boutique cocktail bar, featuring a diverse cast of queer poets including special guest essa may ranapiri! Come enjoy some fine food and drink and equally fine writing in the heart of the city, the Sunday after Phantom Billstickers National Poetry Day, for a classy way to top off a weekend of literary events in style.\nDoors open 6pm, poetry begins 6:30pm."
+  "description": "An intoxicating night of poetry reading at elixir, P\u014dneke's most enchanting boutique cocktail bar, featuring a diverse cast of queer poets including special guest essa may ranapiri!\nCome enjoy some fine food and drink and equally fine writing in the heart of the city, the Sunday after Phantom Billstickers National Poetry Day, for a classy way to top off a weekend of literary events in style.\nDoors open 6pm, poetry begins 6:30pm."
 },
 {
   "id": "Bookmark Big Night Out-21 Birmingham Street, Paraparaumu 5032, New Zealand-Humanitix",
@@ -323,25 +482,25 @@
   "url": "https://events.humanitix.com/bookmark-big-night-out?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Arts & Theatre",
-  "description": "Voice, music, and visuals collide in an electric celebration of people, story, and place.\n\nBookmark Big Night Out brings together a powerhouse lineup of musicians and storytellers: Mocean (Julia Truscott, Himiona Grace & Janet Holborow), Hinemoana Baker, Te Kahu Rolleston, and Jess Deacon, with stunning visuals by Phil Simmonds.\nExperience K\u0101piti storytelling like never before.\n\n18+\nTickets are limited so get in quick!\nNo door sales!\nNg\u0101 mihi to Valley Audio for sponsoring this event."
+  "description": "Voice, music, and visuals collide in an electric celebration of people, story, and place.\nBookmark Big Night Out brings together a powerhouse lineup of musicians and storytellers: Mocean (Julia Truscott, Himiona Grace & Janet Holborow), Hinemoana Baker, Te Kahu Rolleston, and Jess Deacon, with stunning visuals by Phil Simmonds.\nExperience K\u0101piti storytelling like never before.\n18+ Tickets are limited so get in quick!\nNo door sales!"
 },
 {
-  "id": "Messiah-71 Woburn Road, Hutt Central, Lower Hutt 5010, New Zealand-Humanitix",
-  "name": "Messiah",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/0Zzt6gEQQk6ppzUfR0XA",
-  "venue": "71 Woburn Road, Hutt Central, Lower Hutt 5010, New Zealand",
+  "id": "Jason Hotton's Energy Technology Workshop- Carterton-50 Holloway Street, Carterton 5713, New Zealand-Humanitix",
+  "name": "Jason Hotton's Energy Technology Workshop- Carterton",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/FHJEyr8aRVCqTNoB21Iw",
+  "venue": "50 Holloway Street, Carterton 5713, New Zealand",
   "coordinates": {
-    "lat": -41.2129991,
-    "long": 174.9005893
+    "lat": -41.025776,
+    "long": 175.5285261
   },
   "dates": [
-    "2025-07-19-15:00"
+    "2025-08-10-10:00"
   ],
-  "displayDate": "Sat 19 Jul",
-  "url": "https://events.humanitix.com/messiah-gwknhdcp?hxchl=mkt-sch",
+  "displayDate": "Sun 10 Aug",
+  "url": "https://events.humanitix.com/jasonhottonworkshop-carterton?hxchl=mkt-sch",
   "source": "Humanitix",
-  "eventType": "Arts & Theatre",
-  "description": "Experience the uplifting power of Handel\u2019s Messiah this winter with a special afternoon performance at 3pm on Saturday, 19 July 2025, at St James' Anglican Church, Lower Hutt. \nThis unique collaboration brings together two of Wellington\u2019s most respected choirs: the Festival Singers, directed by Ingrid Schoenfeld, and the St Mary of the Angels Choir, directed by William McElwee. \nAcclaimed organist Jonathan Berkahn will accompany the performance, adding his signature depth and colour to the work\u2019s stirring arias and choruses.\nIngrid Schoenfeld, a concert pianist, has led the Festival Singers since 2019, earning praise for her warm, engaging conducting style and commitment to musical excellence. \nWilliam McElwee, Director of Music at St Mary of the Angels, is a multifaceted musician known for drawing outstanding vocalism from his choirs and stretching them musically. \nJonathan Berkahn, a seasoned performer and educator with a PhD in musicology, brings a wealth of experience as an accompanist, soloist, and chamber musician, enriching the performance with his expertise.\nWhile traditionally associated with Christmas and Easter, this mid-winter performance of Messiah offers a refreshing opportunity to experience its radiant choruses and sparkling solos in a new light. \nThe comfortable setting and lovely acoustics of St James' Anglican Church make it an ideal venue for a winter afternoon concert \u2013 a popular choice during the colder months. \nFeaturing talented soloists from both choirs, this concert promises to be a heart-warming highlight of the season."
+  "eventType": "Religion & Spirituality",
+  "description": "-Learn about our innovative Bubble Tech Triple Cone Orgonite Technology and how you can use it to create a positive impact on your health, wellbeing, consciousness and Humanity -Delve into the importance of Structured Water and its profound impact on all living things and Mother Earth -A deep dive into Tensor Technology: working with copper and sacred geometry to create life force energy to impact nature and increase your own wellbeing Finally you'll discover how the combination of these technologies will empower you to make a lasting impact on yourself and the world around you."
 },
 {
   "id": "Brooklyn School Fundraiser - The Goonies at the Penthouse-205 Ohiro Road, Brooklyn, Wellington 6021, New Zealand-Humanitix",
@@ -359,7 +518,7 @@
   "url": "https://events.humanitix.com/brooklyn-school-fund-raiser-the-goonies-at-the-penthouse?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Education & Learning",
-  "description": "Join us for a nostalgic adventure to the cinema with our fundraiser screening of THE GOONIES!\nA group of young misfits called The Goonies discover an ancient map and set out on an adventure to find a legendary pirate's long-lost treasure. Starring a very young Sean Astin and Josh Brolin!\nTickets are $25 each and all profits go towards Brooklyn School\u2019s playground upgrade for the youngest students (Tui classrooms).\nTHE GOONIES (1985) is rated PG with a content warning for coarse language. There are also some mildly scary scenes.\nThis event is General Admission - come early if you want the best seat in the house!\nParking\nThere is a pay and display car park located on the south side of the cinema building on Ohiro Road.  You can also pay for the southside (downhill) carpark inside the cinema at the tills.  Not the north side park. The carpark is camera operated by Smart Compliance Management. If you have any issues with parking please do not hesitate to email office@penthousecinema.co.nz \nOtherwise - there is limited on street parking around the venue."
+  "description": "Join us for a nostalgic adventure to the cinema with our fundraiser screening of THE GOONIES!\nStarring a very young Sean Astin and Josh Brolin!\nTickets are $25 each and all profits go towards Brooklyn School\u2019s playground upgrade for the youngest students (Tui classrooms).\nThere are also some mildly scary scenes.\nParking There is a pay and display car park located on the south side of the cinema building on Ohiro Road."
 },
 {
   "id": "Falling Walls Lab Aotearoa New Zealand 2025-11 Turnbull Street, Thorndon, Wellington 6011, New Zealand-Humanitix",
@@ -377,7 +536,7 @@
   "url": "https://events.humanitix.com/falling-walls-lab-aotearoa-new-zealand-2025?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Education & Learning",
-  "description": "Royal Society Te Ap\u0101rangi invites you to attend Falling Walls Lab Aotearoa New Zealand 2025 on\nThursday 7 August where 21 participants from Aotearoa New Zealand and the Pacific Island Nations will pitch their innovative breakthrough idea for the chance to represent the region and compete at the Falling Walls Lab Global Finale in Berlin. \nParticipants will have 3 minutes to showcase their innovative research, scientific idea, or evidence-based initiative, and how it could make a difference for society.\nAttend this FREE event to hear the participants pitch their breakthrough ideas to the Falling Walls Lab Aotearoa New Zealand Jury and be inspired by these students and early-career professionals!\n\nMorning Session - H\u014dtaka Programme\n11.30am Mihi welcome and introductory remarks\n11.45am Pitch presentations (participants 1-10)\n12.45pm Kai a te R\u0101nui Lunch\nAfternoon Session - H\u014dtaka Programme\n1.45pm Pitch presentations (participants 11-21)\n2.45pm Networking break / Kaiwhakaw\u0101 Jury evaluation session\n3.45pm Award ceremony / Group photo and closing remarks\n4.15\u20136.00pm Networking and connecting reception\n\nKaitautoko Partners\nFalling Walls Lab Aotearoa New Zealand is hosted by Royal Society Te Ap\u0101rangi with support from the German Embassy in Wellington, the Ministry of Business, Innovation and Employment and EURAXESS Australia & New Zealand.\n\nAbout Falling Walls\nFalling Walls Labs are organised by independent partners of Falling Walls Foundation across the globe. The winners of each Lab travel to Berlin for the Falling Wall Lab Global Finale run by the Falling Walls Foundation.\nFalling Walls is inspired by the world-changing event of the fall of the Berlin Wall on 9 November 1989, with the question at every Falling Walls gathering: Which walls will fall next?\n ***For event enquiries, please contact the organisers at events@royalsociety.org.nz"
+  "description": "Royal Society Te Ap\u0101rangi invites you to attend Falling Walls Lab Aotearoa New Zealand 2025 on Thursday 7 August where 21 participants from Aotearoa New Zealand and the Pacific Island Nations will pitch their innovative breakthrough idea for the chance to represent the region and compete at the Falling Walls Lab Global Finale in Berlin.\nAttend this FREE event to hear the participants pitch their breakthrough ideas to the Falling Walls Lab Aotearoa New Zealand Jury and be inspired by these students and early-career professionals!\nAbout Falling Walls Falling Walls Labs are organised by independent partners of Falling Walls Foundation across the globe.\nThe winners of each Lab travel to Berlin for the Falling Wall Lab Global Finale run by the Falling Walls Foundation.\n***For event enquiries, please contact the organisers at events@royalsociety.org.nz"
 },
 {
   "id": "WellyForge#3, 20th August 2025-118 Tory Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
@@ -395,7 +554,7 @@
   "url": "https://events.humanitix.com/wellyforge-3-20th-august-2025?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Education & Learning",
-  "description": "Join us to help progress Wellington by bringing together science, tech & investors from across the city into an informal, fun and informative meet-up. The goal of the event is that you learn something new, meet someone new, have fun and we all start forging new paths ahead for Wellington.\nThe August event will have see us ask the mayoral candidates for Wellington about their plans for the economy and how they see tech & science playing into them. The event will be MCed by Wellington science journalist Peter Griffin, and, at this point, we have three candidates confirmed:\nAndrew Little\nKarl Tiefenbacher\nRay Chung\nWe won't know until 1st August who the final candidates are.\nThe venue is bohemian bookstore, Undercurrent, a perfect venue for story telling but tickets are limited - so please reserve yours, but if you do end up not being able to come please return the ticket!\nRegister for regular emails from WellyForge"
+  "description": "Join us to help progress Wellington by bringing together science, tech & investors from across the city into an informal, fun and informative meet-up.\nThe goal of the event is that you learn something new, meet someone new, have fun and we all start forging new paths ahead for Wellington.\nThe August event will have see us ask the mayoral candidates for Wellington about their plans for the economy and how they see tech & science playing into them.\nThe event will be MCed by Wellington science journalist Peter Griffin, and, at this point, we have three candidates confirmed: Andrew Little Karl Tiefenbacher Ray Chung We won't know until 1st August who the final candidates are.\nThe venue is bohemian bookstore, Undercurrent, a perfect venue for story telling but tickets are limited - so please reserve yours, but if you do end up not being able to come please return the ticket!"
 },
 {
   "id": "Friends of Karori Cemetery: Military Tales from the Services Section (Aug 2025)-76 Old Karori Road, Karori, Wellington 6012, New Zealand-Humanitix",
@@ -413,7 +572,7 @@
   "url": "https://events.humanitix.com/friends-of-karori-cemetery-military-tales-from-the-services-section-aug-2025?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Other",
-  "description": "Military Tales from the Services Area\nCome and hear tales from our military history.\nThe tour duration is 1 hour 30mins. The tour mostly follows paved surfaces but there are some areas of unevenness.\nOur tour has a maximum capacity of about 15 persons. If there are insufficient tickets remaining for your party, please email us at info@friendsofkaroricemetery.co.nz to check if we can accommodate you.\nNote:\nIf we have to cancel a tour due to inclement weather or sickness, we will notify you on the day 1 hour before the tour starts by email and on our Facebook page.\n\nPlease dress appropriately for the conditions. While we do our best to guide you on a safe walking route, during the winter months the ground can become slippery in places.\nSome of our walks require a moderate degree of fitness and are not suited for those with limited mobility. Please read the tour descriptions carefully to check that they will be suitable for you.\nWe look forward to welcoming you to Karori Cemetery."
+  "description": "Military Tales from the Services Area Come and hear tales from our military history.\nNote: If we have to cancel a tour due to inclement weather or sickness, we will notify you on the day 1 hour before the tour starts by email and on our Facebook page.\nSome of our walks require a moderate degree of fitness and are not suited for those with limited mobility.\nPlease read the tour descriptions carefully to check that they will be suitable for you.\nWe look forward to welcoming you to Karori Cemetery."
 },
 {
   "id": "House of Marama Vogue Night | 22nd Aug 8pm-63 Cuba Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
@@ -432,7 +591,7 @@
   "url": "https://events.humanitix.com/house-of-marama-vogue-night-or-22nd-aug-8pm?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Other",
-  "description": "The Mesmerising Kiki HOUSE OF MARAMA will be hosting a VOGUE NIGHT this August!\nCome and get your life on Friday 22nd August at Ivy Bar & Cabaret!\nTICKETS\nGA $20 + Online Fees (LIMITED)\nExtra koha Tickets $25 (min.) + Online Fees (LIMITED)\n$25 Doorsales until Midnight (LIMITED) Cash or Eftpos.\nWHEN Friday 22nd August (2025) \u2014 Doors open from 8.00pm, Categories start from 9:30pm.\nWHERE Ivy Bar & Cabaret, Wellington (NZ) R18+ \nCATEGORIES\nOTA FACE (trophy)\nOTA BODY (trophy)\nOTA RUNWAY (trophy)\nSHAKE VS SHAKE (trophy)\nOTA PERFORMANCE (trophy)\nOVERALL THEME: COME AS YOU ARE\n* Refer to the 'Ballroom Terminology' section below and our instagram post for more details about each category.\n\nJUDGES, CHANTERS & DJ\nMOTHER ROME' MARAMA\nFQ GODMOTHER HIBISCUS MARAMA\nFQ ANTHEA MARAMA\nORIJAH MARAMA (MC/Commentator)\nKAYUHSEEYUH (DJ)\nFollow our Instagram @houseofmarama to keep up to date with our events.\n--------\nBallroom is a safe space created in the 1960's, forged by the Black, Latinx and queer Americans in protest against the racism and queerphobia that they faced from the non-queer community and white queer community. It is a space held to protect trans womxn of colour, so as guests and participants within this culture it is imperative that we all do our best to respect and honour this sacred space. Homophobia, Transphobia, and any discriminatory language and/or beliefs will not be tolerated. Remember to check your privilege at the door.\nTo learn more about the culture of Ballroom check out this link: \nhttps://artsandculture.google.com/project/ballroom. \nThe HOUSE OF MARAMA honours the whenua in which this event is able to take place on, belonging to the true sovereigns: \nTe \u0100tiawa iwi. We also stand in solidarity with indigenous peoples across the world facing injustice. \nTOIT\u016a TE TIRITI\nFREE PALESTINE\nFREE CONGO\nFREE WEST PAPUA\nFREE KANAKY\nFREE INDIGENOUS PEOPLE EVERYWHERE. \nLAND BACK.\nBe sure to check out the growing Wellington Ballroom scene and community by following @houseofmarama and @wlgballroom on Instagram.\nPlease do not hesitate to contact us via houseofmarama@gmail.com or on any of our socials for any questions or concerns you may have.\n---------\nBALLROOM TERMINOLOGY*\nOTA = Open to All, not limited to a specific gender identity/expression, or category style.\nSHAKE VS SHAKE = We wanna see you shake that ass, shake that hair, shake those thighs. We want to see why YOU have the best shake.\nFACE = Serve FACE, highlighting your structure, eyes, teeth, skin and nose. Makeup allowed.\nBODY =The ability to sell your confidence in yourself, specifically through your body (not through sex appeal).\nPERFORMANCE = Performing and battling in a style of Vogue (Old Way, New Way, or Vogue Fem)."
+  "description": "The Mesmerising Kiki HOUSE OF MARAMA will be hosting a VOGUE NIGHT this August!\nCome and get your life on Friday 22nd August at Ivy Bar & Cabaret!\nRemember to check your privilege at the door.\nThe HOUSE OF MARAMA honours the whenua in which this event is able to take place on, belonging to the true sovereigns: Te \u0100tiawa iwi.\nOTA = Open to All, not limited to a specific gender identity/expression, or category style."
 },
 {
   "id": "New Zealand Book Awards for Children & Young Adults Ceremony 2025-55-59 Thorndon Quay, Pipitea, Wellington 6011, New Zealand-Humanitix",
@@ -450,7 +609,7 @@
   "url": "https://events.humanitix.com/nz-book-awards-2025?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Other",
-  "description": "Buy your tickets now for the 2025 New Zealand Book Awards for Children and Young Adults to join the celebration of the best books of the year for young New Zealand readers. You\u2019ll get to meet the finalists and applaud the winners at an exuberant awards ceremony in the characterful Pipitea Marae on Wednesday 13 August.\nForty-seven gifted children\u2019s writers, illustrators and translators are finalists in this year\u2019s awards. Their achievements will be acknowledged on the night by publishers, politicians, booksellers, librarians, media and supporters of the children\u2019s literature community. Members of the public are welcome to purchase tickets too.\nWinners in the 2025 New Zealand Book Awards for Children and Young Adults will be announced in six categories: Picture Book (the BookHub Award), Junior Fiction (the Wright Family Foundation Esther Glen Award), Young Adult Fiction, Non-Fiction, Illustration (the Russell Clark Award) and Te Reo M\u0101ori (the Wright Family Foundation Te Kura Pounamu Awards).\nOne of the category winners will be named the night\u2019s supreme winner of the Margaret Mahy Book of the Year. The judges will also present the NZSA Best First Book award to a previously unpublished author or illustrator from a shortlist of five titles.\nAll guests with tickets are also invited to the post-ceremony function in the Pipitea\u2019s wharekai, with food and refreshments served from 8.30pm to 10.00pm.\nThis is a popular event with a limited number of seats, so book your place today and enjoy this wonderful celebration of Aotearoa\u2019s very best children\u2019s literature.\nFacebook\nInstagram\nTiktok"
+  "description": "Buy your tickets now for the 2025 New Zealand Book Awards for Children and Young Adults to join the celebration of the best books of the year for young New Zealand readers.\nYou\u2019ll get to meet the finalists and applaud the winners at an exuberant awards ceremony in the characterful Pipitea Marae on Wednesday 13 August.\nTheir achievements will be acknowledged on the night by publishers, politicians, booksellers, librarians, media and supporters of the children\u2019s literature community.\nMembers of the public are welcome to purchase tickets too.\nThis is a popular event with a limited number of seats, so book your place today and enjoy this wonderful celebration of Aotearoa\u2019s very best children\u2019s literature."
 },
 {
   "id": "Unity Book Club August 2025 | Before the Winter Ends-57 Willis Street, Wellington Central, Wellington 6011, New Zealand-Humanitix",
@@ -468,7 +627,7 @@
   "url": "https://events.humanitix.com/unity-book-club-august-2025-or-before-the-winter-ends?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Other",
-  "description": "About the book: \nIn the cold Wellington winter, Omar\u2019s grades are slipping, his mum is unwell and his best friend is growing distant. Two decades earlier in Mogadishu, Asha and Yasser are falling in love and starting to build a life together while a burgeoning war threatens to take it away.\nBefore the Winter Ends explores the relationship between mother and son across Aotearoa New Zealand, Somalia and Egypt as they search for understanding and try to bridge the distance between them. Khadro Mohamed\u2019s debut novel is a stark portrayal of how the past illuminates the present and how grief shapes a family.\n\nMelissa and Eden will be hosting our monthly book club to discuss some of the excellent recently released books.\n\nIn July we will be discussing Before the Winter Ends by Khadro Mohamed.\n\nWe have limited tickets available so grab a ticket sooner rather then later and tell your friends and wh\u0101nau.\n\nDrinks and snacks provided. If you have any specific allergies, let us know and send an email.\n\nIf you have any further queries send us an email to wellington@unitybooks.co.nz and address it to Melissa."
+  "description": "Two decades earlier in Mogadishu, Asha and Yasser are falling in love and starting to build a life together while a burgeoning war threatens to take it away.\nKhadro Mohamed\u2019s debut novel is a stark portrayal of how the past illuminates the present and how grief shapes a family.\nIn July we will be discussing Before the Winter Ends by Khadro Mohamed.\nWe have limited tickets available so grab a ticket sooner rather then later and tell your friends and wh\u0101nau.\nDrinks and snacks provided."
 },
 {
   "id": "It's the Little Websites that Count-115 Taranaki Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
@@ -486,12 +645,12 @@
   "url": "https://events.humanitix.com/its-the-little-websites-that-count?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Other",
-  "description": "For most current technology, it is assumed that the user is always online and has access to unlimited data. But this assumption is only valid for regions with the infrastructure to support the internet. As more vital communications and services transition into websites, how do we make sure that these services are still usable in areas with only low bandwidth internet or during natural disasters? In this event we will start a discussion about developing smaller websites for accessibility in Aotearoa.\nAbout the host\nVic Roberts is a computer vision scientist who works with machine learning in medical imaging. In her spare time, she likes to ponder about how to tackle the digital divide."
+  "description": "For most current technology, it is assumed that the user is always online and has access to unlimited data.\nBut this assumption is only valid for regions with the infrastructure to support the internet.\nAs more vital communications and services transition into websites, how do we make sure that these services are still usable in areas with only low bandwidth internet or during natural disasters?\nIn this event we will start a discussion about developing smaller websites for accessibility in Aotearoa.\nAbout the host Vic Roberts is a computer vision scientist who works with machine learning in medical imaging."
 },
 {
   "id": "Mid-year Ceilidh-5 Woburn Road, Northland, Wellington 6012, New Zealand-Humanitix",
   "name": "Mid-year Ceilidh",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:800/output=format:jpg,quality:40/compress/ipKDEsT7QVKixbVF6w1P",
+  "imageUrl": "",
   "venue": "5 Woburn Road, Northland, Wellington 6012, New Zealand",
   "coordinates": {
     "lat": -41.281348,
@@ -522,6 +681,6 @@
   "url": "https://events.humanitix.com/awa-after-dark-spotlighting-at-korokoro-stream-belmont-regional-park?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Other",
-  "description": "Explore your local awa with freshwater experts from our Wai Connection team at this spotlighting event at Korokoro Stream. With your gumboots and a torch, head off on an evening h\u012bkoi to your local waterway to \u2018spotlight\u2019 and observe freshwater species in their natural habitat. Learn about the health of our waterways, freshwater conservation efforts in your neighbourhood, and some of the ways that you could become a kaitiaki of your local awa.\nAwa After Dark events take place in the early evening, they\u2019re perfect for the whole wh\u0101nau.\nThis event is free, but bookings are essential. These events are very popular, please let us know if you have booked and can no longer make it so we can reallocate your spot.\nOutdoor event:  This event is outdoors, please dress appropriately (gumboots and warm clothing recommended). If the weather is really bad, we'll let you know we\u2019re cancelling via the email you've provided us.\nLocation: The streams we spotlight often don't have an 'address'. On the day before the event, we'll email you all the details you need to find our exact meeting location on the night.\nWhat is spotlighting? Ever played spotlight with a fish? Heaps of our native freshwater critters are nocturnal. Scientists often visit freshwater areas at nighttime with a torch, it\u2019s the best time to see exactly who\u2019s living in our awa!\nWhat is Wai Connection? Wai Connection is a national programme delivered by Mountains to Sea Wellington aimed at connecting local communities to their waterways to improve them. We support communities and mana whenua with the knowledge, tools and expertise to monitor and care for their local freshwater places."
+  "description": "Explore your local awa with freshwater experts from our Wai Connection team at this spotlighting event at Korokoro Stream.\nWith your gumboots and a torch, head off on an evening h\u012bkoi to your local waterway to \u2018spotlight\u2019 and observe freshwater species in their natural habitat.\nLearn about the health of our waterways, freshwater conservation efforts in your neighbourhood, and some of the ways that you could become a kaitiaki of your local awa.\nOn the day before the event, we'll email you all the details you need to find our exact meeting location on the night.\nWai Connection is a national programme delivered by Mountains to Sea Wellington aimed at connecting local communities to their waterways to improve them."
 },
 ]

@@ -1,59 +1,71 @@
 [
   [
+    "https://www.ticketmaster.co.nz/mills-albert-wellington-saints-grand-final-wellington-20-07-2025/event/240062E1B33214FA",
+    "SportsEvent"
+  ],
+  [
     "https://www.ticketmaster.co.nz/illusionist-anthony-street-wellington-20-07-2025/event/2400629CD7871BB4",
-    "Other"
+    "SportsEvent"
   ],
   [
     "https://www.ticketmaster.co.nz/mamma-mia-wellington-13-08-2025/event/2400611B96F70DDF",
-    "TheaterEvent"
+    "Other"
   ],
   [
     "https://www.ticketmaster.co.nz/explorers-the-age-of-discovery-with-wellington-15-08-2025/event/2400626C890209DE",
-    "TheaterEvent"
+    "Other"
   ],
   [
     "https://www.moshtix.co.nz/v2/event/where-s-jai-album-release-tour-wellington/181315",
-    "MusicEvent"
+    "Other"
   ],
   [
     "https://www.ticketmaster.co.nz/the-bruce-springsteen-experience-wellington-23-08-2025/event/240060EF0984216C",
-    "MusicEvent"
+    "Other"
   ],
   [
     "https://www.ticketmaster.co.nz/mamma-mia-wellington-26-08-2025/event/2400611BC1D41D7F",
-    "TheaterEvent"
+    "MusicEvent"
+  ],
+  [
+    "https://www.moshtix.co.nz/v2/event/borderline-wellington/183244",
+    "MusicEvent"
   ],
   [
     "https://www.ticketmaster.co.nz/creedence-clearwater-collective-wellington-30-08-2025/event/24006108E7E288D0",
-    "TheaterEvent"
+    "MusicEvent"
   ],
   [
     "https://www.moshtix.co.nz/v2/event/great-sounds-great-festival-2025/181670",
-    "TheaterEvent"
+    "MusicEvent"
   ],
   [
     "https://www.ticketmaster.co.nz/paul-kelly-wellington-10-09-2025/event/24006151A82E2478",
-    "TheaterEvent"
+    "MusicEvent"
   ],
   [
     "https://www.ticketmaster.co.nz/kevin-bloody-wilson-aussie-icon-tour-wellington-11-09-2025/event/24006265DC352D6C",
-    "TheaterEvent"
+    "MusicEvent"
   ],
   [
     "https://www.ticketmaster.co.nz/the-monster-in-the-maze-wellington-12-09-2025/event/2400616B8DFB21C0",
-    "TheaterEvent"
+    "MusicEvent"
   ],
   [
     "https://www.ticketmaster.co.nz/gomil-grumpy-old-man-in-lycra-wellington-19-09-2025/event/240062A5944F104B",
-    "TheaterEvent"
+    "Other"
+  ],
+  [
+    "https://www.ticketmaster.co.nz/the-fleetwood-mac-experience-wellington-05-10-2025/event/240062C691EC16BF",
+    "Other"
   ],
   [
     "https://www.ticketmaster.co.nz/queen-its-a-kinda-magic-wellington-11-10-2025/event/2400613EF1D3352A",
-    "TheaterEvent"
+    "Other"
   ],
   [
     "https://www.ticketmaster.co.nz/rob-beckett-giraffe-wellington-11-10-2025/event/24006142D58E2348",
-    "TheaterEvent"
+    "Other"
   ],
   [
     "https://www.ticketmaster.co.nz/coal-miners-daughter-wellington-23-10-2025/event/2400626A7F9E080E",
@@ -85,10 +97,10 @@
   ],
   [
     "https://www.ticketweb.com/event/tray-wellington-bluegrass-on-3rd-3rd-and-lindsley-tickets/14489723",
-    "MusicEvent"
+    "TheaterEvent"
   ],
   [
     "https://www.ticketweb.com/event/tray-wellington-band-space-tickets/14453423",
-    "MusicEvent"
+    "TheaterEvent"
   ]
 ]

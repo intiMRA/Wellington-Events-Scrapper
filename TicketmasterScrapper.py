@@ -124,6 +124,8 @@ class TicketmasterScrapper:
             return None
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
+        if "ticketmaster.co.nz" in url:
+            return None
         driver.get(url)
         sleep(1)
         if "ticketmaster.co.nz" in url:
@@ -350,7 +352,7 @@ class TicketmasterScrapper:
 
         subprocess.run(['pkill', '-f', 'Google Chrome'])
         options = Options()
-        options.add_argument("--profile-directory=Profile 2")  # Specify profile name only
+        options.add_argument("--profile-directory=Profile 1")  # Specify profile name only
 
         # For Apple Silicon Macs
         options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"

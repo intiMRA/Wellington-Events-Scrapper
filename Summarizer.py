@@ -5,7 +5,7 @@ import nltk
 def sumerize(description) -> str:
     try:
         nltk.data.find('tokenizers/punkt')
-    except nltk.downloader.DownloadError:
+    except:
         nltk.download('punkt')
 
     parser = PlaintextParser.from_string(description, Tokenizer("english"))
