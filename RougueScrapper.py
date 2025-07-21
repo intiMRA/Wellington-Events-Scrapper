@@ -1,66 +1,77 @@
-import requests
-from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from time import sleep
 
-from DateFormatting import DateFormatting
+import FileNames
+import ScrapperNames
 from EventInfo import EventInfo
-import re
 from dateutil import parser
-from typing import  List, Set
+from typing import List, Set, Optional
+import json
 
 class RougueScrapper:
-
     @staticmethod
-    def fetch_events(previousTitltes: Set[str]) -> List[EventInfo]:
-        eventsInfo: List[EventInfo] = []
-        response = requests.get(f"https://rogueandvagabond.co.nz/")
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.content, 'html.parser')
-            # Find all divs with class 'deal_title'
-            events = soup.find_all('div', class_='vevent')
-            # Loop through each div and extract the title
-            for event in events:
-                imageURL = None
-                url = None
-                titleDiv = event.find_all('div', class_='gig-title')[0]
-                titleTag = titleDiv.find('a')
-                title = titleTag.get_text()
-                if title in previousTitltes:
-                    continue
+    def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
+        driver.get(url)
+        title: str = driver.find_element(By.CLASS_NAME, "display_title_1").text
+        date_string = driver.find_element(By.CLASS_NAME, "col-md-9").text.split("\n")[2].split(",")[0]
+        info_texts = driver.find_element(By.CLASS_NAME, "gig-guide-side-bar").text.split("\n")
+        time = "1:01AM"
+        found_gig_start = False
+        for text in info_texts:
+            if "GIG STARTS" in text:
+                found_gig_start = True
+            elif found_gig_start:
+                time = text
+                break
+        parts = date_string.split(" ")
+        date = parser.parse(f"{parts[1]} {parts[2]} {time}")
+        image_url = driver.find_element(By.CLASS_NAME, "img-responsive").get_attribute('src')
+        venue = "The Rogue & Vagabond"
+        description = driver.find_element(By.CLASS_NAME, "description").text
+        return EventInfo(name=title,
+                         dates=[date],
+                         image=image_url,
+                         url=url,
+                         venue=venue,
+                         source=ScrapperNames.ROGUE_AND_VAGABOND,
+                         event_type="Music",
+                         description=description)
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        events_info: List[EventInfo] = []
+        driver = webdriver.Chrome()
+        event_urls: List[str] = []
+        driver.get("https://rogueandvagabond.co.nz/")
+        sleep(2)
+        titles = driver.find_elements(By.CLASS_NAME, "vevent")
+        for title in titles:
+            event_url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
+            if event_url in previous_urls or event_url in event_urls:
+                continue
+            event_urls.append(event_url)
+        with open(FileNames.ROGUE_URLS, mode="w") as f:
+            json.dump(event_urls, f)
+        out_file = open(FileNames.ROGUE_EVENTS, mode="w")
+        out_file.write("[\n")
+        for url in event_urls:
+            print(f"url: {url}")
+            try:
+                event = RougueScrapper.get_event(url, driver)
+                if event:
+                    events_info.append(event)
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
+            except Exception as e:
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
+            print("-" * 100)
+        out_file.write("]\n")
+        driver.close()
+        return events_info
 
-                dateTag = event.find_all('span', class_='lite')[0].text
-                dateString = re.sub('\W+', ' ', dateTag).strip()
-                venue = "Rogue And Vagabond"
-                imageDivs = event.find_all('div', class_='gig-image')
-                if imageDivs:
-                    a_tag = event.find('a')
-                    imageTag = event.find('img')
-                    if imageTag:
-                        imageURL = imageTag.get('src')
-                    if a_tag:
-                        url = a_tag.get('href')
-
-                dateString = DateFormatting.cleanUpDate(dateString)
-                match = re.findall(r"(\d{1,2}\s\w+\s\d{1,2}\s[pam0-9]{4})", dateString)[0]
-                parts = match.split(" ")
-                time = ":".join(parts[-2:])
-                match = " ".join(parts[:-2]) + " " + time
-                date = parser.parse(match)
-                date = DateFormatting.replaceYear(date)
-                try:
-                    eventsInfo.append(EventInfo(name=title,
-                                                dates=[date],
-                                                image=imageURL,
-                                                url=url,
-                                                venue=venue,
-                                                source="Rogue & Vagabond",
-                                                eventType="Music"))
-                except Exception as e:
-                    print(f"rogue: {e}")
-        else:
-            print(f"Failed to retrieve the page. Status code: {response.status_code}")
-
-        return eventsInfo
-
-# events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(), key=lambda k: k.name.strip())))
-# with open('wellys.json', 'w') as outfile:
-#     json.dump(events, outfile)
+# events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

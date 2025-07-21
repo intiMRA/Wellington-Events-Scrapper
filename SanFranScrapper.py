@@ -1,15 +1,23 @@
+from time import sleep
+
 import requests
+
+import FileNames
+import ScrapperNames
 from EventInfo import EventInfo
 import re
 from dateutil import parser
-from typing import List
+from typing import List, Set, Optional
+import json
 
 class SanFranScrapper:
     # noinspection PyBroadException
     @staticmethod
-    def fetch_events() -> List[EventInfo]:
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         events: List[EventInfo] = []
         page = 1
+        out_file = open(FileNames.SAN_FRAN_EVENTS, mode="w")
+        out_file.write("[\n")
         while True:
             headers = {
                 "accept": "*/*",
@@ -31,27 +39,31 @@ class SanFranScrapper:
                 return events
             data = r.json()
             if not data['documents']:
+                out_file.write("]\n")
+                out_file.close()
                 return events
             for event in data['documents']:
                 try:
-                    eventURL = f"https://www.sanfran.co.nz{event['localizations'][0]['url']}"
+                    event_url = f"https://www.sanfran.co.nz{event['localizations'][0]['url']}"
                     date_str = event["eventDate"]
                     date = parser.parse(date_str)
-
-                    events.append(EventInfo(name=re.sub('\W+', ' ', event["name"]).strip(),
-                                            image=event["image"],
-                                            venue="San Fran",
-                                            dates=[date],
-                                            url=eventURL,
-                                            source="San Fran",
-                                            eventType="Music"))
+                    event = EventInfo(name=re.sub('\W+', ' ', event["name"]).strip(),
+                                      image=event["image"],
+                                      venue="San Fran, Wellington",
+                                      dates=[date],
+                                      url=event_url,
+                                      source=ScrapperNames.SAN_FRAN,
+                                      event_type="Music",
+                                      description=event["description"])
+                    events.append(event)
+                    json.dump(event.to_dict(), out_file)
+                    out_file.write(",\n")
+                    print(f"url: {event_url}")
                 except Exception as e:
                     print(f"san fran: {event}")
                     print(e)
                     break
+                print("-"*100)
             page += 1
 
-
 # events = list(map(lambda x: x.to_dict(), sorted(SanFranScrapper.fetch_events(), key=lambda k: k.name.strip())))
-# with open('wellys.json', 'w') as outfile:
-#     json.dump(events, outfile)

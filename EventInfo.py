@@ -1,23 +1,32 @@
-import json
 from datetime import datetime
+
+import Summarizer
 from DateFormatting import DateFormatting
 import pytz
 from CategoryMapping import CategoryMapping
 from dateutil import parser
-from typing import List
+from typing import List, Optional
+from CoordinatesMapper import CoordinatesMapper
+from bs4 import BeautifulSoup
 import re
+
 nz_tz = pytz.timezone("Pacific/Auckland")
 
+
 class EventInfo:
+    locationsCache: dict[str, Optional[dict[str, str]]] = {}
+
     id: str
     name: str
     image: str
     venue: str
+    coordinates: Optional[dict[str, str]]
     dates: List[str]
     displayDate: str
     url: str
     source: str
     eventType: str
+    description: str
 
     def __init__(
             self: str,
@@ -27,7 +36,10 @@ class EventInfo:
             dates: List[datetime],
             url: str,
             source: str,
-            eventType: str):
+            event_type: str,
+            description: str = "",
+            coordinates: Optional[dict[str, str]] = None,
+            loaded_from_dict: bool = False):
         """
         @type name: str
         @param name: The name of the event.
@@ -49,29 +61,34 @@ class EventInfo:
         self.id = f"{name}-{venue}-{source}"
         self.name = name
         self.image = image
-        self.venue = venue
-        ogDates = dates
+        og_dates = dates
         try:
             dates = list(filter(lambda date: date >= datetime.now(), dates))
         except:
             dates = list(filter(lambda date: date >= datetime.now(nz_tz), dates))
         dates = list(sorted(dates, key=lambda date: date))
         if not dates:
-            print(f"in: {ogDates}")
+            print(f"in: {og_dates}")
             print(f"out: {dates}")
             raise Exception(f"No dates found for: {name}")
-        self.displayDate = DateFormatting.formatDisplayDate(dates[0]) \
+        self.displayDate = DateFormatting.format_display_date(dates[0]) \
             if len(dates) == 1 \
-            else f"{DateFormatting.formatDisplayDate(dates[0])} + more"
-        self.dates = list(map(lambda date: DateFormatting.formatDateStamp(date), dates))
+            else f"{DateFormatting.format_display_date(dates[0])} + more"
+        self.venue = venue
+        if loaded_from_dict:
+            self.description = description
+            self.coordinates = coordinates
+        else:
+            venue = re.sub(r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)", "", venue)
+            self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
+            description = EventInfo.clean_html_tags(description)
+            description = Summarizer.sumerize(description)
+            self.description = description
+        self.dates = list(map(lambda date: DateFormatting.format_date_stamp(date), dates))
         self.url = url
         self.source = source
-        self.eventType = CategoryMapping.map_category(eventType)
-        # with open("potentialWrongs.txt", mode="a") as f:
-        #     if re.findall(r"\d", name):
-        #         f.write(f"name: {name}, url: {url}\n")
-        #     if re.findall(r"\d", venue):
-        #         f.write(f"venue: {venue}, url: {url}\n")
+        self.eventType = CategoryMapping.map_category(event_type)
+
 
     def to_dict(self):
         """Convert the EventInfo object to a dictionary."""
@@ -80,11 +97,13 @@ class EventInfo:
             "name": self.name,
             "imageUrl": self.image,
             "venue": self.venue,
+            "coordinates": self.coordinates,
             "dates": self.dates,
             "displayDate": self.displayDate,
             "url": self.url,
             "source": self.source,
-            "eventType": self.eventType
+            "eventType": self.eventType,
+            "description": self.description
         }
 
     @classmethod
@@ -98,7 +117,31 @@ class EventInfo:
                 dates=[parser.parse(date) for date in data["dates"]],
                 url=data["url"],
                 source=data["source"],
-                eventType=data["eventType"]
+                event_type=data["eventType"],
+                coordinates=data["coordinates"],
+                description=data["description"],
+                loaded_from_dict=True
             )
         except:
             return None
+
+    @staticmethod
+    def get_location(venue: str) -> Optional[dict[str, str]]:
+        if venue in EventInfo.locationsCache.keys():
+            return EventInfo.locationsCache[venue]
+        else:
+            coordinates = CoordinatesMapper.get_coordinates(venue)
+            EventInfo.locationsCache[venue] = coordinates
+            return coordinates
+
+    @staticmethod
+    def clean_html_tags(html_text: str) -> str:
+        if not html_text:
+            return ""
+
+        soup = BeautifulSoup(html_text, 'html.parser')
+        clean_text = soup.get_text()
+        clean_text = '\n'.join(line.strip() for line in clean_text.splitlines() if line.strip())
+        clean_text = clean_text.strip()
+        return clean_text
+

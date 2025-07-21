@@ -1,56 +1,111 @@
-import re
+import json
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from DateFormatting import DateFormatting
+from selenium.webdriver.support import expected_conditions as ec
+
+import FileNames
+import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
-from typing import List, Set
+from typing import List, Set, Optional
 
 class UnderTheRaderScrapper:
     @staticmethod
-    def fetch_events(previousTitles: Set[str]) -> List[EventInfo]:
-        events: List[EventInfo] = []
-        driver = webdriver.Chrome()
-        driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
+    def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
+        driver.get(url)
+        title: str = driver.find_element(By.CLASS_NAME, "display_title_1").text
+        header = driver.find_element(By.CLASS_NAME, "col-md-9").text.split("\n")
+        info_texts = driver.find_element(By.CLASS_NAME, "gig-guide-side-bar").text.split("\n")
+        time = None
+        found_gig_start = False
+        doors_open = "1:01AM"
+        found_doors_open = False
+        for text in info_texts:
+            if "GIG STARTS" in text:
+                found_gig_start = True
+            elif found_gig_start:
+                time = text
+                break
+            if "Doors open" in text:
+                found_doors_open = True
+            elif found_doors_open:
+                doors_open = text
+        date_string = header[2].split(",")[0]
+        parts = date_string.split(" ")
+        time = time if time else doors_open
+        print(f"parts {parts} date string {date_string}")
+        date = parser.parse(f"{parts[1]} {parts[2]} {time}")
+        image_url = driver.find_element(By.CLASS_NAME, "img-responsive").get_attribute('src')
+        venue = header[4]
+        description = driver.find_element(By.CLASS_NAME, "description").text
+        return EventInfo(name=title,
+                         dates=[date],
+                         image=image_url,
+                         url=url,
+                         venue=venue,
+                         source=ScrapperNames.UNDER_THE_RADAR,
+                         event_type="Music",
+                         description=description)
+
+    @staticmethod
+    def get_urls(driver, previous_urls, from_file: bool) -> List[str]:
+        event_urls: List[str] = []
+        if from_file:
+            with open(FileNames.UNDER_THE_RADAR_URLS, mode="r") as f:
+                event_urls = json.loads(f.read())
+            return event_urls
+
         while True:
             try:
-                loadModeButton = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
-                loadModeButton.click()
+                load_mode_button = driver.find_element(By.XPATH, "//a[contains(., 'Load More')]")
+                load_mode_button.click()
                 sleep(1)
             except:
                 break
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
-        _ = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "vevent")))
+        _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "vevent")))
         html = driver.find_elements(By.CLASS_NAME, 'vevent')
         for event in html:
-            title: str = event.find_element(By.CLASS_NAME, 'gig-title').text
-            if title in previousTitles:
+            title: WebElement = event.find_element(By.CLASS_NAME, 'gig-title')
+            url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
+            if url in previous_urls or url in event_urls:
                 continue
-            imageURL = event.find_element(By.CSS_SELECTOR, ".gig-image img").get_attribute("data-original")
-            date = event.find_element(By.CLASS_NAME, 'lite').text
-            cleaned_date_str = DateFormatting.cleanUpDate(date)
-            match = re.findall(r"(\d{1,2}\s\w+\s\d{1,2}[:0-9AMP]+)", cleaned_date_str)[0]
-            date_obj = parser.parse(match)
-            date_obj = DateFormatting.replaceYear(date_obj)
-            venue = event.find_element(By.CLASS_NAME, 'venue-title').text
-            title_element = event.find_element(By.CLASS_NAME, "gig-title").find_element(By.TAG_NAME, "a")
-            url = title_element.get_attribute("href")
+            event_urls.append(url)
+        with open(FileNames.UNDER_THE_RADAR_URLS, mode="w") as f:
+            json.dump(event_urls, f, indent=2)
+        return event_urls
+
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        events: List[EventInfo] = []
+        event_urls: List[str] = []
+        driver = webdriver.Chrome()
+        driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
+        UnderTheRaderScrapper.get_urls(driver, previous_urls, False)
+        out_file = open(FileNames.UNDER_THE_RADAR_EVENTS, mode="w")
+        out_file.write("[\n")
+        for url in event_urls:
+            print(f"url: {url}")
             try:
-                events.append(EventInfo(name=title,
-                                        dates=[date_obj],
-                                        image=imageURL,
-                                        url=url,
-                                        venue=venue,
-                                        source="Under The Radar",
-                                        eventType="Music"))
+                event = UnderTheRaderScrapper.get_event(url, driver)
+                if event:
+                    events.append(event)
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
             except Exception as e:
-                print(f"under the radar: {e}")
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
+            print("-"*100)
         driver.close()
+        out_file.write("]\n")
+        out_file.close()
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(UnderTheRaderScrapper.fetch_events(), key=lambda k: k.name.strip())))
-# with open('wellys.json', 'w') as outfile:
-#     json.dump(events, outfile)
+# events = list(map(lambda x: x.to_dict(), sorted(UnderTheRaderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
