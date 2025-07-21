@@ -124,8 +124,6 @@ class TicketmasterScrapper:
             return None
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
-        if "ticketmaster.co.nz" in url:
-            return None
         driver.get(url)
         sleep(1)
         if "ticketmaster.co.nz" in url:
