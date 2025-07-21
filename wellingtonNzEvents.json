@@ -1,38 +1,37 @@
 [
 {
-  "id": "Andy C \u2014 Halloween Arena Rave-TSB Arena, Wellington, New Zealand-Wellington NZ",
-  "name": "Andy C \u2014 Halloween Arena Rave",
-  "imageUrl": "https://wellingtonnz.bynder.com/transform/91503b41-357d-4075-a938-857efa268e30/Andy-C-Halloween-Arena-Rave-1?io=transform:fill,width:576,height:450",
-  "venue": "TSB Arena, Wellington, New Zealand",
+  "id": "Mamma Mia!-St James Theatre, Wellington, New Zealand-Wellington NZ",
+  "name": "Mamma Mia!",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/95fb8712-f9b6-4525-a91d-9766970aff47/Mamma-Mia?io=transform:fill,width:576,height:450",
+  "venue": "St James Theatre, Wellington, New Zealand",
   "coordinates": {
-    "lat": -41.2856676,
-    "long": 174.778804
+    "lat": -41.2933004,
+    "long": 174.7797564
   },
   "dates": [
-    "2025-10-25-01:01"
+    "2025-08-14-01:01",
+    "2025-08-15-01:01",
+    "2025-08-16-01:01",
+    "2025-08-17-01:01",
+    "2025-08-18-01:01",
+    "2025-08-19-01:01",
+    "2025-08-20-01:01",
+    "2025-08-21-01:01",
+    "2025-08-22-01:01",
+    "2025-08-23-01:01",
+    "2025-08-24-01:01",
+    "2025-08-25-01:01",
+    "2025-08-26-01:01",
+    "2025-08-27-01:01",
+    "2025-08-28-01:01",
+    "2025-08-29-01:01",
+    "2025-08-30-01:01",
+    "2025-08-31-01:01"
   ],
-  "displayDate": "Sat 25 Oct",
-  "url": "https://www.wellingtonnz.com/visit/events/andy-c-halloween-arena-rave",
-  "source": "Wellington NZ",
-  "eventType": "Music & Concerts",
-  "description": "The Andy C Halloween Arena Rave is expecting 4000 partygoers.\nThe bass will be up to 10 at TSB Arena on Wellington\u2019s waterfront for a massive lineup of DJs.\nUnited Kingdom drum and bass (DnB) royalty Andy C brings his unique sound back to Aotearoa.\nHe is joined by longtime MC partner Tonn Piper and a stacked lineup of international and national DnB heavyweights.\nYou\u2019ll also see Lee Mvtthews (NZ), S.P.Y (UK), IVY (UK), and Latte & Toxinate."
-},
-{
-  "id": "Explorers \u2014 The Age of Discovery with James May-The Opera House, Wellington, New Zealand-Wellington NZ",
-  "name": "Explorers \u2014 The Age of Discovery with James May",
-  "imageUrl": "https://wellingtonnz.bynder.com/transform/aaa4211a-eaa0-4136-bbc8-e08e3e95a628/Explorers-The-Age-of-Discovery-with-James-May?io=transform:fill,width:576,height:450",
-  "venue": "The Opera House, Wellington, New Zealand",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-08-15-01:01"
-  ],
-  "displayDate": "Fri 15 Aug",
-  "url": "https://www.wellingtonnz.com/visit/events/explorers-the-age-of-discovery-with-james-may",
+  "displayDate": "Thu 14 Aug + more",
+  "url": "https://www.wellingtonnz.com/visit/events/mamma-mia",
   "source": "Wellington NZ",
   "eventType": "Arts & Theatre",
-  "description": "Learn about famous and not-so-famous explorers from Ice Age migrations through to space travel.\nIn \u2018Explorers \u2014 The Age of Discovery with James May\u2019, the lives of great voyagers come to life on stage.\nJames May will unravel breathtaking tales.\nHe covers people like Leif Erikson, John Cabot, James Cook\u2019s navigator Tupaia, Stanley and Livingstone, and Gertrude Bell.\nHe\u2019s also known for his charisma live on stage and on screen."
+  "description": "Gimme, gimme, gimme a night of song and dance.\nMamma Mia is the ultimate feel-good show.\nThe stage musical has been wowing audiences since 1999.\nIt\u2019s due to wow Wellington audiences in 2025.\nGet ready to tap your toe to some of ABBA\u2019s most famous songs."
 },
 ]

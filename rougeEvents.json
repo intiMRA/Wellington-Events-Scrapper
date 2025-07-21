@@ -54,60 +54,6 @@
   "description": "LJ Crichton is back with The Mixtape: Vol 6.\nA night of RnB, Soul and Funk to heat up the city a bit.\nJoined by some heavy musicians it\u2019s gonna be a great night at the Rogue and Vagabond.\nFree entry ?\nMusic from 9:30pm"
 },
 {
-  "id": "Rogue Sunday Jazz - Emma Hattaway-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Rogue Sunday Jazz - Emma Hattaway",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/97203-484778.jpeg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2025-07-27-17:00"
-  ],
-  "displayDate": "Sun 27 Jul",
-  "url": "https://www.undertheradar.co.nz/gig/97203/Rogue-Sunday-Jazz---Emma-Hattaway.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer, hangs, and jazz, on a Sunday, perfect!\nThis week featuring local bassist Emma Hattaway and her band.\nJoin Emma and friends for an evening celebrating two of jazz\u2019s most original voices."
-},
-{
-  "id": "The Hip Town Bangers-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "The Hip Town Bangers",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/97192-329455.jpg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2025-07-31-21:00"
-  ],
-  "displayDate": "Thu 31 Jul",
-  "url": "https://www.undertheradar.co.nz/gig/97192/The-Hip-Town-Bangers.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "description": "Wellington's hardest swinging quintet are back for another round at The Rogue and Vagabond.\nLast time was so much fun we just had to go in again!\nFeaturing: Chris Buckland - tenor saxophone Ben Hunt - trumpet Anita Schwabe - piano Emma Hattaway - bass Mike Jensen - drums Music from 9pm - FREE ENTRY, Koha for the band welcome!"
-},
-{
-  "id": "Bojack Funkman-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Bojack Funkman",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/97199-584502.jpeg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2025-08-02-21:30"
-  ],
-  "displayDate": "Sat 02 Aug",
-  "url": "https://www.undertheradar.co.nz/gig/97199/Bojack-Funkman.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "description": "Fronted by Ben Hunt, Kaito Walley, and Eilish Wilson (aka the Horn Section of Doom) with an all-star cast of rhythm section virtuosos, this crossover episode brings together Lettuce, Dave Guy, Ezra Collective, and some hometown bangers.\nStay home?\nNeigh way, Jos\u00e9!\nSpecial guests: Jade Merematira (vocals) and Louis TM (vocals/keys) Also featuring: Ben Hunt - trumpet Kaito Walley - trombone Eilish Wilson - saxophone Petar Tavich - guitar Emma Hattaway - bass Jacob Randall - drums Music from 9:30, FREE ENTRY, koha for the band encouraged"
-},
-{
   "id": "Sunday Jazz - Callum Allardice-The Rogue & Vagabond-Rogue & Vagabond",
   "name": "Sunday Jazz - Callum Allardice",
   "imageUrl": "https://www.undertheradar.co.nz/images/showImages/97186-825406.jpeg",

@@ -10,13 +10,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 import FileNames
-from DateFormatting import DateFormatting
 from EventInfo import EventInfo
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from dateutil.relativedelta import relativedelta
-from typing import List, Optional, Tuple, Set
+from typing import List, Optional, Set
 
 dotenv_path = Path('venv/.env')
 load_dotenv(dotenv_path=dotenv_path)
@@ -24,7 +23,7 @@ load_dotenv(dotenv_path=dotenv_path)
 
 class FacebookScrapper:
     @staticmethod
-    def parse_day_of_week(day_string: str) -> Optional[datetime]:
+    def parse_day_of_week(day_string: str) -> Optional[str]:
         """Parses a day of the week string into a datetime object representing the next occurrence of that day."""
         try:
             today = datetime.now()
@@ -32,60 +31,47 @@ class FacebookScrapper:
 
             days_until_target = (target_day - today.weekday()) % 7
             next_occurrence = today + timedelta(days=days_until_target)
-            return next_occurrence.replace(hour=0, minute=0, second=0, microsecond=0)
+            return next_occurrence.strftime("%d %b")
 
         except ValueError:
             return None
 
     @staticmethod
-    def parse_date(date: str) -> Optional[List[datetime]]:
-        try:
-            today = datetime.now()
-            hour = " 10:00"
-            if re.findall(r"at\s\d+:\d+", date):
-                hour = " " + date.split("at")[-1].split(" ")[1]
-            if "Tomorrow" in date:
-                target_date = today + timedelta(days=1)
-                return [target_date]
-            elif "Today" in date:
-                target_date = today
-                return [target_date]
-            elif "This" in date:
-                day = date.split(" ")[1]
-                date_object = FacebookScrapper.parse_day_of_week(day)
-                return [date_object]
-            elif re.findall(r"and \d{1,2} more", date):
-                if "-" in date:
-                    parts = date.split(",")[1].split("-")
-                    first_part, second_part = parts[0], parts[1]
-                    first_part = first_part.strip() + hour
-                    start_date = parser.parse(first_part)
-                    return [start_date]
-                else:
-                    parts = date.split(",")[1]
-                    first_part = re.findall(r"\d{1,2}\s\w{3}", parts)[0]
-                    first_part = first_part.strip() + hour
-                    start_date = parser.parse(first_part)
-                    return [start_date]
-            elif "-" in date and len(date.split("-")[-1]) > 3:
-                parts = date.split(",")[1].split("-")
-                first_part, second_part = parts[0], parts[1]
-                first_part = first_part.strip() + hour
-                second_part = second_part.strip() + hour
-                start_date = parser.parse(first_part)
-                end_date = parser.parse(second_part)
-                dates = list(DateFormatting.create_range(start_date, end_date))
-                return dates
-            elif "," in date:
-                date_string = " ".join(date.split(",")[-1].strip().split(" ")[:2]) + hour
-                date = parser.parse(date_string)
-                return [date]
-            else:
-                print(f"facebook: {date}")
-                return None
-        except Exception as e:
-            print("facebook date: ", date, " error: ", e)
-            return None
+    def parse_date(date: str) -> List[datetime]:
+        print(f"date: {date}")
+        week_days = [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ]
+        today = datetime.now()
+        hour = " 1:01AM"
+        if re.findall(r"\d{1,2}:\d{1,2}", date):
+            hour: str = re.findall(r"\d{1,2}:\d{1,2}", date)[0]
+        print(f"hour: {hour}")
+        if "Tomorrow" in date:
+            target_date = today + timedelta(days=1)
+            return [target_date]
+        elif "Today" in date:
+            target_date = today
+            return [target_date]
+        regex = r"\d{1,2}\s\w+\d{0,4}"
+        matches = re.findall(regex, date)
+        if matches:
+            print(f"date: {matches[0]} {hour}")
+            return [parser.parse(f"{matches[0]} {hour}")]
+        for day_of_the_week in week_days:
+            matches = re.findall(fr"{day_of_the_week}", date)
+            if matches:
+                day = FacebookScrapper.parse_day_of_week(matches[0])
+                print(f"day: {day}")
+                return [parser.parse(f"{day} {hour}")]
+        print(f"facebook: {date}")
+        return []
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
@@ -98,27 +84,28 @@ class FacebookScrapper:
             if text in texts:
                 continue
             texts.append(text)
-
+        driver.execute_script(f"window.scrollBy(0, 200);")
+        sleep(random.randint(1, 3))
         button = info.find_element(By.XPATH, '//div[@role="button" and text()="See more"]')
 
         button.click()
-        actions = ActionChains(driver)
+        try:
+            actions = ActionChains(driver)
+            window_size = driver.get_window_size()
+            max_x = window_size['width'] - 100
+            max_y = window_size['height'] - 100
 
-        window_size = driver.get_window_size()
-        max_x = window_size['width']
-        max_y = window_size['height']
+            # Move mouse randomly 10 times
+            for _ in range(10):
+                # Generate random coordinates within window bounds
+                x = random.randint(0, max_x)
+                y = random.randint(0, max_y)
 
-        # Move mouse randomly 10 times
-        for _ in range(10):
-            # Generate random coordinates within window bounds
-            x = random.randint(0, max_x)
-            y = random.randint(0, max_y)
-
-            # Move to the random position
-            actions.move_by_offset(x, y).perform()
-
-            # Small random delay between movements (0.1 to 0.5 seconds)
-            sleep(random.uniform(0.1, 0.5))
+                # Move to the random position
+                actions.move_by_offset(x, y).perform()
+                sleep(random.uniform(0.1, 0.5))
+        except:
+            sleep(random.uniform(1.0, 3.0))
         long_desc: str = info.find_element(By.XPATH, "//span[contains(., 'See less')]").text
 
         if "..." in long_desc:
@@ -216,7 +203,10 @@ class FacebookScrapper:
         end_date = start_date + relativedelta(days=30)
         end_date_string = end_date.strftime("%Y-%m-%d")
         end_date_string += "T05%3A00%3A00.000Z"
-        captured_urls = set()
+        captured_urls = previous_urls
+        category_urls = set()
+        # with open(FileNames.FACEBOOK_URLS, mode="r") as f:
+        #     category_urls = json.loads(f.read())
         events = []
         out_file = open(FileNames.FACEBOOK_EVENTS, mode="w")
         out_urls_file = open(FileNames.FACEBOOK_URLS, mode="w")
@@ -255,7 +245,6 @@ class FacebookScrapper:
         cat_button.click()
         dates.click()
         sleep(1)
-        category_urls = set()
 
         for cat in sorted(cats):
             print("cat: ", cat)
@@ -285,6 +274,7 @@ class FacebookScrapper:
             f"&end_date={end_date_string}")
         sleep(1)
         category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, captured_urls, out_urls_file, scroll_increment=5000))
+        out_urls_file.write("]\n")
         for part in category_urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
@@ -293,13 +283,13 @@ class FacebookScrapper:
                     events.append(event)
                     json.dump(event.to_dict(), out_file)
                     out_file.write(",\n")
+                sleep(random.randint(1, 3))
             except Exception as e:
                 print(e)
             print("-" * 100)
 
         driver.close()
         out_file.write("]\n")
-        out_urls_file.write("]\n")
         out_file.close()
         out_urls_file.close()
         return events

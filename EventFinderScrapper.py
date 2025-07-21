@@ -121,7 +121,6 @@ class EventFinderScrapper:
                     date_objects = list(DateFormatting.create_range(start_date_obj, end_date_obj))
                 else:
                     date_string = date_string + " " + full_string.split(",")[-1].split("–")[0]
-                    print(f"date: {date_string}")
                     date_obj = parser.parse(date_string)
                     date_obj = DateFormatting.replace_year(date_obj)
                     date_objects.append(date_obj)
