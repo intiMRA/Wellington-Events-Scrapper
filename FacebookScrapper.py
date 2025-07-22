@@ -33,7 +33,7 @@ class FacebookScrapper:
             next_occurrence = today + timedelta(days=days_until_target)
             return next_occurrence.strftime("%d %b")
 
-        except ValueError:
+        except:
             return None
 
     @staticmethod
@@ -134,7 +134,7 @@ class FacebookScrapper:
         while True:
             html = driver.find_elements(By.TAG_NAME, 'a')
             old_length = len(html)
-            while len(html) < 700:
+            while len(html) < 400:
                 driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
                 sleep(2)
                 html = driver.find_elements(By.TAG_NAME, 'a')
@@ -283,9 +283,10 @@ class FacebookScrapper:
                     events.append(event)
                     json.dump(event.to_dict(), out_file)
                     out_file.write(",\n")
-                sleep(random.randint(1, 3))
+                sleep(random.uniform(2, 4))
             except Exception as e:
                 print(e)
+                sleep(random.uniform(2, 4))
             print("-" * 100)
 
         driver.close()

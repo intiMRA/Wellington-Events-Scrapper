@@ -1,37 +1,38 @@
 [
 {
-  "id": "Mamma Mia!-St James Theatre, Wellington, New Zealand-Wellington NZ",
-  "name": "Mamma Mia!",
-  "imageUrl": "https://wellingtonnz.bynder.com/transform/95fb8712-f9b6-4525-a91d-9766970aff47/Mamma-Mia?io=transform:fill,width:576,height:450",
-  "venue": "St James Theatre, Wellington, New Zealand",
+  "id": "Ed Sheeran \u2014 Loop Tour--Wellington NZ",
+  "name": "Ed Sheeran \u2014 Loop Tour",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/1553afc4-c747-4212-9cb5-c0fdace18f94/Ed-Sheeran-Loop-Tour-2026-9?io=transform:fill,width:576,height:450",
+  "venue": "",
   "coordinates": {
-    "lat": -41.2933004,
-    "long": 174.7797564
+    "lat": -41.2887953,
+    "long": 174.7772114
   },
   "dates": [
-    "2025-08-14-01:01",
-    "2025-08-15-01:01",
-    "2025-08-16-01:01",
-    "2025-08-17-01:01",
-    "2025-08-18-01:01",
-    "2025-08-19-01:01",
-    "2025-08-20-01:01",
-    "2025-08-21-01:01",
-    "2025-08-22-01:01",
-    "2025-08-23-01:01",
-    "2025-08-24-01:01",
-    "2025-08-25-01:01",
-    "2025-08-26-01:01",
-    "2025-08-27-01:01",
-    "2025-08-28-01:01",
-    "2025-08-29-01:01",
-    "2025-08-30-01:01",
-    "2025-08-31-01:01"
+    "2026-01-21-01:01"
   ],
-  "displayDate": "Thu 14 Aug + more",
-  "url": "https://www.wellingtonnz.com/visit/events/mamma-mia",
+  "displayDate": "Wed 21 Jan",
+  "url": "https://www.wellingtonnz.com/visit/events/ed-sheeran-loop-tour",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "description": "The British singer-songwriter is playing Sky Stadium on 21 January 2026 as part of his Australia and New Zealand stadium shows on the Loop Tour.\nEd's forthcoming eighth studio album \u2018Play\u2019 is set to be released on 12 September.\nThe album marks the beginning of a fresh new chapter of music for the artist.\nDescribed as an \u201cexplorative, technicolour pop album\u201d, \u2018Play\u2019 will be full of fun, chaos and heart \u2014 and the show is set to match in both energy and production.\nWith plenty of other hits and crowd favourites from his back catalogue, the brand-new live show is set to be an epic event for every kind of Ed Sheeran fan."
+},
+{
+  "id": "Explorers \u2014 The Age of Discovery with James May-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "Explorers \u2014 The Age of Discovery with James May",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/aaa4211a-eaa0-4136-bbc8-e08e3e95a628/Explorers-The-Age-of-Discovery-with-James-May?io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2025-08-15-01:01"
+  ],
+  "displayDate": "Fri 15 Aug",
+  "url": "https://www.wellingtonnz.com/visit/events/explorers-the-age-of-discovery-with-james-may",
   "source": "Wellington NZ",
   "eventType": "Arts & Theatre",
-  "description": "Gimme, gimme, gimme a night of song and dance.\nMamma Mia is the ultimate feel-good show.\nThe stage musical has been wowing audiences since 1999.\nIt\u2019s due to wow Wellington audiences in 2025.\nGet ready to tap your toe to some of ABBA\u2019s most famous songs."
+  "description": "Learn about famous and not-so-famous explorers from Ice Age migrations through to space travel.\nIn \u2018Explorers \u2014 The Age of Discovery with James May\u2019, the lives of great voyagers come to life on stage.\nJames May will unravel breathtaking tales.\nHe covers people like Leif Erikson, John Cabot, James Cook\u2019s navigator Tupaia, Stanley and Livingstone, and Gertrude Bell.\nHe\u2019s also known for his charisma live on stage and on screen."
 },
 ]
