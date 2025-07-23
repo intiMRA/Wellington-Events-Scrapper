@@ -1,237 +1,258 @@
 [
 {
-  "id": "Healthy Hospo Building Resilience Dunedin-310 Princes Street, Central Dunedin, Dunedin 9016-Humanitix",
-  "name": "Healthy Hospo Building Resilience Dunedin",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/rxTzxdMRLax4Y6ZvxjNK",
-  "venue": "310 Princes Street, Central Dunedin, Dunedin 9016",
+  "id": "FME Over Breakfast-75 Featherston Street, Pipitea, Wellington 6011, New Zealand-Humanitix",
+  "name": "FME Over Breakfast",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/igYLETdSfyyfY3xwnp7y",
+  "venue": "75 Featherston Street, Pipitea, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -45.8787779,
-    "long": 170.5007485
+    "lat": -41.2808478,
+    "long": 174.7787179
   },
   "dates": [
-    "2025-08-27-14:00"
+    "2025-10-14-07:30"
   ],
-  "displayDate": "Wed 27 Aug",
-  "url": "https://events.humanitix.com/healthy-hospo-building-resilience-dunedin?hxchl=mkt-sch",
+  "displayDate": "Tue 14 Oct",
+  "url": "https://events.humanitix.com/fme-over-breakfast?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Business & Networking",
-  "description": "Why this matters: In our rapidly changing world, resilience emerges as a fundamental skill.\nResilience enables individuals to navigate uncertainty with confidence and adaptability.\nThis 90-minute workshop delves into the profound significance of resilience, offering participants practical insights and actionable strategies to cultivate resilience and harness the potential of the mind.\nBy equipping individuals with these tools, the workshop empowers them to not only weather storms but also thrive in dynamic environments.\nSarah is motivated to continue creating positive change and to educate people about the power of the mind and how to use life's challenges as an opportunity for growth."
+  "description": "Start your day with coffee, kai and a fresh take on enterprise data integration.\nThis free breakfast session is designed for digital, data, and IT professionals exploring more flexible, scalable and cost-effective alternatives to platforms like Boomi, Alteryx, Talend and Informatica.\nDiscover how FME powers everything from cloud integration and workflow orchestration to API management, data validation, and real-time system connectivity, all in one platform.\nJoin your hosts Locus and experience the powerful, no-code answer to systems integration.\nWho should attend?"
 },
 {
-  "id": "Healthy Hospo Building Resilience Queenstown-93 Beach Street, Queenstown 9300-Humanitix",
-  "name": "Healthy Hospo Building Resilience Queenstown",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/rxTzxdMRLax4Y6ZvxjNK",
-  "venue": "93 Beach Street, Queenstown 9300",
+  "id": "Ceremonial Cacao, psychedelics, and neuroplasticity - exploring shamanic practices of Peru-147 Tory Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+  "name": "Ceremonial Cacao, psychedelics, and neuroplasticity - exploring shamanic practices of Peru",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/bdaETJlKSvG26BptQCTm",
+  "venue": "147 Tory Street, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -45.0332634,
-    "long": 168.6569757
+    "lat": -41.2971866,
+    "long": 174.7793316
   },
   "dates": [
-    "2025-08-26-14:00"
+    "2025-07-30-19:00"
   ],
-  "displayDate": "Tue 26 Aug",
-  "url": "https://events.humanitix.com/healthy-hospo-building-resilience-queenstown?hxchl=mkt-sch",
+  "displayDate": "Wed 30 Jul",
+  "url": "https://events.humanitix.com/ceremonial-cacao-psychedelics-wellington?hxchl=mkt-sch",
   "source": "Humanitix",
-  "eventType": "Business & Networking",
-  "description": "Why this matters: In our rapidly changing world, resilience emerges as a fundamental skill.\nResilience enables individuals to navigate uncertainty with confidence and adaptability.\nThis 90-minute workshop delves into the profound significance of resilience, offering participants practical insights and actionable strategies to cultivate resilience and harness the potential of the mind.\nBy equipping individuals with these tools, the workshop empowers them to not only weather storms but also thrive in dynamic environments.\nSarah is motivated to continue creating positive change and to educate people about the power of the mind and how to use life's challenges as an opportunity for growth."
+  "eventType": "Health & Wellness",
+  "description": "Join us for an immersive workshop  that bridges ancient indigenous traditions with cutting-edge neuroscience to explore the powerful intersection of cacao, psychedelics, and spiritual transformation.\nWe will delve into the cosmovision that links cacao with psychedelic plant medicines and how these ancient practices are integrated with modern scientific understanding.\nShamans used ceremonial cacao to connect with the divine and combined it with San Pedro cactus to induce visionary experiences.\nIf you\u2019re passionate about cacao and curious about its transformative potential, this workshop  will expand your understanding and deepen your connection with this sacred plant.\nWhether you\u2019re a cacao lover or a seeker on a spiritual path, this experience will open your mind to the possibilities cacao holds for healing, awakening, and change."
 },
 {
-  "id": "Gong Bath at Vogelmorn Hall, Wellington-13 Vennell Street, Brooklyn, Wellington 6021, New Zealand-Humanitix",
-  "name": "Gong Bath at Vogelmorn Hall, Wellington",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/tz9ZQseISHaKLrOhQ8Oo",
+  "id": "Soul To Sole-11 Hutchison Road, Newtown, Wellington 6021, New Zealand-Humanitix",
+  "name": "Soul To Sole",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/1jD1Pyw7TRmla4KroCiI",
+  "venue": "11 Hutchison Road, Newtown, Wellington 6021, New Zealand",
+  "coordinates": {
+    "lat": -41.3085158,
+    "long": 174.7746336
+  },
+  "dates": [
+    "2025-08-29-19:30",
+    "2025-09-26-19:30",
+    "2025-10-24-19:30",
+    "2025-11-21-19:30"
+  ],
+  "displayDate": "Fri 29 Aug + more",
+  "url": "https://events.humanitix.com/soul-to-sole?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Health & Wellness",
+  "description": "Join us for a series of 5Rhythms\u00ae Moving Meditation classes This is a creative space focused on dance as practice of presence versus performance Gabrielle Roth, founder of this dynamic practice was the Grandmother of modern day ecstatic dance.\nHer lineage of embodiment is brought to you from international teachers Douglas and Lucia.\nJoin us as we together weave an evening of high vibration exploration.\nCome ready to sweat!\nThis is a class design for every body of all ages and abilities."
+},
+{
+  "id": "Gong Bath at Lotus Centre, Paraparaumu-91 Ruapehu Street, Paraparaumu 5032, New Zealand-Humanitix",
+  "name": "Gong Bath at Lotus Centre, Paraparaumu",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/Cw1nf4ZSVSwxT3iH2iy6",
+  "venue": "91 Ruapehu Street, Paraparaumu 5032, New Zealand",
+  "coordinates": {
+    "lat": -40.9223406,
+    "long": 175.0136577
+  },
+  "dates": [
+    "2025-08-24-19:00"
+  ],
+  "displayDate": "Sun 24 Aug",
+  "url": "https://events.humanitix.com/gong-bath-at-lotus-centre-paraparaumu?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Health & Wellness",
+  "description": "*Limited door sales for $25* *Please bring a yoga mat, pillow, eye mask and blanket for maximum comfort and warmth* Discover the transformative effects of sound therapy with this 1-hour gong bath experience.\nDuring this session, participants will be surrounded by the resonant vibrations of gongs, carefully designed to induce deep states of relaxation and calm.\nScientific studies have highlighted the benefits of sound therapy, particularly gong baths, in reducing stress and promoting overall well-being.\nThe rhythmic patterns and overtones of the gongs can help entrain brainwaves, leading to a meditative state and improved mental clarity.\nBy immersing yourself in the healing vibrations of the gongs, you can tap into a deeper sense of relaxation and rejuvenation."
+},
+{
+  "id": "Wellington Regional Speed Puzzling Event-Gate 3/48 Somme Road, Trentham, Upper Hutt 5018, New Zealand-Humanitix",
+  "name": "Wellington Regional Speed Puzzling Event",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/mVK22Gn2TTqE0NF3F97U",
+  "venue": "Gate 3/48 Somme Road, Trentham, Upper Hutt 5018, New Zealand",
+  "coordinates": {
+    "lat": -41.1341841,
+    "long": 175.0388329
+  },
+  "dates": [
+    "2025-11-22-08:30"
+  ],
+  "displayDate": "Sat 22 Nov",
+  "url": "https://events.humanitix.com/wellington-regional-speed-puzzling-event?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Hobbies & Interests",
+  "description": "Participants get to take their puzzle home afterwards.\nSpeed puzzling is fun and invigorating no matter what your speed is.\nThere will be other fun activities on the day for the whole family to enjoy, a puzzle swap and a pop-up jigsaw puzzle store.\nThere is also a caf\u00e9 on site for refreshments, plus accommodation is available at the NZCIS.\nFull event details will be sent out to all participants prior to the event."
+},
+{
+  "id": "The Warratahs-11 Logan Street, Ebdentown, Upper Hutt 5018, New Zealand-Humanitix",
+  "name": "The Warratahs",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/mClDzbmIQKmeNmXcwhjP",
+  "venue": "11 Logan Street, Ebdentown, Upper Hutt 5018, New Zealand",
+  "coordinates": {
+    "lat": -41.1223195,
+    "long": 175.072091
+  },
+  "dates": [
+    "2025-08-02-19:30"
+  ],
+  "displayDate": "Sat 02 Aug",
+  "url": "https://events.humanitix.com/the-warratahs?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Music & Concerts",
+  "description": "The Warratahs Live at the Upper Hutt Cossie Club \u2013 Saturday 2nd August After nearly four decades on the road, The Warratahs remain one of New Zealand\u2019s most beloved bands \u2014 and now they\u2019re returning to the Upper Hutt Cossie Club for a very special show.\nWith 37 years of touring behind them, The Warratahs have left a deep mark on Kiwi music.\nTheir legacy includes seven studio albums that made the charts, a Tui Music Award for Country Album of the Year in 2017, and performances alongside legends like Johnny Cash & The Highwaymen, Lucinda Williams, and Jackson Browne.\nBarry Saunders\u2019 iconic songwriting is woven into the fabric of the New Zealand songbook, and this is your chance to witness the band at their best.\nBorn out of a simple love for playing music with mates down at the pub, The Warratahs first hit the stage at The Cricketers\u2019 Arms in Wellington in 1986 \u2014 never imagining they\u2019d become a national treasure."
+},
+{
+  "id": "Niko Ne Zna Live at Vogelmorn Hall (Wellington)-13 Vennell Street, Brooklyn, Wellington 6021, New Zealand-Humanitix",
+  "name": "Niko Ne Zna Live at Vogelmorn Hall (Wellington)",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/VFs7JFA8Qv2D2D25SYJ0",
   "venue": "13 Vennell Street, Brooklyn, Wellington 6021, New Zealand",
   "coordinates": {
     "lat": -41.3137341,
     "long": 174.7646046
   },
   "dates": [
-    "2025-08-03-19:00"
+    "2025-08-09-18:00"
   ],
-  "displayDate": "Sun 03 Aug",
-  "url": "https://events.humanitix.com/gong-bath-at-vogelmorn-hall-wellington-zjhwzmsh?hxchl=mkt-sch",
+  "displayDate": "Sat 09 Aug",
+  "url": "https://events.humanitix.com/niko-ne-zna-live-at-vogelmorn-hall-wellington?hxchl=mkt-sch",
   "source": "Humanitix",
-  "eventType": "Health & Wellness",
-  "description": "***$20*** Limited door sales for $25 *Please bring a yoga mat, pillow, eye mask and blanket- or whatever it is you need to feel warm and comfortable* Discover the transformative effects of sound therapy with this 1-hour gong bath experience.\nDuring this session, participants will be surrounded by the resonant vibrations of gongs, carefully designed to induce deep states of relaxation and calm.\nScientific studies have highlighted the benefits of sound therapy, particularly gong baths, in reducing stress and promoting overall well-being.\nBeyond the immediate effects, many participants report experiencing lasting benefits such as improved sleep, reduced anxiety, and enhanced mood following a gong bath session.\nBy immersing yourself in the healing vibrations of the gongs, you can tap into a deeper sense of relaxation and rejuvenation."
+  "eventType": "Music & Concerts",
+  "description": "Wellington, get ready!\nIt\u2019s been a minute!\nFresh off a sold-out show in Auckland, Niko Ne Zna returns to the capital for a night of explosive Balkan brass at Vogelmorn Hall.\nExpect bold brass, infectious rhythms, soaring vocals, and a dancefloor that won\u2019t quit.\nThis nine-piece powerhouse delivers their signature high-energy performance \u2014 featuring brand new songs in preparation for their upcoming third studio album, as well as all the hits you know and love."
 },
 {
-  "id": "International Packraft Film Festival - Wellington-205 Ohiro Road, Brooklyn, Wellington 6021, New Zealand-Humanitix",
-  "name": "International Packraft Film Festival - Wellington",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/b6XB1zyrRhOHeK36jZls",
-  "venue": "205 Ohiro Road, Brooklyn, Wellington 6021, New Zealand",
-  "coordinates": {
-    "lat": -41.3058382,
-    "long": 174.7634702
-  },
-  "dates": [
-    "2025-07-31-19:00"
-  ],
-  "displayDate": "Thu 31 Jul",
-  "url": "https://events.humanitix.com/ipff-wellington?hxchl=mkt-sch",
-  "source": "Humanitix",
-  "eventType": "Hobbies & Interests",
-  "description": "Join PRANZ and Blue Duck Packrafts for the Wellington screening of the International Packrafting Film Festival 2025 What to Expect.... A night of soulful river journeys and epic whitewater.\nFirst descents, big swims, wild country, and quiet moments.\nFilms by paddlers, for paddlers \u2014 with stories that matter.\nA chance to connect with the local community and chat with local suppliers.\nSpot prizes, chance to network with other adventurers and maybe a few surprises\u2026 Grab a drink and some nibbles from the cash bar and meet some fellow adventurers."
-},
-{
-  "id": "Author Alley-289 Mazengarb Road, Paraparaumu 5032, New Zealand-Humanitix",
-  "name": "Author Alley",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/JZJAhShsTJimcihLUHXN",
-  "venue": "289 Mazengarb Road, Paraparaumu 5032, New Zealand",
-  "coordinates": {
-    "lat": -40.8967087,
-    "long": 175.0113085
-  },
-  "dates": [
-    "2025-08-10-10:00"
-  ],
-  "displayDate": "Sun 10 Aug",
-  "url": "https://events.humanitix.com/author-alley?hxchl=mkt-sch",
-  "source": "Humanitix",
-  "eventType": "Hobbies & Interests",
-  "description": "Indulge in a stroll through Bookmark K\u0101piti\u2019s very own Author Alley.\nMeet local authors, creatives and service providers within the workshop space of Big Mac Slabs, transformed for one day only in a book-lovers market.\nVenture down to discover your next great read and make connections with others in the industry.\nCome down anytime between 10\u20133pm.\nStallholders can register interest via our website, click here"
-},
-{
-  "id": "Jazz Orchestra Composer Series Presents: Callum Passells-Level 1/18 Garrett Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
-  "name": "Jazz Orchestra Composer Series Presents: Callum Passells",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/KsT0eVWQb6nVBJG75u7R",
+  "id": "Jazz Orchestra Composer Series Presents: Jake Baxendale-Level 1/18 Garrett Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+  "name": "Jazz Orchestra Composer Series Presents: Jake Baxendale",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/Jw5DQ3OgSx674ef1EZcj",
   "venue": "Level 1/18 Garrett Street, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
     "lat": -41.29336,
     "long": 174.7745002
   },
   "dates": [
-    "2025-08-01-19:00"
+    "2025-08-15-19:00"
   ],
-  "displayDate": "Fri 01 Aug",
-  "url": "https://events.humanitix.com/jazz-orchestra-composer-series-presents-callum-passells?hxchl=mkt-sch",
+  "displayDate": "Fri 15 Aug",
+  "url": "https://events.humanitix.com/jazz-orchestra-composer-series-presents-jake-baxendale?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Music & Concerts",
-  "description": "The new pieces commissioned for this series continue to stretch at the fabric of jazz and improvised forms, and are inspired by Morton Feldman, Lennie Tristano, Henry Threadgill and Sly Stone.\nCallum has been deeply involved in the New Zealand jazz and improvised music scene for over a decade, and is a busy freelancer in the wider music community in Auckland.\nHe has performed with Aldous Harding, Hans Pucket, the Exploding Rainbow Orchestra, the Auckland Philharmonia Orchestra, among many others.\nIn 2021, Callum was commissioned to compose a large-scale work 'Solid Spirit, Liquid Body' for the Wellington Jazz Festival.\nThe Jazz Orchestra Composer Series showcases original music for large jazz ensemble by New Zealand composers."
+  "description": "The eighth concert in our series is a new suite of music by local composer, performer, and wearer of excellent hats; Jake Baxendale.\nFor this concert, Jake is lifting his gaze from the domestic to the majestic with his new suite of music for improvisers, \u201cSky Meets Country\u201d.\nThese new compositions utilise tools Jake developed for his Gardening Music ensemble: but where that music takes a granular approach to musical cells, simulating the inward posture of grubbing around in the earth, this new work expands outward to capture the feeling of vastness that open landscapes, bush canopies, and wide, blue skies can inspire.\nJake has written, performed, and recorded extensively over his career, including \"Waypeople\", a commission for the Wellington Jazz Festival in 2023, and releasing his latest album \"Gardening Music\" earlier this year.\nTickets are $15, door sales $20."
 },
 {
-  "id": "Make Nice @ Cuba St Tavern-172 Cuba Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
-  "name": "Make Nice @ Cuba St Tavern",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/CWyNw8GnQlmoeqA8oVbw",
-  "venue": "172 Cuba Street, Te Aro, Wellington 6011, New Zealand",
+  "id": "Wellington Salsa Ball-4 Taranaki Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+  "name": "Wellington Salsa Ball",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/Zn8eDeIEQjKp6zlVMDWv",
+  "venue": "4 Taranaki Street, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -41.2944231,
-    "long": 174.7749394
+    "lat": -41.2900492,
+    "long": 174.7801018
   },
   "dates": [
-    "2025-08-16-16:00",
-    "2025-08-17-00:00"
+    "2025-08-02-20:00",
+    "2025-08-03-01:00"
   ],
-  "displayDate": "Sat 16 Aug + more",
-  "url": "https://events.humanitix.com/make-nice-cuba-st-tavern?hxchl=mkt-sch",
+  "displayDate": "Sat 02 Aug + more",
+  "url": "https://events.humanitix.com/wellington-salsa-ball?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Music & Concerts",
-  "description": "We\u2019re bringing you the first Wellington instalment of Make Nice After previous parties in the north and south we can confirm it\u2019s a nice time August 16th we\u2019ll be bringing the warmth to Wellingtons heart at the lush Cuba St Tavern Funky beats and deep grooves our focus is the music, movement and how it brings us together Swamp Shack Sound System will be filling the space with quality sound Be yourselves, be kind and let\u2019s make nice"
+  "description": "The Wellington Salsa Ball brings together live music and dancers from across the region for the city\u2019s biggest Latin dance social of the year!\nWhether you\u2019re a beginner or seasoned dancer, this event is for you!\nYour ticket includes: \ud83d\udc83 4+ hours of social dancing \ud83c\udfba A 90 minute live Salsa set from Wellington\u2019s own C-26 Salsa Band \ud83c\udfa7 DJ Panda playing Salsa + Bachata with a sprinkling of Zouk + Kizomba \u2728 A stunning venue with a beautiful wooden dance floor \ud83d\udcf7 Professional photos to remember the night (social dancing and photo wall) \ud83c\udf79 Access to the in-house bar Tickets are limited - and be sure to grab a cheaper ticket while they are still available!\nDress code: The Ball is absolutely an opportunity to dress up!\nEvent schedule: 8:00pm (Doors open + social dancing begins) 9:30pm - 11:00pm (C-26 live Salsa set) 11:00pm (Social dancing continues) 1:00am (Party ends) This event is made possible with support from Salsa Magic and the wider Wellington latin dance community."
 },
 {
-  "id": "Live From The Inferno Release Show (Adult Friends & Kahukuranui)-behind Moon Bar 167 Riddiford Street, Newtown, Wellington 6021, New Zealand-Humanitix",
-  "name": "Live From The Inferno Release Show (Adult Friends & Kahukuranui)",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/g48dsbynRyCpNfrzNSw5",
-  "venue": "behind Moon Bar 167 Riddiford Street, Newtown, Wellington 6021, New Zealand",
+  "id": "Botanical Watercolour on Calf Vellum-101 Glenmore Street, Kelburn, Wellington 6012, New Zealand-Humanitix",
+  "name": "Botanical Watercolour on Calf Vellum",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/IekU6aibThxPA8KV3mSH",
+  "venue": "101 Glenmore Street, Kelburn, Wellington 6012, New Zealand",
   "coordinates": {
-    "lat": -41.3121104,
-    "long": 174.7815446
+    "lat": -41.282195,
+    "long": 174.763785
   },
   "dates": [
-    "2025-08-29-20:00"
+    "2025-08-02-10:00"
   ],
-  "displayDate": "Fri 29 Aug",
-  "url": "https://events.humanitix.com/live-from-the-inferno-release-show-adult-friends-and-kahukuranui?hxchl=mkt-sch",
+  "displayDate": "Sat 02 Aug",
+  "url": "https://events.humanitix.com/botanical-watercolour-on-calf-vellum?hxchl=mkt-sch",
   "source": "Humanitix",
-  "eventType": "Music & Concerts",
-  "description": "Adult Friends are releasing a live EP recorded on Halloween 2024, featuring  Kahukuranui.\nTo celebrate, we\u2019re throwing a special night at Moon\u2014expect a blazing set from Adult Friends, followed by an immersive journey through hypnotic electronica with Kahukuranui.\nKicking off the night is the heavy shoegaze solo project of Thomas Waddington: The World is Against You.\nDon\u2019t miss this unforgettable evening\u2014and your chance to grab a free CD copy of Live From The Inferno by Adult Friends and Kahukuranui.\nBe at Moon, Newtown for 8pm doors!"
+  "eventType": "Arts & Theatre",
+  "description": "'Have you ever wondered what all the fuss is about vellum?\nBotanical artist, Lesley Alexander will share her knowledge of painting on vellum.\nUsed as a writing and painting surface since before the Middle Ages, Lesley loves the luminosity and glow that can be achieved working this traditional way.\nYou will learn: what vellum is how it is prepared it's uses now and in times past how to prepare the vellum with pumice powder and watercolour techniques to work on this very beautiful surface before spending the rest of the time painting a small colourful Pohutukawa leaf.\nIdeally you will have some experience using watercolour but that is not essential."
 },
 {
-  "id": "Unified Chaos: Student Graduation Showcase-17b Allen Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
-  "name": "Unified Chaos: Student Graduation Showcase",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/1Y7KIB0uR8qwfmPuDlKW",
+  "id": "Catfish Trifecta presents: The Cuck Chair-17b Allen Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+  "name": "Catfish Trifecta presents: The Cuck Chair",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/koGJRnnTvuAKS97MqWb5",
   "venue": "17b Allen Street, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
     "lat": -41.2929705,
     "long": 174.7826363
   },
   "dates": [
-    "2025-08-14-20:00"
-  ],
-  "displayDate": "Thu 14 Aug",
-  "url": "https://events.humanitix.com/unified-chaos?hxchl=mkt-sch",
-  "source": "Humanitix",
-  "eventType": "Arts & Theatre",
-  "description": "After 8 weeks of structured chaos, it\u2019s time to unleash the weird.\nCome see the newest batch of Basejumpers take the improv comedy stage and turn their boldest ideas into spontaneous, joyful, unified nonsense.\nTickets $10 Online sales.\nDoor sales while available."
-},
-{
-  "id": "Diabetes NZ Wellington Youth: Pickleball-72 Kemp Street, Kilbirnie, Wellington 6022, New Zealand-Humanitix",
-  "name": "Diabetes NZ Wellington Youth: Pickleball",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/PdWHeEYORrdO9puGZAuh",
-  "venue": "72 Kemp Street, Kilbirnie, Wellington 6022, New Zealand",
-  "coordinates": {
-    "lat": -41.3172074,
-    "long": 174.8019222
-  },
-  "dates": [
-    "2025-08-30-15:00"
-  ],
-  "displayDate": "Sat 30 Aug",
-  "url": "https://events.humanitix.com/diabetes-nz-wellington-youth-pickleball?hxchl=mkt-sch",
-  "source": "Humanitix",
-  "eventType": "Other",
-  "description": "After a successful Pickleball taster earlier in the year, join Diabetes NZ Wellington Youth for an action-packed afternoon of games held in conjunction with Wellington Pickleball.\nPickleball is the fastest growing sport in the world and is accessible for the whole family.\nParents/ caregivers are most welcome to join in on the fun!\nAny questions please get in touch with bridgets@diabetes.org.nz.\nWe are very grateful to have Wellington Pickleball join us again to coach us through and answer any questions on the day."
-},
-{
-  "id": "New Zealand Book Awards for Children & Young Adults Ceremony 2025-55-59 Thorndon Quay, Pipitea, Wellington 6011, New Zealand-Humanitix",
-  "name": "New Zealand Book Awards for Children & Young Adults Ceremony 2025",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/qqoIU5STc6eV66baF6Pw",
-  "venue": "55-59 Thorndon Quay, Pipitea, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.2784504,
-    "long": 174.7799999
-  },
-  "dates": [
-    "2025-08-13-18:30"
-  ],
-  "displayDate": "Wed 13 Aug",
-  "url": "https://events.humanitix.com/nz-book-awards-2025?hxchl=mkt-sch",
-  "source": "Humanitix",
-  "eventType": "Other",
-  "description": "Buy your tickets now for the 2025 New Zealand Book Awards for Children and Young Adults to join the celebration of the best books of the year for young New Zealand readers.\nYou\u2019ll get to meet the finalists and applaud the winners at an exuberant awards ceremony in the characterful Pipitea Marae on Wednesday 13 August.\nTheir achievements will be acknowledged on the night by publishers, politicians, booksellers, librarians, media and supporters of the children\u2019s literature community.\nMembers of the public are welcome to purchase tickets too.\nThis is a popular event with a limited number of seats, so book your place today and enjoy this wonderful celebration of Aotearoa\u2019s very best children\u2019s literature."
-},
-{
-  "id": "WISA Bowling Night-234/238 Wakefield Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
-  "name": "WISA Bowling Night",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/07jpcaVxQ1KdAHMxor8r",
-  "venue": "234/238 Wakefield Street, Te Aro, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.2895438,
-    "long": 174.7769516
-  },
-  "dates": [
-    "2025-07-28-18:00"
-  ],
-  "displayDate": "Mon 28 Jul",
-  "url": "https://events.humanitix.com/wisa-bowling-night-w8abhgfe?hxchl=mkt-sch",
-  "source": "Humanitix",
-  "eventType": "Other",
-  "description": "Join the Wellington International Students Association for a night of strikes, spares, and laughs at our Bowling Night!\nThis is your chance to hang out with international students from all over the world, make new friends, and enjoy have a fun start to your week.\nSpaces are limited to just 60 tickets, so grab yours early and don\u2019t miss out!"
-},
-{
-  "id": "Communication Opportunities Throughout the Day, Part 2 - Got a device, now what? Blenheim-Whitney Street, Blenheim Central, Blenheim 7201, New Zealand-Humanitix",
-  "name": "Communication Opportunities Throughout the Day, Part 2 - Got a device, now what? Blenheim",
-  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/IG9z3rmS5CLNJSccrf3t",
-  "venue": "Whitney Street, Blenheim Central, Blenheim 7201, New Zealand",
-  "coordinates": {
-    "lat": -41.126722,
-    "long": 175.0660271
-  },
-  "dates": [
-    "2025-07-31-09:30"
+    "2025-07-31-20:00"
   ],
   "displayDate": "Thu 31 Jul",
-  "url": "https://events.humanitix.com/communication-opportunities-throughout-the-day-part-2-got-a-device-now-what-blenheim?hxchl=mkt-sch",
+  "url": "https://events.humanitix.com/catfish-trifecta-presents-the-cuck-chair?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Arts & Theatre",
+  "description": "You hate improv?\nTell us why\u2026 then be forced to watch it.\nFrom the unhinged minds of Wellington\u2019s most insane comedy trio (Mo Munn, Ralph Hilaga, and Joel Luscombe) comes an original improv comedy format that is so boundary-breaking and genre-defining that it made Van Gogh s**t his pants.\nWhat begins as punishment becomes prophecy, as Catfish Trifecta performs relentlessly, defiantly and with far too much commitment, finishing towards an unholy finale nobody asked for.\nYou won\u2019t be ready, but you\u2019re coming anyway."
+},
+{
+  "id": "Native plant papermaking for Christmas-27A Elizabeth Street, Waikanae 5036, New Zealand-Humanitix",
+  "name": "Native plant papermaking for Christmas",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/4IciBmrzSYSCCkIqpY49",
+  "venue": "27A Elizabeth Street, Waikanae 5036, New Zealand",
+  "coordinates": {
+    "lat": -40.8785712,
+    "long": 175.0686013
+  },
+  "dates": [
+    "2025-11-16-10:00"
+  ],
+  "displayDate": "Sun 16 Nov",
+  "url": "https://events.humanitix.com/native-plant-papermaking-for-christmas?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Arts & Theatre",
+  "description": "In this festive papermaking workshop, you will create a range of tasteful and ecofriendly ornaments and gifts, using our sustainably made harakeke pulp.\nBe ready to get your hands wet!\nThis is an all-ages workshop and children (5+) are welcome to attend with a caregiver.\nAll paper produced during the workshop will be pressed and dried by the tutor and sent out to participants 2-3 weeks after the workshop.\nThis workshop is supported by the K\u0101piti Coast District Council as part of their Sustainable Spring programme."
+},
+{
+  "id": "Midnight: The Cinderella Musical-1 Monorgan Road, Strathmore Park, Wellington 6022, New Zealand-Humanitix",
+  "name": "Midnight: The Cinderella Musical",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/kE03wXpIRaCw6hzNOewN",
+  "venue": "1 Monorgan Road, Strathmore Park, Wellington 6022, New Zealand",
+  "coordinates": {
+    "lat": -41.3267872,
+    "long": 174.8190096
+  },
+  "dates": [
+    "2025-08-02-18:30"
+  ],
+  "displayDate": "Sat 02 Aug",
+  "url": "https://events.humanitix.com/midnight-the-cinderella-musical-2025?hxchl=mkt-sch",
   "source": "Humanitix",
   "eventType": "Other",
-  "description": "Following on from the success of Communication Opportunities throughout the day, we have listened to the feedback from participants and are pleased to bring you Part 2 - Got a device, now what Have you recently had a communication device issued to you and you would like support getting it up and running?\nA practical one-day workshop for teachers, teacher aides, wh\u0101nau, health professionals and other interested people.\nLots of practical tools, resources, tips and tricks will be shared.\nGroup discounts for 10 or more people from the same organisation are available, please email courses@talklink.org.nz to arrange.\nVenue will be central Blenheim."
+  "description": "MIDNIGHT is a major new musical that is sure to delight audiences young and old!\nLoosely inspired by the Cinderella story, this ground-breaking and enchanting new tale features Ella, a feisty, funny and passionate young heroine who doesn\u2019t want or need a so-called Prince Charming.\nEnchanted by this alluring stranger, the prince finds himself in uncharted territory and quickly learns that \"Ella\" is like no other.\nCan he prove his worth?\nCan she ignite his desire for change?"
+},
+{
+  "id": "After Austen: Em-2/57 Willis Street, Wellington Central, Wellington 6011, New Zealand-Humanitix",
+  "name": "After Austen: Em",
+  "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/EzKqPyiGTpG6jQg7bEaP",
+  "venue": "2/57 Willis Street, Wellington Central, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2865637,
+    "long": 174.7761865
+  },
+  "dates": [
+    "2025-07-26-14:30"
+  ],
+  "displayDate": "Sat 26 Jul",
+  "url": "https://events.humanitix.com/after-austen-em?hxchl=mkt-sch",
+  "source": "Humanitix",
+  "eventType": "Other",
+  "description": "Emmett Woodhouse, handsome, clever and rich, with a comfortable home and a gay disposition has lived nearly [redacted] years in the world with very little to distress or vex him.\nAttendees get an exclusive 10% discount at Unity Books Bring a friend: purchase 2 or more tickets and get a 10% discount Sam Brooks is an award-winning and prolific playwright and journalist, who is largely noted for his critically acclaimed LGBTQ+ work, including Riding in Cars with (Mostly Straight) Boys, Queen, and most recently This is My Story of Us, which was co-winner of the 2024 Adam New Zealand Play Award.\nHe has been shortlisted multiple years for the Adam New Zealand Play Award, and won the Dean Parker award in 2023.\nWho this event is for: People who love Austen People who love the theatre Fans of Sam's work Writers Actors Directors Afternoon tea provided (If you have issues paying via credit card you can pay via invoice or contact us - this should be fixed now) FAQs Do I need to know about Jane Austen?\nWe want you to be there and we want you to be comfortable."
 },
 ]

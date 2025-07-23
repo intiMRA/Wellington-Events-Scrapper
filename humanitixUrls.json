@@ -1,16 +1,21 @@
 [
   [
-    "https://events.humanitix.com/healthy-hospo-building-resilience-dunedin?hxchl=mkt-sch",
+    "https://events.humanitix.com/fme-over-breakfast?hxchl=mkt-sch",
     "Business & Professional",
     false
   ],
   [
-    "https://events.humanitix.com/healthy-hospo-building-resilience-queenstown?hxchl=mkt-sch",
-    "Business & Professional",
+    "https://events.humanitix.com/ceremonial-cacao-psychedelics-wellington?hxchl=mkt-sch",
+    "Health & Wellness",
     false
   ],
   [
-    "https://events.humanitix.com/gong-bath-at-vogelmorn-hall-wellington-zjhwzmsh?hxchl=mkt-sch",
+    "https://events.humanitix.com/soul-to-sole?hxchl=mkt-sch",
+    "Health & Wellness",
+    true
+  ],
+  [
+    "https://events.humanitix.com/gong-bath-at-lotus-centre-paraparaumu?hxchl=mkt-sch",
     "Health & Wellness",
     false
   ],
@@ -20,57 +25,57 @@
     false
   ],
   [
-    "https://events.humanitix.com/ipff-wellington?hxchl=mkt-sch",
+    "https://events.humanitix.com/wellington-regional-speed-puzzling-event?hxchl=mkt-sch",
     "Hobbies & Special Interest",
     false
   ],
   [
-    "https://events.humanitix.com/author-alley?hxchl=mkt-sch",
-    "Hobbies & Special Interest",
-    false
-  ],
-  [
-    "https://events.humanitix.com/jazz-orchestra-composer-series-presents-callum-passells?hxchl=mkt-sch",
+    "https://events.humanitix.com/the-warratahs?hxchl=mkt-sch",
     "Music",
     false
   ],
   [
-    "https://events.humanitix.com/make-nice-cuba-st-tavern?hxchl=mkt-sch",
+    "https://events.humanitix.com/niko-ne-zna-live-at-vogelmorn-hall-wellington?hxchl=mkt-sch",
     "Music",
     false
   ],
   [
-    "https://events.humanitix.com/live-from-the-inferno-release-show-adult-friends-and-kahukuranui?hxchl=mkt-sch",
+    "https://events.humanitix.com/jazz-orchestra-composer-series-presents-jake-baxendale?hxchl=mkt-sch",
     "Music",
     false
   ],
   [
-    "https://events.humanitix.com/unified-chaos?hxchl=mkt-sch",
+    "https://events.humanitix.com/wellington-salsa-ball?hxchl=mkt-sch",
+    "Music",
+    false
+  ],
+  [
+    "https://events.humanitix.com/botanical-watercolour-on-calf-vellum?hxchl=mkt-sch",
     "Performing & Visual Arts",
     false
   ],
   [
-    "https://events.humanitix.com/diabetes-nz-wellington-youth-pickleball?hxchl=mkt-sch",
-    "Other",
+    "https://events.humanitix.com/catfish-trifecta-presents-the-cuck-chair?hxchl=mkt-sch",
+    "Performing & Visual Arts",
     false
   ],
   [
-    "https://events.humanitix.com/nz-book-awards-2025?hxchl=mkt-sch",
-    "Other",
+    "https://events.humanitix.com/native-plant-papermaking-for-christmas?hxchl=mkt-sch",
+    "Performing & Visual Arts",
     false
   ],
   [
-    "https://events.humanitix.com/wisa-bowling-night-w8abhgfe?hxchl=mkt-sch",
+    "https://events.humanitix.com/midnight-the-cinderella-musical-2025?hxchl=mkt-sch",
+    "Other",
+    true
+  ],
+  [
+    "https://events.humanitix.com/after-austen-em?hxchl=mkt-sch",
     "Other",
     false
   ],
   [
     "https://events.humanitix.com/equip-central-2026?hxchl=mkt-sch",
-    "Other",
-    false
-  ],
-  [
-    "https://events.humanitix.com/communication-opportunities-throughout-the-day-part-2-got-a-device-now-what-blenheim?hxchl=mkt-sch",
     "Other",
     false
   ]

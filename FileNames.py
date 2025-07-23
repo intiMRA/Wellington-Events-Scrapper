@@ -1,5 +1,6 @@
 EVENTBRITE_URLS = "eventBriteUrls.json"
 EVENTBRITE_EVENTS = "eventsBriteEvents.json"
+EVENTBRITE_BANNED = "eventsBriteBanned.json"
 
 EVENT_FINDER_EVENTS = "eventFinderEvents.json"
 EVENT_FINDER_URLS = "eventFinderUrls.json"

@@ -10,13 +10,13 @@ def write_to_events_file(data: List[EventInfo]):
     events_dict = {}
 
     for event in data:
-        name = re.sub('\W+', ' ', event.name).replace(" ", "")
-        if name not in events_dict:
-            events_dict[name] = event
+        event_id = event.id
+        if event_id not in events_dict:
+            events_dict[event_id] = event
         else:
             if not event.image:
                 continue
-            events_dict[name] = event
+            events_dict[event_id] = event
 
     data = list(events_dict.values())
     event_types = set([event.eventType for event in data])
