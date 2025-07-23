@@ -36,333 +36,44 @@
   "description": "This show will feature haze and room scents for an immersive event experience.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo."
 },
 {
-  "id": "A Mamma Mia! Inspired High Tea-St James Theatre Wellington, Wellington, NZ-Ticket Master",
-  "name": "A Mamma Mia! Inspired High Tea",
-  "imageUrl": "",
-  "venue": "St James Theatre Wellington, Wellington, NZ",
+  "id": "Corrella | Skeletons Winter Tour-San Fran, Wellington-Ticket Master",
+  "name": "Corrella | Skeletons Winter Tour",
+  "imageUrl": "https://www.moshtix.co.nz/uploads/471568b2-acc8-4d5e-9b3b-287c6a21c9c6x600x600",
+  "venue": "San Fran, Wellington",
   "coordinates": {
-    "lat": -41.2933004,
-    "long": 174.7797564
+    "lat": -41.2941512,
+    "long": 174.7755614
   },
   "dates": [
-    "2025-08-23-12:00"
+    "2025-08-15-20:00"
   ],
-  "displayDate": "Sat 23 Aug",
-  "url": "https://www.ticketmaster.co.nz/a-mamma-mia-inspired-high-tea-wellington-23-08-2025/event/240062F0C59E2CF4",
+  "displayDate": "Fri 15 Aug",
+  "url": "https://www.moshtix.co.nz/v2/event/corrella-skeletons-winter-tour/181165",
   "source": "Ticket Master",
   "eventType": "Other",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\npresent, a Mamma Mia!\nInspired by the incredible Mamma Mia!\nEnjoy an afternoon of great food, drinks and plenty of ABBA!\nThen, pop downstairs and head straight into the show."
+  "description": "Loop, The Edge and Mai FM are stoked to present Corrella and their upcoming Skeletons Winter Tour!\nAfter a massive summer of festivals and touring alongside L.A.B across Aotearoa and Australia, Corrella are hitting the road this August for their biggest headline tour yet \u2014 bringing their new album Skeletons to the stage for the very first time.\nThe album follows their breakout debut Road From 26, which featured the sleeper hit Blue Eyed M\u0101ori\u2014a track that now holds the record for the most weeks ever spent at Number One on the NZ Singles Chart.\nSince their debut, Corrella have sold out shows nationwide, become festival favourites, and picked up multiple Aotearoa Music Awards and Waiata M\u0101ori Music Awards.\nThis run of shows will be their biggest headline tour to date."
 },
 {
-  "id": "The Bruce Springsteen Experience-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "The Bruce Springsteen Experience",
-  "imageUrl": "https://s1.ticketm.net/dam/a/f46/6c8120b8-e93c-410c-9beb-109cf9de7f46_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
+  "id": "Greta O\u2019Leary and Goodnight My Darling - River Dark Tour-San Fran, Wellington-Ticket Master",
+  "name": "Greta O\u2019Leary and Goodnight My Darling - River Dark Tour",
+  "imageUrl": "https://www.moshtix.co.nz/uploads/1e00a38c-3983-4af9-8dce-10e3b8be0afdx600x600",
+  "venue": "San Fran, Wellington",
   "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
+    "lat": -41.2941512,
+    "long": 174.7755614
   },
   "dates": [
-    "2025-08-23-19:30"
+    "2025-08-24-17:30"
   ],
-  "displayDate": "Sat 23 Aug",
-  "url": "https://www.ticketmaster.co.nz/the-bruce-springsteen-experience-wellington-23-08-2025/event/240060EF0984216C",
+  "displayDate": "Sun 24 Aug",
+  "url": "https://www.moshtix.co.nz/v2/event/greta-o-leary-and-goodnight-my-darling-river-dark-tour/182907",
   "source": "Ticket Master",
   "eventType": "Arts & Theatre",
-  "description": "Mobile Tickets are like Print-at-Home ticket but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket\nThe Boss Bruce Springsteen Experience is an international level show honoring the timeless music of Bruce Springsteen and the E Street Band.\nWith a full nine piece lineup, The Boss presents Bruces music at a captivating level of visual and audio excitement.\nThis show has wowed audiences at every performance, with standing ovations being the norm."
+  "description": "This August 24th join alt-folk songwriter Greta O'Leary & Te Whanganui a Tara artist Goodnight My Darling for one intimate and special show at San Fran, performing new and recently released works in celebration of emergence and O\u2019Learys debut record 'River Dark'.\n\u2018A folk-rooted aesthetic that feels almost gothic\u2019 (RNZ).\nRiver Dark' is O'Leary's debut.\nI was in the field below the house, I was at the pond with the dog, I played make believe longer than most.\nI was taught to be quiet.\u201d ***************************************** Goodnight My Darling is the vision and project of up and coming Te Whanganui a Tara based singer-songwriter Maxine Macaulay."
 },
 {
-  "id": "Artsplash Concert #1 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #1 Choir",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-08-25-17:00"
-  ],
-  "displayDate": "Mon 25 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-1-choir-wellington-25-08-2025/event/240062EAAA8D12FC",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nHeld every two years, ArtSplash celebrates tamariki and rangatahi on the big stage.\nYoung people aged 5-13 can experience performing in world-class venues in dance and choir concerts, as well as wearable arts showcases and visual art projects.\nFor more info click here(Opens in new tab)"
-},
-{
-  "id": "Artsplash Concert #2 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #2 Choir",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-08-25-19:30"
-  ],
-  "displayDate": "Mon 25 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-2-choir-wellington-25-08-2025/event/240062EBD1201A4F",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nHeld every two years, ArtSplash celebrates tamariki and rangatahi on the big stage.\nYoung people aged 5-13 can experience performing in world-class venues in dance and choir concerts, as well as wearable arts showcases and visual art projects.\nFor more info click here(Opens in new tab)"
-},
-{
-  "id": "Artsplash Concert #3 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #3 Choir",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-08-26-17:00"
-  ],
-  "displayDate": "Tue 26 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-3-choir-wellington-26-08-2025/event/240062EBD1BF1A63",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nHeld every two years, ArtSplash celebrates tamariki and rangatahi on the big stage.\nYoung people aged 5-13 can experience performing in world-class venues in dance and choir concerts, as well as wearable arts showcases and visual art projects.\nFor more info click here(Opens in new tab)"
-},
-{
-  "id": "Artsplash Concert #7 Dance-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #7 Dance",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-08-26-17:00"
-  ],
-  "displayDate": "Tue 26 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-7-dance-wellington-26-08-2025/event/240062EA920F0C5F",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, all patrons must hold a vaild ticket for entry.\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs."
-},
-{
-  "id": "Artsplash Concert #4 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #4 Choir",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-08-26-19:30"
-  ],
-  "displayDate": "Tue 26 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-4-choir-wellington-26-08-2025/event/240062EBD2591A80",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nHeld every two years, ArtSplash celebrates tamariki and rangatahi on the big stage.\nYoung people aged 5-13 can experience performing in world-class venues in dance and choir concerts, as well as wearable arts showcases and visual art projects.\nFor more info click here(Opens in new tab)"
-},
-{
-  "id": "Mamma Mia!-St James Theatre Wellington, Wellington, NZ-Ticket Master",
-  "name": "Mamma Mia!",
-  "imageUrl": "https://s1.ticketm.net/dam/a/4f2/5c23f485-2efc-4367-9002-3b076e99b4f2_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "St James Theatre Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2933004,
-    "long": 174.7797564
-  },
-  "dates": [
-    "2025-08-26-19:30"
-  ],
-  "displayDate": "Tue 26 Aug",
-  "url": "https://www.ticketmaster.co.nz/mamma-mia-wellington-26-08-2025/event/2400611BC1D41D7F",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket\nMy, my, how can you resist the world's favourite feel-good musical as it brings the good times and sunshine to the St James Theatre.\nMAMMA MIA!\nhas become one of the world's most beloved and successful musicals."
-},
-{
-  "id": "Artsplash Concert #5 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #5 Choir",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-08-27-17:00"
-  ],
-  "displayDate": "Wed 27 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-5-choir-wellington-27-08-2025/event/240062EBD2E31A8D",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nHeld every two years, ArtSplash celebrates tamariki and rangatahi on the big stage.\nYoung people aged 5-13 can experience performing in world-class venues in dance and choir concerts, as well as wearable arts showcases and visual art projects.\nFor more info click here(Opens in new tab)"
-},
-{
-  "id": "Artsplash Concert #8 Dance-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #8 Dance",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-08-27-17:00"
-  ],
-  "displayDate": "Wed 27 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-8-dance-wellington-27-08-2025/event/240062EBC73018A6",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, all patrons must hold a vaild ticket for entry.\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs."
-},
-{
-  "id": "Artsplash Concert #6 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #6 Choir",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-08-27-19:30"
-  ],
-  "displayDate": "Wed 27 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-6-choir-wellington-27-08-2025/event/240062EBD35E1A97",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nHeld every two years, ArtSplash celebrates tamariki and rangatahi on the big stage.\nYoung people aged 5-13 can experience performing in world-class venues in dance and choir concerts, as well as wearable arts showcases and visual art projects.\nFor more info click here(Opens in new tab)"
-},
-{
-  "id": "Artsplash Concert #9 Dance-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #9 Dance",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-08-27-19:30"
-  ],
-  "displayDate": "Wed 27 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-9-dance-wellington-27-08-2025/event/240062EBC7FC18E8",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, all patrons must hold a vaild ticket for entry.\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs."
-},
-{
-  "id": "Artsplash Concert #10 Dance-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #10 Dance",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-08-28-17:00"
-  ],
-  "displayDate": "Thu 28 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-10-dance-wellington-28-08-2025/event/240062EBC8B71922",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, all patrons must hold a vaild ticket for entry.\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs."
-},
-{
-  "id": "Artsplash Concert #11 Dance-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Artsplash Concert #11 Dance",
-  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-08-28-19:30"
-  ],
-  "displayDate": "Thu 28 Aug",
-  "url": "https://www.ticketmaster.co.nz/artsplash-concert-11-dance-wellington-28-08-2025/event/240062EBC9831950",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, all patrons must hold a vaild ticket for entry.\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs."
-},
-{
-  "id": "Creedence Clearwater Collective-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Creedence Clearwater Collective",
-  "imageUrl": "https://s1.ticketm.net/dam/a/638/d576fe35-fe29-4354-9de1-6eef930d9638_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-08-30-19:30"
-  ],
-  "displayDate": "Sat 30 Aug",
-  "url": "https://www.ticketmaster.co.nz/creedence-clearwater-collective-wellington-30-08-2025/event/24006108E7E288D0",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo."
-},
-{
-  "id": "Great Sounds Great Festival 2025-Various Venues - Wellington/Poneke, Wellington-Ticket Master",
-  "name": "Great Sounds Great Festival 2025",
-  "imageUrl": "https://www.moshtix.co.nz/uploads/502033b2-700a-4028-85ff-6cb7557568c3x600x600",
-  "venue": "Various Venues - Wellington/Poneke, Wellington",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2025-09-06-16:00",
-    "2025-09-07-03:00"
-  ],
-  "displayDate": "Sat 06 Sep + more",
-  "url": "https://www.moshtix.co.nz/v2/event/great-sounds-great-festival-2025/181670",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "One-night multi-venue music festival across Cuba St precinct Eyegum Music Collective presents GREAT SOUNDS GREAT, a multi-venue music and arts festival taking over P\u014dneke's Cuba Street precinct for one night only on Saturday 6 September 2025.\nShowcasing 40 of Aotearoa's best artists across 10 neighbouring venues, this is one big party you shouldn't miss.\nEyegum has worked hard to curate a programme that is sure to offer something for everyone, from first time gig-goers to seasoned live music obsessives.\nThere will also be plenty more to be announced soon.\nWhen: from 4pm Saturday 6 September 2025 Where: San Fran, Meow, Valhalla, Rogue & Vagabond, Bedlam & Squalor, Hotel Bristol (2 stages), St Peter's on Willis, Flying Nun Records, 13 Garrett St Who: The lineup will include Anthonie Tonnon, Baby Zionov, Bad Taste, BADTAB, Baeoli, Bathysphere, The Bats, By A Damn Sight, Cindy, Eveline Breaker, Goya, Half/Angel, Hans Pucket, Iris Little, Jazmine Mary, Jen Cloher, JessB, JHL, Jim Nothing, Jordan Hamel, Leah Dodd, LEAO, Louisa Nicklin, The Phoenix Foundation, Reb Fountain, Rebecca Hawkes, Shayne P Carter (solo), Sig Wilder & Friends, Sofia Machray, Space Bats, Attack!, The Spectre Collective: live-scored cinema, Star Time, plus more artists to be announced soon."
-},
-{
-  "id": "Paul Kelly-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Paul Kelly",
-  "imageUrl": "https://s1.ticketm.net/dam/a/ff2/88d2d4fe-e719-4d6f-a48b-55caa9104ff2_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-09-10-19:00"
-  ],
-  "displayDate": "Wed 10 Sep",
-  "url": "https://www.ticketmaster.co.nz/paul-kelly-wellington-10-09-2025/event/24006151A82E2478",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket"
-},
-{
-  "id": "Kevin Bloody Wilson Aussie Icon Tour-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Kevin Bloody Wilson Aussie Icon Tour",
-  "imageUrl": "https://s1.ticketm.net/dam/a/36f/201af0b8-a94e-48b5-aff1-eaa1ea9ba36f_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-09-11-19:30"
-  ],
-  "displayDate": "Thu 11 Sep",
-  "url": "https://www.ticketmaster.co.nz/kevin-bloody-wilson-aussie-icon-tour-wellington-11-09-2025/event/24006265DC352D6C",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo.\nThe much loved, outrageously funny KEVIN BLOODY WILSON returns to NZ in August/September with his new Aussie Icon Tour supported by Jenny Talia from Australia, performing again his funniest songs, hilarious stories and shooting down political correctness for his Kiwi fans."
-},
-{
-  "id": " The Monster in the Maze-St James Theatre Wellington, Wellington, NZ-Ticket Master",
-  "name": " The Monster in the Maze",
+  "id": "The Monster in the Maze-St James Theatre Wellington, Wellington, NZ-Ticket Master",
+  "name": "The Monster in the Maze",
   "imageUrl": "https://s1.ticketm.net/dam/a/05c/27b9a655-8c80-4731-88a7-39821c12305c_EVENT_DETAIL_PAGE_16_9.jpg",
   "venue": "St James Theatre Wellington, Wellington, NZ",
   "coordinates": {
@@ -370,210 +81,48 @@
     "long": 174.7797564
   },
   "dates": [
-    "2025-09-12-19:30"
+    "2025-09-13-14:30"
   ],
-  "displayDate": "Fri 12 Sep",
-  "url": "https://www.ticketmaster.co.nz/the-monster-in-the-maze-wellington-12-09-2025/event/2400616B8DFB21C0",
+  "displayDate": "Sat 13 Sep",
+  "url": "https://www.ticketmaster.co.nz/the-monster-in-the-maze-wellington-13-09-2025/event/2400616BE7B23320",
   "source": "Ticket Master",
   "eventType": "Arts & Theatre",
   "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket"
 },
 {
-  "id": "GOMIL - Grumpy Old Man in Lycra-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "GOMIL - Grumpy Old Man in Lycra",
-  "imageUrl": "https://s1.ticketm.net/dam/a/faf/495362d5-3559-4940-b7ee-3029f602ffaf_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
+  "id": "Messie-San Fran, Wellington-Ticket Master",
+  "name": "Messie",
+  "imageUrl": "https://www.moshtix.co.nz/uploads/3cd15fa2-6d3a-4607-b6a6-ca6536d192a8x600x600",
+  "venue": "San Fran, Wellington",
   "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
+    "lat": -41.2941512,
+    "long": 174.7755614
   },
   "dates": [
-    "2025-09-19-19:30"
+    "2025-09-20-19:30"
   ],
-  "displayDate": "Fri 19 Sep",
-  "url": "https://www.ticketmaster.co.nz/gomil-grumpy-old-man-in-lycra-wellington-19-09-2025/event/240062A5944F104B",
+  "displayDate": "Sat 20 Sep",
+  "url": "https://www.moshtix.co.nz/v2/event/messie/182588",
   "source": "Ticket Master",
-  "eventType": "Other",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo."
+  "eventType": "Arts & Theatre",
+  "description": "Gaining international attention after opening for one of the United Kingdom\u2019s most coveted DJs Fred again.. and remixing his song \u2018places to be\u2019 which now has over 2.6M listens on Spotify alone, MESSIE is quickly becoming one of the most exciting new names to watch in New Zealand.\nTickets for MESSIE\u2019s All Night Long tour in Auckland and Wellington will be available to purchase by the General Public on Friday 4th July at 12:00pm.\nMy Live Nation members will also be able to secure tickets during the presale which commences Wednesday 2nd July from 11:00am until Friday 4th July at 11:00am.\nMESSIE\u2019s sets are guaranteed to be bootleg heavy with something for everyone as she draws from her own music taste of rap and grime, to early 2000\u2019s singalongs, girl-boss anthems and queer music culture in the form of edits you\u2019d never expect.\nALL NIGHT LONG TOUR Presented by Live Nation"
 },
 {
-  "id": "The Fleetwood Mac Experience-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "The Fleetwood Mac Experience",
-  "imageUrl": "https://s1.ticketm.net/dam/a/1f0/91819483-02a6-4b3f-87bd-94bb8b5f21f0_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
+  "id": "Folk Bitch Trio-San Fran, Wellington-Ticket Master",
+  "name": "Folk Bitch Trio",
+  "imageUrl": "https://www.moshtix.co.nz/uploads/73ff4abb-553c-49b7-be82-888e10245ccfx600x600",
+  "venue": "San Fran, Wellington",
   "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
+    "lat": -41.2941512,
+    "long": 174.7755614
   },
   "dates": [
-    "2025-10-05-19:30"
+    "2025-09-27-19:00"
   ],
-  "displayDate": "Sun 05 Oct",
-  "url": "https://www.ticketmaster.co.nz/the-fleetwood-mac-experience-wellington-05-10-2025/event/240062C691EC16BF",
+  "displayDate": "Sat 27 Sep",
+  "url": "https://www.moshtix.co.nz/v2/event/folk-bitch-trio/180631",
   "source": "Ticket Master",
-  "eventType": "Other",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo.\nImmerse yourself in the timeless classic and chart-topping hits that defined a generation, as our talents Musicians faithfullyrecreate the magic and allure of Fleetwood Mac's"
-},
-{
-  "id": "Queen: It's a Kinda Magic-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Queen: It's a Kinda Magic",
-  "imageUrl": "https://s1.ticketm.net/dam/a/509/ca806358-f560-4748-bee0-27e315c62509_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-10-11-20:00"
-  ],
-  "displayDate": "Sat 11 Oct",
-  "url": "https://www.ticketmaster.co.nz/queen-its-a-kinda-magic-wellington-11-10-2025/event/2400613EF1D3352A",
-  "source": "Ticket Master",
-  "eventType": "Other",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo."
-},
-{
-  "id": "Rob Beckett: Giraffe-St James Theatre Wellington, Wellington, NZ-Ticket Master",
-  "name": "Rob Beckett: Giraffe",
-  "imageUrl": "https://s1.ticketm.net/dam/a/384/2e4e0622-fa17-496e-9328-ea9de1817384_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "St James Theatre Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2933004,
-    "long": 174.7797564
-  },
-  "dates": [
-    "2025-10-11-20:00"
-  ],
-  "displayDate": "Sat 11 Oct",
-  "url": "https://www.ticketmaster.co.nz/rob-beckett-giraffe-wellington-11-10-2025/event/24006142D58E2348",
-  "source": "Ticket Master",
-  "eventType": "Other",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please Note: Recommended 15+.\nMay contain coarse language & Adult themes.\nFrom Bromley to Brisbane, my new show Giraffe is going worldwide."
-},
-{
-  "id": "Coal Miner's Daughter-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Coal Miner's Daughter",
-  "imageUrl": "https://s1.ticketm.net/dam/a/71b/4c709849-9f19-4734-a3bd-a9ad75a2771b_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-10-23-19:30"
-  ],
-  "displayDate": "Thu 23 Oct",
-  "url": "https://www.ticketmaster.co.nz/coal-miners-daughter-wellington-23-10-2025/event/2400626A7F9E080E",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo.\nChild Policy: Children under 2 will be permitted free provided they do not occupy a seat."
-},
-{
-  "id": "Kaylee Bell - Cowboy Up Tour-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Kaylee Bell - Cowboy Up Tour",
-  "imageUrl": "https://s1.ticketm.net/dam/a/c14/76e891b7-159f-42e1-8e97-120e1d432c14_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-11-04-19:30"
-  ],
-  "displayDate": "Tue 04 Nov",
-  "url": "https://www.ticketmaster.co.nz/kaylee-bell-cowboy-up-tour-wellington-04-11-2025/event/240062D8E964150C",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket"
-},
-{
-  "id": "Bill Bailey - Vaudevillean-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Bill Bailey - Vaudevillean",
-  "imageUrl": "https://s1.ticketm.net/dam/a/951/6ec9b85e-3b95-4e70-acb9-7220c8de4951_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-11-11-20:00"
-  ],
-  "displayDate": "Tue 11 Nov",
-  "url": "https://www.ticketmaster.co.nz/bill-bailey-vaudevillean-wellington-11-11-2025/event/240062CCACDC0F36",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket\nBefore streaming, before tv, before cinema, before even radio\u2026.\nThere was Vaudeville!\nThis was the primetime entertainment of its day.. A celebration of comedy, songs, and multifarious skills.."
-},
-{
-  "id": "Luke Kidgell: Good Intentions-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Luke Kidgell: Good Intentions",
-  "imageUrl": "https://s1.ticketm.net/dam/a/5f9/79a7bc5c-0979-42a5-ae0e-fb388c5405f9_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-11-22-19:30"
-  ],
-  "displayDate": "Sat 22 Nov",
-  "url": "https://www.ticketmaster.co.nz/luke-kidgell-good-intentions-wellington-22-11-2025/event/24006284DA7F1B30",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo.\nLuke Kidgell continues new World Tour in New Zealand in 2025!"
-},
-{
-  "id": "Urzila Carlson - You Don't Say-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Urzila Carlson - You Don't Say",
-  "imageUrl": "https://s1.ticketm.net/dam/a/309/897bffdc-9cf1-44e9-8870-57a6bb84b309_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2025-12-05-19:30"
-  ],
-  "displayDate": "Fri 05 Dec",
-  "url": "https://www.ticketmaster.co.nz/urzila-carlson-you-dont-say-wellington-05-12-2025/event/240062B397B216A2",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo."
-},
-{
-  "id": "Kirk Franklin - The World Tour-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Kirk Franklin - The World Tour",
-  "imageUrl": "https://s1.ticketm.net/dam/a/c11/c0ac7880-9a17-40b5-b89d-5cb1f3b02c11_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2025-12-12-20:00"
-  ],
-  "displayDate": "Fri 12 Dec",
-  "url": "https://www.ticketmaster.co.nz/kirk-franklin-the-world-tour-wellington-12-12-2025/event/240062E3D94F18F4",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, All patrons must hold a vaild ticket for entry."
-},
-{
-  "id": "Jimmy Carr - Laughs Funny-TSB Arena, Wellington, NZ-Ticket Master",
-  "name": "Jimmy Carr - Laughs Funny",
-  "imageUrl": "https://s1.ticketm.net/dam/a/c71/9f938e0f-ba05-4803-9239-97f89168ec71_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "TSB Arena, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2856676,
-    "long": 174.778804
-  },
-  "dates": [
-    "2026-01-14-19:00"
-  ],
-  "displayDate": "Wed 14 Jan",
-  "url": "https://www.ticketmaster.co.nz/jimmy-carr-laughs-funny-wellington-14-01-2026/event/24006274E7E81A20",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is recommended for ages 16+.\nAll patrons must hold a ticket for entry."
+  "eventType": "Arts & Theatre",
+  "description": "Folk Bitch Trio Debut headline show in Te Whanganui-a-Tara/Wellington Melbourne\u2019s alluring Folk Bitch Trio have announced their debut album release tour of New Zealand, playing headline shows in Auckland, Wellington & Christchurch.\nNow Would Be A Good Time, the debut album by Folk Bitch Trio, tells vivid, visceral stories.\nIt wasn\u2019t long before she messaged Peverelle and Sinclair, asking if they\u2019d be interested in starting a \u201cfolk bitch trio.\u201d  As soon as they started singing together, their connection deepened, and \u201cthe chemistry of being inspired by each other was evident from the get-go,\u201d says Sinclair.\nListening to Folk Bitch Trio, it\u2019s clear that this is a band of three distinct points of view, with contrasting and complementary backgrounds and visions.\nSinclair is the self-proclaimed jester of the group, but her taste skews dark, gothic, baroque and dramatic, expressed as a love of opera and ballet as well as musicians as wide-ranging as Patti Smith, Nirvana and Tchaikovsky."
 },
 ]

@@ -32,7 +32,6 @@ class FacebookScrapper:
             days_until_target = (target_day - today.weekday()) % 7
             next_occurrence = today + timedelta(days=days_until_target)
             return next_occurrence.strftime("%d %b")
-
         except:
             return None
 
@@ -151,8 +150,9 @@ class FacebookScrapper:
                     event_url = re.findall(regex, event_url)[0]
                     if event_url in previous_urls:
                         continue
+                    previous_urls.add(event_url)
                     event_urls.add((event_url, "Other"))
-                    json.dump((event_url, "Other"), out_urls_file)
+                    json.dump((event_url, "Other"), out_urls_file, indent=2)
                     out_urls_file.write(",\n")
                 except:
                     continue
@@ -165,7 +165,7 @@ class FacebookScrapper:
         event_urls: Set[tuple[str, str]] = set()
         while True:
             driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
-            sleep(2)
+            sleep(random.uniform(2, 3))
             html = driver.find_elements(By.TAG_NAME, 'a')
             print("size of html: ", len(html))
             print(len(new_event_titles))
@@ -174,9 +174,11 @@ class FacebookScrapper:
                     event_url = event.get_attribute('href')
                     regex = r'https://www.facebook.com/events/\d+'
                     event_url = re.findall(regex, event_url)[0]
+                    if event_url in previous_urls:
+                        continue
                     event_urls.add((event_url, category))
                     previous_urls.add(event_url)
-                    json.dump((event_url, category), out_urls_file)
+                    json.dump((event_url, category), out_urls_file, indent=2)
                     out_urls_file.write(",\n")
                 except:
                     continue
@@ -203,10 +205,9 @@ class FacebookScrapper:
         end_date = start_date + relativedelta(days=30)
         end_date_string = end_date.strftime("%Y-%m-%d")
         end_date_string += "T05%3A00%3A00.000Z"
-        captured_urls = previous_urls
         category_urls = set()
-        # with open(FileNames.FACEBOOK_URLS, mode="r") as f:
-        #     category_urls = json.loads(f.read())
+        with open(FileNames.FACEBOOK_URLS, mode="r") as f:
+            category_urls = json.loads(f.read())
         events = []
         out_file = open(FileNames.FACEBOOK_EVENTS, mode="w")
         out_urls_file = open(FileNames.FACEBOOK_URLS, mode="w")
@@ -230,21 +231,21 @@ class FacebookScrapper:
                 cats.append(button.text)
         dates = driver.find_element(By.XPATH, "//span[contains(., 'Dates')]")
         dates.click()
-        sleep(5)
+        sleep(random.uniform(5, 7))
         next_month_button = driver.find_element(By.XPATH, "//span[contains(., 'In the next month')]")
         next_month_button.click()
-        sleep(2)
+        sleep(random.uniform(2, 3))
         location_search = driver.find_element(By.XPATH, "//input[@placeholder='Location']")
         location_search.click()
         location_search.send_keys("Wellin")
-        sleep(2)
+        sleep(random.uniform(2, 3))
         welly = driver.find_element(By.XPATH, "//span[contains(., 'Wellington, New Zealand')]")
         welly.click()
 
         cat_button = driver.find_element(By.XPATH, f"//span[contains(., 'Classics')]")
         cat_button.click()
         dates.click()
-        sleep(1)
+        sleep(random.uniform(1, 3))
 
         for cat in sorted(cats):
             print("cat: ", cat)
@@ -252,7 +253,7 @@ class FacebookScrapper:
             driver.execute_script("arguments[0].scrollIntoView(true);", cat_button)
             cat_button.click()
             sleep(1)
-            category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom(driver, cat, captured_urls, out_urls_file))
+            category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, out_urls_file))
             cat_button.click()
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -263,7 +264,7 @@ class FacebookScrapper:
             f"&end_date={end_date_string}")
         sleep(1)
 
-        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, captured_urls, out_urls_file, scroll_increment=5000))
+        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, out_urls_file, scroll_increment=5000))
 
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -273,20 +274,25 @@ class FacebookScrapper:
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
         sleep(1)
-        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, captured_urls, out_urls_file, scroll_increment=5000))
+        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, out_urls_file, scroll_increment=5000))
         out_urls_file.write("]\n")
+        num_events = len(category_urls)
+        print(f"fetching: {num_events}")
+        count = 1
         for part in category_urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
                 event = FacebookScrapper.get_event(part[0], part[1], driver)
                 if event:
                     events.append(event)
-                    json.dump(event.to_dict(), out_file)
+                    json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
                 sleep(random.uniform(2, 4))
             except Exception as e:
                 print(e)
                 sleep(random.uniform(2, 4))
+            print(f"{count} out of {num_events}")
+            count += 1
             print("-" * 100)
 
         driver.close()

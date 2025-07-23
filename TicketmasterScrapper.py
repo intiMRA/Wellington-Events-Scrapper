@@ -2,7 +2,7 @@ import json
 import re
 import subprocess
 from time import sleep
-
+import random
 import requests
 from selenium.webdriver.remote.webelement import WebElement
 
@@ -85,27 +85,19 @@ class TicketmasterScrapper:
         start_time = time.time()
         while True:
             try:
-                if "moshtix" in url:
-                    image_url = (driver
-                                 .find_element(By.CLASS_NAME, "page_headleftimage")
-                                 .find_element(By.TAG_NAME, "img")
-                                 .get_attribute("src"))
-                    if "https:" not in image_url:
-                        image_url = "https:" + image_url
-                else:
-                    sleep(2)
-                    image_urls = driver.find_elements(By.TAG_NAME, "img")
-                    image_url = ""
-                    for loop_url in image_urls:
-                        loop_url = loop_url.get_attribute("src")
-                        if "EVENT_DETAIL_PAGE" in loop_url:
-                            image_url = loop_url
-                return image_url
+                sleep(random.uniform(2, 3))
+                image_urls = driver.find_elements(By.TAG_NAME, "img")
+                image_url = ""
+                for loop_url in image_urls:
+                    loop_url = loop_url.get_attribute("src")
+                    if "EVENT_DETAIL_PAGE" in loop_url:
+                        image_url = loop_url
+                return image_url.split(",")[0]
             except:
                 if time.time() - start_time > timeout:
                     print("Timeout reached. Image element not found.")
                     return None
-                time.sleep(10)
+                sleep(random.uniform(7, 12))
 
     @staticmethod
     def get_description(div: WebElement) -> Optional[str]:
@@ -125,7 +117,7 @@ class TicketmasterScrapper:
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
-        sleep(1)
+        sleep(random.uniform(1, 3))
         if "ticketmaster.co.nz" in url:
             start_time = time.time()
             info_button = None
@@ -136,7 +128,7 @@ class TicketmasterScrapper:
                 except:
                     if time.time() - start_time > 10:
                         break
-                    time.sleep(10)
+                    sleep(random.uniform(7, 12))
             image_url = TicketmasterScrapper.get_image_url_with_timeout(driver, url)
             print("ticketmaster.co.nz")
             if not info_button:
@@ -148,7 +140,7 @@ class TicketmasterScrapper:
                 if deets:
                     event_details = deets[0]
                     break
-                sleep(1)
+                sleep(random.uniform(1, 3))
             divs = event_details.find_elements(By.TAG_NAME, "div")
             title = None
             date_string = None
@@ -190,7 +182,7 @@ class TicketmasterScrapper:
             dates = []
             if "Multiple" in date_string:
                 driver.execute_script(f"window.scrollBy(0, 1000);")
-                sleep(5)
+                sleep(random.uniform(3, 7))
                 iframe_element = driver.find_element(By.XPATH, "//iframe[@title='Event Dates Calendar']")
                 driver.switch_to.frame(iframe_element)
                 days = driver.find_elements(By.XPATH, "//td[@aria-disabled='false']")

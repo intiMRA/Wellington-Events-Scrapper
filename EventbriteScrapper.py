@@ -51,9 +51,32 @@ class EventbriteScrapper:
                     date_string = f"{date_string} {amPm}"
                 print(date_string)
                 return [parser.parse(date_string)]
-            except Exception as e:
-                print(e)
-                return []
+            except:
+                try:
+                    availability_button: WebElement = driver.find_element(By.XPATH, "//button[contains(., 'Check availability')]")
+                    availability_button.click()
+                    sleep(5)
+                    print("finding from modem")
+                    iframe_element = driver.find_element(By.XPATH, "//iframe[contains(@id, 'eventbrite-widget-modal')]")
+                    driver.switch_to.frame(iframe_element)
+                    dates = []
+                    cards: List[WebElement] = driver.find_elements(By.XPATH, "//div[contains(@class, 'eds-card')]")
+                    for card in cards:
+                        day = card.find_element(By.XPATH, "//p[@data-spec='date-thumbnail-day']").text
+                        month = card.find_element(By.XPATH, "//p[@data-spec='date-thumbnail-month']").text
+                        hour = "1:01AM"
+                        hour_element = card.find_elements(By.XPATH, "//div[@data-spec='series-event-card-date-string']")
+                        if hour_element:
+                            hour_element_string = hour_element[0].text
+                            matches = re.findall(r"\d{1,2}\S*:\s*{d{1,2}\s*[aAmMpP]{2}", hour_element_string)
+                            if matches:
+                                hour = matches[0]
+                        print(f"date: {day} {month} {hour}")
+                        dates.append(parser.parse(f"{day} {month} {hour}"))
+                    return dates
+                except Exception as e:
+                    print(e)
+                    return []
 
     @staticmethod
     def get_categories(driver: webdriver) -> List[Tuple[str, str]]:
@@ -68,7 +91,7 @@ class EventbriteScrapper:
         return categories
 
     @staticmethod
-    def get_event(url: str, driver: webdriver, category: str) -> Optional[EventInfo]:
+    def get_event(url: str, driver: webdriver, category: str, banned_file) -> Optional[EventInfo]:
         driver.get(url)
         try:
             button: WebElement = driver.find_element(By.XPATH, "//button[@data-testid='view-event-details-button']")
@@ -79,7 +102,10 @@ class EventbriteScrapper:
             location_text: str = driver.find_element(By.CLASS_NAME, "location-info__address").text
         except:
             return None
-        if "leadflake" in location_text:
+        if "leadflake" in location_text.lower():
+            print(f"banning: {url}")
+            json.dump(url, banned_file, indent=2)
+            banned_file.write(",\n")
             return None
         split: List[str] = location_text.split("\n")
         if len(split) == 3:
@@ -97,8 +123,8 @@ class EventbriteScrapper:
         except:
             image_url = ""
         event_link: str = url
-        dates: List[datetime] = EventbriteScrapper.get_all_dates(driver)
         description: str = driver.find_element(By.ID, "event-description").text
+        dates: List[datetime] = EventbriteScrapper.get_all_dates(driver)
         if "copyright" in description:
             return None
         return EventInfo(name=title,
@@ -111,7 +137,7 @@ class EventbriteScrapper:
                          description=description)
 
     @staticmethod
-    def get_events(driver: webdriver, previous_urls: Set[str], category: str, out_file, urls_file) -> List[EventInfo]:
+    def get_events(driver: webdriver, previous_urls: Set[str], category: str, out_file, urls_file, banned_file) -> List[EventInfo]:
         current_page = 1
         events = []
         event_urls: Set[str] = set()
@@ -162,7 +188,7 @@ class EventbriteScrapper:
         for url in event_urls:
             print(f"category: {category} url: {url}")
             try:
-                event: Optional[EventInfo] = EventbriteScrapper.get_event(url, driver, category)
+                event: Optional[EventInfo] = EventbriteScrapper.get_event(url, driver, category, banned_file)
                 if event:
                     events.append(event)
                     json.dump(event.to_dict(), out_file, indent=2)
@@ -185,6 +211,9 @@ class EventbriteScrapper:
         cats = EventbriteScrapper.get_categories(driver)
         out_file = open(FileNames.EVENTBRITE_EVENTS, mode="w")
         urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
+        with open(FileNames.EVENTBRITE_BANNED, mode="r") as f:
+            previous_urls = previous_urls.union(set(json.loads("[\n" +f.read()[:-2] + "\n]")))
+        banned_file = open(FileNames.EVENTBRITE_BANNED, mode="a")
         out_file.write("[\n")
         for cat in cats:
             cat_name, link = cat
@@ -198,7 +227,7 @@ class EventbriteScrapper:
                        + f"/?page=1&start_date={start_date.year}-{start_date.month}-{start_date.day}"
                          f"&end_date={end_date.year}-{end_date.month}-{end_date.day}")
             driver.get(new_url)
-            events += EventbriteScrapper.get_events(driver, previous_urls, cat_name, out_file, urls_file)
+            events += EventbriteScrapper.get_events(driver, previous_urls, cat_name, out_file, urls_file, banned_file)
         driver.close()
         out_file.write("]\n")
         out_file.close()
