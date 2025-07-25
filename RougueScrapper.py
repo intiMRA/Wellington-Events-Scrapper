@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 
-import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
@@ -39,6 +39,9 @@ class RougueScrapper:
                          description=description)
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.HUMANITIX)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.HUMANITIX)))
+        urls_file.write("[\n")
         events_info: List[EventInfo] = []
         driver = webdriver.Chrome()
         event_urls: List[str] = []
@@ -50,9 +53,9 @@ class RougueScrapper:
             if event_url in previous_urls or event_url in event_urls:
                 continue
             event_urls.append(event_url)
-        with open(FileNames.ROGUE_URLS, mode="w") as f:
-            json.dump(event_urls, f)
-        out_file = open(FileNames.ROGUE_EVENTS, mode="w")
+            json.dump(event_url, urls_file, indent=2)
+            urls_file.write(",\n")
+        urls_file.write("]\n")
         out_file.write("[\n")
         for url in event_urls:
             print(f"url: {url}")
@@ -71,6 +74,9 @@ class RougueScrapper:
                     raise e
             print("-" * 100)
         out_file.write("]\n")
+        out_file.close()
+        urls_file.close()
+        banned_file.close()
         driver.close()
         return events_info
 
