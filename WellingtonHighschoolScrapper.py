@@ -4,7 +4,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
 import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
@@ -95,7 +94,7 @@ class WellingtonHighschoolScrapper:
                 if "No dates found for" in str(e):
                     print("-" * 100)
                     print(e)
-                    json.dump(event_urls, banned_file, indent=2)
+                    json.dump(event_url, banned_file, indent=2)
                     banned_file.write(",\n")
                 else:
                     print("-" * 100)

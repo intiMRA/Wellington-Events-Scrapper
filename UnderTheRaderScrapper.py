@@ -84,7 +84,7 @@ class UnderTheRaderScrapper:
         event_urls: List[str] = []
         driver = webdriver.Chrome()
         driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
-        UnderTheRaderScrapper.get_urls(driver, previous_urls, False)
+        UnderTheRaderScrapper.get_urls(driver, previous_urls, False, urls_file)
         out_file.write("[\n")
         for url in event_urls:
             print(f"url: {url}")
@@ -97,6 +97,8 @@ class UnderTheRaderScrapper:
             except Exception as e:
                 if "No dates found for" in str(e):
                     print("-" * 100)
+                    json.dump(url, banned_file, indent=2)
+                    banned_file.write(",\n")
                     print(e)
                 else:
                     print("-" * 100)

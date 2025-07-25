@@ -62,8 +62,11 @@ class FacebookScrapper:
         regex = r"\d{1,2}\s\w+\d{0,4}"
         matches = re.findall(regex, date)
         if matches:
+            dates = []
+            for match in matches:
+                dates.append(parser.parse(match))
             print(f"date: {matches[0]} {hour}")
-            return [parser.parse(f"{matches[0]} {hour}")]
+            return dates
         for day_of_the_week in week_days:
             matches = re.findall(fr"{day_of_the_week}", date)
             if matches:
@@ -73,7 +76,7 @@ class FacebookScrapper:
         print(f"facebook: {date}")
         return []
     @staticmethod
-    def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
+    def get_event(url: str, category: str, driver: webdriver, banned_file) -> Optional[EventInfo]:
         driver.get(url)
         sleep(random.randint(1, 3))
         info = driver.find_element(By.XPATH, "//div[@aria-label='Event permalink']")
@@ -86,9 +89,13 @@ class FacebookScrapper:
             texts.append(text)
         driver.execute_script(f"window.scrollBy(0, 200);")
         sleep(random.randint(1, 3))
-        button = info.find_element(By.XPATH, '//div[@role="button" and text()="See more"]')
-        button.click()
-
+        try:
+            button = info.find_element(By.XPATH, '//div[@role="button" and text()="See more"]')
+            button.click()
+        except Exception as e:
+            json.dump(url, banned_file, indent=2)
+            banned_file.write(",\n")
+            raise e
         sleep(1)
 
         try:
@@ -289,7 +296,7 @@ class FacebookScrapper:
         for part in category_urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
-                event = FacebookScrapper.get_event(part[0], part[1], driver)
+                event = FacebookScrapper.get_event(part[0], part[1], driver, banned_file)
                 if event:
                     events.append(event)
                     json.dump(event.to_dict(), out_file, indent=2)
@@ -297,8 +304,6 @@ class FacebookScrapper:
                 sleep(random.uniform(2, 4))
             except Exception as e:
                 print(e)
-                json.dump(part[0], banned_file, indent=2)
-                banned_file.write(",\n")
                 sleep(random.uniform(2, 4))
             print(f"{count} out of {num_events}")
             count += 1
@@ -310,4 +315,4 @@ class FacebookScrapper:
         urls_file.close()
         banned_file.close()
         return events
-# events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))

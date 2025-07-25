@@ -2,7 +2,6 @@ from datetime import datetime
 import FileUtils
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
 import ScrapperNames
 from DateFormatting import DateFormatting
 
@@ -184,7 +183,6 @@ class EventbriteScrapper:
                 if event_url in previous_urls or event_url in event_urls:
                     continue
                 event_urls.add(event_url)
-        json.dump(list(event_urls), urls_file, indent=2)
         for url in event_urls:
             print(f"category: {category} url: {url}")
             try:
@@ -195,6 +193,9 @@ class EventbriteScrapper:
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):
+                    json.dump(url, banned_file, indent=2)
+                    banned_file.write(",\n")
+                    previous_urls.add(url)
                     print("-" * 100)
                     print(e)
                 else:

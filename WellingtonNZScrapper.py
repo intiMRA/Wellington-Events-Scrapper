@@ -4,7 +4,6 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
 import FileUtils
 import ScrapperNames
 from DateFormatting import DateFormatting
@@ -178,7 +177,7 @@ class WellingtonNZScrapper:
                 number_of_events = re.findall("\d+", number_of_events.text)
                 page += 1
             number_of_events = [0, 1]
-            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file, out_file)
+            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file, out_file, banned_file)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()

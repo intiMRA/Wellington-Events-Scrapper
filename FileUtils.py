@@ -75,12 +75,14 @@ def load_from_files(name: str) -> tuple[List[EventInfo], List, List]:
     with open(f"{name}Urls.json", mode="r") as f:
         urls = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
     with open(f"{name}Banned.json",mode="r") as f:
-        banned_urls = json.loads(f"[{f.read()}]")
+        file_text = f.read()[0:-2]
+        banned_urls = json.loads(f"[{file_text}]")
     return events, urls, banned_urls
 
 def load_banned(name: str) -> Set[str]:
     with open(f"{name}Banned.json",mode="r") as f:
-        return json.loads(f"[{f.read()}]")
+        file_text = f.read()[0:-2]
+        return json.loads(f"[{file_text}]")
 
 def all_event_file_names() -> List[str]:
     names = []
