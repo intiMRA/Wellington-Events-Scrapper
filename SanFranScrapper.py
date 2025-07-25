@@ -1,8 +1,6 @@
-from time import sleep
 
 import requests
 
-import FileNames
 import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo

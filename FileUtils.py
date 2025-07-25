@@ -66,10 +66,10 @@ def get_files_for_scrapper(name: str) -> tuple[IO, IO, IO]:
             open(f"{name}Urls.json", mode="w"),
             open(f"{name}Banned.json", mode="a"))
 
-def load_from_files(name: str) -> tuple[List[EventInfo], set, set]:
+def load_from_files(name: str) -> tuple[List[EventInfo], List, List]:
     events: List[EventInfo] = []
-    urls = set()
-    banned_urls = set()
+    urls = []
+    banned_urls = []
     with open(f"{name}Events.json", mode="r") as f:
         events = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
     with open(f"{name}Urls.json", mode="r") as f:
