@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -91,6 +92,9 @@ class HumanitixScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.HUMANITIX)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.HUMANITIX)))
+        urls_file.write("[\n")
         events: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
@@ -128,15 +132,15 @@ class HumanitixScrapper:
                         if "more times" in date_string:
                             multiple_dates = True
                             break
-                    event_urls.append((event_url, categoryName, multiple_dates))
+                    url_tuple = (event_url, categoryName, multiple_dates)
+                    event_urls.append(url_tuple)
+                    json.dump(url_tuple, urls_file, indent=2)
+                    urls_file.write(",\n")
                 page += 1
-        with open(FileNames.HUMANITIX_URLS, mode="w") as f:
-            json.dump(event_urls, f, indent=2)
 
-        out_file = open(FileNames.HUMANITIX_EVENTS, 'w')
         out_file.write("[\n")
         for part in event_urls:
-            print(f"category: {part[0]} url: {part[1]}")
+            print(f"category: {part[1]} url: {part[0]}")
             try:
                 event = HumanitixScrapper.get_event(part[0], part[1], part[2], driver)
                 if event:
@@ -145,6 +149,8 @@ class HumanitixScrapper:
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):
+                    json.dump(part[0], banned_file, indent=2)
+                    banned_file.write(",\n")
                     print("-" * 100)
                     print(e)
                 else:
@@ -152,6 +158,9 @@ class HumanitixScrapper:
                     raise e
             print("-"*100)
         out_file.write("]\n")
+        urls_file.write("]\n")
+        urls_file.close()
+        banned_file.close()
         driver.close()
         return events
 
