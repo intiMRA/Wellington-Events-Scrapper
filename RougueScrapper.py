@@ -39,8 +39,8 @@ class RougueScrapper:
                          description=description)
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.HUMANITIX)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.HUMANITIX)))
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.ROGUE_AND_VAGABOND)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.ROGUE_AND_VAGABOND)))
         urls_file.write("[\n")
         events_info: List[EventInfo] = []
         driver = webdriver.Chrome()

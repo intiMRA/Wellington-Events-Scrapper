@@ -3,6 +3,7 @@ from time import sleep
 import requests
 
 import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -16,7 +17,8 @@ class SanFranScrapper:
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         events: List[EventInfo] = []
         page = 1
-        out_file = open(FileNames.SAN_FRAN_EVENTS, mode="w")
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.SAN_FRAN)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.SAN_FRAN)))
         out_file.write("[\n")
         while True:
             headers = {
@@ -36,11 +38,16 @@ class SanFranScrapper:
             r = requests.get(url=api_url, headers=headers)
             # extracting data in json format
             if r.status_code != 200:
+                out_file.close()
+                banned_file.close()
+                urls_file.close()
                 return events
             data = r.json()
             if not data['documents']:
                 out_file.write("]\n")
                 out_file.close()
+                banned_file.close()
+                urls_file.close()
                 return events
             for event in data['documents']:
                 try:
