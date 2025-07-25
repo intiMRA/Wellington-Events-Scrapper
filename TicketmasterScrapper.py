@@ -6,7 +6,6 @@ import random
 import requests
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
 import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo

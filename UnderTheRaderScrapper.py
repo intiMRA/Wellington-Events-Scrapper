@@ -6,7 +6,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
-import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
@@ -51,12 +51,10 @@ class UnderTheRaderScrapper:
                          description=description)
 
     @staticmethod
-    def get_urls(driver, previous_urls, from_file: bool) -> List[str]:
+    def get_urls(driver, previous_urls, from_file: bool, urls_file) -> List[str]:
         event_urls: List[str] = []
         if from_file:
-            with open(FileNames.UNDER_THE_RADAR_URLS, mode="r") as f:
-                event_urls = json.loads(f.read())
-            return event_urls
+            return FileUtils.load_from_files(ScrapperNames.UNDER_THE_RADAR)[1]
 
         while True:
             try:
@@ -74,18 +72,19 @@ class UnderTheRaderScrapper:
             if url in previous_urls or url in event_urls:
                 continue
             event_urls.append(url)
-        with open(FileNames.UNDER_THE_RADAR_URLS, mode="w") as f:
-            json.dump(event_urls, f, indent=2)
+            json.dump(url, urls_file, indent=2)
+            urls_file.write(",\n")
         return event_urls
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.UNDER_THE_RADAR)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.UNDER_THE_RADAR)))
         events: List[EventInfo] = []
         event_urls: List[str] = []
         driver = webdriver.Chrome()
         driver.get("https://www.undertheradar.co.nz/utr/gigRegion/Wellington")
         UnderTheRaderScrapper.get_urls(driver, previous_urls, False)
-        out_file = open(FileNames.UNDER_THE_RADAR_EVENTS, mode="w")
         out_file.write("[\n")
         for url in event_urls:
             print(f"url: {url}")
@@ -106,6 +105,8 @@ class UnderTheRaderScrapper:
         driver.close()
         out_file.write("]\n")
         out_file.close()
+        urls_file.close()
+        banned_file.close()
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(UnderTheRaderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
