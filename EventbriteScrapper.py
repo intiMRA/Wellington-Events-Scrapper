@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import FileUtils
 from selenium.webdriver.remote.webelement import WebElement
 
 import FileNames
@@ -209,11 +209,8 @@ class EventbriteScrapper:
         driver = webdriver.Chrome()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')
         cats = EventbriteScrapper.get_categories(driver)
-        out_file = open(FileNames.EVENTBRITE_EVENTS, mode="w")
-        urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
-        with open(FileNames.EVENTBRITE_BANNED, mode="r") as f:
-            previous_urls = previous_urls.union(set(json.loads("[\n" +f.read()[:-2] + "\n]")))
-        banned_file = open(FileNames.EVENTBRITE_BANNED, mode="a")
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_BRITE)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
         out_file.write("[\n")
         for cat in cats:
             cat_name, link = cat
