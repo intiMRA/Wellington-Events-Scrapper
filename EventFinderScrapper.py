@@ -2,7 +2,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -202,8 +202,8 @@ class EventFinderScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        out_file = open(FileNames.EVENT_FINDER_EVENTS, mode="w")
-        urls_file = open(FileNames.EVENT_FINDER_URLS, mode="w")
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_FINDER)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_FINDER)))
         out_file.write("[\n")
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
@@ -220,6 +220,7 @@ class EventFinderScrapper:
         out_file.write("]\n")
         out_file.close()
         urls_file.close()
+        banned_file.close()
         return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
