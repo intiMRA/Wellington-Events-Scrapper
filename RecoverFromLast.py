@@ -1,6 +1,4 @@
 import json
-
-import FileNames
 import FileUtils
 import ScrapperFactory
 import ScrapperNames
@@ -32,7 +30,7 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
             loaded_urls.add(event.url)
         data += previous_list
 
-for file in FileNames.ALL_EVENT_FILES:
+for file in FileUtils.all_event_file_names():
     print(f"proccessing: {file}")
     with open(file, mode="r") as f:
         file_text = f.read()

@@ -1,8 +1,8 @@
-from typing import List
+from typing import List, IO, Set
 
 import FileNames
+import ScrapperNames
 from EventInfo import EventInfo
-import re
 import json
 from dateutil import parser
 
@@ -60,3 +60,32 @@ def load_event(from_file = FileNames.EVENTS) -> List[EventInfo]:
             if event:
                 events.append(event)
         return events
+
+def get_files_for_scrapper(name: str) -> tuple[IO, IO, IO]:
+    return (open(f"{name}Events.json", mode="w"),
+            open(f"{name}Urls.json", mode="w"),
+            open(f"{name}Banned.json", mode="a"))
+
+def load_from_files(name: str) -> tuple[List[EventInfo], List, List]:
+    events: List[EventInfo] = []
+    urls = []
+    banned_urls = []
+    with open(f"{name}Events.json", mode="r") as f:
+        events = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
+    with open(f"{name}Urls.json", mode="r") as f:
+        urls = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
+    with open(f"{name}Banned.json",mode="r") as f:
+        file_text = f.read()[0:-2]
+        banned_urls = json.loads(f"[{file_text}]")
+    return events, urls, banned_urls
+
+def load_banned(name: str) -> Set[str]:
+    with open(f"{name}Banned.json",mode="r") as f:
+        file_text = f.read()[0:-2]
+        return json.loads(f"[{file_text}]")
+
+def all_event_file_names() -> List[str]:
+    names = []
+    for scrapper in ScrapperNames.ALL_SCRAPER_NAMES:
+        names.append(f"{scrapper}Events.json")
+    return names

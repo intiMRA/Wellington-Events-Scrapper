@@ -1,8 +1,7 @@
 from datetime import datetime
-
+import FileUtils
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
 import ScrapperNames
 from DateFormatting import DateFormatting
 
@@ -184,7 +183,6 @@ class EventbriteScrapper:
                 if event_url in previous_urls or event_url in event_urls:
                     continue
                 event_urls.add(event_url)
-        json.dump(list(event_urls), urls_file, indent=2)
         for url in event_urls:
             print(f"category: {category} url: {url}")
             try:
@@ -195,6 +193,9 @@ class EventbriteScrapper:
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):
+                    json.dump(url, banned_file, indent=2)
+                    banned_file.write(",\n")
+                    previous_urls.add(url)
                     print("-" * 100)
                     print(e)
                 else:
@@ -209,11 +210,8 @@ class EventbriteScrapper:
         driver = webdriver.Chrome()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')
         cats = EventbriteScrapper.get_categories(driver)
-        out_file = open(FileNames.EVENTBRITE_EVENTS, mode="w")
-        urls_file = open(FileNames.EVENTBRITE_URLS, mode="w")
-        with open(FileNames.EVENTBRITE_BANNED, mode="r") as f:
-            previous_urls = previous_urls.union(set(json.loads("[\n" +f.read()[:-2] + "\n]")))
-        banned_file = open(FileNames.EVENTBRITE_BANNED, mode="a")
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_BRITE)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
         out_file.write("[\n")
         for cat in cats:
             cat_name, link = cat

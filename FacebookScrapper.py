@@ -9,7 +9,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
-import FileNames
+import FileUtils
+import ScrapperNames
 from EventInfo import EventInfo
 import re
 from datetime import datetime, timedelta
@@ -61,8 +62,11 @@ class FacebookScrapper:
         regex = r"\d{1,2}\s\w+\d{0,4}"
         matches = re.findall(regex, date)
         if matches:
+            dates = []
+            for match in matches:
+                dates.append(parser.parse(match))
             print(f"date: {matches[0]} {hour}")
-            return [parser.parse(f"{matches[0]} {hour}")]
+            return dates
         for day_of_the_week in week_days:
             matches = re.findall(fr"{day_of_the_week}", date)
             if matches:
@@ -72,7 +76,7 @@ class FacebookScrapper:
         print(f"facebook: {date}")
         return []
     @staticmethod
-    def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
+    def get_event(url: str, category: str, driver: webdriver, banned_file) -> Optional[EventInfo]:
         driver.get(url)
         sleep(random.randint(1, 3))
         info = driver.find_element(By.XPATH, "//div[@aria-label='Event permalink']")
@@ -85,9 +89,21 @@ class FacebookScrapper:
             texts.append(text)
         driver.execute_script(f"window.scrollBy(0, 200);")
         sleep(random.randint(1, 3))
-        button = info.find_element(By.XPATH, '//div[@role="button" and text()="See more"]')
+        try:
+            button = info.find_element(By.XPATH, '//div[@role="button" and text()="See more"]')
+            button.click()
+        except Exception as e:
+            json.dump(url, banned_file, indent=2)
+            banned_file.write(",\n")
+            raise e
+        sleep(1)
 
-        button.click()
+        try:
+            button = info.find_element(By.XPATH, '//div[@role="button" and text()="See more"]')
+            button.click()
+        except:
+            pass
+
         try:
             actions = ActionChains(driver)
             window_size = driver.get_window_size()
@@ -206,12 +222,10 @@ class FacebookScrapper:
         end_date_string = end_date.strftime("%Y-%m-%d")
         end_date_string += "T05%3A00%3A00.000Z"
         category_urls = set()
-        with open(FileNames.FACEBOOK_URLS, mode="r") as f:
-            category_urls = json.loads(f.read())
         events = []
-        out_file = open(FileNames.FACEBOOK_EVENTS, mode="w")
-        out_urls_file = open(FileNames.FACEBOOK_URLS, mode="w")
-        out_urls_file.write("[\n")
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.FACEBOOK)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.FACEBOOK)))
+        urls_file.write("[\n")
         out_file.write("[\n")
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -253,7 +267,7 @@ class FacebookScrapper:
             driver.execute_script("arguments[0].scrollIntoView(true);", cat_button)
             cat_button.click()
             sleep(1)
-            category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, out_urls_file))
+            category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file))
             cat_button.click()
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -264,7 +278,7 @@ class FacebookScrapper:
             f"&end_date={end_date_string}")
         sleep(1)
 
-        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, out_urls_file, scroll_increment=5000))
+        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, urls_file, scroll_increment=5000))
 
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -274,15 +288,15 @@ class FacebookScrapper:
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
         sleep(1)
-        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, out_urls_file, scroll_increment=5000))
-        out_urls_file.write("]\n")
+        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, urls_file, scroll_increment=5000))
+        urls_file.write("]\n")
         num_events = len(category_urls)
         print(f"fetching: {num_events}")
         count = 1
         for part in category_urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
-                event = FacebookScrapper.get_event(part[0], part[1], driver)
+                event = FacebookScrapper.get_event(part[0], part[1], driver, banned_file)
                 if event:
                     events.append(event)
                     json.dump(event.to_dict(), out_file, indent=2)
@@ -298,6 +312,7 @@ class FacebookScrapper:
         driver.close()
         out_file.write("]\n")
         out_file.close()
-        out_urls_file.close()
+        urls_file.close()
+        banned_file.close()
         return events
-# events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(FacebookScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))

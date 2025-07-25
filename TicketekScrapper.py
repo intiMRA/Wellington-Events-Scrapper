@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -62,6 +62,8 @@ class TicketekScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.TICKETEK)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.TICKETEK)))
         events_info: List[EventInfo] = []
         driver = webdriver.Chrome()
         driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
@@ -82,6 +84,8 @@ class TicketekScrapper:
                         continue
                     previous_urls.add(event_url)
                     event_urls.append((event_url, categoryName))
+                    json.dump((event_url, categoryName), urls_file, indent=2)
+                    urls_file.write(",\n")
                 page += 1
                 try:
                     if driver.find_element(By.CLASS_NAME, "noResultsMessage"):
@@ -92,9 +96,6 @@ class TicketekScrapper:
                 start, end = pagination.split(" of ")
                 if start == end:
                     break
-        with open(FileNames.TICKETEK_URLS, mode="w") as f:
-            json.dump(event_urls, f, indent=2)
-        out_file = open(FileNames.TICKETEK_EVENTS, mode="w")
         out_file.write("[\n")
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
@@ -110,12 +111,17 @@ class TicketekScrapper:
             except Exception as e:
                 if "No dates found for" in str(e):
                     print("-" * 100)
+                    json.dump(part[0], banned_file, indent=2)
+                    banned_file.write(",\n")
                     print(e)
                 else:
                     print("-" * 100)
                     raise e
             print("-"*100)
         out_file.write("]\n")
+        out_file.close()
+        banned_file.close()
+        urls_file.close()
         driver.close()
         return events_info
 

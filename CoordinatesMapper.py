@@ -5,7 +5,12 @@ import re
 class CoordinatesMapper:
     @staticmethod
     def get_coordinates(address: str) -> Optional[dict[str, str]]:
+        clean_ups = [
+            " - Mana"
+        ]
         geolocator = Nominatim(user_agent="wlleington_events")
+        for clean_up in clean_ups:
+            address = re.sub(fr"{clean_up}", "", address)
         variations = [address]
 
         first_part = ",".join(address.split(",")[1:]).strip()

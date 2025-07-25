@@ -6,7 +6,7 @@ import random
 import requests
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 from enum import Enum
@@ -234,12 +234,10 @@ class TicketmasterScrapper:
                              description=description)
         return None
     @staticmethod
-    def get_urls(previous_urls: set, previous_titles: set, from_file: bool) ->List[tuple[str, str]]:
+    def get_urls(previous_urls: set, previous_titles: set, from_file: bool, urls_file) ->List[tuple[str, str]]:
         event_urls: List[tuple[str, str]] = []
         if from_file:
-            with open(FileNames.TICKET_MASTER_URLS, mode="r") as f:
-                event_urls = json.loads(f.read())
-            return event_urls
+            return FileUtils.load_from_files(ScrapperNames.TICKET_MASTER)[1]
 
         class PossibleKeys(str, Enum):
             id = 'id'
@@ -324,6 +322,8 @@ class TicketmasterScrapper:
                     previous_titles.add(title)
                     previous_urls.add(event_url)
                     event_urls.append((event_url, category_name))
+                    json.dump((event_url, category_name), urls_file, indent=2)
+                    urls_file.write(",\n")
                 if count >= data[PossibleKeys.total]:
                     break
                 page += 1
@@ -331,13 +331,13 @@ class TicketmasterScrapper:
                 print("ticket master error")
                 print(e)
                 count += 1
-        with open(FileNames.TICKET_MASTER_URLS, mode="w") as f:
-            json.dump(event_urls, f, indent=2)
         return event_urls
 
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.TICKET_MASTER)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.TICKET_MASTER)))
         events: List[EventInfo] = []
 
         subprocess.run(['pkill', '-f', 'Google Chrome'])
@@ -348,9 +348,8 @@ class TicketmasterScrapper:
         options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
         driver = webdriver.Chrome(options=options)
-        event_urls = TicketmasterScrapper.get_urls(previous_urls, previous_titles, False)
+        event_urls = TicketmasterScrapper.get_urls(previous_urls, previous_titles, False, urls_file)
 
-        out_file = open(FileNames.TICKET_MASTER_EVENTS, mode="w")
         out_file.write("[\n")
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
@@ -366,11 +365,16 @@ class TicketmasterScrapper:
                 if "No dates found for" in str(e):
                     print("-" * 100)
                     print(e)
+                    json.dump(part[0], banned_file, indent=2)
+                    banned_file.write(",\n")
                 else:
                     print("-" * 100)
                     raise e
             print("-"*100)
         out_file.write("]\n")
+        out_file.close()
+        urls_file.close()
+        banned_file.close()
         driver.close()
         return events
 

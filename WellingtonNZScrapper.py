@@ -4,7 +4,7 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
+import FileUtils
 import ScrapperNames
 from DateFormatting import DateFormatting
 from EventInfo import EventInfo
@@ -110,11 +110,12 @@ class WellingtonNZScrapper:
                          description=description)
 
     @staticmethod
-    def slow_scroll_to_bottom(driver, category: str, previous_urls: Set[str], urls_file, out_file) -> List[EventInfo]:
+    def slow_scroll_to_bottom(driver, category: str, previous_urls: Set[str], urls_file, out_file, banned_file) -> List[EventInfo]:
         events = []
         height = driver.execute_script("return document.body.scrollHeight")
         scrolled_amount = 0
         event_urls: Set[tuple[str, str]] = set()
+        urls_file.write("[\n")
         while True:
             if scrolled_amount > height:
                 break
@@ -127,7 +128,9 @@ class WellingtonNZScrapper:
                     continue
                 previous_urls.add(event_url)
                 event_urls.add((event_url, category))
-        json.dump(list(event_urls), urls_file, indent=2)
+                json.dump((event_url, category), urls_file, indent=2)
+                urls_file.write(",\n")
+        urls_file.write("]\n")
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
@@ -138,6 +141,8 @@ class WellingtonNZScrapper:
             except Exception as e:
                 if "No dates found for" in str(e):
                     print("-" * 100)
+                    json.dump(part[0], banned_file, indent=2)
+                    banned_file.write(",\n")
                     print(e)
                 else:
                     print("-" * 100)
@@ -147,9 +152,9 @@ class WellingtonNZScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.WELLINGTON_NZ)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.WELLINGTON_NZ)))
         driver = webdriver.Chrome()
-        urls_file = open(FileNames.WELLINGTON_NZ_URLS, mode="w")
-        out_file = open(FileNames.WELLINGTON_NZ_EVENTS, mode="w")
         out_file.write("[\n")
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)
@@ -172,10 +177,11 @@ class WellingtonNZScrapper:
                 number_of_events = re.findall("\d+", number_of_events.text)
                 page += 1
             number_of_events = [0, 1]
-            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file, out_file)
+            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file, out_file, banned_file)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()
+        banned_file.close()
         driver.close()
         return events_info
 

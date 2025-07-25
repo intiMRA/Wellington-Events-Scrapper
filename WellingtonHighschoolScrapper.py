@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
-import FileNames
+import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 import re
@@ -66,9 +66,10 @@ class WellingtonHighschoolScrapper:
                          description=description)
 
     @staticmethod
-    def get_events(url: str, previous_urls: Set[str], category: str, driver: webdriver, urls_file, out_file) -> List[EventInfo]:
+    def get_events(url: str, previous_urls: Set[str], category: str, driver: webdriver, urls_file, out_file, banned_file) -> List[EventInfo]:
         events: List[EventInfo] = []
         driver.get(url)
+        urls_file.write("[\n")
         WellingtonHighschoolScrapper.slow_scroll_to_bottom(driver)
         catalog = driver.find_element(By.CLASS_NAME, "catalogue")
         elements = catalog.find_elements(By.CLASS_NAME, "catalogue-item")
@@ -78,7 +79,9 @@ class WellingtonHighschoolScrapper:
             if event_url in event_urls or event_url in previous_urls:
                 continue
             event_urls.add(event_url)
-        json.dump(list(event_urls), urls_file, indent=2)
+            json.dump(url, urls_file, indent=2)
+            urls_file.write(",\n")
+        urls_file.write("]\n")
         for event_url in event_urls:
             print(f"category: {category} url: {event_url}")
             try:
@@ -91,6 +94,8 @@ class WellingtonHighschoolScrapper:
                 if "No dates found for" in str(e):
                     print("-" * 100)
                     print(e)
+                    json.dump(event_url, banned_file, indent=2)
+                    banned_file.write(",\n")
                 else:
                     print("-" * 100)
                     raise e
@@ -112,18 +117,19 @@ class WellingtonHighschoolScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.WELLINGTON_HIGH_SCHOOL)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.WELLINGTON_HIGH_SCHOOL)))
         categories = WellingtonHighschoolScrapper.get_categories()
         driver = webdriver.Chrome()
         events = []
-        out_file = open(FileNames.WELLINGTON_HIGH_SCHOOL_EVENTS, mode="w")
-        urls_file = open(FileNames.WELLINGTON_HIGH_SCHOOL_URLS, mode="w")
         out_file.write("[\n")
         for category in categories:
             category_name, url = category
-            events += WellingtonHighschoolScrapper.get_events(url, previous_urls, category_name, driver, urls_file, out_file)
+            events += WellingtonHighschoolScrapper.get_events(url, previous_urls, category_name, driver, urls_file, out_file, banned_file)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()
+        banned_file.close()
         driver.close()
         return events
 
