@@ -1,6 +1,9 @@
 import json
+import random
+import subprocess
+from selenium.webdriver.chrome.options import Options
 from datetime import datetime
-
+from time import sleep
 import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
@@ -23,6 +26,7 @@ class TicketekScrapper:
     @staticmethod
     def get_event(url: str, category:str, driver: webdriver, previous_urls: Set[str]) -> Optional[List[EventInfo]]:
         driver.get(url)
+        sleep(random.uniform(2, 3))
         sub_events = driver.find_elements(By.CLASS_NAME, "event-item")
         if sub_events:
             sub_driver = webdriver.Chrome()
@@ -41,7 +45,6 @@ class TicketekScrapper:
                 print("none in wellington")
             sub_driver.close()
             return events_info
-
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
         if url in previous_urls:
             return None
@@ -65,7 +68,15 @@ class TicketekScrapper:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.TICKETEK)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.TICKETEK)))
         events_info: List[EventInfo] = []
-        driver = webdriver.Chrome()
+        subprocess.run(['pkill', '-f', 'Google Chrome'])
+        options = Options()
+
+        options.add_argument("--profile-directory=Profile 1")  # Specify profile name only
+
+        # For Apple Silicon Macs
+        options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+        driver = webdriver.Chrome(options=options)
         driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
         cats = driver.find_elements(By.CLASS_NAME, "cat-nav-item")
         cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
@@ -87,6 +98,7 @@ class TicketekScrapper:
                     json.dump((event_url, categoryName), urls_file, indent=2)
                     urls_file.write(",\n")
                 page += 1
+                sleep(random.uniform(2, 3))
                 try:
                     if driver.find_element(By.CLASS_NAME, "noResultsMessage"):
                         break

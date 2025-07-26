@@ -64,7 +64,10 @@ class FacebookScrapper:
         if matches:
             dates = []
             for match in matches:
-                dates.append(parser.parse(match))
+                try:
+                    dates.append(parser.parse(match))
+                except:
+                    pass
             print(f"date: {matches[0]} {hour}")
             return dates
         for day_of_the_week in week_days:
@@ -222,6 +225,7 @@ class FacebookScrapper:
         end_date_string = end_date.strftime("%Y-%m-%d")
         end_date_string += "T05%3A00%3A00.000Z"
         category_urls = set()
+        # category_urls = FileUtils.load_from_files(ScrapperNames.FACEBOOK)[1]
         events = []
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.FACEBOOK)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.FACEBOOK)))
