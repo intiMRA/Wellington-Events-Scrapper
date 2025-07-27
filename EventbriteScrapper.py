@@ -125,6 +125,9 @@ class EventbriteScrapper:
         description: str = driver.find_element(By.ID, "event-description").text
         dates: List[datetime] = EventbriteScrapper.get_all_dates(driver)
         if "copyright" in description:
+            print(f"banning: {url}")
+            json.dump(url, banned_file, indent=2)
+            banned_file.write(",\n")
             return None
         return EventInfo(name=title,
                          image=image_url,
@@ -182,7 +185,10 @@ class EventbriteScrapper:
                     continue
                 if event_url in previous_urls or event_url in event_urls:
                     continue
+                previous_urls.add(event_url)
                 event_urls.add(event_url)
+                json.dump(event_url, urls_file)
+                urls_file.write(",\n")
         for url in event_urls:
             print(f"category: {category} url: {url}")
             try:
@@ -213,6 +219,7 @@ class EventbriteScrapper:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_BRITE)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
         out_file.write("[\n")
+        urls_file.write("[\n")
         for cat in cats:
             cat_name, link = cat
             print("fetching: ", cat_name)
@@ -228,6 +235,7 @@ class EventbriteScrapper:
             events += EventbriteScrapper.get_events(driver, previous_urls, cat_name, out_file, urls_file, banned_file)
         driver.close()
         out_file.write("]\n")
+        urls_file.write("]\n")
         out_file.close()
         urls_file.close()
         return events

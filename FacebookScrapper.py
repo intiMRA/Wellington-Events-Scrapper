@@ -164,6 +164,14 @@ class FacebookScrapper:
             print(f"facebook finished finding html {len(html)}")
             for event in html:
                 try:
+                    try:
+                        date_string = event.text.split("\n")[0]
+                        ev_dates = FacebookScrapper.parse_date(date_string)
+                        if ev_dates[-1] < datetime.now():
+                            print(f"skipping date: {date_string}")
+                            continue
+                    except:
+                        pass
                     event_url = event.get_attribute('href')
                     regex = r'https://www.facebook.com/events/\d+'
                     event_url = re.findall(regex, event_url)[0]
@@ -190,6 +198,14 @@ class FacebookScrapper:
             print(len(new_event_titles))
             for event in html:
                 try:
+                    try:
+                        date_string = event.text.split("\n")[0]
+                        ev_dates = FacebookScrapper.parse_date(date_string)
+                        if ev_dates[-1] < datetime.now():
+                            print(f"skipping date: {date_string}")
+                            continue
+                    except:
+                        pass
                     event_url = event.get_attribute('href')
                     regex = r'https://www.facebook.com/events/\d+'
                     event_url = re.findall(regex, event_url)[0]
