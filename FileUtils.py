@@ -51,7 +51,7 @@ def load_last_scrapper() -> str:
     with open(FileNames.LAST_SCRAPPER, mode="r") as f:
         return f.read()
 
-def load_event(from_file = FileNames.EVENTS) -> List[EventInfo]:
+def load_events(from_file = FileNames.EVENTS) -> List[EventInfo]:
     with open(from_file, mode="r") as f:
         events_json = json.loads(f.read())
         events = []

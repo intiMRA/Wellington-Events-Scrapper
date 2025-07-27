@@ -5,7 +5,7 @@ import Summarizer
 from EventInfo import EventInfo
 from CoordinatesMapper import CoordinatesMapper
 import FileUtils
-stored_events = FileUtils.load_event()
+stored_events = FileUtils.load_events()
 # location_events = []
 # for event in stored_events:
 #     if event.coordinates:
