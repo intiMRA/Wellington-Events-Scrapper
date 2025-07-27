@@ -44,11 +44,17 @@ class HumanitixScrapper:
                     print("multiple dates: ", element.text)
             return dates
         else:
-            date_string = driver.find_element(By.CLASS_NAME, "datetime").text.split("\n")[0]
+            date_strings = driver.find_elements(By.CLASS_NAME, "datetime")
+            if not date_strings:
+                date_strings = driver.find_elements(By.XPATH, "//div[contains(@class, 'datetime')]")
+            date_string = date_strings[0].text.split("\n")[0]
             reg = r"(\d{1,2}\s[aA-zZ]{3}\s*[0-9]*,\s[aA-zZ0-9:]*[AMPamp]{2})"
             matches = re.findall(reg, date_string)
+            year = re.findall(r"\d{4}", date_string)
             if len(matches) > 1:
                 for match in matches:
+                    if year:
+                        match += f" {year[0]}"
                     dates.append(parser.parse(match.replace(",", "")))
             elif len(matches) == 1:
                 date = parser.parse(matches[0])
