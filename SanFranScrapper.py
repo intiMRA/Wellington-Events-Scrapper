@@ -61,7 +61,7 @@ class SanFranScrapper:
                                       event_type="Music",
                                       description=event["description"])
                     events.append(event)
-                    json.dump(event.to_dict(), out_file)
+                    json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
                     print(f"url: {event_url}")
                 except Exception as e:

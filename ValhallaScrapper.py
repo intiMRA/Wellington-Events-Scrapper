@@ -84,7 +84,7 @@ class ValhallaScrapper:
                 event = ValhallaScrapper.get_event(part[0], part[1], driver)
                 if event:
                     events.append(event)
-                    json.dump(event.to_dict(), out_file)
+                    json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):
