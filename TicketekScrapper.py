@@ -45,21 +45,15 @@ class TicketekScrapper:
                     if parsed_events:
                         for parsed_event in parsed_events:
                             events_info.append(parsed_event)
+            try:
+                sub_driver.close()
+            except:
+                pass
             if not events_info:
                 print("none in wellington")
-            if is_sub_event:
-                try:
-                    driver.close()
-                except:
-                    pass
             return events_info
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
         if url in previous_urls:
-            if is_sub_event:
-                try:
-                    driver.close()
-                except:
-                    pass
             return None
         previous_urls.add(url)
         dates = TicketekScrapper.extract_date(driver)
@@ -67,11 +61,6 @@ class TicketekScrapper:
         venue: str = driver.find_element(By.CLASS_NAME, "selectVenueBlock").text.split("\n")[1]
         description: str = driver.find_element(By.CLASS_NAME, "info-details").text
         print(f"title: {title}")
-        if is_sub_event:
-            try:
-                driver.close()
-            except:
-                pass
         return [EventInfo(name=title,
                           dates=dates,
                           image="https://" + image_url,

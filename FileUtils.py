@@ -5,6 +5,24 @@ import ScrapperNames
 from EventInfo import EventInfo
 import json
 from dateutil import parser
+import re
+import pytz
+from datetime import datetime
+
+def is_facebook_url_expired_now(date_string: str):
+    matches = re.findall(r"oe=[aA-zZ0-9]+", date_string)
+    if not matches:
+        return False
+    oe_hex = matches[0].split("oe=")[0]
+    nz_timezone = pytz.timezone('Pacific/Auckland')
+    now_nz = datetime.now(nz_timezone)
+
+    unix_time = int(oe_hex, 16)
+    utc_expiry = datetime.fromtimestamp(unix_time, pytz.utc)
+
+    nz_expiry = utc_expiry.astimezone(nz_timezone)
+
+    return now_nz > nz_expiry
 
 def write_to_events_file(data: List[EventInfo]):
     events_dict = {}
@@ -57,7 +75,7 @@ def load_events(from_file = FileNames.EVENTS) -> List[EventInfo]:
         events = []
         for event_json in events_json["events"]:
             event = EventInfo.from_dict(event_json)
-            if event:
+            if event and not is_facebook_url_expired_now(event.image):
                 events.append(event)
         return events
 
