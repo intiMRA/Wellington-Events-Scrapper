@@ -57,7 +57,8 @@ class FacebookScrapper:
             target_date = today + timedelta(days=1)
             return [target_date]
         elif "Today" in date:
-            target_date = today
+            today = today.strftime("%d %b")
+            target_date = parser.parse(f"{today} {hour}")
             return [target_date]
         regex = r"\d{1,2}\s\w+\d{0,4}"
         matches = re.findall(regex, date)
