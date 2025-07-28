@@ -1,5 +1,6 @@
 import json
 import random
+
 from dotenv import load_dotenv
 from time import sleep
 from dateutil import parser
@@ -125,7 +126,12 @@ class FacebookScrapper:
                 sleep(random.uniform(0.1, 0.5))
         except:
             sleep(random.uniform(1.0, 3.0))
-        long_desc: str = info.find_element(By.XPATH, "//span[contains(., 'See less')]").text
+        try:
+            long_desc: str = info.find_element(By.XPATH, "//span[contains(., 'See less')]").text
+        except Exception as e:
+            json.dump(url, banned_file, indent=2)
+            banned_file.write(",\n")
+            raise e
 
         if "..." in long_desc:
             long_desc = "\n".join(long_desc.split("\n")[0:-2])
