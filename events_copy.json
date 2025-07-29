@@ -1,23 +1,5 @@
 { "events":[
   {
-    "id": "Brazilian Zouk - Improvers Variations Io-io & Bonus)-60 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
-    "name": "Brazilian Zouk - Improvers Variations Io-io & Bonus)",
-    "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/513902624_1159658816180927_4554422251157826509_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=J_thj-jDAEkQ7kNvwEd5vfx&_nc_oc=AdkCqC32Q4UC5aWAsicAcwyoAeP2Q7OWFQ_SJCeqhVL3IdcDFVfLnOlb3IlY2asF3UA&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=uY4jac7o2q9jpV-zWIrp1g&oh=00_AfRflaEQnNXJGPjnC8ANV2dI4X6w0UF2IV1Oa7OuJrFBnQ&oe=688C8238",
-    "venue": "60 Dixon St, Te Aro, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2915383,
-      "long": 174.7762704
-    },
-    "dates": [
-      "2025-07-28-20:15"
-    ],
-    "displayDate": "Mon 28 Jul",
-    "url": "https://www.facebook.com/events/713054995221440",
-    "source": "Facebook",
-    "eventType": "Other",
-    "description": "Each block focuses on a different aspect and technique of Brazilian Zouk and so they can be completed independently of each other.\nOur recommendation is to complete all 6 Blocks before progressing onto the Brazilian Zouk Deep Dive classes.\nIn Improvers Block C you will focus on Variationa on Io-io and Bonus as well as some exercises on Elasticity.\n===Prices and payment: - Prepaid 5 week Block cost is $90 waged or $75 for unwaged/students - Ad hoc cost per class is $20 waged or $18 unwaged/students Online payments can be made to Adam Polaczuk Acct: 03-0531-0559348-25 Details: Your name and ZoukImpC ===Location: Classes are in Studio 6, Level 5, Te Auaha, 65 Dixon Street ===Housekeeping: - You should have completed the 4 beginner Class blocks before joining Improvers classes - Drop in or new students, please get in contact before the start of class to let us know you are interested so we can assess your level and organise a private class if necessary to catch you up.\nIf you just show up on the night, you are welcome to watch the class but will not be able to join in (this is to respect the learning of our regular students as the classes are progressive)"
-  },
-  {
     "id": "John Waters' 'Polyester' - Now in Odorama!-10 Kent Ter, Mount Victoria, Wellington 6011, New Zealand-Facebook",
     "name": "John Waters' 'Polyester' - Now in Odorama!",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/517603759_1150366573802188_8365890422075462376_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=pp5MDIdV2h4Q7kNvwE1Jtis&_nc_oc=AdnRp0SksznBa1RgLiobxBV2rGDSVD3IdNnO6RoHUqPGZUUBBbdzpBEtmFFUmyYjaqU&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=vNW87VochX1TB900_NUe8A&oh=00_AfRrooO3VZfmyPXIMYWqL1jdvvpunhqX8fIrGBXxlt9c-Q&oe=688C87AE",
@@ -34,6 +16,50 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "See it!\nHear it!\nSmell it!\nWellington Film Society is proud to be screening John Waters' cult classic 'Polyester' as part of our 2025 programme, and even prouder to be showing it as intended - with Odorama scratch-and-sniff cards!\n--- Considered by many to be a perfect distillation of Waters\u2019 style, 'Polyester' is a bad-taste melodramatic romp through suburban Baltimore and the breakdown of a family unit under the onslaught of over-stimulated modern America."
+  },
+  {
+    "id": "Palmerston North Murder Mystery: Solve the case!-Church Street Palmerston North, Manawat\u016b-Whanganui-Event Brite",
+    "name": "Palmerston North Murder Mystery: Solve the case!",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1003206503%2F680070722233%2F1%2Foriginal.20250407-205915?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.505681818182&fp-y=0.527985074627&s=40227a97a1ce868df2406b90db990b89",
+    "venue": "Church Street Palmerston North, Manawat\u016b-Whanganui",
+    "coordinates": {
+      "lat": -40.3552184,
+      "long": 175.6165474
+    },
+    "dates": [
+      "2025-07-28-21:00",
+      "2025-07-28-21:30",
+      "2025-07-28-22:00",
+      "2025-07-28-22:30",
+      "2025-07-29-16:00"
+    ],
+    "displayDate": "Mon 28 Jul + more",
+    "url": "https://www.eventbrite.com/e/palmerston-north-murder-mystery-solve-the-case-tickets-1358879287529?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "You walk the streets investigating every corner for a clue and you feel the adrenaline rush in your blood as you collect pieces of evidence and get closer to finding the murderer.\nThe ordinary streets, that you've visited many times, are now your personal universe, where every corner hides a secret and every landmark tells part of the story.\n\ud83d\uddfa\ufe0f\ud83d\udd0e Discover hidden gems, solve fun puzzles, and create unforgettable memories along the way.\nBegin your adventure now at www.questoapp.com!\n\ud83d\udca1New to Questo?"
+  },
+  {
+    "id": "Wellington Murder Mystery: Solve the case!- Molesworth Street Wellington, Wellington-Event Brite",
+    "name": "Wellington Murder Mystery: Solve the case!",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1003206503%2F680070722233%2F1%2Foriginal.20250407-205915?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.505681818182&fp-y=0.527985074627&s=40227a97a1ce868df2406b90db990b89",
+    "venue": " Molesworth Street Wellington, Wellington",
+    "coordinates": {
+      "lat": -41.2763426,
+      "long": 174.7774758
+    },
+    "dates": [
+      "2025-07-28-21:00",
+      "2025-07-28-21:30",
+      "2025-07-28-22:00",
+      "2025-07-28-22:30",
+      "2025-07-29-16:00"
+    ],
+    "displayDate": "Mon 28 Jul + more",
+    "url": "https://www.eventbrite.com/e/wellington-murder-mystery-solve-the-case-tickets-1358918073539?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "You walk the streets investigating every corner for a clue and you feel the adrenaline rush in your blood as you collect pieces of evidence and get closer to finding the murderer.\nThe ordinary streets, that you've visited many times, are now your personal universe, where every corner hides a secret and every landmark tells part of the story.\n\ud83d\uddfa\ufe0f\ud83d\udd0e Discover hidden gems, solve fun puzzles, and create unforgettable memories along the way.\nBegin your adventure now at www.questoapp.com!\n\ud83d\udca1New to Questo?"
   },
   {
     "id": "Monday Kizomba Social-60 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
@@ -140,6 +166,27 @@
     "source": "Event Brite",
     "eventType": "Food & Drink",
     "description": "Embark on the Wellington Wonders: A Journey Through Culture, Governance, and Nature \u2013 Your Personal Adventure in Wellington!\nWander through historic streets, uncover hidden gems, and let the city's rich tapestry of stories unfold at your own pace.\n\ud83c\udf92 What's Included Professionally narrated audio stories bringing Wellington's history to life Interactive map to guide your journey seamlessly Opportunities to explore and capture the city's most picturesque spots Flexibility to start, pause, and resume the tour at your convenience \u2139\ufe0f Important Info This is a self-guided audio tour on your phone so no in-person guide.\nEnter the code, and you're all set to explore Wellington on your terms.\nIt doesn't matter which date or time you select, when you redeem the code, the audio tour will be available to you permanently so you can explore on any day."
+  },
+  {
+    "id": "Wellington Audio Tour: A Wellington Audio Adventure-Embassy Theatre, Wellington Kent Terrace Wellington,-Event Brite",
+    "name": "Wellington Audio Tour: A Wellington Audio Adventure",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1031363473%2F2754305045531%2F1%2Foriginal.20250515-040607?w=600&auto=format%2Ccompress&q=75&sharp=10&s=9136c31b6785c6b4d078eaaf31ecd335",
+    "venue": "Embassy Theatre, Wellington Kent Terrace Wellington,",
+    "coordinates": {
+      "lat": -41.2943406,
+      "long": 174.7843406
+    },
+    "dates": [
+      "2025-07-29-00:00",
+      "2025-07-30-00:00",
+      "2025-07-31-00:00",
+      "2025-08-01-00:00"
+    ],
+    "displayDate": "Tue 29 Jul + more",
+    "url": "https://www.eventbrite.co.uk/e/wellington-audio-tour-a-wellington-audio-adventure-tickets-1366658505379?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Step into the soul of Wellington with our immersive self-guided audio tour.\n\ud83d\uddfa\ufe0f Tour Details Duration: 1 hour 18 minutes Distance: Around 4.4 km (2.7 miles) Audio Content: up to 16min Stops: 8 captivating landmarks including Te Papa, Courtenay Place, Wellington, Toi P\u014dneke Arts Centre Experience the charm of Wellington like never before.\nEnter the code, and you're all set to explore Wellington on your terms.\n\ud83d\udc65 Who's It For?\n\ud83d\udccd Tour Stops You will visit the following locations: \ud83c\udfad  Embassy Theatre, Wellington (1min) \ud83e\udea3  Courtenay Place, Wellington (1min) \u26f2  Bucket Fountain (1min) \ud83c\udfa8  Toi P\u014dneke Arts Centre (1min) \ud83c\udfe0  McGavin House (1min) \ud83d\uddff  Quasi (sculpture) (1min) \ud83d\udccd  Te Papa (1min) \ud83c\udfa8  Carter Fountain (2min) Each stop features engaging audio stories that bring the location's history and significance to life."
   },
   {
     "id": "DARKFIELD: FLIGHT-Cable Street, Te Aro, Wellington , NZ 6011, New Zealand-Ticket Master",
@@ -1236,6 +1283,46 @@
     "source": "Event Finder",
     "eventType": "Other",
     "description": "A 6 trip clip ticket is offered at $120.00 ($20 per session).\nThis can be used any time for the Tuesday morning casual life drawing.\nA minimum of six 6-trip tickets need to be purchased per term in order to run these sessions.\nThis may be negotiated for a late start if this changes.\nAttendees can purchase another when needed."
+  },
+  {
+    "id": "Palmerston North Murder Mystery: Death in the Shadows-Church Street Palmerston North, Manawat\u016b-Whanganui-Event Brite",
+    "name": "Palmerston North Murder Mystery: Death in the Shadows",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F962279313%2F296218901481%2F1%2Foriginal.20250217-105751?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.521490848426&fp-y=0.529300063404&s=5fbeb76b51c178f376c412e185198f36",
+    "venue": "Church Street Palmerston North, Manawat\u016b-Whanganui",
+    "coordinates": {
+      "lat": -40.3552184,
+      "long": 175.6165474
+    },
+    "dates": [
+      "2025-07-29-10:00",
+      "2025-07-29-11:00",
+      "2025-07-29-12:00",
+      "2025-07-29-13:00",
+      "2025-07-29-14:00"
+    ],
+    "displayDate": "Tue 29 Jul + more",
+    "url": "https://www.eventbrite.com/e/palmerston-north-murder-mystery-death-in-the-shadows-tickets-1358879237379?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Now, since you're New Zealand's best detective, it\u2019s up to you to dig out the truth and catch the murderer: Was it Walter, the obsessed boyfriend?\nWas it Percy, the ghost tour guide with a flair for the dramatic?\nThe app will guide you all the way.\ud83d\udccd About Questo Questo is your ticket to real-world adventure, blending storytelling with thrilling exploration!\n\ud83d\udca1New to Questo?\nCheck out our Player\u2019s Guide for everything you need to know before you start!"
+  },
+  {
+    "id": "Wellington Murder Mystery: Death in the Shadows- Molesworth Street Wellington, Wellington-Event Brite",
+    "name": "Wellington Murder Mystery: Death in the Shadows",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F962279313%2F296218901481%2F1%2Foriginal.20250217-105751?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.521490848426&fp-y=0.529300063404&s=5fbeb76b51c178f376c412e185198f36",
+    "venue": " Molesworth Street Wellington, Wellington",
+    "coordinates": {
+      "lat": -41.2763426,
+      "long": 174.7774758
+    },
+    "dates": [
+      "2025-07-29-10:00"
+    ],
+    "displayDate": "Tue 29 Jul",
+    "url": "https://www.eventbrite.com/e/wellington-murder-mystery-death-in-the-shadows-tickets-1358918033419?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Now, since you're New Zealand's best detective, it\u2019s up to you to dig out the truth and catch the murderer: Was it Walter, the obsessed boyfriend?\nWas it Percy, the ghost tour guide with a flair for the dramatic?\nThe app will guide you all the way.\ud83d\udccd About Questo Questo is your ticket to real-world adventure, blending storytelling with thrilling exploration!\n\ud83d\udca1New to Questo?\nCheck out our Player\u2019s Guide for everything you need to know before you start!"
   },
   {
     "id": "Eat Your Art Out: High Tea-Museum of New Zealand Te Papa Tongarewa, 55 Cable St, Wellington-Event Finder",
@@ -2406,6 +2493,42 @@
     "description": "Join us at the Residence Bar every Tuesday night at 8 PM for Musical Bingo, where great hits set the tone for an unforgettable evening.\nEnjoy the lively atmosphere, compete for fantastic prizes, and indulge in our unbeatable 2-for-1 burger deal.\nIt\u2019s the perfect way to spice up your week with good vibes, good food, and great music!"
   },
   {
+    "id": "Gay Games Information evening-35 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Gay Games Information evening",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/515264949_1170128638481944_6482444673733928592_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=NsFKtGhQ2BsQ7kNvwGmxLBH&_nc_oc=AdkZg3BiwSDtPAu_Dr-QNnwsqw81BkncDe0zUz28WOocjDfVFzC5jVs7eTvtmwh56G8&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=ojaIOAQBu0NC-sShw0FS6g&oh=00_AfT-xlS9EgkLL1Dkwu-Jcc0E6PBejkWHGD47sAF4DGg3Ig&oe=688D14F7",
+    "venue": "35 Dixon St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2921615,
+      "long": 174.7775393
+    },
+    "dates": [
+      "2025-07-29-20:21"
+    ],
+    "displayDate": "Tue 29 Jul",
+    "url": "https://www.facebook.com/events/1389723125626893",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Rainbow Team Wellington is hosting an information evening at El Barrio bar (35 Dixon St) - from 5.30pm with presentations from 6.00pm.\nCome and find out about the 12th Gay Games which will be held in Valencia, Spain one year from now: 27 June-4 July 2026 https://www.gaygamesvalencia2026.com/en/ This is one of the largest multi-sport events in the world, and anyone can take part - no matter how expert they are!\nAll are welcome to come along and hear about the Gay Games and what is involved in taking part.\nWe\u2019ll have people who\u2019ve participated in previous Gay Games explaining how it all works, We\u2019ve also asked a Spanish language school to come along and encourage everyone to learn some Spanish before they go.\nBest wishes Richard and Antony Co-conveners, Rainbow Team Wellington"
+  },
+  {
+    "id": "Hip Hop + Chess-133 Cuba St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Hip Hop + Chess",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/489806982_655996353848442_3355530066154069955_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=NiLCBAggkN8Q7kNvwHMbHGh&_nc_oc=AdnzbRhkXgWZMCAVP8ex7D-V7oma5AQw7ITclo1WWF9jdLjAlM5QiFb0DVNini7GMf8&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=-hl6e8GkcHaO0gfYpu9yDA&oh=00_AfRiTklbZMmN9OvG5nHzWeEIzXy1ygrU9etv2GdhFNxOig&oe=688CF353",
+    "venue": "133 Cuba St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2930455,
+      "long": 174.7760193
+    },
+    "dates": [
+      "2025-07-29-20:26"
+    ],
+    "displayDate": "Tue 29 Jul",
+    "url": "https://www.facebook.com/events/3115880328565913",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Music - Come and chill to a live DJ set from Mr Pi playing the very best in conscious, groove and old school Hip Hop.\nMusic starts at 6pm, but feel free to arrive earlier.\nChess - Chess boards are provided free of charge if you'd like to play and all levels catered for.\nLong games, timed games, absolute beginners or pro, we even have a custom made 3 player chess set Some other board games will also be available.\nAll welcome Come with buddies or by yourself and let the friendly bar staff know you're looking for a game."
+  },
+  {
     "id": "Gentle Yoga for Seniors-Yoga in Daily Life Centre, 23 Jessie St, Te Aro, Wellington-Event Finder",
     "name": "Gentle Yoga for Seniors",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2100899-897698-34.jpg?v=2",
@@ -2598,6 +2721,24 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "Strathmore Seniors!\nDrop in to Strathmore Community Centre on Wednesdays at 12.30pm for a Steady As You Go exercise class for seniors.\nPlease wear comfortable flat shoes and bring a water bottle.\nDrop in next Wednesday, or call 04 499 6646 for more information.\n#steadyasyougo #ageconcernwellington #strathmoreseniors #easternbays #wellington #fallsprevention #activeseniors #socialconnection #exerciseforseniors ##steadyasyougo #ageconcernwellington #wainuiomataseniors #fallsprevention #activeseniors #socialconnection #exerciseforseniors"
+  },
+  {
+    "id": "COMPOSER WORKSHOP: Michael Norris \u2014 The Spaces In Between: interstitiality & deformation as process-73A Kelburn Pde, Kelburn, Wellington 6012, New Zealand-Facebook",
+    "name": "COMPOSER WORKSHOP: Michael Norris \u2014 The Spaces In Between: interstitiality & deformation as process",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524011425_10163326110489882_6057026838058660388_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Sw6A0yeinS4Q7kNvwFa4rCC&_nc_oc=AdnzSclVX_7dZxsJA6LLs0OFcAEkqpMIonbybHg46Y409jArT7I9QIHFlVyetGO_fH8&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=k14uaJPPtK64Tn1I5FNQ2g&oh=00_AfSOn9hO--xCm1_42s4d_shfeaoYSuP4BhoY4NhijBS6pg&oe=688D0A51",
+    "venue": "73A Kelburn Pde, Kelburn, Wellington 6012, New Zealand",
+    "coordinates": {
+      "lat": -41.290905,
+      "long": 174.7671455
+    },
+    "dates": [
+      "2025-07-30-15:10"
+    ],
+    "displayDate": "Wed 30 Jul",
+    "url": "https://www.facebook.com/events/1141847877791193",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": ""
   },
   {
     "id": "Meet Wellington July Meet Up-111 Wakefield Street Wellington, Wellington Region 6011-Event Brite",
@@ -2896,6 +3037,24 @@
     "description": "Think you\u2019ve got what it takes to shuffle with the best of them?\n- There is a 10 MINUTE time limit each match.\n- In the event of a draw after the 10 minute time limit, a \"Golden End\" will be played.\n- The shuffleboard will be reset and resanded after each match.\n- The final match is played first to 15 with no time limit - if time allows."
   },
   {
+    "id": "On Further Thought: an art history lecture series - Ane Tonga-6 Kelburn Pde, Kelburn, Wellington 6012, New Zealand-Facebook",
+    "name": "On Further Thought: an art history lecture series - Ane Tonga",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/520239574_1507053623939196_3619627136029209377_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=dNHQhA4WzHEQ7kNvwE7cvQh&_nc_oc=AdnhPKyr9zUKTBDQmGYjzK4fFjeUB0VjevwUej4DqC5YdlI7UEm5Ds2jz9TGR-eMkgM&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=oXL7gac5yWG-NGreQrgf2Q&oh=00_AfQ61adCVvmUlp0ZcYDiO8XC-bh5ef_Amw012hGPggjRmQ&oe=688CEC06",
+    "venue": "6 Kelburn Pde, Kelburn, Wellington 6012, New Zealand",
+    "coordinates": {
+      "lat": -41.2869066,
+      "long": 174.7686765
+    },
+    "dates": [
+      "2025-07-30-18:00"
+    ],
+    "displayDate": "Wed 30 Jul",
+    "url": "https://www.facebook.com/events/2229065480871454",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Ane Tonga writes, \u2018Is there space to imagine Toi o T\u0101maki Auckland Art Gallery as the epicentre for Pacific art in this region?\nIn this lecture, I trace formative moments in contemporary Pacific art and performance \u2013 from the powerful blessing of Ioane Ioane\u2019s \u2018Fale S\u0101\u2019 (1999) to the evocative resonance of Yuki Kihara\u2019s \u2018Milk and Honey\u2019 (2003).\nThese moments have lived on primarily through oral histories rather than formal exhibition records, yet they have offered both solace and inspiration as I continue to shape a curatorial vision that is unapologetically Pacific.\nThis lecture considers how such exhibitions \u2013 often ephemeral in form but enduring in impact \u2013 invite us to rethink the role of major institutions in holding space for Indigenous and Pacific ways of knowing, making, and remembering.\u2019 \u2018On Further Thought\u2019 is a series of talks which address significant moments \u2014 published texts, exhibitions, art works \u2014 in local art history from the 1990s and early 2000s.\nThe emphasis is on the act of re-reading, and on reflection itself as a productive form of research that helps us to navigate the present and energises our future art histories."
+  },
+  {
     "id": "Quiz Night-Duke of Wellington, 29 Waterloo Quay, Wellington-Event Finder",
     "name": "Quiz Night",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2064914-881283-35.jpg?v=5",
@@ -3118,6 +3277,24 @@
     "source": "Event Finder",
     "eventType": "Other",
     "description": "Get ready for a night of glitter, glamour, and a whole lot of sass!\nOur fabulous drag artists will lead you through multiple rounds of bingo with a twist\u2014expect live performances, witty banter, and cheeky mini-games that will have you laughing all night long.\nCompete for a chance to win over $200 worth of prizes and the best part - it's free to enter!\nWhether you're celebrating a special occasion or just looking for a fabulous night out, our Drag Bingo Night promises an unforgettable experience.\nCome for the bingo, stay for the entertainment, and leave with memories that will last a lifetime!"
+  },
+  {
+    "id": "FREE Bachata Beginners Lesson-65 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "FREE Bachata Beginners Lesson",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/518092121_1340358591423844_8687013025976884596_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=h5DlEiBB8hkQ7kNvwH-F-rq&_nc_oc=AdmpuOvl8bSIGHhzEwLhjQBpGqRCz5P9bvNrojz0JI8KEf_8iKZrxXACrUF4ZRwH6dw&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=ZDcjhnBXO8lrFrpqb0sFjA&oh=00_AfSUOtanTfjg1rpHtl4GAtLRL9dx--VBC3xlurn50fYh9A&oe=688D18AE",
+    "venue": "65 Dixon St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2916589,
+      "long": 174.7759869
+    },
+    "dates": [
+      "2025-07-30-19:00"
+    ],
+    "displayDate": "Wed 30 Jul",
+    "url": "https://www.facebook.com/events/2086394968522823",
+    "source": "Facebook",
+    "eventType": "Arts & Theatre",
+    "description": "Hola and welcome to Salsa Therapy Dance School!\nJoin us for a FREE Bachata Beginners Taster Class!\nKick off your Bachata journey with our 8-week beginner course.\nStarts 6th August Just $150 Special Early bird (Regular price $157) Every Wednesday, 7pm \u2013 8pm at Te Auaha ground Floor Limited spots \u2013 book your FREE taster and secure your place for Term 4 now!\nMore details on our website."
   },
   {
     "id": "Fringe Bar Comedy Club-The Fringe Bar, 26 Allen Street, Wellington-Event Finder",
@@ -4362,6 +4539,24 @@
     "description": "Welcome to the Action Overlands Guest Speaker Series: Marin Hobson level up your hunt !\nSee the night like never before.\n\ud83d\udd26 Join us for an exclusive evening with Marin Hobson, the outdoorsman and digital optics specialist behind Kiwidad Adventures (95k+ followers!).\nThis FREE, hands-on event is perfect for hunters, and adventurers who want to step up their game.\nWhat to expect: A deep dive into Hikmicro\u2019s cutting-edge thermal and night vision range \u2013 scopes, monoculars, and clip-ons Pro tips & tricks for getting the best performance in the field Hands-on time with the gear A relaxed mix and mingle session with nibbles and drinks Spots are limited \u2013 secure your free ticket today!"
   },
   {
+    "id": "The Overthinking Mind: Finding Peace in Mental Chaos-175 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "The Overthinking Mind: Finding Peace in Mental Chaos",
+    "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/508347207_1313529030427412_231885495491851220_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=DbRonOHOUMgQ7kNvwFD4ucM&_nc_oc=AdkFYxeigYMWo0kqC3vOjfkim9XUkrybLTY8s_5nt8q80j8nctrHUXFmu65CBTLENNg&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=WXokGEtBrZLmrEcAhdl0Jg&oh=00_AfTpLhLv3WOzAq-LNEirJSs3oYI8PmJJB60K4HEJZRP6tg&oe=688CAFD1",
+    "venue": "175 Vivian St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2946838,
+      "long": 174.7737225
+    },
+    "dates": [
+      "2025-07-31-18:15"
+    ],
+    "displayDate": "Thu 31 Jul",
+    "url": "https://www.facebook.com/events/1218109582839292",
+    "source": "Facebook",
+    "eventType": "Health & Wellness",
+    "description": "The Overthinking Mind: Finding Peace in Mental Chaos Transform the exhausting cycle of mental loops, rumination, and decision paralysis into mental clarity and peace.\nThis 60-minute workshop will give you practical tools to break the cycle.\nPlus, your ticket includes a nourishing plant-based dinner and dessert\u2014because taking care of your mind is best supported by feeding your body well.\nMeet Krishnaloka, your host Introducing Krishnaloka, who is driven to help others overcome their issues within their mind and pyschology.\nHer warm and caring nature makes every interaction with her both comforting and transformative."
+  },
+  {
     "id": "The Overthinking Mind: Finding Peace in Mental Chaos-Bhakti Lounge Wellington, 1st Floor, 175 Vivian Street, Wellington-Event Finder",
     "name": "The Overthinking Mind: Finding Peace in Mental Chaos",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2095955-895562-35.jpg",
@@ -4395,9 +4590,9 @@
     "description": "The Overthinking Mind: Finding Peace in Mental Chaos Transform the exhausting cycle of mental loops, rumination, and decision paralysis into mental clarity and peace.\nThis 60-minute workshop will give you practical tools to break the cycle.\nYou'll discover why your brain fixates on worry, how to interrupt rumination before it spirals, and master simple techniques that create instant mental clarity.\nPlus, your ticket includes a nourishing plant-based dinner and dessert\u2014because taking care of your mind is best supported by feeding your body well.\nEvent followed by a plant-based dinner and dessert, all included in your ticket!"
   },
   {
-    "id": "The Overthinking Mind: Finding Peace in Mental Chaos-175 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
-    "name": "The Overthinking Mind: Finding Peace in Mental Chaos",
-    "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/508347207_1313529030427412_231885495491851220_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=DbRonOHOUMgQ7kNvwFD4ucM&_nc_oc=AdkFYxeigYMWo0kqC3vOjfkim9XUkrybLTY8s_5nt8q80j8nctrHUXFmu65CBTLENNg&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=WXokGEtBrZLmrEcAhdl0Jg&oh=00_AfTpLhLv3WOzAq-LNEirJSs3oYI8PmJJB60K4HEJZRP6tg&oe=688CAFD1",
+    "id": "Yoga Nidra: Moon Bathing-175 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Yoga Nidra: Moon Bathing",
+    "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/506807633_1313384063775242_2459809691174400266_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=RuITvMw3rx0Q7kNvwE8Usnq&_nc_oc=AdkTfKQBCfSf_y3IS9vPt-n3AYgCWP-EK1UlQyVCMlCD6ZDGUvcRfPoGuKMR--oV9gY&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=2KnSkpiRttbBOr9Rc7CDIQ&oh=00_AfQj2EDiOQKb0eTL_grRBgR8QFujndw1afS85M5Nlb7AYQ&oe=688C93F5",
     "venue": "175 Vivian St, Te Aro, Wellington 6011, New Zealand",
     "coordinates": {
       "lat": -41.2946838,
@@ -4407,10 +4602,10 @@
       "2025-07-31-18:15"
     ],
     "displayDate": "Thu 31 Jul",
-    "url": "https://www.facebook.com/events/1218109582839292",
+    "url": "https://www.facebook.com/events/2259415371239809",
     "source": "Facebook",
     "eventType": "Health & Wellness",
-    "description": "The Overthinking Mind: Finding Peace in Mental Chaos Transform the exhausting cycle of mental loops, rumination, and decision paralysis into mental clarity and peace.\nThis 60-minute workshop will give you practical tools to break the cycle.\nPlus, your ticket includes a nourishing plant-based dinner and dessert\u2014because taking care of your mind is best supported by feeding your body well.\nMeet Krishnaloka, your host Introducing Krishnaloka, who is driven to help others overcome their issues within their mind and pyschology.\nHer warm and caring nature makes every interaction with her both comforting and transformative."
+    "description": "Yoga Nidra: Moon Bathing Slow down, settle in, and let the soft glow of the moon guide you inward.\nThis moon-themed session invites you to tune into the gentle, reflective energy of the lunar cycle\u2014a time for slowing down, softening, and simply being.\nAfter the practice, we\u2019ll be sharing a nourishing plant-based dinner together.\nIt\u2019s included in your ticket and is a lovely way to gently transition back, connect, and enjoy wholesome food in good company.\nMeet Karuna, your host Trained as a primary school teacher, she also has a background in psychology and Spanish."
   },
   {
     "id": "Yoga Nidra: Moon Bathing-Bhakti Lounge Wellington, 1st Floor, 175 Vivian Street, Wellington-Event Finder",
@@ -4446,22 +4641,22 @@
     "description": "Yoga Nidra: Moon Bathing Slow down, settle in, and let the soft glow of the moon guide you inward.\nThis calming evening will centre around the deeply restorative practice of Yoga Nidra\u2014a guided meditation designed to bring your body into a state of deep rest while your awareness gently drifts between waking and dreaming.\nKnown to activate the parasympathetic nervous system and reduce stress, Yoga Nidra supports emotional balance, mental clarity, and a profound sense of ease.\nThis moon-themed session invites you to tune into the gentle, reflective energy of the lunar cycle\u2014a time for slowing down, softening, and simply being.\nAfter the practice, we\u2019ll be sharing a nourishing plant-based dinner together."
   },
   {
-    "id": "Yoga Nidra: Moon Bathing-175 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
-    "name": "Yoga Nidra: Moon Bathing",
-    "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/506807633_1313384063775242_2459809691174400266_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=RuITvMw3rx0Q7kNvwE8Usnq&_nc_oc=AdkTfKQBCfSf_y3IS9vPt-n3AYgCWP-EK1UlQyVCMlCD6ZDGUvcRfPoGuKMR--oV9gY&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=2KnSkpiRttbBOr9Rc7CDIQ&oh=00_AfQj2EDiOQKb0eTL_grRBgR8QFujndw1afS85M5Nlb7AYQ&oe=688C93F5",
-    "venue": "175 Vivian St, Te Aro, Wellington 6011, New Zealand",
+    "id": "Dungeons and Decades: Time Is Just A Number-1 Kent Terrace, Wellington-Facebook",
+    "name": "Dungeons and Decades: Time Is Just A Number",
+    "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/514035894_1501169607616498_1112664443815109470_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=DD9KHsg1dLYQ7kNvwEL-0yC&_nc_oc=AdkHY3fKhGItEDXGbQg-chFbk9cQjZS3zBThgofriDd2uxkGmJn-VopVA4aoKrWD2AA&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=1eYgq7GkXYYxk1z5XFVEng&oh=00_AfTzdDT2lkA2ccrDmNwyC0yKwtUay0PPvDK4lsHrBgRt5Q&oe=688C8EE6",
+    "venue": "1 Kent Terrace, Wellington",
     "coordinates": {
-      "lat": -41.2946838,
-      "long": 174.7737225
+      "lat": -41.2935952,
+      "long": 174.7846181
     },
     "dates": [
-      "2025-07-31-18:15"
+      "2025-07-31-18:30"
     ],
     "displayDate": "Thu 31 Jul",
-    "url": "https://www.facebook.com/events/2259415371239809",
+    "url": "https://www.facebook.com/events/1492961118539494",
     "source": "Facebook",
-    "eventType": "Health & Wellness",
-    "description": "Yoga Nidra: Moon Bathing Slow down, settle in, and let the soft glow of the moon guide you inward.\nThis moon-themed session invites you to tune into the gentle, reflective energy of the lunar cycle\u2014a time for slowing down, softening, and simply being.\nAfter the practice, we\u2019ll be sharing a nourishing plant-based dinner together.\nIt\u2019s included in your ticket and is a lovely way to gently transition back, connect, and enjoy wholesome food in good company.\nMeet Karuna, your host Trained as a primary school teacher, she also has a background in psychology and Spanish."
+    "eventType": "Other",
+    "description": "Early bird tickets are only $15!\nUSE CODE: \"INITIATIVE\" Stop the clocks - you won\u2019t want to miss this adventure through time!\nDuct Taped On have once again partnered with local Dungeons and Dragons podcast Last In Initiative, and this time not even the clock can contain us.\nEach night brings new adventure, new challenges, and most importantly, a new 80s.\nJoin our players as they spark a Fantasy French Revolution in 1789, rob a speeding train in 1886, and get minimum wage jobs at an arcade in 1982."
   },
   {
     "id": "Dungeons and Decades: Time Is Just A Number-BATS Theatre, 1 Kent Tce, Wellington-Event Finder",
@@ -4482,24 +4677,6 @@
     "source": "Event Finder",
     "eventType": "Other",
     "description": "Stop the clocks - you won\u2019t want to miss this adventure through time!\nWellington-based Dungeons and Dragons podcast Last In Initiative is back, and this time not even the clock can contain us.\nMark it in your calendars, get the date right, and be at BATS for three timeless tales, guaranteed to take you on a comedy-packed, action-filled romp across time, space, and most importantly, the 80\u2019s.\nJoin our players as they spark a Fantasy French Revolution in 1789, rob a speeding train in 1886, and get minimum wage jobs at an arcade in 1982.\nEach night brings new adventure, new challenges, and most importantly, a new decade."
-  },
-  {
-    "id": "Dungeons and Decades: Time Is Just A Number-1 Kent Terrace, Wellington-Facebook",
-    "name": "Dungeons and Decades: Time Is Just A Number",
-    "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/514035894_1501169607616498_1112664443815109470_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=DD9KHsg1dLYQ7kNvwEL-0yC&_nc_oc=AdkHY3fKhGItEDXGbQg-chFbk9cQjZS3zBThgofriDd2uxkGmJn-VopVA4aoKrWD2AA&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=1eYgq7GkXYYxk1z5XFVEng&oh=00_AfTzdDT2lkA2ccrDmNwyC0yKwtUay0PPvDK4lsHrBgRt5Q&oe=688C8EE6",
-    "venue": "1 Kent Terrace, Wellington",
-    "coordinates": {
-      "lat": -41.2935952,
-      "long": 174.7846181
-    },
-    "dates": [
-      "2025-07-31-18:30"
-    ],
-    "displayDate": "Thu 31 Jul",
-    "url": "https://www.facebook.com/events/1492961118539494",
-    "source": "Facebook",
-    "eventType": "Other",
-    "description": "Early bird tickets are only $15!\nUSE CODE: \"INITIATIVE\" Stop the clocks - you won\u2019t want to miss this adventure through time!\nDuct Taped On have once again partnered with local Dungeons and Dragons podcast Last In Initiative, and this time not even the clock can contain us.\nEach night brings new adventure, new challenges, and most importantly, a new 80s.\nJoin our players as they spark a Fantasy French Revolution in 1789, rob a speeding train in 1886, and get minimum wage jobs at an arcade in 1982."
   },
   {
     "id": "Parrotdog Quiz Night-Parrotdog Bar, 60 - 66 Kingsford Smith St, Wellington-Event Finder",
@@ -4602,6 +4779,24 @@
     "source": "Event Finder",
     "eventType": "Other",
     "description": "Come join us for the fortnightly ritual on a Thursday night, where you and your crew will negotiate five rounds of amazing trivia with Gee Quiz.\nYour team's street cred, life smarts and common sense will go a long way to ensuring success on the night.\nAdd to the exquisite beers, delicious food and an incredible vibe, it's the place to be on a Thursday night with plenty of time for laughter, banter and merrymaking!\nThe quiz kicks off at 6.30pm and runs for roughly 2.5 hours.\nSo, grab your buddies and come on down and join us for one of Wellington's best quiz nights \u2013 Parrotdog style!"
+  },
+  {
+    "id": "West African Inspired Community Dance Class-11 Hutchison Rd, Mount Cook, Wellington 6021, New Zealand-Facebook",
+    "name": "West African Inspired Community Dance Class",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/495587113_1252016516928142_6195598356158406093_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=0UW7eGF_bN0Q7kNvwFsjT5s&_nc_oc=AdnGo3wla1Monn5NEtreYpvJVx83QmXe5x_wWXVs4QeX6K8RqNNXNwWJcW-pkswZan8&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=gNeFtXhkQFWSXebOpZKTcQ&oh=00_AfT5R6swrWHnjm_YvDO2p_dVrmldT9UPdW-EuC-ltNS7mA&oe=688D0968",
+    "venue": "11 Hutchison Rd, Mount Cook, Wellington 6021, New Zealand",
+    "coordinates": {
+      "lat": -41.3085158,
+      "long": 174.7746336
+    },
+    "dates": [
+      "2025-07-31-18:30"
+    ],
+    "displayDate": "Thu 31 Jul",
+    "url": "https://www.facebook.com/events/729903189566374",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Join us at this inclusive mixed level dance class.\nYou can join casually any week ($25/class) or sign up for a block and get a discount: Block Dates: 12 June - 26 June 2025 - 3 wks ($60) 17 July - 7 August 2025 - 4 wks ($85) All welcome!\nShake shimmy and groove to the soulful rhythms of West Africa, including both traditional and creative Afro-inspired rhythms and dances!\nFree your spirit dancing to the beat of live drums with Simon Elwell and members of Kubatana:).\nMagic happens here."
   },
   {
     "id": "Bangers Bingo-Dakota Bar, 74 Courtenay Plce, Wellington-Event Finder",
@@ -5729,6 +5924,24 @@
     "description": "Join us at Highwater; Tuesday to Friday from 5pm-6pm for $30 delicious house made pastas, $15 freshly shucked oysters, $60 set menu and wine & cocktail specials.\nIdeal for post work, pre event & casual catch-ups.\nThe same Highwater quality you know & love - just a little more casual.\n- Book or walk-in from 5-6pm Tuesday to Friday - 90 minute table allocation - Full regular menu also available For more info, full menu & bookings, head to: www.highwatereatery.co.nz/thepickup Its like a happy hour - Highwater style."
   },
   {
+    "id": "MMC Evening Connection - Brand New Event-71 High Street, Blenheim Central, Blenheim 7201, New Zealand-Humanitix",
+    "name": "MMC Evening Connection - Brand New Event",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/7t8jVpr6Rp6skLrTe8Jz",
+    "venue": "71 High Street, Blenheim Central, Blenheim 7201, New Zealand",
+    "coordinates": {
+      "lat": -41.126722,
+      "long": 175.0660271
+    },
+    "dates": [
+      "2025-08-01-17:30"
+    ],
+    "displayDate": "Fri 01 Aug",
+    "url": "https://events.humanitix.com/evening-connection?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Other",
+    "description": "We\u2019re excited to share with you this brand new event: MMC Evening Connection!\nCreated in response to requests for more after-hours activities, these evenings gathering is all about community, storytelling, and belonging.\nWhether you're new to Marlborough or a long-time local, join us for a relaxed Friday evening of conversation and connection in a welcoming space.\nThis is your chance to meet others, share experiences, and celebrate the diverse cultures that make up our region.\nCome along for k\u014drero, laughter, and meaningful connection."
+  },
+  {
     "id": "The Manuelitos-Thunderbird Cafe, 154 Featherston St, Wellington-Event Finder",
     "name": "The Manuelitos",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2100646-897613-35.jpg",
@@ -5781,6 +5994,24 @@
     "source": "Event Finder",
     "eventType": "Hobbies & Interests",
     "description": "Introductory session learning to paint with underglaze on clay, and take a moment for wellbeing.\nThis is a session in the FCS Community Pottery Studio.\nCome check it out!"
+  },
+  {
+    "id": "Hey Mates: Beads & Besties (Ages: 18-39)-Wellington Waterfront, Wellington-Event Finder",
+    "name": "Hey Mates: Beads & Besties (Ages: 18-39)",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2106073-900199-34.jpg",
+    "venue": "Wellington Waterfront, Wellington",
+    "coordinates": {
+      "lat": -41.2887953,
+      "long": 174.7772114
+    },
+    "dates": [
+      "2025-08-01-18:00"
+    ],
+    "displayDate": "Fri 01 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/hey-mates-beads-besties-petone/wellington",
+    "source": "Event Finder",
+    "eventType": "Markets & Fairs",
+    "description": "Come solo and leave with new friends!\nA fun, creative evening of beading, socializing, and good vibes\u2014no experience needed!\nRSVP here: https://heymates.com/petone-wellington/beads-besties/ Entry: $15.00 - reserves your spot and supports the platform.\nExact location is shared via email once you have paid/joined via site.\nJoin us for a relaxed and creative evening where you\u2019ll meet new mates and make your own custom jewellery!"
   },
   {
     "id": "Rongotai Labour Dinner at the Pines-50 The Esplanade, Houghton Bay, Wellington 6023, New Zealand-Humanitix",
@@ -5924,24 +6155,6 @@
     "description": "Tessa Frazer & Friends is a chamber music concert featuring classical saxophonist Tessa Frazer, joined by musicians from the New Zealand Symphony Orchestra, Orchestra Wellington, and beyond.\nThe programme highlights the versatility of the classical saxophone through a range of chamber works for trumpet, piano, violin, bass trombone, flute, and saxophone.\nCurated by Tessa, the concert features some of her favourite repertoire and presents the saxophone in a fresh and dynamic context.\nAll proceeds will support Tessa\u2019s upcoming move to the Netherlands, where she will begin a Master of Music at Codarts, Rotterdam, studying under renowned saxophonist Femke IJlstra."
   },
   {
-    "id": "Winterlude-The Undercurrent, 118 Tory Street, Wellington-Event Finder",
-    "name": "Winterlude",
-    "imageUrl": "",
-    "venue": "The Undercurrent, 118 Tory Street, Wellington",
-    "coordinates": {
-      "lat": -41.2960797,
-      "long": 174.7795355
-    },
-    "dates": [
-      "2025-08-01-19:00"
-    ],
-    "displayDate": "Fri 01 Aug",
-    "url": "https://www.eventfinda.co.nz/2025/winterlude/wellington",
-    "source": "Event Finder",
-    "eventType": "Music & Concerts",
-    "description": "We are thrilled to announce\u2026 Winterlude: A night of original songs and verse.\nWinterlude is a series of intimate winter concerts involving poets and singers/songwriters.\nThe first of these took place last year in Mana Little Theatre in Plimmerton and at the Coastal Musical Theatre in Kapiti, both to well received sold out shows.\nWe are very excited to be hosting their Wellington debut!\nPerformers are: Barry Saunders (Warratahs) Caroline Easther (with friends) Alan Galloway (with Tatiana Sogrina) Poet Nikki-Lee Birdsey Poet Rebekah Burgess Doors 6:30 pm/Gig 7:00 pm Tickets $25 available on the door and online."
-  },
-  {
     "id": "Winterlude-Garibaldi Club, 118 Tory St, Te Aro, Wellington 6011, New Zealand-Facebook",
     "name": "Winterlude",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/518272144_671856662564475_2285697202817128519_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=XxRVo47NqPsQ7kNvwEACDs1&_nc_oc=Adk_Ig7Mu3wAmC8RsALHL-CbW5fVwQAtjoc7B3xyI4A_OexvYAdi8Hz67r3fu7yaxB8&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=YzN1ecaeGHxdOWViNMgNQA&oh=00_AfSe_GILI1z0Xs_lK9LKfaPE9IzNpfq6n7E7Es5q4QqvEA&oe=688CA2BC",
@@ -5958,6 +6171,24 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "We are thrilled to announce\u2026 Winterlude: A night of original songs and verse.\nWinterlude is a series of intimate winter concerts involving poets and singers/songwriters.\nThe first of these took place last year in Mana Little Theatre in Plimmerton and at the Coastal Musical Theatre in Kapiti, both to well received sold out shows.\nWe are very excited to be hosting their Wellington debut!\nPerformers are: Barry Saunders (Warratahs) Caroline Easther (with friends) Alan Galloway (with Tatiana Sogrina) Poet Nikki-Lee Birdsey Poet Rebekah Burgess Friday 1st of August Doors 6:30pm/ Gig 7pm $25 Tickets available on the door and online."
+  },
+  {
+    "id": "Winterlude-The Undercurrent, 118 Tory Street, Wellington-Event Finder",
+    "name": "Winterlude",
+    "imageUrl": "",
+    "venue": "The Undercurrent, 118 Tory Street, Wellington",
+    "coordinates": {
+      "lat": -41.2960797,
+      "long": 174.7795355
+    },
+    "dates": [
+      "2025-08-01-19:00"
+    ],
+    "displayDate": "Fri 01 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/winterlude/wellington",
+    "source": "Event Finder",
+    "eventType": "Music & Concerts",
+    "description": "We are thrilled to announce\u2026 Winterlude: A night of original songs and verse.\nWinterlude is a series of intimate winter concerts involving poets and singers/songwriters.\nThe first of these took place last year in Mana Little Theatre in Plimmerton and at the Coastal Musical Theatre in Kapiti, both to well received sold out shows.\nWe are very excited to be hosting their Wellington debut!\nPerformers are: Barry Saunders (Warratahs) Caroline Easther (with friends) Alan Galloway (with Tatiana Sogrina) Poet Nikki-Lee Birdsey Poet Rebekah Burgess Doors 6:30 pm/Gig 7:00 pm Tickets $25 available on the door and online."
   },
   {
     "id": "Yoga Nidra-Awhi Yoga and Wellbeing Centre, 15 Johnston St., Wellington-Event Finder",
@@ -6232,6 +6463,24 @@
     "source": "Event Finder",
     "eventType": "Music & Concerts",
     "description": "Created to revive and celebrate the underground electronic scene, Funky Friday is more than just a night out\u2014it\u2019s a space for music lovers, dancers, and creatives to connect through rhythm and energy.\nInfluenced by funk and disco, with a special focus on vocals and anything groovy, Not My Sister brings high energy and uplifting sets.\nSorchaLula has as many shades to her music as she does to her personality.\nAs founder of The Sensonauts she created events exploring the senses, music, dance, and music education with a focus on inclusivity.\nWith the people on the dancefloor their inspiration, they'll share a bounty of underground house to lift you up and bring you on a journey."
+  },
+  {
+    "id": "Heavy Flow-The Rogue & Vagabond-Rogue & Vagabond",
+    "name": "Heavy Flow",
+    "imageUrl": "https://www.undertheradar.co.nz/images/showImages/97624-388140.jpg",
+    "venue": "The Rogue & Vagabond",
+    "coordinates": {
+      "lat": -41.29336,
+      "long": 174.7745002
+    },
+    "dates": [
+      "2025-08-01-21:30"
+    ],
+    "displayDate": "Fri 01 Aug",
+    "url": "https://www.undertheradar.co.nz/gig/97624/Heavy-Flow.utr",
+    "source": "Rogue & Vagabond",
+    "eventType": "Music & Concerts",
+    "description": "Another installation of Louisa\u2019s Heavy Flow residency - join us for an evening of exploration and innovation!\nWoodwinds - Louisa Williamson Guitar - Tyson Smith Keyboards - Dayle Jellybean Bass - Johnny Lawrence Drums - Darren Mathiassen Percussion - Ato Kwamena Special guests Music from 930, FREE ENTRY"
   },
   {
     "id": "Kylie night-Ivy Bar and Cabaret, 63 Cuba Street, Te Aro, Wellington-Event Finder",
@@ -7242,6 +7491,24 @@
     "description": "Come along to our August Just Sew session for 2025.\nBook your spot online and bring along 1-2 clothing or lightweight household items (cushion covers etc) for repair \u2013 all needles, thread, and sewing machines will be supplied.\nWe will supply a selection of patches and buttons, but you are also welcome to bring your own if you have something specific in mind.\nOur skilled volunteers will be here to assist you with repairs such as missing buttons, tears, holes and hemming.\nBookings are necessary - click below to reserve your spot!"
   },
   {
+    "id": "Colonial Appetites: Sugar\u2019s Journey Royal Table to Indigenous Communities- Abel Smith Street Wellington, Wellington Region-Event Brite",
+    "name": "Colonial Appetites: Sugar\u2019s Journey Royal Table to Indigenous Communities",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1082116973%2F198762939897%2F1%2Foriginal.20250727-143049?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C104%2C1920%2C960&s=e85838fe8f480eefa6ca58dc49354720",
+    "venue": " Abel Smith Street Wellington, Wellington Region",
+    "coordinates": {
+      "lat": -41.296274,
+      "long": 174.7741811
+    },
+    "dates": [
+      "2025-08-02-13:00"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.eventbrite.co.nz/e/colonial-appetites-sugars-journey-royal-table-to-indigenous-communities-tickets-1533797442439?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Artists\u2019 Talk facilitated by Dr Miki Seifert and Dr Arini Loader In the third of three artist\u2019s talk about Az\u00facar/Sugar, the latest installation from With Lime, join Dr Miki Seifert and Dr Arini Loader at \u2018The Colonisers\u2019 Banquet Table\u2019.\nHer movement training (Butoh, contact improvisation, ballet, circus arts and gymnastics) imbues her work with flow, timing, placement, and a balance between the improvised and the choreographed.\nThe words of Cherrie Moraga (2011) speak to my approach: 'The best of creative writing...is able to traverse great borders of mind and matter.\nHistory is enacted myth.\nMyth is remembered story."
+  },
+  {
     "id": "Drag Trivia Brunch with Olivia Dreams-St Johns Building, 5 Cable St, Wellington Central, Wellington 6011, New Zealand-Facebook",
     "name": "Drag Trivia Brunch with Olivia Dreams",
     "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/522683149_1297454285715232_8505271017122214110_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=06lr4ZBbfrcQ7kNvwHFkDZS&_nc_oc=Adn2gl7oMO2CsuM-tZTaCNDe5959CxHxLD3KNHKbyQE_7GEJUfDbfWh4_Nq_fKB2vE4wcYMByU1NEqbwSQk4z4PT&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=1HoW3_pRpqlXCuFrhwVIiA&oh=00_AfQzOW5vF9XZP2kn7m41zqDFI2inabrzXDcH9mIMf-FMVw&oe=68890A7C",
@@ -7479,19 +7746,22 @@
     "description": "The Bunnings NPC is back and so are your 2024 champion Wellington Lions!\nWe\u2019re kicking off the home season with a blockbuster clash against old rivals Canterbury, Friday 2 August at Porirua Park.\nThese two titans have been going head-to-head since 1879.\nDon\u2019t miss the action \u2014 Witness It Live!\n#ROARYourClubColours | #ClubColourRush Come dressed in your club colours and bring the whole wh\u0101nau for a festival of colour, halftime club sprint race, family fun, and your chance to get a photo with the NPC trophy."
   },
   {
-    "id": "Pocket Shrine Workshop-Wellington Museum, 3 Jervois Quay, Queens Wharf, Wellington-Event Finder",
-    "name": "Pocket Shrine Workshop",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2100997-897761-35.jpg",
-    "venue": "Wellington Museum, 3 Jervois Quay, Queens Wharf, Wellington",
-    "coordinates": null,
+    "id": "Mean 2nd Birthday Party!-Lone Star, 66 Tory St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Mean 2nd Birthday Party!",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/522080723_1334884118639880_2208660758644662796_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=OCVBg8EW4jYQ7kNvwFmWNYm&_nc_oc=AdnAvvJ9KRx2gHGQDjL34kw8dt80BnlGJp41vOG_syi4SDKF7b5kisHG0pKwfGgf9Sk&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=hS6aj9hbN24zP-oTRt_7Vg&oh=00_AfRvkl0JCtwVOeU0nPuRbH2HTIoxCzcqUWR93bxULSBPgw&oe=688CF252",
+    "venue": "Lone Star, 66 Tory St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2944352,
+      "long": 174.780493
+    },
     "dates": [
       "2025-08-02-14:00"
     ],
     "displayDate": "Sat 02 Aug",
-    "url": "https://www.eventfinda.co.nz/2025/pocket-shrine-workshop/wellington",
-    "source": "Event Finder",
-    "eventType": "Hobbies & Interests",
-    "description": "Join us for a relaxed, drop-in style workshop where you\u2019ll craft your own pocket shrine.\nThese miniature altars are made inside small tins and can be dedicated to someone or something meaningful to you.\nAnything goes.\nIf you\u2019d like to make a shrine in memory of someone special, you are welcome to bring a small photo of them to include.\nThis event is part of Takurua Hauora: Winter Wellness, a Wellington event series promoting health and wellbeing inspired by Sir Mason Durie\u2019s Whare Tapa Wh\u0101 model."
+    "url": "https://www.facebook.com/events/1209822884278094",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Join us to celebrate in classic kids party style.\nWe've hidden prizes in unexpected places around the bar.\nIt's all yours!\n- PASS THE PARCEL on the hour.\nYes, pass the parcel around the entire bar!"
   },
   {
     "id": "Pocket Shrine Workshop-3 Jervois Quay, Wellington Central, Wellington 6011, New Zealand-Facebook",
@@ -7509,6 +7779,21 @@
     "url": "https://www.facebook.com/events/2773491932837862",
     "source": "Facebook",
     "eventType": "Other",
+    "description": "Join us for a relaxed, drop-in style workshop where you\u2019ll craft your own pocket shrine.\nThese miniature altars are made inside small tins and can be dedicated to someone or something meaningful to you.\nAnything goes.\nIf you\u2019d like to make a shrine in memory of someone special, you are welcome to bring a small photo of them to include.\nThis event is part of Takurua Hauora: Winter Wellness, a Wellington event series promoting health and wellbeing inspired by Sir Mason Durie\u2019s Whare Tapa Wh\u0101 model."
+  },
+  {
+    "id": "Pocket Shrine Workshop-Wellington Museum, 3 Jervois Quay, Queens Wharf, Wellington-Event Finder",
+    "name": "Pocket Shrine Workshop",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2100997-897761-35.jpg",
+    "venue": "Wellington Museum, 3 Jervois Quay, Queens Wharf, Wellington",
+    "coordinates": null,
+    "dates": [
+      "2025-08-02-14:00"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/pocket-shrine-workshop/wellington",
+    "source": "Event Finder",
+    "eventType": "Hobbies & Interests",
     "description": "Join us for a relaxed, drop-in style workshop where you\u2019ll craft your own pocket shrine.\nThese miniature altars are made inside small tins and can be dedicated to someone or something meaningful to you.\nAnything goes.\nIf you\u2019d like to make a shrine in memory of someone special, you are welcome to bring a small photo of them to include.\nThis event is part of Takurua Hauora: Winter Wellness, a Wellington event series promoting health and wellbeing inspired by Sir Mason Durie\u2019s Whare Tapa Wh\u0101 model."
   },
   {
@@ -7590,6 +7875,24 @@
     "source": "Humanitix",
     "eventType": "Other",
     "description": "Come join us for an Atlantean Channeling experience weaving Nicolas Guided Journey & Biancas Sonic Sound Exploration What to expect.. Activations & Guided Visualization to access Galactic Libraries of Divine Remembrance with Bianca Interweaving the Vibrational Architecture, Setting the Space to Access your Master Timelines and Ascension Blueprints.\nGuided with Nicolas intuitive flow as your consciousness travels through time enabling you to activate your dormant gifts encoded in your DNA Stepping through the dimensional gateway into the Atlantean grid.\nYou will be held in a nurturing and deeply resonant field of Light, Sound and Soul Remembrance.\nThe soundscape will include layering with specific frequencies & elemental sounds intuitively to help you receive these codes & open further to a higher level of consciousness.\nThis is a space for those ready to fully step into who they came here to be with an openness to receiving."
+  },
+  {
+    "id": "SORRYMOM X DIGGYISDEAD POP UP - WELLINGTON-Level 1, 41-47 Dixon street , Wellington-Facebook",
+    "name": "SORRYMOM X DIGGYISDEAD POP UP - WELLINGTON",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/523796376_716890564585513_8112966371012696125_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=oQ-X6pMlVAQQ7kNvwFVgihj&_nc_oc=Adn0inUGnF7wXiXGrcZMBffMuS9y1Uf5t7l8orCaIVS0xa-0Dn7ygBKGzb-PaqrJRUg&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=BpENA9CJOwQlR0TqEd_ELw&oh=00_AfQW1tMkXJXW1-z5vb5bG75wTpNhrUYQx-Xj9wxH-AA5dg&oe=688CF93D",
+    "venue": "Level 1, 41-47 Dixon street , Wellington",
+    "coordinates": {
+      "lat": -41.2919214,
+      "long": 174.7771465
+    },
+    "dates": [
+      "2025-08-02-15:00"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.facebook.com/events/599677643213816",
+    "source": "Facebook",
+    "eventType": "Arts & Theatre",
+    "description": "SORRYMOM x DIGGYISDEAD\n@ @bluedoorstudios.nz \u2014 41 DIXON STREET LVL 1\n@sorrymomarchives X @diggyisdead"
   },
   {
     "id": "Spider-Man Marathon-5 Park Rd, Miramar, Wellington 6022, New Zealand-Facebook",
@@ -7788,24 +8091,6 @@
     "description": "An evening of ceilidh dancing for all ages.\nAll dances taught and called.\nNo previous experience necessary ry.\nFamily friendly.\nNo alcohol."
   },
   {
-    "id": "Harry Potter Quiz @ 1852, Wellington-55 Cleveland Street Wellington, Wellington 6021-Event Brite",
-    "name": "Harry Potter Quiz @ 1852, Wellington",
-    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1025973853%2F248275127981%2F1%2Foriginal.20250508-030055?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C40%2C1280%2C640&s=aebd410649d33ca12e83062743bf9e1f",
-    "venue": "55 Cleveland Street Wellington, Wellington 6021",
-    "coordinates": {
-      "lat": -41.3053214,
-      "long": 174.7639899
-    },
-    "dates": [
-      "2025-08-02-19:00"
-    ],
-    "displayDate": "Sat 02 Aug",
-    "url": "https://www.eventbrite.co.nz/e/harry-potter-quiz-1852-wellington-tickets-1407906920499?aff=ebdssbdestsearch",
-    "source": "Event Brite",
-    "eventType": "Hobbies & Interests",
-    "description": "Harry Potter Quiz @ 1852, Wellington Gee Quiz is back with a brand new Harry Potter quiz for 2025!\nPut your knowledge to the test at our Harry Potter Quiz event!\nNot only will teams be playing for an awesome swathe of prizes, the winners will book a place in the National Championship Harry Potter Quiz held later in the year!\nThis event WILL likely sell out, so get in fast to secure your table!\nBook your team ticket here -> https://www.trybooking.com/nz/XWI Once you book, you will receive an automated email with a link to a Google Form where you will be required to enter your team name."
-  },
-  {
     "id": "Harry Potter Quiz @ 1852, Wellington-55 Cleveland Street, Brooklyn, Wellington-Facebook",
     "name": "Harry Potter Quiz @ 1852, Wellington",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/506090277_1300037518794587_8511050352722005894_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=wxwRaP0NnocQ7kNvwHe0Jjo&_nc_oc=AdkAPT1VUO35XDpYaHoPohIHeJ6HLVl2lXD2-ha6FZ988_QrX7ChkXCX0Fexsv7QZ1k&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=93Hf6FilPArkuHmZauU_gg&oh=00_AfSMtzDVWoi5HxhIq7mx9cVT6FwNz7F9GEOTkxw9T9LMzA&oe=688CA78C",
@@ -7822,6 +8107,24 @@
     "source": "Facebook",
     "eventType": "Hobbies & Interests",
     "description": "Gee Quiz is back with a brand new Harry Potter quiz for 2025!\nGather your HP crew and come along to an amazing night of Harry Potter themed trivia at 1852 Pub & Kitchen, Wellington on Saturday 2nd August, 7pm sharp!\nWith lots of trivia, bonus games and dress ups, it's set to be another magical evening of quizzing!\nThis event WILL likely sell out, so get in fast to secure your table!\nhttps://www.trybooking.com/nz/XWI Once you book, you will receive an automated email with a link to a Google Form where you will be required to enter your team name."
+  },
+  {
+    "id": "Harry Potter Quiz @ 1852, Wellington-55 Cleveland Street Wellington, Wellington 6021-Event Brite",
+    "name": "Harry Potter Quiz @ 1852, Wellington",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1025973853%2F248275127981%2F1%2Foriginal.20250508-030055?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C40%2C1280%2C640&s=aebd410649d33ca12e83062743bf9e1f",
+    "venue": "55 Cleveland Street Wellington, Wellington 6021",
+    "coordinates": {
+      "lat": -41.3053214,
+      "long": 174.7639899
+    },
+    "dates": [
+      "2025-08-02-19:00"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.eventbrite.co.nz/e/harry-potter-quiz-1852-wellington-tickets-1407906920499?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Hobbies & Interests",
+    "description": "Harry Potter Quiz @ 1852, Wellington Gee Quiz is back with a brand new Harry Potter quiz for 2025!\nPut your knowledge to the test at our Harry Potter Quiz event!\nNot only will teams be playing for an awesome swathe of prizes, the winners will book a place in the National Championship Harry Potter Quiz held later in the year!\nThis event WILL likely sell out, so get in fast to secure your table!\nBook your team ticket here -> https://www.trybooking.com/nz/XWI Once you book, you will receive an automated email with a link to a Google Form where you will be required to enter your team name."
   },
   {
     "id": "SANOI - UNDERWATER WORLD-The Hop Garden, 13 Pirie St, Mount Victoria, Wellington 6011, New Zealand-Facebook",
@@ -7891,6 +8194,24 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "Come back with us to the roaring 20s when the music and the booze flowed freely!\nSee two bands playing hot jazz, starring vocal stylist extraordinaire Eugene Wolfin!\nDancing and period dress encouraged and entry is by koha - everyone welcome!\nBYO refreshments and beverages."
+  },
+  {
+    "id": "Barbarian Karaoke-79 Mornington Rd, Brooklyn, Wellington 6021, New Zealand-Facebook",
+    "name": "Barbarian Karaoke",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524022602_1336886721773759_5094835500148042066_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=11wWJGTY9owQ7kNvwEpQXYb&_nc_oc=AdnOSsso5JOuyZ2ZdYhJxJ0qDb0ahOiR39XFxBEWaHnjh81EGj8OqNEkIUBlz1NeR4w&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=YXiG67s497lBSCh8D93Wtg&oh=00_AfRZ2S_IMYQBVi-clNFt5TP8GNJdoIHKMR-v9GhlFWIr8A&oe=688D143C",
+    "venue": "79 Mornington Rd, Brooklyn, Wellington 6021, New Zealand",
+    "coordinates": {
+      "lat": -41.3134056,
+      "long": 174.7644127
+    },
+    "dates": [
+      "2025-08-02-19:30"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.facebook.com/events/757285566660474",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Celebrating 10 years of Vogelmorn!\nAs part of a whole day chock-full of activities from noon until night, we're hosting some fun-tastic karaoke in the Hall from 7:30 this Saturday.\nCome along and sing anything you like in the supportive context of local community!"
   },
   {
     "id": "Kapiti Winterlude 2025-15 Hinemoa Street, Paraparaumu 5032, New Zealand-Humanitix",
@@ -8038,24 +8359,6 @@
     "description": "Bubble Stop presents its first event \u2014 a fundraiser for Wellington Sexual Abuse HELP.\nWe are excited to bring you a surreal arrangement of music that is altogether elastic, crunchy, synthetic, and sharp.\nAll proceeds will be donated to Wellington HELP, a not-for-profit organisation providing specialised support to individuals, wh\u0101nau and communities who have been affected by sexual violence.\nFor more information on Wellington HELP's values, services and more please visit: https://www.wellingtonhelp.org.nz/ourstory Performing at Bubble Stop 1 will be... Judith djcrabstick Kindekel II Garden Faerie Hosted by the beautiful people at 13 Garrett Street, Bubble Stop 1 in between and across boundaries.\nWe can't wait to see you there."
   },
   {
-    "id": "Caburlesque - Insufferable Crown Wearing-The Fringe Bar, 26 Allen Street, Wellington-Event Finder",
-    "name": "Caburlesque - Insufferable Crown Wearing",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2096739-895899-35.jpg?v=2",
-    "venue": "The Fringe Bar, 26 Allen Street, Wellington",
-    "coordinates": {
-      "lat": -41.2933007,
-      "long": 174.7820939
-    },
-    "dates": [
-      "2025-08-02-20:00"
-    ],
-    "displayDate": "Sat 02 Aug",
-    "url": "https://www.eventfinda.co.nz/2025/caburlesque-insufferable-crown-wearing/wellington",
-    "source": "Event Finder",
-    "eventType": "Music & Concerts",
-    "description": "No more \"it was nothing\".\nINSUFFERABLE CROWN WEARING is our new reality!\nMeet some of the best in the business."
-  },
-  {
     "id": "Caburlesque - Insufferable Crown Wearing-28 Allen Street, Te Aro, Wellington-Facebook",
     "name": "Caburlesque - Insufferable Crown Wearing",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/511998202_1172444371349877_6070393118654229140_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=xqeuCuCLSTgQ7kNvwE7x8q2&_nc_oc=AdmsUAZ3rxm4e3A39LMsip5AWgJPASo_cj5VvuxdfhDsEQhi1WdXBNEGI4xPwOKk0dw&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=J_CP9sqOhBR_4QNMmzdxpA&oh=00_AfQ96jrcuXCJ9fV_3tVutwskMLY5gV3OIR6B0uppGs7jZA&oe=688C98FC",
@@ -8072,6 +8375,24 @@
     "source": "Facebook",
     "eventType": "Arts & Theatre",
     "description": "No more \"it was nothing\".\nWE EARNED IT!\nWE DESERVE IT!\nINSUFFERABLE CROWN WEARING is our new reality!\nMeet some of the best in the business."
+  },
+  {
+    "id": "Caburlesque - Insufferable Crown Wearing-The Fringe Bar, 26 Allen Street, Wellington-Event Finder",
+    "name": "Caburlesque - Insufferable Crown Wearing",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2096739-895899-35.jpg?v=2",
+    "venue": "The Fringe Bar, 26 Allen Street, Wellington",
+    "coordinates": {
+      "lat": -41.2933007,
+      "long": 174.7820939
+    },
+    "dates": [
+      "2025-08-02-20:00"
+    ],
+    "displayDate": "Sat 02 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/caburlesque-insufferable-crown-wearing/wellington",
+    "source": "Event Finder",
+    "eventType": "Music & Concerts",
+    "description": "No more \"it was nothing\".\nINSUFFERABLE CROWN WEARING is our new reality!\nMeet some of the best in the business."
   },
   {
     "id": "DARK ENTRIES-The Hop Garden, 13 Pirie St, Mount Victoria, Wellington 6011, New Zealand-Facebook",
@@ -8952,24 +9273,6 @@
     "description": "Life drawing for adults - this is a regular monthly class.\nYour tutor Joanne will lead you through a series of drawing exercises with a live model, while you work on proportion, light and shadow, and capturing dynamic energy.\nThis is a great regular workshop to practice the basics, and develop your artistry and personal style in your drawing practice.\nCome learn with a friendly crowd!\n$40 pp bookings at registrations@farehamcreativespace.co.nz"
   },
   {
-    "id": "Nature Journaling-Wellington Botanic Garden, 101 Glenmore St, Kelburn, Wellington-Event Finder",
-    "name": "Nature Journaling",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2101503-898016-34.png?v=2",
-    "venue": "Wellington Botanic Garden, 101 Glenmore St, Kelburn, Wellington",
-    "coordinates": {
-      "lat": -41.282195,
-      "long": 174.763785
-    },
-    "dates": [
-      "2025-08-03-14:00"
-    ],
-    "displayDate": "Sun 03 Aug",
-    "url": "https://www.eventfinda.co.nz/2025/nature-journaling/wellington",
-    "source": "Event Finder",
-    "eventType": "Hobbies & Interests",
-    "description": "A gentle ramble around parts of the botanic gardens with botanical artist Sandra Morris, using careful observation and journalling techniques to record how our personal connection with our environment changes our perception and wellbeing.\nYou will learn: \u2022 Different ways to observe and the practice of mindfulness and wellbeing \u2022 Different ways to record visually, eg.\ndiagrams, sketches, careful drawings, maps, graphs \u2022 Different ways to record in words, numbers \u2022 Approaches to page layout \u2022 Suitable for all skill levels- with a desire to learn to observe and connect with the natural world around you.\nMaterials participants need to bring: - sketch book A5 or A4 or photocopy paper with backing board with clip for attaching paper to board - drawing pencils and/or drawing pens - colour pencils or whatever you prefer to work with Please note: This event requires a minimum of 8 bookings to go ahead.\nIf fewer than 8 people register, the event will be cancelled and any fees paid will be fully refunded."
-  },
-  {
     "id": "Nature Journaling-Rudderstone Dennis Oconnor, Kelburn, Wellington 6012, New Zealand-Facebook",
     "name": "Nature Journaling",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/521961349_1178172441016463_5714019331288010495_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=H_4SPNnWnlkQ7kNvwFlH9_E&_nc_oc=Adna7CijuZz3mRMklK7slmdlq_i_TVCdlF68gJh2enyFgoh663ygNBTyFUU9EF-bgRM&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=0yHgnRsIpLOnUM2C4fVpCw&oh=00_AfQ4vHJM8ucPfuEHtvkHUzDI0swc4uwCUITOYTI6cRHXDw&oe=688CA459",
@@ -8986,6 +9289,24 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "A gentle ramble around parts of the botanic gardens with botanical artist Sandra Morris, using careful observation and journalling techniques to record how our personal connection with our environment changes our perception and wellbeing.\nYou will learn: \u2022 Different ways to observe and the practice of mindfulness and wellbeing \u2022 Different ways to record visually, eg.\ndiagrams, sketches, careful drawings, maps, graphs \u2022 Different ways to record in words, numbers \u2022 Approaches to page layout \u2022 Suitable for all skill levels- with a desire to learn to observe and connect with the natural world around you.\nMaterials participants need to bring: - sketch book A5 or A4 or photocopy paper with backing board with clip for attaching paper to board - drawing pencils and/or drawing pens - colour pencils or whatever you prefer to work with Venue location: Akoranga Learning Pavilion in the Discovery Garden at Wellington Botanic Garden Google Maps: https://maps.app.goo.gl/PQdG7LCYSKEDYgKA8 Please note: This event requires a minimum of 8 bookings to go ahead.\nIf fewer than 8 people register, the event will be cancelled and any fees paid will be fully refunded."
+  },
+  {
+    "id": "Nature Journaling-Wellington Botanic Garden, 101 Glenmore St, Kelburn, Wellington-Event Finder",
+    "name": "Nature Journaling",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2101503-898016-34.png?v=2",
+    "venue": "Wellington Botanic Garden, 101 Glenmore St, Kelburn, Wellington",
+    "coordinates": {
+      "lat": -41.282195,
+      "long": 174.763785
+    },
+    "dates": [
+      "2025-08-03-14:00"
+    ],
+    "displayDate": "Sun 03 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/nature-journaling/wellington",
+    "source": "Event Finder",
+    "eventType": "Hobbies & Interests",
+    "description": "A gentle ramble around parts of the botanic gardens with botanical artist Sandra Morris, using careful observation and journalling techniques to record how our personal connection with our environment changes our perception and wellbeing.\nYou will learn: \u2022 Different ways to observe and the practice of mindfulness and wellbeing \u2022 Different ways to record visually, eg.\ndiagrams, sketches, careful drawings, maps, graphs \u2022 Different ways to record in words, numbers \u2022 Approaches to page layout \u2022 Suitable for all skill levels- with a desire to learn to observe and connect with the natural world around you.\nMaterials participants need to bring: - sketch book A5 or A4 or photocopy paper with backing board with clip for attaching paper to board - drawing pencils and/or drawing pens - colour pencils or whatever you prefer to work with Please note: This event requires a minimum of 8 bookings to go ahead.\nIf fewer than 8 people register, the event will be cancelled and any fees paid will be fully refunded."
   },
   {
     "id": "Pataka Friends Winter Music Series-PATAKA Art + Museum, Cnr Parumoana and Norrie St, Porirua - Mana-Event Finder",
@@ -9302,6 +9623,26 @@
     "description": "Beginning with the new \"Limit Break\", this latest FFTCG booster pack will include many strategy enhancing cards with attractive abilities, and the largest number of newly illustrated cards to date.\nThese are sure to please not only players but collectors alike, with their strategic depth and stunningly beautiful art that make opening each pack a delight.\nWe hope you enjoy the ever-growing world of FFTCG!\nCerberus Games is hosting a Prerelease for the upcoming Final Fantasy set Opus XXVI: Gunslinger in the Abyss!\nHere are the details: Entry: $70 Start time: 4:00pm Format: 9 Pack Sealed (Swiss) Each player receives a Gunslinger in the Abyss Prerelease Kit containing the following: 9xOpus XXVI: Gunslinger in the Abyss Booster Packs 1x Exclusive Pack of Sleeves 1x Exclusive Promo Card Prizes include additional promos based in performance."
   },
   {
+    "id": "Make a Beaded Fish Charm Craft Class-Studio Seaweed, 27 Dixon Street, Wellington, Wellington-Event Finder",
+    "name": "Make a Beaded Fish Charm Craft Class",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2104959-899598-35.jpg?v=2",
+    "venue": "Studio Seaweed, 27 Dixon Street, Wellington, Wellington",
+    "coordinates": {
+      "lat": -41.2922438,
+      "long": 174.7778301
+    },
+    "dates": [
+      "2025-08-03-16:00",
+      "2025-08-10-16:00",
+      "2025-08-17-16:00"
+    ],
+    "displayDate": "Sun 03 Aug + more",
+    "url": "https://www.eventfinda.co.nz/2025/make-beaded-fish-charm-craft-class/wellington-region",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "description": "Cone along to Studio Seaweed on Sunday evening to make your own beaded fish charm.\n- Choose gold or silver wire - Tea coffee and snacks available - Choose from a large selection of bead colours - Inclusive LGBTQ environment Such a fun and laid back environment to craft with your friends or make some new ones!"
+  },
+  {
     "id": "Sunday Special | Laura Collins and the Big Blues Band-17 Edward St, Te Aro, Wellington 6011, New Zealand-Facebook",
     "name": "Sunday Special | Laura Collins and the Big Blues Band",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/509353915_1200522148751738_555145791973332263_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=BPkp192pKScQ7kNvwHRcDOP&_nc_oc=AdlwDFJQMFS1QIprvSDDNzl2Z-zUItPZaM8UsDB1LzpA1tzmxYgKMD1VG5r97EuuhPM&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=ttij0ddjs9xT22UATEJxEg&oh=00_AfTidefR1vOZ6qtD4zyPMMvqnNX2l9m7GVhjjsda-jL9xw&oe=688CC2C3",
@@ -9469,24 +9810,6 @@
     "description": "Join us for an epic programme of films this year as we watch 12 cult classics on the planetarium screen!\n- Stargate - Flash Gordon - Barbarella - Spaceballs - Galaxy Quest - Ghostbusters - Robocop - Signs - Waterworld - Nope - Dune: Part 2 - The Shape of Water All screenings are on Sundays at 6pm - view the website for specific dates."
   },
   {
-    "id": "Sci-Fi Sundays: Robocop-Space Place at Carter Observatory, 40 Salamanca Rd, Kelburn, Wellington-Event Finder",
-    "name": "Sci-Fi Sundays: Robocop",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2067062-882404-35.jpg",
-    "venue": "Space Place at Carter Observatory, 40 Salamanca Rd, Kelburn, Wellington",
-    "coordinates": {
-      "lat": -41.2842728,
-      "long": 174.7670289
-    },
-    "dates": [
-      "2025-08-03-18:00"
-    ],
-    "displayDate": "Sun 03 Aug",
-    "url": "https://www.eventfinda.co.nz/2025/sci-fi-sundays-robocop/wellington",
-    "source": "Event Finder",
-    "eventType": "Film & Media",
-    "description": "The future of law enforcement.\n3rd August Join us for Robocop, part of Sci-Fi Sundays 2025.\nIn a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by submerged memories.\n$25 per person.\nTickets include complimentary popcorn and an optional live star talk after the screening."
-  },
-  {
     "id": "Sci-Fi Sundays: Robocop-40 Salamanca Rd, Kelburn, Wellington 6012, New Zealand-Facebook",
     "name": "Sci-Fi Sundays: Robocop",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/506437241_1107131774770437_5622457127322323005_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=s0AW-awe9zUQ7kNvwGjCofo&_nc_oc=Adm6mVWTbAMiLuuJO1qgBi872GGpywOhfkad2MLSLX0oM78HCmGIy9D1aWNlNRVZRJQ&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=TWZD8qQMXwk5ZHfo2Gnt5w&oh=00_AfQ-SF_ziljxtuwBzgjTarfQ_U-MoQpTc2kjlm9a_5nNcQ&oe=688CBD04",
@@ -9505,6 +9828,24 @@
     "description": "The future of law enforcement.\n3rd August Join us at Space Place for Robocop, part of Sci-Fi Sundays 2025.\nIn a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by submerged memories.\n$25 per person.\nTickets include complimentary popcorn and an optional live star talk after the screening."
   },
   {
+    "id": "Sci-Fi Sundays: Robocop-Space Place at Carter Observatory, 40 Salamanca Rd, Kelburn, Wellington-Event Finder",
+    "name": "Sci-Fi Sundays: Robocop",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2067062-882404-35.jpg",
+    "venue": "Space Place at Carter Observatory, 40 Salamanca Rd, Kelburn, Wellington",
+    "coordinates": {
+      "lat": -41.2842728,
+      "long": 174.7670289
+    },
+    "dates": [
+      "2025-08-03-18:00"
+    ],
+    "displayDate": "Sun 03 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/sci-fi-sundays-robocop/wellington",
+    "source": "Event Finder",
+    "eventType": "Film & Media",
+    "description": "The future of law enforcement.\n3rd August Join us for Robocop, part of Sci-Fi Sundays 2025.\nIn a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by submerged memories.\n$25 per person.\nTickets include complimentary popcorn and an optional live star talk after the screening."
+  },
+  {
     "id": "Visa WOAP Event \u2013 Sister Cities Night Market-Meridian Building, 33 Customhouse Quay, Wellington Central, Wellington 6011, New Zealand-Facebook",
     "name": "Visa WOAP Event \u2013 Sister Cities Night Market",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/510963223_1301054462023208_1486242302980386949_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=o39381xp4JcQ7kNvwEnzwJL&_nc_oc=AdkSDU31653jhJzlEGL2WeKJGFNWSzst1lBHCyy5HhJkdSGAMzESQb-SwuU5Ty4_Ev4&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=TXygME6DIhA5g76R75dPqQ&oh=00_AfRuzT70jmKHFSZq0qMAbAze5W_7wjm2Je_v7Qg2iGIMqQ&oe=688C9D5B",
@@ -9521,6 +9862,21 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "Flavours from around the world \u2013 one night only.\nMaster Kong Wellington is transforming into the Sister Cities Night Market - a buzzing, high-energy evening filled with global flavours, live beats, and bold vibes.\nGrab your passport and explore: 7 tasting stations inspired by Wellington\u2019s Sister Cities Tropical cocktails and bold brews Live DJs and vibrant performances Neon lights, street-style eats, and a whole lot of atmosphere Taste your way from Seoul to Sakai, Hanoi to Hania - all without leaving the waterfront.\nEnjoy this immersive celebration of culture, food, and community, for just one night."
+  },
+  {
+    "id": "A Night in Italy-Bhakti Lounge Wellington, 1st Floor, 175 Vivian Street, Wellington-Event Finder",
+    "name": "A Night in Italy",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2106045-900186-35.png",
+    "venue": "Bhakti Lounge Wellington, 1st Floor, 175 Vivian Street, Wellington",
+    "coordinates": null,
+    "dates": [
+      "2025-08-03-18:15"
+    ],
+    "displayDate": "Sun 03 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/a-night-in-italy/wellington",
+    "source": "Event Finder",
+    "eventType": "Health & Wellness",
+    "description": "A Night in Italy!\nTaste Italy.\nFeel the vibe.\nStep into a warm little Italian eatery.\nWe're transforming in into a pop-up buzzing Italian eatery, complete with live mantra music, conscious insight around the theme of Stoicism and an Italian-themed plant-based dinner and mocktails!"
   },
   {
     "id": "A Night in Italy- Vivian Street  Wellington, Wellington-Event Brite",
@@ -9631,6 +9987,24 @@
     "description": "New Argentine Tango course in Churton Park, Wellington.\nTerm three 2025 starts: 4th August to 1st September 2025 *Must register before 30th July* Back from Buenos Aires!\nwith intensive training from the best of the best!\nA suitable foundation for both social dancing and performance/stage tango dancing developed more as you advance to be a versatile dancer able to dance each style with ease.\nThis course has a minimum number to go ahead, also a maximum number of students to ensure quality of teaching."
   },
   {
+    "id": "Beginners West African Inspired Dance-11 Hutchison Rd, Mount Cook, Wellington 6021, New Zealand-Facebook",
+    "name": "Beginners West African Inspired Dance",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/496844544_1251935620269565_7804538721358080715_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=pnxEmizxz4QQ7kNvwEuy9lm&_nc_oc=AdnrPLXkEwDnSGIvLxAefFxUL_KznOy0sBc56iM3I8AGYapkii8gkB3IyxAD9iLYgyw&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=VyUYNO7FqTaLBQQyncGk3Q&oh=00_AfS-Yhd8vCKk8IroAwJJDsT7q5hIc4CmwZHyqOAnkCEdXQ&oe=688D0EB2",
+    "venue": "11 Hutchison Rd, Mount Cook, Wellington 6021, New Zealand",
+    "coordinates": {
+      "lat": -41.3085158,
+      "long": 174.7746336
+    },
+    "dates": [
+      "2025-08-04-00:00"
+    ],
+    "displayDate": "Mon 04 Aug",
+    "url": "https://www.facebook.com/events/1496470174695867",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "3 Week Block 9 June - 23 June $60 3 Week Block 21 July - 4 August $60 Open for enrolment!\nGet your discount by enrolling in a block, or join casually any week for $25 per class This is your chance to release tension from your week, have fun, connect to community and move your body in a supportive inclusive environment, guided by Moringa Dance director Jenny Bloomfield.\nShake, shimmy and groove to the soulful rhythms of West Africa, learning basics/getting back to basics!\nAll are welcome.\nThere will be a follow the leader warm up, learning traditional and creative movements and choreographies."
+  },
+  {
     "id": "CHOW WOAP \u201825-45 Tory St, Te Aro, Wellington 6011, New Zealand-Facebook",
     "name": "CHOW WOAP \u201825",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/510256759_1110674857761190_1121145151098040066_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=WBLmNMCMX2sQ7kNvwGCxhW3&_nc_oc=Adkfa3m4cPNm0x5ZYSymQ1DCRRGh7IpMQS50CXBFSPgBNRHpLNuVyH66R5i45lMbCjk&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=IfhUbmFv5nwtLApCsoqQkg&oh=00_AfTlle4Z6nyGefvdE8wK_N31CGl72yTBMYWiirBY7AJjpg&oe=688CA32D",
@@ -9649,6 +10023,24 @@
     "description": "Get ready to double tap to your new favourite fling Wellyonaplate #BurgerWelly2025 is coming in hot and so is our entry\u2026 Introducing your Seoul Mate Crispy chicken thigh glazed in sticky gochujang, stacked with kimchi & pickled radish slaw, garlic-sesame mayo, crispy shallots, furikake, and a kiss of gochujang honey \u2013 all hugged in a Dragons Red Bao Add on Korean street fries + chilli sesame dip and you\u2019re set Vegetarian?\nWe\u2019ve got you covered with Crispy panko-fried tofu, tossed in sticky gochujang glaze Served with flavour.\nDesigned with love This one\u2019s big on flavour, light on the wallet \u2013 just how we like it only $18 !\n!\nAvailable Aug 4th \u2013 24th Book now\u2026before your Seoul Mate gets away chow.co.nz"
   },
   {
+    "id": "Cuban Salsa Improver Level 1-65 Dixon Street, Wellington-Facebook",
+    "name": "Cuban Salsa Improver Level 1",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/523643607_1351537260305977_951246029124840436_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=nYt-MmMieeIQ7kNvwFAQmzw&_nc_oc=AdkQL_RgWBIhJydwE3GeeENGe9O4ufqAXelwWf5sf3wgQMpLcJaK9sq59WrmEaNvX4U&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=2BbXu_nfywkvFTjjfWYrvQ&oh=00_AfRcydCFFdnmSnQtpQriy1MmNDO8zsWWI9vrCKYbhhb40g&oe=688CF4F0",
+    "venue": "65 Dixon Street, Wellington",
+    "coordinates": {
+      "lat": -41.2916589,
+      "long": 174.7759869
+    },
+    "dates": [
+      "2025-08-04-00:00"
+    ],
+    "displayDate": "Mon 04 Aug",
+    "url": "https://www.facebook.com/events/1632102720767290",
+    "source": "Facebook",
+    "eventType": "Arts & Theatre",
+    "description": "Welcome to TERM 4 This term we will focus on some social dancing, Rueda de Casino and help you build confidence, timing, and partner work!\nSuitable for students who already know the basic steps.\nChoose the package that suits you best: Dame Una \u2013 1 lesson per week: $157 Dame Dos \u2013 2 lessons per week: $252 (e.g. Salsa + Bachata) Student discounts and more pricing options available on our website.\nPay via online banking or in cash on the day.\nBank details: Account Number: 01-1823-0012007-00 Name: Liliya De Castro Reference: Your Name + ST4 If you're unable to commit to a full term, we also offer a 5-class concession card for greater flexibility."
+  },
+  {
     "id": "Cuban Salsa Intermediate level 2-65 Dixon Street, Wellington-Facebook",
     "name": "Cuban Salsa Intermediate level 2",
     "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/523388134_1351515400308163_5379666705325791907_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=NT39_BHjkoQQ7kNvwEOUp0K&_nc_oc=AdlKFexS7-Nf_jftqu4WVaNoR0MFU5tCSNxhtL0aSvM8137QyKFfBdM2Y-upZL5BWq6MdA80K-U78DrCt7LRJwR-&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=Pzdf1aYjsdP-znsSeDVtCA&oh=00_AfT5U54YDpdax73BzrcP0JyI5bKcJo-kHZRAtCaDaHlrIw&oe=688BD1C6",
@@ -9665,6 +10057,42 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "Welcome to TERM 4 This term we will focus on social dancing and strengthen your foundations with cool combos and partner connection drills.\nPerfect for steady progress.\nChoose the package that suits you best: Dame Una \u2013 1 lesson per week: $157 Dame Dos \u2013 2 lessons per week: $252 (e.g Salsa + Bachata) Student discounts and more pricing options available on our website.\nPay via online banking or in cash on the day.\nBank details: Account Number: 01-1823-0012007-00 Name: Liliya De Castro Reference: Your Name + ST4 If you're unable to commit to a full term, we also offer a 5-class concession card for greater flexibility."
+  },
+  {
+    "id": "Deep dive - Traditional Samba de Gafieira Part 2-60 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Deep dive - Traditional Samba de Gafieira Part 2",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/517391213_1170670145079794_4364267711839496950_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=X08wUa3L7NYQ7kNvwGz1Ysi&_nc_oc=AdlLQwsHqH0MygWY7UEtH-NkuowlInUtQuw_ClTAeEIOks1LIgz8-MmaRxyTnZ9S-U4&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=-_880_zHjtYymOyN8MLaMQ&oh=00_AfStGdW_foWHEtLkrvBP1BTL-9VCcdeK21Qb1oe3D-P2bQ&oe=688CF2E4",
+    "venue": "60 Dixon St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2915383,
+      "long": 174.7762704
+    },
+    "dates": [
+      "2025-08-04-00:00"
+    ],
+    "displayDate": "Mon 04 Aug",
+    "url": "https://www.facebook.com/events/1232806741414848",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Across six immersive sessions (the first being a practica), we'll Continue to learn the fundamentals of Traditional Samba de Gafieira.\nWe will continue to deepen your knowledge, continuing on learning the concepts started in the first block of Samba de Gafieira classes.\nWeek 1: Practice/party/catch up Week 2: Sacada + Sacada Invertido Week 3: Romario Week 4: Pica Pau Week 5: Esse + Esse saida Week 6: Facao + Facinha Samba de gafieira is the partnered version of Brazil\u2019s world-renowned, samba no pe.\nSamba de Gafieira is danced to the Brazilian samba musical rhythms and must be distinguished from the ballroom Samba, danced in International Latin and American Rhythm ballroom dance styles.\nCheck out this demo : https://www.youtube.com/watch?v=JMGlfr3zA5w It appeared in the 1940s and it gets its name from the Gafieira \u2013 popular urban nightclubs of Rio de Janeiro at that time."
+  },
+  {
+    "id": "Monday Weekly Meeting-St Peter's Anglican Church, 211 Willis St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Monday Weekly Meeting",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/518313133_1242792467859000_3390524729020415867_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=bR2LrVwAV0gQ7kNvwGQVRUS&_nc_oc=AdmY6wemvPtb9jNm8-KKYO_ZgTzqcoh6RyVg7qEPo6EcSYlKNnnRfoF90y8qWlvePV8&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=Z8INp4yuTJTOkFvoIwcGHg&oh=00_AfT568Amxs77v-eB5Uf3l2MZRhsdAau1PGnSx0J6PSiM7w&oe=688D045A",
+    "venue": "St Peter's Anglican Church, 211 Willis St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2922909,
+      "long": 174.773295
+    },
+    "dates": [
+      "2025-08-04-00:00"
+    ],
+    "displayDate": "Mon 04 Aug",
+    "url": "https://www.facebook.com/events/1088036279955253",
+    "source": "Facebook",
+    "eventType": "Business & Networking",
+    "description": "Want to become a more confident communicator or leader?\nMaybe you want to overcome a fear of public speaking or just meet new people?\nIf you said yes to any of these, come join our Toastmasters club!\nNew guests are always welcome to come along to meetings for free before deciding if you\u2019d like to join.\nWe\u2019re a fun, friendly, and supportive Toastmasters group with usually 15\u201320 people at each meeting!"
   },
   {
     "id": "The Life of Chuck - Movie Fundraiser!-59 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
@@ -9701,6 +10129,30 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "Would you like to improve your public speaking skills?\nBecome more confident when delivering speeches?\nAll while developing your leadership and building new connections?\nThe Wellington Toastmasters Club is your next stop then.\nWe are a multicultural, supportive and supportive club, a place where you will feel safe to learn, develop and master public speaking without fear of judgement and with plenty of constructive feedback."
+  },
+  {
+    "id": "Hridaya Hatha Yoga with Adam- Trafalgar Street #Level One Nelson, Nelson Region-Event Brite",
+    "name": "Hridaya Hatha Yoga with Adam",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1072663933%2F403385019671%2F1%2Foriginal.20250713-011113?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C49%2C2048%2C1024&s=4223fb2921403b2bd143051c375cd797",
+    "venue": " Trafalgar Street #Level One Nelson, Nelson Region",
+    "coordinates": {
+      "lat": 43.3758989,
+      "long": -79.8352337
+    },
+    "dates": [
+      "2025-08-04-01:01",
+      "2025-08-04-01:01",
+      "2025-08-04-01:01",
+      "2025-08-04-01:01",
+      "2025-08-04-01:01",
+      "2025-08-04-01:01",
+      "2025-08-04-01:01"
+    ],
+    "displayDate": "Mon 04 Aug + more",
+    "url": "https://www.eventbrite.co.nz/e/hridaya-hatha-yoga-with-adam-tickets-1486711396809?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Class Description Hatha yoga helps to purify the physical, energetic and mental layers of our being and thus creates more harmonious conditions for Self-reconnection.\nHridaya Hatha Yoga is a form of classical Hatha Yoga practiced in a contemplative style.\nWhat to Bring You\u2019re welcome to bring your own equipment with you.\nWhen we return to the heart of our being, we return home to our true self.\nHe has also completed four additional yoga modules at the school and various other group and solitary retreats across the world."
   },
   {
     "id": "Cook Islands M\u0101ori Language Week Flag Raising Ceremony-17 Parumoana Street, Porirua-Facebook",
@@ -10597,6 +11049,24 @@
     "source": "Event Brite",
     "eventType": "Health & Wellness",
     "description": "But things get in the way of us being the parents we want to be - including our own thoughts and feelings.\nYour Parenting ACT is a 6 week course for parents of school aged children where you can develop a strong foundation for your parenting.\nIt uses principles from ACT \u2014 Acceptance and Commitment Training \u2014 to help you make room for all your thoughts and feelings, so you can respond more calmly and flexibly as a parent.\nWe know that people wonder whether groups are for them!\nThe course includes invitations to share and experiential exercises that work best when we are able to get to know one another and develop trust in the group."
+  },
+  {
+    "id": "Bachata Beginners level 1-65 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Bachata Beginners level 1",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/523827165_1353049016821468_3308560904344935190_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=_73f95jGvFsQ7kNvwH-KDil&_nc_oc=Admlj2fkLUf-2j-ylTqJSoG7cNcji6eWgWWvBl4IPLsmquzTlS-_YcmTZzrMJGIMCkI&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=9gHnNZNI7W-QWXezZJ1Y_w&oh=00_AfQsJ0Gk0cuddkgktl2nDzcdS9QWkEt1rz3hjRewMfMAUQ&oe=688D1D96",
+    "venue": "65 Dixon St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2916589,
+      "long": 174.7759869
+    },
+    "dates": [
+      "2025-08-06-00:00"
+    ],
+    "displayDate": "Wed 06 Aug",
+    "url": "https://www.facebook.com/events/1949671052517668",
+    "source": "Facebook",
+    "eventType": "Arts & Theatre",
+    "description": "Welcome to Salsa Therapy!\nWe have been running Bachata classes for over 10 years.\nReady to move, groove, and feel the rhythm?\nJoin our Complete Bachata Beginners Course and discover how Latin dancing can boost your confidence, improve posture, enhance coordination and movement \u2014 and help you recharge your mindset.\nNo experience needed \u2014 just bring your energy and love for music!"
   },
   {
     "id": "Bachata Moderna Imporvers-65 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
@@ -11943,6 +12413,24 @@
     "description": "Explore your local awa with freshwater experts from our Wai Connection team at this spotlighting event at Korokoro Stream.\nWith your gumboots and a torch, head off on an evening h\u012bkoi to your local waterway to \u2018spotlight\u2019 and observe freshwater species in their natural habitat.\nLearn about the health of our waterways, freshwater conservation efforts in your neighbourhood, and some of the ways that you could become a kaitiaki of your local awa.\nOn the day before the event, we'll email you all the details you need to find our exact meeting location on the night.\nWai Connection is a national programme delivered by Mountains to Sea Wellington aimed at connecting local communities to their waterways to improve them."
   },
   {
+    "id": "Aotearoa Health Care Workers for Palestine Present Gaza: Doctors under attack-65 Dixon Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+    "name": "Aotearoa Health Care Workers for Palestine Present Gaza: Doctors under attack",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/vjcPLgLGTlGx2H5Kk5SD",
+    "venue": "65 Dixon Street, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2916589,
+      "long": 174.7759869
+    },
+    "dates": [
+      "2025-08-07-18:00"
+    ],
+    "displayDate": "Thu 07 Aug",
+    "url": "https://events.humanitix.com/aotearoa-health-care-workers-for-palestine-present-gaza-doctors-under-attack?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Community & Culture",
+    "description": "The film also examines allegations of the targeting and abuse of doctors and healthcare workers in Gaza.\nThe filmed was originally screened on Channel 4 in the UK after BBC refused to show it.\nWe endorse the BMJ Global Health editorial, \u201cViolence in Palestine demands immediate resolution of its settler colonial root causes\u201d.\nWe acknowledge that we are speaking from the colonised land of Aotearoa New Zealand and that the thinking that drives colonial violence on both lands is connected, as is the need for Indigenous sovereignty in order to achieve a just and peaceful future.\nWe invite healthcare workers in Aotearoa who agree with this statement to join us in campaigning for its goals."
+  },
+  {
     "id": "Giant Knitting Workshop-Ventana, 37 Jellicoe Street, Martinborough-Event Finder",
     "name": "Giant Knitting Workshop",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2095978-895580-35.jpg",
@@ -12668,6 +13156,25 @@
     "description": "P\u014dnoke !\n!!\nWellington !\nCalling all Riot Grrrls First show of the north island line up at Valhalla with Mothburn and No sector Come and celebrate our final single release: privileged man.\ntickets available now on UTR"
   },
   {
+    "id": "Whare Kakahu 3 day Market-Corporate Office 153-201 Parkway, Wainuiomata, Lower Hutt, Lower Hutt-Facebook",
+    "name": "Whare Kakahu 3 day Market",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/525339458_1303686478427616_1579478526678922591_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=sE2PROqdwsgQ7kNvwFIygv4&_nc_oc=AdnerMtQunzqhWLPNJYlqGPz6eARK0zC57Xrz0eXeFwsBJouDyJ3oAACZEzVxB0ilEY&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=DpsFwQ3JNYlYEWsR7_zjvg&oh=00_AfRQBZmvHJlfnOITLqcjpLLqXrGboBLzGNoO96xSM8TpKQ&oe=688D0F96",
+    "venue": "Corporate Office 153-201 Parkway, Wainuiomata, Lower Hutt, Lower Hutt",
+    "coordinates": {
+      "lat": -41.2368438,
+      "long": 175.0429741
+    },
+    "dates": [
+      "2025-08-08-00:00",
+      "2025-08-10-00:00"
+    ],
+    "displayDate": "Fri 08 Aug + more",
+    "url": "https://www.facebook.com/events/619661830757716",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Kia Ora Te Wh\u0101nau, Our Whare K\u0101kahu are having a 3 day Market next weekend.\n8th, 9th & 10th August at Wainuiomata Marae.\nThere will also be a Pop Up Cafe as well.\nAll proceeds go back to our Pataka Kai.\nFriday Hours: 12pm to 7pm Saturdays Hours: 9am to 3pm Sundays Hours: 9am to 3pm Come & have a look at all the clothing for sale and learn a little about what our Pataka Kai provides for wh\u0101nau Ng\u0101 mihi."
+  },
+  {
     "id": "Ringlets 'The Lord Is My German Shepherd (Time for Walkies)' Album Release Tour-Meow, Wellington-Under The Radar",
     "name": "Ringlets 'The Lord Is My German Shepherd (Time for Walkies)' Album Release Tour",
     "imageUrl": "https://www.undertheradar.co.nz/images/showImages/96777-355075.jpg",
@@ -12849,6 +13356,24 @@
     "source": "Event Brite",
     "eventType": "Community & Culture",
     "description": "Contestants of 'It's in the Bag' become political candidates in 'It's in the Ballot' Meet the Candidates.\nCandidates choose a numbered box which has a question that has been submitted online by voters before the show.\nIt\u2019s in the Ballot\u201d is a community-led awareness and participation initiative.\nWe aim to increase voter interest in the general and council elections nationally.\nBy using broadcasting and web-based technologies to deliver in-studio; online on Facebook, YouTube and Twitch; and edited as YouTube videos we aim to enable voters to make informed voting decisions."
+  },
+  {
+    "id": "Senior Drama WGC-Hobson Street, Thorndon, Wellington 6011, New Zealand-Humanitix",
+    "name": "Senior Drama WGC",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/yMLbqFWS7argHA5Nd4dw",
+    "venue": "Hobson Street, Thorndon, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2707318,
+      "long": 174.7797349
+    },
+    "dates": [
+      "2025-08-08-18:30"
+    ],
+    "displayDate": "Fri 08 Aug",
+    "url": "https://events.humanitix.com/senior-drama-wgc?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Arts & Theatre",
+    "description": "Wellington Girls' Senior Drama present ONE NIGHT ONLY by Finnius Teppet Three performances : Thursday 7th August 4pm and 6.30pm Friday 8th August 6.30pm"
   },
   {
     "id": "Tony Lyall - Talking....When I Should Be Listening-The Fringe Bar, 26 Allen Street, Wellington-Event Finder",
@@ -13177,6 +13702,24 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "AUDITIONS: The Great Gatsby, adapted for the stage by NZ playwright Ken Duncum For this adaptation of F. Scott Fitzgerald\u2019s classic novel, which celebrates its 100th anniversary this year, we are seeking a cast of 12-14; a range of ages, mostly 20s-40s, with one 50+ male role, and two opportunities for singers (1M/1F) of any age who may also play other roles in the ensemble.\nSet early in the Roaring Twenties, with its jazz music, gangsters, bootleg liquor, extravagance, and intractable social divides, the story sees Nick Carraway drawn into this decadent and hedonistic world and captivated by his mysterious neighbour Gatsby, until he is disillusioned by the events that unfold.\nAuditions 9-10 August, with callbacks on 11 August.\nSeason dates are 29 October to 8 November.\nFor more information on the show, its characters, and other requirements, please click here and complete the audition form at this link: https://www.wellingtonrepertory.org.nz/auditions/"
+  },
+  {
+    "id": "Fairytale Adventures-4 Queens Whrf, Wellington Central, Wellington 6011, New Zealand-Facebook",
+    "name": "Fairytale Adventures",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/521578906_1177744181046530_8517466657867712065_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=PIyjMHVAPosQ7kNvwFWkZyu&_nc_oc=Adm2ZHhZxiHdT0Bf2wFQdZkjAevK2SNypj5YdImm902gN3gFBDIJlEtLodS6350nudw&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=_na3hdKazPjrF2tbPNf80A&oh=00_AfSp0boKg4HG8tfccTawHkS4shrPXeWZTGje7ml2Ujo0kA&oe=688CEBA5",
+    "venue": "4 Queens Whrf, Wellington Central, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2856676,
+      "long": 174.778804
+    },
+    "dates": [
+      "2025-08-09-00:00"
+    ],
+    "displayDate": "Sat 09 Aug",
+    "url": "https://www.facebook.com/events/2437378183305061",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "Join us in PlayHQ for these Saturday sessions.\nTogether with your tamariki we tell fairytale favourites with a twist!\nThis interactive performance guided by Fairy Cat and Friends invites the audience to use their creativity to guide the story.\nBest suits ages 3-5.\nFree, donations appreciated."
   },
   {
     "id": "Homegrown Road Trip Wellington: Hori Shaw, Shane Walker, Te Wehi-69 Courtenay Pl, Te Aro, Wellington 6011, New Zealand-Facebook",
@@ -16679,6 +17222,24 @@
     "description": "Perfect for anyone interested in the night sky, this two-hour live session under our immersive planetarium dome will guide you through the basics of stargazing: how and why the stars and planets move the way they do; how to find South and other useful markers in the sky; and how to locate your place in space.\nSit back and enjoy being taken on a detailed tour of the night sky with our high-definition laser projectors.\nIncludes: - Intermission with refreshments - Access to Space Place\u2019s galleries and interactive exhibits - 20% discount at Space Place Shop Doors open 6:30pm | Event 7:00pm-9:00pm | Space Place | R16"
   },
   {
+    "id": "A Hori Benny Day Special-154 Vivian Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+    "name": "A Hori Benny Day Special",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/iRoeCsIVQISqIqwpq18E",
+    "venue": "154 Vivian Street, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2948002,
+      "long": 174.7753363
+    },
+    "dates": [
+      "2025-08-13-19:30"
+    ],
+    "displayDate": "Wed 13 Aug",
+    "url": "https://events.humanitix.com/a-hori-benny-day-special?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Music & Concerts",
+    "description": "Churr, we've got a bunch of dope local hiphop, each act is sure to bring the engery.\nPull up and surport underground music!\nRespect the Venue and each other, dont be a dick!\nConsent is not a option it is a Requirement, if its not a fuck YES, it's a Fuck NO hori inc has a number of show lined up in p\u014dneke make sure to keep an eye out x $20 tickets through humanitix, Afterpay and Zip available!\n$25 doorz"
+  },
+  {
     "id": "Floral Watercolour-Ventana Creative Collective, 8 Kitchener St, Martinborough-Event Finder",
     "name": "Floral Watercolour",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2096015-895589-35.png",
@@ -16901,6 +17462,24 @@
     "description": "We warmly invite you to ditch the dating apps for one delicious night of speed dating and snack-based bonding.\nAmuse Snack Bar is the new Euro-inspired aperitivo haven on Willis Street.\nWe are making our WOAP debut and singling out the foodie singles - we are here for you!\nYou'll enjoy 12 mini dates and 6 courses of Italian-inspired snacklets \u2013 cacio e pepe, agrodolce, pasta alla norma, porchetta, and zabaione, all served in perfect bite-sized form.\nA glass of Lambrusco kicks off the evening, with a cheeky mini tiramisu maritozzo to take home."
   },
   {
+    "id": "UNDUBBED. Goes Rogue-The Rogue & Vagabond, 18 Garrett St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "UNDUBBED. Goes Rogue",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/515441100_122137603910683411_9133060328477141922_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=_0rA3DpoGd0Q7kNvwGTKtLL&_nc_oc=Adl51MRUHkRQVoGopNl7_zKvoTwy256-04yuX3mhAOHibichtnuNjrCxGIp8eJP1ZdA&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=_r1UN_EhREYO-V-UJWEBbg&oh=00_AfRm-2eLT0uBtRckSWi1waKyI503mjEweNdFUIZVfBYX5w&oe=688D0153",
+    "venue": "The Rogue & Vagabond, 18 Garrett St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.29336,
+      "long": 174.7745002
+    },
+    "dates": [
+      "2025-08-14-00:00"
+    ],
+    "displayDate": "Thu 14 Aug",
+    "url": "https://www.facebook.com/events/750607051000335",
+    "source": "Facebook",
+    "eventType": "Music & Concerts",
+    "description": "An unpredictable live show blending electronica, breakbeat, hip-hop, and jazz improvisation.\nUNDUBBED.\nis a three-piece band featuring Blair Gowan (keys), Ciaran Egan (drums), and Alex Cooper (bass).\nJoin them for a snug winter's night at the Rogue and Vagabond, where head-nod beats meet cinematic soundscapes.\nMusic from 9:00, FREE ENTRY (Koha Welcome)"
+  },
+  {
     "id": "Unified Chaos: Student Graduation Showcase-17 Allen St, Te Aro, Wellington 6011, New Zealand-Facebook",
     "name": "Unified Chaos: Student Graduation Showcase",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/520822447_1564061861670301_4763444359581184154_n.jpg?stp=dst-jpg_p960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=fnG7PRYyaYEQ7kNvwH33Xqx&_nc_oc=AdndAKtQya3mSjV6FU7uFiSmC3HeNVJtzuK5Ze_Q2VIgMbAbRJXh8Jyva-wbXJ5U2zI&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=uwYAqq_9FlNZq4_ZjAWZyQ&oh=00_AfQIv629jjb-ymuA7MKaOVOQLS-s5FSRGDJNrVftiQqeDA&oe=688CAA96",
@@ -16917,6 +17496,24 @@
     "source": "Facebook",
     "eventType": "Arts & Theatre",
     "description": "After 8 weeks of structured chaos, it\u2019s time to unleash the weird!\nCome see the newest batch of comedians take the improv stage and turn their boldest ideas into spontaneous, chaotic & unified nonsense.\nTickets $10 Online sales.\nDoor sales while available."
+  },
+  {
+    "id": "Welsh Dragon Adventures-10A Cambridge Ter, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Welsh Dragon Adventures",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524703650_1209317497876217_7035548938595908623_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=EmTlkdQvoh0Q7kNvwHXovK6&_nc_oc=AdkraHSbbKC7VnzGfJ7O1xyee4XOBPusfs6AscAxMks7I7YQbLzqFJHydIW-scpJcdc&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=wvco1thO05BKsvpKrgBg5g&oh=00_AfRZyJPXCWFT4Z8jOETY0rFZnnP8FT47pKNH6wHLBil4RQ&oe=688D1486",
+    "venue": "10A Cambridge Ter, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2936584,
+      "long": 174.7840778
+    },
+    "dates": [
+      "2025-08-14-00:00"
+    ],
+    "displayDate": "Thu 14 Aug",
+    "url": "https://www.facebook.com/events/1108788244434787",
+    "source": "Facebook",
+    "eventType": "Hobbies & Interests",
+    "description": "Come along for an evening of bad puns, magical mishaps, and of course the occasional Welsh dragon.\nThis event is the perfect place to play games like Dungeons and Dragons for the first time, while enjoying a pint and some warm kai.\nEnjoy a pint and some warm kai while our professional storytellers guide you through an unforgettable tabletop roleplaying experience at The Welsh Dragon.\nWant to connect with our community or chat with our storytellers before the event?\nJoin us on our public Discord here!"
   },
   {
     "id": "Hutt Valley (Upper Hutt/Lower Hutt) Mathematics Leadership Community 2025- Kauri Street Lower Hutt, Wellington-Event Brite",
@@ -18126,6 +18723,21 @@
     "description": "The eighth concert in our series is a new suite of music by local composer, performer, and wearer of excellent hats; Jake Baxendale.\nFor this concert, Jake is lifting his gaze from the domestic to the majestic with his new suite of music for improvisers, \u201cSky Meets Country\u201d.\nThese new compositions utilise tools Jake developed for his Gardening Music ensemble: but where that music takes a granular approach to musical cells, simulating the inward posture of grubbing around in the earth, this new work expands outward to capture the feeling of vastness that open landscapes, bush canopies, and wide, blue skies can inspire.\nJake has written, performed, and recorded extensively over his career, including \"Waypeople\", a commission for the Wellington Jazz Festival in 2023, and releasing his latest album \"Gardening Music\" earlier this year.\nTickets are $15, door sales $20."
   },
   {
+    "id": "Jazz Orchestra Composer Series Presents: Jake Baxendale-Bedlam and Squalor, Upstairs, 18 Garrett Street, Te Aro, Wellington-Event Finder",
+    "name": "Jazz Orchestra Composer Series Presents: Jake Baxendale",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2104966-899604-35.png",
+    "venue": "Bedlam and Squalor, Upstairs, 18 Garrett Street, Te Aro, Wellington",
+    "coordinates": null,
+    "dates": [
+      "2025-08-15-19:00"
+    ],
+    "displayDate": "Fri 15 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/jazz-orchestra-composer-series-presents-jake-baxendale/wellington",
+    "source": "Event Finder",
+    "eventType": "Music & Concerts",
+    "description": "The eighth concert in our series is a new suite of music by local composer, performer, and wearer of excellent hats; Jake Baxendale.\nFor this concert, Jake is lifting his gaze from the domestic to the majestic with his new suite of music for improvisers, \u201cSky Meets Country\u201d.\nThese new compositions utilise tools Jake developed for his Gardening Music ensemble: but where that music takes a granular approach to musical cells, simulating the inward posture of grubbing around in the earth, this new work expands outward to capture the feeling of vastness that open landscapes, bush canopies, and wide, blue skies can inspire.\nJake has written, performed, and recorded extensively over his career, including \"Waypeople\", a commission for the Wellington Jazz Festival in 2023, and releasing his latest album \"Gardening Music\" earlier this year.\nTickets are $15, door sales $20."
+  },
+  {
     "id": "Monthly Jazz Night: Lisa Tomlins-The Thistle Inn, 3 Mulgrave St, Thorndon, Wellington-Event Finder",
     "name": "Monthly Jazz Night: Lisa Tomlins",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2095848-895524-35.png",
@@ -18718,6 +19330,24 @@
     "description": "Nestle into the warmth of the Longbush Cottage glasshouse for a mindful winter afternoon of watercolour nature journaling.\nSurrounded by the subtle beauty of the winter garden, you\u2019ll be guided to sketch and paint seasonal herbs like rosemary, thyme, and sage, learning techniques to capture detail and texture in your journal.\nThis peaceful session is perfect for slowing down and reconnecting with nature through art.\nSip on bubbles and savour warm rosemary focaccia with herb-infused oil as you work.\nNo experience required- just bring a curious eye and a love of seasonal beauty."
   },
   {
+    "id": "True Tales of The Past of The Wellington Botanic Garden - Guided Walk-Begonia House, 101 Glenmore St, Kelburn, Wellington 6012, New Zealand-Facebook",
+    "name": "True Tales of The Past of The Wellington Botanic Garden - Guided Walk",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524379857_1182982853868755_8884785324184411504_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=cB8jMXkmGjwQ7kNvwH8DvIT&_nc_oc=AdlLINiTGBil8QF4YWIEqQKakka7ebBtS4MfNZdN7pRVEnowMByfQlHDNXmnm5xXVVc&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=dgPX5LRWGavlp_d63H22BA&oh=00_AfTzxB44XOlyS92OcyQuoeBoJwXmawXTsuYaOk7Hpggukg&oe=688CEF89",
+    "venue": "Begonia House, 101 Glenmore St, Kelburn, Wellington 6012, New Zealand",
+    "coordinates": {
+      "lat": -41.282195,
+      "long": 174.763785
+    },
+    "dates": [
+      "2025-08-16-00:00"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.facebook.com/events/780379451182618",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "An easy 60-minute interesting meander.\nMeet at the Founders' Entrance, Glenmore St.\nCost: $5 (cash only, please).\nThis is part of the regular walks run by the Friends of the Wellington Botanic Garden, they run twice monthly throughout the year with a different topic every time.\nJoin the Friends for only $30 a year and all the walks will be free, as well as other great benefit"
+  },
+  {
     "id": "Undercurrent Variety Show-Garibaldi Club, 118 Tory St, Te Aro, Wellington 6011, New Zealand-Facebook",
     "name": "Undercurrent Variety Show",
     "imageUrl": "https://scontent-akl1-1.xx.fbcdn.net/v/t39.30808-6/518384122_671063212643820_2582599088063398813_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=KsWoH2naVysQ7kNvwHY6Qpx&_nc_oc=AdkYNTPkFVH53ZRdV6e1lqPqdrTZhC8Tw2fBPJqtfW_po5TCyxioCLHtuDC9wF7-VkE&_nc_zt=23&_nc_ht=scontent-akl1-1.xx&_nc_gid=C7edbiVoiulhscIW85D1Rw&oh=00_AfQQ9Pb04rCbaPm3QSBIFYLFM9y09-whE_4gV10KaB9p7A&oe=688CB385",
@@ -18788,6 +19418,24 @@
     "source": "Facebook",
     "eventType": "Other",
     "description": "Crop Swap is a FREE heart-warming monthly community gathering to share what we have with each other.\nEveryone is welcome - with or without something to share\nBring a friend!\nLeft over seeds from summer to share?\nCrop Swap is the place for you!"
+  },
+  {
+    "id": "\u2018A Vocabulary\u2019 exhibition \u2014 Artist\u2019s talk with Bruce Connew-Cellar-Cafe, Molesworth St, Thorndon, Wellington 6011, New Zealand-Facebook",
+    "name": "\u2018A Vocabulary\u2019 exhibition \u2014 Artist\u2019s talk with Bruce Connew",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524412675_1052577430324179_6723372614845055919_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=HQIi0Y5J4t8Q7kNvwE2zNw9&_nc_oc=Adk5_WBVAfdVyVlIp4zM0PIGgnmp9WQ-ze6VCbLGAz3aLXvpZy1KMtztcR-DjDpxGk8&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=6w2tPTDJk7UHlKg-6TsViQ&oh=00_AfTxKQUtZYY4bYaAsJVypXQj8LxGppWJWwfUbrFMkreGJA&oe=688CF822",
+    "venue": "Cellar-Cafe, Molesworth St, Thorndon, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2774934,
+      "long": 174.7779179
+    },
+    "dates": [
+      "2025-08-16-00:00"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://www.facebook.com/events/1073973261529530",
+    "source": "Facebook",
+    "eventType": "Community & Culture",
+    "description": "Join artist and photographer Bruce Connew in a tour of his exhibition \u2018A Vocabulary\u2019, which features photographs of memorials and gravestones of Aotearoa\u2019s colonial wars.\nA vocabulary of colonisation The exhibition, A Vocabulary, is a narrative selection of photographs by artist Bruce Connew.\nAbout the speaker Bruce Connew is an artist and photographer based in T\u0101maki Makaurau Auckland.\nImage: Heke\u2019s Pah, photo by Bruce Connew, 2018.\nUsed by permission."
   },
   {
     "id": "Tea Lovers Odyssey - A culinary Journey to Ceylon-24 Willeston St, Wellington Central, Wellington 6011, New Zealand-Facebook",
@@ -19791,6 +20439,24 @@
     "description": "Take the edge off winter with a unique evening of warmth and indulgence at Colombo Martinborough, in collaboration with The Sauna Project Wairarapa.\nJoin us for a relaxing escape under the stars.\nYour ticket includes a 30-minute express sauna session with an optional cold plunge to revitalise, followed by a delicious takeaway pizza and a mug of mulled wine to enjoy while you wait.\nThe finer details: Please arrive 10 minutes before your sauna booking to allow time to get ready to sauna and choose your pizza.\nIf you require a gluten-free base, please email bookings@colombo.co.nz at least 24 hours before your booking to pre-order your base."
   },
   {
+    "id": "Pre-Dinner Social - Perth Radiological Clinic-34 Molesworth Street, Thorndon, Wellington 6011, New Zealand-Humanitix",
+    "name": "Pre-Dinner Social - Perth Radiological Clinic",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/3l9vWopqSMmbnuPB9VbK",
+    "venue": "34 Molesworth Street, Thorndon, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2776408,
+      "long": 174.7779731
+    },
+    "dates": [
+      "2025-08-16-17:30"
+    ],
+    "displayDate": "Sat 16 Aug",
+    "url": "https://events.humanitix.com/pre-dinner-social-perth-radiological-clinic?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Business & Networking",
+    "description": "You\u2019re Invited!\nThe team at Perth Radiological Clinic warmly welcomes our New Zealand colleagues to join us for pre-dinner drinks and conversation ahead of the evening\u2019s conference dinner.\nJoin us for a relaxed drink and meet fellow professionals before the RANZCR ASM Conference dinner officially begins at 7:00pm.\nDetails: Time: 5:30pm to 6:45pm Venue: The Backbencher Gastropub, 34 Molesworth St Thorndon, Wellington.\nPlease note, the venue is a 2 minute walk to Parliament House where the conference dinner is being held."
+  },
+  {
     "id": "On a Good Day - EP Launch - Hihi & The Stitchbirds-Moon, 167 Riddiford Street, Wellington-Event Finder",
     "name": "On a Good Day - EP Launch - Hihi & The Stitchbirds",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2102258-898381-35.png",
@@ -19879,6 +20545,25 @@
     "source": "Under The Radar",
     "eventType": "Music & Concerts",
     "description": "Featuring songs from Linda Ronstadt & Carole King Gate opens 6.30pm Music Starts 7pm Saturday 16 August 2025 Sue Dyson, a gifted vocalist known for her warm and captivating stage presence, backed by talented pianist Mitch Dean to offer an extraordinary musical experience that celebrates the enduring legacies of Linda Ronstadt and Carole King.\nSet in Hilltop's laid-back intimate atmosphere, their performances promise an engaging experience where the audience will tap their feet to the classics that have defined generations.\nAdditionally, Sue has lent her voice as a backup vocalist at the prestigious New Zealand Music Awards and has enjoyed significant success with her original country music in Australia.\nNotably, he played keys and guitar in the acclaimed Wellington Fleetwood Mac Experience, contributing to their successful tour.\nMitch\u2019s deep understanding of music, combined with his skillful instrumentation, enriches the duo's sound and enhances the overall performance."
+  },
+  {
+    "id": "Vibe Presents - Mid Winter Flow-176 Cuba Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
+    "name": "Vibe Presents - Mid Winter Flow",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/WzxfKSQmTAuLJ5jbecHv",
+    "venue": "176 Cuba Street, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.294517,
+      "long": 174.7748775
+    },
+    "dates": [
+      "2025-08-16-19:00",
+      "2025-08-17-01:00"
+    ],
+    "displayDate": "Sat 16 Aug + more",
+    "url": "https://events.humanitix.com/vibe-presents-mid-winter-flow?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Music & Concerts",
+    "description": "Midwinter Flow A Night of House Music from the Basement at the iconic S&M\u2019s cocktail bar located in the heart of Cuba St.\nStep into the heat of the underground this winter.\nLet the rhythm guide you, the bass move you, and the groove ignite your senses.\nThis will be Bandits last set before she moves back to Berlin.\nWe are also hosting Sneeky representing the Hawke\u2019s Bay, she be dropping her smooth beats alongside new comer Max Hart and the bro\u2019s Hape & 9 Cups on the decks too."
   },
   {
     "id": "From Berkahn to Beethoven-Te Raukura ki Kapiti, Coastlands Theatre, 34a Raumati Rd, Paraparaumu-Event Finder",
@@ -21477,6 +22162,24 @@
     "description": "A strong credit management process ensures your business has a framework in place to manage your debtors and respond faster to late-paying customers.\nOur complimentary seminar, Getting Paid Faster, will show you practical and proven strategies to ensure you\u2019re getting paid as fast as possible.\nJoin us on Wednesday 20th August at 9:30am for this 60-minute seminar, where you\u2019ll: \u00b7 Understand the impact slow payers have on your business \u00b7 Learn what best practice debtor management looks like \u00b7 Identify key strategies to reduce the time it takes your customers to pay you \u00b7 Understand how to approach overdue debtors with empathy \u00b7 Learn how you can improve your Cash Conversion Cycle We\u2019ll provide all attendees with a Credit Management Guide and Credit Management Script Templates to support you to get paid."
   },
   {
+    "id": "Technical Seminar for Architects, Designers & Specifiers - LOWER HUTT- Reynolds Bach Drive Stokes Valley Lower Hutt, Wellington Region-Event Brite",
+    "name": "Technical Seminar for Architects, Designers & Specifiers - LOWER HUTT",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1068503763%2F2710186724051%2F1%2Foriginal.20250707-231204?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.0049053030303&fp-y=0.00430970149254&s=64542c8c9762b0f34e86b21340311889",
+    "venue": " Reynolds Bach Drive Stokes Valley Lower Hutt, Wellington Region",
+    "coordinates": {
+      "lat": -41.156612,
+      "long": 174.9950746
+    },
+    "dates": [
+      "2025-08-20-11:30"
+    ],
+    "displayDate": "Wed 20 Aug",
+    "url": "https://www.eventbrite.co.nz/e/technical-seminar-for-architects-designers-specifiers-lower-hutt-tickets-1471013895159?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Business & Networking",
+    "description": "CPD Event - LOWER HUTT/UPPER HUTT Date: Wednesday, 20th August Time: 11:30am - 1:30pm Location: Silverstream Retreat Join us for a focused 2-hour technical seminar for architects, designers and specifiers exploring practical moisture mitigation strategies and innovative solutions to improve condensation control and energy efficiency in New Zealand buildings.\nFrom foundation to roof, this session will provide valuable insights into managing moisture and enhancing thermal performance using proven technologies and methods tailored to local conditions.\nDon't miss out on the chance to network with like-minded individuals, earn 20 NZRAB CPD points, LBP learning evidence provided, and gain valuable insights.\nAfternoon tea and coffee will be provided.\nSpeakers from DriSpace, Comfortech Building Performance Solutions\u00ae, NZ Steel and Firth Concrete"
+  },
+  {
     "id": "August Community Clean-up-Te Aro Zero Waste @ Sustainability Trust, 2 Forresters Lane, CBD, Wellington-Event Finder",
     "name": "August Community Clean-up",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2104619-899450-35.jpg",
@@ -21583,6 +22286,24 @@
     "source": "Event Brite",
     "eventType": "Food & Drink",
     "description": "CPD Event - Wellington City Date: 20th August Time: 5pm - 7pm Location: Southern Cross Garden Bar Join us for a focused 2-hour technical seminar for architects, designers and specifiers exploring practical moisture mitigation strategies and innovative solutions to improve condensation control and energy efficiency in New Zealand buildings.\nFrom foundation to roof, this session will provide valuable insights into managing moisture and enhancing thermal performance using proven technologies and methods tailored to local conditions.\nDon't miss out on the chance to network with like-minded individuals, earn 20 NZRAB CPD points, LBP learning evidence provided, and gain valuable insights.\nNibbles and drinks provided.\nSpeakers from DriSpace, Comfortech Building Performance Solutions\u00ae, NZ Steel and Firth Concrete"
+  },
+  {
+    "id": "Wellington Branch - How technology is rewriting the Procurement Playbook-44 The Terrace, Wellington Central, Wellington 6011, New Zealand-Humanitix",
+    "name": "Wellington Branch - How technology is rewriting the Procurement Playbook",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/whGlWmAfQ02wsb9jEV7I",
+    "venue": "44 The Terrace, Wellington Central, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2806013,
+      "long": 174.775054
+    },
+    "dates": [
+      "2025-08-20-17:00"
+    ],
+    "displayDate": "Wed 20 Aug",
+    "url": "https://events.humanitix.com/wellington-branch-how-technology-is-rewriting-the-procurement-playbook?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Business & Networking",
+    "description": "Join the Wellington committee as they partner with Procurement Excellence Forum (PEF) for a session covering the following topics: What happens when you blend the fast-paced world of technology and AI sourcing with the latest procuretech trends?\nEvent Details: \ud83d\udcc5 Date: Wednesday 20 August 2025 \ud83d\udd52 Time: 5:00pm - 6:30pm (NZST) \ud83d\udccd Location: Mayfair House - 44-52 The Terrace, Wellington Event Programme: 5:00pm - Guest Arrival 5:20pm - Short Speech from CIPS Chair and PEF Representative 5:30pm - Presentation by Sarah Blackie- CFO & Founder, Esby & Co 6:30pm - Event Closure Event Speaker: Sarah Blackie - CFO & Founder, Esby & Co Esby & Co is a specialist consultancy helping leaders design world-leading partnerships and procurement experiences.\nWe are growing our team of trusted and influential advisors doing bigger and better things to support our clients in Australasia and beyond.\nThis event is in partnership with Procure Excellence Forum.\nRegistering for this event will opt you in to receive a post event feedback survey."
   },
   {
     "id": "3 Gals, One Beehive \u2013 live!-, NTT Tower Lambton Quay Wellington, Wellington Region-Event Brite",
@@ -21945,6 +22666,24 @@
     "source": "Facebook",
     "eventType": "Food & Drink",
     "description": "Honeymoon Around Asia: A Love Letter to Flavour Pack your bags\u2014Chow\u2019s taking you on a romantic getaway through the flavours of Asia (no passport required ) This five-course love affair is a journey through Thailand\u2019s fiery passion, Japan\u2019s delicate romance, Vietnam\u2019s garden-fresh charm, Singapore\u2019s bold intensity, and Korea\u2019s comforting soul.\nEach dish is a love letter to its homeland\u2014served with a playful twist and paired with mini Asia-inspired cocktails designed to make your tastebuds swoon Expect an immersive vibe with house & disco beats, passport-style menus, and cheeky photo ops like our \u201cJust Married to Dumplings \u201d station and \u201cLove Letters Wall.\u201d Whether you\u2019re bringing your soulmate, your bestie, or your fellow foodie\u2014it\u2019s a night to indulge, laugh, and fall head-over-heels\u2026 for the food One night only.\nFive courses.\nFive destinations.\nOne unforgettable culinary getaway."
+  },
+  {
+    "id": "Indie Goodness-154 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Indie Goodness",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524542941_1284008546846927_4773407726936980116_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Pfl8wT0kHCoQ7kNvwFp6w1y&_nc_oc=AdnmcTlorBgT2-pgsD2Uyy5_y65Q3F7YM0BDHNhzHwrE759G0gAiq9-3x2slGr1kUvc&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=EoypfN11ccPmc1A3ff4Ssw&oh=00_AfQKhRSAK6jPE_9BWsoX-mGWs-FOzL39E8_5i1YpELJEIw&oe=688D0211",
+    "venue": "154 Vivian St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2948002,
+      "long": 174.7753363
+    },
+    "dates": [
+      "2025-08-21-00:00"
+    ],
+    "displayDate": "Thu 21 Aug",
+    "url": "https://www.facebook.com/events/2168501336992408",
+    "source": "Facebook",
+    "eventType": "Music & Concerts",
+    "description": "The Sun Kings are back at Valhalla with a stellar lineup of three of Wellington's finest Indie rock bands with Search for Yeti, fresh off their successful NZ tour, and Dave and The Dirty Humans with their high energy ruckus and on the precipice of releasing a new single.\nKick off from 7pm, so come on down to Wellington's iconic venue for a great night of Kiwi Indie goodness."
   },
   {
     "id": "Pub Sing - WELLINGTON-4 Taranaki St, Wellington Central, Wellington 6011, New Zealand-Facebook",
@@ -23354,6 +24093,24 @@
     "description": "Studies show that 90% of all pets will experience at least one emergency situation in their lifetime!\n- Would you know what to do if your pet choked on their toy?\n- Would you know what to do if your pet stopped breathing?\n- Would you know what to do if your pet was hit by a car?\nThe course covers 23 different situations and it is hands on for all attendees."
   },
   {
+    "id": "Wellington Pop-Up-83 Willis St, Wellington Central, Wellington 6011, New Zealand-Facebook",
+    "name": "Wellington Pop-Up",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524913239_1308346967960381_2973961916774947905_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=GQNS0xcxG-EQ7kNvwGqyK6g&_nc_oc=AdmvYHNKTpC8M5rzq4r9OyT14ugaVTUHthtFi8aUeiCrhsaMk50Bio7jPnBTGcWSqgI&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=ORmJA8XLpGBa8FJLWNYIIA&oh=00_AfSlRyQUkxOjhwfBBpGa6NHRAg5D0FRe-CVzoH3187pa6A&oe=688D1F06",
+    "venue": "83 Willis St, Wellington Central, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2885439,
+      "long": 174.7752281
+    },
+    "dates": [
+      "2025-08-23-00:00"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://www.facebook.com/events/2674787162853061",
+    "source": "Facebook",
+    "eventType": "Community & Culture",
+    "description": "Saturday 23rd of August to Sunday 7th of September, head to our annual Wellington Pop-Up sale.\nWe'll have a range of clearance items along with our regular range of top performing NZ made gear.\nMonday-Saturday: 9am-6pm Sunday: 10am-4pm See you there."
+  },
+  {
     "id": "Where s Jai-San Fran, Wellington-San Fran",
     "name": "Where s Jai",
     "imageUrl": "https://dynamicmedia.livenationinternational.com/f/r/h/0155e1a1-5c7d-455e-9fb1-87e54d0a400c.jpg",
@@ -24178,6 +24935,24 @@
     "description": "Contestants of 'It's in the Bag' become political candidates in 'It's in the Ballot' Meet the Candidates.\nCandidates choose a numbered box which has a question that has been submitted online by voters before the show.\nIt\u2019s in the Ballot\u201d is a community-led awareness and participation initiative.\nWe aim to increase voter interest in the general and council elections nationally.\nBy using broadcasting and web-based technologies to deliver in-studio; online on Facebook, YouTube and Twitch; and edited as YouTube videos we aim to enable voters to make informed voting decisions."
   },
   {
+    "id": "The Early Bobs - Homage to Dylan-Hilltop, 17 Upland Road, Kelburn, Wellington-Event Finder",
+    "name": "The Early Bobs - Homage to Dylan",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2106049-900188-34.jpg?v=2",
+    "venue": "Hilltop, 17 Upland Road, Kelburn, Wellington",
+    "coordinates": {
+      "lat": -41.2867265,
+      "long": 174.7664651
+    },
+    "dates": [
+      "2025-08-23-19:00"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/the-early-bobs-homage-to-dylan/wellington",
+    "source": "Event Finder",
+    "eventType": "Music & Concerts",
+    "description": "Clayton Taylor and Nathan Torvik bring us The Early Bobs, their heartfelt homage to Dylan\u2019s golden years.\nThink harmonicas, blistering guitar breaks, and especially a voice that fans say \u201cdoes Bob better than Dylan\u201d.\nFrom the Dust Bowl ballads to the biting protest songs, they\u2019ll take you from 1961 to 1979 with authenticity, soul, and a whole lot of magic.\nIf you love Dylan\u2014or just good stories wrapped in unforgettable tunes\u2014these are your guys.\nBelieve me \u2013 this really is excellent stuff."
+  },
+  {
     "id": "The English Locust & Ant\u00fc M\u00e3rama Play The Shed-46a Victoria Street, Alicetown, Lower Hutt 5010, New Zealand-Humanitix",
     "name": "The English Locust & Ant\u00fc M\u00e3rama Play The Shed",
     "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/AB7sAGLbQmaY1SUK9Ny1",
@@ -24338,6 +25113,42 @@
     "source": "Event Finder",
     "eventType": "Other",
     "description": "One of New Zealand's most celebrated live acts, dance music duo SACHI have announced two shows across P\u014dneke and T\u0101maki Makaurau.\nDominating festivals not only in New Zealand but around the world, their success has even seen the pair become the first New Zealand act to play at Belgium\u2019s Tomorrowland festival \u2014 one of the most prestigious electronic music festivals in the world.\nAfter back-to-back New Zealand festival headline sets this past summer, SACHI are working towards their highly anticipated new music, which promises to return to the heart of their rave-oriented roots while always continuing to keep their audience guessing \u2014 they might even get a sneak peek of this magic during these upcoming tour dates."
+  },
+  {
+    "id": "Saturday Laughs with Kura Forrester and Rhian Wood-Hill-The Cavern Club, 22 Allen St, Te Aro, Wellington-Event Finder",
+    "name": "Saturday Laughs with Kura Forrester and Rhian Wood-Hill",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2106028-900177-35.jpg",
+    "venue": "The Cavern Club, 22 Allen St, Te Aro, Wellington",
+    "coordinates": {
+      "lat": -41.2931163,
+      "long": 174.7821707
+    },
+    "dates": [
+      "2025-08-23-19:30"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/saturday-laughs-with-kura-forrester-and-rhian-wood-hill/wellington",
+    "source": "Event Finder",
+    "eventType": "Arts & Theatre",
+    "description": "Saturday Laughs is a two hour comedy showcase of some top Kiwi talent, right in the heart of Wellington.\nWith headline act, Kura Forrester Kura Forrester is an actor, writer and comedian, a face you have definitely seen on the telly including Kiwi shows such as: Golden Boy, Shortland Street, Super City and The Adventures of Suzy Boon.\nWinner of the 2019 Billy T Award, Kura is fast becoming one of the standout comedian actors of New Zealand.\nAnd feature act Rhian Wood-Hill Along with Samantha Hannah Elliott Lam Sam Howard Jerome Chandrahasen"
+  },
+  {
+    "id": "THE SIDE CHARACTERS PROM-NITE-157 Hataitai Road, Hataitai, Wellington 6021, New Zealand-Humanitix",
+    "name": "THE SIDE CHARACTERS PROM-NITE",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/Kk3efB3qR6SkI963c7hi",
+    "venue": "157 Hataitai Road, Hataitai, Wellington 6021, New Zealand",
+    "coordinates": {
+      "lat": -41.3035237,
+      "long": 174.7950996
+    },
+    "dates": [
+      "2025-08-23-19:30"
+    ],
+    "displayDate": "Sat 23 Aug",
+    "url": "https://events.humanitix.com/the-side-characters-prom-nite?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Music & Concerts",
+    "description": "Prom night is on its way!\nPull up with your favourite person or people for a night full of fun, food, music and many surprises :))) Make sure to come in your fanciest or funnest dress, do remember though that at least 12% subject attendance is required to attend the prom, we will be checking with your dean to ensure entry.\nAll ages, no alcohol, drugs or fighting at the 2025 Side Characters prom, can't wait to see you there!\n!"
   },
   {
     "id": "That's What She Said-Kapiti Playhouse, 7 Ruahine St, Paraparaumu-Event Finder",
@@ -25115,6 +25926,24 @@
     "description": "ArtSplash is a week-long festival, held every two years, that celebrates t\u0101mariki and rangatahi experiencing performance on the big stage in dance and choir concerts.\nThis year, we have two separate groups performing \u2013 one at ArtSplash and the other at DanceSplash.\nWhaea Emilee and Mrs Skippers have an amazing Choir group training to perform on Monday 25 August at the 5pm show, held at the Michael Fowler Centre.\nThis group will be heading into town by 8:15am and with an action-packed day planned, will stay in town until their 5pm performance.\nFollowing the show, our students will be ready to head home with their spectator parents."
   },
   {
+    "id": "Wellington Rowing Club AGM, Lotto 8\u2019s & Season Opening-Wellington Rowing Club-Facebook",
+    "name": "Wellington Rowing Club AGM, Lotto 8\u2019s & Season Opening",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/524344853_1041684884619554_8087305029728701337_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=PFIMnBILppoQ7kNvwHwLOHz&_nc_oc=AdkTSFa_gt2o3lneGlG22Eicc-BLOiW9N4wI2AFM0jjLPCzHXmDE53NCgaWpPu4jOxc&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=fn_ywwFypVf2Gu0a2S4P5A&oh=00_AfQgOYwsn33a1RZ9vazb-mUjofVYxX7szA-5W7aFfHFSCw&oe=688D11C4",
+    "venue": "Wellington Rowing Club",
+    "coordinates": {
+      "lat": -41.2887999,
+      "long": 174.7797031
+    },
+    "dates": [
+      "2025-08-25-00:00"
+    ],
+    "displayDate": "Mon 25 Aug",
+    "url": "https://www.facebook.com/events/1415625636218039",
+    "source": "Facebook",
+    "eventType": "Other",
+    "description": "We look forward to seeing you all at the Club at 9:30 for Lotto 8\u2019s (weather permitting).\nFollowing the meetings, a light lunch will be provided.\nInformation about the AGM The WRC AGM will commence at 12noon, in the WRC Function Centre.\nAt this year\u2019s AGM, we have several board and committee positions that we will be seeking to fill.\nIf you are interested, but have further questions- please reach out to the people holding the current role or any of the board or committee members to discuss."
+  },
+  {
     "id": "Leadership Unlocked: collaboratively solving complex school challenges -WLG- Lambton Quay Wellington, Wellington-Event Brite",
     "name": "Leadership Unlocked: collaboratively solving complex school challenges -WLG",
     "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F989124083%2F940131765123%2F1%2Foriginal.20250321-020748?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=b3951ea4c93ee686eabc03ee2b10a4b9",
@@ -25598,6 +26427,24 @@
     "description": "I get it.\nIn this session, you'll learn:Why time management is really attention managementHow to shift from reacting to designing your daysPractical tools to create space for what actually mattersHow to identify & eliminate your biggest time-wastersYou\u2019ll walk away with a simple plan to buy back your time \u2014 and start investing it in your goals, your growth, and your life.\nThe seminar will be followed by a delicious plant-based dinner together, all included in your ticket!\nOriginally from Germany, Nava was travelling on a quest to find purpose and answers to the mysteries of life.\nNava is also an expert vegan chef who specializes in European cuisine and baking, and she is busy spreading that kind of love around Bhakti Lounge too!"
   },
   {
+    "id": "Catchball Open Night- Bronte Street Nelson, Nelson Region-Event Brite",
+    "name": "Catchball Open Night",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1082324003%2F336259996773%2F1%2Foriginal.20250728-000151?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C28%2C940%2C470&s=2dc7b2995a39e4046cae7c1661c1f710",
+    "venue": " Bronte Street Nelson, Nelson Region",
+    "coordinates": {
+      "lat": 43.3947926,
+      "long": -79.7046213
+    },
+    "dates": [
+      "2025-08-26-18:30"
+    ],
+    "displayDate": "Tue 26 Aug",
+    "url": "https://www.eventbrite.co.nz/e/catchball-open-night-tickets-1534134069299?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "It's an easy sport to learn, suitable for all levels of fitness.\nIt\u2019s similar  to Volleyball but instead of bumping and spiking the ball, you catch the ball.\nThere will be a demonstration match at 6.30pm followed by fun warm up games, people for you to chat to about Catchball and answer any questions you may have, and finally, a social game you can participate in if you wish!\nWear your sneakers and whatever clothing you are comfortable in if you want to join in or you are welcome to just come and watch.\nTerm fee is $60 or casual rate $10 per session (no need to commit to coming every week)."
+  },
+  {
     "id": "Artsplash Concert #4 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
     "name": "Artsplash Concert #4 Choir",
     "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
@@ -25652,6 +26499,25 @@
     "description": "My, my, how can you resist the world's favourite feel-good musical as it brings the good times and sunshine to the St James Theatre.\nSince first opening in 1999, this exhilarating smash-hit has become a global phenomenon, thrilling over 70 million people worldwide.\nMAMMA MIA!\nis a jukebox musical featuring the timeless songs of the legendary Swedish pop group ABBA.\nArrive at 5.30pm for the touch tour at 5.45pm."
   },
   {
+    "id": "Horowhenua Mathematics Leadership Community 2025-TBD Horowhenua, TBD-Event Brite",
+    "name": "Horowhenua Mathematics Leadership Community 2025",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F960330553%2F117020278817%2F1%2Foriginal.20250213-205141?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C76%2C1920%2C960&s=85712ff8aae85c462e1bd5c4551a825c",
+    "venue": "TBD Horowhenua, TBD",
+    "coordinates": {
+      "lat": 21.2364995,
+      "long": 81.6710617
+    },
+    "dates": [
+      "2025-08-27-01:01",
+      "2025-08-27-01:01"
+    ],
+    "displayDate": "Wed 27 Aug + more",
+    "url": "https://www.eventbrite.co.nz/e/horowhenua-mathematics-leadership-community-2025-tickets-1255164403519?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Are you the maths lead in your school?\nRegister to join our Mathematics Leadership Community (MLC) and build your mathematics and statistics knowledge and leadership skills.\nThese MLC\u2019s have been supporting mathematics leaders and teachers for over 18 years and we are excited to offer you the opportunity to be part of this network in 2025, which is shaping up to be a pivotal year in mathematics education.\nThrough engaging with current research and best practice, these meetings will enable leaders and teachers to: stay up to date with changes and implement Te M\u0101taiaho, Mathematics and Statistics Curriculum build capability in leading mathematics and statistics within and across their school investigate effective pedagogy and strategies for teaching and assessing mathematics and statistics connect and network with other leaders and teachers.\n$350 for a 2025 Membership (+gst and booking fees) $100 for 1 meeting (+gst and booking fees) *Each ticket purchased gives entry for two attendees from 1 school* For any K\u0101hui Ako interested in this series, please contact us at info@cognitioneducation.com."
+  },
+  {
     "id": "Wellington Leaders Day-22 Tennyson Street, Te Aro, Wellington 6011, New Zealand-Humanitix",
     "name": "Wellington Leaders Day",
     "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/EGYTsGOTHhXpZ5D8u9qQ",
@@ -25668,6 +26534,24 @@
     "source": "Humanitix",
     "eventType": "Religion & Spirituality",
     "description": "Testimonies are emerging from churches across Aotearoa of an openness to faith, responses from people previously not interested in church, and a curiosity about Christ and Christianity among non-believers, particularly young people.\nAs church and Christian leaders in Aotearoa New Zealand, how might we respond in our contexts?\nSession Two: Stories of Renewal In this panel discussion, local pastors and leaders share stories of how they are seeing that God has been moving \u2014 stirring renewal and hope, unexpected shifts in discipleship and salvations, and how they are responding.\nSession Four: Renewal Conversations What does it look like to steward renewal in our churches?\nThis session focuses on practical responses to renewal and discussion around how the Church in Aotearoa can partner with what the Spirit is doing."
+  },
+  {
+    "id": "Wellington Viola Academy-St Andrews on the Terrace, 30 The Terrace, Wellington-Event Finder",
+    "name": "Wellington Viola Academy",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2102087-898297-35.jpg?v=2",
+    "venue": "St Andrews on the Terrace, 30 The Terrace, Wellington",
+    "coordinates": {
+      "lat": -41.2799366,
+      "long": 174.7749956
+    },
+    "dates": [
+      "2025-08-27-12:15"
+    ],
+    "displayDate": "Wed 27 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/wellington-viola-academy/wellington",
+    "source": "Event Finder",
+    "eventType": "Music & Concerts",
+    "description": "The Wellington Viola Academy presents a programme for viola ensemble including music by Albinoni, Bach, Bart\u00f3k, Elgar, Telemann and Vivaldi.\nFeel free to bring a bag lunch to enjoy during the concert."
   },
   {
     "id": "#EmployerMeet @ \u014ctaki College 2025 - Employer Registrations-233 Mill Road, \u014ctaki 5512, New Zealand-Humanitix",
@@ -25706,6 +26590,42 @@
     "description": "Why this matters: In our rapidly changing world, resilience emerges as a fundamental skill.\nResilience enables individuals to navigate uncertainty with confidence and adaptability.\nThis 90-minute workshop delves into the profound significance of resilience, offering participants practical insights and actionable strategies to cultivate resilience and harness the potential of the mind.\nBy equipping individuals with these tools, the workshop empowers them to not only weather storms but also thrive in dynamic environments.\nSarah is motivated to continue creating positive change and to educate people about the power of the mind and how to use life's challenges as an opportunity for growth."
   },
   {
+    "id": "It's in the Ballot - GWRC - Te Awa Kairangi ki Tai/Lower Hutt - Instudio-A Timaru Grove Lower Hutt, Wellington-Event Brite",
+    "name": "It's in the Ballot - GWRC - Te Awa Kairangi ki Tai/Lower Hutt - Instudio",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1057012183%2F1038574635043%2F1%2Foriginal.20250620-014719?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.501893939394&fp-y=0.628787878788&s=9d154ae45b4e2ba1feca74b679e8f3b7",
+    "venue": "A Timaru Grove Lower Hutt, Wellington",
+    "coordinates": {
+      "lat": -41.1783512,
+      "long": 174.9329483
+    },
+    "dates": [
+      "2025-08-27-15:30"
+    ],
+    "displayDate": "Wed 27 Aug",
+    "url": "https://www.eventbrite.co.nz/e/its-in-the-ballot-gwrc-te-awa-kairangi-ki-tailower-hutt-instudio-tickets-1422896976159?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Contestants of 'It's in the Bag' become political candidates in 'It's in the Ballot' Meet the Candidates.\nCandidates choose a numbered box which has a question that has been submitted online by voters before the show.\nIt\u2019s in the Ballot\u201d is a community-led awareness and participation initiative.\nWe aim to increase voter interest in the general and council elections nationally.\nBy using broadcasting and web-based technologies to deliver in-studio; online on Facebook, YouTube and Twitch; and edited as YouTube videos we aim to enable voters to make informed voting decisions."
+  },
+  {
+    "id": "It's in the Ballot-HCC- Wednesday 27th August Production Day Pass-In-studio-A Timaru Grove Lower Hutt, Wellington-Event Brite",
+    "name": "It's in the Ballot-HCC- Wednesday 27th August Production Day Pass-In-studio",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F672837059%2F1038574635043%2F1%2Foriginal.20240111-221533?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C5%2C1350%2C675&s=e0c48c52931d39616120cea03cdeeb7a",
+    "venue": "A Timaru Grove Lower Hutt, Wellington",
+    "coordinates": {
+      "lat": -41.1783512,
+      "long": 174.9329483
+    },
+    "dates": [
+      "2025-08-27-15:30"
+    ],
+    "displayDate": "Wed 27 Aug",
+    "url": "https://www.eventbrite.co.nz/e/its-in-the-ballot-hcc-wednesday-27th-august-production-day-pass-in-studio-tickets-1422914608899?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Contestants of 'It's in the Bag' become political candidates in 'It's in the Ballot' Meet the Candidates.\nCandidates choose a numbered box which has a question that has been submitted online by voters before the show.\nIt\u2019s in the Ballot\u201d is a community-led awareness and participation initiative.\nWe aim to increase voter interest in the general and council elections nationally.\nBy using broadcasting and web-based technologies to deliver in-studio; online on Facebook, YouTube and Twitch; and edited as YouTube videos we aim to enable voters to make informed voting decisions."
+  },
+  {
     "id": "Artsplash Concert #5 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
     "name": "Artsplash Concert #5 Choir",
     "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
@@ -25740,6 +26660,57 @@
     "source": "Ticket Master",
     "eventType": "Arts & Theatre",
     "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, all patrons must hold a vaild ticket for entry.\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs."
+  },
+  {
+    "id": "He Waka Eke Noa: Reflections-Wellington Museum, 3 Jervois Quay, Queens Wharf, Wellington-Event Finder",
+    "name": "He Waka Eke Noa: Reflections",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2103526-898997-35.jpg",
+    "venue": "Wellington Museum, 3 Jervois Quay, Queens Wharf, Wellington",
+    "coordinates": null,
+    "dates": [
+      "2025-08-27-18:00"
+    ],
+    "displayDate": "Wed 27 Aug",
+    "url": "https://www.eventfinda.co.nz/2025/he-waka-eke-noa-reflections/wellington",
+    "source": "Event Finder",
+    "eventType": "Education & Learning",
+    "description": "Nau mai, haere mai, hoki mai, Join us for the final panel discussion for Te Waka Huia Wellington Museum Legal Series, where we discuss the purpose, historical significance and ongoing mahi of The Waitangi Tribunal, held alongside the exhibition He Kura Toi Tangata: 50 Years of the Waitangi Tribunal, 1975-2025.\nHere to discuss the future of Te Tiriti are a panel of outspoken young leaders, chaired by veteran M\u0101ori lawyer Annette Sykes, as we ask, \u2018What will be the mahi of the Waitangi Tribunal in 2075?\u2019 and \u2018How can we uphold the mana of Te Tiriti ourselves to ensure mana motuhake for our mokopuna, and secure a just and equitable Aotearoa for all future generations of New Zealanders?\u2019 Tickets are $35 per session, or $25 for students and SuperGold Card holders, and include one drink and light kai.\nShe has also been involved in the Waitangi Tribunal Claims and is an adjunct professor at the Faculty of Law at Auckland University, as part of a commitment to ensuring the reclaiming of M\u0101ori law, Tikanga M\u0101ori as the first law of this nation.\nLuke\u2019s research and teaching interests are centred on Te Tiriti o Waitangi, Family Law, Child Protection and Children\u2019s Rights.\nTamatha is the first ever M\u0101ori MP for Wellington Central, as well as the youngest MP for the Green Party."
+  },
+  {
+    "id": "It's in the Ballot - Hutt City Council \u2013 Western General Ward -In-studio-A Timaru Grove Lower Hutt, Wellington-Event Brite",
+    "name": "It's in the Ballot - Hutt City Council \u2013 Western General Ward -In-studio",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1057008613%2F1038574635043%2F1%2Foriginal.20250620-013441?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.496212121212&fp-y=0.577272727273&s=45279b7c6bd74be316fb245e2776d76d",
+    "venue": "A Timaru Grove Lower Hutt, Wellington",
+    "coordinates": {
+      "lat": -41.1783512,
+      "long": 174.9329483
+    },
+    "dates": [
+      "2025-08-27-18:30"
+    ],
+    "displayDate": "Wed 27 Aug",
+    "url": "https://www.eventbrite.co.nz/e/its-in-the-ballot-hutt-city-council-western-general-ward-in-studio-tickets-1422843265509?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "Contestants of 'It's in the Bag' become political candidates in 'It's in the Ballot' Meet the Candidates.\nCandidates choose a numbered box which has a question that has been submitted online by voters before the show.\nIt\u2019s in the Ballot\u201d is a community-led awareness and participation initiative.\nWe aim to increase voter interest in the general and council elections nationally.\nBy using broadcasting and web-based technologies to deliver in-studio; online on Facebook, YouTube and Twitch; and edited as YouTube videos we aim to enable voters to make informed voting decisions."
+  },
+  {
+    "id": "RISE Fly Fishing Film Tour 2025 - Wellington- Ohiro Road Wellington, Wellington-Event Brite",
+    "name": "RISE Fly Fishing Film Tour 2025 - Wellington",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1051386403%2F214074833082%2F1%2Foriginal.20250612-035603?crop=focalpoint&fit=crop&w=600&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a86938de5a9d3acf986d2b742dd22ec5",
+    "venue": " Ohiro Road Wellington, Wellington",
+    "coordinates": {
+      "lat": -41.3050219,
+      "long": 174.7630034
+    },
+    "dates": [
+      "2025-08-27-18:30"
+    ],
+    "displayDate": "Wed 27 Aug",
+    "url": "https://www.eventbrite.com.au/e/rise-fly-fishing-film-tour-2025-wellington-tickets-1217376308309?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": "The highly anticipated 19th Annual RISE Fly Fishing Film Tour (F3T) is back and ready with a curated selection of the best fly fishing films from around the world.\nAnglers, outdoor enthusiasts, and adventure seekers are invited to join the tour as it visits cities nationwide, showcasing stunning cinematography, unforgettable stories, and the heart-pounding excitement of fly fishing.\nThis year\u2019s event promises to be the biggest yet, with a diverse line up of films that highlight remote locations, unique challenges, and the passionate anglers who pursue them.\nAlong with the films, attendees can look forward to exclusive giveaways, special guests, and lenty of camaraderie.\nWhether you\u2019re a seasoned angler or someone new to the sport, F3T offers something for everyone."
   },
   {
     "id": "Artsplash Concert #6 Choir-Michael Fowler Centre, Wellington, NZ-Ticket Master",
@@ -25778,6 +26749,24 @@
     "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This event is all ages, all patrons must hold a vaild ticket for entry.\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs."
   },
   {
+    "id": "HEAVEN & EARTH-- Lambton Quay Wellington, Wellington-Event Brite",
+    "name": "HEAVEN & EARTH",
+    "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1009885473%2F549506695209%2F1%2Foriginal.20250415-231228?w=600&auto=format%2Ccompress&q=75&sharp=10&rect=427%2C0%2C4266%2C2133&s=8dfe81d023f07641e1d5c5b3aef06783",
+    "venue": "- Lambton Quay Wellington, Wellington",
+    "coordinates": {
+      "lat": -41.278869,
+      "long": 174.7800335
+    },
+    "dates": [
+      "2025-08-27-19:30"
+    ],
+    "displayDate": "Wed 27 Aug",
+    "url": "https://www.eventbrite.co.nz/e/heaven-earth-tickets-1326054036319?aff=ebdssbdestsearch",
+    "source": "Event Brite",
+    "eventType": "Food & Drink",
+    "description": ""
+  },
+  {
     "id": "Mamma Mia - NZSL-interpreted Performance-St James Theatre Wellington, Wellington, NZ-Ticket Master",
     "name": "Mamma Mia - NZSL-interpreted Performance",
     "imageUrl": "https://s1.ticketm.net/dam/a/4f2/5c23f485-2efc-4367-9002-3b076e99b4f2_EVENT_DETAIL_PAGE_16_9.jpg",
@@ -25812,6 +26801,24 @@
     "source": "San Fran",
     "eventType": "Music & Concerts",
     "description": "Rapidly rising indie-pop outfit Borderline have announced a variety of New Zealand and Australia dates for their 6-stop Chrysalis EP Release Tour LIVE NATION PRESALE: Get your tickets first in our exclusive Live Nation Presale.\nSign up now\u00a0for early access.\nWhen presale starts, log in and click \"Buy Tickets\".\nNo code needed.\nACCESSIBILITY: All accessible tickets need to be purchased directly by the ticketing agent\u2019s accessible hotline or form."
+  },
+  {
+    "id": "Men's Circle: Reclaiming Connection-175 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
+    "name": "Men's Circle: Reclaiming Connection",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/518393111_1340831491030499_1336339851105391271_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=b3VU73QtIQUQ7kNvwGbzyl_&_nc_oc=AdncAKd7dx0x4W0_LS1W0xvqBZEnbbRn96UwB2JLz-yuCJ5_nRvEn1ijISVx_26RYnc&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=FUf5iryVT_3oT6y_b45rXw&oh=00_AfScgf5mkpjITPGYfD3zF8mTiUE5H7j2VryjtuHXjamC_w&oe=688CFB84",
+    "venue": "175 Vivian St, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2946838,
+      "long": 174.7737225
+    },
+    "dates": [
+      "2025-08-28-00:00"
+    ],
+    "displayDate": "Thu 28 Aug",
+    "url": "https://www.facebook.com/events/1901395800702671",
+    "source": "Facebook",
+    "eventType": "Health & Wellness",
+    "description": "Men's Circle: Reclaiming Connection The Men\u2019s Circle is a free, supportive gathering for men to connect, share openly, and grow together.\nWhether you're navigating life changes, seeking community, or simply wanting a space to be heard, you're welcome here.\nWhat to Expect in the Circle: Gathering in Circle: We sit in a circle to foster a sense of unity and equality.\nConfidentiality: What's shared in the circle, stays in the circle.\nOur Shared Agreements: Speak from the \u201cI\u201d: Share from your own experience, not on behalf of others."
   },
   {
     "id": "Learn to 'Thryv' on Social Media - 28 August 2025-109 Main Street, Greytown 5712, New Zealand-Humanitix",
@@ -26424,6 +27431,24 @@
     "description": "\ud83c\udfb5 Join us for an afternoon of beautiful music and community spirit!\n\ud83c\udfb5 Enjoy Beautiful Chamber Music with a View!\nHelene Pohl (violin) and Rolf Gjelsten (cello), as the Chamber Pot Pourri Ensemble, are getting together with friends to play a series of intimate concerts that support some of their favourite causes \u2013 Arohanui Strings+ included (www.arohanuistrings.org).\nComfy Concert No.5 with Bridget Douglas (flute) and Victoria Jaenecke (viola) on August 30, 2025, playing: Tabea Squire - Daydream and Dance for violin and cello JS Bach \u2013 Sonata No.\nThe Comfy Concert series 2 Building on the success of the first series of Comfy Concerts from April to June, Helen and Rolf have announced another four concerts to benefit Kaibosh (Saturday 20 September & Saturday 15 November) and Arohanui Strings+ (Saturday 20 August & Saturday 18 November)."
   },
   {
+    "id": "Marlborough Netball Awards 2025-6B Lansdowne Street, Mayfield, Blenheim 7201, New Zealand-Humanitix",
+    "name": "Marlborough Netball Awards 2025",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/MMmtMzbdQOCNB4F8cCma",
+    "venue": "6B Lansdowne Street, Mayfield, Blenheim 7201, New Zealand",
+    "coordinates": {
+      "lat": -41.5008914,
+      "long": 173.9570719
+    },
+    "dates": [
+      "2025-08-30-18:00"
+    ],
+    "displayDate": "Sat 30 Aug",
+    "url": "https://events.humanitix.com/marlborough-netball-awards-2025?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Sports & Fitness",
+    "description": "Marlborough Netball Awards.\nA night to celebrate and acknowledge our athletes, volunteers and officials for the incredible work and effort they put in to the netball season.\nThere will be a cash/eftpos bar available, and catering included in ticket price.\nWe look forward to hosting another wonderful end of season function!\nSee you there!"
+  },
+  {
     "id": "Creedence Clearwater Collective-The Opera House Wellington, Wellington, NZ-Ticket Master",
     "name": "Creedence Clearwater Collective",
     "imageUrl": "https://s1.ticketm.net/dam/a/638/d576fe35-fe29-4354-9de1-6eef930d9638_EVENT_DETAIL_PAGE_16_9.jpg",
@@ -26674,6 +27699,24 @@
     "source": "Ticket Master",
     "eventType": "Arts & Theatre",
     "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket"
+  },
+  {
+    "id": "Sam Bambery (NZ) - Vogelmorn Upstairs-13 Vennell Street, Brooklyn, Wellington 6021, New Zealand-Humanitix",
+    "name": "Sam Bambery (NZ) - Vogelmorn Upstairs",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/uCTjoD4sQE6konl8pTjC",
+    "venue": "13 Vennell Street, Brooklyn, Wellington 6021, New Zealand",
+    "coordinates": {
+      "lat": -41.3137341,
+      "long": 174.7646046
+    },
+    "dates": [
+      "2025-09-05-19:00"
+    ],
+    "displayDate": "Fri 05 Sep",
+    "url": "https://events.humanitix.com/sam-bambery-nz-vogelmorn-upstairs-gm246k98?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Music & Concerts",
+    "description": "Sam Bambery is an artist and impresario from \u014ctautahi/Christchurch, currently based in Naarm/Melbourne.\nExploring his love of semi-psychedelia through a twisted folk-rock lens, Bambery writes effectual and spacious songs burrowing into emotional identity and exhaustion.\nHis sophomore album Rubricator released in 2024 with micro-label Under Underground Records, edging at outsider-pop influence.\n\"...very considered, like Bambery lived with the album in his head for a while before bringing it into the world...a hint of mystery hangs over things...it's as ornate as these well-crafted tunes\" - Tony Stamp, Radio New Zealand \"Rubricator confirms the emergence of a real talent\" - Graham Reid, NZ Listener Sam Bambery is joined by Michael Llewellyn"
   },
   {
     "id": "The Grogans 'Stagger' NZ Tour 2025-San Fran, Wellington-Under The Radar",
@@ -27659,6 +28702,42 @@
     "description": "STEAMS is not \u2018play based learning\u2019 but focused learning through an integrated hands-on approach allowing children to take risks and explore their own curiosity in a subject without time barriers.\nAt the Ministry of Inspiration we offer STEAMS learning each term for Year 1-8 students.\nOnce a week students will attend a class at Waterlea Racecourse, Blenheim on TUESDAY or THURSDAY.\nIf both family and teacher feel there is a good fit for the child in the class, they continue for the rest of the term.\nWill my child\u2019s school mind that they miss a day per week?"
   },
   {
+    "id": "Windbag: Live!-12 Cambridge Terrace, Te Aro, Wellington 6011, New Zealand-Humanitix",
+    "name": "Windbag: Live!",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/MuSQTlkBRiuhLKZw3eNK",
+    "venue": "12 Cambridge Terrace, Te Aro, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2937331,
+      "long": 174.783602
+    },
+    "dates": [
+      "2025-09-18-19:00"
+    ],
+    "displayDate": "Thu 18 Sep",
+    "url": "https://events.humanitix.com/windbag-live?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Government & Politics",
+    "description": "Is the capital\u2019s vibecession sinking into the bucket fountain?\nWill the new library herald a turning point?\nOr will the hopes of Wellingtonians crumble into the wastewater, only to erupt out onto the footpath about a block down the road.\nJoin Wellington editor Joel MacManus in a conversation with politics reporter Lyric Waiwiri-Smith and special guests, as they dissect Wellington's wins and woes ahead of the upcoming local election."
+  },
+  {
+    "id": "Dani Josie SUCKERPUNCH Spring Tour-San Fran, Wellington-San Fran",
+    "name": "Dani Josie SUCKERPUNCH Spring Tour",
+    "imageUrl": "https://dynamicmedia.livenationinternational.com/r/r/w/1cb2e179-0a38-4813-9cac-0942439d5dc7.jpg",
+    "venue": "San Fran, Wellington",
+    "coordinates": {
+      "lat": -41.2941512,
+      "long": 174.7755614
+    },
+    "dates": [
+      "2025-09-19-00:00"
+    ],
+    "displayDate": "Fri 19 Sep",
+    "url": "https://www.sanfran.co.nz/all-events/dani-josie-tickets-ae1438104",
+    "source": "San Fran",
+    "eventType": "Music & Concerts",
+    "description": "After dropping\u00a0Go Go Go,\u00a0Lovebomber, and her hottest single yet\u00a0SUCKERPUNCH, pop-punk artist\u00a0Dani Josie\u00a0is headlining her first-ever nation wide tour.\nPop anthems, high energy, happy and sad tears.\nDani\u2019s ready to bring her world to the stage joined by special guest\u00a0Emerson.\nExpect to sing your heart out in an exciting night in a city near you."
+  },
+  {
     "id": "GOMIL \u2014 Grumpy Old Man in Lycra-The Opera House, Wellington, New Zealand-Wellington NZ",
     "name": "GOMIL \u2014 Grumpy Old Man in Lycra",
     "imageUrl": "https://wellingtonnz.bynder.com/transform/9d8a6690-7a85-44fd-b869-473e44376306/GOMIL-Grumpy-Old-Man-in-Lycra?io=transform:fill,width:576,height:450",
@@ -28379,6 +29458,24 @@
     "source": "Wellington NZ",
     "eventType": "Music & Concerts",
     "description": "Three Elvis Presleys.\nThe show takes you on a spellbinding journey through three song eras of one of the most famous singers ever.\nFirst up: the sound of the 1950s.\nArron Walker then takes the mic and recreates the role of Elvis in his movie years in the 1960s.\nThe sound, the moves, and the charm of Elvis Presley are lovingly recreated."
+  },
+  {
+    "id": "Sniff & Shop - Dog Market-132 Ngaumutawa Road, Masterton 5810, New Zealand-Humanitix",
+    "name": "Sniff & Shop - Dog Market",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/mOmdpe46TGCHsuhO0CWq",
+    "venue": "132 Ngaumutawa Road, Masterton 5810, New Zealand",
+    "coordinates": {
+      "lat": -40.9454179,
+      "long": 175.6373504
+    },
+    "dates": [
+      "2025-10-04-09:00"
+    ],
+    "displayDate": "Sat 04 Oct",
+    "url": "https://events.humanitix.com/https-www-facebook-com-share-1c6jm62tpp-mibextid-wwxifr?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Other",
+    "description": "Join us for a day filled with tail wagging fun for you & your bestie!\nAt our Sniff & Shop you can expect to see: - Chance 4 Change Puppy Cuddles - Ellie\u2019s K9 Rescue - Raffles & spot prizes - Free samples - Treats & Toys - Pup cups - Pawfessional service providers - Collars & Harnesses - Unique Accessories - Dog agility course - Food Trucks!\nThis event is brought to you by Plan and Bloom & Doggie Delights NZ!\nAre you interested in being a vendor?\nPlease email Planandbloom02@gmail.com for availability."
   },
   {
     "id": "Developing your Solution Focused Approach, NZCCA Wellington PD Day-106 Mana Esplanade, Paremata, Wellington 5026, New Zealand-Humanitix",
@@ -32616,6 +33713,44 @@
     "description": "Most Amusing Celebration: Jane Austen's 250th Birthday The Jane Austen Society of Aotearoa New Zealand invites you to an end-of-year party commemorating 250 years of Jane Austen's wit and wisdom Your evening includes: Spirited Regency card and parlour games A spread of high tea delights, mixed with kids birthday party vibes A fun present swap \u2013 bring a small wrapped gift Costumes encouraged (Regency, kids party or that dress you never get to wear!)\nOpen to all Jane Austen Society members and anyone with a fondness for the incomparable Miss Austen Tickets: $60 per person Bring a friend: purchase 2 or more tickets and get a 10% discount"
   },
   {
+    "id": "Equip Central 2026-58 Weggery Drive, Waikanae Beach 5036, New Zealand-Humanitix",
+    "name": "Equip Central 2026",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/bwRXQidQRdy66OPs596f",
+    "venue": "58 Weggery Drive, Waikanae Beach 5036, New Zealand",
+    "coordinates": {
+      "lat": -40.8751875,
+      "long": 175.025168
+    },
+    "dates": [
+      "2026-01-05-14:00",
+      "2026-01-09-13:00"
+    ],
+    "displayDate": "Mon 05 Jan + more",
+    "url": "https://events.humanitix.com/equip-central-2026?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Other",
+    "description": "At Equip Conference, our aim is to train people to understand and teach the word of God.\nWe get together with Christians from all over NZ, to sing God\u2019s praises and listen to God\u2019s Word.\nWith support and feedback from pastors and Bible teachers from around the country, we gather in small groups and give you tools to help you understand any part of the Bible and to teach it to others.\nWe believe Equip Conference will help you read the Bible better yourself and teach it to others.\nOur vision is to see people all over Aotearoa, NZ proclaiming the powerful Word of God."
+  },
+  {
+    "id": "Kirtan Fest Aotearoa-212 Old Hautere Road, Hautere 5582, New Zealand-Humanitix",
+    "name": "Kirtan Fest Aotearoa",
+    "imageUrl": "https://cdn.filestackcontent.com/cache=expiry:max/resize=width:1600/output=format:webp,quality:40/compress/50Rxxx4QFayZHjdnQ5JI",
+    "venue": "212 Old Hautere Road, Hautere 5582, New Zealand",
+    "coordinates": {
+      "lat": -40.7918701,
+      "long": 175.1522384
+    },
+    "dates": [
+      "2026-01-05-15:00",
+      "2026-01-07-16:00"
+    ],
+    "displayDate": "Mon 05 Jan + more",
+    "url": "https://events.humanitix.com/kirtan-fest?hxchl=mkt-sch",
+    "source": "Humanitix",
+    "eventType": "Health & Wellness",
+    "description": "Of.\nThere will be food trucks on Monday & Tuesday nights.\nThere will also be options for people to self cater either in the camp kitchen, or in the venue kitchen.\nWe will have an amazing sound journey practitioner joining us and brilliant, beautiful kirtanists from around Aotearoa will be coming together for this sacred practice of kirtan.\nCome and join us and experience 3-4 days of heart opening kirtan, community and connection."
+  },
+  {
     "id": "Jimmy Carr: Laughs Funny-TSB Arena, Wellington, New Zealand-Wellington NZ",
     "name": "Jimmy Carr: Laughs Funny",
     "imageUrl": "https://wellingtonnz.bynder.com/transform/9e0221b7-d462-4273-b39c-352c1b9ba6e4/Jimmy-Carr-Laughs-Funny?io=transform:fill,width:576,height:450",
@@ -32885,6 +34020,7 @@
   ],
   "eventTypes": [
     "Arts & Theatre",
+    "Business & Networking",
     "Community & Culture",
     "Education & Learning",
     "Festivals",
