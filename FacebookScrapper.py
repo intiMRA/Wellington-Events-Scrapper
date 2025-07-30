@@ -38,8 +38,9 @@ class FacebookScrapper:
             return None
 
     @staticmethod
-    def parse_date(date: str) -> List[datetime]:
-        print(f"date: {date}")
+    def parse_date(date: str, verbose: bool = True) -> List[datetime]:
+        if verbose:
+            print(f"date: {date}")
         week_days = [
             "Monday",
             "Tuesday",
@@ -53,7 +54,8 @@ class FacebookScrapper:
         hour = " 1:01AM"
         if re.findall(r"\d{1,2}:\d{1,2}", date):
             hour: str = re.findall(r"\d{1,2}:\d{1,2}", date)[0]
-        print(f"hour: {hour}")
+        if verbose:
+            print(f"hour: {hour}")
         if "Tomorrow" in date:
             target_date = today + timedelta(days=1)
             return [target_date]
@@ -70,15 +72,18 @@ class FacebookScrapper:
                     dates.append(parser.parse(match))
                 except:
                     pass
-            print(f"date: {matches[0]} {hour}")
+            if verbose:
+                print(f"date: {matches[0]} {hour}")
             return dates
         for day_of_the_week in week_days:
             matches = re.findall(fr"{day_of_the_week}", date)
             if matches:
                 day = FacebookScrapper.parse_day_of_week(matches[0])
-                print(f"day: {day}")
+                if verbose:
+                    print(f"day: {day}")
                 return [parser.parse(f"{day} {hour}")]
-        print(f"facebook: {date}")
+        if verbose:
+            print(f"facebook: {date}")
         return []
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver, banned_file) -> Optional[EventInfo]:
@@ -159,7 +164,7 @@ class FacebookScrapper:
         while True:
             html = driver.find_elements(By.TAG_NAME, 'a')
             old_length = len(html)
-            while len(html) < 400:
+            while len(html) < 450:
                 driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
                 sleep(2)
                 html = driver.find_elements(By.TAG_NAME, 'a')
@@ -173,7 +178,7 @@ class FacebookScrapper:
                 try:
                     try:
                         date_string = event.text.split("\n")[0]
-                        ev_dates = FacebookScrapper.parse_date(date_string)
+                        ev_dates = FacebookScrapper.parse_date(date_string, False)
                         if ev_dates[-1] < datetime.now():
                             print(f"skipping date: {date_string}")
                             continue
@@ -207,7 +212,7 @@ class FacebookScrapper:
                 try:
                     try:
                         date_string = event.text.split("\n")[0]
-                        ev_dates = FacebookScrapper.parse_date(date_string)
+                        ev_dates = FacebookScrapper.parse_date(date_string, False)
                         if ev_dates[-1] < datetime.now():
                             print(f"skipping date: {date_string}")
                             continue

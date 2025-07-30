@@ -25,7 +25,7 @@ class TicketekScrapper:
         return dates
 
     @staticmethod
-    def get_event(url: str, category:str, driver: webdriver, previous_urls: Set[str], is_sub_event = False) -> Optional[List[EventInfo]]:
+    def get_event(url: str, category:str, driver: webdriver, previous_urls: Set[str], banned_file) -> Optional[List[EventInfo]]:
         driver.get(url)
         sleep(random.uniform(2, 3))
         sub_events = driver.find_elements(By.CLASS_NAME, "event-item")
@@ -41,10 +41,13 @@ class TicketekScrapper:
                 if "wellington" in venue_text.lower():
                     url: str = event.find_element(By.CLASS_NAME, "event-buttons").find_element(By.TAG_NAME, "a").get_attribute("href")
                     print(f"sub event url: {url}")
-                    parsed_events = TicketekScrapper.get_event(url, category, sub_driver, previous_urls, True)
+                    parsed_events = TicketekScrapper.get_event(url, category, sub_driver, previous_urls, banned_file)
                     if parsed_events:
                         for parsed_event in parsed_events:
                             events_info.append(parsed_event)
+                else:
+                    json.dump(url, banned_file, indent=2)
+                    banned_file.write(",\n")
             try:
                 sub_driver.close()
             except:
@@ -127,7 +130,7 @@ class TicketekScrapper:
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
-                events = TicketekScrapper.get_event(part[0], part[1], driver, previous_urls)
+                events = TicketekScrapper.get_event(part[0], part[1], driver, previous_urls, banned_file)
                 if not events:
                     continue
                 for event in events:
