@@ -20,8 +20,12 @@ class TicketekScrapper:
         dates: List[datetime] = []
         date_string: str = driver.find_element(By.CLASS_NAME, "selectDateBlock").text.split("\n")[1]
         matches: List[str] = re.findall(r"\d{1,2}\s[aA-zZ]{3,4}\s\d{4}", date_string)
+        hours: List[str] = re.findall(r"\{1,2}\s*:\s*\d{1,2}[aAmMpP]{0,2}", date_string)
+        hour = "1:01AM"
+        if hours:
+            hour = hours[0]
         for match in matches:
-            dates.append(parser.parse(match))
+            dates.append(parser.parse(f"{match} {hour}"))
         return dates
 
     @staticmethod
