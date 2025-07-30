@@ -61,6 +61,7 @@ class TicketekScrapper:
             return events_info
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
         if url in previous_urls:
+            print("already fetched sub event")
             return None
         previous_urls.add(url)
         dates = TicketekScrapper.extract_date(driver)
