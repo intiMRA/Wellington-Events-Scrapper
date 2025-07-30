@@ -42,15 +42,16 @@ class TicketekScrapper:
             events_info: List[EventInfo] = []
             for event in sub_events:
                 venue_text: str = event.find_element(By.CLASS_NAME, "event-venue-dates").text
+                sub_url: str = (event.find_element(By.CLASS_NAME, "event-buttons")
+                                .find_element(By.TAG_NAME, "a").get_attribute("href"))
                 if "wellington" in venue_text.lower():
-                    url: str = event.find_element(By.CLASS_NAME, "event-buttons").find_element(By.TAG_NAME, "a").get_attribute("href")
-                    print(f"sub event url: {url}")
-                    parsed_events = TicketekScrapper.get_event(url, category, sub_driver, previous_urls, banned_file)
+                    print(f"sub event url: {sub_url}")
+                    parsed_events = TicketekScrapper.get_event(sub_url, category, sub_driver, previous_urls, banned_file)
                     if parsed_events:
                         for parsed_event in parsed_events:
                             events_info.append(parsed_event)
                 else:
-                    json.dump(url, banned_file, indent=2)
+                    json.dump(sub_url, banned_file, indent=2)
                     banned_file.write(",\n")
             try:
                 sub_driver.close()
