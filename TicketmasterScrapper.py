@@ -177,7 +177,7 @@ class TicketmasterScrapper:
             image_url = re.findall(r'url\("([^"]+)"\)', image_url)[0]
             date_string, venue = content.find_elements(By.XPATH, "//span[contains(@class, 'location')]")
             venue = venue.text
-            description = driver.find_element(By.XPATH, "//div[contains(@class, 'description')]").text
+            description = driver.find_element(By.XPATH, "//div[contains(@id, 'escription')]").text
             date_string = date_string.text
             dates = []
             if "Multiple" in date_string:
@@ -238,7 +238,7 @@ class TicketmasterScrapper:
         event_urls: List[tuple[str, str]] = []
         if from_file:
             return FileUtils.load_from_files(ScrapperNames.TICKET_MASTER)[1]
-
+        urls_file.write("[\n")
         class PossibleKeys(str, Enum):
             id = 'id'
             total = 'total'
@@ -286,7 +286,6 @@ class TicketmasterScrapper:
 
         page = 0
         count = 0
-
         while True:
             print(f"fetching page {page}")
             api_url = f'https://www.ticketmaster.co.nz/api/search/events?q=wellington&region=750&sort=date&page={page}'
@@ -331,6 +330,7 @@ class TicketmasterScrapper:
                 print("ticket master error")
                 print(e)
                 count += 1
+        urls_file.write("]\n")
         return event_urls
 
 
