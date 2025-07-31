@@ -124,6 +124,18 @@ class EventbriteScrapper:
         event_link: str = url
         description: str = driver.find_element(By.ID, "event-description").text
         dates: List[datetime] = EventbriteScrapper.get_all_dates(driver)
+        if not dates:
+            date_matches = re.findall(r"\d{1,2}\s\w+\d{0,4}", title)
+            hour = "1:01AM"
+            hour_matches = re.findall(r"\d{1,2}\s:\d{2}[aAmMpP]{0,2}", title)
+            if hour_matches:
+                hour = hour_matches[0]
+            for date_match in date_matches:
+                try:
+                    dates.append(parser.parse(f"{date_match} {hour}"))
+                except:
+                    continue
+
         if "copyright" in description:
             print(f"banning: {url}")
             json.dump(url, banned_file, indent=2)

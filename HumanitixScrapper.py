@@ -1,3 +1,4 @@
+import random
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -142,6 +143,7 @@ class HumanitixScrapper:
                     json.dump(url_tuple, urls_file, indent=2)
                     urls_file.write(",\n")
                 page += 1
+                sleep(random.uniform(1, 2))
 
         out_file.write("[\n")
         for part in event_urls:

@@ -19,7 +19,7 @@ class TicketekScrapper:
     def extract_date(driver: webdriver) -> List[datetime]:
         dates: List[datetime] = []
         date_string: str = driver.find_element(By.CLASS_NAME, "selectDateBlock").text.split("\n")[1]
-        matches: List[str] = re.findall(r"\d{1,2}\s[aA-zZ]{3,4}\s\d{4}", date_string)
+        matches: List[str] = re.findall(r"\d{1,2}\s*[aA-zZ]{3,4}\s*\d{0,4}", date_string)
         hours: List[str] = re.findall(r"\{1,2}\s*:\s*\d{1,2}[aAmMpP]{0,2}", date_string)
         hour = "1:01AM"
         if hours:
@@ -51,6 +51,7 @@ class TicketekScrapper:
                         for parsed_event in parsed_events:
                             events_info.append(parsed_event)
                 else:
+                    print("banning because not in wellington")
                     json.dump(sub_url, banned_file, indent=2)
                     banned_file.write(",\n")
             try:
@@ -62,7 +63,7 @@ class TicketekScrapper:
             return events_info
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
         if url in previous_urls:
-            print("already fetched sub event")
+            print("banning because event was already fetched")
             json.dump(url, banned_file, indent=2)
             banned_file.write(",\n")
             return None
@@ -149,6 +150,7 @@ class TicketekScrapper:
             except Exception as e:
                 if "No dates found for" in str(e):
                     print("-" * 100)
+                    print("banning because no date was found")
                     json.dump(part[0], banned_file, indent=2)
                     banned_file.write(",\n")
                     print(e)
