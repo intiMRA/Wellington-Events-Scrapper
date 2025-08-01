@@ -44,6 +44,8 @@ class TicketekScrapper:
                 venue_text: str = event.find_element(By.CLASS_NAME, "event-venue-dates").text
                 sub_url: str = (event.find_element(By.CLASS_NAME, "event-buttons")
                                 .find_element(By.TAG_NAME, "a").get_attribute("href"))
+                if sub_url in previous_urls:
+                    continue
                 if "wellington" in venue_text.lower():
                     print(f"sub event url: {sub_url}")
                     parsed_events = TicketekScrapper.get_event(sub_url, category, sub_driver, previous_urls, banned_file)
@@ -59,6 +61,8 @@ class TicketekScrapper:
             except:
                 pass
             if not events_info:
+                json.dump(url, banned_file, indent=2)
+                banned_file.write(",\n")
                 print("none in wellington")
             return events_info
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
@@ -119,7 +123,6 @@ class TicketekScrapper:
                     event_url = button.find_element(By.TAG_NAME, "a").get_attribute("href")
                     if event_url in previous_urls:
                         continue
-                    previous_urls.add(event_url)
                     event_urls.append((event_url, categoryName))
                     json.dump((event_url, categoryName), urls_file, indent=2)
                     urls_file.write(",\n")
