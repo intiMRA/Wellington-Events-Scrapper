@@ -9,20 +9,25 @@ import re
 import pytz
 from datetime import datetime
 
-def is_facebook_url_expired_now(date_string: str):
-    matches = re.findall(r"oe=[aA-zZ0-9]+", date_string)
+def is_facebook_url_expired_now(image_url: str):
+    if not image_url:
+        return False
+    matches = re.findall(r"oe=[aA-zZ0-9]+", image_url)
     if not matches:
         return False
-    oe_hex = matches[0].split("oe=")[0]
-    nz_timezone = pytz.timezone('Pacific/Auckland')
-    now_nz = datetime.now(nz_timezone)
+    try:
+        oe_hex = matches[0].split("oe=")[0]
+        nz_timezone = pytz.timezone('Pacific/Auckland')
+        now_nz = datetime.now(nz_timezone)
+        unix_time = int(oe_hex, 16)
+        utc_expiry = datetime.fromtimestamp(unix_time, pytz.utc)
 
-    unix_time = int(oe_hex, 16)
-    utc_expiry = datetime.fromtimestamp(unix_time, pytz.utc)
+        nz_expiry = utc_expiry.astimezone(nz_timezone)
 
-    nz_expiry = utc_expiry.astimezone(nz_timezone)
+        return now_nz > nz_expiry
+    except:
+        return False
 
-    return now_nz > nz_expiry
 
 def write_to_events_file(data: List[EventInfo]):
     events_dict = {}

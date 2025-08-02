@@ -27,6 +27,7 @@ class EventInfo:
     source: str
     eventType: str
     description: str
+    long_description: str
 
     def __init__(
             self: str,
@@ -38,6 +39,7 @@ class EventInfo:
             source: str,
             event_type: str,
             description: str = "",
+            long_description = "",
             coordinates: Optional[dict[str, str]] = None,
             loaded_from_dict: bool = False):
         """
@@ -78,9 +80,11 @@ class EventInfo:
         if loaded_from_dict:
             self.description = description
             self.coordinates = coordinates
+            self.long_description = long_description
         else:
             venue = re.sub(r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)", "", venue)
             self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
+            self.long_description = description
             description = EventInfo.clean_html_tags(description)
             description = Summarizer.sumerize(description)
             self.description = description
@@ -103,6 +107,7 @@ class EventInfo:
             "url": self.url,
             "source": self.source,
             "eventType": self.eventType,
+            "long_description": self.long_description,
             "description": self.description
         }
 
@@ -120,6 +125,7 @@ class EventInfo:
                 event_type=data["eventType"],
                 coordinates=data["coordinates"],
                 description=data["description"],
+                long_description=data["long_description"],
                 loaded_from_dict=True
             )
         except:
