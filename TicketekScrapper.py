@@ -30,16 +30,15 @@ class TicketekScrapper:
 
     @staticmethod
     def get_event(url: str, category:str, driver: webdriver, previous_urls: Set[str], banned_file) -> Optional[List[EventInfo]]:
+        if url in previous_urls:
+            return []
         driver.get(url)
         sleep(random.uniform(2, 3))
         sub_events = driver.find_elements(By.CLASS_NAME, "event-item")
         if sub_events:
-            sub_driver = uc.Chrome(
-                headless=False,  # Headless mode is more easily detected
-                use_subprocess=True
-            )
             print("fetching sub events: ")
-            events_info: List[EventInfo] = []
+            sub_events_urls = []
+
             for event in sub_events:
                 venue_text: str = event.find_element(By.CLASS_NAME, "event-venue-dates").text
                 sub_url: str = (event.find_element(By.CLASS_NAME, "event-buttons")
@@ -47,15 +46,27 @@ class TicketekScrapper:
                 if sub_url in previous_urls:
                     continue
                 if "wellington" in venue_text.lower():
-                    print(f"sub event url: {sub_url}")
-                    parsed_events = TicketekScrapper.get_event(sub_url, category, sub_driver, previous_urls, banned_file)
-                    if parsed_events:
-                        for parsed_event in parsed_events:
-                            events_info.append(parsed_event)
+                    sub_events_urls.append(sub_url)
                 else:
                     print("banning because not in wellington")
                     json.dump(sub_url, banned_file, indent=2)
                     banned_file.write(",\n")
+            if not sub_events_urls:
+                print("banning because not urls found")
+                json.dump(sub_url, banned_file, indent=2)
+                banned_file.write(",\n")
+                return []
+            sub_driver = uc.Chrome(
+                headless=False,  # Headless mode is more easily detected
+                use_subprocess=True
+            )
+            events_info: List[EventInfo] = []
+            for sub_url in sub_events_urls:
+                print(f"sub event url: {sub_url}")
+                parsed_events = TicketekScrapper.get_event(sub_url, category, sub_driver, previous_urls, banned_file)
+                if parsed_events:
+                    for parsed_event in parsed_events:
+                        events_info.append(parsed_event)
             try:
                 sub_driver.close()
             except:
@@ -70,7 +81,7 @@ class TicketekScrapper:
             print("banning because event was already fetched")
             json.dump(url, banned_file, indent=2)
             banned_file.write(",\n")
-            return None
+            return []
         previous_urls.add(url)
         dates = TicketekScrapper.extract_date(driver)
         image_url: str = driver.find_element(By.CLASS_NAME, "desktop-tablet-banner").get_attribute("src")
