@@ -54,15 +54,15 @@ class FacebookScrapper:
         hour = " 1:01AM"
         if re.findall(r"\d{1,2}:\d{1,2}", date):
             hour: str = re.findall(r"\d{1,2}:\d{1,2}", date)[0]
+        today_string = today.strftime("%d %b")
+        today = parser.parse(f"{today_string} {hour}")
         if verbose:
             print(f"hour: {hour}")
         if "Tomorrow" in date:
             target_date = today + timedelta(days=1)
             return [target_date]
         elif "Today" in date:
-            today = today.strftime("%d %b")
-            target_date = parser.parse(f"{today} {hour}")
-            return [target_date]
+            return [today]
         regex = r"\d{1,2}\s\w+\d{0,4}"
         matches = re.findall(regex, date)
         if matches:
