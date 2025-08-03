@@ -13,7 +13,7 @@ import requests
 def is_facebook_url_expired_now(image_url: str):
     if not image_url:
         return False
-    matches = re.findall(r"oe=[aA-zZ0-9]+", image_url)
+    matches = re.findall(r"oe=([aA-zZ0-9]+)", image_url)
     if not matches:
         return False
     try:
@@ -30,9 +30,7 @@ def is_facebook_url_expired_now(image_url: str):
             return True
         else:
             code = requests.request(url=image_url, method="GET").status_code
-
             return code != 200
-
     except:
         return False
 
