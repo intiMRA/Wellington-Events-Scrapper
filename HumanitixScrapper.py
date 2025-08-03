@@ -115,6 +115,7 @@ class HumanitixScrapper:
             while True:
                 url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
                 driver.get(url)
+                sleep(random.uniform(1, 2))
                 _ = WebDriverWait(driver, 10, poll_frequency=1).until(ec.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
                 height = driver.execute_script("return document.body.scrollHeight")
                 scrolled_amount = 0
@@ -143,7 +144,7 @@ class HumanitixScrapper:
                     json.dump(url_tuple, urls_file, indent=2)
                     urls_file.write(",\n")
                 page += 1
-                sleep(random.uniform(1, 2))
+                sleep(random.uniform(1, 3))
 
         out_file.write("[\n")
         for part in event_urls:
