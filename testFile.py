@@ -1,4 +1,0 @@
-import FileUtils
-import ScrapperNames
-
-FileUtils.get_files_for_scrapper(ScrapperNames.WOAP)

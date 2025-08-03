@@ -8,6 +8,7 @@ from dateutil import parser
 import re
 import pytz
 from datetime import datetime
+import requests
 
 def is_facebook_url_expired_now(image_url: str):
     if not image_url:
@@ -24,7 +25,14 @@ def is_facebook_url_expired_now(image_url: str):
 
         nz_expiry = utc_expiry.astimezone(nz_timezone)
 
-        return now_nz > nz_expiry
+        expiration = now_nz > nz_expiry
+        if expiration:
+            return True
+        else:
+            code = requests.request(url=image_url, method="GET").status_code
+
+            return code != 200
+
     except:
         return False
 
