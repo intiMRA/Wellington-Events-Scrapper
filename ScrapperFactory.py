@@ -14,6 +14,7 @@ from UnderTheRaderScrapper import UnderTheRaderScrapper
 from ValhallaScrapper import ValhallaScrapper
 from WellingtonHighschoolScrapper import WellingtonHighschoolScrapper
 from WellingtonNZScrapper import WellingtonNZScrapper
+from WoapScrapper import WoapScrapper
 from EventInfo import EventInfo
 import ScrapperNames
 
@@ -47,6 +48,8 @@ def get_event_scrapper(scrapper_name: str) -> Any:
         return EventFinderScrapper
     elif scrapper_name == ScrapperNames.EVENT_BRITE:
         return EventbriteScrapper
+    elif scrapper_name == ScrapperNames.WOAP:
+        return WoapScrapper
     raise Exception(f"No scrapper found for {scrapper_name}")
 
 

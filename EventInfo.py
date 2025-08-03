@@ -20,7 +20,7 @@ class EventInfo:
     name: str
     image: str
     venue: str
-    coordinates: Optional[dict[str, str]]
+    coordinates: Optional[dict[str, float]]
     dates: List[str]
     displayDate: str
     url: str
@@ -40,7 +40,7 @@ class EventInfo:
             event_type: str,
             description: str = "",
             long_description = "",
-            coordinates: Optional[dict[str, str]] = None,
+            coordinates: Optional[dict[str, float]] = None,
             loaded_from_dict: bool = False):
         """
         @type name: str

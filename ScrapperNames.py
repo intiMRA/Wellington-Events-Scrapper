@@ -1,4 +1,5 @@
 from typing import List
+from datetime import datetime
 
 WELLINGTON_NZ: str = "Wellington NZ"
 WELLINGTON_HIGH_SCHOOL: str = "Wellington High School"
@@ -12,6 +13,8 @@ HUMANITIX: str = "Humanitix"
 FACEBOOK: str = "Facebook"
 EVENT_FINDER: str = "Event Finder"
 EVENT_BRITE: str = "Event Brite"
+WOAP: str = "WOAP"
+now = datetime.now()
 
 ALL_SCRAPER_NAMES: List[str] = [
     WELLINGTON_NZ,
@@ -27,3 +30,6 @@ ALL_SCRAPER_NAMES: List[str] = [
     EVENT_FINDER,
     EVENT_BRITE
 ]
+
+if now.month == 8 or now.month == 7:
+    ALL_SCRAPER_NAMES.append(WOAP)
