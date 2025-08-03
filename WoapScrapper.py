@@ -152,7 +152,14 @@ class WoapScrapper:
                     date: datetime = parser.parse(start)
                     dates.append(parser.parse(date.strftime("%Y-%m-%d %H:%M")))
                 event_url = listing["link"]
-                print(f"url: {event_url}")
+                wait_list_url = listing["waitlistLink"]
+                if not event_url:
+                    event_url = wait_list_url
+                if not event_url:
+                    venue_slug = venue_dict["slug"]
+                    kickerberryId = listing["kickerberryId"]
+                    event_url = f"https://visawoap.com/venue/{venue_slug}/{kickerberryId}"
+                print(f"title: {title} url: {event_url}")
                 try:
                     event = EventInfo(name=title,
                                       image=image,
