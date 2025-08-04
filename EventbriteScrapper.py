@@ -111,7 +111,6 @@ class EventbriteScrapper:
             venue: str = split[1]
         else:
             venue: str = split[0]
-        venue = re.sub(r"#?[Ll](?:evel)?\s?(\d+)|\s*#?(\d+)", "", venue)
         print(venue)
         try:
             title: str = driver.find_element(By.CLASS_NAME, "event-title").text
