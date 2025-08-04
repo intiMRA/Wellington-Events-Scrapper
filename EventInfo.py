@@ -82,7 +82,6 @@ class EventInfo:
             self.coordinates = coordinates
             self.long_description = long_description
         else:
-            venue = re.sub(r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)", "", venue)
             self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
             self.long_description = description
             description = EventInfo.clean_html_tags(description)
@@ -128,7 +127,12 @@ class EventInfo:
                 long_description=data["long_description"],
                 loaded_from_dict=True
             )
-        except:
+        except Exception as e:
+            print("failed to load:")
+            print(e)
+            print("-" * 100)
+            if not "No dates found for" in str(e):
+                raise e
             return None
 
     @staticmethod

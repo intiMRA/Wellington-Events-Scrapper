@@ -8,9 +8,17 @@ class CoordinatesMapper:
         clean_ups = [
             " - Mana"
         ]
-        geolocator = Nominatim(user_agent="wlleington_events")
+        regexes = [
+            r"(\d+\s*st|\d+\s*th)\s*[fF]{1}loor",
+            r"(\d+\s*st|\d+\s*th)\s*[Ll]{1}evel",
+            r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)",
+            r"#?[Ll](?:evel)?\s?(\d+)|\s*#?(\d+)"
+        ]
+        geolocator = Nominatim(user_agent="wellington_events")
         for clean_up in clean_ups:
             address = re.sub(fr"{clean_up}", "", address)
+        for regex in regexes:
+            address = re.sub(regex, "", address)
         variations = [address]
 
         first_part = ",".join(address.split(",")[1:]).strip()

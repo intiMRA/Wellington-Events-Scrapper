@@ -10,8 +10,8 @@ import pytz
 from datetime import datetime
 import requests
 
-def is_facebook_url_expired_now(image_url: str):
-    if not image_url:
+def is_facebook_url_expired_now(image_url: str, source: str):
+    if not image_url or source != "Facebook":
         return False
     matches = re.findall(r"oe=([aA-zZ0-9]+)", image_url)
     if not matches:
@@ -30,7 +30,11 @@ def is_facebook_url_expired_now(image_url: str):
             return True
         else:
             code = requests.request(url=image_url, method="GET").status_code
-            return code != 200
+            valid_code = code == 200
+            if valid_code:
+                return False
+            print(f"invalid fetch: {image_url}")
+            return True
     except:
         return False
 
@@ -83,11 +87,18 @@ def load_last_scrapper() -> str:
 def load_events(from_file = FileNames.EVENTS) -> List[EventInfo]:
     with open(from_file, mode="r") as f:
         events_json = json.loads(f.read())
+        events_json = events_json["events"]
         events = []
-        for event_json in events_json["events"]:
+        skipped = 0
+        print(f"in: {len(events_json)}")
+        for event_json in events_json:
             event = EventInfo.from_dict(event_json)
-            if event and not is_facebook_url_expired_now(event.image):
+            if event and not is_facebook_url_expired_now(event.image, event.source):
                 events.append(event)
+            else:
+                skipped += 1
+        print(f"skipped: {skipped}")
+        print(f"out: {len(events) - skipped}")
         return events
 
 def get_files_for_scrapper(name: str) -> tuple[IO, IO, IO]:
