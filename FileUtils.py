@@ -90,15 +90,15 @@ def load_events(from_file = FileNames.EVENTS) -> List[EventInfo]:
         events_json = events_json["events"]
         events = []
         skipped = 0
-        print(f"in: {len(events_json)}")
         for event_json in events_json:
             event = EventInfo.from_dict(event_json)
             if event and not is_facebook_url_expired_now(event.image, event.source):
                 events.append(event)
             else:
                 skipped += 1
+        print(f"in: {len(events_json)}")
+        print(f"out: {len(events)}")
         print(f"skipped: {skipped}")
-        print(f"out: {len(events) - skipped}")
         return events
 
 def get_files_for_scrapper(name: str) -> tuple[IO, IO, IO]:
