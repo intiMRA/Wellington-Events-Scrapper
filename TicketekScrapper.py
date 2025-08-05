@@ -152,6 +152,8 @@ class TicketekScrapper:
         out_file.write("[\n")
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
+            if part[0] in previous_urls:
+                continue
             try:
                 events = TicketekScrapper.get_event(part[0], part[1], driver, previous_urls, banned_file)
                 if not events:
