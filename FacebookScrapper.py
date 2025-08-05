@@ -69,7 +69,7 @@ class FacebookScrapper:
             dates = []
             for match in matches:
                 try:
-                    dates.append(parser.parse(match))
+                    dates.append(parser.parse(f"{match} {hour}"))
                 except:
                     pass
             if verbose:
