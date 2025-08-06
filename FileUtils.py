@@ -1,5 +1,6 @@
 from typing import List, IO, Set
 
+import CurrentFestivals
 import FileNames
 import ScrapperNames
 from EventInfo import EventInfo
@@ -68,6 +69,8 @@ def write_to_events_file(data: List[EventInfo]):
     with open(FileNames.EVENTS, "r") as f:
         with open(FileNames.EVENTS_COPY, "w") as copy:
             copy.write(f.read())
+    with open(FileNames.CURRENT_FESTIVALS, "w") as f:
+        json.dump(CurrentFestivals.CURRENT_FESTIVALS, f, indent=2)
     with open(FileNames.EVENTS, "w") as write:
         write.write('{ "events":')
         json.dump(data, write, indent=2)
