@@ -294,10 +294,10 @@ class WoapScrapper:
         burgers_json = {
             "burgers": burger_dicts,
             "filters": {
-                "dietaryRequirements": list(dietary_requirements_filters),
+                "dietaryRequirements": sorted(list(dietary_requirements_filters)),
                 "priceRange": price_range,
-                "beerMatch": list(beer_match),
-                "proteins": list(proteins)
+                "beerMatch": sorted(list(beer_match)),
+                "proteins": sorted(list(proteins))
             }
         }
         with open("burgersCopy.json", mode="w") as cpy:

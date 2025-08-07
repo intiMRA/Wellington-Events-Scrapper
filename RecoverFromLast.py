@@ -1,4 +1,6 @@
 import json
+
+import FileNames
 import FileUtils
 import ScrapperFactory
 import ScrapperNames
@@ -8,6 +10,7 @@ data: List[EventInfo] = []
 loaded_urls: Set[str] = set()
 last_scrapper = FileUtils.load_last_scrapper()
 encountered_last_crapper = False
+previous_events = FileUtils.load_events(FileNames.EVENTS_FILTERED)
 for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
     if scrapper_name == last_scrapper:
         encountered_last_crapper = True
@@ -17,7 +20,7 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
         print(f"fetching {scrapper_name}...")
         print("-" * 100)
         scrapper = ScrapperFactory.get_event_scrapper(scrapper_name)
-        previous_list, previous_urls, previous_titles = ScrapperFactory.get_previous_events(scrapper_name)
+        previous_list, previous_urls, previous_titles = ScrapperFactory.get_previous_events(scrapper_name, previous_events)
         scrapper_events = (scrapper.fetch_events(previous_urls, previous_titles) + previous_list)
         for event in scrapper_events:
             loaded_urls.add(event.url)
@@ -25,7 +28,7 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
         print(f"fetched: {len(data)} events")
         print("-" * 200)
     else:
-        previous_list, _, _ = ScrapperFactory.get_previous_events(scrapper_name)
+        previous_list, _, _ = ScrapperFactory.get_previous_events(scrapper_name, previous_events)
         for event in previous_list:
             loaded_urls.add(event.url)
         data += previous_list

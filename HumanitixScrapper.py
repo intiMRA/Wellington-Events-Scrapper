@@ -86,7 +86,11 @@ class HumanitixScrapper:
         venue = venue.split("  ·  ")[0]
         print(f"venue: {venue}")
         dates: List[datetime] = HumanitixScrapper.get_dates_from_event(driver, multiple_dates)
-        description: str = driver.find_element(By.CLASS_NAME, "RichContent").text
+        description: str = ""
+        try:
+            description = driver.find_element(By.CLASS_NAME, "RichContent").text
+        except:
+            print("no description")
         return EventInfo(name=title,
                          image=image_url,
                          venue=venue,
