@@ -30,17 +30,18 @@ def is_facebook_url_expired_now(image_url: str, source: str):
         if expiration:
             return True
         else:
-            code = requests.request(url=image_url, method="GET").status_code
-            valid_code = code == 200
-            if valid_code:
-                return False
-            print(f"invalid fetch: {image_url}")
-            return True
+            return False
+            # code = requests.request(url=image_url, method="GET").status_code
+            # valid_code = code == 200
+            # if valid_code:
+            #     return False
+            # print(f"invalid fetch: {image_url}")
+            # return True
     except:
         return False
 
 
-def write_to_events_file(data: List[EventInfo]):
+def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
     events_dict = {}
 
     for event in data:
@@ -66,12 +67,13 @@ def write_to_events_file(data: List[EventInfo]):
         "sources": sorted(list(sources)),
         "eventTypes": event_types,
     }
-    with open(FileNames.EVENTS, "r") as f:
-        with open(FileNames.EVENTS_COPY, "w") as copy:
-            copy.write(f.read())
+    if file == FileNames.EVENTS:
+        with open(FileNames.EVENTS, "r") as f:
+            with open(FileNames.EVENTS_COPY, "w") as copy:
+                copy.write(f.read())
     with open(FileNames.CURRENT_FESTIVALS, "w") as f:
         json.dump(CurrentFestivals.CURRENT_FESTIVALS, f, indent=2)
-    with open(FileNames.EVENTS, "w") as write:
+    with open(file, "w") as write:
         write.write('{ "events":')
         json.dump(data, write, indent=2)
         write.write(',')
@@ -95,7 +97,7 @@ def load_events(from_file = FileNames.EVENTS) -> List[EventInfo]:
         skipped = 0
         for event_json in events_json:
             event = EventInfo.from_dict(event_json)
-            if event and not is_facebook_url_expired_now(event.image, event.source):
+            if event and (from_file != FileNames.EVENTS or not is_facebook_url_expired_now(event.image, event.source)):
                 events.append(event)
             else:
                 skipped += 1

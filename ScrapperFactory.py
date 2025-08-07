@@ -1,6 +1,5 @@
 from typing import Any, List, Set, Optional
 
-import FileUtils
 from EventFinderScrapper import EventFinderScrapper
 from EventbriteScrapper import EventbriteScrapper
 from FacebookScrapper import FacebookScrapper
@@ -16,9 +15,6 @@ from WellingtonNZScrapper import WellingtonNZScrapper
 from WoapScrapper import WoapScrapper
 from EventInfo import EventInfo
 import ScrapperNames
-
-previous_event_titles = FileUtils.load_events()
-
 
 def get_event_scrapper(scrapper_name: str) -> Any:
     if scrapper_name == ScrapperNames.WELLINGTON_NZ:
@@ -50,10 +46,10 @@ def get_event_scrapper(scrapper_name: str) -> Any:
     raise Exception(f"No scrapper found for {scrapper_name}")
 
 EXCLUDE_PREVIOUS = [ScrapperNames.WOAP]
-def get_previous_events(scrapper_name: str) -> tuple[List[EventInfo], Set[str], Optional[Set[str]]]:
+def get_previous_events(scrapper_name: str, previous_events: List[EventInfo]) -> tuple[List[EventInfo], Set[str], Optional[Set[str]]]:
     if scrapper_name in EXCLUDE_PREVIOUS:
         return [], set(), set()
-    previous_scrapper_events = [event for event in previous_event_titles if
+    previous_scrapper_events = [event for event in previous_events if
                                 event.source == scrapper_name]
     previous_scrapper_events = [event for event in previous_scrapper_events if event is not None]
     return previous_scrapper_events, set([event.url for event in previous_scrapper_events]), set(
