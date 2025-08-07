@@ -272,7 +272,7 @@ class WoapScrapper:
                     dietary_requirements=dietary_requirements,
                     url=burger_url,
                     sides_included=dict["sidesIncluded"],
-                    main_protein=re.sub(r"\s*\(.*\)", "", dict["mainProtein"])
+                    main_protein=re.sub(",", ", ", re.sub(r"\s*\(.*\)", "", dict["mainProtein"]))
                 )
                 burgers.append(burger)
         dietary_requirements_filters = set()
@@ -283,7 +283,8 @@ class WoapScrapper:
         for burger in burgers:
             for requirement in burger.dietary_requirements:
                 dietary_requirements_filters.add(requirement)
-            beer_match.add(burger.beer_match)
+            if burger.beer_match:
+                beer_match.add(burger.beer_match)
             price_range["min"] = min(price_range["min"], burger.price)
             price_range["max"] = max(price_range["max"], burger.price)
             for protein in burger.main_protein.split(","):
