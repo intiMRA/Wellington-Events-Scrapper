@@ -3570,7 +3570,7 @@
       "description": "Conscious Valley Farms Xi\u2019an-style braised lamb with pickled daikon and crispy onions in a housemade rou jia mo bun, with chilli and lime\u2013salted waffle fries and birria consom\u00e9 dip. \r\n\r\nVegan alternative: Mushroom House oyster mushrooms and pulled jackfruit",
       "price": 23.0,
       "beerMatchPrice": 35.0,
-      "mealAvailable": "Lunch and Dinner",
+      "mealAvailable": "Dinner",
       "beerMatch": "Repeat Offender (NZ Pilsner)",
       "venue": "Lola Rouge Restaurant & Bar, 213-223 Cuba Street, Wellington",
       "coordinates": {
@@ -4455,10 +4455,10 @@
   ],
   "filters": {
     "dietaryRequirements": [
+      "Dairy Free Available",
+      "Gluten Free Available",
       "Nut Free Available",
       "Vegan Available",
-      "Gluten Free Available",
-      "Dairy Free Available",
       "Vegetarian Available"
     ],
     "priceRange": {
@@ -4466,34 +4466,34 @@
       "max": 37.0
     },
     "beerMatch": [
-      "Ginger Kisses (Ginger Crunch Stout)",
       "Chillax (XPA)",
-      "Repeat Offender (NZ Pilsner)",
-      "Hard Case (Cider)",
-      "Red Rascal (Red IPA)",
       "Expatriate (APA)",
-      "Smooth Operator (Cream Ale)",
-      "Thirst Crush (Peach IPA)",
-      "Tinyken (Non-Alc Hazy IPA)",
-      "The Classic (Lager)",
+      "Ginger Kisses (Ginger Crunch Stout)",
+      "Hard Case (Cider)",
       "Love Handles (Strawberry Daiquiri Sour)",
       "Mouth Party (Hazy IPA)",
       "Naughty Hopper (IPA)",
-      "Tiny Terror (Low ABV Hazy IPA)"
+      "Red Rascal (Red IPA)",
+      "Repeat Offender (NZ Pilsner)",
+      "Smooth Operator (Cream Ale)",
+      "The Classic (Lager)",
+      "Thirst Crush (Peach IPA)",
+      "Tiny Terror (Low ABV Hazy IPA)",
+      "Tinyken (Non-Alc Hazy IPA)"
     ],
     "proteins": [
-      "Fish",
       "Beef",
       "Chicken",
-      "Venison",
-      "Other",
       "Duck",
-      "Sweet/Dessert",
-      "Pork",
-      "Veggie",
-      "Seafood",
+      "Fish",
+      "Lamb",
       "Meat Alternative",
-      "Lamb"
+      "Other",
+      "Pork",
+      "Seafood",
+      "Sweet/Dessert",
+      "Veggie",
+      "Venison"
     ]
   }
 }
