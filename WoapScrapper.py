@@ -1,6 +1,8 @@
 import math
 import random
 from typing import Optional, Set, List, Any
+
+import FileNames
 from Buger import Burger
 from EventInfo import EventInfo
 import requests
@@ -280,6 +282,7 @@ class WoapScrapper:
         proteins = set()
         price_range = {"min": math.inf, "max": 0}
         burger_dicts = []
+        burgers = sorted(burgers,key=lambda b:  b.name)
         for burger in burgers:
             for requirement in burger.dietary_requirements:
                 dietary_requirements_filters.add(requirement)
@@ -300,11 +303,11 @@ class WoapScrapper:
                 "proteins": sorted(list(proteins))
             }
         }
-        with open("burgersCopy.json", mode="w") as cpy:
-            with open("burgers.json", mode="r") as f:
+        with open(FileNames.BURGERS_COPY, mode="w") as cpy:
+            with open(FileNames.BURGERS, mode="r") as f:
                 cpy.write(f.read())
 
-        with open("burgers.json", mode="w") as f:
+        with open(FileNames.BURGERS, mode="w") as f:
             json.dump(burgers_json, f, indent=2)
 
     @staticmethod
