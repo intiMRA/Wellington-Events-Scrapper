@@ -183,14 +183,17 @@ class TicketmasterScrapper:
             if "Multiple" in date_string:
                 driver.execute_script(f"window.scrollBy(0, 1000);")
                 sleep(random.uniform(3, 7))
-                iframe_element = driver.find_element(By.XPATH, "//iframe[@title='Event Dates Calendar']")
-                driver.switch_to.frame(iframe_element)
-                days = driver.find_elements(By.XPATH, "//td[@aria-disabled='false']")
-                for day in days:
-                    ds = day.get_attribute("aria-label")
-                    parts = ds.split(",")
-                    ds = f"{parts[1]} {parts[2]} 1:01AM"
-                    dates.append(parser.parse(ds))
+                try:
+                    iframe_element = driver.find_element(By.XPATH, "//iframe[@title='Event Dates Calendar']")
+                    driver.switch_to.frame(iframe_element)
+                    days = driver.find_elements(By.XPATH, "//td[@aria-disabled='false']")
+                    for day in days:
+                        ds = day.get_attribute("aria-label")
+                        parts = ds.split(",")
+                        ds = f"{parts[1]} {parts[2]} 1:01AM"
+                        dates.append(parser.parse(ds))
+                except:
+                    dates = []
             else:
                 print(f"new date format found for{url}")
             print(image_url)
