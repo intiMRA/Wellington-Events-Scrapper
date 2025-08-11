@@ -48,12 +48,12 @@ class TicketekScrapper:
                 if "wellington" in venue_text.lower():
                     sub_events_urls.append(sub_url)
                 else:
-                    print("banning because not in wellington")
+                    print(f"banning {sub_url} because not in wellington")
                     json.dump(sub_url, banned_file, indent=2)
                     banned_file.write(",\n")
             if not sub_events_urls:
-                print("banning because not urls found")
-                json.dump(sub_url, banned_file, indent=2)
+                print(f"banning {url} because not urls found")
+                json.dump(url, banned_file, indent=2)
                 banned_file.write(",\n")
                 return []
             sub_driver = uc.Chrome(
@@ -74,11 +74,11 @@ class TicketekScrapper:
             if not events_info:
                 json.dump(url, banned_file, indent=2)
                 banned_file.write(",\n")
-                print("none in wellington")
+                print(f"banning {url} because none in wellington")
             return events_info
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
         if url in previous_urls:
-            print("banning because event was already fetched")
+            print(f"banning {url} because event was already fetched")
             json.dump(url, banned_file, indent=2)
             banned_file.write(",\n")
             return []
@@ -166,7 +166,7 @@ class TicketekScrapper:
             except Exception as e:
                 if "No dates found for" in str(e):
                     print("-" * 100)
-                    print("banning because no date was found")
+                    print(f"banning {part[0]} because no date was found")
                     json.dump(part[0], banned_file, indent=2)
                     banned_file.write(",\n")
                     print(e)
