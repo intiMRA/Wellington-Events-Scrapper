@@ -30,13 +30,12 @@ def is_facebook_url_expired_now(image_url: str, source: str):
         if expiration:
             return True
         else:
-            return False
-            # code = requests.request(url=image_url, method="GET").status_code
-            # valid_code = code == 200
-            # if valid_code:
-            #     return False
-            # print(f"invalid fetch: {image_url}")
-            # return True
+            code = requests.request(url=image_url, method="GET").status_code
+            valid_code = code == 200
+            if valid_code:
+                return False
+            print(f"invalid fetch: {image_url}")
+            return True
     except:
         return False
 
