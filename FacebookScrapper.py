@@ -235,28 +235,8 @@ class FacebookScrapper:
         return event_urls
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        # Path to your Chrome profile directory
-        profile_path = "~/ChromeTestProfile"  # Replace with your actual path
-        # Set Chrome options
-        options = Options()
-        options.add_argument(f"user-data-dir={profile_path}")
-
-        # Initialize the ChromeDriver
-        driver = webdriver.Chrome(options=options)
-        start_date = datetime.now()
-        start_date_string = start_date.strftime("%Y-%m-%d")
-        start_date_string += "T05%3A00%3A00.000Z"
-        end_date = start_date + relativedelta(days=15)
-        end_date_string = end_date.strftime("%Y-%m-%d")
-        end_date_string += "T05%3A00%3A00.000Z"
-        category_urls = set()
-        # category_urls = FileUtils.load_from_files(ScrapperNames.FACEBOOK)[1]
-        events = []
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.FACEBOOK)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.FACEBOOK)))
+    def get_urls(urls_file, driver, start_date_string, end_date_string, previous_urls, category_urls) -> Set[tuple[str, str]]:
         urls_file.write("[\n")
-        out_file.write("[\n")
         driver.get(
             f"https://www.facebook.com/events/?"
             f"date_filter_option=CUSTOM_DATE_RANGE"
@@ -320,11 +300,41 @@ class FacebookScrapper:
         sleep(1)
         category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, urls_file, scroll_increment=5000))
         urls_file.write("]\n")
+        return category_urls
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        # Path to your Chrome profile directory
+        profile_path = "~/ChromeTestProfile"  # Replace with your actual path
+        # Set Chrome options
+        options = Options()
+        options.add_argument(f"user-data-dir={profile_path}")
+
+        # Initialize the ChromeDriver
+        driver = webdriver.Chrome(options=options)
+        start_date = datetime.now()
+        start_date_string = start_date.strftime("%Y-%m-%d")
+        start_date_string += "T05%3A00%3A00.000Z"
+        end_date = start_date + relativedelta(days=15)
+        end_date_string = end_date.strftime("%Y-%m-%d")
+        end_date_string += "T05%3A00%3A00.000Z"
+        fetch_urls = True
+        category_urls = set()
+        # category_urls = FileUtils.load_from_files(ScrapperNames.FACEBOOK)[1]
+        events = []
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.FACEBOOK)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.FACEBOOK)))
+        if fetch_urls:
+            category_urls = FacebookScrapper.get_urls(urls_file, driver, start_date_string, end_date_string, previous_urls, category_urls)
+        else:
+            json.dump(list(category_urls), urls_file, indent=2)
         num_events = len(category_urls)
         print(f"fetching: {num_events}")
         count = 1
+        out_file.write("[\n")
         for part in category_urls:
             print(f"category: {part[1]} url: {part[0]}")
+            if part[0] in previous_urls:
+                continue
             try:
                 event = FacebookScrapper.get_event(part[0], part[1], driver, banned_file)
                 if event:
