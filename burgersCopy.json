@@ -1199,7 +1199,7 @@
       "description": "Wagyu brisket blend beef patty, with American cheese, onions, pickles and habanero sauce, mustard, and ketchup in a Brezelmania milk hot dog bun.",
       "price": 18.0,
       "beerMatchPrice": null,
-      "mealAvailable": "Lunch and Dinner",
+      "mealAvailable": "Lunch",
       "beerMatch": "",
       "venue": "Tot\u014d, 88 The Terrace, Wellington",
       "coordinates": {
@@ -2201,8 +2201,7 @@
         "long": 174.7791878
       },
       "dietaryRequirements": [
-        "Nut Free Available",
-        "Gluten Free Available"
+        "Nut Free Available"
       ],
       "mainProtein": "Chicken",
       "sidesIncluded": true,
@@ -2294,7 +2293,7 @@
       "id": "JI9vsC2ZSd6lXvKNdotx-g",
       "name": "Love Is in the Air",
       "image": "https://goodcms.s3.amazonaws.com/woap/event/ChocBurger4-3-250522-104737.jpeg",
-      "description": "Handcrafted marshmallow filled with maraschino cherries and covered in Wellington Chocolate Factory chocolate in a housemade brookie bun.\r\n\r\nDesigned to release a gentle plume of smoke when opened, this burger experience lives up to its name - Love Is in the Air. With the option to pre-order a custom-printed compostable pouch, it\u2019s a giftable gesture made for sharing with someone you love.",
+      "description": "Handcrafted marshmallow filled with maraschino cherries and covered in Wellington Chocolate Factory chocolate in a housemade brookie bun.\r\n\r\nDesigned to release a gentle plume of smoke when opened, this burger experience lives up to its name - Love Is in the Air. With the option to pre-order a custom-printed compostable pouch, it\u2019s a giftable gesture made for sharing with someone you love. To pre-order, visit our website https://wcf.co.nz/products/custom-woap-burger",
       "price": 12.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch",
@@ -3904,8 +3903,7 @@
       },
       "dietaryRequirements": [
         "Dairy Free Available",
-        "Nut Free Available",
-        "Gluten Free Available"
+        "Nut Free Available"
       ],
       "mainProtein": "Beef",
       "sidesIncluded": false,
