@@ -333,7 +333,7 @@ class FacebookScrapper:
         out_file.write("[\n")
         for part in category_urls:
             print(f"category: {part[1]} url: {part[0]}")
-            if part[0] in previous_urls:
+            if (not fetch_urls) and part[0] in previous_urls:
                 continue
             try:
                 event = FacebookScrapper.get_event(part[0], part[1], driver, banned_file)
