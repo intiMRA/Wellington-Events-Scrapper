@@ -31240,9 +31240,9 @@
     "name": "Blossom Valley",
     "imageUrl": "https://wellingtonnz.bynder.com/transform/463a2011-c188-48b0-9080-56ec38c002b7/Blossom-Valley-Day-2022-11?io=transform:fill,width:576,height:450",
     "venue": "Aston Norwood Gardens, Wellington, New Zealand",
-    "coordinates": {
-      "lat": -41.2887953,
-      "long": 174.7772114
+     "coordinates": {
+      "lat": -41.0784881,
+      "long": 175.1842117
     },
     "dates": [
       "2025-09-21-01:01",
