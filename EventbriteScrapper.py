@@ -151,92 +151,16 @@ class EventbriteScrapper:
                          description=description)
 
     @staticmethod
-    def get_events(driver: webdriver, previous_urls: Set[str], category: str, out_file, urls_file, banned_file) -> List[
-        EventInfo]:
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str]]:
         current_page = 1
-        events = []
-        event_urls: Set[str] = set()
-        while True:
-            next_url = re.sub(r"page=\d+", f"page={current_page}", driver.current_url)
-            driver.get(next_url)
-            try:
-                sleep(1)
-                pagination = driver.find_element(By.XPATH, "//li[@data-testid='pagination-parent']")
-                first_page, last_page = pagination.text.split(" of ")
-                first_page = int(first_page)
-                last_page = int(last_page)
-                if first_page > last_page:
-                    break
-            except Exception as e:
-                print(f"error finding paginstion: {e}")
-            current_page += 1
-            # search-event
-            cards = driver.find_elements(By.XPATH, "//div[@data-testid='search-event']")
-            for card in cards:
-                title_tag = card.find_element(By.CLASS_NAME, "event-card-link ")
-                event_url = title_tag.get_attribute("href")
-                texts = card.text.split("\n")
-
-                tags = [
-                    "Sales end soon",
-                    "Selling quickly",
-                    "Nearly full",
-                    "Just added",
-                    "Not Yet On Sale"
-                ]
-
-                sold_tags = [
-                    "Sold Out",
-                    "Sales Ended",
-                    "Unavailable"
-                ]
-                if texts[0] in sold_tags:
-                    continue
-                if texts[0] in tags:
-                    texts = texts[1:]
-                if len(texts) < 3:
-                    continue
-                if event_url in previous_urls or event_url in event_urls:
-                    continue
-                previous_urls.add(event_url)
-                event_urls.add(event_url)
-                json.dump(event_url, urls_file)
-                urls_file.write(",\n")
-        for url in event_urls:
-            print(f"category: {category} url: {url}")
-            try:
-                event: Optional[EventInfo] = EventbriteScrapper.get_event(url, driver, category, banned_file)
-                if event:
-                    events.append(event)
-                    json.dump(event.to_dict(), out_file, indent=2)
-                    out_file.write(",\n")
-            except Exception as e:
-                if "No dates found for" in str(e):
-                    json.dump(url, banned_file, indent=2)
-                    banned_file.write(",\n")
-                    previous_urls.add(url)
-                    print("-" * 100)
-                    print(e)
-                else:
-                    print("-" * 100)
-                    raise e
-            print("_" * 100)
-        return events
-
-    @staticmethod
-    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        events = []
-        driver = webdriver.Chrome()
+        urls = set()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')
-        cats = EventbriteScrapper.get_categories(driver)
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_BRITE)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
-        out_file.write("[\n")
+        categories = EventbriteScrapper.get_categories(driver)
         urls_file.write("[\n")
-        total_cats = len(cats)
+        total_cats = len(categories)
         cat_count = 1
-        for cat in cats:
-            cat_name, link = cat
+        for category in categories:
+            cat_name, link = category
             print(f"fetching: {cat_name}, {cat_count} out of {total_cats}")
             cat_count += 1
             print("_" * 100)
@@ -248,12 +172,87 @@ class EventbriteScrapper:
                        + f"/?page=1&start_date={start_date.year}-{start_date.month}-{start_date.day}"
                          f"&end_date={end_date.year}-{end_date.month}-{end_date.day}")
             driver.get(new_url)
-            events += EventbriteScrapper.get_events(driver, previous_urls, cat_name, out_file, urls_file, banned_file)
+            while True:
+                next_url = re.sub(r"page=\d+", f"page={current_page}", driver.current_url)
+                driver.get(next_url)
+                try:
+                    sleep(1)
+                    pagination = driver.find_element(By.XPATH, "//li[@data-testid='pagination-parent']")
+                    first_page, last_page = pagination.text.split(" of ")
+                    first_page = int(first_page)
+                    last_page = int(last_page)
+                    if first_page > last_page:
+                        break
+                except Exception as e:
+                    print(f"error finding paginstion: {e}")
+                current_page += 1
+                # search-event
+                cards = driver.find_elements(By.XPATH, "//div[@data-testid='search-event']")
+                for card in cards:
+                    title_tag = card.find_element(By.CLASS_NAME, "event-card-link ")
+                    event_url = title_tag.get_attribute("href")
+                    texts = card.text.split("\n")
+
+                    tags = [
+                        "Sales end soon",
+                        "Selling quickly",
+                        "Nearly full",
+                        "Just added",
+                        "Not Yet On Sale"
+                    ]
+
+                    sold_tags = [
+                        "Sold Out",
+                        "Sales Ended",
+                        "Unavailable"
+                    ]
+                    if texts[0] in sold_tags:
+                        continue
+                    if texts[0] in tags:
+                        texts = texts[1:]
+                    if len(texts) < 3:
+                        continue
+                    if event_url in previous_urls:
+                        continue
+                    previous_urls.add(event_url)
+                    url_tuple = (event_url, cat_name)
+                    urls.add(url_tuple)
+                    json.dump(url_tuple, urls_file)
+                    urls_file.write(",\n")
+        urls_file.write("]\n")
+        return urls
+
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        events = []
+        driver = webdriver.Chrome()
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_BRITE)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
+        categories = EventbriteScrapper.get_urls(driver, previous_urls, urls_file)
+        out_file.write("[\n")
+        for category in categories:
+            url, category_name = category
+            print(f"category: {category_name} url: {url}")
+            try:
+                event: Optional[EventInfo] = EventbriteScrapper.get_event(url, driver, category_name, banned_file)
+                if event:
+                    events.append(event)
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
+            except Exception as e:
+                if "No dates found for" in str(e):
+                    json.dump(url, banned_file, indent=2)
+                    banned_file.write(",\n")
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
+            print("_" * 100)
         driver.close()
         out_file.write("]\n")
-        urls_file.write("]\n")
         out_file.close()
         urls_file.close()
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.test(), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
