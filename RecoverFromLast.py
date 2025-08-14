@@ -6,6 +6,7 @@ import ScrapperFactory
 import ScrapperNames
 from EventInfo import EventInfo
 from typing import List, Set
+
 data: List[EventInfo] = []
 loaded_urls: Set[str] = set()
 last_scrapper = FileUtils.load_last_scrapper()
@@ -20,7 +21,8 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
         print(f"fetching {scrapper_name}...")
         print("-" * 100)
         scrapper = ScrapperFactory.get_event_scrapper(scrapper_name)
-        previous_list, previous_urls, previous_titles = ScrapperFactory.get_previous_events(scrapper_name, previous_events)
+        previous_list, previous_urls, previous_titles = ScrapperFactory.get_previous_events(scrapper_name,
+                                                                                            previous_events)
         scrapper_events = (scrapper.fetch_events(previous_urls, previous_titles) + previous_list)
         for event in scrapper_events:
             loaded_urls.add(event.url)
@@ -34,7 +36,7 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
         data += previous_list
 
 for file in FileUtils.all_event_file_names():
-    print(f"proccessing: {file}")
+    print(f"processing: {file}")
     with open(file, mode="r") as f:
         file_text = f.read()
         if not file_text:

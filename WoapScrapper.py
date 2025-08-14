@@ -12,6 +12,7 @@ from datetime import datetime
 from time import sleep
 import re
 
+
 class WoapScrapper:
     @staticmethod
     def make_request(batch: List[str]) -> tuple[dict[str, Any], float]:
@@ -215,32 +216,32 @@ class WoapScrapper:
         burgers = []
         for batch in batches:
             response = WoapScrapper.make_request(batch)[0]
-            for dict in response["data"]["allListings"]:
-                dict_venue = dict["venue"]
+            for response_dict in response["data"]["allListings"]:
+                dict_venue = response_dict["venue"]
                 venue_name = dict_venue['name']
                 venue_address = dict_venue['address1']
                 venue_suburb = dict_venue['suburb']
                 venue = f"{venue_name}, {venue_address}, {venue_suburb}"
                 coordinates = {"lat": dict_venue["coordinates"]["latitude"],
                                "long": dict_venue["coordinates"]["longitude"]}
-                lunch = dict["availableForLunch"]
-                dinner = dict["availableForDinner"]
+                lunch = response_dict["availableForLunch"]
+                dinner = response_dict["availableForDinner"]
                 meal_available = "Dinner"
                 if lunch and dinner:
                     meal_available = "Lunch and Dinner"
                 elif lunch:
                     meal_available = "Lunch"
                 dietary_requirements = []
-                dairy_free = dict["dairyFree"]
-                dairy_free_possible = dict["dairyFreePossible"]
-                vegetarian = dict["vegetarian"]
-                vegetarian_possible = dict["vegetarianPossible"]
-                vegan = dict["vegan"]
-                vegan_possible = dict["veganPossible"]
-                nut_free = dict["nutFree"]
-                nut_free_possible = dict["nutFreePossible"]
-                gluten_free = dict["glutenFree"]
-                gluten_free_possible = dict["glutenFreePossible"]
+                dairy_free = response_dict["dairyFree"]
+                dairy_free_possible = response_dict["dairyFreePossible"]
+                vegetarian = response_dict["vegetarian"]
+                vegetarian_possible = response_dict["vegetarianPossible"]
+                vegan = response_dict["vegan"]
+                vegan_possible = response_dict["veganPossible"]
+                nut_free = response_dict["nutFree"]
+                nut_free_possible = response_dict["nutFreePossible"]
+                gluten_free = response_dict["glutenFree"]
+                gluten_free_possible = response_dict["glutenFreePossible"]
                 if dairy_free_possible or dairy_free:
                     dietary_requirements.append("Dairy Free Available")
 
@@ -256,25 +257,25 @@ class WoapScrapper:
                 if gluten_free_possible or gluten_free:
                     dietary_requirements.append("Gluten Free Available")
 
-                kickerberry_id = dict["kickerberryId"]
+                kickerberry_id = response_dict["kickerberryId"]
                 venue_slug = dict_venue["slug"]
                 burger_url = f"https://visawoap.com/venue/{venue_slug}/{kickerberry_id}"
 
                 burger = Burger(
-                    id=dict["id"],
-                    name=dict["name"],
-                    description=dict["description"],
-                    image=dict["image"],
-                    beer_match=dict["beerMatch"],
+                    id=response_dict["id"],
+                    name=response_dict["name"],
+                    description=response_dict["description"],
+                    image=response_dict["image"],
+                    beer_match=response_dict["beerMatch"],
                     coordinates=coordinates,
-                    price=dict["price"],
+                    price=response_dict["price"],
                     venue=venue,
                     meal_available=meal_available,
-                    beer_match_price=dict["beerMatchPrice"],
+                    beer_match_price=response_dict["beerMatchPrice"],
                     dietary_requirements=dietary_requirements,
                     url=burger_url,
-                    sides_included=dict["sidesIncluded"],
-                    main_protein=re.sub(",", ", ", re.sub(r"\s*\(.*\)", "", dict["mainProtein"]))
+                    sides_included=response_dict["sidesIncluded"],
+                    main_protein=re.sub(",", ", ", re.sub(r"\s*\(.*\)", "", response_dict["mainProtein"]))
                 )
                 burgers.append(burger)
         dietary_requirements_filters = set()
@@ -282,7 +283,7 @@ class WoapScrapper:
         proteins = set()
         price_range = {"min": math.inf, "max": 0}
         burger_dicts = []
-        burgers = sorted(burgers,key=lambda b:  b.name)
+        burgers = sorted(burgers, key=lambda b: b.name)
         for burger in burgers:
             for requirement in burger.dietary_requirements:
                 dietary_requirements_filters.add(requirement)
@@ -360,7 +361,6 @@ class WoapScrapper:
             sleep(random.uniform(1, 3))
         WoapScrapper.fetch_burgers()
         return events
-
 
 # events = WoapScrapper.fetch_events(set(), set())
 # WoapScrapper.fetch_burgers()

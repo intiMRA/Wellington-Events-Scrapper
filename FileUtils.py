@@ -11,6 +11,7 @@ import pytz
 from datetime import datetime
 import requests
 
+
 def is_facebook_url_expired_now(image_url: str, source: str):
     if not image_url or source != "Facebook":
         return False
@@ -80,15 +81,18 @@ def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
         json.dump(filters, write, indent=2)
         write.write('}')
 
+
 def write_last_scrapper(scrapper_name: str):
     with open(FileNames.LAST_SCRAPPER, mode="w") as f:
         f.write(scrapper_name)
+
 
 def load_last_scrapper() -> str:
     with open(FileNames.LAST_SCRAPPER, mode="r") as f:
         return f.read()
 
-def load_events(from_file = FileNames.EVENTS) -> List[EventInfo]:
+
+def load_events(from_file=FileNames.EVENTS) -> List[EventInfo]:
     with open(from_file, mode="r") as f:
         events_json = json.loads(f.read())
         events_json = events_json["events"]
@@ -105,10 +109,12 @@ def load_events(from_file = FileNames.EVENTS) -> List[EventInfo]:
         print(f"skipped: {skipped}")
         return events
 
+
 def get_files_for_scrapper(name: str) -> tuple[IO, IO, IO]:
     return (open(f"{name}Events.json", mode="w"),
             open(f"{name}Urls.json", mode="w"),
             open(f"{name}Banned.json", mode="a"))
+
 
 def load_from_files(name: str) -> tuple[List[EventInfo], List, List]:
     events: List[EventInfo] = []
@@ -118,15 +124,17 @@ def load_from_files(name: str) -> tuple[List[EventInfo], List, List]:
         events = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
     with open(f"{name}Urls.json", mode="r") as f:
         urls = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
-    with open(f"{name}Banned.json",mode="r") as f:
+    with open(f"{name}Banned.json", mode="r") as f:
         file_text = f.read()[0:-2]
         banned_urls = json.loads(f"[{file_text}]")
     return events, urls, banned_urls
 
+
 def load_banned(name: str) -> Set[str]:
-    with open(f"{name}Banned.json",mode="r") as f:
+    with open(f"{name}Banned.json", mode="r") as f:
         file_text = f.read()[0:-2]
         return json.loads(f"[{file_text}]")
+
 
 def all_event_file_names() -> List[str]:
     names = []

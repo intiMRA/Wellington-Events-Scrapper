@@ -114,6 +114,7 @@ class TicketmasterScrapper:
                 if sub_text:
                     return re.sub(r"Event Info", "", sub_text)
             return None
+
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
@@ -236,12 +237,14 @@ class TicketmasterScrapper:
                              event_type=category,
                              description=description)
         return None
+
     @staticmethod
-    def get_urls(previous_urls: set, previous_titles: set, from_file: bool, urls_file) ->List[tuple[str, str]]:
+    def get_urls(previous_urls: set, previous_titles: set, from_file: bool, urls_file) -> List[tuple[str, str]]:
         event_urls: List[tuple[str, str]] = []
         if from_file:
             return FileUtils.load_from_files(ScrapperNames.TICKET_MASTER)[1]
         urls_file.write("[\n")
+
         class PossibleKeys(str, Enum):
             id = 'id'
             total = 'total'
@@ -319,7 +322,7 @@ class TicketmasterScrapper:
                 for event in data[PossibleKeys.events]:
                     event_url = event[PossibleKeys.url]
                     title = event[PossibleKeys.title]
-                    if event_url in previous_urls or  title in previous_titles:
+                    if event_url in previous_urls or title in previous_titles:
                         continue
                     previous_titles.add(title)
                     previous_urls.add(event_url)
@@ -335,7 +338,6 @@ class TicketmasterScrapper:
                 count += 1
         urls_file.write("]\n")
         return event_urls
-
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
@@ -373,7 +375,7 @@ class TicketmasterScrapper:
                 else:
                     print("-" * 100)
                     raise e
-            print("-"*100)
+            print("-" * 100)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()

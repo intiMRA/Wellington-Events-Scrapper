@@ -35,8 +35,8 @@ class EventbriteScrapper:
                 parts = e.text.split("\n")
                 if len(parts) > 3:
                     parts = parts[1:]
-                    dateString = parts[0] + " " + parts[1] + " " + parts[2]
-                    dates.append(DateFormatting.replace_year(parser.parse(dateString)))
+                    date_string = parts[0] + " " + parts[1] + " " + parts[2]
+                    dates.append(DateFormatting.replace_year(parser.parse(date_string)))
             return dates
         except:
             try:
@@ -45,14 +45,15 @@ class EventbriteScrapper:
                 parts: List[str] = date_string.split(",")[-1].split("-")
                 date_string = parts[0].strip().replace(" · ", " ")
                 if not re.findall(r'[AaMmpP]{2}', date_string):
-                    amPm = parts[-1].strip()
-                    amPm = re.findall(r"[AaMmpP]{2}", amPm)[0]
-                    date_string = f"{date_string} {amPm}"
+                    am_pm = parts[-1].strip()
+                    am_pm = re.findall(r"[AaMmpP]{2}", am_pm)[0]
+                    date_string = f"{date_string} {am_pm}"
                 print(date_string)
                 return [parser.parse(date_string)]
             except:
                 try:
-                    availability_button: WebElement = driver.find_element(By.XPATH, "//button[contains(., 'Check availability')]")
+                    availability_button: WebElement = driver.find_element(By.XPATH,
+                                                                          "//button[contains(., 'Check availability')]")
                     availability_button.click()
                     sleep(5)
                     print("finding from modem")
@@ -150,7 +151,8 @@ class EventbriteScrapper:
                          description=description)
 
     @staticmethod
-    def get_events(driver: webdriver, previous_urls: Set[str], category: str, out_file, urls_file, banned_file) -> List[EventInfo]:
+    def get_events(driver: webdriver, previous_urls: Set[str], category: str, out_file, urls_file, banned_file) -> List[
+        EventInfo]:
         current_page = 1
         events = []
         event_urls: Set[str] = set()
@@ -183,12 +185,12 @@ class EventbriteScrapper:
                     "Not Yet On Sale"
                 ]
 
-                soldTags = [
+                sold_tags = [
                     "Sold Out",
                     "Sales Ended",
                     "Unavailable"
                 ]
-                if texts[0] in soldTags:
+                if texts[0] in sold_tags:
                     continue
                 if texts[0] in tags:
                     texts = texts[1:]
@@ -231,9 +233,12 @@ class EventbriteScrapper:
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
         out_file.write("[\n")
         urls_file.write("[\n")
+        total_cats = len(cats)
+        cat_count = 1
         for cat in cats:
             cat_name, link = cat
-            print("fetching: ", cat_name)
+            print(f"fetching: {cat_name}, {cat_count} out of {total_cats}")
+            cat_count += 1
             print("_" * 100)
             driver.get(link)
             start_date = datetime.now()

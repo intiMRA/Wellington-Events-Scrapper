@@ -66,7 +66,8 @@ class WellingtonHighschoolScrapper:
                          description=description)
 
     @staticmethod
-    def get_events(url: str, previous_urls: Set[str], category: str, driver: webdriver, urls_file, out_file, banned_file) -> List[EventInfo]:
+    def get_events(url: str, previous_urls: Set[str], category: str, driver: webdriver, urls_file, out_file,
+                   banned_file) -> List[EventInfo]:
         events: List[EventInfo] = []
         driver.get(url)
         urls_file.write("[\n")
@@ -125,13 +126,13 @@ class WellingtonHighschoolScrapper:
         out_file.write("[\n")
         for category in categories:
             category_name, url = category
-            events += WellingtonHighschoolScrapper.get_events(url, previous_urls, category_name, driver, urls_file, out_file, banned_file)
+            events += WellingtonHighschoolScrapper.get_events(url, previous_urls, category_name, driver, urls_file,
+                                                              out_file, banned_file)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()
         banned_file.close()
         driver.close()
         return events
-
 
 # events = list(map(lambda x: x.to_dict(), sorted(WelxlingtonHighschoolScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

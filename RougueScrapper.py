@@ -9,6 +9,7 @@ from dateutil import parser
 from typing import List, Set, Optional
 import json
 
+
 class RougueScrapper:
     @staticmethod
     def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
@@ -37,6 +38,7 @@ class RougueScrapper:
                          source=ScrapperNames.ROGUE_AND_VAGABOND,
                          event_type="Music",
                          description=description)
+
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.ROGUE_AND_VAGABOND)

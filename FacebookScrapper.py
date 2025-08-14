@@ -85,6 +85,7 @@ class FacebookScrapper:
         if verbose:
             print(f"facebook: {date}")
         return []
+
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver, banned_file) -> Optional[EventInfo]:
         driver.get(url)
@@ -151,15 +152,17 @@ class FacebookScrapper:
         print(title)
         print(venue)
         return EventInfo(name=title,
-                          image=image_url,
-                          venue=venue,
-                          dates=dates,
-                          url=url,
-                          source="Facebook",
-                          event_type=category,
-                          description=long_desc)
+                         image=image_url,
+                         venue=venue,
+                         dates=dates,
+                         url=url,
+                         source="Facebook",
+                         event_type=category,
+                         description=long_desc)
+
     @staticmethod
-    def slow_scroll_to_bottom_other(driver, previous_urls: Set[str], out_urls_file, scroll_increment=300) -> Set[tuple[str, str]]:
+    def slow_scroll_to_bottom_other(driver, previous_urls: Set[str], out_urls_file, scroll_increment=300) -> Set[
+        tuple[str, str]]:
         event_urls: Set[tuple[str, str]] = set()
         html = driver.find_elements(By.TAG_NAME, 'a')
         old_length = len(html)
@@ -197,7 +200,8 @@ class FacebookScrapper:
         return event_urls
 
     @staticmethod
-    def slow_scroll_to_bottom(driver: webdriver, category: str, previous_urls: Set[str], out_urls_file, scroll_increment=300) -> Set[tuple[str, str]]:
+    def slow_scroll_to_bottom(driver: webdriver, category: str, previous_urls: Set[str], out_urls_file,
+                              scroll_increment=300) -> Set[tuple[str, str]]:
         event_urls: Set[tuple[str, str]] = set()
         html = driver.find_elements(By.TAG_NAME, 'a')
         old_length = len(html)
@@ -235,7 +239,8 @@ class FacebookScrapper:
         return event_urls
 
     @staticmethod
-    def get_urls(urls_file, driver, start_date_string, end_date_string, previous_urls, category_urls) -> Set[tuple[str, str]]:
+    def get_urls(urls_file, driver, start_date_string, end_date_string, previous_urls, category_urls) -> Set[
+        tuple[str, str]]:
         urls_file.write("[\n")
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -277,7 +282,8 @@ class FacebookScrapper:
             driver.execute_script("arguments[0].scrollIntoView(true);", cat_button)
             cat_button.click()
             sleep(1)
-            category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file))
+            category_urls = category_urls.union(
+                FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file))
             cat_button.click()
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -288,7 +294,8 @@ class FacebookScrapper:
             f"&end_date={end_date_string}")
         sleep(1)
 
-        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, urls_file, scroll_increment=5000))
+        category_urls = category_urls.union(
+            FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, urls_file, scroll_increment=5000))
 
         driver.get(
             f"https://www.facebook.com/events/?"
@@ -298,9 +305,11 @@ class FacebookScrapper:
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
         sleep(1)
-        category_urls = category_urls.union(FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, urls_file, scroll_increment=5000))
+        category_urls = category_urls.union(
+            FacebookScrapper.slow_scroll_to_bottom_other(driver, previous_urls, urls_file, scroll_increment=5000))
         urls_file.write("]\n")
         return category_urls
+
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         # Path to your Chrome profile directory
@@ -324,7 +333,8 @@ class FacebookScrapper:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.FACEBOOK)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.FACEBOOK)))
         if fetch_urls:
-            category_urls = FacebookScrapper.get_urls(urls_file, driver, start_date_string, end_date_string, previous_urls, category_urls)
+            category_urls = FacebookScrapper.get_urls(urls_file, driver, start_date_string, end_date_string,
+                                                      previous_urls, category_urls)
         else:
             json.dump(list(category_urls), urls_file, indent=2)
         num_events = len(category_urls)

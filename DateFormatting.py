@@ -5,6 +5,7 @@ import pytz
 
 nz_tz = pytz.timezone("Pacific/Auckland")
 
+
 class DateFormatting:
     @staticmethod
     def format_display_date(date: datetime) -> str:
@@ -43,5 +44,5 @@ class DateFormatting:
             return pds
 
     @staticmethod
-    def clean_up_date(dateString: str) -> str:
-        return re.sub(r'(\d+)(ST|ND|RD|TH)', r'\1', dateString, flags=re.IGNORECASE)
+    def clean_up_date(date_tring: str) -> str:
+        return re.sub(r'(\d+)(ST|ND|RD|TH)', r'\1', date_tring, flags=re.IGNORECASE)

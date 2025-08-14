@@ -14,10 +14,11 @@ from selenium.webdriver.support.wait import WebDriverWait
 from typing import List, Optional, Set
 import json
 
+
 class HumanitixScrapper:
 
     @staticmethod
-    def get_dates_from_event(driver: webdriver, multiple_dates: bool)-> List[datetime]:
+    def get_dates_from_event(driver: webdriver, multiple_dates: bool) -> List[datetime]:
         dates: List[datetime] = []
         driver.maximize_window()
         driver.execute_script("window.scrollTo(200, 500);")
@@ -63,6 +64,7 @@ class HumanitixScrapper:
             else:
                 print("single date: ", date_string)
             return dates
+
     @staticmethod
     def format_input(input_string):
         if not input_string:
@@ -75,7 +77,8 @@ class HumanitixScrapper:
         driver.get(url)
         title: str = driver.find_element(By.CLASS_NAME, "titlewrapper").text.split("\n")[0]
         try:
-            image_url: str = driver.find_element(By.CLASS_NAME, "banner").find_element(By.TAG_NAME, "img").get_attribute('src')
+            image_url: str = driver.find_element(By.CLASS_NAME, "banner").find_element(By.TAG_NAME,
+                                                                                       "img").get_attribute('src')
         except:
             image_url = ""
         try:
@@ -120,7 +123,8 @@ class HumanitixScrapper:
                 url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
                 driver.get(url)
                 sleep(random.uniform(1, 2))
-                _ = WebDriverWait(driver, 10, poll_frequency=1).until(ec.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
+                _ = WebDriverWait(driver, 10, poll_frequency=1).until(
+                    ec.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
                 height = driver.execute_script("return document.body.scrollHeight")
                 scrolled_amount = 0
                 while True:
@@ -168,7 +172,7 @@ class HumanitixScrapper:
                 else:
                     print("-" * 100)
                     raise e
-            print("-"*100)
+            print("-" * 100)
         out_file.write("]\n")
         urls_file.write("]\n")
         urls_file.close()

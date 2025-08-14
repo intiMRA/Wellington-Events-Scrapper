@@ -51,7 +51,8 @@ class ValhallaScrapper:
                          description=description)
 
     @staticmethod
-    def slow_scroll_to_bottom(driver, previous_urls: Set[str], out_file, urls_file, banned_file, scroll_increment=300) -> List[EventInfo]:
+    def slow_scroll_to_bottom(driver, previous_urls: Set[str], out_file, urls_file, banned_file,
+                              scroll_increment=300) -> List[EventInfo]:
         events: List[EventInfo] = []
         height = driver.execute_script("return document.body.scrollHeight")
         scrolled_amount = 0
@@ -107,11 +108,11 @@ class ValhallaScrapper:
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.VALHALLA)))
         driver = webdriver.Chrome()
         driver.get("https://www.valhallatavern.com/events-1")
-        events = ValhallaScrapper.slow_scroll_to_bottom(driver, previous_urls,out_file, urls_file, banned_file, scroll_increment=1000)
+        events = ValhallaScrapper.slow_scroll_to_bottom(driver, previous_urls, out_file, urls_file, banned_file,
+                                                        scroll_increment=1000)
         out_file.close()
         urls_file.close()
         banned_file.close()
         return events
-
 
 # events = list(map(lambda x: x.to_dict(), sorted(ValhallaScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

@@ -1,7 +1,9 @@
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
-from sumy.summarizers.lex_rank import LexRankSummarizer # Or LsaSummarizer, TextRankSummarizer, etc.
+from sumy.summarizers.lex_rank import LexRankSummarizer  # Or LsaSummarizer, TextRankSummarizer, etc.
 import nltk
+
+
 def sumerize(description) -> str:
     try:
         nltk.data.find('tokenizers/punkt')
