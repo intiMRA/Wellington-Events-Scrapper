@@ -2,6 +2,7 @@ from geopy.geocoders import Nominatim
 from typing import Optional
 import re
 
+
 class CoordinatesMapper:
     @staticmethod
     def get_coordinates(address: str) -> Optional[dict[str, str]]:
@@ -11,8 +12,7 @@ class CoordinatesMapper:
         regexes = [
             r"(\d+\s*st|\d+\s*th)\s*[fF]{1}loor",
             r"(\d+\s*st|\d+\s*th)\s*[Ll]{1}evel",
-            r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)",
-            r"#?[Ll](?:evel)?\s?(\d+)|\s*#?(\d+)"
+            r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)"
         ]
         geolocator = Nominatim(user_agent="wellington_events")
         for clean_up in clean_ups:

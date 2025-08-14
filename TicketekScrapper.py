@@ -14,6 +14,7 @@ from typing import List, Optional, Set
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 class TicketekScrapper:
     @staticmethod
     def extract_date(driver: webdriver) -> List[datetime]:
@@ -29,7 +30,8 @@ class TicketekScrapper:
         return dates
 
     @staticmethod
-    def get_event(url: str, category:str, driver: webdriver, previous_urls: Set[str], banned_file) -> Optional[List[EventInfo]]:
+    def get_event(url: str, category: str, driver: webdriver, previous_urls: Set[str], banned_file) -> Optional[
+        List[EventInfo]]:
         if url in previous_urls:
             return []
         driver.get(url)
@@ -120,14 +122,16 @@ class TicketekScrapper:
         )
         driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
         cats = driver.find_elements(By.CLASS_NAME, "cat-nav-item")
-        cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
+        cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if
+                len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
         cats.append(("Other", "Other"))
         event_urls: List[tuple[str, str]] = []
         for categoryName, categoryTag in cats:
             print(f"urls for categoryName: {categoryName}, categoryTag: {categoryTag}")
             page = 1
             while True:
-                driver.get(f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
+                driver.get(
+                    f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
                 buttons = driver.find_elements(By.CLASS_NAME, "resultBuyNow")
                 content_events = driver.find_elements(By.CLASS_NAME, "contentEvent")
                 for button, content_event in zip(buttons, content_events):
@@ -174,7 +178,7 @@ class TicketekScrapper:
                     print("-" * 100)
                     raise e
             sleep(random.uniform(1, 3))
-            print("-"*100)
+            print("-" * 100)
         out_file.write("]\n")
         out_file.close()
         banned_file.close()

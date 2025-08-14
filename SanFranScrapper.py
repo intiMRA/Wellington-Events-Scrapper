@@ -1,4 +1,3 @@
-
 import requests
 
 import FileUtils
@@ -8,6 +7,7 @@ import re
 from dateutil import parser
 from typing import List, Set, Optional
 import json
+
 
 class SanFranScrapper:
     # noinspection PyBroadException
@@ -68,7 +68,7 @@ class SanFranScrapper:
                     print(f"san fran: {event}")
                     print(e)
                     break
-                print("-"*100)
+                print("-" * 100)
             page += 1
 
 # events = list(map(lambda x: x.to_dict(), sorted(SanFranScrapper.fetch_events(), key=lambda k: k.name.strip())))

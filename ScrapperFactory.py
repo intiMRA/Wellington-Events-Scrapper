@@ -16,6 +16,7 @@ from WoapScrapper import WoapScrapper
 from EventInfo import EventInfo
 import ScrapperNames
 
+
 def get_event_scrapper(scrapper_name: str) -> Any:
     if scrapper_name == ScrapperNames.WELLINGTON_NZ:
         return WellingtonNZScrapper
@@ -45,8 +46,12 @@ def get_event_scrapper(scrapper_name: str) -> Any:
         return WoapScrapper
     raise Exception(f"No scrapper found for {scrapper_name}")
 
+
 EXCLUDE_PREVIOUS = [ScrapperNames.WOAP]
-def get_previous_events(scrapper_name: str, previous_events: List[EventInfo]) -> tuple[List[EventInfo], Set[str], Optional[Set[str]]]:
+
+
+def get_previous_events(scrapper_name: str, previous_events: List[EventInfo]) -> tuple[
+    List[EventInfo], Set[str], Optional[Set[str]]]:
     if scrapper_name in EXCLUDE_PREVIOUS:
         return [], set(), set()
     previous_scrapper_events = [event for event in previous_events if

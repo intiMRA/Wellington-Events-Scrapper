@@ -12,6 +12,7 @@ from EventInfo import EventInfo
 from dateutil import parser
 from typing import List, Set, Optional
 
+
 class UnderTheRaderScrapper:
     @staticmethod
     def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
@@ -103,7 +104,7 @@ class UnderTheRaderScrapper:
                 else:
                     print("-" * 100)
                     raise e
-            print("-"*100)
+            print("-" * 100)
         driver.close()
         out_file.write("]\n")
         out_file.close()

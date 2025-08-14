@@ -4,6 +4,7 @@ import ScrapperNames
 from EventInfo import EventInfo
 from typing import List
 import FileNames
+
 data: List[EventInfo] = []
 previous_events = FileUtils.load_events()
 FileUtils.write_to_events_file(previous_events, FileNames.EVENTS_FILTERED)
