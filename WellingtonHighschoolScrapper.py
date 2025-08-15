@@ -64,44 +64,31 @@ class WellingtonHighschoolScrapper:
                          source=ScrapperNames.WELLINGTON_HIGH_SCHOOL,
                          event_type=category,
                          description=description)
-
     @staticmethod
-    def get_events(url: str, previous_urls: Set[str], category: str, driver: webdriver, urls_file, out_file,
-                   banned_file) -> List[EventInfo]:
-        events: List[EventInfo] = []
-        driver.get(url)
+    def get_urls(previous_urls: Set[str], driver: webdriver, urls_file) -> Set[tuple[str, str]]:
         urls_file.write("[\n")
-        WellingtonHighschoolScrapper.slow_scroll_to_bottom(driver)
-        catalog = driver.find_element(By.CLASS_NAME, "catalogue")
-        elements = catalog.find_elements(By.CLASS_NAME, "catalogue-item")
-        event_urls: Set[str] = set()
-        for element in elements:
-            event_url = element.find_element(By.TAG_NAME, "a").get_attribute("href")
-            if event_url in event_urls or event_url in previous_urls:
-                continue
-            event_urls.add(event_url)
-            json.dump(url, urls_file, indent=2)
-            urls_file.write(",\n")
+        categories = WellingtonHighschoolScrapper.get_categories()
+        event_urls = set()
+        category_count = 1
+        for category_parts in categories:
+            category, url = category_parts
+            print(f"fetching: {category} {category_count} of {len(categories)}")
+            category_count += 1
+            driver.get(url)
+            WellingtonHighschoolScrapper.slow_scroll_to_bottom(driver)
+            catalog = driver.find_element(By.CLASS_NAME, "catalogue")
+            elements = catalog.find_elements(By.CLASS_NAME, "catalogue-item")
+            for element in elements:
+                event_url = element.find_element(By.TAG_NAME, "a").get_attribute("href")
+                if event_url in previous_urls:
+                    continue
+                previous_urls.add(event_url)
+                url_tuple = (event_url, category)
+                event_urls.add(url_tuple)
+                json.dump(url_tuple, urls_file, indent=2)
+                urls_file.write(",\n")
         urls_file.write("]\n")
-        for event_url in event_urls:
-            print(f"category: {category} url: {event_url}")
-            try:
-                event = WellingtonHighschoolScrapper.get_event(event_url, category, driver)
-                if event:
-                    events.append(event)
-                    json.dump(event.to_dict(), out_file, indent=2)
-                    out_file.write(",\n")
-            except Exception as e:
-                if "No dates found for" in str(e):
-                    print("-" * 100)
-                    print(e)
-                    json.dump(event_url, banned_file, indent=2)
-                    banned_file.write(",\n")
-                else:
-                    print("-" * 100)
-                    raise e
-            print("-" * 100)
-        return events
+        return event_urls
 
     @staticmethod
     def get_categories() -> List[Tuple[str, str]]:
@@ -120,14 +107,29 @@ class WellingtonHighschoolScrapper:
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.WELLINGTON_HIGH_SCHOOL)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.WELLINGTON_HIGH_SCHOOL)))
-        categories = WellingtonHighschoolScrapper.get_categories()
         driver = webdriver.Chrome()
-        events = []
+        event_urls = WellingtonHighschoolScrapper.get_urls(previous_urls, driver, urls_file)
+        events: List[EventInfo] = []
         out_file.write("[\n")
-        for category in categories:
-            category_name, url = category
-            events += WellingtonHighschoolScrapper.get_events(url, previous_urls, category_name, driver, urls_file,
-                                                              out_file, banned_file)
+        for parts in event_urls:
+            event_url, category = parts
+            print(f"category: {category} url: {event_url}")
+            try:
+                event = WellingtonHighschoolScrapper.get_event(event_url, category, driver)
+                if event:
+                    events.append(event)
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
+            except Exception as e:
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                    json.dump(event_url, banned_file, indent=2)
+                    banned_file.write(",\n")
+                else:
+                    print("-" * 100)
+                    raise e
+            print("-" * 100)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()

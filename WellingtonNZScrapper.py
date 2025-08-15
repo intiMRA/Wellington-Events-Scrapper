@@ -110,29 +110,60 @@ class WellingtonNZScrapper:
                          description=description)
 
     @staticmethod
-    def slow_scroll_to_bottom(driver, category: str, previous_urls: Set[str], urls_file, out_file, banned_file) -> List[
-        EventInfo]:
-        events = []
-        height = driver.execute_script("return document.body.scrollHeight")
-        scrolled_amount = 0
+    def get_urls(driver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str]]:
+        driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
+        driver.switch_to.window(driver.current_window_handle)
+        wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
+        _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
+        categories = driver.find_elements(By.CLASS_NAME, 'search-button-filter')
+
+        categories = [(cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]) for cat
+                      in categories]
+        number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
+        number_of_events = re.findall("\d+", number_of_events.text)
         event_urls: Set[tuple[str, str]] = set()
         urls_file.write("[\n")
-        while True:
-            if scrolled_amount > height:
-                break
-            driver.execute_script(f"window.scrollBy(0, {400});")
-            scrolled_amount += 400
-            raw_events = driver.find_elements(By.CLASS_NAME, 'grid-item')
-            for event in raw_events:
-                event_url = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
-                if event_url in previous_urls:
-                    continue
-                previous_urls.add(event_url)
-                event_urls.add((event_url, category))
-                json.dump((event_url, category), urls_file, indent=2)
-                urls_file.write(",\n")
+        cat_count = 1
+        for cat in categories:
+            print(f"fetching: {cat[0]} {cat_count} o ut of {len(categories)}")
+            category = cat[0]
+            cat_count += 1
+            page = 1
+            while number_of_events[0] != number_of_events[1]:
+                driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}&categories={category}')
+                _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
+                number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
+                number_of_events = re.findall("\d+", number_of_events.text)
+                page += 1
+            number_of_events = [0, 1]
+            height = driver.execute_script("return document.body.scrollHeight")
+            scrolled_amount = 0
+
+            while True:
+                if scrolled_amount > height:
+                    break
+                driver.execute_script(f"window.scrollBy(0, {400});")
+                scrolled_amount += 400
+                raw_events = driver.find_elements(By.CLASS_NAME, 'grid-item')
+                for event in raw_events:
+                    event_url = event.find_element(By.TAG_NAME, 'a').get_attribute('href')
+                    if event_url in previous_urls:
+                        continue
+                    previous_urls.add(event_url)
+                    event_urls.add((event_url, category))
+                    json.dump((event_url, category), urls_file, indent=2)
+                    urls_file.write(",\n")
         urls_file.write("]\n")
-        for part in event_urls:
+        return event_urls
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.WELLINGTON_NZ)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.WELLINGTON_NZ)))
+        driver = webdriver.Chrome()
+        events = []
+        urls = WellingtonNZScrapper.get_urls(driver, previous_urls, urls_file)
+        out_file.write("[\n")
+        for part in urls:
             print(f"category: {part[1]} url: {part[0]}")
             try:
                 event = WellingtonNZScrapper.get_event(part[0], part[1], driver)
@@ -149,42 +180,11 @@ class WellingtonNZScrapper:
                     print("-" * 100)
                     raise e
             print("-" * 100)
-        return events
-
-    @staticmethod
-    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.WELLINGTON_NZ)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.WELLINGTON_NZ)))
-        driver = webdriver.Chrome()
-        out_file.write("[\n")
-        driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
-        driver.switch_to.window(driver.current_window_handle)
-        wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
-        _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
-        categories = driver.find_elements(By.CLASS_NAME, 'search-button-filter')
-
-        categories = [(cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]) for cat
-                      in categories]
-        number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
-        number_of_events = re.findall("\d+", number_of_events.text)
-        events_info = []
-        for cat in categories:
-            cat = cat[0]
-            page = 1
-            while number_of_events[0] != number_of_events[1]:
-                driver.get(f'https://www.wellingtonnz.com/visit/events?mode=list&page={page}&categories={cat}')
-                _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
-                number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
-                number_of_events = re.findall("\d+", number_of_events.text)
-                page += 1
-            number_of_events = [0, 1]
-            events_info += WellingtonNZScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file, out_file,
-                                                                      banned_file)
         out_file.write("]\n")
         out_file.close()
         urls_file.close()
         banned_file.close()
         driver.close()
-        return events_info
+        return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(WellingtonNZScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

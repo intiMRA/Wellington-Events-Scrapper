@@ -13,7 +13,6 @@ from typing import List, Set, Optional
 from datetime import datetime
 from time import sleep
 
-
 class ValhallaScrapper:
     @staticmethod
     def get_dates(driver: webdriver) -> List[datetime]:
@@ -51,9 +50,8 @@ class ValhallaScrapper:
                          description=description)
 
     @staticmethod
-    def slow_scroll_to_bottom(driver, previous_urls: Set[str], out_file, urls_file, banned_file,
-                              scroll_increment=300) -> List[EventInfo]:
-        events: List[EventInfo] = []
+    def get_urls(driver, previous_urls: Set[str], urls_file, scroll_increment=300) -> Set[tuple[str, str]]:
+        driver.get("https://www.valhallatavern.com/events-1")
         height = driver.execute_script("return document.body.scrollHeight")
         scrolled_amount = 0
         event_urls: Set[tuple[str, str]] = set()
@@ -78,6 +76,17 @@ class ValhallaScrapper:
                 json.dump((url, image_url), urls_file, indent=2)
                 urls_file.write(",\n")
         urls_file.write("]\n")
+        return event_urls
+
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.VALHALLA)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.VALHALLA)))
+        driver = webdriver.Chrome()
+        event_urls = ValhallaScrapper.get_urls(driver, previous_urls, urls_file, 1000)
+
+        events: List[EventInfo] = []
+
         out_file.write("[\n")
         for part in event_urls:
             print(f"url: {part[0]}")
@@ -98,18 +107,7 @@ class ValhallaScrapper:
                     raise e
             print("-" * 100)
         out_file.write("]\n")
-        out_file.close()
         driver.close()
-        return events
-
-    @staticmethod
-    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.VALHALLA)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.VALHALLA)))
-        driver = webdriver.Chrome()
-        driver.get("https://www.valhallatavern.com/events-1")
-        events = ValhallaScrapper.slow_scroll_to_bottom(driver, previous_urls, out_file, urls_file, banned_file,
-                                                        scroll_increment=1000)
         out_file.close()
         urls_file.close()
         banned_file.close()

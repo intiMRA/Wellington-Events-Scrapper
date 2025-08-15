@@ -40,13 +40,9 @@ class RougueScrapper:
                          description=description)
 
     @staticmethod
-    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.ROGUE_AND_VAGABOND)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.ROGUE_AND_VAGABOND)))
+    def get_urls(driver: webdriver, previous_urls, urls_file) -> Set[str]:
         urls_file.write("[\n")
-        events_info: List[EventInfo] = []
-        driver = webdriver.Chrome()
-        event_urls: List[str] = []
+        event_urls: Set[str] = set()
         driver.get("https://rogueandvagabond.co.nz/")
         sleep(2)
         titles = driver.find_elements(By.CLASS_NAME, "vevent")
@@ -58,13 +54,21 @@ class RougueScrapper:
             json.dump(event_url, urls_file, indent=2)
             urls_file.write(",\n")
         urls_file.write("]\n")
+        return event_urls
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.ROGUE_AND_VAGABOND)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.ROGUE_AND_VAGABOND)))
+        driver = webdriver.Chrome()
+        event_urls = RougueScrapper.get_urls(driver, previous_urls, urls_file)
+        events = []
         out_file.write("[\n")
         for url in event_urls:
             print(f"url: {url}")
             try:
                 event = RougueScrapper.get_event(url, driver)
                 if event:
-                    events_info.append(event)
+                    events.append(event)
                     json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
@@ -80,6 +84,6 @@ class RougueScrapper:
         urls_file.close()
         banned_file.close()
         driver.close()
-        return events_info
+        return events
 
 # events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
