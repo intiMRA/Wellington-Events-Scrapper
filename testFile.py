@@ -12,9 +12,9 @@ loaded_urls: Set[str] = set()
 last_scrapper = FileUtils.load_last_scrapper()
 previous_events = FileUtils.load_events(FileNames.EVENTS_FILTERED)
 
-FileUtils.write_last_scrapper(ScrapperNames.EVENT_FINDER)
-scrapper = ScrapperFactory.get_event_scrapper(ScrapperNames.EVENT_FINDER)
-previous_list, previous_urls, previous_titles = ScrapperFactory.get_previous_events(ScrapperNames.EVENT_FINDER,
+FileUtils.write_last_scrapper(ScrapperNames.WELLINGTON_NZ)
+scrapper = ScrapperFactory.get_event_scrapper(ScrapperNames.WELLINGTON_NZ)
+previous_list, previous_urls, previous_titles = ScrapperFactory.get_previous_events(ScrapperNames.WELLINGTON_NZ,
                                                                                     previous_events)
 scrapper_events = (scrapper.fetch_events(previous_urls, previous_titles) + previous_list)
 data += scrapper_events
