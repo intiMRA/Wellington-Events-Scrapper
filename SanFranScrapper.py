@@ -16,7 +16,7 @@ class SanFranScrapper:
         events: List[EventInfo] = []
         page = 1
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.SAN_FRAN)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.SAN_FRAN)))
+        _ = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.SAN_FRAN)))
         out_file.write("[\n")
         while True:
             headers = {
