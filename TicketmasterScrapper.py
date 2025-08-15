@@ -144,9 +144,9 @@ class TicketmasterScrapper:
                 sleep(random.uniform(1, 3))
             divs = event_details.find_elements(By.TAG_NAME, "div")
             title = None
-            date_string = None
             venue = None
             description = TicketmasterScrapper.get_description(event_details)
+            dates = []
             for div in divs:
                 text = div.get_attribute("textContent")
                 if not venue and "Venue" in text:
@@ -155,12 +155,23 @@ class TicketmasterScrapper:
                     text = re.sub("Venue", ";", text)
                     text = text.split("Please")[0]
                     parts = text.split(";")
-                    title = parts[0]
-                    date_string = re.findall(r"\d{1,2}\s[aA-zZ]{3,4}\s\d{4},\s[0-9:]*\s[aAmMpP]{2}", parts[1])[0]
-                    venue = parts[2]
+                    title = None
+                    for part in parts:
+                        if parts and not title:
+                            title = part
+                        matches = re.findall(r"\d{1,2}\s*[aA-zZ]{3,4}\s*\d{4},\s*[0-9:]*\s*[aAmMpP]{2}", part)
+                        for match in matches:
+                            try:
+                                dates.append(parser.parse(match))
+                            except:
+                                print("no parts")
+                                print(part)
+                        venue = parts[-1]
+                    print(venue)
+                    print(dates)
                     break
-            dates = [parser.parse(date_string)]
             if not title or not venue:
+                print("no title")
                 return None
             return EventInfo(name=title,
                              image=image_url,

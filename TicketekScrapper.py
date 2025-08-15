@@ -19,6 +19,7 @@ class TicketekScrapper:
     @staticmethod
     def extract_date(driver: webdriver) -> List[datetime]:
         dates: List[datetime] = []
+        sleep(random.uniform(1, 2))
         date_string: str = driver.find_element(By.CLASS_NAME, "selectDateBlock").text.split("\n")[1]
         matches: List[str] = re.findall(r"\d{1,2}\s*[aA-zZ]{3,4}\s*\d{0,4}", date_string)
         hours: List[str] = re.findall(r"\{1,2}\s*:\s*\d{1,2}[aAmMpP]{0,2}", date_string)
@@ -78,6 +79,12 @@ class TicketekScrapper:
                 banned_file.write(",\n")
                 print(f"banning {url} because none in wellington")
             return events_info
+        try:
+            alert = driver.find_element(By.XPATH, "//p[contains(@class, 'alert-warning')]").text
+            if "unavailable" in alert:
+                return None
+        except:
+            pass
         title: str = driver.find_element(By.CLASS_NAME, "sectionHeading").text
         if url in previous_urls:
             print(f"banning {url} because event was already fetched")
@@ -100,13 +107,13 @@ class TicketekScrapper:
                           description=description)]
 
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file, out_file) -> Set[tuple[str, str]]:
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str]]:
         driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
         cats = driver.find_elements(By.CLASS_NAME, "cat-nav-item")
         cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if
                 len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
         cats.append(("Other", "Other"))
-        event_urls: Set[tuple[str, str]] = []
+        event_urls: Set[tuple[str, str]] = set()
         for categoryName, categoryTag in cats:
             print(f"urls for categoryName: {categoryName}, categoryTag: {categoryTag}")
             page = 1
@@ -156,9 +163,8 @@ class TicketekScrapper:
             headless=False,  # Headless mode is more easily detected
             use_subprocess=True
         )
-
+        event_urls = TicketekScrapper.get_urls(driver, previous_urls, urls_file)
         out_file.write("[\n")
-        event_urls = TicketekScrapper.get_urls(driver, previous_urls, urls_file, out_file)
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
             if part[0] in previous_urls:
