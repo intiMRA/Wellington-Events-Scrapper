@@ -100,6 +100,42 @@ class TicketekScrapper:
                           description=description)]
 
     @staticmethod
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file, out_file) -> Set[tuple[str, str]]:
+        driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
+        cats = driver.find_elements(By.CLASS_NAME, "cat-nav-item")
+        cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if
+                len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
+        cats.append(("Other", "Other"))
+        event_urls: Set[tuple[str, str]] = []
+        for categoryName, categoryTag in cats:
+            print(f"urls for categoryName: {categoryName}, categoryTag: {categoryTag}")
+            page = 1
+            while True:
+                driver.get(
+                    f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
+                buttons = driver.find_elements(By.CLASS_NAME, "resultBuyNow")
+                content_events = driver.find_elements(By.CLASS_NAME, "contentEvent")
+                for button, content_event in zip(buttons, content_events):
+                    event_url = button.find_element(By.TAG_NAME, "a").get_attribute("href")
+                    if event_url in previous_urls:
+                        continue
+                    event_urls.add((event_url, categoryName))
+                    json.dump((event_url, categoryName), urls_file, indent=2)
+                    urls_file.write(",\n")
+                page += 1
+                driver.execute_script(f"window.scrollTo({random.randint(0, 300)}, {random.randint(300, 700)});")
+                sleep(random.uniform(2, 3))
+                try:
+                    if driver.find_element(By.CLASS_NAME, "noResultsMessage"):
+                        break
+                except:
+                    pass
+                pagination = driver.find_element(By.CLASS_NAME, "paginationResults").text.split("-")[1]
+                start, end = pagination.split(" of ")
+                if start == end:
+                    break
+        return event_urls
+    @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.TICKETEK)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.TICKETEK)))
@@ -120,40 +156,9 @@ class TicketekScrapper:
             headless=False,  # Headless mode is more easily detected
             use_subprocess=True
         )
-        driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
-        cats = driver.find_elements(By.CLASS_NAME, "cat-nav-item")
-        cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if
-                len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
-        cats.append(("Other", "Other"))
-        event_urls: List[tuple[str, str]] = []
-        for categoryName, categoryTag in cats:
-            print(f"urls for categoryName: {categoryName}, categoryTag: {categoryTag}")
-            page = 1
-            while True:
-                driver.get(
-                    f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page}&c={categoryTag}")
-                buttons = driver.find_elements(By.CLASS_NAME, "resultBuyNow")
-                content_events = driver.find_elements(By.CLASS_NAME, "contentEvent")
-                for button, content_event in zip(buttons, content_events):
-                    event_url = button.find_element(By.TAG_NAME, "a").get_attribute("href")
-                    if event_url in previous_urls:
-                        continue
-                    event_urls.append((event_url, categoryName))
-                    json.dump((event_url, categoryName), urls_file, indent=2)
-                    urls_file.write(",\n")
-                page += 1
-                driver.execute_script(f"window.scrollTo({random.randint(0, 300)}, {random.randint(300, 700)});")
-                sleep(random.uniform(2, 3))
-                try:
-                    if driver.find_element(By.CLASS_NAME, "noResultsMessage"):
-                        break
-                except:
-                    pass
-                pagination = driver.find_element(By.CLASS_NAME, "paginationResults").text.split("-")[1]
-                start, end = pagination.split(" of ")
-                if start == end:
-                    break
+
         out_file.write("[\n")
+        event_urls = TicketekScrapper.get_urls(driver, previous_urls, urls_file, out_file)
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
             if part[0] in previous_urls:
