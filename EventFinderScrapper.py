@@ -1,3 +1,4 @@
+import random
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -55,7 +56,7 @@ class EventFinderScrapper:
             driver.get(url)
         except:
             pass
-
+        sleep(random.uniform(1, 2))
         driver.get(url)
         title: str = driver.find_element(By.CLASS_NAME, "value-title").text
         venue: str = driver.find_element(By.CLASS_NAME, "venue").text
@@ -192,13 +193,22 @@ class EventFinderScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        fetch_urls = True
+        urls = set()
+        if not fetch_urls:
+            urls = FileUtils.load_from_files(ScrapperNames.EVENT_FINDER)[1]
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_FINDER)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_FINDER)))
         driver = webdriver.Chrome()
-        urls = EventFinderScrapper.get_urls(driver, previous_urls, urls_file)
+        if fetch_urls:
+            urls = EventFinderScrapper.get_urls(driver, previous_urls, urls_file)
+        else:
+            json.dump(list(urls), urls_file, indent=2)
         events: List[EventInfo] = []
         out_file.write("[\n")
         for parts in urls:
+            if (not fetch_urls) and parts[0] in previous_urls:
+                continue
             url = parts[0]
             category = parts[1]
             print(f"category: {category} url: {url}")

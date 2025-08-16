@@ -280,7 +280,11 @@ class FacebookScrapper:
             print("cat: ", cat)
             cat_button = driver.find_element(By.XPATH, f"//span[contains(., '{cat}')]")
             driver.execute_script("arguments[0].scrollIntoView(true);", cat_button)
-            cat_button.click()
+            sleep(random.uniform(1, 2))
+            try:
+                cat_button.click()
+            except:
+                continue
             sleep(1)
             category_urls = category_urls.union(
                 FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file))
@@ -328,7 +332,8 @@ class FacebookScrapper:
         end_date_string += "T05%3A00%3A00.000Z"
         fetch_urls = True
         category_urls = set()
-        # category_urls = FileUtils.load_from_files(ScrapperNames.FACEBOOK)[1]
+        if not fetch_urls:
+            category_urls = FileUtils.load_from_files(ScrapperNames.FACEBOOK)[1]
         events = []
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.FACEBOOK)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.FACEBOOK)))

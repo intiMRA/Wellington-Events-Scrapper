@@ -102,20 +102,15 @@ class HumanitixScrapper:
                          source=ScrapperNames.HUMANITIX,
                          event_type=category,
                          description=description)
-
     @staticmethod
-    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.HUMANITIX)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.HUMANITIX)))
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str, bool]]:
         urls_file.write("[\n")
-        events: List[EventInfo] = []
-        driver = webdriver.Chrome()
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
         categories_button = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
         categories_button.click()
         categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
         categories = [(HumanitixScrapper.format_input(category.text), category.text) for category in categories]
-        event_urls: List[tuple[str, str, bool]] = []
+        event_urls: Set[tuple[str, str, bool]] = set()
         for category, categoryName in categories:
             print("cat: ", category, " ", categoryName)
             page = 0
@@ -148,14 +143,32 @@ class HumanitixScrapper:
                             multiple_dates = True
                             break
                     url_tuple = (event_url, categoryName, multiple_dates)
-                    event_urls.append(url_tuple)
+                    event_urls.add(url_tuple)
                     json.dump(url_tuple, urls_file, indent=2)
                     urls_file.write(",\n")
                 page += 1
                 sleep(random.uniform(1, 3))
+        urls_file.write("]\n")
+        return event_urls
 
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        fetch_urls = True
+        event_urls = set()
+        if not fetch_urls:
+            event_urls = FileUtils.load_from_files(ScrapperNames.HUMANITIX)[1]
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.HUMANITIX)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.HUMANITIX)))
+        events: List[EventInfo] = []
+        driver = webdriver.Chrome()
+        if fetch_urls:
+            event_urls = HumanitixScrapper.get_urls(driver, previous_urls, urls_file)
+        else:
+            json.dump(list(event_urls), urls_file, indent=2)
         out_file.write("[\n")
         for part in event_urls:
+            if (not fetch_urls) and part[0] in previous_urls:
+                continue
             print(f"category: {part[1]} url: {part[0]}")
             try:
                 event = HumanitixScrapper.get_event(part[0], part[1], part[2], driver)
@@ -174,7 +187,6 @@ class HumanitixScrapper:
                     raise e
             print("-" * 100)
         out_file.write("]\n")
-        urls_file.write("]\n")
         urls_file.close()
         banned_file.close()
         driver.close()
