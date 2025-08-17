@@ -50,7 +50,7 @@ class RougueScrapper:
             event_url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
             if event_url in previous_urls or event_url in event_urls:
                 continue
-            event_urls.append(event_url)
+            event_urls.add(event_url)
             json.dump(event_url, urls_file, indent=2)
             urls_file.write(",\n")
         urls_file.write("]\n")
