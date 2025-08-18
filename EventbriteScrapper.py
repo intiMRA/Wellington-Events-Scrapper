@@ -151,7 +151,7 @@ class EventbriteScrapper:
                          description=description)
 
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str]]:
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str]]:
         current_page = 1
         urls = set()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')

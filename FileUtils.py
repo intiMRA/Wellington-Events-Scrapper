@@ -1,4 +1,4 @@
-from typing import List, IO, Set
+from typing import List, IO, Set, Tuple
 
 import CurrentFestivals
 import FileNames
@@ -110,13 +110,13 @@ def load_events(from_file=FileNames.EVENTS) -> List[EventInfo]:
         return events
 
 
-def get_files_for_scrapper(name: str) -> tuple[IO, IO, IO]:
+def get_files_for_scrapper(name: str) -> Tuple[IO, IO, IO]:
     return (open(f"{name}Events.json", mode="w"),
             open(f"{name}Urls.json", mode="w"),
             open(f"{name}Banned.json", mode="a"))
 
 
-def load_from_files(name: str) -> tuple[List[EventInfo], List, List]:
+def load_from_files(name: str) -> Tuple[List[EventInfo], List, List]:
     events: List[EventInfo] = []
     urls = []
     banned_urls = []

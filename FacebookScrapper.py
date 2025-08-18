@@ -17,7 +17,7 @@ import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from dateutil.relativedelta import relativedelta
-from typing import List, Optional, Set
+from typing import List, Optional, Set, Tuple
 
 dotenv_path = Path('venv/.env')
 load_dotenv(dotenv_path=dotenv_path)
@@ -162,8 +162,8 @@ class FacebookScrapper:
 
     @staticmethod
     def slow_scroll_to_bottom_other(driver, previous_urls: Set[str], out_urls_file, scroll_increment=300) -> Set[
-        tuple[str, str]]:
-        event_urls: Set[tuple[str, str]] = set()
+        Tuple[str, str]]:
+        event_urls: Set[Tuple[str, str]] = set()
         html = driver.find_elements(By.TAG_NAME, 'a')
         old_length = len(html)
         while len(html) < 450:
@@ -201,8 +201,8 @@ class FacebookScrapper:
 
     @staticmethod
     def slow_scroll_to_bottom(driver: webdriver, category: str, previous_urls: Set[str], out_urls_file,
-                              scroll_increment=300) -> Set[tuple[str, str]]:
-        event_urls: Set[tuple[str, str]] = set()
+                              scroll_increment=300) -> Set[Tuple[str, str]]:
+        event_urls: Set[Tuple[str, str]] = set()
         html = driver.find_elements(By.TAG_NAME, 'a')
         old_length = len(html)
         while len(html) < 250:
@@ -240,7 +240,7 @@ class FacebookScrapper:
 
     @staticmethod
     def get_urls(urls_file, driver, start_date_string, end_date_string, previous_urls, category_urls) -> Set[
-        tuple[str, str]]:
+        Tuple[str, str]]:
         urls_file.write("[\n")
         driver.get(
             f"https://www.facebook.com/events/?"

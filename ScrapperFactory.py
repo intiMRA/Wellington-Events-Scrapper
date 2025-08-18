@@ -1,4 +1,4 @@
-from typing import Any, List, Set, Optional
+from typing import Any, List, Set, Optional, Tuple
 
 from EventFinderScrapper import EventFinderScrapper
 from EventbriteScrapper import EventbriteScrapper
@@ -50,7 +50,7 @@ def get_event_scrapper(scrapper_name: str) -> Any:
 EXCLUDE_PREVIOUS = [ScrapperNames.WOAP]
 
 
-def get_previous_events(scrapper_name: str, previous_events: List[EventInfo]) -> tuple[
+def get_previous_events(scrapper_name: str, previous_events: List[EventInfo]) -> Tuple[
     List[EventInfo], Set[str], Optional[Set[str]]]:
     if scrapper_name in EXCLUDE_PREVIOUS:
         return [], set(), set()

@@ -10,7 +10,7 @@ import ScrapperNames
 from EventInfo import EventInfo
 import re
 from dateutil import parser
-from typing import List, Optional, Set
+from typing import List, Optional, Set, Tuple
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -107,13 +107,13 @@ class TicketekScrapper:
                           description=description)]
 
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str]]:
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str]]:
         driver.get("https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
         cats = driver.find_elements(By.CLASS_NAME, "cat-nav-item")
         cats = [(cat.text, cat.get_attribute("href").split("c=")[-1]) for cat in cats if
                 len(cat.get_attribute("href").split("c=")) > 1 and len(cat.text) > 0]
         cats.append(("Other", "Other"))
-        event_urls: Set[tuple[str, str]] = set()
+        event_urls: Set[Tuple[str, str]] = set()
         for categoryName, categoryTag in cats:
             print(f"urls for categoryName: {categoryName}, categoryTag: {categoryTag}")
             page = 1

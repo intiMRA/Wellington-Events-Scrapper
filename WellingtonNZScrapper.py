@@ -13,7 +13,7 @@ import re
 from dateutil import parser
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-from typing import List, Set, Optional
+from typing import List, Set, Optional, Tuple
 import json
 
 
@@ -110,7 +110,7 @@ class WellingtonNZScrapper:
                          description=description)
 
     @staticmethod
-    def get_urls(driver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str]]:
+    def get_urls(driver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str]]:
         driver.get('https://www.wellingtonnz.com/visit/events?mode=list')
         driver.switch_to.window(driver.current_window_handle)
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
@@ -121,7 +121,7 @@ class WellingtonNZScrapper:
                       in categories]
         number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
         number_of_events = re.findall("\d+", number_of_events.text)
-        event_urls: Set[tuple[str, str]] = set()
+        event_urls: Set[Tuple[str, str]] = set()
         urls_file.write("[\n")
         cat_count = 1
         for cat in categories:

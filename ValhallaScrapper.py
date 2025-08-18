@@ -9,7 +9,7 @@ import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
-from typing import List, Set, Optional
+from typing import List, Set, Optional, Tuple
 from datetime import datetime
 from time import sleep
 
@@ -50,11 +50,11 @@ class ValhallaScrapper:
                          description=description)
 
     @staticmethod
-    def get_urls(driver, previous_urls: Set[str], urls_file, scroll_increment=300) -> Set[tuple[str, str]]:
+    def get_urls(driver, previous_urls: Set[str], urls_file, scroll_increment=300) -> Set[Tuple[str, str]]:
         driver.get("https://www.valhallatavern.com/events-1")
         height = driver.execute_script("return document.body.scrollHeight")
         scrolled_amount = 0
-        event_urls: Set[tuple[str, str]] = set()
+        event_urls: Set[Tuple[str, str]] = set()
         urls_file.write("[\n")
         while True:
             if scrolled_amount > height:
