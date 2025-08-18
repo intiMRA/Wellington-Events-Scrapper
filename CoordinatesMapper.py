@@ -1,11 +1,11 @@
 from geopy.geocoders import Nominatim
-from typing import Optional
+from typing import Optional, Dict
 import re
 
 
 class CoordinatesMapper:
     @staticmethod
-    def get_coordinates(address: str) -> Optional[dict[str, str]]:
+    def get_coordinates(address: str) -> Optional[Dict[str, str]]:
         clean_ups = [
             " - Mana"
         ]

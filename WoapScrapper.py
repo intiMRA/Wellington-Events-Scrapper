@@ -1,6 +1,6 @@
 import math
 import random
-from typing import Optional, Set, List, Any
+from typing import Optional, Set, List, Any, Dict, Tuple
 
 import FileNames
 from Buger import Burger
@@ -15,7 +15,7 @@ import re
 
 class WoapScrapper:
     @staticmethod
-    def make_request(batch: List[str]) -> tuple[dict[str, Any], float]:
+    def make_request(batch: List[str]) -> Tuple[Dict[str, Any], float]:
         url = 'https://graphql.datocms.com/'
         headers = {
             'accept': '*/*',
@@ -139,7 +139,7 @@ class WoapScrapper:
                         "long": float(venue_coordinates["longitude"])
                     }
 
-                sessions: List[dict[str, str]] = listing["sessionsNew"]
+                sessions: List[Dict[str, str]] = listing["sessionsNew"]
                 dates: List[datetime] = []
                 for session in sessions:
                     start = session["start"]

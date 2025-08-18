@@ -5,22 +5,21 @@ from DateFormatting import DateFormatting
 import pytz
 from CategoryMapping import CategoryMapping
 from dateutil import parser
-from typing import List, Optional
+from typing import List, Optional, Dict
 from CoordinatesMapper import CoordinatesMapper
 from bs4 import BeautifulSoup
-import re
 
 nz_tz = pytz.timezone("Pacific/Auckland")
 
 
 class EventInfo:
-    locationsCache: dict[str, Optional[dict[str, str]]] = {}
+    locationsCache: Dict[str, Optional[Dict[str, str]]] = {}
 
     id: str
     name: str
     image: str
     venue: str
-    coordinates: Optional[dict[str, float]]
+    coordinates: Optional[Dict[str, float]]
     dates: List[str]
     displayDate: str
     url: str
@@ -40,7 +39,7 @@ class EventInfo:
             event_type: str,
             description: str = "",
             long_description = "",
-            coordinates: Optional[dict[str, float]] = None,
+            coordinates: Optional[Dict[str, float]] = None,
             loaded_from_dict: bool = False):
         """
         @type name: str
@@ -136,7 +135,7 @@ class EventInfo:
             return None
 
     @staticmethod
-    def get_location(venue: str) -> Optional[dict[str, str]]:
+    def get_location(venue: str) -> Optional[Dict[str, str]]:
         if venue in EventInfo.locationsCache.keys():
             return EventInfo.locationsCache[venue]
         else:

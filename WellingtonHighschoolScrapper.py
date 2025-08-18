@@ -65,7 +65,7 @@ class WellingtonHighschoolScrapper:
                          event_type=category,
                          description=description)
     @staticmethod
-    def get_urls(previous_urls: Set[str], driver: webdriver, urls_file) -> Set[tuple[str, str]]:
+    def get_urls(previous_urls: Set[str], driver: webdriver, urls_file) -> Set[Tuple[str, str]]:
         urls_file.write("[\n")
         categories = WellingtonHighschoolScrapper.get_categories()
         event_urls = set()

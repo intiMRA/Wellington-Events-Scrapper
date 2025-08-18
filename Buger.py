@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Dict
 
 
 class Burger:
@@ -11,7 +11,7 @@ class Burger:
     meal_available: str
     beer_match: str
     venue: str
-    coordinates: dict[str, float]
+    coordinates: Dict[str, float]
     sides_included: bool
     main_protein: str
     dietary_requirements: List[str]
@@ -28,7 +28,7 @@ class Burger:
             meal_available: str,
             beer_match: str,
             venue: str,
-            coordinates: dict[str, float],
+            coordinates: Dict[str, float],
             sides_included: bool,
             main_protein: str,
             dietary_requirements: List[str],

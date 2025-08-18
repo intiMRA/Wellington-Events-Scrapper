@@ -11,7 +11,7 @@ from datetime import datetime
 from dateutil import parser
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
-from typing import List, Optional, Set
+from typing import List, Optional, Set, Tuple
 import json
 
 
@@ -103,14 +103,14 @@ class HumanitixScrapper:
                          event_type=category,
                          description=description)
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str, bool]]:
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str, bool]]:
         urls_file.write("[\n")
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
         categories_button = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
         categories_button.click()
         categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
         categories = [(HumanitixScrapper.format_input(category.text), category.text) for category in categories]
-        event_urls: Set[tuple[str, str, bool]] = set()
+        event_urls: Set[Tuple[str, str, bool]] = set()
         for category, categoryName in categories:
             print("cat: ", category, " ", categoryName)
             page = 0

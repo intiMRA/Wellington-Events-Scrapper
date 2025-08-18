@@ -16,7 +16,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
 import pytz
-from typing import List, Optional, Set
+from typing import List, Optional, Set, Tuple
 
 nz_timezone = pytz.timezone('Pacific/Auckland')
 majorCats = {
@@ -250,8 +250,8 @@ class TicketmasterScrapper:
         return None
 
     @staticmethod
-    def get_urls(previous_urls: set, previous_titles: set, from_file: bool, urls_file) -> List[tuple[str, str]]:
-        event_urls: List[tuple[str, str]] = []
+    def get_urls(previous_urls: set, previous_titles: set, from_file: bool, urls_file) -> List[Tuple[str, str]]:
+        event_urls: List[Tuple[str, str]] = []
         if from_file:
             return FileUtils.load_from_files(ScrapperNames.TICKET_MASTER)[1]
         urls_file.write("[\n")

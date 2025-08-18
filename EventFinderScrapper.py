@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 from DateFormatting import DateFormatting
 from dateutil import parser
 from dateutil.relativedelta import relativedelta
-from typing import List, Set, Optional
+from typing import List, Set, Optional, Tuple
 import json
 
 
@@ -130,7 +130,7 @@ class EventFinderScrapper:
         return date_objects
 
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[tuple[str, str]]:
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str]]:
         urls = set()
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
