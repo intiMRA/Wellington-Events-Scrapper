@@ -1,6 +1,26 @@
 class CategoryMapping:
     @staticmethod
     def map_category(category: str) -> str:
+        # 'Education & Learning',
+        # 'Business & Networking',
+        # 'Other',
+        # 'Music & Concerts',
+        # 'Arts & Theatre',
+        # 'Markets & Fairs',
+        # 'Food & Drink',
+        # 'Festivals',
+        # 'Photography & Visual Arts',
+        # 'Religion & Spirituality',
+        # 'Film & Media',
+        # 'Sports & Fitness',
+        # 'Health & Wellness',
+        # 'Conservation,
+        # Environment',
+        # 'Community & Culture',
+        # 'Hobbies & Interests',
+        # 'Government & Politics'
+        # Classes
+
         category_mapping = {
             "Community & Culture": "Community & Culture",
             "Charity & Causes": "Community & Culture",
