@@ -14,8 +14,7 @@ class CategoryMapping:
         # 'Film & Media',
         # 'Sports & Fitness',
         # 'Health & Wellness',
-        # 'Conservation,
-        # Environment',
+        # 'Conservation, Environment',
         # 'Community & Culture',
         # 'Hobbies & Interests',
         # 'Government & Politics'
