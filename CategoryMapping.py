@@ -18,7 +18,7 @@ class CategoryMapping:
         # 'Community & Culture',
         # 'Hobbies & Interests',
         # 'Government & Politics'
-        # Classes
+        # Family Friendly
 
         category_mapping = {
             "Community & Culture": "Community & Culture",
@@ -71,12 +71,12 @@ class CategoryMapping:
             "Health & Wellness": "Health & Wellness",
             "Science & Technology": "Education & Learning",
             "Public Talks & Tours": "Education & Learning",
-            "Circus": "Arts & Theatre",
+            "Circus": "Family Friendly",
             "Fashion & Beauty": "Community & Culture",
             "Theatre": "Arts & Theatre",
             "Food, Gourmet, Wine": "Food & Drink",
             "Soccer": "Sports & Fitness",
-            "Children, Kids, Holidays": "Community & Culture",
+            "Children, Kids, Holidays": "Family Friendly",
             "Covers, Tribute Bands": "Music & Concerts",
             "Gardening": "Hobbies & Interests",
             "Professional networking": "Business & Networking",
@@ -133,7 +133,7 @@ class CategoryMapping:
             "Make": "Hobbies & Interests",
             "Taste": "Food & Drink",
             "Explore": "Hobbies & Interests",
-            "Play": "Hobbies & Interests",
+            "Play": "Family Friendly",
             "Develop": "Education & Learning",
             "Short Talks": "Other",
             "Free courses": "Education & Learning",
