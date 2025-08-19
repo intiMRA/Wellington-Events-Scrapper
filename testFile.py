@@ -6,7 +6,7 @@ with open("events.json", mode="r") as events_file:
     events = [event for event in events if event["long_description"] and event["eventType"] != "Other"]
     with open(training_file_name, mode="r") as read_training_file:
         training_data = json.loads(read_training_file.read())
-        training_data += [{"description": event["name"] + ", " + event["long_description"], "label": event["eventType"]} for event in events if event]
+        training_data += [{"new": True, "description": event["name"] + ", " + event["long_description"], "label": event["eventType"]} for event in events if event]
         final = []
         for t in training_data:
             if t in final:

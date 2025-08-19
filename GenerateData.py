@@ -7,7 +7,7 @@ with open("events.json", mode="r") as events_file:
     with open(training_file_name, mode="r") as read_training_file:
         training_data = json.loads(read_training_file.read())
         descriptions = set([dictionary["description"] for dictionary in training_data])
-        training_data += [{"description": event["name"] + ", " + event["long_description"], "label": event["eventType"]}
+        training_data += [{"new": True, "description": event["name"] + ", " + event["long_description"], "label": event["eventType"]}
                           for event in events
                           if event and (event["name"] + ", " + event["long_description"]) not in descriptions]
         training_data = sorted(training_data, key=lambda k: k["label"])
