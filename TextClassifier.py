@@ -5,12 +5,18 @@ from keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences, to_categorical
 import json
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense, MaxPooling1D
+from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense
 from keras.callbacks import EarlyStopping
 
 training_data_file_name = "training_data.json"
 ai_data_file_name = "ai_generates.json"
-def get_data(file_name: str, max_sequence_length: int, tokenizer, lable_encoder):
+max_sequence_length = 1500
+num_words = 2000
+embedding_dim = 400
+tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
+label_encoder = LabelEncoder()
+
+def get_data(file_name: str):
     texts = []
     labels = []
     with open(file_name, mode="r") as f:
@@ -28,40 +34,64 @@ def get_data(file_name: str, max_sequence_length: int, tokenizer, lable_encoder)
 
         encoded_labels = label_encoder.fit_transform(labels)
 
-        num_classes = len(np.unique(encoded_labels))
+        number_of_classes = len(np.unique(encoded_labels))
 
-        one_hot_labels = to_categorical(encoded_labels, num_classes=num_classes)
+        one_hot_labels = to_categorical(encoded_labels, num_classes=number_of_classes)
 
-        X_train, X_test, y_train, y_test = train_test_split(padded_sequences, one_hot_labels, test_size=0.2,
+        x_train, x_test, y_train, y_test = train_test_split(padded_sequences, one_hot_labels, test_size=0.2,
                                                                 random_state=42)
-        return X_train, X_test, y_train, y_test, num_classes
+        return x_train, x_test, y_train, y_test, number_of_classes
+def predict_from_file(classification_model, file_name):
+    """
+    Predicts the labels for descriptions in a given file.
+    """
+    with open(file_name, mode="r") as f:
+        data = json.loads(f.read())
+        texts_to_predict = [item["description"] for item in data]
+        given_labels = [item["label"] for item in data]
 
-max_sequence_length = 1500
-num_words = 2000
-tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
-label_encoder = LabelEncoder()
-X_train, X_test, y_train, y_test, num_classes = get_data(training_data_file_name, max_sequence_length, tokenizer, label_encoder)
+    sequences = tokenizer.texts_to_sequences(texts_to_predict)
+    padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
 
-X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.1, random_state=42)
+    predictions = classification_model.predict(padded_sequences)
 
-X_train_ai, X_test_ai, y_train_ai, y_test_ai, num_classes_ai = get_data(ai_data_file_name, max_sequence_length, tokenizer, label_encoder)
+    predicted_labels = []
+    for predictions_array in predictions:
+        indecies = np.argpartition(predictions_array, -2)[-2:]
+        indecies = indecies[np.argsort(-predictions_array[indecies])]
+        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.1:
+            indecies = [indecies[0]]
+        predicted_labels.append(label_encoder.inverse_transform(indecies))
+
+    print("\n--- Predictions for unclassified data ---")
+    for i, text in enumerate(texts_to_predict):
+        print(f"Text: '{text}'")
+        print(f"Predicted Labels: {predicted_labels[i]}")
+        print(f"given Label: {given_labels[i]}")
+        print("-" * 20)
+    return predicted_labels
+
+X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name)
+
+X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
+
+X_train_ai, X_test_ai, Y_train_ai, Y_test_ai, num_classes_ai = get_data(ai_data_file_name)
 for v in X_train_ai:
     np.append(X_train, v)
 
-for v in y_train_ai:
-    np.append(y_train, v)
+for v in Y_train_ai:
+    np.append(Y_train, v)
 
 for v in X_test_ai:
-    np.append(X_test, v)
+    np.append(X_val, v)
 
-for v in y_test_ai:
-    np.append(y_test, v)
+for v in Y_test_ai:
+    np.append(Y_val, v)
 
-embedding_dim = 100
 
 model = Sequential()
 model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
-model.add(Conv1D(filters=512, kernel_size=1, activation='relu'))
+model.add(Conv1D(filters=512, kernel_size=3, activation='relu'))
 model.add(GlobalMaxPooling1D())
 model.add(Dense(units=64, activation='relu'))
 model.add(Dense(units=num_classes, activation='softmax'))
@@ -73,57 +103,23 @@ early_stopping_callback = EarlyStopping(
     patience=15,
     mode='min',
     restore_best_weights=True,
-    min_delta=0.0001,
-    start_from_epoch=30
+    min_delta=0.00001
 )
 
 model.fit(
-    X_train, y_train,
+    X_train, Y_train,
     epochs=100,
     batch_size=32,
-    validation_data=(X_val, y_val),
+    validation_data=(X_val, Y_val),
     callbacks=[early_stopping_callback],
     verbose=1
 )
 
-loss, accuracy = model.evaluate(X_test, y_test)
+loss, accuracy = model.evaluate(X_test, Y_test)
 print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
 
-# {'score': 0.6477272510528564, 'max_sequence_length': 1500, 'num_words': 2000}
-
-def predict_from_file(model, file_name, tokenizer, label_encoder, max_sequence_length):
-    """
-    Predicts the labels for descriptions in a given file.
-    """
-    with open(file_name, mode="r") as f:
-        data = json.loads(f.read())
-        texts_to_predict = [item["description"] for item in data]
-
-    # Preprocess the new texts using the same tokenizer
-    sequences = tokenizer.texts_to_sequences(texts_to_predict)
-    padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
-
-    # Make predictions
-    predictions = model.predict(padded_sequences)
-
-    # Convert predictions back to labels
-    predicted_labels = label_encoder.inverse_transform(np.argmax(predictions, axis=1))
-
-    # Display results
-    print("\n--- Predictions for unclassified data ---")
-    for i, text in enumerate(texts_to_predict):
-        print(f"Text: '{text}'")
-        print(f"Predicted Label: {predicted_labels[i]}")
-        print("-" * 20)
-
-    return predicted_labels
-
-
-# Make predictions on the unclassified file
-predicted_labels = predict_from_file(
+labels_out = predict_from_file(
     model,
-    "unclassified_data.json",
-    tokenizer,
-    label_encoder,
-    max_sequence_length
+    "unclassified_data.json"
 )
+model.save('trained_model')
