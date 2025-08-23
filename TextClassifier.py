@@ -48,7 +48,12 @@ def predict_from_file(classification_model, file_name):
     with open(file_name, mode="r") as f:
         data = json.loads(f.read())
         texts_to_predict = [item["description"] for item in data]
-        given_labels = [item["label"] for item in data]
+        given_labels = []
+        for item in data:
+            if "new" in item.keys():
+                given_labels.append(item["label"] + "\nnew")
+            else:
+                given_labels.append(item["label"])
 
     sequences = tokenizer.texts_to_sequences(texts_to_predict)
     padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
@@ -59,9 +64,16 @@ def predict_from_file(classification_model, file_name):
     for predictions_array in predictions:
         indecies = np.argpartition(predictions_array, -2)[-2:]
         indecies = indecies[np.argsort(-predictions_array[indecies])]
-        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.1:
+        if indecies[0] < 0.18:
+            indecies = []
+        elif predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
             indecies = [indecies[0]]
-        predicted_labels.append(label_encoder.inverse_transform(indecies))
+
+        if len(indecies) == 0:
+            predicted_labels.append([{"label": None, "confidence": f"Confidence 0%"}])
+        else:
+            label_dict = [{"label": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip(label_encoder.inverse_transform(indecies), indecies)]
+            predicted_labels.append(label_dict)
 
     print("\n--- Predictions for unclassified data ---")
     for i, text in enumerate(texts_to_predict):
@@ -100,10 +112,10 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 
 early_stopping_callback = EarlyStopping(
     monitor='val_loss',
-    patience=15,
+    patience=10,
     mode='min',
     restore_best_weights=True,
-    min_delta=0.00001
+    min_delta=0.0001
 )
 
 model.fit(
