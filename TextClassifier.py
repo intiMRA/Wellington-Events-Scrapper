@@ -95,10 +95,10 @@ for v in Y_train_ai:
     np.append(Y_train, v)
 
 for v in X_test_ai:
-    np.append(X_val, v)
+    np.append(X_train, v)
 
 for v in Y_test_ai:
-    np.append(Y_val, v)
+    np.append(Y_train, v)
 
 
 model = Sequential()

@@ -48,31 +48,11 @@
     "label": "Arts & Theatre"
   },
   {
-    "description": "The New Zealand National Art Awards, The New Zealand National Art Awards is a prestigious exhibition showcasing the best of contemporary art from across the country. Featuring a diverse range of paintings, sculptures, and mixed media works, the exhibition is a celebration of New Zealand's vibrant and dynamic art scene. A must-see for art lovers and collectors.",
-    "label": "Arts & Theatre"
-  },
-  {
-    "description": "The New Zealand International Jazz Festival: The Jazz Age, The New Zealand International Jazz Festival presents The Jazz Age, a glamorous and swinging tribute to the golden era of jazz. The show features a big band, vocalists, and dancers, recreating the sights and sounds of the 1920s and 30s. A high-energy and stylish performance that will get your toes tapping.",
-    "label": "Arts & Theatre"
-  },
-  {
     "description": "The New Zealand Symphony Orchestra: The Planets, The New Zealand Symphony Orchestra presents a spectacular performance of Holst's The Planets, a breathtaking musical journey through the solar system. The concert features a full orchestra, chorus, and stunning visual projections, creating an immersive and unforgettable experience. A must-see for classical music lovers.",
     "label": "Arts & Theatre"
   },
   {
-    "description": "The New Zealand Film Festival: The Kiwi Film Showcase, The New Zealand Film Festival presents The Kiwi Film Showcase, a selection of the best new films from New Zealand's most talented filmmakers. The showcase features a diverse range of genres, from drama and comedy to documentary and experimental film, celebrating the unique voices of New Zealand cinema. A great way to support local talent.",
-    "label": "Arts & Theatre"
-  },
-  {
     "description": "The New Zealand International Comedy Festival: The Rising Stars, The Rising Stars showcase at the New Zealand International Comedy Festival features a handpicked lineup of the country's most promising new comedians. Get a glimpse of the future of comedy as these talented performers take the stage to share their fresh jokes and unique perspectives. A great way to discover new talent before they hit the big time.",
-    "label": "Arts & Theatre"
-  },
-  {
-    "description": "The Wellington Writers' Festival: Poetry Slam, The Wellington Writers' Festival hosts an electrifying poetry slam, where poets compete for prizes and bragging rights. The audience votes for their favorite performances, making it a high-energy and interactive event. A great opportunity to hear from some of the country's most talented and passionate spoken word artists.",
-    "label": "Arts & Theatre"
-  },
-  {
-    "description": "Auckland Arts Festival: The Immersive Art Experience, The Immersive Art Experience is a stunning exhibition that uses technology and art to create a world of wonder. Artists from around the globe use light, sound, and interactive elements to transport you to a different dimension. A truly unique and unforgettable experience for art lovers of all ages.",
     "label": "Arts & Theatre"
   },
   {
@@ -121,10 +101,6 @@
   },
   {
     "description": "Building Your Digital Presence: A Masterclass for Professionals, Learn the essentials of personal branding in the digital age. This masterclass will teach you how to optimize your LinkedIn profile, create engaging content, and build a professional online presence that attracts opportunities. Ideal for career-driven individuals and business owners looking to expand their network.",
-    "label": "Business & Networking"
-  },
-  {
-    "description": "The Business of Creativity: A Workshop for Artists & Makers, A workshop designed for creative professionals who want to turn their passion into a sustainable career. Learn practical skills in pricing your work, marketing your brand, and managing the finances of a creative business. This is a space to connect with other artists and share your journey from passion project to profitable enterprise.",
     "label": "Business & Networking"
   },
   {
@@ -504,22 +480,6 @@
     "label": "Classes & Workshops"
   },
   {
-    "description": "Screenwriting for Beginners: The Art of Story, An introductory course on the craft of screenwriting. Learn about story structure, character development, dialogue, and formatting as you work on your own short film concept. This workshop is perfect for aspiring writers who want to tell their stories on screen.",
-    "label": "Classes & Workshops"
-  },
-  {
-    "description": "Graphic Design Fundamentals: Using Free Software, A workshop on the essential principles of graphic design, including typography, color theory, and layout. This class is designed for beginners and teaches you how to create professional-looking designs using free, accessible software, perfect for small business owners and students.",
-    "label": "Classes & Workshops"
-  },
-  {
-    "description": "Creative Portfolio Workshop: Showcasing Your Work, A workshop for artists and designers on how to build a professional portfolio that stands out. Learn strategies for curating your best work, writing a strong artist statement, and presenting your portfolio effectively to clients, galleries, or employers.",
-    "label": "Classes & Workshops"
-  },
-  {
-    "description": "DIY Animation: Creating Animated GIFs & Shorts, Get a taste of animation in this workshop on creating simple animated GIFs and short video clips. Learn about keyframing and motion graphics using user-friendly tools, bringing your static illustrations and images to life.",
-    "label": "Classes & Workshops"
-  },
-  {
     "description": "Handmade Journals Workshop: The Art of Bookbinding, A hands-on workshop on the traditional craft of bookbinding. You'll learn to fold, stitch, and bind your own custom journal or sketchbook from scratch using quality materials. This is a mindful and rewarding experience that results in a beautiful, personalized creation to take home.",
     "label": "Classes & Workshops"
   },
@@ -541,10 +501,6 @@
   },
   {
     "description": "Fermentation Fundamentals: From Kraut to Kimchi, A masterclass on the science and art of fermentation. You'll learn how to create your own kombucha, sauerkraut, and kimchi from scratch. This workshop covers the health benefits of fermented foods and provides all the tools and recipes you need to start fermenting at home.",
-    "label": "Classes & Workshops"
-  },
-  {
-    "description": "Website in a Weekend: A No-Code Workshop, A workshop for small business owners and creatives who want to build a professional website without writing a single line of code. Using a simple platform like Squarespace or Wix, you'll learn to design, build, and launch a fully functional website in just one weekend.",
     "label": "Classes & Workshops"
   },
   {
@@ -824,19 +780,11 @@
     "label": "Community & Culture"
   },
   {
-    "description": "Emergency Preparedness Workshop: Ready for Anything, A workshop on creating a personal and family emergency preparedness plan. Learn how to assemble an emergency kit, create a communication plan, and prepare for natural disasters specific to the Wellington region.",
-    "label": "Community & Culture"
-  },
-  {
     "description": "School Car Wash Fundraiser, A fundraiser car wash for a local school or community group. Bring your car for a wash and a chat, with all proceeds going to support a great cause. This is a fun, social event that brings the community together for a day of good deeds.",
     "label": "Community & Culture"
   },
   {
     "description": "Neighborhood Planting Day: Green Our Community, A neighborhood cleanup and planting day focused on greening local public spaces. Join your neighbors to plant new trees and flowers, clean up public areas, and help beautify your community.",
-    "label": "Community & Culture"
-  },
-  {
-    "description": "Urban Ecology Walk: Discovering Wellington's Wildlife, A guided walk and talk on urban ecology and native bird life in a local park. Learn about the unique flora and fauna of the Wellington region, and how conservation efforts are helping native species thrive in an urban environment.",
     "label": "Community & Culture"
   },
   {
@@ -949,10 +897,6 @@
   },
   {
     "description": "Home Energy Efficiency Workshop: Save Money & the Planet, A practical workshop on home energy efficiency. Learn how to identify sources of heat loss, choose the right insulation, and make simple changes to your home to reduce energy consumption, save money, and lower your carbon footprint.",
-    "label": "Conservation & Environment"
-  },
-  {
-    "description": "Natural Disaster Preparedness: An Environmental Workshop, A workshop on preparing for natural disasters with a focus on environmental recovery. Learn how to secure your property to prevent environmental damage, what to do with waste after a disaster, and how to help your community recover sustainably.",
     "label": "Conservation & Environment"
   },
   {
@@ -1912,15 +1856,7 @@
     "label": "Family Friendly"
   },
   {
-    "description": "Kids' Science Fair: Showcase Your Experiments, A children's science fair where kids can showcase their experiments and learn from others. This event celebrates curiosity and innovation, with a variety of hands-on activities, science demonstrations, and prizes for the most creative projects.",
-    "label": "Family Friendly"
-  },
-  {
     "description": "Outdoor Movie Night: A Family Classic, A family-friendly movie screening at a local outdoor cinema. Bring your blankets, snacks, and whānau for a relaxing evening under the stars. The film is a beloved family classic chosen by community vote.",
-    "label": "Family Friendly"
-  },
-  {
-    "description": "Learn to Swim Day: Free Session for Kids, A free 'learn to swim' session for kids at a community pool. Certified instructors will provide a fun and safe introduction to swimming, teaching kids the basics of water safety and confidence in the water.",
     "label": "Family Friendly"
   },
   {
@@ -2345,10 +2281,6 @@
   },
   {
     "description": "Wellington Short Film Festival: New Voices, A festival of short films from New Zealand and around the world. Watch a curated selection of films from emerging and established filmmakers, and participate in Q&A sessions with the directors. This festival celebrates the art of short-form storytelling.",
-    "label": "Festivals"
-  },
-  {
-    "description": "Indie Music Festival: Local & Alternative Sounds, A music festival focused on local indie and alternative bands. Discover new artists, enjoy live music in a variety of venues, and support Wellington's vibrant music scene. This festival is for music lovers who want to explore the local talent.",
     "label": "Festivals"
   },
   {
@@ -3556,10 +3488,6 @@
     "label": "Government & Politics"
   },
   {
-    "description": "The State of the City Address: The current Mayor of Wellington delivers an annual address to the public, outlining the city’s progress over the last year and their vision for the future.",
-    "label": "Government & Politics"
-  },
-  {
     "description": "Public Meeting on the Central Library's Future: A community consultation event for residents to share their opinions and ideas on the planned reconstruction and future use of the Wellington Central Library.",
     "label": "Government & Politics"
   },
@@ -3569,10 +3497,6 @@
   },
   {
     "description": "Local Government and Business Breakfast: An early morning networking event where local business owners and political candidates discuss policies that affect the regional economy, trade, and business growth.",
-    "label": "Government & Politics"
-  },
-  {
-    "description": "Digital Democracy Forum: A discussion panel featuring tech experts and politicians on how to use digital platforms to increase public engagement, transparency, and participation in local government.",
     "label": "Government & Politics"
   },
   {
@@ -4016,10 +3940,6 @@
     "label": "Health & Wellness"
   },
   {
-    "description": "Nutrition for Mental Wellbeing, Explore the powerful connection between food and mood in this educational workshop. A registered dietitian will discuss key nutrients for brain health, the impact of diet on anxiety and depression, and how to build a food plan that supports your mental and emotional balance. Includes a recipe handout and a Q&A session.",
-    "label": "Health & Wellness"
-  },
-  {
     "description": "Healthy Homes Workshop, Learn how to create a healthier living environment for you and your family in this practical workshop. Topics include natural cleaning alternatives, air quality improvements, and simple changes to reduce toxins in your home. All participants will receive a free starter kit of eco-friendly cleaning products.",
     "label": "Health & Wellness"
   },
@@ -4384,23 +4304,7 @@
     "label": "Hobbies & Interests"
   },
   {
-    "description": "Wargaming & Miniatures Painting Night, Join fellow wargamers and miniature painters for a casual evening of games and crafting. Whether you're a veteran player of Warhammer 40k or just starting your first miniature project, this is the perfect opportunity to paint, play, and connect with the community. We'll have a few tables set up for games and a dedicated area for painting. All skill levels welcome.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "Wellington Stargazers Club Monthly Meeting, Join the Wellington Stargazers Club for our monthly meeting. We'll have a presentation on a new topic in astronomy, followed by a discussion and a chance to look through our telescopes (weather permitting). This is a great opportunity to learn more about the night sky, connect with other astronomy enthusiasts, and ask all your burning questions. All ages and levels of knowledge welcome. Free event.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "Intro to Home Brewing: Craft Your Own Beer, Have you always wanted to brew your own beer at home? This hands-on workshop will teach you everything you need to know to get started, from selecting ingredients to bottling your finished product. Our expert brewer will guide you through the entire process, and you'll leave with a batch of beer ready to ferment at home. All equipment and ingredients are included. Must be 18+.",
-    "label": "Hobbies & Interests"
-  },
-  {
     "description": "Couch Potato Connoisseurs: TV Series Watch Party, Join fellow TV enthusiasts for a watch party of a classic series! We'll be screening the first three episodes of 'The X-Files' in a comfortable and relaxed setting. This is a great opportunity to revisit a classic or experience it for the first time with other fans. The event will include snacks, drinks, and a post-screening discussion. Come with a friend or come to make a new one. Free entry.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "Cosplay and Costume Design Workshop, Level up your cosplay game in this hands-on workshop! We'll cover basic sewing techniques, prop making with foam and Worbla, and wig styling. Our experienced cosplayers will share their tips and tricks for creating stunning costumes on a budget. This is a great opportunity to get help with your current project or get inspired for your next one. All skill levels are welcome. Materials will be available for purchase.",
     "label": "Hobbies & Interests"
   },
   {
@@ -4424,14 +4328,6 @@
     "label": "Hobbies & Interests"
   },
   {
-    "description": "Wellington Vintage Car Club Open Day, The Wellington Vintage Car Club is opening its doors to the public for a special open day. See a stunning collection of vintage and classic cars, from roaring muscle cars to elegant pre-war automobiles. Talk to club members about their cars, learn about the history of motoring, and get a closer look at these beautifully preserved machines. This is a family-friendly event and a must-see for all car lovers. Free entry, with a sausage sizzle and coffee cart on site.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "DIY Macrame Plant Hanger Workshop, Learn the art of macrame and create your own stylish plant hanger in this hands-on workshop. Our instructor will guide you through the basic knots and techniques, and you'll leave with a beautiful, handmade piece to display in your home. All materials are provided, including rope, a wooden ring, and a pot. No experience necessary. Complimentary drinks and snacks will be provided.",
-    "label": "Hobbies & Interests"
-  },
-  {
     "description": "Wellington Gardeners Club Monthly Meeting, Join the Wellington Gardeners Club for our monthly meeting. We'll have a guest speaker on a topic related to gardening, a plant swap where members can trade their seedlings and cuttings, and a Q&A session. This is a great opportunity to connect with other gardeners, share tips, and get inspired for your own garden. Free for members, with a small fee for non-members. All skill levels are welcome.",
     "label": "Hobbies & Interests"
   },
@@ -4441,14 +4337,6 @@
   },
   {
     "description": "Beginner Digital Art Workshop, Learn the fundamentals of digital art in this beginner-friendly workshop. We'll cover the basics of using a drawing tablet and software like Procreate or Photoshop, and teach you about layers, brushes, and color theory. You'll work on a simple project to create your own digital masterpiece. All equipment is provided. Limited spaces available.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "DIY Pottery Hand Building: Mugs and Cups, Learn to hand-build your own unique mugs and cups in this beginner-friendly pottery workshop. Our experienced potter will teach you techniques like slab building and coiling, and you'll get to add your own creative touches with stamps and textures. You'll create two unique pieces to be glazed and fired for you to pick up later. All materials and tools are provided.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "Wellington Drone Pilots Club Meetup, Calling all drone pilots! Join us for our monthly meetup and connect with other drone enthusiasts. We'll have a a presentation on drone safety and regulations, a show-and-tell where members can show off their drones and footage, and a Q&A session. This is a great opportunity to share tips, learn new skills, and find new places to fly. All skill levels are welcome. Free event.",
     "label": "Hobbies & Interests"
   },
   {
@@ -4509,14 +4397,6 @@
   },
   {
     "description": "Wellington Chess Club: Weekly Tournament, Join the Wellington Chess Club for our weekly tournament. All skill levels are welcome, from grandmasters to beginners. We'll have a few different sections to ensure fair and competitive games. Prizes for top finishers. Entry fee is $10. Food and drink specials all night.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "DIY Jewellery Making: Earrings and Pendants, Learn to make your own custom earrings and pendants in this beginner-friendly workshop. Our expert jeweler will teach you the basics of wire wrapping, beading, and metal stamping. You'll get to choose from a variety of materials and create three unique pieces to take home. All tools and materials are provided. No experience necessary.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "Wellington Board Game Designers Meetup, Are you a board game designer or aspiring to be one? Join us for our monthly meetup and connect with other designers in the community. We'll have a few tables set up for playtesting new prototypes, and you'll get to give and receive feedback on your games. This is a great opportunity to network and get inspired for your next project. All skill levels are welcome. Free event.",
     "label": "Hobbies & Interests"
   },
   {
@@ -4777,10 +4657,6 @@
   },
   {
     "description": "Oriental Bay Pop-Up Boutique, A stylish pop-up market showcasing Wellington's most exciting fashion designers and boutique brands. Browse beautiful clothing, accessories, and jewellery while enjoying a stunning view of the harbour. Free entry.",
-    "label": "Markets & Fairs"
-  },
-  {
-    "description": "Lower Hutt Gardeners' Exchange, A community event for gardeners of all levels. Bring your excess seedlings, seeds, and gardening tools to swap with others. Get advice from experienced gardeners and connect with local green-thumbs. Free entry.",
     "label": "Markets & Fairs"
   },
   {
@@ -5305,10 +5181,6 @@
   },
   {
     "description": "Unitarian Universalist Community Service, Join us for our weekly Sunday service, a space for spiritual growth and community connection in a non-creedal, open-minded environment. Our services blend music, readings, and reflections from various faith traditions and sources, celebrating the diverse paths we take to find meaning. All are welcome to our inclusive and affirming space.",
-    "label": "Religion & Spirituality"
-  },
-  {
-    "description": "Women's Bible Study: The Book of Ruth, An in-depth, six-week study of the Book of Ruth, designed for women of all ages and backgrounds. We will explore themes of loyalty, faith, and redemption, and discuss how these stories are still relevant in our lives today. Join us for a time of fellowship, learning, and personal reflection. Workbooks will be provided, and no prior knowledge is needed.",
     "label": "Religion & Spirituality"
   },
   {
