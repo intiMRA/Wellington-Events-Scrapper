@@ -64,7 +64,7 @@ def predict_from_file(classification_model, file_name):
     for predictions_array in predictions:
         indecies = np.argpartition(predictions_array, -2)[-2:]
         indecies = indecies[np.argsort(-predictions_array[indecies])]
-        if indecies[0] < 0.18:
+        if predictions_array[indecies[0]] < 0.18:
             indecies = []
         elif predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
             indecies = [indecies[0]]
@@ -88,17 +88,17 @@ X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name
 X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
 
 X_train_ai, X_test_ai, Y_train_ai, Y_test_ai, num_classes_ai = get_data(ai_data_file_name)
-for v in X_train_ai:
-    np.append(X_train, v)
-
-for v in Y_train_ai:
-    np.append(Y_train, v)
-
-for v in X_test_ai:
-    np.append(X_train, v)
-
-for v in Y_test_ai:
-    np.append(Y_train, v)
+# for v in X_train_ai:
+#     np.append(X_train, v)
+#
+# for v in Y_train_ai:
+#     np.append(Y_train, v)
+#
+# for v in X_test_ai:
+#     np.append(X_train, v)
+#
+# for v in Y_test_ai:
+#     np.append(Y_train, v)
 
 
 model = Sequential()

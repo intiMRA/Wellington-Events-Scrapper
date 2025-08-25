@@ -5,7 +5,7 @@ unclassified_file_name = "unclassified_data.json"
 def generate_data():
     with open("events.json", mode="r") as events_file:
         events = json.loads(events_file.read())["events"]
-        events = [event for event in events if event["long_description"] and event["eventType"] == "Other"]
+        events = [event for event in events if event["long_description"] and event["eventType"] != "Other"]
         with open(unclassified_file_name, mode="r") as unclassified_file_read:
             unclassified_data = json.loads(unclassified_file_read.read())
             with open(training_file_name, mode="r") as read_training_file:
@@ -78,5 +78,24 @@ def count_categories():
                 categories[data["label"]] = categories[data["label"]] + 1
             for cat in sorted(categories):
                 print(f"category: {cat} count: {categories[cat]}")
+
+def print_duplicates():
+    with open(training_file_name, mode="r") as f:
+        data = json.loads(f.read())
+        dictionary = {}
+
+        for d in data:
+            k = d["description"].split(",")[0]
+            if k in dictionary:
+                dictionary[k].append(d["label"])
+            else:
+                dictionary[k] = [d["label"]]
+        for d in dictionary:
+            if len(dictionary[d]) > 1:
+                print(d)
+                print(dictionary[d])
+                if len(set(dictionary[d])) > 1:
+                    print("DUPLICATES")
+                print("-" * 100)
 
 count_categories()

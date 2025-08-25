@@ -1,46 +1,6 @@
 [
   {
-    "description": "L.A.B. at the Wellington Town Hall, Don't miss L.A.B. as they bring their dynamic blend of reggae, funk, rock, and soul to the Wellington Town Hall. Get ready for an electrifying night of their biggest hits and new material. The five-piece band is a staple of the New Zealand music scene, known for their incredible live performances and chart-topping songs.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "Jazz in the Gardens: A Tribute to Nina Simone, Spend a beautiful afternoon in the Wellington Botanic Garden listening to local jazz artists pay tribute to the legendary Nina Simone. Featuring vocalist Bella Rose and her band, this free concert will fill the Begonia House with soulful melodies and powerful ballads. This is part of the monthly music series run by the Friends of the Wellington Botanic Garden.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "The Phoenix Foundation - Live at San Fran, Wellington indie-rock legends The Phoenix Foundation are playing a special hometown show at San Fran. Known for their intricate arrangements, witty lyrics, and expansive soundscapes, this is a must-see for fans of Aotearoa music. They will be performing tracks from their extensive back catalogue as well as new music.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "Capital Brass Showcase, The Capital City Big Band is back with a performance celebrating the classic big band sounds of the golden era. This high-level ensemble of professional and community musicians will perform works by legends like Duke Ellington and Count Basie at the Wellington Cathedral of St Paul.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "Friday Night Live with The Wellington City Shake-em-on-Downers, The Wellington City Shake-em-on-Downers are back at The Rogue & Vagabond. This swing cult phenomenon will deliver their unique brand of dadaist swing with hot horn solos and stupid gags for a night of dancing and laughter. Entry is $15 online or $20 at the door.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "Electronic Music Showcase at Pyramid Club, The Pyramid Club is hosting an evening of experimental electronic soundscapes with local artists. This intimate event is for lovers of innovative sound and will feature a lineup of Wellington's most creative electronic musicians. Capacity is limited to 50 people.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "Reggae & Dub Night with Bigbada Boom Sound System, Pōneke Dub Club is bringing the authentic sound system culture to Wellington with Bigbada Boom Sound System. Featuring the best selectas and MCs in the region, this night is a celebration of reggae, dub, and roots music. Entry is free.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "The Cattlestops - Live at Abandoned Brewery, The Cattlestops, a cowboy jazz country quartet from the Kapiti Coast, are celebrating their twenty-first year with a show at the Abandoned Brewery. They will perform their original songs and music from the film 'Second Hand Wedding'. Tickets are available for $30, or $25 for Wellington Bluegrass Society members.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "Open Mic Night at Underworld Tavern, Share your original music or favourite covers at Underworld Tavern's Open Hell open mic night. The format is two songs per person, and it's a great opportunity to get inspired and meet other musicians. Koha to play.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "The Rock Orchestra by Candlelight, Experience a spellbinding 90-minute spectacle at a candlelit venue where classical and metal music collide. A 13-piece classical band will perform rock anthems from bands like Metallica, AC/DC, and My Chemical Romance. This show has entertained over 700,000 people across the UK, USA, and Europe.",
-    "label": "Music & Concerts"
-  },
-  {
-    "description": "Wunderhorse New Zealand Tour, Handsome Tours presents Wunderhorse in their debut New Zealand tour. The Sydney post-punk trio will be playing their latest album 'Midas' live at a yet to be announced venue. The band is known for their raw, unfiltered rock'n'roll and energetic live performances.",
+    "description": "Vincent Vega Plays Tarintino, A night of surf, soul and rockn'roll bangers from Quentin Tarantino's cult classic films, played with great vengeance & furious anger by Wellingtons favourite surf-rock saviours Vincent Vega. Expect tunes from Pulp Fiction, Reservoir Dogs, Once Upon A Time In Hollywood, The Hateful Eight, Death Proof and more.\n\nFeaturing special guests Lisa Tomlins on vocals and Louis TM on keys and vocals, as well as the usual suspects in Richard Te One (drums), Nick Lissette (bass) and Chris Armour (guitar)\n\nMusic from 9:30pm FREE ENTRY",
     "label": "Music & Concerts"
   },
   {
@@ -472,10 +432,6 @@
     "label": "Classes & Workshops"
   },
   {
-    "description": "Te Reo M\u0101ori for Everyday Life: A Beginner's Workshop, Nau mai, haere mai! Learn the basics of te reo M\u0101ori in a fun and supportive environment. This workshop focuses on everyday phrases, correct pronunciation, and foundational vocabulary to help you confidently use te reo in greetings, conversations, and in your daily life.",
-    "label": "Classes & Workshops"
-  },
-  {
     "description": "Green Thumbs Workshop: Building a Terrarium, A hands-on workshop on the art of creating a self-contained ecosystem. Learn how to choose the right plants, layer materials, and care for your terrarium to create a beautiful, low-maintenance mini-garden that thrives in any space. All materials, including a glass vessel and plants, are supplied.",
     "label": "Classes & Workshops"
   },
@@ -752,18 +708,6 @@
     "label": "Classes & Workshops"
   },
   {
-    "description": "Community Game Night: Board Games & Social Fun, A fun, free evening for all ages to come together and play board games. Bring your favorite games to share, or try one of the many games provided. It's a great way to meet new people and connect with your community over some friendly competition.",
-    "label": "Community & Culture"
-  },
-  {
-    "description": "Storytelling Unplugged: A Community Storytelling Night, An intimate evening where community members share true, personal stories on a specific theme. Inspired by shows like The Moth, this event fosters a sense of shared humanity and connection through the power of authentic storytelling.",
-    "label": "Community & Culture"
-  },
-  {
-    "description": "Community Beach Clean-Up Day, A community-led beach clean-up day to remove plastic and rubbish from a local beach. Join your neighbors in a fun, active, and impactful event that helps preserve the natural beauty of Wellington's coastline.",
-    "label": "Community & Culture"
-  },
-  {
     "description": "Manu Tukutuku Workshop: Traditional Kite Making, A hands-on workshop on the traditional Māori art of manu tukutuku (kite making). Learn about the cultural significance of kites and how to create your own beautiful kite using traditional materials and techniques. This is a family-friendly event for all ages.",
     "label": "Community & Culture"
   },
@@ -841,10 +785,6 @@
   },
   {
     "description": "Bird Sanctuary Working Bee: Pest Trapping & Track Maintenance, A community working bee at a local bird sanctuary. Help with track maintenance and setting pest traps to protect native birds and their habitat. This is a hands-on event for all ages, with all tools and safety gear provided.",
-    "label": "Conservation & Environment"
-  },
-  {
-    "description": "Nesting Box Building Workshop: Homes for Native Birds, A workshop on building and installing nesting boxes for native birds in local parks and reserves. Learn about the nesting habits of different bird species and help provide safe, artificial habitats to support urban wildlife.",
     "label": "Conservation & Environment"
   },
   {
@@ -1838,22 +1778,6 @@
   {
     "description": "History of Wellington: A Guided Lecture, A guided lecture on the history of Wellington. Explore the city's past, from its early settlement to the modern day, and learn about the people and events that have shaped it. This lecture is for anyone interested in local history.",
     "label": "Education & Learning"
-  },
-  {
-    "description": "Teddy Bear's Picnic: A Day of Fun & Food, Bring your favorite teddy bear and a picnic basket for a fun-filled day at the park! This event for young children and their families features storytime, face painting, games, and a special parade of all the teddy bears. It's a classic event for all to enjoy.",
-    "label": "Family Friendly"
-  },
-  {
-    "description": "Family Fishing Fun: A Local Competition, A family-friendly fishing competition at a local wharf or lake. Bring your fishing gear and compete for prizes in categories like 'Biggest Catch' and 'Most Fish Caught'. This is a great way to enjoy the outdoors and bond with your family.",
-    "label": "Family Friendly"
-  },
-  {
-    "description": "Kids' Bike Parade: Decorate & Ride, A free community-led bike parade for children of all ages. Kids can decorate their bikes with ribbons, streamers, and balloons, and then ride together in a parade through the neighborhood. Prizes will be awarded for the most creative and colorful bikes.",
-    "label": "Family Friendly"
-  },
-  {
-    "description": "Storytime with a Local Author, A special storytelling session at the library with a local children's author. Kids will get to listen to the author read from their book, ask questions about their writing process, and participate in a fun craft activity inspired by the story.",
-    "label": "Family Friendly"
   },
   {
     "description": "Outdoor Movie Night: A Family Classic, A family-friendly movie screening at a local outdoor cinema. Bring your blankets, snacks, and whānau for a relaxing evening under the stars. The film is a beloved family classic chosen by community vote.",
@@ -4296,15 +4220,7 @@
     "label": "Hobbies & Interests"
   },
   {
-    "description": "Introduction to Wood Carving, Learn the basics of wood carving in this hands-on workshop for beginners. Our experienced instructor will guide you through safety precautions, tool selection, and fundamental carving techniques. You'll work with a simple project to create your own unique piece to take home. All tools and materials are provided. Limited spaces, so book early!",
-    "label": "Hobbies & Interests"
-  },
-  {
     "description": "Creative Journaling Workshop, Unlock your creativity and practice mindfulness through the art of journaling. In this workshop, we'll explore different journaling techniques, from free-writing to collage, and learn how to use your journal as a tool for self-discovery and creative expression. All materials are provided, including a beautiful journal to get you started. No experience necessary, just bring an open mind.",
-    "label": "Hobbies & Interests"
-  },
-  {
-    "description": "Couch Potato Connoisseurs: TV Series Watch Party, Join fellow TV enthusiasts for a watch party of a classic series! We'll be screening the first three episodes of 'The X-Files' in a comfortable and relaxed setting. This is a great opportunity to revisit a classic or experience it for the first time with other fans. The event will include snacks, drinks, and a post-screening discussion. Come with a friend or come to make a new one. Free entry.",
     "label": "Hobbies & Interests"
   },
   {
@@ -4633,10 +4549,6 @@
   },
   {
     "description": "Vintage & Retro Fair, Step back in time at our Vintage & Retro Fair. Browse a curated selection of clothing, furniture, home decor, and collectibles from the 20th century. Whether you're a serious collector or just love a good throwback, you're sure to find a treasure. Free entry.",
-    "label": "Markets & Fairs"
-  },
-  {
-    "description": "Newtown Community Market, A monthly market at the heart of the community. Find fresh produce from local growers, homemade baked goods, pre-loved clothes, and unique crafts. It's a great opportunity to connect with your neighbours and support local businesses. A gold coin donation is appreciated for entry.",
     "label": "Markets & Fairs"
   },
   {
@@ -5131,10 +5043,6 @@
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs"
   },
-   {
-    "description": "Transvision Vamp tickets, Presented by: PLUS1\nBritish rock band Transvision Vamp are bringing their 80\u2019s smash hits down under for the first time in three decades next February!\nSays charismatic singer Wendy James: \u201cI am so very excited to be coming back to New Zealand to play the songs which started my whole musical journey! I remember vividly so many incredible moments gigging in New Zealand , moments of enormous success, enormous love and enormous fun.\u201d\nThe band enjoyed 5 Top 40 singles in NZ, including worldwide smash hits I Want Your Love, Baby I Don\u2019t Care, and The Only One.",
-    "label": "Music & Concerts"
-  },
   {
     "description": "Holy Spirit Encounter: A Night of Worship, Join us for a powerful evening of worship, prayer, and an open encounter with the Holy Spirit. This event is a space for spiritual renewal, healing, and connection with God and fellow believers. All are welcome to come as they are and experience the presence of the Holy Spirit. The evening will include live worship music, a time of guided prayer, and an opportunity for personal ministry. Come hungry for more of God.",
     "label": "Religion & Spirituality"
@@ -5153,10 +5061,6 @@
   },
   {
     "description": "A Course in Miracles: Study & Discussion, A weekly study group dedicated to A Course in Miracles. Join us as we read and discuss the text, workbook, and manual for teachers. This is a space for those seeking to deepen their understanding of the Course’s teachings on forgiveness, love, and the nature of reality. All levels of experience are welcome in this supportive and collaborative environment.",
-    "label": "Religion & Spirituality"
-  },
-  {
-    "description": "Jewish Culture & Kosher Cooking Class, A hands-on workshop celebrating Jewish culture through the art of kosher cooking. Learn to prepare traditional dishes while discussing the history and significance behind them. This class is for anyone interested in Jewish culinary traditions, from beginners to experienced home cooks. Dietary laws and their cultural context will be explained throughout the session.",
     "label": "Religion & Spirituality"
   },
   {
