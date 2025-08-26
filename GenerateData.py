@@ -1,6 +1,12 @@
 import json
+import re
+
 training_file_name = "training_data.json"
 unclassified_file_name = "unclassified_data.json"
+skip_strings = [
+    "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket",
+    "BOK JOL WELLINGTON 2025, Age restriction. Under 18 only allowed with parents or legal guardian."
+]
 
 def generate_data():
     with open("events.json", mode="r") as events_file:
@@ -18,12 +24,24 @@ def generate_data():
                 events = new_events
                 training_data = json.loads(read_training_file.read())
                 descriptions = set([dictionary["description"] for dictionary in training_data])
-                training_data += [{"new": True, "description": event["name"] + ", " + event["long_description"],
-                                       "label": event["eventType"]}
+                training_data += [{"new": True,
+                                   "description": event["name"] + ", " + event["long_description"],
+                                   "label": event["eventType"]}
                                       for event in events
                                       if
                                       event and (event["name"] + ", " + event["long_description"]) not in descriptions]
+                training_data = sorted(training_data, key=lambda k: k["description"])
                 training_data = sorted(training_data, key=lambda k: k["label"])
+                for data in training_data:
+                    should_skip = False
+                    for skip_string in skip_strings:
+                        description = data["description"]
+                        if (len(description) < 110
+                                or skip_string in description
+                                or len(re.sub(skip_string, "", description)) < 110):
+                            should_skip = True
+                            break
+                    data["skip"] = should_skip
                 with open(training_file_name, mode="w") as training_file:
                     json.dump(training_data, training_file, indent=2)
 def generate_unclassified_data():
@@ -45,7 +63,18 @@ def generate_unclassified_data():
                 unclassified_data += [{"new": True, "description": event["name"] + ", " + event["long_description"], "label": event["eventType"]}
                                   for event in events
                                   if event and (event["name"] + ", " + event["long_description"]) not in descriptions]
+                unclassified_data = sorted(unclassified_data, key=lambda k: k["description"])
                 unclassified_data = sorted(unclassified_data, key=lambda k: k["label"])
+                for data in unclassified_data:
+                    should_skip = False
+                    for skip_string in skip_strings:
+                        description = data["description"]
+                        if (len(description) < 110
+                                or skip_string in description
+                                or len(re.sub(skip_string, "", description)) < 110):
+                            should_skip = True
+                            break
+                    data["skip"] = should_skip
                 with open(unclassified_file_name, mode="w") as training_file:
                     json.dump(unclassified_data, training_file, indent=2)
 
@@ -75,6 +104,8 @@ def count_categories():
             ai_data = json.loads(ai_file.read())
             training_data += ai_data
             for data in training_data:
+                if data["skip"]:
+                    continue
                 categories[data["label"]] = categories[data["label"]] + 1
             for cat in sorted(categories):
                 print(f"category: {cat} count: {categories[cat]}")
@@ -85,6 +116,8 @@ def print_duplicates():
         dictionary = {}
 
         for d in data:
+            if d["skip"]:
+                continue
             k = d["description"].split(",")[0]
             if k in dictionary:
                 dictionary[k].append(d["label"])
@@ -98,4 +131,6 @@ def print_duplicates():
                     print("DUPLICATES")
                 print("-" * 100)
 
+generate_data()
+generate_unclassified_data()
 count_categories()
