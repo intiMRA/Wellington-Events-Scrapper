@@ -64,6 +64,7 @@ class UnderTheRaderScrapper:
                 sleep(1)
             except:
                 break
+        driver.execute_script("window.scrollTo(200, 500);")
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
         _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "vevent")))
         html = driver.find_elements(By.CLASS_NAME, 'vevent')
