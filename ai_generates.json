@@ -500,17 +500,7 @@
     "skip": false
   },
   {
-    "description": "Artisan Baking Masterclass: Croissants & Pastries, A hands-on masterclass for bakers who want to learn advanced techniques for creating flaky croissants, delicate pastries, and other artisan baked goods. This intensive class covers lamination, proofing, and baking to achieve professional-quality results at home.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
     "description": "Urban Beekeeping for Beginners: A Backyard Hive Workshop, An introductory workshop for aspiring urban beekeepers. Learn the essentials of starting and maintaining a beehive in a backyard or small urban space. This class covers bee biology, hive management, and honey harvesting for sustainable beekeeping.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Natural Soap Making: From Scratch, A hands-on workshop on the traditional craft of soap making. Learn how to create your own natural soaps using a cold process method with lye, essential oils, and other wholesome ingredients. All safety equipment and materials are provided.",
     "label": "Classes & Workshops",
     "skip": false
   },
@@ -520,17 +510,7 @@
     "skip": false
   },
   {
-    "description": "Sustainable Style: Upcycling & Sewing Workshop, A workshop on sustainable fashion, focusing on upcycling and basic sewing techniques. Learn how to mend, alter, and transform old clothing into new, stylish pieces, extending the life of your wardrobe and reducing textile waste.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
     "description": "Public Speaking for EAL Learners: A Confidence Workshop, A public speaking workshop specifically designed for learners of English as an additional language. Practice your presentation skills, build confidence, and receive supportive feedback on your communication in a safe and encouraging environment.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Developing Your Home Yoga Practice: A Guided Workshop, A workshop for yogis of all levels on how to develop and sustain a personal yoga practice at home. Learn how to sequence a flow, listen to your body's needs, and use props to create a meaningful and safe practice outside of a studio setting.",
     "label": "Classes & Workshops",
     "skip": false
   },
@@ -3210,11 +3190,6 @@
     "skip": false
   },
   {
-    "description": "Screenwriting for Beginners: A Masterclass, A masterclass on screenwriting for beginners. Learn about story structure, character development, dialogue, and formatting as you work on your own short film concept. This workshop is perfect for aspiring writers who want to tell their stories on screen.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "History of Special Effects in Film: A Talk, A talk on the history of special effects in film. Explore the evolution of special effects, from early practical effects to modern CGI, and learn about the artists and techniques that have brought movie magic to life. This event is for film lovers and students of film history.",
     "label": "Film & Media",
     "skip": false
@@ -5076,11 +5051,6 @@
   },
   {
     "description": "Learn to Knit: The Basics, Learn the relaxing and rewarding craft of knitting in this beginner's workshop. Our friendly instructor will teach you the basics, from casting on to casting off, and help you get started on your first scarf or coaster. All materials are provided, including needles and yarn. No experience necessary, just a willingness to learn. Light refreshments will be served.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Beginner Digital Art Workshop, Learn the fundamentals of digital art in this beginner-friendly workshop. We'll cover the basics of using a drawing tablet and software like Procreate or Photoshop, and teach you about layers, brushes, and color theory. You'll work on a simple project to create your own digital masterpiece. All equipment is provided. Limited spaces available.",
     "label": "Hobbies & Interests",
     "skip": false
   },
