@@ -3,13 +3,17 @@ from keras.preprocessing.text import tokenizer_from_json
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from keras.preprocessing.text import Tokenizer
-from keras.utils import pad_sequences, to_categorical
+from keras.utils import pad_sequences, to_categorical,set_random_seed
 import json
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense
+from tensorflow.config.experimental import enable_op_determinism
 from keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
 import joblib
+
+set_random_seed(812)
+enable_op_determinism()
 
 training_data_file_name = "training_data.json"
 ai_data_file_name = "ai_generates.json"
