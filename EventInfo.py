@@ -81,7 +81,10 @@ class EventInfo:
             self.coordinates = coordinates
             self.long_description = long_description
         else:
-            self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
+            try:
+                self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
+            except:
+                self.coordinates = None
             self.long_description = description
             description = EventInfo.clean_html_tags(description)
             description = Summarizer.sumerize(description)
