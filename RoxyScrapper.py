@@ -18,7 +18,7 @@ class RoxyScrapper:
     @staticmethod
     def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
-        sleep(1)
+        sleep(3)
         title = driver.find_element(By.CLASS_NAME, "single-movie__title").text
         sticky_wrapper: WebElement = driver.find_element(By.XPATH, "//div[contains(@class, 'sticky-inner-wrapper')]")
         image_url = sticky_wrapper.find_element(By.TAG_NAME, "img").get_attribute("scr")
@@ -41,7 +41,7 @@ class RoxyScrapper:
     @staticmethod
     def get_event_fom_page(url: str, driver: webdriver, previous_urls) -> Optional[EventInfo]:
         driver.get(url)
-        sleep(1)
+        sleep(3)
         event_url = driver.find_element(By.CLASS_NAME, "poster-portrait-link").get_attribute("href")
         if event_url in previous_urls:
             return None
@@ -50,7 +50,16 @@ class RoxyScrapper:
     @staticmethod
     def get_festival_urls(url: str, driver: webdriver) -> Set[str]:
         driver.get(url)
-        sleep(1)
+        sleep(3)
+        driver.execute_script(f"window.scrollBy(0, {400});")
+        height = driver.execute_script("return document.body.scrollHeight")
+        scrolled_amount = 0
+        while True:
+            if scrolled_amount > height:
+                break
+            driver.execute_script(f"window.scrollBy(0, {400});")
+            scrolled_amount += 400
+            sleep(1)
         films = driver.find_elements(By.CLASS_NAME, "poster-portrait-link")
         return set([film.get_attribute("href") for film in films])
 
