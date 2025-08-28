@@ -86,6 +86,7 @@ class RoxyScrapper:
             event_urls = RoxyScrapper.get_festival_urls(festival_url, driver)
             events = []
             for event_url in event_urls:
+                print(f"fetching: {event_url}")
                 try:
                     event = RoxyScrapper.get_event(event_url, driver)
                     if event:
