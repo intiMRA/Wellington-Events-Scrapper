@@ -131,4 +131,7 @@ def print_duplicates():
                     print("DUPLICATES")
                 print("-" * 100)
 
+generate_data()
+generate_unclassified_data()
 count_categories()
+print_duplicates()

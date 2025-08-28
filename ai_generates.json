@@ -45,11 +45,6 @@
     "skip": false
   },
   {
-    "description": "Ethical Leadership Workshop: Beyond the Bottom Line, A workshop for leaders and managers on how to build a business that is both profitable and ethical. Learn about corporate social responsibility, conscious decision-making, and creating a culture of integrity. This is about leadership that inspires trust and makes a positive impact.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Social Media Manager's Boot Camp: From Strategy to Execution, A hands-on boot camp for aspiring social media managers and business owners. Master the art of content strategy, platform algorithms, community engagement, and data analysis to build a strong social media presence that drives business growth.",
     "label": "Business & Networking",
     "skip": false
@@ -500,11 +495,6 @@
     "skip": false
   },
   {
-    "description": "Urban Beekeeping for Beginners: A Backyard Hive Workshop, An introductory workshop for aspiring urban beekeepers. Learn the essentials of starting and maintaining a beehive in a backyard or small urban space. This class covers bee biology, hive management, and honey harvesting for sustainable beekeeping.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
     "description": "Financial Planning for Life: A Personal Budgeting Workshop, A practical workshop on creating a personal budget and long-term financial plan. Learn how to track expenses, set financial goals, and build a strategy for savings and investments that puts you in control of your financial future.",
     "label": "Classes & Workshops",
     "skip": false
@@ -520,22 +510,7 @@
     "skip": false
   },
   {
-    "description": "Mosaic Art Workshop: From Recycled Tiles to Masterpiece, A hands-on workshop on the ancient art of mosaic creation using recycled tiles and broken ceramics. Learn how to design, cut, and assemble your pieces to create a stunning decorative piece for your home. All materials and safety equipment are provided.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Linoleum Block Printing: Printing on Textiles, A workshop on linoleum block printing with a focus on printing on fabric. Learn how to carve your own designs into a lino block and print unique patterns onto tote bags, t-shirts, or tea towels. All tools and materials are included.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
     "description": "Stained Glass Creation: A Beginner's Course, An introductory course on the art of stained glass. Learn the fundamentals of cutting glass, grinding, copper foil wrapping, and soldering to create a beautiful, small stained-glass suncatcher or panel to take home.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Pottery Glazing Masterclass: Creating Unique Finishes, An advanced workshop for potters who want to explore different glazing techniques. Learn how to apply multiple glazes, create unique patterns, and achieve stunning, professional finishes on your ceramic pieces. Prior pottery experience is required.",
     "label": "Classes & Workshops",
     "skip": false
   },
@@ -881,11 +856,6 @@
   },
   {
     "description": "Upcycling Workshop: Old Furniture to New Treasures, A hands-on workshop on upcycling old furniture to reduce waste and create unique, new treasures for your home. Learn basic carpentry, painting, and upholstery techniques to transform discarded items into functional art.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Natural Pigments Workshop: Painting with Earth, A class on creating natural pigments and paints from foraged materials like berries, leaves, and soil. Learn about the history of natural dyes and how to create your own unique, eco-friendly color palette for painting and art projects.",
     "label": "Conservation & Environment",
     "skip": false
   },
@@ -2610,11 +2580,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Short Film Festival: New Voices, A festival of short films from New Zealand and around the world. Watch a curated selection of films from emerging and established filmmakers, and participate in Q&A sessions with the directors. This festival celebrates the art of short-form storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Festival of Lights: Wellington's Luminous Night, A festival of lights with creative light installations and projections. Watch as local artists transform the city's landmarks and public spaces into a luminous wonderland, with a variety of light displays, music, and food trucks. This is a magical festival of light and art.",
     "label": "Festivals",
     "skip": false
@@ -3186,11 +3151,6 @@
   },
   {
     "description": "NZ Classic Film Screening: A Q&A with the Director, A special screening of a New Zealand classic film, followed by a Q&A with the director. Hear behind-the-scenes stories, learn about the filmmaking process, and gain insights into the film's cultural impact. This event is for film lovers and students of New Zealand cinema.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "History of Special Effects in Film: A Talk, A talk on the history of special effects in film. Explore the evolution of special effects, from early practical effects to modern CGI, and learn about the artists and techniques that have brought movie magic to life. This event is for film lovers and students of film history.",
     "label": "Film & Media",
     "skip": false
   },
@@ -4080,11 +4040,6 @@
     "skip": false
   },
   {
-    "description": "Council Hearing: Proposed Bylaw Changes: A formal council meeting where the public can present submissions on a new bylaw, such as changes to noise control or waste disposal regulations.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
     "description": "Wellington City Council's Annual Budget Review: A public information session where the council presents its financial reports, spending priorities, and tax plans for the upcoming fiscal year.",
     "label": "Government & Politics",
     "skip": false
@@ -4615,11 +4570,6 @@
     "skip": false
   },
   {
-    "description": "Strength Training for Seniors, A safe and effective strength training class designed specifically for older adults. Improve bone density, muscle strength, and balance in a fun and supportive group environment. Led by a certified personal trainer, this class uses light weights and resistance bands.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Yoga for Back Pain Relief, Learn gentle and effective yoga postures to alleviate chronic back pain and improve spinal health. This class focuses on building core strength, increasing flexibility, and promoting relaxation to support a healthy back. No prior yoga experience is needed.",
     "label": "Health & Wellness",
     "skip": false
@@ -5042,81 +4992,6 @@
   {
     "description": "Men's Wellbeing Workshop: Responding to Change, A workshop for men to develop tools for navigating life changes, big and small. Topics include career transitions, relationship challenges, and new parenthood. The session is led by a male wellness coach and focuses on open discussion and practical strategies for a healthy mindset.",
     "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film Photography Club Meetup, Join the Wellington Film Photography Club for our monthly meeting. We'll have a guest speaker on a topic related to film photography, a photo-sharing session where members can show off their recent work, and a Q&A session. This is a great opportunity to connect with other film enthusiasts and learn new skills. All experience levels welcome. Free event.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Learn to Knit: The Basics, Learn the relaxing and rewarding craft of knitting in this beginner's workshop. Our friendly instructor will teach you the basics, from casting on to casting off, and help you get started on your first scarf or coaster. All materials are provided, including needles and yarn. No experience necessary, just a willingness to learn. Light refreshments will be served.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "DIY Sewing: Beginner's Pouch Workshop, Learn to sew your own pouch in this beginner-friendly workshop. Our instructor will teach you the basics of using a sewing machine, from threading the needle to sewing a straight seam. You'll get to choose from a variety of fabrics and create your own unique pouch to take home. All equipment and materials are provided. Limited spaces, so book early!",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Amateur Radio Club Meeting, Join the Wellington Amateur Radio Club for our monthly meeting. We'll have a presentation on a new topic related to amateur radio, a show-and-tell where members can show off their latest equipment, and a Q&A session. This is a great opportunity to connect with other radio enthusiasts, share tips, and learn new skills. All skill levels are welcome. Free event.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "DIY Paper Crafts: Card Making Workshop, Get creative with paper in this fun and relaxing card making workshop. Our instructor will teach you a variety of techniques, from stamping and embossing to die-cutting and scrapbooking. You'll create three unique cards to take home and share with your loved ones. All materials are provided. No experience necessary. Complimentary tea and coffee provided.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Writers Group Monthly Meeting, Join the Wellington Writers Group for our monthly meeting. We'll have a guest speaker on a topic related to writing, a critique session where members can share their work, and a Q&A session. This is a great opportunity to connect with other writers, get feedback on your work, and get inspired for your next project. All genres and skill levels are welcome. Free event.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Introduction to 3D Printing and Design, Learn the basics of 3D printing and design in this hands-on workshop. We'll cover everything from using CAD software to preparing your model for printing. You'll get to design and print your own small object to take home. This is a great opportunity to get a taste of this exciting technology and unleash your creativity. All equipment and materials are provided.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Bookbinding Workshop for Beginners, Learn the beautiful craft of bookbinding in this beginner's workshop. Our expert bookbinder will teach you the fundamentals of coptic stitch binding and how to create your own hardcover journal. All tools and materials are provided, and you'll leave with a handmade book to treasure. This is a great way to learn a new skill and create a personalized gift for a loved one.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Card Game Meetup, Join us for our weekly card game meetup! Whether you're a fan of classic games like poker and rummy, or modern games like Magic: The Gathering and Commander, this is a great opportunity to find new people to play with. We'll have a few tables set up for different games, and you can bring your own games to share as well. All skill levels are welcome. Food and drink specials all night.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "DIY Soap Making Workshop, Learn to make your own natural, scented soaps in this fun and educational workshop. We'll teach you the basics of cold process soap making, from selecting the right oils to blending your own custom fragrances. You'll leave with a batch of your own hand-poured soaps to cure at home. All materials and equipment are provided, and you'll get to take home a beautiful, handmade product.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Rock Climbing Social, Join us for our monthly rock climbing social! Whether you're a seasoned climber or a complete beginner, this is a great opportunity to connect with other climbers in the community. We'll have a few experienced climbers on hand to offer tips and belay for new climbers. All skill levels are welcome. The event will be followed by a social gathering at a nearby bar.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Hiking Club: Sunrise Hike to Mount Victoria, Join the Wellington Hiking Club for an early morning sunrise hike to the summit of Mount Victoria. We'll meet before dawn and hike to the top to watch the sunrise over the city and the harbor. This is a great way to start your day, get some exercise, and enjoy the stunning views of Wellington. All fitness levels are welcome. We'll finish with a coffee at a nearby cafe. Free event.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Introduction to Sewing Machines, Learn how to use a sewing machine in this beginner's workshop. Our friendly instructor will teach you the basics, from threading the machine to sewing a straight seam. You'll work on a simple project like a tote bag or a cushion cover to practice your new skills. All equipment and materials are provided. No experience necessary. Limited spaces, so book early!",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Cycling Club: Saturday Morning Ride, Join the Wellington Cycling Club for our weekly Saturday morning ride. We'll ride a scenic route through the hills of Wellington, with a few stops for coffee and snacks. This is a casual and friendly group, perfect for cyclists of all levels. We'll have a few experienced riders on hand to offer tips and encouragement. Free event.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Creative Writing and Poetry Reading, Join our monthly creative writing and poetry reading night! This is a supportive and welcoming space for writers of all genres and skill levels. Read your work, listen to others, and connect with the local writing community. We'll provide some writing prompts to get you started, and a sign-up sheet will be available at the door. Free event with complimentary tea and coffee.",
-    "label": "Hobbies & Interests",
     "skip": false
   },
   {
