@@ -21,7 +21,7 @@ class RoxyScrapper:
         sleep(3)
         title = driver.find_element(By.CLASS_NAME, "single-movie__title").text
         sticky_wrapper: WebElement = driver.find_element(By.XPATH, "//div[contains(@class, 'sticky-inner-wrapper')]")
-        image_url = sticky_wrapper.find_element(By.TAG_NAME, "img").get_attribute("scr")
+        image_url = sticky_wrapper.find_element(By.TAG_NAME, "img").get_attribute("src")
         time_elements = driver.find_elements(By.CLASS_NAME, "single-session")
         dates = []
         for time_element in time_elements:
