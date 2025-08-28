@@ -14,6 +14,7 @@ FACEBOOK: str = "Facebook"
 EVENT_FINDER: str = "Event Finder"
 EVENT_BRITE: str = "Event Brite"
 WOAP: str = "WOAP"
+ROXY: str = "Roxy Cinema"
 now = datetime.now()
 
 ALL_SCRAPER_NAMES: List[str] = [
@@ -28,7 +29,8 @@ ALL_SCRAPER_NAMES: List[str] = [
     HUMANITIX,
     FACEBOOK,
     EVENT_FINDER,
-    EVENT_BRITE
+    EVENT_BRITE,
+    ROXY
 ]
 
 if now.month == 8 or now.month == 7:
