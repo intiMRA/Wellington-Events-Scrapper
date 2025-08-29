@@ -15,6 +15,7 @@ EVENT_FINDER: str = "Event Finder"
 EVENT_BRITE: str = "Event Brite"
 WOAP: str = "WOAP"
 ROXY: str = "Roxy Cinema"
+ALL_EVENTS_IN = "All Events In"
 now = datetime.now()
 
 ALL_SCRAPER_NAMES: List[str] = [

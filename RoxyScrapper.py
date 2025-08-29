@@ -53,6 +53,7 @@ class RoxyScrapper:
         sleep(3)
         driver.execute_script(f"window.scrollBy(0, {400});")
         height = driver.execute_script("return document.body.scrollHeight")
+
         scrolled_amount = 0
         while True:
             if scrolled_amount > height:
