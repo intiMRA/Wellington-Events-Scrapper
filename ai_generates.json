@@ -40,22 +40,7 @@
     "skip": false
   },
   {
-    "description": "Project Management Workshop: Agile Methodologies for Modern Teams, A hands-on workshop for project managers and team leaders on implementing Agile and Scrum methodologies. Learn how to run effective sprints, manage product backlogs, and foster a collaborative team environment. This workshop will provide you with the tools to deliver projects more efficiently and adapt to changing requirements with ease.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Social Media Manager's Boot Camp: From Strategy to Execution, A hands-on boot camp for aspiring social media managers and business owners. Master the art of content strategy, platform algorithms, community engagement, and data analysis to build a strong social media presence that drives business growth.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Family Business Legacy: A Succession Planning Workshop, A workshop for family-owned businesses on the complex process of succession planning. Learn how to navigate intergenerational transitions, manage family dynamics, and create a clear roadmap to ensure the long-term sustainability and success of your family business.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "The Digital Workplace: Tools for Tomorrow's Collaboration, A panel discussion on the future of remote and hybrid work. Hear from experts on the latest digital collaboration tools, strategies for fostering virtual team cohesion, and the role of technology in shaping the modern workplace.",
     "label": "Business & Networking",
     "skip": false
   },
@@ -480,66 +465,6 @@
     "skip": false
   },
   {
-    "description": "Aromatherapy Candles Workshop: Crafting with Essential Oils, A workshop on the art of creating custom candles with essential oils. Learn how to blend fragrances, work with natural waxes, and pour your own unique, scented candles to create a relaxing and beautiful atmosphere in your home. All materials are included.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Mindfulness & Meditation: A Stress Reduction Workshop, A workshop on mindfulness and meditation techniques for stress reduction and mental clarity. Learn simple, effective practices to quiet a busy mind, manage anxiety, and cultivate a sense of inner calm that you can apply to your daily life.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Digital Illustration for Beginners: The Creative Tablet, An introductory course on digital illustration using a drawing tablet and software. Learn the fundamentals of digital art, including brush settings, layers, and color palettes, to create beautiful illustrations and digital paintings from scratch.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Financial Planning for Life: A Personal Budgeting Workshop, A practical workshop on creating a personal budget and long-term financial plan. Learn how to track expenses, set financial goals, and build a strategy for savings and investments that puts you in control of your financial future.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Public Speaking for EAL Learners: A Confidence Workshop, A public speaking workshop specifically designed for learners of English as an additional language. Practice your presentation skills, build confidence, and receive supportive feedback on your communication in a safe and encouraging environment.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Apartment Gardening: Create Your Own Herb Garden, A workshop on how to create a thriving herb garden in a small space, such as an apartment balcony or windowsill. Learn about container selection, soil, and the right herbs for your space to enjoy fresh herbs year-round.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Stained Glass Creation: A Beginner's Course, An introductory course on the art of stained glass. Learn the fundamentals of cutting glass, grinding, copper foil wrapping, and soldering to create a beautiful, small stained-glass suncatcher or panel to take home.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Drawing from Life: Portraiture for All Levels, A class on drawing portraits from a live model. Our instructor will guide you through techniques for capturing likeness, working with proportions, and shading to create a realistic and expressive portrait. All drawing materials are provided.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "The Poetry Workshop: Finding Your Voice, A creative writing workshop for aspiring poets. Through guided exercises and group discussions, you'll explore different forms of poetry, develop your unique voice, and learn how to give and receive constructive feedback on your work.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Leathercraft Workshop: Handmade Wallets & Keychains, A hands-on workshop on the basics of leather crafting. Learn how to cut, stamp, dye, and hand-stitch leather to create a custom wallet or keychain. All tools and high-quality leather are included.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Italian Pasta Making: From Scratch, A cooking class on authentic Italian pasta making. Learn to mix, roll, and shape different types of pasta, including fettuccine and ravioli, and prepare simple, delicious sauces to pair with your handmade creations.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Cocktails & Mocktails Workshop: Mixology Made Easy, A hands-on workshop on the art of mixology. Learn how to craft a variety of delicious cocktails and mocktails using fresh ingredients and professional techniques. This class is perfect for aspiring home bartenders and hosts.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
     "description": "Artisan Bread Baking: Focaccia & Ciabatta, A baking workshop for home bakers on how to create delicious artisan breads. Learn the secrets to a perfect focaccia and ciabatta, from dough hydration and proofing to achieving a crispy crust and a light, airy crumb.",
     "label": "Classes & Workshops",
     "skip": false
@@ -755,66 +680,6 @@
     "skip": false
   },
   {
-    "description": "Manu Tukutuku Workshop: Traditional Kite Making, A hands-on workshop on the traditional M\u0101ori art of manu tukutuku (kite making). Learn about the cultural significance of kites and how to create your own beautiful kite using traditional materials and techniques. This is a family-friendly event for all ages.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Financial Literacy for Families: A Practical Workshop, A workshop on financial literacy for families, covering topics such as budgeting, saving for education, and managing household debt. Learn practical strategies and tools to build a strong financial foundation for your family's future.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Open Mic Night: Poetry & Acoustic Music, A community open-mic night for poets and acoustic musicians. Share your original work, listen to local talent, and enjoy a relaxed and supportive atmosphere. All skill levels are welcome to sign up and perform.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "School Car Wash Fundraiser, A fundraiser car wash for a local school or community group. Bring your car for a wash and a chat, with all proceeds going to support a great cause. This is a fun, social event that brings the community together for a day of good deeds.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Neighborhood Planting Day: Green Our Community, A neighborhood cleanup and planting day focused on greening local public spaces. Join your neighbors to plant new trees and flowers, clean up public areas, and help beautify your community.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Community Bike Repair Workshop, A workshop where community volunteers help people with basic bike repairs and maintenance. Bring your bike and a willingness to learn, and get your wheels running smoothly and safely for free or by koha.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Wellington on Film: A Local History Documentary Screening, A film screening of a documentary about Wellington's history. Watch a cinematic journey through the city's past, from its early settlement to the modern day, and learn about the people and events that have shaped it.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "World in Wellington: A Cultural Performance Night, A cultural performance night featuring dancers and musicians from various countries represented in Wellington. This is a vibrant celebration of the city's diverse communities, with a range of performances, food stalls, and a chance to learn about different cultures.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Home Composting Workshop: Reducing Waste, A hands-on workshop on making your own compost at home. Learn about the different types of composting, how to select the right materials, and how to create a rich compost that will nourish your garden and reduce your household waste.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "First Aid & CPR Certification: A Lifesaving Workshop, A practical workshop on basic first aid and CPR, open to the general public. Learn how to respond to common medical emergencies, perform CPR on an adult and child, and use an AED. This is a lifesaving skill that everyone should have.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Urban Foresters: Tree Care & Pruning Workshop, A workshop on tree care and pruning for urban gardeners and homeowners. Learn how to properly prune your trees for health and growth, and how to care for them to ensure they thrive in an urban environment.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Youth Coding Club: An Introduction to Game Design, A coding club for teenagers on an introduction to game design. Learn the fundamentals of programming and game development using a simple, visual platform, and work with other young people to create and share your own games.",
-    "label": "Community & Culture",
-    "skip": false
-  },
-  {
     "description": "City of Sculpture: A Guided Public Art Walk, A guided walking tour of Wellington's public sculptures and art installations. Learn about the artists and stories behind the city's most iconic works of public art, and discover a new appreciation for the urban landscape.",
     "label": "Community & Culture",
     "skip": false
@@ -842,16 +707,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Bird Sanctuary Working Bee: Pest Trapping & Track Maintenance, A community working bee at a local bird sanctuary. Help with track maintenance and setting pest traps to protect native birds and their habitat. This is a hands-on event for all ages, with all tools and safety gear provided.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "DIY Pest Trapping Workshop: The 'Trap Library', A hands-on workshop on building and setting pest traps for your home garden. Learn about common pests, humane trapping methods, and how to use the community 'Trap Library' to borrow traps for free. All materials provided.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -2585,11 +2440,6 @@
     "skip": false
   },
   {
-    "description": "Craft Beer & Cider Fest: Local Brews, A festival celebrating the local craft beer and cider scene. Sample a huge variety of craft beers and ciders from local breweries and cideries, and meet the makers. With live music and food trucks, it's a great day out for beer lovers.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Wellington Performing Arts Festival: Theatre & Dance, A festival celebrating the performing arts, from theatre to dance. Watch a variety of performances from local artists and theatre groups, and participate in workshops and talks. This festival celebrates the creativity and talent of Wellington's performing arts scene.",
     "label": "Festivals",
     "skip": false
@@ -3147,21 +2997,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "NZ Classic Film Screening: A Q&A with the Director, A special screening of a New Zealand classic film, followed by a Q&A with the director. Hear behind-the-scenes stories, learn about the filmmaking process, and gain insights into the film's cultural impact. This event is for film lovers and students of New Zealand cinema.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Short Film Festival: A Showcase of Global Talent, A film festival focused on short films from around the world. Watch a curated selection of films from new and emerging filmmakers, and participate in discussions and Q&A sessions. This festival celebrates the art of short-form storytelling.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Classic Horror Movie Night: Themed Event, A screening of a classic horror film at a themed event. Dress up as your favorite horror movie character, enjoy spooky snacks and drinks, and get ready for a night of cinematic chills and festive frights. The provided sources reference a Halloween Film Night that features a horror film classic, so this event is a new and distinct take.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -4035,16 +3870,6 @@
     "skip": false
   },
   {
-    "description": "Public Meeting on the Central Library's Future: A community consultation event for residents to share their opinions and ideas on the planned reconstruction and future use of the Wellington Central Library.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Council's Annual Budget Review: A public information session where the council presents its financial reports, spending priorities, and tax plans for the upcoming fiscal year.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
     "description": "Advocacy and Human Rights Seminar: A workshop for activists and community organisers on navigating the political system to advocate for human rights, social justice, and equitable policies in Wellington.",
     "label": "Government & Politics",
     "skip": false
@@ -4570,11 +4395,6 @@
     "skip": false
   },
   {
-    "description": "Yoga for Back Pain Relief, Learn gentle and effective yoga postures to alleviate chronic back pain and improve spinal health. This class focuses on building core strength, increasing flexibility, and promoting relaxation to support a healthy back. No prior yoga experience is needed.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Mindful Eating Workshop, This workshop helps you develop a healthier relationship with food by practising mindfulness. Learn to listen to your body's hunger and fullness cues, savour each bite, and reduce emotional eating. This is a non-diet-focused approach to nutrition and wellbeing.",
     "label": "Health & Wellness",
     "skip": false
@@ -4995,16 +4815,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Photography Club: Monthly Critique Night, Join the Wellington Photography Club for our monthly critique night. Bring your photos to share and get constructive feedback from other photographers in the community. This is a great opportunity to improve your skills, learn new techniques, and get inspired by others' work. All skill levels are welcome. Free event.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Chess Club: Weekly Tournament, Join the Wellington Chess Club for our weekly tournament. All skill levels are welcome, from grandmasters to beginners. We'll have a few different sections to ensure fair and competitive games. Prizes for top finishers. Entry fee is $10. Food and drink specials all night.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
     "description": "Introduction to Digital Photography, Learn the fundamentals of digital photography in this beginner-friendly workshop. Our instructor will teach you about camera settings, composition, and editing software. You'll work on a few different exercises to practice your new skills and create a portfolio of your best photos. All equipment is provided. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
     "skip": false
@@ -5287,31 +5097,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Crafty Christmas Market, Get a head start on your holiday shopping at our Crafty Christmas Market. Find unique, handmade gifts, decorations, and festive treats from over 50 local artisans. Enjoy a warm and cheerful atmosphere, with food trucks and live music to get you in the holiday spirit. Free entry for all ages.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Vintage & Retro Fair, Step back in time at our Vintage & Retro Fair. Browse a curated selection of clothing, furniture, home decor, and collectibles from the 20th century. Whether you're a serious collector or just love a good throwback, you're sure to find a treasure. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Handmade Market, Celebrate creativity and craftsmanship at the Wellington Handmade Market. Meet the talented makers behind a wide range of products, including jewellery, pottery, illustrations, and textiles. This is the perfect place to find a one-of-a-kind gift or treat yourself to something special. Entry is free.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Island Bay Arts & Crafts Festival, A weekend celebration of local talent. The Island Bay Arts & Crafts Festival features stalls from painters, sculptors, jewellers, and crafters. There will be workshops for kids, food stalls, and live performances. A perfect family-friendly outing.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Kilbirnie Pre-Loved Market, A community market for second-hand goods. Sell or buy pre-loved clothes, books, toys, and household items. A great way to reduce waste and find a bargain. Free entry, with a gold coin donation encouraged for stall holders.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {

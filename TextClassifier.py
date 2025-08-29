@@ -19,7 +19,7 @@ training_data_file_name = "training_data.json"
 ai_data_file_name = "ai_generates.json"
 unclassified_data_file_name = "unclassified_data.json"
 
-load_ai = True
+load_ai = False
 should_train = True
 
 max_sequence_length = 1500
