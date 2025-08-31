@@ -31,7 +31,8 @@ ALL_SCRAPER_NAMES: List[str] = [
     FACEBOOK,
     EVENT_FINDER,
     EVENT_BRITE,
-    ROXY
+    ROXY,
+    ALL_EVENTS_IN
 ]
 
 if now.month == 8 or now.month == 7:

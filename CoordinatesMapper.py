@@ -12,7 +12,9 @@ class CoordinatesMapper:
         regexes = [
             r"(\d+\s*st|\d+\s*th)\s*[fF]{1}loor",
             r"(\d+\s*st|\d+\s*th)\s*[Ll]{1}evel",
-            r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)"
+            r"#?[Ll](?:evel)?\s?(\d+)|\s*#(\d+)",
+            r", Wellington \d{4}",
+            r", New Zealand"
         ]
         geolocator = Nominatim(user_agent="wellington_events")
         for clean_up in clean_ups:
