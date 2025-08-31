@@ -9,6 +9,8 @@ from EventInfo import EventInfo
 from dateutil import parser
 from typing import List, Set, Optional, Tuple
 import json
+from selenium.webdriver.chrome.options import Options
+import subprocess
 
 
 class AllEventsInScrapper:
@@ -19,6 +21,8 @@ class AllEventsInScrapper:
         image: WebElement = driver.find_element(By.CLASS_NAME, "event-banner")
         image_url = image.get_attribute("src")
         venue_texts = [event_text.text for event_text in driver.find_elements(By.XPATH, "//p[contains(@class, 'event-location')]")]
+        if len(venue_texts) > 1 and venue_texts[0] in venue_texts[1]:
+            venue_texts = [venue_texts[0]]
         venue = ",".join(venue_texts)
         print(f"venue: {venue}")
         date_strings = driver.find_element(By.XPATH, "//p[contains(@class, 'event-time-label')]").text.split(" - ")
@@ -26,6 +30,7 @@ class AllEventsInScrapper:
         for date_string in date_strings:
             date_string = " ".join(date_string.split(",")[1:])
             date_string = date_string.split(" (")[0]
+            date_string = date_string.split(" to")[0]
             dates.append(parser.parse(date_string))
         description = driver.find_element(By.XPATH, "//div[contains(@class, 'event-description')]").text
         print(category)
@@ -34,7 +39,7 @@ class AllEventsInScrapper:
                          image=image_url,
                          url=url,
                          venue=venue,
-                         source=ScrapperNames.ROXY,
+                         source=ScrapperNames.ALL_EVENTS_IN,
                          event_type=category,
                          description=description)
 
@@ -91,18 +96,16 @@ class AllEventsInScrapper:
             urls_file.write(",\n")
         return event_urls
     @staticmethod
-    def get_urls(city_url, previous_urls: Set[str], categories: Set[Tuple[str, str]], urls_file) -> Set[Tuple[str, str]]:
+    def get_urls(city_url: str, previous_urls: Set[str], categories: Set[Tuple[str, str]], urls_file, driver: webdriver) -> Set[Tuple[str, str]]:
         event_urls = set()
         cat_count = len(categories)
         current_cat = 1
         for category in sorted(categories):
-            driver = webdriver.Chrome()
             category_name = category[0]
             category_url = category[1]
             print(f"fetching: {category_name} for {city_url} {current_cat} of {cat_count}")
             current_cat += 1
             event_urls = event_urls.union(AllEventsInScrapper.get_urls_for_category(category_url, driver, previous_urls, category_name, urls_file))
-            driver.close()
         return event_urls
 
     @staticmethod
@@ -121,7 +124,7 @@ class AllEventsInScrapper:
         return categories
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        fetch_urls = False
+        fetch_urls = True
         event_urls = set()
         if not fetch_urls:
             event_urls = FileUtils.load_from_files(ScrapperNames.ALL_EVENTS_IN)[1]
@@ -135,12 +138,25 @@ class AllEventsInScrapper:
             "https://allevents.in/waikanae",
             "https://allevents.in/paraparaumu",
         ]
-        driver = webdriver.Chrome()
+        profile_path = "~/ChromeTestProfile"  # Replace with your actual path
+        # Set Chrome options
+        options = Options()
+        options.add_argument(f"user-data-dir={profile_path}")
+
+        # Initialize the ChromeDriver
+        driver = webdriver.Chrome(options=options)
         if fetch_urls:
             urls_file.write("[\n")
             for city_url in city_urls:
                 categories = AllEventsInScrapper.get_categories(city_url, driver)
-                event_urls = event_urls.union(AllEventsInScrapper.get_urls(city_url, previous_urls, categories, urls_file))
+                event_urls = event_urls.union(AllEventsInScrapper.get_urls(city_url, previous_urls, categories, urls_file, driver))
+                driver.close()
+                profile_path = "~/ChromeTestProfile"  # Replace with your actual path
+                # Set Chrome options
+                options = Options()
+                options.add_argument(f"user-data-dir={profile_path}")
+
+                driver = webdriver.Chrome(options=options)
             urls_file.write("]\n")
         else:
             json.dump(list(event_urls), urls_file, indent=2)
@@ -174,4 +190,4 @@ class AllEventsInScrapper:
         urls_file.close()
         return []
 
-events = list(map(lambda x: x.to_dict(), sorted(AllEventsInScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(AllEventsInScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
