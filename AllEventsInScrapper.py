@@ -167,6 +167,8 @@ class AllEventsInScrapper:
         for event_urlParts in event_urls:
             category_name = event_urlParts[0]
             event_url = event_urlParts[1]
+            if not fetch_urls and event_url in previous_urls:
+                continue
             print(f"category: {category_name} url: {event_url}")
             try:
                 event = AllEventsInScrapper.get_event(event_url, category_name, driver)
