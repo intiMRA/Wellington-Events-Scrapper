@@ -213,6 +213,7 @@ class CategoryMapping:
             "Vegan": "Food & Drink",
             "Mindfulness": "Health & Wellness",
             "Mountain Biking": "Sports & Fitness",
+            "Motorsport": "Sports & Fitness",
             "Food Trucks": "Food & Drink",
             "Christmas Markets & Fairs": "Markets & Fairs",
             "Market": "Markets & Fairs",

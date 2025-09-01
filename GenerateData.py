@@ -130,7 +130,23 @@ def print_duplicates():
                 if len(set(dictionary[d])) > 1:
                     print("DUPLICATES")
                 print("-" * 100)
+def move_top_n_shortest(num:int, category: str):
+    with open("training_data.json", mode="r") as training_file_read:
+        training_data = json.loads(training_file_read.read())
+        with open("unclassified_data.json", mode="r") as unclassified_file_read:
+            unclassified_data = json.loads(unclassified_file_read.read())
+            category_training = [instance for instance in training_data if instance["label"] == category and not instance["skip"]]
+            category_training = sorted(category_training, key=lambda x: len(x["description"]))[:num]
+            training_data = [instance for instance in training_data if instance not in category_training]
+            for instance in category_training:
+                unclassified_data.append(instance)
+            with open("training_data.json", mode="w") as training_file_write:
+                json.dump(training_data, training_file_write, indent=2)
+            with open("unclassified_data.json", mode="w") as unclassified_file_write:
+                json.dump(unclassified_data, unclassified_file_write, indent=2)
 
+
+# move_top_n_shortest(17, "Music & Concerts")
 generate_data()
 generate_unclassified_data()
 count_categories()
