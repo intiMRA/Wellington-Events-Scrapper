@@ -155,4 +155,4 @@ class RoxyScrapper:
         banned_file.close()
         return events
 
-events = list(map(lambda x: x.to_dict(), sorted(RoxyScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(RoxyScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
