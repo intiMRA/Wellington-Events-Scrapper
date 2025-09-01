@@ -186,5 +186,5 @@ if should_train:
     joblib.dump(label_encoder, 'label_encoder.joblib')
 
 labels_out = predict_from_file(
-    training_data_file_name
+    unclassified_data_file_name
 )
