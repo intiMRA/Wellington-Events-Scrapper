@@ -4,59 +4,9 @@
     "label": "Music & Concerts",
     "skip": false
   },
-  {
-    "description": "The New Zealand International Comedy Festival: The Storytelling Showcase, The Storytelling Showcase at the New Zealand International Comedy Festival features a hilarious and heartwarming lineup of comedians who tell true stories from their lives. From awkward dates to embarrassing family moments, this show is a great way to experience a different side of comedy, with a focus on connection and vulnerability. A night of laughs, stories, and fun.",
-    "label": "Arts & Theatre",
-    "skip": false
-  },
     {
     "description": "'TONES OF SILENCE' - FUTUNA CHAPEL IN B&W - EXHIBITION, \u2018TONES of SILENCE\u2019 \u2013 FUTUNA CHAPEL in BLACK & WHITE - EXHIBITION\nThe \u2018Tones of Silence\u2019 -explored through B & W photography taken with vintage camera and lenses to give another way of viewing and experiencing the Chapel. This exhibition will explore the tones, textures, composition and forms of the Chapel in black and white with many shades of grey.\n\"Generally, the older the equipment, the greater the personal input of the photographer is required and therefore the greater the commitment and individuality. Often, you can look at a 19th-century photograph and tell who the photographer is. You certainly can't do that today. It isn't only the camera and lens, but also the type of film (or in those days, glass plate), the developer used and how the print is made onto particular types of paper. Each gives a distinct interpretation\".\nJohn Grace - email - 18/06/25\nThe Trust looks forward to welcoming architects, designers, graduates, students and interested members of the public to attend this event and support the Trust in its work.\nThe Futuna Trust is a charitable organisation and all koha received from the exhibition events will go towards the ongoing care, maintenance and operation of Futuna Chapel and also to support various initiatives undertaken by the Trust.  Please register\nBOOKINGS ARE PREFERRED TO ATTEND THIS EVENT",
     "label": "Arts & Theatre",
-    "skip": false
-  },
-  {
-    "description": "Lean Startup Workshop: From Idea to MVP in 3 Days, A hands-on, intensive workshop on the lean startup methodology. Learn how to validate your business ideas, build a minimum viable product (MVP) quickly, and iterate based on customer feedback. This is a crash course in efficient and effective product development.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "E-commerce Accelerator: A Blueprint for Online Success, A seminar on the essentials of building a profitable e-commerce business. Topics include platform selection, digital marketing strategies, payment gateways, and logistics. This event provides a step-by-step blueprint for aspiring online business owners.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Digital Advertising Roundtable: Trends & Tactics, A networking event for marketers and business owners to discuss the latest trends and effective tactics in digital advertising. Share insights on social media ads, programmatic advertising, and data-driven campaigns to maximize your ROI.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Financial Forecasting for Growth: A Budgeting Workshop, A practical workshop for business owners and financial managers on creating accurate financial forecasts and budgets. Learn how to project revenue, manage expenses, and use financial planning as a tool for strategic decision-making and sustainable growth.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Climate Action in Business: A Discussion on Corporate Responsibility, A discussion forum on the role of businesses in addressing climate change. Hear from sustainability experts and corporate leaders on how to implement effective climate strategies, reduce your carbon footprint, and build a responsible brand that resonates with stakeholders.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Leadership Communication Masterclass: The Power of Storytelling, A masterclass for leaders on using storytelling as a powerful communication tool. Learn how to craft compelling narratives that inspire your team, influence stakeholders, and communicate your vision with clarity and emotional impact.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Product Launch Legalities: Protecting Your Intellectual Property, A seminar on the legal essentials of launching a new product. Learn how to navigate patents, trademarks, and copyright law to protect your innovation and brand from competitors. This is a critical session for any entrepreneur bringing a new product to market.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Building Connections: An A&E Industry Networking Night, A networking event for professionals in the architecture and engineering (A&E) industry. Connect with architects, engineers, designers, and project managers to discuss collaboration opportunities, share best practices, and build a stronger professional community in the Wellington region.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Career Advancement Workshop: Mastering Salary & Promotion Negotiations, A workshop designed to equip professionals with the skills to confidently negotiate salary increases, promotions, and new job offers. Learn strategic communication tactics, research best practices, and gain the confidence to advocate for your value in the workplace.",
-    "label": "Business & Networking",
     "skip": false
   },
   {
@@ -415,31 +365,6 @@
     "skip": false
   },
   {
-    "description": "Genre Writing Workshop: Science Fiction & Fantasy, A creative writing workshop for those interested in writing science fiction and fantasy. Learn about world-building, creating compelling characters, and developing a unique narrative voice to bring your speculative stories to life.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Interview Skills Workshop: Ace Your Next Interview, A workshop on mastering job interview skills for job seekers. Learn how to prepare for common questions, practice your answers, and confidently present yourself to hiring managers. This class is designed to help you land your dream job.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Social Media Graphics Masterclass: Design with Canva, A hands-on masterclass on creating stunning social media graphics using the popular design tool Canva. Learn to create professional-looking posts, stories, and headers for your brand or business without a design background.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Personal Investment Workshop: Building Your Portfolio, A workshop on creating a personal investment portfolio. Learn the basics of stocks, bonds, and mutual funds, and develop a long-term investment strategy that aligns with your financial goals and risk tolerance. This is for educational purposes only.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
-    "description": "Advanced Cake Decorating: From Fondant to Floral, A class for experienced bakers on advanced cake decorating techniques. Learn how to work with fondant, create intricate sugar flowers, and use various piping methods to create stunning, professional-looking cakes for any occasion.",
-    "label": "Classes & Workshops",
-    "skip": false
-  },
-  {
     "description": "Business Budgeting Workshop: Spreadsheets & Financial Tracking, A practical workshop on using spreadsheets for business budgeting and financial tracking. Learn how to create a simple budget, forecast revenue and expenses, and monitor your business's financial health with confidence.",
     "label": "Classes & Workshops",
     "skip": false
@@ -447,16 +372,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "History of Environmental Activism in NZ: A Talk, A talk on the history of environmental activism in New Zealand, from early conservation movements to modern-day climate protests. Learn about the key figures, events, and legal battles that have shaped the country's environmental policies.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Hydroponic Systems for Beginners: Grow Your Own Veggies, A workshop on building a basic hydroponic system at home. Learn how to set up a simple system to grow fresh herbs and vegetables indoors without soil, perfect for urban dwellers and those with limited outdoor space.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1675,51 +1590,6 @@
     "skip": false
   },
   {
-    "description": "Father's Day Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for Father's Day. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for their dad or a special father figure in their life.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Music Festival: Live Kids' Bands, A free music festival for families with local kids' bands and musicians. This event celebrates music and community, with a variety of performances, food trucks, and activities for all ages.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "First Aid & Safety for Kids: A Workshop, A workshop on basic first aid and safety for kids. Children will learn how to respond to common injuries, call for help in an emergency, and stay safe at home and in their community. This is a crucial skill for kids to learn.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Nature Walk & Talk: Native Plants & Birds, A family-friendly guided walk in a local reserve to identify native plants and birds. Learn about the unique flora and fauna of the Wellington region, and how conservation efforts are helping native species thrive in an urban environment.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "DIY Playdough & Slime Workshop, A hands-on workshop on making your own playdough and slime from scratch. Kids will learn simple recipes and have a blast mixing and playing with their own creations. All ingredients are safe and provided.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Clean-Up Day: Helping Our Community, A family-led community clean-up day. Kids and parents will work together to pick up litter from a local park or beach, helping to beautify their community and teach children the importance of environmental stewardship.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Kids' Theatre Workshop: Acting & Stage Presence, A kids' theatre workshop on acting and stage presence. Children will learn the basics of acting, improvisation, and stage presence in a fun and supportive environment. This class is for aspiring young actors and actresses.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Eco-Friendly Crafts Workshop: Natural Materials, A workshop on making eco-friendly crafts from natural materials. Kids will learn to create art using leaves, sticks, shells, and other foraged materials, celebrating creativity and nature.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Treasure Hunt: A Day of Adventure, A day-long 'treasure hunt' across a local suburb. Families will follow a series of clues to discover hidden treasures and solve riddles, exploring their neighborhood and having a day of adventure and fun.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Family Sports Day: Soccer & Touch Rugby, A family-friendly sports tournament with different sports, like soccer and touch rugby. Teams will compete in a series of games, with a focus on teamwork, sportsmanship, and fun. This event is a great way to get active and connect with your community.",
     "label": "Family Friendly",
     "skip": false
@@ -2087,36 +1957,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Sustainable Food Festival: From Farm to Plate, A festival of local food and drink, with a focus on sustainable food systems. Sample a variety of dishes from local chefs who are using fresh, locally sourced ingredients, and learn about the importance of sustainable farming practices.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Local History Festival: Talks & Guided Walks, A festival of local history, with talks and guided walks. Learn about the city's past and the people who shaped it, with a variety of talks from local historians and guided walks of historic landmarks. This festival is a great way to connect with your community's past.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Poetry & Literature Festival: Open Mics & Author Talks, A festival of poetry and literature, with open mics and author talks. Share your original work, listen to local poets and writers, and meet your favorite authors. This festival celebrates the power of words and storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Comedy Festival: Laughs & Giggles, A festival of comedy, with local and international comedians. Watch a variety of stand-up, sketch, and improv comedy, and laugh your way through the festival. This festival is for comedy lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Family Fun Festival: Activities & Entertainment, A festival of family-friendly activities and entertainment. Enjoy a day of fun and festivities, with a variety of activities for all ages, from bouncy castles and face painting to live music and food trucks. This festival is a great day out for the whole family.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Independent Film Festival: A Showcase of Talent, A festival of independent films, with a focus on new and emerging filmmakers. Watch a curated selection of films from around the world, and participate in discussions and Q&A sessions. This festival celebrates the creativity and talent of independent filmmakers.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -3420,21 +3260,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Regional Policy Briefing: A panel discussion where policy analysts and local politicians review recent legislative changes and their potential impact on the Wellington region.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "The Future of Wellington's Waterfront: A public hearing on proposed developments and conservation efforts along Wellington's waterfront, allowing residents to voice their opinions on the city's iconic public space.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Candidate Q&A: A moderated Q&A session with candidates for the Wellington City Council Northern Ward, focusing on local issues like traffic, community safety, and local services.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
     "description": "Local Body Elections Information Evening: A session for the public to learn about the importance of local government, the roles of councillors and community boards, and how to cast their vote.",
     "label": "Government & Politics",
     "skip": false
@@ -3910,11 +3735,6 @@
     "skip": false
   },
   {
-    "description": "Holistic Weight Management Seminar, This seminar explores weight management from a holistic perspective, moving beyond diet culture and focusing on sustainable lifestyle changes. A nutritionist and a wellness coach will discuss topics like mindful eating, stress management, and the importance of a positive body image. Free of charge.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Mindfulness for Parents, A workshop for parents to learn simple mindfulness techniques to navigate the challenges of parenthood. Topics include managing parental stress, being present with your children, and building a more peaceful family environment. Includes practical tools and a Q&A session.",
     "label": "Health & Wellness",
     "skip": false
@@ -4220,56 +4040,6 @@
     "skip": false
   },
   {
-    "description": "DIY Scrapbooking: Memory Keeping Workshop, Learn the art of scrapbooking and create a beautiful memory album in this hands-on workshop. Our instructor will guide you through a variety of techniques, from selecting photos and ephemera to creating layouts and adding embellishments. You'll leave with a completed album to treasure for years to come. All materials are provided, but you're welcome to bring your own photos to work with.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Writers Group: Novel Writing Workshop, Join the Wellington Writers Group for a special novel writing workshop. Our guest instructor, a published author, will guide you through the process of writing a novel, from plotting and character development to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Board Game Tournament, Join our monthly board game tournament! We'll be playing a variety of modern board games, from strategy-heavy Euro games to cooperative party games. Prizes for top finishers. Entry fee is $10. All skill levels are welcome. Food and drink specials all night.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "DIY Jewelry Making: Resin Pendants and Charms, Learn the art of resin jewelry making in this hands-on workshop. Our expert jeweler will teach you the basics of working with resin, from mixing and pouring to adding inclusions and finishing the pieces. You'll leave with three unique pendants or charms to use in your own jewelry projects. All materials and tools are provided. No experience necessary. Complimentary drinks and snacks.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Drone Pilots Club: Drone Racing, Join the Wellington Drone Pilots Club for a night of high-speed drone racing! This is a great opportunity to test your skills against other pilots in a competitive but friendly environment. We'll have a few different courses set up, from beginner-friendly to expert-level. All skill levels are welcome. Free event. Bring your own drone and a good attitude.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "DIY Pottery Hand Building: Bowls and Platters, Learn to hand-build your own unique bowls and platters in this beginner-friendly pottery workshop. Our experienced potter will teach you techniques like pinch pots and slab building, and you'll get to add your own creative touches with stamps and textures. You'll create two unique pieces to be glazed and fired for you to pick up later. All materials and tools are provided.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington History Society: Guided Tour of the City, Join the Wellington History Society for a guided tour of the city's historic sites. Our expert guide will take you on a walk through the city center, pointing out historic buildings and landmarks, and telling you about the stories behind them. This is a great opportunity to learn more about our city's rich history and connect with other history enthusiasts. Free for members, with a small fee for non-members.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Watercolour Workshop: Still Life Painting, Learn the basics of watercolor painting in this beginner-friendly workshop. Our instructor will guide you through color mixing, brush techniques, and creating a beautiful still life painting. All materials are provided, and you'll leave with your own completed artwork. Complimentary tea and coffee provided.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Bird Watching Club: Monthly Lecture Series, Join the Wellington Bird Watching Club for our monthly lecture series. We'll have a guest speaker on a topic related to bird watching and conservation, followed by a Q&A session. This is a great opportunity to learn more about our native birds, get tips on bird watching, and connect with other enthusiasts. Free event.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "DIY Home Decor: Stenciling and Painting, Learn how to create your own custom home decor in this hands-on workshop. We'll teach you a variety of painting and stenciling techniques, from creating custom patterns to adding texture and depth. You'll work on a simple project like a wooden sign or a canvas to practice your new skills. All materials are provided. No experience necessary. Complimentary drinks and snacks.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
     "description": "Wellington Music Jam Session, Join our weekly music jam session! This is a supportive and welcoming space for musicians of all genres and skill levels. Bring your own instrument and play with other musicians, or just come to listen and enjoy the show. We'll have a few microphones and a PA system set up. Free entry, with food and drink specials all night.",
     "label": "Hobbies & Interests",
     "skip": false
@@ -4402,76 +4172,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Fashion Market, A market for fashion lovers, both new and old. The Wellington Fashion Market features stalls from local designers, vintage clothing sellers, and pre-loved fashion connoisseurs. Find a new outfit or a timeless piece. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Health & Wellness Expo, Discover the best of health and wellness in Wellington. The Health & Wellness Expo features stalls from fitness trainers, nutritionists, alternative therapists, and organic product sellers. Get free health checks and attend workshops on topics like meditation and yoga. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Arts & Crafts Market, A market dedicated to handmade goods. The Arts & Crafts Market features stalls from local artisans selling everything from pottery and jewellery to paintings and textiles. A great place to find a unique gift or a beautiful piece for your home. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Green Living Market, A market for all things eco-friendly and sustainable. The Green Living Market features stalls from local producers selling organic food, natural skincare, and eco-friendly household goods. Attend workshops on topics like zero waste and urban gardening. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Artisan Food Market, A gourmet market featuring the best food and drink from local artisans. Sample and buy artisan cheeses, cured meats, fresh bread, and craft beer. A perfect day out for any foodie. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Vinyl & Zine Fair, A unique market for lovers of music and independent publishing. The Vinyl & Zine Fair features stalls from local record stores, private collectors, and independent zine makers. Find a rare record or a one-of-a-kind zine. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Night Market, A vibrant night market with food, music, and art. The Wellington Night Market offers a huge variety of street food stalls, live music from local performers, and a selection of handmade crafts. A great way to spend a Friday or Saturday night. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Antique & Collectibles Fair, A treasure trove of antiques and collectibles. The Antique & Collectibles Fair features stalls from dealers and private collectors selling everything from vintage furniture and jewellery to rare books and coins. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Jewellery & Gemstone Market, A sparkling market for lovers of jewellery and gemstones. The Jewellery & Gemstone Market features stalls from local jewellers, gemstone dealers, and bead suppliers. Find a beautiful piece of jewellery or the perfect stone for your next project. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Children's Book Fair, A book fair just for kids! The Children's Book Fair features a huge selection of new and second-hand books for children of all ages. Meet local authors and illustrators and enjoy storytelling sessions. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Craft Market, A market for all things handmade. The Craft Market features stalls from local artisans selling everything from pottery and textiles to jewellery and paintings. A great place to find a unique gift or a beautiful piece for your home. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Vintage Fashion Market, A market for lovers of vintage fashion. The Vintage Fashion Market features stalls from local vintage clothing sellers and collectors. Find a unique piece from a bygone era or a timeless classic. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Record Fair & Exchange, A market for music lovers. The Record Fair & Exchange features stalls from local record stores and private collectors. Buy, sell, or trade vinyl records, CDs, and music memorabilia. Live DJs will be spinning tunes all day. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Artisanal Market, A market for lovers of artisanal goods. The Artisanal Market features stalls from local producers selling everything from small-batch sauces and spice blends to handmade soaps and candles. A great place to find a unique gift or a treat for yourself. Free entry.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -4902,31 +4602,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Unitarian Universalist Community Service, Join us for our weekly Sunday service, a space for spiritual growth and community connection in a non-creedal, open-minded environment. Our services blend music, readings, and reflections from various faith traditions and sources, celebrating the diverse paths we take to find meaning. All are welcome to our inclusive and affirming space.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Men's Breakfast and Guest Speaker, Start your Saturday with a hearty breakfast and an inspiring talk from a guest speaker. This monthly gathering for men provides a space for fellowship, honest conversation, and spiritual encouragement. Our speaker will share a personal testimony on faith and resilience. All men are welcome, so bring a mate and enjoy good food and great company.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Youth Group: Pizza and Praise Night, Calling all high school students! Join us for a fun-filled evening of pizza, games, and worship music. This youth-led event is a relaxed and friendly environment to hang out with friends, meet new people, and explore questions about faith and life. All teenagers are welcome, so bring your friends for a great night of food and fellowship.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Pastoral Care Training for Volunteers, A comprehensive training course for those interested in providing pastoral care within our church and community. This workshop will cover active listening skills, grief support, and spiritual counselling in a compassionate and ethical framework. Learn to be a source of comfort and guidance for others in their time of need.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Interfaith Dialogue: Bridging the Divide, An open and respectful discussion between people of different faiths and beliefs. This event aims to foster understanding, build relationships, and find common ground on topics of shared human values. Our guest panel will feature representatives from various religious communities, followed by an open Q&A session with the audience. All are welcome to listen, learn, and engage in meaningful conversation.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -5512,61 +5187,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Indoor Futsal Tournament: A fast-paced, high-scoring futsal tournament for teams of all skill levels. Compete for prizes and bragging rights in this fun and exciting indoor sport. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Junior Athletics Meet: Watch the future stars of athletics compete in a range of track and field events. A fun, family-friendly event at a local Wellington track. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beach Volleyball Social: A casual evening of beach volleyball on the Wellington waterfront. This is a great way to enjoy the summer weather, get some exercise, and meet new people. All skill levels are welcome.",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Cricket Club T20 Final: The grand final of the Wellington Cricket Club's T20 season. Watch the two top teams compete for the championship in a fast-paced, exciting match. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Dance Fitness Class: A high-energy dance class that combines cardio, toning, and fun moves to popular music. No experience is required, just bring your energy and a desire to have fun. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Urban Obstacle Course Challenge: A fun and challenging obstacle course set up in a local park. Test your strength, agility, and endurance in this unique urban event. Suitable for all fitness levels. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Roller Derby Bout: Watch the city's two top roller derby teams battle it out on the track. A fast-paced, high-contact sport with a great community atmosphere. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Bouldering Workshop: An introductory workshop to bouldering, a form of rock climbing that does not require ropes or harnesses. Learn basic techniques, safety, and problem-solving skills from experienced instructors. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Women's Football Skills Clinic: A skills clinic for women of all ages and abilities, led by a professional football coach. Improve your dribbling, passing, and shooting in a supportive and inclusive environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Netball Grand Final: The final game of the Wellington Netball League season. Watch the top two teams battle it out for the championship title. A great family-friendly event at a local netball centre. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Kayaking Tour: A guided kayaking tour of the Wellington Harbour, perfect for beginners. Learn basic paddling techniques and enjoy the stunning views of the city from the water. All equipment is provided. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
