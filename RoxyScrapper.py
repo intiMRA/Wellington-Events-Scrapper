@@ -89,10 +89,20 @@ class RoxyScrapper:
     def get_festivals(festivals: List[Dict[str, str]], driver: webdriver):
         for festivals in festivals:
             festival_name = festivals['name']
+            festival_name = festival_name.lower()
+            festival_name = festival_name.title()
+            file_festival_name = festival_name.lower().replace(" ", "-")
             festival_url = festivals['url']
             print(f"festival: {festival_name}")
-            CurrentFestivals.CURRENT_FESTIVALS.append(festival_name)
-            festival_file = open(f"{festival_name}.json", mode="w")
+            CurrentFestivals.CURRENT_FESTIVALS.append("RoxyFestival")
+            CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
+                "id": "RoxyFestival",
+                "name": festival_name,
+                "icon": "movie",
+                f"url": f"https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/{file_festival_name}.json"
+            })
+
+            festival_file = open(f"{file_festival_name}.json", mode="w")
             event_urls = RoxyScrapper.get_festival_urls(festival_url, driver)
             events = []
             for event_url in event_urls:
@@ -109,7 +119,7 @@ class RoxyScrapper:
                         print("-" * 100)
                         raise e
                 print("-" * 100)
-            json.dump(events, festival_file, indent=2)
+            json.dump({"events": events}, festival_file, indent=2)
             festival_file.close()
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
@@ -145,4 +155,4 @@ class RoxyScrapper:
         banned_file.close()
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(RoxyScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
+events = list(map(lambda x: x.to_dict(), sorted(RoxyScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
