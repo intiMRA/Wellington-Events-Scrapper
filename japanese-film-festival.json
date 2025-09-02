@@ -1,9 +1,9 @@
 {
   "events": [
     {
-      "id": "JFF - Hit Me Anyone One More Time-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "JFF - Hit Me Anyone One More Time",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_3eb3f478-0f0f-4731-97b6-dd66f94d7409.jpg",
+      "id": "JFF - The Nighthawk's First Love-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "JFF - The Nighthawk's First Love",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b666e56f-70c0-42a1-8aeb-341443a7288d.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
         "lat": -41.3158511,
@@ -13,11 +13,30 @@
         "2025-09-27-00:00"
       ],
       "displayDate": "Sat 27 Sep",
-      "url": "https://www.roxycinema.co.nz/movie/jff-hit-me-anyone-one-more-time",
+      "url": "https://www.roxycinema.co.nz/movie/jff-the-nighthawks-first-love",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
-      "long_description": "Details\nDirected by K\u00f4ki Mitani\nA sharp political comedy that follows a bumbling prime minister's journey of self-discovery after a sudden bout of amnesia, delivering both laughs and light social commentary.\n\n--- A man wakes up with amnesia and discovers he is the Prime Minister of Japan \u2014 widely hated and dubbed the worst in history. As he hides his memory loss with help from his secretaries, he navigates scandals, blackmail, a crumbling family, and an impending U.S. presidential visit. With nothing to lose, he rediscovers his ideals and shakes up the nation. ---\n\nIn Japanese with English subtitles",
-      "description": "Details Directed by K\u00f4ki Mitani A sharp political comedy that follows a bumbling prime minister's journey of self-discovery after a sudden bout of amnesia, delivering both laughs and light social commentary.\n--- A man wakes up with amnesia and discovers he is the Prime Minister of Japan \u2014 widely hated and dubbed the worst in history.\nAs he hides his memory loss with help from his secretaries, he navigates scandals, blackmail, a crumbling family, and an impending U.S. presidential visit.\nWith nothing to lose, he rediscovers his ideals and shakes up the nation.\n--- In Japanese with English subtitles"
+      "long_description": "Details\nDirected by Y\u00fbka Yasukawa\nA poetic adaptation of Kenji Miyazawa's classic story, capturing the quiet yearning and bittersweet emotions of a solitary nighthawk who dares to dream of love beyond his reach.\n\n---Aiko Maeda (Rena Matsui), a science student with a birthmark on her face, has avoided love and fun since childhood due to teasing. Focused only on research, her life changes when she's interviewed for a book about people with facial marks. The book becomes a film, and through her friend Marie (Risa Oda), Aiko meets director Tobisaka (Ayumu Nakajima). As her feelings for him grow, Aiko is forced to confront her long-held insecurities. ---\n\nIn Japanese with English subtitles",
+      "description": "Details Directed by Y\u00fbka Yasukawa A poetic adaptation of Kenji Miyazawa's classic story, capturing the quiet yearning and bittersweet emotions of a solitary nighthawk who dares to dream of love beyond his reach.\n---Aiko Maeda (Rena Matsui), a science student with a birthmark on her face, has avoided love and fun since childhood due to teasing.\nFocused only on research, her life changes when she's interviewed for a book about people with facial marks.\nThe book becomes a film, and through her friend Marie (Risa Oda), Aiko meets director Tobisaka (Ayumu Nakajima).\nAs her feelings for him grow, Aiko is forced to confront her long-held insecurities."
+    },
+    {
+      "id": "JFF - What Did You Eat Yesterday?-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "JFF - What Did You Eat Yesterday?",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_84b7f1cf-beeb-40f2-832f-594bf9f83d13.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2025-09-26-00:00"
+      ],
+      "displayDate": "Fri 26 Sep",
+      "url": "https://www.roxycinema.co.nz/movie/jff-what-did-you-eat-yesterday",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\nDirected by Kazuhito Nakae\nA gentle, heartwarming Japanese drama that blends food, love, and everyday life, exploring the quiet rhythms of a middle-aged couple's relationship with warmth and humor.\n\n--- Shiro, a lawyer, and Kenji, a hairdresser, are a couple who cherish their quiet daily life together. A trip to Kyoto for Kenji's birthday stirs emotional distance, especially after Shiro sees Kenji with a mysterious young man. As tensions rise, they face the fragility of their once peaceful life\u2014and question whether they can return to it. ---\n\nIn Japanese with English subtitles",
+      "description": "Details Directed by Kazuhito Nakae A gentle, heartwarming Japanese drama that blends food, love, and everyday life, exploring the quiet rhythms of a middle-aged couple's relationship with warmth and humor.\n--- Shiro, a lawyer, and Kenji, a hairdresser, are a couple who cherish their quiet daily life together.\nA trip to Kyoto for Kenji's birthday stirs emotional distance, especially after Shiro sees Kenji with a mysterious young man.\nAs tensions rise, they face the fragility of their once peaceful life\u2014and question whether they can return to it.\n--- In Japanese with English subtitles"
     },
     {
       "id": "JFF - Love At Least-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
@@ -77,9 +96,9 @@
       "description": "Details Directed by Shinya Tamada A heartfelt story about self-identity and acceptance, following a young adult discovering their voice and individuality through dance.\n--- Kasumi, who has never felt romantic or sexual attraction, faces pressure to marry at 30.\nAfter a failed relationship with a man who develops feelings, she reconnects with Maho, a former classmate.\nTheir bond grows, but Maho decides to marry.\nAs their paths diverge, Kasumi must decide what it means to live authentically \u2014 on her own terms."
     },
     {
-      "id": "JFF - The Nighthawk's First Love-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "JFF - The Nighthawk's First Love",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b666e56f-70c0-42a1-8aeb-341443a7288d.jpg",
+      "id": "JFF - Hit Me Anyone One More Time-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "JFF - Hit Me Anyone One More Time",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_3eb3f478-0f0f-4731-97b6-dd66f94d7409.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
         "lat": -41.3158511,
@@ -89,30 +108,11 @@
         "2025-09-27-00:00"
       ],
       "displayDate": "Sat 27 Sep",
-      "url": "https://www.roxycinema.co.nz/movie/jff-the-nighthawks-first-love",
+      "url": "https://www.roxycinema.co.nz/movie/jff-hit-me-anyone-one-more-time",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
-      "long_description": "Details\nDirected by Y\u00fbka Yasukawa\nA poetic adaptation of Kenji Miyazawa's classic story, capturing the quiet yearning and bittersweet emotions of a solitary nighthawk who dares to dream of love beyond his reach.\n\n---Aiko Maeda (Rena Matsui), a science student with a birthmark on her face, has avoided love and fun since childhood due to teasing. Focused only on research, her life changes when she's interviewed for a book about people with facial marks. The book becomes a film, and through her friend Marie (Risa Oda), Aiko meets director Tobisaka (Ayumu Nakajima). As her feelings for him grow, Aiko is forced to confront her long-held insecurities. ---\n\nIn Japanese with English subtitles",
-      "description": "Details Directed by Y\u00fbka Yasukawa A poetic adaptation of Kenji Miyazawa's classic story, capturing the quiet yearning and bittersweet emotions of a solitary nighthawk who dares to dream of love beyond his reach.\n---Aiko Maeda (Rena Matsui), a science student with a birthmark on her face, has avoided love and fun since childhood due to teasing.\nFocused only on research, her life changes when she's interviewed for a book about people with facial marks.\nThe book becomes a film, and through her friend Marie (Risa Oda), Aiko meets director Tobisaka (Ayumu Nakajima).\nAs her feelings for him grow, Aiko is forced to confront her long-held insecurities."
-    },
-    {
-      "id": "JFF - What Did You Eat Yesterday?-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "JFF - What Did You Eat Yesterday?",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_84b7f1cf-beeb-40f2-832f-594bf9f83d13.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-09-26-00:00"
-      ],
-      "displayDate": "Fri 26 Sep",
-      "url": "https://www.roxycinema.co.nz/movie/jff-what-did-you-eat-yesterday",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\nDirected by Kazuhito Nakae\nA gentle, heartwarming Japanese drama that blends food, love, and everyday life, exploring the quiet rhythms of a middle-aged couple's relationship with warmth and humor.\n\n--- Shiro, a lawyer, and Kenji, a hairdresser, are a couple who cherish their quiet daily life together. A trip to Kyoto for Kenji's birthday stirs emotional distance, especially after Shiro sees Kenji with a mysterious young man. As tensions rise, they face the fragility of their once peaceful life\u2014and question whether they can return to it. ---\n\nIn Japanese with English subtitles",
-      "description": "Details Directed by Kazuhito Nakae A gentle, heartwarming Japanese drama that blends food, love, and everyday life, exploring the quiet rhythms of a middle-aged couple's relationship with warmth and humor.\n--- Shiro, a lawyer, and Kenji, a hairdresser, are a couple who cherish their quiet daily life together.\nA trip to Kyoto for Kenji's birthday stirs emotional distance, especially after Shiro sees Kenji with a mysterious young man.\nAs tensions rise, they face the fragility of their once peaceful life\u2014and question whether they can return to it.\n--- In Japanese with English subtitles"
+      "long_description": "Details\nDirected by K\u00f4ki Mitani\nA sharp political comedy that follows a bumbling prime minister's journey of self-discovery after a sudden bout of amnesia, delivering both laughs and light social commentary.\n\n--- A man wakes up with amnesia and discovers he is the Prime Minister of Japan \u2014 widely hated and dubbed the worst in history. As he hides his memory loss with help from his secretaries, he navigates scandals, blackmail, a crumbling family, and an impending U.S. presidential visit. With nothing to lose, he rediscovers his ideals and shakes up the nation. ---\n\nIn Japanese with English subtitles",
+      "description": "Details Directed by K\u00f4ki Mitani A sharp political comedy that follows a bumbling prime minister's journey of self-discovery after a sudden bout of amnesia, delivering both laughs and light social commentary.\n--- A man wakes up with amnesia and discovers he is the Prime Minister of Japan \u2014 widely hated and dubbed the worst in history.\nAs he hides his memory loss with help from his secretaries, he navigates scandals, blackmail, a crumbling family, and an impending U.S. presidential visit.\nWith nothing to lose, he rediscovers his ideals and shakes up the nation.\n--- In Japanese with English subtitles"
     }
   ]
 }
