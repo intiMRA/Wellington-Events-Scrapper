@@ -10,7 +10,7 @@ from dateutil import parser
 from typing import List, Set, Optional, Tuple
 import json
 from selenium.webdriver.chrome.options import Options
-import subprocess
+from datetime import timedelta
 
 
 class AllEventsInScrapper:
@@ -31,7 +31,9 @@ class AllEventsInScrapper:
             date_string = " ".join(date_string.split(",")[1:])
             date_string = date_string.split(" (")[0]
             date_string = date_string.split(" to")[0]
-            dates.append(parser.parse(date_string))
+            date = parser.parse(date_string)
+            date = date + timedelta(hours=10)
+            dates.append(date)
         description = driver.find_element(By.XPATH, "//div[contains(@class, 'event-description')]").text
         print(category)
         return EventInfo(name=title,
