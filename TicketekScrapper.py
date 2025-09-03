@@ -14,7 +14,6 @@ from typing import List, Optional, Set, Tuple
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-
 class TicketekScrapper:
     @staticmethod
     def extract_date(driver: webdriver) -> List[datetime]:
