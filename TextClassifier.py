@@ -12,15 +12,18 @@ from keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
 import joblib
 
-set_random_seed(812)
+true = True
+false = False
+
+set_random_seed(13453376)
 enable_op_determinism()
 
 training_data_file_name = "training_data.json"
 ai_data_file_name = "ai_generates.json"
 unclassified_data_file_name = "unclassified_data.json"
 
-load_ai = True
-should_train = True
+load_ai = true
+should_train = true
 
 max_sequence_length = 1500
 num_words = 2000

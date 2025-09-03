@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Business Resilience Forum: Navigating Economic Headwinds, A seminar for business owners on how to build resilience and agility in a rapidly changing economic climate. Learn strategic planning techniques, risk management, and how to pivot your business model to thrive through uncertainty.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "B2B Content Creation Workshop: Engaging Your Business Audience, A hands-on workshop for marketers and business owners focused on creating compelling content for a business-to-business audience. Learn how to develop thought leadership articles, case studies, and lead-generating content that resonates with other professionals.",
     "label": "Business & Networking",
     "skip": false
@@ -336,11 +331,6 @@
   },
   {
     "description": "Fungi & Moss Guided Walk: The Micro-Ecosystems, A guided walk focused on identifying native fungi, mosses, and lichens. Learn about the unique roles these organisms play in the ecosystem and discover the hidden, miniature worlds that exist all around us.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Water-Wise Gardening Workshop: Sustainable Landscapes, A workshop on designing a water-wise garden. Learn how to select drought-tolerant plants, use mulching techniques, and implement water-saving irrigation systems to create a beautiful and sustainable garden in a changing climate.",
     "label": "Conservation & Environment",
     "skip": false
   },
@@ -2300,26 +2290,6 @@
     "skip": false
   },
   {
-    "description": "80s Movie Night: A Throwback Event, A screening of a movie from the 80s at a throwback event. Dress up in 80s fashion, enjoy 80s music and snacks, and get ready for a night of nostalgia and fun. This event is for film lovers who want to relive the 80s.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Short Film Workshop: Smartphone Filmmaking, A workshop on creating a short film with a smartphone. Learn how to use a smartphone camera and editing apps to create a professional-looking short film. This class is for aspiring filmmakers who want to tell their stories without a big budget.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Future of Film: A Talk on Streaming, A talk on the future of film in the age of streaming. Hear from industry experts on how streaming services are changing the film industry, from production and distribution to audience consumption. This event is for anyone interested in the future of film.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Horror Film Festival: A Celebration of Scares, A film festival dedicated to horror films. Watch a curated selection of films that explore the horror genre, from classic slashers to modern psychological thrillers. This festival celebrates the creativity and talent of horror filmmakers.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Outdoor Movie & Food Truck Festival, A screening of a movie at a local park, with a food truck festival. Bring your blankets and snacks, and enjoy a variety of food from local food trucks while you watch a movie under the stars. This event is a great way to enjoy a movie with your community.",
     "label": "Film & Media",
     "skip": false
@@ -2740,17 +2710,7 @@
     "skip": false
   },
   {
-    "description": "Farmers' Market Brunch, Start your weekend right with a pop-up brunch using the freshest ingredients from the local farmers' market. Our chefs will be creating a seasonal menu on the spot, from farm-fresh eggs to foraged mushrooms. Enjoy your meal with live acoustic music and fresh-pressed juices.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
     "description": "Global Street Food Fair, A world of flavor in one place. Our street food fair features vendors from around the globe, serving up authentic dishes from their home countries. Taste everything from spicy Mexican tacos to savory Malaysian satay and sweet French crepes. A vibrant and delicious celebration of Wellington's diverse culinary community.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Chocolate & Gin Pairing, A match made in heaven. This event pairs artisanal chocolates from a local chocolatier with a selection of New Zealand gins. Learn how the botanicals in gin complement the different cocoa percentages and flavor profiles of chocolate. A sophisticated and delicious night out.",
     "label": "Food & Drink",
     "skip": false
   },
@@ -3012,11 +2972,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Public Consultation: Future of Waste Management: A meeting to gather public feedback on the city's new waste management and recycling strategy, including proposals for new initiatives and services.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -3485,11 +3440,6 @@
     "skip": false
   },
   {
-    "description": "Herbal Medicine Workshop: Remedies for Resilience, Learn how to create your own natural remedies and tonics in this hands-on workshop. Explore the medicinal properties of local and traditional herbs, and make your own teas, salves, and tinctures to support your immune system and overall wellbeing. All materials and recipes are provided.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Mindful Mondays: Meditation for Stress Relief, Join us for a guided meditation session every Monday evening designed to help you de-stress and cultivate a sense of calm. This class is suitable for all levels, from beginners to experienced meditators, and focuses on simple, effective techniques to manage a busy mind. End your day by finding peace and grounding yourself for the week ahead.",
     "label": "Health & Wellness",
     "skip": false
@@ -3755,38 +3705,8 @@
     "skip": false
   },
   {
-    "description": "DIY Leatherworking: Journal Cover Workshop, Learn the basics of leatherworking and create your own custom journal cover in this hands-on workshop. Our expert leatherworker will guide you through the process of cutting, stitching, and finishing the leather. You'll leave with a unique, handmade journal cover to use or give as a gift. All tools and materials are provided. Limited spaces, so book early!",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Amateur Chess Club: Casual Play Night, Join the Wellington Amateur Chess Club for our weekly casual play night. All skill levels are welcome, from beginners to experienced players. We'll have a few different sections to ensure fair and competitive games. Free entry, with food and drink specials all night.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Pottery Hand Building: Vases and Bowls, Learn to hand-build your own unique vases and bowls in this beginner-friendly pottery workshop. Our experienced potter will teach you techniques like pinch pots and slab building, and you'll get to add your own creative touches with stamps and textures. You'll create two unique pieces to be glazed and fired for you to pick up later. All materials and tools are provided.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film Buffs Club: Film Discussion Night, Join our monthly film discussion night! We'll be discussing a new film each month, and this is a great opportunity to share your thoughts on the film, hear other perspectives, and meet new people. Complimentary snacks and drinks will be provided. All are welcome.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "DIY Scrapbooking: Memory Keeping Workshop, Learn the art of scrapbooking and create a beautiful memory album in this hands-on workshop. Our instructor will guide you through a variety of techniques, from selecting photos and ephemera to creating layouts and adding embellishments. You'll leave with a completed album to treasure for years to come. All materials are provided, but you're welcome to bring your own photos to work with.",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Spring Market, Shake off the winter chill and celebrate spring at the Wellington Spring Market! This vibrant market features a huge variety of stalls, from local artisans and food producers to plant nurseries and vintage sellers. Browse unique gifts, fresh produce, and delicious street food. Enjoy the lively atmosphere with live music and a bustling crowd. This is a great way to spend a spring day and support local businesses. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -4762,11 +4682,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "CrossFit for Beginners: An introductory course to CrossFit, covering the fundamental movements and principles of the sport. Learn how to perform squats, deadlifts, and presses safely and effectively. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
