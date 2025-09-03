@@ -19,7 +19,10 @@ class RoxyScrapper:
     def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
         sleep(3)
-        title = driver.find_element(By.CLASS_NAME, "single-movie__title").text
+        try:
+            title = driver.find_element(By.CLASS_NAME, "single-movie__title").text
+        except:
+            return None
         sticky_wrapper: WebElement = driver.find_element(By.XPATH, "//div[contains(@class, 'sticky-inner-wrapper')]")
         image_url = sticky_wrapper.find_element(By.TAG_NAME, "img").get_attribute("src")
         time_elements = driver.find_elements(By.CLASS_NAME, "single-session")
@@ -27,7 +30,8 @@ class RoxyScrapper:
         for time_element in time_elements:
             date_string: str = time_element.find_element(By.CLASS_NAME, "single-session__date").text
             date_string = date_string.split(" | ")[-1]
-            dates.append(parser.parse(date_string))
+            date_time = driver.find_element(By.CLASS_NAME, "time-slot__time").text
+            dates.append(parser.parse(f"{date_string} {date_time}"))
         description = driver.find_element(By.CLASS_NAME, "single-movie__description").text
         return EventInfo(name=title,
                          dates=dates,
