@@ -15,14 +15,11 @@ import joblib
 true = True
 false = False
 
-set_random_seed(13453376)
-enable_op_determinism()
-
 training_data_file_name = "training_data.json"
 ai_data_file_name = "ai_generates.json"
 unclassified_data_file_name = "unclassified_data.json"
 
-load_ai = true
+load_ai = false
 should_train = true
 
 max_sequence_length = 1500
@@ -30,6 +27,7 @@ num_words = 2000
 embedding_dim = 400
 tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
 all_texts = []
+
 with open(training_data_file_name, mode="r") as f:
     data = json.loads(f.read())
     all_texts.extend([item["description"] for item in data if not item["skip"]])
@@ -133,7 +131,14 @@ def load_models_from_file():
 
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
+# runs = {}
+# sizes = [1, 3, 5, 7]
+# numbers = [214636, 942749, 75418, 928814, 22327, 506506, 698505, 55405, 14391, 845773]
+# for size in sizes:
+#     for i in numbers:
 if should_train:
+    set_random_seed(13453376)
+    enable_op_determinism()
     X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name)
 
     X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
@@ -152,10 +157,9 @@ if should_train:
         for v in Y_test_ai:
             np.append(Y_train, v)
 
-
     model = Sequential()
     model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
-    model.add(Conv1D(filters=512, kernel_size=3, activation='relu'))
+    model.add(Conv1D(filters=256, kernel_size=3, activation='relu'))
     model.add(GlobalMaxPooling1D())
     model.add(Dense(units=64, activation='relu'))
     model.add(Dense(units=num_classes, activation='softmax'))
@@ -181,7 +185,10 @@ if should_train:
 
     loss, accuracy = model.evaluate(X_test, Y_test)
     print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
-
+    # if size in runs.keys():
+    #     runs[size] = (runs[size] + accuracy) / 2
+    # else:
+    #     runs[size] = accuracy
     model.save('trained_model')
     tokenizer_json = tokenizer.to_json()
     with open('tokenizer_config.json', 'w', encoding='utf-8') as f:
@@ -189,5 +196,7 @@ if should_train:
     joblib.dump(label_encoder, 'label_encoder.joblib')
 
 labels_out = predict_from_file(
-    unclassified_data_file_name
+    training_data_file_name
 )
+# with open("runs.json", mode="w") as f:
+#     json.dump(runs, f, indent=2)
