@@ -136,7 +136,7 @@ class RoxyScrapper:
         more_button.click()
         festivals_urls: List[Dict[str, str]] = []
         films_urls = set()
-        values_to_extract = ["eat the film", "feast your eyes", "roxy retro"]
+        values_to_extract = ["eat the film", "feast your eyes", "roxy retro", "tea time talkies"]
         navs = driver.find_elements(By.XPATH, "//a[contains(@class, 'menu__link')]")
         processed = set()
         for nav in navs:
