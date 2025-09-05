@@ -35,6 +35,12 @@ class AllEventsInScrapper:
             date = date + timedelta(hours=10)
             dates.append(date)
         description = driver.find_element(By.XPATH, "//div[contains(@class, 'event-description')]").text
+        sentences = description.split("\n")
+        cleanDescription = ""
+        for sentence in sentences:
+            if "You may also like the following events" in sentence:
+                break
+            cleanDescription += sentence + "\n"
         print(category)
         return EventInfo(name=title,
                          dates=dates,

@@ -10,21 +10,6 @@
     "skip": false
   },
   {
-    "description": "Marketing with Community: Local Sponsorship & Partnerships, A workshop for small business owners on how to effectively market their brand through local sponsorships and community partnerships. Learn to identify the right opportunities, negotiate deals, and build authentic connections that drive local sales and brand loyalty.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Interviewing for Success: A Masterclass for Interviewers & Candidates, A masterclass for both job seekers and hiring managers on the art of the interview. Learn how to stand out as a candidate, ask insightful questions as an interviewer, and build a hiring process that finds the best talent for your team.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Business Plan Bootcamp: From Concept to Pitch, A hands-on bootcamp for entrepreneurs to develop a comprehensive business plan and prepare for investor pitches. This intensive session covers market analysis, financial projections, and presentation skills to help you confidently seek funding for your venture.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Mindful Business: Managing Wellness & Preventing Burnout, A forum on the importance of mental health in the workplace for business leaders and employees. Discuss strategies for managing stress, preventing burnout, and creating a culture that prioritizes employee wellness and well-being.",
     "label": "Business & Networking",
     "skip": false
@@ -317,36 +302,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Fungi & Moss Guided Walk: The Micro-Ecosystems, A guided walk focused on identifying native fungi, mosses, and lichens. Learn about the unique roles these organisms play in the ecosystem and discover the hidden, miniature worlds that exist all around us.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Regenerative Agriculture Seminar: Food & Climate, A seminar on the principles of regenerative agriculture and its role in combating climate change. Hear from local farmers and agricultural experts on how regenerative farming practices can improve soil health, increase biodiversity, and create a more resilient food system.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Home Energy Efficiency Workshop: Save Money & the Planet, A practical workshop on home energy efficiency. Learn how to identify sources of heat loss, choose the right insulation, and make simple changes to your home to reduce energy consumption, save money, and lower your carbon footprint.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Zero-Waste Kitchen Workshop: A Guide to Sustainable Cooking, A hands-on workshop on creating a zero-waste kitchen. Learn about meal planning, smart grocery shopping, and creative ways to use food scraps to reduce food waste and live a more sustainable lifestyle.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Light Pollution Seminar: The Impact on Urban Wildlife, A seminar on the impact of light pollution on urban wildlife. Learn about how artificial light affects the behavior of native birds, insects, and other animals, and what you can do to reduce light pollution in your neighborhood.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Lizard & Gecko Conservation: A Backyard Workshop, A workshop on protecting native geckos and lizards in your backyard. Learn how to create a lizard-friendly garden, build safe habitats, and identify common species. This is a family-friendly event for all ages.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1510,36 +1465,6 @@
     "skip": false
   },
   {
-    "description": "Messy Play Day: Paint, Mud & Fun, A 'messy play' day for toddlers and preschoolers. Kids can get their hands dirty with paint, mud, and other sensory materials in a fun and safe environment. This is a great way for young children to explore and learn through play.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Comedy Magic Show: A Night of Laughter & Illusions, A family-friendly comedy magic show at a local hall. Magicians will perform a variety of tricks, illusions, and comedy, with a focus on audience participation and family fun. This is a great way to introduce kids to the magic of live performance.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Eco-Friendly Jewellery Workshop: Recycled Materials, A workshop on making eco-friendly jewelry from recycled materials. Kids will learn to create unique pieces from old beads, buttons, and plastic, celebrating creativity and sustainability.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Polynesian Potluck: A Cultural Dinner, A community potluck dinner with a Polynesian theme. Bring a dish to share and a willingness to explore new flavors, cultures, and connections with your neighbors. This is a great way to celebrate the city's diverse communities.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Meet the Firefighters: A Fire Station Open Day, A 'meet the local firefighters' open day at a fire station. Kids can explore the fire trucks, learn about fire safety, and meet the firefighters who keep their community safe. This is a fun and educational event for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Comic Book Creation Workshop: From Story to Panels, A workshop on creating a comic book from scratch. Kids will learn about storytelling, character design, and panel layout to create their own short comic. This class is for aspiring young artists and writers.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Kids' Baking Class: International Desserts, A kids' cooking class on making international desserts. Children will learn to bake and decorate desserts from different countries, like French macarons or Italian tiramisu. Perfect for budding little bakers!",
     "label": "Family Friendly",
     "skip": false
@@ -1812,16 +1737,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Local Film Festival: A Showcase of Filmmakers, A festival of film, with a focus on local filmmakers. Watch a curated selection of films from new and emerging filmmakers, and participate in discussions and Q&A sessions. This festival celebrates the creativity and talent of Wellington's film scene.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Food & Wine Festival: A Celebration of Local Vineyards, A festival of food and wine, with a focus on local vineyards. Sample a variety of wines from local vineyards, and pair them with delicious dishes from local chefs. This festival is for food and wine lovers who want to explore the local talent.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -2225,16 +2140,6 @@
     "skip": false
   },
   {
-    "description": "Behind the Scenes of 'Lord of the Rings': A VFX Masterclass, Dive into the magic of filmmaking with a special event at the Weta Workshop. A senior VFX artist who worked on the 'Lord of the Rings' trilogy will share secrets on creating the epic battles, stunning landscapes, and fantastical creatures that brought Middle-earth to life. This is a rare opportunity for fans and aspiring filmmakers alike.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Indie Film Showcase: Wellington Shorts, A night dedicated to celebrating local talent. We'll be screening a collection of short films created by Wellington-based independent filmmakers. From compelling dramas to quirky comedies, this showcase is a great way to discover new voices and support the city's vibrant film community. A Q&A with the directors will follow the screening.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Auteur: A David Lynch Retrospective, Join us for an immersive weekend celebrating the surreal and captivating world of David Lynch. We'll be screening his iconic films, including 'Eraserhead,' 'Mulholland Drive,' and 'Blue Velvet,' followed by a panel discussion on his unique style, recurring themes, and influence on cinema. Located at the Lighthouse Cinema.",
     "label": "Film & Media",
     "skip": false
@@ -2600,11 +2505,6 @@
     "skip": false
   },
   {
-    "description": "Global Street Food Fair, A world of flavor in one place. Our street food fair features vendors from around the globe, serving up authentic dishes from their home countries. Taste everything from spicy Mexican tacos to savory Malaysian satay and sweet French crepes. A vibrant and delicious celebration of Wellington's diverse culinary community.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
     "description": "Brewery Tour & Tasting, Go behind the scenes at a local brewery. Learn about the brewing process, from malting to bottling, and meet the master brewers. The tour concludes with a guided tasting of their full range of beers, from crisp lagers to hoppy IPAs. A perfect outing for beer lovers.",
     "label": "Food & Drink",
     "skip": false
@@ -2862,26 +2762,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Parliamentary Tour and Meet the MPs: A guided tour of the Parliament Buildings in Wellington, followed by a Q&A session with a small panel of Members of Parliament from various political parties.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Policy Pitch Night: Aspiring young politicians and students present their policy ideas to a panel of experienced political figures, receiving feedback and networking opportunities.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Let's Talk Wellington: A series of community discussions on important civic issues, such as bike lanes, urban density, and public spaces, to foster dialogue between citizens and city leaders.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Council Transparency and Accountability Workshop: A training session for community members on how to access and understand council documents, meeting minutes, and financial reports to hold local government accountable.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -3317,11 +3197,6 @@
   {
     "description": "Civic Leaders Youth Mentorship Program: An initiative connecting young people with current and former politicians, public servants, and community leaders to encourage future civic participation.",
     "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Forest Bathing: A Guided Walk, Reconnect with nature and yourself in this guided forest bathing experience. Known as 'shinrin-yoku,' this practice involves mindfully walking through a natural environment to reduce stress, improve mood, and boost wellbeing. This low-impact walk is open to all fitness levels.",
-    "label": "Health & Wellness",
     "skip": false
   },
   {

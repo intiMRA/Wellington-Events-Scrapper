@@ -131,11 +131,7 @@ def load_models_from_file():
 
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
-# runs = {}
-# sizes = [1, 3, 5, 7]
-# numbers = [214636, 942749, 75418, 928814, 22327, 506506, 698505, 55405, 14391, 845773]
-# for size in sizes:
-#     for i in numbers:
+
 if should_train:
     set_random_seed(13453376)
     enable_op_determinism()
@@ -159,7 +155,7 @@ if should_train:
 
     model = Sequential()
     model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
-    model.add(Conv1D(filters=256, kernel_size=3, activation='relu'))
+    model.add(Conv1D(filters=512, kernel_size=3, activation='relu'))
     model.add(GlobalMaxPooling1D())
     model.add(Dense(units=64, activation='relu'))
     model.add(Dense(units=num_classes, activation='softmax'))
@@ -185,10 +181,7 @@ if should_train:
 
     loss, accuracy = model.evaluate(X_test, Y_test)
     print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
-    # if size in runs.keys():
-    #     runs[size] = (runs[size] + accuracy) / 2
-    # else:
-    #     runs[size] = accuracy
+
     model.save('trained_model')
     tokenizer_json = tokenizer.to_json()
     with open('tokenizer_config.json', 'w', encoding='utf-8') as f:
@@ -198,5 +191,3 @@ if should_train:
 labels_out = predict_from_file(
     training_data_file_name
 )
-# with open("runs.json", mode="w") as f:
-#     json.dump(runs, f, indent=2)
