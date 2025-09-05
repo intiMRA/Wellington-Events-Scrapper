@@ -58,7 +58,10 @@ class EventFinderScrapper:
             pass
         sleep(random.uniform(1, 2))
         driver.get(url)
-        title: str = driver.find_element(By.CLASS_NAME, "value-title").text
+        try:
+            title: str = driver.find_element(By.CLASS_NAME, "value-title").text
+        except:
+            return None
         venue: str = driver.find_element(By.CLASS_NAME, "venue").text
         dates = EventFinderScrapper.get_all_event_dates(url, driver)
         description: str = driver.find_element(By.CLASS_NAME, "description").text
