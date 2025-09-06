@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Mindful Business: Managing Wellness & Preventing Burnout, A forum on the importance of mental health in the workplace for business leaders and employees. Discuss strategies for managing stress, preventing burnout, and creating a culture that prioritizes employee wellness and well-being.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Leading Remote Teams: A Modern Management Workshop, A workshop for managers and team leaders on how to effectively manage remote and hybrid teams. Learn communication strategies, tools for virtual collaboration, and methods for maintaining team cohesion and productivity across different locations and time zones.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Marketing & PR Pro Mixer: Strategies & Connections, A networking event for professionals in marketing and public relations. Join your peers to discuss the latest trends in brand communication, media outreach, and digital campaigns, while building valuable connections in a casual and collaborative setting.",
     "label": "Business & Networking",
     "skip": false
@@ -302,31 +292,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Build a Bug Hotel Workshop: Helping Our Insect Friends, A hands-on workshop on creating a bug hotel or insect garden. Learn about the importance of pollinators and beneficial insects, and how to build a habitat that attracts and supports them in your garden.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Mindful Consumption Workshop: Sustainable Shopping Habits, A workshop on mindful consumption and shopping habits. Learn how to make more sustainable choices when shopping for food, clothing, and household goods, and how to reduce your overall environmental impact through conscious consumption.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Business vs. Environment: A Discussion Forum, A discussion forum on balancing economic growth with environmental protection. Hear from business leaders, environmentalists, and policymakers on how to create a sustainable economy that benefits both people and the planet.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Permaculture Design for Small Gardens: A Workshop, A workshop on permaculture design for small suburban gardens. Learn how to apply permaculture principles to create a productive, sustainable, and low-maintenance garden in a limited space. All skill levels welcome.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Citizen Science in Conservation: A Talk & Workshop, A talk on the role of citizen science in conservation efforts. Learn how you can contribute to conservation research by collecting data on native birds, plants, and insects in your backyard and community. A hands-on workshop will follow the talk.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1465,31 +1430,6 @@
     "skip": false
   },
   {
-    "description": "Kids' Baking Class: International Desserts, A kids' cooking class on making international desserts. Children will learn to bake and decorate desserts from different countries, like French macarons or Italian tiramisu. Perfect for budding little bakers!",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Yoga in the Park: A Mindful Session, A family yoga session in a local park. Kids and parents can practice yoga together, learning basic poses, breathing techniques, and mindfulness. This is a great way to get active and connect with your family in a relaxing environment.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Upcycled Bird Feeder Workshop: Crafting for Nature, A workshop on building a bird feeder with upcycled materials. Kids will learn about native birds and how to provide them with a safe food source, creating a fun and educational project for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Free Instrument Day: Learn to Play Music, A free 'learn to play an instrument' day for kids. Children can try out a variety of instruments, from guitar and piano to drums and ukulele, with a variety of local music teachers. This is a great way to discover a new passion.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Old-Fashioned Fun Fair: Games & Prizes, A family fun fair with old-fashioned games like sack races, three-legged races, and tug-of-war. This is a free community event with a variety of activities for all ages, creating a day of fun and laughter for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Storytelling with Art: A Painting & Drawing Workshop, A workshop on storytelling through painting and drawing. Kids will learn how to create a narrative with their art, from character design to plot and setting. This class is for aspiring young artists and writers.",
     "label": "Family Friendly",
     "skip": false
@@ -1737,26 +1677,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Arts & Culture Festival: A Celebration of Local Talent, A festival of arts and culture, with a focus on local talent. Experience a diverse range of performances, from music and dance to theatre and art. This festival is a celebration of Wellington's rich cultural heritage.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Local Music Festival: A Celebration of Wellington's Musicians, A festival of music, with a focus on local musicians. Discover new artists, enjoy live music in a variety of venues, and support Wellington's vibrant music scene. This festival is for music lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Rural Life Festival: Celebrating NZ's Agricultural Heritage, A festival celebrating New Zealand's agricultural heritage and rural life. Enjoy farm animal exhibits, shearing demonstrations, tractor parades, and a variety of food stalls featuring local produce. This festival is a great way to connect with the country's farming roots.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Street Art Festival: Graffiti & Murals, A festival of street art and graffiti, with live painting demonstrations, mural tours, and workshops for all ages. Watch as local artists transform public walls into vibrant canvases, celebrating the city's urban art scene. This is a unique festival of art and creativity.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -2140,16 +2060,6 @@
     "skip": false
   },
   {
-    "description": "Auteur: A David Lynch Retrospective, Join us for an immersive weekend celebrating the surreal and captivating world of David Lynch. We'll be screening his iconic films, including 'Eraserhead,' 'Mulholland Drive,' and 'Blue Velvet,' followed by a panel discussion on his unique style, recurring themes, and influence on cinema. Located at the Lighthouse Cinema.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Classic Horror Film Night: 'Psycho', Experience Alfred Hitchcock's 'Psycho' like never before on the big screen. This masterpiece of suspense and psychological horror is a must-see for any film buff. We'll have a special introduction to the film's history and its impact on the horror genre. Get ready to be terrified.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Family Movie Matinee: 'Moana', Bring the wh\u0101nau for a fun and free screening of Disney's 'Moana' at the Waitohi Hub. Enjoy a day of music and adventure as you follow Moana's journey across the ocean. Free popcorn and juice will be provided for all attendees. This is a family-friendly event for all ages.",
     "label": "Film & Media",
     "skip": false
@@ -2502,21 +2412,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Brewery Tour & Tasting, Go behind the scenes at a local brewery. Learn about the brewing process, from malting to bottling, and meet the master brewers. The tour concludes with a guided tasting of their full range of beers, from crisp lagers to hoppy IPAs. A perfect outing for beer lovers.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Dumplings & Drink-Making, A relaxed and fun workshop where you will learn to make delicious dumplings from scratch while also learning how to craft your own unique cocktails. This is a great way to meet new people and hone new skills.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -3200,46 +3095,6 @@
     "skip": false
   },
   {
-    "description": "Somatic Movement: Releasing Stored Tension, This workshop uses gentle, guided movements to help you release chronic tension and stress stored in the body. Somatic movement is a powerful practice for nervous system regulation, pain relief, and improving body-mind awareness. No prior experience is required.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Men's Health Talk: A Modern Approach, A candid and informative discussion on men's health, covering topics from mental health and stress management to physical fitness and nutrition. This session is designed to be a safe, open space for men to ask questions and learn practical ways to improve their health. Light snacks and refreshments will be provided.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Introduction to Mindfulness, A two-hour workshop introducing the core principles of mindfulness and meditation. Learn how to live more fully in the present moment, reduce anxiety, and improve focus through simple, daily practices. Includes guided meditation and a discussion on how to integrate mindfulness into your busy life.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Nutrition for Mental Wellbeing, Explore the powerful connection between food and mood in this educational workshop. A registered dietitian will discuss key nutrients for brain health, the impact of diet on anxiety and depression, and how to build a food plan that supports your mental and emotional balance. Includes a recipe handout and a Q&A session.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Healthy Homes Workshop, Learn how to create a healthier living environment for you and your family in this practical workshop. Topics include natural cleaning alternatives, air quality improvements, and simple changes to reduce toxins in your home. All participants will receive a free starter kit of eco-friendly cleaning products.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Hatha Yoga, An accessible and gentle Hatha yoga class perfect for beginners or anyone looking for a low-impact practice. Focus on fundamental poses, proper alignment, and breath awareness to build strength, increase flexibility, and feel more centred. Mats are available for rent.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Women's Wellness Circle, A supportive and empowering circle for women to connect, share, and explore topics of health and wellbeing. Facilitated by a life coach, this is a safe space to discuss personal growth, self-care practices, and female-specific health challenges. Light refreshments will be served.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Holistic Healing: Intro to Reiki, Discover the gentle art of Reiki, a Japanese technique for stress reduction and relaxation that also promotes healing. This introductory session explains the history and principles of Reiki, and includes a short guided meditation and a group healing practice.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Strength Training for Seniors, A safe and effective strength training class designed specifically for older adults. Improve bone density, muscle strength, and balance in a fun and supportive group environment. Led by a certified personal trainer, this class uses light weights and resistance bands.",
     "label": "Health & Wellness",
     "skip": false
@@ -3437,21 +3292,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "The Wellington Flea & Vintage Market, The Wellington Flea & Vintage Market is a treasure hunter's paradise! Find a treasure trove of pre-loved items, from vintage clothing and furniture to books and toys. This is a great place to find a unique bargain and give new life to old items. We'll have a mix of individual sellers and professional thrifters, so there's something for everyone. Free entry, all are welcome. Food and coffee stalls on site.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Artisan Market, The Wellington Artisan Market is a celebration of local talent and creativity. Browse a wide range of stalls featuring handmade jewelry, pottery, artwork, and more. This is a great place to find unique, one-of-a-kind gifts and support our local crafters. Come and meet the artists, learn about their process, and take home a piece of their passion. Live music and a delicious selection of food and drink stalls will also be available. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Spring Arts Festival, A festival celebrating the best of local art and design. The Wellington Spring Arts Festival features a huge variety of stalls, workshops, and demonstrations from local artists and designers. Find unique gifts, art, and home decor. Enjoy the lively atmosphere with live music, food trucks, and a bustling crowd. This is a great way to spend a spring day and support local creative talent. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -3792,21 +3632,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "The Power of Prayer: A Hands-on Workshop, A practical and interactive workshop on the power of prayer in daily life. Learn different methods of prayer, including contemplative, intercessory, and gratitude-based practices. This session is designed to help you deepen your personal prayer life and experience the transformative impact of communication with God. All are welcome, regardless of your background or experience with prayer.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Confirmation Retreat for Teens, A weekend retreat for teenagers preparing for Confirmation. This is a time away from distractions to reflect on faith, grow in community, and deepen your relationship with God. The retreat will include talks, small group discussions, games, and worship. A great opportunity to connect with peers and mentors on your spiritual journey.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Mindful Living in a Secular World, An exploration of how to apply principles of mindfulness and meditation in a non-religious context. Learn practical techniques to reduce stress, improve focus, and find presence in the modern world. This workshop is ideal for those who are spiritually curious but not affiliated with a particular faith. No prior experience is needed.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
