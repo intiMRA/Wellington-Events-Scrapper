@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Marketing & PR Pro Mixer: Strategies & Connections, A networking event for professionals in marketing and public relations. Join your peers to discuss the latest trends in brand communication, media outreach, and digital campaigns, while building valuable connections in a casual and collaborative setting.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Starting a Home Business: Your Legal & Financial Roadmap, A comprehensive workshop for aspiring entrepreneurs who want to start a business from home. Learn about the essential legal structures, financial planning, and tax obligations to set up your home-based venture for success from day one.",
     "label": "Business & Networking",
     "skip": false
@@ -1430,16 +1425,6 @@
     "skip": false
   },
   {
-    "description": "Storytelling with Art: A Painting & Drawing Workshop, A workshop on storytelling through painting and drawing. Kids will learn how to create a narrative with their art, from character design to plot and setting. This class is for aspiring young artists and writers.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "New Playground Fundraiser: A Community Campaign, A community-led campaign for a new local playground. This event brings together residents, community leaders, and local businesses to discuss the playground design, fundraising strategies, and how to get involved in the project.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Survival Skills for Kids: A Bushcraft Class, A class on basic survival skills for kids. Children will learn how to build a shelter, find food and water, and navigate using a map and compass. This class is for ages 8-12.",
     "label": "Family Friendly",
     "skip": false
@@ -1677,11 +1662,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Wellington Gaming Festival: Games & Tournaments, A festival of gaming, with tournaments, new game showcases, and a free-play area. Whether you're a fan of video games, board games, or tabletop games, this festival has something for everyone. This is a great day out for gamers of all ages.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -2060,16 +2040,6 @@
     "skip": false
   },
   {
-    "description": "Family Movie Matinee: 'Moana', Bring the wh\u0101nau for a fun and free screening of Disney's 'Moana' at the Waitohi Hub. Enjoy a day of music and adventure as you follow Moana's journey across the ocean. Free popcorn and juice will be provided for all attendees. This is a family-friendly event for all ages.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Documentary Film Series: 'The Last Ocean', The Wellington Documentary Film Series presents a screening of 'The Last Ocean,' a powerful film about the fight to protect the pristine Ross Sea in Antarctica. The screening will be followed by a Q&A with a marine biologist from Victoria University of Wellington to discuss the film's message and ongoing conservation efforts.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Animation Workshop for Teens, An interactive workshop for aspiring animators aged 13-17. Learn the basics of stop-motion and digital animation from a professional animator. We'll cover character design, storyboarding, and simple animation techniques using industry-standard software. All materials and laptops will be provided.",
     "label": "Film & Media",
     "skip": false
@@ -2412,21 +2382,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "The Ultimate Fish & Chips, A tribute to the classic Kiwi takeaway. Our chefs have perfected the art of fish and chips, from the light, crispy batter to the perfectly cooked chips. Served with a selection of house-made sauces and a cold beer. Simple, classic, and absolutely delicious.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Vegetarian Cooking Class, Learn to create delicious and innovative vegetarian dishes in this hands-on cooking class. Our chef will guide you through a menu that celebrates vegetables, from hearty main courses to flavorful side dishes. You'll leave with new recipes and skills to impress your friends and family.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Pizza & Wine Pairing, A fun and laid-back evening of pizza and wine. Our sommelier has selected a range of local and international wines to pair with a variety of gourmet pizzas. Discover how different wines can bring out the flavors of different toppings, from classic pepperoni to exotic vegetarian combinations.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -3095,21 +3050,6 @@
     "skip": false
   },
   {
-    "description": "Strength Training for Seniors, A safe and effective strength training class designed specifically for older adults. Improve bone density, muscle strength, and balance in a fun and supportive group environment. Led by a certified personal trainer, this class uses light weights and resistance bands.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Yoga for Back Pain Relief, Learn gentle and effective yoga postures to alleviate chronic back pain and improve spinal health. This class focuses on building core strength, increasing flexibility, and promoting relaxation to support a healthy back. No prior yoga experience is needed.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Mindful Eating Workshop, This workshop helps you develop a healthier relationship with food by practising mindfulness. Learn to listen to your body's hunger and fullness cues, savour each bite, and reduce emotional eating. This is a non-diet-focused approach to nutrition and wellbeing.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Sound Healing with Tibetan Bowls, Immerse yourself in a deeply relaxing and restorative sound healing experience. The resonant vibrations of Tibetan singing bowls will guide you into a meditative state, promoting nervous system regulation and a profound sense of inner peace. Please bring a mat, blanket, and cushion for comfort.",
     "label": "Health & Wellness",
     "skip": false
@@ -3292,16 +3232,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Sustainable Market, A market with a mission! The Wellington Sustainable Market features a wide range of stalls dedicated to sustainable living. Find everything from refillable household products and reusable containers to upcycled clothing and eco-friendly beauty products. This is a great opportunity to learn about sustainable living and support businesses that are making a positive impact on the environment. There will be workshops and talks throughout the day on topics like composting, mending, and zero-waste cooking. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Christmas Festival, Get into the festive spirit at the Wellington Christmas Festival. This magical festival features a huge selection of handmade gifts, festive decorations, and delicious holiday treats. Find unique gifts for everyone on your list while enjoying a festive atmosphere with carolers, hot chocolate, and a visit from Santa himself. This is a great way to support local artisans and get your holiday shopping done in a fun and festive environment. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -3632,16 +3562,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Jewish Holiday Cooking Class: Rosh Hashanah, Join us for a special cooking class focused on traditional dishes for Rosh Hashanah, the Jewish New Year. Learn to make challah, matzo ball soup, and other holiday favourites while exploring the symbolic meanings behind each dish. This hands-on experience is a great way to celebrate the holiday and connect with others.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "The Spiritual Journey of St. Augustine, A lecture and discussion on the life and writings of St. Augustine of Hippo. Explore his path from a hedonistic youth to a profound theologian, and discover how his philosophical and spiritual insights continue to influence Christianity today. This is a thoughtful and academic session for those interested in church history and theology.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
