@@ -63,7 +63,6 @@ class AllEventsInScrapper:
         more_count = 0
         height = max(height, 800)
         while True:
-            print(height)
             if scrolled_amount > height or more_count > 1:
                 print("finished scroll")
                 break
@@ -114,11 +113,15 @@ class AllEventsInScrapper:
 
     @staticmethod
     def get_categories(url: str, driver: webdriver) -> Set[Tuple[str, str]]:
+        print(f"getting: {url}")
         categories = set()
         driver.get(url)
         sleep(1)
-        show_categories_button = driver.find_element(By.CLASS_NAME, "remaining-cat-count")
-        show_categories_button.click()
+        try:
+            show_categories_button = driver.find_element(By.CLASS_NAME, "remaining-cat-count")
+            show_categories_button.click()
+        except:
+            pass
         sleep(1)
         category_items: List[WebElement] = driver.find_elements(By.XPATH, "//a[contains(@class, 'cat-item')]")
         for category_item in category_items:
