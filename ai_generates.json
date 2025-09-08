@@ -1425,16 +1425,6 @@
     "skip": false
   },
   {
-    "description": "Survival Skills for Kids: A Bushcraft Class, A class on basic survival skills for kids. Children will learn how to build a shelter, find food and water, and navigate using a map and compass. This class is for ages 8-12.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Board Game Tournament: A Day of Competition, A family-friendly board game tournament. Teams will compete in a series of games, with a focus on strategy, teamwork, and fun. Prizes will be awarded for the winners. This is a great way to get active and connect with your family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Natural Dyes Workshop: From Fruits to Fabric, A hands-on workshop on creating natural dyes from fruits and vegetables. Kids will learn how to make different colors and dye their own fabric to create a unique piece of art. This is a fun and educational event for the whole family.",
     "label": "Family Friendly",
     "skip": false
@@ -1662,11 +1652,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Outdoor Cinema Festival: Films Under the Stars, A festival of outdoor cinema, featuring classic films under the stars. Bring your blankets, snacks, and wh\u0101nau for a relaxing evening of film and fun. This festival is a great way to enjoy a movie with your community.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -2037,16 +2022,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Animation Workshop for Teens, An interactive workshop for aspiring animators aged 13-17. Learn the basics of stop-motion and digital animation from a professional animator. We'll cover character design, storyboarding, and simple animation techniques using industry-standard software. All materials and laptops will be provided.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Sci-Fi Film Marathon: 'Blade Runner' & 'Dune', Get ready for an epic night of science fiction with a double-feature screening of two iconic films. We'll show Ridley Scott's original 'Blade Runner' and Denis Villeneuve's 'Dune'. The event includes a short intermission with sci-fi themed refreshments and a discussion on world-building in cinema.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -3235,16 +3210,6 @@
     "skip": false
   },
   {
-    "description": "The Wellington Record and Book Fair, Calling all music and book lovers! The Wellington Record and Book Fair is back with thousands of LPs, CDs, cassettes, and books at great prices. Browse a huge selection of genres, from classic rock and punk to fiction and non-fiction. This is a great opportunity to find your next favorite read or record. Free entry, all are welcome. Food and coffee stalls on site.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Kids' Fun Fair, A fun-filled day for the whole family! The Wellington Kids' Fun Fair features a huge variety of stalls and activities for children of all ages. Find handmade toys, children's books, and unique clothing. Enjoy a day of face painting, balloon twisting, and fun games. This is a great opportunity for kids to have fun and for parents to find some unique gifts. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
     "description": "Wellington Artisan Food Market, A food lover's paradise! The Wellington Artisan Food Market features a wide selection of gourmet food products, from artisanal cheeses and cured meats to homemade jams and baked goods. Meet the producers, sample their products, and stock up on delicious treats for your pantry. This is a great opportunity to discover new local food businesses and support our vibrant food scene. Free entry, all are welcome.",
     "label": "Markets & Fairs",
     "skip": false
@@ -3562,11 +3527,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Baha'i Faith Gathering, You are warmly invited to join the Wellington Baha'i community for a public gathering centered on prayer and reflection. This is an inclusive and welcoming space for people of all beliefs to come together in unity and spiritual contemplation. The gathering will include readings from Baha'i scriptures and other sacred texts, and a time for quiet meditation. All are welcome.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
