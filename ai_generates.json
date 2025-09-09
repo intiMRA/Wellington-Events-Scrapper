@@ -290,16 +290,6 @@
     "skip": false
   },
   {
-    "description": "Solar Power Basics: A Home & Business Workshop, A workshop on the basics of solar power for homes and small businesses. Learn about the different types of solar panels, how to calculate your energy needs, and the financial and environmental benefits of going solar.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Geology of the Coast: A Guided Walk, A guided walk focused on the geology of Wellington's coastline. Learn about the formation of the land, the history of earthquakes and volcanoes, and the unique geological features that make our coastline so special.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
     "description": "History of Conservation in NZ: A Seminar, A seminar on the history of conservation in New Zealand, from a historical perspective. Learn about the early conservationists, the establishment of national parks, and the ongoing efforts to protect the country's unique natural heritage.",
     "label": "Conservation & Environment",
     "skip": false
@@ -1425,36 +1415,6 @@
     "skip": false
   },
   {
-    "description": "Natural Dyes Workshop: From Fruits to Fabric, A hands-on workshop on creating natural dyes from fruits and vegetables. Kids will learn how to make different colors and dye their own fabric to create a unique piece of art. This is a fun and educational event for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Wellington's Lighthouses: A History Talk, A talk on the history of Wellington's lighthouses. Learn about the city's maritime past, the stories behind its most famous lighthouses, and their role in keeping sailors safe. This is a great way to learn about the local environment.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Kids' Rock Show: Classic Rock Anthems, A kids' musical show featuring a band playing classic rock songs. This is a fun and engaging event for young children, with a variety of performances, singalongs, and interactive activities. This is a great way to introduce kids to the magic of live music.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Wellington Landmarks: A Guided Bus Tour, A family-friendly guided bus tour of Wellington's landmarks. See the city's most famous sights, from the Beehive to the Cable Car, and learn about their history and significance. This is a great way to experience the city and learn about its past.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "DIY Paper Workshop: Making from Recycled Materials, A workshop on making your own paper from recycled materials. Kids will learn how to turn old paper into new sheets, with a variety of colors and textures to choose from. This is a fun and sustainable event for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Kids' Martial Arts: Discipline & Respect, A class on beginner's martial arts for kids, focusing on discipline and respect. Children will learn the basics of martial arts in a fun and supportive environment, improving their physical fitness and mental discipline. This class is for ages 8-12.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Family Photo Book Workshop: Preserving Memories, A workshop on creating a digital photo book of family memories. Parents and kids will work together to select and edit photos, and design a custom photo book to be printed and cherished for years to come. This is a great way to preserve family memories.",
     "label": "Family Friendly",
     "skip": false
@@ -1652,11 +1612,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Folklore & Mythology Festival: Stories of Aotearoa, A festival of local folklore and mythology, with storytelling sessions, theatrical performances, and talks from local historians. Learn about the myths and legends that have shaped New Zealand's culture and landscape. This is a unique festival of storytelling and heritage.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -2025,11 +1980,6 @@
     "skip": false
   },
   {
-    "description": "Filmmaking 101: A Beginner's Workshop, Have you ever wanted to make your own film but don't know where to start? This one-day workshop will cover the fundamentals of filmmaking, from scriptwriting and shooting to editing and post-production. You'll work in small teams to create your own short film by the end of the day.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Studio Ghibli Film Festival: 'My Neighbour Totoro', Celebrate the magic of Studio Ghibli with a special screening of 'My Neighbour Totoro' at The Embassy Theatre. This enchanting film is a must-see for all ages and a perfect introduction to the world of Japanese animation. We'll also have a raffle for a Studio Ghibli prize pack.",
     "label": "Film & Media",
     "skip": false
@@ -2357,11 +2307,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Gourmet Hot Dogs & Craft Beer, Elevate your hot dog game at this special event. Our chefs have created a menu of gourmet hot dogs with unique toppings and sauces, from kimchi to truffle aioli. Each hot dog is paired with a local craft beer, making for a delicious and fun night out.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -3210,11 +3155,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Artisan Food Market, A food lover's paradise! The Wellington Artisan Food Market features a wide selection of gourmet food products, from artisanal cheeses and cured meats to homemade jams and baked goods. Meet the producers, sample their products, and stock up on delicious treats for your pantry. This is a great opportunity to discover new local food businesses and support our vibrant food scene. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
     "description": "Wellington Arts & Crafts Market, A celebration of local artistic talent and craftsmanship. The Wellington Arts & Crafts Market features a wide selection of handmade goods, from jewelry and pottery to paintings and textiles. This is a great place to find unique gifts and support local small businesses. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
     "label": "Markets & Fairs",
     "skip": false
@@ -3527,11 +3467,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Spiritual Book Club: The Alchemist, Join our monthly spiritual book club as we discuss Paulo Coelho's classic novel, The Alchemist. Explore the themes of destiny, following your dreams, and listening to your heart's desires. This is a great opportunity to connect with other readers and share your personal insights in a relaxed, conversational setting.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
