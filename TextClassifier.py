@@ -12,21 +12,22 @@ from keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
 import joblib
 
-set_random_seed(812)
-enable_op_determinism()
+true = True
+false = False
 
 training_data_file_name = "training_data.json"
 ai_data_file_name = "ai_generates.json"
 unclassified_data_file_name = "unclassified_data.json"
 
-load_ai = True
-should_train = True
+load_ai = true
+should_train = true
 
 max_sequence_length = 1500
 num_words = 2000
 embedding_dim = 400
 tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
 all_texts = []
+
 with open(training_data_file_name, mode="r") as f:
     data = json.loads(f.read())
     all_texts.extend([item["description"] for item in data if not item["skip"]])
@@ -130,7 +131,10 @@ def load_models_from_file():
 
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
+
 if should_train:
+    set_random_seed(13453376)
+    enable_op_determinism()
     X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name)
 
     X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
@@ -148,7 +152,6 @@ if should_train:
 
         for v in Y_test_ai:
             np.append(Y_train, v)
-
 
     model = Sequential()
     model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
@@ -186,5 +189,5 @@ if should_train:
     joblib.dump(label_encoder, 'label_encoder.joblib')
 
 labels_out = predict_from_file(
-    unclassified_data_file_name
+    training_data_file_name
 )
