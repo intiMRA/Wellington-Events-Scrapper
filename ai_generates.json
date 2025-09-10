@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Starting a Home Business: Your Legal & Financial Roadmap, A comprehensive workshop for aspiring entrepreneurs who want to start a business from home. Learn about the essential legal structures, financial planning, and tax obligations to set up your home-based venture for success from day one.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Local Elections & Your Business: A Policy Impact Forum, A panel discussion with local government candidates and business leaders on how council policy impacts small businesses. This event, timed around the upcoming local elections, provides a platform to hear from candidates directly on issues that matter to the business community.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Grant Writing for Non-Profits: A Funding Workshop, A practical workshop for non-profit organizations on how to write successful grant applications. Learn how to identify funding opportunities, craft a compelling proposal, and measure your impact to secure the resources your organization needs to thrive.",
     "label": "Business & Networking",
     "skip": false
@@ -287,21 +277,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "History of Conservation in NZ: A Seminar, A seminar on the history of conservation in New Zealand, from a historical perspective. Learn about the early conservationists, the establishment of national parks, and the ongoing efforts to protect the country's unique natural heritage.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "DIY Green Cleaning Workshop: Natural Products for Your Home, A hands-on workshop on making your own green cleaning products. Learn simple recipes for natural, non-toxic cleaners using everyday ingredients like vinegar, baking soda, and essential oils. All materials included.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Urban Forestry Seminar: The Benefits of City Trees, A seminar on urban forestry and the benefits of city trees. Learn about the role of trees in improving air quality, managing stormwater, and creating a healthier, more beautiful urban environment.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1415,16 +1390,6 @@
     "skip": false
   },
   {
-    "description": "Family Photo Book Workshop: Preserving Memories, A workshop on creating a digital photo book of family memories. Parents and kids will work together to select and edit photos, and design a custom photo book to be printed and cherished for years to come. This is a great way to preserve family memories.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Community Parade: Celebrating a Local Festival, A community-led parade for a local holiday or festival. Families can dress up in costumes, decorate a float, and march together in a parade through the neighborhood, celebrating community spirit and local traditions.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Family Scrapbook Workshop: Adventures in Art, A workshop on making a scrapbook of family adventures. Kids and parents will work together to create a scrapbook using photos, ticket stubs, and other mementos from their family adventures. This is a fun and creative way to preserve family memories.",
     "label": "Family Friendly",
     "skip": false
@@ -1980,51 +1945,6 @@
     "skip": false
   },
   {
-    "description": "Studio Ghibli Film Festival: 'My Neighbour Totoro', Celebrate the magic of Studio Ghibli with a special screening of 'My Neighbour Totoro' at The Embassy Theatre. This enchanting film is a must-see for all ages and a perfect introduction to the world of Japanese animation. We'll also have a raffle for a Studio Ghibli prize pack.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Silent Film Night with Live Music: 'Nosferatu', Step back in time for a unique cinematic experience. We'll be screening the 1922 silent horror film 'Nosferatu' with a live, improvised musical score performed by a local musician. This is a rare chance to see a classic horror film as it was originally intended.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Outdoor Movie Night: 'Boy', Enjoy a free outdoor screening of Taika Waititi's beloved film 'Boy' at the Waitangi Park waterfront. Bring a blanket, some snacks, and the wh\u0101nau for a night of laughter and heart. Food trucks will be on-site, and the film will start at sundown.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film History: A Walking Tour, Explore the cinematic history of Wellington with a guided walking tour. We'll visit iconic filming locations from 'Lord of the Rings' to more recent productions, learning about the city's transformation into a major film hub. The tour ends at a local pub for a casual film discussion.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Experimental Film Showcase, Join us for a night of avant-garde and experimental cinema. We'll be showcasing a curated selection of films that push the boundaries of traditional storytelling. This event is for cinephiles and artists interested in exploring new forms of visual expression.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington International Film Festival: 'The Past is Not Dead', A preview screening of the new local film 'The Past is Not Dead' as part of the Wellington International Film Festival. This historical drama explores family secrets and long-lost love in 19th-century New Zealand. A Q&A with the director and lead actors will follow the screening.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Filmmaking for Beginners: Smartphone Edition, Learn how to make a high-quality film using just your smartphone in this practical workshop. We'll cover techniques for shooting, sound recording, and editing on your mobile device. This is a great way to get into filmmaking without needing expensive equipment.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "'Finding Nemo' Movie Night with the Wh\u0101nau, The Wellington Library is hosting a free screening of 'Finding Nemo' for a family movie night. Bring the kids for an adventure under the sea with Marlin and Dory as they search for Nemo. We'll have a themed craft activity before the film starts.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Women's Film Collective: New Voices, A special screening of short films from emerging female filmmakers in Wellington. This event, hosted by the Wellington Women's Film Collective, celebrates new and diverse voices in cinema. A panel discussion on women in film will follow the screenings.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Anime Night: 'Spirited Away', Join us at the St. James Theatre for a screening of Hayao Miyazaki's masterpiece 'Spirited Away'. This critically acclaimed film tells the story of a young girl's adventure in a world of spirits and monsters. The screening will have English subtitles and a short discussion on the film's themes.",
     "label": "Film & Media",
     "skip": false
@@ -2307,21 +2227,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "A Journey Through Chocolate, An immersive experience into the world of chocolate. Learn about the history of cacao, from bean to bar, and how chocolate is made. Our chocolate expert will guide you through a tasting of a variety of chocolates from different regions, with unique flavor profiles and textures.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Waterfront Bar Crawl, Explore Wellington's vibrant waterfront bar scene with this curated bar crawl. Your ticket includes a drink at four different bars, with a new cocktail created just for this event at each location. A fun and social way to discover new favorite spots and enjoy the beautiful harbor views.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Gin & Tonic Masterclass, Become a gin and tonic expert in this hands-on masterclass. Learn about the history of gin, the different botanicals used in production, and how to create the perfect G&T. You'll get to try a variety of gins and tonics, with different garnishes and flavor pairings.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2970,16 +2875,6 @@
     "skip": false
   },
   {
-    "description": "Sound Healing with Tibetan Bowls, Immerse yourself in a deeply relaxing and restorative sound healing experience. The resonant vibrations of Tibetan singing bowls will guide you into a meditative state, promoting nervous system regulation and a profound sense of inner peace. Please bring a mat, blanket, and cushion for comfort.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Cardiovascular Health Seminar, A free seminar presented by a cardiologist on the latest research and best practices for heart health. Learn about preventative measures, risk factors, and lifestyle changes that can significantly reduce your risk of cardiovascular disease. Includes a Q&A session.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "DIY Natural Skincare Workshop, Learn how to create your own all-natural and nourishing skincare products in this fun, hands-on workshop. You'll make and take home a face mask, body scrub, and lip balm using simple, wholesome ingredients. All materials are provided.",
     "label": "Health & Wellness",
     "skip": false
@@ -3152,11 +3047,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Arts & Crafts Market, A celebration of local artistic talent and craftsmanship. The Wellington Arts & Crafts Market features a wide selection of handmade goods, from jewelry and pottery to paintings and textiles. This is a great place to find unique gifts and support local small businesses. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -3467,21 +3357,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Exploring Eastern Orthodoxy, A public lecture on the history, theology, and traditions of Eastern Orthodoxy. Learn about the unique aspects of Orthodox worship, icons, and the mystical path to union with God. This session is for anyone curious about this ancient branch of Christianity and its rich spiritual heritage.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Family Fun Day at the Church, All families are invited to join us for a day of fun and fellowship at the church. This event will include games, face painting, a bouncy castle for the kids, and a free BBQ lunch for everyone. It's a great chance to meet other families in the community and enjoy a day of outdoor activities in a safe and welcoming environment.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "The Seven Sacraments Bible Study, A study group exploring the biblical roots and theological significance of the Seven Sacraments in the Catholic Church. This course is for those seeking a deeper understanding of the sacraments as channels of grace and life in the Body of Christ. The course will be held weekly, and all are welcome to attend.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
