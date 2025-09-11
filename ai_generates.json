@@ -10,21 +10,6 @@
     "skip": false
   },
   {
-    "description": "Grant Writing for Non-Profits: A Funding Workshop, A practical workshop for non-profit organizations on how to write successful grant applications. Learn how to identify funding opportunities, craft a compelling proposal, and measure your impact to secure the resources your organization needs to thrive.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Green Tech Summit: Investing in a Sustainable Future, A conference for business leaders and investors on the future of green technology and sustainable energy solutions. Explore innovative technologies, government incentives, and commercial opportunities in the transition to a greener economy.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Advanced Excel Masterclass: Data Analysis for Business, A hands-on masterclass for professionals who want to elevate their data analysis skills. Learn advanced Excel functions, pivot tables, and data visualization techniques to create insightful reports and inform strategic business decisions.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Creative Founders Forum: Women in the Arts & Design, A networking event specifically for women in the creative industries, including artists, designers, photographers, and writers. Share experiences, discuss career challenges, and build a supportive community for women leading creative ventures.",
     "label": "Business & Networking",
     "skip": false
@@ -277,11 +262,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Community Garden Workshop: From Plot to Harvest, A hands-on workshop on creating a community garden from a disused plot of land. Learn how to organize a community garden, prepare the soil, and plant a variety of vegetables and herbs. This class is for community organizers and gardeners.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1390,41 +1370,6 @@
     "skip": false
   },
   {
-    "description": "Family Scrapbook Workshop: Adventures in Art, A workshop on making a scrapbook of family adventures. Kids and parents will work together to create a scrapbook using photos, ticket stubs, and other mementos from their family adventures. This is a fun and creative way to preserve family memories.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Brass Band Concert: A Family-Friendly Show, A family-friendly concert with a professional brass band. This is a fun and engaging event for all ages, with a variety of performances, singalongs, and interactive activities. This is a great way to introduce kids to the magic of live music.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Bird Bath Workshop: A Garden Project for Wildlife, A workshop on building a bird bath for a garden. Kids and parents will work together to build a bird bath from a variety of materials, like clay or stone, creating a fun and educational project for the whole family. This is a great way to attract native birds to your garden.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Kids' Website Design: A Coding Class, A kids' coding class on creating a simple website. Children will learn the basics of web design and coding to create their own website for a personal project or a school project. This class is for ages 8-12.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Classic Animated Film Screening: A Family Movie Night, A family-friendly movie screening of a classic animated film. Bring your blankets, snacks, and wh\u0101nau for a relaxing evening of nostalgia and fun. This is a great way to introduce kids to the classic animated films you grew up with.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Kids' Creative Writing: Short Stories Workshop, A workshop on creative writing for kids, focusing on short stories. Children will learn about character development, plot structure, and dialogue writing to create their own short stories. This class is for ages 8-12.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Karaoke Competition: Guess the Song, A family 'guess the song' karaoke competition. Teams will compete to guess the name of a song and then sing a verse or two. Prizes will be awarded for the winners. This is a fun and hilarious event for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "DIY Play Costumes Workshop: Dress-Up Fun, A workshop on making your own play costumes from old clothes. Kids will learn to transform old clothes into new costumes for imaginative play, with a variety of materials and designs to choose from. This is a fun and creative event for the whole family.",
     "label": "Family Friendly",
     "skip": false
@@ -1577,16 +1522,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Experimental Arts Festival: Music & Art, A festival of music and art, with a focus on experimental and avant-garde works. Experience a diverse range of performances, from soundscapes and electronic music to live art and installations. This festival celebrates the creativity and innovation of Wellington's arts scene.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "M\u0101ori & Pacific Games Festival: A Celebration of Sport, A festival of traditional M\u0101ori and Pacific Island games and sports. Participate in a variety of games, from waka ama and ki-o-rahi to tug-of-war and sack races. This festival is a great way to celebrate the city's diverse communities and get active.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -1945,16 +1880,6 @@
     "skip": false
   },
   {
-    "description": "Anime Night: 'Spirited Away', Join us at the St. James Theatre for a screening of Hayao Miyazaki's masterpiece 'Spirited Away'. This critically acclaimed film tells the story of a young girl's adventure in a world of spirits and monsters. The screening will have English subtitles and a short discussion on the film's themes.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Pop-Up Cinema: 'Pulp Fiction', A special pop-up cinema event in a secret location, screening Quentin Tarantino's 'Pulp Fiction.' Expect a night of cult classic cinema, delicious food, and themed cocktails. The location will be revealed to ticket holders 24 hours before the event.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Screenwriting Workshop with a WGA Member, An exclusive workshop with a Writers Guild of America member and professional screenwriter. Learn about the craft of screenwriting, from character development and plot structure to pitching and working in the industry. This is a must-attend for aspiring writers.",
     "label": "Film & Media",
     "skip": false
@@ -2230,11 +2155,6 @@
     "skip": false
   },
   {
-    "description": "Baking Workshop: Sourdough Bread, Master the art of sourdough bread in this intensive baking workshop. Learn to create and maintain your own starter, mix and knead the dough, and bake a perfect loaf with a crispy crust and chewy interior. All materials provided, and you get to take home your freshly baked bread.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
     "description": "Winter Warming Soups & Stews, Chase away the winter chill with this cozy cooking class. Learn to make a variety of hearty soups and stews from around the world, from French onion soup to a spicy Mexican posole. The class ends with a communal feast of all the dishes we've prepared, with fresh bread and a glass of wine.",
     "label": "Food & Drink",
     "skip": false
@@ -2437,11 +2357,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "The Role of Journalism in Democracy: A panel discussion with political journalists and media analysts on the challenges and importance of unbiased reporting in a modern political landscape.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -2875,16 +2790,6 @@
     "skip": false
   },
   {
-    "description": "DIY Natural Skincare Workshop, Learn how to create your own all-natural and nourishing skincare products in this fun, hands-on workshop. You'll make and take home a face mask, body scrub, and lip balm using simple, wholesome ingredients. All materials are provided.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "The Art of Breath: Pranayama Workshop, Deepen your understanding of breathwork with this workshop focused on Pranayama, the yogic science of breath control. Learn various techniques to calm the nervous system, increase energy, and improve mental clarity. This session is suitable for all levels of experience.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Mind-Body Connection: A Modern Guide, Explore the science behind the mind-body connection and learn how your thoughts and emotions can impact your physical health. This seminar provides practical tools like journaling, visualisation, and emotional release techniques to promote holistic wellness. Includes a workbook for personal practice.",
     "label": "Health & Wellness",
     "skip": false
@@ -3047,11 +2952,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Garage Sale, Declutter your home and find a bargain at the Wellington Garage Sale! We're hosting a massive garage sale with over 50 stalls selling everything from pre-loved clothing and household items to books and toys. This is a great opportunity to find a hidden treasure or a new-to-you item while giving it a second life. All are welcome to sell or shop. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -3357,11 +3257,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Mindful Meditation & Yoga for Stress Relief, A weekly class combining gentle yoga and guided meditation to help manage stress and promote a sense of well-being. This session focuses on the connection between mind and body, helping you to find balance and release tension. No experience is necessary, and all are welcome to attend this supportive and calming space.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
