@@ -14,7 +14,7 @@ true = True
 false = False
 
 training_data_file_name = "training_data_kid_friendly.json"
-unclassified_data_file_name = "unclassified_data.json"
+small_training_data_file_name = "small_training_data_kid_friendly.json"
 
 should_train = true
 
@@ -24,7 +24,7 @@ embedding_dim = 400
 tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
 all_texts = []
 
-with open(training_data_file_name, mode="r") as f:
+with open(small_training_data_file_name, mode="r") as f:
     data = json.loads(f.read())
     all_texts.extend([item["description"] for item in data if not item["skip"]])
 
@@ -39,6 +39,9 @@ def get_data(file_name: str):
             if value["skip"]:
                 continue
             description = value["description"]
+            if "kid_friendly" not in value.keys():
+                print(description)
+                raise Exception()
             label = value["kid_friendly"]
             texts.append(description)
             labels.append(label)
@@ -69,7 +72,7 @@ def predict_from_file(file_name):
             if item["skip"]:
                 continue
             texts_to_predict.append(item["description"])
-            given_labels.append(str(item["kid_friendly"]))
+            given_labels.append(item["kid_friendly"])
 
     sequences = loaded_tokenizer.texts_to_sequences(texts_to_predict)
     padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
@@ -84,7 +87,7 @@ def predict_from_file(file_name):
         if len(indecies) == 0:
             predicted_labels.append([{"label": None, "confidence": f"Confidence 0%"}])
         else:
-            label_dict = [{"label": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip([index == 1 for index in  indecies], indecies)]
+            label_dict = [{"kid_friendly": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip([index == 1 for index in  indecies], indecies)]
             predicted_labels.append(label_dict)
 
     with open("kid_friendly_predictions_log.txt", mode="w") as f:
@@ -95,7 +98,7 @@ def predict_from_file(file_name):
             f.write(f"given Label: {given_labels[i]}\n")
             found = False
             for item in predicted_labels[i]:
-                if given_labels[i] == str(item["kid_friendly"]):
+                if given_labels[i] == item["kid_friendly"]:
                     found = True
                     break
             f.write(f"prediction correct: {found}\n")
@@ -157,5 +160,5 @@ if should_train:
         f.write(json.dumps(tokenizer_json, ensure_ascii=False))
 
 labels_out = predict_from_file(
-    training_data_file_name
+    small_training_data_file_name
 )

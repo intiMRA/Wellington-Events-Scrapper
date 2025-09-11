@@ -1,0 +1,13 @@
+import json
+import random
+
+with open("training_data_kid_friendly.json", mode="r") as f:
+    full_set = json.loads(f.read())
+    small_set = []
+    trues = [t for t in full_set if t["kid_friendly"]]
+    falses = [t for t in full_set if not t["kid_friendly"]]
+    random.shuffle(trues)
+    for i in range(1, len(trues)):
+        small_set.append(falses[i])
+    with open("small_training_data_kid_friendly.json", mode="w") as w:
+        json.dump(small_set, w, indent=2)
