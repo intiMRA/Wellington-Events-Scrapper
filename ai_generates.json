@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Creative Founders Forum: Women in the Arts & Design, A networking event specifically for women in the creative industries, including artists, designers, photographers, and writers. Share experiences, discuss career challenges, and build a supportive community for women leading creative ventures.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Cybersecurity for SMEs: A Practical Guide to Protecting Your Business, A seminar on essential cybersecurity best practices for small and medium-sized enterprises. Learn how to protect your digital assets from common threats like phishing, ransomware, and data breaches with simple, actionable steps.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Innovate & Grow: Building a Creative Company Culture, A workshop for managers and business leaders on how to build a company culture that fosters innovation and creativity. Learn how to empower your team, encourage new ideas, and create a workplace where continuous improvement is the norm.",
     "label": "Business & Networking",
     "skip": false
@@ -262,11 +252,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Mending Workshop: Repairing & Upcycling Clothing, A workshop on learning to mend and repair clothing. Learn basic sewing techniques, how to patch holes, and how to repair worn-out garments to extend their life and reduce textile waste. All materials included.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -747,11 +732,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Advanced Data Analysis with Python: A Professional Course, A comprehensive course for professionals who want to master data analysis using Python. Learn key libraries like Pandas and NumPy, data visualization with Matplotlib, and how to build predictive models to inform strategic business decisions.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1370,21 +1350,6 @@
     "skip": false
   },
   {
-    "description": "DIY Play Costumes Workshop: Dress-Up Fun, A workshop on making your own play costumes from old clothes. Kids will learn to transform old clothes into new costumes for imaginative play, with a variety of materials and designs to choose from. This is a fun and creative event for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Kids' Sign Language Workshop: A Basic Class, A class on learning basic sign language for kids. Children will learn fundamental signs for greetings, introductions, and common phrases in a fun and engaging environment. This class is designed to give kids a solid foundation in sign language.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Museum Treasure Hunt: Discovering History, A family treasure hunt at a local museum. Families will follow a series of clues to discover hidden treasures and solve riddles, learning about the museum's exhibits and artifacts in a fun and interactive way.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Digital Family Tree Workshop: A Genealogical Project, A workshop on creating a digital family tree. Parents and kids will work together to research their family history, collect photos and documents, and create a digital family tree to be shared and cherished for years to come.",
     "label": "Family Friendly",
     "skip": false
@@ -1522,41 +1487,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Vintage Car Festival: A Hot Rod Parade, A festival of vintage cars and hot rods, with a parade and a car show. Admire a huge variety of classic cars, from vintage roadsters to modern muscle cars, and meet the car owners. This festival is a great day out for car enthusiasts of all ages.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Comedy & Improv Festival: Laughs & Spontaneity, A festival of comedy and improv, with workshops and performances. Watch a variety of stand-up, sketch, and improv comedy, and participate in workshops to learn the basics of improv. This festival is for comedy lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Local Authors Festival: A Celebration of Words, A festival of local authors and illustrators, with book signings and readings. Meet your favorite local authors, listen to them read from their books, and participate in workshops. This festival celebrates the power of words and storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Food Festival: Chocolate & Coffee, A food festival focusing on a specific ingredient, like chocolate or coffee. Sample a variety of chocolate and coffee products from local makers, and participate in workshops and demonstrations. This festival is a great day out for foodies.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "AI & Robotics Festival: The Future of Tech, A festival of technology, with a focus on artificial intelligence and robotics. Explore the latest innovations in AI and robotics, and participate in hands-on exhibits and demonstrations. This festival celebrates curiosity and the future of technology.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Documentary Film Festival: Real Stories, A festival of documentaries, with screenings and talks. Watch a curated selection of films from around the world, and participate in discussions and Q&A sessions. This festival celebrates the power of non-fiction storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Folk Festival: Music & Community, A music festival focused on local folk and roots music. Discover new artists, enjoy live music in a variety of venues, and support Wellington's vibrant folk scene. This festival is for music lovers who want to explore the local talent.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -1877,21 +1807,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Screenwriting Workshop with a WGA Member, An exclusive workshop with a Writers Guild of America member and professional screenwriter. Learn about the craft of screenwriting, from character development and plot structure to pitching and working in the industry. This is a must-attend for aspiring writers.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Children's Movie Day: 'The Lion King', The Community Hub is hosting a free children's movie day with a screening of 'The Lion King'. Come and sing along to the classic songs with your little ones. We'll have face painting and a fun art activity before the film.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film Collective: 'No Country for Old Men', A special screening of the Coen Brothers' 'No Country for Old Men' at The Roxy Cinema. This neo-Western thriller is a masterclass in tension and storytelling. The film will be followed by a discussion on the Coen Brothers' cinematic style and the film's themes.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -2360,11 +2275,6 @@
     "skip": false
   },
   {
-    "description": "Future of Healthcare Policy Debate: A forum for political party representatives to debate their proposed policies on healthcare funding, mental health services, and public health initiatives.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
     "description": "Local Government Careers Fair: An event for students and young professionals interested in careers in public service, local government, and policy, with stalls and presentations from various agencies.",
     "label": "Government & Politics",
     "skip": false
@@ -2790,11 +2700,6 @@
     "skip": false
   },
   {
-    "description": "Mind-Body Connection: A Modern Guide, Explore the science behind the mind-body connection and learn how your thoughts and emotions can impact your physical health. This seminar provides practical tools like journaling, visualisation, and emotional release techniques to promote holistic wellness. Includes a workbook for personal practice.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Family Yoga, A playful and inclusive yoga class for parents and children to connect, move, and have fun together. This session incorporates stories, games, and partner poses to build strength, flexibility, and a sense of togetherness. Suitable for children aged 4-10 and their caregivers.",
     "label": "Health & Wellness",
     "skip": false
@@ -2952,36 +2857,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Plant & Garden Market, A market for plant lovers and gardeners. The Wellington Plant & Garden Market features a wide selection of plants, from native species and houseplants to exotic flowers and vegetables. Meet local growers, get expert advice on gardening, and find some new plants to add to your collection. There will be workshops and talks throughout the day on topics like composting, propagation, and pest control. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Indie Arts Market, A market for independent artists and designers. The Wellington Indie Arts Market features a curated selection of stalls selling unique, handmade goods, from art and jewelry to clothing and home decor. This is a great place to discover new local talent and support small businesses. Live music and a delicious selection of food and drink stalls will also be available. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Summer Craft Fair, A celebration of local craftsmanship and creativity. The Wellington Summer Craft Fair features a wide selection of handmade goods, from jewelry and pottery to artwork and home decor. This is a great place to find unique gifts and support our local crafters. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Antiques & Collectibles Festival, Step back in time at the Wellington Antiques & Collectibles Festival. Find a treasure trove of antique furniture, vintage clothing, and rare collectibles from a wide range of eras. Whether you're a seasoned collector or a curious browser, this festival offers a chance to explore history through objects. There will be expert appraisers on hand to give you information on your own vintage finds. Tickets available for purchase online.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Vegan & Sustainable Market, A market with a mission! The Wellington Vegan & Sustainable Market features a wide range of stalls dedicated to sustainable and vegan living. Find everything from delicious vegan food and cruelty-free beauty products to refillable household products and upcycled clothing. This is a great opportunity to learn about a more compassionate and sustainable lifestyle. There will be workshops and talks throughout the day. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Christmas Shopping Extravaganza, Get into the festive spirit at the Wellington Christmas Shopping Extravaganza. This magical market features a huge selection of handmade gifts, festive decorations, and delicious holiday treats. Find unique gifts for everyone on your list while enjoying a festive atmosphere with carolers, hot chocolate, and a visit from Santa himself. This is a great way to support local artisans and get your holiday shopping done in a fun and festive environment. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -3257,16 +3132,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Spiritual Journey to Jerusalem, An informational evening about an upcoming pilgrimage to the Holy Land. Learn about the itinerary, historical sites, and spiritual significance of visiting Jerusalem. This is a chance to ask questions, meet fellow travelers, and prepare for a life-changing journey of faith and discovery.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Jewish Spirituality: An Introduction to Kabbalah, An introductory talk on the mystical teachings of Kabbalah. Learn about the Tree of Life, the divine emanations, and the practice of meditation in Jewish mysticism. This session is designed for those curious about the esoteric dimension of Judaism and its rich spiritual tradition. All are welcome, no prior knowledge is needed.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {

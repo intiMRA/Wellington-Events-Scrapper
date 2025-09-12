@@ -9,5 +9,6 @@ with open("training_data_kid_friendly.json", mode="r") as f:
     random.shuffle(trues)
     for i in range(1, len(trues)):
         small_set.append(falses[i])
+    small_set += trues
     with open("small_training_data_kid_friendly.json", mode="w") as w:
         json.dump(small_set, w, indent=2)
