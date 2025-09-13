@@ -146,7 +146,7 @@ def move_top_n_shortest(num:int, category: str):
                 json.dump(unclassified_data, unclassified_file_write, indent=2)
 
 
-# move_top_n_shortest(1, "Arts & Theatre")
+# move_top_n_shortest(1, "Community & Culture")
 generate_data()
 generate_unclassified_data()
 count_categories()

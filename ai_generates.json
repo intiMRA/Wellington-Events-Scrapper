@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Innovate & Grow: Building a Creative Company Culture, A workshop for managers and business leaders on how to build a company culture that fosters innovation and creativity. Learn how to empower your team, encourage new ideas, and create a workplace where continuous improvement is the norm.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Exporting for Success: A Global Business Development Workshop, A business breakfast on strategies for international market entry and business development. Hear from trade experts and successful exporters on how to navigate international regulations, build global partnerships, and grow your business overseas.",
     "label": "Business & Networking",
     "skip": false
@@ -252,16 +247,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Biodiversity Forum: The Importance of a Healthy Ecosystem, A discussion forum on the importance of biodiversity and a healthy ecosystem. Hear from scientists and conservationists on the threats to biodiversity and what we can do to protect it for future generations.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Invasive Plant Workshop: Identify & Remove, A hands-on workshop on identifying and removing invasive plant species. Learn about the most common invasive plants in the Wellington region, their impact on the ecosystem, and safe methods for their removal. This is a great way to help restore native bush.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -732,11 +717,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Ethical Leadership for Managers: A Decision-Making Workshop, A workshop on ethical decision-making for business managers and team leaders. Through case studies and practical exercises, you will learn frameworks for navigating complex ethical dilemmas and fostering a culture of integrity and responsibility in the workplace.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1490,26 +1470,6 @@
     "skip": false
   },
   {
-    "description": "Sculpture & Installation Festival: Art in Public Spaces, A festival of art, with a focus on sculpture and installation. Watch as local artists transform public spaces into a gallery of sculptures and installations, celebrating the city's vibrant art scene. This is a unique festival of art and creativity.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Contemporary Dance Festival: Movement & Expression, A festival of dance, with a focus on contemporary and modern dance. Watch a variety of dance performances from local artists and dance companies, and participate in workshops and talks. This festival celebrates the art of dance and movement.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "New Playwrights Festival: The Future of Theatre, A festival of theatre, with a focus on new and emerging playwrights. Watch a variety of staged readings and performances of new plays, and participate in discussions and Q&A sessions. This festival celebrates the creativity and talent of Wellington's theatre scene.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "19th Century Wellington Festival: A Step Back in Time, A festival of local history, with a focus on the 19th century. Explore the city's past with historical reenactments, guided tours of historic buildings, and talks from local historians. This festival is a great way to learn about the city's past.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Wellington Horror Film Festival: Scares & Thrills, A festival of film, with a focus on horror. Watch a curated selection of horror films from around the world, and participate in discussions and Q&A sessions. This festival is for horror fans who want to explore the local talent.",
     "label": "Festivals",
     "skip": false
@@ -1810,16 +1770,6 @@
     "skip": false
   },
   {
-    "description": "Editing Masterclass with a Senior Editor, A hands-on masterclass with a senior film editor from Park Road Post Production. Learn about the art and craft of film editing, from pacing and rhythm to visual storytelling. This is a fantastic opportunity for students and professionals to learn from a top industry expert.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Found Footage Horror Film Festival, A night of found footage horror films at the Vogelmorn Bowling Club. We'll be screening a selection of films that use the found footage format to create a terrifyingly immersive experience. A discussion on the history of the sub-genre will follow the screenings. R18+",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Behind the Lens: A Cinematography Workshop, Learn the art of visual storytelling in this hands-on cinematography workshop. A professional cinematographer will teach you about camera angles, lighting, and composition to help you create stunning and impactful images for your films.",
     "label": "Film & Media",
     "skip": false
@@ -2067,16 +2017,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Winter Warming Soups & Stews, Chase away the winter chill with this cozy cooking class. Learn to make a variety of hearty soups and stews from around the world, from French onion soup to a spicy Mexican posole. The class ends with a communal feast of all the dishes we've prepared, with fresh bread and a glass of wine.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Taco Tuesday Pop-Up, Our famous Taco Tuesday Pop-Up is back! We're serving up a rotating menu of gourmet tacos, from classic carne asada to creative vegetarian options. Pair your tacos with a selection of tequilas and margaritas, and enjoy the lively atmosphere with live music.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
