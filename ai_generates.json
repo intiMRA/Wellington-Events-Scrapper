@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Exporting for Success: A Global Business Development Workshop, A business breakfast on strategies for international market entry and business development. Hear from trade experts and successful exporters on how to navigate international regulations, build global partnerships, and grow your business overseas.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Designers' Networking Night: Innovate & Collaborate, A networking event for graphic designers, UX/UI specialists, industrial designers, and other creative professionals. This is an opportunity to showcase your portfolio, discuss industry trends, and find collaborators for future projects in a vibrant and inspiring environment.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Podcast for Profit: A Business Podcasting Workshop, A workshop for business owners and marketers on how to create and launch a successful podcast. Learn the essentials of content planning, recording, editing, and promotion to use podcasting as a powerful tool for brand building and customer engagement.",
     "label": "Business & Networking",
     "skip": false
@@ -247,11 +237,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Air Quality & Public Health: A Seminar, A seminar on the impact of air quality on public health. Hear from scientists and public health experts on the sources of air pollution, its effects on health, and what we can do to improve air quality in our city.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1470,21 +1455,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Horror Film Festival: Scares & Thrills, A festival of film, with a focus on horror. Watch a curated selection of horror films from around the world, and participate in discussions and Q&A sessions. This festival is for horror fans who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Burger & Beer Festival, A food festival focusing on burgers and beer. Sample a variety of burgers from local food trucks and restaurants, and pair them with a huge variety of craft beers from local breweries. With live music and a lively atmosphere, it's a perfect day out for foodies.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Design Festival: A Showcase of Creativity, A festival of design, with a focus on a specific discipline, e.g., graphic design or fashion. Browse a wide variety of works from local designers, and participate in workshops and talks. This festival celebrates creativity and the local design community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Rainbow Pride Festival: A Celebration of Community, A festival of arts and culture, with a focus on the LGBTQ+ community. Experience a diverse range of performances, from drag shows to live music, and participate in workshops and talks. This festival is a celebration of the city's LGBTQ+ community.",
     "label": "Festivals",
     "skip": false
@@ -1770,11 +1740,6 @@
     "skip": false
   },
   {
-    "description": "Behind the Lens: A Cinematography Workshop, Learn the art of visual storytelling in this hands-on cinematography workshop. A professional cinematographer will teach you about camera angles, lighting, and composition to help you create stunning and impactful images for your films.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Film Music Showcase: The John Williams Experience, Celebrate the legendary film composer John Williams with a special concert by the Wellington Youth Orchestra. They will be performing his iconic scores from 'Star Wars,' 'Jurassic Park,' 'Indiana Jones,' and many more. This is a magical night for film and music lovers.",
     "label": "Film & Media",
     "skip": false
@@ -2020,26 +1985,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Burger Challenge, It's Burger Wellington time! Join us for our entry into the annual burger challenge. Our chefs have created a unique burger with local ingredients and a delicious twist. Vote for your favorite burger, and enjoy a cold beer with a delicious meal.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "French Wine & Cheese Tasting, An elegant evening of French wine and cheese. Our sommelier has selected a range of classic French wines, from crisp Sancerre to bold Bordeaux, to pair with a variety of French cheeses. Learn about the different regions and production methods, and enjoy the perfect combination of flavors.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Food Photography Workshop, Learn to take beautiful photos of your food in this hands-on workshop. Our professional food photographer will teach you about lighting, composition, and styling to make your dishes look their best. A great class for bloggers, social media enthusiasts, and anyone who loves to capture their culinary creations.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "The Great Cookie Bake-Off, A friendly competition for all baking enthusiasts. Bring your best batch of cookies to compete for the title of best cookie in Wellington. Prizes for best flavor, best texture, and most creative. A fun and delicious night of tasting and voting, with milk and coffee available.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
     "description": "Whisky & Chocolate Masterclass, A match made in heaven. This event pairs a selection of premium whiskies from around the world with a variety of handcrafted chocolates. Our expert will guide you through the tasting notes and flavor profiles, and teach you how to find the perfect pairing.",
     "label": "Food & Drink",
     "skip": false
@@ -2212,16 +2157,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Local Government Careers Fair: An event for students and young professionals interested in careers in public service, local government, and policy, with stalls and presentations from various agencies.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Community Safety Forum: A meeting with police, city officials, and community leaders to discuss strategies for improving public safety, addressing crime, and fostering a secure neighbourhood environment.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -2640,11 +2575,6 @@
     "skip": false
   },
   {
-    "description": "Family Yoga, A playful and inclusive yoga class for parents and children to connect, move, and have fun together. This session incorporates stories, games, and partner poses to build strength, flexibility, and a sense of togetherness. Suitable for children aged 4-10 and their caregivers.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Meditation for Creativity, Unlock your creative potential with this guided meditation focused on quieting the inner critic and opening the mind to new ideas. This session is perfect for artists, writers, and anyone looking to tap into a deeper source of inspiration. No experience necessary.",
     "label": "Health & Wellness",
     "skip": false
@@ -2797,16 +2727,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Record Swap Meet, Calling all music lovers and collectors! The Wellington Record Swap Meet is back with thousands of LPs, CDs, cassettes, and music memorabilia. Browse a huge selection of genres, from classic rock and punk to jazz and electronica. This is a great opportunity to find your next favorite record. Free entry, all are welcome. Food and coffee stalls on site.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Pop-Up Bazaar, A unique market experience! The Wellington Pop-Up Bazaar features a curated selection of local artists, designers, and food vendors. Browse unique gifts, art, and fashion while enjoying a festive atmosphere with live music and delicious food. This is a great opportunity to discover new local businesses and support the creative community in Wellington. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {

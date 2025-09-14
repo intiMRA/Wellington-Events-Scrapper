@@ -133,7 +133,7 @@ def load_models_from_file():
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
 if should_train:
-    set_random_seed(13453376)
+    set_random_seed(13453379)
     enable_op_determinism()
     X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name)
 
