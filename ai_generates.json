@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Podcast for Profit: A Business Podcasting Workshop, A workshop for business owners and marketers on how to create and launch a successful podcast. Learn the essentials of content planning, recording, editing, and promotion to use podcasting as a powerful tool for brand building and customer engagement.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Corporate Storytelling Masterclass: Building a Powerful Brand Narrative, A masterclass on the art and science of corporate storytelling. Learn how to craft a compelling brand narrative that resonates with your audience, builds emotional connections, and differentiates your business in a competitive market.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Young Professionals in Finance Lunch & Learn, A networking lunch for young professionals in the finance and banking sector. Connect with peers and senior leaders to discuss career paths, market insights, and the future of the industry while enjoying a relaxed and informative midday meal.",
     "label": "Business & Networking",
     "skip": false
@@ -702,11 +692,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Project Management for Creatives: A Skills Seminar, A seminar on project management tailored for creative professionals and small business owners. Learn how to plan, budget, and execute creative projects on time and within scope, from initial concept to final delivery, without losing your creative spark.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1455,26 +1440,6 @@
     "skip": false
   },
   {
-    "description": "Rainbow Pride Festival: A Celebration of Community, A festival of arts and culture, with a focus on the LGBTQ+ community. Experience a diverse range of performances, from drag shows to live music, and participate in workshops and talks. This festival is a celebration of the city's LGBTQ+ community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Park Music Festival: A Day in the Sun, A festival of music, with a focus on a specific location, e.g., a park or a street. Enjoy a day of live music in a beautiful outdoor setting, with a variety of bands and musicians. This festival is a great way to enjoy a day out with your community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Food Festival: A Taste of the World, A food festival, with a focus on a specific country's cuisine. Sample a variety of dishes from local chefs who are specializing in a specific cuisine, e.g., Italian or Vietnamese. With live music and a lively atmosphere, it's a perfect day out for foodies.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Gin & Tonic Festival: A Celebration of Local Distilleries, A festival of drink, with a focus on gin and tonic. Sample a huge variety of gins from local distilleries, and pair them with a variety of tonics and garnishes. With live music and a lively atmosphere, it's a great day out for gin lovers.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Environmental Film Festival: Films for a Greener World, A festival of film, with a focus on the environment. Watch a curated selection of documentaries and short films on environmental issues, and participate in discussions and Q&A sessions. This festival is for anyone who wants to learn about the environment and make a difference.",
     "label": "Festivals",
     "skip": false
@@ -1982,26 +1947,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Whisky & Chocolate Masterclass, A match made in heaven. This event pairs a selection of premium whiskies from around the world with a variety of handcrafted chocolates. Our expert will guide you through the tasting notes and flavor profiles, and teach you how to find the perfect pairing.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Gourmet Toasties & Local Wine, Elevate your toastie game with our gourmet toastie menu. Our chefs have created a range of delicious toasties, from classic cheese and onion to more adventurous options. Each toastie is perfectly paired with a local wine, making for a sophisticated and comforting meal.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Kids' Pizza Making Workshop, A fun and creative workshop for kids. Our chefs will teach kids how to make their own pizza from scratch, from kneading the dough to choosing their own toppings. A messy and delicious class that ends with a feast of their own creations.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Asian Fusion Feast, A multi-course dinner that celebrates the vibrant flavors of Asian fusion cuisine. Our chefs have created a menu that blends traditional Asian dishes with modern techniques and local ingredients. Each course is a new taste adventure, with a cocktail pairing designed to complement the unique flavors.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2575,11 +2520,6 @@
     "skip": false
   },
   {
-    "description": "Meditation for Creativity, Unlock your creative potential with this guided meditation focused on quieting the inner critic and opening the mind to new ideas. This session is perfect for artists, writers, and anyone looking to tap into a deeper source of inspiration. No experience necessary.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Ayurvedic Workshop: Wellness by the Seasons, Learn the principles of Ayurveda, the ancient Indian system of medicine, and discover how to align your lifestyle with the changing seasons for optimal health. This workshop covers diet, daily routines, and self-care practices to promote balance and vitality all year round.",
     "label": "Health & Wellness",
     "skip": false
@@ -2727,11 +2667,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Children's Market, A market for kids, by kids! The Wellington Children's Market is a unique event where young entrepreneurs can set up a stall and sell their handmade crafts, baked goods, and toys. This is a great opportunity for kids to learn about business, earn some pocket money, and have fun. Parents and families are welcome to come and support the young sellers and find some unique gifts. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2992,11 +2927,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Buddhist Chanting and Meditation, A weekly practice session of Buddhist chanting and meditation. We will begin with a short period of chanting, followed by a guided meditation and a brief talk. This is a calm and supportive space for both beginners and experienced practitioners to deepen their practice. All are welcome to attend.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
