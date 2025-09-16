@@ -10,36 +10,6 @@
     "skip": false
   },
   {
-    "description": "Young Professionals in Finance Lunch & Learn, A networking lunch for young professionals in the finance and banking sector. Connect with peers and senior leaders to discuss career paths, market insights, and the future of the industry while enjoying a relaxed and informative midday meal.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Project Management for Everyone: A Practical Workshop, A workshop on foundational project management skills for professionals outside of a formal project management role. Learn how to plan, execute, and deliver projects on time and within budget, improving your efficiency and impact in any role.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Customer Analytics Masterclass: Personalization & Segmentation, A masterclass on using data analytics to understand customer behavior and preferences. Learn to segment your audience and create personalized marketing campaigns that drive engagement, loyalty, and revenue growth.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Regulation & Startups: A Policy Impact Panel, A panel discussion on the impact of government regulations and policy on the startup ecosystem. Hear from policymakers, startup founders, and venture capitalists on how to navigate the regulatory landscape and advocate for a more innovation-friendly environment.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Inventors' Workshop: Navigating Intellectual Property & Patents, A workshop for inventors and innovators on the legal process of protecting their creations. Learn about patent law, how to conduct a patent search, and the steps required to secure your intellectual property rights.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Seasonal Business Summit: Marketing for a Cyclical Market, A business event focused on marketing and sales strategies for businesses with seasonal cycles. Learn how to maximize revenue during peak seasons, maintain customer engagement in the off-season, and build a resilient business model.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Upskilling for the Future: A Talent Development Forum, A forum on the future of work and its implications for employee training and upskilling. Hear from L&D experts and business leaders on how to create a culture of continuous learning and equip your team with the skills needed for tomorrow's challenges.",
     "label": "Business & Networking",
     "skip": false
@@ -227,11 +197,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Wildlife-Friendly Garden Workshop: Attracting Native Birds & Insects, A workshop on creating a wildlife-friendly garden. Learn how to select plants that attract native birds, insects, and other wildlife, and how to create a habitat that supports a healthy and diverse ecosystem in your backyard.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -692,11 +657,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Strategic Planning for Non-Profits: A Board Workshop, A workshop on strategic planning for non-profit boards and executive teams. Learn how to define your mission, set measurable goals, and create a long-term strategy that ensures your organization's sustainability and impact.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1440,26 +1400,6 @@
     "skip": false
   },
   {
-    "description": "Environmental Film Festival: Films for a Greener World, A festival of film, with a focus on the environment. Watch a curated selection of documentaries and short films on environmental issues, and participate in discussions and Q&A sessions. This festival is for anyone who wants to learn about the environment and make a difference.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "80s & 90s Music Festival: A Throwback Party, A festival of music, with a focus on a specific time period, e.g., the 80s or 90s. Enjoy a day of live music and dancing, with a variety of bands and musicians playing classic hits from the 80s and 90s. This festival is a great day out for music lovers.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Poetry & Storytelling Festival: A Celebration of Words, A festival of poetry and storytelling, with open mics and author talks. Share your original work, listen to local poets and writers, and meet your favorite authors. This festival celebrates the power of words and storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Sustainable Design Festival: A Showcase of Innovation, A festival of design, with a focus on sustainable design. Browse a wide variety of works from local designers, and participate in workshops and talks. This festival celebrates creativity and the local design community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Community Aid Festival: A Celebration of Generosity, A festival of community, with a focus on a specific cause, e.g., homelessness. Enjoy a day of family-friendly activities, live music, and food stalls, with all proceeds going to a local charity. This festival is a great way to give back to your community.",
     "label": "Festivals",
     "skip": false
@@ -1705,16 +1645,6 @@
     "skip": false
   },
   {
-    "description": "Film Music Showcase: The John Williams Experience, Celebrate the legendary film composer John Williams with a special concert by the Wellington Youth Orchestra. They will be performing his iconic scores from 'Star Wars,' 'Jurassic Park,' 'Indiana Jones,' and many more. This is a magical night for film and music lovers.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Documentary Workshop: Telling Your Story, Learn how to create your own documentary film in this comprehensive workshop. We'll cover everything from finding a compelling story and conducting interviews to editing and sound design. This is a great opportunity to learn how to tell a powerful story about your community.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Noir Film Festival: The Maltese Falcon, The Embassy Theatre is hosting a Noir Film Festival, and we're starting with the classic 'The Maltese Falcon.' Join us for a screening of this iconic film noir, followed by a discussion on its influence on the genre and its place in cinematic history.",
     "label": "Film & Media",
     "skip": false
@@ -1947,16 +1877,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Summer Garden Party, A celebration of Wellington's summer with a garden party. Our menu features a selection of light and fresh canap\u00e9s and cocktails, with a focus on local produce and seasonal flavors. Enjoy live music, lawn games, and the beautiful surroundings of a local garden.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Craft Beer & BBQ Night, A night of craft beer and barbecue. We're serving up a selection of slow-cooked meats, from pulled pork to brisket, with a variety of house-made sauces and sides. Pair your meal with a selection of local craft beers, and enjoy the lively atmosphere with live music.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2520,11 +2440,6 @@
     "skip": false
   },
   {
-    "description": "Ayurvedic Workshop: Wellness by the Seasons, Learn the principles of Ayurveda, the ancient Indian system of medicine, and discover how to align your lifestyle with the changing seasons for optimal health. This workshop covers diet, daily routines, and self-care practices to promote balance and vitality all year round.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Postnatal Pilates, A gentle and supportive Pilates class designed for new mothers. Reconnect with your core, strengthen your pelvic floor, and rebuild strength safely after childbirth. Babies are welcome to attend and be a part of this nourishing self-care session.",
     "label": "Health & Wellness",
     "skip": false
@@ -2667,11 +2582,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Craft & Artisan Market, A celebration of local craft and artisanal products. The Wellington Craft & Artisan Market features a wide selection of handmade goods, from jewelry and pottery to paintings and textiles. This is a great place to find unique gifts and support our local crafters. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2927,16 +2837,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Gospel Choir Workshop, A fun and lively workshop for anyone who loves to sing gospel music. Learn harmonies, rhythms, and techniques from our experienced choir director. This is a welcoming, no-audition space for all skill levels. Join us for an evening of music, community, and joy. All voices are welcome to lift up a song of praise.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "A Night of Prayer for the City, Join us as we come together to pray for our city. This evening of corporate prayer will focus on local needs, from community welfare to political leaders, and will be an opportunity to seek God's guidance and blessing for our region. This is an interdenominational event, and all are welcome to participate.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
