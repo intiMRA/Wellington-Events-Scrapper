@@ -123,7 +123,7 @@ class RoxyScrapper:
                         print("-" * 100)
                         raise e
                 print("-" * 100)
-            json.dump({"events": events}, festival_file, indent=2)
+            json.dump({"events": sorted(events, key=lambda evt: evt["name"])}, festival_file, indent=2)
             festival_file.close()
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
