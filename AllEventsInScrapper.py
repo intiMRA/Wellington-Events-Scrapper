@@ -48,7 +48,7 @@ class AllEventsInScrapper:
                          description=description)
 
     @staticmethod
-    def get_urls_for_category(category_url, driver: webdriver, previous_urls: Set[str], category_name: str, urls_file) -> Set[Tuple[str, str]]:
+    def get_urls_for_category(category_url, driver: webdriver, previous_urls: Set[str], previous_titles: Set[str], category_name: str, urls_file) -> Set[Tuple[str, str]]:
         event_urls = set()
         driver.get(category_url)
         sleep(random.uniform(2, 3))
@@ -90,8 +90,10 @@ class AllEventsInScrapper:
         print(f"event count: {len(events)}")
         for event in events:
             event_url = event.get_attribute("data-link")
-            if event_url in previous_urls:
+            title = event.find_element(By.CLASS_NAME, "title").text
+            if event_url in previous_urls or title in previous_titles:
                 continue
+            previous_titles.add(title)
             previous_urls.add(event_url)
             event_tuple = (category_name, event_url)
             event_urls.add(event_tuple)
@@ -99,7 +101,7 @@ class AllEventsInScrapper:
             urls_file.write(",\n")
         return event_urls
     @staticmethod
-    def get_urls(city_url: str, previous_urls: Set[str], categories: Set[Tuple[str, str]], urls_file, driver: webdriver) -> Set[Tuple[str, str]]:
+    def get_urls(city_url: str, previous_urls: Set[str], previous_titles: Set[str], categories: Set[Tuple[str, str]], urls_file, driver: webdriver) -> Set[Tuple[str, str]]:
         event_urls = set()
         cat_count = len(categories)
         current_cat = 1
@@ -108,7 +110,7 @@ class AllEventsInScrapper:
             category_url = category[1]
             print(f"fetching: {category_name} for {city_url} {current_cat} of {cat_count}")
             current_cat += 1
-            event_urls = event_urls.union(AllEventsInScrapper.get_urls_for_category(category_url, driver, previous_urls, category_name, urls_file))
+            event_urls = event_urls.union(AllEventsInScrapper.get_urls_for_category(category_url, driver, previous_urls, previous_titles, category_name, urls_file))
         return event_urls
 
     @staticmethod
@@ -156,7 +158,7 @@ class AllEventsInScrapper:
             urls_file.write("[\n")
             for city_url in city_urls:
                 categories = AllEventsInScrapper.get_categories(city_url, driver)
-                event_urls = event_urls.union(AllEventsInScrapper.get_urls(city_url, previous_urls, categories, urls_file, driver))
+                event_urls = event_urls.union(AllEventsInScrapper.get_urls(city_url, previous_urls, previous_titles, categories, urls_file, driver))
                 driver.close()
                 profile_path = "~/ChromeTestProfile"  # Replace with your actual path
                 # Set Chrome options
