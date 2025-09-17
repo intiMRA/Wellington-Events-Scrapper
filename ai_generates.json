@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Upskilling for the Future: A Talent Development Forum, A forum on the future of work and its implications for employee training and upskilling. Hear from L&D experts and business leaders on how to create a culture of continuous learning and equip your team with the skills needed for tomorrow's challenges.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Non-Profit Professionals Mixer: Building Our Community, A networking event for leaders and staff of non-profit organizations and social enterprises. Connect with peers, share best practices for fundraising and community engagement, and build a stronger support network for the non-profit sector in Wellington.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Ethical Marketing Workshop: Authenticity & Trust, A workshop on creating marketing campaigns that are both effective and ethical. Learn to build brand trust, practice transparent communication, and avoid manipulative tactics to foster long-term customer relationships built on integrity.",
     "label": "Business & Networking",
     "skip": false
@@ -197,11 +187,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Glowworm Walk: A Night Tour, A night tour to find glowworms in a local reserve. Learn about the life cycle of these fascinating creatures and their importance in the ecosystem. This is a family-friendly event for all ages, but please bring a torch.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1400,11 +1385,6 @@
     "skip": false
   },
   {
-    "description": "Community Aid Festival: A Celebration of Generosity, A festival of community, with a focus on a specific cause, e.g., homelessness. Enjoy a day of family-friendly activities, live music, and food stalls, with all proceeds going to a local charity. This festival is a great way to give back to your community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Mental Health & Wellness Festival: A Holistic Event, A festival of wellness, with a focus on mental health. Explore a variety of wellness practices, from yoga and meditation to nutrition and mindfulness. This festival is for anyone who wants to learn about mental health and well-being.",
     "label": "Festivals",
     "skip": false
@@ -1645,41 +1625,6 @@
     "skip": false
   },
   {
-    "description": "Noir Film Festival: The Maltese Falcon, The Embassy Theatre is hosting a Noir Film Festival, and we're starting with the classic 'The Maltese Falcon.' Join us for a screening of this iconic film noir, followed by a discussion on its influence on the genre and its place in cinematic history.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "DIY Film Club: '2001: A Space Odyssey' & Pizza Night, The DIY Film Club is screening Stanley Kubrick's '2001: A Space Odyssey.' Join us at the Newtown Community Centre for a night of mind-bending cinema, with a discussion on the film's legacy and themes. We'll also have free pizza and drinks for all attendees.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Kids' Stop-Motion Animation Workshop, A hands-on workshop for kids aged 7-12 where they'll learn the basics of stop-motion animation. Using clay, LEGO, and other materials, they'll create their own short animated film to take home. All materials and equipment will be provided.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Comedy Film Festival: 'What We Do in the Shadows', Celebrate local comedy with a screening of Taika Waititi and Jemaine Clement's 'What We Do in the Shadows.' This mockumentary about a group of vampire flatmates in Wellington is a hilarious look at the supernatural. The screening will be followed by a Q&A with one of the filmmakers.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "A Night with the Aotearoa Film Archive, The Aotearoa Film Archive is hosting a special night of screenings from their collection. We'll be showing a selection of rare and historical New Zealand films, from early cinematic works to experimental shorts. This is a unique opportunity to see our country's film history on the big screen.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "The Art of Documentary: A Q&A with Gaylene Preston, An intimate Q&A with renowned New Zealand filmmaker Gaylene Preston. She'll discuss her career, her approach to documentary filmmaking, and the challenges of telling real-life stories. This is a must-attend for anyone interested in documentary and storytelling.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Outdoor Cinema: 'The Lord of the Rings: The Fellowship of the Ring', An outdoor cinema event at the Wellington Botanic Gardens, screening 'The Lord of the Rings: The Fellowship of the Ring.' Bring a blanket and enjoy the film under the stars. Food and drinks will be available for purchase.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Wellington Film Critics Circle: 'Parasite' Screening & Discussion, The Wellington Film Critics Circle is hosting a screening of Bong Joon-ho's 'Parasite,' followed by a lively discussion on its themes, direction, and cultural impact. This is a great opportunity to engage with other film lovers and share your thoughts on this modern classic.",
     "label": "Film & Media",
     "skip": false
@@ -1877,11 +1822,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Food & Drink Festival, A celebration of Wellington's vibrant food and drink scene. Over two days, you'll find a huge range of food trucks, pop-up bars, and local vendors, serving up everything from gourmet burgers to artisanal ice cream. With live music, cooking demonstrations, and workshops, this is a must-visit event for all foodies.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2440,11 +2380,6 @@
     "skip": false
   },
   {
-    "description": "Postnatal Pilates, A gentle and supportive Pilates class designed for new mothers. Reconnect with your core, strengthen your pelvic floor, and rebuild strength safely after childbirth. Babies are welcome to attend and be a part of this nourishing self-care session.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Mindful Hiking: Walking Meditation in Nature, Combine the benefits of hiking with the practice of walking meditation. This guided walk focuses on engaging all your senses to fully experience nature, while cultivating a state of peace and presence. This is a moderate, low-impact hike open to all levels.",
     "label": "Health & Wellness",
     "skip": false
@@ -2582,16 +2517,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Flea Market & Farmers' Market, A unique combination of a flea market and a farmers' market. Find a wide variety of pre-loved items, from vintage clothing and furniture to fresh produce and gourmet food. This is a great place to find a bargain, support local farmers, and connect with your community. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Arts Market, The Wellington Arts Market is a celebration of visual arts, from painting and photography to sculpture and mixed media. Meet the artists, learn about their work, and purchase a unique piece directly from the creator. This is a great opportunity to discover new local talent and support the vibrant arts community in Wellington. Free entry, all are welcome. Live music and a delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
