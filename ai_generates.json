@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Ethical Marketing Workshop: Authenticity & Trust, A workshop on creating marketing campaigns that are both effective and ethical. Learn to build brand trust, practice transparent communication, and avoid manipulative tactics to foster long-term customer relationships built on integrity.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "ESG Reporting Seminar: A Guide to Corporate Sustainability, A seminar for business leaders and sustainability officers on corporate sustainability reporting and ESG (Environmental, Social, and Governance) standards. Learn how to measure and report on your company's impact to meet stakeholder expectations and regulatory requirements.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Personal Finance for Founders: A Wealth Management Workshop, A workshop for entrepreneurs on managing their personal finances while growing a business. Learn strategies for budgeting, saving, investing, and planning for personal wealth to achieve financial security beyond your company's success.",
     "label": "Business & Networking",
     "skip": false
@@ -187,11 +177,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Sustainable Disaster Preparedness: A Home Workshop, A workshop on preparing your home and garden for a natural disaster with a focus on sustainable supplies. Learn how to assemble an emergency kit using eco-friendly products and how to create a sustainable plan for recovery.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1385,16 +1370,6 @@
     "skip": false
   },
   {
-    "description": "Mental Health & Wellness Festival: A Holistic Event, A festival of wellness, with a focus on mental health. Explore a variety of wellness practices, from yoga and meditation to nutrition and mindfulness. This festival is for anyone who wants to learn about mental health and well-being.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Craft Market: A Festival of Local Makers, A festival of design, with a focus on local crafts and makers. Browse a wide variety of stalls featuring handmade goods, from jewelry and pottery to textiles and woodwork. This festival celebrates creativity and the local craft community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Children's Literature Festival: A Celebration of Imagination, A festival of books, with a focus on children's books. Meet your favorite authors, listen to readings and talks, and participate in workshops. This festival celebrates the power of words and storytelling.",
     "label": "Festivals",
     "skip": false
@@ -1822,16 +1797,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "High Tea with a Twist, A classic high tea with a modern twist. Our menu features a selection of sweet and savory treats, from mini sandwiches to innovative pastries, with a focus on local and seasonal ingredients. Paired with a range of fine teas and a glass of bubbly, this is a stylish and delicious afternoon.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Chocolate Festival, A celebration of all things chocolate. Local chocolatiers and bakers will be showcasing their creations, from handmade truffles to decadent cakes. You'll find a range of chocolate-inspired products, from hot chocolate to chocolate-flavored craft beer. A must-visit event for any chocolate lover.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2380,21 +2345,6 @@
     "skip": false
   },
   {
-    "description": "Mindful Hiking: Walking Meditation in Nature, Combine the benefits of hiking with the practice of walking meditation. This guided walk focuses on engaging all your senses to fully experience nature, while cultivating a state of peace and presence. This is a moderate, low-impact hike open to all levels.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Emotional Freedom Technique (EFT) Workshop, Learn the basics of EFT, or 'Tapping,' a simple yet powerful tool for emotional release and stress reduction. This workshop will guide you through the process of tapping on meridian points to help you process difficult emotions, reduce anxiety, and feel more grounded.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Healthy Aging Seminar, A seminar focused on practical steps to promote healthy aging and a vibrant life. Topics include nutrition for longevity, maintaining physical and cognitive health, and social connection. This is a free event with light refreshments.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Yoga for Anxiety and Depression, A therapeutic yoga class designed to support mental health. This gentle and restorative practice uses specific poses, breathing exercises, and meditation to help calm the nervous system, reduce symptoms of anxiety, and lift your mood. All levels are welcome.",
     "label": "Health & Wellness",
     "skip": false
@@ -2517,26 +2467,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Antiques & Collectibles Fair, Step back in time at the Wellington Antiques & Collectibles Fair. Find a treasure trove of antique furniture, vintage clothing, and rare collectibles from a wide range of eras. Whether you're a seasoned collector or a curious browser, this fair offers a chance to explore history through objects. There will be expert appraisers on hand to give you information on your own vintage finds. Tickets available for purchase online.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Sustainable Living Expo, An expo dedicated to all things sustainable. The Wellington Sustainable Living Expo features a huge variety of stalls and workshops on topics like zero-waste living, urban gardening, sustainable fashion, and eco-friendly home products. This is a great opportunity to learn how to live a more sustainable life and connect with a community of like-minded people. There will be live music, food trucks, and a kids' zone with activities. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Indie Designer Pop-Up, A unique opportunity to shop directly from a range of talented local designers. The Wellington Indie Designer Pop-Up features a curated selection of stalls from emerging and established designers, from fashion and jewelry to home decor and art. This is a must-attend event for fashion lovers and anyone looking to support local creative talent. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Community Swap & Sell, Bring your unused items to trade or sell at the Wellington Community Swap & Sell! This is a great way to declutter your home and find some new treasures. We'll have a mix of sellers, from individuals to small businesses. This is a fun and sustainable way to refresh your belongings and connect with your community. Free entry for shoppers, a small fee to set up a stall. All are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2762,11 +2692,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "The Gospel According to Tolkien, A public lecture exploring the Christian themes and allegorical meanings within J.R.R. Tolkien's epic fantasy, The Lord of the Rings. Discover how his deep faith influenced his world-building, characters, and narrative arcs. This is a fascinating and insightful talk for fans of Tolkien and students of theology alike.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
