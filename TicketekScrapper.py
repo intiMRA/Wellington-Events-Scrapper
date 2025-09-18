@@ -143,6 +143,10 @@ class TicketekScrapper:
         return event_urls
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        fetch_urls = True
+        event_urls = set()
+        if not fetch_urls:
+            event_urls = FileUtils.load_from_files(ScrapperNames.TICKETEK)[1]
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.TICKETEK)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.TICKETEK)))
         events_info: List[EventInfo] = []
@@ -162,7 +166,10 @@ class TicketekScrapper:
             headless=False,  # Headless mode is more easily detected
             use_subprocess=True
         )
-        event_urls = TicketekScrapper.get_urls(driver, previous_urls, urls_file)
+        if fetch_urls:
+            event_urls = TicketekScrapper.get_urls(driver, previous_urls, urls_file)
+        else:
+            json.dump(list(event_urls), urls_file, indent=2)
         out_file.write("[\n")
         for part in event_urls:
             print(f"category: {part[1]} url: {part[0]}")
@@ -186,7 +193,7 @@ class TicketekScrapper:
                     print(e)
                 else:
                     print("-" * 100)
-                    raise e
+                    print(e)
             sleep(random.uniform(1, 3))
             print("-" * 100)
         out_file.write("]\n")
