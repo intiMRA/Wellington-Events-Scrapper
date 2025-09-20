@@ -6,7 +6,10 @@ with open("training_data_kid_friendly.json", mode="r") as f:
     small_set = []
     trues = [t for t in full_set if t["kid_friendly"]]
     falses = [t for t in full_set if not t["kid_friendly"]]
+    print(len(trues))
+    print(len(falses))
     random.shuffle(trues)
+    random.shuffle(falses)
     for i in range(1, len(trues)):
         small_set.append(falses[i])
     small_set += trues

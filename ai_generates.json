@@ -10,21 +10,6 @@
     "skip": false
   },
   {
-    "description": "Personal Finance for Founders: A Wealth Management Workshop, A workshop for entrepreneurs on managing their personal finances while growing a business. Learn strategies for budgeting, saving, investing, and planning for personal wealth to achieve financial security beyond your company's success.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Food & Beverage Innovation Conference: The Taste of Tomorrow, A conference for food and beverage entrepreneurs, chefs, and industry leaders on the latest innovations in the culinary world. Explore new products, sustainable practices, and market trends shaping the future of the F&B industry in New Zealand.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Customer Retention Masterclass: Leveraging Data for Loyalty, A masterclass on using data analytics to understand and improve customer retention. Learn how to identify at-risk customers, create personalized loyalty programs, and use data to build lasting relationships that increase your customer lifetime value.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Future of Healthtech: A Business & Policy Panel, A panel discussion with healthcare experts, tech entrepreneurs, and policymakers on the future of healthcare and technology. We'll discuss the latest trends in digital health, policy implications, and business opportunities in the rapidly evolving healthtech sector.",
     "label": "Business & Networking",
     "skip": false
@@ -177,21 +162,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Food Preservation Workshop: Canning & Fermenting, A hands-on workshop on preserving and canning local produce to reduce food waste. Learn how to make jams, pickles, and fermented vegetables to enjoy fresh produce all year round. All materials and recipes are provided.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "History of Wellington Harbour: An Ecosystem Talk, A talk on the history of Wellington's harbour and its ecosystem. Learn about the changes to the harbour over the years, the impact of human activity, and the ongoing efforts to restore its health and biodiversity.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Zero-Waste Living Workshop: Reducing Single-Use Plastic, A workshop on sustainable living, with a focus on reducing single-use plastic. Learn practical tips and tricks for reducing your plastic consumption, from grocery shopping to personal care, and make a real difference in your daily life.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -627,21 +597,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Future of Work Forum: Career Planning for Students, A seminar on the future of work and career planning for students and young professionals. Hear from a panel of industry experts on emerging job trends, in-demand skills, and how to build a resilient and adaptable career in a changing world.",
-    "label": "Education & Learning",
-    "skip": false
-  },
-  {
-    "description": "Public Policy & Advocacy: A Course, A course on public policy analysis and advocacy. Learn how to analyze government policies, develop a strong advocacy strategy, and effectively communicate your message to policymakers and the public to drive change.",
-    "label": "Education & Learning",
-    "skip": false
-  },
-  {
-    "description": "Financial Literacy for Young Adults: A Practical Workshop, A workshop on financial literacy for young adults. Learn essential skills like budgeting, saving, investing, and managing debt to build a strong financial foundation for your future and achieve your long-term goals.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1370,46 +1325,6 @@
     "skip": false
   },
   {
-    "description": "Children's Literature Festival: A Celebration of Imagination, A festival of books, with a focus on children's books. Meet your favorite authors, listen to readings and talks, and participate in workshops. This festival celebrates the power of words and storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Local Food Festival: A Taste of the Region, A festival of food, with a focus on local produce. Sample a variety of dishes from local chefs who are using fresh, locally sourced ingredients, and learn about the importance of supporting local farmers and producers.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Craft Drink Festival: A Celebration of Local Breweries, A festival of drink, with a focus on local craft breweries. Sample a huge variety of craft beers and ciders from local breweries and cideries, and meet the makers. This festival is for drink lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Music Festival: Wellington's Best Musicians, A festival of music, with a focus on local musicians. Discover new artists, enjoy live music in a variety of venues, and support Wellington's vibrant music scene. This festival is for music lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Art Festival: A Celebration of Contemporary Art, A festival of art, with a focus on contemporary art. Browse a wide variety of works from local artists, and participate in workshops and demonstrations. This festival celebrates creativity and the local arts community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Light Festival: A Showcase of Sustainable Art, A festival of light, with a focus on sustainable light art. Watch as local artists transform the city's landmarks and public spaces into a luminous wonderland, with a variety of light displays, music, and food trucks. This is a magical festival of light and art.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Science Festival: A Showcase of Local Research, A festival of science, with a focus on local research. Explore the latest research from local scientists and universities, and participate in hands-on exhibits and demonstrations. This festival celebrates curiosity and the future of science.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Technology Festival: A Celebration of Innovation, A festival of technology, with a focus on local innovation. Hear from entrepreneurs and tech leaders on the latest trends in technology, and participate in workshops and talks. This festival celebrates the creativity and talent of Wellington's tech scene.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Food Festival: A Taste of Local Produce, A festival of food, with a focus on local produce. Sample a variety of dishes from local chefs who are using fresh, locally sourced ingredients, and learn about the importance of supporting local farmers and producers.",
     "label": "Festivals",
     "skip": false
@@ -1600,16 +1515,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Film Critics Circle: 'Parasite' Screening & Discussion, The Wellington Film Critics Circle is hosting a screening of Bong Joon-ho's 'Parasite,' followed by a lively discussion on its themes, direction, and cultural impact. This is a great opportunity to engage with other film lovers and share your thoughts on this modern classic.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Children's Book-to-Film Showcase, A special screening of animated films based on popular children's books. This free event at the Johnsonville Community Centre is perfect for young readers and their families. We'll have a storytelling session and a craft table before the films begin.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "The Art of Visual Effects: A Panel Discussion, A panel discussion with leading visual effects artists from Wellington's film industry. They'll discuss the latest technologies, challenges, and creative processes involved in creating stunning visual effects for blockbusters and independent films. This is a great opportunity for students and professionals to learn about the industry.",
     "label": "Film & Media",
     "skip": false
@@ -1797,21 +1702,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "The Great Wellington Bake Off, A friendly baking competition for all skill levels. Bring your best baked goods to compete for the title of Wellington's best baker. Prizes for best cake, best bread, and most creative. A delicious and fun night of tasting and voting, with coffee and tea available.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Waterfront Market, A weekly market on the Wellington waterfront, featuring a selection of local food and drink vendors. You'll find everything from fresh produce to artisanal cheeses, baked goods, and hot coffee. A great way to start your weekend and support local businesses.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Sunday Roast at The Thistle Inn, The ultimate Sunday roast at Wellington's oldest pub. Our chefs are serving up a classic roast with all the trimmings, from crispy potatoes to Yorkshire pudding. Pair your meal with a glass of red wine or a local craft beer, and enjoy the cozy and historic atmosphere.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2345,16 +2235,6 @@
     "skip": false
   },
   {
-    "description": "Yoga for Anxiety and Depression, A therapeutic yoga class designed to support mental health. This gentle and restorative practice uses specific poses, breathing exercises, and meditation to help calm the nervous system, reduce symptoms of anxiety, and lift your mood. All levels are welcome.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Intro to Acro Yoga, Explore trust, connection, and playful movement in this fun and interactive Acro Yoga class for beginners. Learn the basics of basing, flying, and spotting in a safe and supportive environment. Bring a partner or come solo and meet new people.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Resilience Workshop: Building Your Mental Toolkit, Learn practical strategies and tools to build your mental and emotional resilience. This workshop covers topics like managing challenging situations, reframing negative thoughts, and cultivating a growth mindset. Leave with a personal action plan to navigate life's challenges with more strength and grace.",
     "label": "Health & Wellness",
     "skip": false
@@ -2467,21 +2347,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Craft Beer & Food Market, Sip and savour your way through the best of Wellington's craft beer and food scene! The Wellington Craft Beer & Food Market brings together a huge selection of local breweries and food vendors. Discover new flavours, chat with the brewers, and enjoy a delicious meal while listening to live music. This is a great opportunity to explore the local food and drink scene in a fun and festive atmosphere. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Farmers' & Artisan Market, Join us every Saturday morning for the Wellington Farmers' & Artisan Market. Find the freshest produce, artisanal goods, and delicious food from local farmers and producers. It's a great way to start your weekend, support the local community, and enjoy the lively atmosphere. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Night Market, A vibrant evening out with food, music, and local crafts. The Wellington Night Market features a diverse range of food trucks and stalls with flavors from around the world. We'll also have a variety of local artisans selling handmade crafts, art, and home goods. Bring your family and friends for a fun night of food, music, and community. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2692,21 +2557,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Spiritual Film Night: 'Samsara', A screening and discussion of the acclaimed documentary 'Samsara'. This film explores spiritual and cultural traditions from around the world, taking viewers on a visually stunning journey through life, death, and reincarnation. Following the film, there will be an open discussion to share thoughts and reflections. Snacks and drinks will be provided.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Christadelphian Bible Study: The Promises to Abraham, A weekly Bible study focusing on the promises made by God to Abraham and their significance for both the past and the future. This is a welcoming environment for anyone wanting to learn more about the Bible. The sessions are informal, with time for discussion and questions. All are welcome to attend.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -3182,31 +3032,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Boxing for Fitness and Self-Defence: A high-energy boxing class that combines cardio, strength training, and self-defence techniques. Taught by a professional coach, this class is a great way to get fit and learn practical skills. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Fun Walk: A non-competitive fun walk through the streets of Wellington. Choose from a 5k or 10k course, with a focus on fun, fitness, and social connection. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Swimming Course for Adults: An introductory swimming course for adults who want to learn how to swim or improve their technique. Taught by certified instructors in a supportive and inclusive environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Martial Arts Sparring Session: A friendly sparring session for martial artists of all disciplines. Practice your skills, learn from others, and get some good exercise in a safe and controlled environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Social Table Tennis Night: A casual evening of table tennis for players of all skill levels. Meet new people, get some exercise, and have some fun in a relaxed environment. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
