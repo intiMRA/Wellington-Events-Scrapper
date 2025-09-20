@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Future of Healthtech: A Business & Policy Panel, A panel discussion with healthcare experts, tech entrepreneurs, and policymakers on the future of healthcare and technology. We'll discuss the latest trends in digital health, policy implications, and business opportunities in the rapidly evolving healthtech sector.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Learning Culture Workshop: Upskilling for the Modern Workplace, A workshop for leaders and HR professionals on building a company culture that prioritizes continuous learning. Learn how to design effective training programs, encourage professional development, and create a workforce that is adaptable and ready for future challenges.",
     "label": "Business & Networking",
     "skip": false
@@ -597,11 +592,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Effective Meetings: How to Develop and Lead Them, A course on developing and leading effective meetings. Learn how to set a clear agenda, facilitate productive discussions, and make sure that meetings result in clear action points. This course is for managers and team leaders of all levels.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1325,16 +1315,6 @@
     "skip": false
   },
   {
-    "description": "Food Festival: A Taste of Local Produce, A festival of food, with a focus on local produce. Sample a variety of dishes from local chefs who are using fresh, locally sourced ingredients, and learn about the importance of supporting local farmers and producers.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Drink Festival: A Celebration of Local Craft Breweries, A festival of drink, with a focus on local craft breweries. Sample a huge variety of craft beers and ciders from local breweries and cideries, and meet the makers. This festival is for drink lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Heritage Festival: A Journey Through Local History, A festival of heritage, with a focus on local history. Learn about the city's past and the people who shaped it, with a variety of talks from local historians and guided walks of historic landmarks. This festival is a great way to connect with your community's past.",
     "label": "Festivals",
     "skip": false
@@ -1512,11 +1492,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "The Art of Visual Effects: A Panel Discussion, A panel discussion with leading visual effects artists from Wellington's film industry. They'll discuss the latest technologies, challenges, and creative processes involved in creating stunning visual effects for blockbusters and independent films. This is a great opportunity for students and professionals to learn about the industry.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1817,16 +1792,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "The Politics of Environmentalism: A lecture on the history and current state of environmental policy in New Zealand, from conservation efforts to climate change legislation and international agreements.",
-    "label": "Government & Politics",
-    "skip": false
-  },
-  {
-    "description": "Meet the Candidates for Greater Wellington Regional Council: An event providing the opportunity for residents to meet the candidates for the upcoming Greater Wellington Regional Council elections and learn about their policies.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -2557,11 +2522,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Rosary and Adoration, All are invited to join us for a weekly service of Rosary and Adoration. We will begin with the Rosary, meditating on the mysteries of the life of Christ, followed by a time of silent adoration of the Blessed Sacrament. A peaceful and meditative space to spend time in prayer and contemplation. All are welcome to participate.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {

@@ -7877,9 +7877,27 @@
     "skip": false,
     "kid_friendly": true
   },
+    {
+    "description": "Greytown Country Market, Market set in a beautiful Park. Stalls offering coffee, BBQ sausages, artisan products, plants, art, crafts, upcycled, recycled, vintage and so much more. All proceeds raised from running the Market go to the Greytown Trails Trust for the maintenance of and future projects on the Greytown Trails",
+    "label": "Markets & Fairs",
+    "skip": false,
+    "kid_friendly": true
+  },
   {
     "description": "Crafting Threads of Aroha at Upper Hutt Library, Crafting Threads of Aroha at Upper Hutt Library\nJulia and Brenda on behalf of Crafting Threads of Aroha invite you to attend a friendly crafting meet up in Upper Hutt.\nIn the Community space at The Upper Hutt Library, 844 Fergusson Drive, Upper Hutt.\nAll welcome to have a cuppa and a craft together.\n\nPlease note there is a collection bin at Upper Hutt Library for donations during open hours.\n\nAlso check out other Nonprofit events in Upper Hutt.",
     "label": "Hobbies & Interests",
+    "skip": false,
+    "kid_friendly": true
+  },
+    {
+    "description": "Karori Christmas Merry Pop-ins, Falalalala!\nChristmas is on the way and we like to get our festive on nice and early at Pop-ins so we can fit in all of our little elves and snowmen.\nMerry Pop-in events are online now and booking up quick!\nWe specialise in merry, bright and beautiful NATURAL SMILES\n\n**What is a Merry Pop-in?**\n\nCapture your child's joy in the Pop-ins chair, just like Monthly\u2019s only Christmassy. Our iconic backdrop returns every year so you can collect portraits of your child growing from Christmas to Christmas.\n\nIntroducing 2 new premium packages available (selected locations only):\n\n**Santa\u2019s Super Set**\nChoose either a Family portrait OR Sibling shots, and get individual Merry Pop-ins photos of each child free.\n\n**The Ultimate Elf**\nSnow need to choose, with this premium 15minute session you\u2019ll capture a Family portrait, Sibling shots and free Individual Merry Pops too.\n\nAll packages include a stockingful of Photo Credits so you can choose your favourite shots from the Gallery. ",
+    "label": "Family Friendly",
+    "skip": false,
+    "kid_friendly": true
+  },
+    {
+    "description": "Christmas Carolling Experience, Discover the joy of 4-part harmony in a supportive, fun environment. Over 6 weeks, you\u2019ll learn beautiful Christmas carols and sing alongside other women in a welcoming community. No prior experience is needed\u2014just bring your voice and enthusiasm! The course concludes with a special end-of-year concert on Saturday 29 November, where you\u2019ll perform for family and friends. All women and those who identify as women are warmly invited. Just $30 for the full 6-week experience, starting Monday 20 October.",
+    "label": "Festivals",
     "skip": false,
     "kid_friendly": true
   },
