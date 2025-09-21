@@ -1315,21 +1315,6 @@
     "skip": false
   },
   {
-    "description": "Heritage Festival: A Journey Through Local History, A festival of heritage, with a focus on local history. Learn about the city's past and the people who shaped it, with a variety of talks from local historians and guided walks of historic landmarks. This festival is a great way to connect with your community's past.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Community Festival: A Celebration of Local Groups, A festival of community, with a focus on local groups and organizations. Join your neighbors in a day of fun and festivities, with a variety of activities for all ages. This festival celebrates the community spirit of Wellington.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellness Festival: A Holistic Health Event, A festival of wellness, with a focus on holistic health. Explore a variety of wellness practices, from yoga and meditation to nutrition and mindfulness. This festival is for anyone who wants to learn about holistic health and well-being.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Design Festival: A Showcase of Local Designers, A festival of design, with a focus on local designers. Browse a wide variety of works from local designers, and participate in workshops and talks. This festival celebrates creativity and the local design community.",
     "label": "Festivals",
     "skip": false
@@ -1492,11 +1477,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington's Film Heritage: A Tour of The Embassy, A guided tour of The Embassy Theatre, one of Wellington's most iconic and historic cinemas. Learn about its rich history, architectural features, and famous events. The tour will also include a short screening of a classic film trailer.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1792,11 +1772,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Aotearoa's Place in the Pacific: A foreign policy seminar discussing New Zealand's role and relationships with its Pacific neighbors, focusing on diplomacy, aid, and climate resilience.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -2315,11 +2290,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Pop-Up Shop, A unique shopping experience! The Wellington Pop-Up Shop features a curated selection of local artists, designers, and food vendors. Browse unique gifts, art, and fashion while enjoying a festive atmosphere with live music and delicious food. This is a great opportunity to discover new local businesses and support the creative community in Wellington. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
     "description": "Wellington Community Clothing Swap, Refresh your wardrobe for free at the Wellington Community Clothing Swap! Bring a bag of your gently used clothes, shoes, and accessories and trade them for new-to-you items from other people in the community. This is a fun and sustainable way to update your style without spending a cent. All remaining items will be donated to a local charity. Free entry, all are welcome. Food and coffee stalls on site.",
     "label": "Markets & Fairs",
     "skip": false
@@ -2522,16 +2492,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Men's Ministry BBQ & Games Night, A casual and fun evening for men of all ages to connect and build relationships. We'll have a BBQ dinner, yard games, and a relaxed atmosphere for conversation and fellowship. This is a great opportunity to invite friends and neighbors to connect with our men's ministry. All men are welcome to join in the fun.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Community Prayer Walk for Local Schools, Join us as we walk and pray for all the schools in our community. We will meet at the church and walk in small groups, praying for the students, teachers, and staff of each school we pass. This is a peaceful and purposeful way to support our local community and the children within it. All are welcome to participate in this act of faith.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
