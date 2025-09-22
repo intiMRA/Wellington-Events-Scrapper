@@ -1,5 +1,6 @@
 import json
 import re
+import random
 
 training_file_name = "training_data.json"
 unclassified_file_name = "unclassified_data.json"
@@ -8,12 +9,42 @@ skip_strings = [
     "BOK JOL WELLINGTON 2025, Age restriction. Under 18 only allowed with parents or legal guardian."
 ]
 
+you_may_like_regex = "You may also like the following events from"
+also_check_out_regex = "Also check out other"
+
+def clean_data(key: str, events):
+    for e in events:
+        description = e[key]
+        description = description.split(you_may_like_regex)[0]
+        description = description.split(also_check_out_regex)[0]
+        e[key] = description
+
+def generate_kid_friendly():
+    with open("training_data_kid_friendly.json", mode="r") as f:
+        full_set = json.loads(f.read())
+        clean_data("description", full_set)
+        small_set = []
+        trues = [t for t in full_set if t["kid_friendly"]]
+        falses = [t for t in full_set if not t["kid_friendly"]]
+        print(len(trues))
+        print(len(falses))
+        random.shuffle(trues)
+        random.shuffle(falses)
+        for i in range(1, len(trues)):
+            small_set.append(falses[i])
+        small_set += trues
+        with open("small_training_data_kid_friendly.json", mode="w") as w:
+            json.dump(small_set, w, indent=2)
+
 def generate_data():
     with open("events.json", mode="r") as events_file:
         events = json.loads(events_file.read())["events"]
+        clean_data("long_description", events)
+
         events = [event for event in events if event["long_description"] and event["eventType"] != "Other"]
         with open(unclassified_file_name, mode="r") as unclassified_file_read:
             unclassified_data = json.loads(unclassified_file_read.read())
+            clean_data("description", unclassified_data)
             with open(training_file_name, mode="r") as read_training_file:
                 descriptions = set([dictionary["description"] for dictionary in unclassified_data])
                 new_events = []
@@ -23,6 +54,7 @@ def generate_data():
                     new_events.append(event)
                 events = new_events
                 training_data = json.loads(read_training_file.read())
+                clean_data("description", training_data)
                 descriptions = set([dictionary["description"] for dictionary in training_data])
                 training_data += [{"new": True,
                                    "description": event["name"] + ", " + event["long_description"],
@@ -47,9 +79,11 @@ def generate_data():
 def generate_unclassified_data():
     with open("events.json", mode="r") as events_file:
         events = json.loads(events_file.read())["events"]
+        clean_data("long_description", events)
         events = [event for event in events if event["long_description"] and event["eventType"] == "Other"]
         with open(training_file_name, mode="r") as read_training_file:
             training_data = json.loads(read_training_file.read())
+            clean_data("description", training_data)
             with open(unclassified_file_name, mode="r") as unclassified_file_read:
                 descriptions = set([dictionary["description"] for dictionary in training_data])
                 new_events = []
@@ -59,6 +93,7 @@ def generate_unclassified_data():
                     new_events.append(event)
                 events = new_events
                 unclassified_data = json.loads(unclassified_file_read.read())
+                clean_data("description", unclassified_data)
                 descriptions = set([dictionary["description"] for dictionary in unclassified_data])
                 unclassified_data += [{"new": True, "description": event["name"] + ", " + event["long_description"], "label": event["eventType"]}
                                   for event in events
@@ -145,9 +180,9 @@ def move_top_n_shortest(num:int, category: str):
             with open("unclassified_data.json", mode="w") as unclassified_file_write:
                 json.dump(unclassified_data, unclassified_file_write, indent=2)
 
-
+# generate_kid_friendly()
 # move_top_n_shortest(3, "Community & Culture")
-generate_data()
-generate_unclassified_data()
-count_categories()
-print_duplicates()
+# generate_data()
+# generate_unclassified_data()
+# count_categories()
+# print_duplicates()

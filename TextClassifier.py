@@ -19,7 +19,7 @@ training_data_file_name = "training_data.json"
 ai_data_file_name = "ai_generates.json"
 unclassified_data_file_name = "unclassified_data.json"
 
-load_ai = false
+load_ai = true
 should_train = true
 
 max_sequence_length = 1500
@@ -189,5 +189,5 @@ if should_train:
     joblib.dump(label_encoder, 'label_encoder.joblib')
 
 labels_out = predict_from_file(
-    training_data_file_name
+    unclassified_data_file_name
 )

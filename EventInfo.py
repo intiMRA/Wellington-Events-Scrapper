@@ -85,6 +85,10 @@ class EventInfo:
                 self.coordinates = coordinates if coordinates else EventInfo.get_location(venue)
             except:
                 self.coordinates = None
+            you_may_like_regex = "You may also like the following events from"
+            also_check_out_regex = "Also check out other"
+            description = description.split(you_may_like_regex)[0]
+            description = description.split(also_check_out_regex)[0]
             self.long_description = description
             description = EventInfo.clean_html_tags(description)
             description = Summarizer.sumerize(description)
