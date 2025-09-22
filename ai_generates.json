@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Learning Culture Workshop: Upskilling for the Modern Workplace, A workshop for leaders and HR professionals on building a company culture that prioritizes continuous learning. Learn how to design effective training programs, encourage professional development, and create a workforce that is adaptable and ready for future challenges.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Newtown Business Breakfast: Community & Commerce, A business breakfast for entrepreneurs and business owners in the Newtown area. Connect with other local business leaders to discuss the unique challenges and opportunities of the neighborhood, share insights, and foster a strong local business community.",
     "label": "Business & Networking",
     "skip": false
@@ -157,16 +152,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Family Emergency Kit Workshop: Sustainable Supplies, A hands-on workshop on creating a family emergency preparedness kit, with a focus on sustainable supplies. Learn what to include in your kit and how to source eco-friendly products that are both effective and kind to the environment.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Waste Management Discussion: The Future of Our City, A discussion forum on the future of waste management in Wellington. Hear from experts and community leaders on new waste-reduction initiatives, recycling programs, and innovative solutions for a more sustainable future.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -592,11 +577,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Human-Centered Design: A Product Development Seminar, A seminar on the principles of human-centered design for product developers and business owners. Learn how to design products and services that are intuitive, engaging, and genuinely solve problems for your customers by putting their needs at the center of your design process.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1315,21 +1295,6 @@
     "skip": false
   },
   {
-    "description": "Design Festival: A Showcase of Local Designers, A festival of design, with a focus on local designers. Browse a wide variety of works from local designers, and participate in workshops and talks. This festival celebrates creativity and the local design community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Craft Festival: A Celebration of Local Makers, A festival of craft, with a focus on local makers. Browse a wide variety of stalls featuring handmade goods, from jewelry and pottery to textiles and woodwork. This festival celebrates creativity and the local craft community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Book Festival: A Celebration of Local Authors, A festival of books, with a focus on local authors. Meet your favorite authors, listen to readings and talks, and participate in workshops. This festival celebrates the power of words and storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Local Film Festival: A Showcase of Filmmakers, A festival of film, with a focus on local filmmakers. Watch a curated selection of films from new and emerging filmmakers, and participate in discussions and Q&A sessions. This festival celebrates the creativity and talent of Wellington's film scene.",
     "label": "Festivals",
     "skip": false
@@ -1477,16 +1442,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film Workshop: The Art of the Soundscape, A hands-on workshop on sound design and foley artistry for film. Learn how to create immersive soundscapes and enhance your film's emotional impact. This is a great opportunity to learn a new skill and add another layer to your filmmaking.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1772,11 +1727,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Public Sector Innovation Showcase: A conference highlighting new technologies and innovative projects being developed within the government sector to improve public services and efficiency.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -2175,11 +2125,6 @@
     "skip": false
   },
   {
-    "description": "Resilience Workshop: Building Your Mental Toolkit, Learn practical strategies and tools to build your mental and emotional resilience. This workshop covers topics like managing challenging situations, reframing negative thoughts, and cultivating a growth mindset. Leave with a personal action plan to navigate life's challenges with more strength and grace.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Self-Massage for Stress Relief, Discover the power of touch in this hands-on workshop on self-massage techniques. Learn how to use your hands and simple tools like massage balls to release tension in your neck, shoulders, and back. A perfect way to de-stress and care for your body at home.",
     "label": "Health & Wellness",
     "skip": false
@@ -2287,16 +2232,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Community Clothing Swap, Refresh your wardrobe for free at the Wellington Community Clothing Swap! Bring a bag of your gently used clothes, shoes, and accessories and trade them for new-to-you items from other people in the community. This is a fun and sustainable way to update your style without spending a cent. All remaining items will be donated to a local charity. Free entry, all are welcome. Food and coffee stalls on site.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "The Wellington Zine and Comic Fair, A celebration of independent creators! The Wellington Zine and Comic Fair features a wide range of stalls with zines, comics, art prints, and other small-press publications. Meet the artists, discover new stories, and support the vibrant indie publishing scene in Wellington. This is a great opportunity to find unique, one-of-a-kind art and connect with a community of like-minded people. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2952,11 +2887,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington CrossFit Competition: A local CrossFit competition featuring a range of challenging workouts. Compete for prizes and bragging rights in a supportive and high-energy atmosphere. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
