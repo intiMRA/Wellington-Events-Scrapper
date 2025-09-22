@@ -1,7 +1,6 @@
 import numpy as np
 from keras.preprocessing.text import tokenizer_from_json
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
 from keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences, to_categorical,set_random_seed
 import json
@@ -10,16 +9,13 @@ from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense
 from tensorflow.config.experimental import enable_op_determinism
 from keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
-import joblib
 
 true = True
 false = False
 
-training_data_file_name = "training_data.json"
-ai_data_file_name = "ai_generates.json"
-unclassified_data_file_name = "unclassified_data.json"
+training_data_file_name = "training_data_kid_friendly.json"
+small_training_data_file_name = "small_training_data_kid_friendly.json"
 
-load_ai = true
 should_train = true
 
 max_sequence_length = 1500
@@ -28,16 +24,11 @@ embedding_dim = 400
 tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
 all_texts = []
 
-with open(training_data_file_name, mode="r") as f:
+with open(small_training_data_file_name, mode="r") as f:
     data = json.loads(f.read())
     all_texts.extend([item["description"] for item in data if not item["skip"]])
-if load_ai:
-    with open(ai_data_file_name, mode="r") as f:
-        data = json.loads(f.read())
-        all_texts.extend([item["description"] for item in data if not item["skip"]])
 
 tokenizer.fit_on_texts(all_texts)
-label_encoder = LabelEncoder()
 
 def get_data(file_name: str):
     texts = []
@@ -48,7 +39,10 @@ def get_data(file_name: str):
             if value["skip"]:
                 continue
             description = value["description"]
-            label = value["label"]
+            if "kid_friendly" not in value.keys():
+                print(description)
+                raise Exception()
+            label = value["kid_friendly"]
             texts.append(description)
             labels.append(label)
 
@@ -56,7 +50,7 @@ def get_data(file_name: str):
 
         padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
 
-        encoded_labels = label_encoder.fit_transform(labels)
+        encoded_labels = [1 if label else 0 for label in labels]
 
         number_of_classes = len(np.unique(encoded_labels))
 
@@ -69,7 +63,7 @@ def predict_from_file(file_name):
     """
     Predicts the labels for descriptions in a given file.
     """
-    classification_model, loaded_tokenizer, loaded_label_encoder = load_models_from_file()
+    classification_model, loaded_tokenizer = load_models_from_file()
     with open(file_name, mode="r") as f:
         data = json.loads(f.read())
         texts_to_predict = []
@@ -78,10 +72,7 @@ def predict_from_file(file_name):
             if item["skip"]:
                 continue
             texts_to_predict.append(item["description"])
-            if "new" in item.keys():
-                given_labels.append(item["label"] + "\nnew")
-            else:
-                given_labels.append(item["label"])
+            given_labels.append(item["kid_friendly"])
 
     sequences = loaded_tokenizer.texts_to_sequences(texts_to_predict)
     padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
@@ -90,20 +81,16 @@ def predict_from_file(file_name):
 
     predicted_labels = []
     for predictions_array in predictions:
-        indecies = np.argpartition(predictions_array, -2)[-2:]
+        indecies = np.argpartition(predictions_array, -1)[-1:]
         indecies = indecies[np.argsort(-predictions_array[indecies])]
-        if predictions_array[indecies[0]] < 0.15:
-            indecies = []
-        elif predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.2:
-            indecies = [indecies[0]]
 
         if len(indecies) == 0:
             predicted_labels.append([{"label": None, "confidence": f"Confidence 0%"}])
         else:
-            label_dict = [{"label": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip(loaded_label_encoder.inverse_transform(indecies), indecies)]
+            label_dict = [{"kid_friendly": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip([index == 1 for index in  indecies], indecies)]
             predicted_labels.append(label_dict)
 
-    with open("predictions_log.txt", mode="w") as f:
+    with open("kid_friendly_predictions_log.txt", mode="w") as f:
         correct_labels = 0
         for i, text in enumerate(texts_to_predict):
             f.write(f"Text: {text}\n")
@@ -111,7 +98,7 @@ def predict_from_file(file_name):
             f.write(f"given Label: {given_labels[i]}\n")
             found = False
             for item in predicted_labels[i]:
-                if given_labels[i] == item["label"]:
+                if given_labels[i] == item["kid_friendly"]:
                     found = True
                     break
             f.write(f"prediction correct: {found}\n")
@@ -124,34 +111,19 @@ def predict_from_file(file_name):
     return predicted_labels
 
 def load_models_from_file():
-    classification_model = load_model("trained_model")
-    with open('tokenizer_config.json', 'r', encoding='utf-8') as f:
+    classification_model = load_model("trained_model_kid_friendly")
+    with open('tokenizer_config_kid_friendly.json', 'r', encoding='utf-8') as f:
         tokenizer_config_string = json.loads(f.read())
     loaded_tokenizer = tokenizer_from_json(tokenizer_config_string)
 
-    loaded_label_encoder = joblib.load('label_encoder.joblib')
-    return classification_model, loaded_tokenizer, loaded_label_encoder
+    return classification_model, loaded_tokenizer
 
 if should_train:
-    set_random_seed(13453379)
+    set_random_seed(13453376)
     enable_op_determinism()
     X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name)
 
     X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
-
-    if load_ai:
-        X_train_ai, X_test_ai, Y_train_ai, Y_test_ai, num_classes_ai = get_data(ai_data_file_name)
-        for v in X_train_ai:
-            np.append(X_train, v)
-
-        for v in Y_train_ai:
-            np.append(Y_train, v)
-
-        for v in X_test_ai:
-            np.append(X_train, v)
-
-        for v in Y_test_ai:
-            np.append(Y_train, v)
 
     model = Sequential()
     model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
@@ -182,12 +154,11 @@ if should_train:
     loss, accuracy = model.evaluate(X_test, Y_test)
     print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
 
-    model.save('trained_model')
+    model.save('trained_model_kid_friendly')
     tokenizer_json = tokenizer.to_json()
-    with open('tokenizer_config.json', 'w', encoding='utf-8') as f:
+    with open('tokenizer_config_kid_friendly.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(tokenizer_json, ensure_ascii=False))
-    joblib.dump(label_encoder, 'label_encoder.joblib')
 
 labels_out = predict_from_file(
-    unclassified_data_file_name
+    small_training_data_file_name
 )
