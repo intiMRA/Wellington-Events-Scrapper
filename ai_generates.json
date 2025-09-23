@@ -155,21 +155,6 @@
     "skip": false
   },
   {
-    "description": "Sustainable Building Seminar: Eco-Friendly Materials, A seminar on sustainable building practices and eco-friendly materials. Hear from architects and builders on how to design and construct homes that are energy-efficient, healthy, and kind to the environment.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Medicinal Native Plants Workshop: Foraging for Rongo\u0101, A hands-on workshop on identifying and foraging for medicinal native plants (rongo\u0101). Learn about the traditional uses of local flora for health and well-being, guided by an expert. This class will cover sustainable harvesting and basic preparation methods.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Wattle & Daub Workshop: Building with Natural Materials, A unique workshop on the traditional building technique of wattle and daub. Learn how to construct a small garden fence or raised bed using woven branches and a mix of clay, soil, and straw. This is a hands-on, natural building class.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
     "description": "Community Recycling Day: Electronics & Batteries, A community-wide event for recycling hard-to-dispose-of items like old electronics, batteries, and lightbulbs. Partnering with a local recycling provider, this event helps residents keep hazardous waste out of the landfill.",
     "label": "Conservation & Environment",
     "skip": false
@@ -1155,11 +1140,6 @@
     "skip": false
   },
   {
-    "description": "Digital Family Tree Workshop: A Genealogical Project, A workshop on creating a digital family tree. Parents and kids will work together to research their family history, collect photos and documents, and create a digital family tree to be shared and cherished for years to come.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Cake Baking for Kids: A Decorating Class, A kids' cooking class on baking and decorating a cake. Children will learn to bake and decorate a cake, with a variety of frosting and toppings to choose from. This class is for ages 8-12.",
     "label": "Family Friendly",
     "skip": false
@@ -1445,31 +1425,6 @@
     "skip": false
   },
   {
-    "description": "Queer Film Festival: 'Call Me by Your Name', A screening of Luca Guadagnino's romantic drama 'Call Me by Your Name' at the Lighthouse Cinema. This beautiful and moving film is a coming-of-age story set in 1980s Italy. The screening is part of a series celebrating queer cinema and will be followed by a discussion on the film's themes.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington International Film Festival: 'The Piano', A special screening of Jane Campion's 'The Piano' at the St. James Theatre. This powerful and iconic New Zealand film is a must-see on the big screen. The screening will be followed by a short discussion on its place in New Zealand cinema history.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Film Editing with Final Cut Pro, A two-day intensive workshop for beginners who want to learn how to edit films using Final Cut Pro. We'll cover the basics of the software, from importing footage to color correction and sound mixing. This is a great way to kickstart your editing career.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film Club: 'Mad Max: Fury Road', A screening of George Miller's action masterpiece 'Mad Max: Fury Road.' Join us at The Roxy Cinema for a night of high-octane action and stunning visuals. The screening will be followed by a discussion on practical effects and filmmaking in the digital age.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Children's Film Festival: 'The Secret of Kells', The Wellington Library is hosting a children's film festival with a screening of 'The Secret of Kells.' This beautifully animated film is a journey into Irish mythology and folklore. We'll have a themed craft activity and snacks before the film.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "The Art of the B-Movie: A Discussion Panel, A fun and informative panel discussion on the history and appeal of B-movies. From schlocky horror to low-budget sci-fi, we'll discuss what makes these films so enduringly popular. The panel will be followed by a surprise screening of a classic B-movie.",
     "label": "Film & Media",
     "skip": false
@@ -1612,31 +1567,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Foodies Market, A celebration of Wellington's local food scene. Our market features a selection of local food vendors, from gourmet cheese to artisanal bread, coffee, and chocolate. You'll also find cooking demonstrations, workshops, and a range of food-related products. A must-visit for any food lover.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Kids' Cooking Class, A fun and interactive cooking class for kids. Our chefs will teach kids how to make simple and healthy meals, from fresh pasta to delicious desserts. A great way to get kids interested in cooking and healthy eating, with a communal feast at the end of the class.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Food Tour, A guided walking tour of Wellington's best food spots. Our local expert will take you to a selection of cafes, restaurants, and bars, where you'll get to sample a range of local delicacies, from coffee to craft beer, cheese, and chocolate. A great way to discover new favorite spots and learn about Wellington's food scene.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Food and Drink Festival, A two-day festival celebrating all things food and drink in Wellington. You'll find a huge range of food trucks, pop-up bars, and local vendors, serving up everything from gourmet burgers to artisanal ice cream. With live music, cooking demonstrations, and workshops, this is a must-visit event for all foodies.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Seafood Festival, A celebration of Wellington's seafood scene. Our festival features a selection of local seafood vendors, serving up everything from fresh oysters to fish and chips, seafood chowder, and more. With live music and cooking demonstrations, this is a great way to celebrate our local seafood.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2235,11 +2165,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Artisan Jewelry Market, A market dedicated to all things sparkly! The Wellington Artisan Jewelry Market features a wide range of stalls with handmade jewelry from local artists. Find unique pieces made from a variety of materials, from silver and gold to beads and recycled materials. This is a great place to find a special gift or a new piece for your collection. Live demonstrations and workshops will be available throughout the day. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
     "description": "Wellington Vegan Food Market, A food lover's paradise! The Wellington Vegan Food Market features a wide selection of delicious vegan food from local vendors. Sample new products, meet the makers, and discover new local favorites. From vegan burgers and pizzas to baked goods and desserts, this market has something for everyone. Free entry, all are welcome.",
     "label": "Markets & Fairs",
     "skip": false
@@ -2427,16 +2352,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "New Moon Women's Circle, A monthly gathering for women to connect, share, and set intentions under the energy of the new moon. The circle will include a guided meditation, journaling prompts, and a safe space for open discussion. This is an inclusive and affirming environment to honour your cycles, nurture your spirit, and be supported by a community of like-minded women.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Introduction to Shamanism, An introductory workshop on the principles and practices of shamanism. Learn about the shamanic journey, power animals, and how to connect with the spirit world for guidance and healing. This is an experiential session for those curious about ancient spiritual traditions and their modern application. No prior experience is needed.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
