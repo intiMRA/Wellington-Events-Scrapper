@@ -10,21 +10,6 @@
     "skip": false
   },
   {
-    "description": "Newtown Business Breakfast: Community & Commerce, A business breakfast for entrepreneurs and business owners in the Newtown area. Connect with other local business leaders to discuss the unique challenges and opportunities of the neighborhood, share insights, and foster a strong local business community.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Human-Centered Design for Business: A Workshop, A workshop on the principles of human-centered design and how to apply them to your business. Learn to create products, services, and experiences that are intuitive, engaging, and genuinely solve problems for your customers.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Manufacturing & Industry Network: A Connect Event, A networking event for professionals in the manufacturing and industrial sectors. Connect with engineers, operations managers, and business leaders to discuss best practices, explore new technologies, and foster collaboration to drive innovation and growth.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Email Marketing Masterclass: Building Newsletters That Convert, A workshop for marketers and business owners on creating engaging and effective email newsletters. Learn strategies for building an email list, crafting compelling content, and using automation to nurture customer relationships and drive sales.",
     "label": "Business & Networking",
     "skip": false
@@ -152,11 +137,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Community Recycling Day: Electronics & Batteries, A community-wide event for recycling hard-to-dispose-of items like old electronics, batteries, and lightbulbs. Partnering with a local recycling provider, this event helps residents keep hazardous waste out of the landfill.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -562,16 +542,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Presentation Skills for Academics: A Workshop, A workshop on presentation skills specifically for scientists and academics. Learn how to communicate complex research findings clearly, design effective slides, and engage your audience in a compelling and memorable way.",
-    "label": "Education & Learning",
-    "skip": false
-  },
-  {
-    "description": "Digital Marketing Analytics: A Reporting Workshop, A workshop on digital marketing analytics and reporting. Learn how to use tools like Google Analytics and social media dashboards to track key metrics, measure the success of your campaigns, and create data-driven reports that inform your marketing strategy.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1140,11 +1110,6 @@
     "skip": false
   },
   {
-    "description": "Cake Baking for Kids: A Decorating Class, A kids' cooking class on baking and decorating a cake. Children will learn to bake and decorate a cake, with a variety of frosting and toppings to choose from. This class is for ages 8-12.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Magic Show: A Family-Friendly Performance, A family-friendly magic show featuring a local magician. Magicians will perform a variety of tricks, illusions, and comedy, with a focus on audience participation and family fun. This is a great way to introduce kids to the magic of live performance.",
     "label": "Family Friendly",
     "skip": false
@@ -1275,31 +1240,6 @@
     "skip": false
   },
   {
-    "description": "Local Film Festival: A Showcase of Filmmakers, A festival of film, with a focus on local filmmakers. Watch a curated selection of films from new and emerging filmmakers, and participate in discussions and Q&A sessions. This festival celebrates the creativity and talent of Wellington's film scene.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Food & Wine Festival: A Celebration of Local Vineyards, A festival of food and wine, with a focus on local vineyards. Sample a variety of wines from local vineyards, and pair them with delicious dishes from local chefs. This festival is for food and wine lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Arts & Culture Festival: A Celebration of Local Talent, A festival of arts and culture, with a focus on local talent. Experience a diverse range of performances, from music and dance to theatre and art. This festival is a celebration of Wellington's rich cultural heritage.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Board Game Festival: Roll & Play, A festival dedicated to tabletop gaming, from classic board games to modern strategy games. Join us for tournaments, new game showcases from local designers, and a massive free-play area where you can try hundreds of games. It's a day of friendly competition and fun for all ages.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Native New Zealand Festival: Plants & Animals, A festival celebrating New Zealand's native plants and animals. Enjoy talks from local ecologists, guided walks to identify native species, and workshops on gardening to attract native birds and insects. This festival is a celebration of our unique natural heritage.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Wordsmiths Festival: A Celebration of Creative Writing, A festival of creative writing, with workshops on fiction, non-fiction, and poetry. Participate in open mic sessions, meet local authors, and learn how to hone your craft. This festival is for aspiring writers who want to find their voice and tell their stories.",
     "label": "Festivals",
     "skip": false
@@ -1422,11 +1362,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "The Art of the B-Movie: A Discussion Panel, A fun and informative panel discussion on the history and appeal of B-movies. From schlocky horror to low-budget sci-fi, we'll discuss what makes these films so enduringly popular. The panel will be followed by a surprise screening of a classic B-movie.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1567,16 +1502,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Gourmet Hot Chocolate Festival, Indulge your sweet tooth at our annual Gourmet Hot Chocolate Festival. Local cafes and chocolatiers compete for the title of best hot chocolate, offering unique flavors and decadent toppings. Vote for your favorite and enjoy live music in a cozy atmosphere. From classic dark chocolate to spiced chili and lavender infusions, there's a cup for every chocolate lover.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Seafood Boil, Get your hands dirty at our Wellington Seafood Boil. A communal feast with fresh crayfish, mussels, clams, and corn, all boiled in a spicy, aromatic broth. Bibs and hammers are provided, along with local craft beers and ciders. A night of great company, messy eating, and incredible local seafood.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2055,11 +1980,6 @@
     "skip": false
   },
   {
-    "description": "Self-Massage for Stress Relief, Discover the power of touch in this hands-on workshop on self-massage techniques. Learn how to use your hands and simple tools like massage balls to release tension in your neck, shoulders, and back. A perfect way to de-stress and care for your body at home.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Introduction to Vegan Cooking, Learn the basics of delicious and nutritious plant-based cooking. This hands-on class teaches you how to create flavorful vegan meals that are satisfying and easy to make at home. Includes a full meal, recipes, and tips for stocking your pantry.",
     "label": "Health & Wellness",
     "skip": false
@@ -2162,16 +2082,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Vegan Food Market, A food lover's paradise! The Wellington Vegan Food Market features a wide selection of delicious vegan food from local vendors. Sample new products, meet the makers, and discover new local favorites. From vegan burgers and pizzas to baked goods and desserts, this market has something for everyone. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Record and Vintage Fair, A unique combination of music and vintage. The Wellington Record and Vintage Fair features a huge selection of LPs, CDs, and cassettes, as well as a wide variety of vintage clothing, furniture, and homewares. This is a great place to find a unique bargain and give new life to old items. Free entry, all are welcome. Food and coffee stalls on site.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2352,16 +2262,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Theology on Tap: Discussing Faith & Culture, A monthly gathering at a local pub for an informal discussion on faith, theology, and their intersection with modern culture. Enjoy a drink and some good company while we engage in thoughtful conversation on a variety of topics. This is a safe and open space for people of all backgrounds to ask questions and share perspectives. All are welcome.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Grief Support Group, A compassionate and confidential space for anyone navigating grief and loss. This support group offers a safe environment to share your story, connect with others who understand, and find comfort in spiritual community. Led by a trained pastoral care team, this group is open to all who are grieving, regardless of their religious affiliation.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -2802,21 +2702,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Running Group: A free running group for beginners. Learn proper running form, build endurance, and train for your first 5k in a supportive and friendly environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Tennis Club Doubles Tournament: A competitive doubles tournament for tennis players of all skill levels. Compete for prizes and bragging rights in a fun and friendly environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Yoga and Meditation Workshop: A workshop on the fundamentals of yoga and meditation. Learn how to combine movement and breath to reduce stress, improve flexibility, and find inner peace. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
