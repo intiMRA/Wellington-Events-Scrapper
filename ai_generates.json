@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Email Marketing Masterclass: Building Newsletters That Convert, A workshop for marketers and business owners on creating engaging and effective email newsletters. Learn strategies for building an email list, crafting compelling content, and using automation to nurture customer relationships and drive sales.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Compliance for Commerce: Navigating Legal Regulations, A seminar on legal and regulatory compliance for small and medium-sized businesses. Learn how to stay up-to-date with key regulations, manage risk, and ensure your business operations are fully compliant to avoid legal issues and penalties.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Introverted Leadership Workshop: Leading with Quiet Strength, A unique leadership workshop for introverts on how to leverage their natural strengths to become effective leaders. Learn communication techniques, strategic thinking, and how to command respect without having to be the loudest voice in the room.",
     "label": "Business & Networking",
     "skip": false
@@ -137,16 +127,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Wildlife Rescue Fundraiser: Protecting Our Native Birds, A fundraising event for a local bird rescue and wildlife rehabilitation center. Enjoy a family-friendly afternoon with live music, food trucks, and a silent auction, with all proceeds supporting the care of injured native animals.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Natural Pest Control Workshop: Eco-Friendly Garden Solutions, A workshop on creating natural, non-toxic pest control solutions for your garden. Learn how to make organic sprays and attract beneficial insects to keep your plants healthy without the use of harmful chemicals.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -542,11 +522,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "History of Science: A Lecture Series, A lecture series on the history of science and its impact on modern life. Explore key scientific discoveries, the people who made them, and how they have shaped our understanding of the world and the technology we use every day.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1110,51 +1085,6 @@
     "skip": false
   },
   {
-    "description": "Magic Show: A Family-Friendly Performance, A family-friendly magic show featuring a local magician. Magicians will perform a variety of tricks, illusions, and comedy, with a focus on audience participation and family fun. This is a great way to introduce kids to the magic of live performance.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Eco-Friendly Bath Bombs Workshop: A DIY Project, A workshop on making eco-friendly bath bombs and soaps. Kids and parents will work together to create natural, non-toxic bath bombs and soaps, with a variety of scents and colors to choose from. This is a fun and sustainable event for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Community Choir Concert: A Family-Friendly Event, A family-friendly concert with a local community choir. This is a fun and engaging event for all ages, with a variety of performances, singalongs, and interactive activities. This is a great way to introduce kids to the magic of live music.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Robotics Workshop for Kids: Building a Robot, A workshop on building a robot with a kids' robotics kit. Children will learn the basics of robotics, coding, and engineering to build and program their own robot. This class is for ages 8-12.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Home Safety & First Aid: A Family Workshop, A workshop on basic home safety and first aid for families. Parents and kids will learn how to prevent accidents, respond to common injuries, and stay safe at home. This is a crucial skill for every family to have.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Memory Jar Workshop: Preserving Family Moments, A workshop on creating a memory jar of family moments. Kids and parents will work together to write down and decorate a jar with their favorite family memories, creating a time capsule to be cherished for years to come. This is a fun and creative way to preserve family memories.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Quiz Night: A Fundraiser for a Cause, A family-friendly quiz night fundraiser. Get a team together and test your trivia knowledge for a great cause, with prizes, a raffle, and good food and drinks available to purchase throughout the evening. This is a great way to support a local charity or community group.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Wildlife Sanctuary Day Trip: A Close Encounter, A day trip to a local wildlife sanctuary. Families can see and learn about a variety of native animals, with a focus on conservation and education. This is a great way to experience a piece of nature and support local conservation efforts.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Solar-Powered Car Workshop: Build & Race, A workshop for kids and parents on building a simple solar-powered car from a kit. Learn about renewable energy and the principles of engineering as you build and race your car. All materials are provided, so you can take your solar car home.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Farm Walk & Talk: A Guided Tour, A family-friendly guided walk at a local farm. Kids and parents can meet and learn about a variety of farm animals, from sheep and cows to chickens and pigs. This is a great way to learn about farming and animal welfare in a fun, safe environment.",
     "label": "Family Friendly",
     "skip": false
@@ -1237,26 +1167,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Wordsmiths Festival: A Celebration of Creative Writing, A festival of creative writing, with workshops on fiction, non-fiction, and poetry. Participate in open mic sessions, meet local authors, and learn how to hone your craft. This festival is for aspiring writers who want to find their voice and tell their stories.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Speculative Fiction Festival: Sci-Fi & Fantasy, A festival of science fiction and fantasy films, books, and art. Screenings of classic films and new releases, author talks, and a large artists' alley are all part of this celebration of speculative fiction in all its forms.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Chocolate Festival: A Sweet Indulgence, A festival dedicated to chocolate. Sample a variety of chocolates from local and international makers, participate in chocolate-making workshops, and learn about the history and science of chocolate. This festival is a sweet indulgence for chocolate lovers.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Tech Festival: Virtual Reality & Beyond, A festival of technology, with a focus on virtual reality, augmented reality, and other immersive technologies. Explore the latest innovations in VR and AR, and participate in hands-on exhibits and demonstrations. This festival celebrates curiosity and the future of technology.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -1362,26 +1272,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Film Industry Networking Event, Connect with other filmmakers, writers, actors, and industry professionals at this networking event. Whether you're looking for collaborators for your next project or just want to meet like-minded people, this is the place to be. Drinks and snacks will be provided.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film Festival: A Preview Night, A special preview night for the upcoming Wellington Film Festival. We'll be showing trailers and clips from a selection of films, and discussing what to look forward to in this year's festival. Free drinks and popcorn will be provided.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington International Film Festival: 'The Past is Not Dead', A preview screening of the new local film 'The Past is Not Dead' as part of the Wellington International Film Festival. This historical drama explores family secrets and long-lost love in 19th-century New Zealand. A Q&A with the director and lead actors will follow the screening.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Filmmaking for Beginners: Smartphone Edition, Learn how to make a high-quality film using just your smartphone in this practical workshop. We'll cover techniques for shooting, sound recording, and editing on your mobile device. This is a great way to get into filmmaking without needing expensive equipment.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1502,21 +1392,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Dumpling Workshop & Dinner, Learn the art of dumpling making from a master chef. This hands-on workshop will teach you how to fold, fill, and cook different types of dumplings, from traditional pork and cabbage to creative vegetarian options. After the class, we'll feast on a banquet of our handmade creations and other delicious Asian-inspired dishes.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Burger & Craft Beer Pairing, Join us for an evening dedicated to the perfect pairing: burgers and craft beer. Our chefs have created a unique menu of four gourmet mini-burgers, each expertly matched with a different local craft beer. Discover how different flavors and textures enhance each other in this delicious and educational experience.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Coffee Festival, A celebration of Wellington's vibrant coffee scene. Meet local roasters, learn about different brewing methods, and sample a wide range of specialty coffees. Workshops on home brewing, latte art, and coffee tasting will be held throughout the day. The festival is a must-visit for any true coffee aficionado.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -1980,26 +1855,6 @@
     "skip": false
   },
   {
-    "description": "Introduction to Vegan Cooking, Learn the basics of delicious and nutritious plant-based cooking. This hands-on class teaches you how to create flavorful vegan meals that are satisfying and easy to make at home. Includes a full meal, recipes, and tips for stocking your pantry.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Meditation and Journaling Workshop, A two-part workshop combining guided meditation with reflective journaling. Use meditation to quiet the mind, then use writing prompts to explore your inner world, set intentions, and gain clarity. All materials are provided, and no experience is needed.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Cacao Ceremony and Sound Bath, Join us for a heart-opening cacao ceremony followed by a deeply immersive sound bath. Cacao is a gentle plant medicine that helps to open the heart, and combined with the healing vibrations of sound, it creates a powerful experience for emotional release and inner connection.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Building Healthy Habits Workshop, This workshop provides a step-by-step guide to building sustainable healthy habits that stick. Learn about the psychology of habit formation, identify your personal triggers, and create a custom plan to reach your health and wellness goals. Includes a workbook for ongoing use.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Yoga for Desk Workers, This class is specifically designed to counteract the effects of sitting all day. Focus on postures that open the chest, hips, and shoulders while strengthening the core and improving posture. Learn simple stretches and movements you can do at your desk to relieve tension.",
     "label": "Health & Wellness",
     "skip": false
@@ -2082,16 +1937,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Christmas Night Market, Get into the festive spirit at the Wellington Christmas Night Market! This magical market features a huge selection of handmade gifts, festive decorations, and delicious holiday treats. Find unique gifts for everyone on your list while enjoying a festive atmosphere with carolers, hot chocolate, and a visit from Santa himself. This is a great way to support local artisans and get your holiday shopping done in a fun and festive environment. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "The Wellington Craft Collective Market, A celebration of local artists and crafters. The Wellington Craft Collective Market features a wide selection of handmade goods, from jewelry and pottery to paintings and textiles. This is a great place to find unique gifts and support our local small businesses. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2262,16 +2107,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Latter-day Saint Ward Family History Night, A family-friendly event to help you get started on your family history. Volunteers will be on hand to provide one-on-one assistance with research, using online tools, and organizing your family tree. This is a great opportunity to connect with your ancestors and share their stories with your family. Everyone is welcome to attend.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Healing Power of the Holy Rosary, A special retreat dedicated to exploring the healing power of the Holy Rosary. This event will include talks on the history and significance of the Rosary, guided meditations on the mysteries, and an opportunity for communal prayer. All are welcome to attend and experience the peace and comfort of this ancient devotion.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -2702,26 +2537,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington Hockey Club Social Mixer: A social event for hockey players of all skill levels. Play friendly games, meet new people, and enjoy some light refreshments in a relaxed and friendly atmosphere. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Mountain Biking Tour: A guided tour of some of Wellington's beginner-friendly mountain bike trails. Learn basic skills, enjoy the scenery, and get some exercise in a fun and supportive environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Boxing Gym Open Day: A free open day at a local boxing gym. Try out a class, meet the coaches, and learn more about the benefits of boxing for fitness and self-defence. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Social Futsal Night: A casual night of futsal games for players of all skill levels. No teams are needed, just show up and play. A great way to get some exercise and meet other futsal enthusiasts. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
