@@ -72,7 +72,7 @@ def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
             with open(FileNames.EVENTS_COPY, "w") as copy:
                 copy.write(f.read())
     with open(FileNames.CURRENT_FESTIVALS, "w") as f:
-        json.dump(CurrentFestivals.CURRENT_FESTIVALS, f, indent=2)
+        json.dump(list(set(CurrentFestivals.CURRENT_FESTIVALS)), f, indent=2)
     with open(FileNames.CURRENT_FESTIVALS_DETAILS, "w") as f:
         json.dump(CurrentFestivals.CURRENT_FESTIVALS_DETAILS, f, indent=2)
     with open(file, "w") as write:
