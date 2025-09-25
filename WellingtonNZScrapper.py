@@ -115,10 +115,16 @@ class WellingtonNZScrapper:
         driver.switch_to.window(driver.current_window_handle)
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
         _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
+        driver.execute_script(f"window.scrollBy(0, {1000});")
+        button = driver.find_elements(By.XPATH, "//div[contains(@class, 'filters-button__icon')]")[-1]
+        button.click()
+        sleep(1)
         categories = driver.find_elements(By.CLASS_NAME, 'search-button-filter')
-
-        categories = [(cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]) for cat
-                      in categories]
+        new_categories = []
+        for cat in categories:
+            if len(cat.text.split("\n")) > 1:
+                new_categories.append((cat.text.replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.text.split("\n")[1]))
+        categories = new_categories
         number_of_events = driver.find_element(By.CLASS_NAME, "pagination__position")
         number_of_events = re.findall("\d+", number_of_events.text)
         event_urls: Set[Tuple[str, str]] = set()

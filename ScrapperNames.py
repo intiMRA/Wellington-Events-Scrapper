@@ -19,7 +19,6 @@ ALL_EVENTS_IN = "All Events In"
 now = datetime.now()
 
 ALL_SCRAPER_NAMES: List[str] = [
-    WELLINGTON_NZ,
     WELLINGTON_HIGH_SCHOOL,
     VALHALLA,
     UNDER_THE_RADAR,
@@ -31,8 +30,9 @@ ALL_SCRAPER_NAMES: List[str] = [
     FACEBOOK,
     EVENT_FINDER,
     EVENT_BRITE,
-    ROXY,
-    ALL_EVENTS_IN
+    ALL_EVENTS_IN,
+    WELLINGTON_NZ,
+    ROXY
 ]
 
 if now.month == 8 or now.month == 7:
