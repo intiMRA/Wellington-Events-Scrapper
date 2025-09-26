@@ -46,7 +46,10 @@ class RoxyScrapper:
     def get_event_fom_page(url: str, driver: webdriver, previous_urls) -> Optional[EventInfo]:
         driver.get(url)
         sleep(3)
-        event_url = driver.find_element(By.CLASS_NAME, "poster-portrait-link").get_attribute("href")
+        try:
+            event_url = driver.find_element(By.CLASS_NAME, "poster-portrait-link").get_attribute("href")
+        except:
+            return None
         if event_url in previous_urls:
             return None
         return RoxyScrapper.get_event(event_url, driver)
