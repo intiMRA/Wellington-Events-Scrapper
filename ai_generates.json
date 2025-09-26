@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Introverted Leadership Workshop: Leading with Quiet Strength, A unique leadership workshop for introverts on how to leverage their natural strengths to become effective leaders. Learn communication techniques, strategic thinking, and how to command respect without having to be the loudest voice in the room.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Agri-Tech Conference: The Future of Farming in New Zealand, A conference for farmers, technologists, and investors on the future of agriculture and the role of agritech. Explore innovations in sustainable farming, precision agriculture, and supply chain technology to build a smarter, more productive agricultural sector.",
     "label": "Business & Networking",
     "skip": false
@@ -127,11 +122,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "NZ's Native Forests: A Climate Change Talk, A talk on the effects of climate change on New Zealand's native forests. Hear from a botanist on the challenges our unique ecosystems face and the conservation efforts underway to protect them for future generations.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -522,11 +512,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Negotiation Skills: A Professional Context Course, A course on negotiation skills for a professional context. Learn how to prepare for a negotiation, master negotiation tactics, and create win-win outcomes in business deals, salary discussions, and workplace conflicts.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -1085,31 +1070,6 @@
     "skip": false
   },
   {
-    "description": "Farm Walk & Talk: A Guided Tour, A family-friendly guided walk at a local farm. Kids and parents can meet and learn about a variety of farm animals, from sheep and cows to chickens and pigs. This is a great way to learn about farming and animal welfare in a fun, safe environment.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Homemade Jam Workshop: Canning & Preserves, A hands-on workshop on making natural homemade jams and preserves. Learn simple recipes for jams, jellies, and marmalades, and discover the joys of creating your own delicious preserves from scratch. This class is for all ages.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Custom T-Shirt Printing: A Block Printing Workshop, A workshop on creating a custom t-shirt using block printing. Kids and parents will work together to design and print a custom t-shirt using lino blocks and fabric paint. All materials are provided, so you can take your custom t-shirt home.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Kids' Movie Marathon: Classic Animated Films, A family-friendly movie marathon of classic children's films at a community center. Bring your blankets, snacks, and wh\u0101nau for a relaxing day of nostalgia and fun. This is a great way to introduce kids to the classic animated films you grew up with.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Model Airplane Workshop: Building & Painting, A workshop on building and painting model airplanes. Kids and parents will work together to build a model airplane from a kit, learn about the history of aviation, and paint a custom design. All materials are provided, so you can take your model airplane home.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Cookie Decorating Class: A Baking Workshop for Kids, A kids' cooking class on baking and decorating cookies. Children will learn to bake and decorate their own cookies, with a variety of frosting and toppings to choose from. Perfect for budding little bakers!",
     "label": "Family Friendly",
     "skip": false
@@ -1167,31 +1127,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Local History Festival: A Journey Through Newtown, A festival of local history, with a focus on the Newtown suburb. Explore the history of the neighborhood with guided walks, talks from local historians, and a photo exhibition of old Newtown. This festival is a great way to connect with your community's past.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Pacific Island Festival: A Celebration of Community, A festival of arts and culture, with a focus on the Pacific Island community. Experience a diverse range of performances, from traditional music and dance to modern art and food. This festival is a celebration of the city's Pacific Island communities.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "80s Rewind Festival: A Decade of Music, A festival of music, with a focus on the 80s. Enjoy a day of live music and dancing, with a variety of bands and musicians playing classic hits from the 80s. This festival is a great day out for music lovers and a trip down memory lane.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Sustainability Festival: A Green Living Showcase, A festival of sustainable living, with workshops and talks on eco-friendly practices. Learn how to compost, reduce waste, and make a variety of eco-friendly products. This festival is for anyone who wants to live a more sustainable lifestyle.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Fashion Festival: A Showcase of Local Designers, A festival of design, with a focus on fashion. Browse a wide variety of works from local fashion designers, and participate in workshops and talks. This festival celebrates creativity and the local fashion community.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -1272,11 +1207,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "'Finding Nemo' Movie Night with the Wh\u0101nau, The Wellington Library is hosting a free screening of 'Finding Nemo' for a family movie night. Bring the kids for an adventure under the sea with Marlin and Dory as they search for Nemo. We'll have a themed craft activity before the film starts.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1395,21 +1325,6 @@
     "skip": false
   },
   {
-    "description": "Vegan High Tea, Enjoy a sophisticated afternoon with our plant-based high tea. Our menu features a delightful selection of vegan sandwiches, scones with jam and cream, and exquisite pastries. Paired with a range of fine teas and herbal infusions, this is a guilt-free indulgence for all.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Artisanal Cheese & Wine Night, An evening for the epicurious. Our cheesemongers have curated a selection of New Zealand's finest artisanal cheeses, from creamy bries to aged cheddars. Each cheese is thoughtfully paired with a local or international wine, with experts on hand to guide you through the tasting notes and flavor profiles.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Barbecue Masterclass, Fire up your skills at our Barbecue Masterclass. Learn the secrets to smoking brisket, slow-cooking ribs, and grilling the perfect steak. Our pitmasters will teach you everything from rub recipes to temperature control. The class ends with a massive feast of all the delicious food we've prepared.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
     "description": "A Night in Italy: Pasta Making, Experience the heart of Italian cuisine in this hands-on pasta-making class. Learn to make fresh pasta from scratch, including fettuccine and ravioli. Our Italian chef will guide you through the process and share tips for creating authentic sauces. The class culminates in a shared meal with your handmade pasta, paired with a glass of Italian wine.",
     "label": "Food & Drink",
     "skip": false
@@ -1457,11 +1372,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Wellington Regional Council's Transport Masterplan: A public exhibition and discussion on the long-term vision for transport in the Wellington region, including new roads, cycleways, and train lines.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -1855,21 +1765,6 @@
     "skip": false
   },
   {
-    "description": "Yoga for Desk Workers, This class is specifically designed to counteract the effects of sitting all day. Focus on postures that open the chest, hips, and shoulders while strengthening the core and improving posture. Learn simple stretches and movements you can do at your desk to relieve tension.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Embodied Dance, A free-form movement session for all bodies, ages, and abilities. Let go of judgment and connect with your body through music and dance in a safe and supportive space. This is a non-choreographed class focused on joyful, intuitive movement.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Holistic Weight Management Seminar, This seminar explores weight management from a holistic perspective, moving beyond diet culture and focusing on sustainable lifestyle changes. A nutritionist and a wellness coach will discuss topics like mindful eating, stress management, and the importance of a positive body image. Free of charge.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Mindfulness for Parents, A workshop for parents to learn simple mindfulness techniques to navigate the challenges of parenthood. Topics include managing parental stress, being present with your children, and building a more peaceful family environment. Includes practical tools and a Q&A session.",
     "label": "Health & Wellness",
     "skip": false
@@ -1937,21 +1832,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Summer Artisan Market, A vibrant outdoor market celebrating the best of summer. The Wellington Summer Artisan Market features a huge variety of stalls, from local food producers and artisans to vintage sellers and upcyclers. Browse unique gifts, fresh produce, and delicious street food. Enjoy the lively atmosphere with live music and a bustling crowd. This is a great way to spend a summer day and support local businesses. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Arts & Crafts Market, A celebration of local artistic talent and craftsmanship. The Wellington Arts & Crafts Market features a wide selection of handmade goods, from jewelry and pottery to paintings and textiles. This is a great place to find unique gifts and support local small businesses. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Antiques Fair, Step into a world of timeless treasures at the Wellington Antiques Fair. Find antique furniture, vintage clothing, classic art, and rare collectibles from a wide range of eras. Whether you're a seasoned collector or a curious browser, this fair offers a chance to explore history through objects. There will be expert appraisers on hand to give you information on your own vintage finds. Tickets available for purchase online.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -2537,21 +2417,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington Surf Lifesaving Club Open Day: A free open day at a local surf lifesaving club. Learn about water safety, meet the lifeguards, and try out some surf lifesaving activities. A great family-friendly event on a local Wellington beach. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Climbing Competition: An introductory climbing competition for beginners. Compete on a range of fun and friendly problems, with a focus on participation and good sportsmanship. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Netball Club Junior Tournament: A fun and friendly netball tournament for junior players. All teams are guaranteed to play multiple games, with a focus on fun, teamwork, and good sportsmanship. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
