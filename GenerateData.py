@@ -137,7 +137,7 @@ def count_categories():
         with open("ai_generates.json", mode="r") as ai_file:
             training_data = json.loads(read_training_file.read())
             ai_data = json.loads(ai_file.read())
-            # training_data += ai_data
+            training_data += ai_data
             for data in training_data:
                 if data["skip"]:
                     continue
@@ -180,9 +180,9 @@ def move_top_n_shortest(num:int, category: str):
             with open("unclassified_data.json", mode="w") as unclassified_file_write:
                 json.dump(unclassified_data, unclassified_file_write, indent=2)
 
-# generate_kid_friendly()
-# move_top_n_shortest(1, "Business & Networking")
-generate_data()
-generate_unclassified_data()
-count_categories()
-print_duplicates()
+generate_kid_friendly()
+# move_top_n_shortest(2, "Music & Concerts")
+# generate_data()
+# generate_unclassified_data()
+# count_categories()
+# print_duplicates()

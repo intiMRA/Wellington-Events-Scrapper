@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Agri-Tech Conference: The Future of Farming in New Zealand, A conference for farmers, technologists, and investors on the future of agriculture and the role of agritech. Explore innovations in sustainable farming, precision agriculture, and supply chain technology to build a smarter, more productive agricultural sector.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Local SEO Masterclass: Get Found by Local Customers, A hands-on masterclass for local business owners on how to master Search Engine Optimization (SEO). Learn how to optimize your website for local searches, manage online reviews, and use Google My Business to attract more customers in your area.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Government Grants & Growth: A Small Business Funding Panel, A panel discussion with government representatives and business advisors on grants and funding opportunities for small businesses. Learn about the different types of funding available, how to apply, and which resources can help you secure capital for growth.",
     "label": "Business & Networking",
     "skip": false
@@ -122,16 +112,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Food Forest Workshop: Designing an Edible Ecosystem, A hands-on workshop on designing and planting a food forest or edible garden. Learn permaculture principles for creating a low-maintenance, high-yield garden that mimics a natural ecosystem and provides food year-round.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Rare Plant Propagation: A Workshop, A hands-on workshop on propagation techniques for rare native plants. Learn how to grow new plants from seeds and cuttings, contributing to local biodiversity and conservation efforts in your own backyard.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1070,26 +1050,6 @@
     "skip": false
   },
   {
-    "description": "Cookie Decorating Class: A Baking Workshop for Kids, A kids' cooking class on baking and decorating cookies. Children will learn to bake and decorate their own cookies, with a variety of frosting and toppings to choose from. Perfect for budding little bakers!",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Neighborhood Street Party: Games & Fun, A free community-led street party with games and activities for kids. This event celebrates community spirit, with a variety of activities like sack races, face painting, and bouncy castles. This is a great way to get active and connect with your community.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "DIY Musical Instruments: A Recycled Craft Workshop, A workshop on making your own musical instruments from recycled materials. Kids will learn to make instruments from old bottles, cans, and other discarded items, and then put on a show for their families. This is a fun and creative event for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Comedy Show: Clean Humor for All Ages, A family-friendly stand-up comedy show with clean humor. Comedians will perform a variety of jokes, stories, and sketches, with a focus on audience participation and family fun. This is a great way to introduce kids to the magic of live performance.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Cartoon & Comic Drawing Class: A Beginner's Workshop, A workshop on beginner's drawing, focusing on cartoons and comics. Learn the basics of character design, facial expressions, and panel layout to create your own comic. This class is for aspiring young artists and writers.",
     "label": "Family Friendly",
     "skip": false
@@ -1127,41 +1087,6 @@
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Japanese Cultural Festival: Food, Music & Art, A festival of Japanese food, music, and art. Experience a diverse range of performances, from traditional taiko drumming to modern J-pop, and sample a variety of authentic Japanese dishes. This festival is a celebration of Japanese culture in Wellington.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Wine & Food Festival: A Celebration of Local Vineyards, A festival of food and wine, with a focus on local vineyards. Sample a variety of wines from local vineyards, and pair them with delicious dishes from local chefs. This festival is for food and wine lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Short Film Festival: A Showcase of Filmmakers, A festival of short films from New Zealand and around the world. Watch a curated selection of films from emerging and established filmmakers, and participate in Q&A sessions with the directors. This festival celebrates the art of short-form storytelling.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Electronic Music Festival: Beats & Grooves, A festival of electronic music, with a focus on a specific genre, e.g., electronic. Enjoy a day of live music and dancing, with a variety of DJs and electronic artists. This festival is for electronic music lovers who want to explore the local talent.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Sculpture Festival: Art in the Open, A festival of art, with a focus on sculpture. Watch as local artists create stunning sculptures in a variety of public spaces, and participate in workshops and talks. This festival celebrates the art of sculpture and creativity.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Street Dance Festival: A Showcase of Urban Dance, A festival of dance, with a focus on street dance. Watch a variety of street dance performances, from breakdancing to hip-hop, and participate in dance classes. This festival celebrates the joy and art of street dance.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Comedy Festival: An Improv Comedy Showcase, A festival of theatre, with a focus on comedy. Watch a variety of comedy performances, from stand-up to improv, and participate in workshops to learn the basics of improv. This festival is for comedy lovers who want to explore the local talent.",
-    "label": "Festivals",
     "skip": false
   },
   {
@@ -1207,21 +1132,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Women's Film Collective: New Voices, A special screening of short films from emerging female filmmakers in Wellington. This event, hosted by the Wellington Women's Film Collective, celebrates new and diverse voices in cinema. A panel discussion on women in film will follow the screenings.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Anime Night: 'Spirited Away', Join us at the St. James Theatre for a screening of Hayao Miyazaki's masterpiece 'Spirited Away'. This critically acclaimed film tells the story of a young girl's adventure in a world of spirits and monsters. The screening will have English subtitles and a short discussion on the film's themes.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Wellington Pop-Up Cinema: 'Pulp Fiction', A special pop-up cinema event in a secret location, screening Quentin Tarantino's 'Pulp Fiction.' Expect a night of cult classic cinema, delicious food, and themed cocktails. The location will be revealed to ticket holders 24 hours before the event.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1325,16 +1235,6 @@
     "skip": false
   },
   {
-    "description": "A Night in Italy: Pasta Making, Experience the heart of Italian cuisine in this hands-on pasta-making class. Learn to make fresh pasta from scratch, including fettuccine and ravioli. Our Italian chef will guide you through the process and share tips for creating authentic sauces. The class culminates in a shared meal with your handmade pasta, paired with a glass of Italian wine.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Japanese Whisky & Sake Tasting, Discover the nuanced world of Japanese spirits. This tasting event features a curated selection of premium Japanese whiskies and a variety of sakes, from dry to sweet. Learn about the history, production methods, and tasting notes from our expert host, paired with traditional Japanese snacks.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
     "description": "Summer on a Plate: A Taster of New Zealand's Best, A seasonal celebration of fresh, local produce. This multi-course meal is designed to showcase the best of New Zealand's summer bounty, from fresh-caught fish to sun-ripened berries. Each dish is a tribute to the growers, farmers, and fishers who make our food scene so special.",
     "label": "Food & Drink",
     "skip": false
@@ -1372,11 +1272,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Democracy in a Digital Age: A panel on the challenges and opportunities of modern democracy, including the impact of social media, online misinformation, and digital voting systems.",
-    "label": "Government & Politics",
     "skip": false
   },
   {
@@ -1765,41 +1660,6 @@
     "skip": false
   },
   {
-    "description": "Mindfulness for Parents, A workshop for parents to learn simple mindfulness techniques to navigate the challenges of parenthood. Topics include managing parental stress, being present with your children, and building a more peaceful family environment. Includes practical tools and a Q&A session.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Pilates for Beginners, Learn the fundamentals of Pilates in this introductory class. Focus on core strength, proper alignment, and controlled movements to improve posture, flexibility, and overall body awareness. This is a low-impact workout suitable for all fitness levels. Mats are provided.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Yoga for Better Balance, A gentle class designed to improve your balance and stability. Through a series of standing and seated poses, you'll learn how to strengthen your core and legs, and improve your proprioception. This class is especially beneficial for older adults and those recovering from injury.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Menopause Support Group, A supportive and confidential space for women to share experiences, ask questions, and learn from each other about navigating menopause. This group is facilitated by a certified health coach and focuses on holistic strategies for managing symptoms and embracing this new life stage.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Reiki Share Circle, A monthly gathering for Reiki practitioners of all levels to give and receive Reiki healing. This is a wonderful opportunity to practice your skills in a supportive community, share experiences, and deepen your connection to this healing energy. Open to all who have received a Reiki attunement.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Healthy Recipe Swap, Bring your favourite healthy recipe and a sample of the dish to share with the group. This is a fun and social event for food lovers to discover new healthy meals, share cooking tips, and connect with other health-conscious people in the community. Free to attend.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Post-Workout Recovery Workshop, Learn how to properly recover after a workout to prevent injury, reduce muscle soreness, and enhance your performance. A physiotherapist and a sports nutritionist will cover topics like stretching, foam rolling, hydration, and post-workout nutrition. Includes a hands-on stretching session.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Intro to Mindful Self-Compassion, An introduction to the practice of mindful self-compassion, teaching you how to treat yourself with the same kindness and understanding you would a good friend. This workshop, led by a certified coach, provides guided meditations and practical exercises to increase self-worth and emotional resilience.",
     "label": "Health & Wellness",
     "skip": false
@@ -1832,11 +1692,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Sustainable Living Market, A market with a mission! The Wellington Sustainable Living Market features a wide range of stalls dedicated to sustainable living. Find everything from refillable household products and reusable containers to upcycled clothing and eco-friendly beauty products. This is a great opportunity to learn about sustainable living and support businesses that are making a positive impact on the environment. There will be workshops and talks throughout the day on topics like composting, mending, and zero-waste cooking. Free entry.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -1987,11 +1842,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Spiritual Journaling Workshop, A hands-on workshop on the practice of spiritual journaling. Learn how to use journaling as a tool for prayer, reflection, and personal growth. We will cover different techniques and prompts to help you connect with your inner self and with the divine. All materials will be provided, and no prior experience is needed.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -2417,21 +2267,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Social Basketball Tournament: A fun and friendly basketball tournament for mixed teams. This event is all about participation and good sportsmanship, with a focus on social connection over competition. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Weightlifting Club Seminar: A seminar on the fundamentals of weightlifting, including proper form, technique, and programming. Learn from certified coaches and get tips on how to improve your lifts. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Learn to Play Pickleball: An introductory class to pickleball, a fun and easy-to-learn racket sport that combines elements of badminton, tennis, and table tennis. All equipment is provided. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
