@@ -115,11 +115,6 @@
     "skip": false
   },
   {
-    "description": "Wellington's Green Belts: A Historical Talk, A seminar on the history of Wellington's green belts and their importance to the city's unique character. Learn how these natural spaces were established and their role in local conservation and recreation.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
     "description": "Eco-Friendly Kids' Crafts: A Recycled Toy Workshop, A family-friendly workshop on making eco-friendly toys and crafts from recycled and natural materials. Kids will learn about upcycling and sustainability while getting creative with a variety of materials. All materials provided.",
     "label": "Conservation & Environment",
     "skip": false
@@ -1050,36 +1045,6 @@
     "skip": false
   },
   {
-    "description": "Cartoon & Comic Drawing Class: A Beginner's Workshop, A workshop on beginner's drawing, focusing on cartoons and comics. Learn the basics of character design, facial expressions, and panel layout to create your own comic. This class is for aspiring young artists and writers.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Family Photo Album Workshop: Preserving Memories, A workshop on creating a physical photo album of family memories. Kids and parents will work together to select and print photos, and design a custom photo album to be cherished for years to come. This is a great way to preserve family memories.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Live Music for Kids: A Concert, A family-friendly musical show with a live band playing popular children's songs. This is a fun and engaging event for young children, with a variety of performances, singalongs, and interactive activities. This is a great way to introduce kids to the magic of live music.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Bug Hotel Workshop: A Garden Project for Wildlife, A hands-on workshop on building a bug hotel for a backyard garden. Kids and parents will work together to build a habitat that attracts and supports beneficial insects, creating a fun and educational project for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Rope Skills Workshop: Knots & Splicing, A workshop on learning basic rope skills, including knots and splicing. Kids will learn how to tie a variety of knots and how to splice rope, creating a fun and educational project for the whole family.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
-    "description": "Healthy Lunchbox Workshop: Recipes & Ideas, A workshop on creating a healthy family lunchbox. Parents and kids will work together to plan a week of healthy lunches, learn simple recipes, and create a recipe book that the whole family can use. This is a great way to ensure your kids are eating healthy.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Family Sports Day: Outdoor Games & Activities, A family-friendly sports day with a variety of outdoor games and activities. Teams will compete in a series of games, with a focus on teamwork, sportsmanship, and fun. This event is a great way to get active and connect with your community.",
     "label": "Family Friendly",
     "skip": false
@@ -1232,11 +1197,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Summer on a Plate: A Taster of New Zealand's Best, A seasonal celebration of fresh, local produce. This multi-course meal is designed to showcase the best of New Zealand's summer bounty, from fresh-caught fish to sun-ripened berries. Each dish is a tribute to the growers, farmers, and fishers who make our food scene so special.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -1845,16 +1805,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Catholic Young Adults Group, A weekly gathering for Catholic young adults in their 20s and 30s. Join us for fellowship, faith formation, and fun activities. This group is a great way to connect with other young adults who share your faith and values. Events include guest speakers, social nights, and service projects.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Exploring The Gnostic Gospels, A public lecture and discussion on the Gnostic Gospels and their historical context. Learn about these ancient texts and their alternative perspective on early Christianity. This is a fascinating and academic session for those interested in the history of religion and the diversity of early Christian thought. All are welcome to attend.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
     "description": "Sunday Service and Community Potluck, Join us for our weekly Sunday service, a time of worship, reflection, and community connection. The service will be followed by a potluck lunch, so bring a dish to share and enjoy a meal with your fellow congregants. This is a family-friendly event, and all are welcome to join us.",
     "label": "Religion & Spirituality",
     "skip": false
@@ -2267,16 +2217,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington Ultimate Frisbee Indoor League: The final game of the Wellington Ultimate Frisbee Indoor League season. Come and watch the top two teams battle it out for the championship title. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Kids' Martial Arts Class: An introductory martial arts class for kids. Learn basic techniques, discipline, and respect in a fun and supportive environment. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
