@@ -180,9 +180,9 @@ def move_top_n_shortest(num:int, category: str):
             with open("unclassified_data.json", mode="w") as unclassified_file_write:
                 json.dump(unclassified_data, unclassified_file_write, indent=2)
 
-generate_kid_friendly()
-# move_top_n_shortest(2, "Music & Concerts")
-# generate_data()
-# generate_unclassified_data()
-# count_categories()
-# print_duplicates()
+# generate_kid_friendly()
+# move_top_n_shortest(1, "Community & Culture")
+generate_data()
+generate_unclassified_data()
+count_categories()
+print_duplicates()

@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Government Grants & Growth: A Small Business Funding Panel, A panel discussion with government representatives and business advisors on grants and funding opportunities for small businesses. Learn about the different types of funding available, how to apply, and which resources can help you secure capital for growth.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Social Media for Service: Building Your Customer Community, A workshop for customer service teams and business owners on using social media as a powerful customer service tool. Learn how to manage customer inquiries, respond to feedback, and build a loyal community around your brand online.",
     "label": "Business & Networking",
     "skip": false
@@ -1100,11 +1095,6 @@
     "skip": false
   },
   {
-    "description": "Screenwriting Workshop with a WGA Member, An exclusive workshop with a Writers Guild of America member and professional screenwriter. Learn about the craft of screenwriting, from character development and plot structure to pitching and working in the industry. This is a must-attend for aspiring writers.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Children's Movie Day: 'The Lion King', The Community Hub is hosting a free children's movie day with a screening of 'The Lion King'. Come and sing along to the classic songs with your little ones. We'll have face painting and a fun art activity before the film.",
     "label": "Film & Media",
     "skip": false
@@ -1197,31 +1187,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Cocktail Making Workshop: Tiki Edition, Learn to shake, stir, and muddle your way to a perfect Tiki cocktail. Our mixologist will guide you through creating classic Tiki drinks like Mai Tais and Zombies, with a focus on fresh juices and tropical garnishes. Aloha shirts and a sense of adventure are encouraged.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Farmers' Market Brunch, Start your weekend right with a pop-up brunch using the freshest ingredients from the local farmers' market. Our chefs will be creating a seasonal menu on the spot, from farm-fresh eggs to foraged mushrooms. Enjoy your meal with live acoustic music and fresh-pressed juices.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Global Street Food Fair, A world of flavor in one place. Our street food fair features vendors from around the globe, serving up authentic dishes from their home countries. Taste everything from spicy Mexican tacos to savory Malaysian satay and sweet French crepes. A vibrant and delicious celebration of Wellington's diverse culinary community.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Chocolate & Gin Pairing, A match made in heaven. This event pairs artisanal chocolates from a local chocolatier with a selection of New Zealand gins. Learn how the botanicals in gin complement the different cocoa percentages and flavor profiles of chocolate. A sophisticated and delicious night out.",
-    "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "Brewery Tour & Tasting, Go behind the scenes at a local brewery. Learn about the brewing process, from malting to bottling, and meet the master brewers. The tour concludes with a guided tasting of their full range of beers, from crisp lagers to hoppy IPAs. A perfect outing for beer lovers.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -1620,21 +1585,6 @@
     "skip": false
   },
   {
-    "description": "Intro to Mindful Self-Compassion, An introduction to the practice of mindful self-compassion, teaching you how to treat yourself with the same kindness and understanding you would a good friend. This workshop, led by a certified coach, provides guided meditations and practical exercises to increase self-worth and emotional resilience.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Nutrition for a Plant-Based Diet, Whether you are new to plant-based eating or have been for years, this workshop will cover everything you need to know to ensure you are getting all the nutrients your body needs. A registered nutritionist will talk about protein, iron, and B12, and how to build a balanced plate. Includes a Q&A session and a free recipe e-book.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Grief Support Circle, A safe and compassionate space to gather and share experiences of grief and loss. This peer-led circle offers a supportive community for individuals navigating their healing journey. No pressure to share, just your presence is welcome. Light refreshments will be served.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Holistic Hormone Health, Learn about the power of food, lifestyle, and natural remedies to support hormone balance. A naturopath will discuss common hormonal imbalances, their symptoms, and holistic strategies to promote vitality and wellbeing throughout all life stages.",
     "label": "Health & Wellness",
     "skip": false
@@ -1652,11 +1602,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Christmas Market, Get into the festive spirit at the Wellington Christmas Market. This magical market features a huge selection of handmade gifts, festive decorations, and delicious holiday treats. Find unique gifts for everyone on your list while enjoying a festive atmosphere with carolers, hot chocolate, and a visit from Santa himself. This is a great way to support local artisans and get your holiday shopping done in a fun and festive environment. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -1802,16 +1747,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Sunday Service and Community Potluck, Join us for our weekly Sunday service, a time of worship, reflection, and community connection. The service will be followed by a potluck lunch, so bring a dish to share and enjoy a meal with your fellow congregants. This is a family-friendly event, and all are welcome to join us.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Sacred Feminine Circle, A monthly gathering for women to connect with the sacred feminine and explore their spirituality in a supportive and nurturing environment. The circle will include guided meditation, ritual, and a time for sharing. This is an inclusive and affirming space for women of all backgrounds and beliefs to find their voice and their power.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -2217,26 +2152,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Fun Run and Walk: A non-competitive fun run and walk through the streets of Wellington. Choose from a 5k or 10k course, with a focus on fun and participation. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Yoga for Athletes: A specialised yoga class designed to improve flexibility, mobility, and recovery for athletes. Focus on deep stretches, foam rolling, and breathwork to prevent injuries and enhance performance. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Tennis Club Singles Championship: The final round of the annual singles championship at the Wellington City Tennis Club. Come and watch the city's best players compete for the title. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Kayaking Course: A multi-session kayaking course for beginners. Learn essential skills like paddling, rescue techniques, and navigation in a safe and controlled environment. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
