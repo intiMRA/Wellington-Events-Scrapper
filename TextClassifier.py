@@ -92,9 +92,8 @@ def predict_from_file(file_name):
     for predictions_array in predictions:
         indecies = np.argpartition(predictions_array, -2)[-2:]
         indecies = indecies[np.argsort(-predictions_array[indecies])]
-        if predictions_array[indecies[0]] < 0.15:
-            indecies = []
-        elif predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.2:
+
+        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.2:
             indecies = [indecies[0]]
 
         if len(indecies) == 0:
@@ -189,5 +188,5 @@ if should_train:
     joblib.dump(label_encoder, 'label_encoder.joblib')
 
 labels_out = predict_from_file(
-    training_data_file_name
+    unclassified_data_file_name
 )

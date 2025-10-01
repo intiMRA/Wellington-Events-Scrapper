@@ -179,9 +179,29 @@ def move_top_n_shortest(num:int, category: str):
                 json.dump(training_data, training_file_write, indent=2)
             with open("unclassified_data.json", mode="w") as unclassified_file_write:
                 json.dump(unclassified_data, unclassified_file_write, indent=2)
+def move_top_n_largest(num:int, category: str):
+    with open("unclassified_data.json", mode="r") as unclassified_file_read:
+        unclassified_data = json.loads(unclassified_file_read.read())
+        with open("training_data.json", mode="r") as training_file_read:
+            training_data = json.loads(training_file_read.read())
+            training_titles = [element["description"].split(",")[0] for element in training_data]
+            category_training = [instance for instance in unclassified_data
+                                 if instance["label"] == category
+                                 and not instance["skip"]
+                                 and instance["description"].split(",")[0] not in training_titles]
+
+            category_training = sorted(category_training, key=lambda x: len(x["description"]), reverse=True)[:num]
+            unclassified_data = [instance for instance in unclassified_data if instance not in category_training]
+            for instance in category_training:
+                training_data.append(instance)
+            with open("unclassified_data.json", mode="w") as training_file_write:
+                json.dump(unclassified_data, training_file_write, indent=2)
+            with open("training_data.json", mode="w") as unclassified_file_write:
+                json.dump(training_data, unclassified_file_write, indent=2)
 
 # generate_kid_friendly()
-# move_top_n_shortest(4, "Music & Concerts")
+# move_top_n_shortest(2, "Community & Culture")
+# move_top_n_largest(2, "Classes & Workshops")
 generate_data()
 generate_unclassified_data()
 count_categories()

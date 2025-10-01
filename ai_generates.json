@@ -10,16 +10,6 @@
     "skip": false
   },
   {
-    "description": "Digital Ethics Forum: Data Privacy & Responsible Business, A forum on the importance of digital ethics and data privacy in modern business. Discuss regulatory changes, build a culture of data responsibility, and learn how to implement practices that protect customer data and build trust.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Green Founders' Network: Sustainability & Innovation Meetup, A networking event for entrepreneurs, investors, and professionals in the sustainability, renewable energy, and clean technology sectors. Connect with like-minded individuals to discuss green business models, funding opportunities, and collaborative projects aimed at building a more sustainable future.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Team Synergy Workshop: Communication & Conflict Resolution, A workshop for teams and managers on improving communication and resolving workplace conflicts effectively. Learn practical techniques for active listening, providing constructive feedback, and fostering a collaborative environment where every team member feels heard and valued.",
     "label": "Business & Networking",
     "skip": false
@@ -1020,21 +1010,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Holiday Festival: A Celebration of Traditions, A festival of arts and culture, with a focus on a specific tradition, e.g., a specific holiday. Experience a diverse range of performances, from music and dance to theatre and art. This festival is a celebration of Wellington's rich cultural heritage.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Social Good Design Festival: A Showcase of Innovation, A festival of design, with a focus on social good. Browse a wide variety of works from local designers, and participate in workshops and talks. This festival celebrates creativity and the local design community.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Parade Festival: A Celebration of Community, A festival of community, with a focus on a specific activity, e.g., a parade. Join your neighbors in a day of fun and festivities, with a variety of activities for all ages. This festival celebrates the community spirit of Wellington.",
-    "label": "Festivals",
-    "skip": false
-  },
-  {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
     "skip": false
@@ -1127,11 +1102,6 @@
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Dumplings & Drink-Making, A relaxed and fun workshop where you will learn to make delicious dumplings from scratch while also learning how to craft your own unique cocktails. This is a great way to meet new people and hone new skills.",
-    "label": "Food & Drink",
     "skip": false
   },
   {
@@ -2062,46 +2032,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington Rugby Club Grand Final: The final game of the Wellington Rugby Club season. Come and watch the top two teams battle it out for the championship title. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Yoga Workshop: A workshop on the fundamentals of yoga, including a deep dive into postures, breathing techniques, and meditation. All levels welcome. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Fun Run Series: A multi-race fun run series with courses of varying lengths throughout Wellington. Participants can earn points for each race and compete for a series title. All fitness levels are welcome. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Indoor Climbing League: The final round of the Wellington Indoor Climbing League season. Watch the top climbers compete for the championship title in a series of challenging routes. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Beginner's Touch Rugby Clinic: An introductory clinic for touch rugby, covering the rules, basic skills, and game strategy. Learn from experienced coaches in a fun and supportive environment. All ages and fitness levels are welcome. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Skateboarding Competition: A skateboarding competition for all ages and skill levels. Compete in a range of events, including best trick, best line, and street course. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Capital City Cycling Club Time Trial: A weekly time trial race for cyclists of all abilities. Compete against the clock on a scenic course and track your progress throughout the season. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Beach Volleyball Tournament: A fun and friendly beach volleyball tournament for mixed teams. This event is all about participation and good sportsmanship, with a focus on social connection over competition. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
