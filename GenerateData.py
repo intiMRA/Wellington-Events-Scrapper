@@ -133,17 +133,51 @@ def count_categories():
         'Family Friendly': 0,
         'Classes & Workshops': 0
     }
+    class bcolors:
+        HEADER = '\033[95m'
+        OKBLUE = '\033[94m'
+        OKCYAN = '\033[96m'
+        OKGREEN = '\033[92m'
+        WARNING = '\033[93m'
+        FAIL = '\033[91m'
+        ENDC = '\033[0m'
+        BOLD = '\033[1m'
+        UNDERLINE = '\033[4m'
+
     with open(training_file_name, mode="r") as read_training_file:
         with open("ai_generates.json", mode="r") as ai_file:
             training_data = json.loads(read_training_file.read())
             ai_data = json.loads(ai_file.read())
+            ai_categories = {}
+            for data in ai_data:
+                key = data["label"]
+                if data["skip"]:
+                    continue
+                if key not in ai_categories.keys():
+                    ai_categories[key] = True
+                else:
+                    ai_categories[key] = False
             training_data += ai_data
             for data in training_data:
                 if data["skip"]:
                     continue
                 categories[data["label"]] = categories[data["label"]] + 1
             for cat in sorted(categories):
-                print(f"category: {cat} count: {categories[cat]}")
+                if ai_categories[cat]:
+                    if categories[cat] > 151:
+                        color = bcolors.FAIL
+                    elif categories[cat] < 151:
+                        color = bcolors.OKCYAN
+                    else:
+                        color = bcolors.OKGREEN
+                else:
+                    if categories[cat] > 150:
+                        color = bcolors.WARNING
+                    elif categories[cat] < 150:
+                        color = bcolors.HEADER
+                    else:
+                        color = bcolors.OKBLUE
+                print(f"{color}category: {cat} count: {categories[cat]} {bcolors.ENDC}")
 
 def print_duplicates():
     with open(training_file_name, mode="r") as f:
@@ -200,8 +234,8 @@ def move_top_n_largest(num:int, category: str):
                 json.dump(training_data, unclassified_file_write, indent=2)
 
 # generate_kid_friendly()
-# move_top_n_shortest(2, "Community & Culture")
-# move_top_n_largest(2, "Classes & Workshops")
+# move_top_n_shortest(2, "Health & Wellness")
+# move_top_n_largest(1, "Festivals")
 generate_data()
 generate_unclassified_data()
 count_categories()

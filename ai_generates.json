@@ -10,21 +10,6 @@
     "skip": false
   },
   {
-    "description": "Team Synergy Workshop: Communication & Conflict Resolution, A workshop for teams and managers on improving communication and resolving workplace conflicts effectively. Learn practical techniques for active listening, providing constructive feedback, and fostering a collaborative environment where every team member feels heard and valued.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Customer-Led Innovation: A Product Development Seminar, A seminar on how to use customer feedback and insights to drive product innovation. Learn methodologies for collecting and analyzing feedback, identifying customer pain points, and translating those insights into new features and products that meet market needs.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Online Reputation Management: A Personal Branding Workshop, A workshop for professionals on building and managing their personal brand online. Focus on strategies for online reputation management, creating a consistent digital identity across platforms, and leveraging your online presence to attract career and business opportunities.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "The New Normal: Remote Work & Corporate Culture, A conference on the long-term impact of remote and hybrid work on corporate culture. Hear from thought leaders on how to maintain a strong company identity, foster employee connection, and build a cohesive culture in a distributed work environment.",
     "label": "Business & Networking",
     "skip": false
@@ -87,11 +72,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Dark Skies & Light Pollution: A Talk, A talk on the importance of dark skies and the effects of light pollution on urban ecosystems and human health. Learn how to reduce light pollution in your home and community and enjoy the beauty of the night sky.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -1000,11 +980,6 @@
     "skip": false
   },
   {
-    "description": "Family Sports Day: Outdoor Games & Activities, A family-friendly sports day with a variety of outdoor games and activities. Teams will compete in a series of games, with a focus on teamwork, sportsmanship, and fun. This event is a great way to get active and connect with your community.",
-    "label": "Family Friendly",
-    "skip": false
-  },
-  {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
     "skip": false
@@ -1012,16 +987,6 @@
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
-  },
-  {
-    "description": "Wellington Film Collective: 'No Country for Old Men', A special screening of the Coen Brothers' 'No Country for Old Men' at The Roxy Cinema. This neo-Western thriller is a masterclass in tension and storytelling. The film will be followed by a discussion on the Coen Brothers' cinematic style and the film's themes.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Editing Masterclass with a Senior Editor, A hands-on masterclass with a senior film editor from Park Road Post Production. Learn about the art and craft of film editing, from pacing and rhythm to visual storytelling. This is a fantastic opportunity for students and professionals to learn from a top industry expert.",
-    "label": "Film & Media",
     "skip": false
   },
   {
@@ -1495,16 +1460,6 @@
     "skip": false
   },
   {
-    "description": "Holistic Hormone Health, Learn about the power of food, lifestyle, and natural remedies to support hormone balance. A naturopath will discuss common hormonal imbalances, their symptoms, and holistic strategies to promote vitality and wellbeing throughout all life stages.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
-    "description": "Intro to Trauma-Informed Yoga, This workshop provides a gentle and supportive introduction to trauma-informed yoga. Learn how to connect with your body in a safe and empowering way, focusing on choice, self-regulation, and nervous system support. All levels and bodies are welcome.",
-    "label": "Health & Wellness",
-    "skip": false
-  },
-  {
     "description": "Men's Wellbeing Workshop: Responding to Change, A workshop for men to develop tools for navigating life changes, big and small. Topics include career transitions, relationship challenges, and new parenthood. The session is led by a male wellness coach and focuses on open discussion and practical strategies for a healthy mindset.",
     "label": "Health & Wellness",
     "skip": false
@@ -1512,21 +1467,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Sunday Market, Join us every Sunday at the waterfront for a vibrant market experience. The Wellington Sunday Market features a huge variety of stalls, from local artisans and food producers to vintage sellers and upcyclers. Browse unique gifts, fresh produce, and delicious street food. Enjoy the lively atmosphere with live music and a bustling crowd. This is a great way to spend a Sunday and support local businesses. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "The Wellington Flea Market, The Wellington Flea Market is a treasure hunter's paradise! Find a treasure trove of pre-loved items, from vintage clothing and furniture to books and toys. This is a great place to find a unique bargain and give new life to old items. We'll have a mix of individual sellers and professional thrifters, so there's something for everyone. Free entry, all are welcome. Food and coffee stalls on site.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Food Festival, A food lover's paradise! The Wellington Food Festival features a huge selection of local food and drink producers. Sample new products, meet the makers, and discover new local favorites. From craft beer and wine to gourmet food and artisanal treats, this festival has something for everyone. Tickets available for purchase online.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -1642,21 +1582,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "The Holy Rosary: A Meditation on the Life of Christ, A public talk and workshop on the Holy Rosary as a form of meditation and prayer. This session will explain the history and spiritual significance of the Rosary, and provide guidance on how to pray it effectively. This is a peaceful and prayerful event for anyone wanting to deepen their spiritual life.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Church Planting 101: A Seminar for Aspiring Leaders, A seminar for those with a calling to plant a new church or ministry. This workshop will cover the practical aspects of church planting, from vision casting to fundraising and community outreach. Led by experienced church planters, this session will provide aspiring leaders with the tools and mentorship they need to succeed.",
-    "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "LDS Young Single Adults (YSA) Fireside, A monthly fireside service for young single adults (ages 18-30). This evening will include a spiritual message, music, and an opportunity to socialize and connect with other young adults who share your faith. This is a great way to strengthen your testimony and find support in a fun and friendly environment.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -2032,66 +1957,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Pilates for Core Strength: A mat-based Pilates class focused on strengthening the core muscles. This class is designed to improve posture, balance, and stability. Suitable for all fitness levels. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Fun Walk Series: A multi-race fun walk series with courses of varying lengths throughout Wellington. Participants can earn points for each race and compete for a series title. All fitness levels are welcome. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Introduction to Pickleball Tournament: A fun and friendly tournament for new pickleball players. Learn the rules, meet new people, and enjoy some friendly competition in a supportive environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Badminton Club Graded Tournament: A competitive singles and doubles tournament for badminton players of all grades. Compete for prizes and bragging rights in a fun and friendly environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Yoga for Flexibility: A slow-paced yoga class focused on improving flexibility and range of motion. Learn a range of stretches and poses to release tension and increase mobility. Suitable for all fitness levels. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Martial Arts Open Day: A free open day at a local martial arts gym. Try out a range of classes, meet the instructors, and learn more about the benefits of martial arts for fitness and self-defence. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Social Futsal Tournament: A fun and friendly indoor futsal tournament for mixed teams. This event is all about participation and good sportsmanship, with a focus on social connection over competition. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Fun Run & Walk: A non-competitive fun run and walk through the streets of Wellington. Choose from a 5k or 10k course, with a focus on fun and participation. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Introduction to Indoor Rock Climbing: A beginner's workshop on indoor rock climbing. Learn essential skills like belaying, knot tying, and basic climbing movements. No experience is required, and all gear is provided. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Hockey Club Junior Tournament: A fun and friendly hockey tournament for junior players. All teams are guaranteed to play multiple games, with a focus on fun, teamwork, and good sportsmanship. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Social Rugby Sevens Tournament: A fun and friendly rugby sevens tournament for mixed teams. This event is all about participation and good sportsmanship, with a focus on social connection over competition. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Weightlifting Club Seminar Series: A seminar series on the fundamentals of weightlifting, including proper form, technique, and programming. Learn from certified coaches and get tips on how to improve your lifts. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
