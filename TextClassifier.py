@@ -12,34 +12,84 @@ from keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
 import joblib
 
-true = True
-false = False
-
-training_data_file_name = "training_data.json"
-ai_data_file_name = "ai_generates.json"
-unclassified_data_file_name = "unclassified_data.json"
-
-load_ai = false
-should_train = true
-
 max_sequence_length = 1500
 num_words = 2000
 embedding_dim = 400
-tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
-all_texts = []
+def train_from_manual_training_files(load_ai):
+    training_data_file_name = "training_data.json"
+    ai_data_file_name = "ai_generates.json"
 
-with open(training_data_file_name, mode="r") as f:
-    data = json.loads(f.read())
-    all_texts.extend([item["description"] for item in data if not item["skip"]])
-if load_ai:
-    with open(ai_data_file_name, mode="r") as f:
+    all_texts = []
+    with open(training_data_file_name, mode="r") as f:
         data = json.loads(f.read())
         all_texts.extend([item["description"] for item in data if not item["skip"]])
+    if load_ai:
+        with open(ai_data_file_name, mode="r") as f:
+            data = json.loads(f.read())
+            all_texts.extend([item["description"] for item in data if not item["skip"]])
 
-tokenizer.fit_on_texts(all_texts)
-label_encoder = LabelEncoder()
+    tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
+    tokenizer.fit_on_texts(all_texts)
+    label_encoder = LabelEncoder()
+    set_random_seed(13453379)
+    enable_op_determinism()
+    X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name, label_encoder, tokenizer)
 
-def get_data(file_name: str):
+    X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
+
+    if load_ai:
+        X_train_ai, X_test_ai, Y_train_ai, Y_test_ai, num_classes_ai = get_data(ai_data_file_name, label_encoder, tokenizer)
+        for v in X_train_ai:
+            np.append(X_train, v)
+
+        for v in Y_train_ai:
+            np.append(Y_train, v)
+
+        for v in X_test_ai:
+            np.append(X_train, v)
+
+        for v in Y_test_ai:
+            np.append(Y_train, v)
+    train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder, tokenizer)
+
+def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder, tokenizer, verbose=1) -> float:
+    model = Sequential()
+    model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
+    model.add(Conv1D(filters=512, kernel_size=3, activation='relu'))
+    model.add(GlobalMaxPooling1D())
+    model.add(Dense(units=64, activation='relu'))
+    model.add(Dense(units=num_classes, activation='softmax'))
+
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+    early_stopping_callback = EarlyStopping(
+        monitor='val_loss',
+        patience=5,
+        mode='min',
+        restore_best_weights=True,
+        min_delta=0.0001
+    )
+
+    model.fit(
+        X_train, Y_train,
+        epochs=100,
+        batch_size=32,
+        validation_data=(X_val, Y_val),
+        callbacks=[early_stopping_callback],
+        verbose=verbose
+    )
+
+    loss, accuracy = model.evaluate(X_test, Y_test)
+    print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
+
+    model.save('trained_model')
+    tokenizer_json = tokenizer.to_json()
+    with open('tokenizer_config.json', 'w', encoding='utf-8') as f:
+        f.write(json.dumps(tokenizer_json, ensure_ascii=False))
+    joblib.dump(label_encoder, 'label_encoder.joblib')
+    return accuracy
+
+def get_data(file_name: str, label_encoder, tokenizer):
     texts = []
     labels = []
     with open(file_name, mode="r") as f:
@@ -131,62 +181,15 @@ def load_models_from_file():
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
-if should_train:
-    set_random_seed(13453379)
-    enable_op_determinism()
-    X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name)
-
-    X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
-
-    if load_ai:
-        X_train_ai, X_test_ai, Y_train_ai, Y_test_ai, num_classes_ai = get_data(ai_data_file_name)
-        for v in X_train_ai:
-            np.append(X_train, v)
-
-        for v in Y_train_ai:
-            np.append(Y_train, v)
-
-        for v in X_test_ai:
-            np.append(X_train, v)
-
-        for v in Y_test_ai:
-            np.append(Y_train, v)
-
-    model = Sequential()
-    model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
-    model.add(Conv1D(filters=512, kernel_size=3, activation='relu'))
-    model.add(GlobalMaxPooling1D())
-    model.add(Dense(units=64, activation='relu'))
-    model.add(Dense(units=num_classes, activation='softmax'))
-
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-
-    early_stopping_callback = EarlyStopping(
-        monitor='val_loss',
-        patience=5,
-        mode='min',
-        restore_best_weights=True,
-        min_delta=0.0001
-    )
-
-    model.fit(
-        X_train, Y_train,
-        epochs=100,
-        batch_size=32,
-        validation_data=(X_val, Y_val),
-        callbacks=[early_stopping_callback],
-        verbose=1
-    )
-
-    loss, accuracy = model.evaluate(X_test, Y_test)
-    print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
-
-    model.save('trained_model')
-    tokenizer_json = tokenizer.to_json()
-    with open('tokenizer_config.json', 'w', encoding='utf-8') as f:
-        f.write(json.dumps(tokenizer_json, ensure_ascii=False))
-    joblib.dump(label_encoder, 'label_encoder.joblib')
-
-labels_out = predict_from_file(
-    training_data_file_name
-)
+# use_ai_data = False
+# should_train = True
+#
+# if should_train:
+#     train_from_manual_training_files(use_ai_data)
+#
+# training_data_file = "training_data.json"
+# unclassified_data_file = "unclassified_data.json"
+#
+# labels_out = predict_from_file(
+#     training_data_file
+# )
