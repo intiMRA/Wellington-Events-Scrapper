@@ -52,7 +52,7 @@ def train_from_manual_training_files(load_ai):
             np.append(Y_train, v)
     train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder, tokenizer)
 
-def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder, tokenizer, verbose=1) -> float:
+def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder=None, tokenizer=None, epochs=100, verbose=1) -> float:
     model = Sequential()
     model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
     model.add(Conv1D(filters=512, kernel_size=3, activation='relu'))
@@ -72,7 +72,7 @@ def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_enc
 
     model.fit(
         X_train, Y_train,
-        epochs=100,
+        epochs=epochs,
         batch_size=32,
         validation_data=(X_val, Y_val),
         callbacks=[early_stopping_callback],
@@ -81,7 +81,8 @@ def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_enc
 
     loss, accuracy = model.evaluate(X_test, Y_test)
     print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
-
+    if not label_encoder and not tokenizer:
+        return accuracy
     model.save('trained_model')
     tokenizer_json = tokenizer.to_json()
     with open('tokenizer_config.json', 'w', encoding='utf-8') as f:
@@ -181,7 +182,7 @@ def load_models_from_file():
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
-# use_ai_data = False
+# use_ai_data = True
 # should_train = True
 #
 # if should_train:
@@ -191,5 +192,5 @@ def load_models_from_file():
 # unclassified_data_file = "unclassified_data.json"
 #
 # labels_out = predict_from_file(
-#     training_data_file
+#     unclassified_data_file
 # )

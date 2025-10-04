@@ -10,21 +10,6 @@
     "skip": false
   },
   {
-    "description": "The New Normal: Remote Work & Corporate Culture, A conference on the long-term impact of remote and hybrid work on corporate culture. Hear from thought leaders on how to maintain a strong company identity, foster employee connection, and build a cohesive culture in a distributed work environment.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Social Media ROI: An Advanced Analytics Masterclass, A masterclass for social media marketers on measuring the return on investment of their campaigns. Learn advanced analytics techniques to track key metrics, attribute sales to social media efforts, and prove the value of your social media strategy to business stakeholders.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Gig Economy Forum: Legal & Business Challenges, A panel discussion on the business and legal challenges of the gig economy. Hear from legal experts, gig workers, and company representatives on topics like independent contractor classification, platform regulations, and the future of freelance work.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Retirement Planning for the Self-Employed: A Financial Workshop, A workshop on retirement planning tailored for self-employed individuals and business owners. Learn strategies for building a retirement fund, understanding different investment vehicles, and navigating financial planning without a traditional employer-sponsored plan.",
     "label": "Business & Networking",
     "skip": false
@@ -72,26 +57,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Sustainable Fishing Workshop: Conservation for Recreation, A workshop on sustainable fishing and marine conservation practices for recreational fishers. Learn how to minimize your environmental impact, identify native fish species, and contribute to the health of our marine ecosystems.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "The Circular Economy: A Business Opportunities Seminar, A seminar on the circular economy and its business opportunities. Hear from business leaders on how to design products and services that minimize waste, maximize resource efficiency, and create a more sustainable and profitable business model.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Living Roof Workshop: A Green Roof for Your Home, A hands-on workshop on creating a living roof or green roof for your home. Learn about plant selection, drainage, and structural considerations to create a functional and beautiful green space on top of a shed or other small structure.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Neighbourhood Clean-Up: Beautifying Our Streets, A community clean-up of a specific street or neighbourhood. Join your neighbours in a fun and active event that helps to beautify your community and remove litter from local streets and parks. All supplies are provided.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -432,21 +397,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Home Plumbing Basics: A Repair Workshop, A hands-on workshop on basic home plumbing repairs. Learn how to fix a leaky faucet, unclog a drain, and replace a toilet flapper. This class is perfect for homeowners who want to save money and handle simple plumbing issues on their own.",
-    "label": "Education & Learning",
-    "skip": false
-  },
-  {
-    "description": "Creative Writing: An Aspiring Novelist's Course, A course on creative writing for aspiring novelists. Learn about story structure, character development, plot, and dialogue writing as you work on your own novel concept. This course is perfect for writers who want to turn their ideas into a full-length book.",
-    "label": "Education & Learning",
-    "skip": false
-  },
-  {
-    "description": "Digital Photography Fundamentals: A Beginner's Workshop, A beginner's workshop on digital photography fundamentals. Learn about camera settings, composition, and lighting to capture stunning photos with purpose. Bring your own camera and a willingness to learn.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -990,16 +940,6 @@
     "skip": false
   },
   {
-    "description": "Found Footage Horror Film Festival, A night of found footage horror films at the Vogelmorn Bowling Club. We'll be screening a selection of films that use the found footage format to create a terrifyingly immersive experience. A discussion on the history of the sub-genre will follow the screenings. R18+",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
-    "description": "Behind the Lens: A Cinematography Workshop, Learn the art of visual storytelling in this hands-on cinematography workshop. A professional cinematographer will teach you about camera angles, lighting, and composition to help you create stunning and impactful images for your films.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Film Music Showcase: The John Williams Experience, Celebrate the legendary film composer John Williams with a special concert by the Wellington Youth Orchestra. They will be performing his iconic scores from 'Star Wars,' 'Jurassic Park,' 'Indiana Jones,' and many more. This is a magical night for film and music lovers.",
     "label": "Film & Media",
     "skip": false
@@ -1467,11 +1407,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Craft Fair, A celebration of local craftsmanship and creativity! The Wellington Craft Fair brings together a huge variety of local artists and crafters. Browse a wide selection of paintings, sculptures, ceramics, textiles, and more. This is a great place to find a unique gift or a special piece for your home. We'll have live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
     "skip": false
   },
   {
@@ -1957,11 +1892,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Tai Chi for Balance: A gentle exercise class for seniors focused on improving balance and coordination. Learn a range of movements and breathing techniques to reduce the risk of falls and improve overall well-being. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {
