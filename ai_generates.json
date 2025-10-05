@@ -10,11 +10,6 @@
     "skip": false
   },
   {
-    "description": "Retirement Planning for the Self-Employed: A Financial Workshop, A workshop on retirement planning tailored for self-employed individuals and business owners. Learn strategies for building a retirement fund, understanding different investment vehicles, and navigating financial planning without a traditional employer-sponsored plan.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
     "description": "Tourism Marketing Summit: Promoting Wellington to the World, A business event focused on marketing strategies for the tourism industry in the Wellington region. Connect with travel agents, hotel managers, and destination marketers to discuss collaborative campaigns and digital tactics to attract both domestic and international visitors.",
     "label": "Business & Networking",
     "skip": false
@@ -57,16 +52,6 @@
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Edible Weeds Guided Walk: Foraging in the City, A guided walk focusing on identifying local edible weeds and plants. Learn about the nutritional value of common 'weeds' and how to safely forage for them to add new flavors to your cooking. This is a unique take on a foraging event.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Whaling History of Wellington: An Environmental Impact Talk, A talk on the history of whaling in Wellington and its environmental impact. Learn about the local whaling industry's past and how conservation efforts have helped the local whale and dolphin populations recover in recent years.",
-    "label": "Conservation & Environment",
     "skip": false
   },
   {
@@ -397,16 +382,6 @@
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Advanced Home Barista Skills: A Coffee Masterclass, A masterclass on advanced home barista skills, beyond latte art. Learn how to dial in your espresso machine, steam milk to perfection, and create a variety of delicious coffee beverages at home. This class is for coffee lovers who want to take their home brewing to the next level.",
-    "label": "Education & Learning",
-    "skip": false
-  },
-  {
-    "description": "Gardening for Beginners: A Vegetable & Herb Course, A course on gardening for beginners, covering vegetables and herbs. Learn how to prepare the soil, select the right plants for your garden, and care for them to enjoy fresh, healthy food from your own backyard.",
-    "label": "Education & Learning",
     "skip": false
   },
   {
@@ -940,11 +915,6 @@
     "skip": false
   },
   {
-    "description": "Film Music Showcase: The John Williams Experience, Celebrate the legendary film composer John Williams with a special concert by the Wellington Youth Orchestra. They will be performing his iconic scores from 'Star Wars,' 'Jurassic Park,' 'Indiana Jones,' and many more. This is a magical night for film and music lovers.",
-    "label": "Film & Media",
-    "skip": false
-  },
-  {
     "description": "Documentary Workshop: Telling Your Story, Learn how to create your own documentary film in this comprehensive workshop. We'll cover everything from finding a compelling story and conducting interviews to editing and sound design. This is a great opportunity to learn how to tell a powerful story about your community.",
     "label": "Film & Media",
     "skip": false
@@ -1410,11 +1380,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Pop-Up Shop, A unique shopping experience! The Wellington Pop-Up Shop features a curated selection of local artists, designers, and food vendors. Browse unique gifts, art, and fashion while enjoying a festive atmosphere with live music and delicious food. This is a great opportunity to discover new local businesses and support the creative community in Wellington. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
     "description": "Wellington Christmas Market, Get into the festive spirit at the Wellington Christmas Market. This magical market features a huge selection of handmade gifts, festive decorations, and delicious holiday treats. Find unique gifts for everyone on your list while enjoying a festive atmosphere with carolers, hot chocolate, and a visit from Santa himself. This is a great way to support local artisans and get your holiday shopping done in a fun and festive environment. Free entry, all are welcome.",
     "label": "Markets & Fairs",
     "skip": false
@@ -1517,11 +1482,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Christadelphian Bible Talk: The Return of Christ, A public talk and discussion on the second coming of Jesus Christ, as foretold in the Bible. This session will explore the prophecies and signs of Christ's return, and what it means for believers today. All are welcome to attend and learn more about this central theme of the Christian faith. The talk will be followed by a Q&A session and light refreshments.",
-    "label": "Religion & Spirituality",
     "skip": false
   },
   {
@@ -1892,26 +1852,6 @@
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Fun Walk and Run: A non-competitive fun walk and run through the streets of Wellington. Choose from a 5k or 10k course, with a focus on fun, fitness, and social connection. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Introduction to Boxing for Fitness: A beginner's class on boxing for fitness. Learn basic boxing techniques, footwork, and combinations in a safe and supportive environment. All fitness levels are welcome. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Wellington Roller Derby Scrimmage: A friendly scrimmage for roller derby players of all skill levels. Practice your skills, learn from others, and get some good exercise in a fun and supportive environment. ",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
-    "description": "Social Tennis Tournament: A fun and friendly tennis tournament for mixed teams. This event is all about participation and good sportsmanship, with a focus on social connection over competition. ",
-    "label": "Sports & Fitness",
     "skip": false
   },
   {

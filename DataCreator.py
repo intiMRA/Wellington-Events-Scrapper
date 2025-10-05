@@ -277,7 +277,7 @@ def run():
     initial_population = []
 
     for _ in range(pop_size):
-        initial_population.append([random.randint(init_range_low, init_range_high) for _ in range(num_genes)])
+        initial_population.append([ gene if random.uniform(0,1) > 0.5 else random.randint(init_range_low, init_range_high) for gene in balanced_individual])
 
     initial_population.append(balanced_individual)
 
