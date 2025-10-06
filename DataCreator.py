@@ -22,11 +22,14 @@ MODEL_CHOICE = 'LR'
 ga_test_file_name = "ga_test.json"
 ga_training_choices_file_name = "ga_training_choices.json"
 ga_output_file_name = "ga_output.json"
+ga_output_file_combined_name = "ga_output_combined.json"
 ga_balanced_individual_file_name = "ga_balanced_individual.json"
 
-def load_data_initial_data() -> List[Dict]:
+def load_data_initial_data(load_ai) -> List[Dict]:
     data = []
-    file_names = ["training_data.json", "unclassified_data.json", "ai_generates.json"]
+    file_names = ["training_data.json", "unclassified_data.json"]
+    if load_ai:
+        file_names.append("ai_generates.json")
     for file_name in file_names:
         try:
             with open(file_name, mode="r") as f:
@@ -70,10 +73,10 @@ def count_min_classes(data: List[Dict]) -> int:
 
 
 def generate_files():
-    data = load_data_initial_data()
+    data = load_data_initial_data(load_ai=False)
 
     counts = count_min_classes(data)
-    test_num = int(counts * 0.2)
+    test_num = int(counts * 0.4)
     random.shuffle(data)
 
     classes = {}
@@ -86,6 +89,7 @@ def generate_files():
         test.extend(classes[c][0:test_num])
 
     test_set = set(id(d) for d in test)
+    data = load_data_initial_data(load_ai=True)
     training = [d for d in data if id(d) not in test_set]
 
     training_classes = {}
@@ -180,10 +184,16 @@ def best_solution(solution: List[int]):
 
     training_array = np.array(training_list, dtype=object)
 
-    data = training_array[solution]
+    data = training_array[solution].tolist()
 
     with open(ga_output_file_name, mode="w") as ga_output_file:
-        json.dump(data.tolist(), ga_output_file, indent=2)
+        json.dump(data, ga_output_file, indent=2)
+
+    with open(ga_test_file_name, mode="r") as ga_test_file:
+        data += json.loads(ga_test_file.read())
+
+    with open(ga_output_file_combined_name, mode="w") as ga_output_file_combined:
+        json.dump(data, ga_output_file_combined, indent=2)
 
 
 generate_files()
@@ -264,8 +274,8 @@ def run():
     num_genes = len(balanced_individual)
 
     init_range_high = X_pool.shape[0] - 1
-    pop_size = 1000
-    num_generations = 100
+    pop_size = 150
+    num_generations = 150
     num_parents_mating = int(pop_size * 0.2)
     init_range_low = 0
     parent_selection_type = "sss"

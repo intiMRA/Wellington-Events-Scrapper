@@ -16,7 +16,8 @@ max_sequence_length = 1500
 num_words = 2000
 embedding_dim = 400
 def train_from_manual_training_files(load_ai):
-    training_data_file_name = "training_data.json"
+    use_ga = True
+    training_data_file_name = "ga_output_combined.json" if use_ga else "training_data.json"
     ai_data_file_name = "ai_generates.json"
 
     all_texts = []
@@ -182,15 +183,15 @@ def load_models_from_file():
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
-# use_ai_data = True
-# should_train = True
-#
-# if should_train:
-#     train_from_manual_training_files(use_ai_data)
-#
-# training_data_file = "training_data.json"
-# unclassified_data_file = "unclassified_data.json"
-#
-# labels_out = predict_from_file(
-#     training_data_file
-# )
+use_ai_data = False
+should_train = True
+
+if should_train:
+    train_from_manual_training_files(use_ai_data)
+
+training_data_file = "training_data.json"
+unclassified_data_file = "unclassified_data.json"
+
+labels_out = predict_from_file(
+    unclassified_data_file
+)

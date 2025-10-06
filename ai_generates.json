@@ -2,1871 +2,2155 @@
   {
     "description": "Vincent Vega Plays Tarintino, A night of surf, soul and rockn'roll bangers from Quentin Tarantino's cult classic films, played with great vengeance & furious anger by Wellingtons favourite surf-rock saviours Vincent Vega. Expect tunes from Pulp Fiction, Reservoir Dogs, Once Upon A Time In Hollywood, The Hateful Eight, Death Proof and more.\n\nFeaturing special guests Lisa Tomlins on vocals and Louis TM on keys and vocals, as well as the usual suspects in Richard Te One (drums), Nick Lissette (bass) and Chris Armour (guitar)\n\nMusic from 9:30pm FREE ENTRY",
     "label": "Music & Concerts",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
-    {
+  {
     "description": "'TONES OF SILENCE' - FUTUNA CHAPEL IN B&W - EXHIBITION, \u2018TONES of SILENCE\u2019 \u2013 FUTUNA CHAPEL in BLACK & WHITE - EXHIBITION\nThe \u2018Tones of Silence\u2019 -explored through B & W photography taken with vintage camera and lenses to give another way of viewing and experiencing the Chapel. This exhibition will explore the tones, textures, composition and forms of the Chapel in black and white with many shades of grey.\n\"Generally, the older the equipment, the greater the personal input of the photographer is required and therefore the greater the commitment and individuality. Often, you can look at a 19th-century photograph and tell who the photographer is. You certainly can't do that today. It isn't only the camera and lens, but also the type of film (or in those days, glass plate), the developer used and how the print is made onto particular types of paper. Each gives a distinct interpretation\".\nJohn Grace - email - 18/06/25\nThe Trust looks forward to welcoming architects, designers, graduates, students and interested members of the public to attend this event and support the Trust in its work.\nThe Futuna Trust is a charitable organisation and all koha received from the exhibition events will go towards the ongoing care, maintenance and operation of Futuna Chapel and also to support various initiatives undertaken by the Trust.  Please register\nBOOKINGS ARE PREFERRED TO ATTEND THIS EVENT",
     "label": "Arts & Theatre",
-    "skip": false
-  },
-  {
-    "description": "Tourism Marketing Summit: Promoting Wellington to the World, A business event focused on marketing strategies for the tourism industry in the Wellington region. Connect with travel agents, hotel managers, and destination marketers to discuss collaborative campaigns and digital tactics to attract both domestic and international visitors.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Future of Retail Forum: Bridging the Online-Offline Gap, A forum on the future of retail, addressing the integration of online and offline experiences. Hear from retail experts on omnichannel strategies, in-store technology, and creating a seamless customer journey that combines the best of both worlds.",
-    "label": "Business & Networking",
-    "skip": false
-  },
-  {
-    "description": "Hospitality Founders' Night: Connect & Collaborate, A networking event for small business owners and entrepreneurs in the hospitality sector. Join fellow restaurateurs, cafe owners, and food truck operators to share insights, discuss industry challenges, and find opportunities for collaboration within Wellington's vibrant food scene.",
-    "label": "Business & Networking",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Creative Pitch Workshop: From Vision to Business Plan, A hands-on workshop for artists and designers on how to turn a creative vision into a viable business. Learn how to craft a solid business plan, develop a compelling pitch deck, and confidently present your ideas to potential clients or investors.",
     "label": "Business & Networking",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Social Media Branding for Business: A TikTok & Instagram Masterclass, A masterclass on building a powerful business brand using social media platforms like TikTok and Instagram. Learn strategies for creating engaging short-form video content, growing an authentic following, and converting followers into customers.",
     "label": "Business & Networking",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Career Transitions Over 50: A Forum on Future-Proofing, A discussion forum for professionals over the age of 50 on navigating career changes and building new skills. Hear from career coaches and business leaders on how to leverage experience and adapt to a changing job market to find new opportunities.",
     "label": "Business & Networking",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Financial Foundations: Budgeting for New Business Owners, A practical workshop on financial management and budgeting for new business owners. Learn how to set up financial systems, use accounting software, and create a budget that ensures your business stays on a healthy financial track from the very beginning.",
     "label": "Business & Networking",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Business Budgeting Workshop: Spreadsheets & Financial Tracking, A practical workshop on using spreadsheets for business budgeting and financial tracking. Learn how to create a simple budget, forecast revenue and expenses, and monitor your business's financial health with confidence.",
     "label": "Classes & Workshops",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Great Wairarapa Dog Show, A light-hearted dog show competition open to all breeds and ages, with categories including 'Best Trick', 'Waggiest Tail', and 'Cutest Costume'. A fun family event with prizes and local pet-focused stalls. This is a new take on a dog show and is located in the Wairarapa.",
     "label": "Community & Culture",
-    "skip": false
-  },
-  {
-    "description": "Natural Dyeing Workshop: From Foraged to Fabric, A hands-on workshop on making your own natural dyes from foraged materials. Learn how to use local plants, berries, and bark to create a unique color palette for dyeing fabrics and textiles. All materials provided.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Raingarden Workshop: Stormwater Management for Your Home, A workshop on building a raingarden for stormwater management. Learn how to design and build a garden that captures and filters rainwater from your roof, reducing runoff and improving water quality in your local area.",
-    "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "The Science of Climate Change: A Talk for the Community, A talk on the science of climate change and its local effects on Wellington. Hear from a climate scientist on the latest research, the future projections for our region, and what we can do as a community to adapt and mitigate its effects.",
-    "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Bug Hotel Workshop: Creating a Habitat for Insects, A hands-on workshop on building a bug hotel for a backyard garden. Learn about the importance of pollinators and beneficial insects, and how to create a habitat that attracts and supports them in your garden.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Food Waste Reduction: A Creative Cooking Class, A cooking class focused on food waste reduction and creative cooking with leftovers. Learn how to transform food scraps into new and delicious meals, saving money and reducing your environmental impact in the kitchen.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Predator Effects: A Talk on Native Birds, A seminar on the ecological effects of introduced predators on native birds. Hear from a conservation expert on the devastating impact of pests and the ongoing efforts to create predator-free zones to protect our unique birdlife.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Eco-Friendly Cleaning Workshop: DIY Household Cleaners, A hands-on workshop on making your own eco-friendly household cleaners. Learn simple recipes for natural, non-toxic cleaners using everyday ingredients like vinegar, baking soda, and essential oils. All materials included.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Garden Build Day: From Plot to Harvest, A community event for building and planting a new community garden. Join your neighbors to prepare the soil, build raised beds, and plant a variety of vegetables and herbs. This is a great way to meet people and get involved in local food systems.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Wellington's Parks: A Guided Walk, A guided walk on the history of Wellington's parks and reserves. Learn about the history of a specific local park, from its origins as a public space to its current role in conservation and recreation.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sustainable Wardrobe Workshop: Thrifting & Planning, A workshop on creating a sustainable wardrobe through thrifting and capsule planning. Learn how to shop for secondhand clothing, repair and upcycle garments, and build a timeless wardrobe that is both stylish and eco-friendly.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Pollinator Seminar: Bees & Our Ecosystem, A seminar on the role of bees and other pollinators in our ecosystem. Hear from a beekeeper and a botanist on the importance of pollinators for food production and biodiversity, and what you can do to create a pollinator-friendly garden.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Native Tree Identification: A Guided Walk, A guided walk focusing on identifying native trees and their uses. Learn about the different types of native trees, their cultural significance, and their role in the ecosystem. This is a great way to deepen your knowledge of New Zealand's unique flora.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Zero-Waste Bathroom Workshop: DIY Products, A hands-on workshop on creating a 'zero-waste' bathroom with DIY products. Learn to make your own toothpaste, deodorant, and other personal care products, reducing plastic waste and exposure to harsh chemicals.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Conservation Campaign: A Call to Action, A community-led campaign for a local conservation issue. This event brings together residents, activists, and experts to discuss a specific conservation issue and organize a campaign to address it. This is a great way to get involved in local democracy.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Freshwater Talk: Protecting Our Local Streams, A talk on the importance of fresh water and how to protect local streams and rivers. Hear from a freshwater ecologist on the threats to our waterways and what we can do to improve their health and biodiversity.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Seed Saving Workshop: Heritage Gardening, A workshop on basic seed saving and heritage gardening. Learn how to save seeds from your own plants, store them properly, and grow a variety of heritage vegetables and herbs to preserve genetic diversity and build a resilient food system.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Butterfly Garden Workshop: Planting for Pollinators, A hands-on workshop for building and planting a butterfly garden. Learn how to select plants that attract butterflies and other pollinators, and how to create a habitat that supports a healthy and diverse ecosystem in your backyard.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Plastic Packaging Seminar: Alternatives & Impacts, A seminar on the impact of plastic packaging on the environment and alternatives. Hear from experts on the latest innovations in sustainable packaging and what you can do as a consumer to reduce your plastic footprint.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Upcycling Workshop: Old Clothes into New Bags, A workshop on upcycling old clothes into new garments or bags. Learn basic sewing and design techniques to transform old clothing into new, stylish, and functional items, reducing textile waste and promoting sustainable fashion.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "River Restoration Day: Community Planting, A community river restoration day. Join your neighbors to plant native trees and shrubs along a local riverbank, helping to stabilize the soil, improve water quality, and create a healthier ecosystem for native fish and birds.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Port History: Environmental Legacy Talk, A talk on the history of Wellington's port and its environmental legacy. Learn about the port's industrial past, the environmental challenges it has faced, and the ongoing efforts to clean up the harbor and restore its health.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Organic Fertilizer Workshop: Compost Teas & More, A hands-on workshop on making your own organic fertilizer and compost teas. Learn simple recipes for nutrient-rich fertilizers that will nourish your plants and improve the health of your soil without the use of harsh chemicals.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Renewable Energy Seminar: The Latest in Green Tech, A seminar on the latest in renewable energy technologies. Hear from experts on solar, wind, and geothermal power, and the role of these technologies in the transition to a low-carbon economy.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "DIY Greenhouse Workshop: Building with Recycled Materials, A hands-on workshop on building a home greenhouse from recycled materials. Learn how to design and construct a simple, affordable greenhouse to extend your growing season and protect your plants from the elements.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Tree Planting: A Reforestation Event, A community event for a large-scale tree-planting project. Join your neighbors to plant thousands of native trees, helping to reforest a local reserve and create a healthier, more biodiverse environment for future generations.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Climate Change for Kids: A Fun Science Talk, A talk on the science of climate change, specifically for children. Using fun and engaging experiments, this talk helps kids understand the causes and effects of climate change and what they can do to help protect the planet.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Organic Pest Management Workshop: Natural Solutions, A hands-on workshop on identifying and managing garden pests without chemicals. Learn about organic pest control methods and how to create a healthy garden ecosystem that naturally repels pests.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Guided History Walk: A Local Forest or Park, A guided walk on the history of a specific local forest or park. Learn about the land's past, from its use by early M\u0101ori to its current role as a public space and conservation area. This is a great way to connect with your local environment.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sustainable Tourism Seminar: Business Opportunities, A seminar on the business opportunities in sustainable tourism. Hear from tourism operators and business leaders on how to create a tourism business that is both profitable and environmentally responsible, attracting a growing market of eco-conscious travelers.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Natural Candles Workshop: From Beeswax to Soy, A hands-on workshop on making natural candles from beeswax or soy wax. Learn how to melt wax, add essential oils, and pour your own custom candles to create a beautiful and eco-friendly gift or home decoration.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Marine Reserve: A Biodiversity Talk, A talk on Wellington's marine reserve and its biodiversity. Hear from a marine biologist on the importance of marine reserves for protecting marine life, the unique species that live in the reserve, and the ongoing conservation efforts to protect it.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Predator-Free Wellington Campaign: A Community Briefing, A community-led campaign for a predator-free neighborhood. This event brings together residents, conservation groups, and experts to discuss a specific predator-free campaign and how to get involved in trapping and other conservation efforts.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Insect Macro Photography Workshop: A Tiny World, A hands-on workshop on the art of insect macro photography. Learn how to capture stunning close-up details of insects and other small creatures in a garden setting. This class will cover specialized camera settings, lighting techniques, and composition to reveal the intricate beauty of the natural world.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Pollinator Garden Workshop: A Buzz for Urban Spaces, A workshop on creating a pollinator-friendly garden in an urban setting. Learn how to select plants that attract bees, butterflies, and other pollinators, and how to create a habitat that supports a healthy and diverse ecosystem in your backyard or balcony.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Native Forests: A Regeneration Talk, A talk on the history of Wellington's native forests and their regeneration. Learn about the challenges these forests have faced over the years, the conservation efforts that have been made, and the unique species that call them home.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Natural Pest Control: A Companion Planting Workshop, A workshop on natural pest control for home gardens using companion planting. Learn which plants to grow together to deter pests, attract beneficial insects, and create a healthy and chemical-free garden ecosystem.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Stream Clean-Up & Water Testing Day, A community clean-up of a specific stream or river, with a focus on water quality testing. Join volunteers to remove litter from the waterway and learn how to use simple testing kits to monitor its health.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Soil Health Seminar: The Science of Composting, A seminar on the science of soil health and advanced composting techniques. Learn about the different types of compost, how to create a nutrient-rich soil, and the benefits of healthy soil for a thriving garden and a healthy planet.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Eco-Friendly Crafts: Wrapping Paper & Cards Workshop, A hands-on workshop on creating eco-friendly wrapping paper and cards using natural dyes, recycled paper, and other sustainable materials. Learn how to make beautiful, personalized gifts that are kind to the environment.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Bird-Watching Walk: A Guided Tour of Zealandia, A guided bird-watching walk at a local reserve. Learn how to identify native birds by their calls and songs, and discover the unique species that call the reserve home. This is a great way to connect with your local environment.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Plastic-Free Lunches: A Sustainable Workshop, A workshop on creating a sustainable, plastic-free packed lunch for kids. Learn how to use reusable containers, wraps, and utensils, and discover simple recipes for delicious, waste-free lunches that are both healthy and eco-friendly.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Invasive Fish Species Talk: A Threat to Waterways, A talk on the impact of invasive fish species in local waterways. Hear from a freshwater ecologist on the threats these species pose to native fish populations and what you can do to help prevent their spread.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Hedge Planting: A Wildlife Habitat Event, A community planting event focused on creating a native plant hedge for local wildlife. Learn how to select the right plants to create a safe habitat and food source for native birds and insects.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Recycling Innovation: The Business of Waste Management, A seminar on the business of waste management and recycling innovation. Hear from industry experts on the latest technologies and business models in the recycling sector, and the challenges and opportunities of a circular economy.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Native Plant Gardening for Beginners: A Workshop, A workshop on creating a native plant garden for beginners. Learn how to select the right plants for your garden, prepare the soil, and create a low-maintenance, wildlife-friendly garden that is both beautiful and eco-friendly.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Geological History Walk: The Remutaka Range, A guided walk focusing on the geological history of the Remutaka Range. Learn about the formation of the mountains, the history of earthquakes and landslips, and the unique geological features that make the range so special.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Citizen Science in Bird Tracking: A Talk, A talk on the role of citizen science in tracking bird populations. Learn how you can contribute to bird research by collecting data on native birds in your backyard and community, helping scientists monitor their health and well-being.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "DIY Household Cleaners Workshop: Laundry & Dish Soap, A hands-on workshop on making your own eco-friendly household laundry and dish soap. Learn simple recipes for natural, non-toxic cleaners using everyday ingredients, reducing plastic waste and exposure to harsh chemicals.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Garden Open Day: Share & Learn, A community garden 'open day' where members show off their plots and share knowledge. This is a great way to meet other gardeners, get inspired, and learn about the joys of growing your own food in a community setting.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Marine Reserves Seminar: Fish Breeding & Biodiversity, A seminar on the importance of marine reserves for fish breeding and biodiversity. Hear from a marine biologist on how marine reserves help protect marine life, the unique species that live in them, and the ongoing conservation efforts to protect our oceans.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wildlife Pond Workshop: A Water Feature for Your Garden, A hands-on workshop on creating a wildlife pond or water feature in a garden. Learn how to design and build a pond that attracts native birds, insects, and other wildlife, creating a healthy and diverse ecosystem in your backyard.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wairarapa Farming History: An Environmental Impact Talk, A talk on the history of farming in the Wairarapa and its environmental impact. Learn about the changes to the land over the years, the challenges it has faced, and the ongoing efforts to create a more sustainable agricultural system.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Native Seed Collection Workshop: Propagating from Seed, A workshop on identifying and collecting native seeds for propagation. Learn how to properly collect, clean, and store seeds from native plants, contributing to local reforestation and conservation efforts.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Pest-Free Park Working Bee: Removing Predators, A community working bee focused on removing pests from a local park. Join volunteers to check and set pest traps to protect native birds and their habitats. All tools and safety gear provided.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Composting Science Seminar: Combating Climate Change, A seminar on the science of composting and how it helps combat climate change. Learn about the role of soil in carbon sequestration and how composting can help reduce greenhouse gas emissions. This is a great way to learn about the environmental benefits of composting.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Eco-Friendly Cosmetics Workshop: DIY Personal Care, A hands-on workshop on making your own eco-friendly cosmetics and personal care products. Learn to make natural lip balms, body butters, and other products using simple, wholesome ingredients, reducing plastic waste and exposure to harsh chemicals.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Guided Walk: The History of a Local Park, A guided walk on the history of a specific local park. Learn about the land's past, from its early use by local communities to its current role as a public space and conservation area. This is a great way to connect with your local environment.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Noise Pollution Talk: The Impact on Urban Wildlife, A talk on the impact of noise pollution on urban wildlife. Hear from an ecologist on how artificial noise affects the behavior of native birds and other animals, and what you can do to reduce noise pollution in your neighbourhood.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Compost Toilet Workshop: Off-Grid Living, A hands-on workshop on building a compost toilet for off-grid living or camping. Learn about the design and construction of a simple, sustainable toilet, and the benefits of composting human waste for a healthier planet.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Land Restoration Fundraiser: Restoring Our Forests, A community fundraiser for a local land restoration project. Enjoy a family-friendly afternoon with live music, food trucks, and a silent auction, with all proceeds supporting the reforestation of a local reserve.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Native Tree Planting: Carbon Sequestration Seminar, A seminar on the importance of planting native trees for carbon sequestration. Hear from a climate scientist on the role of trees in combating climate change and how you can get involved in local planting projects.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "No-Dig Garden Workshop: Grow Your Own Food, A hands-on workshop on creating a no-dig vegetable garden. Learn how to build a garden bed without digging, using layers of organic materials to create a productive and low-maintenance garden. All materials are provided.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "M\u0101ori Cultural Significance of Native Plants: A Talk, A talk on the cultural significance of native plants to M\u0101ori. Learn about the traditional uses of local flora for food, medicine, and weaving, and the importance of preserving this knowledge for future generations.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Upcycling Workshop: Old Furniture to New Pieces, A hands-on workshop for upcycling old furniture into new pieces. Learn basic carpentry, painting, and upholstery techniques to transform discarded items into functional art, reducing waste and promoting sustainable living.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Nesting Box Building Workshop: Homes for Urban Birds, A community event for building and installing nesting boxes for urban birds. Learn about the nesting habits of native birds and help provide safe, artificial habitats to support urban wildlife in a local park or reserve.",
     "label": "Conservation & Environment",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Low-Carbon Economy: A Business Transition Seminar, A seminar on the role of businesses in transitioning to a low-carbon economy. Hear from business leaders on how to reduce your carbon footprint, invest in renewable energy, and create a business model that is both profitable and sustainable.",
     "label": "Conservation & Environment",
-    "skip": false
-  },
-  {
-    "description": "Eco-Friendly Cleaning: A DIY Workshop, A hands-on workshop on making eco-friendly cleaning products. Learn simple recipes for natural, non-toxic cleaners using everyday ingredients like vinegar, baking soda, and essential oils. This class is a great way to save money and reduce your environmental impact.",
-    "label": "Education & Learning",
-    "skip": false
-  },
-  {
-    "description": "Bike Maintenance & Repair: A Hands-On Workshop, A practical workshop on basic bike maintenance and repair. Learn how to fix a flat tire, adjust your brakes, and perform basic tune-ups to keep your bike running smoothly and safely. Bring your own bike to get hands-on experience.",
-    "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Ukulele for Beginners: A Fun Music Class, A fun and low-pressure class for absolute beginners who want to learn to play the ukulele. You'll learn basic chords, strumming patterns, and a few popular songs to get you started on your musical journey.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Drawing Fundamentals: Perspective & Shading, A course on drawing fundamentals, including perspective and shading. Learn how to draw realistic objects, landscapes, and portraits by mastering the basics of form, light, and shadow. This class is for artists of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Knitting & Crochet for Beginners: A Hands-On Class, A hands-on class on knitting and crochet for beginners. Learn the basic stitches, how to read a pattern, and how to create simple projects like a scarf or a hat. This class is a great way to learn a new craft and relax your mind.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Artisan Bread Baking: Focaccia & Ciabatta Workshop, A baking workshop on how to create delicious artisan breads. Learn the secrets to a perfect focaccia and ciabatta, from dough hydration and proofing to achieving a crispy crust and a light, airy crumb.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Watercolor Painting Techniques: A Creative Course, A course on watercolor painting techniques. Learn how to mix colors, create atmospheric effects, and use different brushwork to create beautiful and expressive watercolor paintings. This class is for artists of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Bird-Watching & Identification: A Local Reserve Class, A class on bird-watching and identification in a local reserve. Learn how to identify native birds by their unique calls and songs, and discover the different species that call the reserve home. This class is a great way to connect with your local environment.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "DIY Cheese Making: A Home Workshop, A hands-on workshop on making your own cheese at home. Learn simple recipes for fresh cheeses like ricotta and mozzarella, and discover the joys of creating your own delicious dairy products from scratch.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Conversational Spanish: A Language Class, A class on conversational Spanish for travelers and language learners. We'll focus on key phrases, practical vocabulary, and pronunciation to help you navigate everyday situations with confidence while traveling or speaking with friends.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sustainable Fashion: Mending & Upcycling Workshop, A workshop on sustainable fashion, focusing on mending and upcycling. Learn how to repair, alter, and transform old clothing into new, stylish pieces, extending the life of your wardrobe and reducing textile waste.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Songwriting & Music Production: A Creative Course, A course on songwriting and music production. Learn how to generate ideas, craft compelling lyrics, and use music production software to create your own original songs. This course is for musicians and aspiring songwriters of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Pottery Workshop: Hand-Building & Glazing, A hands-on workshop on pottery, from hand-building to glazing. Learn how to create ceramic pieces using different hand-building techniques, and how to apply glazes to create unique and beautiful finishes. This class is perfect for beginners and experienced potters.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Wellington Architecture: A Guided Lecture, A guided lecture on the history of Wellington's architecture. Explore the different architectural styles that have shaped the city, from colonial-era buildings to modern masterpieces, and learn about the stories behind some of the city's most iconic buildings.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Forensic Science: A Crime Investigation Seminar, A seminar on forensic science and its role in crime investigation. Learn about the different types of forensic evidence, how it is collected and analyzed, and how forensic science helps solve crimes and bring justice to victims.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "GIS for Environmental Mapping: A Workshop, A workshop on using GIS (Geographic Information Systems) for environmental mapping. Learn how to use GIS software to analyze environmental data, create maps, and visualize environmental changes to inform conservation efforts and research.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Documentary Filmmaking: A Course for Social Change, A course on documentary filmmaking for social change. Learn about the art and craft of documentary filmmaking, from pre-production to post-production, and how to use film as a powerful tool to tell stories and inspire social change.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Personal Blog & Portfolio: A Workshop, A workshop on creating a personal blog or online portfolio. Learn how to set up a website, choose a content management system, and create a professional online presence to showcase your work and build a personal brand.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Ethics of AI: A Technology Seminar, A seminar on the ethics of artificial intelligence. Explore the moral and social implications of AI, from algorithmic bias and data privacy to the future of work and the role of AI in our society. This class is for anyone interested in the future of technology.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Historical Letterpress Printing: A Hands-On Workshop, A hands-on workshop on historical letterpress printing. Learn about the history of printing, how to set type, and how to use a traditional printing press to create your own custom cards, posters, or prints.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Marine Biology of Wellington: An Ecosystem Course, A course on marine biology and the Wellington coastline ecosystem. Learn about the unique marine life that lives in the Wellington harbour, the threats to their habitat, and the ongoing conservation efforts to protect them.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Laser Cutting for Product Design: A Workshop, A workshop on using a laser cutter for product design. Learn how to use a laser cutter to create custom products, from jewelry and decorative items to small-scale prototypes. This class is for designers and makers of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Treaty of Waitangi: A Historical Seminar, A seminar on the history of the Treaty of Waitangi. Learn about the events leading up to the signing of the Treaty, its contents, and its ongoing role in shaping New Zealand society and politics. This is a crucial topic for anyone who wants to learn about New Zealand's history.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "TED-Style Talk Workshop: Develop and Deliver, A workshop on developing and delivering a TED-style talk. Learn how to craft a compelling message, design effective slides, and present with confidence to engage your audience and make your talk memorable.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Home Network & Cybersecurity Basics: A Workshop, A workshop on building a home network and understanding cybersecurity basics. Learn how to set up a secure Wi-Fi network, protect your personal data, and identify common cybersecurity threats to keep your home network safe.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Children's Literature & Development: A Seminar, A seminar on children's literature and its role in child development. Learn about the different genres of children's books, how to choose the right books for your child, and how reading can help children develop language skills, empathy, and a love of reading.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Speaking for Youth Leaders: A Course, A course on public speaking for youth leaders. Learn how to craft a compelling message, present with confidence, and engage your audience to inspire and motivate young people. This course is for youth leaders and mentors of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Emergency Preparedness Kit: A Workshop, A hands-on workshop on creating a personal emergency preparedness kit. Learn what to include in your kit, how to assemble it, and how to create a family emergency plan to be prepared for natural disasters.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Psychological Effects of Social Media: A Seminar, A seminar on the psychological effects of social media. Explore the impact of social media on mental health, self-esteem, and social relationships. Learn how to use social media in a healthy and mindful way.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Advanced Data Analysis with Python: A Professional Course, A comprehensive course for professionals who want to master data analysis using Python. Learn key libraries like Pandas and NumPy, data visualization with Matplotlib, and how to build predictive models to inform strategic business decisions. This course is for professionals seeking to enhance their analytical capabilities.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Urban Planning Principles: A Sustainable City Design Course, A course on the principles of urban planning and sustainable city design. Learn about zoning, public transit, and green infrastructure to create more livable, resilient, and equitable urban environments. This course is for students and professionals interested in urban development.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Business Ethics & Social Responsibility: A Manager's Seminar, A seminar on business ethics and corporate social responsibility. Learn how to navigate complex ethical dilemmas, implement sustainable business practices, and build a brand with integrity. This seminar is for business managers and leaders who want to make a positive impact.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Advanced Public Speaking: A Leadership Course, A course on advanced public speaking for political and business leaders. Learn how to craft a compelling message, deliver with confidence, and use storytelling to influence and inspire your audience. This course is for anyone who wants to become a more powerful public speaker.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Grant Writing for Projects: A Hands-On Workshop, A workshop on grant writing for community projects and small businesses. Learn how to identify funding opportunities, craft a compelling proposal, and budget your project to secure the funding you need to bring your ideas to life.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Modern Art in NZ: A Seminar, A seminar on the history of modern art in New Zealand. Explore the key movements, artists, and artworks that have shaped the country's art scene, from the early 20th century to the present day. This seminar is for art lovers and students of art history.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Economic Theory & Policy: An Introductory Course, A course on the fundamentals of economic theory and policy. Learn about microeconomics and macroeconomics, and how economic policy can be used to address social and economic challenges. This course is for students and anyone interested in economics.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Digital Portfolio Creation: A Workshop for Creatives, A workshop on creating effective digital portfolios for artists and designers. Learn how to curate your best work, design a professional website, and use online platforms to showcase your skills and attract new clients. This workshop is for creative professionals of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Legal Essentials for Startups: A Business Seminar, A seminar on the legal aspects of starting a business. Learn about choosing the right business structure, protecting your intellectual property, and drafting contracts to ensure your business is built on a solid legal foundation. This seminar is for new founders and entrepreneurs.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Digital Journalism: A Content Creation Course, A course on digital journalism and online content creation. Learn how to research, write, and publish news and feature stories for an online audience. This course is for aspiring journalists, bloggers, and content creators.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Advanced Excel for Financial Modeling: A Workshop, A workshop on advanced Excel for financial modeling. Learn how to use pivot tables, macros, and other advanced functions to create complex financial models and forecasts. This workshop is for finance professionals and business analysts.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of M\u0101ori Art: A Seminar, A seminar on the history of M\u0101ori art and design. Explore the different forms of M\u0101ori art, from carving and weaving to kapa haka and t\u0101 moko, and learn about their cultural significance and history. This seminar is for anyone interested in M\u0101ori culture.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Creative Writing for Poetry: A Workshop, A creative writing workshop for aspiring poets. Through guided exercises and group discussions, you'll explore different forms of poetry, develop your unique voice, and learn how to give and receive constructive feedback on your work.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Professional Networking Strategy: A Workshop, A workshop on developing a professional networking strategy. Learn how to network effectively, build genuine relationships, and turn connections into valuable opportunities. This workshop is for anyone who wants to build a strong professional network.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Psychology of Learning & Motivation: A Seminar, A seminar on the psychology of learning and motivation. Explore the latest research on how we learn, what motivates us, and how to create a learning environment that is both effective and engaging. This seminar is for educators, parents, and students.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Home Electrical Wiring: A DIY Workshop, A hands-on workshop on basic home electrical wiring for simple repairs and installations. Learn how to safely change a light switch, install a dimmer, or fix a faulty outlet. This class is for homeowners who want to save money and handle simple electrical issues on their own.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Gardening for Small Spaces: A Workshop, A workshop on home gardening, focused on growing produce in small spaces like balconies and windowsills. Learn about container selection, soil, and the right plants for your space to enjoy fresh, healthy food year-round.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Advanced Pastry & Confectionery: A Baking Class, A class on advanced baking, focusing on pastry and confectionery. Learn how to make flaky croissants, delicate macarons, and other artisan pastries and sweets. This class is for experienced bakers who want to take their skills to the next level.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Basic Car Maintenance: A Hands-On Workshop, A practical workshop on basic car maintenance and repair. Learn how to check and change your oil, top up fluids, change a tire, and perform other simple repairs to keep your vehicle in good running order. This is a crucial skill for all car owners.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Traditional Woodworking: A Furniture Making Course, A course on traditional woodworking for furniture making. Learn how to use hand tools and power tools safely and effectively to create your own small piece of furniture, like a coffee table or a bookshelf. This course is for beginners and experienced woodworkers.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Home Plumbing for Beginners: A Workshop, A hands-on workshop on home plumbing for beginners. Learn how to fix a leaky faucet, unclog a drain, and install a new showerhead. This class is perfect for homeowners who want to save money and handle simple plumbing issues on their own.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Guitar for Beginners: A Fun Music Class, A fun and low-pressure class for absolute beginners who want to learn to play the guitar. You'll learn basic chords, strumming patterns, and a few popular songs to get you started on your musical journey.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sewing Machine Basics: A Garment Repair Course, A course on basic sewing machine operation and garment repair. Learn how to thread a machine, sew a straight seam, and perform basic repairs like hemming pants and mending torn fabric. This course is for anyone who wants to mend their clothes and prolong their life.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Home Canning & Preservation: A Food Workshop, A hands-on workshop on home canning and food preservation. Learn how to make jams, pickles, and preserves to enjoy fresh produce all year round. This class is for anyone who wants to reduce food waste and save money.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Resume & Interview Skills: A Professional Workshop, A workshop on professional resume writing and interview skills. Learn how to craft a resume that gets you noticed, and how to confidently present yourself to hiring managers. This workshop is designed to help you land your dream job.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Personal Financial Plan: A Workshop, A workshop on developing a personal financial plan. Learn how to track expenses, set financial goals, and build a strategy for savings and investments that puts you in control of your financial future. This class is a great way to start your financial journey.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "NZSL for Beginners: A Sign Language Course, A course on learning basic New Zealand Sign Language (NZSL). Learn fundamental signs for greetings, introductions, and common phrases in a supportive and friendly setting. This class is designed to give you the skills to engage in basic conversations and connect with the Deaf community.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Ukulele for Beginners: A Fun Music Workshop, A fun and low-pressure workshop for absolute beginners who want to learn to play the ukulele. You'll learn basic chords, strumming patterns, and a few popular songs to get you started on your musical journey.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Emergency Preparedness: A Home Workshop, A hands-on workshop on creating a personal emergency preparedness kit. Learn what to include in your kit, how to assemble it, and how to create a family emergency plan to be prepared for natural disasters.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Ethical Hacking & Cybersecurity: A Beginner's Workshop, An introductory workshop on ethical hacking and cybersecurity. Learn the basics of network security, common vulnerabilities, and how to protect your systems from malicious attacks. This class is for beginners who want to learn about cybersecurity.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Digital Marketing & Social Media Strategy: A Course, A course on digital marketing and social media strategy. Learn how to create a social media calendar, craft compelling content, and use analytics to measure the success of your campaigns. This course is for small business owners and marketers.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "AI & Machine Learning Fundamentals: A Seminar, A seminar on the fundamentals of artificial intelligence and machine learning. Explore the history, applications, and ethical implications of AI, and learn how it is shaping our world. This seminar is for anyone interested in the future of technology.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Photoshop for Image Editing: A Workshop, A workshop on using Photoshop for image editing. Learn the fundamentals of Photoshop, including layers, masks, and color correction, to create professional-looking images for your personal or professional projects.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Website Building with WordPress: A Course, A course on building a website with WordPress. Learn how to install WordPress, choose a theme, and customize your website to create a professional online presence for your business or personal brand.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Computing: A Seminar, A seminar on the history of computing and the internet. Explore the key figures, inventions, and events that have shaped the digital world we live in today. This seminar is for anyone interested in the history of technology.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Video Editing with Free Software: A Workshop, A hands-on workshop on video editing using free software like DaVinci Resolve or HitFilm Express. Learn the fundamentals of editing, color grading, and sound design to create polished and engaging video content from your raw footage.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Coding for Kids: A Fun Introductory Course, A fun, introductory course on coding for kids. Using a visual block-based programming language, children will learn the basics of logic and problem-solving to create their own games and animations. This class is for ages 8-12.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Podcast Creation: A Workshop, A workshop on creating a podcast from scratch. Learn how to plan your content, record and edit your audio, and publish your podcast to an online platform. This workshop is for aspiring podcasters and content creators.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Online Content & Copyright Law: A Seminar, A seminar on the legalities of online content and copyright. Learn about copyright law, fair use, and how to protect your own content from being stolen. This seminar is for content creators, bloggers, and business owners.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Mindfulness & Meditation for Stress: A Workshop, A workshop on mindfulness and meditation techniques for stress reduction. Learn simple, effective practices to quiet a busy mind, manage anxiety, and cultivate a sense of inner calm that you can apply to your daily life.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "First Aid & CPR: A Basic Course, A practical course on basic first aid and CPR. Learn how to respond to common medical emergencies, perform CPR on an adult and child, and use an AED. This is a lifesaving skill that everyone should have.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Mindful Eating & Nutrition: A Wellness Workshop, A workshop on mindful eating and nutrition for well-being. Learn how to pay attention to your body's hunger cues, make healthier food choices, and cultivate a positive relationship with food. This class focuses on a holistic approach to nutrition.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Psychology of Parenting: A Seminar, A seminar on the psychology of parenting. Explore the latest research on child development, parenting styles, and effective communication to raise happy, healthy, and resilient children. This seminar is for parents and caregivers of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Wellington's Environment: A Course, A course on the history of Wellington's natural environment. Explore the city's unique flora and fauna, the history of conservation efforts, and the ongoing challenges of protecting the local ecosystem. This course is for anyone interested in the local environment.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sustainable Home Workshop: A Green Living Guide, A workshop on creating a sustainable home. Learn about energy efficiency, water conservation, and waste reduction to reduce your environmental impact and save money. This class is a great way to start your green living journey.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Urban Beekeeping for Beginners: A Workshop, An introductory workshop for aspiring urban beekeepers. Learn the essentials of starting and maintaining a beehive in a backyard or small urban space. This class covers bee biology, hive management, and honey harvesting for sustainable beekeeping.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Arts Education in Schools: A Seminar, A seminar on the importance of arts education in schools. Explore the benefits of arts education for child development, creativity, and academic success. This seminar is for educators, parents, and anyone who wants to advocate for arts education.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of New Zealand Film: A Lecture, A lecture on the history of film in New Zealand. Explore the key films, directors, and events that have shaped the country's film industry, from the early days of silent film to the modern blockbusters. This lecture is for film lovers and students of film history.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "User Personas Workshop: Creating for Marketing & Design, A hands-on workshop on creating user personas for marketing and product design. Learn how to conduct user research, analyze data, and create detailed personas that help you understand your target audience and design more effective products and campaigns.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Leadership & Emotional Intelligence: A Manager's Seminar, A seminar on leadership and emotional intelligence. Learn how to understand and manage your own emotions, empathize with your team, and build a positive and productive work environment. This class is for leaders and managers of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Digital Marketing for Non-Profits: A Course, A course on digital marketing for non-profit organizations. Learn how to create a social media strategy, craft compelling content, and use analytics to measure the success of your campaigns and raise funds for your cause.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Speaking for Students: A Debate Skills Workshop, A workshop on public speaking for students, focusing on debate skills. Learn how to construct a logical argument, present with confidence, and engage in a respectful and productive debate. This workshop is for high school and university students.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Business Law for Entrepreneurs: An Introductory Course, A course on business law for entrepreneurs. Learn about legal structures, contracts, and intellectual property to ensure your business is built on a solid legal foundation. This course is for new founders and business owners.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Statistics for Decision-Making: A Hands-On Workshop, A hands-on workshop on mastering statistics for data-driven decisions. Learn how to use statistical methods to analyze data, identify trends, and make informed decisions in a business or research context.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Economic Thought: A Seminar, A seminar on the history of economic thought. Explore the key figures and ideas that have shaped the field of economics, from Adam Smith to John Maynard Keynes, and learn how their ideas have influenced modern economic policy.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "LinkedIn for Professionals: A Personal Branding Workshop, A workshop on developing a professional brand on LinkedIn. Learn how to optimize your profile, create engaging content, and use the platform to network and attract career opportunities. This workshop is for professionals of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Project Management for Creatives: A Course, A course on project management for creative industries. Learn how to plan, budget, and execute creative projects on time and within scope, from initial concept to final delivery. This course is for artists, designers, and creative professionals.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Future of Healthcare: A Medical Technology Seminar, A seminar on the future of healthcare and medical technology. Explore the latest trends in healthtech, digital health, and personalized medicine, and learn how technology is transforming the healthcare industry.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Retirement Planning: A Financial Workshop, A workshop on financial planning for retirement. Learn how to set retirement goals, choose investment vehicles, and build a long-term financial strategy to ensure a secure and comfortable retirement. This workshop is for people of all ages.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Web Accessibility Principles: A Workshop, A workshop on the principles of web accessibility. Learn how to design and build websites that are accessible to people with disabilities, and how to comply with web accessibility standards to create a more inclusive online experience.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Psychology: A Seminar, A seminar on the history of psychology. Explore the key figures and ideas that have shaped the field of psychology, from Sigmund Freud to B.F. Skinner, and learn how their ideas have influenced modern psychological practice.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Team Collaboration & Conflict Resolution: A Workshop, A workshop on effective team collaboration and conflict resolution. Learn how to communicate effectively, resolve disputes, and build a cohesive and productive team environment. This workshop is for managers and team leaders of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Chess for Beginners: A Fun Class, A fun class on learning to play chess for beginners. Learn the basics of the game, including how to move the pieces, common openings and traps, and some basic strategies to help you win. This class is for all ages.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Personal Blog & Website: A Creation Workshop, A workshop on creating a personal blog or website. Learn how to set up a website, choose a content management system, and create a professional online presence to showcase your work and build a personal brand.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Home Repair Basics: Painting & Plastering, A practical workshop on basic home repairs, including painting and plastering. Learn how to prep a wall for painting, patch holes, and fix cracks in drywall. This class is perfect for homeowners who want to save money and handle simple repairs on their own.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sourdough Bread Workshop: Making from Scratch, A workshop on making your own bread from a sourdough starter. Learn the secrets to a perfect sourdough loaf, from mixing and kneading to proofing and baking. This class is for beginners and experienced bakers.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Digital Photography: Portraiture Workshop, A hands-on workshop on digital photography, focusing on portraits. Learn about lighting, composition, and posing to capture stunning portraits of people. Bring your own camera and a willingness to learn.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Watercolor Painting: A Creative Course, A course on watercolor painting. Learn how to mix colors, create atmospheric effects, and use different brushwork to create beautiful and expressive watercolor paintings. This class is for artists of all levels.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "French & German for Travel: A Language Workshop, A workshop on learning a new language, like French or German, for travel. Learn key phrases, practical vocabulary, and pronunciation to help you navigate everyday situations with confidence while traveling.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Yoga & Meditation: A Beginner's Class, A class on basic yoga and meditation. Learn fundamental yoga poses, breathing techniques, and meditation practices to improve your flexibility, strength, and mental clarity. This class is for beginners and those new to yoga.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Upcycling & Mending Clothes: A Fashion Workshop, A workshop on upcycling and mending clothes. Learn how to repair, alter, and transform old clothing into new, stylish pieces, extending the life of your wardrobe and reducing textile waste.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Car Maintenance for New Drivers: A Course, A course on basic car maintenance for new drivers. Learn how to check and change your oil, top up fluids, and change a tire to keep your vehicle in good running order. This course is for new drivers and car owners.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Knitting for Beginners: A Hands-On Class, A hands-on class on knitting for beginners. Learn the basic stitches, how to read a pattern, and how to create simple projects like a scarf or a hat. This class is a great way to learn a new craft and relax your mind.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Apartment Gardening: A Workshop, A workshop on gardening for apartment dwellers. Learn about container gardening, soil, and the right plants for your space to enjoy fresh, healthy food year-round. This class is for anyone with a small space who wants to grow their own food.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "History of Wellington: A Guided Lecture, A guided lecture on the history of Wellington. Explore the city's past, from its early settlement to the modern day, and learn about the people and events that have shaped it. This lecture is for anyone interested in local history.",
     "label": "Education & Learning",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Hero Card Workshop: A Creative Gift, A workshop on creating personalized greeting cards for a local hero or community member. Kids will learn different craft techniques, from paper cutting to collage, to create a unique and heartfelt card for a local hero in their community.",
     "label": "Family Friendly",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Meditation Festival: A Wellness Event, A festival of wellness, with a focus on a specific practice, e.g., meditation. Explore a variety of meditation practices, from guided meditation to sound baths. This festival is for anyone who wants to learn about meditation and well-being.",
     "label": "Festivals",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Documentary Workshop: Telling Your Story, Learn how to create your own documentary film in this comprehensive workshop. We'll cover everything from finding a compelling story and conducting interviews to editing and sound design. This is a great opportunity to learn how to tell a powerful story about your community.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Noir Film Festival: The Maltese Falcon, The Embassy Theatre is hosting a Noir Film Festival, and we're starting with the classic 'The Maltese Falcon.' Join us for a screening of this iconic film noir, followed by a discussion on its influence on the genre and its place in cinematic history.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "DIY Film Club: '2001: A Space Odyssey' & Pizza Night, The DIY Film Club is screening Stanley Kubrick's '2001: A Space Odyssey.' Join us at the Newtown Community Centre for a night of mind-bending cinema, with a discussion on the film's legacy and themes. We'll also have free pizza and drinks for all attendees.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Kids' Stop-Motion Animation Workshop, A hands-on workshop for kids aged 7-12 where they'll learn the basics of stop-motion animation. Using clay, LEGO, and other materials, they'll create their own short animated film to take home. All materials and equipment will be provided.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Comedy Film Festival: 'What We Do in the Shadows', Celebrate local comedy with a screening of Taika Waititi and Jemaine Clement's 'What We Do in the Shadows.' This mockumentary about a group of vampire flatmates in Wellington is a hilarious look at the supernatural. The screening will be followed by a Q&A with one of the filmmakers.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "A Night with the Aotearoa Film Archive, The Aotearoa Film Archive is hosting a special night of screenings from their collection. We'll be showing a selection of rare and historical New Zealand films, from early cinematic works to experimental shorts. This is a unique opportunity to see our country's film history on the big screen.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Art of Documentary: A Q&A with Gaylene Preston, An intimate Q&A with renowned New Zealand filmmaker Gaylene Preston. She'll discuss her career, her approach to documentary filmmaking, and the challenges of telling real-life stories. This is a must-attend for anyone interested in documentary and storytelling.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Outdoor Cinema: 'The Lord of the Rings: The Fellowship of the Ring', An outdoor cinema event at the Wellington Botanic Gardens, screening 'The Lord of the Rings: The Fellowship of the Ring.' Bring a blanket and enjoy the film under the stars. Food and drinks will be available for purchase.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Film Critics Circle: 'Parasite' Screening & Discussion, The Wellington Film Critics Circle is hosting a screening of Bong Joon-ho's 'Parasite,' followed by a lively discussion on its themes, direction, and cultural impact. This is a great opportunity to engage with other film lovers and share your thoughts on this modern classic.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Children's Book-to-Film Showcase, A special screening of animated films based on popular children's books. This free event at the Johnsonville Community Centre is perfect for young readers and their families. We'll have a storytelling session and a craft table before the films begin.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Art of Visual Effects: A Panel Discussion, A panel discussion with leading visual effects artists from Wellington's film industry. They'll discuss the latest technologies, challenges, and creative processes involved in creating stunning visual effects for blockbusters and independent films. This is a great opportunity for students and professionals to learn about the industry.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Film Heritage: A Tour of The Embassy, A guided tour of The Embassy Theatre, one of Wellington's most iconic and historic cinemas. Learn about its rich history, architectural features, and famous events. The tour will also include a short screening of a classic film trailer.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false
-  },
-  {
-    "description": "The Role of Local Government in the Arts: A forum with city officials, artists, and arts organisations to discuss public funding, policy, and support for Wellington's vibrant arts and culture sector.",
-    "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Civic Leaders Youth Mentorship Program: An initiative connecting young people with current and former politicians, public servants, and community leaders to encourage future civic participation.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's CBD Revitalisation Strategy: A public meeting to review and provide feedback on the city's plans to revitalise the central business district, focusing on new developments and urban design.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Understanding New Zealand's Electoral System: A workshop explaining the Mixed-Member Proportional (MMP) voting system, how it works, and its impact on government formation and policy.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Council vs. Community: Resolving Conflict: A seminar for community groups and individuals on effective communication, negotiation, and conflict resolution when dealing with local government bodies.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Pukeh\u012bnau/Lambton Ward Candidate Debate: A community forum for candidates of the Pukeh\u012bnau/Lambton Ward, providing a chance for residents to ask questions about their vision for the area.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Mayoral Race: Meet the Candidates: A public event where all mayoral candidates present their platforms and participate in a question and answer session with the audience.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Council Candidate Debate: A live-streamed debate for candidates for Wellington's city council, where they will discuss infrastructure, economic development, and community issues, followed by questions from the public.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Hubs Planning Meeting: A meeting with city planners and community leaders to discuss the development of new community hubs, focusing on public use, resource allocation, and accessibility.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Sector Ethics and Integrity Seminar: A workshop for public servants and local politicians on maintaining ethical standards, avoiding conflicts of interest, and ensuring transparency in government.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Debate on the Future of Public Libraries: A public forum where policymakers and community members debate the role and future funding of Wellington's public libraries in the digital age.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Capital Infrastructure Masterclass: A detailed presentation by engineers and city officials on the challenges and strategies for managing Wellington's ageing infrastructure, including water pipes and roads.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Citizens' Assembly on Climate Change: A series of facilitated workshops for a randomly selected group of citizens to learn about climate change and propose policy recommendations to the city council.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Navigating Council Bureaucracy: A workshop designed to help small business owners and residents understand how to navigate city council regulations and permitting processes for their projects.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Regional Council's Biodiversity Strategy: A presentation and discussion on the council's new strategy for protecting and restoring native biodiversity in the Wellington region, including planting and pest control initiatives.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Electoral Reform and Youth Engagement: A panel discussion on potential reforms to New Zealand's electoral system and new initiatives aimed at increasing voter turnout and political participation among young people.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Meet the Candidates: Rural Ward: A town hall meeting for candidates running for the Rural Ward council seats, where they address the specific concerns of rural communities, from farming policy to land use.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Public Art Policy Review: A public meeting to review the city's policy on public art, discussing funding, location, and the process for commissioning new artworks in public spaces.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government and Community Services Forum: A meeting for residents to discuss the funding and delivery of essential community services, such as social housing, mental health support, and youth programs, with council officials.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Democracy and Digital Misinformation: A public lecture on the threats of misinformation and 'fake news' to democratic processes, with a focus on local elections and civic trust.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Economic Recovery Plan: A panel of economists and city leaders discuss the strategies for Wellington's economic recovery post-pandemic, focusing on business support and job creation.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Consultation: Future of Inner-City Traffic: A public meeting to gather feedback on new proposals for managing inner-city traffic, including new cycle lanes, parking regulations, and public transit improvements.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Advocacy for the Environment: A workshop for environmental groups and concerned citizens on how to effectively advocate for environmental policies and influence local and national government decisions.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Regional Council's Annual General Meeting: The formal meeting where the public can hear reports, vote on motions, and elect board members for the regional council.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Mayoral Race: A public event where all candidates for mayor present their platforms and participate in a question and answer session with the audience.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington City Council's Annual Plan Consultation: A public meeting where residents can review and provide feedback on the council's draft annual plan, including new projects and spending proposals.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Future of Urban Housing Debate: A debate between architects, developers, and city planners on the best strategies for creating affordable and sustainable housing in Wellington, from high-density apartments to community-led housing projects.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government's Role in Disaster Preparedness: A presentation by civil defense and emergency management officials on Wellington's plans for disaster preparedness, with a focus on community resilience and public safety.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Meet the Candidates: Southern Ward: A public forum for candidates for the Southern Ward, where they will discuss community issues, infrastructure, and their vision for the area.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Politics of Water: A discussion on water conservation and the impact of climate change on Wellington's water supply, with a focus on policy solutions and public engagement.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Civic Engagement for Community Activists: A workshop on practical tools and strategies for community activists to engage with local government, from organising protests to submitting petitions and engaging in public hearings.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Cultural Policy Forum: A public meeting to discuss and provide feedback on the city's new cultural policy, including funding for arts organisations, community events, and public spaces.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Digital Transformation in Government: A presentation on the government's strategy for digitising public services, with a focus on improving accessibility and efficiency for citizens.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Role of Youth in Local Government: A seminar for young people to learn about the roles of youth councillors and youth committees, and how they can get involved in local decision-making.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Regional Council's Waste-to-Energy Masterplan: A public consultation on the regional council's plans for a new waste-to-energy facility, with a focus on environmental impact and public concerns.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government and Economic Development: A conference for business owners and city officials on strategies for promoting economic growth and creating new jobs in Wellington's key sectors.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Future of Wellington's Social Housing: A public forum to discuss the city's strategy for addressing the social housing crisis, with a focus on new developments and support for vulnerable communities.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington City Council's Annual Report: A public presentation of the city's annual report, providing an overview of its performance, achievements, and financial health over the past year.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Building a Better Wellington: A series of community workshops for residents to propose and co-design solutions for local problems, from new park designs to traffic calming measures.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government and Public Health Forum: A meeting with city officials and public health experts to discuss the role of local government in promoting public health, from clean water to mental health services.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Role of NGOs in Policy-Making: A seminar for non-profit leaders and activists on how to influence government policy, from submitting policy briefs to collaborating with political parties.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Resilience Strategy: A presentation on the city's strategy for building a more resilient city, with a focus on preparing for natural disasters, economic shocks, and climate change.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Understanding Local Government Funding: A public information session explaining how local government is funded, from rates and taxes to grants and borrowing, and how these decisions affect the public.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Political Campaigning for Young People: A workshop for young people interested in political careers, with advice on how to get started, build a network, and run a successful campaign.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Consultation on Urban Heritage: A public meeting to gather feedback on the city's new policy for protecting and preserving Wellington's urban heritage, from historic buildings to cultural sites.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Future Transport Network: A public consultation on the long-term vision for transport in the Wellington region, including new roads, cycleways, and train lines.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Debate on the Local Body Elections: A moderated debate between candidates for the local body elections, where they will discuss their vision for the city and their plans for the future.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington City Council's Annual Plan Hearing: A formal council meeting where residents can present their submissions on the council's draft annual plan and ask questions to the councillors.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Role of Public Service in a Modern Democracy: A panel discussion on the role of public servants in a modern democracy, with a focus on impartiality, accountability, and the future of public service.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Green Infrastructure Plan: A public meeting to gather feedback on the city's new green infrastructure plan, including new parks, green roofs, and urban forests.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Civic Education for a Healthy Democracy: A seminar for teachers and educators on how to teach civic education and political literacy to young people, with a focus on engaging and practical methods.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Economic Development Strategy: A conference for business owners and city officials on strategies for promoting economic growth and creating new jobs in Wellington's key sectors.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government and Social Services Forum: A meeting for residents to discuss the funding and delivery of essential social services, such as social housing, mental health support, and youth programs, with council officials.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Consultation: Future of City Parks: A public meeting to gather feedback on the city's new masterplan for city parks, including new developments, conservation efforts, and recreational facilities.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Politics of Urban Development: A debate between city planners, developers, and community activists on the best strategies for managing urban development, from new housing projects to public spaces.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Response to Climate Change: A presentation by city officials on Wellington's new climate change strategy, with a focus on emission reduction, adaptation, and community resilience.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government and Arts Funding Debate: A debate on public funding for the arts, with a focus on the role of local government in supporting Wellington's vibrant arts and culture sector.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Social Equity and Inclusion Strategy: A public workshop on the city's new social equity and inclusion strategy, focusing on policies that address inequality, poverty, and discrimination in Wellington.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Politics of Urban Revitalisation: A panel discussion on Wellington's urban revitalisation projects, with a focus on balancing economic growth with social and environmental concerns.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Consultation: Wellington's Heritage Preservation: A meeting to gather public feedback on the city's new heritage preservation policy, including the protection of historic buildings, cultural sites, and urban landscapes.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government's Role in Public Health: A forum with city officials and health experts to discuss the role of local government in promoting public health, from clean water to mental health services and community programs.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Future of Wellington's Social Services: A public meeting to discuss the funding and delivery of essential social services, such as social housing, mental health support, and youth programs, with council officials.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Civic Literacy for Young People: A workshop for young people to learn about the importance of civic engagement, how to interact with local government, and how to make their voices heard.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Green Infrastructure Plan: A public meeting to gather feedback on the city's new green infrastructure plan, including new parks, green roofs, and urban forests.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Role of Public Service in a Modern Democracy: A panel discussion on the role of public servants in a modern democracy, with a focus on impartiality, accountability, and the future of public service.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington City Council's Annual Report: A public presentation of the city's annual report, providing an overview of its performance, achievements, and financial health over the past year.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government and Economic Development: A conference for business owners and city officials on strategies for promoting economic growth and creating new jobs in Wellington's key sectors.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Consultation: Future of City Parks: A public meeting to gather feedback on the city's new masterplan for city parks, including new developments, conservation efforts, and recreational facilities.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Politics of Urban Development: A debate between city planners, developers, and community activists on the best strategies for managing urban development, from new housing projects to public spaces.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington's Response to Climate Change: A presentation by city officials on Wellington's new climate change strategy, with a focus on emission reduction, adaptation, and community resilience.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Local Government and Arts Funding Debate: A debate on public funding for the arts, with a focus on the role of local government in supporting Wellington's vibrant arts and culture sector.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Aotearoa's Place in the World: A foreign policy seminar discussing New Zealand's role in the world, with a focus on diplomacy, trade, and international relations.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Public Sector Innovation Showcase: A conference highlighting new technologies and innovative projects being developed within the government sector to improve public services and efficiency.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Regional Council's Transport Masterplan: A public consultation on the long-term vision for transport in the Wellington region, including new roads, cycleways, and train lines.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Democracy in a Digital Age: A panel on the challenges and opportunities of modern democracy, including the impact of social media, online misinformation, and digital voting systems.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Role of Local Government in the Arts: A forum with city officials, artists, and arts organisations to discuss public funding, policy, and support for Wellington's vibrant arts and culture sector.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Civic Leaders Youth Mentorship Program: An initiative connecting young people with current and former politicians, public servants, and community leaders to encourage future civic participation.",
     "label": "Government & Politics",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Men's Wellbeing Workshop: Responding to Change, A workshop for men to develop tools for navigating life changes, big and small. Topics include career transitions, relationship challenges, and new parenthood. The session is led by a male wellness coach and focuses on open discussion and practical strategies for a healthy mindset.",
     "label": "Health & Wellness",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Wellington Christmas Market, Get into the festive spirit at the Wellington Christmas Market. This magical market features a huge selection of handmade gifts, festive decorations, and delicious holiday treats. Find unique gifts for everyone on your list while enjoying a festive atmosphere with carolers, hot chocolate, and a visit from Santa himself. This is a great way to support local artisans and get your holiday shopping done in a fun and festive environment. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Book Fair, Calling all book lovers! The Wellington Book Fair is back with a huge selection of new and used books at great prices. Find your next great read from a wide variety of genres, from fiction and non-fiction to children's books and cookbooks. This is a great opportunity to support local charities and find some new books to add to your collection. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Plant & Garden Show, A paradise for plant lovers! The Wellington Plant & Garden Show features a wide selection of plants, from native species and houseplants to exotic flowers and vegetables. Meet local growers, get expert advice on gardening, and find some new plants to add to your collection. There will be workshops and talks throughout the day on topics like composting, propagation, and pest control. Tickets available for purchase online.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Arts and Crafts Market, A celebration of local artistic talent and craftsmanship. The Wellington Arts and Crafts Market features a wide selection of handmade goods, from jewelry and pottery to paintings and textiles. This is a great place to find unique gifts and support local small businesses. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
-    "skip": false
-  },
-  {
-    "description": "Wellington Food and Drink Festival, A food lover's paradise! The Wellington Food and Drink Festival features a huge selection of local food and drink producers. Sample new products, meet the makers, and discover new local favorites. From craft beer and wine to gourmet food and artisanal treats, this festival has something for everyone. Tickets available for purchase online.",
-    "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Christmas Craft Fair, Get into the festive spirit at the Wellington Christmas Craft Fair. Find unique, handmade gifts for everyone on your list, from jewelry and pottery to textiles and home decor. This is a great way to support local artisans and find some one-of-a-kind gifts. There will be festive music, food stalls, and a visit from Santa. Free entry, all are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Indie Market, A market for independent artists and designers. The Wellington Indie Market features a curated selection of stalls selling unique, handmade goods, from art and jewelry to clothing and home decor. This is a great place to discover new local talent and support small businesses. Live music and a delicious selection of food and drink stalls will also be available. Free entry, all are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Antiques & Collectibles Fair, Step back in time at the Wellington Antiques & Collectibles Fair. Find a treasure trove of antique furniture, vintage clothing, and rare collectibles from a wide range of eras. Whether you're a seasoned collector or a curious browser, this fair offers a chance to explore history through objects. There will be expert appraisers on hand to give you information on your own vintage finds. Tickets available for purchase online.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Sustainable Living Expo, An expo dedicated to all things sustainable. The Wellington Sustainable Living Expo features a huge variety of stalls and workshops on topics like zero-waste living, urban gardening, sustainable fashion, and eco-friendly home products. This is a great opportunity to learn how to live a more sustainable life and connect with a community of like-minded people. There will be live music, food trucks, and a kids' zone with activities. Free entry, all are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Summer Market, A vibrant outdoor market celebrating the best of summer. The Wellington Summer Market features a huge variety of stalls, from local food producers and artisans to vintage sellers and upcyclers. Browse unique gifts, fresh produce, and delicious street food. Enjoy the lively atmosphere with live music and a bustling crowd. This is a great way to spend a summer day and support local businesses. Free entry, all are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Handmade Goods Market, The Wellington Handmade Goods Market is a celebration of local talent and creativity. Browse a wide range of stalls featuring handmade jewelry, pottery, artwork, and more. This is a great place to find unique, one-of-a-kind gifts and support our local crafters. Come and meet the artists, learn about their process, and take home a piece of their passion. Live music and a delicious selection of food and drink stalls will also be available. Free entry.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Sunday Market & Car Boot Sale, Join us every Sunday for a combined market and car boot sale! Find a wide variety of items, from pre-loved clothing and household goods to handmade crafts and fresh produce. This is a great opportunity to find a bargain, sell your own items, and connect with your community. Free entry for shoppers, a small fee to set up a stall. All are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Designer's Pop-Up, A unique opportunity to shop directly from a range of talented local designers. The Wellington Designer's Pop-Up features a curated selection of stalls from emerging and established designers, from fashion and jewelry to home decor and art. This is a must-attend event for fashion lovers and anyone looking to support local creative talent. Free entry.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Arts and Crafts Show, A showcase of the best local artists and crafters. The Wellington Arts and Crafts Show features a wide selection of paintings, sculptures, ceramics, textiles, and more. This is a great place to find a unique gift or a special piece for your home. We'll have live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Vintage and Retro Fair, Step back in time at the Wellington Vintage and Retro Fair. Find a treasure trove of vintage clothing, furniture, and collectibles from a wide range of eras. Whether you're a seasoned collector or a curious browser, this fair offers a chance to explore history through objects. There will be a vintage photobooth and a live DJ spinning classic tunes from the decades. Gold coin entry.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Flea Market & Farmers' Market, A unique combination of a flea market and a farmers' market. Find a wide variety of pre-loved items, from vintage clothing and furniture to fresh produce and gourmet food. This is a great place to find a bargain, support local farmers, and connect with your community. Free entry, all are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Craft Market, A celebration of local craftsmanship and creativity. The Wellington Craft Market features a wide selection of handmade goods, from jewelry and pottery to artwork and home decor. This is a great place to find unique gifts and support our local crafters. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Indie Designer Market, A market for independent designers and artists. The Wellington Indie Designer Market features a curated selection of stalls selling unique, handmade goods, from art and jewelry to clothing and home decor. This is a great place to discover new local talent and support small businesses. Live music and a delicious selection of food and drink stalls will also be available. Free entry, all are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Eco Craft Fair, A fair dedicated to all things eco-friendly and sustainable. The Wellington Eco Craft Fair features a wide range of stalls selling handmade crafts made from recycled and sustainable materials. Find everything from upcycled jewelry and clothing to eco-friendly home decor and art. This is a great opportunity to learn about sustainable crafting and support businesses that are making a positive impact on the environment. Free entry.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Pop-Up Bazaar, A unique market experience! The Wellington Pop-Up Bazaar features a curated selection of local artists, designers, and food vendors. Browse unique gifts, art, and fashion while enjoying a festive atmosphere with live music and delicious food. This is a great opportunity to discover new local businesses and support the creative community in Wellington. Free entry, all are welcome.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sacred Space: A Meditation Workshop, A guided meditation workshop focused on creating and holding a sacred space within yourself. Learn to quiet the mind, connect with your inner wisdom, and find peace amidst the chaos of daily life. This session is open to all, regardless of spiritual background, and will provide practical tools for a daily meditation practice. Please bring a cushion and a blanket for comfort.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Introduction to the Quran: A Community Learning Circle, A weekly learning circle dedicated to the study of the Quran. This is a space for both Muslims and non-Muslims to read, discuss, and learn about the holy book of Islam. Sessions will include reading passages in both Arabic and English, and a facilitated discussion on their meanings and historical context. This is a welcoming and respectful environment for all who are curious.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Power of Forgiveness: A Spiritual Retreat, A weekend retreat focused on the spiritual practice of forgiveness. Through guided meditation, personal reflection, and group sessions, we will explore what it means to forgive others, forgive ourselves, and ask for forgiveness. This is a transformative journey to release past hurts and find peace in the present. All are welcome to attend this healing experience.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Weekly Prayer Meeting for Healing, A weekly prayer meeting dedicated to praying for physical, emotional, and spiritual healing. This is a confidential and supportive space for anyone in need of prayer for themselves or for a loved one. The meeting will include a short devotional, a time of corporate prayer, and an opportunity for personal prayer with a member of our prayer team. All are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Speed Dating: Find Your Soul Tribe, An evening of spiritual speed dating designed to help you connect with like-minded people. This event is for anyone interested in spirituality, meditation, yoga, and holistic wellness. You'll have a series of short, one-on-one conversations to find your soul tribe and make new friends. The evening will include a guided meditation and light snacks.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Lord's Supper: A Communion Service, A special communion service in remembrance of Jesus Christ. This service is a time for believers to gather, worship, and share in the Lord's Supper. We will reflect on the sacrifice of Christ and the new covenant he established with his people. This service is open to all who have a relationship with Jesus Christ.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sermon Series: The Parables of Jesus, A sermon series exploring the parables of Jesus Christ and their timeless wisdom. Each week, we will delve into a different parable and uncover its meaning for our lives today. This series is suitable for all ages and levels of faith, and will provide practical insights for living a more Christ-like life. All are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christian Meditation Workshop, A workshop introducing the practice of Christian meditation. Learn how to use silent contemplation, Lectio Divina (divine reading), and centering prayer to deepen your relationship with God. This is a practical and prayerful session for anyone wanting to quiet their mind and listen for God's voice. No prior experience is needed.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Gifts Workshop, A workshop designed to help you discover and develop your spiritual gifts. Through a series of self-assessments, talks, and group activities, you will learn what your unique gifts are and how to use them to serve God and others. This is an empowering and encouraging session for all believers.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Theology on Tap: St. Thomas Aquinas, A monthly gathering at a local pub for an informal discussion on faith, theology, and their intersection with modern culture. This month, we'll be discussing the life and work of St. Thomas Aquinas. All are welcome to attend, ask questions, and share their perspectives. Snacks and drinks will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Youth Ministry Games Night, A monthly gathering for high school students to have fun and connect with other teenagers in our youth ministry. We'll have board games, card games, and video games, as well as plenty of snacks and drinks. This is a great opportunity to make new friends and build community in a relaxed and friendly environment.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Sunday School for All Ages, We offer Sunday School classes for all ages, from toddlers to adults. Our classes are designed to be interactive, engaging, and relevant to your life. Children will learn about the Bible through stories, songs, and crafts, while adults will engage in in-depth discussion and study. All are welcome to attend and grow in their faith.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Latter-day Saint General Conference, A semi-annual broadcast of the General Conference of The Church of Jesus Christ of Latter-day Saints. Listen to inspiring messages from the prophet and other church leaders, and be uplifted by beautiful music from the Tabernacle Choir. This is a great opportunity to hear messages of hope and faith from around the world. All are welcome to attend the broadcast.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Interfaith Panel on the Afterlife, A panel discussion on the concept of the afterlife from the perspective of different religious traditions. Our guest panel will feature representatives from Christianity, Islam, Buddhism, and Hinduism. This is a unique opportunity to learn about the diverse beliefs and teachings on what happens after death. All are welcome to attend and ask questions.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Film Night: 'The Two Popes', A screening and discussion of the film 'The Two Popes'. This film explores the relationship between Pope Benedict XVI and the future Pope Francis, and the challenges facing the Catholic Church. Following the film, there will be an open discussion to share thoughts and reflections. Snacks and drinks will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christianity 101: An Introduction to the Faith, A free, six-week course that provides an introduction to the Christian faith. This course will cover the basics of Christianity, from the life of Jesus to the meaning of the cross and resurrection. This is a great way to explore the faith in a relaxed and non-judgmental environment. All are welcome to attend and ask questions.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Service Day: Serving Our City, A day of service where we come together to serve our community. Projects will include cleaning up local parks, helping at a local food bank, and visiting a nursing home. This is a great opportunity to live out our faith and make a tangible difference in the world. All are welcome to join us.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Exploring The Book of Exodus, A weekly Bible study of the Book of Exodus. We will explore the story of Moses, the plagues of Egypt, and the journey of the Israelites to the promised land. This is a great opportunity to learn about the historical and spiritual significance of this foundational book of the Bible. All are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Interfaith Potluck and Fellowship, Join us for an evening of food, fellowship, and interfaith dialogue. Bring a dish to share that represents your faith or culture, and enjoy a meal with people from different backgrounds. This is a great opportunity to make new friends, learn about different traditions, and build a more inclusive community. All are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Men's Ministry Hike and Campout, A weekend hike and campout for men of all ages. We will hike a local trail, set up camp, and enjoy a time of fellowship and spiritual reflection around the campfire. This is a great opportunity to connect with other men in the ministry and enjoy the beauty of God's creation. All men are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Writing Workshop, A workshop for those interested in using writing as a spiritual practice. Learn how to use journaling, poetry, and creative writing to deepen your relationship with God and your inner self. This is a safe and supportive space to explore your creativity and your faith. No prior experience is needed.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Youth Group: Worship Night and Bonfire, A special evening of worship and fellowship for high school students. We will have a time of praise and worship music, followed by a bonfire with s'mores and hot chocolate. This is a great opportunity to connect with God and with friends in a fun and relaxed environment. All teenagers are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Women's Ministry Craft Night, A fun and creative evening for women of all ages. We will be making a simple craft project while enjoying a time of fellowship and conversation. This is a great opportunity to connect with other women in the ministry and have a relaxing night out. All materials will be provided, and no prior experience is needed.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christian Apologetics Seminar, A seminar on Christian apologetics, the practice of defending the Christian faith with reason and evidence. This session will cover common objections to Christianity and provide tools for engaging in respectful and thoughtful conversation. This is a great opportunity to strengthen your faith and learn how to share it with others. All are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Film Night: 'Into Great Silence', A screening and discussion of the film 'Into Great Silence'. This documentary provides a rare look into the lives of Carthusian monks in the French Alps. Following the film, there will be an open discussion to share thoughts and reflections. Snacks and drinks will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Book Club: 'The Untethered Soul', Join our monthly spiritual book club as we discuss Michael A. Singer's 'The Untethered Soul'. This book explores the nature of consciousness and how to live a life of freedom and joy. This is a great opportunity to connect with other readers and share your personal insights in a relaxed, conversational setting.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Exploring Catholicism: A Q&A Session, A public Q&A session on the Catholic faith. This is a great opportunity to ask any questions you have about the Catholic Church, from its history and theology to its practices and traditions. A panel of priests and lay leaders will be on hand to answer your questions in a respectful and open environment. All are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Journey to Israel, An informational evening about an upcoming pilgrimage to the Holy Land. Learn about the itinerary, historical sites, and spiritual significance of visiting Israel. This is a chance to ask questions, meet fellow travelers, and prepare for a life-changing journey of faith and discovery.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christian Yoga: A Devotional Practice, A weekly yoga class that combines physical postures with Christian devotional practices. This session is designed to help you connect with God through movement and prayer. All skill levels are welcome, and no prior yoga experience is needed. Please bring a yoga mat and a water bottle.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Holy Rosary: A Prayerful Walk, A prayerful walk of the Rosary through our local community. We will walk in a group, praying the Rosary and meditating on the mysteries of the life of Christ. This is a great opportunity to get some exercise, spend time in prayer, and witness to your faith in the community. All are welcome to join us.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Interfaith Panel on Social Justice, A panel discussion on the role of faith in social justice. Our guest panel will feature representatives from different religious traditions who are actively working for social change in our community. This is a great opportunity to learn about the different ways faith can inspire action and create a more just world. All are welcome to attend and ask questions.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Youth Group Movie Night: 'The Case for Christ', A movie night for high school students featuring the film 'The Case for Christ'. This film tells the true story of an investigative journalist who sets out to disprove Christianity but instead finds faith. This is a great opportunity to watch a thought-provoking film and discuss questions about faith and evidence. Pizza and popcorn will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Women's Ministry Retreat: Finding Your Purpose, A weekend retreat for women to connect with each other and with God. Through talks, small group discussions, and personal reflection time, we will explore what it means to find our purpose and live a life of faith. This is a great opportunity to get away from distractions and be refreshed in your spirit. All women are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christianity and Science Discussion Group, A monthly discussion group exploring the relationship between Christianity and science. We will delve into topics such as evolution, cosmology, and neuroscience, and discuss how faith and reason can coexist. This is a great opportunity to engage in thoughtful conversation and learn from others. All are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Film Night: 'The Shack', A screening and discussion of the film 'The Shack'. This film explores the nature of God and the meaning of suffering through the story of a man who encounters the Trinity in a shack in the wilderness. Following the film, there will be an open discussion to share thoughts and reflections. Snacks and drinks will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Book Club: 'The Four Agreements', Join our monthly spiritual book club as we discuss Don Miguel Ruiz's 'The Four Agreements'. This book explores the power of personal beliefs and how to live a life of freedom and joy. This is a great opportunity to connect with other readers and share your personal insights in a relaxed, conversational setting.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Exploring Anglicanism: A Tour and Talk, A guided tour and talk on the history and traditions of Anglicanism. We will explore the architecture of our beautiful church, discuss the unique aspects of Anglican worship, and learn about the church's role in the community. This is a great opportunity for anyone curious about Anglicanism. All are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Journey to Rome, An informational evening about an upcoming pilgrimage to Rome and the Vatican. Learn about the itinerary, historical sites, and spiritual significance of visiting the heart of the Catholic Church. This is a chance to ask questions, meet fellow travelers, and prepare for a life-changing journey of faith and discovery.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christian Tai Chi: A Meditative Practice, A weekly Tai Chi class that combines gentle movements with Christian devotional practices. This session is designed to help you connect with God through movement and prayer. All skill levels are welcome, and no prior Tai Chi experience is needed. Please wear comfortable clothing.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Holy Rosary: A Family Workshop, A family-friendly workshop on the Holy Rosary. Learn how to pray the Rosary together as a family, and make your own Rosary beads. This is a great opportunity to introduce your children to this beautiful and powerful prayer tradition. All materials will be provided, and no prior experience is needed.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Interfaith Panel on Prayer, A panel discussion on the practice of prayer from the perspective of different religious traditions. Our guest panel will feature representatives from Christianity, Islam, and Judaism. This is a great opportunity to learn about the diverse ways people connect with God and to share your own experiences. All are welcome to attend and ask questions.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Youth Group Worship Night, A special evening of worship and fellowship for high school students. We will have a time of praise and worship music, followed by a short devotional and small group discussions. This is a great opportunity to connect with God and with friends in a fun and relaxed environment. All teenagers are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Women's Ministry Retreat: A Weekend of Rest, A weekend retreat for women to get away from the demands of daily life and find rest in God's presence. Through guided meditations, personal reflection, and group sessions, we will focus on finding peace and renewal. All women are welcome to attend this restorative experience.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Journaling for Inner Peace, A hands-on workshop on the practice of spiritual journaling for inner peace. Learn how to use journaling as a tool for prayer, reflection, and personal growth. We will cover different techniques and prompts to help you quiet your mind and connect with your inner self. All materials will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Lutheran Church Service, Join us for our weekly Lutheran Church service. We will celebrate the Lord's Supper, sing hymns, and hear a sermon from our pastor. This is a welcoming and traditional service for all who seek to worship God. All are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Exploring The Book of Genesis, A weekly Bible study of the Book of Genesis. We will explore the stories of creation, Adam and Eve, and Noah, and discuss their theological and spiritual significance. This is a great opportunity to learn about the foundations of the Bible. All are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Men's Ministry BBQ & Beer Night, A casual and fun evening for men of all ages to connect and build relationships. We'll have a BBQ dinner, craft beer tasting, and a relaxed atmosphere for conversation and fellowship. This is a great opportunity to invite friends and neighbors to connect with our men's ministry. All men are welcome to join in the fun.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Community Prayer Walk, Join us as we walk and pray for our local community. We will meet at the church and walk in a group, praying for our neighbors, our leaders, and our city. This is a peaceful and purposeful way to make a difference in the world. All are welcome to participate in this act of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Church of Jesus Christ of Latter-day Saints - Young Single Adult Conference, A regional conference for Young Single Adults of The Church of Jesus Christ of Latter-day Saints, providing an opportunity for spiritual growth, fellowship, and dating. The conference will include guest speakers, workshops, dances, and service projects. All young single adults are welcome to attend this inspiring and faith-building event.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Jewish Shabbat Service and Dinner, Join us for our weekly Shabbat service, a time of prayer and reflection as we welcome the Sabbath. The service will be followed by a traditional Shabbat dinner with challah, wine, and a delicious meal. This is a great opportunity to connect with the Jewish community and celebrate the Sabbath together. All are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Book of Mormon Study Group, A weekly gathering to explore and discuss the teachings of The Book of Mormon. This is a welcoming environment for members and non-members alike to deepen their understanding of the scripture and its relevance in modern life. The sessions will involve reading passages, open discussion, and sharing personal insights. All perspectives are valued in this journey of learning and discovery.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Introduction to Sufi Meditation, An introductory workshop on Sufi meditation, the mystical path of Islam. Learn how to use breath, sound, and movement to quiet the mind and connect with the divine. This is a gentle and insightful session for those curious about contemplative spiritual traditions. No prior experience is needed, and all are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Buddhism for Beginners: The Eightfold Path, An introductory course on the core teachings of Buddhism. This workshop will provide a clear and accessible explanation of the Eightfold Path and how it can be applied to modern life to cultivate happiness and wisdom. Suitable for absolute beginners, this session is a great way to learn about the path to enlightenment.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Unitarian Universalist Community Service, Join us for our weekly Sunday service, a space for spiritual growth and community connection in a non-creedal, open-minded environment. Our services blend music, readings, and reflections from various faith traditions and sources, celebrating the diverse paths we take to find meaning. All are welcome to our inclusive and affirming space.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christian Meditation Workshop, A workshop introducing the practice of Christian meditation. Learn how to use silent contemplation, Lectio Divina (divine reading), and centering prayer to deepen your relationship with God. This is a practical and prayerful session for anyone wanting to quiet their mind and listen for God's voice. No prior experience is needed, and all are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Gifts Workshop, A workshop designed to help you discover and develop your spiritual gifts. Through a series of self-assessments, talks, and group activities, you will learn what your unique gifts are and how to use them to serve God and others. This is an empowering and encouraging session for all believers. All are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Youth Group: Pizza and Praise Night, Calling all high school students! Join us for a fun-filled evening of pizza, games, and worship music. This youth-led event is a relaxed and friendly environment to hang out with friends, meet new people, and explore questions about faith and life. All teenagers are welcome, so bring your friends for a great night of food and fellowship.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "A Course in Miracles: Study & Discussion, A weekly study group dedicated to A Course in Miracles. Join us as we read and discuss the text, workbook, and manual for teachers. This is a space for those seeking to deepen their understanding of the Course\u2019s teachings on forgiveness, love, and the nature of reality. All levels of experience are welcome in this supportive and collaborative environment.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Vedic Philosophy Discussion Group, A weekly meeting to delve into the ancient wisdom of Vedic philosophy. We will be studying and discussing key texts such as the Bhagavad Gita and Upanishads, exploring topics of consciousness, dharma, and the nature of the self. This group provides a space for intellectual and spiritual inquiry, and is open to all seekers of truth.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christian Social Mixer, Come and mingle with other Christian singles, couples, and friends in a relaxed, friendly setting. This social mixer is a great opportunity to expand your network, make new friends, and build community with like-minded people who share your values. Light snacks and refreshments will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Eckankar Satsang: The Light and Sound of God, A monthly public service exploring the teachings of Eckankar. The meeting will include a brief talk on a spiritual topic, a guided contemplation on the Light and Sound of God, and a chance for attendees to share their experiences. This service offers a path for spiritual seekers to find their own truth and connect with the inner self. All are welcome.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Exploring Eastern Orthodoxy, A public lecture on the history, theology, and traditions of Eastern Orthodoxy. Learn about the unique aspects of Orthodox worship, icons, and the mystical path to union with God. This session is for anyone curious about this ancient branch of Christianity and its rich spiritual heritage.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Family Fun Day at the Church, All families are invited to join us for a day of fun and fellowship at the church. This event will include games, face painting, a bouncy castle for the kids, and a free BBQ lunch for everyone. It's a great chance to meet other families in the community and enjoy a day of outdoor activities in a safe and welcoming environment.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Seven Sacraments Bible Study, A study group exploring the biblical roots and theological significance of the Seven Sacraments in the Catholic Church. This course is for those seeking a deeper understanding of the sacraments as channels of grace and life in the Body of Christ. The course will be held weekly, and all are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Mindful Meditation & Yoga for Stress Relief, A weekly class combining gentle yoga and guided meditation to help manage stress and promote a sense of well-being. This session focuses on the connection between mind and body, helping you to find balance and release tension. No experience is necessary, and all are welcome to attend this supportive and calming space.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Journey to Jerusalem, An informational evening about an upcoming pilgrimage to the Holy Land. Learn about the itinerary, historical sites, and spiritual significance of visiting Jerusalem. This is a chance to ask questions, meet fellow travelers, and prepare for a life-changing journey of faith and discovery.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Jewish Spirituality: An Introduction to Kabbalah, An introductory talk on the mystical teachings of Kabbalah. Learn about the Tree of Life, the divine emanations, and the practice of meditation in Jewish mysticism. This session is designed for those curious about the esoteric dimension of Judaism and its rich spiritual tradition. All are welcome, no prior knowledge is needed.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Buddhism for Beginners: The Four Noble Truths, An introductory course on the core teachings of Buddhism. This workshop will provide a clear and accessible explanation of the Four Noble Truths and the Eightfold Path. Learn how these ancient principles can be applied to modern life to reduce suffering and cultivate happiness. Suitable for absolute beginners.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Gospel Choir Workshop, A fun and lively workshop for anyone who loves to sing gospel music. Learn harmonies, rhythms, and techniques from our experienced choir director. This is a welcoming, no-audition space for all skill levels. Join us for an evening of music, community, and joy. All voices are welcome to lift up a song of praise.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "A Night of Prayer for the City, Join us as we come together to pray for our city. This evening of corporate prayer will focus on local needs, from community welfare to political leaders, and will be an opportunity to seek God's guidance and blessing for our region. This is an interdenominational event, and all are welcome to participate.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "The Gospel According to Tolkien, A public lecture exploring the Christian themes and allegorical meanings within J.R.R. Tolkien's epic fantasy, The Lord of the Rings. Discover how his deep faith influenced his world-building, characters, and narrative arcs. This is a fascinating and insightful talk for fans of Tolkien and students of theology alike.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Spiritual Film Night: 'Samsara', A screening and discussion of the acclaimed documentary 'Samsara'. This film explores spiritual and cultural traditions from around the world, taking viewers on a visually stunning journey through life, death, and reincarnation. Following the film, there will be an open discussion to share thoughts and reflections. Snacks and drinks will be provided.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Christadelphian Bible Study: The Promises to Abraham, A weekly Bible study focusing on the promises made by God to Abraham and their significance for both the past and the future. This is a welcoming environment for anyone wanting to learn more about the Bible. The sessions are informal, with time for discussion and questions. All are welcome to attend.",
     "label": "Religion & Spirituality",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Intercultural Worship Service, A special worship service celebrating the diversity of our community. This event will feature music, prayers, and readings from a variety of cultural and linguistic traditions. It's a beautiful opportunity to experience the unity of the church in a rich tapestry of worship. Everyone is welcome to join in this celebration of faith.",
     "label": "Religion & Spirituality",
-    "skip": false
-  },
-  {
-    "description": "Wellington City Marathon Fun Walk: A non-competitive fun walk through the streets of Wellington. Choose from a 5k or 10k course, with a focus on fun, fitness, and social connection. ",
-    "label": "Sports & Fitness",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Wellington Cross Country Club Race Day: The final race day of the Wellington Cross Country Club season. Watch the top runners compete for a series title and a range of prizes. ",
     "label": "Sports & Fitness",
-    "skip": false
+    "skip": false,
+    "ai": true
   },
   {
     "description": "Beginner's Kayaking Tour on the Wairarapa Coast: A guided kayaking tour of the Wairarapa Coast, perfect for beginners. Learn basic paddling techniques and enjoy the stunning views of the coastline from the water. All equipment is provided. ",
     "label": "Sports & Fitness",
-    "skip": false
+    "skip": false,
+    "ai": true
   }
 ]
