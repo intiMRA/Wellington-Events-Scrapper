@@ -193,5 +193,5 @@ training_data_file = "training_data.json"
 unclassified_data_file = "unclassified_data.json"
 
 labels_out = predict_from_file(
-    unclassified_data_file
+    training_data_file
 )

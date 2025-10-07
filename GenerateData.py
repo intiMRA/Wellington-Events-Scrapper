@@ -115,7 +115,6 @@ def generate_unclassified_data():
 
 def count_categories():
     categories = {
-    'Education & Learning': 0,
         'Business & Networking': 0,
         'Music & Concerts': 0,
         'Arts & Theatre': 0,
@@ -234,8 +233,8 @@ def move_top_n_largest(num:int, category: str):
                 json.dump(training_data, unclassified_file_write, indent=2)
 
 # generate_kid_friendly()
-# move_top_n_shortest(6, "Community & Culture")
-# move_top_n_largest(2, "Music & Concerts")
+# move_top_n_shortest(1, "Community & Culture")
+# move_top_n_largest(2, "Arts & Theatre")
 generate_data()
 generate_unclassified_data()
 count_categories()
