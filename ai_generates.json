@@ -420,30 +420,6 @@
     "ai": true
   },
   {
-    "description": "Noir Film Festival: The Maltese Falcon, The Embassy Theatre is hosting a Noir Film Festival, and we're starting with the classic 'The Maltese Falcon.' Join us for a screening of this iconic film noir, followed by a discussion on its influence on the genre and its place in cinematic history.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "DIY Film Club: '2001: A Space Odyssey' & Pizza Night, The DIY Film Club is screening Stanley Kubrick's '2001: A Space Odyssey.' Join us at the Newtown Community Centre for a night of mind-bending cinema, with a discussion on the film's legacy and themes. We'll also have free pizza and drinks for all attendees.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Kids' Stop-Motion Animation Workshop, A hands-on workshop for kids aged 7-12 where they'll learn the basics of stop-motion animation. Using clay, LEGO, and other materials, they'll create their own short animated film to take home. All materials and equipment will be provided.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Comedy Film Festival: 'What We Do in the Shadows', Celebrate local comedy with a screening of Taika Waititi and Jemaine Clement's 'What We Do in the Shadows.' This mockumentary about a group of vampire flatmates in Wellington is a hilarious look at the supernatural. The screening will be followed by a Q&A with one of the filmmakers.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "A Night with the Aotearoa Film Archive, The Aotearoa Film Archive is hosting a special night of screenings from their collection. We'll be showing a selection of rare and historical New Zealand films, from early cinematic works to experimental shorts. This is a unique opportunity to see our country's film history on the big screen.",
     "label": "Film & Media",
     "skip": false,
@@ -944,30 +920,6 @@
   {
     "description": "Wellington Writers Group: Short Story Workshop, Join the Wellington Writers Group for a special short story writing workshop. Our guest instructor, a published author, will guide you through the process of writing a short story, from brainstorming and outlining to revision and editing. This is a great opportunity to get some expert guidance on your writing project and connect with other writers. Limited spaces, so book early!.",
     "label": "Hobbies & Interests",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Sustainable Living Expo, An expo dedicated to all things sustainable. The Wellington Sustainable Living Expo features a huge variety of stalls and workshops on topics like zero-waste living, urban gardening, sustainable fashion, and eco-friendly home products. This is a great opportunity to learn how to live a more sustainable life and connect with a community of like-minded people. There will be live music, food trucks, and a kids' zone with activities. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Summer Market, A vibrant outdoor market celebrating the best of summer. The Wellington Summer Market features a huge variety of stalls, from local food producers and artisans to vintage sellers and upcyclers. Browse unique gifts, fresh produce, and delicious street food. Enjoy the lively atmosphere with live music and a bustling crowd. This is a great way to spend a summer day and support local businesses. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Handmade Goods Market, The Wellington Handmade Goods Market is a celebration of local talent and creativity. Browse a wide range of stalls featuring handmade jewelry, pottery, artwork, and more. This is a great place to find unique, one-of-a-kind gifts and support our local crafters. Come and meet the artists, learn about their process, and take home a piece of their passion. Live music and a delicious selection of food and drink stalls will also be available. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Sunday Market & Car Boot Sale, Join us every Sunday for a combined market and car boot sale! Find a wide variety of items, from pre-loved clothing and household goods to handmade crafts and fresh produce. This is a great opportunity to find a bargain, sell your own items, and connect with your community. Free entry for shoppers, a small fee to set up a stall. All are welcome.",
-    "label": "Markets & Fairs",
     "skip": false,
     "ai": true
   },
