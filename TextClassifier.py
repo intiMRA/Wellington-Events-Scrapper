@@ -184,7 +184,7 @@ def load_models_from_file():
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
 use_ai_data = False
-should_train = False
+should_train = True
 
 if should_train:
     train_from_manual_training_files(use_ai_data)

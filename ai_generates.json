@@ -30,24 +30,6 @@
     "ai": true
   },
   {
-    "description": "Bug Hotel Workshop: Creating a Habitat for Insects, A hands-on workshop on building a bug hotel for a backyard garden. Learn about the importance of pollinators and beneficial insects, and how to create a habitat that attracts and supports them in your garden.",
-    "label": "Conservation & Environment",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Food Waste Reduction: A Creative Cooking Class, A cooking class focused on food waste reduction and creative cooking with leftovers. Learn how to transform food scraps into new and delicious meals, saving money and reducing your environmental impact in the kitchen.",
-    "label": "Conservation & Environment",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Predator Effects: A Talk on Native Birds, A seminar on the ecological effects of introduced predators on native birds. Hear from a conservation expert on the devastating impact of pests and the ongoing efforts to create predator-free zones to protect our unique birdlife.",
-    "label": "Conservation & Environment",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Eco-Friendly Cleaning Workshop: DIY Household Cleaners, A hands-on workshop on making your own eco-friendly household cleaners. Learn simple recipes for natural, non-toxic cleaners using everyday ingredients like vinegar, baking soda, and essential oils. All materials included.",
     "label": "Conservation & Environment",
     "skip": false,
@@ -420,24 +402,6 @@
     "ai": true
   },
   {
-    "description": "A Night with the Aotearoa Film Archive, The Aotearoa Film Archive is hosting a special night of screenings from their collection. We'll be showing a selection of rare and historical New Zealand films, from early cinematic works to experimental shorts. This is a unique opportunity to see our country's film history on the big screen.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Art of Documentary: A Q&A with Gaylene Preston, An intimate Q&A with renowned New Zealand filmmaker Gaylene Preston. She'll discuss her career, her approach to documentary filmmaking, and the challenges of telling real-life stories. This is a must-attend for anyone interested in documentary and storytelling.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Outdoor Cinema: 'The Lord of the Rings: The Fellowship of the Ring', An outdoor cinema event at the Wellington Botanic Gardens, screening 'The Lord of the Rings: The Fellowship of the Ring.' Bring a blanket and enjoy the film under the stars. Food and drinks will be available for purchase.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Wellington Film Critics Circle: 'Parasite' Screening & Discussion, The Wellington Film Critics Circle is hosting a screening of Bong Joon-ho's 'Parasite,' followed by a lively discussion on its themes, direction, and cultural impact. This is a great opportunity to engage with other film lovers and share your thoughts on this modern classic.",
     "label": "Film & Media",
     "skip": false,
@@ -470,12 +434,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Council vs. Community: Resolving Conflict: A seminar for community groups and individuals on effective communication, negotiation, and conflict resolution when dealing with local government bodies.",
-    "label": "Government & Politics",
     "skip": false,
     "ai": true
   },
@@ -924,74 +882,8 @@
     "ai": true
   },
   {
-    "description": "Wellington Designer's Pop-Up, A unique opportunity to shop directly from a range of talented local designers. The Wellington Designer's Pop-Up features a curated selection of stalls from emerging and established designers, from fashion and jewelry to home decor and art. This is a must-attend event for fashion lovers and anyone looking to support local creative talent. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Arts and Crafts Show, A showcase of the best local artists and crafters. The Wellington Arts and Crafts Show features a wide selection of paintings, sculptures, ceramics, textiles, and more. This is a great place to find a unique gift or a special piece for your home. We'll have live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Vintage and Retro Fair, Step back in time at the Wellington Vintage and Retro Fair. Find a treasure trove of vintage clothing, furniture, and collectibles from a wide range of eras. Whether you're a seasoned collector or a curious browser, this fair offers a chance to explore history through objects. There will be a vintage photobooth and a live DJ spinning classic tunes from the decades. Gold coin entry.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Flea Market & Farmers' Market, A unique combination of a flea market and a farmers' market. Find a wide variety of pre-loved items, from vintage clothing and furniture to fresh produce and gourmet food. This is a great place to find a bargain, support local farmers, and connect with your community. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Craft Market, A celebration of local craftsmanship and creativity. The Wellington Craft Market features a wide selection of handmade goods, from jewelry and pottery to artwork and home decor. This is a great place to find unique gifts and support our local crafters. There will be live demonstrations and workshops throughout the day. Free entry, all are welcome. A delicious selection of food and drink stalls will also be available.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Indie Designer Market, A market for independent designers and artists. The Wellington Indie Designer Market features a curated selection of stalls selling unique, handmade goods, from art and jewelry to clothing and home decor. This is a great place to discover new local talent and support small businesses. Live music and a delicious selection of food and drink stalls will also be available. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Eco Craft Fair, A fair dedicated to all things eco-friendly and sustainable. The Wellington Eco Craft Fair features a wide range of stalls selling handmade crafts made from recycled and sustainable materials. Find everything from upcycled jewelry and clothing to eco-friendly home decor and art. This is a great opportunity to learn about sustainable crafting and support businesses that are making a positive impact on the environment. Free entry.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Pop-Up Bazaar, A unique market experience! The Wellington Pop-Up Bazaar features a curated selection of local artists, designers, and food vendors. Browse unique gifts, art, and fashion while enjoying a festive atmosphere with live music and delicious food. This is a great opportunity to discover new local businesses and support the creative community in Wellington. Free entry, all are welcome.",
-    "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Sacred Space: A Meditation Workshop, A guided meditation workshop focused on creating and holding a sacred space within yourself. Learn to quiet the mind, connect with your inner wisdom, and find peace amidst the chaos of daily life. This session is open to all, regardless of spiritual background, and will provide practical tools for a daily meditation practice. Please bring a cushion and a blanket for comfort.",
-    "label": "Religion & Spirituality",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Introduction to the Quran: A Community Learning Circle, A weekly learning circle dedicated to the study of the Quran. This is a space for both Muslims and non-Muslims to read, discuss, and learn about the holy book of Islam. Sessions will include reading passages in both Arabic and English, and a facilitated discussion on their meanings and historical context. This is a welcoming and respectful environment for all who are curious.",
-    "label": "Religion & Spirituality",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Power of Forgiveness: A Spiritual Retreat, A weekend retreat focused on the spiritual practice of forgiveness. Through guided meditation, personal reflection, and group sessions, we will explore what it means to forgive others, forgive ourselves, and ask for forgiveness. This is a transformative journey to release past hurts and find peace in the present. All are welcome to attend this healing experience.",
-    "label": "Religion & Spirituality",
     "skip": false,
     "ai": true
   },
