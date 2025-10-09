@@ -1,6 +1,12 @@
 [
   {
     "id": "RoxyFestival",
+    "name": "Terror-Fi Film Festival 2025",
+    "icon": "movie",
+    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/terror-fi-film-festival-2025.json"
+  },
+  {
+    "id": "RoxyFestival",
     "name": "Italian Film Festival",
     "icon": "movie",
     "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/italian-film-festival.json"
