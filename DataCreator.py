@@ -63,7 +63,6 @@ def count_min_classes(data: List[Dict]) -> int:
     for d in data:
         label = d["label"]
         counts[label] = counts.get(label, 0) + 1
-
     smallest = math.inf
     for count in counts.values():
         if count < smallest:
@@ -83,7 +82,6 @@ def generate_files():
     for d in data:
         label = d["label"]
         classes.setdefault(label, []).append(d)
-
     test = []
     for c in classes.keys():
         test.extend(classes[c][0:test_num])
@@ -275,7 +273,7 @@ def run():
 
     init_range_high = X_pool.shape[0] - 1
     pop_size = 150
-    num_generations = 150
+    num_generations = 500
     num_parents_mating = int(pop_size * 0.2)
     init_range_low = 0
     parent_selection_type = "sss"

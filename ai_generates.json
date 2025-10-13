@@ -402,30 +402,6 @@
     "ai": true
   },
   {
-    "description": "Wellington Film Critics Circle: 'Parasite' Screening & Discussion, The Wellington Film Critics Circle is hosting a screening of Bong Joon-ho's 'Parasite,' followed by a lively discussion on its themes, direction, and cultural impact. This is a great opportunity to engage with other film lovers and share your thoughts on this modern classic.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Children's Book-to-Film Showcase, A special screening of animated films based on popular children's books. This free event at the Johnsonville Community Centre is perfect for young readers and their families. We'll have a storytelling session and a craft table before the films begin.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Art of Visual Effects: A Panel Discussion, A panel discussion with leading visual effects artists from Wellington's film industry. They'll discuss the latest technologies, challenges, and creative processes involved in creating stunning visual effects for blockbusters and independent films. This is a great opportunity for students and professionals to learn about the industry.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington's Film Heritage: A Tour of The Embassy, A guided tour of The Embassy Theatre, one of Wellington's most iconic and historic cinemas. Learn about its rich history, architectural features, and famous events. The tour will also include a short screening of a classic film trailer.",
-    "label": "Film & Media",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Fantasy Film Festival: 'Pan's Labyrinth', A screening of Guillermo del Toro's dark fantasy film 'Pan's Labyrinth' at the BATS Theatre. This magical and heartbreaking film is a must-see for fans of fantasy and art-house cinema. The screening will be followed by a Q&A with a local film critic.",
     "label": "Film & Media",
     "skip": false,
@@ -434,12 +410,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Pukeh\u012bnau/Lambton Ward Candidate Debate: A community forum for candidates of the Pukeh\u012bnau/Lambton Ward, providing a chance for residents to ask questions about their vision for the area.",
-    "label": "Government & Politics",
     "skip": false,
     "ai": true
   },
@@ -884,30 +854,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Weekly Prayer Meeting for Healing, A weekly prayer meeting dedicated to praying for physical, emotional, and spiritual healing. This is a confidential and supportive space for anyone in need of prayer for themselves or for a loved one. The meeting will include a short devotional, a time of corporate prayer, and an opportunity for personal prayer with a member of our prayer team. All are welcome.",
-    "label": "Religion & Spirituality",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Spiritual Speed Dating: Find Your Soul Tribe, An evening of spiritual speed dating designed to help you connect with like-minded people. This event is for anyone interested in spirituality, meditation, yoga, and holistic wellness. You'll have a series of short, one-on-one conversations to find your soul tribe and make new friends. The evening will include a guided meditation and light snacks.",
-    "label": "Religion & Spirituality",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Lord's Supper: A Communion Service, A special communion service in remembrance of Jesus Christ. This service is a time for believers to gather, worship, and share in the Lord's Supper. We will reflect on the sacrifice of Christ and the new covenant he established with his people. This service is open to all who have a relationship with Jesus Christ.",
-    "label": "Religion & Spirituality",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Sermon Series: The Parables of Jesus, A sermon series exploring the parables of Jesus Christ and their timeless wisdom. Each week, we will delve into a different parable and uncover its meaning for our lives today. This series is suitable for all ages and levels of faith, and will provide practical insights for living a more Christ-like life. All are welcome.",
-    "label": "Religion & Spirituality",
     "skip": false,
     "ai": true
   },
