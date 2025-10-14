@@ -49,7 +49,7 @@ class WellingtonHeritageFestivalScrapper:
         CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
             "id": "HeritageFestival",
             "name": "Wellington Heritage Festival",
-            "icon": "house",
+            "icon": "heritage",
             f"url": f"https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/{festival_file_name}"
         })
         with open(festival_file_name, mode="r") as old_events_file:
