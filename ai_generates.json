@@ -30,12 +30,6 @@
     "ai": true
   },
   {
-    "description": "Sustainable Wardrobe Workshop: Thrifting & Planning, A workshop on creating a sustainable wardrobe through thrifting and capsule planning. Learn how to shop for secondhand clothing, repair and upcycle garments, and build a timeless wardrobe that is both stylish and eco-friendly.",
-    "label": "Conservation & Environment",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Pollinator Seminar: Bees & Our Ecosystem, A seminar on the role of bees and other pollinators in our ecosystem. Hear from a beekeeper and a botanist on the importance of pollinators for food production and biodiversity, and what you can do to create a pollinator-friendly garden.",
     "label": "Conservation & Environment",
     "skip": false,
@@ -392,12 +386,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Mayoral Race: Meet the Candidates: A public event where all mayoral candidates present their platforms and participate in a question and answer session with the audience.",
-    "label": "Government & Politics",
     "skip": false,
     "ai": true
   },
@@ -836,18 +824,6 @@
   {
     "description": "Wellington Local Makers Fair, The Wellington Local Makers Fair is a vibrant showcase of handcrafted goods, bringing together a diverse group of artisans from across the city. You'll find unique items including custom jewelry, intricate pottery, and beautiful textiles. This event is a great way to meet the creators behind the products and support small businesses in your community. Enjoy a bustling atmosphere with live music and delicious food stalls while you shop.",
     "label": "Markets & Fairs",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Christian Meditation Workshop, A workshop introducing the practice of Christian meditation. Learn how to use silent contemplation, Lectio Divina (divine reading), and centering prayer to deepen your relationship with God. This is a practical and prayerful session for anyone wanting to quiet their mind and listen for God's voice. No prior experience is needed.",
-    "label": "Religion & Spirituality",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Spiritual Gifts Workshop, A workshop designed to help you discover and develop your spiritual gifts. Through a series of self-assessments, talks, and group activities, you will learn what your unique gifts are and how to use them to serve God and others. This is an empowering and encouraging session for all believers.",
-    "label": "Religion & Spirituality",
     "skip": false,
     "ai": true
   },

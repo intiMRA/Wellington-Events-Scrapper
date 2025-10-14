@@ -3561,7 +3561,7 @@
     "description": "Suffrage Day Walking Tour Bolton Street Cemetery, It's Suffrage Day on Friday 19 September, marking the day in 1893 when New Zealand became the first self-governing country in the world to grant women the right to vote in parliamentary elections.\n\nTo celebrate our pioneer women, and those who signed the Suffrage Petition in 1893, we're taking a walk through the cemetery, talking about the roles of settler women from 1840 onwards.\n\nWe'll meet at the Seddon Memorial at the top of the cemetery (by Anderson Park) in time to set off at 11.00am, and we'll finish at the Museum in Bolton Street about 12.30pm.\n\nThis tour is suitable for all ages, but full mobility is required. Cost $10 per person, children under 12 free, and good dogs on leads welcome.",
     "label": "Community & Culture",
     "skip": false,
-    "kid_friendly": false
+    "kid_friendly": true
   },
   {
     "description": "TAKA Trust Charity Golf Day in association with Hawkins, TAKA Trust Charity Golf Day in association with Hawkins\nCalling all aspiring Ryan Fox\u2019s, or simply those who just want to get out on course in support of the TAKA Trust mahi providing Hutt tamariki with the opportunities most take for granted.\n\nRegistrations are now open for the TAKA Trust 2025 Charity Golf Day in association with Hawkins Limited to be held at Shandon Golf Club.\n\nMark Friday 21 November in your calendar and register a team via the tickets link.\n\nA huge thank you to Hawkins Limited for their ongoing partnership and commitment to our cause!\n\nAlso check out other Nonprofit events in Lower Hutt, Sports events in Lower Hutt.",
@@ -7487,7 +7487,6 @@
     "skip": false,
     "kid_friendly": true
   },
-  },
     {
     "description": "Haunted Halloween Zumba \ud83c\udf83, Haunted Halloween Zumba \ud83c\udf83\nJoin us for a dress up Haunted Halloween Zumba in the dark! Held in our stadium from 6pm - 7pm on October the 24th. Get your spook on and unmask your inner ghoul for a howling good time! \ud83c\udf83\ud83d\udc7b\n\nTickets: Adult $10, Kids $6, Family Pass $20\n\nFamily passes include either 2 adults and 2 kids or 1 adult and 3 kids.\n\nTickets are available for purchase now at our reception.\n\n",
     "label": "Hobbies & Interests",
@@ -8379,6 +8378,12 @@
     {
     "description": "Spooky Spectacular, Spooky Spectacular\nSpooky season is here! \ud83d\udc7b\n\nJoin us for some ghoulishly good family fun with storytime, crafts, and games.\n\nOur spook-tacular Halloween celebration is designed especially for little goblins, witches, and wizards, with safety and age-appropriate activities in mind.\n\nCostumes and dressing up optional, but definitely recommended!\n\nFor more info, visit our website \ud83d\udc47\nhttps://www.upperhuttlibrary.co.nz/Events/Spooky-Spectacular\n\n",
     "label": "Community & Culture",
+    "skip": false,
+    "kid_friendly": true
+  },
+    {
+    "description": "SGCNZ Primarily Playing With Shakespeare 2025, Be charmed by over 100 year 1-8 tamariki loving their romp through As You Like it. An hour long tailored version: thoroughly enjoyable and accessible for all! Performed by groups from 5 different schools around the region.",
+    "label": "Family Friendly",
     "skip": false,
     "kid_friendly": true
   },
