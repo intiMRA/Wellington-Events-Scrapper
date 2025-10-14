@@ -233,8 +233,8 @@ def move_top_n_largest(num:int, category: str):
                 json.dump(training_data, unclassified_file_write, indent=2)
 
 # generate_kid_friendly()
-# move_top_n_shortest(1, "Community & Culture")
-# move_top_n_largest(2, "Arts & Theatre")
+# move_top_n_shortest(5, "Hobbies & Interests")
+# move_top_n_largest(5, "Markets & Fairs")
 generate_data()
 generate_unclassified_data()
 count_categories()
