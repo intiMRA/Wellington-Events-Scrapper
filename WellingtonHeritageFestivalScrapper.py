@@ -1,7 +1,6 @@
 import json
 import re
 
-from tensorflow.python.data.experimental.ops.testing import sleep
 from dateutil import parser
 import FileUtils
 import ScrapperNames
@@ -19,14 +18,6 @@ class WellingtonHeritageFestivalScrapper:
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL)))
-        festival_name = "heritage-festival"
-        CurrentFestivals.CURRENT_FESTIVALS.append("HeritageFestival")
-        CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
-            "id": "HeritageFestival",
-            "name": festival_name,
-            "icon": "house",
-            f"url": f"https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/{festival_name}.json"
-        })
         url = 'https://wellingtonheritagefestival.co.nz/page-data/events/page-data.json'
         headers = {
             'accept': '*/*',
@@ -37,7 +28,10 @@ class WellingtonHeritageFestivalScrapper:
         }
 
         response = requests.get(url, headers=headers)
-        response.raise_for_status()
+        try:
+            response.raise_for_status()
+        except:
+            return []
         data = response.json()
         events_json_list = data["result"]["data"]["allContentfulEvent"]["nodes"]
         message_json = json.loads(data["result"]["data"]["contentfulLandingPage"]["content"]["raw"])
@@ -48,6 +42,27 @@ class WellingtonHeritageFestivalScrapper:
             return []
         festival_range = [parser.parse(DateFormatting.format_date_stamp(date)) for date in DateFormatting.create_range(start_date, end_date)]
         event_list = []
+        if not events_json_list:
+            return []
+        festival_file_name = "heritage-festival.json"
+        CurrentFestivals.CURRENT_FESTIVALS.append("HeritageFestival")
+        CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
+            "id": "HeritageFestival",
+            "name": "Wellington Heritage Festival",
+            "icon": "heritage",
+            f"url": f"https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/{festival_file_name}"
+        })
+        with open(festival_file_name, mode="r") as old_events_file:
+            old_events_dict = json.loads(old_events_file.read())["events"]
+            old_events = {}
+            for e_d in old_events_dict:
+                try:
+                    event = EventInfo.from_dict(e_d)
+                    if event:
+                        old_events[event.name] = event
+                except:
+                    continue
+
         for event_json in events_json_list:
             keep_event = False
             for tag in event_json["metadata"]["tags"]:
@@ -61,7 +76,7 @@ class WellingtonHeritageFestivalScrapper:
             if not keep_event:
                 continue
             title = event_json["title"]
-            image_url = "https://wellingtonheritagefestival.co.nz/" + event_json["bannerImg"]["img"]["gatsbyImage"]["images"]["sources"][0]["srcSet"]
+            image_url = "https://wellingtonheritagefestival.co.nz" + event_json["bannerImg"]["img"]["gatsbyImage"]["images"]["sources"][0]["srcSet"]
             dates = []
             for time in event_json["times"]:
                 if time["fullFestivalDuration"]:
@@ -87,19 +102,25 @@ class WellingtonHeritageFestivalScrapper:
                 else:
                     description += description_content["value"] + "\n"
             description = description + intro
-            event = EventInfo(name=title,
-                             dates=dates,
-                             image=image_url,
-                             url=url,
-                             venue=venue,
-                             source=ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL,
-                             event_type="Community & Culture",
-                             description=description)
+            if title in old_events.keys():
+                event = old_events[title]
+                event.image = image_url
+                event.dates = [DateFormatting.format_date_stamp(date) for date in dates]
+            else:
+                event = EventInfo(name=title,
+                                 dates=dates,
+                                 image=image_url,
+                                 url=url,
+                                 venue=venue,
+                                 source=ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL,
+                                 event_type="Community & Culture",
+                                 description=description)
             if event:
                 event_list.append(event)
-        print(len(event_list))
-        with open("heritage-festival.json", mode="w") as festival_file:
-            json.dump([event.to_dict() for event in event_list], festival_file, indent=2)
+        print(f"number of heritage events: {len(event_list)}")
+        with open(festival_file_name, mode="w") as festival_file:
+            events_dict = { "events": [event.to_dict() for event in event_list] }
+            json.dump(events_dict, festival_file, indent=2)
         return []
 
 # events = list(map(lambda x: x.to_dict(), sorted(WellingtonHeritageFestivalScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
