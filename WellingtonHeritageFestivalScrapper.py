@@ -1,7 +1,6 @@
 import json
 import re
 
-from tensorflow.python.data.experimental.ops.testing import sleep
 from dateutil import parser
 import FileUtils
 import ScrapperNames
@@ -48,6 +47,17 @@ class WellingtonHeritageFestivalScrapper:
             return []
         festival_range = [parser.parse(DateFormatting.format_date_stamp(date)) for date in DateFormatting.create_range(start_date, end_date)]
         event_list = []
+        with open("heritage-festival.json", mode="r") as old_events_file:
+            old_events_dict = json.loads(old_events_file.read())
+            old_events = {}
+            for e_d in old_events_dict:
+                try:
+                    event = EventInfo.from_dict(e_d)
+                    if event:
+                        old_events[event.name] = event
+                except:
+                    continue
+
         for event_json in events_json_list:
             keep_event = False
             for tag in event_json["metadata"]["tags"]:
@@ -87,14 +97,18 @@ class WellingtonHeritageFestivalScrapper:
                 else:
                     description += description_content["value"] + "\n"
             description = description + intro
-            event = EventInfo(name=title,
-                             dates=dates,
-                             image=image_url,
-                             url=url,
-                             venue=venue,
-                             source=ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL,
-                             event_type="Community & Culture",
-                             description=description)
+            if title in old_events.keys():
+                event = old_events[title]
+                event.dates = dates
+            else:
+                event = EventInfo(name=title,
+                                 dates=dates,
+                                 image=image_url,
+                                 url=url,
+                                 venue=venue,
+                                 source=ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL,
+                                 event_type="Community & Culture",
+                                 description=description)
             if event:
                 event_list.append(event)
         print(len(event_list))
