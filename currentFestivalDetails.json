@@ -14,7 +14,7 @@
   {
     "id": "HeritageFestival",
     "name": "Wellington Heritage Festival",
-    "icon": "house",
+    "icon": "heritage",
     "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/heritage-festival.json"
   }
 ]
