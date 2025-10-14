@@ -76,7 +76,7 @@ class WellingtonHeritageFestivalScrapper:
             if not keep_event:
                 continue
             title = event_json["title"]
-            image_url = "https://wellingtonheritagefestival.co.nz/" + event_json["bannerImg"]["img"]["gatsbyImage"]["images"]["sources"][0]["srcSet"]
+            image_url = "https://wellingtonheritagefestival.co.nz" + event_json["bannerImg"]["img"]["gatsbyImage"]["images"]["sources"][0]["srcSet"]
             dates = []
             for time in event_json["times"]:
                 if time["fullFestivalDuration"]:
@@ -104,6 +104,7 @@ class WellingtonHeritageFestivalScrapper:
             description = description + intro
             if title in old_events.keys():
                 event = old_events[title]
+                event.image = image_url
                 event.dates = [DateFormatting.format_date_stamp(date) for date in dates]
             else:
                 event = EventInfo(name=title,
