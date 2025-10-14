@@ -53,7 +53,7 @@ class WellingtonHeritageFestivalScrapper:
             f"url": f"https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/{festival_file_name}"
         })
         with open(festival_file_name, mode="r") as old_events_file:
-            old_events_dict = json.loads(old_events_file.read())
+            old_events_dict = json.loads(old_events_file.read())["events"]
             old_events = {}
             for e_d in old_events_dict:
                 try:
@@ -119,7 +119,8 @@ class WellingtonHeritageFestivalScrapper:
                 event_list.append(event)
         print(f"number of heritage events: {len(event_list)}")
         with open(festival_file_name, mode="w") as festival_file:
-            json.dump([event.to_dict() for event in event_list], festival_file, indent=2)
+            events_dict = { "events": [event.to_dict() for event in event_list] }
+            json.dump(events_dict, festival_file, indent=2)
         return []
 
 # events = list(map(lambda x: x.to_dict(), sorted(WellingtonHeritageFestivalScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
