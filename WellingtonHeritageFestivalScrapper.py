@@ -99,7 +99,7 @@ class WellingtonHeritageFestivalScrapper:
             description = description + intro
             if title in old_events.keys():
                 event = old_events[title]
-                event.dates = dates
+                event.dates = [DateFormatting.format_date_stamp(date) for date in dates]
             else:
                 event = EventInfo(name=title,
                                  dates=dates,
@@ -111,9 +111,9 @@ class WellingtonHeritageFestivalScrapper:
                                  description=description)
             if event:
                 event_list.append(event)
-        print(len(event_list))
+        print(f"number of heritage events: {len(event_list)}")
         with open("heritage-festival.json", mode="w") as festival_file:
             json.dump([event.to_dict() for event in event_list], festival_file, indent=2)
         return []
 
-# events = list(map(lambda x: x.to_dict(), sorted(WellingtonHeritageFestivalScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
+events = list(map(lambda x: x.to_dict(), sorted(WellingtonHeritageFestivalScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
