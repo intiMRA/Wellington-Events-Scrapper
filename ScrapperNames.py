@@ -3,6 +3,7 @@ from datetime import datetime
 
 WELLINGTON_NZ: str = "Wellington NZ"
 WELLINGTON_HIGH_SCHOOL: str = "Wellington High School"
+WELLINGTON_HERITAGE_FESTIVAL: str = "Wellington Heritage Festival"
 VALHALLA: str = "Valhalla"
 UNDER_THE_RADAR: str = "Under The Radar"
 TICKET_MASTER: str = "Ticket Master"
@@ -32,7 +33,8 @@ ALL_SCRAPER_NAMES: List[str] = [
     EVENT_BRITE,
     ALL_EVENTS_IN,
     WELLINGTON_NZ,
-    ROXY
+    ROXY,
+    WELLINGTON_HERITAGE_FESTIVAL
 ]
 
 if now.month == 8 or now.month == 7:
