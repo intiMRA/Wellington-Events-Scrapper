@@ -10,5 +10,11 @@
     "name": "Italian Film Festival",
     "icon": "movie",
     "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/italian-film-festival.json"
+  },
+  {
+    "id": "HeritageFestival",
+    "name": "heritage-festival",
+    "icon": "house",
+    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/heritage-festival.json"
   }
 ]
