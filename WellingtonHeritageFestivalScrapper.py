@@ -22,9 +22,9 @@ class WellingtonHeritageFestivalScrapper:
         festival_name = "heritage-festival"
         CurrentFestivals.CURRENT_FESTIVALS.append("HeritageFestival")
         CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
-            "id": "RoxyFestival",
+            "id": "HeritageFestival",
             "name": festival_name,
-            "icon": "movie",
+            "icon": "house",
             f"url": f"https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/{festival_name}.json"
         })
         url = 'https://wellingtonheritagefestival.co.nz/page-data/events/page-data.json'
