@@ -30,12 +30,6 @@
     "ai": true
   },
   {
-    "description": "Pollinator Seminar: Bees & Our Ecosystem, A seminar on the role of bees and other pollinators in our ecosystem. Hear from a beekeeper and a botanist on the importance of pollinators for food production and biodiversity, and what you can do to create a pollinator-friendly garden.",
-    "label": "Conservation & Environment",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Native Tree Identification: A Guided Walk, A guided walk focusing on identifying native trees and their uses. Learn about the different types of native trees, their cultural significance, and their role in the ecosystem. This is a great way to deepen your knowledge of New Zealand's unique flora.",
     "label": "Conservation & Environment",
     "skip": false,
@@ -386,18 +380,6 @@
   {
     "description": "Dessert Degustation, An evening of pure indulgence. Our pastry chef has created a multi-course dessert degustation, with each dish a work of art. From rich chocolate mousses to delicate fruit tarts and innovative ice creams, this is a sweet feast for the eyes and the palate. Wine and cocktail pairings are also available.",
     "label": "Food & Drink",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Council Candidate Debate: A live-streamed debate for candidates for Wellington's city council, where they will discuss infrastructure, economic development, and community issues, followed by questions from the public.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Community Hubs Planning Meeting: A meeting with city planners and community leaders to discuss the development of new community hubs, focusing on public use, resource allocation, and accessibility.",
-    "label": "Government & Politics",
     "skip": false,
     "ai": true
   },

@@ -45,12 +45,12 @@
     "skip": false
   },
   {
-    "description": "ALTAR: The Drag Rite of Balance and Blasphemy, Join us at Fringe Bar for ALTAR, a spellbinding drag ritual honouring the turn of the seasons. As day and night stand in perfect balance, witness an evening of witchcraft, blasphemy, mythology, and queer magic brought to life by a fierce coven of drag kings, queens, monsters, and cryptids.\nThis equinox, we invoke the primal, the divine, and the forbidden. Expect offerings to old gods, sacrificial glamour, and performances steeped in folklore, resistance and radical ritual. ALTAR is a celebration of queer power, transgressive beauty, and the defiance of a world that seeks to burn us at the stake.\nWith Performances By:\nRobin Yablind\nRover Stimulation\nMisty Frequency\nDarryl Parton\nRocky Rhodes\nMANNNTIS\nJudas Kiss\nAracella\nCailiah the Banshee\nCome ready to worship. Come ready to sin.\nBring your rage, your devotion, your offerings, and lay them down at the ALTAR!\nDoors open 7.30pm\nShow starts 8pm ",
+    "description": "A Novel Death at Oaks Wellington Hotel, Join us for a thrilling evening of intrigue and suspense as we step back in time to solve a murder mystery in the gritty world of the 1920s\nMurder Mystery - A Novel Death brings the 1920s Noir Theme to life! Step back in time and immerse yourself in a thrilling evening of mystery and suspense. Put on your best vintage attire and get ready to solve a murder in true detective style. This in-person event promises an evening full of intrigue, plot twists, and maybe even a few shady characters. Gather your friends and test your sleuthing skills in this immersive experience that will transport you to the world of classic crime novels. ",
     "label": "Arts & Theatre",
     "skip": false
   },
   {
-    "description": "ANGELDUST - STONED TEMPLAR PIRATES, ANGELDUST - STONED TEMPLAR PIRATES\nGrab yourself a fine beverage at the bar and settle in to enjoy Angeldust Faith No More Tribute, and Stoned Templar Pirates. Both bands are serious about authenticity and kicking some arse and you can experience this live at a special nice price.\nTickets $15 on Moshtix.\n$20 on the door\n\n",
+    "description": "ALTAR: The Drag Rite of Balance and Blasphemy, Join us at Fringe Bar for ALTAR, a spellbinding drag ritual honouring the turn of the seasons. As day and night stand in perfect balance, witness an evening of witchcraft, blasphemy, mythology, and queer magic brought to life by a fierce coven of drag kings, queens, monsters, and cryptids.\nThis equinox, we invoke the primal, the divine, and the forbidden. Expect offerings to old gods, sacrificial glamour, and performances steeped in folklore, resistance and radical ritual. ALTAR is a celebration of queer power, transgressive beauty, and the defiance of a world that seeks to burn us at the stake.\nWith Performances By:\nRobin Yablind\nRover Stimulation\nMisty Frequency\nDarryl Parton\nRocky Rhodes\nMANNNTIS\nJudas Kiss\nAracella\nCailiah the Banshee\nCome ready to worship. Come ready to sin.\nBring your rage, your devotion, your offerings, and lay them down at the ALTAR!\nDoors open 7.30pm\nShow starts 8pm ",
     "label": "Arts & Theatre",
     "skip": false
   },
@@ -161,6 +161,11 @@
   },
   {
     "description": "Artists for Nature: Imaginal Disc, Enter a portal to a realm where insects meet art. Here, each insect is cherished for their unique beauty, their importance to the ecosystem and their marvelous life processes.\n\nThrough their dazzling video artworks, local artist Em Flux shares their queer, autistic worldview of the invertebrate world. They will be sharing a number of invertebrate-based video artworks and discuss the queer ecologies of insects, posthumanism and how art can be a tool to celebrate biodiversity. In these artworks, even the least appreciated creatures get a chance to shine!\n\nThis event will be held in the R\u0101t\u0101 Cafe Balcony on the second floor of the Visitor's Centre. Doors Open 5.15pm, overflow parking is available on Birdwood Street.",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
+    "description": "Artists for Nature: Imaginal Disc, Enter a portal to a realm where insects meet art. Here, each insect is cherished for their unique beauty, their importance to the ecosystem and their marvelous life processes.\nThrough their dazzling video artworks, local artist Em Flux shares their queer, autistic worldview of the invertebrate world. They will be sharing a number of invertebrate-based video artworks and discuss the queer ecologies of insects, posthumanism, and how art can be a tool to celebrate biodiversity. In these artworks, even the least appreciated creatures get a chance to shine!\nThis event will be held in the R\u0101t\u0101 Caf\u00e9 Balcony on the second floor of the Visitor's Centre. Doors Open 5:15pm, overflow parking is available on Birdwood Street. ",
     "label": "Arts & Theatre",
     "skip": false
   },
@@ -545,12 +550,22 @@
     "skip": false
   },
   {
+    "description": "Daniel Sloss \u2014 Bitter, He\u2019s one of the biggest global names in live stand-up comedy. Daniel Sloss is heading to The Opera House to regale a Wellington audience with his edgy brand of comedy. \u2018Bitter\u2019 is an opportunity to experience Daniel\u2019s brilliant and devastatingly hilarious delivery. His impact on the comedy scene has been impressive. Now 35, Daniel has been peddling his dark sense of humour for over half his life. At the age of 19, he was the youngest comedian to perform a solo season in London\u2019s West End. Now, on to solo show number 13, he is one of the top ticket-selling comedians on the planet. His extensive tours have taken him to 55 countries and counting.",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
     "description": "Dark Elegance: The Exhibition - Opening Night, Dark Elegance.\nThe subtle dance between grace, melancholy, and beauty - that can only be attained when we peer into the depths of our shadows.\nThis event is the opening night. The exhibition will be available for viewing until Nov. 29th from Tuesday to Saturday, 10am to 6pm. ",
     "label": "Arts & Theatre",
     "skip": false
   },
   {
     "description": "Dark Elegance: The Exhibition - Opening Night, Dark Elegance: The Exhibition - Opening Night\nDark Elegance.\nThe subtle dance between grace, melancholy, and beauty - that can only be attained when we peer into the depths of our shadows.\n\nThis event is the opening night. The exhibition will be available for viewing until Nov. 29th from Tuesday to Saturday, 10am to 6pm.\n\n",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
+    "description": "Declarations of Love (And Other Useless Things) - BATS Theatre, Created by Tempest Theatre Co\n\nBack for its five year anniversary, Emma Maguire and Hamish Boyle run the gauntlet of sketch comedy, performing 15+ sketches about love, sex, queerness and rom-coms in 55 minutes.\nIt's delirious, it'll get your blood pumping (not like that), and maybe we'll all come out of it satisfied.\n\nThink parodies of Fifty Shades of Grey and the manosphere.\nInterrogating love languages and horoscopes.\nA lot of ~intimate eye contact~.\nMaybe some touching.\n\nThe works.\n\n\u201cTake your friends. Take your lovers. This show IS a love story. And it\u2019s totally for everyone.\u201d\nTheatreview\n\nCreated and Performed by Emma Maguire & Hamish Boyle\nFacilitation & dramaturgy by Jo Marsh\nLighting design and operation by Ezra Jones-Moki",
     "label": "Arts & Theatre",
     "skip": false
   },
@@ -910,6 +925,11 @@
     "skip": false
   },
   {
+    "description": "Improv on a plate, Welcome to Improv on a Plate, the comedy tasting menu no one ordered and everyone regrets.\nIn this unholy fusion of high-stakes improv and low-stakes judgment, three deranged guest chefs (aka format-pitchers) take the stage with one mission: serve up the most unhinged, impossible improv formats they can dream of. Enter Wellington comedy trio, Catfish Trifecta \u2014 your unsuspecting improv victims \u2014 who must swallow each cursed format whole and perform it on the spot.\nNo script. No escape. Just raw, unfiltered chaos served \u00e0 la mode.\nThe pitchers then get to sit back, relax, and judge the madness they\u2019ve unleashed. It\u2019s improv. It\u2019s pain. It\u2019s Improv on a Plate.\nOne night only. No refunds. BYO palate cleanser.\n---\nCatfish Trifecta will also be joined by two opening acts.\n",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
     "description": "Instant Theatre, Instant Theatre is a fully improvised, character-driven performance of real people in real situations\u2014created spontaneously before your eyes.\n\nWith no scripts, no games, and nothing prepared, our four performers build a rich, interwoven world exploring the lives of these characters experiencing joy, heartbreak, unexpected life events, human connection, revelations of who they truly are.\n\nEvery show is a one-night-only window into these lives.",
     "label": "Arts & Theatre",
     "skip": false
@@ -1145,6 +1165,11 @@
     "skip": true
   },
   {
+    "description": "Messy, \"Messy\", a new play written by Tara Weston-Webb, is coming to BATS this November!\n\nSynopsis:\nFlatmates Gracie, deep in therapy and retail work, and Freya, accidental drug dealer, \u201cbarely\u201d an artist, struggle with the psychological toll of their art degree and navigate life post-uni.\n\nGracie\u2019s rage gets the best of her, and Freya is losing hope. The play speaks to how tough it can be not to give up on the arts industry and how necessary mental health support is for our resilience.\n\nMessy is a dark comedy; quippy with fast intellectual dialogue.\n\nIt pokes fun at the mundane drudgery of life, and highlights the beauty of creating art and leaning on your artistic community for support.\n\nContent warning:\nThemes of mental health and drugs. Mentions of suicide.",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
     "description": "Michelangelo \u2014 A Different View, There\u2019s no need to look up to see true greatness. The intricate beauty of Michelangelo\u2019s Sistine Chapel ceiling will be on full display at T\u0101kina over summer. Michelangelo \u2014 A Different View invites you to experience the genius of the sixteenth-century artist from an entirely new perspective. You get to be above and up close. \nUnder license from the Vatican Museums, this exhibition offers a complete and authentic reproduction of over 50 stunning works. This once-in-a-lifetime exhibition allows you to experience the colour and detail of multiple works from just two meters away. ",
     "label": "Arts & Theatre",
     "skip": false
@@ -1311,6 +1336,11 @@
   },
   {
     "description": "Opening - Slipping through your fingers, grasping, Meanwhile invites you to the opening of \u2018Slipping through your fingers, grasping\u2019 by Justine Fletcher, Christine Brimer andRita Takeuchi\n_____\nThe text Sounding the Event, by artist and writer Yve Lomax, raises the question \u201cWhat does it mean to grasp something by letting it slip through your fingers?\u201d\nSlipping Through Your Fingers, Grasping explores the paradoxical ways in which everyday experiences can be apprehended\u2014through their fluid, malleable qualities rather than rigid, unyielding structures. The installation brings together the practices of Justine Fletcher, Christine Brimer, and Rita Takeuchi to draw attention to the fleeting essence of daily life, the interplay of absence and presence, and the ever-changing nature of time and memory.\nExperience is always slipping away; time, memory, or an event can only be grasped in their passing, in their trace, or in their absence. Short, intermittent chimes highlight this ephemerality, making duration palpable through moments of presence and absence. Paintings emerge from an attunement to everyday encounters and their emotional resonance, while sculptural and woven forms unravel and shift, emphasising process not as a means to an end, but as a state of becoming. Together, the works suggest that sometimes the only way to \u201chold\u201d something, whether a moment, time, or an atmosphere, is by revealing its impermanence.\n",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
+    "description": "Opening Floor Talks, Opening Floor Talks\nJoin us as we walk you through two exciting and vibrant new shows here at The Dowse.\n\nAbout this Event\n\nWing and a Prayer blends humour with reverence, with fast food fountains and a holy water vending machine. Featuring works by Isabella Lepoamo, Sacha Lees, Scott Eady, Sian Torrington and Sophia Smolenski, join curators Chelsea Nichols and Milly Mitchell-Anyon as they explore the tension between adaptation and authenticity alongside some of the artists.\nSOFTY is an exhibition of textile works from The Dowse\u2019s permanent collection, including recent acquisitions, revealing The Dowse\u2019s softer side, and our steadfast commitment to collecting craft. Milly and Chelsea will talk you through the pieces in the show, as well as give a wider view on how these pieces fit into The Dowse Collection. With works by Gordon Crook, Malcolm Harrison, Areez Katki, Maungarongo Te Kawa, Turumeke Harrington, Jakob Rowlinson, Daegan Wells and Steven Junil Park, SOFTY showcases the variety of textiles collected by The Dowse.\nAlongside the opening of these new shows we are celebrating the creativity of local arts in the Lower Hutt Art Trail this weekend.\n\n",
     "label": "Arts & Theatre",
     "skip": false
   },
@@ -1531,6 +1561,11 @@
   },
   {
     "description": "Running Into The Sun, Running Into The Sun\nAfter exploding onto the Australian scene, a2 Company bring their euphoric hour of award-winning physical theatre home to P\u014dneke\n\nAbout this Event\n\nAfter winning Best Theatre at the Melbourne Fringe, Running into the Sun comes home to P\u014dneke for the first time. The 10 creatives in a2 Company create an \u201cexhausting but exhilarating\u201d story of what it means to be alive right now with live music, dance, and theatre.\nIt\u2019s graduation night. Ash and Mary discover they are pregnant. A flash flood hits their hometown. The war crimes overseas become more horrifying.\nRunning into the Sun is \u201cmessy, joyous, heartfelt and completely off the chain.\u201d\n\n",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
+    "description": "SCAREHORN! (Airhorn Halloween Special!), It's the spoooky season and Airhorn is here with the second annual SCAREHORN! This show will chill you to the bone. the FUNNY BONE!\nExpect thrills, expect chills, expect things that go bump in the night. But mostly, expect laughter.\nThis is a supernaturally special show full of frightening performances from:\n- Alayne Dick\n- Anna MacLean\n- Gabby Anderson\n- Lesa MacLeod-Whiting\n- Lily Catastrophe\n- Zach Mandeville\nand hosted by the fiendishly talented Booth the Clown and Jak Darling!!!\nThis will be a top 5 paranormal moment caught on tape, but it's best checked out live--so come out and see us! Or are you too chicken??? ",
     "label": "Arts & Theatre",
     "skip": false
   },
@@ -1870,17 +1905,17 @@
     "skip": false
   },
   {
+    "description": "The Vicar of Dibley, The Vicar of Dibley\nPraise Be!! It is time! The Vicar of Dibley tickets are now on sale. The show opens on Wednesday, 5th November at 7:30pm and runs until Saturday 15th November 2025.\n\nJoin the congregation for a comedic evening with the characters of Dibley and their new Lady Vicar.\n\nhttps://www.trybooking.com/nz/events/landing/17521\n\n",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
     "description": "The Wellington Regional poetry slam finals, Be entertained by the best poets Wellington has to offer.\n9 poets will grace the stage and be judged by random audience members.\nWe all know you can't score art, but at the Wellington Regional poetry slam, we will give it a good shot.\nAnd no matter what happens, our audience members will get a great night of poetry. it's all about the poetry and the points are just some fun extras. ",
     "label": "Arts & Theatre",
     "skip": false
   },
   {
     "description": "The Willies: A Halloween Drag Show, Trick or Treat?!\nDon\u2019t be scared, it's just The Willies: A Halloween Drag Show!\n\nThis Halloween, jump on your broomsticks or ride your headless horses down to The Fringe Bar, for a night you won't be able to forget\u2026\n\nOur ghastly ghouls, maleficent monsters and spooky scary skeletons will have you SCREAMING, death dropping, and chilled to the bone.\n\nPrepare for a night(mare) full of the sexiest scares and tricks at every turn.\n\nCostumes are highly encouraged and will be rewarded\u2026\n\nGather your coven and take a stab at tickets from just $20 on Eventfinda.\n\nVenue, seating & show info\n\nCash only door sales are available if not sold out prior ($35.00 per ticket)\n\nGA seating is unallocated, make sure to arrive early to nab a good vantage point.\n\nDoors open one hour before showtime.\n\nIf you are part of a large group, contact us to save seats together, or you may be split up\nLatecomers may not be admitted, you may be asked to wait before finding your seat if a performance is underway.\n\nThe event space is located up 6 upstairs, with narrow walkways between seating. The regular seating are black metal folding chairs, please contact us to discuss alternatives if this isn't an option for you. We will do what we can to accommodate as many bodies and abilities as possible.\n\nTrigger warnings will be given before every show and we have a zero tolerance policy for abusive behaviour.\n\nYou can contact us at willysmackntush@gmail.com",
-    "label": "Arts & Theatre",
-    "skip": false
-  },
-  {
-    "description": "The hand of the architect \u2014 John Scott, Delving into the Futuna Chapel Trust archive, the Scott family archive and the newly established and digitised John Scott Drawing Archive at the Alexander Turnbull Library, Nick Bevin will explore and reveal the extent and significance of the work of architect John Scott.\nJoin us at the Library or online. Register for a Zoom link: https://dia-nz.zoom.us/.../WN_gAVkcTdRRASW9zyDCrU4Zg...\nInsights from the John Scott architectural archive\nJoin us for a talk by Nick Bevin, former architect and Futuna Chapel Trustee, as he delves into the life and work of one of Aotearoa New Zealand\u2019s most influential architects \u2014 John Scott (1924\u20131992).\nThis presentation will showcase newly digitised materials from the John Scott Drawing Archive at the Alexander Turnbull Library, including never-before-seen sketches, architectural drawings, photographs, and audiovisual recordings.\nJohn Scott: Architect \u2014 Website\nDesigning the iconic Futuna chapel\nJohn Scott, a pioneering M\u0101ori architect, is celebrated for his bold, culturally resonant designs \u2014 most notably the iconic Futuna Chapel. Drawing on years of research, Nick Bevin will offer fresh insights into John Scott\u2019s creative process and enduring architectural legacy.\nThe Library welcomed the John Scott archive of architectural records into the Alexander Turnbull Library collections in 2020.\nCaring for the John Scott collection \u2014 Blog post: https://natlib.govt.nz/.../caring-for-the-john-scott...\nA Friends of the Turnbull Library event\nThe Friends of the Turnbull Library, Ng\u0101 Hoa o te Whare Pukapuka Turnbull, offers a monthly programme of free public talks. These talks are held in the National Library in Wellington and on Zoom. Some of these talks will be repeated in Auckland. The public programme highlights the work of researchers who draw on Turnbull material for their projects and staff who care for and research the collections.\nAbout the speaker\nNick Bevin practised as an architect from 1984 to 2024 and was made a Distinguished Fellow of the New Zealand Institute of Architects in 2022.\nIn 2006, Nick first became involved with the Futuna Chapel Trust. He was drawn in by an early childhood memory, triggered by a black and white image of the opening of the Chapel on 19 March 1961, where he remembered accompanying his parents to the opening of the chapel. Since then he has developed a growing admiration for the chapel\u2019s architect John Scott, and was involved in the gifting process of the John Scott Drawing Archive to the Alexander Turnbull library in 2020.\nNick chaired the Chapel Trust from 2009 to 2024 and remains a trustee. With fellow trustee Greg O\u2019Brien, Nick co-edited the book Futuna \u2013 Life of a Building published in 2016. In 2024, Nick participated in the organisation of an exhibition at Futuna Chapel that included a number of John Scott\u2019s drawings from the Turnbull Collection.",
     "label": "Arts & Theatre",
     "skip": false
   },
@@ -2050,6 +2085,11 @@
     "skip": false
   },
   {
+    "description": "What the World Needs Now- A Hollywood to Broadway Cabaret, Cyclorama Productions is thrilled to present \u201cWhat the World Needs Now - A Hollywood to Broadway Cabaret\u201d at BATS this October 14th-19th.\nThis hilarious and touching, fast paced cabaret will have you laughing, crying, and crying with laughter as our talented ensemble cast of top Wellington performers take you through an exploration of love in all its forms.\nUsing well known songs from stage and screen, this show will warm even the coldest of hearts and have you leaving the theatre with a little more love to give.\nBecause we all know it's what the world needs now.\nLimited cabaret table seating per show with wine and platters available for those who get in fast!\nThis cabaret season is a fundraiser for us to take our acclaimed production of \u2018In the Green\u2019 on tour.\n",
+    "label": "Arts & Theatre",
+    "skip": false
+  },
+  {
     "description": "What the World Needs Now- A Hollywood to Broadway Cabaret, Cyclorama Productions is thrilled to present \u201cWhat the World Needs Now - A Hollywood to Broadway Cabaret\u201d at BATS this October.\n\nThis hilarious and touching, fast paced cabaret will have you laughing, crying, and crying with laughter as our talented ensemble cast of top Wellington performers take you through an exploration of love in all its forms.\n\nUsing well known songs from stage and screen, this show will warm even the coldest of hearts and have you leaving the theatre with a little more love to give.\n\nBecause we all know it's what the world needs now.\n\nLimited cabaret table seating per show with wine and platters available for those who get in fast!",
     "label": "Arts & Theatre",
     "skip": false
@@ -2120,12 +2160,22 @@
     "skip": false
   },
   {
+    "description": "2025 EMPA Conference New Zealand, Held over two days (13 & 14 November) at Museum of New Zealand Te Papa Tongarewa, WELLINGTON.\n\nThe EMPA Disaster & Emergency Communications Conference brings together the people who lead, shape, and deliver critical communications when it matters most.\n\nIn 2025, we return with a powerful two-day programme focused solely on strengthening the capability and confidence of those working at the frontline of information and engagement during emergencies and beyond. This is the only event in New Zealand dedicated to emergency communications and places are limited.\n\nEMPA is tailored for professionals in communication, engagement, public information, media, research and emergency management roles, offering unmatched relevance, networking and professional development opportunities.\n\nThere has never been a more important time to increase our expertise in emergency communications.\n\nProgramme details are available at https://www.empa.org.au/events/empa-new-zealand-2025.\n\nPlease email kiaora@createasplash.co.nz if your organisation is unable to process a credit card payment.",
+    "label": "Business & Networking",
+    "skip": false
+  },
+  {
     "description": "2025 Immigration Updates - Wellington Seminar, 2025 Immigration Updates - Wellington \nJoin us for an Immigration Law Update session, where Special Counsel Nicky Robertson and Solicitor Sophie Phillips will cover essential topics to help employers navigate the latest developments in immigration policy and visa management.\nWe will discuss:\nManaging employee work visa renewals \u2013 Getting the Job Check right\nResident Visa Applications - Reminders about the requirements\nUnderstanding the risks \u2013 The danger of infringement notices and losing accreditation\nKey Updates to Immigration Law \nThis session is designed to provide practical guidance and answer your questions around compliance and strategic workforce planning.",
     "label": "Business & Networking",
     "skip": false
   },
   {
     "description": "2025 Plain Language Awards ceremony, Welcome to the 2025 Plain Language Awards ceremony!\nCome join us at the New Zealand Parliament Buildings for a night of celebrating New Zealand and Australia\u2019s clearest communicators. We\u2019ll be announcing winners in each category of the 2025 Awards and hearing from guest speakers.\nDon't miss out on this opportunity to mingle with other plain language enthusiasts and see what\u2019s happening in the world of clear communication.\nSee you there!\nDate: Thursday, 30 October 2025\n\nTimes\n5:00pm: Doors open; drink and snack on arrival\n5:30pm to 7:00pm: Awards ceremony\n7:00pm to 8:00pm: Mix and mingle; with drinks and canap\u00e9s\n\nVenue\nNew Zealand Parliament Buildings: 1 Museum Street, Pipitea, Wellington\n\nMC: James Elliott\nHost: Thomas McGrath\nDress: Business or cocktail",
+    "label": "Business & Networking",
+    "skip": false
+  },
+  {
+    "description": "AGM 2025, Dear Community Members,\nKia ora / \u0627\u0644\u0633\u0644\u0627\u0645 \u0639\u0644\u06cc\u06a9\u0645\nThe Pakistan Association of Wellington (PAWNZ) warmly invites you to our Annual General Meeting (AGM) for 2025.\nMonday, 27 October 2025\n3:00 \u2013 5:00 p.m.\nVenue: To be announced, and online as well\nThe agenda includes reports, member motions, nominations for vacant positions (one Advisor, two Committee Members), endorsement of the Acting Vice President, and general business (constitutional reforms and subscription fees).\nIf you would like to put forward a motion or a nomination for a vacant position, please email me at secretary@pawnz.org no later than 23 October 2025.\nWe look forward to your participation in shaping the future of our community.\nNg\u0101 mihi nui / \u0634\u06a9\u0631\u06cc\u06c1\nUsama Farooq\nGeneral Secretary\nPAWNZ ",
     "label": "Business & Networking",
     "skip": false
   },
@@ -2211,6 +2261,11 @@
   },
   {
     "description": "Intro to Wellington Timebank, September Intro to Timebanking\nWednesday 8th October\n5.30pm-7.00pm\nUpstairs* Harakeke Room\nNewtown Community Centre\nCnr Rintoul & Colombo St\nEntrance on Colombo Street,\nNewtown\n*Stairs and also lift accessible\nWe allow up to 90mins for these sessions to allow folk to connect, ask questions.\nThere is a limited amount of space so\n***Please email to book a place*** info@wellingtontimebank.org.nz\nThe session will cover:\n1) What is Timebanking & how we started\n2) Basics of how it works and how it can benefit you!\n3) Overview of our members' site: Time and Talents.\nIt also includes time to have a cuppa and chat to other new members\nOnce you have attended an intro session and submitted relevant forms we will send you a welcome email and BONUS we give you 2 hours of time credits for completing the process\nEmail to book your spot today! ",
+    "label": "Business & Networking",
+    "skip": false
+  },
+  {
+    "description": "JBWere Leadership Insights, Join us for an exclusive JBWere Leadership Insights event featuring two of New Zealand\u2019s most respected leaders:\nJuliet Tainui-Hernandez\nMatt Whineray\nNg\u0101i Tahu, Te Whakat\u014dhea\nChair, FirstCape Group\nNon-Executive Director, ASB Bank\nWaitangi Tribunal Member\nFormer Assistant Governor, RBNZ\nFormer CEO, NZ Super Fund\nTogether, they\u2019ll explore how exceptional leaders combine technical expertise, values-driven decision-making, and cultural stewardship to achieve sustainable outcomes - financial, cultural, and societal.\nDiscussion themes:\n\u2022 Sophisticated investment strategies and governance frameworks\n\u2022 Integrating M\u0101ori values and ethical leadership into decision-making\n\u2022 Creating long-term impact across organisations, communities, and markets\nSpaces are limited. RSVP by 4 November 2025.\nSecure your place to gain firsthand insights from leaders shaping New Zealand\u2019s financial and cultural landscape.\n ",
     "label": "Business & Networking",
     "skip": false
   },
@@ -2346,6 +2401,11 @@
   },
   {
     "description": "Wellington - Empower Her Networking - Serving not Selling, WELLINGTON - The Arborist Rooftop Bar\nMonthly Topic: Serving not Selling\nHosted by: Tabitha Arthur\nThis month, we\u2019re diving into Serving Not Selling because when you lead with service, sales naturally follow. It\u2019s about showing up with generosity, solving problems, and making offers that feel aligned and authentic. Throughout November, we\u2019ll be sharing ways to reframe sales into service, connect with confidence, and grow your business by putting people and impact first.\nWant to get your ticket for FREE?\nAre you a woman in business looking for a supportive community to help you connect, grow, and learn?\nAs an Inner Circle member, you can attend as many of our networking hubs as you like for FREE! This includes our hubs across Auckland, NZ, Australia and the UK. Enjoy unlimited access to our netwokring events and take full advantage of the community and networking opportunities.\nJoin the Inner Circle\nJoin the Inner Circle to unlock even more benefits:\nMonthly Masterclasses: Learn from industry experts on topics that will elevate your business and mindset.\nAccountability Calls: Stay on track with our supportive community and achieve your goals.\nPersonal Branding Opportunities: Create your own masterclasses and shine as an expert.\nExclusive Discounts: Enjoy special rates on Empower Her events and live workshops.\nVibrant Community: Share your journey, get support, and celebrate your successes with empowering women.\nJoin the Inner Circle now and become part of a wonderful community of women in business who are ready to build their dream life and business.\nEmpower Her is a global female networking group, that offers a welcoming and safe environment for women of all business backgrounds and experiences.\nWhether you're just starting out with new business ideas or have years of experience under your belt, all are welcome! Empower Her provides a safe space where you can share your business with others, connect with like-minded women in business, and prioritise collaboration over competition.\nOur groups value the power of connection, and we believe that together, we can achieve more than we ever could alone. That's why we're committed to fostering a supportive community that empowers each member to reach their full potential. Our groups are focused on connection, inspiring stories, celebrating each other's successes and sharing our vulnerable moments.\nJoin our free community\nThe Inner Circle\nFollow us on Instagram\nEmpower Her Co-Founders Victoria and Charlotte are highly passionate and dedicated to empowering female leaders in the business world. By joining Empower Her, you will not only expand your professional network but also gain access to a supportive community of like-minded individuals who are committed to helping each other succeed.Find out more about us and check up our upcoming events on our website.",
+    "label": "Business & Networking",
+    "skip": false
+  },
+  {
+    "description": "Wellington Branch - Pre-Conference Networking Event, Will you be in town for the CIPS NZ Procurement Futures Conference 2025 on Thursday 30 October?\nDon't miss an opportunity to start your networking early... \ud83d\udcac \nCatch up with people you already know, meet new faces and exchange ideas before discovering what\u2019s next for the Procurement and Supply profession at the Conference.\nEvent Details:\n\ud83d\udcc5 Date: Wednesday 29 October \n\ud83d\udd52 Time: 5:30pm - 7:30pm (NZDT)\n\ud83d\udccd Location: Foxglove Bar & Kitchen - 33 Queens Wharf, Wellington, 6011\nIf you haven't got your tickets for the CIPS NZ Procurement Futures Conference yet, there are still some available, purchase today so you don't miss out!\n\nPlease be sure to register so we can ensure we secure enough space at the venue.\nRegistering for this event will opt you in to receive a post event feedback survey. We appreciate any feedback you are willing to provide CIPS and your local branch to help the continuous improvements of events. There is no obligation to complete this survey. ",
     "label": "Business & Networking",
     "skip": false
   },
@@ -2511,6 +2571,11 @@
   },
   {
     "description": "Aromatherapy Candle-Making Workshops, To celebrate WOW (World of Wearable Art) season here in Wellington, we're offering two beautiful aromatherapy candle-making workshops, to be held at Wellington Apothecary. These will be held in the afternoon so you can do something fun before the show or before dinner during your stay here in Wellington.\n\nWhat to expect?\nDiscover the natural beauty of therapeutic essential oils, learn about scent layering, design your own signature scent and make a clean-burning aromatherapy candle.\n\nWhen? Friday 19 September, 3pm to 5pm and Friday 3 October, 4pm to 6pm\nWhere? Wellington Apothecary, Cuba Mall, Wellington\n\n____\n\nWhat's included in the workshop...\n\nBe guided by Melanie of Poet Botanicals and discover the natural beauty of over 40 pure essential oils\nLearn about scent layering and how to create your own essential oil blends at home\nStep-by-step guidance on how to make a clean-burning aromatherapy candle\nLocally produced refreshments\n\nInvestment per person ~ $125. Bookings essential. Suitable for ages 14 years and over. Not recommended if you're pregnant due to the nature of some essential oils.\n\nPlease note that your candle will need to cure overnight and will be available for either pickup from Wellington Apothecary or we can courier it to you (cost of courier included in workshop fee). Thank you.\n\n____\n\nCancellation policy\nIf you can no longer attend the workshop please contact us at least 72 hours prior for a full refund. If you cancel within 72 hours we can only provide a refund or move you to another date, if we're able to rebook your spot. Thank you.",
+    "label": "Classes & Workshops",
+    "skip": false
+  },
+  {
+    "description": "Art Lab - term 4, 2025, Website: creativekids.co.nz\nClasses start from Nov 5th, 2025 - on Wed & Thurs   (3.30 - 5.15pm) for 4 classes / week\nWednesday : 5 - 8 yr olds\nThursday: 9 - 12 yr olds\nEach term has a genre...\nTerm 4 is \"ONLY FUN Painting & Drawing\"\n    For more details visit the website... www.creativekids.co.nz/classes\nPayment\ncost $147 with no booking fee\npayment is by credit card (no fees) - Visa/Mastercard\nrefunds up to 7 days before",
     "label": "Classes & Workshops",
     "skip": false
   },
@@ -3315,6 +3380,11 @@
     "skip": false
   },
   {
+    "description": "Introductory Social Dance Classes, Course 5, Spring is coming. Time to venture out, take up a new hobby, do more exercise, and be ready for that warmer, sunnier weather when it actually arrives. Come and learn dancing!\nHere is an seven-week course to teach you the basics in the American Smooth and Rhythm styles of Foxtrot, Waltz, Cha-cha, Rumba and East Coast Swing in our fun and relaxed setting.\nCOURSE: Seven weeks\nSTARTING: 10 September 2025\nTIME: Wednesdays, 6-7pm\nPLACE: Level 2, 110 Hutt Rd, Kaiwharawhara, Wellington\nCOST: $120 per person\nPartners always welcome but not a requirement to enrol.\n",
+    "label": "Classes & Workshops",
+    "skip": false
+  },
+  {
     "description": "Italian - Introductory 2, For those who have done Introductory 1 (16 hours) or have equivalent knowledge (e.g. who may have picked up some basic survival language through travel).\n\nBy the end of the course, you'll be able to:\n- Use new vocabulary correctly in grammatical structures, including more verbs in the present tense.\n- Talk about your families at a basic level, using correct articles, articulated prepositions and possessive adjectives.\n- Order food and drink and understand responses.\n- Use the verbs essere (to be) and avere (to have) more correctly.\n- Follow directions and know about places in a town.\n\nNote: Courses need a minimum number to go ahead so if we don't have enough enrolments a few days before the start date, we have to cancel. We'll let you know by email so please check yours regularly. If you need to cancel your registration, here are our terms and conditions: \"What You Need to Know\".\n\nPrerequisites\nFor those who have completed the Introductory 1 course, or equivalent.\n\n8 weeks\nPresented by Juliana Stroghiu.",
     "label": "Classes & Workshops",
     "skip": false
@@ -3441,6 +3511,11 @@
   },
   {
     "description": "Let's talk in English, A free group for people who want to practise speaking and listening to English. Join anytime, just come to the library for these weekly sessions during the school term.\nNau mai r\u0101 t\u0101tou katoa | Everybody is welcome. ",
+    "label": "Classes & Workshops",
+    "skip": false
+  },
+  {
+    "description": "Level-2 Intermediate Burlesque Intensive 2-Week Course - 2 November 2025, This 2-week intensive burlesque course is suitable for people with experience or those who have completed level-1 beginner burlesque.\nIn this level we focus more on:\n- reveals\n- floor work\n- putting together a routine\n- intermediate fan dancing\n- intermediate chair dancing\nClasses are 2hrs long, and run for 2 weeks on Sunday 2 & 9 November from 11am - 1pm. ",
     "label": "Classes & Workshops",
     "skip": false
   },
@@ -3916,6 +3991,11 @@
   },
   {
     "description": "Rapa Nui Dance Workshop, In this exciting Master Class, the Cultural Ballet Puku Rangi Tea from Easter Island will teach traditional movements, styles, and the cultural stories behind each dance.\nNo experience is needed, just bring your energy, curiosity, and a willingness to have fun! Perfect for all ages and backgrounds, this is a rare chance to learn from true cultural ambassadors of the island.\nSpaces are limited\nRSVP Required\nKoha/Donation Entry\nMore information at www.mmc.nz or follow the Marlborough Multicultural Centre on Facebook and Instagram.",
+    "label": "Classes & Workshops",
+    "skip": false
+  },
+  {
+    "description": "Rapa Nui Music Workshop, Discover the Sounds of Easter Island - Rapa Nui.\nExperience the vibrant rhythms, melodies, and traditions of Rapa Nui in this unique Music Workshop led by the Internationally renowned Cultural Performing Group Puku Rangi Tea from Easter Island.\nLearn about the instruments, songs, and stories that have been passed down for generations, and feel the energy of one of the Pacific\u2019s most captivating cultures. Whether you\u2019re a musician, a culture lover, or simply curious, this workshop will inspire and connect people of all ages and backgrounds, no experience required.\nSpaces are limited\nRSVP Required\nKoha/Donation Entry\nMore information at www.mmc.nz or follow the Marlborough Multicultural Centre on Facebook and Instagram.",
     "label": "Classes & Workshops",
     "skip": false
   },
@@ -4635,6 +4715,16 @@
     "skip": false
   },
   {
+    "description": "Bygone Era of Wings and Wheels, Bygone Era of Wings and Wheels\nCelebrate Hood Aerodrome\u2019s historical and cultural value with historic WWI aircraft, displays of vintage vehicles, aviation-themed experiences, and more!\n\nCoinciding with The Vintage Aviator's first flying weekend of the season, this event highlights vintage aircraft, skilled pilots, and support from Legend Aviation to showcase the unique aviation heritage of Hood Aerodrome.\n\nAlong with these historic aircraft, with some designs from the First World War, you'll also be able to see vintage vehicles and farm equipment, enjoy a snack from the food trucks, and discover the incredible stories of the Hood Aerodrome. The latest viewing area to watch the aircraft in motion will also be open.\n\nCome along for an unforgettable family day out!\n\n\nPlease note: No dogs are allowed at this event. Tickets are cash only - please bring money with you.\n\n\nCost: $10\nEvent information here: https://wellingtonheritagefestival.co.nz/event/bygone-era-of-wings-and-wheels/\n\n\nHealth & Safety:\nThe event will be weather dependent due to aircraft operational requirements. Please check online before the event for any updates.\n\n",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
+    "description": "Bygone Era of Wings and Wheels, Celebrate Hood Aerodrome\u2019s historical and cultural value with historic WWI aircraft, displays of vintage vehicles, aviation-themed experiences, and more!\nCoinciding with The Vintage Aviator's first flying weekend of the season, this event highlights vintage aircraft, skilled pilots, and support from Legend Aviation to showcase the unique aviation heritage of Hood Aerodrome.\nAlong with these historic aircraft, with some designs from the First World War, you'll also be able to see vintage vehicles and farm equipment, enjoy a snack from the food trucks, and discover the incredible stories of the Hood Aerodrome. The latest viewing area to watch the aircraft in motion will also be open.\nCome along for an unforgettable family day out!\n\nPlease note: No dogs are allowed at this event. Tickets are cash only - please bring money with you.\n\nCost: $10\nEvent information here: https://wellingtonheritagefestival.co.nz/.../bygone-era.../\n",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
     "description": "CF's 20th Birthday Party, On the 10th of October 2005 Rafael Ferrer Noel arrived in New Zealand and CUBAN\u2606FUSION - Wellington's Cuban Salsa Specialists was born.\nCoincidentally the 10th of October is also Cuban Independence Day (a.k.a. El Dia del Grito de Yara) - on this day in 1868, Carlos Manuel de C\u00e9spedes, \"Father of the Homeland\", gave freedom to his slaves and started the independence war against the Spanish colonial power, which led to the Ten Years' War\nSo we've got lots to celebrate and commemorate tonight!\nA BIG GRACIAS to our teachers and assistants present and past (Rogelio, Jenny, Nina, Michelle, Niki and Lauren), and all our students, dancers and supporters over the years. Without you CUBAN\u2606FUSION would not still exist. ",
     "label": "Community & Culture",
     "skip": false
@@ -4786,6 +4876,11 @@
   },
   {
     "description": "Dance Party with The Toffee Pops at Cabletop Eatery, Dance the night away with the best views in town as your backdrop and the fabulous food, beverage and service of The Cabletop Eatery in Kelburn. Disco Divas THE TOFFEE POPS will be performing all your favourite dance party hits. No cover charge, but book a table to make sure you don't miss out. Call Cabletop Eatery on 04 475 9006 ",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
+    "description": "Day support, Day support\nCome join us here at Home4All!!! So many things to do, food to enjoy and friends to make. We'd love to see you \ufffd....it's a good day to have a great day!",
     "label": "Community & Culture",
     "skip": false
   },
@@ -5085,6 +5180,11 @@
     "skip": false
   },
   {
+    "description": "Just Wear it! Raising funds for Ovarian Cancer Foundation NZ, Just Wear it! Raising funds for Ovarian Cancer Foundation NZ\nCocktails and Canapes, in THAT outfit you never get to wear?! What more could you want in a fun-raising event!\nThink NYC art gallery opening meets cocktail soir\u00e9e: stylish but social, a little bit glam, and a great excuse to get dressed up for a night out with friends!\n\nThe ticket price includes a signature cocktail on arrival and canap\u00e9s walked throughout the height of the event, where guests can bid on a silent auction of irresistible treasures from our favourite Local businesses!\n\nConnect over great conversation and classic beats while raising money for a great cause!\n\n",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
     "description": "KOHA DAY at Upper Hutt's Golder's Cottage at 707 Fergusson Drive., KOHA DAY at Upper Hutt's Golder's Cottage at 707 Fergusson Drive.\nCome and see how our pioneers coped from the 1860's without inside toilets, no running water and no electricity.\n\nSee for yourselves how they coped. With 'potties' under the beds and candles and kerosene lamps - you will find them all there. And carrying buckets of water from the pump in the garden meant Mum's didn't need to go to the gym!\n\nAnd on Koha Day, a visit to the Cottage has never been more affordable!\n\n\nCost: Koha\nEvent information here: https://wellingtonheritagefestival.co.nz/event/koha-day-at-upper-hutts-golders-cottage/\n\n\nHealth & Safety:\nThere is wheelchair access to the Main part of the ground floor but not to the Attic bedrooms. There is a booklet available with photographs of what is up there.\n\n",
     "label": "Community & Culture",
     "skip": false
@@ -5121,6 +5221,11 @@
   },
   {
     "description": "Karori Returned and Services Association Historical Memorabila, Karori Returned and Services Association Historical Memorabila\nThrough photos and memorabilia discover historical events New Zealand Forces were involved in over many generations.\n\nA self guided tour, using notes provided, to discover history.\n\n\nCost: Koha\nEvent information here: https://wellingtonheritagefestival.co.nz/event/karori-returned-and-services-association-25/\n\n\nHealth & Safety:\nExit information with be noted on information sheet and when people arrive\n\n",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
+    "description": "Katherine Mansfield's Thorndon: Guided Walking Tour, Part of the Wellington Heritage Festival 2025\n\"How hard is it to escape from places. However carefully one goes they hold you \u2013 you leave little bits of yourself fluttering on the fences \u2013 like rags and shreds of your very life.\u201d Katherine Mansfield in a letter to Ida Baker, 1922\nExplore the Thorndon that Katherine Mansfield knew and the traces of her legacy that remain in the landscape today. Beginning with an introductory talk, a viewing of the exhibition 75 Tinakori Road: \u201cThis marvel had come to the lane\u201d and a hot drink at Katherine Mansfield House & Garden, the guided walking tour will finish at the National Library of New Zealand.\nPlease note: This is a guided walking tour which will involve approx. 30 minutes of walking on flat ground with frequents stops. Participants are encouraged to wear comfortable shoes and bring appropriate protection from sun and rain. The tour will begin upstairs at Katherine Mansfield House & Garden, if you have accessibility requirements, please see the accessibility information on our website or contact us to discuss.\nBad weather postponement dates: The tour will go ahead if there is light rain, so please bring a raincoat. If there is heavy rain and/or strong winds the Saturday 18 October tour will be postponed to Saturday 25 October; the Thursday 23 October tour will be postponed to Thursday 30 October. Participants will be notified by email and text message (if a mobile number is provided when booking) by 9am on the day of the tour if there is a postponement.\n(Image: The Katherine Mansfield Memorial photographed by Charles P S Boyer, c1930s. Wellington City Council Archives, 00157-99) ",
     "label": "Community & Culture",
     "skip": false
   },
@@ -5610,6 +5715,11 @@
     "skip": false
   },
   {
+    "description": "Quizz night for World Menopause Day, A fun fundraiser for Menopause over Martinis to recognise World Menopause Day https://www.menopauseovermartinis.org/\nQuiz developed by Menopause over Martinis in association with Ordish Quiz\nThursday 16th October -\n- turn up after 7 for a 7.30pm start.\nRegister as a team $42 or $7 per person\nHumanitix link https://events.humanitix.com/quiz-night-vogelmorn.../tickets\n\"Vogelmorn Upstairs is not a wheelchair accessible building. There is an accessible\nbathroom in the space. This is an all ages venue but those under the age of 16 must be\naccompanied by a designated adult after 8pm. The Vogelmorn Precinct is a community\nspace located in a residential area. With that in mind, the team ask that you be kind to\nothers' and that when you leave the gig, you do so quietly to avoid disturbing our\nneighbours.\u201d",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
     "description": "RESENE Wallpaper Roadshow (KILBIRNIE) - FREE EVENT, Attention all DIY-enthusiasts and design lovers!\nJoin us for an exciting and fun presentation on the latest design and application trends in wallpaper. Discover how to transform any room into a stunning masterpiece with our DIY friendly demonstration.\nDon't miss out on this opportunity to revolutionise your home decor. Let us know you're coming by responding to this FREE event!\nLight refreshments also provided and we look forward to seeing you there! ",
     "label": "Community & Culture",
     "skip": false
@@ -5626,6 +5736,11 @@
   },
   {
     "description": "Rainbow Tour, Celebrate LGBTQ+ History with rainbow stories at Wellington Museum.\nDiscover the legacy of the Evergreen Cafe, meet the \u2018Queen of Wellington\u2019 and other iconic queer figures who have shaped the culture of our city.\nSuitable for ages 12+. Adult supervision required.\nTours run on the last Saturday of every month. ",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
+    "description": "Rainbow Wellington November Social Mixer, Join us for our monthly mixer, at iconic queer venue S & M's, 176 Cuba Street.\nThis is a great way to meet other LGBTQ+ people from around P\u014dneke. Make new friends, or meet up with old mates.\nThis is a free event, at one of our regular venues, who are always happy to host LGBTQ+ events.\nThe ground floor of the venue is accessible, but quite skinny. There are stairs to a downstairs area. The nearest mobility car parks are on Bute Street near Z Energy petrol station. ",
     "label": "Community & Culture",
     "skip": false
   },
@@ -5900,6 +6015,11 @@
     "skip": false
   },
   {
+    "description": "Speed Dating for 30-44, 45-59, 60+, Speed Dating for 30-44, 45-59, 60+\nPrice includes a drink and delicious food at the break!\n\nWe will have a private function space for this event.\n\nSpeed Daters will be split into 3 age groups which will run simultaneously. There will be opportunity to mix with the other groups during the break.\n\nWhat to expect\n\nWhen you arrive you will get a name label and your complimentary first drink, and will have time to settle in and mingle a little.\n\nYou will be Speed Dating with around 10 people over the course of the evening. You will have 7 minutes to chat to each person.\n\nYou then decide if you want to meet your Speed Dates again and tick interested on your form if you do.\n\nOnly if the feeling is mutual will we email you each other\u2019s contact details.\n\nThere will be an intermission where platters of food will be served, and you can buy yourself another drink if you like.\n\n",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
     "description": "Speed Dating for Women Loving Women, Celebrate love and connection at our Speed Dating event for women who love women!\nThis is a unique opportunity to meet amazing women, forge new friendships, and discover potential romantic connections in a warm, inclusive, and supportive atmosphere.\nPrice includes a drink and delicious food at the break!\nThis event is open to single people and those in ethical non-monogamous relationships. We welcome trans women to this event.\nThis event is for all ages 20+. If numbers allow, two age groups will run simultaneously\n",
     "label": "Community & Culture",
     "skip": false
@@ -6140,6 +6260,11 @@
     "skip": false
   },
   {
+    "description": "Underworld's Halloween Ball - A Divebar Extravaganza!, Underworld's Halloween Ball - A Divebar Extravaganza!\nJoin us in the mighty Underworld Tavern @ 13 Pirie St Mt Vic, for an action packed night of spooky delights.\n\nFollowing the success of last year, Underworld's Halloween Ball returns for 2025 with a packed line up of stunning performances of all sorts. Horror Burlesque, Drag Performance, Circus Freaks, Cabaret, and Dark and Moody Live Bands from some of Poneke's most talented performers.\n\nWe'll also have Halloween Tattoo Flash from some of the clever folks at Union Tattoo, Spooky Cocktail Specials at the bar, and prizes for our best dressed attendees!\n\nSAVE THE DATE NOW, mark it in your calendar, and keep those eyes peeled for our line up announcements!\n\nTHIS EVENT WILL SELL OUT !!!\n...But the early bird gets the worm, baby! To get this Halloween Ball rolling, we are offering a 20% discount on tickets for the first week of sales... or until they're gone. So grab 'em while you can!\n\n",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
     "description": "UnionAID Quiz Fundraiser 2025, Join us for the annual UnionAID Quiz in Wellington at the Loaves and Fishes! A fun night of union rivalry, trivia, and solidarity, to raise funds for international union partners in Asia and the Pacific.\nArrival 5:30pm ready to start the quiz at 6pm. Food will be provided and bar refreshments available.",
     "label": "Community & Culture",
     "skip": false
@@ -6311,6 +6436,16 @@
   },
   {
     "description": "Wellington Region - NIBTC Big Spring Walk, Wellington Region - NIBTC Big Spring Walk\nNIBTC Bully Walk: Wellington Region\nDate: Saturday September 6th\nTime: 2:00pm\nVenue: Hokoikoi, Eastern end of Petone\n**Meet at the area by the disc golf course\nEvent contact: Louise 0272703555\n\n",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
+    "description": "Wellington Speed Dating for ages 28-44 by Cheeky Events Australia, Wellington Speed Dating for ages 28-44 by Cheeky Events Australia\nGet ready for a night of fun and connection at Wellington's hottest speed dating event!\n\nAbout this Event\n\nLet\u2019s ditch the apps together and embrace real connections. Say goodbye to the dating apps and hello to your very own Cheeky Love Story! \ud83d\udc96\n\ud83c\udf78 What\u2019s included: Your first drink is on us\u2014let\u2019s toast to great company!\n\ud83d\udc47How It Works:\nBefore the event:Make sure to download the Cheeky Events App (free on Google Play & the App Store) to set up your profile and upload a photo.\nP.S. Don\u2019t worry\u2014it\u2019s not a dating app! We\u2019ve skipped the chat feature because we\u2019re all about real, in-person connections.\nDuring the event:\nCheck in to grab your name tag and free drink token. \ud83c\udf7b\nArrive on time to enjoy 15 minutes of casual pre-mingling.\nLadies stay seated while men rotate every 5 minutes\u2014don\u2019t forget to rate your matches in the app! \ud83d\udc4d\ud83d\udc4e\nTake a quick 15-minute break before the next round.\nAfter the rotations, feel free to stick around for some extra socializing!\nAfter the event: Stay for extra mingling and check the app for your cheeky matches 12 hours later! \ud83d\udcf1\ud83d\udc96\nFor more details, check out our blog: What to expect\nWho knows? You might just find your next spark! \u2728 Our IRL singles events (single mixers and speed dating events) are happening across Australia, New Zealand, London, and NYC! \ud83c\udf0f\n\nAbout Cheeky Events\nWe host fun, inclusive singles events across Australia, New Zealand, London, and NYC! Whether you\u2019re in your 20s, over 40, looking for love, or just looking to meet new people, our events are designed to bring people together. Whether you\u2019re seeking romance, new friendships, or even networking, we\u2019ve got something for everyone!\n\ud83d\udc49 Follow us on Instagram:@cheekyeventsaustralia @cheekyeventsukandireland @cheekyeventsnewzealand @cheekyeventsukandireland @cheekeventsus\nVisit our website: www.cheekyevents.net or download the Cheeky Events app to get started.\nWe can\u2019t wait to see you at one of our events soon! \ud83d\udd7a\ud83d\udc83\n#speeddating",
+    "label": "Community & Culture",
+    "skip": false
+  },
+  {
+    "description": "Wellington WikiCon 2026, WikiCon is the annual gathering for editors of Wikipedia, Wikidata, Wikimedia Commons, and other Wikimedia platforms. Organised by Wikimedia Aotearoa New Zealand (WANZ), our local chapter of the Wikimedia Foundation, this conference brings together Wikimedians from across the country. In 2026, WikiCon will be held in Te Whanganui-a-Tara Wellington.\nThis event will provide opportunities for editors and contributors to connect face-to-face, helping to build collaborative relationships. The conference will also provide opportunities for editors and contributors to share and develop their skills and knowledge in working with Wikimedia projects. All are welcome, from complete beginners to highly experienced editors.\nConference sessions will be run on Saturday 2 and Sunday 3 May 2026, with informal welcome activities kicking off on the afternoon of Friday 1 May.\nFurther information will be posted on the event page.\nIf you\u2019ve got a project you\u2019d like to share with other Wikimedians, or suggestions for topics you\u2019d like to learn more about, please feel free to get in touch at info@wikimedia.nz \u2014 we\u2019d love your input.\nWe are offering grants covering registration, travel, accommodation and meals. Apply now by contacting info@wikimedia.nz with the following information:\nLocation\nOccupation\nAreas/topics of interest\nWikipedia editing experience",
     "label": "Community & Culture",
     "skip": false
   },
@@ -7005,7 +7140,17 @@
     "skip": false
   },
   {
+    "description": "Capital Blues WellyJazzFest Basement Pass, Come and make yourselves a pillar - take a pew - stay in the basement for the whole festival!",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
     "description": "Chile Independence day-Fiestas patrias en Wellington!, Chile Independence day-Fiestas patrias en Wellington!\n\nFiesta Chilena is a vibrant celebration of Chilean culture and independence. This family-friendly event will showcase Chilean traditions, music, dance, food, and arts. Attendees will experience the rich heritage of Chile while enjoying a fun and festive atmosphere.\n\nEvent Schedule:\n12:00 PM - Opening Ceremony\n\n13:00 PM-Live music with: Mauricio and the Oliveras.\n\n14:00 PM DJ Playing a mix of chilean and Latin music for everyone to dance to\n\n15:00 Traditional games!\n\n16:00 TBC\n\n17:00 Live music-cumbia by CUMBIA SONICA.\n\n18:00 DJS\n\n19:00 Event closing.\n\nPopular Chilean dishes such as empanadas,choripanes,anticuchos, and traditional drinks such as terremoto,etc.\n\nA fiesta that you can't miss out! nos vemos pronto!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "Christmas in the Quarters, All your favourite Christmas traditions play out across four Saturdays in November and December. The Wellington festive season has a suitably summer flavour with a host of fun activities brought to you by Wellington City Council. \nChristmas in the Quarters kicks off with Christmas crafts in Midland Park on Saturday, 22 November. There are five craft activities to enjoy, plus face painting. Kids can also post a letter in Santa\u2019s letterbox. On Saturday, 29 November, the whole family can enjoy Christmas music and performances. There will be choirs, hip-hop dance, ukulele playing, and more. Chill out and absorb the sounds and sights of Christmas. ",
     "label": "Festivals",
     "skip": false
   },
@@ -7101,6 +7246,26 @@
   },
   {
     "description": "Elvis Down Under 2025, ELVIS DOWN UNDER NZ is the largest Elvis Tribute Artist contest and festival in NZ.\n\nThis year, EDU NZ celebrates its 20th Anniversary and its jam packed with things happening all weekend.\n\nWhether you want to sit and listen, dance , rock n roll, meet the ETAs, shop or just have a great time their is something for everyone.\n\nTickets on sale at Pacific Kings ProductioNZ LTD @ pkproductionz2024@gmail.com\n\nAll inquries welcome",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "Eyegum (free) Wednesdays: Bleach & King Hit + manicpixiedj, We're so stoked to be bringing you this hot line-up!\n8:30 King Hit\n9:15 Bleach\n10:00 manicpixiedj\nSick poster by Rae Nel (drodge666)\nBleach are an emerging alt rock quartet from Wellington, New Zealand who\u2019s fierce energy and evocative lyricism have cemented them in Te Whanganui-a-Tara's up and coming music scene.\nArtist links:\nKing Hit: https://beacons.ai/kinghit...\nBleach: https://linktr.ee/usbleach...\nManicpxiedj: https://www.instagram.com/manicpixiedj/\nP\u014dneke is home to an incredible diversity of artists and music lovers.\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "Eyegum (free) Wednesdays: Elizabeth Sanctuary Welding School for Girls & Hazel Elder + angel freak!, Eyegum (free) Wednesdays: Elizabeth Sanctuary Welding School for Girls & Hazel Elder + angel freak!\nHOT lineup this week\u2026\n\n8:30 Hazel Elder\n9:15 Elizabeth Sanctuary Welding School for Girls\n10:00 angel food\n\nElizabeth Welding School for Girls is a digital girl who also is dead.\n\nHazel Elder is ecstatic noise pop. Glittering technicolor trash. Hacker girl rock n roll from the future. A runaway freight train destroying everything in its path. What more do you want?\n\nSick poster by Swamp\n\nBand links:\nhttps://www.instagram.com/elizabethsanctuarywelding?igsh=MXA0cWZnNDc3cWFlZA==\n\nhttps://www.instagram.com/hazelastridelder?igsh=MXU0OTl0bmplczB6cg==\n\nP\u014dneke is home to an incredible diversity of artists and music lovers.\n\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\n\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.\n\nIf you see or experience anything concerning, no matter how small, please let our crew or San Fran staff know.\n\nLovingly sponsored by San Fran, Abandoned Brewery and Wellington City Council\n\n",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "Eyegum (free) Wednesdays: Elizabeth Sanctuary Welding School for Girls & Hazel Elder + angel freak!, HOT lineup this week\u2026\n8:30 Hazel Elder\n9:15 Elizabeth Sanctuary Welding School for Girls\n10:00 angel food\nElizabeth Welding School for Girls is a digital girl who also is dead.\nHazel Elder is ecstatic noise pop. Glittering technicolor trash. Hacker girl rock n roll from the future. A runaway freight train destroying everything in its path. What more do you want?\nSick poster by Swamp\nBand links:\nhttps://www.instagram.com/elizabethsanctuarywelding?igsh=MXA0cWZnNDc3cWFlZA==\nhttps://www.instagram.com/hazelastridelder?igsh=MXU0OTl0bmplczB6cg==\nP\u014dneke is home to an incredible diversity of artists and music lovers.\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.\nIf you see or experience anything concerning, no matter how small, please let our crew or San Fran staff know.\nLovingly sponsored by San Fran, Abandoned Brewery and Wellington City Council ",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "Eyegum (free) Wednesdays: First Reserve & Hull + Charmort, Eyegum (free) Wednesdays: First Reserve & Hull + Charmort\nWe're unbelievably hyped for this and we know you will be too!\n\n8:30 HULL\n9:15 First Reserve\n10:00 Charmort\n\nIf I were to describe First Reserve in three words starting with E, I'd maybe pick energy, emotion, and eyeliner. I feel a little biased though because I am First Reserve. Why don't you come see us live and let me know?\n\nHULL: We are a dreamy, doom folk duo with a sprinkling of noise\n\nSick poster by Anita McGowan\n\nBand links:\nhttps://www.instagram.com/imfirstreserve/\nhttps://firstreserve.bandcamp.com/\n\nhttps://www.instagram.com/hullband_/\n&ab_channel=HULL\n\nP\u014dneke is home to an incredible diversity of artists and music lovers.\n\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\n\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.\n\nIf you see or experience anything concerning, no matter how small, please let our crew or San Fran staff know.\n\nLovingly sponsored by San Fran, Abandoned Brewery and Wellington City Council\n\n",
     "label": "Festivals",
     "skip": false
   },
@@ -7325,12 +7490,22 @@
     "skip": false
   },
   {
+    "description": "RIOT FEST: ULTIMATE TRIBUTE PARTY, Get ready for Wellington's ultimate tribute party as RIOT FEST brings together the most explosive tribute acts under one roof! This high-energy night celebrates the biggest names in rock, metal, punk, and grunge with authentic performances that will transport you straight to the mosh pit.\nFeatured Tribute Acts:\n\u2022KAOSIS - Nu-Metal Party Band\n\u2022SLIPKNOT Tribute by The Feeders\n\u2022THE PRODIGY Tribute by The Firestarters\n\u2022NIRVANA Tribute by The Neverminds\n\u2022GREEN DAY Tribute by Greendaze\n\u2022MARILYN MANSON Tribute by The Anti-Christ Superstar\nPlus Special Guest DJs:\n\u2022DJ Apernut (Nu-Metal)\n\u2022DJ Suddop (Grunge)\n\nDoors at 6pm  |  Tickets from: www.railtix.net",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
     "description": "Round The Vines 2025, Round the Vines is the biggest small school fundraiser in NZ!\n\nJust choose the 10 or 21km fun run or walk that suits you \u2026\n\nFrom those doing it solo to small and large groups of friends and family, you\u2019ll enjoy scenic country roads and vineyards that are only opened for Round the Vines. There are five fun hydration stations dotted around the course, with water and fruit as well as live music and samples of local wines for those with a more relaxed approach to the day!\n\nJoin us @ Memorial Square\nSo bring your best activewear or fancy dress along and join us for a fun day out. Then enjoy the prize-giving at the end with its live music, delicious food and wines, and amazing prizes.",
     "label": "Festivals",
     "skip": false
   },
   {
     "description": "SAVE THE DATE | Christmas on the Coast, SAVE THE DATE | Christmas on the Coast\nSave the date for Christmas on the Coast 2025! Join us for a fun FREE day out with the wh\u0101nau at our Christmas Parade and Festival!\n________________________\nThere\u2019s no rain date for this event.\n\n",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "Seaside Sloths in the Orchard, Seaside Sloths in the Orchard\nA Beltane Spring Festival Fundraiser for the Community Orchard.\nTake a rare opportunity to experience Raumati South's favourite sloths and help us raise money for an orchard trailer.\n$15 waged, $10 unwaged, kids free.\nWhanau-friendly activities start 5pm. Bring a picnic, plenty of change for treats, something to sit on, warm clothes, dry wood for the fire.\nSeaside Sloths will start around 7.30pm\n\n",
     "label": "Festivals",
     "skip": false
   },
@@ -7445,6 +7620,11 @@
     "skip": false
   },
   {
+    "description": "Upper Hutt Schools' Cultural Festival 2025, Upper Hutt Schools' Cultural Festival 2025\nSave the date! Details to follow closer to time.\n\nA very exciting event that our Kapa Haka R\u014dpu will be performing alongside other Upper Hutt Schools.\n\n",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
     "description": "Upper Hutt Spring Festival, The Upper Hutt Main Street will come alive on Saturday 13th September with over 250 stalls from throughout the North Island selling a wide range of wares plus entertainment and fabulous array of food trucks selling a wide variety of cuisine.",
     "label": "Festivals",
     "skip": false
@@ -7461,6 +7641,11 @@
   },
   {
     "description": "WAYO Live in Wellington 2025, Remember the last time WAYO was here?\nThe energy. The music. The memories.\nThe void is about to be filled.\nOKM Events is gearing up for the next big thing.\nWAYO is coming.\nOctober 18th, 2025.\nBrace yourselves.!!\nBuy Tickets\nhttps://www.trybooking.com/nz/events/landing/17083?embed\n#WayoLiveInWellington #WayoNZ2025 #OKMEvents #OKMachang #WellingtonGetReady #TheWaitIsOver ",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "WAYO Live in Wellington 2025, WAYO Live in Wellington 2025\nRemember the last time WAYO was here?\n\nThe energy. The music. The memories.\nThe void is about to be filled.\nOKM Events is gearing up for the next big thing.\nWAYO is coming.\n\nOctober 18th, 2025.\nBrace yourselves.!!\n\nBuy Tickets \ud83d\udc49 https://www.trybooking.com/nz/events/landing/17083?embed\n\n#WayoLiveInWellington #WayoNZ2025 #OKMEvents #OKMachang #WellingtonGetReady #TheWaitIsOver",
     "label": "Festivals",
     "skip": false
   },
@@ -7531,6 +7716,11 @@
   },
   {
     "description": "Wellington Home and Garden Show 2025, Wellington Home and Garden Show 2025\nThe Wellington Home and Garden Show is back from the 5th to 7th of September 2025!\n\n",
+    "label": "Festivals",
+    "skip": false
+  },
+  {
+    "description": "Wellington Jazz Fest Capital Blues 15th Oct, Capital Blues has 37 shows over the week.\n\nInfo and ticket links for this session below.\n\nCapital Blues Inc members get 30% off the advertised ticket prices.\n\nThere are discount passes for Saturday, Saturday Rooftop, Sunday, or the whole week.\n\n6.00 The Enigma - ft Miles Crayford, Mike Jensen, & Al Campbell Free\n7.30 World Tandem Ensemble $20\n9.00 Lockie Bennett plays Bud Powell $20\n11.00 Late Night Jam - Host - Oscar Laven Free.\n\nTickets here.\nhttps://collections.humanitix.com/capital-blues-at-wellington-jazz-festival?fbclid=IwY2xjawM9gp5leHRuA2FlbQIxMABicmlkETE1aGM0eXpVaHE1U3JHOUtqAR59maTOFjvaoDxQLnUQx2T0uQtJJ4GrFWY5-yTeI68WS01biLV-6xMOk8SerQ_aem_GgX8r7xUV8XpSvi04jtr1A&group=Wednesday%2FThursday",
     "label": "Festivals",
     "skip": false
   },
@@ -7660,6 +7850,11 @@
     "skip": false
   },
   {
+    "description": "Giants of La Mancha (Argentina), Giants of La Mancha (Argentina)\nDirector: Gonzalo Guti\u00e9rrez - Genre: Animation\n\nAbout this Event\n\n12-year-old Alfonso, heir of Don Quixote, and his three imaginary musical rabbits are joined by Pancho and Victoria to save their beloved town of La Mancha from a huge storm, created by an evil corporation seeking to own the land.",
+    "label": "Film & Media",
+    "skip": false
+  },
+  {
     "description": "Heavy Halloween Havok 3, Everyone loves a sequel and Heavy Halloween Havok is back for the 3rd installment!\n\nIn conjunction with the Terror-Fi film festival, we bring you a special night to celebrate Halloween. Three terrifying bands, a DJ, and prizes for the best horror or sci-fi costume make a memorable night!\n\nThe great line up includes: Planet of the Dead, The Crypt Kickers and Awarewolves.\n\nWe're kicking the night off with DJ Beware on the decks, playing mean remixes of your favourite film scores.\n\nWe're also screening previews of the 2025 Terror-Fi films to whet your appetite.\n\nThis is an R18 event. Door sales are also available.",
     "label": "Film & Media",
     "skip": false
@@ -7676,6 +7871,11 @@
   },
   {
     "description": "LASFF 2025 - WELLINGTON (Day 01), The Latin America & Spain Film Festival (LASFF) is a vibrant cultural event dedicated to displaying contemporary cinema from Latin America and Spain. Celebrating its 23rd edition, LASFF continues its mission to embrace the richness and diversity of Spanish and Portuguese-speaking cultures through the captivating art of film. ",
+    "label": "Film & Media",
+    "skip": false
+  },
+  {
+    "description": "Les Parapluies de Cherbourg (The Umbrellas of Cherbourg), Free Screening. Tuesday 11 November , doors open at 6 for the programme to start at 6:30 to conclude at 8:45. This will be in the Student Union, Memorial Theatre (SUMT 228; follow signage), Te Herenga Waka Vitoria University of Wellington (entrance via Kelburn Parade). See map of the campus here.\nLes Parapluies de Cherbourg (The Umbrellas of Cherbourg), \nJacques Demy, 1964 (91 minutes).\nWith Catherine Deneuve and music by Michel Legrand.\nThere will be an introduction and a Q&A discussion after the film.\n In Les Parapluies de Cherbourg, Jacques Demy transforms a simple love story into an enchanting and bittersweet musical. In the rain-soaked port of Cherbourg, Genevi\u00e8ve, played by Catherine Deneuve, propelled to stardom after her first major role, and Guy (Nino Castelnuovo) are separated when he is drafted for war in Algeria. Every line is sung (Michel Legrand is the film composer), every emotion is painted in luminous hues (poetic realism meets pop art), as Demy fuses everyday realism with operatic stylisation. Beneath its pastel beauty lies melancholy: love eroded by class, an unpopular colonial war and social conventions. Demy\u2019s art finds poetry in artifice, a fragile harmony between dream, music, and loss. Winner of the Palme d\u2019Or at the 1964 Cannes Film Festival.\n In his introduction to the film and in its subsequent Q&A session, Assoc. Prof.  Thierry Jutel (who, like Jacques Demy, hails from Nantes) along with Dr Missy Molloy from the Film Programme at Te Herenga Waka Victoria University of Wellington will discuss the iconic status of the film in French popular culture and its influence on generations of filmmakers. This will be Dr Jutel\u2019s last public lecture at Victoria prior to his retirement.\n An event facilitated by the support of Te Herenga Waka Victoria University of Wellington and the Embassy of France in Wellington.",
     "label": "Film & Media",
     "skip": false
   },
@@ -8021,6 +8221,11 @@
   },
   {
     "description": "Sake & plum wine tasting - Wellington City, Sample and learn about sake and umeshu (plum wine).\nThere'll be a selection of both sake and umeshu available to try, all from the award-winning Nakano Brewery in Wakayama, Japan.\nPlus there'll be a couple of different products available to the last tasting.\nPop into Moore Wilson's Wine, Beer & Spirits anytime from 12pm to 4pm. ",
+    "label": "Food & Drink",
+    "skip": false
+  },
+  {
+    "description": "Sake and Umeshu Tasting, Sample and learn about sake and umeshu (plum wine).\n\nThere'll be a selection of both sake and umeshu available to try, all from the award-winning Nakano Brewery in Wakayama, Japan.\n\nPlus there'll be a couple of different products available to the last tasting.\n\nPop into Moore Wilson's Wine, Beer & Spirits anytime from 12pm to 4pm.",
     "label": "Food & Drink",
     "skip": false
   },
@@ -8605,6 +8810,11 @@
     "skip": false
   },
   {
+    "description": "Level 3 - 4 Yoga class - advanced, The Level 4 asanas and practices are advanced, and thus require a more concentrated and slow practice, with this the influence deepens. Each asana has a regulatory effect on the organs and glandular systems, the effects unfold during the asana and also during the short relaxation between each asana.",
+    "label": "Health & Wellness",
+    "skip": false
+  },
+  {
     "description": "Life Drawing Meets Yoga!, Connect with your body and your creativity in this all-levels workshop that combines vinyasa yoga practice with a fun and interactive Life Drawing class!\n\nA unique experience where movement meets mark-making. We begin with yoga and flow into life drawing until the two become naturally intertwined.\n\nThe drawing process is fully guided and inspired by the philosophies and methods of British artist Cecil Collins, encouraging a non-academic, intuitive approach. Through playful interaction with asana, the connection between these two practices becomes beautifully apparent.\n\nDrinks and nibbles follow, along with a chance for k\u014drero and connection.\n\nGuided by JoElle Gragilla, owner of Island Bay\u2019s South Coast Studio, and AWHI yoga teacher Lachlan Broughton.\n\nEncouraging expression over perfection, this experience is open to all levels and accessible to both artists and non-artists alike.\n\nCome curious. Leave inspired.\n\nInvestment\n$75 (includes all drawing materials, yoga, mat hire, drinks & nibbles)\n\nAll supplies & props provided \u2014 wear comfortable clothing to move in!",
     "label": "Health & Wellness",
     "skip": false
@@ -8681,6 +8891,16 @@
   },
   {
     "description": "Mitey Wellbeing Day, Mitey Wellbeing Day\nSAVE THE DATE!\n\nFeel free to pop in over the day to join us for a day of fun!\n\nOur wellbeing day will have a focus on positive mental health, fostering connection, and continuing to build reciprocal relationships. Details to follow.\n\n",
+    "label": "Health & Wellness",
+    "skip": false
+  },
+  {
+    "description": "Morning Connect - Mental Health Awareness Week 2025, Come meet us for day one of Mental Health Awareness Week 2025.\nWe're starting the week with a morning connect. Fingers-crossed for no rain, come join us for a walk and a coffee to start your day.\nMeeting at Aye Empanada, 6.30am.\nSee you there! ",
+    "label": "Health & Wellness",
+    "skip": false
+  },
+  {
+    "description": "Move and Connect, Join us to connect with other mums, move your body while you enjoy a drink and kai. Koha on entry.\nRegister your spot at: Madeleine@peopleskillsconsulting.co.nz\n- suitable for beginners- intermediate\n- must be at least 8 weeks postpartum with medical clearance\n- prams welcome!\n\n",
     "label": "Health & Wellness",
     "skip": false
   },
@@ -8900,6 +9120,11 @@
     "skip": false
   },
   {
+    "description": "Yoga New Level 1 - 2 Course twice a week, 4 week Level 1 - 2 Course is for everyone, according to your level of ability and experience. Specially suitable for beginners. The yoga exercises from Yoga in Daily Life Level 1 and 2 are designed for beginners and those who want to build a firm foundation to their existing practice. Includes: yoga exercises to increase flexibility and strength of muscles and improve the function of internal organs; yogic breathing to reduce stress and anxiety; traditional pranayama, relaxation and meditation techniques.\n\nThe whole month of November: Wednesdays & Fridays",
+    "label": "Health & Wellness",
+    "skip": false
+  },
+  {
     "description": "Yoga Nidra: Grounding into Spring, Yoga Nidra: Grounding into Spring\nA soothing evening of rest and renewal \u2014 followed by a nourishing plant-based dinner and dessert.\n\nAbout this Event\n\nYoga Nidra: Grounding into Spring\nA soothing evening of rest and renewal \u2014 followed by a nourishing plant-based dinner and dessert.\nWelcome the energy of spring with a deeply grounding Yoga Nidra practice designed to reconnect you with the earth and your inner calm. This session will centre on releasing stuck or stagnant energy while inviting fresh energy to flow in. With a focus on stability and openness, Emma will guide you through gentle breath, nature-inspired imagery, and mindful awareness, creating space to feel supported, steady, and ready for new beginnings.\nThe space will be thoughtfully prepared to support stillness, with soft lighting, grounding scents, and a soundscape inspired by nature\u2019s renewal. All comforts are provided \u2014 mats, blankets, bolsters \u2014 though you\u2019re welcome to bring anything personal that helps you feel completely relaxed.\nWhether you\u2019re seeking balance, clarity, or simply a pause from the pace of life, this is a chance to feel grounded and centred as the season of spring unfolds.\nAfter the session, stay to enjoy a wholesome plant-based dinner and dessert \u2014 a grounding way to nourish, connect, and carry the calm into your evening.\nWhat\u2019s on the menu?\nJackfruit Rendang\nSatay Seitan Skewer\nGado Gado salad with Peanut Sauce\nFragrant Rice\nBanana Cake with Caramel suace\nWarming Hot Chocolate\n \n\n\n\nYoga Nidra is followed by a nourishing plant-based dinner and dessert! All included in your ticket!\n\n\n\nMeet the Host: Emma\nWith a 100-hour trauma-informed Yin Yoga certification and a background in the corporate world, Emma brings both groundedness and empathy to her teaching. Her approach is slow, intentional, and centered on creating a space where your body feels safe to relax and release.\n\n\n\nAgenda\n\n\n\ud83d\udd51: 06:00 PM - 06:15 PM\nArrive to Bhakti Lounge\n\n\ud83d\udd51: 06:15 PM - 07:15 PM\nYoga Nidra: Grounding into Spring\nHost: Emma\n\n\ud83d\udd51: 07:15 PM - 08:15 PM\nPlant-based dinner and dessert!\n\n\n",
     "label": "Health & Wellness",
     "skip": false
@@ -8911,6 +9136,16 @@
   },
   {
     "description": "Yoga Nidra: Ocean Waves of Rest, Yoga Nidra: Ocean Waves of Rest\nSlow down, settle in, and let the gentle rhythm of the ocean carry you inward.\n\nThis calming evening will centre around the deeply restorative practice of Yoga Nidra\u2014a guided meditation designed to bring your body into a state of deep rest while your awareness gently drifts between waking and dreaming. Known to activate the parasympathetic nervous system and reduce stress, Yoga Nidra supports emotional balance, mental clarity, and a profound sense of ease.\n\nThis ocean-themed session invites you to immerse yourself in the tranquil energy of the sea\u2014its steady waves, expansive horizons, and peaceful depths\u2014a time to soften, release, and simply be.\n\nAfter the practice, we\u2019ll be sharing a nourishing plant-based dinner together. It\u2019s included in your ticket and is a lovely way to gently transition back, connect, and enjoy wholesome food in good company.\n\nComfort note: Mats, cushions, blankets, and eye masks are provided, but feel free to bring your own for extra comfort and coziness.\n\nMeet Karuna, your host\nTrained as a primary school teacher, she also has a background in psychology and Spanish. But her heart is in connecting with others, and she always brings a lively and warm energy to the space.",
+    "label": "Health & Wellness",
+    "skip": false
+  },
+  {
+    "description": "Yoga class Intermediate - Level 3, Level 3 continues with more advanced postures that build on all the previous exercises learnt, if you have systematically followed them you will find these Asanas easy and energising. Ideal for those who would like to learn the levels of the System YIDL.",
+    "label": "Health & Wellness",
+    "skip": false
+  },
+  {
+    "description": "Yoga for All at Kai Tahi, Yoga for All at Kai Tahi\nCommunity yoga is coming to Kai Tahi!\n\nTry Sunday morning yoga classes with local yoga teacher, Janie Walker from BeCalmed Studio. Janie specialises in introducing people to yoga and supporting a life-long practice and love of yoga. Come stretch, breathe and feel good; this is yoga for all bodies and experiences.\n\n$10 per class (cash or internet banking), no bookings required.\nPlease bring a yoga mat.\n\nEvery Sunday 9am (starts 19 October)\nKai Tahi atrium\n\nWhat is yoga?\n\nYoga is breathing deeply, letting go of anxious thoughts, being kind, stretching the body to reduce tension, being more flexible, focusing and being mindful, and moving into different shapes.\n\nWhat are the benefits of yoga?\n\nGet stronger, more flexible and re-learn to relax in these Sunday morning community yoga classes. Reduce your blood pressure, improve circulation, reduce anxiety \u2013 and find more ease in your body.\n\nHow will I feel after my Sunday Kai Tahi yoga class?\n\nLighter, more relaxed, stronger, more confident, calmer.\n\nWhat kind of yoga will I be doing?\n\nA mix of vinyasa, hatha, restorative and mindfulness.\n\nWho is the yoga teacher?\n\nJanie Walker is a trained and experienced vinyasa, restorative and yin yoga teacher. She weaves ancient yoga philosophy and breath work with easy poses. Her classes are for beginners and those who want to deepen their own practice. Janie focuses on relaxation, breath and relaxing the mind.\n\nHow much does it cost?\n\n$ 10 per class (cash or internet banking)\n\nDo I need to book?\n\nNo bookings necessary. Just turn up. Yoga mats provided or bring your own.\n\nCan I do yoga if I am injured or recovering from illness or don\u2019t feel good?\n\nIf you have an injury or want to chat about how to look after yourself during your yoga class, please do contact Janie: or phone 0274539099. If you have any other physical or mental conditions that you\u2019d like Janie to be aware of so she can support you, please contact her.\n\nFind out more about BeCalmed Studio and Janie Walker - www.becalmedstudio.com\n\n",
     "label": "Health & Wellness",
     "skip": false
   },
@@ -8932,6 +9167,11 @@
   {
     "description": "Yoga with Kevin, Yoga with Kevin\nDeepen your practice with an all levels Vinyasa/Hatha/Yin practice, every Wednesday at 7pm. With tribal music in candle light to deepen your practice, we will build heat, strength and emotional resilience with a flow that challenges your fitness.\n\n",
     "label": "Health & Wellness",
+    "skip": false
+  },
+  {
+    "description": "#Hardpark_11, #Hardpark_11\nSave the Date for the weekend, more details on exact locations of the 'Club & Crew Leaders meet', the 'Hardpark_11 Main Event', 'The Club & Crew BBQ' and the 'Nostalgia Night Cruise' to follow.\nThe key info is to be in the Wellington region for that weekend for a massive weekend of modified rides and amazing people :D",
+    "label": "Hobbies & Interests",
     "skip": false
   },
   {
@@ -8965,6 +9205,11 @@
     "skip": false
   },
   {
+    "description": "5th & Last Family-Friendly Monthly Indoor Winter Games @ The Club, This is you last chance to join us at The Club on the 3rd Sunday of every month during winter (May to September) to play Bocce/Indoor Bowls, Carte Neapolitane/Siciliane/Tristine/Inglese - we don't descrimate, Billardino/Fusbol and Ping-Pong/Table Tennis between 2pm - 4pm.\nNo previous experience or membership required!\nCome and try your hand.\nYou may be a budding Champion in the making.\nIf you haven\u2019t played before, don't worry. help and guidance available.\nIf you just want to catch up with your friends, that's ok too.\nTea and coffee will be provided.\nFeel free to bring some snacks or home baking to share.\nThanks to Maria Elenio for her idea.\nAny question, you can ring Frank Basile on 0279140253 ",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "6's Tournament, Get Ready for the Wellington 6's Bridge Tournament!\nJoin us at the Wellington Bridge Club on Sunday, 7 September 2025 for a fun day of bridge! Our popular Wellington 6's tournament welcomes Junior, Intermediate, and Open players in a relaxed and friendly atmosphere.\nTournament Team Structure:\nEach team is made up of six players, consisting of one Junior pair, one Intermediate pair, and one Open pair.\nDon't have a full team yet? No problem! If you're keen to play but don't have a team, just email us at office@wellingtonbridge.co.nz and we'll help you find one.\nWhat to expect:\nSwiss Pairs format\nDelicious lunch provided (vegetarian options available, please advise)\nDress up in team colours and win special prizes! Show your team spirit!\nKey Details: Sunday 7 September\nPlay starts: 9:30 AM\nEntry Fee: $40 per player\nEntries Close: Midday Wednesday, 3 September 2025\nSecure your spot today! Register via: https://www.nzbridge.co.nz/.../Wellington-Sixes-3A~5B~3B or email office@wellingtonbridge.co.nz\nWe can't wait to see you there for a day of good bridge and great company!",
     "label": "Hobbies & Interests",
     "skip": false
@@ -8990,7 +9235,17 @@
     "skip": false
   },
   {
+    "description": "AFRONIGHTS VOL.1, AFRONIGHTS VOL.1\nAFRONIGHTS VOL.1 - Afrobeats & Amapiano like never before. A night of rhythm and unforgettable energy.\n\nAbout this Event\n\n\nWelcome to AFRONIGHTS VOL.1!\nStep into the rhythm at The Garden Hotel, October 31, 2025, from 10:00 PM.\nWELLINGTON! We're bringing Afrobeats and Amapiano to you! Powered by DJs Coleoz & DJ Mik, with a special guest performance from Wellington's own, Joseph Pod.\nCome catch the energy, dance to the hottest Afro sounds, and vibe with your crew all night long.\nBring your crew - this is the place to be this Halloween!",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "ANOTHER DAY ON EARTH w/ Hanwho & Simloco - RAumati SOcial CLub, ANOTHER DAY ON EARTH w/ Hanwho & Simloco - RAumati SOcial CLub\nFREE and easy as always blessings to RSC for always support live music and bringin poeple to gether ayyy <3\n\nThis time....\n\n[We are coming in hott, as is summer, but with grace and dreamy vibes, together and at times apart, will you bring your pure radiance and golden sparkle of delight to this moment, this hour, this gathering, along the cup a tea, another day on earth together where the taps flow and smiles are wider than the valley in aint no mountain high enough. we bringing acoustic slothery and hip bliss pockets of rhythmic word-smithery and electric ecclectic bass spluckage to your ears we read the room but by all means pull in and read us, let's co -read, co-create, co-habitate, co celectrate, breathe life into what you love not what you hate. JOH. Love you, Isaac and Hanu]\n\n",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
+    "description": "AR monthly Singaround, AR Monthly Singaround. Bring songs, tunes or poems to share, or just come to join in. Note the new venue - upstairs at the Johnsonville Club. Hosted this time by Janette Munneke.\nNo charge for entry. Feel free to purchase tea, coffee, drinks and snacks at the bar. Held the third Wednesday of every month. ",
     "label": "Hobbies & Interests",
     "skip": false
   },
@@ -9580,17 +9835,12 @@
     "skip": false
   },
   {
+    "description": "HobbyEx 2025, HobbyEx is a celebration of hobby and craft groups from the Hutt Valley. Come along to learn more about creative pastimes, how you can get involved, and see the amazing items they produce.\n\nThis year\u2019s event is also hosting the plastic model society national competitions with entries from Whangarei to Invercargill covering a wide range of subjects.\n\nA portion of funds raised will be donated to Youthline Wellington, supporting at risk young people.",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "Hyakunin Isshu - Japan Society September event, Our meeting will be on hyakunin isshu, which translates to '100 people, one poem each'.\nI will be bringing hyakunin isshu cards (each containing a poem each), which evolved from the 16th century introduction of European playing cards, which developed into the Japanese game karuta. Come learn about these cards, and play the simple card game 'bouzu mekuri' with these cards!\nPlease RSVP by Monday 1 September via this link.\nRSVP is mandatory to attend this event.\nThere is a maximum capacity of 10 attendees, so get in quick! ",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Hyzer Oct 2025 Edition, Hyzer Oct 2025 Edition\nCome and join members of the Greater Wellington Disc golf club for one or two rounds of golf (18 holes) in the beautiful Harcourt Park. Meet at the sound stage for each round currently kindly coordinated by xxxx\nFirst round 930am. Don\u2019t have a partner come and be matched with someone also looking to play or play cali (single with x1 Malign per hole).\nSecond round 1230pm - singles round\n\nCost: Free to Club Members, Gold Coin donation to Non Club Members\n\n(Details may be subject to to change and will be communicated in advance)\n\n",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Hyzer Sept 2025 Edition, Hyzer Sept 2025 Edition\nCome and join members of the Greater Wellington Disc golf club for one or two rounds of golf (18 holes) in the beautiful Harcourt Park. Meet at the sound stage for each round currently kindly coordinated by xxxx\nFirst round 930am. Don\u2019t have a partner come and be matched with someone also looking to play or play cali (single with x1 Malign per hole).\nSecond round 1230pm - singles round\n\nCost: Free to Club Members, Gold Coin donation to Non Club Members\n\n(Details may be subject to to change and will be communicated in advance)\n\n",
     "label": "Hobbies & Interests",
     "skip": false
   },
@@ -9611,11 +9861,6 @@
   },
   {
     "description": "Jonathan Kay - Massey University Lecturer/Master of Fine Arts Coordinator, Jonathan Kay is a photographic artist, researcher, and lecturer based at Massey University in Te Whanganui-a-Tara/Wellington. His work explores the intersection of art and science, using photography to reveal the unseen and challenge conventional notions of landscape. Over the past seven years, his research has focused on developing a site-specific and responsive approach to photographic interventions within the landscape.\nDrawing inspiration from scientific 'fieldwork,' Kay\u2019s practice involves close observation and data collection, using these methods to uncover new insights into specific environments. However, his approach extends beyond the typical scientific framework by leveraging the unique possibilities of the photographic medium. This process enables him to move beyond the traditional, idealized representation of landscapes, offering deeper, more complex interpretations.\nSeptember 25, Tararua Tramping Club (4 Moncrieff St, Mt Victoria), Doors Open at 7pm\nIf you\u2019re curious about the Wellington Photographic Society, you\u2019re welcome to attend two meetings for free before deciding whether to join. It\u2019s a great way to meet the community and see what we\u2019re all about!\nhttps://wps.wps.org.nz/ ",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
-    "description": "Kapiti Spin Disc Golf Pop-Up! October, Kapiti Spin Disc Golf Pop-Up! October\nKapiti Spring Spin Disc Golf Pop-Up!\n\nCelebrate spring with a spin! Whether you're a disc golf regular or just curious, this pop-up event is your chance to play, learn, and connect in one of Kapiti\u2019s more scenic reserves.\n\n\ud83c\udfaf What\u2019s Happening:\nAll-ages, all-skill-level disc golf\u2014no limits, just play!\nHire out gear and learn the basics from local players.\nRelaxed, social vibe\u2014bring friends, family, or come solo!\n\n\ud83e\udded Where:\nPukekawa Reserve, Waikanae \u2014 a beautiful open space perfect for a casual round and socialise.\n\n\ud83d\udee0\ufe0f What to Bring:\nComfortable shoes\nWater bottle\nYour own discs (or hire some on-site!)\nNo toilet facilities currently available onsite.\n\n\ud83d\udc9a Support the Future of Disc Golf in Kapiti\nKoha (donations) will be accepted on the day.\nAll contributions go directly toward building a permanent nine-hole disc golf course at Pukekawa Reserve.\nA suggested koha of $20 or more helps make this vision a reality \u2014 but any amount is appreciated.\n\nNo registration needed \u2014 just show up and spin!\nFollow this event for updates and weather info.\n\n",
     "label": "Hobbies & Interests",
     "skip": false
   },
@@ -9675,12 +9920,22 @@
     "skip": false
   },
   {
+    "description": "Live 4 The Weekend-Thursday Nights, The weekend starts now!\n\nExperience the ultimate midweek drop every Thursday night from 9pm till late at The Garden Hotel where we Live 4 the weekend!\n\nThis is Wellingtons Thursday night club night, featuring Dj Kakapo on the turntables. Escape the week and let the rhythm and baseline reset your energy with the sound of house and drum&bass on the Kinky Soundsystem.\n\nFree Entry",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "Local Boat Dive, We are aiming to log 500m today towards our DCD Challenge.\nWe will be going two dives along the South Coast depending on the interests of the group and the weather.\n(It's been a long while since we have all been out on the boat so it should be fun)\nThe boat is $130 for Challenge participants+ gear hire if required.\n($150 if you haven't signed up for the Challenge)\nSpaces are very limited so get in quick if you want to join us. ",
     "label": "Hobbies & Interests",
     "skip": false
   },
   {
     "description": "Local Boat Dives, Local Boat Dives\nWe had so much fun on our last boat trip we have booked another one to explore the F69 Wreck and a local reef.\n\nWith 2 morning dives it is an early start to get the tides right.\nWe will meet at 7:30am and be ready to load the boat at 8am.\n\nThe cost is $150 + gear hire if required.\n\nIf you are not an advanced diver or don't have recent dive experience you will need a guide.\nYou can always sign up for your Advanced Open Water Diver course and complete 2 of your dives off the boat .\n\n",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
+    "description": "Love Shack (A Dance Party), Step into a kaleidoscope of cosmic energy where the electric spirit of early house and the club kids house music meets neo-hippie euphoria! Channel your inner club kid and let your freak flag fly in a sanctuary of sound and movement.\nDust off those vintage finds, raid the costume box, slip into something that sparkles, or create a look that defies gravity and convention. The wilder, the better! Or just bring your fabulous unadorned self.\nExtra inclusive! Be Nice! Every body is celebrated \u2013 young and elder, curvy and angular, trans and cis, fluid and fixed. Consent is hot!\n\ud83c\udf08 Sunday, October 26th\n\u26a1 9:00pm - 2:00am\n\ud83d\udccd Ivy Bar, Wellington",
     "label": "Hobbies & Interests",
     "skip": false
   },
@@ -9785,6 +10040,11 @@
     "skip": false
   },
   {
+    "description": "Mumrave: Wellington, Wanna rave, mama? You\u2019re invited to Mumrave!\nThis November, we\u2019re taking Mumraves, a series of FREE pop-up nightclubs just for mums, on tour across Aotearoa! Enjoy one power hour of dancing, laughter, and good vibes with other mums all set to beats from an awesome DJ. Because mums deserve to celebrate, reconnect, and have fun.\nMumraves also mark the launch of The Village NZ, a free online hub connecting mums to support and education in the first 1,000 days of motherhood. Our mission is to improve maternal health and build real community. You can sign up to our free online parenting hub. Hub.thevillagenz.org. \nEach Mumrave session is one hour, capped at 40 participants, and includes:\nA complimentary non-alcoholic beverage on arrival\nSpot prizes\nA goodie bag\n***Please note-this is an alcohol free and child free event.\nTour dates:\nAuckland: Sat 15 Nov | 2-8pm\nWellington: Fri 21 Nov | 5-10pm\nTauranga: Sat 22 Nov | 2-8pm\nChristchurch: Fri 28 Nov | 5:30-9:30pm\nArrowtown: Sat 29 Nov | 2-8pm\nBook your spot now and get ready to dance in a pop-up rave tent, connect, and celebrate being a mum!",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "Murder Mystery Interactive 'Great Gatsby', Murder Mystery Interactive 'Great Gatsby'\nJoin us in the 1920's for a night so funny it could K*ll you! An interactive comedy where guests come dressed in the Gatsby theme and try to solve a MURDER!\n\n",
     "label": "Hobbies & Interests",
     "skip": false
@@ -9835,6 +10095,11 @@
     "skip": false
   },
   {
+    "description": "No Scrubs: 90s + Early 00s Party - Wellington, \u2b50\ufe0e\nSO TELL ME WHAT YOU WANT, WHAT YOU REALLY REALLY WANT\n\u2b50\ufe0e\nTICKETS ON SALE NOW\nhttps://bit.ly/NSWELLSEP\nNO SCRUBS: 90s + Early 00s Party\nFRIDAY 12TH SEPTEMBER\nRED SQUARE BAR\nWELLINGTON\nDOORS @ 9PM\n18+\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\nCalling all Barbie Girls, Teenage Dirtbags and All Stars: join No Scrubs for a 90s and early 00s party that will be Larger Than Life!!\nYou\u2019ll be Dancing in the Moonlight, Spinning Around and Jumpin\u2019 Jumpin\u2019 as we Pump It with all the best throwback tunes from 1990 - 2009!!\nIf you Wannabe Livin la Vida Loca with us on the dancefloor then Say You\u2019ll Be There and get in quick for tickets!\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\nNO SCRUBS SOUNDS LIKE:\nBackstreet Boys : Spice Girls : Britney Spears : Jesse McCartney : The Black Eyed Peas : Kelly Clarkson : Destiny\u2019s Child : Gwen Stefani : S Club 7 : Missy Elliott : Sean Paul : The Veronicas : 5IVE : Missy Higgins : Las Ketchup : N*Sync : Thirsty Merc : Bardot : TLC : Aqua : Shania Twain : Daft Punk : Cher : Ricky Martin : Kylie Minogue : Lou Bega : Nelly Furtado : Wheatus : Fergie : Smashmouth : The Vengaboys : Shakira : Hanson : No Doubt : Craig David : Sugababes : Red Hot Chili Peppers : Lady Gaga : Blink -182 : Atomic Kitten : Green Day : Kelis : Kanye West : P!nk : Eminem : Ashanti : Good Charlotte : Mandy Moore : Robbie Williams : Christina Aguilera : 50 Cent : Beyonce : John Farnham : Rihanna : Justin Timberlake : Mya : Will Smith : Jennifer Lopez : Ja Rule : Avril Lavigne : Linkin Park : Sophie Ellis-Bextor : Metro Station : t.A.T.u : Sum 41 : Jessica Simpson : Shaggy : Vanessa Amorosi : Jagged Edge : Nelly : Usher : Outkast + heeaaaaaaps more!\nPlease read the Plus One Co. company T&Cs carefully prior to purchasing your ticket - https://bit.ly/PurchaseTCs\nPlease note: Our events may feature moving and flashing lights. If you have photosensitivity or any related concerns, feel free to reach out to us with any questions! ",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "OPEN MIC - Vogelmorn Upstairs, Open Mic / Variety show night at Vogelmorn Upstairs\nStep into the spotlight and share your talent on the Upstairs stage.\nMusic, stand-up, poetry, storytelling, movement, experiments. If it's performable, it's welcome.\nNo genre too strange, no format too small.\nA vocal mic and simple PA will be provided, please bring along anything else you need to perform.\nBar open from 3pm, Happy hour from 3pm to 6pm, Open Mic from 5pm.\nSign-up on the night - all voices, styles, levels of experience etc welcome\nhttps://www.undertheradar.co.nz/.../Open-Mic-Night-At...\n\"Vogelmorn Upstairs is not a wheelchair accessible building. There is an accessible\nbathroom in the space. This is an all ages venue but those under the age of 16 must be\naccompanied by a designated adult after 8pm. The Vogelmorn Precinct is a community\nspace located in a residential area. With that in mind, the team ask that you be kind to\nothers' and that when you leave the gig, you do so quietly to avoid disturbing our\nneighbours.\u201d\n\u201cThe Upstairs Bar and Smoked and Pickled Restaurant will be open from 3pm, to book a",
     "label": "Hobbies & Interests",
     "skip": false
@@ -9846,6 +10111,11 @@
   },
   {
     "description": "October Mini Golf @ Golf Warehouse, We're heading to the Golf Warehouse and it's the perfect time to put some some putts in for the upcoming NZ Mini Golf Open in November.\nMake sure you RSVP via Humanitix or Facebook as we'll tee-off around 10am or when everyone who has registered is present.\nThis is indeed in the middle of labour weekend, but we hope you can make it!",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
+    "description": "October at Kaitoke Regional Park, This months herb meeting will be a field trip led by Heather Blissett. Meet in the carpark opposite funeral parlor on King Street for carpool to Swing bridge for the start of our event. byo chair if picnic tables are uncomfortable and byo cup for a cuppa.\nsuitable for all abilities. ",
     "label": "Hobbies & Interests",
     "skip": false
   },
@@ -10095,6 +10365,11 @@
     "skip": false
   },
   {
+    "description": "Radio controlled truck run, With the long weekend why not Get the dust off them trucks with the weather coming right let's have a run at my hometown of Masterton will have a BBQ running there and if anyone feels like a cold drink or 2 come head down home after ",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "Rainbow Dragon Club, A boardgame and tabletop game club for the LGBTQ+ community and for women.\nYou are welcome to bring along your own games, miniatures, and paints. You can also just bring yourself and try out a game in our collection! ",
     "label": "Hobbies & Interests",
     "skip": false
@@ -10136,6 +10411,11 @@
   },
   {
     "description": "Retro Gaming | Tawa Library, Come join us for an afternoon of nostalgia or new experiences with old video games! We have consoles from a variety of decades for you to try out.\nThis is an age restricted event, suitable for young people aged 10+.\nThose under 14 must be accompanied by a caregiver. ",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
+    "description": "Riftbound - Origins Constructed Release!, Riftbound - Origins Constructed Release!\nRiftbound - Origins Constructed Release!\n\nEntry is $24\n\nFormat is Constructed - bring along your Champion Deck or custom built deck and play!\n\nThere's 2 Booster Packs per player for prizing!\n\n",
     "label": "Hobbies & Interests",
     "skip": false
   },
@@ -10350,6 +10630,11 @@
     "skip": false
   },
   {
+    "description": "Spring Thing, Spring Thing.\nA chance to shed winter.\nLonger days, warmer air and vibes.\nFriends, tunes, a couple of bevvies and a groove to toast the change.\nFamily-friendly venue, tasty bites and room to catch up properly.\nWarm up your feet and your soul.\nSaturday 20th September, from 3pm until 10pm.\nTickets $15 from Humanitix or on the door.",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "Spring event: Lesbian Herstory Month at LILAC, To celebrate Lesbian Herstory Month LILAC is holding a social event on Friday 10th October at 5:30 for 6pm. The herstory map of Lesbian Wellington will be the background to a mainly social gathering. Bring along images of lesbian hairstyles (your own, friends or girlfriends, or those of famous lesbians).\nThis should be a fun event. Light refreshments - koha ",
     "label": "Hobbies & Interests",
     "skip": false
@@ -10410,6 +10695,11 @@
     "skip": false
   },
   {
+    "description": "Ten Dollar Microchipping, Come along and get your dog microchipped for the discounted price of $10. We can also check existing chips in dogs and whether or not they have been chipped.\nThursday 30 October\n4:30 - 6:00pm\nHenley Lake - southern end of the lake near the Colombo Road carpark.\nPlease make sure your dog arrives on a leash and is under active control. ",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
     "description": "The Big Awhi Day Out, Super excited to announce this amazing offering!! \ufffd\nIn collaboration with the super talented Briar @whare_kotare, \ufffd\nWe have created this gorgeous wahine centered container to restore and revive ..\nBeing held at a secret sauna space in Te Horo on Saturday September 6th,\nspaces are limited to only 8 people.\nSo welcome in some magic \ufffd\nFor more info or\nReserve your spot,\nContact\nBriar @whare_kotare or on 0222647581\n(Digital design work by Tamsyn @the_crafty_gemini \ufffd)\n#wharek\u014dtare\n#MsGreensHolisticWellness\n#TheBigAwhiDayOut\n#WomensWellness\n#WombmansHealth\n#SaunaNZ\n#saunatogetherfeelbetter\n#hormonebalancing\n#rongo\u0101\n#lymphaticsupport\n#Breathwork\n#MauriKai\n#tarotreadingnz\n#w\u0101hineempoweringw\u0101hine\n#wahinerising\n#wahineowned ",
     "label": "Hobbies & Interests",
     "skip": false
@@ -10461,6 +10751,11 @@
   },
   {
     "description": "The Taco Truck - Open Mic, Step into a night of fearless laughter and unapologetic honesty at a new open mic night for all women, trans men and non-binary performers. The Taco Truck brings you jokes, stories, and sharp punchlines in a supportive and electric space. We have seasoned, professional and budding talent take to the mic for diverse perspective, bold comedy and plenty of fun. Expect everything from one-liners to outragegous storytelling, all served up with authenticty and joy.\n\nDoors open one hour before showtime. Online tickets: $20, Door Sales: $25.\n\nPlease note: No Stag Dos, TERFS or SWERFS.",
+    "label": "Hobbies & Interests",
+    "skip": false
+  },
+  {
+    "description": "The Wellington Calling Open Mic: Featuring The English Locust!, WELLINGTON's premier event venue Whisky and Wood is hosting its 6th open mic event: Wellington Calling and we're looking for diverse acts to contribute!\n\nThe open mic event takes place Sunday Nov 9 at the new time of 5:30pm.\n\nLocated in the heart of the city at 60 Cambridge terrace, Whisky and Wood exudes industrial elegance with New-York loft vibes featuring washed-brick walls, soaring high ceilings, skylights and a wooden bar area.\n\nEach performer gets the chance to have a six- minute set with a microphone, guitar and keyboard provided.\n\nThis is an originals only event. We want to encourage new creative voices to be heard.\n\n\u201cWe want to provide a positive and encouraging environment for established and fledgling acts to shine in. Its a pretty inspiring place to perform,\u201d says host Steven Hood.\n\nEach performer will need to sign up in person before 5pm and registrations of interest need to be emailed to openwandw@gmail.com before Nov 9.\n\nThe feature act is The English Locust, a folk and delta blues musician who has been described as Bob Dylan in goth. His technical playing, smart lyrics and tight songwriting is impressive, to say the least.\n\nEntry is with Koha.\n\nLight food and drinks will be available to purchase.\n\nWhat: Wellington Calling Open Mic\nWhen: Nov 9, 5:30PM\nWhere: 60 Cambridge Terrace\nCost: Koha",
     "label": "Hobbies & Interests",
     "skip": false
   },
@@ -10785,11 +11080,6 @@
     "skip": false
   },
   {
-    "description": "\ud83c\udf84\ud83d\udc83\ud83d\udd7a Xmas Salsa Hutt Dance Party \ud83d\udc83\ud83d\udd7a\ud83c\udf84, \ud83c\udf84\ud83d\udc83\ud83d\udd7a Xmas Salsa Hutt Dance Party \ud83d\udc83\ud83d\udd7a\ud83c\udf84\n\"May I have this Christmas dance?\" \ud83c\udf84\ud83d\ude0a\ud83d\udc83\ud83d\udd7a It's that time of year already! Come spread the Christmas cheer on the dance floor with us!\n\nCome dance the night away with your like-minded friends, and loads of classic Salsa songs from years ago, as well as a \u201cdash\u201d of Bachata and a \u201csprinkling\u201d of Kizomba\u2026..\n\n\u2022 One fantastic wooden dance floor with a mix of Salsa, Bachata, and Kizomba music\n\n\u2022 Easy to find venue off a main street in Petone (72 Cuba St)\n\n\u2022 Plenty of parking in surrounding streets\n\n\u2022 On main bus routes (#83 from Wellington, or #110 from Upper Hutt), or short 8min walk from Ava Train Station\n\n\u2022 Water station provided however bringing your own water drink bottle is recommended. Also, BYO soft drinks, fruit juices, non-alcohol drinks, etc. (NB/ No alcohol allowed on premises!)\n\n\u2022 Please wear high heel/stiletto caps to prevent damage to the venue\u2019s wooden floor \u2013 For example, from https://www.beclickless.com/pages/faqs\n\n\u2022 Only goes until 10:30pm so get there early to have a decent \"fix\" of dancing and socialising \ud83d\ude0a\n\n\u2022 Only $10.00 at the door (cash), or bank transfer (preferably at least 24 hours in advance):\n\nAccount: 06-0507-0092784-05\nAccount Name: Kasia L Wypych\nParticulars/Code/Reference: \u201cYour 1st and last name\u201d - Salsa Hutt \u2013 \u201cdate of Salsa Hutt party\u201d\n******* (If you have prepaid on the night, please take a screenshot and show proof of payment at the door).\n\n\u2022 Invite your friends to this event\u2026and see you there! \ud83d\ude0a\n\n\ud83d\udc83\ud83d\udd7a From 7:30pm to 10:30pm\n\n\ud83d\udc83\ud83d\udd7a Petone Salvation Army\nCorner of Cuba and High Sts, Petone, Lower Hutt (Entrance from High St)\n\nEmail Kasia on or ring/text on 021 141 8116 for more details.\n\n",
-    "label": "Hobbies & Interests",
-    "skip": false
-  },
-  {
     "description": "\ud83d\udcf8 Make friends & Photowalk Meetup Wellington, \ud83d\udcf8 Make friends & Photowalk Meetup Wellington\n\ud83c\udf10 ONLINE GLOBAL PHOTO SHARING \u2014 24/24\nGrab your camera or phone and join!\n............\nDates:\nJune 15, 22, 29 | July 6, 13, 20, 27 | Aug 3, 10, 17, 24, 31 | Sept 7, 14, 21, 28 | Oct 5, 12, 19, 26 | Nov 2, 9, 16, 23, 30 | Dec 7, 14, 21, 28\n............\nVote on Instagram \u2014 creativity counts!\n\ud83d\udc49 instagram.com/photowalkevents\n............\nHow to join:\n1. Register on our website: https://www.photowalkevents.com/photo-contest\n2. Submit your photo per instructions.\n............\n\ud83d\udd04 Note:\nThis Facebook event link is reused; attendee counts may not be accurate. Please disregard.\n............\n\ud83d\udcf2 Stay Connected:\nTelegram: https://t.me/+IuYfgkauJApkZmM0\nInstagram: https://www.instagram.com/photowalkevents\nFacebook: https://www.facebook.com/blablaevents.photowalk\n\n",
     "label": "Hobbies & Interests",
     "skip": false
@@ -10855,7 +11145,17 @@
     "skip": false
   },
   {
+    "description": "CFW @ Kapiti Food Fair 2025, CFW @ Kapiti Food Fair 2025\nCome down to meet the team, find out what we do and how you can help, and stock up on our delicious preserves for Christmas too! We'd love to see you at the fair.\n\n",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
     "description": "Capital City Comics and Collectibles Fair, Comics, trading cards, vintage toys, retro and collectibles - you'll find them all at the Capital City Comics and Collectibles Fair!\nSaturday 4th October from 10am to 2pm\n**** NEW VENUE****\nJONSHONVILLE COMMUNITY CENTRE\nProudly supporting Kitten Inn\n, this is the 7th running of this amazingly successful event!\nVendors spots available - send messages to enquire.\n",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
+    "description": "Community Garage Sale in Karori, Looking for a bargain? A fun morning out? Or a chance to support your local community?\nYou\u2019re warmly invited to our Community Garage Sale!",
     "label": "Markets & Fairs",
     "skip": false
   },
@@ -10920,6 +11220,11 @@
     "skip": false
   },
   {
+    "description": "Greytown Country Market - 19 October 2025, Greytown Country Market - 19 October 2025\n\ud83c\udf3f Greytown Country Market \ud83c\udf3f\n\nJoin us for a vibrant monthly market celebrating the diversity and creativity of Wairarapa and Wellington.\n\nThe Greytown Country Market is more than just shopping\u2014it\u2019s a place to meet friends, relax with family, and enjoy fine food in a welcoming community setting.\n\n\ud83d\udecd\ufe0f Discover & Explore\nBeautiful homewares, vintage finds, unique crafts, and fabulous treasures waiting to be uncovered.\n\n\ud83c\udf4e Taste & Take Home\nLocal products including food stalls, home-made muesli, chutneys & pickles.\n\n\ud83c\udf31 For the Garden\nPlants, seedlings, sculpture, and garden pots to inspire your outdoor spaces.\n\n\ud83d\udccd Where: Stella Bull Park, Greytown\n\ud83d\uddd3\ufe0f When: 10am-2pm 3rd Sunday of the Month (October - March)\n\n\u2728 For Stallholders\nInterested in having a stall at our summer markets? Registrations and stall bookings are now open via our website \ud83d\udc49 www.greytowncountrymarket.org.nz\n\n",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
     "description": "HELL-O-WEEK & FRIDAY FLASH DAY @ CUBA STREET TATTOO, Join us this Halloween week 2025 at Cuba Street Tattoo!\nWe love the spooky season and have decided to this year make a party of it with lots of specials on piercings, flash tattoos, and even offering UV tattoos for the week only!\nThe entire week will comprise of our *new* shirts at discount price, flash deals, and of\ncourse candy to be had!\nOn Friday the 31st Flash Day *all* piercings are $50 and to finish off the week we are hosting a Halloween afterparty and dress up competition at our mates Rouge and Vagabond just across the street beginning at 7:30PM, with giveaways and even prizes to be won for 1st, 2nd and 3rd place for best dressed including tattoo vouchers, bar tabs and lots of other fun free things in prizes.\nBring all your mates and celebrate with us, we look forward to having you!\n",
     "label": "Markets & Fairs",
     "skip": false
@@ -10931,6 +11236,11 @@
   },
   {
     "description": "Hutt Japan Day 2025, Hutt Japan Day is back!\n\nJoin us for a vibrant celebration of Japanese culture at the Hutt Japan Day festival, held at the Lower Hutt Town Hall, Dowse Square & Dowse Art Gallery on Sunday, 9 November.\n\nCelebrating 30 Years of Friendship\nThis year's event is extra special, marking 30 years of partnership with Minoh City, our sister city in Osaka, Japan. The festival is organised by the Hutt Minoh House Friendship Trust, with support from the Hutt City Council and the Embassy of Japan.\n\nWhat\u2019s on offer?\n\u2022 Be captivated by an array of Japanese performances and demonstrations\n\u2022 Engage in hands-on activities and workshops\n\u2022 Immerse yourself in the exhilarating rhythms of taiko drumming\n\u2022 Indulge in delectable Japanese cuisine from one of our food vendors/stalls\n\u2022 Explore our market area for unique Japanese treasures\n\nSave the Date - Sunday, 9 November 2025\nLower Hutt Town Hall, Dowse Square & The Dowse Art Museum\nWe look forward to celebrating the richness of Japanese culture with you!",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
+    "description": "Hutt Timebank's Spring Market fundraiser, Hutt Timebank's Spring Market fundraiser\nOur annual fundraiser is back!\nAs always Leila's special tomatoes are the stars, and this year there'll be unusual chillis too, as well as various heritage plants.\nThere'll be loads of great homemade preserves and other foody treats, crafts made by timebank members, a bric-a-brac table, and...\n\nAfter buying your goodies, relax at our popup Koha Cafe.\nFeaturing coffee from the amazing Good Fortune, and home baking.\nGluten free? Vegan? Dairy free? We'll have morning tea for you all.\n\nPlease share this around - there'll be lots of great stuff, and you'll be helping us do more cool community mahi.\n\n\n#fundraiser #gardening #OrganicGardening #tomato #cummunity #sustainability #craft #food\n\n",
     "label": "Markets & Fairs",
     "skip": false
   },
@@ -11155,6 +11465,11 @@
     "skip": false
   },
   {
+    "description": "St Michael's Kelburn Village Fair, St Michael's Kelburn Village Fair\nCome along to the 2025 St Michael's Kelburn Village Fair on Saturday the 8th of November!\n\nThere will be stalls with books, clothes, pottery, plants, vintage items, and more! There will also be entertainment and food including a sausage sizzle, baked goods, face painting, and live music! Come along from 10am-2pm to get some great bargains!\n\nFunds raised will go towards aid in Gaza, the Wellington City Mission, and the rebuild of St Michael's Church building.\n\nDonations are welcome! If you would like to donate items to be sold, please drop them off at the St Michael's Kelburn Church foyer from now until Thursday the 6th of November.\n\nSee you there!\n\nAny questions, please call the St Michael's Church office: 934 9338.\n\n",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
     "description": "Stokes Valley Market, Kia Ora whanau,\nThe countdown begins, with our Stokes Valley Market taking place on Saturday, 11th October in the hub, highlighting talented stall holders and providing an opportunity to secure excellent bargains. See you there. ",
     "label": "Markets & Fairs",
     "skip": false
@@ -11175,6 +11490,16 @@
     "skip": false
   },
   {
+    "description": "Te Wiki o Te Reo M\u0101ori M\u0101kete, Te Wiki o Te Reo M\u0101ori M\u0101kete\nOver 40 stalls, live entertainment, kids paint by numbers activity, and amazing food in the food court.\n\n",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
+    "description": "The Extravaganza Fair - Lower Hutt, The Extravaganza Fair - Lower Hutt\n\ud83c\udfaa\u2728 ROLL UP, ROLL UP \u2013 THE EXTRAVAGANZA FAIR IS BACK! \u2728\ud83c\udfaa\n\n\ud83c\udf89 Celebrating 11 epic years of magical mayhem on the road! \ud83c\udf89\n\nNew Zealand\u2019s biggest and most fabulous travelling fair is rolling back into town \u2013 and you\u2019re invited!\n\nWe\u2019re bringing grassroots charm, vintage flair, and old-school fun to town \u2013 a joyride for all ages! Whether you\u2019re 5 or 95, there\u2019s something here to make your heart happy.\n\n\ud83d\udcab FREE ENTRY for kids! Gold coin for adults \u2013 that\u2019s it!\nGet ready for a weekend packed full of FREE entertainment the whole wh\u0101nau will love.\n\nExpect a kaleidoscope of colour, creativity, and community vibes with:\n\n\ud83c\udfa8 Unique market stalls, arts,crafts & more!\n\ud83c\udf2e Yummy street food galore\n\ud83c\udfa1 Kids rides & games all day\n\ud83c\udfad The fabulous Ashton Family Circus\n\ud83d\udc09 Burns the Dragon breathing fun\n\ud83e\udddc\u200d\u2640\ufe0f Enchanting Mermaid Storytime\n\ud83c\udfaa Sparkling LuckyStar Zone (as seen at Splore!)\n\ud83c\udfb6 Live music all day\n\ud83d\udd2e Tarot, past-life readings & mystical moments\n\n\u26a1 Tiny homes, solar setups & sustainable inspiration\n\ud83d\udd76\ufe0f Retro lounges & shady chill zones = your new favourite hangout spot \ud83d\udecb\ufe0f\n\nSee you there this summer 2025 - 2026!! \ud83d\udca5 \ud83c\udf3c\n\n#extravaganzafair #theextravaganzafair #ontour #nzsummer #nz\n\n",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
     "description": "The Unlost Village Travelling Market, Upper Hutt, we are so excited to be bringing our vibrant travelling market to you again:\n\nA great time for the whole Family - Giant bubbles, Mini Hot Rods, Face Painting, and incredible artisan stalls including Ceramics, Upcycled silver cutlery, Circus/ fire toys, Silver, Herbs and Healing, Ethnic clothing and goods, Sari creations, Wicca & Fairy goodies, Leather, Soaps, Crystals, Crochet monsters, Hair braiding, Tarot Reader, Resin creations, Sublimation products and Yummy treats and refreshments.\n\nCome for a fabulous day out, with lots of Free Fun toys and activities, Great Vibes and Music.\n\nWe still have stall opportunities available for Marketeers who can bring something different to our market. Email: unlostvillage@gmail.com with your interest and/ or for more information.",
     "label": "Markets & Fairs",
     "skip": false
@@ -11186,6 +11511,11 @@
   },
   {
     "description": "Thorndon Farmers Market, Thorndon Farmers' Market takes place Every Saturday Morning, rain, hail or shine, from 8.30am to 12.30pm. We are in the Hill St carpark of Cathedral of St Paul, Thorndon, Wellington.\nOur Focuses are Local Products & Producers, Organic Produce, Gluten Free, GM Free, Artisan Producers, Healthy Alternatives, Unique Produce, Spray Free Fruit and Veg, Emerging Products, Sustainability and Natural Products.\nOur Mission is to Provide a Friendly, Vibrant Marketplace while Supporting the Local Community and Businesses that Care! ",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
+    "description": "Thrift Store Day at WellyPutt!, It's a Thrift Tee Party at WellyPutt Mini Golf!\nFor one day only, come and grab a bargain that's a PUTT above the rest at our on site Thrift Store, where loads of pre-loved items will be waiting for their new forever home!\nYou'll find:\n- Designer Clothes\n- Books\n- Board Games\n- Plant Babies\n- Knick Knacks\n- Records and CD's\n- Mini Golf equipment\n...and loads more on site!\nNot only that, but all day mini golf rounds will be just $15 per person!*\nSo swing by on Sunday 19th October and grab a deal that's really up to par!\n$15 Mini Golf T&C's:\n- Not valid with any other discount/voucher",
     "label": "Markets & Fairs",
     "skip": false
   },
@@ -11206,6 +11536,11 @@
   },
   {
     "description": "Upper Hutt Night Market, This vibrant community event promises an exciting evening of entertainment, artisan crafts and delectable food options for attendees of all ages.\n\nOver 80 artisan craft stalls will showcase the talent and creativity of local artists. Attendees will have the opportunity to browse and purchase a wide range of unique handmade products, including artwork, jewellery, candles, home d\u00e9cor, plants, clothing and much more.\n\nTo satisfy the appetites of hungry visitors, the Upper Hutt Night Market will also feature over 20 carefully selected food trucks offering a diverse range of culinary delights. From international cuisines to local favourites, attendees can indulge in a variety of mouthwatering dishes, ensuring there is something to satisfy every palate.\n\nAt the heart of the event will be the sensational sounds of The Shenanigans, a local band renowned for their energetic performances. Their lively melodies and infectious tunes will grace the sound stage, ensuring a memorable night filled with music and joy.\n\nFREE ENTRY",
+    "label": "Markets & Fairs",
+    "skip": false
+  },
+  {
+    "description": "Waikanae SPRING Market, LaliesDeli at 6Mahara place will be open from Monday through Thursday like every week, on the menu: Traditional natural AREPAS, EMPANADAS, PABELL\u00d3N \u2026.\n\nMaybe see you around next\u2019s week\nTHE 25/10/2025 we\u2019re open for you too, at LaliesDeli for the Waikanae SPRING Market\n",
     "label": "Markets & Fairs",
     "skip": false
   },
@@ -11372,6 +11707,11 @@
   },
   {
     "description": "Album Release: Oscar Lav\u00ebn's Elegant Calamity Orchestra, \"You could drop the needle on any spot of Questions In Red and find satisfying, thoroughly involving music.\" - London Jazz News\nAfter receiving glowing international reviews for his debut album Questions in Red, flamboyant saxophonist and multi-instrumentalist Oscar Lav\u00ebn is thrilled to release another exciting album, \"Elegant Calamity\", drawing together a vibrant collection of all-star musicians from various backgrounds under one roof, drawing influence from early American swing, blues, classical music, french cinema, spiritual jazz and 50\u2019s bar-walking rock and roll saxophone.\nPrepare to be swept into a surreal, cinematic world by the Elegant Calamity Orchestra; strings, woodwinds, brass, virtuosic percussionists and a deep-digging rhythm section, combining kaleidoscopic orchestral colours with the dangerous spontaneity of a small group. A momentous album release not to be missed.\nTickets:\nPresales $15: https://www.jazzfestival.nz/.../album-release-elegant.../\nDoor Sales $20\nThe Ensemble:\nOscar Lav\u00ebn: tenor saxophone\nBridget Kelly: clarinet\nCalvin Scott: oboe\nBlair Latham: alto and bass saxophones\nPatrick Hayes: bass clarinet\nMichael Taylor: trumpet\nMichael Costeloe: trumpet\nKaito Walley: trombone\nTristan Carter: violin\nAna Henderson: violin\nNicholas Denton-Protsack: cello\nRafael Ferrer-Noel: percussion\nMikey Trujillo: percussion\nJohn Rae: drums",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "Album Release: Oscar Lav\u00ebn's Elegant Calamity Orchestra, Album Release: Oscar Lav\u00ebn's Elegant Calamity Orchestra\n\"You could drop the needle on any spot of Questions In Red and find satisfying, thoroughly involving music.\" - London Jazz News\n\nAfter receiving glowing international reviews for his debut album Questions in Red, flamboyant saxophonist and multi-instrumentalist Oscar Lav\u00ebn is thrilled to release another exciting album, \"Elegant Calamity\" during the Wellington Jazz Festival, drawing together a vibrant collection of all-star musicians from various backgrounds under one roof, drawing influence from early American swing, blues, classical music, french cinema, spiritual jazz and 50\u2019s bar-walking rock and roll saxophone.\n\nPrepare to be swept into a surreal, cinematic world by the Elegant Calamity Orchestra; strings, woodwinds, brass, virtuosic percussionists and a deep-digging rhythm section, combining kaleidoscopic orchestral colours with the dangerous spontaneity of a small group. A momentous album release not to be missed.\n\nWednesday 15th October, opening night of Wellington Jazz Festival.\n8:30pm at The Rogue and Vagabond.\n\nTickets:\nPresales $15: https://www.jazzfestival.nz/events/album-release-elegant-calamity-orchestra/\nDoor Sales $20\n\nThe Ensemble:\nOscar Lav\u00ebn: tenor saxophone\nBridget Kelly: clarinet\nCalvin Scott: oboe\nBlair Latham: alto and bass saxophones\nPatrick Hayes: bass clarinet\nMichael Taylor: trumpet\nMichael Costeloe: trumpet\nKaito Walley: trombone\nTristan Carter: violin\nAna Henderson: violin\nNicholas Denton-Protsack: cello\nRafael Ferrer-Noel: percussion\nMikey Trujillo: percussion\nJohn Rae: drums\nAyrton Foote: piano\nPatrick Bleakley: double bass\n\n",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -11861,6 +12201,11 @@
     "skip": false
   },
   {
+    "description": "Capital Blues Concert Series: The Carol Bean Ensemble, Carol Bean brings her encyclopedic blues knowledge and West Coast roots to the Capital Blues stage, fronting a powerhouse ensemble with Deane Hunter (guitar), Andrew Richardson (drums), Elliotte Fuimaono (bass), and Duncan Haynes (keyboard). Showcasing songs from blues legends like Ma Rainey, Elmore James, Memphis Minnie, and Jimmy Reed, alongside contemporary voices such as Etta James (from Carol\u2019s hometown of Los Angeles), Eliza Gilkyson, Debbie Davies, and Angela Strehli from Austin, Texas. And yes\u2014Clarence \u201cGatemouth\u201d Brown is in the mix.Carol\u2019s sets are known for their depth and feel\u2014steamy slow burners, up-tempo grooves, and tunes you didn\u2019t know you needed. She\u2019s gathered bands like Blue Highways and The Dirty River Band, and has been a fixture in Wellington\u2019s blues scene since 2008. Her credits include Lady Sings the Blues, Wild Women of Wellington, and ALL of the blues festivals in Aotearoa. Born in England and raised in LA, Carol was shaped by the West Coast music of the \u201960s and the acoustic blues of Mississippi John Hurt, Mance Lipscomb, and Lightnin\u2019 Hopkins. She studied with Ry Cooder, who helped her acquire the vintage Martin guitar she still plays today.This gig is part of the Capital Blues Concert Series\u2014Sunday afternoons built for listening, relaxing, and reconnecting. Come down, grab a drink, and settle in. Members discounts apply!\nOriginal Photo: Reef Reid ",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
     "description": "Capital Blues Presents: Jess and Cam, Jess Deacon is a cross-genre vocalist and songwriter who embodies influences from jazz, folk, soul, classic rock and choral music. She is an engaging performer, has an ear for music that speaks to the soul, and writes songs that connect us as humans and challenge the expectations of the modern musician \u2013 following the ebb and flow of life as we know it.\nShe has fronted a number of bands, been commissioned as a composer, recorded on several projects, performed at a variety of festivals and events across Aotearoa, and has written a variety of original music.\nCam Steel is an amazing drummer and all-round beat master whose ability to produce a soundscape driven by rhythm is next level.\nTogether, Jess and Cam will give us a lunchtime of easy, groovy blues, a fine way to while away a Sunday afternoon.\n10% discount at the bar for food and drinks for members.",
     "label": "Music & Concerts",
     "skip": false
@@ -11877,11 +12222,6 @@
   },
   {
     "description": "Capital Blues Presents: Simon Donald, The recent Ash Grunwald show at meowNui was one of those rare shows where the support act is spoken of in a good way, in a VERY good way.\nLots of people were saying what a great show Simon Donald gave. Gritty blues, played with passion and skill. And played by a local musician too. What more can you ask for? So we booked him.\nSimon Donald\u2014understated kiwi brilliance. Chosen to support Ash Grunwald, and now taking the stage at Capital Blues. His online presence is about everyone else. This time, we\u2019re making it all about him.\nIf you\u2019ve caught him live at meowNUI, Paek\u0101k\u0101riki, or the Kapiti Boating Club, you already know: Simon plays from the gut. Blues, Americana, and that rare kind of tone that feels lived-in and honest. He\u2019s shared stages with Ash Grunwald, Sig Wilder, and National Sensation, and the feedback speaks for itself. As Ash put it:\n\u201cHey brother you were amazing. Great to hear some good blues\n\u201d\nSimon\u2019s sets are all about feel. Deep blues, warm swing, and the kind of playing that makes you lean in and listen. Whether you\u2019re a Thursday regular or just blues-curious, this one\u2019s worth showing up for.\nMembers get discounted entry and 10% off at the bar\u2014so come on down, grab a drink, and settle in. Doors open early. Music starts at 7.\n",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "Capital Blues WellyJazzFest Basement Pass, Come and make yourselves a pillar - take a pew - stay in the basement for the whole festival!",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -11942,11 +12282,6 @@
   },
   {
     "description": "Christchurch - The Butlers 2025 Tour, Christchurch - The Butlers 2025 Tour\nThe Butlers have announced a five-date tour across Aotearoa this October and November to celebrate a decadent collection of new material while of course, paying homage to the decorated and beloved golden-olds.\n\nNearing a decade of sold-out tours across the country, The Butlers' trademarked infectious energy and presence within the room simply can\u2019t be missed!\n\n\u201cIf you are a casual fan and haven\u2019t yet dipped your toes into seeing them live, do it, they are great. Also, the crowd The Butlers attract are such a lovely group of people, it feels like a community more than just a group of people.\u201d - Sean Hollier, 95BFM.\n\nTickets on now at thebutlersmusic.com\n\n",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "Christmas in the Quarters, All your favourite Christmas traditions play out across four Saturdays in November and December. The Wellington festive season has a suitably summer flavour with a host of fun activities brought to you by Wellington City Council. \nChristmas in the Quarters kicks off with Christmas crafts in Midland Park on Saturday, 22 November. There are five craft activities to enjoy, plus face painting. Kids can also post a letter in Santa\u2019s letterbox. On Saturday, 29 November, the whole family can enjoy Christmas music and performances. There will be choirs, hip-hop dance, ukulele playing, and more. Chill out and absorb the sounds and sights of Christmas. ",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -12089,6 +12424,11 @@
     "description": "Dads Army - New Orleans Trombone Special, The music of Canal St in New Orleans, with an emphasis on Trombones. The DADS have been playing and singing New Orleans traditional swing and blues for 15 years or more, and this iteration is heaps of fun!\n\nHave you ever wondered how many trombones is too many trombones? Well you are about to find out! Will be a raucous, memorable, and thoroughly entertaining show.\n\nPart of the Wellington Jazz Festival 2025",
     "label": "Music & Concerts",
     "skip": false
+  },
+  {
+    "description": "Dads Army at The Rogue and Vagabond, https://www.jazzfestival.nz/.../dads-army-new-orleans.../",
+    "label": "Music & Concerts",
+    "skip": true
   },
   {
     "description": "Dani Josie SUCKERPUNCH Spring Tour Wellington, Dani Josie SUCKERPUNCH Spring Tour Featuring Special Guest Emerson\n\nAfter dropping Go Go Go, Lovebomber, and her hottest single yet SUCKERPUNCH, pop-punk artist Dani Josie is headlining her first-ever nation wide tour.  \nPop anthems, high energy, happy and sad tears. Dani\u2019s ready to bring her world to the stage joined by special guest Emerson. Expect to sing your heart out in an exciting night in a city near you. \n\n2025\u201109\u201119 - Wellington \u2013 San Fran\n2025-10-17 - Christchurch \u2013 Space Academy\n2025\u201110\u201118 -Dunedin \u2013 Dropkicks\n2025\u201110\u201125 - Auckland \u2013 Tuning Fork\n\n\nSan Fran holds a Supervised License, meaning minors are welcome to attend events at San Fran so long as they are accompanied by a legal guardian at all times whilst at the venue. Minors are of course not allowed to purchase alcohol under any circumstance.",
@@ -12277,26 +12617,6 @@
   },
   {
     "description": "Exit the Chrysalis, Strange music written for fugitives from the suffocating hands of normalcy, and for those who wish to break apart the fortified chrysalides around themselves, slowly dry out their wings and fly.\n\nAbey Baillie: drums/compositions\n\nHector Mclachlan: keys\n\nCallum Allardice: guitar\n\nElijah Mulheron: bass",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "Eyegum (free) Wednesdays: Bleach & King Hit + manicpixiedj, We're so stoked to be bringing you this hot line-up!\n8:30 King Hit\n9:15 Bleach\n10:00 manicpixiedj\nSick poster by Rae Nel (drodge666)\nBleach are an emerging alt rock quartet from Wellington, New Zealand who\u2019s fierce energy and evocative lyricism have cemented them in Te Whanganui-a-Tara's up and coming music scene.\nArtist links:\nKing Hit: https://beacons.ai/kinghit...\nBleach: https://linktr.ee/usbleach...\nManicpxiedj: https://www.instagram.com/manicpixiedj/\nP\u014dneke is home to an incredible diversity of artists and music lovers.\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "Eyegum (free) Wednesdays: Elizabeth Sanctuary Welding School for Girls & Hazel Elder + angel freak!, Eyegum (free) Wednesdays: Elizabeth Sanctuary Welding School for Girls & Hazel Elder + angel freak!\nHOT lineup this week\u2026\n\n8:30 Hazel Elder\n9:15 Elizabeth Sanctuary Welding School for Girls\n10:00 angel food\n\nElizabeth Welding School for Girls is a digital girl who also is dead.\n\nHazel Elder is ecstatic noise pop. Glittering technicolor trash. Hacker girl rock n roll from the future. A runaway freight train destroying everything in its path. What more do you want?\n\nSick poster by Swamp\n\nBand links:\nhttps://www.instagram.com/elizabethsanctuarywelding?igsh=MXA0cWZnNDc3cWFlZA==\n\nhttps://www.instagram.com/hazelastridelder?igsh=MXU0OTl0bmplczB6cg==\n\nP\u014dneke is home to an incredible diversity of artists and music lovers.\n\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\n\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.\n\nIf you see or experience anything concerning, no matter how small, please let our crew or San Fran staff know.\n\nLovingly sponsored by San Fran, Abandoned Brewery and Wellington City Council\n\n",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "Eyegum (free) Wednesdays: Elizabeth Sanctuary Welding School for Girls & Hazel Elder + angel freak!, HOT lineup this week\u2026\n8:30 Hazel Elder\n9:15 Elizabeth Sanctuary Welding School for Girls\n10:00 angel food\nElizabeth Welding School for Girls is a digital girl who also is dead.\nHazel Elder is ecstatic noise pop. Glittering technicolor trash. Hacker girl rock n roll from the future. A runaway freight train destroying everything in its path. What more do you want?\nSick poster by Swamp\nBand links:\nhttps://www.instagram.com/elizabethsanctuarywelding?igsh=MXA0cWZnNDc3cWFlZA==\nhttps://www.instagram.com/hazelastridelder?igsh=MXU0OTl0bmplczB6cg==\nP\u014dneke is home to an incredible diversity of artists and music lovers.\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.\nIf you see or experience anything concerning, no matter how small, please let our crew or San Fran staff know.\nLovingly sponsored by San Fran, Abandoned Brewery and Wellington City Council ",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "Eyegum (free) Wednesdays: First Reserve & Hull + Charmort, Eyegum (free) Wednesdays: First Reserve & Hull + Charmort\nWe're unbelievably hyped for this and we know you will be too!\n\n8:30 HULL\n9:15 First Reserve\n10:00 Charmort\n\nIf I were to describe First Reserve in three words starting with E, I'd maybe pick energy, emotion, and eyeliner. I feel a little biased though because I am First Reserve. Why don't you come see us live and let me know?\n\nHULL: We are a dreamy, doom folk duo with a sprinkling of noise\n\nSick poster by Anita McGowan\n\nBand links:\nhttps://www.instagram.com/imfirstreserve/\nhttps://firstreserve.bandcamp.com/\n\nhttps://www.instagram.com/hullband_/\n&ab_channel=HULL\n\nP\u014dneke is home to an incredible diversity of artists and music lovers.\n\nWe want Eyegum Wednesdays to be a space that everyone can enjoy with care and respect.\n\nWe have no room for transphobia or racism, sexism, homophobia, and disregarding consent.\n\nIf you see or experience anything concerning, no matter how small, please let our crew or San Fran staff know.\n\nLovingly sponsored by San Fran, Abandoned Brewery and Wellington City Council\n\n",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -12542,6 +12862,11 @@
   },
   {
     "description": "Guns 2 Roses - World's Best Guns N' Roses Tribute, GUNS 2 ROSES\nWorld's Best GNR Tribute\nGuns 2 Roses, the UK\u2019s most notorious Guns N\u2019 Roses tribute band established in 2002, is set to perform in New Zealand for the first time. They will play the classic GNR debut album \u201cAppetite For Destruction\u201d in its entirety top to bottom, along with a set of fan favourites.\n\n\u201cTHE MOST NOTORIOUS GUNS N ROSES TRIBUTE IN HISTORY EST 2002 \u2013 THE ONLY GNR TRIBUTE TO PLAY LIVE WITH 4 DIFFERENT MEMBERS OF GUNS N ROSES! THEY HAVE PLAYED ALL THE TOP VENUES AND FESTIVALS IN THE UK \u2013 EUROPE \u2013 DUBAI \u2013 INDIA & USA. GUNS 2 ROSES ARE THE LONGEST RUNNING, CLOSEST LOOKING AND MOST INTERNATIONALLY RECOGNISED G\u2019N\u2019R TRIBUTE IN THE WORLD!\u201d\n\nHaving sold out shows worldwide, Guns 2 Roses aims to recreate the energy of GNR\u2019s 1988 NYC Ritz performance. For fans of classic GNR, this is a performance not to be missed.\n\nDon\u2019t miss this opportunity to experience the ultimate GNR tribute live in New Zealand.",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "HALLOWEEN 29 OCT with Edera, Diplopoda & Obsidian Sun, Looking for an excuse to dress up early for spooky season?\nJoin Edera, Diplopoda and Obsidian Sun for a spooky Halloween show at Valhalla on 29th October.\nThe lineup is a real treat, no tricks! Dressing up is encouraged, dancing along to angsty sad girl music is a must!\nDoors 8pm\nFirst act 8:30pm\nEDERA:\nEdera is the alt-indie project of Leona Bradfield, creator of Ederacore , which merges moody indie textures with pops of grunge. Joined by Aidan Thomas (guitar), Lily Hodgson (bass), and Taiki Yoshino (drums), Edera is melancholy and captivating\u2014sad yet beautiful.\nDefined by its emotional honesty and angst, Ederacore resonates with listeners who find comfort in the shadows. It\u2019s music for those who wear black to the beach\u2014introspective, raw, and unafraid to blur the line between vulnerability and defiance.\nDIPLOPODA:\nLet the tears fill your eyes, with your inner relentless voice buzzing in your ear. To feel is to be seen. Listen, or the worms will get you...",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -12796,6 +13121,11 @@
     "skip": false
   },
   {
+    "description": "Jazz Festival: Alex Trask Quartet - Imaginary Folksongs, Jazz Festival: Alex Trask Quartet - Imaginary Folksongs\nAn exclusive concert for Wellington Jazz Festival at The Undercurrent.\n\nAlex Trask\u2019s \u2018Imaginary Folksongs\u2019 blends Earth folk music with a speculative style from an imaginary place. Inspired by bluegrass, Scottish folk music, and jazz performance practice, the tunes have a simplicity in common. Free improvised sections contrast carefully arranged melodies, allowing creativity and structure to coexist. The fiddle-esque melodies and straightforward harmonies create an open and inviting sound that changes depending on the musicians on stage. Performing this music as a group invites each member to paint their private imaginings, creating a unique collective folklore. The quartet will also perform a selection of tunes that inspired the music, including songs by Brian Blade, Gordon Lightfoot, and traditional melodies.\n\nAlex Trask \u2013 saxophone\nDuncan Haynes \u2013 piano\nElijah Mulheron \u2013 bass\nJohn Rae \u2013 drums\n\nWed 15 Oct 2025\n5:30pm\n$20\nTickets on the door & Eventfinda\nhttps://www.eventfinda.co.nz/2025/jazz-festival-alex-trask-quartet-imaginary-folksongs/wellington\n\n",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
     "description": "Jazz Festival: Ateo Buhne quartet presents: Ateo Buhne\u2019s Car accident, An exclusive concert for Wellington Jazz Festival at The Undercurrent.\n\nAteo Buhne teams up with an amazing team to team up to go on an amazing journey to experience ateos car accident in musical form.\n\nAn experience not to miss! There will also be pieces of my wrecked proton saga for sale.\n\nFeaturing: Ateo Buhne , Nico Buhne, Lorenzo Buhne, Jack Harris. With guests: Isaac Randel and Miro \u201cthe general\u201d Holland.",
     "label": "Music & Concerts",
     "skip": false
@@ -12806,12 +13136,22 @@
     "skip": false
   },
   {
+    "description": "Jazz Festival: DADS at the Undercurrent!, Jazz Festival: DADS at the Undercurrent!\nAn exclusive concert for Wellington Jazz Festival at The Undercurrent.\n\nThe Dancing And Drinking Society have been bringing their swing blues sounds to dance floors and craft beer bars across the capital since late 1913. When they take to the stage, guitar, horns, vocals, and kick drum blend as The Society present their favourite old rarities with exactly the sort of vigour you want for some stress relieving dance times. They\u2019ve cultivated a decent reputation for generous and open-hearted live performance. If you feel like a decent drink and a leg shake or two, this would make for a pretty good option.\n\nWith Mat Enright, Adrian Jensen, Daniel Yeabsley, Blair Latham.\n\nWed 15 Oct 2025\n7:00pm\n$20\nTickets available on the door & online\nhttps://www.eventfinda.co.nz/2025/jazz-festival-dads-at-the-undercurrent/wellington\n\n",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
     "description": "Jazz Festival: Daniel Harris Quartet, An exclusive concert for Wellington Jazz Festival at The Undercurrent.\n\nBe prepared for a relaxing evening of traditional jazz music!\n\nHailing from the (not so) distant city of Christchurch, Daniel and Zachary are joined by locals Ferdinand and Oscar to deliver a wonderful blend of relaxing jazz classics. Featuring quintessential songs from the jazz age, you can rely on a wonderful evening to wash away the worries of the 21st century.\n\nThe modern jazz style often incorporates many harsher elements in order to stand out, which can be very engaging. But it often demands attention, and radiates a tense atmosphere. Vintage jazz tends to prioritize an easy listening experience, with lyrical melodies and traditional music harmony.\n\nSettle into a chair, take a sip of wine, and let the smooth harmonies flow over you!\n\nFeaturing:\n\nPiano: Daniel Harris\nTrombone: Ferdinand Hitchings-Anstice\nBass: Zachary Chyr\nDrums: Oscar Garvie",
     "label": "Music & Concerts",
     "skip": false
   },
   {
     "description": "Jazz Festival: Daniel Harris Quartet, An exclusive concert for Wellington Jazz Festival at The Undercurrent.\nBe prepared for a relaxing evening of traditional jazz music!\nHailing from the (not so) distant city of Christchurch, Daniel and Zachary are joined by locals Ferdinand and Oscar to deliver a wonderful blend of relaxing jazz classics. Featuring quintessential songs from the jazz age, you can rely on a wonderful evening to wash away the worries of the 21st century.\nThe modern jazz style often incorporates many harsher elements in order to stand out, which can be very engaging. But it often demands attention, and radiates a tense atmosphere. Vintage jazz tends to prioritize an easy listening experience, with lyrical melodies and traditional music harmony.\nSettle into a chair, take a sip of wine, and let the smooth harmonies flow over you!\nFeaturing:\nPiano: Daniel Harris\nTrombone: Ferdinand Hitchings-Anstice\nBass: Zachary Chyr\nDrums: Oscar Garvie\nWednesday 15 October 2025\n8:00pm\n$20",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "Jazz Festival: Daniel Harris Quartet, Jazz Festival: Daniel Harris Quartet\nAn exclusive concert for Wellington Jazz Festival at The Undercurrent.\n\nBe prepared for a relaxing evening of traditional jazz music!\n\nHailing from the (not so) distant city of Christchurch, Daniel and Zachary are joined by locals Ferdinand and Oscar to deliver a wonderful blend of relaxing jazz classics. Featuring quintessential songs from the jazz age, you can rely on a wonderful evening to wash away the worries of the 21st century.\n\nThe modern jazz style often incorporates many harsher elements in order to stand out, which can be very engaging. But it often demands attention, and radiates a tense atmosphere. Vintage jazz tends to prioritize an easy listening experience, with lyrical melodies and traditional music harmony.\n\nSettle into a chair, take a sip of wine, and let the smooth harmonies flow over you!\n\nFeaturing:\nPiano: Daniel Harris\nTrombone: Ferdinand Hitchings-Anstice\nBass: Zachary Chyr\nDrums: Oscar Garvie\n\nWednesday 15 October 2025\n8:00pm\n$20\nTickets available on the door & online\nhttps://www.eventfinda.co.nz/2025/jazz-festival-daniel-harris-quartet/wellington\n\n",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -13206,11 +13546,6 @@
     "skip": false
   },
   {
-    "description": "Live 4 The Weekend-Thursday Nights, The weekend starts now!\n\nExperience the ultimate midweek drop every Thursday night from 9pm till late at The Garden Hotel where we Live 4 the weekend!\n\nThis is Wellingtons Thursday night club night, featuring Dj Kakapo on the turntables. Escape the week and let the rhythm and baseline reset your energy with the sound of house and drum&bass on the Kinky Soundsystem.\n\nFree Entry",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
     "description": "Live 4 the Weekend- Thursday Night FEAT DJ Grant Marshall, The weekend starts now, and this Thursday drop will be like no other as we are entertained by the ultimate selecta, DJ Grant Marshall (George FM; Don't Call Me 80's).\n\nIf you love house music you better be there because nobody loves music more than this guy!!\n\nThis midweek drop happens from 9pm till late at The Garden Hotel where we Live 4 The Weekend!\n\nThursday nights at the Garden Hotel is bought to you by Kakapo and the Kinky Soundsystem\n\nFree Entry",
     "label": "Music & Concerts",
     "skip": false
@@ -13262,11 +13597,6 @@
   },
   {
     "description": "Louisa Williamson Quintet, Louisa Williamson presents music from her latest album, Groundwork, plus more recent compositions.\n\nLouisa Williamson is a saxophonist, flutist, composer and arranger based in Wellington. Since completing a Masters of Music in Composition in 2020, she has released two albums of original music (What Dreams May Come and Groundwork). In 2023 Louisa won the APRA Best Jazz Composition Award for her piece Dream Within A Dream, and in 2024 Louisa received a composition commission from the Wellington Jazz Festival and headlined the festival with the new work, The Chasm Where We Fall Into Each Other. Louisa has worked with L.A.B, Bret McKenzie, AJA, The Rodger Fox Big Band, Royal NZ Air Force Band, Trinity Roots and Lord Echo. In 2016 Louisa was the first New Zealander to successfully audition for the JMI Jazz World Orchestra (consisting of the best young jazz musicians from around the world, aged 18-25), touring Germany, Belgium, Switzerland, Slovenia and Croatia.\n\nFeaturing: Louisa Williamson 9saxophone), Callum Allardice (guitar), Daniel Hayles (piano), Johnny Lawrence (bass), Max Sheehan (drums).",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "Love Shack (A Dance Party), Step into a kaleidoscope of cosmic energy where the electric spirit of early house and the club kids house music meets neo-hippie euphoria! Channel your inner club kid and let your freak flag fly in a sanctuary of sound and movement.\nDust off those vintage finds, raid the costume box, slip into something that sparkles, or create a look that defies gravity and convention. The wilder, the better! Or just bring your fabulous unadorned self.\nExtra inclusive! Be Nice! Every body is celebrated \u2013 young and elder, curvy and angular, trans and cis, fluid and fixed. Consent is hot!\n\ud83c\udf08 Sunday, October 26th\n\u26a1 9:00pm - 2:00am\n\ud83d\udccd Ivy Bar, Wellington",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -13422,6 +13752,11 @@
   },
   {
     "description": "Midnight Special - Live @ The Cossie!!, Midnight Special - Live @ The Cossie!!\nPlaying the hits of Rock 'N' Roll and popular music which spans the decades from the 50's through the 90's, Midnight Special's primary focus finds itself steeped in the classic rock genre.\n\nThe band consistently deliver the goods necessary to energize any gathering and make your event a success. Whether it's music from The Rolling Stones to The Beatles or Stevie Ray Vaughan to CCR, The Doobie Bros, The Eagles and plenty more classic rock artist... Midnight Special has got it covered!\n\n",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "Mike 'Dr Blue', Dr Blue is back.\n\nWe missed him heaps this month so we are extra excited to see him and his dancing troops on the 2nd of November. Head on down, grab a drink and enjoy the sound and energy that Mike and Sameena bring to The Tasting Room!",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -13612,11 +13947,6 @@
   },
   {
     "description": "Nirvana Tribute (UK) | You Pick the Setlist | Wellington, San Fran U18 W/ GUARDIAN, Nirvana Tribute (UK) | You Pick the Setlist | Wellington, San Fran U18 W/ GUARDIAN\nOctober Presents\n\ud83d\ude0b \ud835\udde1\ud835\udddc\ud835\udde5\ud835\udde9\ud835\uddd4\ud835\udde1\ud835\uddd4 \ud835\udde7\ud835\udde5\ud835\udddc\ud835\uddd5\ud835\udde8\ud835\udde7\ud835\uddd8 (\ud835\udde8\ud835\uddde) - \u2018\ud835\uddec\ud835\udde2\ud835\udde8 \ud835\udde3\ud835\udddc\ud835\uddd6\ud835\uddde \ud835\udde7\ud835\udddb\ud835\uddd8 \ud835\udde6\ud835\uddd8\ud835\udde7\ud835\udddf\ud835\udddc\ud835\udde6\ud835\udde7\u2019 \ud835\udde7\ud835\udde2\ud835\udde8\ud835\udde5\n\n\ud835\udde2\ud835\uddfb \ud835\udde6\ud835\uddee\ud835\uddf9\ud835\uddf2 \ud835\udde1\ud835\uddfc\ud835\ude04\n\ud83d\uddd3\ufe0f Friday, December 5\n\ud83d\udccd San Fran, Wellington (U18 ALLOWED WITH GUARDIAN)\n\ud83c\udfab bit.ly/nirvtrib25well\n\n\ud835\ude4e\ud835\ude5e\ud835\ude5c\ud835\ude63 \ud835\ude6a\ud835\ude65 \ud835\ude56\ud835\ude63\ud835\ude59 \ud835\ude6b\ud835\ude64\ud835\ude69\ud835\ude5a \ud835\ude5b\ud835\ude64\ud835\ude67 \ud835\ude69\ud835\ude5d\ud835\ude5a \ud835\ude68\ud835\ude64\ud835\ude63\ud835\ude5c\ud835\ude68 \ud835\ude54\ud835\ude4a\ud835\ude50 \ud835\ude6c\ud835\ude56\ud835\ude63\ud835\ude69 \ud835\ude69\ud835\ude64 \ud835\ude5d\ud835\ude5a\ud835\ude56\ud835\ude67..\ud835\ude4f\ud835\ude5d\ud835\ude5a \ud835\ude68\ud835\ude5d\ud835\ude64\ud835\ude6c \ud835\ude5e\ud835\ude68 \ud835\ude6e\ud835\ude64\ud835\ude6a\ud835\ude67 \ud835\ude5d\ud835\ude56\ud835\ude63\ud835\ude59\ud835\ude68 \ud83e\udd32\n\ud83d\uddf3 www.octoberpresents.com/nirvanatribute2025\n\nWhat if you could choose the songs at a Nirvana concert\u2026 and then watch them come to life on stage?\n\n\ud83c\udfa4 For the first time ever, Nirvana Tribute is putting the show in the hands of the fans. Audiences across Australia and New Zealand will vote on the songs they want to hear. From iconic anthems like Smells Like Teen Spirit, Come As You Are, and Heart-Shaped Box, to the deep cuts only true fans would dare request.\n\nThis isn\u2019t just a tribute. It\u2019s a show \ud835\uddef\ud835\ude02\ud835\uddf6\ud835\uddf9\ud835\ude01 \ud835\uddef\ud835\ude06 \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddf3\ud835\uddee\ud835\uddfb\ud835\ude00, \ud835\uddf3\ud835\uddfc\ud835\uddff \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddf3\ud835\uddee\ud835\uddfb\ud835\ude00.\n\n",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
-    "description": "No Scrubs: 90s + Early 00s Party - Wellington, \u2b50\ufe0e\nSO TELL ME WHAT YOU WANT, WHAT YOU REALLY REALLY WANT\n\u2b50\ufe0e\nTICKETS ON SALE NOW\nhttps://bit.ly/NSWELLSEP\nNO SCRUBS: 90s + Early 00s Party\nFRIDAY 12TH SEPTEMBER\nRED SQUARE BAR\nWELLINGTON\nDOORS @ 9PM\n18+\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\nCalling all Barbie Girls, Teenage Dirtbags and All Stars: join No Scrubs for a 90s and early 00s party that will be Larger Than Life!!\nYou\u2019ll be Dancing in the Moonlight, Spinning Around and Jumpin\u2019 Jumpin\u2019 as we Pump It with all the best throwback tunes from 1990 - 2009!!\nIf you Wannabe Livin la Vida Loca with us on the dancefloor then Say You\u2019ll Be There and get in quick for tickets!\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\n\u2b50\ufe0e\nNO SCRUBS SOUNDS LIKE:\nBackstreet Boys : Spice Girls : Britney Spears : Jesse McCartney : The Black Eyed Peas : Kelly Clarkson : Destiny\u2019s Child : Gwen Stefani : S Club 7 : Missy Elliott : Sean Paul : The Veronicas : 5IVE : Missy Higgins : Las Ketchup : N*Sync : Thirsty Merc : Bardot : TLC : Aqua : Shania Twain : Daft Punk : Cher : Ricky Martin : Kylie Minogue : Lou Bega : Nelly Furtado : Wheatus : Fergie : Smashmouth : The Vengaboys : Shakira : Hanson : No Doubt : Craig David : Sugababes : Red Hot Chili Peppers : Lady Gaga : Blink -182 : Atomic Kitten : Green Day : Kelis : Kanye West : P!nk : Eminem : Ashanti : Good Charlotte : Mandy Moore : Robbie Williams : Christina Aguilera : 50 Cent : Beyonce : John Farnham : Rihanna : Justin Timberlake : Mya : Will Smith : Jennifer Lopez : Ja Rule : Avril Lavigne : Linkin Park : Sophie Ellis-Bextor : Metro Station : t.A.T.u : Sum 41 : Jessica Simpson : Shaggy : Vanessa Amorosi : Jagged Edge : Nelly : Usher : Outkast + heeaaaaaaps more!\nPlease read the Plus One Co. company T&Cs carefully prior to purchasing your ticket - https://bit.ly/PurchaseTCs\nPlease note: Our events may feature moving and flashing lights. If you have photosensitivity or any related concerns, feel free to reach out to us with any questions! ",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -13951,11 +14281,6 @@
     "skip": false
   },
   {
-    "description": "RIOT FEST: ULTIMATE TRIBUTE PARTY, Get ready for Wellington's ultimate tribute party as RIOT FEST brings together the most explosive tribute acts under one roof! This high-energy night celebrates the biggest names in rock, metal, punk, and grunge with authentic performances that will transport you straight to the mosh pit.\nFeatured Tribute Acts:\n\u2022KAOSIS - Nu-Metal Party Band\n\u2022SLIPKNOT Tribute by The Feeders\n\u2022THE PRODIGY Tribute by The Firestarters\n\u2022NIRVANA Tribute by The Neverminds\n\u2022GREEN DAY Tribute by Greendaze\n\u2022MARILYN MANSON Tribute by The Anti-Christ Superstar\nPlus Special Guest DJs:\n\u2022DJ Apernut (Nu-Metal)\n\u2022DJ Suddop (Grunge)\n\nDoors at 6pm  |  Tickets from: www.railtix.net",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
     "description": "Rafa Ferrer Noel's: AFROKAN - Wellington Jazz Festival, Led by New Zealand\u2019s foremost exponents of Cuban music, Afrokan marks the latest project from veteran percussionist Rafa Ferrer Noel.\nThis premiere performance offers audiences a vibrant and\nrhythmically rich exploration of cross-cultural musical dialogue.\nA central figure in Wellington\u2019s Cuban and Latin music communities for over two decades, Rafa leads an accomplished octet performing a sophisticated fusion of Afro-Cuban rhythms and contemporary jazz.\nThe ensemble features Rafa Ferrer Noel, Mikey Trujillo and John Rae (percussion), Jacqui Nyman (bass), Ben Wilcock (piano), Andr\u00e9 Paris and Ben Hunt (horns).\nDoors open 6.30pm\nShow starts 7.00pm ",
     "label": "Music & Concerts",
     "skip": false
@@ -13971,7 +14296,7 @@
     "skip": false
   },
   {
-    "description": "Rapa Nui Music Workshop, Discover the Sounds of Easter Island - Rapa Nui.\nExperience the vibrant rhythms, melodies, and traditions of Rapa Nui in this unique Music Workshop led by the Internationally renowned Cultural Performing Group Puku Rangi Tea from Easter Island.\nLearn about the instruments, songs, and stories that have been passed down for generations, and feel the energy of one of the Pacific\u2019s most captivating cultures. Whether you\u2019re a musician, a culture lover, or simply curious, this workshop will inspire and connect people of all ages and backgrounds, no experience required.\nSpaces are limited\nRSVP Required\nKoha/Donation Entry\nMore information at www.mmc.nz or follow the Marlborough Multicultural Centre on Facebook and Instagram.",
+    "description": "Rag Poets at The Tasting Room, Get yourself along to The Tasting Room for a lovely afternoon of tasty tunes.\n\nThe Rag Poets play many of those \u2018heady\u2019 Wellington hits from the 60\u2019s & 70\u2019s era, as well as new material they\u2019ve written and a bunch of covers from the likes of John Prine, Boz Scaggs and Neil Young.\n\nThe band thrives on big vocal harmonies as they continue to maintain the unique sound they\u2019ve developed over the years. Their audiences love the \u2018timeless\u2019 music they play and the stories they tell!",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -14187,6 +14512,11 @@
   },
   {
     "description": "Sam Bambery - Live at Vogelmorn Upstairs, Sam Bambery is an artist and impresario from \u014ctautahi/Christchurch, currently based in Naarm/Melbourne. Exploring his love of semi-psychedelia through a twisted folk-rock lens, Bambery writes effectual and spacious songs burrowing into emotional identity and exhaustion. His sophomore album Rubricator released in 2024 with micro-label Under Underground Records, edging at outsider-pop influence.\n\n\"...very considered, like Bambery lived with the album in his head for a while before bringing it into the world...a hint of mystery hangs over things...it's as ornate as these well-crafted tunes\" - Tony Stamp, Radio New Zealand",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "Same Name Confusion - WLG, Same Name Confusion - WLG\nWith their first Wellington show in over 5 years, Same Name Confusion will play Meow on November 15.\n\nIf you haven\u2019t heard of Same Name Confusion you might start with one of the songs from their last release, Zipping/Unzipping:\nhttps://open.spotify.com/track/65q44vL58GQ8ptviglAvjI?si=50b163971ea24ef5\n\nFor an idea of SNC\u2019s live show, try their performance of Not Fake News on RNZ Afternoons: https://www.rnz.co.nz/national/programmes/afternoons/audio/2018689364/first-song-same-name-confusion\ufffd\n\nTheir hit, however, remains How\u2019d you get so cool:\ufffd\n?si=k0QFCoNtCCsRVH2h\n\nSNC are re-grouping in Wellington this November to record an album of new songs with long-time collaborator James Goldsmith (hear demos and sneak-peaks here: https://substack.com/@lcourtney).\n\nTheir performance on November 15 will include the songs on that new record + a few old ones too.\n\n",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -14431,11 +14761,6 @@
     "skip": false
   },
   {
-    "description": "Spring Thing, Spring Thing.\nA chance to shed winter.\nLonger days, warmer air and vibes.\nFriends, tunes, a couple of bevvies and a groove to toast the change.\nFamily-friendly venue, tasty bites and room to catch up properly.\nWarm up your feet and your soul.\nSaturday 20th September, from 3pm until 10pm.\nTickets $15 from Humanitix or on the door.",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
     "description": "Stabat Mater, All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket ",
     "label": "Music & Concerts",
     "skip": true
@@ -14497,6 +14822,11 @@
   },
   {
     "description": "Stewart Copeland \u2014 Have I said Too Much?, He\u2019s had an incredible life as a performer, musician, entertainer, and writer. Stewart Copeland is one of the great rock drummers. He comes to Wellington for the first time in January with his show, \u2018Have I Said Too Much?\u2019 It features Stewart in conversation with acclaimed media host Sarah Tout (RTR FM). Fans also have the opportunity to ask questions by submitting them before the show. \nStewart\u2019s remarkable talent helped drive The Police to world fame between 1977 and 1986, and then again in 2007 and 2008 when the band was reunited. He is a multiple Grammy Award winner and, in 2003, was inducted into the Rock and Rock Hall of Fame. He has written best-selling books, directed documentaries, formed supergroups, made films, and composed music for ballet, opera, and classical concerts. This is a rare opportunity to get an insight into a performer\u2019s fascinating life.",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "Stinging Nettles with Jonny Marks - Wellington Jazz Festival, The Stinging Nettles are a trio of Wellington's most ear twisting improvisors. Guitarist Daniel Beban (Orchestra of Spheres, Farewell Spit), bass player Tom Callwood (Phoenix Foundation, the Woods) and drummer Anthony Donaldson (Devils Gate Outfit, Melancholy Babes) meld power trio energy music with abstracted psychedelic free jazz.\n\nThe band deftly slides and swoops through a landscape where every sound and structure is absorbed into a free flow of real and imagined species-consciousness! The trio are joined for a special one-off performance with vocalist and synth player and percussion Jonny Marks (front man of All Seeing Hand). Jonny will be playing the AKS suitcase Synthi.\n\nhttps://iiiirecords.bandcamp.com/.../live-at-the-wine-cellar",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -15141,12 +15471,22 @@
     "skip": false
   },
   {
+    "description": "Topless Picking Flowers Release Tour // K\u0100PITI COAST, Topless Picking Flowers Release Tour // K\u0100PITI COAST\nSophie Songbird makes her solo debut this spring, stepping into the spotlight with a voice and vision all her own. Known for her work with the beloved band Dr. Reknaw, Sophie now unveils a fresh chapter \u2014 touring in celebration of her first solo release and sharing a collection of unreleased, vintage-inspired originals that blend nostalgic charm with a modern twist.\n\nDrawing from the rich traditions of jazz, blues, and country \u2014 with a touch of psychedelic flair \u2014 Sophie\u2019s songwriting is both timeless and distinctly her own. Her stories are laced with wit, warmth, and a hint of mischief, offering a refreshing take on classic genres.\n\nHer debut single, \u201cTopless Picking Flowers\u201d \u2014 set for release on September 19th \u2014 is a dreamy fusion of classic country and smooth Hawaiian tones. On stage, Sophie captivates with exceptional rhythm guitar work and a honey-toned voice that soars effortlessly.\n\nwith support from ABBEY EVE\n\n",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
     "description": "Topless Picking Flowers Release Tour // LEVIN, Topless Picking Flowers Release Tour // LEVIN\nSophie Songbird makes her solo debut this spring, stepping into the spotlight with a voice and vision all her own. Known for her work with the beloved band Dr. Reknaw, Sophie now unveils a fresh chapter \u2014 touring in celebration of her first solo release and sharing a collection of unreleased, vintage-inspired originals that blend nostalgic charm with a modern twist.\n\nDrawing from the rich traditions of jazz, blues, and country \u2014 with a touch of psychedelic flair \u2014 Sophie\u2019s songwriting is both timeless and distinctly her own. Her stories are laced with wit, warmth, and a hint of mischief, offering a refreshing take on classic genres.\n\nHer debut single, \u201cTopless Picking Flowers\u201d \u2014 set for release on September 19th \u2014 is a dreamy fusion of classic country and smooth Hawaiian tones. On stage, Sophie captivates with exceptional rhythm guitar work and a honey-toned voice that soars effortlessly.\n\nwith support from ABBEY EVE\n\n",
     "label": "Music & Concerts",
     "skip": false
   },
   {
     "description": "Topless Picking Flowers Release Tour // WELLINGTON, Sophie Songbird makes her solo debut this spring, stepping into the spotlight with a voice and vision all her own. Known for her work with the beloved band Dr. Reknaw, Sophie now unveils a fresh chapter \u2014 touring in celebration of her first solo release and sharing a collection of unreleased, vintage-inspired originals that blend nostalgic charm with a modern twist.\nDrawing from the rich traditions of jazz, blues, and country \u2014 with a touch of psychedelic flair \u2014 Sophie\u2019s songwriting is both timeless and distinctly her own. Her stories are laced with wit, warmth, and a hint of mischief, offering a refreshing take on classic genres.\nHer debut single, \u201cTopless Picking Flowers\u201d \u2014 set for release on September 19th \u2014 is a dreamy fusion of classic country and smooth Hawaiian tones. On stage, Sophie captivates with exceptional rhythm guitar work and a honey-toned voice that soars effortlessly.\nwith support from ABBEY EVE AND FRANCES GRASS ",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "Topless Picking Flowers Release Tour // WELLINGTON, Topless Picking Flowers Release Tour // WELLINGTON\nSophie Songbird makes her solo debut this spring, stepping into the spotlight with a voice and vision all her own. Known for her work with the beloved band Dr. Reknaw, Sophie now unveils a fresh chapter \u2014 touring in celebration of her first solo release and sharing a collection of unreleased, vintage-inspired originals that blend nostalgic charm with a modern twist.\n\nDrawing from the rich traditions of jazz, blues, and country \u2014 with a touch of psychedelic flair \u2014 Sophie\u2019s songwriting is both timeless and distinctly her own. Her stories are laced with wit, warmth, and a hint of mischief, offering a refreshing take on classic genres.\n\nHer debut single, \u201cTopless Picking Flowers\u201d \u2014 set for release on September 19th \u2014 is a dreamy fusion of classic country and smooth Hawaiian tones. On stage, Sophie captivates with exceptional rhythm guitar work and a honey-toned voice that soars effortlessly.\n\nwith support from ABBEY EVE AND FRANCES GRASS\n\n",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -15306,6 +15646,11 @@
     "skip": false
   },
   {
+    "description": "WJF - Jenna Aspeling Francesca Parussini Quartet, WJC welcomes some of Auckland's finest young musicians playing original works inspired by African and traditional jazz with a modern twist.\n\nFeaturing on Alto Saxophone - Jenna Aspeling, Flute/Tenor Saxophone - Francesca Parussini, Bass - Alex Keatley and Drums - Finn McNeill.",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
     "description": "WJF - Lisa Tomlins Quartet, Join acclaimed vocalist Lisa Tomlins and her stellar jazz quartet for an intimate evening of timeless standards and modern jazz gems.\n\nFrom smoky ballads to groove-infused classics, this special Wellington Jazz Festival performance at the historic Thistle Inn will showcase Lisa\u2019s signature warmth, vocal artistry, and effortless swing. One night only \u2013 don\u2019t miss this soulful celebration of jazz in the heart of Thorndon.\n\nTickets:\n$15 GA\n$50 for dinner, bubbles and show.\n\nDepending on ticket sales, there will be very limited seating, and it is first served. If you would like to join us for dinner beforehand, please email reservations@thistleinn.co.nz. Dinner bookings will be made in our dining rooms, and once you have finished your dinner, you can move into the main bar for the show.",
     "label": "Music & Concerts",
     "skip": false
@@ -15386,11 +15731,6 @@
     "skip": false
   },
   {
-    "description": "Wellington Jazz Fest Capital Blues 15th Oct, Capital Blues has 37 shows over the week.\n\nInfo and ticket links for this session below.\n\nCapital Blues Inc members get 30% off the advertised ticket prices.\n\nThere are discount passes for Saturday, Saturday Rooftop, Sunday, or the whole week.\n\n6.00 The Enigma - ft Miles Crayford, Mike Jensen, & Al Campbell Free\n7.30 World Tandem Ensemble $20\n9.00 Lockie Bennett plays Bud Powell $20\n11.00 Late Night Jam - Host - Oscar Laven Free.\n\nTickets here.\nhttps://collections.humanitix.com/capital-blues-at-wellington-jazz-festival?fbclid=IwY2xjawM9gp5leHRuA2FlbQIxMABicmlkETE1aGM0eXpVaHE1U3JHOUtqAR59maTOFjvaoDxQLnUQx2T0uQtJJ4GrFWY5-yTeI68WS01biLV-6xMOk8SerQ_aem_GgX8r7xUV8XpSvi04jtr1A&group=Wednesday%2FThursday",
-    "label": "Music & Concerts",
-    "skip": false
-  },
-  {
     "description": "Wellington Jazz Fest: The Seth Boy Trio, Join us at LBQ this Wellington Jazz Festival for an evening with the Seth Boy Trio. Led by Wellington bassist, composer, and bandleader Seth Boy, the trio features Eilish Wilson on alto saxophone and Dillon Butcher on drums. Together, they bring a rich mix of original compositions and fresh interpretations of jazz standards, moving easily between blues, lyrical ballads, and playful bursts of improvisation.",
     "label": "Music & Concerts",
     "skip": false
@@ -15404,6 +15744,11 @@
     "description": "Wellington Jazz Festival - Samara Joy, All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket ",
     "label": "Music & Concerts",
     "skip": true
+  },
+  {
+    "description": "Wellington Jazz Festival 2025 | BUMPY, Witness the extraordinary talent of award-winning composer, vocalist and Noongar woman Bumpy, live at San Fran.\nWith a voice that balances tenderness and power and a hypnotic stage presence, Naarm/Melbourne-based Bumpy has cemented her status as one of Australia\u2019s most compelling new artists, seamlessly blending contemporary soul, folk, funk and jazz.",
+    "label": "Music & Concerts",
+    "skip": false
   },
   {
     "description": "Wellington Jazz Festival 2025 | GREGORY PORTER, Hailed as one of the most influential artists of his generation, two-time GRAMMY Award-winning jazz vocalist, composer and bandleader Gregory Porter appears in Aotearoa for the first time at the Wellington Jazz Festival.\nSince his breakout album Liquid Spirit on Blue Note Records, which sold over a million copies and earned him his first GRAMMY Award for Best Jazz Vocal Album in 2014, he\u2019s captivated audiences worldwide with his soulful baritone vocals and dynamic storytelling.\nInfluenced by Bakersfield Southern Gospel and jazz legend Nat King Cole, Porter\u2019s unique and timeless sound blends jazz, soul and gospel with a presence that commands attention from the very first note.\nA defining voice in contemporary jazz, experience his 'liquid gold' vocals, warmth, and magnetic stage presence at St James Theatre, for one night only. ",
@@ -15422,6 +15767,11 @@
   },
   {
     "description": "Wellington Jazz Festival | 1867 Combo, The 1867 Combo is a group of five talented young musicians bringing a fresh, relaxed energy to the jazz scene. With a mix of classic standards and modern tunes their sound is smooth and soulful. Whether you're a lifelong jazz fan or just discovering the genre, the 1867 Combo offers a laid-back, engaging live experience that\u2019s easy to enjoy. Perfect for a chill night out, their music invites you to slow down, listen closely, and let the groove carry you through the evening.\n",
+    "label": "Music & Concerts",
+    "skip": false
+  },
+  {
+    "description": "Wellington Jazz Festival | 1867 Combo, Wellington Jazz Festival | 1867 Combo\nThe 1867 Combo is a group of five talented young musicians bringing a fresh, relaxed energy to the jazz scene. With a mix of classic standards and modern tunes their sound is smooth and soulful. Whether you're a lifelong jazz fan or just discovering the genre, the 1867 Combo offers a laid-back, engaging live experience that\u2019s easy to enjoy. Perfect for a chill night out, their music invites you to slow down, listen closely, and let the groove carry you through the evening.\n\n\n",
     "label": "Music & Concerts",
     "skip": false
   },
@@ -15766,11 +16116,6 @@
     "skip": false
   },
   {
-    "description": "#Hardpark_11, #Hardpark_11\nSave the Date for the weekend, more details on exact locations of the 'Club & Crew Leaders meet', the 'Hardpark_11 Main Event', 'The Club & Crew BBQ' and the 'Nostalgia Night Cruise' to follow.\nThe key info is to be in the Wellington region for that weekend for a massive weekend of modified rides and amazing people :D",
-    "label": "Sports & Fitness",
-    "skip": false
-  },
-  {
     "description": "2025 Central Region Pool Rescue Championship, 2025 Central Region Pool Rescue Championship\n2025 Central Region Pool Rescue Championship\nTe NgaeNgae Pool & Fitness Centre 14th September 2025\nEntries close 2nd September, 10am\nFollow the link for more details including the Event Entry Circular\nhttps://www.surflifesaving.org.nz/calendar/2025/september/2025-central-region-pool-rescue-championships\n\n",
     "label": "Sports & Fitness",
     "skip": false
@@ -15797,6 +16142,11 @@
   },
   {
     "description": "2025 TBNZ Open Nationals, 2025 TBNZ Open Nationals\nhttps://tbnz.co.nz/2025/08/26/2025-open-nationals-championships/\n\n",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "ANGELDUST - STONED TEMPLAR PIRATES, ANGELDUST - STONED TEMPLAR PIRATES\nGrab yourself a fine beverage at the bar and settle in to enjoy Angeldust Faith No More Tribute, and Stoned Templar Pirates. Both bands are serious about authenticity and kicking some arse and you can experience this live at a special nice price.\nTickets $15 on Moshtix.\n$20 on the door\n\n",
     "label": "Sports & Fitness",
     "skip": false
   },
@@ -15841,6 +16191,11 @@
     "skip": false
   },
   {
+    "description": "Capital Tag Junior League - Spring 2025, Welcome to the Kilbirnie Recreation Centre Capital Tag World Chase Tag League.\nTake the children\u2019s game, and add in obstacles, rules, and referees. Experience tag as a team sport!\nTeams will play in 5 events throughout the league season.\nIndividual tag games are about 15 minutes long. Entry for spectators is free.\n-Games will be played on a 10x10m \"improvised quad\". Example photos and videos of the Capital Tag quad layout can be found at\nhttps://www.facebook.com/capitalchasetag\n\n-Years 5 to 8.\n-A parent/teacher/coach or caregiver must be present during matches as a manger to ensure players are present for\nmatches.\n-$205 per team, individual entry varies.\nContact us for more info:\n-If you have any questions, please email Gabe at gabe.martin@wcc.govt.nz or Emily at Emily.Christison@wcc.govt.nz\n-Facebook:\nhttps://www.facebook.com/capitalchasetag\n,\nhttps://www.facebook.com/groups/capitaltag\n-Instagram: https://www.instagram.com/capitalchasetag ",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
     "description": "Christmas At The Races, Christmas At The Races\n\ud83c\udf89 Sunday, 9th November \u2013 Christmas at the Races! \ud83c\udfc7 \ud83c\udf89\nJoin us for eight thrilling races and a stunning Sunday afternoon! Even better, there\u2019s NO gate charge! \ud83d\ude4c\n\nRace one will begin at 1:00pm and the last race commence at 5:00pm (approx).\n\n\u2728What\u2019s in store:\n\ud83c\udfaaTrackside Marquee-Tables for 10 or individual seats available\n\ud83c\udf9fFree Entry\n\ud83c\udf7b Bar Service\n\ud83c\udf54 Food Trucks\n\ud83c\udf77 BYO \u2013 Bring one bottle of wine, or six stubbies per person\n\n\ud83c\udf85For the little ones:\nFather Christmas will make a grand entrance in a vintage car after the second race (approx. 1:30pm)! He\u2019ll be ready for photos with your precious little ones at the Round Bar behind the grandstand.\n\n\ud83c\udf84 Book a table in our trackside marquee\u2014perfect for your corporate Christmas party or a day out with friends!\n\n\ud83c\udf9f\ufe0f $85 per person includes:\n\u2728 Reserved seating (tables of 10)\n\ud83d\udcd8 Race books\n\ud83c\udf78 Bar access with a tab\n\ud83c\udf7d\ufe0f A delicious set menu by Balter Bar\n\ud83c\udf77 BYO \u2013 one bottle of wine or six stubbies per person\n\nPrefer to bring your own food? Non-catered tables available for $65pp\n\nSpaces are limited \u2013 book now to avoid missing out!\n\ud83d\udce7\n\ud83d\udcde Call Matthew Sherry on 021 271 0364\n\n\ud83d\udc49 See full details here https://www.tauherenikau.co.nz/christmas-racing/\nSee you at the races! \ud83c\udfc7\ud83c\udf84\n\n",
     "label": "Sports & Fitness",
     "skip": false
@@ -15881,12 +16236,32 @@
     "skip": false
   },
   {
+    "description": "Harcourt Park spring league (Santioned), Spring League at Harcourt park is returning\nMark Wednesday the 29th October - 17 December 2025 on the calender, as this is the start of the next PDGA sanctioned league at Harcourt park, Upper Hutt brought to you by the Greater Wellington Disc Golf Club.\nThe league will be for 8 weeks til 5th and offer divisions by PDGA rating. If you don\u2019t have a rating TD will assign you to a ratings group based on level of skill and experience.\nCosts for the league is preferred to pay in advance or at first round and priorty will go to club members if the league reaches greater than 45 participants.\nLeague Entry Fee:\n$10 for Greater Wellington disc golf club members\n$20 for Non club member (required to pay in advance of league or on first day of play).\n$5 for casual play (required to pay on day of round).\nLeague fees can be paid in cash on the night or direct into the club league account (preferred). Please use Spring25 & your last name as reference.\nKiwi Bank: 38-9016-0650973-03\nPrizes - Divisional Winners will receive braging rights, two prizes will be provided to the 2 participants that shoot the most points above their rating in a single round (every one has a change at taking this one out)\nAlso there will be an optional extra jackpotting ace kitty. For the league. How to enter - gold coin entry each week. To be in the running for the week need to have paid in. Eg so week one pay $1 and in if hit an ace, week 2 not pay in therefore no entry into ace kitty, week 3 pay into ace kitty. Hit an ace week 2 can\u2019t claim the kitty as did not pay in, hit an ace week 3 collect the ace kitty (shared if others also hit an ace that week).\nYou say what happens if no one hits an ace - keeps jackpotting throughout the clubs PDGA sanctioned leagues until an ACE is hit.\nCurrent ACE Kitty sitting at $xxx ",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
     "description": "Have A Go Days, Held on 3 Sunday Afternoons in September\nSunday 14th / 21st / 28th\nCome along to all 3 to see if this is the sport/Club for you!\nArrive by 2:30pm and one of our friendly team will greet you and get you set up, ready to \"Have a Go\"\nWe will be done and off the water by 4pm each time.\nNo experience necessary.\nIf you would like more information, please message us through Facebook. ",
     "label": "Sports & Fitness",
     "skip": false
   },
   {
+    "description": "Hyzer Oct 2025 Edition, Hyzer Oct 2025 Edition\nCome and join members of the Greater Wellington Disc golf club for one or two rounds of golf (18 holes) in the beautiful Harcourt Park. Meet at the sound stage for each round currently kindly coordinated by xxxx\nFirst round 930am. Don\u2019t have a partner come and be matched with someone also looking to play or play cali (single with x1 Malign per hole).\nSecond round 1230pm - singles round\n\nCost: Free to Club Members, Gold Coin donation to Non Club Members\n\n(Details may be subject to to change and will be communicated in advance)\n\n",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "Hyzer Sept 2025 Edition, Hyzer Sept 2025 Edition\nCome and join members of the Greater Wellington Disc golf club for one or two rounds of golf (18 holes) in the beautiful Harcourt Park. Meet at the sound stage for each round currently kindly coordinated by xxxx\nFirst round 930am. Don\u2019t have a partner come and be matched with someone also looking to play or play cali (single with x1 Malign per hole).\nSecond round 1230pm - singles round\n\nCost: Free to Club Members, Gold Coin donation to Non Club Members\n\n(Details may be subject to to change and will be communicated in advance)\n\n",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
     "description": "Inter-Club Football Match: 30th Anniversary of the Aldo Cuccurullo Memorial Trophy, This year marks the 30th anniversary of the annual football game between Club Garibaldi (Wellington) and Club Italia (Nelson).\nWe would like to invite past and present players to take part and encourage members of both clubs to be there to cheer their respect teams on.\n\n***\nAldo Cuccurullo Memorial Trophy\nEach year Club Garibaldi of Wellington and Club Italia of Nelson interact through a soccer game between representatives of the two clubs.\nThe game is in memory of Aldo Cuccurullo, a young member of Club Italia who tragically died at a very young age.\nAldo was known as a gentle giant who gave of his time not only to play rugby league himself, but also to coach children.\nThe game, as you would expect of Italian football, is a tense one. Member supporters of each club travel to be at the game but the weekend is as much an opportunity to socialise and build friendships as it is to play football. ",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "Kapiti Spin Disc Golf Pop-Up! October, Kapiti Spin Disc Golf Pop-Up! October\nKapiti Spring Spin Disc Golf Pop-Up!\n\nCelebrate spring with a spin! Whether you're a disc golf regular or just curious, this pop-up event is your chance to play, learn, and connect in one of Kapiti\u2019s more scenic reserves.\n\n\ud83c\udfaf What\u2019s Happening:\nAll-ages, all-skill-level disc golf\u2014no limits, just play!\nHire out gear and learn the basics from local players.\nRelaxed, social vibe\u2014bring friends, family, or come solo!\n\n\ud83e\udded Where:\nPukekawa Reserve, Waikanae \u2014 a beautiful open space perfect for a casual round and socialise.\n\n\ud83d\udee0\ufe0f What to Bring:\nComfortable shoes\nWater bottle\nYour own discs (or hire some on-site!)\nNo toilet facilities currently available onsite.\n\n\ud83d\udc9a Support the Future of Disc Golf in Kapiti\nKoha (donations) will be accepted on the day.\nAll contributions go directly toward building a permanent nine-hole disc golf course at Pukekawa Reserve.\nA suggested koha of $20 or more helps make this vision a reality \u2014 but any amount is appreciated.\n\nNo registration needed \u2014 just show up and spin!\nFollow this event for updates and weather info.\n\n",
     "label": "Sports & Fitness",
     "skip": false
   },
@@ -15971,6 +16346,11 @@
     "skip": false
   },
   {
+    "description": "Percy's Pursuit 2025, Percy's Pursuit 2025\nRegister a team of up to 5 people to take part in Percy's Pursuit, a family fun filled orienteering race event at Percy's Scenic Reserve; part of the Korokoro Scout Group fundraising calendar. Everyone is welcome!\n\nWith several points on a map (given to you when you sign in on the day) to locate, you decide the best route for you and your team to take to collect as many points as you can. Pizza, face painting, games, baking, music, spot prizes and a raffle will complete the day.\n\n",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
     "description": "Petone FC Senior Prize-Giving, Join us for the annual Petone FC Prize-Giving\nA night full of awards, celebration & fun! Let's celebrate the season together!\nSaturday 20 September\nPetone FC Clubrooms (John Bradbury Lounge)\n6:00PM doors & bar opens\n6:45PM start\nsupper provided\n$15 entry ",
     "label": "Sports & Fitness",
     "skip": false
@@ -15991,12 +16371,27 @@
     "skip": false
   },
   {
+    "description": "Queens v Hoiho // Piki Pink, Queens v Hoiho // Piki Pink\nThis is more than a game for us. We\u2019re going all out for Tiana Mangakahia and Breast Cancer Cure.\n\nDoors open 115pm\nRapid Game 2pm\nTauihi Game 3pm\n\nEverything you're getting familiar with - except rumour has it King Kapisi and Che Fu might be sneaking into this rotation. I guess you'll only know if you get there ;)\n\nThis is special round, with a big push to support Triple Negative Breast Cancer Research Fund B Like B, and of course our #1 gal Tiana Mangakahia. This is one you're going to want to be at x\n\n",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "Queens v K\u0101hu, Queens v K\u0101hu\nThe biggest rivalry for us in this league is always Queens v K\u0101hu, no matter where we play.\n\nDoors Open 545pm\nRapid Game 630pm\nTauihi Game 730pm\n\nThe best way you can spend a Friday night. DJ Raw, lady MC Te KuraHuia, Nova Dance Crew, Richter City Rebels...rmour has it FFD might be making an appearance...resident Queen Amandah_La....and more give aways than you'll know what to do with. Lleesspppuuussshhhh fams!!\n\n",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
     "description": "Queens v Pou\u0101kai // Inclusion, Queens v Pou\u0101kai // Inclusion\nIn partnership with Autism New Zealand, this round will celebrate diversity and inclusion the Queens way.\n\nDoors open 115pm\nRapid League 2pm\nTauihi Game 3pm\n\nFun, fans, giveaways, live music....and the best ball in the '04.\n\n",
     "label": "Sports & Fitness",
     "skip": false
   },
   {
     "description": "Resolute Construction Spring Classic Carnival, Track is Back! Warm up from 9am, racing starts at 10.\nSeason starter guaranteed to get your legs firing for the track and road season!\nEntry fees:\nSeason pass holders, free.\nJuniors under 19, $10.\nEveryone else, $15.\nProgram\nD Grade 3 lap Handicap Scratch\nC Grade \u2013 6 lap Scratch\nB grade 8 lap Scratch\nA Grade 10 lap Scratch\nD Grade 1 lap Derbys (approx 5 riders per heat)\nC Grade 1 lap Derbys\nB Grade 1 lap Derbys\nA Grade 1 lap Derbys\nD Grade 6 lap Scratch (first 4 laps paced by moto at average pace, riders cannot overtake)\nC Grade 12 lap Scratch (first 8 laps paced by moto at average pace, riders cannot overtake)\nB Grade 16 lap Scratch (first 10 laps are paced by moto at average pace, riders cannot overtake)\nA Grade 25 lap Scratch (first 15 laps are paced by moto at average pace, riders cannot overtake)\nD Grade Elimination\nC Grade Keirin (5 laps, moto swings off with 2 to go)\nB Grade Keirin (5 laps, moto swings off with 2 to go)\nA Grade Keirin (5 laps, moto swings off with 2 to go)\nC+D Grade Emma's Pursuit\nA+B Grade Emma's Pursuit ",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "Rumble Fright Night, Razor Promotions brings you another instalment of RUMBLE!!!\n\nRUMBLE FRIGHT NIGHT\nMuay Thai, MMA and Corporate Boxing featuring fighters from Porirua, Wellington and around the Country.\n\nCombat sports at its best!!!\n\nNote: Upstairs Family Area is a Alcohol Free area, Access to food and softdrinks are available\n*All minors must be accompanied by an adult. Children under 8 free\n\nPrizes for people that turn up in Halloween costumes",
     "label": "Sports & Fitness",
     "skip": false
   },
@@ -16027,6 +16422,11 @@
   },
   {
     "description": "Senior's Table Tennis, Senior's Table Tennis\nCome on down to the Walter Nash Centre on Mondays and Fridays and play some Table Tennis. Whether you have played before or if it will be your first time, it doesn't matter, all are welcome.\n\nIt costs $5 per session to come and play\n\n",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "Spooktacular parkrun at TMP, Spooktacular parkrun at TMP\nQuick, run for your life! you never know what's going to chase you in the spooky woods (Barton's Bush)\nEveryone is welcome to join in on a little Halloween fun by wearing your favourite costume.\n\n",
     "label": "Sports & Fitness",
     "skip": false
   },
@@ -16111,6 +16511,21 @@
     "skip": false
   },
   {
+    "description": "Tokomanawa Queens vs Hoiho | Piki Pink, This is more than a game for us. We\u2019re going all out for Tiana Mangakahia and Breast Cancer Cure.\n\nDoors open - 1.15pm\nRapid Game - 2pm\nTauihi Game - 3pm\n\nEverything you're getting familiar with - except rumour has it King Kapisi and Che Fu might be sneaking into this rotation. I guess you'll only know if you get there!\nThis is special round, with a big push to support Triple Negative Breast Cancer Research Fund B Like B, and of course our #1 gal Tiana Mangakahia. This is one you're going to want to be at x",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "Tokomanawa Queens vs K\u0101hu, The biggest rivalry for us in this league is always Queens v K\u0101hu, no matter where we play.\n\nDoors Open - 545pm\nRapid Game - 630pm\nTauihi Game - 730pm\n\nThe best way you can spend a Friday night. DJ Raw, lady MC Te KuraHuia, Nova Dance Crew, Richter City Rebels...rumour has it FFD might be making an appearance...resident Queen Amandah_La....and more give aways than you'll know what to do with. Lleesspppuuussshhhh fams!!",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "Tokomanawa Queens vs Pou\u0101kai | Inclusion, In partnership with Autism New Zealand, this round will celebrate diversity and inclusion the Queens way.\n\nDoors open - 1.15pm\nRapid League - 2pm\nTauihi Game - 3pm\n\nFun, fans, giveaways, live music....and the best ball in the '04.",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
     "description": "Tory Fight Night 3, Welcome to Tory Fight Night 3! Thai Style!\nCome join us for an evening of Thai cultural dancing, Thai food trucks and action packed Muay Thai fights at the Lower Hutt Events Centre.\nGet ready to witness some intense battles as fighters go head-to-head in the ring. There are 2 Belts up for grabs, the Kruchain Master's Belt and a 70kg 4 Man Belts with a prize of $1000\nThere will also be a trophy for the fighter that shows the best Thai Style technique and trophies for the fight of the night as voted for by the judges.\nDon't miss out on the excitement and adrenaline of Tory Fight Night 3. Grab your friends and family, and get ready for a night you won't forget!",
     "label": "Sports & Fitness",
     "skip": false
@@ -16127,6 +16542,11 @@
   },
   {
     "description": "Valiant Pro: Live @ The 162, Valiant Pro Wrestling returns to The 162! Catch the fall out from the record breaking All Star Wrestling: Porirua.\n\nFeaturing The New Zealand All Star Wrestling Champion \u201cThe Beast\u201d Jade Priest, The undefeated since returning Brook Duncan, Big Frank and many more!\n\nWe\u2019re at the tail end of the year and things are heating up going into The Martin Stirling Classic and Over The Top!\n\nFood and drink available via cash and eftpos!",
+    "label": "Sports & Fitness",
+    "skip": false
+  },
+  {
+    "description": "WCC - Ham & Turkey Tournament, WCC - Ham & Turkey Tournament\nYou must be a member of the Waikanae Chartered Club 8 ball adjunct for this event.\n\n",
     "label": "Sports & Fitness",
     "skip": false
   },
