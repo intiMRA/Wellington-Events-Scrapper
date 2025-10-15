@@ -20,6 +20,25 @@
       "description": "Be the first in the world to see this Terror-Fi exclusive!\nThis screening will be followed by a special Q&A.\n-- It is 1992.\nLouis is released on home detention after serving six years for his involvement in a botched heist.\nTrapped in suburbia, he fears he is now a sitting duck with his psychotic ex-boss, Prescott, on the hunt for some missing money, and the person responsible."
     },
     {
+      "id": "TFi - Bloke of the Apocalypse-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "TFi - Bloke of the Apocalypse",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_32ecd84b-b704-4d2a-92ce-7e11be185f8f.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2025-10-30-18:30"
+      ],
+      "displayDate": "Thu 30 Oct",
+      "url": "https://www.roxycinema.co.nz/movie/tfi-bloke-of-the-apocalype",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\nWorld Premiere + Q&A\n\nIn Terror-Fi's first ever series screening, be the first in the world to see this side-splitting zombie apocalypse animated series, from New Zealand's best upcoming animation talent.\n\nThis screening will be followed by a special Q&A. This Terror-Fi exclusive will be your only chance to see the series in a cinema!\n\n-- In the rural back blocks of New Zealand, a father and son battle a zombie apocalypse and some annoying neighbours, all while taking care of their pet lamb, Lambie, and zombified Mum Julie. --\n\nGenre: Horror, Comedy, Animation",
+      "description": "Details World Premiere + Q&A In Terror-Fi's first ever series screening, be the first in the world to see this side-splitting zombie apocalypse animated series, from New Zealand's best upcoming animation talent.\nThis screening will be followed by a special Q&A.\nThis Terror-Fi exclusive will be your only chance to see the series in a cinema!\n-- In the rural back blocks of New Zealand, a father and son battle a zombie apocalypse and some annoying neighbours, all while taking care of their pet lamb, Lambie, and zombified Mum Julie.\n-- Genre: Horror, Comedy, Animation"
+    },
+    {
       "id": "TFi - Bugonia-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "TFi - Bugonia",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_183740f2-0607-4056-b84f-bafc2c174301.jpg",
@@ -151,6 +170,25 @@
       "eventType": "Film & Media",
       "long_description": "Details\nDirected by Tim Hamilton\nStarring Sarah Munn, Tim Hamilton, Trenton Colbert, Peter Sugden, Raymond Hamilton\nWorld Premiere + Q&A\n\nBe the first in the world to see New Zealand filmmaker Tim Hamilton's meta love-letter to independent filmmaking, and the emotional impact of losing a best friend.\n\nA truly unique story and vision from one of the most talented upcoming filmmakers we have in Aotearoa.\n\nThis screening will be followed by a special Q&A.\n\n-- This wasn\u2019t supposed to be a true story, but it became one. American actor Gene came to Aotearoa to be in a movie. His role? A wannabe influencer on a quest to restart the internet. Simple concept. Easy to execute. Yeah, nah. The no-budget indie flick quickly spirals out of control when his Kiwi director's unprocessed grief wreaks havoc on the production. Tensions boil over. The cast refuses to stay in character. The fourth wall is smashed to pieces. --\n\nGenre: Comedy, Mockumentary, Documentary",
       "description": "A truly unique story and vision from one of the most talented upcoming filmmakers we have in Aotearoa.\nThis screening will be followed by a special Q&A.\nHis role?\nA wannabe influencer on a quest to restart the internet.\nSimple concept."
+    },
+    {
+      "id": "TFi - Predator: Badlands-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "TFi - Predator: Badlands",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_692c058b-73fb-4861-872d-2b7841ae6ec1.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2025-11-05-20:30"
+      ],
+      "displayDate": "Wed 05 Nov",
+      "url": "https://www.roxycinema.co.nz/movie/tfi-predator-badlands",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\nDirected by Dan Trachtenberg\nStarring Dimitrius Schuster-Koloamatang, Elle Fanning\nAdvance Screening\n\nAfter the sensational 'Prey', we can't wait to see Dan Trachtenberg's next fresh and exciting look into the Predator Universe.\n\nNot to be missed in the cinema!\n\nTickets on sale 15 of October\n\n-- A young Predator outcast from his clan finds an unlikely ally on his journey in search of the ultimate adversary. --\n\nGenre: Sci-Fi, Action, Adventure",
+      "description": "Details Directed by Dan Trachtenberg Starring Dimitrius Schuster-Koloamatang, Elle Fanning Advance Screening After the sensational 'Prey', we can't wait to see Dan Trachtenberg's next fresh and exciting look into the Predator Universe.\nNot to be missed in the cinema!\nTickets on sale 15 of October -- A young Predator outcast from his clan finds an unlikely ally on his journey in search of the ultimate adversary.\n-- Genre: Sci-Fi, Action, Adventure"
     },
     {
       "id": "TFi - Primate-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
