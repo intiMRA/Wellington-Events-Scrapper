@@ -107,14 +107,18 @@ class WellingtonHeritageFestivalScrapper:
                 event.image = image_url
                 event.dates = [DateFormatting.format_date_stamp(date) for date in dates]
             else:
-                event = EventInfo(name=title,
-                                 dates=dates,
-                                 image=image_url,
-                                 url=url,
-                                 venue=venue,
-                                 source=ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL,
-                                 event_type="Community & Culture",
-                                 description=description)
+                try:
+                    event = EventInfo(name=title,
+                                     dates=dates,
+                                     image=image_url,
+                                     url=url,
+                                     venue=venue,
+                                     source=ScrapperNames.WELLINGTON_HERITAGE_FESTIVAL,
+                                     event_type="Community & Culture",
+                                     description=description)
+                except:
+                    print(f"failed to load: {title}")
+                    event = None
             if event:
                 event_list.append(event)
         print(f"number of heritage events: {len(event_list)}")
