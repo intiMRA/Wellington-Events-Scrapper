@@ -1,6 +1,27 @@
 {
   "events": [
     {
+      "id": "IFF - A World Apart-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - A World Apart",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_e4563d0f-92f9-4c02-9b30-14ef3d841c79.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2025-11-26-12:45",
+        "2025-12-03-12:45",
+        "2025-12-06-12:45"
+      ],
+      "displayDate": "Wed 26 Nov + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-a-world-apart",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n--- After 40 years of teaching in a metropolitan Roman school, Michele starts a new life in a remote village high in the Abruzzi Mountains. He must overcome his urban inadequacy, make friends, and embark on a race against time to save the school he comes to love. ---\n\nItalian with English subtitles",
+      "description": "Details --- After 40 years of teaching in a metropolitan Roman school, Michele starts a new life in a remote village high in the Abruzzi Mountains.\nHe must overcome his urban inadequacy, make friends, and embark on a race against time to save the school he comes to love.\n--- Italian with English subtitles"
+    },
+    {
       "id": "IFF - An Ode to Naples-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - An Ode to Naples",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_01402e7b-02db-46de-829a-94199add41ac.jpg",
