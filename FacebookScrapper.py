@@ -250,45 +250,48 @@ class FacebookScrapper:
             f"&start_date={start_date_string}"
             f"&end_date={end_date_string}")
         sleep(2)
-        element = driver.find_element(By.XPATH, "//span[contains(., 'Classics')]")
-        element.click()
-        sleep(3)
-        buttons = set(driver.find_elements(By.XPATH, "//*[@role='checkbox']"))
-        cats = []
-        for button in buttons:
-            if button.text:
-                cats.append(button.text)
-        dates = driver.find_element(By.XPATH, "//span[contains(., 'Dates')]")
-        dates.click()
-        sleep(random.uniform(5, 7))
-        next_month_button = driver.find_element(By.XPATH, "//span[contains(., 'In the next month')]")
-        next_month_button.click()
-        sleep(random.uniform(2, 3))
-        location_search = driver.find_element(By.XPATH, "//input[@placeholder='Location']")
-        location_search.click()
-        location_search.send_keys("Wellin")
-        sleep(random.uniform(2, 3))
-        welly = driver.find_element(By.XPATH, "//span[contains(., 'Wellington, New Zealand')]")
-        welly.click()
+        try:
+            element = driver.find_element(By.XPATH, "//span[contains(., 'Classics')]")
+            element.click()
+            sleep(3)
+            buttons = set(driver.find_elements(By.XPATH, "//*[@role='checkbox']"))
+            cats = []
+            for button in buttons:
+                if button.text:
+                    cats.append(button.text)
+            dates = driver.find_element(By.XPATH, "//span[contains(., 'Dates')]")
+            dates.click()
+            sleep(random.uniform(5, 7))
+            next_month_button = driver.find_element(By.XPATH, "//span[contains(., 'In the next month')]")
+            next_month_button.click()
+            sleep(random.uniform(2, 3))
+            location_search = driver.find_element(By.XPATH, "//input[@placeholder='Location']")
+            location_search.click()
+            location_search.send_keys("Wellin")
+            sleep(random.uniform(2, 3))
+            welly = driver.find_element(By.XPATH, "//span[contains(., 'Wellington, New Zealand')]")
+            welly.click()
 
-        cat_button = driver.find_element(By.XPATH, f"//span[contains(., 'Classics')]")
-        cat_button.click()
-        dates.click()
-        sleep(random.uniform(1, 3))
-
-        for cat in sorted(cats):
-            print("cat: ", cat)
-            cat_button = driver.find_element(By.XPATH, f"//span[contains(., '{cat}')]")
-            driver.execute_script("arguments[0].scrollIntoView(true);", cat_button)
-            sleep(random.uniform(1, 2))
-            try:
-                cat_button.click()
-            except:
-                continue
-            sleep(1)
-            category_urls = category_urls.union(
-                FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file))
+            cat_button = driver.find_element(By.XPATH, f"//span[contains(., 'Classics')]")
             cat_button.click()
+            dates.click()
+            sleep(random.uniform(1, 3))
+
+            for cat in sorted(cats):
+                print("cat: ", cat)
+                cat_button = driver.find_element(By.XPATH, f"//span[contains(., '{cat}')]")
+                driver.execute_script("arguments[0].scrollIntoView(true);", cat_button)
+                sleep(random.uniform(1, 2))
+                try:
+                    cat_button.click()
+                except:
+                    continue
+                sleep(1)
+                category_urls = category_urls.union(
+                    FacebookScrapper.slow_scroll_to_bottom(driver, cat, previous_urls, urls_file))
+                cat_button.click()
+        except:
+            pass
         driver.get(
             f"https://www.facebook.com/events/?"
             f"date_filter_option=CUSTOM_DATE_RANGE"
