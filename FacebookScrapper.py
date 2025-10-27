@@ -166,7 +166,7 @@ class FacebookScrapper:
         event_urls: Set[Tuple[str, str]] = set()
         html = driver.find_elements(By.TAG_NAME, 'a')
         old_length = len(html)
-        while len(html) < 450:
+        while len(html) < 500:
             driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
             sleep(random.uniform(2, 3))
             html = driver.find_elements(By.TAG_NAME, 'a')
