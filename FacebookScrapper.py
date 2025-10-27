@@ -170,6 +170,7 @@ class FacebookScrapper:
             driver.execute_script(f"window.scrollBy(0, {scroll_increment});")
             sleep(random.uniform(2, 3))
             html = driver.find_elements(By.TAG_NAME, 'a')
+
             if old_length == len(html):
                 break
             else:
