@@ -99,7 +99,13 @@ class WellingtonNZScrapper:
             venue_string += ", Wellington, New Zealand"
         print(f"date string {date_string} venue string {venue_string}")
         dates = WellingtonNZScrapper.get_dates(date_string)
-        description: str = driver.find_element(By.CLASS_NAME, "typography").text
+        try:
+            description: str = driver.find_element(By.CLASS_NAME, "typography").text
+        except:
+            try:
+                description = driver.find_element(By.CLASS_NAME, "image-header__intro").text
+            except:
+                description = title
         return EventInfo(name=title,
                          image=image_url,
                          venue=venue_string,

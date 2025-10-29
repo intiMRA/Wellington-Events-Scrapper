@@ -1,24 +1,25 @@
 {
   "events": [
     {
-      "id": "Halfway House Heritage Garden Walk & Talk-Halfway House, Glenside Reserve, 246 Middleton Road Glenside-Wellington Heritage Festival",
-      "name": "Halfway House Heritage Garden Walk & Talk",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/0d9e4b9f1680f962cbc8549a9f8563bd/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 750w,/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/d41abad5d63fede10e2be99085b8e6f5/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 1080w,/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/030e4c7e3149d75cf3cc9fc9a3aa6004/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 1366w,/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/c5534032605a4be48e8858948dbf434d/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 1920w",
-      "venue": "Halfway House, Glenside Reserve, 246 Middleton Road Glenside",
+      "id": "Sacred Spaces of Wellington-Wellington CBD-Wellington Heritage Festival",
+      "name": "Sacred Spaces of Wellington",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/0d9e4b9f1680f962cbc8549a9f8563bd/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 750w,/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/d41abad5d63fede10e2be99085b8e6f5/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 1080w,/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/030e4c7e3149d75cf3cc9fc9a3aa6004/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 1366w,/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/c5534032605a4be48e8858948dbf434d/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 1920w",
+      "venue": "Wellington CBD",
       "coordinates": {
-        "lat": 40.2850964,
-        "long": -75.6407408
+        "lat": -41.2821003,
+        "long": 174.7759494
       },
       "dates": [
-        "2025-10-26-13:00",
-        "2025-11-02-13:00"
+        "2025-10-30-12:00",
+        "2025-10-31-09:45",
+        "2025-11-01-09:00"
       ],
-      "displayDate": "Sun 02 Nov",
-      "url": "https://wellingtonheritagefestival.co.nz/event/halfway-house-heritage-garden-walk-talk",
+      "displayDate": "Thu 30 Oct + more",
+      "url": "https://wellingtonheritagefestival.co.nz/event/25-sacred-spaces-1",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
-      "long_description": "Discover the veges, fruit and flowers once planted by early settlers in the days when travellers along the old road to Porirua stopped for meals and accommodation at the Halfway House, the halfway mark of their journey. Bring coins to buy heritage seeds and plants. Places for 25 adults. Children free.\nA guided walk of history, heritage and plants in the historic Halfway House garden at Glenside, halfway along the original road between Wellington and Porirua.\n",
-      "description": "Discover the veges, fruit and flowers once planted by early settlers in the days when travellers along the old road to Porirua stopped for meals and accommodation at the Halfway House, the halfway mark of their journey.\nBring coins to buy heritage seeds and plants.\nPlaces for 25 adults.\nChildren free.\nA guided walk of history, heritage and plants in the historic Halfway House garden at Glenside, halfway along the original road between Wellington and Porirua."
+      "long_description": "Book for one, a few, or walk between sacred spaces in a European-style pilgrimage. Discounts are available for multiple bookings and early bird booking by October 16.\nDiscover or revisit central Wellington buildings which illustrate Wellington\u2019s diverse faith traditions. There are 15 visits and three talks by a noted historian of religion in New Zealand.\n",
+      "description": "Book for one, a few, or walk between sacred spaces in a European-style pilgrimage.\nDiscounts are available for multiple bookings and early bird booking by October 16.\nDiscover or revisit central Wellington buildings which illustrate Wellington\u2019s diverse faith traditions.\nThere are 15 visits and three talks by a noted historian of religion in New Zealand."
     },
     {
       "id": "Halfway House Heritage Garden Self-Guided Tour-Halfway House, Glenside Reserve, 246 Middleton Road Glenside. -Wellington Heritage Festival",
@@ -30,20 +31,19 @@
         "long": -75.6407408
       },
       "dates": [
-        "2025-10-28-01:08",
-        "2025-10-29-01:08",
-        "2025-10-30-01:08",
-        "2025-10-31-01:08",
-        "2025-11-01-01:08",
-        "2025-11-02-01:08",
-        "2025-11-03-01:08",
-        "2025-11-04-01:08",
-        "2025-11-05-01:08",
-        "2025-11-06-01:08",
-        "2025-11-07-01:08",
-        "2025-11-08-01:08"
+        "2025-10-29-01:49",
+        "2025-10-30-01:49",
+        "2025-10-31-01:49",
+        "2025-11-01-01:49",
+        "2025-11-02-01:49",
+        "2025-11-03-01:49",
+        "2025-11-04-01:49",
+        "2025-11-05-01:49",
+        "2025-11-06-01:49",
+        "2025-11-07-01:49",
+        "2025-11-08-01:49"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/halfway-house-heritage-garden-self-guided-tour-25",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -131,25 +131,43 @@
       "description": "Your journey with Walk Wellington commences at Old St Paul's (Murphy Street) and then takes us through the Parliament precinct to Hill Street, and into Tinakori Road.\nWe then loop around Glenbervie Terrace to continue along Tinakori Road to Bowen Street and then back to follow Ascot and Sydney Street West.\nWe finish at Kaiwakatere (the Navigator) behind Parliament and off Bowen Street.\nExplore New Zealand oldest suburb on foot."
     },
     {
-      "id": "Sacred Spaces of Wellington-Wellington CBD-Wellington Heritage Festival",
-      "name": "Sacred Spaces of Wellington",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/0d9e4b9f1680f962cbc8549a9f8563bd/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 750w,/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/d41abad5d63fede10e2be99085b8e6f5/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 1080w,/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/030e4c7e3149d75cf3cc9fc9a3aa6004/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 1366w,/_gatsby/image/1255de0c258bedc33f84ae1eecd1cfbf/c5534032605a4be48e8858948dbf434d/SacredSpacesBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3SXmLmHmwFi1TNMs1gacHC%2Fa9cd38c2a2f7b027de2a9a80cebd180f%2FSacredSpacesBanner.jpg&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-09-06T09%3A32%3A22.301Z 1920w",
-      "venue": "Wellington CBD",
+      "id": "The History of Newtown's Green Belt-Newtown Community Centre, Rintoul Street & Colombo Street, Wellington-Wellington Heritage Festival",
+      "name": "The History of Newtown's Green Belt",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/0d9e4b9f1680f962cbc8549a9f8563bd/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 750w,/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/d41abad5d63fede10e2be99085b8e6f5/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 1080w,/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/030e4c7e3149d75cf3cc9fc9a3aa6004/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 1366w,/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/c5534032605a4be48e8858948dbf434d/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 1920w",
+      "venue": "Newtown Community Centre, Rintoul Street & Colombo Street, Wellington",
       "coordinates": {
-        "lat": -41.2821003,
-        "long": 174.7759494
+        "lat": 52.4990909,
+        "long": -1.8963634
       },
       "dates": [
-        "2025-10-30-12:00",
-        "2025-10-31-09:45",
-        "2025-11-01-09:00"
+        "2025-10-30-19:00"
       ],
-      "displayDate": "Thu 30 Oct + more",
-      "url": "https://wellingtonheritagefestival.co.nz/event/25-sacred-spaces-1",
+      "displayDate": "Thu 30 Oct",
+      "url": "https://wellingtonheritagefestival.co.nz/event/the-history-of-newtowns-green-belt",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
-      "long_description": "Book for one, a few, or walk between sacred spaces in a European-style pilgrimage. Discounts are available for multiple bookings and early bird booking by October 16.\nDiscover or revisit central Wellington buildings which illustrate Wellington\u2019s diverse faith traditions. There are 15 visits and three talks by a noted historian of religion in New Zealand.\n",
-      "description": "Book for one, a few, or walk between sacred spaces in a European-style pilgrimage.\nDiscounts are available for multiple bookings and early bird booking by October 16.\nDiscover or revisit central Wellington buildings which illustrate Wellington\u2019s diverse faith traditions.\nThere are 15 visits and three talks by a noted historian of religion in New Zealand."
+      "long_description": "Tonight's talk will be hosted by local environmental artist Paul Forrest who weaves tales from his research about the heritage and history of our Newtown Green Belt hill range Te Ranga a Hiwi.\nTales of a Wellington hill range from 250 million years ago to the present day.\n",
+      "description": "Tonight's talk will be hosted by local environmental artist Paul Forrest who weaves tales from his research about the heritage and history of our Newtown Green Belt hill range Te Ranga a Hiwi.\nTales of a Wellington hill range from 250 million years ago to the present day."
+    },
+    {
+      "id": "M\u0101oriland Film Festival presents: Special programme of films made in \u014ctaki-68 Main Street, \u014ctaki-Wellington Heritage Festival",
+      "name": "M\u0101oriland Film Festival presents: Special programme of films made in \u014ctaki",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/0d9e4b9f1680f962cbc8549a9f8563bd/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 750w,/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/d41abad5d63fede10e2be99085b8e6f5/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 1080w,/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/030e4c7e3149d75cf3cc9fc9a3aa6004/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 1366w,/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/c5534032605a4be48e8858948dbf434d/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 1920w",
+      "venue": "68 Main Street, \u014ctaki",
+      "coordinates": {
+        "lat": -40.7526583,
+        "long": 175.1398601
+      },
+      "dates": [
+        "2025-11-01-10:00",
+        "2025-11-01-13:00"
+      ],
+      "displayDate": "Sat 01 Nov + more",
+      "url": "https://wellingtonheritagefestival.co.nz/event/maoriland-film-festival",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "The Wellington Heritage Festival proudly presents a special programme of films at the M\u0101oriland Hub.\n\nThe films are:\n- Te Hokinga Mai o Ng\u0101 Taonga Whiti\u0101hua ki Raukawa\n- The Lawnmower Men of Kapu\n- The Gravedigger of Kapu\n- Ruarangi\n- Tuia Ng\u0101 Here\n- Brolesque\nThe history of the celebrated M\u0101oriland Film Festival (\nmaorilandfilm.co.nz\n) has its origins in some of the earliest filmmaking in New Zealand. Come and watch the story of M\u0101oriland, along with a special programme of films made in \u014ctaki over the past 100 years. \n",
+      "description": "The Wellington Heritage Festival proudly presents a special programme of films at the M\u0101oriland Hub.\nThe films are: - Te Hokinga Mai o Ng\u0101 Taonga Whiti\u0101hua ki Raukawa - The Lawnmower Men of Kapu - The Gravedigger of Kapu - Ruarangi - Tuia Ng\u0101 Here - Brolesque The history of the celebrated M\u0101oriland Film Festival ( maorilandfilm.co.nz ) has its origins in some of the earliest filmmaking in New Zealand.\nCome and watch the story of M\u0101oriland, along with a special programme of films made in \u014ctaki over the past 100 years."
     },
     {
       "id": "Parata Township-2 Marae Pl, Waikanae-Wellington Heritage Festival",
@@ -170,6 +188,45 @@
       "eventType": "Community & Culture",
       "long_description": "The legal and moral laws that existed in the middle of Waikanae area.\nParata Township in the middle of Waikanae. Learn the reasons and the history of the early settlers.\n",
       "description": "The legal and moral laws that existed in the middle of Waikanae area.\nParata Township in the middle of Waikanae.\nLearn the reasons and the history of the early settlers."
+    },
+    {
+      "id": "A Heritage Tour of Wairarapa Moana-Wairarapa Moana-Wellington Heritage Festival",
+      "name": "A Heritage Tour of Wairarapa Moana",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 750w,/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 1080w,/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 1366w,/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/c5534032605a4be48e8858948dbf434d/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 1920w",
+      "venue": "Wairarapa Moana",
+      "coordinates": {
+        "lat": -41.2006706,
+        "long": 175.3150317
+      },
+      "dates": [
+        "2025-11-07-09:00"
+      ],
+      "displayDate": "Sat 01 Nov",
+      "url": "https://wellingtonheritagefestival.co.nz/event/a-heritage-tour-of-wairarapa-moana",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "Lake Wairarapa is a place where people traditionally gathered. They left footprints or evidence and we found them through archaeology. Come and see how Wairarapa Moana cared for the basic needs of its people.\nJoin us on a bus tour around Wairarapa Moana, exploring key sites of importance to mana whenua.\n",
+      "description": "Lake Wairarapa is a place where people traditionally gathered.\nThey left footprints or evidence and we found them through archaeology.\nCome and see how Wairarapa Moana cared for the basic needs of its people.\nJoin us on a bus tour around Wairarapa Moana, exploring key sites of importance to mana whenua."
+    },
+    {
+      "id": "Heritage of \u014ctari-Wilton\u2019s Bush \u2013 the gardens and gardeners-\u014ctari-Wilton's Bush, 150 Wilton Road, Wilton, Wellington-Wellington Heritage Festival",
+      "name": "Heritage of \u014ctari-Wilton\u2019s Bush \u2013 the gardens and gardeners",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/2088180087abc0b243bb18f50a40007b/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 750w,/_gatsby/image/2088180087abc0b243bb18f50a40007b/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 1080w,/_gatsby/image/2088180087abc0b243bb18f50a40007b/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 1366w,/_gatsby/image/2088180087abc0b243bb18f50a40007b/c5534032605a4be48e8858948dbf434d/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 1920w",
+      "venue": "\u014ctari-Wilton's Bush, 150 Wilton Road, Wilton, Wellington",
+      "coordinates": {
+        "lat": -41.2677878,
+        "long": 174.757895
+      },
+      "dates": [
+        "2025-10-18-14:00",
+        "2025-11-01-14:00"
+      ],
+      "displayDate": "Sat 01 Nov",
+      "url": "https://wellingtonheritagefestival.co.nz/event/heritage-of-otari-wiltons-bush-the-gardens-and-gardeners",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "From forest to farm to internationally acclaimed native botanic garden - let us walk you through the fascinating story of \u014ctari-Wilton's Bush. Learn about the visionary people involved. Join us to hear the rich history of this special garden while enjoying the beautiful surroundings.\nAncient native forest and botanic garden excellence \u2014 uncover the unique history of \u014ctari-Wilton's Bush on this engaging tour. Join us and explore!\n",
+      "description": "From forest to farm to internationally acclaimed native botanic garden - let us walk you through the fascinating story of \u014ctari-Wilton's Bush.\nLearn about the visionary people involved.\nJoin us to hear the rich history of this special garden while enjoying the beautiful surroundings.\nAncient native forest and botanic garden excellence \u2014 uncover the unique history of \u014ctari-Wilton's Bush on this engaging tour.\nJoin us and explore!"
     },
     {
       "id": "Bell Ringing Open Day - Wellington Cathedral of St Paul-Wellington Cathedral of St Paul, 2 Hill Street, Thorndon, Wellington-Wellington Heritage Festival",
@@ -227,20 +284,19 @@
         "long": 174.7759494
       },
       "dates": [
-        "2025-10-28-01:08",
-        "2025-10-29-01:08",
-        "2025-10-30-01:08",
-        "2025-10-31-01:08",
-        "2025-11-01-01:08",
-        "2025-11-02-01:08",
-        "2025-11-03-01:08",
-        "2025-11-04-01:08",
-        "2025-11-05-01:08",
-        "2025-11-06-01:08",
-        "2025-11-07-01:08",
-        "2025-11-08-01:08"
+        "2025-10-29-01:49",
+        "2025-10-30-01:49",
+        "2025-10-31-01:49",
+        "2025-11-01-01:49",
+        "2025-11-02-01:49",
+        "2025-11-03-01:49",
+        "2025-11-04-01:49",
+        "2025-11-05-01:49",
+        "2025-11-06-01:49",
+        "2025-11-07-01:49",
+        "2025-11-08-01:49"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/marc-marisha-begin-again",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -285,6 +341,46 @@
       "eventType": "Community & Culture",
       "long_description": "The Old St Paul\u2019s Craft & Curio Market will feature a handpicked selection of stalls showcasing all kinds of lovingly produced local crafts and incredible curiosities. \nSet against the breathtaking backdrop of P\u014dneke's most beautiful building, this boutique market is a unique and fun heritage shopping experience for all!\n",
       "description": "The Old St Paul\u2019s Craft & Curio Market will feature a handpicked selection of stalls showcasing all kinds of lovingly produced local crafts and incredible curiosities.\nSet against the breathtaking backdrop of P\u014dneke's most beautiful building, this boutique market is a unique and fun heritage shopping experience for all!"
+    },
+    {
+      "id": "Wellington Vintage Machinery Open Days-155a Mangaroa Hill Road, Mangaroa, Upper Hutt-Wellington Heritage Festival",
+      "name": "Wellington Vintage Machinery Open Days",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 750w,/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 1080w,/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 1366w,/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/c5534032605a4be48e8858948dbf434d/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 1920w",
+      "venue": "155a Mangaroa Hill Road, Mangaroa, Upper Hutt",
+      "coordinates": {
+        "lat": -41.1185313,
+        "long": 175.106028
+      },
+      "dates": [
+        "2025-10-19-10:00",
+        "2025-10-27-10:00",
+        "2025-11-02-10:00"
+      ],
+      "displayDate": "Sun 02 Nov + more",
+      "url": "https://wellingtonheritagefestival.co.nz/event/wellington-vintage-machinery-open-days-25",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "Find the machine that was used to make the 1950 Empire Games medals. Many of the machines have a association with the Wellington area.\nGet a close look and hands on experience with machinery of yesteryear. Weather permitting, we will have our Fowler Traction engine in steam too!\n",
+      "description": "Find the machine that was used to make the 1950 Empire Games medals.\nMany of the machines have a association with the Wellington area.\nGet a close look and hands on experience with machinery of yesteryear.\nWeather permitting, we will have our Fowler Traction engine in steam too!"
+    },
+    {
+      "id": "Ng\u0101ti Toa Rangatira Sites of Significance Bus Tour-\u016apane | Whitireia Polytechnic, 3 Wi Neera Drive, Porirua-Wellington Heritage Festival",
+      "name": "Ng\u0101ti Toa Rangatira Sites of Significance Bus Tour",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/8a6ff704c3525636e825dc32e9976157/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 750w,/_gatsby/image/8a6ff704c3525636e825dc32e9976157/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 1080w,/_gatsby/image/8a6ff704c3525636e825dc32e9976157/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 1366w,/_gatsby/image/8a6ff704c3525636e825dc32e9976157/c5534032605a4be48e8858948dbf434d/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 1920w",
+      "venue": "\u016apane | Whitireia Polytechnic, 3 Wi Neera Drive, Porirua",
+      "coordinates": {
+        "lat": -41.1263563,
+        "long": 174.8383356
+      },
+      "dates": [
+        "2025-11-08-10:00"
+      ],
+      "displayDate": "Sat 08 Nov",
+      "url": "https://wellingtonheritagefestival.co.nz/event/ngati-toa-rangatira-sites-of-significance-bus-tour",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "This event is a Bus Tour around the Porirua Region to visit and learn about the sites that are so significant to Ng\u0101ti Toa Rangatira.\nNau mai, haere mai and bring the wh\u0101nau along to visit and learn about some significant sites of the iwi, Ng\u0101ti Toa Rangatira around the Porirua region.\n",
+      "description": "This event is a Bus Tour around the Porirua Region to visit and learn about the sites that are so significant to Ng\u0101ti Toa Rangatira.\nNau mai, haere mai and bring the wh\u0101nau along to visit and learn about some significant sites of the iwi, Ng\u0101ti Toa Rangatira around the Porirua region."
     },
     {
       "id": "M\u0101tai Moana / Mount Crawford Historic Walking Tour-Wellington Prison (closed), 1 Main Road Maupuia-Wellington Heritage Festival",
@@ -366,6 +462,25 @@
       "eventType": "Community & Culture",
       "long_description": "Tiptoe Through the Tombstones\n,\n starting at the Seddon memorial on Sundays at 2.00pm. \nA fascinating tour of Wellington's early history. The stories go far beyond well-known names from history, giving glimpses of ordinary people who made their home here. \nExplore historic Bolton Street Cemetery in central Wellington (just off The Terrace) with experienced guides. Hear entertaining and surprising stories with \nTiptoe Through the Tombstones.\n",
       "description": "Tiptoe Through the Tombstones , starting at the Seddon memorial on Sundays at 2.00pm.\nA fascinating tour of Wellington's early history.\nThe stories go far beyond well-known names from history, giving glimpses of ordinary people who made their home here.\nExplore historic Bolton Street Cemetery in central Wellington (just off The Terrace) with experienced guides.\nHear entertaining and surprising stories with Tiptoe Through the Tombstones."
+    },
+    {
+      "id": "Halloween Film Night-12 Bruce Street, Masterton-Wellington Heritage Festival",
+      "name": "Halloween Film Night",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/3e1922a77a0abc3ba8151f55b74a4dd6/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-halloween-film-night.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FkpOnxFzP3xIPaqEAtGjoY%2F576ae967329913ed1294cea9999ce0c8%2Fcpr_2025-halloween-film-night.png&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-06T04%3A32%3A34.109Z 750w,/_gatsby/image/3e1922a77a0abc3ba8151f55b74a4dd6/5805be48bdc735b5b9e49dd29a4f950d/cpr_2025-halloween-film-night.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FkpOnxFzP3xIPaqEAtGjoY%2F576ae967329913ed1294cea9999ce0c8%2Fcpr_2025-halloween-film-night.png&a=w%3D966%26h%3D543%26fm%3Davif%26q%3D75&cd=2025-08-06T04%3A32%3A34.109Z 966w",
+      "venue": "12 Bruce Street, Masterton",
+      "coordinates": {
+        "lat": -40.9486276,
+        "long": 175.6650357
+      },
+      "dates": [
+        "2025-10-31-18:45"
+      ],
+      "displayDate": "Fri 31 Oct",
+      "url": "https://wellingtonheritagefestival.co.nz/event/halloween-film-night",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "\ud83c\udf83 Film Talks Presents: Halloween Film Night 2025\nThis Halloween, step into the shadows with Bride of Frankenstein\u2014a spine-tingling classic brought to life on the big screen.\n",
+      "description": "\ud83c\udf83 Film Talks Presents: Halloween Film Night 2025 This Halloween, step into the shadows with Bride of Frankenstein\u2014a spine-tingling classic brought to life on the big screen."
     },
     {
       "id": "Robert Orr Historic Homestead Open Day-132 Kings Crescent, Lower Hutt-Wellington Heritage Festival",
@@ -465,47 +580,6 @@
       "description": "Each year we explore a new area of the central city; learning about the huge changes, culture shifts and controversies that went along with all that concrete, steel and glass!\nHear the stories of Wellington\u2019s important mid- to late-twentieth century buildings, structures and places on the Modern Wellington Walking Tour."
     },
     {
-      "id": "Wellington Vintage Machinery Open Days-155a Mangaroa Hill Road, Mangaroa, Upper Hutt-Wellington Heritage Festival",
-      "name": "Wellington Vintage Machinery Open Days",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 750w,/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 1080w,/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 1366w,/_gatsby/image/4863071c96ebaa839b25bb7f1013443b/c5534032605a4be48e8858948dbf434d/cpr_2025-wellington-vintage-machinery-o.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F72VD11j49LFiuTabjgtSre%2F02e954ecff3de7f4bb9e61e4c3400e93%2Fcpr_2025-wellington-vintage-machinery-o.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A50%3A04.394Z 1920w",
-      "venue": "155a Mangaroa Hill Road, Mangaroa, Upper Hutt",
-      "coordinates": {
-        "lat": -41.1185313,
-        "long": 175.106028
-      },
-      "dates": [
-        "2025-10-19-10:00",
-        "2025-10-27-10:00",
-        "2025-11-02-10:00",
-        "2025-11-09-10:00"
-      ],
-      "displayDate": "Sun 02 Nov + more",
-      "url": "https://wellingtonheritagefestival.co.nz/event/wellington-vintage-machinery-open-days-25",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "Find the machine that was used to make the 1950 Empire Games medals. Many of the machines have a association with the Wellington area.\nGet a close look and hands on experience with machinery of yesteryear. Weather permitting, we will have our Fowler Traction engine in steam too!\n",
-      "description": "Find the machine that was used to make the 1950 Empire Games medals.\nMany of the machines have a association with the Wellington area.\nGet a close look and hands on experience with machinery of yesteryear.\nWeather permitting, we will have our Fowler Traction engine in steam too!"
-    },
-    {
-      "id": "Ng\u0101ti Toa Rangatira Sites of Significance Bus Tour-\u016apane | Whitireia Polytechnic, 3 Wi Neera Drive, Porirua-Wellington Heritage Festival",
-      "name": "Ng\u0101ti Toa Rangatira Sites of Significance Bus Tour",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/8a6ff704c3525636e825dc32e9976157/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 750w,/_gatsby/image/8a6ff704c3525636e825dc32e9976157/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 1080w,/_gatsby/image/8a6ff704c3525636e825dc32e9976157/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 1366w,/_gatsby/image/8a6ff704c3525636e825dc32e9976157/c5534032605a4be48e8858948dbf434d/cpr_2025-ng-ti-toa-rangatira-sites-of-s.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2aec7vXlzDRAEYiEpr9KJ8%2Fb34685a5587fb2faa0b51858b708c1e0%2Fcpr_2025-ng-ti-toa-rangatira-sites-of-s.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-08-29T00%3A50%3A49.992Z 1920w",
-      "venue": "\u016apane | Whitireia Polytechnic, 3 Wi Neera Drive, Porirua",
-      "coordinates": {
-        "lat": -41.1263563,
-        "long": 174.8383356
-      },
-      "dates": [
-        "2025-11-08-10:00"
-      ],
-      "displayDate": "Sat 08 Nov",
-      "url": "https://wellingtonheritagefestival.co.nz/event/ngati-toa-rangatira-sites-of-significance-bus-tour",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "This event is a Bus Tour around the Porirua Region to visit and learn about the sites that are so significant to Ng\u0101ti Toa Rangatira.\nNau mai, haere mai and bring the wh\u0101nau along to visit and learn about some significant sites of the iwi, Ng\u0101ti Toa Rangatira around the Porirua region.\n",
-      "description": "This event is a Bus Tour around the Porirua Region to visit and learn about the sites that are so significant to Ng\u0101ti Toa Rangatira.\nNau mai, haere mai and bring the wh\u0101nau along to visit and learn about some significant sites of the iwi, Ng\u0101ti Toa Rangatira around the Porirua region."
-    },
-    {
       "id": "Self-guided Tour of Truby King Park-21B Manchester Terrace Melrose, Wellington 6023-Wellington Heritage Festival",
       "name": "Self-guided Tour of Truby King Park",
       "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/854e6da0b4221710777edbecf80db2b0/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-self-guided-tour-of-truby-king.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F5Kh242biDowEVjMz30aXn9%2Feb9d57136a15b2f9090dcefaff807678%2Fcpr_2025-self-guided-tour-of-truby-king.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A32.785Z 750w,/_gatsby/image/854e6da0b4221710777edbecf80db2b0/41991978c2a2b3683db440133cb6e4f4/cpr_2025-self-guided-tour-of-truby-king.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F5Kh242biDowEVjMz30aXn9%2Feb9d57136a15b2f9090dcefaff807678%2Fcpr_2025-self-guided-tour-of-truby-king.webp&a=w%3D900%26h%3D506%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A32.785Z 900w",
@@ -515,84 +589,24 @@
         "long": 174.7879196
       },
       "dates": [
-        "2025-10-28-01:08",
-        "2025-10-29-01:08",
-        "2025-10-30-01:08",
-        "2025-10-31-01:08",
-        "2025-11-01-01:08",
-        "2025-11-02-01:08",
-        "2025-11-03-01:08",
-        "2025-11-04-01:08",
-        "2025-11-05-01:08",
-        "2025-11-06-01:08",
-        "2025-11-07-01:08",
-        "2025-11-08-01:08"
+        "2025-10-29-01:49",
+        "2025-10-30-01:49",
+        "2025-10-31-01:49",
+        "2025-11-01-01:49",
+        "2025-11-02-01:49",
+        "2025-11-03-01:49",
+        "2025-11-04-01:49",
+        "2025-11-05-01:49",
+        "2025-11-06-01:49",
+        "2025-11-07-01:49",
+        "2025-11-08-01:49"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/self-guided-tour-of-truby-king-park-25",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
       "long_description": "Step into a garden full of stories, some inspiring, some surprising. From cherry trees and hospital wards to the people who shaped New Zealand\u2019s early healthcare, follow the QR trail to uncover the layers of Truby King Park\u2019s past.\nDiscover the hidden history of Truby King Park\u2014scan, stroll, and uncover stories with your smartphone.\n",
       "description": "Step into a garden full of stories, some inspiring, some surprising.\nFrom cherry trees and hospital wards to the people who shaped New Zealand\u2019s early healthcare, follow the QR trail to uncover the layers of Truby King Park\u2019s past.\nDiscover the hidden history of Truby King Park\u2014scan, stroll, and uncover stories with your smartphone."
-    },
-    {
-      "id": "M\u0101oriland Film Festival presents: Special programme of films made in \u014ctaki-68 Main Street, \u014ctaki-Wellington Heritage Festival",
-      "name": "M\u0101oriland Film Festival presents: Special programme of films made in \u014ctaki",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/0d9e4b9f1680f962cbc8549a9f8563bd/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 750w,/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/d41abad5d63fede10e2be99085b8e6f5/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 1080w,/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/030e4c7e3149d75cf3cc9fc9a3aa6004/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 1366w,/_gatsby/image/970671632dd2bc6810f9ad238f62ad4a/c5534032605a4be48e8858948dbf434d/MaorilandBanner.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4GmBBsxnRbBQsBg97cAJNF%2F381ea1b8493993afbdbbe1d7869715d3%2FMaorilandBanner.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-10-07T21%3A56%3A33.014Z 1920w",
-      "venue": "68 Main Street, \u014ctaki",
-      "coordinates": {
-        "lat": -40.7526583,
-        "long": 175.1398601
-      },
-      "dates": [
-        "2025-11-01-10:00",
-        "2025-11-01-13:00"
-      ],
-      "displayDate": "Sat 01 Nov + more",
-      "url": "https://wellingtonheritagefestival.co.nz/event/maoriland-film-festival",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "The Wellington Heritage Festival proudly presents a special programme of films at the M\u0101oriland Hub.\n\nThe films are:\n- Te Hokinga Mai o Ng\u0101 Taonga Whiti\u0101hua ki Raukawa\n- The Lawnmower Men of Kapu\n- The Gravedigger of Kapu\n- Ruarangi\n- Tuia Ng\u0101 Here\n- Brolesque\nThe history of the celebrated M\u0101oriland Film Festival (\nmaorilandfilm.co.nz\n) has its origins in some of the earliest filmmaking in New Zealand. Come and watch the story of M\u0101oriland, along with a special programme of films made in \u014ctaki over the past 100 years. \n",
-      "description": "The Wellington Heritage Festival proudly presents a special programme of films at the M\u0101oriland Hub.\nThe films are: - Te Hokinga Mai o Ng\u0101 Taonga Whiti\u0101hua ki Raukawa - The Lawnmower Men of Kapu - The Gravedigger of Kapu - Ruarangi - Tuia Ng\u0101 Here - Brolesque The history of the celebrated M\u0101oriland Film Festival ( maorilandfilm.co.nz ) has its origins in some of the earliest filmmaking in New Zealand.\nCome and watch the story of M\u0101oriland, along with a special programme of films made in \u014ctaki over the past 100 years."
-    },
-    {
-      "id": "Heritage of \u014ctari-Wilton\u2019s Bush \u2013 the gardens and gardeners-\u014ctari-Wilton's Bush, 150 Wilton Road, Wilton, Wellington-Wellington Heritage Festival",
-      "name": "Heritage of \u014ctari-Wilton\u2019s Bush \u2013 the gardens and gardeners",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/2088180087abc0b243bb18f50a40007b/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 750w,/_gatsby/image/2088180087abc0b243bb18f50a40007b/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 1080w,/_gatsby/image/2088180087abc0b243bb18f50a40007b/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 1366w,/_gatsby/image/2088180087abc0b243bb18f50a40007b/c5534032605a4be48e8858948dbf434d/cpr_2025-heritage-of-tari-wilton-s-bus.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F6GhwEOv620bUIN0MmKutYu%2F9d66338c737d26b5bb3a3d2d121b22cc%2Fcpr_2025-heritage-of-tari-wilton-s-bus.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-26T07%3A13%3A39.619Z 1920w",
-      "venue": "\u014ctari-Wilton's Bush, 150 Wilton Road, Wilton, Wellington",
-      "coordinates": {
-        "lat": -41.2677878,
-        "long": 174.757895
-      },
-      "dates": [
-        "2025-10-18-14:00",
-        "2025-11-01-14:00"
-      ],
-      "displayDate": "Sat 01 Nov",
-      "url": "https://wellingtonheritagefestival.co.nz/event/heritage-of-otari-wiltons-bush-the-gardens-and-gardeners",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "From forest to farm to internationally acclaimed native botanic garden - let us walk you through the fascinating story of \u014ctari-Wilton's Bush. Learn about the visionary people involved. Join us to hear the rich history of this special garden while enjoying the beautiful surroundings.\nAncient native forest and botanic garden excellence \u2014 uncover the unique history of \u014ctari-Wilton's Bush on this engaging tour. Join us and explore!\n",
-      "description": "From forest to farm to internationally acclaimed native botanic garden - let us walk you through the fascinating story of \u014ctari-Wilton's Bush.\nLearn about the visionary people involved.\nJoin us to hear the rich history of this special garden while enjoying the beautiful surroundings.\nAncient native forest and botanic garden excellence \u2014 uncover the unique history of \u014ctari-Wilton's Bush on this engaging tour.\nJoin us and explore!"
-    },
-    {
-      "id": "The History of Newtown's Green Belt-Newtown Community Centre, Rintoul Street & Colombo Street, Wellington-Wellington Heritage Festival",
-      "name": "The History of Newtown's Green Belt",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/0d9e4b9f1680f962cbc8549a9f8563bd/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 750w,/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/d41abad5d63fede10e2be99085b8e6f5/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 1080w,/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/030e4c7e3149d75cf3cc9fc9a3aa6004/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 1366w,/_gatsby/image/d2cf0aa13cdb635e406471d345d3cd82/c5534032605a4be48e8858948dbf434d/35._Hillside_2024.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7xMeoILbDnG9Rt7Nv2Mhar%2F6b1f91052ff3d3a99ffcdb3fa4e5108f%2F35._Hillside_2024.jpg&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A43%3A36.064Z 1920w",
-      "venue": "Newtown Community Centre, Rintoul Street & Colombo Street, Wellington",
-      "coordinates": {
-        "lat": 52.4990909,
-        "long": -1.8963634
-      },
-      "dates": [
-        "2025-10-30-19:00"
-      ],
-      "displayDate": "Thu 30 Oct",
-      "url": "https://wellingtonheritagefestival.co.nz/event/the-history-of-newtowns-green-belt",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "Tonight's talk will be hosted by local environmental artist Paul Forrest who weaves tales from his research about the heritage and history of our Newtown Green Belt hill range Te Ranga a Hiwi.\nTales of a Wellington hill range from 250 million years ago to the present day.\n",
-      "description": "Tonight's talk will be hosted by local environmental artist Paul Forrest who weaves tales from his research about the heritage and history of our Newtown Green Belt hill range Te Ranga a Hiwi.\nTales of a Wellington hill range from 250 million years ago to the present day."
     },
     {
       "id": "'The History of Newtown's Green Belt' walking tour-Kahukura Park. 177 Owen Street, Newtown-Wellington Heritage Festival",
@@ -637,25 +651,6 @@
       "description": "You may already know the SS Hikitia as one of the world's oldest floating steam cranes, but did you know that the crane still works?\nCome see a nearly 100-year-old steam crane in action!\nThe Hikitia and her crew will be operating a floating crane to showcase technology from the age of steam"
     },
     {
-      "id": "Halloween Film Night-12 Bruce Street, Masterton-Wellington Heritage Festival",
-      "name": "Halloween Film Night",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/3e1922a77a0abc3ba8151f55b74a4dd6/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-halloween-film-night.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FkpOnxFzP3xIPaqEAtGjoY%2F576ae967329913ed1294cea9999ce0c8%2Fcpr_2025-halloween-film-night.png&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-06T04%3A32%3A34.109Z 750w,/_gatsby/image/3e1922a77a0abc3ba8151f55b74a4dd6/5805be48bdc735b5b9e49dd29a4f950d/cpr_2025-halloween-film-night.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FkpOnxFzP3xIPaqEAtGjoY%2F576ae967329913ed1294cea9999ce0c8%2Fcpr_2025-halloween-film-night.png&a=w%3D966%26h%3D543%26fm%3Davif%26q%3D75&cd=2025-08-06T04%3A32%3A34.109Z 966w",
-      "venue": "12 Bruce Street, Masterton",
-      "coordinates": {
-        "lat": -40.9486276,
-        "long": 175.6650357
-      },
-      "dates": [
-        "2025-10-31-18:45"
-      ],
-      "displayDate": "Fri 31 Oct",
-      "url": "https://wellingtonheritagefestival.co.nz/event/halloween-film-night",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "\ud83c\udf83 Film Talks Presents: Halloween Film Night 2025\nThis Halloween, step into the shadows with Bride of Frankenstein\u2014a spine-tingling classic brought to life on the big screen.\n",
-      "description": "\ud83c\udf83 Film Talks Presents: Halloween Film Night 2025 This Halloween, step into the shadows with Bride of Frankenstein\u2014a spine-tingling classic brought to life on the big screen."
-    },
-    {
       "id": "Bodgies to Bogans-836 Fergusson Drive, Upper Hutt-Wellington Heritage Festival",
       "name": "Bodgies to Bogans",
       "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/b07785326180cc4e3b59ab2d7c6aa14f/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-bodgies-to-bogans.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1lEnYe4SSQie2Z58rMr4dC%2Ff1788524838540ad726740d62e172f0f%2Fcpr_2025-bodgies-to-bogans.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A12.511Z 750w,/_gatsby/image/b07785326180cc4e3b59ab2d7c6aa14f/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-bodgies-to-bogans.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1lEnYe4SSQie2Z58rMr4dC%2Ff1788524838540ad726740d62e172f0f%2Fcpr_2025-bodgies-to-bogans.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A12.511Z 1080w,/_gatsby/image/b07785326180cc4e3b59ab2d7c6aa14f/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-bodgies-to-bogans.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1lEnYe4SSQie2Z58rMr4dC%2Ff1788524838540ad726740d62e172f0f%2Fcpr_2025-bodgies-to-bogans.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A12.511Z 1366w,/_gatsby/image/b07785326180cc4e3b59ab2d7c6aa14f/c5534032605a4be48e8858948dbf434d/cpr_2025-bodgies-to-bogans.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1lEnYe4SSQie2Z58rMr4dC%2Ff1788524838540ad726740d62e172f0f%2Fcpr_2025-bodgies-to-bogans.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A12.511Z 1920w",
@@ -665,47 +660,24 @@
         "long": 175.0673817
       },
       "dates": [
-        "2025-10-28-01:08",
-        "2025-10-29-01:08",
-        "2025-10-30-01:08",
-        "2025-10-31-01:08",
-        "2025-11-01-01:08",
-        "2025-11-02-01:08",
-        "2025-11-03-01:08",
-        "2025-11-04-01:08",
-        "2025-11-05-01:08",
-        "2025-11-06-01:08",
-        "2025-11-07-01:08",
-        "2025-11-08-01:08"
+        "2025-10-29-01:49",
+        "2025-10-30-01:49",
+        "2025-10-31-01:49",
+        "2025-11-01-01:49",
+        "2025-11-02-01:49",
+        "2025-11-03-01:49",
+        "2025-11-04-01:49",
+        "2025-11-05-01:49",
+        "2025-11-06-01:49",
+        "2025-11-07-01:49",
+        "2025-11-08-01:49"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/bodgies-to-bogans",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
       "long_description": "Whether you were listening to rock and roll, riding motorcycles and drinking milk shakes at milk bars in the 50s or growing a mullet and thrashing out the leathers to heavy metal in the 80s, this exhibition documents the history of youth culture in Upper Hutt, and New Zealand.\n'Bodgies to Bogans' tells the story of the juvenile delinquencies and teenager rebellion of the 1950s to the Bogans of the 1980s.\n",
       "description": "Whether you were listening to rock and roll, riding motorcycles and drinking milk shakes at milk bars in the 50s or growing a mullet and thrashing out the leathers to heavy metal in the 80s, this exhibition documents the history of youth culture in Upper Hutt, and New Zealand.\n'Bodgies to Bogans' tells the story of the juvenile delinquencies and teenager rebellion of the 1950s to the Bogans of the 1980s."
-    },
-    {
-      "id": "Government House and grounds - Heritage tours-51 Hospital Road Entrance gate, Newtown, Wellington-Wellington Heritage Festival",
-      "name": "Government House and grounds - Heritage tours",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/c94c5ee7ac10bef9b1a4cedec431eb6b/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-government-house-and-grounds.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2hl1FPsT3cYJzAspcPppKL%2Ff0773947b4b4edb8f19f50bbfefeff3b%2Fcpr_2025-government-house-and-grounds.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A21.185Z 750w,/_gatsby/image/c94c5ee7ac10bef9b1a4cedec431eb6b/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-government-house-and-grounds.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2hl1FPsT3cYJzAspcPppKL%2Ff0773947b4b4edb8f19f50bbfefeff3b%2Fcpr_2025-government-house-and-grounds.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A21.185Z 1080w,/_gatsby/image/c94c5ee7ac10bef9b1a4cedec431eb6b/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-government-house-and-grounds.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2hl1FPsT3cYJzAspcPppKL%2Ff0773947b4b4edb8f19f50bbfefeff3b%2Fcpr_2025-government-house-and-grounds.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A21.185Z 1366w,/_gatsby/image/c94c5ee7ac10bef9b1a4cedec431eb6b/c5534032605a4be48e8858948dbf434d/cpr_2025-government-house-and-grounds.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F2hl1FPsT3cYJzAspcPppKL%2Ff0773947b4b4edb8f19f50bbfefeff3b%2Fcpr_2025-government-house-and-grounds.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A43%3A21.185Z 1920w",
-      "venue": "51 Hospital Road Entrance gate, Newtown, Wellington",
-      "coordinates": {
-        "lat": -41.3121104,
-        "long": 174.7815446
-      },
-      "dates": [
-        "2025-10-28-17:30",
-        "2025-10-29-10:00",
-        "2025-10-29-13:00",
-        "2025-10-29-17:30"
-      ],
-      "displayDate": "Wed 29 Oct + more",
-      "url": "https://wellingtonheritagefestival.co.nz/event/government-house-and-grounds-heritage-tours",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "Our visitor centre team will be running 2 hour public tours of the house and grounds with a specific heritage focus. We will be incorporating the pre-Government House history of the grounds, including the 1873 Mt View Lunatic Asylum. Specially curated heritage items will be on display in the house and visitor centre. \nGovernment House is the 1910 home of the Governor-General, and its site and buildings have a rich history. Guided tours include the house and gardens.\n",
-      "description": "Our visitor centre team will be running 2 hour public tours of the house and grounds with a specific heritage focus.\nWe will be incorporating the pre-Government House history of the grounds, including the 1873 Mt View Lunatic Asylum.\nSpecially curated heritage items will be on display in the house and visitor centre.\nGovernment House is the 1910 home of the Governor-General, and its site and buildings have a rich history.\nGuided tours include the house and gardens."
     },
     {
       "id": "Historic Christ Church Tait\u0101 Open Day-73 Eastern Hutt Road, Wingate, Lower Hutt-Wellington Heritage Festival",
@@ -736,20 +708,19 @@
         "long": 174.7801935
       },
       "dates": [
-        "2025-10-28-01:08",
-        "2025-10-29-01:08",
-        "2025-10-30-01:08",
-        "2025-10-31-01:08",
-        "2025-11-01-01:08",
-        "2025-11-02-01:08",
-        "2025-11-03-01:08",
-        "2025-11-04-01:08",
-        "2025-11-05-01:08",
-        "2025-11-06-01:08",
-        "2025-11-07-01:08",
-        "2025-11-08-01:08"
+        "2025-10-29-01:49",
+        "2025-10-30-01:49",
+        "2025-10-31-01:49",
+        "2025-11-01-01:49",
+        "2025-11-02-01:49",
+        "2025-11-03-01:49",
+        "2025-11-04-01:49",
+        "2025-11-05-01:49",
+        "2025-11-06-01:49",
+        "2025-11-07-01:49",
+        "2025-11-08-01:49"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/footsteps-of-change-the-parliamentary-precinct-trail",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -861,31 +832,12 @@
         "2025-11-08-10:00",
         "2025-11-09-10:00"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/exhibition-further-revelation-frances-hodgkins-and-british-modernism",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
       "long_description": "During this decade Hodgkins\u2019 work changed radically as she developed one of the most distinctive styles of British modernism. She joined the Seven & Five Society in 1929 which included like-minded artists with whom she felt an affinity. In this exhibition you can see Hodgkins\u2019 work alongside that of Cedric Morris, Christopher Wood and Ivon Hitchens, among others.\nExplore the work of expatriate artist Frances Hodgkins and her fellow British modernists of the 1920s and early 1930s.\n",
       "description": "During this decade Hodgkins\u2019 work changed radically as she developed one of the most distinctive styles of British modernism.\nShe joined the Seven & Five Society in 1929 which included like-minded artists with whom she felt an affinity.\nIn this exhibition you can see Hodgkins\u2019 work alongside that of Cedric Morris, Christopher Wood and Ivon Hitchens, among others.\nExplore the work of expatriate artist Frances Hodgkins and her fellow British modernists of the 1920s and early 1930s."
-    },
-    {
-      "id": "Wellington Writers Walk virtual tour-Zoom-Wellington Heritage Festival",
-      "name": "Wellington Writers Walk virtual tour",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/ab4ebb1748191a39228ae897f26f0d31/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-wellington-writers-walk-virtua.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4fywsZx5PHIxtnYIV20otS%2F3330b42c2c1e7077d5ecd48c2cf01732%2Fcpr_2025-wellington-writers-walk-virtua.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A45%3A34.045Z 750w,/_gatsby/image/ab4ebb1748191a39228ae897f26f0d31/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-wellington-writers-walk-virtua.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4fywsZx5PHIxtnYIV20otS%2F3330b42c2c1e7077d5ecd48c2cf01732%2Fcpr_2025-wellington-writers-walk-virtua.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A45%3A34.045Z 1080w,/_gatsby/image/ab4ebb1748191a39228ae897f26f0d31/116e3a1b0b74a290ddae1a43db197dc4/cpr_2025-wellington-writers-walk-virtua.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F4fywsZx5PHIxtnYIV20otS%2F3330b42c2c1e7077d5ecd48c2cf01732%2Fcpr_2025-wellington-writers-walk-virtua.webp&a=w%3D1296%26h%3D729%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A45%3A34.045Z 1296w",
-      "venue": "Zoom",
-      "coordinates": {
-        "lat": 37.3329622,
-        "long": -121.8950563
-      },
-      "dates": [
-        "2025-10-29-17:30"
-      ],
-      "displayDate": "Wed 29 Oct",
-      "url": "https://wellingtonheritagefestival.co.nz/event/wellington-writers-walk-virtual-tour",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "The much-loved Wellington Writers Walk consists of a series of 23 quotations from well-known New Zealand writers. This virtual tour, led by members of the Writers Walk committee, will provide an opportunity to find out more about its history, discover some of the sculptures and ask questions.\nExplore the iconic Wellington Writers Walk from home\n",
-      "description": "The much-loved Wellington Writers Walk consists of a series of 23 quotations from well-known New Zealand writers.\nThis virtual tour, led by members of the Writers Walk committee, will provide an opportunity to find out more about its history, discover some of the sculptures and ask questions.\nExplore the iconic Wellington Writers Walk from home"
     },
     {
       "id": "The Founding Families of St. Joseph's P\u0101uatahanui-85 Paremata Haywards Rd-Wellington Heritage Festival",
@@ -1009,7 +961,7 @@
         "2025-11-06-10:00",
         "2025-11-07-10:00"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/off-the-wall-an-exhibition-of-wallpapers-at-old-government-buildings",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -1105,20 +1057,19 @@
         "long": 174.7796728
       },
       "dates": [
-        "2025-10-28-01:08",
-        "2025-10-29-01:08",
-        "2025-10-30-01:08",
-        "2025-10-31-01:08",
-        "2025-11-01-01:08",
-        "2025-11-02-01:08",
-        "2025-11-03-01:08",
-        "2025-11-04-01:08",
-        "2025-11-05-01:08",
-        "2025-11-06-01:08",
-        "2025-11-07-01:08",
-        "2025-11-08-01:08"
+        "2025-10-29-01:49",
+        "2025-10-30-01:49",
+        "2025-10-31-01:49",
+        "2025-11-01-01:49",
+        "2025-11-02-01:49",
+        "2025-11-03-01:49",
+        "2025-11-04-01:49",
+        "2025-11-05-01:49",
+        "2025-11-06-01:49",
+        "2025-11-07-01:49",
+        "2025-11-08-01:49"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/newtown-images",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -1160,28 +1111,6 @@
       "eventType": "Community & Culture",
       "long_description": "\ud83c\udfac Waifilmfest Presents:\n\nNever Forgotten: The Marines of Masterton (2025)\n\nA debut feature documentary by local historian and filmmaker Mark Pacey\n\ud83d\udccd Circus Cinema, Restaurant & Bar, 30 Jellicoe Street, Martinborough\n\ud83d\uddd3\ufe0f Sunday 9 November 2025 \u00b7 \ud83d\udd52 3:15 PM\n\ud83c\udf9f\ufe0f \nCinema Tickets: Adults: $18, Seniors/Students: $15, Children: $13 \n \u00b7 Q&A with Mark Pacey to follow\n\nNever Forgotten uncovers the moving, untold story of the U.S. Marines stationed in Masterton during World War II. Through interviews, personal stories, and rich archival material, local historian and filmmaker Mark Pacey brings to life a unique chapter in Wairarapa\u2019s wartime history\u2014and the deep bonds formed between the soldiers and the community.\nUncover a hidden chapter of Wairarapa\u2019s wartime past in Never Forgotten, a powerful debut documentary revealing the story of the U.S. Marines in Masterton.\n",
       "description": "\ud83c\udfac Waifilmfest Presents: Never Forgotten: The Marines of Masterton (2025) A debut feature documentary by local historian and filmmaker Mark Pacey \ud83d\udccd Circus Cinema, Restaurant & Bar, 30 Jellicoe Street, Martinborough \ud83d\uddd3\ufe0f Sunday 9 November 2025 \u00b7 \ud83d\udd52 3:15 PM \ud83c\udf9f\ufe0f Cinema Tickets: Adults: $18, Seniors/Students: $15, Children: $13 \u00b7 Q&A with Mark Pacey to follow Never Forgotten uncovers the moving, untold story of the U.S. Marines stationed in Masterton during World War II.\nThrough interviews, personal stories, and rich archival material, local historian and filmmaker Mark Pacey brings to life a unique chapter in Wairarapa\u2019s wartime history\u2014and the deep bonds formed between the soldiers and the community.\nUncover a hidden chapter of Wairarapa\u2019s wartime past in Never Forgotten, a powerful debut documentary revealing the story of the U.S. Marines in Masterton."
-    },
-    {
-      "id": "Wellington City Council Archives Tour and talk-28 Barker Street, Te Aro, Wellington-Wellington Heritage Festival",
-      "name": "Wellington City Council Archives Tour and talk",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/f75e430e6659da903a67c459f9664689/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 750w,/_gatsby/image/f75e430e6659da903a67c459f9664689/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 1080w,/_gatsby/image/f75e430e6659da903a67c459f9664689/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 1366w,/_gatsby/image/f75e430e6659da903a67c459f9664689/c5534032605a4be48e8858948dbf434d/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 1920w",
-      "venue": "28 Barker Street, Te Aro, Wellington",
-      "coordinates": {
-        "lat": -41.2981005,
-        "long": 174.7795919
-      },
-      "dates": [
-        "2025-10-23-10:00",
-        "2025-10-24-10:00",
-        "2025-10-30-10:00",
-        "2025-10-31-10:00"
-      ],
-      "displayDate": "Thu 30 Oct + more",
-      "url": "https://wellingtonheritagefestival.co.nz/event/wellington-city-council-archives-tour-and-talk",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "Come along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour. \nCome along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour.\n",
-      "description": "Come along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour.\nCome along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour."
     },
     {
       "id": "Freemasons in Wellington \u2013 from 1842 to the Wellesley Building-The Wellesley Hotel, 2-8 Maginnity St, Wellington 6011-Wellington Heritage Festival",
@@ -1348,7 +1277,7 @@
         "2025-11-08-10:30",
         "2025-11-09-10:30"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/wellington-maritime-sail-heritage-exhibition",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -1451,7 +1380,7 @@
         "2025-11-09-10:00",
         "2025-11-09-13:00"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/welcome-to-wellington-tour",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -1512,7 +1441,7 @@
         "2025-11-09-11:00",
         "2025-11-09-14:00"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/cant-beat-welly-on-a-good-day-tour",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -1572,7 +1501,7 @@
         "2025-11-09-12:00",
         "2025-11-09-15:00"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/spill-the-tea-tour",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -1626,25 +1555,6 @@
       "description": "Three thirty minute tours will be offered over the course of each morning.\nEach tour will include information about the history of the building, the meanings behind the stained glass windows, and the significance of the site as an ongoing place of worship for the wider Compassion community.\nJoin us for a tour of the newly listed Category 1 Historic Place, The Chapel of Our Lady of Compassion and Resting Place of Meri H\u014dhepa Suzanne Aubert."
     },
     {
-      "id": "Porirua Libraries - Public talk-Pa\u0304\u0304\u0304\u0304taka, corner of Norrie and Parumoana Streets, Porirua City -Wellington Heritage Festival",
-      "name": "Porirua Libraries - Public talk",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/19765becb6fbcea3fe6428ab546e9b4b/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-public-talk.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3c5UGhzFiG6e7WgXzxPWZW%2F78a569bab3dfd0bca039d03ee26ef1cc%2Fcpr_2025-public-talk.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A45.279Z 750w,/_gatsby/image/19765becb6fbcea3fe6428ab546e9b4b/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-public-talk.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3c5UGhzFiG6e7WgXzxPWZW%2F78a569bab3dfd0bca039d03ee26ef1cc%2Fcpr_2025-public-talk.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A45.279Z 1080w,/_gatsby/image/19765becb6fbcea3fe6428ab546e9b4b/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-public-talk.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3c5UGhzFiG6e7WgXzxPWZW%2F78a569bab3dfd0bca039d03ee26ef1cc%2Fcpr_2025-public-talk.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A45.279Z 1366w,/_gatsby/image/19765becb6fbcea3fe6428ab546e9b4b/c5534032605a4be48e8858948dbf434d/cpr_2025-public-talk.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3c5UGhzFiG6e7WgXzxPWZW%2F78a569bab3dfd0bca039d03ee26ef1cc%2Fcpr_2025-public-talk.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A45.279Z 1920w",
-      "venue": "Pa\u0304\u0304\u0304\u0304taka, corner of Norrie and Parumoana Streets, Porirua City ",
-      "coordinates": {
-        "lat": -39.039714,
-        "long": 174.6684941
-      },
-      "dates": [
-        "2025-10-29-13:30"
-      ],
-      "displayDate": "Wed 29 Oct",
-      "url": "https://wellingtonheritagefestival.co.nz/event/porirua-libraries-public-talk",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "Local historian Allan Dodson has been involved in many projects that have required researching information about Porirua's history. His talk will focus on these projects and the research resources he discovered; he will also discuss issues around making information publicly available through social media.\nResearching heritage can be described as going down a rabbit hole. Join Porirua's local historian Allan Dodson who will be sharing his research experiences.\n",
-      "description": "Local historian Allan Dodson has been involved in many projects that have required researching information about Porirua's history.\nHis talk will focus on these projects and the research resources he discovered; he will also discuss issues around making information publicly available through social media.\nResearching heritage can be described as going down a rabbit hole.\nJoin Porirua's local historian Allan Dodson who will be sharing his research experiences."
-    },
-    {
       "id": "Porirua Libraries - Sharing Stories-Pa\u0304\u0304\u0304\u0304taka, corner of Norrie and Parumoana Streets, Porirua City-Wellington Heritage Festival",
       "name": "Porirua Libraries - Sharing Stories",
       "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/266bfd885100a0e731ec90fae1fd6b1f/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-sharing-stories.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FOxDWw1hoiKBFuXgBIr1gb%2F5698d929973fd82cadd2b66d7581cca5%2Fcpr_2025-sharing-stories.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A52.152Z 750w,/_gatsby/image/266bfd885100a0e731ec90fae1fd6b1f/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-sharing-stories.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FOxDWw1hoiKBFuXgBIr1gb%2F5698d929973fd82cadd2b66d7581cca5%2Fcpr_2025-sharing-stories.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A52.152Z 1080w,/_gatsby/image/266bfd885100a0e731ec90fae1fd6b1f/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-sharing-stories.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FOxDWw1hoiKBFuXgBIr1gb%2F5698d929973fd82cadd2b66d7581cca5%2Fcpr_2025-sharing-stories.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A52.152Z 1366w,/_gatsby/image/266bfd885100a0e731ec90fae1fd6b1f/c5534032605a4be48e8858948dbf434d/cpr_2025-sharing-stories.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FOxDWw1hoiKBFuXgBIr1gb%2F5698d929973fd82cadd2b66d7581cca5%2Fcpr_2025-sharing-stories.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A53%3A52.152Z 1920w",
@@ -1684,25 +1594,6 @@
       "eventType": "Community & Culture",
       "long_description": "Come to the Old Jail Museum \u2013 a well-preserved former lockup. See an exhibition on Policing in Petone from 1840.\nDid you know Petone was the first place in New Zealand to have a Police force?  Find out about this and other interesting Petone stories in the Old Jail Museum.\n",
       "description": "Come to the Old Jail Museum \u2013 a well-preserved former lockup.\nSee an exhibition on Policing in Petone from 1840.\nDid you know Petone was the first place in New Zealand to have a Police force?\nFind out about this and other interesting Petone stories in the Old Jail Museum."
-    },
-    {
-      "id": "\"The Petone Beat\" - Policing in Petone since 1840-274B Jackson Street, Petone 5012-Wellington Heritage Festival",
-      "name": "\"The Petone Beat\" - Policing in Petone since 1840",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/174cc213d979676881023ac02e602f0e/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025--the-petone-beat-policing-i.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1JmmsfYLPyEFMRSLoLZBcj%2F6b45e781c61bf2de6ac607f143f28f5f%2Fcpr_2025--the-petone-beat-policing-i.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A54%3A07.350Z 750w,/_gatsby/image/174cc213d979676881023ac02e602f0e/d41abad5d63fede10e2be99085b8e6f5/cpr_2025--the-petone-beat-policing-i.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1JmmsfYLPyEFMRSLoLZBcj%2F6b45e781c61bf2de6ac607f143f28f5f%2Fcpr_2025--the-petone-beat-policing-i.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A54%3A07.350Z 1080w,/_gatsby/image/174cc213d979676881023ac02e602f0e/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025--the-petone-beat-policing-i.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1JmmsfYLPyEFMRSLoLZBcj%2F6b45e781c61bf2de6ac607f143f28f5f%2Fcpr_2025--the-petone-beat-policing-i.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A54%3A07.350Z 1366w,/_gatsby/image/174cc213d979676881023ac02e602f0e/c5534032605a4be48e8858948dbf434d/cpr_2025--the-petone-beat-policing-i.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F1JmmsfYLPyEFMRSLoLZBcj%2F6b45e781c61bf2de6ac607f143f28f5f%2Fcpr_2025--the-petone-beat-policing-i.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A54%3A07.350Z 1920w",
-      "venue": "274B Jackson Street, Petone 5012",
-      "coordinates": {
-        "lat": -41.2259654,
-        "long": 174.8802183
-      },
-      "dates": [
-        "2025-10-29-10:00"
-      ],
-      "displayDate": "Wed 29 Oct",
-      "url": "https://wellingtonheritagefestival.co.nz/event/the-petone-beat-policing-in-petone-since-1840-25",
-      "source": "Wellington Heritage Festival",
-      "eventType": "Community & Culture",
-      "long_description": "Our Heritage Officer will be giving a talk on the history of the Police in Petone since 1840 until today!  You'll then be able to do a self-tour of the Old Jail Museum.\nDid you know Petone was the first place in New Zealand to have a Police force?  Come and hear about this, and it's significance in New Zealand's  history.\n",
-      "description": "Our Heritage Officer will be giving a talk on the history of the Police in Petone since 1840 until today!\nYou'll then be able to do a self-tour of the Old Jail Museum.\nDid you know Petone was the first place in New Zealand to have a Police force?\nCome and hear about this, and it's significance in New Zealand's  history."
     },
     {
       "id": "Hutt Heritage Centre Open Day-Walter Nash Centre, Taine Street, Tait\u0101, Lower Hutt 5011-Wellington Heritage Festival",
@@ -1968,7 +1859,7 @@
         "2025-11-06-07:15",
         "2025-11-07-07:15"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/kai-tahi-porirua-past-to-present",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -2082,20 +1973,19 @@
         "long": 175.3241308
       },
       "dates": [
-        "2025-10-28-01:08",
-        "2025-10-29-01:08",
-        "2025-10-30-01:08",
-        "2025-10-31-01:08",
-        "2025-11-01-01:08",
-        "2025-11-02-01:08",
-        "2025-11-03-01:08",
-        "2025-11-04-01:08",
-        "2025-11-05-01:08",
-        "2025-11-06-01:08",
-        "2025-11-07-01:08",
-        "2025-11-08-01:08"
+        "2025-10-29-01:49",
+        "2025-10-30-01:49",
+        "2025-10-31-01:49",
+        "2025-11-01-01:49",
+        "2025-11-02-01:49",
+        "2025-11-03-01:49",
+        "2025-11-04-01:49",
+        "2025-11-05-01:49",
+        "2025-11-06-01:49",
+        "2025-11-07-01:49",
+        "2025-11-08-01:49"
       ],
-      "displayDate": "Wed 29 Oct + more",
+      "displayDate": "Thu 30 Oct + more",
       "url": "https://wellingtonheritagefestival.co.nz/event/historic-featherston-stories-trail",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -2533,7 +2423,7 @@
       "dates": [
         "2025-11-08-10:00"
       ],
-      "displayDate": "Sat 08 Nov + more",
+      "displayDate": "Sat 08 Nov",
       "url": "https://wellingtonheritagefestival.co.nz/event/soldier-stories-walk",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
@@ -2577,6 +2467,26 @@
       "eventType": "Community & Culture",
       "long_description": "Chinese Footprints, led by Lynette Shum (Oral History Advisor, Alexander Turnbull Library), will take attendees on a walking tour exploring the rich history of the Chinese in Wellington, much of which has been erased and is now largely invisible to passers-by.\nJoin Lynette Shum (Oral History Advisor, Alexander Turnbull Library) to discover the rich history of P\u014dneke's Chinese community.\n",
       "description": "Chinese Footprints, led by Lynette Shum (Oral History Advisor, Alexander Turnbull Library), will take attendees on a walking tour exploring the rich history of the Chinese in Wellington, much of which has been erased and is now largely invisible to passers-by.\nJoin Lynette Shum (Oral History Advisor, Alexander Turnbull Library) to discover the rich history of P\u014dneke's Chinese community."
+    },
+    {
+      "id": "Halfway House Heritage Garden Walk & Talk-Halfway House, Glenside Reserve, 246 Middleton Road Glenside-Wellington Heritage Festival",
+      "name": "Halfway House Heritage Garden Walk & Talk",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/0d9e4b9f1680f962cbc8549a9f8563bd/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 750w,/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/d41abad5d63fede10e2be99085b8e6f5/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 1080w,/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/030e4c7e3149d75cf3cc9fc9a3aa6004/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 1366w,/_gatsby/image/ec041bf6084a76b8717b9c92a9dfcf84/c5534032605a4be48e8858948dbf434d/half%20way%20house%20heritage.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7H6RBPS9gRBMB65qGIJtkM%2Fbde9f3975fbe4ca91c6f50a5239ff366%2Fhalf_way_house_heritage.jpg&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-08-03T10%3A53%3A09.211Z 1920w",
+      "venue": "Halfway House, Glenside Reserve, 246 Middleton Road Glenside",
+      "coordinates": {
+        "lat": 40.2850964,
+        "long": -75.6407408
+      },
+      "dates": [
+        "2025-10-26-13:00",
+        "2025-11-02-13:00"
+      ],
+      "displayDate": "Sun 02 Nov",
+      "url": "https://wellingtonheritagefestival.co.nz/event/halfway-house-heritage-garden-walk-talk",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "Discover the veges, fruit and flowers once planted by early settlers in the days when travellers along the old road to Porirua stopped for meals and accommodation at the Halfway House, the halfway mark of their journey. Bring coins to buy heritage seeds and plants. Places for 25 adults. Children free.\nA guided walk of history, heritage and plants in the historic Halfway House garden at Glenside, halfway along the original road between Wellington and Porirua.\n",
+      "description": "Discover the veges, fruit and flowers once planted by early settlers in the days when travellers along the old road to Porirua stopped for meals and accommodation at the Halfway House, the halfway mark of their journey.\nBring coins to buy heritage seeds and plants.\nPlaces for 25 adults.\nChildren free.\nA guided walk of history, heritage and plants in the historic Halfway House garden at Glenside, halfway along the original road between Wellington and Porirua."
     },
     {
       "id": "Pie and a Pint - Sacred Walks-90 Ghuznee Street, Te Aro, Wellington-Wellington Heritage Festival",
@@ -2636,6 +2546,28 @@
       "description": "Speakers share stories about the building, its history, its people and its contents.\nCome and listen and perhaps share your story.\nAll welcome.\nForum speakers tell personal heritage stories about St Peter's."
     },
     {
+      "id": "Wellington City Council Archives Tour and talk-28 Barker Street, Te Aro, Wellington-Wellington Heritage Festival",
+      "name": "Wellington City Council Archives Tour and talk",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/f75e430e6659da903a67c459f9664689/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 750w,/_gatsby/image/f75e430e6659da903a67c459f9664689/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 1080w,/_gatsby/image/f75e430e6659da903a67c459f9664689/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 1366w,/_gatsby/image/f75e430e6659da903a67c459f9664689/c5534032605a4be48e8858948dbf434d/cpr_2025-wellington-city-council-archiv.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2FcQKwaAmP5Q3ZB5vXjHOJH%2Fe6f3c8724f96abf94bd9c56d64749ea1%2Fcpr_2025-wellington-city-council-archiv.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-07-31T05%3A48%3A59.512Z 1920w",
+      "venue": "28 Barker Street, Te Aro, Wellington",
+      "coordinates": {
+        "lat": -41.2981005,
+        "long": 174.7795919
+      },
+      "dates": [
+        "2025-10-23-10:00",
+        "2025-10-24-10:00",
+        "2025-10-30-10:00",
+        "2025-10-31-10:00"
+      ],
+      "displayDate": "Thu 30 Oct + more",
+      "url": "https://wellingtonheritagefestival.co.nz/event/wellington-city-council-archives-tour-and-talk",
+      "source": "Wellington Heritage Festival",
+      "eventType": "Community & Culture",
+      "long_description": "Come along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour. \nCome along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour.\n",
+      "description": "Come along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour.\nCome along to Wellington City Archives for an insightful talk about our collections followed by a behind the scenes tour."
+    },
+    {
       "id": "All Aboard - An Afternoon of Heritage Enchantment-Tauwharenikau, Featherston-Wellington Heritage Festival",
       "name": "All Aboard - An Afternoon of Heritage Enchantment",
       "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/1893cb6569897626580e062f23c4871f/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-all-aboard-an-afternoon-of-h.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3xIQE5QnB5RlZHgrQnrDGj%2F61b23d3fc432b012262a7421da62bab0%2Fcpr_2025-all-aboard-an-afternoon-of-h.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-09-05T02%3A38%3A32.349Z 750w,/_gatsby/image/1893cb6569897626580e062f23c4871f/de8783876d5e84c941050285e3941f63/cpr_2025-all-aboard-an-afternoon-of-h.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F3xIQE5QnB5RlZHgrQnrDGj%2F61b23d3fc432b012262a7421da62bab0%2Fcpr_2025-all-aboard-an-afternoon-of-h.webp&a=w%3D1065%26h%3D599%26fm%3Davif%26q%3D75&cd=2025-09-05T02%3A38%3A32.349Z 1065w",
@@ -2674,23 +2606,23 @@
       "description": "Join us for a guided look at how we digitise our photo collections\u2014from choosing what to preserve, to the tools and techniques we use.\nSee how we protect the past while making it accessible for wh\u0101nau, researchers, and the whole community.\nEver wondered how historic photos are preserved for future generations?\nStep behind the scenes at the Wairarapa Archive and find out!"
     },
     {
-      "id": "A Heritage Tour of Wairarapa Moana-Wairarapa Moana-Wellington Heritage Festival",
-      "name": "A Heritage Tour of Wairarapa Moana",
-      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/0d9e4b9f1680f962cbc8549a9f8563bd/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D750%26h%3D422%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 750w,/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/d41abad5d63fede10e2be99085b8e6f5/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D1080%26h%3D608%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 1080w,/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/030e4c7e3149d75cf3cc9fc9a3aa6004/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D1366%26h%3D768%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 1366w,/_gatsby/image/7ab85f5aea16af57e20a49fc45a14276/c5534032605a4be48e8858948dbf434d/cpr_2025-a-heritage-tour-of-wairarapa-m.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F7zrZKhMWekremOeA4IkRSG%2Fb000ba46bd7aac7b6d9f83638941114d%2Fcpr_2025-a-heritage-tour-of-wairarapa-m.webp&a=w%3D1920%26h%3D1080%26fm%3Davif%26q%3D75&cd=2025-10-21T02%3A32%3A02.473Z 1920w",
-      "venue": "Wairarapa Moana",
+      "id": "Kotahi Armistice - Historic Birthday Celebration-248 Middleton Road, Glenside-Wellington Heritage Festival",
+      "name": "Kotahi Armistice - Historic Birthday Celebration",
+      "imageUrl": "https://wellingtonheritagefestival.co.nz/_gatsby/image/5bf8de58324312df29742a624cbf54ae/1322e4f2043df289f848ce975f0a9f5e/cpr_2025-kotahi-armistice.avif?u=https%3A%2F%2Fimages.ctfassets.net%2Fopa1za8wq081%2F5WH29mB8QvPtcXsncuuux6%2F4809c0aa0b55cbcc1265571b03b73754%2Fcpr_2025-kotahi-armistice.webp&a=w%3D596%26h%3D335%26fm%3Davif%26q%3D75&cd=2025-10-28T22%3A18%3A25.899Z 596w",
+      "venue": "248 Middleton Road, Glenside",
       "coordinates": {
-        "lat": -41.2006706,
-        "long": 175.3150317
+        "lat": -41.2061809,
+        "long": 174.8135327
       },
       "dates": [
-        "2025-11-01-09:00"
+        "2025-11-09-13:00"
       ],
-      "displayDate": "Sat 01 Nov",
-      "url": "https://wellingtonheritagefestival.co.nz/event/a-heritage-tour-of-wairarapa-moana",
+      "displayDate": "Sun 09 Nov",
+      "url": "https://wellingtonheritagefestival.co.nz/event/kotahi-armistice",
       "source": "Wellington Heritage Festival",
       "eventType": "Community & Culture",
-      "long_description": "Lake Wairarapa is a place where people traditionally gathered. They left footprints or evidence and we found them through archaeology. Come and see how Wairarapa Moana cared for the basic needs of its people.\nJoin us on a bus tour around Wairarapa Moana, exploring key sites of importance to mana whenua.\n",
-      "description": "Lake Wairarapa is a place where people traditionally gathered.\nThey left footprints or evidence and we found them through archaeology.\nCome and see how Wairarapa Moana cared for the basic needs of its people.\nJoin us on a bus tour around Wairarapa Moana, exploring key sites of importance to mana whenua."
+      "long_description": "An historic birthday party for our pack leader Kotahi with Armistice Day celebrations, old-fashioned games, food and drinks available (fundraising for the Purple Poppy Appeal) and historic local war memorabilia on display.  The event is held in partnership with Challenge 2000 and the local RSA.\nThe name of our Kotahi means oneness and unity, making this a perfect moment to honour both Kotahi, world peace and the role horses have played in our local history.\n",
+      "description": "An historic birthday party for our pack leader Kotahi with Armistice Day celebrations, old-fashioned games, food and drinks available (fundraising for the Purple Poppy Appeal) and historic local war memorabilia on display.\nThe event is held in partnership with Challenge 2000 and the local RSA.\nThe name of our Kotahi means oneness and unity, making this a perfect moment to honour both Kotahi, world peace and the role horses have played in our local history."
     },
     {
       "id": "Pumpkin Cottage Artists and Early Silverstream: a digital tour-Whirinaki Whare Taonga, 836 Fergusson Drive, Upper Hutt-Wellington Heritage Festival",
