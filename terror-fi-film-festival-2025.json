@@ -1,44 +1,6 @@
 {
   "events": [
     {
-      "id": "TFi - Blind Panic-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - Blind Panic",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_3c337a76-51c0-4d3a-a642-36543bbb12b8.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-10-31-18:15"
-      ],
-      "displayDate": "Fri 31 Oct",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-blind-panic",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\nDirected by Mark Willis\nStarring Ralph Johnson, Erroll Shand, Jodie Hillock, Simon Phillips\nWorld Premiere + Q&A\n\nThis homegrown gem is a love letter to crime thrillers, keeping you on the edge of your seat all the way.\n\nBe the first in the world to see this Terror-Fi exclusive! This screening will be followed by a special Q&A.\n\n-- It is 1992. Louis is released on home detention after serving six years for his involvement in a botched heist. Trapped in suburbia, he fears he is now a sitting duck with his psychotic ex-boss, Prescott, on the hunt for some missing money, and the person responsible. A few doors away lives Madeleine, a blind woman, once vibrant and outgoing, but now fearful even to step out the front door. As Madeleine takes her first steps to re-connect with the outside world, she meets her new neighbour. Though nervous around new people, and oblivious to Louis\u2019 circumstances, a friendship develops. A heat wave engulfs the neighbourhood, and things heat up between the two. But Madeleine soon finds herself caught up in Louis\u2019 past, and in an impossible predicament: Bound, gagged and alone, while Prescott draws closer and closer... --\n\nGenre: Thriller, Crime",
-      "description": "Be the first in the world to see this Terror-Fi exclusive!\nThis screening will be followed by a special Q&A.\n-- It is 1992.\nLouis is released on home detention after serving six years for his involvement in a botched heist.\nTrapped in suburbia, he fears he is now a sitting duck with his psychotic ex-boss, Prescott, on the hunt for some missing money, and the person responsible."
-    },
-    {
-      "id": "TFi - Deathgasm II: Goremageddon-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - Deathgasm II: Goremageddon",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_8faf88cc-c7c7-4b94-874a-816a2c56d230.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-10-31-20:30"
-      ],
-      "displayDate": "Fri 31 Oct",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-deathgasm-ii-goremageddon",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\nDirected by Jason Lei Howden\nStarring Milo Cawthorne, Kimberley Crossman, Joshua Blake\nNZ Premiere + Q&A\n\nThe sequel to the cult Kiwi splatter-metal classic is finally here! Let's enjoy the blood-soaked carnage together. We'll crank this one up to 11 for ya!\n\n\"...brings the metal, drowns viewers in spectacularly sloppy violence, and does so with a mischievous smile.\" - Matt Donato, Daily Dread\n\nThis Terror-Fi exclusive will be your only chance to see the film in a cinema!\n\n-- Brodie is washed-up, broke, and stuck in small-town purgatory. But when he learns that 'NoizeQuest', a battle-of-the-bands competition is coming to his town, he sees a shot at redemption - and maybe even a second chance with Medina. One problem: his drummer is missing an arm, and the rest of his band is, well... dead. Luckily, Brodie still has the pages of The Black Hymn, so raising his bandmates from the great beyond is just a riff away. But with every chord comes blood, guts, and the kind of apocalyptic chaos only DEATHGASM can unleash. --\n\nFestivals: Fantastic Fest 25, Monster Fest 25\n\nGenre: Horror, Comedy",
-      "description": "Details Directed by Jason Lei Howden Starring Milo Cawthorne, Kimberley Crossman, Joshua Blake NZ Premiere + Q&A The sequel to the cult Kiwi splatter-metal classic is finally here!\nLet's enjoy the blood-soaked carnage together.\nWe'll crank this one up to 11 for ya!\n\"...brings the metal, drowns viewers in spectacularly sloppy violence, and does so with a mischievous smile.\"\n- Matt Donato, Daily Dread This Terror-Fi exclusive will be your only chance to see the film in a cinema!"
-    },
-    {
       "id": "TFi - Flush-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "TFi - Flush",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_e7ae5e64-386d-4ed2-be53-5b2b4a541919.jpg",
