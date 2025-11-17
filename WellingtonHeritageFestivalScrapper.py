@@ -35,7 +35,10 @@ class WellingtonHeritageFestivalScrapper:
         data = response.json()
         events_json_list = data["result"]["data"]["allContentfulEvent"]["nodes"]
         message_json = json.loads(data["result"]["data"]["contentfulLandingPage"]["content"]["raw"])
-        dates_message = message_json["content"][0]["content"][1]["value"]
+        try:
+            dates_message = message_json["content"][0]["content"][1]["value"]
+        except:
+            return []
         start_date_string, end_date_string = dates_message.split(" until the ")
         start_date, end_date = parser.parse(start_date_string + " 1:01AM"), parser.parse(end_date_string + " 1:01AM")
         if datetime.now() > end_date:
