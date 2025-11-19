@@ -146,25 +146,6 @@
       "description": "Details --- Gloria!\ntells the story of Teresa, a young woman with a visionary talent who, together with a small group of extraordinary musicians, crosses centuries and challenges the dusty old world of classical music by inventing rebellious, modern music.\n--- Italian with English subtitles"
     },
     {
-      "id": "IFF - Gloria! - Opening Night-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Gloria! - Opening Night",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_a33395cc-66ee-4808-8037-87ec4c69909b.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-11-19-19:30"
-      ],
-      "displayDate": "Wed 19 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/iff-gloria-opening-night",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Gloria! tells the story of Teresa, a young woman with a visionary talent who, together with a small group of extraordinary musicians, crosses centuries and challenges the dusty old world of classical music by inventing rebellious, modern music. ---\n\nItalian with English subtitles\n\nOpening night tickets $30. Includes Peroni, San Pellegrino, JK14 Prosecco, Pizza from Bongusto.\n\nArrivals from 6:45pm for 7:30pm film screening.",
-      "description": "Details --- Gloria!\ntells the story of Teresa, a young woman with a visionary talent who, together with a small group of extraordinary musicians, crosses centuries and challenges the dusty old world of classical music by inventing rebellious, modern music.\n--- Italian with English subtitles Opening night tickets $30.\nIncludes Peroni, San Pellegrino, JK14 Prosecco, Pizza from Bongusto.\nArrivals from 6:45pm for 7:30pm film screening."
-    },
-    {
       "id": "IFF - Gospel According to Mary-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - Gospel According to Mary",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_8124c0f1-87f3-4973-ac2b-a1fa0b855e86.jpg",
