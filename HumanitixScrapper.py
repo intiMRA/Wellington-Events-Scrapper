@@ -115,11 +115,10 @@ class HumanitixScrapper:
             print("cat: ", category, " ", categoryName)
             page = 0
             while True:
-                url = f'https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463&page={page}&categories={category}'
+
+                url = f'https://humanitix.com/nz/search/nz--wellington-region--wellington?countryAndLocation=nz--wellington-region--wellington&page={page}&categories={category}'
                 driver.get(url)
                 sleep(random.uniform(1, 2))
-                _ = WebDriverWait(driver, 10, poll_frequency=1).until(
-                    ec.presence_of_element_located((By.XPATH, f"//button[contains(., '{categoryName}')]")))
                 height = driver.execute_script("return document.body.scrollHeight")
                 scrolled_amount = 0
                 while True:
