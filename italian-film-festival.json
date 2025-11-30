@@ -21,25 +21,6 @@
       "description": "Details --- After 40 years of teaching in a metropolitan Roman school, Michele starts a new life in a remote village high in the Abruzzi Mountains.\nHe must overcome his urban inadequacy, make friends, and embark on a race against time to save the school he comes to love.\n--- Italian with English subtitles"
     },
     {
-      "id": "IFF - An Ode to Naples-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - An Ode to Naples",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_01402e7b-02db-46de-829a-94199add41ac.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-11-28-18:00"
-      ],
-      "displayDate": "Fri 28 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/iff-an-ode-to-naples",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Trudie Styler reveals and unmasks Napoli through the eyes of Neapolitans. A fascinating and stunning glimpse into an ancient city of culture, chaos, and contrast. ---\n\nItalian and English with subtitles",
-      "description": "Details --- Trudie Styler reveals and unmasks Napoli through the eyes of Neapolitans.\nA fascinating and stunning glimpse into an ancient city of culture, chaos, and contrast.\n--- Italian and English with subtitles"
-    },
-    {
       "id": "IFF - An Ode to Naples - Special Event-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - An Ode to Naples - Special Event",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_d89f454e-296d-4047-82c5-ec2e3b070f73.jpg",
@@ -98,25 +79,6 @@
       "description": "Details --- The true story of Comandante Salvatore Todaro, Captain of an Italian Royal Navy submarine.\nWhen Todaro sinks an enemy ship, he reaches a decision that is destined to make history: putting his crew at huge risk he decides to rescue the 26 survivors.\n--- Italian, English subtitles"
     },
     {
-      "id": "IFF - Family Matters-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Family Matters",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_1f546fed-112f-461c-bfeb-161500317b7f.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-11-30-15:30"
-      ],
-      "displayDate": "Sun 30 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/iff-family-matters",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Six adults, who all share the same father, gather for the first time in their father\u2019s house in Bordeaux for the reading of their father\u2019s will. For a time, they experience the illusion of being a united family, but each brings an entirely different story, identity, and perspective on their father. ---\n\nItalian with English subtitles",
-      "description": "Details --- Six adults, who all share the same father, gather for the first time in their father\u2019s house in Bordeaux for the reading of their father\u2019s will.\nFor a time, they experience the illusion of being a united family, but each brings an entirely different story, identity, and perspective on their father.\n--- Italian with English subtitles"
-    },
-    {
       "id": "IFF - Gloria!-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - Gloria!",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b2620b5c-1226-4f74-aa89-834069f0801f.jpg",
@@ -166,11 +128,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-30-10:30",
-        "2025-12-07-10:30",
-        "2025-12-14-10:30"
+        "2025-12-07-12:45",
+        "2025-12-14-12:45"
       ],
-      "displayDate": "Sun 30 Nov + more",
+      "displayDate": "Sun 07 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-il-boemo",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -187,12 +148,11 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-29-17:30",
-        "2025-12-07-17:30",
-        "2025-12-11-17:30",
-        "2025-12-14-17:30"
+        "2025-12-07-10:30",
+        "2025-12-11-10:30",
+        "2025-12-14-10:30"
       ],
-      "displayDate": "Sat 29 Nov + more",
+      "displayDate": "Sun 07 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-il-postino",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -230,11 +190,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-29-15:15",
-        "2025-12-05-15:15",
-        "2025-12-12-15:15"
+        "2025-12-05-18:00",
+        "2025-12-12-18:00"
       ],
-      "displayDate": "Sat 29 Nov + more",
+      "displayDate": "Fri 05 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-limmensit",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -251,11 +210,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-29-10:30",
         "2025-12-04-10:30",
         "2025-12-11-10:30"
       ],
-      "displayDate": "Sat 29 Nov + more",
+      "displayDate": "Thu 04 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-lifes-a-beach",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -311,10 +269,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-28-20:15",
-        "2025-12-05-20:15"
+        "2025-12-05-10:30"
       ],
-      "displayDate": "Fri 28 Nov + more",
+      "displayDate": "Fri 05 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-my-killer-buddy",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -343,25 +300,6 @@
       "description": "Details --- Parthenope was the mythical Siren who founded Naples.\nWe follow the beautiful woman who bears the name of her city on a decades-long journey searching for happiness during the long summers of her youth, falling in love and meeting the many memorable characters as she becomes a formidable woman.\n--- Italian with English subtitles"
     },
     {
-      "id": "IFF - Parthenope - Special Event-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Parthenope - Special Event",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_19dbcbaa-9717-4e48-b063-f9e51cb02b63.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-11-29-19:45"
-      ],
-      "displayDate": "Sat 29 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/iff-parthenope-special-event",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Parthenope was the mythical Siren who founded Naples. We follow the beautiful woman who bears the name of her city on a decades-long journey searching for happiness during the long summers of her youth, falling in love and meeting the many memorable characters as she becomes a formidable woman. ---\n\nItalian with English subtitles\n\nEnjoy Academy Award-winner Paolo Sorrentino's visually and aurally stunning, decades-spanning, romantic drama Partenope in style with a Campari Negroni or Peroni 00 on arrival. tickets $25\n\n7:30pm arrival for 7:45pm film screening.",
-      "description": "Details --- Parthenope was the mythical Siren who founded Naples.\nWe follow the beautiful woman who bears the name of her city on a decades-long journey searching for happiness during the long summers of her youth, falling in love and meeting the many memorable characters as she becomes a formidable woman.\n--- Italian with English subtitles Enjoy Academy Award-winner Paolo Sorrentino's visually and aurally stunning, decades-spanning, romantic drama Partenope in style with a Campari Negroni or Peroni 00 on arrival.\ntickets $25 7:30pm arrival for 7:45pm film screening."
-    },
-    {
       "id": "IFF - The Beautiful Summer-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - The Beautiful Summer",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_833309d7-6807-4a63-b7ef-67b44bec259f.jpg",
@@ -371,10 +309,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-30-20:15",
-        "2025-12-10-20:15"
+        "2025-12-10-13:15"
       ],
-      "displayDate": "Sun 30 Nov + more",
+      "displayDate": "Wed 10 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-the-beautiful-summer",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -391,10 +328,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-28-12:45",
-        "2025-12-06-12:45"
+        "2025-12-06-19:30"
       ],
-      "displayDate": "Fri 28 Nov + more",
+      "displayDate": "Sat 06 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-the-english-patient",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -430,10 +366,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-28-10:30",
-        "2025-12-04-10:30"
+        "2025-12-04-20:30"
       ],
-      "displayDate": "Fri 28 Nov + more",
+      "displayDate": "Thu 04 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-the-treasure-of-his-youth",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -470,11 +405,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-30-17:45",
-        "2025-12-04-17:45",
-        "2025-12-13-17:45"
+        "2025-12-04-18:00",
+        "2025-12-13-18:00"
       ],
-      "displayDate": "Sun 30 Nov + more",
+      "displayDate": "Thu 04 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-vermiglio",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -510,11 +444,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-30-13:15",
-        "2025-12-06-13:15",
-        "2025-12-13-13:15"
+        "2025-12-06-10:30",
+        "2025-12-13-10:30"
       ],
-      "displayDate": "Sun 30 Nov + more",
+      "displayDate": "Sat 06 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-welcome-to-the-south",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -531,12 +464,11 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-11-29-12:30",
-        "2025-12-07-12:30",
-        "2025-12-10-12:30",
-        "2025-12-14-12:30"
+        "2025-12-07-15:45",
+        "2025-12-10-15:45",
+        "2025-12-14-15:45"
       ],
-      "displayDate": "Sat 29 Nov + more",
+      "displayDate": "Sun 07 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-youth",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",

@@ -106,6 +106,7 @@ class HumanitixScrapper:
     def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str, bool]]:
         urls_file.write("[\n")
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
+        sleep(random.uniform(2, 4))
         categories_button = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
         categories_button.click()
         categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
