@@ -1,6 +1,6 @@
 import random
+import subprocess
 from time import sleep
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 import FileUtils
@@ -9,8 +9,7 @@ from EventInfo import EventInfo
 import re
 from datetime import datetime
 from dateutil import parser
-from selenium.webdriver.support import expected_conditions as ec
-from selenium.webdriver.support.wait import WebDriverWait
+import undetected_chromedriver as uc
 from typing import List, Optional, Set, Tuple
 import json
 
@@ -18,7 +17,7 @@ import json
 class HumanitixScrapper:
 
     @staticmethod
-    def get_dates_from_event(driver: webdriver, multiple_dates: bool) -> List[datetime]:
+    def get_dates_from_event(driver: uc, multiple_dates: bool) -> List[datetime]:
         dates: List[datetime] = []
         driver.maximize_window()
         driver.execute_script("window.scrollTo(200, 500);")
@@ -73,7 +72,7 @@ class HumanitixScrapper:
         return input_string[0].lower() + input_string[1:]
 
     @staticmethod
-    def get_event(url: str, category: str, multiple_dates: bool, driver: webdriver) -> Optional[EventInfo]:
+    def get_event(url: str, category: str, multiple_dates: bool, driver: uc) -> Optional[EventInfo]:
         driver.get(url)
         title: str = driver.find_element(By.CLASS_NAME, "titlewrapper").text.split("\n")[0]
         try:
@@ -103,7 +102,7 @@ class HumanitixScrapper:
                          event_type=category,
                          description=description)
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str, bool]]:
+    def get_urls(driver: uc, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str, bool]]:
         urls_file.write("[\n")
         driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
         sleep(random.uniform(2, 4))
@@ -160,7 +159,22 @@ class HumanitixScrapper:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.HUMANITIX)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.HUMANITIX)))
         events: List[EventInfo] = []
-        driver = webdriver.Chrome()
+        subprocess.run(['pkill', '-f', 'Google Chrome'])
+        options = uc.ChromeOptions()
+
+        # Set up browser to appear more human-like
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_argument("--disable-infobars")
+        options.add_argument("--start-maximized")
+        options.add_argument(
+            f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random.randint(100, 115)}.0.0.0 Safari/537.36")
+
+        # Initialize undetected ChromeDriver
+        driver = uc.Chrome(
+            options=options,
+            headless=False,  # Headless mode is more easily detected
+            use_subprocess=True
+        )
         if fetch_urls:
             event_urls = HumanitixScrapper.get_urls(driver, previous_urls, urls_file)
         else:
