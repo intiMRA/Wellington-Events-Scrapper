@@ -51,8 +51,11 @@ class WellingtonHighschoolScrapper:
         driver.get(url)
         sleep(1)
         title: str = driver.find_element(By.CLASS_NAME, "page-title").text
-        image_element: str = driver.find_element(By.CLASS_NAME, "image-hero").get_attribute("style")
-        image_url = re.findall(r'url\("([^"]+)"\)', image_element)[0]
+        try:
+            image_element: str = driver.find_element(By.CLASS_NAME, "image-hero").get_attribute("style")
+            image_url = re.findall(r'url\("([^"]+)"\)', image_element)[0]
+        except:
+            image_url = "no image"
         dates = WellingtonHighschoolScrapper.get_all_event_dates(driver)
         description: str = driver.find_element(By.CLASS_NAME, "content-field-text").text
         print(dates)
