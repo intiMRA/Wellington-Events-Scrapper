@@ -27,6 +27,7 @@ class EventInfo:
     eventType: str
     description: str
     long_description: str
+    labels: List[str]
 
     def __init__(
             self: str,
@@ -40,7 +41,8 @@ class EventInfo:
             description: str = "",
             long_description = "",
             coordinates: Optional[Dict[str, float]] = None,
-            loaded_from_dict: bool = False):
+            loaded_from_dict: bool = False,
+            labels: List[str] = []):
         """
         @type name: str
         @param name: The name of the event.
@@ -97,6 +99,7 @@ class EventInfo:
         self.url = url
         self.source = source
         self.eventType = CategoryMapping.map_category(event_type)
+        self.labels = labels
 
 
     def to_dict(self):
@@ -113,7 +116,8 @@ class EventInfo:
             "source": self.source,
             "eventType": self.eventType,
             "long_description": self.long_description,
-            "description": self.description
+            "description": self.description,
+            "labels": self.labels
         }
 
     @classmethod

@@ -11,6 +11,7 @@ from tensorflow.config.experimental import enable_op_determinism
 from keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
 import joblib
+from typing import List
 
 max_sequence_length = 1500
 num_words = 2000
@@ -117,6 +118,25 @@ def get_data(file_name: str, label_encoder, tokenizer):
         x_train, x_test, y_train, y_test = train_test_split(padded_sequences, one_hot_labels, test_size=0.2,
                                                                 random_state=42)
         return x_train, x_test, y_train, y_test, number_of_classes
+def predict_labels(classification_model, loaded_tokenizer, loaded_label_encoder, texts: List[str]) -> List[str]:
+    sequences = loaded_tokenizer.texts_to_sequences(texts)
+    padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
+
+    predictions = classification_model.predict(padded_sequences)
+
+    predicted_labels = []
+    for predictions_array in predictions:
+        indecies = np.argpartition(predictions_array, -2)[-2:]
+        indecies = indecies[np.argsort(-predictions_array[indecies])]
+
+        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
+            indecies = [indecies[0]]
+
+        if len(indecies) == 0:
+            continue
+        else:
+            predicted_labels = [label for label, index in zip(loaded_label_encoder.inverse_transform(indecies), indecies)]
+    return predicted_labels
 def predict_from_file(file_name):
     """
     Predicts the labels for descriptions in a given file.
@@ -145,7 +165,7 @@ def predict_from_file(file_name):
         indecies = np.argpartition(predictions_array, -2)[-2:]
         indecies = indecies[np.argsort(-predictions_array[indecies])]
 
-        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.2:
+        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
             indecies = [indecies[0]]
 
         if len(indecies) == 0:
@@ -183,15 +203,16 @@ def load_models_from_file():
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
-use_ai_data = False
-should_train = True
-
-if should_train:
-    train_from_manual_training_files(use_ai_data)
-
-training_data_file = "training_data.json"
-unclassified_data_file = "unclassified_data.json"
-
-labels_out = predict_from_file(
-    training_data_file
-)
+# use_ai_data = False
+# should_train = False
+#
+# if should_train:
+#     train_from_manual_training_files(use_ai_data)
+#
+# training_data_file = "training_data.json"
+# unclassified_data_file = "unclassified_data.json"
+# ga_output_combined = "ga_output_combined.json"
+#
+# labels_out = predict_from_file(
+#     unclassified_data_file
+# )
