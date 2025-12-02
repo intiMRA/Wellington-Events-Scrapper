@@ -63,6 +63,7 @@ def count_min_classes(data: List[Dict]) -> int:
     for d in data:
         label = d["label"]
         counts[label] = counts.get(label, 0) + 1
+    print(counts)
     smallest = math.inf
     for count in counts.values():
         if count < smallest:
@@ -201,51 +202,56 @@ X_test, Y_test = get_test(model_prep, label_encoder, num_classes)
 
 def fitness_func(ga_instance, solution: List[int], solution_idx) -> float:
     """Evaluates the fitness of a subset of training data using the selected model."""
-    set_random_seed(13453379)
-    enable_op_determinism()
+    nums = [234, 7383903, 134512449, 8475, 13453379]
+    accs = []
+    for num in nums:
+        set_random_seed(num)
+        enable_op_determinism()
 
-    new_x_train = X_pool[solution]
-    new_y_train = Y_pool[solution]
+        new_x_train = X_pool[solution]
+        new_y_train = Y_pool[solution]
 
-    if new_x_train.shape[0] < 2:
-        return 0.0
+        if new_x_train.shape[0] < 2:
+            return 0.0
 
-    if MODEL_CHOICE == 'NN':
-        new_x_train_split, x_val, new_y_train_split, y_val = train_test_split(
-            new_x_train, new_y_train, test_size=0.2, random_state=42
-        )
+        if MODEL_CHOICE == 'NN':
+            new_x_train_split, x_val, new_y_train_split, y_val = train_test_split(
+                new_x_train, new_y_train, test_size=0.2, random_state=num
+            )
 
-        model = Sequential()
-        model.add(Embedding(input_dim=TextClassifier.num_words, output_dim=TextClassifier.embedding_dim,
-                            input_length=TextClassifier.max_sequence_length))
-        model.add(GlobalAveragePooling1D())
-        model.add(Dense(units=num_classes, activation='softmax'))
+            model = Sequential()
+            model.add(Embedding(input_dim=TextClassifier.num_words, output_dim=TextClassifier.embedding_dim,
+                                input_length=TextClassifier.max_sequence_length))
+            model.add(GlobalAveragePooling1D())
+            model.add(Dense(units=num_classes, activation='softmax'))
 
-        model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+            model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-        early_stopping_callback = EarlyStopping(
-            monitor='val_loss', patience=5, mode='min', restore_best_weights=True, min_delta=0.001
-        )
+            early_stopping_callback = EarlyStopping(
+                monitor='val_loss', patience=5, mode='min', restore_best_weights=True, min_delta=0.001
+            )
 
-        model.fit(new_x_train_split, new_y_train_split, epochs=20, batch_size=32,
-                  validation_data=(x_val, y_val), callbacks=[early_stopping_callback], verbose=0)
+            model.fit(new_x_train_split, new_y_train_split, epochs=20, batch_size=32,
+                      validation_data=(x_val, y_val), callbacks=[early_stopping_callback], verbose=0)
 
-        loss, accuracy = model.evaluate(X_test, Y_test, verbose=0)
+            loss, accuracy = model.evaluate(X_test, Y_test, verbose=0)
+            accs.append(accuracy)
 
-    else:
-        labels_1d = np.argmax(new_y_train, axis=1)
+        else:
+            labels_1d = np.argmax(new_y_train, axis=1)
 
-        new_x_train_split, x_val, new_y_train_split, y_val = train_test_split(
-            new_x_train, labels_1d, test_size=0.2, random_state=42
-        )
+            new_x_train_split, x_val, new_y_train_split, y_val = train_test_split(
+                new_x_train, labels_1d, test_size=0.2, random_state=num
+            )
 
-        model = LogisticRegression(solver='liblinear', random_state=42, max_iter=100, multi_class='ovr')
-        model.fit(new_x_train_split, new_y_train_split)
+            model = LogisticRegression(solver='liblinear', random_state=num, max_iter=100, multi_class='ovr')
+            model.fit(new_x_train_split, new_y_train_split)
 
-        Y_test_1d = np.argmax(Y_test, axis=1)
-        accuracy = model.score(X_test, Y_test_1d)
+            Y_test_1d = np.argmax(Y_test, axis=1)
+            accuracy = model.score(X_test, Y_test_1d)
+            accs.append(accuracy)
 
-    return accuracy
+    return sum(accs)/len(nums)
 
 
 # ----------------------------------------------------
@@ -272,8 +278,8 @@ def run():
     num_genes = len(balanced_individual)
 
     init_range_high = X_pool.shape[0] - 1
-    pop_size = 150
-    num_generations = 150
+    pop_size = 100
+    num_generations = 100
     num_parents_mating = int(pop_size * 0.2)
     init_range_low = 0
     parent_selection_type = "sss"
