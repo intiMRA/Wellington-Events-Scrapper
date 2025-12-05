@@ -91,11 +91,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-05-20:00",
-        "2025-12-12-20:00",
-        "2025-12-14-20:00"
+        "2025-12-12-10:30",
+        "2025-12-14-10:30"
       ],
-      "displayDate": "Fri 05 Dec + more",
+      "displayDate": "Fri 12 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-gloria",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -177,10 +176,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-05-18:00",
-        "2025-12-12-18:00"
+        "2025-12-12-13:00"
       ],
-      "displayDate": "Fri 05 Dec + more",
+      "displayDate": "Fri 12 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-limmensit",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -249,26 +247,6 @@
       "labels": []
     },
     {
-      "id": "IFF - My Killer Buddy-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - My Killer Buddy",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_9538aac9-560e-4428-8639-6422d8a3ec13.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-05-10:30"
-      ],
-      "displayDate": "Fri 05 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-my-killer-buddy",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Denni is a 10-year-old boy with a mission to have his violent father killed by a super-assassin. Unfortunately, the guy he hires may look like a dangerous criminal, but really, he is only a petty criminal with no stomach or intention to kill anyone. ---\n\nItalian, English subtitles",
-      "description": "Details --- Denni is a 10-year-old boy with a mission to have his violent father killed by a super-assassin.\nUnfortunately, the guy he hires may look like a dangerous criminal, but really, he is only a petty criminal with no stomach or intention to kill anyone.\n--- Italian, English subtitles",
-      "labels": []
-    },
-    {
       "id": "IFF - Parthenope-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - Parthenope",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_eafe542a-1846-44a4-ba44-95b7e3d9d0a9.jpg",
@@ -327,26 +305,6 @@
       "eventType": "Film & Media",
       "long_description": "Details\n--- In the late stages of WW2, a badly burned man, with no recollection of his own identity, is nursed by Nurse Hana in an abandoned Monastery in Tuscany. As he recovers, he slowly pieces his memories together, recollecting his past's epic, passionate, fateful love affair. ---\n\nIn English",
       "description": "Details --- In the late stages of WW2, a badly burned man, with no recollection of his own identity, is nursed by Nurse Hana in an abandoned Monastery in Tuscany.\nAs he recovers, he slowly pieces his memories together, recollecting his past's epic, passionate, fateful love affair.\n--- In English",
-      "labels": []
-    },
-    {
-      "id": "IFF - The Talented Mr Ripley-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - The Talented Mr Ripley",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_a523286a-b3ec-4af8-abd7-1c4df57ac1e4.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-05-12:45"
-      ],
-      "displayDate": "Fri 05 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-the-talented-mr-ripley",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- When dilettante conman Ripley is mistaken for a Princeton graduate in 1950s New York, he goes along with the story and travels to Italy under false pretences. He becomes embroiled in the lives, passions and desires of Dickie and his fianc\u00e9e Marge with deadly consequences. ---\n\nIn English",
-      "description": "Details --- When dilettante conman Ripley is mistaken for a Princeton graduate in 1950s New York, he goes along with the story and travels to Italy under false pretences.\nHe becomes embroiled in the lives, passions and desires of Dickie and his fianc\u00e9e Marge with deadly consequences.\n--- In English",
       "labels": []
     },
     {
