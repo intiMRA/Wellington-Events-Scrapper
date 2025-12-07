@@ -1,66 +1,6 @@
 {
   "events": [
     {
-      "id": "IFF - A World Apart-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - A World Apart",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_e4563d0f-92f9-4c02-9b30-14ef3d841c79.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-06-17:15"
-      ],
-      "displayDate": "Sat 06 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-a-world-apart",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- After 40 years of teaching in a metropolitan Roman school, Michele starts a new life in a remote village high in the Abruzzi Mountains. He must overcome his urban inadequacy, make friends, and embark on a race against time to save the school he comes to love. ---\n\nItalian with English subtitles",
-      "description": "Details --- After 40 years of teaching in a metropolitan Roman school, Michele starts a new life in a remote village high in the Abruzzi Mountains.\nHe must overcome his urban inadequacy, make friends, and embark on a race against time to save the school he comes to love.\n--- Italian with English subtitles",
-      "labels": []
-    },
-    {
-      "id": "IFF - An Ode to Naples - Special Event-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - An Ode to Naples - Special Event",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_d89f454e-296d-4047-82c5-ec2e3b070f73.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-06-12:30"
-      ],
-      "displayDate": "Sat 06 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-an-ode-to-naples-special-event",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Trudie Styler reveals and unmasks Napoli through the eyes of Neapolitans. A fascinating and stunning glimpse into an ancient city of culture, chaos, and contrast. ---\n\nItalian and English with subtitles\n\nEuropean summer is calling - indulge in a Campari while watching this facination documnetary about Naples. Tickets $25.\n\nArrivals from 12:00pm for a 12:30pm film screening.",
-      "description": "Details --- Trudie Styler reveals and unmasks Napoli through the eyes of Neapolitans.\nA fascinating and stunning glimpse into an ancient city of culture, chaos, and contrast.\n--- Italian and English with subtitles European summer is calling - indulge in a Campari while watching this facination documnetary about Naples.\nTickets $25.\nArrivals from 12:00pm for a 12:30pm film screening.",
-      "labels": []
-    },
-    {
-      "id": "IFF - Ciao Bambino-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Ciao Bambino",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_aa720e16-5b56-4b0f-98b0-9df87cc66932.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-07-20:00"
-      ],
-      "displayDate": "Sun 07 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-ciao-bambino",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- On the outskirts of Napoli, Attilo\u2019s first job is to protect a young street worker.\nThe young couple find themselves falling for each other, but the dangerous criminal underworld they live in seems destined to challenge them. ---\n\nItalian with English subtitles",
-      "description": "Details --- On the outskirts of Napoli, Attilo\u2019s first job is to protect a young street worker.\nThe young couple find themselves falling for each other, but the dangerous criminal underworld they live in seems destined to challenge them.\n--- Italian with English subtitles",
-      "labels": []
-    },
-    {
       "id": "IFF - Comandante-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - Comandante",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_57564ce9-2244-4b2f-8ef1-5bcd7fa1944c.jpg",
@@ -70,10 +10,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-06-14:45",
-        "2025-12-13-14:45"
+        "2025-12-13-20:30"
       ],
-      "displayDate": "Sat 06 Dec + more",
+      "displayDate": "Sat 13 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-commandante",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -112,10 +51,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-07-12:45",
         "2025-12-14-12:45"
       ],
-      "displayDate": "Sun 07 Dec + more",
+      "displayDate": "Sun 14 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-il-boemo",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -133,11 +71,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-07-10:30",
-        "2025-12-11-10:30",
-        "2025-12-14-10:30"
+        "2025-12-11-13:00",
+        "2025-12-14-13:00"
       ],
-      "displayDate": "Sun 07 Dec + more",
+      "displayDate": "Thu 11 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-il-postino",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -155,10 +92,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-07-18:15",
-        "2025-12-14-18:15"
+        "2025-12-14-18:00"
       ],
-      "displayDate": "Sun 07 Dec + more",
+      "displayDate": "Sun 14 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-in-the-mirror",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -288,26 +224,6 @@
       "labels": []
     },
     {
-      "id": "IFF - The English Patient-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - The English Patient",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_13a724e5-a1f4-4f3f-a1f9-0c98a3e62b07.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-06-19:30"
-      ],
-      "displayDate": "Sat 06 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-the-english-patient",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- In the late stages of WW2, a badly burned man, with no recollection of his own identity, is nursed by Nurse Hana in an abandoned Monastery in Tuscany. As he recovers, he slowly pieces his memories together, recollecting his past's epic, passionate, fateful love affair. ---\n\nIn English",
-      "description": "Details --- In the late stages of WW2, a badly burned man, with no recollection of his own identity, is nursed by Nurse Hana in an abandoned Monastery in Tuscany.\nAs he recovers, he slowly pieces his memories together, recollecting his past's epic, passionate, fateful love affair.\n--- In English",
-      "labels": []
-    },
-    {
       "id": "IFF - Trust-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - Trust",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_1b018d12-ea4b-4cc8-8289-cec2a3de9734.jpg",
@@ -378,10 +294,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-06-10:30",
-        "2025-12-13-10:30"
+        "2025-12-13-12:25"
       ],
-      "displayDate": "Sat 06 Dec + more",
+      "displayDate": "Sat 13 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-welcome-to-the-south",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -399,11 +314,10 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-07-15:45",
-        "2025-12-10-15:45",
-        "2025-12-14-15:45"
+        "2025-12-10-20:30",
+        "2025-12-14-20:30"
       ],
-      "displayDate": "Sun 07 Dec + more",
+      "displayDate": "Wed 10 Dec + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-youth",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
