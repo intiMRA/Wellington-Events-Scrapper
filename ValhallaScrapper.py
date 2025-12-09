@@ -71,7 +71,10 @@ class ValhallaScrapper:
                 if url in previous_urls:
                     continue
                 previous_urls.add(url)
-                image_url = event.find_element(By.TAG_NAME, "img").get_attribute("src")
+                try:
+                    image_url = event.find_element(By.TAG_NAME, "img").get_attribute("src")
+                except:
+                    image_url = ""
                 event_urls.add((url, image_url))
                 json.dump((url, image_url), urls_file, indent=2)
                 urls_file.write(",\n")
