@@ -71,10 +71,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-11-13:00",
-        "2025-12-14-13:00"
+        "2025-12-14-10:30"
       ],
-      "displayDate": "Thu 11 Dec + more",
+      "displayDate": "Sun 14 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-il-postino",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -120,46 +119,6 @@
       "eventType": "Film & Media",
       "long_description": "Details\n--- In one volatile summer in the 1970\u2019s, Andrea and her family move into a stylish new apartment on the outskirts of Rome. As her marriage breaks down, she is formidable in keeping things buoyant, but Andrea begins to reject her identity and gender, deciding to live like a boy. ---\n\nItalian with English subtitles",
       "description": "Details --- In one volatile summer in the 1970\u2019s, Andrea and her family move into a stylish new apartment on the outskirts of Rome.\nAs her marriage breaks down, she is formidable in keeping things buoyant, but Andrea begins to reject her identity and gender, deciding to live like a boy.\n--- Italian with English subtitles",
-      "labels": []
-    },
-    {
-      "id": "IFF - Life's a Beach-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Life's a Beach",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_4876bef0-9ca2-495e-b5a7-d893ed5a1c9e.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-11-18:00"
-      ],
-      "displayDate": "Thu 11 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-lifes-a-beach",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Growing up with wealth and privilege, Pio has always lived a protected life. When his influential father passes away, he is assigned a new chauffeur, Amedeo. Amedeo is from the other side of the tracks and will set Pio on a new life path full of surprises. ---\n\nItalian with English subtitles",
-      "description": "Details --- Growing up with wealth and privilege, Pio has always lived a protected life.\nWhen his influential father passes away, he is assigned a new chauffeur, Amedeo.\nAmedeo is from the other side of the tracks and will set Pio on a new life path full of surprises.\n--- Italian with English subtitles",
-      "labels": []
-    },
-    {
-      "id": "IFF - Marcello Mio-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Marcello Mio",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_ae15491a-340d-492f-b774-e748b1c088a7.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-11-10:30"
-      ],
-      "displayDate": "Thu 11 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-marcello-mio",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Chiara is an actress but not as successful as her real-life parents, Marcello Mastroianni and Catherine Deneuve. With her life and career in disarray, Chiara decides to dress like her father and speak only Italian like him, in an impersonation so convincing that people begin to call her \u201cMarcello.\u201d ---\n\nItalian & French with subtitles",
-      "description": "Details --- Chiara is an actress but not as successful as her real-life parents, Marcello Mastroianni and Catherine Deneuve.\nWith her life and career in disarray, Chiara decides to dress like her father and speak only Italian like him, in an impersonation so convincing that people begin to call her \u201cMarcello.\u201d --- Italian & French with subtitles",
       "labels": []
     },
     {
@@ -240,26 +199,6 @@
       "eventType": "Film & Media",
       "long_description": "Details\n--- When a handsome Sicilian deserter arrives at the remote village of Vermiglio high in the snowy Alps of Alto Adige in the last year of WWII, he disrupts the ancient balance of village life. Lucia, the eldest daughter of the Graziadeis family, falls for him, with consequences that will affect everyone in unexpected ways. ---",
       "description": "Details --- When a handsome Sicilian deserter arrives at the remote village of Vermiglio high in the snowy Alps of Alto Adige in the last year of WWII, he disrupts the ancient balance of village life.\nLucia, the eldest daughter of the Graziadeis family, falls for him, with consequences that will affect everyone in unexpected ways.\n---",
-      "labels": []
-    },
-    {
-      "id": "IFF - War of the Nonni-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - War of the Nonni",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b5d414d8-da0d-43d8-bad4-f27ebf83c074.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-11-20:00"
-      ],
-      "displayDate": "Thu 11 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-war-of-the-nonni",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Gerri is an attentive and caring grandfather who diligently does everything he can to support his daughter and beloved grandchildren. When the fun-loving, \u2018other\u2019 grandfather arrives, breaking every rule and upsetting the peace, he unleashes a fierce feud. ---\n\nItalian with English",
-      "description": "Details --- Gerri is an attentive and caring grandfather who diligently does everything he can to support his daughter and beloved grandchildren.\nWhen the fun-loving, \u2018other\u2019 grandfather arrives, breaking every rule and upsetting the peace, he unleashes a fierce feud.\n--- Italian with English",
       "labels": []
     },
     {
