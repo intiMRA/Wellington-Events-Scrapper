@@ -30,10 +30,9 @@
         "long": 174.816259
       },
       "dates": [
-        "2025-12-12-10:30",
-        "2025-12-14-10:30"
+        "2025-12-14-19:45"
       ],
-      "displayDate": "Fri 12 Dec + more",
+      "displayDate": "Sun 14 Dec",
       "url": "https://www.roxycinema.co.nz/movie/iff-gloria",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -102,26 +101,6 @@
       "labels": []
     },
     {
-      "id": "IFF - L'immensit\u00e0-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - L'immensit\u00e0",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_fb50e7b2-1eb2-41b3-9cd6-172a146da49c.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-12-13:00"
-      ],
-      "displayDate": "Fri 12 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-limmensit",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- In one volatile summer in the 1970\u2019s, Andrea and her family move into a stylish new apartment on the outskirts of Rome. As her marriage breaks down, she is formidable in keeping things buoyant, but Andrea begins to reject her identity and gender, deciding to live like a boy. ---\n\nItalian with English subtitles",
-      "description": "Details --- In one volatile summer in the 1970\u2019s, Andrea and her family move into a stylish new apartment on the outskirts of Rome.\nAs her marriage breaks down, she is formidable in keeping things buoyant, but Andrea begins to reject her identity and gender, deciding to live like a boy.\n--- Italian with English subtitles",
-      "labels": []
-    },
-    {
       "id": "IFF - Maria Montessori-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - Maria Montessori",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_ba42363f-fbcf-4ab3-a763-24366fd88c87.jpg",
@@ -139,46 +118,6 @@
       "eventType": "Film & Media",
       "long_description": "Details\n--- A glamorous Parisian actress flees to Rome to protect her reputation and hide her daughter's learning disability. There, she meets Maria Montessori, a brilliant doctor who is developing a methodology for non-conventional children, but Maria has a secret of her own. ---\n\nItalian and French",
       "description": "Details --- A glamorous Parisian actress flees to Rome to protect her reputation and hide her daughter's learning disability.\nThere, she meets Maria Montessori, a brilliant doctor who is developing a methodology for non-conventional children, but Maria has a secret of her own.\n--- Italian and French",
-      "labels": []
-    },
-    {
-      "id": "IFF - Parthenope-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Parthenope",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_eafe542a-1846-44a4-ba44-95b7e3d9d0a9.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-12-18:00"
-      ],
-      "displayDate": "Fri 12 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-parthenope",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Parthenope was the mythical Siren who founded Naples. We follow the beautiful woman who bears the name of her city on a decades-long journey searching for happiness during the long summers of her youth, falling in love and meeting the many memorable characters as she becomes a formidable woman. ---\n\nItalian with English subtitles",
-      "description": "Details --- Parthenope was the mythical Siren who founded Naples.\nWe follow the beautiful woman who bears the name of her city on a decades-long journey searching for happiness during the long summers of her youth, falling in love and meeting the many memorable characters as she becomes a formidable woman.\n--- Italian with English subtitles",
-      "labels": []
-    },
-    {
-      "id": "IFF - Trust-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Trust",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_1b018d12-ea4b-4cc8-8289-cec2a3de9734.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-12-15:15"
-      ],
-      "displayDate": "Fri 12 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-trust",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- Pietro, a revered teacher, and Teresa, his brilliant student, embark on an illicit and tempestuous affair. One night, while playing a game of trust and sharing, Pietro reveals a secret so shocking that it could destroy his life. ---\n\nItalian with English subtitles",
-      "description": "Details --- Pietro, a revered teacher, and Teresa, his brilliant student, embark on an illicit and tempestuous affair.\nOne night, while playing a game of trust and sharing, Pietro reveals a secret so shocking that it could destroy his life.\n--- Italian with English subtitles",
       "labels": []
     },
     {
