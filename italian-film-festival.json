@@ -1,26 +1,6 @@
 {
   "events": [
     {
-      "id": "IFF - Comandante-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Comandante",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_57564ce9-2244-4b2f-8ef1-5bcd7fa1944c.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-13-20:30"
-      ],
-      "displayDate": "Sat 13 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-commandante",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- The true story of Comandante Salvatore Todaro, Captain of an Italian Royal Navy submarine. When Todaro sinks an enemy ship, he reaches a decision that is destined to make history: putting his crew at huge risk he decides to rescue the 26 survivors. ---\n\nItalian, English subtitles",
-      "description": "Details --- The true story of Comandante Salvatore Todaro, Captain of an Italian Royal Navy submarine.\nWhen Todaro sinks an enemy ship, he reaches a decision that is destined to make history: putting his crew at huge risk he decides to rescue the 26 survivors.\n--- Italian, English subtitles",
-      "labels": []
-    },
-    {
       "id": "IFF - Gloria!-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "IFF - Gloria!",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b2620b5c-1226-4f74-aa89-834069f0801f.jpg",
@@ -98,66 +78,6 @@
       "eventType": "Film & Media",
       "long_description": "Details\n--- When Monica loses her memory, she creates meaning in her life by identifying with the characters from films of the Golden Age of Italian cinema. In an act of love, Edoardo indulges her imagination, allowing it to become their new life. ---\n\nItalian with English subtitles",
       "description": "Details --- When Monica loses her memory, she creates meaning in her life by identifying with the characters from films of the Golden Age of Italian cinema.\nIn an act of love, Edoardo indulges her imagination, allowing it to become their new life.\n--- Italian with English subtitles",
-      "labels": []
-    },
-    {
-      "id": "IFF - Maria Montessori-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Maria Montessori",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_ba42363f-fbcf-4ab3-a763-24366fd88c87.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-13-10:30"
-      ],
-      "displayDate": "Sat 13 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-maria-montessori",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- A glamorous Parisian actress flees to Rome to protect her reputation and hide her daughter's learning disability. There, she meets Maria Montessori, a brilliant doctor who is developing a methodology for non-conventional children, but Maria has a secret of her own. ---\n\nItalian and French",
-      "description": "Details --- A glamorous Parisian actress flees to Rome to protect her reputation and hide her daughter's learning disability.\nThere, she meets Maria Montessori, a brilliant doctor who is developing a methodology for non-conventional children, but Maria has a secret of her own.\n--- Italian and French",
-      "labels": []
-    },
-    {
-      "id": "IFF - Vermiglio-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Vermiglio",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_59cbe1e5-3610-4ec8-bbfa-ea9d7a8df952.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-13-18:00"
-      ],
-      "displayDate": "Sat 13 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-vermiglio",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- When a handsome Sicilian deserter arrives at the remote village of Vermiglio high in the snowy Alps of Alto Adige in the last year of WWII, he disrupts the ancient balance of village life. Lucia, the eldest daughter of the Graziadeis family, falls for him, with consequences that will affect everyone in unexpected ways. ---",
-      "description": "Details --- When a handsome Sicilian deserter arrives at the remote village of Vermiglio high in the snowy Alps of Alto Adige in the last year of WWII, he disrupts the ancient balance of village life.\nLucia, the eldest daughter of the Graziadeis family, falls for him, with consequences that will affect everyone in unexpected ways.\n---",
-      "labels": []
-    },
-    {
-      "id": "IFF - Welcome to the South-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "IFF - Welcome to the South",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_1d43fad2-5893-45e9-9f51-27381f151a4e.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2025-12-13-12:25"
-      ],
-      "displayDate": "Sat 13 Dec",
-      "url": "https://www.roxycinema.co.nz/movie/iff-welcome-to-the-south",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n--- A postal employee from northern Italy feigns a disability to get a transfer, but when he is caught, he is sent to a tiny village near Naples as punishment. Bringing all his prejudices, stereotypes, and fears about the South, he finds something different from what he was expecting. ---\n\nItalian with English subtitles",
-      "description": "Details --- A postal employee from northern Italy feigns a disability to get a transfer, but when he is caught, he is sent to a tiny village near Naples as punishment.\nBringing all his prejudices, stereotypes, and fears about the South, he finds something different from what he was expecting.\n--- Italian with English subtitles",
       "labels": []
     },
     {
