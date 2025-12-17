@@ -118,6 +118,19 @@ class AllEventsInScrapper:
         print(f"getting: {url}")
         categories = set()
         driver.get(url)
+        try:
+            driver.find_element(By.ID, "login-top").click()
+            sleep(2)
+            driver.find_element(By.XPATH, "//button[contains(., 'Continue with Facebook')]").click()
+            sleep(5)
+            all_windows = driver.window_handles
+            print(all_windows)
+            driver.switch_to.window(all_windows[-1])
+            driver.find_element(By.XPATH, "//span[contains(., 'Continue as Peter')]").click()
+            driver.switch_to.window(all_windows[-1])
+            sleep(10)
+        except:
+            pass
         sleep(1)
         try:
             show_categories_button = driver.find_element(By.CLASS_NAME, "remaining-cat-count")
