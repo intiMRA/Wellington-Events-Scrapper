@@ -220,10 +220,13 @@ class TicketmasterScrapper:
         elif "moshtix.co" in url:
             print("moshtix.co")
             title = driver.find_element(By.ID, "event-summary-title").text
-            image_url = (driver
-                         .find_element(By.CLASS_NAME, "page_headleftimage")
-                         .find_element(By.TAG_NAME, "img")
-                         .get_attribute("src"))
+            try:
+                image_url = (driver
+                             .find_element(By.CLASS_NAME, "page_headleftimage")
+                             .find_element(By.TAG_NAME, "img")
+                             .get_attribute("src"))
+            except:
+                image_url = ""
             if "https:" not in image_url:
                 image_url = "https:" + image_url
             venue = driver.find_element(By.CLASS_NAME, "event-venue").text
