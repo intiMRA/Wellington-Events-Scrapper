@@ -119,6 +119,7 @@ class AllEventsInScrapper:
         categories = set()
         driver.get(url)
         try:
+            sleep(2)
             driver.find_element(By.ID, "login-top").click()
             sleep(2)
             driver.find_element(By.XPATH, "//button[contains(., 'Continue with Facebook')]").click()
