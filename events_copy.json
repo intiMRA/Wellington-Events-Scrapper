@@ -1,275 +1,5 @@
 { "events":[
   {
-    "id": "Informal field trip - ramarama mapping and Gastrodia spotting-43 Woodmancote Rd, Khandallah, Wellington 6035, New Zealand-Facebook",
-    "name": "Informal field trip - ramarama mapping and Gastrodia spotting",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/600303717_10161639676347680_4167002448111653809_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=4IU41rVerlsQ7kNvwFsonz7&_nc_oc=AdkqcbxkO4GA7qaAZolIJXGQIuw_OWjeGTXlbNEUDAs8zLejOMWcJiN1IFPMEQCLZ-Yoielnzw66Q1ozZMxEjWF0&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=emtOzxHfOL0THidJNFYfUQ&oh=00_AfnV3gqkbjTOrSvlB189VRGR9KkdU_d8gr231iJlWXRMhg&oe=694D88C8",
-    "venue": "43 Woodmancote Rd, Khandallah, Wellington 6035, New Zealand",
-    "coordinates": {
-      "lat": -41.2422253,
-      "long": 174.7887074
-    },
-    "dates": [
-      "2025-12-26-14:00"
-    ],
-    "displayDate": "Fri 26 Dec",
-    "url": "https://www.facebook.com/events/704588609382253",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "I'm getting a head start on a New Year's resolution to do more botany. If you're in Wellington over the break, Ben and I are planning to map the ramarama in Khandallah Park and see how they are doing. I've also never seen a Gastrodia orchid and they should be visible at this time, so we'll hunt for that too.\nThis will probably be 2-3 hours, mostly off-track and probably with a bit of scrambling about.\nMeet at the park entrance in Woodmancote Rd. If you are coming by public transport, let me know and if needed we can tweak the start time so you can get there. ",
-    "description": "I'm getting a head start on a New Year's resolution to do more botany.\nIf you're in Wellington over the break, Ben and I are planning to map the ramarama in Khandallah Park and see how they are doing.\nI've also never seen a Gastrodia orchid and they should be visible at this time, so we'll hunt for that too.\nThis will probably be 2-3 hours, mostly off-track and probably with a bit of scrambling about.\nMeet at the park entrance in Woodmancote Rd.",
-    "labels": []
-  },
-  {
-    "id": "Shared 90-Minute Guided Tour-Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton-Event Finder",
-    "name": "Shared 90-Minute Guided Tour",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2143969-914922-34.jpg?v=2",
-    "venue": "Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton",
-    "coordinates": {
-      "lat": -41.100651,
-      "long": 175.5803805
-    },
-    "dates": [
-      "2025-12-26-14:00",
-      "2025-12-27-10:30",
-      "2025-12-27-12:30",
-      "2025-12-27-14:00",
-      "2025-12-28-10:30",
-      "2025-12-28-12:30",
-      "2025-12-28-14:00"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.eventfinda.co.nz/2025/shared-90-minute-guided-tour/carterton",
-    "source": "Event Finder",
-    "eventType": "Other",
-    "long_description": "Join a Shared Guided Tour and experience Stonehenge Aotearoa through the eyes of an expert. In this 90-minute journey, you\u2019ll uncover how ancient cultures measured time, tracked the Sun and Moon, and connected the heavens with life on Earth.\n\nYour experience begins with a captivating introduction and a 15-minute audio-visual presentation explaining how the Henge works. Then, step outside with your guide for a detailed tour of the stone circle, where astronomy, archaeology, and mythology come together in one unforgettable setting.\n\nPerfect for visitors seeking a deeper understanding of the stars and stories that shaped human history.",
-    "description": "Join a Shared Guided Tour and experience Stonehenge Aotearoa through the eyes of an expert.\nIn this 90-minute journey, you\u2019ll uncover how ancient cultures measured time, tracked the Sun and Moon, and connected the heavens with life on Earth.\nYour experience begins with a captivating introduction and a 15-minute audio-visual presentation explaining how the Henge works.\nThen, step outside with your guide for a detailed tour of the stone circle, where astronomy, archaeology, and mythology come together in one unforgettable setting.\nPerfect for visitors seeking a deeper understanding of the stars and stories that shaped human history.",
-    "labels": []
-  },
-  {
-    "id": "SONG SUNG BLUE ADVANCED SCREENINGS-205 Ohiro Rd, Brooklyn, Wellington 6021, New Zealand-Facebook",
-    "name": "SONG SUNG BLUE ADVANCED SCREENINGS",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/600293818_1417367053733338_728154203868127635_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=J3Fxi02cX38Q7kNvwFz-vUj&_nc_oc=AdnHK227YQI-3UkGf69we0Iml6ewul_39if8qU7JEj6tioUWgTHZvZnLNLtofkm0ABLzduB8kUSE1KREYmJxRsg7&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=fc7Wj5VuY-T5kii1K42mEQ&oh=00_AfloCErUi3pMuC6CL8EnZZtW0ZP79MvqR3b-bdIPCrdFJg&oe=69503682",
-    "venue": "205 Ohiro Rd, Brooklyn, Wellington 6021, New Zealand",
-    "coordinates": {
-      "lat": -41.3058382,
-      "long": 174.7634702
-    },
-    "dates": [
-      "2025-12-26-15:00",
-      "2025-12-28-15:00"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.facebook.com/events/1292125029348793",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "You\u2019re Invited \u2013 Advanced Screenings of Song Sung Blue\nSee it early this holiday season! We\u2019re hosting special preview screenings of the beautiful and uplifting Song Sung Blue before its official release.\nBoxing Day \u2013 26 December\n3:00 PM & 5:40 PM\nSaturday \u2013 27 December\n3:00 PM\nSunday \u2013 28 December\n2:45 PM & 5:30 PM\nMake it a post-Christmas treat and enjoy this heartfelt story on the big screen. Bring friends, bring family, or escape for a quiet movie moment just for you.\nWe\u2019d love to see you there!\n",
-    "description": "You\u2019re Invited \u2013 Advanced Screenings of Song Sung Blue See it early this holiday season!\nBoxing Day \u2013 26 December\nSaturday \u2013 27 December\nSunday \u2013 28 December\nMake it a post-Christmas treat and enjoy this heartfelt story on the big screen.",
-    "labels": []
-  },
-  {
-    "id": "Thursday Night Food Trucks-Front Car Park at the Masterton Club, 98 Chapel Street, Masterton-Event Finder",
-    "name": "Thursday Night Food Trucks",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2049591-873865-35.jpg",
-    "venue": "Front Car Park at the Masterton Club, 98 Chapel Street, Masterton",
-    "coordinates": {
-      "lat": -40.9510379,
-      "long": 175.6566873
-    },
-    "dates": [
-      "2025-12-26-16:30",
-      "2025-12-28-16:30",
-      "2025-12-29-16:30"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.eventfinda.co.nz/2022/thursday-night-food-trucks3/masterton",
-    "source": "Event Finder",
-    "eventType": "Other",
-    "long_description": "",
-    "description": "The trucks have moved to a brand new location just one block south of the Masterton Town Hall!\nCome along to our weekly Thursday Night Food Truck market outside the Masterton Club, corner of Essex and Chapel Streets (SH2) in Masterton.\nWe have awesome street food, plenty of parking adjacent (especially the Essex Street car park opposite), live music and places to r-e-l-a-x... We run the market rain or shine 4:30-7:00pm, every Thursday, all year round.\nBe sure to follow us on Facebook for regular weekly updates when we'll let you know which trucks are attending and any scrummy specials they may have!",
-    "labels": []
-  },
-  {
-    "id": "Robin Hood - The Pantomime-1A Taranaki St, Wellington Central, Wellington 6011, New Zealand-Facebook",
-    "name": "Robin Hood - The Pantomime",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/565649732_1440826014716848_3424406031140398648_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=vucTzLmS3sIQ7kNvwFx26ED&_nc_oc=AdnMTG6kABLwTeyFZp5o-ECFDAhgQYaRrVv3fTagSG6M44SGXPCti7ad_Fs8TETINeFbVhbSQsB2EWElgRrL0i_r&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=ChE8iIGMaydzMLwLplWzEw&oh=00_Afnd_90U9j1OQnNnq5FEgBUhPm7rK521XpKAcQmVkak2Yw&oe=6952FBF7",
-    "venue": "1A Taranaki St, Wellington Central, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2902081,
-      "long": 174.780383
-    },
-    "dates": [
-      "2025-12-26-18:30"
-    ],
-    "displayDate": "Fri 26 Dec",
-    "url": "https://www.facebook.com/events/1317018826212956",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "Adventures of the original working-class hero and man in tights!\nRobin Hood steals from the rich and gives to the poor in an oldie timey place where people are struggling and homeless, and the landed gentry hoard the money all for themselves \u2013 Wellington 2025.\nRobin must stop the Evil Sheriff from running roughshod over the citizens! But this quest is far from easy\u2026 there is archery, swordfights, and a lot of dance numbers to get through. Our hero is grateful for help from spies on the inside: Maid Marion and her bolshie handmaiden (Pantomime Dame Jthan Morgan).\nCome one and come all to see the slings and arrows of outrageous panto! ",
-    "description": "Adventures of the original working-class hero and man in tights!\nRobin Hood steals from the rich and gives to the poor in an oldie timey place where people are struggling and homeless, and the landed gentry hoard the money all for themselves \u2013 Wellington 2025.\nRobin must stop the Evil Sheriff from running roughshod over the citizens!\nBut this quest is far from easy\u2026 there is archery, swordfights, and a lot of dance numbers to get through.\nOur hero is grateful for help from spies on the inside: Maid Marion and her bolshie handmaiden (Pantomime Dame Jthan Morgan).",
-    "labels": []
-  },
-  {
-    "id": "Christmas Feast for Two \u2013 A Magical Dinner Experience-Le Ciel Bakery, 100 Tory Street, Te Aro, Wellington-Event Finder",
-    "name": "Christmas Feast for Two \u2013 A Magical Dinner Experience",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2144242-910448-34.png?v=3",
-    "venue": "Le Ciel Bakery, 100 Tory Street, Te Aro, Wellington",
-    "coordinates": {
-      "lat": -41.2954046,
-      "long": 174.7798761
-    },
-    "dates": [
-      "2025-12-26-19:00",
-      "2025-12-27-19:00",
-      "2025-12-28-19:00"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.eventfinda.co.nz/2025/christmas-feast-for-two-a-magical-dinner-experience/wellington",
-    "source": "Event Finder",
-    "eventType": "Other",
-    "long_description": "Christmas Feast for Two \u2013 A Magical Dinner Experience\n\nCelebrate the joy of Christmas with an intimate dining experience designed just for two. Le Ciel invites you to indulge in a festive evening filled with warmth, flavour, and sparkle \u2014 a beautiful way to share the season\u2019s magic.\n\nEach table for two will be adorned with candlelight, evergreen touches, and a hint of gold. Our specially curated five-course Christmas menu brings together the nostalgia of traditional holiday dishes and the elegance of modern cuisine. Expect luxurious flavours, handcrafted details, and a little surprise treat to take home.\n\nWhether it\u2019s a romantic evening, a celebration with a dear friend, or a thoughtful gift experience, this dinner promises to be one to remember.\n\nAvailable Dates: December 24th \u2013 28th\nSeating Times: 7:00 PM\nPricing: $120 per pair ($60 per person)\n\nBookings are essential \u2014 limited tables available each night.\n\nSample menu:\nCHRISTMAS DINNER MENU\nA festive evening celebrating Kiwi flavours with a refined holiday twist.\nTO START \u2014 Choose 1\n\u2022 House-Baked Focaccia with rosemary, sea salt & olive oil\n\u2022 Garlic & Herb Bread Rolls with whipped butter\n\u2022 Warm Ciabatta with sundried tomato pesto\nMAINS \u2014 Choose 2 Proteins\n\u2022 Slow-Roasted Lamb Shoulder with garlic, rosemary & red wine jus\n\u2022 Honey-Glazed Champagne Ham with mustard & clove glaze\n\u2022 Baked Salmon Fillet with miso, citrus & toasted sesame\n\u2022 Free-Range Chicken Ballotine with spinach, ricotta & thyme jus\n\u2022 Vegetarian Pumpkin & Sage Wellington with pecan crumble\nSIDES \u2014 Choose 3\n\u2022 Classic Kiwi Potato Salad with egg, dill & mustard mayo\n\u2022 Roasted Baby Potatoes with garlic & herb butter\n\u2022 Summer Greens & Pomegranate Salad\n\u2022 Avocado, Citrus & Feta Salad\n\u2022 Roasted K\u016bmara with maple & toasted seeds\n\u2022 Grilled Asparagus with lemon & parmesan\nDESSERT PLATTER \u2014 Shared\n\u2022 Mini Pavlovas with seasonal fruit\n\u2022 Salted Caramel Chocolate Tarts\n\u2022 Christmas Mince Pies\n\u2022 Fresh Berries & Cream\n\u2022 Vanilla Bean Cr\u00e8me Br\u00fbl\u00e9e\nDRINKS AVAILABLE FOR PURCHASE\nNon-alcoholic: Gingerbread Kombucha \u2022 Sparkling Juices\nWine: Chilled Bubbles \u2022 Red & White Selection\nCocktails: Festive Negroni \u2022 Pine-Infused G&T \u2022 Spiced Rum Sour\nPRICE\n$120 per couple\nFestive shared dining experience",
-    "description": "Christmas Feast for Two \u2013 A Magical Dinner Experience Celebrate the joy of Christmas with an intimate dining experience designed just for two.\nOur specially curated five-course Christmas menu brings together the nostalgia of traditional holiday dishes and the elegance of modern cuisine.\nWhether it\u2019s a romantic evening, a celebration with a dear friend, or a thoughtful gift experience, this dinner promises to be one to remember.\nA festive evening celebrating Kiwi flavours with a refined holiday twist.\n$120 per couple Festive shared dining experience",
-    "labels": []
-  },
-  {
-    "id": "Friday Drinks and BBQ-The Bridge Bar & Restaurant, 28 Cambridge Terrace, Wellington-Event Finder",
-    "name": "Friday Drinks and BBQ",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2147119-916236-35.png",
-    "venue": "The Bridge Bar & Restaurant, 28 Cambridge Terrace, Wellington",
-    "coordinates": {
-      "lat": -41.2951329,
-      "long": 174.7828783
-    },
-    "dates": [
-      "2025-12-26-19:00",
-      "2026-01-02-19:00",
-      "2026-01-09-19:00",
-      "2026-01-16-19:00",
-      "2026-01-23-19:00",
-      "2026-01-30-19:00",
-      "2026-02-06-19:00",
-      "2026-02-13-19:00",
-      "2026-02-20-19:00",
-      "2026-02-27-19:00",
-      "2026-03-06-19:00",
-      "2026-03-13-19:00",
-      "2026-03-20-19:00",
-      "2026-03-27-19:00"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.eventfinda.co.nz/2025/friday-drinks-and-free-bbq/wellington",
-    "source": "Event Finder",
-    "eventType": "Other",
-    "long_description": "Friday Drinks + Free BBQ\n\nKick off the weekend at The Bridge Bar with good vibes, cold drinks, and our FREE BBQ from 6:30 pm when you buy any drink over $10\n\nDJ from 8 PM \u2013 bringing the beats all night long.\n\nRound up the crew and start your Friday the right way!\n\nThe Bridge Bar at The Cambridge Hotel - 28 Cambridge Terrace, Te Aro | 04 801 1950",
-    "description": "Friday Drinks + Free BBQ Kick off the weekend at The Bridge Bar with good vibes, cold drinks, and our FREE BBQ from 6:30 pm when you buy any drink over $10 DJ from 8 PM \u2013 bringing the beats all night long.\nRound up the crew and start your Friday the right way!\nThe Bridge Bar at The Cambridge Hotel - 28 Cambridge Terrace, Te Aro | 04 801 1950",
-    "labels": []
-  },
-  {
-    "id": "Summer Sunset West Coast Swing-Frank Kitts Park, Jervois Quay, Wellington Central, Wellington 6011, New Zealand-Facebook",
-    "name": "Summer Sunset West Coast Swing",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/596252328_10230379048768808_9140967712349600996_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ydk17VL_9GQQ7kNvwFBgRqh&_nc_oc=AdkKrwGIENxcX8MgZ8Djd_-ojN_I4KQtewIUNzHHpn56zzHRhG_LUtRibSc8BO-NsQrmGBakelnLB-WlgNrue8HK&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=Am9w5h_8azxudYIzjnI5ug&oh=00_AfnbxSO3-phY_FRHpv9KqoprgmHNdtdeOVzdnTgLb2FWvA&oe=694D6213",
-    "venue": "Frank Kitts Park, Jervois Quay, Wellington Central, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2878675,
-      "long": 174.7784882
-    },
-    "dates": [
-      "2025-12-26-19:00"
-    ],
-    "displayDate": "Fri 26 Dec",
-    "url": "https://www.facebook.com/events/4313102399009291",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "Kick off your weekend with us!\nJoin us every Friday evening this summer for a casual West Coast Swing (WCS) social dance under the sunset at the beautiful Frank Kitts Park.\nWhether you are a seasoned pro, a total beginner, or just curious about what West Coast Swing is, you are welcome here! Come have a dance, or simply sit back, relax, and watch the magic happen. No partner? No problem. Just bring your good vibes !\nCurious about learning? If you like what you see, we will have registration forms available on-site for our 2026 Swing Central classes. It\u2019s the perfect time to sign up and start your dance journey!\nWhere: Frank Kitts Park (Look for the dancers!)\nWhen: Every Friday at 7:00 PM\nNote: This event is weather-dependent. If it\u2019s raining or too windy (it is Wellington, after all!), we will post an update here.\nSee you on the waterfront! ",
-    "description": "Kick off your weekend with us!\nJoin us every Friday evening this summer for a casual West Coast Swing (WCS) social dance under the sunset at the beautiful Frank Kitts Park.\nWhether you are a seasoned pro, a total beginner, or just curious about what West Coast Swing is, you are welcome here!\nIf you like what you see, we will have registration forms available on-site for our 2026 Swing Central classes.\nIt\u2019s the perfect time to sign up and start your dance journey!",
-    "labels": []
-  },
-  {
-    "id": "Sunset Guided Tour-Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton-Event Finder",
-    "name": "Sunset Guided Tour",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2144029-914963-34.jpg?v=2",
-    "venue": "Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton",
-    "coordinates": {
-      "lat": -41.100651,
-      "long": 175.5803805
-    },
-    "dates": [
-      "2025-12-26-19:15",
-      "2025-12-27-19:15",
-      "2025-12-28-19:15",
-      "2025-12-31-19:15"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.eventfinda.co.nz/2025/sunset-guided-tour/wairarapa",
-    "source": "Event Finder",
-    "eventType": "Other",
-    "long_description": "Experience Stonehenge Aotearoa at its most breathtaking \u2014 as the sun dips below the Wairarapa horizon.\nOur Sunset Guided Tour blends astronomy, storytelling, and the natural beauty of twilight for an evening you will never forget.\n\nLed by one of our knowledgeable guides, this 90-minute experience explores how ancient cultures used the Sun to track time and mark the turning of the seasons. You\u2019ll discover the scientific and cultural thinking behind the Henge\u2019s unique Southern Hemisphere design before watching the sunset alignment from inside the stone circle.\n\nWeather permitting, you\u2019ll witness how the setting Sun interacts with the structure \u2014 a striking moment that links ancient knowledge with the rhythms of the natural world.\n\nDuration and Schedule\n\u2022 Allow: Approximately 90 minutes\n\u2022 Start Time: Begins one hour before sunset\n\u2022 Availability: Offered any day with advance booking",
-    "description": "Experience Stonehenge Aotearoa at its most breathtaking \u2014 as the sun dips below the Wairarapa horizon.\nOur Sunset Guided Tour blends astronomy, storytelling, and the natural beauty of twilight for an evening you will never forget.\nLed by one of our knowledgeable guides, this 90-minute experience explores how ancient cultures used the Sun to track time and mark the turning of the seasons.\nYou\u2019ll discover the scientific and cultural thinking behind the Henge\u2019s unique Southern Hemisphere design before watching the sunset alignment from inside the stone circle.\nWeather permitting, you\u2019ll witness how the setting Sun interacts with the structure \u2014 a striking moment that links ancient knowledge with the rhythms of the natural world.",
-    "labels": []
-  },
-  {
-    "id": "Star Trek Laser Tour (Stargazing)-Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton-Event Finder",
-    "name": "Star Trek Laser Tour (Stargazing)",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2145300-914955-35.png?v=2",
-    "venue": "Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton",
-    "coordinates": {
-      "lat": -41.100651,
-      "long": 175.5803805
-    },
-    "dates": [
-      "2025-12-26-21:45",
-      "2025-12-27-21:45",
-      "2025-12-28-21:45"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.eventfinda.co.nz/2025/star-trek-laser-tour-stargazing/carterton",
-    "source": "Event Finder",
-    "eventType": "Community & Culture",
-    "long_description": "Your evening begins with a presentation on the current night sky, including a short audio-visual show.\nWeather permitting, this is followed by a laser-guided tour of the night sky, where you\u2019ll explore constellations, planets, and celestial stories above Stonehenge Aotearoa.\n\nStar Trek Laser Tours are available any evening by appointment.\nStart times vary with sunset.\n\nPlease note: Tours are subject to weather and confirmation. After making your booking, contact us directly to confirm your session.",
-    "description": "Your evening begins with a presentation on the current night sky, including a short audio-visual show.\nWeather permitting, this is followed by a laser-guided tour of the night sky, where you\u2019ll explore constellations, planets, and celestial stories above Stonehenge Aotearoa.\nStar Trek Laser Tours are available any evening by appointment.\nStart times vary with sunset.\nPlease note: Tours are subject to weather and confirmation.",
-    "labels": []
-  },
-  {
-    "id": "Wellington Pop-Up | Boxing Day Event | Untouched World-195 Lambton Quay, Wellington Central, Wellington 6011, New Zealand-Facebook",
-    "name": "Wellington Pop-Up | Boxing Day Event | Untouched World",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/595890991_1408138291323808_1379535459652066095_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FLOwMizk7W0Q7kNvwFCOJWN&_nc_oc=AdksBG0ls6m9mussd3kyMuu7Um7rtqhxxGsHoKBoqE7o-6K8jwly6sEgd8Cgefx9-hB500KQA0z7EhjktSiwvlco&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=Ne_qGibeRD342Tv2b-TokA&oh=00_Afk96D2HT61aAjYi-ua83ppJh0vL0ahQawRt4ruBvXIdKw&oe=69503A54",
-    "venue": "195 Lambton Quay, Wellington Central, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.283918,
-      "long": 174.7756444
-    },
-    "dates": [
-      "2025-12-26-22:00",
-      "2025-12-28-22:00"
-    ],
-    "displayDate": "Fri 26 Dec + more",
-    "url": "https://www.facebook.com/events/773730141793921",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "What if your best Boxing Day find isn\u2019t a fleeting bargain, but something you\u2019ll still love years from now?\nThis Boxing Day, we invite the Capital to experience the quieter luxury of considered style. Our Wellington Pop-upon Lambton Quay is opening its doors with a further 20% off storewide across our timeless natural fibre ranges.\nThis is your moment to invest in beautifully made knitwear and enduring wardrobe staples designed to live long, well-worn lives. A conscious alternative to fast fashion, right in the heart of the city.\nSlow down. Try things on properly. Choose pieces that will move with you through work, weekends, and everything in between.\nThe Details\n\nWhere: Untouched World Wellington Outlet, 195 Lambton Quay, Wellington Central\nWhen: Boxing Day\nMonday to Friday: 9 AM to 5:30 PM\nSaturday to Sunday: 10 AM to 4 PM\nWe look forward to welcoming you for a more thoughtful kind of Boxing Day shopping. ",
-    "description": "What if your best Boxing Day find isn\u2019t a fleeting bargain, but something you\u2019ll still love years from now?\nThis Boxing Day, we invite the Capital to experience the quieter luxury of considered style.\nOur Wellington Pop-upon Lambton Quay is opening its doors with a further 20% off storewide across our timeless natural fibre ranges.\nThis is your moment to invest in beautifully made knitwear and enduring wardrobe staples designed to live long, well-worn lives.\nSlow down.",
-    "labels": []
-  },
-  {
-    "id": "Matiu-Somes Island Trip-Matiu / Somes Island,Lower Hutt, New Zealand-All Events In",
-    "name": "Matiu-Somes Island Trip",
-    "imageUrl": "https://cdn-az.allevents.in/events3/banners/edfd62f6270740f0ec9693d5ec9ba8002cf2ed872289cd8fe7f2d41651d26f78-rimg-w1200-h675-dc265687-gmir?v=1759309989",
-    "venue": "Matiu / Somes Island,Lower Hutt, New Zealand",
-    "coordinates": {
-      "lat": -41.257729,
-      "long": 174.8653285
-    },
-    "dates": [
-      "2025-12-27-00:00"
-    ],
-    "displayDate": "Sat 27 Dec",
-    "url": "https://allevents.in/lower-hutt/matiu-somes-island-trip/200028985449909",
-    "source": "All Events In",
-    "eventType": "Other",
-    "long_description": "Matiu-Somes Island Trip\nJoin our club trip across to Matiu-Somes Island. Enjoy a pot luck lunch with time to explore the island before conducting an underwater clean up dive by the wharf (conditions permitting).\n\nAfter a BBQ dinner it is time for a walk before dessert to observe the Little Blue Penguins returning to their nests at sunset and to hunt for Giant Weta and Tuatara.\n\nSunday morning is a great time to relax, continue exploring the island before the boats arrive and to conduct a beach clean up before catching a ferry home.\n\nThis is a great experience for the whole family.\n\n$100pp + Ferry\n\n",
-    "description": "Matiu-Somes Island Trip Join our club trip across to Matiu-Somes Island.\nAfter a BBQ dinner it is time for a walk before dessert to observe the Little Blue Penguins returning to their nests at sunset and to hunt for Giant Weta and Tuatara.\nSunday morning is a great time to relax, continue exploring the island before the boats arrive and to conduct a beach clean up before catching a ferry home.\nThis is a great experience for the whole family.\n$100pp + Ferry",
-    "labels": []
-  },
-  {
     "id": "Card Merchant Wellington - Pokemon Trading Day!-49 Manners Street, New Zealand 6011,Regency Apartments, 49 Manners St, Te Aro, Wellington 6011, New Zealand, Wellington-All Events In",
     "name": "Card Merchant Wellington - Pokemon Trading Day!",
     "imageUrl": "https://cdn-az.allevents.in/events1/banners/8a439636340ba3121d819b6e4ea3cf0347328f64f1c6bb7d61ac7e6785b44375-rimg-w1200-h628-dcd7d7d7-gmir?v=1766138708",
@@ -1412,46 +1142,6 @@
     "labels": []
   },
   {
-    "id": "Saturday coffee ride--41.290670, 174.790348-Facebook",
-    "name": "Saturday coffee ride",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/491938072_1082532640566866_2440803460650987514_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FTx4zlEWmAkQ7kNvwGd0Tdb&_nc_oc=AdnJ8xtchMBPYxEFu3lsg2AnCFb-8qS7maY0EqVGjzbyf3DthtjjOJjyj_41PyM0L1EhTJNyqxOq-qySo6pi4CL0&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=eek4GT6WuhNpnoN1bMKTNw&oh=00_AfmpjpHJ1kpac1uqs49ilcWMo58b2l7x2Rj-24f9FQY1RA&oe=694D900F",
-    "venue": "-41.290670, 174.790348",
-    "coordinates": {
-      "lat": -41.2906637,
-      "long": 174.7905022
-    },
-    "dates": [
-      "2025-12-27-08:30"
-    ],
-    "displayDate": "Sat 27 Dec",
-    "url": "https://www.facebook.com/events/9065515673558176",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "Our Saturday morning club ride now offers more options for members.\nStarting this week we're trialing a new format to make our rides even more enjoyable for everyone. We'll be splitting into two or three groups based on numbers:\nFast Group\n\nMedium Group\n\nSocial Group\n\nNo matter your pace, there's a group for you! Each led by a TriWelly committee member. We'll all aim to meet at the same time and place afterward to catch up over coffee.\n",
-    "description": "Our Saturday morning club ride now offers more options for members.\nStarting this week we're trialing a new format to make our rides even more enjoyable for everyone.\nWe'll be splitting into two or three groups based on numbers: Fast Group Medium Group Social Group No matter your pace, there's a group for you!\nEach led by a TriWelly committee member.\nWe'll all aim to meet at the same time and place afterward to catch up over coffee.",
-    "labels": []
-  },
-  {
-    "id": "Thorndon Farmers Market-Cellar-Cafe, Molesworth St, Thorndon, Wellington 6011, New Zealand-Facebook",
-    "name": "Thorndon Farmers Market",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/530927450_1178370750996897_7627434812282135556_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=1or8Dgdwq28Q7kNvwHBC1sl&_nc_oc=Adn03odM-j7mcsooBT7MczdG3pCWUGWm9XmFeKaa7ry7DsqR8TqGmAodJuPyOUJTmRUnwojIyL0ROWETDeUBGVCF&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=sR9vInAU5cSnMa46GYGcYg&oh=00_AfnRSZqJvFXQ31wVArjUPp4xJQ-OmGRMZobPjsq1AZ53dw&oe=694D6393",
-    "venue": "Cellar-Cafe, Molesworth St, Thorndon, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2774933,
-      "long": 174.7779179
-    },
-    "dates": [
-      "2025-12-27-08:30"
-    ],
-    "displayDate": "Sat 27 Dec",
-    "url": "https://www.facebook.com/events/1101211075329781",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "Thorndon Farmers' Market takes place Every Saturday Morning, rain, hail or shine, from 8.30am to 12.30pm. We are in the Hill St carpark of Cathedral of St Paul, Thorndon, Wellington.\nOur Focuses are Local Products & Producers, Organic Produce, Gluten Free, GM Free, Artisan Producers, Healthy Alternatives, Unique Produce, Spray Free Fruit and Veg, Emerging Products, Sustainability and Natural Products.\nOur Mission is to Provide a Friendly, Vibrant Marketplace while Supporting the Local Community and Businesses that Care! ",
-    "description": "Thorndon Farmers' Market takes place Every Saturday Morning, rain, hail or shine, from 8.30am to 12.30pm.\nWe are in the Hill St carpark of Cathedral of St Paul, Thorndon, Wellington.\nOur Focuses are Local Products & Producers, Organic Produce, Gluten Free, GM Free, Artisan Producers, Healthy Alternatives, Unique Produce, Spray Free Fruit and Veg, Emerging Products, Sustainability and Natural Products.\nOur Mission is to Provide a Friendly, Vibrant Marketplace while Supporting the Local Community and Businesses that Care!",
-    "labels": []
-  },
-  {
     "id": "Double Click-Petone Working Men's Club,47 Udy St, Petone, Lower Hutt 5012, New Zealand, Lower Hutt-All Events In",
     "name": "Double Click",
     "imageUrl": "https://cdn-az.allevents.in/events7/banners/9d29528c27de50613d2f1940baa50c3c4649efb85e5efaf56a8b44959cb30bbe-rimg-w700-h394-dcf5f5f5-gmir?v=1764715992",
@@ -1606,6 +1296,61 @@
     "labels": []
   },
   {
+    "id": "The Early Bird Catches the Worm\u2026-Staglands Wildlife Reserve, 2362 Akatarawa Rd, Upper Hutt-Event Finder",
+    "name": "The Early Bird Catches the Worm\u2026",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2151426-918094-35.jpg",
+    "venue": "Staglands Wildlife Reserve, 2362 Akatarawa Rd, Upper Hutt",
+    "coordinates": {
+      "lat": -40.9875074,
+      "long": 175.1229306
+    },
+    "dates": [
+      "2025-12-27-09:30",
+      "2025-12-28-09:30",
+      "2025-12-29-09:30",
+      "2025-12-30-09:30",
+      "2025-12-31-09:30",
+      "2026-01-01-09:30",
+      "2026-01-02-09:30",
+      "2026-01-03-09:30",
+      "2026-01-04-09:30",
+      "2026-01-05-09:30",
+      "2026-01-06-09:30",
+      "2026-01-07-09:30",
+      "2026-01-08-09:30",
+      "2026-01-09-09:30",
+      "2026-01-10-09:30",
+      "2026-01-11-09:30",
+      "2026-01-12-09:30",
+      "2026-01-13-09:30",
+      "2026-01-14-09:30",
+      "2026-01-15-09:30",
+      "2026-01-16-09:30",
+      "2026-01-17-09:30",
+      "2026-01-18-09:30",
+      "2026-01-19-09:30",
+      "2026-01-20-09:30",
+      "2026-01-21-09:30",
+      "2026-01-22-09:30",
+      "2026-01-23-09:30",
+      "2026-01-24-09:30",
+      "2026-01-25-09:30",
+      "2026-01-26-09:30",
+      "2026-01-27-09:30",
+      "2026-01-28-09:30",
+      "2026-01-29-09:30",
+      "2026-01-30-09:30",
+      "2026-01-31-09:30"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/the-early-bird-catches-the-worm-h/upper-hutt",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "long_description": "The Early Bird Catches the Worm \u2026\n\nEarly birds can catch a big juicy reward at Staglands this Summer\u2026.\n\nBuy your entry ticket at their Ticket Gate by 10am and get a FREE RETURN TICKET on them!\n\nNature rewards those who rise early!\n\nOffer runs 22 Dec\u2013 31 Jan 2026\nTerms & Conditions apply. See website for more details:\nWhat's on at Staglands | Wellington | Staglands Wildlife Reserve",
+    "description": "The Early Bird Catches the Worm \u2026 Early birds can catch a big juicy reward at Staglands this Summer\u2026.\nBuy your entry ticket at their Ticket Gate by 10am and get a FREE RETURN TICKET on them!\nNature rewards those who rise early!\nOffer runs 22 Dec\u2013 31 Jan 2026 Terms & Conditions apply.\nSee website for more details: What's on at Staglands | Wellington | Staglands Wildlife Reserve",
+    "labels": []
+  },
+  {
     "id": "Botanical insights display - Ancient plants-Wellington Botanic Garden, 101 Glenmore St, Kelburn, Wellington-Event Finder",
     "name": "Botanical insights display - Ancient plants",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2142912-914357-35.jpg",
@@ -1714,6 +1459,38 @@
     "eventType": "Other",
     "long_description": "Colossal Squid: Freaky Features comes to Cobblestones, Greytown\n\nThe ever-popular Te Papa exhibition Colossal Squid Ngu Tipua opens at Cobblestones on 11th December 2025 and runs through until 1st February 2026.\n\nThe Colossal Squid is so rarely seen that only eight adult colossal squid have ever been scientifically reported. Now venue name, in co-operation with Te Papa, is set to reveal some of the fascinating science and wonderful secrets of one of New Zealand\u2019s most significant natural history specimens.\n\nTe Papa's Head of Natural History, Phil Edgar, said, \u201cIn learning about this weird and mysterious creature, we hope visitors will have a greater appreciation for life in the deep sea, much of which remains undiscovered.\u201d\n\nThe Colossal Squid is one of the most iconic specimens at Te Papa, and while touring the complete specimen is impossible, some of the important parts of the squid have found their way to Cobblestones.\nTe Papa\u2019s Curator of Invertebrates, Dr Rodrigo Salvador, explains how important the Colossal Squid has been for the science community, and how popular it has been among the public.\n\n\u201cTe Papa\u2019s Colossal Squid has been a major source of information for scientists and the museum\u2019s most popular exhibit since its debut. They live in the deep Antarctic waters, and despite being one of the largest invertebrate species in existence, they are very rarely captured\u201d.\n\nColossal Squid Ngu Tipua centres around an interactive table displaying many different objects, including the lens from an eye of the Colossal Squid, part of a tentacle, and a complete tiny squid, a miniature of its colossal relative. Touchable rotating models of a squid\u2019s tentacle hook and the Colossal Squid's beak are also on display.\n\nThe exhibition also displays two documentaries which show life in the depths of the Southern Ocean, and how the most complete Colossal Squid ever found ended up at Te Papa.\n\nThe public can continue the experience and learn beyond the exhibition with a new Te Papa press book for children, Whiti: Colossal Squid of the Deep, and online Te Papa resources, including a free downloadable Colossal Squid Activity Book.\n\n\u201cThanks to the support of WBS and Te Papa, Cobblestones is delighted to be bringing this fascinating exhibition to Wairarapa during the summer holidays. It\u2019s a must-see exhibition for the young and young at heart to learn about this fascinating creature, its world, and habitat.\u201d\n\nColossal Squid Ngu Tipua is developed and toured by the Museum of New Zealand Te Papa Tongarewa.\n\nFor further information, please contact:\nCobblestones Museum - 063049687 or cobblestonesmuseumgreytown@gmail.com",
     "description": "Colossal Squid: Freaky Features comes to Cobblestones, Greytown The ever-popular Te Papa exhibition Colossal Squid Ngu Tipua opens at Cobblestones on 11th December 2025 and runs through until 1st February 2026.\nThe Colossal Squid is so rarely seen that only eight adult colossal squid have ever been scientifically reported.\nTe Papa's Head of Natural History, Phil Edgar, said, \u201cIn learning about this weird and mysterious creature, we hope visitors will have a greater appreciation for life in the deep sea, much of which remains undiscovered.\u201d The Colossal Squid is one of the most iconic specimens at Te Papa, and while touring the complete specimen is impossible, some of the important parts of the squid have found their way to Cobblestones.\n\u201cTe Papa\u2019s Colossal Squid has been a major source of information for scientists and the museum\u2019s most popular exhibit since its debut.\nIt\u2019s a must-see exhibition for the young and young at heart to learn about this fascinating creature, its world, and habitat.\u201d Colossal Squid Ngu Tipua is developed and toured by the Museum of New Zealand Te Papa Tongarewa.",
+    "labels": []
+  },
+  {
+    "id": "Lavender Magic Flower Farm - Pick your own Lavender-Lavender Magic, 61 Blakes Road, Mt Holdsworth, Carterton, Carterton-Event Finder",
+    "name": "Lavender Magic Flower Farm - Pick your own Lavender",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2151958-917561-35.jpg",
+    "venue": "Lavender Magic, 61 Blakes Road, Mt Holdsworth, Carterton, Carterton",
+    "coordinates": null,
+    "dates": [
+      "2025-12-27-10:00",
+      "2025-12-28-10:00",
+      "2025-12-29-10:00",
+      "2025-12-30-10:00",
+      "2025-12-31-10:00",
+      "2026-01-01-10:00",
+      "2026-01-02-10:00",
+      "2026-01-03-10:00",
+      "2026-01-04-10:00",
+      "2026-01-05-10:00",
+      "2026-01-09-10:00",
+      "2026-01-10-10:00",
+      "2026-01-11-10:00",
+      "2026-01-16-10:00",
+      "2026-01-17-10:00",
+      "2026-01-18-10:00"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/lavender-magic-flower-farm-pick-your-own-lavender/carterton",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "long_description": "Snap the ultimate summer photo and come and enjoy the best of the Lavender Season from mid-December to mid-January, before the harvesting starts.\n\nEarly in the season we start picking English Lavender - short stem but beautifully scented and vibrant in colour. Then we pick the more traditional French Lavender. You can pick your own, take home to dry and enjoy the fragrance all year. Or just wander the garden.\n\nThere are rows of lavender and we have pockets of cut flowers nestled in our country garden with magnificent mountain views. The Tararua Ranges and foothills create a stunning backdrop to this romantic relaxing location. Wander through the garden and pick your favorite flowers or just sit and breathe. Ditch the city chaos for some quality time out, picking lavender flowers is relaxing.\n\nCome alone, with a friend or friends to enjoy the experience with others or get a group of together.\n\nAt this Magic location you will tune into the sound of nature, see the butterflies flutter, listen to the bees buzz, the birds sing and the river flow.\n\nWhat do you do?\n- Pay on entry or book your on-line ticket (not really necessary)\n- Take the scenic drive to Lavender Magic, approximately 75 minutes from Upper Hutt or Palmerston North, take the Mt Holdsworth turnoff from State Highway 2 just south of Masterton.\n- Follow the purple signs that lead you to 61 Blakes Rd, Mt Holdsworth, Wairarapa\n- When you are ready we will set you up with flower cutters\n- We will let you know the cutting areas (which flowers we are cutting as they change throughout the season)\n- You will pick a bunch of lavender or two or more!\n- You will wander around the colourful, seasonal flowers and pick those if available. Like us on facebook and instagram for up to date details on what is available.\n- You can create a bouquet, if available we will help.\n- Visit the small lavender shop\n- You can test the wonderful natural skincare products we will have for sale in our shop.\n\nOther tips\nWear - Good footwear to explore the flower farm.\nWear - Sunglasses and slip, slop, slap if a sunny day as we get full sun.\nBring - A coffee, a treat or a picnic. BYO food is allowed. Or grab a coffee and something to eat from OUR PLACE CAFE who set up when available, check socials for details.\nBring - A camera to capture some of the magic and create memories.\nA toilet is on site.\n\nWe accept cash and we have eftpos\nBuying tickets online is not necessary, door sales are available.\n$5 Entry 13 years and older, children 12 years and under are FREE!\n$5 per bunch of lavender\nOther flowers are available, priced per flower or per bunch\nReady made bouquets are available.\nBouquets can be pre-ordered to surprise someone special.\n\n\n****NOTE - the garden is forever changing and different flowers are available for picking throughout the season. Lavender Magic facebook and instagram pages are good resources to show you what is available.\n\nPhoto credit - Light by Nika",
+    "description": "There are rows of lavender and we have pockets of cut flowers nestled in our country garden with magnificent mountain views.\n- Follow the purple signs that lead you to 61 Blakes Rd, Mt Holdsworth, Wairarapa - When you are ready we will set you up with flower cutters - We will let you know the cutting areas (which flowers we are cutting as they change throughout the season) - You will pick a bunch of lavender or two or more!\n- You can create a bouquet, if available we will help.\n****NOTE - the garden is forever changing and different flowers are available for picking throughout the season.\nLavender Magic facebook and instagram pages are good resources to show you what is available.",
     "labels": []
   },
   {
@@ -1906,6 +1683,31 @@
     "labels": []
   },
   {
+    "id": "Shared 90-Minute Guided Tour-Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton-Event Finder",
+    "name": "Shared 90-Minute Guided Tour",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2143969-914922-34.jpg?v=2",
+    "venue": "Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton",
+    "coordinates": {
+      "lat": -41.100651,
+      "long": 175.5803805
+    },
+    "dates": [
+      "2025-12-27-10:30",
+      "2025-12-27-12:30",
+      "2025-12-27-14:00",
+      "2025-12-28-10:30",
+      "2025-12-28-12:30",
+      "2025-12-28-14:00"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/shared-90-minute-guided-tour/carterton",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "long_description": "Join a Shared Guided Tour and experience Stonehenge Aotearoa through the eyes of an expert. In this 90-minute journey, you\u2019ll uncover how ancient cultures measured time, tracked the Sun and Moon, and connected the heavens with life on Earth.\n\nYour experience begins with a captivating introduction and a 15-minute audio-visual presentation explaining how the Henge works. Then, step outside with your guide for a detailed tour of the stone circle, where astronomy, archaeology, and mythology come together in one unforgettable setting.\n\nPerfect for visitors seeking a deeper understanding of the stars and stories that shaped human history.",
+    "description": "Join a Shared Guided Tour and experience Stonehenge Aotearoa through the eyes of an expert.\nIn this 90-minute journey, you\u2019ll uncover how ancient cultures measured time, tracked the Sun and Moon, and connected the heavens with life on Earth.\nYour experience begins with a captivating introduction and a 15-minute audio-visual presentation explaining how the Henge works.\nThen, step outside with your guide for a detailed tour of the stone circle, where astronomy, archaeology, and mythology come together in one unforgettable setting.\nPerfect for visitors seeking a deeper understanding of the stars and stories that shaped human history.",
+    "labels": []
+  },
+  {
     "id": "Card Merchant Wellington - Pokemon Trading Day!-Regency Apartments, 49 Manners St, Te Aro, Wellington 6011, New Zealand-Facebook",
     "name": "Card Merchant Wellington - Pokemon Trading Day!",
     "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/579883313_122162529398801022_4669986119468854230_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=TzdNISbRx-QQ7kNvwGxF84p&_nc_oc=Adkck3lEgVUnqNF4usBg4ucBzFndEalEmKuc9uqKhfnveqc1HRqYKbOogsRNmx0TcyCDzElL6ZzqRwbDdoHREUiC&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=5Z3jRg7qXMJcgq0nfYAoiw&oh=00_Afl5qwek62WfN1itUCP8FJqmz2qpOjtpFM6TbCQ0A0ySQQ&oe=69504229",
@@ -1946,9 +1748,26 @@
     "labels": []
   },
   {
+    "id": "Massive Pint Sized Quiz - Holiday Edition! w/ MC Marcus Tidwell-Double Vision Brewery, 128A Unit E Park Rd, Wellington-Event Finder",
+    "name": "Massive Pint Sized Quiz - Holiday Edition! w/ MC Marcus Tidwell",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2152580-918635-35.jpg?v=2",
+    "venue": "Double Vision Brewery, 128A Unit E Park Rd, Wellington",
+    "coordinates": null,
+    "dates": [
+      "2025-12-27-13:00"
+    ],
+    "displayDate": "Sat 27 Dec",
+    "url": "https://www.eventfinda.co.nz/2025/massive-pint-sized-quiz-holiday-edition-w-mc-marcus-tidwell/wellington",
+    "source": "Event Finder",
+    "eventType": "Hobbies & Interests",
+    "long_description": "The MASSIVE Pint-Sized Quiz is back for the month of December in a Holiday Special!\n\nWith legendary local Quiz Master and Comedian Marcus the Masterful as MC, it's a great way to kick off the afternoon with friends and family- win awesome games and prizes, and it's completely free to play!\n\nTo register, just visit doublevisionbrewing.com and book under our Miramar site. The quiz kicks off at 1pm sharp, so make sure you get in a bit earlier to grab a drink!",
+    "description": "The MASSIVE Pint-Sized Quiz is back for the month of December in a Holiday Special!\nWith legendary local Quiz Master and Comedian Marcus the Masterful as MC, it's a great way to kick off the afternoon with friends and family- win awesome games and prizes, and it's completely free to play!\nTo register, just visit doublevisionbrewing.com and book under our Miramar site.\nThe quiz kicks off at 1pm sharp, so make sure you get in a bit earlier to grab a drink!",
+    "labels": []
+  },
+  {
     "id": "Queensgate Night Market-Queensgate Shopping Centre, 45 Knights Rd, Lower Hutt-Event Finder",
     "name": "Queensgate Night Market",
-    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2126623-906955-35.png",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2126398-906888-35.png",
     "venue": "Queensgate Shopping Centre, 45 Knights Rd, Lower Hutt",
     "coordinates": {
       "lat": -41.2104006,
@@ -1956,17 +1775,24 @@
     },
     "dates": [
       "2025-12-27-17:30",
+      "2026-01-03-17:30",
       "2026-01-10-17:30",
       "2026-01-17-17:30",
       "2026-01-24-17:30",
-      "2026-02-07-17:30"
+      "2026-01-31-17:30",
+      "2026-02-07-17:30",
+      "2026-02-14-17:30",
+      "2026-02-21-17:30",
+      "2026-02-28-17:30",
+      "2026-03-07-17:30",
+      "2026-03-14-17:30"
     ],
     "displayDate": "Sat 27 Dec + more",
-    "url": "https://www.eventfinda.co.nz/2025/queensgate-night-market/wellington-region",
+    "url": "https://www.eventfinda.co.nz/2025/queensgate-night-market/lower-hutt",
     "source": "Event Finder",
     "eventType": "Other",
-    "long_description": "What started as a humble food market in a suburban Auckland carpark has grown into one of New Zealand\u2019s most popular evening destinations.\n\nThe Auckland Night Markets bring together street food, community, and live entertainment - and now Queensgate Night Market is joining the family! Expect the same epic lineup of street food, shopping, and good vibes!",
-    "description": "What started as a humble food market in a suburban Auckland carpark has grown into one of New Zealand\u2019s most popular evening destinations.\nThe Auckland Night Markets bring together street food, community, and live entertainment - and now Queensgate Night Market is joining the family!\nExpect the same epic lineup of street food, shopping, and good vibes!",
+    "long_description": "What started as a humble food market in a suburban Auckland carpark has grown into one of New Zealand\u2019s most popular evening destinations. The Auckland Night Markets bring together street food, community, and live entertainment - and from the 27th September 2025, Queensgate Night Market will be joining the family!\nOur market offers a vibrant atmosphere, showcasing an ever-evolving mix of global cuisines, handmade goods, and live entertainment - from buskers to magicians and cultural performers. It\u2019s this unique blend of flavour, fun, and family-friendly energy that\u2019s helped us become a staple in the weekday and weekend plans of thousands of Kiwis.",
+    "description": "What started as a humble food market in a suburban Auckland carpark has grown into one of New Zealand\u2019s most popular evening destinations.\nThe Auckland Night Markets bring together street food, community, and live entertainment - and from the 27th September 2025, Queensgate Night Market will be joining the family!\nOur market offers a vibrant atmosphere, showcasing an ever-evolving mix of global cuisines, handmade goods, and live entertainment - from buskers to magicians and cultural performers.\nIt\u2019s this unique blend of flavour, fun, and family-friendly energy that\u2019s helped us become a staple in the weekday and weekend plans of thousands of Kiwis.",
     "labels": []
   },
   {
@@ -1990,20 +1816,108 @@
     "labels": []
   },
   {
-    "id": "Kava Barrel Fundraiser-Shop25, Level1, the Oaks Complex, 44 Dixon Street., Wellington-Facebook",
-    "name": "Kava Barrel Fundraiser",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/600183118_1320649810077368_2735474596712119809_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-cFFzJlo4LwQ7kNvwHlTGAd&_nc_oc=Adm7WFoVsebcz0AgL7yriAC7CihZWjoOFv2TY_hFPH_ciFQx9HzwqWzGDO_fttROIPhThbNudC95Kqr58zPFdWXo&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=N4Nc7qjtVbF9jMwZ5nRABw&oh=00_AfllrRYYiB2sT1WK1JFgH0sjLQasoFSniXGAsN1LroInVw&oe=694D744A",
-    "venue": "Shop25, Level1, the Oaks Complex, 44 Dixon Street., Wellington",
-    "coordinates": null,
+    "id": "Star Sense: Find Your Way by the Stars-Star Safari Observatory, 1169 Ponatahi Road, Carterton-Event Finder",
+    "name": "Star Sense: Find Your Way by the Stars",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2150666-917734-35.jpg?v=3",
+    "venue": "Star Safari Observatory, 1169 Ponatahi Road, Carterton",
+    "coordinates": {
+      "lat": -41.1425086,
+      "long": 175.5177672
+    },
     "dates": [
-      "2025-12-27-20:00"
+      "2025-12-27-18:00",
+      "2026-01-10-18:00",
+      "2026-01-31-18:00"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/star-sense-find-your-way-by-the-stars/carterton",
+    "source": "Event Finder",
+    "eventType": "Classes & Workshops",
+    "long_description": "Learn the ancient art of celestial navigation under one of the world\u2019s best night skies.\n\nThis Summer of Space, Star Safari invites you to rediscover something humanity once knew instinctively \u2014 how to read the night sky as a living map.\n\nUnder Wairarapa\u2019s internationally celebrated dark skies (featured by Lonely Planet as one of the world\u2019s top stargazing destinations), you\u2019ll learn how explorers, navigators, and storytellers used the stars to orient themselves, travel across oceans, understand seasons, and pass knowledge through generations.\n\nGuided by Hari Mogo\u0219anu \u2014 TEDx speaker, former NASA intern, and creator of the planetarium film Ng\u0101 Tohunga Whakatere \u2014 you\u2019ll gain practical, confidence-building skills in southern-sky star-literacy:\n\nYou\u2019ll learn how to:\n- Find south using stars and sky geometry\n- Identify the key constellations of the summer sky\n- Trace the Milky Way and understand its structure\n- Read seasonal sky patterns and stellar motion\n- Tell planets from stars\n- Navigate using asterisms and star-hops\n- See the sky through multiple cultural perspectives\n- Understand dark-sky ethics and the importance of gentle lighting\n\nThis experience focuses on unaided stargazing \u2014 learning to understand the sky with your own eyes. By the end of the night, you\u2019ll be able to step outside, recognise what you see, and use the stars to find direction anywhere in the world.\n\nWhat\u2019s included:\nGuided instruction, southern-sky star map, orientation techniques, constellation recognition, navigation principles, cultural stories, dark-sky awareness, Q&A.\n\nRecommended age: 10+\nDuration: 2.5 hours\n\nCome and learn the ancient skill of sky navigation \u2014 and leave with a deeper sense of place in the cosmos.\n\nStar Sense. Find Your Way by the Stars.",
+    "description": "Learn the ancient art of celestial navigation under one of the world\u2019s best night skies.\nUnder Wairarapa\u2019s internationally celebrated dark skies (featured by Lonely Planet as one of the world\u2019s top stargazing destinations), you\u2019ll learn how explorers, navigators, and storytellers used the stars to orient themselves, travel across oceans, understand seasons, and pass knowledge through generations.\nGuided by Hari Mogo\u0219anu \u2014 TEDx speaker, former NASA intern, and creator of the planetarium film Ng\u0101 Tohunga Whakatere \u2014 you\u2019ll gain practical, confidence-building skills in southern-sky star-literacy: You\u2019ll learn how to: - Find south using stars and sky geometry - Identify the key constellations of the summer sky - Trace the Milky Way and understand its structure - Read seasonal sky patterns and stellar motion - Tell planets from stars - Navigate using asterisms and star-hops - See the sky through multiple cultural perspectives - Understand dark-sky ethics and the importance of gentle lighting This experience focuses on unaided stargazing \u2014 learning to understand the sky with your own eyes.\nWhat\u2019s included: Guided instruction, southern-sky star map, orientation techniques, constellation recognition, navigation principles, cultural stories, dark-sky awareness, Q&A.\nRecommended age: 10+ Duration: 2.5 hours Come and learn the ancient skill of sky navigation \u2014 and leave with a deeper sense of place in the cosmos.",
+    "labels": []
+  },
+  {
+    "id": "Robin Hood - The Pantomime-1A Taranaki St, Wellington Central, Wellington 6011, New Zealand-Facebook",
+    "name": "Robin Hood - The Pantomime",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/565649732_1440826014716848_3424406031140398648_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=vucTzLmS3sIQ7kNvwHDZku3&_nc_oc=Adm83vtE6B0tN_lgXUyFOy2Rr7HNBKn3X8t02tLBZNBiEfXTzMfgFdDzopMXxEBhZJ-sbOi5O09TCva_OHDUdwl9&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=bvgvdhBIOILc9RIiy7_97Q&oh=00_AfnNw-edbZC9MnDEkPQFvILEoy_k4ni2mzHZUOLhwFWFJg&oe=69544D77",
+    "venue": "1A Taranaki St, Wellington Central, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.2902081,
+      "long": 174.780383
+    },
+    "dates": [
+      "2025-12-27-18:30"
     ],
     "displayDate": "Sat 27 Dec",
-    "url": "https://www.facebook.com/events/1212592937462563",
+    "url": "https://www.facebook.com/events/1317018822879623",
     "source": "Facebook",
     "eventType": "Other",
-    "long_description": "Bula Wellington!! We invite you to our kava barrel fundraising for only $20 a person and pay at the door.\nIf you pay online, please reference your name and phone number. Vinaka\nBank account details:\nWELLINGTON FIJIAN FLYER\n01-0527-0718713-02\nDate: Next Saturday 27th December\nVenue: Club Kbar\nTime: 8pm till late ",
-    "description": "Bula Wellington!!\nWe invite you to our kava barrel fundraising for only $20 a person and pay at the door.\nIf you pay online, please reference your name and phone number.\nVinaka Bank account details:\n01-0527-0718713-02 Date: Next Saturday 27th December Venue: Club Kbar Time: 8pm till late",
+    "long_description": "Adventures of the original working-class hero and man in tights!\nRobin Hood steals from the rich and gives to the poor in an oldie timey place where people are struggling and homeless, and the landed gentry hoard the money all for themselves \u2013 Wellington 2025.\nRobin must stop the Evil Sheriff from running roughshod over the citizens! But this quest is far from easy\u2026 there is archery, swordfights, and a lot of dance numbers to get through. Our hero is grateful for help from spies on the inside: Maid Marion and her bolshie handmaiden (Pantomime Dame Jthan Morgan).\nCome one and come all to see the slings and arrows of outrageous panto! ",
+    "description": "Adventures of the original working-class hero and man in tights!\nRobin Hood steals from the rich and gives to the poor in an oldie timey place where people are struggling and homeless, and the landed gentry hoard the money all for themselves \u2013 Wellington 2025.\nRobin must stop the Evil Sheriff from running roughshod over the citizens!\nBut this quest is far from easy\u2026 there is archery, swordfights, and a lot of dance numbers to get through.\nOur hero is grateful for help from spies on the inside: Maid Marion and her bolshie handmaiden (Pantomime Dame Jthan Morgan).",
+    "labels": []
+  },
+  {
+    "id": "Black Knight Deep Purple Homage-Abandoned Taproom Petone, 38 Fitzherbert St, Petone, Lower Hutt-Event Finder",
+    "name": "Black Knight Deep Purple Homage",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2151939-918250-35.jpg",
+    "venue": "Abandoned Taproom Petone, 38 Fitzherbert St, Petone, Lower Hutt",
+    "coordinates": {
+      "lat": -41.2227099,
+      "long": 174.8758616
+    },
+    "dates": [
+      "2025-12-27-19:00"
+    ],
+    "displayDate": "Sat 27 Dec",
+    "url": "https://www.eventfinda.co.nz/2025/black-knight-deep-purple-homage/wellington-region",
+    "source": "Event Finder",
+    "eventType": "Music & Concerts",
+    "long_description": "An evening of thunderous Deep Purple classics, Highway Star, Burn, Hush, Perfect Strangers, Smoke on the Water and of course Black Knight and many more",
+    "description": "An evening of thunderous Deep Purple classics, Highway Star, Burn, Hush, Perfect Strangers, Smoke on the Water and of course Black Knight and many more",
+    "labels": []
+  },
+  {
+    "id": "Christmas Feast for Two \u2013 A Magical Dinner Experience-Le Ciel Bakery, 100 Tory Street, Te Aro, Wellington-Event Finder",
+    "name": "Christmas Feast for Two \u2013 A Magical Dinner Experience",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2144242-910448-34.png?v=3",
+    "venue": "Le Ciel Bakery, 100 Tory Street, Te Aro, Wellington",
+    "coordinates": {
+      "lat": -41.2954046,
+      "long": 174.7798761
+    },
+    "dates": [
+      "2025-12-27-19:00",
+      "2025-12-28-19:00"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/christmas-feast-for-two-a-magical-dinner-experience/wellington",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "long_description": "Christmas Feast for Two \u2013 A Magical Dinner Experience\n\nCelebrate the joy of Christmas with an intimate dining experience designed just for two. Le Ciel invites you to indulge in a festive evening filled with warmth, flavour, and sparkle \u2014 a beautiful way to share the season\u2019s magic.\n\nEach table for two will be adorned with candlelight, evergreen touches, and a hint of gold. Our specially curated five-course Christmas menu brings together the nostalgia of traditional holiday dishes and the elegance of modern cuisine. Expect luxurious flavours, handcrafted details, and a little surprise treat to take home.\n\nWhether it\u2019s a romantic evening, a celebration with a dear friend, or a thoughtful gift experience, this dinner promises to be one to remember.\n\nAvailable Dates: December 24th \u2013 28th\nSeating Times: 7:00 PM\nPricing: $120 per pair ($60 per person)\n\nBookings are essential \u2014 limited tables available each night.\n\nSample menu:\nCHRISTMAS DINNER MENU\nA festive evening celebrating Kiwi flavours with a refined holiday twist.\nTO START \u2014 Choose 1\n\u2022 House-Baked Focaccia with rosemary, sea salt & olive oil\n\u2022 Garlic & Herb Bread Rolls with whipped butter\n\u2022 Warm Ciabatta with sundried tomato pesto\nMAINS \u2014 Choose 2 Proteins\n\u2022 Slow-Roasted Lamb Shoulder with garlic, rosemary & red wine jus\n\u2022 Honey-Glazed Champagne Ham with mustard & clove glaze\n\u2022 Baked Salmon Fillet with miso, citrus & toasted sesame\n\u2022 Free-Range Chicken Ballotine with spinach, ricotta & thyme jus\n\u2022 Vegetarian Pumpkin & Sage Wellington with pecan crumble\nSIDES \u2014 Choose 3\n\u2022 Classic Kiwi Potato Salad with egg, dill & mustard mayo\n\u2022 Roasted Baby Potatoes with garlic & herb butter\n\u2022 Summer Greens & Pomegranate Salad\n\u2022 Avocado, Citrus & Feta Salad\n\u2022 Roasted K\u016bmara with maple & toasted seeds\n\u2022 Grilled Asparagus with lemon & parmesan\nDESSERT PLATTER \u2014 Shared\n\u2022 Mini Pavlovas with seasonal fruit\n\u2022 Salted Caramel Chocolate Tarts\n\u2022 Christmas Mince Pies\n\u2022 Fresh Berries & Cream\n\u2022 Vanilla Bean Cr\u00e8me Br\u00fbl\u00e9e\nDRINKS AVAILABLE FOR PURCHASE\nNon-alcoholic: Gingerbread Kombucha \u2022 Sparkling Juices\nWine: Chilled Bubbles \u2022 Red & White Selection\nCocktails: Festive Negroni \u2022 Pine-Infused G&T \u2022 Spiced Rum Sour\nPRICE\n$120 per couple\nFestive shared dining experience",
+    "description": "Christmas Feast for Two \u2013 A Magical Dinner Experience Celebrate the joy of Christmas with an intimate dining experience designed just for two.\nOur specially curated five-course Christmas menu brings together the nostalgia of traditional holiday dishes and the elegance of modern cuisine.\nWhether it\u2019s a romantic evening, a celebration with a dear friend, or a thoughtful gift experience, this dinner promises to be one to remember.\nA festive evening celebrating Kiwi flavours with a refined holiday twist.\n$120 per couple Festive shared dining experience",
+    "labels": []
+  },
+  {
+    "id": "Sunset Guided Tour-Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton-Event Finder",
+    "name": "Sunset Guided Tour",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2144029-914963-34.jpg?v=2",
+    "venue": "Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton",
+    "coordinates": {
+      "lat": -41.100651,
+      "long": 175.5803805
+    },
+    "dates": [
+      "2025-12-27-19:15",
+      "2025-12-28-19:15",
+      "2025-12-31-19:15"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/sunset-guided-tour/wairarapa",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "long_description": "Experience Stonehenge Aotearoa at its most breathtaking \u2014 as the sun dips below the Wairarapa horizon.\nOur Sunset Guided Tour blends astronomy, storytelling, and the natural beauty of twilight for an evening you will never forget.\n\nLed by one of our knowledgeable guides, this 90-minute experience explores how ancient cultures used the Sun to track time and mark the turning of the seasons. You\u2019ll discover the scientific and cultural thinking behind the Henge\u2019s unique Southern Hemisphere design before watching the sunset alignment from inside the stone circle.\n\nWeather permitting, you\u2019ll witness how the setting Sun interacts with the structure \u2014 a striking moment that links ancient knowledge with the rhythms of the natural world.\n\nDuration and Schedule\n\u2022 Allow: Approximately 90 minutes\n\u2022 Start Time: Begins one hour before sunset\n\u2022 Availability: Offered any day with advance booking",
+    "description": "Experience Stonehenge Aotearoa at its most breathtaking \u2014 as the sun dips below the Wairarapa horizon.\nOur Sunset Guided Tour blends astronomy, storytelling, and the natural beauty of twilight for an evening you will never forget.\nLed by one of our knowledgeable guides, this 90-minute experience explores how ancient cultures used the Sun to track time and mark the turning of the seasons.\nYou\u2019ll discover the scientific and cultural thinking behind the Henge\u2019s unique Southern Hemisphere design before watching the sunset alignment from inside the stone circle.\nWeather permitting, you\u2019ll witness how the setting Sun interacts with the structure \u2014 a striking moment that links ancient knowledge with the rhythms of the natural world.",
     "labels": []
   },
   {
@@ -2029,6 +1943,27 @@
     "labels": []
   },
   {
+    "id": "Draw the Moon: A Lunar Sketching Workshop at Star Safari-Star Safari Observatory, 1169 Ponatahi Road, Carterton-Event Finder",
+    "name": "Draw the Moon: A Lunar Sketching Workshop at Star Safari",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2150670-917249-35.jpg?v=2",
+    "venue": "Star Safari Observatory, 1169 Ponatahi Road, Carterton",
+    "coordinates": {
+      "lat": -41.1425086,
+      "long": 175.5177672
+    },
+    "dates": [
+      "2025-12-27-21:15",
+      "2026-01-24-21:15"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/draw-the-moon-lunar-sketching-workshop-at-star-safari/carterton",
+    "source": "Event Finder",
+    "eventType": "Hobbies & Interests",
+    "long_description": "See the Moon like an astronomer \u2014 and draw it like an artist.\nJoin us at the Star Safari Observatory for a unique 90-minute experience where astronomy meets art. In this hands-on workshop, you\u2019ll learn how to sketch the Moon directly at the eyepiece of our telescopes while observing its craters, mountains, shadows, and changing light in real time.\n\nUsing quality sketching materials (provided on the night), you\u2019ll be guided step-by-step through:\n- recognising key lunar features\n- capturing contrast, relief and texture\n- translating live telescope views accurately to paper\n- fast sketching techniques for an object that\u2019s constantly moving\n\nYou\u2019ll have dedicated telescope time with our team, adjusting the optics for you and helping you get the sharpest possible view. This experience is designed to be accessible for beginners, while still rewarding for those with some astronomy or art experience.\n\nSet beneath Wairarapa\u2019s internationally acclaimed dark skies, this workshop offers a quiet, focused creative moment under the Moon. Whether you come for art, astronomy, or simply the pleasure of observing slowly and noticing deeply, you\u2019ll leave with a sketch that is uniquely yours \u2014 shaped by the night and the light you saw.\n\nWho is this for?\nAdults and older children with an interest in drawing, the night sky, or simply trying something new.\n\nIncluded:\n\u2714 High-quality sketching pencils and paper\n\u2714 Expert lunar observing guidance\n\u2714 Dedicated telescope time\n\u2714 Use of Star Safari\u2019s professional viewing equipment\n\nWhat to bring:\nWarm clothing, curiosity, and any of your favourite drawing tools if you\u2019d like to use them.\n\nTake home more than a drawing \u2014 take home a moment of looking closely.",
+    "description": "See the Moon like an astronomer \u2014 and draw it like an artist.\nUsing quality sketching materials (provided on the night), you\u2019ll be guided step-by-step through: - recognising key lunar features - capturing contrast, relief and texture - translating live telescope views accurately to paper - fast sketching techniques for an object that\u2019s constantly moving You\u2019ll have dedicated telescope time with our team, adjusting the optics for you and helping you get the sharpest possible view.\nThis experience is designed to be accessible for beginners, while still rewarding for those with some astronomy or art experience.\nSet beneath Wairarapa\u2019s internationally acclaimed dark skies, this workshop offers a quiet, focused creative moment under the Moon.\nWhether you come for art, astronomy, or simply the pleasure of observing slowly and noticing deeply, you\u2019ll leave with a sketch that is uniquely yours \u2014 shaped by the night and the light you saw.",
+    "labels": []
+  },
+  {
     "id": "The City at Night Meetup-Te Aro Wellington-Facebook",
     "name": "The City at Night Meetup",
     "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/600406226_1174552651522560_5443244475430747943_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=i1lauBv9mz0Q7kNvwFQwitv&_nc_oc=Adm6kwTbu7MAxqabtV57zTg_NL8R_u4Zgh0cXC0pM4TbgU75bMMnE0r7YacykV_qbdPNEexfpXG9pH7gyTKIN-i9&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=ZBNRGh0_a0-UgUgX5D_kOA&oh=00_Afm1DtYbliosynuD72B59uLJQgOKANz9--b-EnDoa9ScaQ&oe=69503543",
@@ -2046,6 +1981,27 @@
     "eventType": "Other",
     "long_description": "Capture the magic of Wellington CBD at night on this casual 2-hour walk. Focus on landscapes and night portraits using tripods and flash for stunning low-light effects. Perfect for beginners and intermediates. Receive hands-on tips and feedback. Bring your camera and tripod. ",
     "description": "Capture the magic of Wellington CBD at night on this casual 2-hour walk.\nFocus on landscapes and night portraits using tripods and flash for stunning low-light effects.\nPerfect for beginners and intermediates.\nReceive hands-on tips and feedback.\nBring your camera and tripod.",
+    "labels": []
+  },
+  {
+    "id": "Star Trek Laser Tour (Stargazing)-Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton-Event Finder",
+    "name": "Star Trek Laser Tour (Stargazing)",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2145300-914955-35.png?v=2",
+    "venue": "Stonehenge Aotearoa, 51 Ahiaruhe Rd, Carterton",
+    "coordinates": {
+      "lat": -41.100651,
+      "long": 175.5803805
+    },
+    "dates": [
+      "2025-12-27-21:45",
+      "2025-12-28-21:45"
+    ],
+    "displayDate": "Sat 27 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2025/star-trek-laser-tour-stargazing/carterton",
+    "source": "Event Finder",
+    "eventType": "Community & Culture",
+    "long_description": "Your evening begins with a presentation on the current night sky, including a short audio-visual show.\nWeather permitting, this is followed by a laser-guided tour of the night sky, where you\u2019ll explore constellations, planets, and celestial stories above Stonehenge Aotearoa.\n\nStar Trek Laser Tours are available any evening by appointment.\nStart times vary with sunset.\n\nPlease note: Tours are subject to weather and confirmation. After making your booking, contact us directly to confirm your session.",
+    "description": "Your evening begins with a presentation on the current night sky, including a short audio-visual show.\nWeather permitting, this is followed by a laser-guided tour of the night sky, where you\u2019ll explore constellations, planets, and celestial stories above Stonehenge Aotearoa.\nStar Trek Laser Tours are available any evening by appointment.\nStart times vary with sunset.\nPlease note: Tours are subject to weather and confirmation.",
     "labels": []
   },
   {
@@ -2133,7 +2089,7 @@
   {
     "id": "December Walk and Weed-Titahi Bay-Facebook",
     "name": "December Walk and Weed",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/489411752_657899903852065_5096056216709322676_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=8fhs-22fvcIQ7kNvwFFCOMQ&_nc_oc=AdmU19PLhGuDU7IDs_vECQu1qy7goKdCQbUgLbCJJPpBkmfeAX-j4gKqdBA_37UC3GYAYzQ6WSC_Y5RY43jE9upV&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=7SSzxgoHt9LHNiKKzl9oxA&oh=00_AfnDltHBFaQu-TLlpc0DS-NvZ6Avvbmif9L2Pk5qValc8A&oe=694D768E",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/489411752_657899903852065_5096056216709322676_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=uf1ZE6H0BoEQ7kNvwGq2snU&_nc_oc=AdlYicoufpILqixasoCaKzs3iydmbQQ1RjQZAc71dR5JWt9cVZtGq3GXhgB-WkKxSXkmFktRkL7kPRGCDKYVy3LJ&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=LPLdUocLQ3I-9WeLi3YwzA&oh=00_AfmTz-fSAipcrUfqPUwt5XquIBg7mlKgFMsC5zC6MbO6qQ&oe=6954464E",
     "venue": "Titahi Bay",
     "coordinates": {
       "lat": -41.1086925,
@@ -2205,6 +2161,26 @@
     "labels": []
   },
   {
+    "id": "SONG SUNG BLUE ADVANCED SCREENINGS-205 Ohiro Rd, Brooklyn, Wellington 6021, New Zealand-Facebook",
+    "name": "SONG SUNG BLUE ADVANCED SCREENINGS",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/600293818_1417367053733338_728154203868127635_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=J3Fxi02cX38Q7kNvwFz-vUj&_nc_oc=AdnHK227YQI-3UkGf69we0Iml6ewul_39if8qU7JEj6tioUWgTHZvZnLNLtofkm0ABLzduB8kUSE1KREYmJxRsg7&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=fc7Wj5VuY-T5kii1K42mEQ&oh=00_AfloCErUi3pMuC6CL8EnZZtW0ZP79MvqR3b-bdIPCrdFJg&oe=69503682",
+    "venue": "205 Ohiro Rd, Brooklyn, Wellington 6021, New Zealand",
+    "coordinates": {
+      "lat": -41.3058382,
+      "long": 174.7634702
+    },
+    "dates": [
+      "2025-12-28-15:00"
+    ],
+    "displayDate": "Sun 28 Dec",
+    "url": "https://www.facebook.com/events/1292125029348793",
+    "source": "Facebook",
+    "eventType": "Other",
+    "long_description": "You\u2019re Invited \u2013 Advanced Screenings of Song Sung Blue\nSee it early this holiday season! We\u2019re hosting special preview screenings of the beautiful and uplifting Song Sung Blue before its official release.\nBoxing Day \u2013 26 December\n3:00 PM & 5:40 PM\nSaturday \u2013 27 December\n3:00 PM\nSunday \u2013 28 December\n2:45 PM & 5:30 PM\nMake it a post-Christmas treat and enjoy this heartfelt story on the big screen. Bring friends, bring family, or escape for a quiet movie moment just for you.\nWe\u2019d love to see you there!\n",
+    "description": "You\u2019re Invited \u2013 Advanced Screenings of Song Sung Blue See it early this holiday season!\nBoxing Day \u2013 26 December\nSaturday \u2013 27 December\nSunday \u2013 28 December\nMake it a post-Christmas treat and enjoy this heartfelt story on the big screen.",
+    "labels": []
+  },
+  {
     "id": "Sunday Jazz-The Undercurrent, 118 Tory Street, Wellington-Event Finder",
     "name": "Sunday Jazz",
     "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2149268-917163-35.jpg?v=2",
@@ -2245,6 +2221,47 @@
     "eventType": "Music & Concerts",
     "long_description": "Join us for live jazz every Sunday!\n\nRelax in the charming bohemian olde world atmosphere of the Undercurrent and enjoy the suave musical stylings of The Undercurrent All-Stars. Expect to hear the swinging tunes made famous by the great jazz musicians of the 1940's and 50's.\n\nThis Sunday ft. TBC!\n\nDoors at 3pm / Gig at 3:30pm\nTickets $15\n\nComplimentary snacks, wine, beer & soft drinks, tea & coffee, and of course... books available for purchase!\n\nWe hope to see you there!",
     "description": "Join us for live jazz every Sunday!\nRelax in the charming bohemian olde world atmosphere of the Undercurrent and enjoy the suave musical stylings of The Undercurrent All-Stars.\nExpect to hear the swinging tunes made famous by the great jazz musicians of the 1940's and 50's.\nThis Sunday ft. TBC!\nDoors at 3pm / Gig at 3:30pm Tickets $15 Complimentary snacks, wine, beer & soft drinks, tea & coffee, and of course... books available for purchase!",
+    "labels": []
+  },
+  {
+    "id": "Thursday Night Food Trucks-Front Car Park at the Masterton Club, 98 Chapel Street, Masterton-Event Finder",
+    "name": "Thursday Night Food Trucks",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2049591-873865-35.jpg",
+    "venue": "Front Car Park at the Masterton Club, 98 Chapel Street, Masterton",
+    "coordinates": {
+      "lat": -40.9510379,
+      "long": 175.6566873
+    },
+    "dates": [
+      "2025-12-28-16:30",
+      "2025-12-29-16:30"
+    ],
+    "displayDate": "Sun 28 Dec + more",
+    "url": "https://www.eventfinda.co.nz/2022/thursday-night-food-trucks3/masterton",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "long_description": "",
+    "description": "The trucks have moved to a brand new location just one block south of the Masterton Town Hall!\nCome along to our weekly Thursday Night Food Truck market outside the Masterton Club, corner of Essex and Chapel Streets (SH2) in Masterton.\nWe have awesome street food, plenty of parking adjacent (especially the Essex Street car park opposite), live music and places to r-e-l-a-x... We run the market rain or shine 4:30-7:00pm, every Thursday, all year round.\nBe sure to follow us on Facebook for regular weekly updates when we'll let you know which trucks are attending and any scrummy specials they may have!",
+    "labels": []
+  },
+  {
+    "id": "Wellington Pop-Up | Boxing Day Event | Untouched World-195 Lambton Quay, Wellington Central, Wellington 6011, New Zealand-Facebook",
+    "name": "Wellington Pop-Up | Boxing Day Event | Untouched World",
+    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/595890991_1408138291323808_1379535459652066095_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FLOwMizk7W0Q7kNvwFCOJWN&_nc_oc=AdksBG0ls6m9mussd3kyMuu7Um7rtqhxxGsHoKBoqE7o-6K8jwly6sEgd8Cgefx9-hB500KQA0z7EhjktSiwvlco&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=Ne_qGibeRD342Tv2b-TokA&oh=00_Afk96D2HT61aAjYi-ua83ppJh0vL0ahQawRt4ruBvXIdKw&oe=69503A54",
+    "venue": "195 Lambton Quay, Wellington Central, Wellington 6011, New Zealand",
+    "coordinates": {
+      "lat": -41.283918,
+      "long": 174.7756444
+    },
+    "dates": [
+      "2025-12-28-22:00"
+    ],
+    "displayDate": "Sun 28 Dec",
+    "url": "https://www.facebook.com/events/773730141793921",
+    "source": "Facebook",
+    "eventType": "Other",
+    "long_description": "What if your best Boxing Day find isn\u2019t a fleeting bargain, but something you\u2019ll still love years from now?\nThis Boxing Day, we invite the Capital to experience the quieter luxury of considered style. Our Wellington Pop-upon Lambton Quay is opening its doors with a further 20% off storewide across our timeless natural fibre ranges.\nThis is your moment to invest in beautifully made knitwear and enduring wardrobe staples designed to live long, well-worn lives. A conscious alternative to fast fashion, right in the heart of the city.\nSlow down. Try things on properly. Choose pieces that will move with you through work, weekends, and everything in between.\nThe Details\n\nWhere: Untouched World Wellington Outlet, 195 Lambton Quay, Wellington Central\nWhen: Boxing Day\nMonday to Friday: 9 AM to 5:30 PM\nSaturday to Sunday: 10 AM to 4 PM\nWe look forward to welcoming you for a more thoughtful kind of Boxing Day shopping. ",
+    "description": "What if your best Boxing Day find isn\u2019t a fleeting bargain, but something you\u2019ll still love years from now?\nThis Boxing Day, we invite the Capital to experience the quieter luxury of considered style.\nOur Wellington Pop-upon Lambton Quay is opening its doors with a further 20% off storewide across our timeless natural fibre ranges.\nThis is your moment to invest in beautifully made knitwear and enduring wardrobe staples designed to live long, well-worn lives.\nSlow down.",
     "labels": []
   },
   {
@@ -2360,26 +2377,6 @@
     "eventType": "Sports & Fitness",
     "long_description": "New Year Camp at Paraparaumu Beach\nJoin us for a relaxed New Years camp at Paraparaumu Beach Sea Scouts site. Its just a short walk to the beach, estuary and local shops, and beside a large park and sports area.\nThe site is suitable for tents and camping vehicles. The scout hall has toilets, a shower and a basic kitchen.\n\nThere is limited space on the site, so if you are planning to camp with us, please RSVP in advance using the button below.\n\n$5 per adult per night for members. $8 for non-members. Children free and discounted rate of $4 per night for members who bring children with them.\n\nMore details & RSVP at https://www.allpointscampingnz.org/event-details/new-year-camp-at-paraparaumu-beach\n\nYou may also like the following events from All Points Camping NZ Camping Club:\nThis Friday, 29th August, 04:00 am, Beside the sea, Colac Bay, Southland in Invercargill\nNext Saturday, 6th September, 08:30 am, Meet the committee dinner. Palmerston North in Palmerston North\nNext month, 26th September, 04:00 am, White Bait Season Camp in Waitara\nAlso check out other Sports events in Paraparaumu, Trips & Adventurous Activities in Paraparaumu.",
     "description": "New Year Camp at Paraparaumu Beach Join us for a relaxed New Years camp at Paraparaumu Beach Sea Scouts site.\nIts just a short walk to the beach, estuary and local shops, and beside a large park and sports area.\nThe site is suitable for tents and camping vehicles.\n$5 per adult per night for members.\n$8 for non-members.",
-    "labels": []
-  },
-  {
-    "id": "Added classes-8/24 Southampton Rd, Miramar, Wellington-Facebook",
-    "name": "Added classes",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/600599492_1294771082647767_7717025017659423656_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=0kqpbxUKa1kQ7kNvwGhjilG&_nc_oc=AdnwuZYIjud3AnMAggwySRmy7DymHNYLhoYT5Xo_CfIdNfW17lBTVp5M3H2VtdtP3iNQPErG8CjaYTlDt3o_Anz4&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=zcwFM_kIYc-Rv5OWUovK0Q&oh=00_Afl5gfn12IRU2XKN5f3Jz7Q9W1_NfmUWhN5x4-b8X77Zhg&oe=694D7E64",
-    "venue": "8/24 Southampton Rd, Miramar, Wellington",
-    "coordinates": {
-      "lat": -41.3190688,
-      "long": 174.8135811
-    },
-    "dates": [
-      "2025-12-29-17:00"
-    ],
-    "displayDate": "Mon 29 Dec",
-    "url": "https://www.facebook.com/events/1580921026389744",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "We had added classes to our regular timetable:\nMonday 22nd & 29th from 5 pm\n\n( otherwise the Christmas & New Year\u2019s week are gonna be too short! )\nMessage us to book and give yourself a break during the break\n\nNewbies welcome!\n\nCasa Yoga\nPh:0223531599 ",
-    "description": "We had added classes to our regular timetable: Monday 22nd & 29th from 5 pm ( otherwise the Christmas & New Year\u2019s week are gonna be too short! )\nMessage us to book and give yourself a break during the break Newbies welcome!\nCasa Yoga Ph:0223531599",
     "labels": []
   },
   {
@@ -2812,26 +2809,6 @@
     "labels": []
   },
   {
-    "id": "NEW YEARS EVE 2026-128A Park Rd, Miramar, Wellington 6022, New Zealand-Facebook",
-    "name": "NEW YEARS EVE 2026",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/594072886_1665297651104654_8087924591853152770_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=zTXnssILmoIQ7kNvwEfyeP_&_nc_oc=AdnN47lD1bQTnJRwIUKKYoEG0oyDgLcdbLCleL1yhkjVz2OwdlZUMFYUSUzJRrZqJvI7igCE5HKAAuiLXYp14h8N&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=5wzGnAwQ2BoYRNjDEMzjrw&oh=00_AfnrBQGjKzskZvxJcO5Hhy7qE2LvsWFrpdODMf8pw5UySw&oe=694D6410",
-    "venue": "128A Park Rd, Miramar, Wellington 6022, New Zealand",
-    "coordinates": {
-      "lat": -41.3099027,
-      "long": 174.8219346
-    },
-    "dates": [
-      "2025-12-31-12:00"
-    ],
-    "displayDate": "Wed 31 Dec",
-    "url": "https://www.facebook.com/events/1372425574259288",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "It\u2019s wild to think 2025 is wrapping up, but you better believe we\u2019re giving it one last hurrah!\nWe\u2019re kicking things off from 12pm, keeping it family-friendly and completely free to come hang out. At 9pm, we'll turn things up a notch with the legendary Frenzy live on stage \u2014 all your favorite covers, all night long and into 2026!\nIf you\u2019ve already got alternative plans, no worries \u2014 we\u2019ll have takeaway beers ready so you can stock up for your own celebration.\nBooking a table is recommended, so lock in your spot and see out the year in style!\n",
-    "description": "It\u2019s wild to think 2025 is wrapping up, but you better believe we\u2019re giving it one last hurrah!\nWe\u2019re kicking things off from 12pm, keeping it family-friendly and completely free to come hang out.\nAt 9pm, we'll turn things up a notch with the legendary Frenzy live on stage \u2014 all your favorite covers, all night long and into 2026!\nIf you\u2019ve already got alternative plans, no worries \u2014 we\u2019ll have takeaway beers ready so you can stock up for your own celebration.\nBooking a table is recommended, so lock in your spot and see out the year in style!",
-    "labels": []
-  },
-  {
     "id": "New Years Jazz Jamboree-118 Tory Street, New Zealand 6011,Garibaldi Club, 118 Tory St, Te Aro, Wellington 6011, New Zealand, Wellington-All Events In",
     "name": "New Years Jazz Jamboree",
     "imageUrl": "https://cdn-az.allevents.in/events8/banners/dae796663dbe57123d27c1723fa1b28a2eea9c2382300a3e8e57e1a6142bec79-rimg-w1200-h799-dc040404-gmir?v=1766040227",
@@ -2866,26 +2843,6 @@
     "eventType": "Festivals",
     "long_description": "Wellingtons biggest New Years Eve party is back at Brewtown.\nCelebrate Brew Years Eve with the ultimate party night of legendary Kiwi anthems, wall to wall bangers and classic 80s hits on a night where the dancefloor never stops.\n\nA New Years Eve celebration like no other, back by popular demand Dragon and The Jordan Luck Band, joined by The Automatic 80s & The Blueprint smashing out all the big party tunes you know & love.\n\nThe Soundtrack to Your Night\nOur epic lineup will take you back in time with all your classic favourites:\nDragon \u2014 get ready for timeless anthems like April Sun in Cuba and Rain.\nThe Jordan Luck Band \u2014 Kiwi sing-alongs like Why Does Love Do This to Me and Victoria.\nThe Automatic 80s \u2014 taking you back with the biggest 80s dancefloor hits.\nThe Blueprint \u2014 Wellington's best rock covers band taking you through to midnight.\n\nSay goodbye to 2025 with a bang \u2014 party with us as we transform Brewtown's covered Greenspace into a full-blown New Year\u2019s Eve Party, packed with live music, massive party vibes, and all the magic to make your countdown unforgettable.\n\nWednesday 31st December\nBrewtown, Upper Hutt\nR18\n\nTickets:\n$65 Early Bird tickets on September 9th (one day only). - Register now for exclusive access!\nGeneral Admission on sale September 10th.\n\nThis isn\u2019t just another night out \u2014 it\u2019s Wellington\u2019s biggest party of the year!\n\nSo round up your crew, grab your tickets, and get ready for confetti blasts, big sing-alongs, and festival-scale fun as we count down to midnight together.",
     "description": "Celebrate Brew Years Eve with the ultimate party night of legendary Kiwi anthems, wall to wall bangers and classic 80s hits on a night where the dancefloor never stops.\nA New Years Eve celebration like no other, back by popular demand Dragon and The Jordan Luck Band, joined by The Automatic 80s & The Blueprint smashing out all the big party tunes you know & love.\nThe Automatic 80s \u2014 taking you back with the biggest 80s dancefloor hits.\nSay goodbye to 2025 with a bang \u2014 party with us as we transform Brewtown's covered Greenspace into a full-blown New Year\u2019s Eve Party, packed with live music, massive party vibes, and all the magic to make your countdown unforgettable.\nWednesday 31st December Brewtown, Upper Hutt",
-    "labels": []
-  },
-  {
-    "id": "Courtenay Carnival - New Years Eve-Singerserenaluo, Tory St, Te Aro, Wellington 6011, New Zealand-Facebook",
-    "name": "Courtenay Carnival - New Years Eve",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/594038403_1173677991536571_8718397136878209211_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=i0c59eWOag0Q7kNvwH_FzqM&_nc_oc=AdnhBe3gnJ77c4mVymEdYOLegJ0wJ4D8RaPPTY8LPNsh_-DgFt2UTIp8l7y8nkzM_4c-9obbm9hH1DCLI8pagvrL&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=Tpq_pAJxb-Yu-9L-ISCbGg&oh=00_AfnHWbLT4qXAJfn5b2ckkn5fNdM6qPBOQ7aKoFA6I3Tpwg&oe=694D76AB",
-    "venue": "Singerserenaluo, Tory St, Te Aro, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2974393,
-      "long": 174.778926
-    },
-    "dates": [
-      "2025-12-31-16:00"
-    ],
-    "displayDate": "Wed 31 Dec",
-    "url": "https://www.facebook.com/events/1362480415618509",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "Courtenay Carnival 2025 \u2014 Wellington\u2019s Biggest Street Party!\n\nRing in the New Year at the 2nd Annual Courtenay Carnival, presented by the Wellington Community Revitalisation Society!\nTuesday, 31 December 2025\nCourtenay Place, Wellington\n4 PM till late\nThis free, family-friendly celebration is the biggest dress-up party in the universe \u2014 packed with live music, circus acts, drag queens, comedians, dancers, DJs, and street performances across multiple stages.\nEnjoy an incredible lineup featuring Wellington Batucada, The Startime Band, The Loveshack Band, a fun-filled Kids Disco, plus circus performers and comedy acts to keep the party going all night long!\nEat Street will be serving up delicious food and drinks from local venues, creating the ultimate festival atmosphere as thousands of Wellingtonians come together to count down to 2026!\n\nWant to perform or get involved?\nApply now through the Eat Drink Play Performance Fund: [insert link]\n#CourtenayCarnival #WellingtonEvents #NewYearsEveWellington #EatDrinkPlay #VitaliseWellington #WellingtonLive #SupportLocalArtists ",
-    "description": "Courtenay Carnival 2025 \u2014 Wellington\u2019s Biggest Street Party!\nEnjoy an incredible lineup featuring Wellington Batucada, The Startime Band, The Loveshack Band, a fun-filled Kids Disco, plus circus performers and comedy acts to keep the party going all night long!\nEat Street will be serving up delicious food and drinks from local venues, creating the ultimate festival atmosphere as thousands of Wellingtonians come together to count down to 2026!\nWant to perform or get involved?\nApply now through the Eat Drink Play Performance Fund: [insert link] #CourtenayCarnival #WellingtonEvents #NewYearsEveWellington #EatDrinkPlay #VitaliseWellington #WellingtonLive #SupportLocalArtists",
     "labels": []
   },
   {
@@ -2926,26 +2883,6 @@
     "eventType": "Other",
     "long_description": "Dragon in Upper Hutt\n\n\ud83c\udfb6 Don't Miss Dragon Live in Upper Hutt on Wednesday, December 31, 2025! \ud83c\udfb6\nAre you ready to experience Dragon like never before? With chart-topping hits like Rain, April Sun in Cuba and Are You Old Enough and 121.3K+ devoted fans, Dragon is taking over Brewtown Upper Hutt this Wednesday, December 31, 2025, and trust us, you don't want to miss this.\n\nWith multiple shows lined up, this one ensures to be the ultimate musical experience, where the energy of Dragon will make you dance, sing, and maybe even cry (in a good way).\n\nEvent Details:\n\n\ud83d\udcc5 Date: Wednesday, December 31, 2025\n\u23f0 Time: 4:00 PM\n\ud83d\udccd Venue: Brewtown Upper Hutt\n\nExpect an unforgettable performance featuring all your favorite songs and some surprises you've never heard before. So, If you're discovering Dragon for the first time, this show will blow your mind.\n\nWhy This Show is Unmissable\nWith over 685.9K+ fans streaming their music monthly and viral singles in every playlist, Dragon is at the peak of their career. If you're a long-time fan or just love the buzz, this show will be one for the books.\n\nP.S. \u2013 You don't want to be that person who hears about it later! We will not let you miss this in any way!\ud83c\udf89\n\nArtist's Power Move\nDragon has been setting the stage on fire with performances that leave fans begging for more. With an incredible setlist and live versions of your favorite songs, you'll leave with stories to tell (and maybe a few epic selfies). Follow Dragon on AllEvents to get hyped for the event!\n\n\ud83c\udf9f\ufe0f Book Your Tickets Now! \ud83c\udf9f\ufe0f\nThis is your chance to witness Dragon live and in their element. Grab your tickets now for Dragon in Upper Hutt at Brewtown Upper Hutt and be part of a night that everyone will be talking about. Don't wait\u2014tickets are selling fast.\n\n",
     "description": "Dragon in Upper Hutt \ud83c\udfb6 Don't Miss Dragon Live in Upper Hutt on Wednesday, December 31, 2025!\nWith chart-topping hits like Rain, April Sun in Cuba and Are You Old Enough and 121.3K+ devoted fans, Dragon is taking over Brewtown Upper Hutt this Wednesday, December 31, 2025, and trust us, you don't want to miss this.\nEvent Details: \ud83d\udcc5 Date: Wednesday, December 31, 2025 \u23f0 Time: 4:00 PM \ud83d\udccd Venue: Brewtown Upper Hutt Expect an unforgettable performance featuring all your favorite songs and some surprises you've never heard before.\nIf you're a long-time fan or just love the buzz, this show will be one for the books.\nGrab your tickets now for Dragon in Upper Hutt at Brewtown Upper Hutt and be part of a night that everyone will be talking about.",
-    "labels": []
-  },
-  {
-    "id": "New Year's Eve Set Menu-90 Cable St, Te Aro, Wellington 6011, New Zealand-Facebook",
-    "name": "New Year's Eve Set Menu",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/584492356_1647008879758694_6170687950153177140_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=URRhNa5mhPsQ7kNvwGLpWHQ&_nc_oc=AdkmxF6A4vGog_3TinriMpd6d_fIvbtvB-qEZ0We6D68K_piJeVXAICmQOKKBUKB-S3UHZD6_O-IzWh4nuT9B_mq&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=7VlftdEPOVWR8eCKNDrXsQ&oh=00_AfmvNFl-mUZtFyiw02jdqHlULV3-Un0ANPmOhljVP5ty_g&oe=694D8F2A",
-    "venue": "90 Cable St, Te Aro, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2918623,
-      "long": 174.7827025
-    },
-    "dates": [
-      "2025-12-31-17:30"
-    ],
-    "displayDate": "Wed 31 Dec",
-    "url": "https://www.facebook.com/events/2097346341010164",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "Hippo\u2019s turning the New Year\u2019s Eve celebration up a notch. We\u2019re ready to toast the year that was (and is) the only way we know how \u2014 with a little harbour sparkle, a lot of flavour, and a healthy dose of Hippo charm.\nJoin us for a three-course set menu by Chef Antoine featuring your choice of one of three dishes per course. Each plate blends classic French technique with the best of New Zealand\u2019s produce.\nKick things off with Champagne on arrival, dance to the beat of live music, and the kind of flavour that keeps the night flowing.\nIt\u2019s time to celebrate new beginnings, old friends, new friends and the magic of being back together \u2014 the Hippo way.\nTickets are $119 per adult for a 1.5-hour session from 5:30pm \u2013 9:30pm (last sitting), open until late.",
-    "description": "Hippo\u2019s turning the New Year\u2019s Eve celebration up a notch.\nWe\u2019re ready to toast the year that was (and is) the only way we know how \u2014 with a little harbour sparkle, a lot of flavour, and a healthy dose of Hippo charm.\nJoin us for a three-course set menu by Chef Antoine featuring your choice of one of three dishes per course.\nEach plate blends classic French technique with the best of New Zealand\u2019s produce.\nKick things off with Champagne on arrival, dance to the beat of live music, and the kind of flavour that keeps the night flowing.",
     "labels": []
   },
   {
@@ -3028,26 +2965,6 @@
     "eventType": "Other",
     "long_description": "Ciao 2025 \u2013 NYE Fiesta at El Barrio\nSay goodbye to 2025 in true fiesta style! El Barrio is bringing the ultimate Latin NYE vibes with music, cocktails, and energy that won\u2019t qu\n\nAbout this Event\n\n\n\ud83d\udc83 Ciao 2025 \u2013 NYE Fiesta at El Barrio \ud83e\udd73\nSay goodbye to 2025 in true fiesta style! El Barrio is bringing the ultimate Latin NYE vibes with music, cocktails, and energy that won\u2019t quit.\n\ud83c\udfb6 Music & Vibes:\nNon-stop Latin beats, salsa, reggaeton, and party bangers all night\nPerfect soundtrack for dancing your way into 2026\nLively, colorful, and full of festive NYE energy\n\nSignature cocktails and drinks specials to toast the New Year\nFun, vibrant atmosphere perfect for groups, friends, and fiesta lovers\n\ud83c\udf9f Tickets:\n$15 \u2013 General Entry\n$30 Early Bird \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio)\n$40 \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio)\n$50 VIP Queue Jump \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio)\n\n",
     "description": "Ciao 2025 \u2013 NYE Fiesta at El Barrio Say goodbye to 2025 in true fiesta style!\nEl Barrio is bringing the ultimate Latin NYE vibes with music, cocktails, and energy that won\u2019t qu About this Event \ud83d\udc83 Ciao 2025 \u2013 NYE Fiesta at El Barrio \ud83e\udd73 Say goodbye to 2025 in true fiesta style!\nEl Barrio is bringing the ultimate Latin NYE vibes with music, cocktails, and energy that won\u2019t quit.\n\ud83c\udfb6 Music & Vibes: Non-stop Latin beats, salsa, reggaeton, and party bangers all night Perfect soundtrack for dancing your way into 2026 Lively, colorful, and full of festive NYE energy Signature cocktails and drinks specials to toast the New Year Fun, vibrant atmosphere perfect for groups, friends, and fiesta lovers \ud83c\udf9f Tickets: $15 \u2013 General Entry $30 Early Bird \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio) $40 \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio) $50 VIP Queue Jump \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio)",
-    "labels": []
-  },
-  {
-    "id": "NYE Big Neon Rave-35 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
-    "name": "NYE Big Neon Rave",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/582553013_1408638931266389_7574843822023755705_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=hGXE0fkHIAYQ7kNvwExUmkG&_nc_oc=AdnkcELVWGmQ7rlNoG3T-nv0rBtc3AkCB-5wj1Z2YQ3pKzVRW__6Y8XvVFHeG5cfX83sQn9GFl3KLf8ikcMd41pQ&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=lIf5EB8eZVpR0ZxUwgeDLw&oh=00_AfnDlmiQhciUNlrBO2cPCPVFneUlGgMCJTW-xcR6IdvPgA&oe=694D790F",
-    "venue": "35 Dixon St, Te Aro, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2921615,
-      "long": 174.7775393
-    },
-    "dates": [
-      "2025-12-31-19:00"
-    ],
-    "displayDate": "Wed 31 Dec",
-    "url": "https://www.facebook.com/events/1393151592158213",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "NYE Big Neon Rave at Eva\nLight up the night and dance into 2026 with Wellington DJ icon DKAV\nNon-stop House, Top 40, Hip-Hop bangers, and all your favourite throwbacks\nDance floor energy guaranteed all night\nCountdown to 2026 in style\nDrinks flowing to keep you fuelled for the party\nDress code: Wear white to shine under the lights\n\nTickets:\n$15 \u2013 General Entry\n$30 Early Bird \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio)\n$40 \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio)\n$50 VIP Queue Jump \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio) ",
-    "description": "NYE Big Neon Rave at Eva Light up the night and dance into 2026 with Wellington DJ icon DKAV Non-stop House, Top 40, Hip-Hop bangers, and all your favourite throwbacks Dance floor energy guaranteed all night Countdown to 2026 in style Drinks flowing to keep you fuelled for the party Dress code: Wear white to shine under the lights Tickets: $15 \u2013 General Entry $30 Early Bird \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio) $40 \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio) $50 VIP Queue Jump \u2013 Wellington Ultimate NYE Party Pass (Entry to Shady Lady, Vinyl Bar, Eva Pub, Saint Diablo, and El Barrio)",
     "labels": []
   },
   {
@@ -3171,26 +3088,6 @@
     "eventType": "Music & Concerts",
     "long_description": "Radio Active Presents\nNUI Years Eve\n\nRing in the New Year at Meow Nui with Wellington legends Fur Patrol & The Phoenix Foundation, then dance the night away with disco w\u00fcnderkid You Should Be Dancing.\n\nAuld lang syne, what does it mean? We just don\u2019t know and maybe we never will. BUT there\u2019s no better way to see out 2025 than by cutting sick with your homies with two of the best bloody bands this god forsaken country has ever produced.\n\nMeow Nui is proud to present an unforgettable New Year\u2019s Eve celebration featuring Fur Patrol (the best) and The Phoenix Foundation (also the best), together for one epic night. A double bill, to fulfil your will. WELLINGTONS NOT DEAD! It\u2019s alive, ALIVE I TELL YOU. Expect big tunes, good vibes, and a dance floor that just won\u2019t quit, with special guest DJ You Should Be Dancing spinning through to 2026.\n\n31st Dec 2025\nMeow NUI\nDoors from 7:30pm",
     "description": "Radio Active Presents NUI Years Eve Ring in the New Year at Meow Nui with Wellington legends Fur Patrol & The Phoenix Foundation, then dance the night away with disco w\u00fcnderkid You Should Be Dancing.\nAuld lang syne, what does it mean?\nMeow Nui is proud to present an unforgettable New Year\u2019s Eve celebration featuring Fur Patrol (the best) and The Phoenix Foundation (also the best), together for one epic night.\nA double bill, to fulfil your will.\nExpect big tunes, good vibes, and a dance floor that just won\u2019t quit, with special guest DJ You Should Be Dancing spinning through to 2026.",
-    "labels": []
-  },
-  {
-    "id": "New Year\u2019s Eve-58 Taranaki St, Te Aro, Wellington 6011, New Zealand-Facebook",
-    "name": "New Year\u2019s Eve",
-    "imageUrl": "https://scontent.fwlg4-1.fna.fbcdn.net/v/t39.30808-6/568794956_1277243707753069_1325040959839200983_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=DmmeOCuMr-8Q7kNvwE16km5&_nc_oc=AdlF-xazBXuiz6yGGEWkEreyQ3OqsGYmL4M8D5NxZPugPfi_FFiwNx8Af6n0FzJgsO9p5IA5y6IDhpkK8CW32KXh&_nc_zt=23&_nc_ht=scontent.fwlg4-1.fna&_nc_gid=mDLO8UaF01K5oJ9w-g7_Kg&oh=00_AfnzNncJsMlsmdausLKJC0Rfx0A1e2hqgiJNh6HQFLMA0A&oe=694D6D7B",
-    "venue": "58 Taranaki St, Te Aro, Wellington 6011, New Zealand",
-    "coordinates": {
-      "lat": -41.2962248,
-      "long": 174.7767323
-    },
-    "dates": [
-      "2025-12-31-20:00"
-    ],
-    "displayDate": "Wed 31 Dec",
-    "url": "https://www.facebook.com/events/2386552655177227",
-    "source": "Facebook",
-    "eventType": "Other",
-    "long_description": "Join us up on the rooftop to bring in the New Year! DJ\u2019s from 6pm, so start the celebrations early and dance your way into 2026.\nEpic views of the fireworks & a confetti cannon when the clock strikes 12. Cocktails and bubbles at the ready!\nTable reservations until 8pm only, but plenty of space for walk ins till the wee hours (free entry).\nBook early to secure a table or arrive early to avoid disappointment! ",
-    "description": "Join us up on the rooftop to bring in the New Year!\nDJ\u2019s from 6pm, so start the celebrations early and dance your way into 2026.\nEpic views of the fireworks & a confetti cannon when the clock strikes 12.\nCocktails and bubbles at the ready!\nTable reservations until 8pm only, but plenty of space for walk ins till the wee hours (free entry).",
     "labels": []
   },
   {
@@ -3505,6 +3402,38 @@
     "eventType": "Other",
     "long_description": "Adventures of the original working-class hero and man in tights!\n\nRobin Hood steals from the rich and gives to the poor in an oldie timey place where people are struggling and homeless and the landed gentry hoard the money all for themselves \u2013 Wellington 2025.\n\nRobin must stop the Evil Sheriff from running roughshod over the citizens! But this quest is far from easy\u2026 there is archery, swordfights, and a lot of dance numbers to get through. Our hero is grateful for help from spies on the inside: Maid Marion, and her bolshie Nanny (Pantomime Dame Jthan Morgan).\n\nCome one and come all to see the slings and arrows of outrageous panto!\n\n\nWritten by Simon Leary & Gavin Rutherford\nDirected by Gavin Rutherford\nMusical Direction and Arrangements by Michael Nicholas Williams",
     "description": "Adventures of the original working-class hero and man in tights!\nRobin Hood steals from the rich and gives to the poor in an oldie timey place where people are struggling and homeless and the landed gentry hoard the money all for themselves \u2013 Wellington 2025.\nRobin must stop the Evil Sheriff from running roughshod over the citizens!\nBut this quest is far from easy\u2026 there is archery, swordfights, and a lot of dance numbers to get through.\nOur hero is grateful for help from spies on the inside: Maid Marion, and her bolshie Nanny (Pantomime Dame Jthan Morgan).",
+    "labels": []
+  },
+  {
+    "id": "Friday Drinks and BBQ-The Bridge Bar & Restaurant, 28 Cambridge Terrace, Wellington-Event Finder",
+    "name": "Friday Drinks and BBQ",
+    "imageUrl": "https://cdn.eventfinda.co.nz/uploads/events/transformed/2147119-916236-35.png",
+    "venue": "The Bridge Bar & Restaurant, 28 Cambridge Terrace, Wellington",
+    "coordinates": {
+      "lat": -41.2951329,
+      "long": 174.7828783
+    },
+    "dates": [
+      "2026-01-02-19:00",
+      "2026-01-09-19:00",
+      "2026-01-16-19:00",
+      "2026-01-23-19:00",
+      "2026-01-30-19:00",
+      "2026-02-06-19:00",
+      "2026-02-13-19:00",
+      "2026-02-20-19:00",
+      "2026-02-27-19:00",
+      "2026-03-06-19:00",
+      "2026-03-13-19:00",
+      "2026-03-20-19:00",
+      "2026-03-27-19:00"
+    ],
+    "displayDate": "Fri 02 Jan + more",
+    "url": "https://www.eventfinda.co.nz/2025/friday-drinks-and-free-bbq/wellington",
+    "source": "Event Finder",
+    "eventType": "Other",
+    "long_description": "Friday Drinks + Free BBQ\n\nKick off the weekend at The Bridge Bar with good vibes, cold drinks, and our FREE BBQ from 6:30 pm when you buy any drink over $10\n\nDJ from 8 PM \u2013 bringing the beats all night long.\n\nRound up the crew and start your Friday the right way!\n\nThe Bridge Bar at The Cambridge Hotel - 28 Cambridge Terrace, Te Aro | 04 801 1950",
+    "description": "Friday Drinks + Free BBQ Kick off the weekend at The Bridge Bar with good vibes, cold drinks, and our FREE BBQ from 6:30 pm when you buy any drink over $10 DJ from 8 PM \u2013 bringing the beats all night long.\nRound up the crew and start your Friday the right way!\nThe Bridge Bar at The Cambridge Hotel - 28 Cambridge Terrace, Te Aro | 04 801 1950",
     "labels": []
   },
   {
@@ -6917,6 +6846,27 @@
     "labels": []
   },
   {
+    "id": "s Wellington Theatre Tours-The Opera House Wellington, Wellington, NZ-Ticket Master",
+    "name": "s Wellington Theatre Tours",
+    "imageUrl": "https://s1.ticketm.net/dam/a/750/3a4826e2-182c-41d8-a460-0bcb30a58750_EVENT_DETAIL_PAGE_16_9.jpg",
+    "venue": "The Opera House Wellington, Wellington, NZ",
+    "coordinates": {
+      "lat": -41.2913572,
+      "long": 174.7779946
+    },
+    "dates": [
+      "2026-01-23-10:00",
+      "2026-01-23-10:00"
+    ],
+    "displayDate": "Fri 23 Jan + more",
+    "url": "https://www.ticketmaster.co.nz/venues-wellington-theatre-tours-wellington-23-01-2026/event/240063818BE32274",
+    "source": "Ticket Master",
+    "eventType": "Music & Concerts",
+    "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nJoin us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House. Discover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces. Led by expert guides, this tour takes you on a journey through over a century of theatre magic. Tread the boards in the footsteps of legendary performers. Uncover the secrets of stagecraft and marvel at the breathtaking details of these heritage-listed buildings. From opulent foyers and ornate auditoriums to backstage corridors brimming with history, you'll see the theatres as you've never seen them before. ",
+    "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Join us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House.\nDiscover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces.\nLed by expert guides, this tour takes you on a journey through over a century of theatre magic.\nTread the boards in the footsteps of legendary performers.",
+    "labels": []
+  },
+  {
     "id": "Om Unit (UK) & Roza Terenzi (AUS) | Wellington | San Fran-San Fran,Edilsons Building, 171 Cuba St, Te Aro, Wellington 6011, New Zealand, Wellington-All Events In",
     "name": "Om Unit (UK) & Roza Terenzi (AUS) | Wellington | San Fran",
     "imageUrl": "https://cdn-az.allevents.in/events1/banners/1aa2c5e58d5e804f1117da8fe2dc2815d45d26dda2194536b5790fe7ef29ab07-rimg-w1200-h800-dcf50503-gmir?v=1766584431",
@@ -7325,27 +7275,6 @@
     "eventType": "Other",
     "long_description": "The Velvet Glove Play the Songs of The Velvet Underground, Unplugged\nThe Velvet Glove Play the Songs of The Velvet Underground, Unplugged\n\nIn the early 70s Cripple was one of the first bands to fall under the influence of The Velvet Underground, a signature ingredient of the Dunedin sound. Lou Reed\u2019s remarkable songwriting - songs like \u201cSweet Jane\u201d and \u201cI\u2019m Waiting for the Man - found a natural home at the heart of Cripple\u2019s set.\n\nThe Velvet Glove reunites three members of that band - John Dodd (Midge Marsden, The Chaps, Skin and Bone), Chris Nichol (The Dunstan Rangers, The Zimmermans) and Lindsay Gregory (The Dunstan Rangers, Heaven Bent). They\u2019re joined by Martin Durrant (Sneaky Feelings, The Zimmermans) and Bill Nichol (Baby) for a one-off performance at The Undercurrent.\n\nBe sure you\u2019re there when The Velvet Glove breathes fresh life into two sets of classic songs from The Velvet Underground catalogue.\n\nThe Undercurrent, Saturday January 24.\nDoors at 7.00pm\nBand at 7.30pm\n$20 at Under the Radar (link coming soon!) and the Door.\n\nSnacks, wine, beer & soft drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606\n\n",
     "description": "Lou Reed\u2019s remarkable songwriting - songs like \u201cSweet Jane\u201d and \u201cI\u2019m Waiting for the Man - found a natural home at the heart of Cripple\u2019s set.\nThe Velvet Glove reunites three members of that band - John Dodd (Midge Marsden, The Chaps, Skin and Bone), Chris Nichol (The Dunstan Rangers, The Zimmermans) and Lindsay Gregory (The Dunstan Rangers, Heaven Bent).\nThey\u2019re joined by Martin Durrant (Sneaky Feelings, The Zimmermans) and Bill Nichol (Baby) for a one-off performance at The Undercurrent.\nBe sure you\u2019re there when The Velvet Glove breathes fresh life into two sets of classic songs from The Velvet Underground catalogue.\nThe Undercurrent, Saturday January 24.",
-    "labels": []
-  },
-  {
-    "id": "s Wellington Theatre Tours-The Opera House Wellington, Wellington, NZ-Ticket Master",
-    "name": "s Wellington Theatre Tours",
-    "imageUrl": "https://s1.ticketm.net/dam/a/750/3a4826e2-182c-41d8-a460-0bcb30a58750_EVENT_DETAIL_PAGE_16_9.jpg",
-    "venue": "The Opera House Wellington, Wellington, NZ",
-    "coordinates": {
-      "lat": -41.2913572,
-      "long": 174.7779946
-    },
-    "dates": [
-      "2026-01-24-10:00",
-      "2026-01-24-10:00"
-    ],
-    "displayDate": "Sat 24 Jan + more",
-    "url": "https://www.ticketmaster.co.nz/venues-wellington-theatre-tours-wellington-24-01-2026/event/240063838C171F9D",
-    "source": "Ticket Master",
-    "eventType": "Music & Concerts",
-    "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nJoin us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House. Discover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces. Led by expert guides, this tour takes you on a journey through over a century of theatre magic. Tread the boards in the footsteps of legendary performers. Uncover the secrets of stagecraft and marvel at the breathtaking details of these heritage-listed buildings. From opulent foyers and ornate auditoriums to backstage corridors brimming with history, you'll see the theatres as you've never seen them before. ",
-    "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Join us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House.\nDiscover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces.\nLed by expert guides, this tour takes you on a journey through over a century of theatre magic.\nTread the boards in the footsteps of legendary performers.",
     "labels": []
   },
   {
