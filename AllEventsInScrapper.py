@@ -18,8 +18,11 @@ class AllEventsInScrapper:
     def get_event(url: str, category: Optional[str], driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
         title =  driver.find_element(By.CLASS_NAME, "eps-heading-1").text
-        image: WebElement = driver.find_element(By.CLASS_NAME, "event-banner")
-        image_url = image.get_attribute("src")
+        try:
+            image: WebElement = driver.find_element(By.CLASS_NAME, "event-banner")
+            image_url = image.get_attribute("src")
+        except:
+            image_url = ""
         venue_texts = [event_text.text for event_text in driver.find_elements(By.XPATH, "//p[contains(@class, 'event-location')]")]
         if len(venue_texts) > 1 and venue_texts[0] in venue_texts[1]:
             venue_texts = [venue_texts[0]]
@@ -36,7 +39,12 @@ class AllEventsInScrapper:
             if "nzst" in original_date_string.lower():
                 date = date + timedelta(hours=10)
             dates.append(date)
-        description = driver.find_element(By.XPATH, "//div[contains(@class, 'event-description')]").text
+        if not dates:
+            return None
+        try:
+            description = driver.find_element(By.XPATH, "//div[contains(@class, 'event-description')]").text
+        except:
+            return None
         print(category)
         return EventInfo(name=title,
                          dates=dates,

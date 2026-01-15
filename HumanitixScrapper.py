@@ -84,7 +84,10 @@ class HumanitixScrapper:
             location = driver.find_element(By.CLASS_NAME, "EventLocation").find_element(By.CLASS_NAME, "address").text
             venue: str = location.split("\n")[1]
         except:
-            venue: str = driver.find_element(By.CLASS_NAME, "address").text
+            try:
+                venue: str = driver.find_element(By.CLASS_NAME, "address").text
+            except:
+                return  None
         venue = venue.split("  ·  ")[0]
         print(f"venue: {venue}")
         dates: List[datetime] = HumanitixScrapper.get_dates_from_event(driver, multiple_dates)
