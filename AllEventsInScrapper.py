@@ -17,8 +17,8 @@ class AllEventsInScrapper:
     @staticmethod
     def get_event(url: str, category: Optional[str], driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
-        title =  driver.find_element(By.CLASS_NAME, "eps-heading-1").text
         try:
+            title =  driver.find_element(By.CLASS_NAME, "eps-heading-1").text
             image: WebElement = driver.find_element(By.CLASS_NAME, "event-banner")
             image_url = image.get_attribute("src")
         except:
