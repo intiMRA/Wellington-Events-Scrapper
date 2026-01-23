@@ -121,7 +121,9 @@ class WellingtonNZScrapper:
         driver.switch_to.window(driver.current_window_handle)
         wait = WebDriverWait(driver, timeout=10, poll_frequency=1)
         _ = wait.until(ec.presence_of_element_located((By.CLASS_NAME, "pagination__position")))
-        driver.execute_script(f"window.scrollBy(0, {1000});")
+        sleep(1)
+        driver.execute_script(f"window.scrollBy(0, {1500});")
+        sleep(1)
         button = driver.find_elements(By.XPATH, "//div[contains(@class, 'filters-button__icon')]")[-1]
         button.click()
         sleep(1)
