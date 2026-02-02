@@ -203,16 +203,16 @@ def load_models_from_file():
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
-# use_ai_data = False
-# should_train = False
-#
-# if should_train:
-#     train_from_manual_training_files(use_ai_data)
-#
-# training_data_file = "training_data.json"
-# unclassified_data_file = "unclassified_data.json"
-# ga_output_combined = "ga_output_combined.json"
-#
-# labels_out = predict_from_file(
-#     unclassified_data_file
-# )
+use_ai_data = False
+should_train = False
+
+if should_train:
+    train_from_manual_training_files(use_ai_data)
+
+training_data_file = "training_data.json"
+unclassified_data_file = "unclassified_data.json"
+ga_output_combined = "ga_output_combined.json"
+
+labels_out = predict_from_file(
+    unclassified_data_file
+)

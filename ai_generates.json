@@ -60,90 +60,6 @@
     "ai": true
   },
   {
-    "description": "Wellington's Cultural Policy Forum: A public meeting to discuss and provide feedback on the city's new cultural policy, including funding for arts organisations, community events, and public spaces.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Digital Transformation in Government: A presentation on the government's strategy for digitising public services, with a focus on improving accessibility and efficiency for citizens.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Role of Youth in Local Government: A seminar for young people to learn about the roles of youth councillors and youth committees, and how they can get involved in local decision-making.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Regional Council's Waste-to-Energy Masterplan: A public consultation on the regional council's plans for a new waste-to-energy facility, with a focus on environmental impact and public concerns.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Local Government and Economic Development: A conference for business owners and city officials on strategies for promoting economic growth and creating new jobs in Wellington's key sectors.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Future of Wellington's Social Housing: A public forum to discuss the city's strategy for addressing the social housing crisis, with a focus on new developments and support for vulnerable communities.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington City Council's Annual Report: A public presentation of the city's annual report, providing an overview of its performance, achievements, and financial health over the past year.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Building a Better Wellington: A series of community workshops for residents to propose and co-design solutions for local problems, from new park designs to traffic calming measures.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Local Government and Public Health Forum: A meeting with city officials and public health experts to discuss the role of local government in promoting public health, from clean water to mental health services.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Role of NGOs in Policy-Making: A seminar for non-profit leaders and activists on how to influence government policy, from submitting policy briefs to collaborating with political parties.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington's Resilience Strategy: A presentation on the city's strategy for building a more resilient city, with a focus on preparing for natural disasters, economic shocks, and climate change.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Understanding Local Government Funding: A public information session explaining how local government is funded, from rates and taxes to grants and borrowing, and how these decisions affect the public.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Political Campaigning for Young People: A workshop for young people interested in political careers, with advice on how to get started, build a network, and run a successful campaign.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Public Consultation on Urban Heritage: A public meeting to gather feedback on the city's new policy for protecting and preserving Wellington's urban heritage, from historic buildings to cultural sites.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Wellington's Future Transport Network: A public consultation on the long-term vision for transport in the Wellington region, including new roads, cycleways, and train lines.",
     "label": "Government & Politics",
     "skip": false,
@@ -199,12 +115,6 @@
   },
   {
     "description": "The Politics of Urban Development: A debate between city planners, developers, and community activists on the best strategies for managing urban development, from new housing projects to public spaces.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington's Response to Climate Change: A presentation by city officials on Wellington's new climate change strategy, with a focus on emission reduction, adaptation, and community resilience.",
     "label": "Government & Politics",
     "skip": false,
     "ai": true
@@ -271,66 +181,6 @@
   },
   {
     "description": "Local Government and Economic Development: A conference for business owners and city officials on strategies for promoting economic growth and creating new jobs in Wellington's key sectors.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Public Consultation: Future of City Parks: A public meeting to gather feedback on the city's new masterplan for city parks, including new developments, conservation efforts, and recreational facilities.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Politics of Urban Development: A debate between city planners, developers, and community activists on the best strategies for managing urban development, from new housing projects to public spaces.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington's Response to Climate Change: A presentation by city officials on Wellington's new climate change strategy, with a focus on emission reduction, adaptation, and community resilience.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Local Government and Arts Funding Debate: A debate on public funding for the arts, with a focus on the role of local government in supporting Wellington's vibrant arts and culture sector.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Aotearoa's Place in the World: A foreign policy seminar discussing New Zealand's role in the world, with a focus on diplomacy, trade, and international relations.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Public Sector Innovation Showcase: A conference highlighting new technologies and innovative projects being developed within the government sector to improve public services and efficiency.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington Regional Council's Transport Masterplan: A public consultation on the long-term vision for transport in the Wellington region, including new roads, cycleways, and train lines.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Democracy in a Digital Age: A panel on the challenges and opportunities of modern democracy, including the impact of social media, online misinformation, and digital voting systems.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Role of Local Government in the Arts: A forum with city officials, artists, and arts organisations to discuss public funding, policy, and support for Wellington's vibrant arts and culture sector.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Civic Leaders Youth Mentorship Program: An initiative connecting young people with current and former politicians, public servants, and community leaders to encourage future civic participation.",
     "label": "Government & Politics",
     "skip": false,
     "ai": true

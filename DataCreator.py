@@ -278,8 +278,8 @@ def run():
     num_genes = len(balanced_individual)
 
     init_range_high = X_pool.shape[0] - 1
-    pop_size = 100
-    num_generations = 100
+    pop_size = 150
+    num_generations = 150
     num_parents_mating = int(pop_size * 0.2)
     init_range_low = 0
     parent_selection_type = "sss"

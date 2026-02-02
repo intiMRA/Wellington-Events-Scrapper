@@ -17,6 +17,7 @@ EVENT_BRITE: str = "Event Brite"
 WOAP: str = "WOAP"
 ROXY: str = "Roxy Cinema"
 ALL_EVENTS_IN = "All Events In"
+FRINGE: str = "Fringe"
 now = datetime.now()
 
 ALL_SCRAPER_NAMES: List[str] = [
@@ -34,7 +35,8 @@ ALL_SCRAPER_NAMES: List[str] = [
     ALL_EVENTS_IN,
     WELLINGTON_NZ,
     ROXY,
-    WELLINGTON_HERITAGE_FESTIVAL
+    WELLINGTON_HERITAGE_FESTIVAL,
+    FRINGE
 ]
 
 if now.month == 8 or now.month == 7:

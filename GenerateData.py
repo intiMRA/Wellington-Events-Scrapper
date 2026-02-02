@@ -129,7 +129,7 @@ def count_categories():
         'Community & Culture': 0,
         'Hobbies & Interests': 0,
         'Government & Politics': 0,
-        'Family Friendly': 0,
+        'Kids & Parents': 0,
         'Classes & Workshops': 0
     }
     class bcolors:
@@ -235,37 +235,38 @@ def move_top_n_largest(num:int, category: str):
 # generate_kid_friendly()
 # short
 # move_top_n_shortest(1, "Arts & Theatre")
-# move_top_n_shortest(1, "Business & Networking")
-# move_top_n_shortest(3, "Classes & Workshops")
+# move_top_n_shortest(2, "Business & Networking")
+# move_top_n_shortest(11, "Classes & Workshops")
 # move_top_n_shortest(2, "Community & Culture")
+# move_top_n_shortest(1, "Conservation & Environment")
+# move_top_n_shortest(2, "Festivals")
+# move_top_n_shortest(3, "Film & Media")
+# move_top_n_shortest(2, "Food & Drink")
+# move_top_n_shortest(3, "Health & Wellness")
+# move_top_n_shortest(1, "Hobbies & Interests")
 # move_top_n_shortest(1, "Kids & Parents")
-# move_top_n_shortest(3, "Festivals")
-# move_top_n_shortest(1, "Film & Media")
-# move_top_n_shortest(4, "Food & Drink")
-# move_top_n_shortest(2, "Health & Wellness")
-# move_top_n_shortest(2, "Hobbies & Interests")
 # move_top_n_shortest(1, "Markets & Fairs")
-# move_top_n_shortest(1, "Music & Concerts")
-# move_top_n_shortest(1, "Sports & Fitness")
+# move_top_n_shortest(11, "Music & Concerts")
 # move_top_n_shortest(1, "Religion & Spirituality")
+# move_top_n_shortest(1, "Sports & Fitness")
 
 # long
-# # move_top_n_largest(32, "Arts & Theatre")
-# move_top_n_largest(2, "Business & Networking")
+# move_top_n_largest(1, "Arts & Theatre")
+# move_top_n_largest(1, "Business & Networking")
 # move_top_n_largest(1, "Classes & Workshops")
-# move_top_n_largest(1, "Community & Culture")
-# move_top_n_largest(6, "Kids & Parents")
+# move_top_n_largest(3, "Community & Culture")
+# move_top_n_largest(1, "Kids & Parents")
 # move_top_n_largest(1, "Festivals")
-# move_top_n_largest(8, "Film & Media")
-# move_top_n_largest(3, "Food & Drink")
+# move_top_n_largest(1, "Film & Media")
+# move_top_n_largest(1, "Food & Drink")
 # move_top_n_largest(1, "Health & Wellness")
 # move_top_n_largest(1, "Hobbies & Interests")
-# move_top_n_largest(13, "Markets & Fairs")
+# move_top_n_largest(1, "Markets & Fairs")
 # move_top_n_largest(1, "Music & Concerts")
 # # move_top_n_largest(5, "Sports & Fitness")
-# move_top_n_largest(100, "Conservation & Environment")
-# move_top_n_largest(100, "Government & Politics")
-# move_top_n_largest(100, "Religion & Spirituality")
+# move_top_n_largest(1, "Conservation & Environment")
+move_top_n_largest(100, "Government & Politics")
+# move_top_n_largest(2, "Religion & Spirituality")
 
 generate_data()
 generate_unclassified_data()
