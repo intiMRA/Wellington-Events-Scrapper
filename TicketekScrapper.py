@@ -13,6 +13,7 @@ from dateutil import parser
 from typing import List, Optional, Set, Tuple
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 
 class TicketekScrapper:
     @staticmethod
@@ -161,8 +162,12 @@ class TicketekScrapper:
             f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random.randint(100, 115)}.0.0.0 Safari/537.36")
 
         # Initialize undetected ChromeDriver
+        version = ChromeDriverManager().driver.get_browser_version_from_os()
+        major_version = int(version.split('.')[0])
+
         driver = uc.Chrome(
             options=options,
+            version_main=major_version,
             headless=False,  # Headless mode is more easily detected
             use_subprocess=True
         )

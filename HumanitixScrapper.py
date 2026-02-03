@@ -2,6 +2,7 @@ import random
 import subprocess
 from time import sleep
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 
 import FileUtils
 import ScrapperNames
@@ -172,9 +173,12 @@ class HumanitixScrapper:
         options.add_argument(
             f"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{random.randint(100, 115)}.0.0.0 Safari/537.36")
 
-        # Initialize undetected ChromeDriver
+        version = ChromeDriverManager().driver.get_browser_version_from_os()
+        major_version = int(version.split('.')[0])
+
         driver = uc.Chrome(
             options=options,
+            version_main=major_version,
             headless=False,  # Headless mode is more easily detected
             use_subprocess=True
         )

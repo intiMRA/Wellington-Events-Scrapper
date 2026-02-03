@@ -1,10 +1,13 @@
 import json
+import random
 from datetime import datetime
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 
 import CurrentFestivals
+from DateFormatting import DateFormatting
 import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
@@ -12,93 +15,31 @@ from dateutil import parser
 from typing import List, Set, Optional
 from time import sleep
 
-# Wellington Fringe Festival typically runs mid-February to mid-March
-FRINGE_START_MONTH = 2
-FRINGE_END_MONTH = 3
-FRINGE_END_DAY = 15  # Festival typically ends around March 14-15
-
-
 class FringeScrapper:
     @staticmethod
     def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
-        sleep(3)
-        try:
-            title = driver.find_element(By.TAG_NAME, "h1").text
-        except:
-            return None
+        sleep(random.uniform(1,3))
+        title = driver.find_element(By.CLASS_NAME, "title").text
 
-        try:
-            image_element = driver.find_element(By.CLASS_NAME, "card-img-top")
-            image_url = image_element.get_attribute("src")
-        except:
-            image_url = ""
+        image_element = driver.find_element(By.XPATH, "//img[contains(@class, 'event-image-square')]")
+        image_url = image_element.get_attribute("src")
 
-        # Get venue information
-        try:
-            venue_elements = driver.find_elements(By.TAG_NAME, "h3")
-            venue = "Wellington"
-            for element in venue_elements:
-                text = element.text
-                if text and text.strip():
-                    # Find the address after the venue name
-                    try:
-                        parent = element.find_element(By.XPATH, "./..")
-                        venue_text = parent.text
-                        if venue_text:
-                            venue = venue_text.split("\n")[0]
-                            # Try to find address
-                            address_parts = venue_text.split("\n")
-                            if len(address_parts) > 1:
-                                venue = f"{address_parts[0]}, {address_parts[1]}"
-                            break
-                    except:
-                        venue = text
-                        break
-        except:
-            venue = "Wellington"
-
-        # Get dates
-        dates = []
-        try:
-            # Look for date information in the page
-            page_text = driver.find_element(By.TAG_NAME, "body").text
-            # Find dates pattern like "20-21 February 2026"
-            import re
-            date_patterns = re.findall(r'(\d{1,2}(?:-\d{1,2})?\s+\w+\s+\d{4})', page_text)
-            for date_pattern in date_patterns:
-                try:
-                    # Handle date ranges like "20-21 February 2026"
-                    if '-' in date_pattern.split()[0]:
-                        day_range = date_pattern.split()[0]
-                        rest = ' '.join(date_pattern.split()[1:])
-                        start_day, end_day = day_range.split('-')
-                        for day in range(int(start_day), int(end_day) + 1):
-                            date_str = f"{day} {rest}"
-                            dates.append(parser.parse(date_str))
-                    else:
-                        dates.append(parser.parse(date_pattern))
-                except:
-                    continue
-        except:
-            pass
-
-        if not dates:
-            # Default to festival dates if no specific dates found
-            dates = [parser.parse("20 February 2026")]
-
-        # Get description
-        try:
-            description_elements = driver.find_elements(By.TAG_NAME, "p")
-            description = ""
-            for elem in description_elements:
-                text = elem.text
-                if text and len(text) > 50:
-                    description = text
-                    break
-        except:
-            description = ""
-
+        venue = driver.find_element(By.XPATH, "//div[contains(@class, 'addres-pin')]").text
+        schedule: WebElement = driver.find_element(By.CLASS_NAME, "schedule")
+        schedule_elements = schedule.find_elements(By.TAG_NAME, "li")
+        dates = schedule_elements[2].text
+        date_text = dates.split(" ")
+        days = date_text[0].split("-")
+        month = date_text[1]
+        start_day, end_day = days
+        start_date, end_date = parser.parse(start_day + " " + month), parser.parse(end_day + " " + month)
+        dates = list(DateFormatting.create_range(start_date, end_date))
+        content: WebElement = driver.find_element(By.XPATH, "//div[contains(@class, 'content')]")
+        paragraphs = content.find_elements(By.TAG_NAME, "p")
+        description = ""
+        for paragraph in paragraphs:
+            description += paragraph.text + "\n"
         return EventInfo(
             name=title,
             dates=dates,
@@ -170,19 +111,6 @@ class FringeScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        # Check if the festival is currently running
-        now = datetime.now()
-        festival_end = datetime(now.year, FRINGE_END_MONTH, FRINGE_END_DAY)
-
-        # If we're past the festival end date, don't scrape
-        if now > festival_end:
-            print("Wellington Fringe Festival has ended for this year")
-            return []
-
-        # If we're before the festival starts (before February), don't scrape
-        if now.month < FRINGE_START_MONTH:
-            print("Wellington Fringe Festival has not started yet")
-            return []
 
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.FRINGE)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.FRINGE)))
@@ -193,7 +121,12 @@ class FringeScrapper:
         print(f"Found {len(event_urls)} event URLs")
 
         # Only add to current festivals if we found events
-        if event_urls:
+
+        out_file.write("[\n")
+        events = FringeScrapper.get_events(event_urls, driver, previous_urls, out_file)
+        out_file.write("]\n")
+
+        if events:
             CurrentFestivals.CURRENT_FESTIVALS.append("WellingtonFringe")
             CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
                 "id": "WellingtonFringe",
@@ -202,11 +135,6 @@ class FringeScrapper:
                 "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/wellington-fringe.json"
             })
 
-        out_file.write("[\n")
-        events = FringeScrapper.get_events(event_urls, driver, previous_urls, out_file)
-        out_file.write("]\n")
-
-        # Also create festival file
         festival_file = open("wellington-fringe.json", mode="w")
         events_dicts = [event.to_dict() for event in events]
         json.dump({"events": sorted(events_dicts, key=lambda evt: evt["name"])}, festival_file, indent=2)
