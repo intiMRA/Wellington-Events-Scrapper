@@ -20,7 +20,7 @@ class FringeScrapper:
     def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
         sleep(random.uniform(1,3))
-        title = driver.find_element(By.CLASS_NAME, "title").text
+        title = driver.find_element(By.XPATH, "//h2[contains(@class, 'primary-color')]").text
 
         image_element = driver.find_element(By.XPATH, "//img[contains(@class, 'event-image-square')]")
         image_url = image_element.get_attribute("src")
