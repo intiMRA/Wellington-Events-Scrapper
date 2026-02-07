@@ -134,7 +134,7 @@ class TicketmasterScrapper:
             print("ticketmaster.co.nz")
             if not info_button:
                 print(f"no info button for: {url}")
-                raise Exception("")
+                return []
             while True:
                 info_button.click()
                 deets = driver.find_elements(By.XPATH, "//section[@data-testid='panel']")

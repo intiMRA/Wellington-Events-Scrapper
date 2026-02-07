@@ -28,7 +28,10 @@ class AllEventsInScrapper:
             venue_texts = [venue_texts[0]]
         venue = ",".join(venue_texts)
         print(f"venue: {venue}")
-        date_strings = driver.find_element(By.XPATH, "//p[contains(@class, 'event-time-label')]").text.split(" - ")
+        try:
+            date_strings = driver.find_element(By.XPATH, "//p[contains(@class, 'event-time-label')]").text.split(" - ")
+        except:
+            return None
         dates = []
         for date_string in date_strings:
             date_string = " ".join(date_string.split(",")[1:])
