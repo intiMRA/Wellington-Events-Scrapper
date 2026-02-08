@@ -1,5 +1,6 @@
 import json
 import random
+import re
 from datetime import datetime
 
 from selenium import webdriver
@@ -29,12 +30,30 @@ class FringeScrapper:
         schedule: WebElement = driver.find_element(By.CLASS_NAME, "schedule")
         schedule_elements = schedule.find_elements(By.TAG_NAME, "li")
         dates = schedule_elements[2].text
+        time = None
+        for element in schedule_elements:
+            m = re.findall(r"\d{1,2}:\d{1,2}", element.text)
+            if m:
+                time = m[0]
+        if not time:
+            time = "1:01AM"
         date_text = dates.split(" ")
-        days = date_text[0].split("-")
-        month = date_text[1]
-        start_day, end_day = days
-        start_date, end_date = parser.parse(start_day + " " + month), parser.parse(end_day + " " + month)
-        dates = list(DateFormatting.create_range(start_date, end_date))
+        print(f"{time} time")
+        print(f"{dates} dates")
+        print(f"{date_text} date text")
+        if len(date_text) > 3:
+            start_date_obj, end_date_obj = dates.split("-")
+            start_date, end_date = parser.parse(start_date_obj + " " + time), parser.parse(end_date_obj + " " + time)
+            dates = list(DateFormatting.create_range(start_date, end_date))
+        else:
+            days = date_text[0].split("-")
+            if len(days) > 1:
+                month = date_text[1]
+                start_day, end_day = days
+                start_date, end_date = parser.parse(start_day + " " + month + " " + time), parser.parse(end_day + " " + month + " " + time)
+                dates = list(DateFormatting.create_range(start_date, end_date))
+            else:
+                dates = [parser.parse(dates + " " + time)]
         content: WebElement = driver.find_element(By.XPATH, "//div[contains(@class, 'content')]")
         paragraphs = content.find_elements(By.TAG_NAME, "p")
         description = ""
@@ -123,7 +142,7 @@ class FringeScrapper:
         # Only add to current festivals if we found events
 
         out_file.write("[\n")
-        events = FringeScrapper.get_events(event_urls, driver, previous_urls, out_file)
+        events = FringeScrapper.get_events(event_urls, driver, set(), out_file)
         out_file.write("]\n")
 
         if events:
