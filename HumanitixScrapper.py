@@ -2,6 +2,7 @@ import random
 import subprocess
 from time import sleep
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 from webdriver_manager.chrome import ChromeDriverManager
 
 import FileUtils
@@ -117,11 +118,17 @@ class HumanitixScrapper:
         event_urls: Set[Tuple[str, str, bool]] = set()
         for category, categoryName in categories:
             print("cat: ", category, " ", categoryName)
-            page = 0
+            url = f'https://humanitix.com/nz/search/nz--wellington-region--wellington?countryAndLocation=nz--wellington-region--wellington'
+            driver.get(url)
+            sleep(random.uniform(1, 2))
+            cat_button = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
+            driver.execute_script("arguments[0].click();", cat_button)
+            sleep(1)
+            category_selector = driver.find_element(By.XPATH, f"//li[contains(., '{categoryName}')]")
+            driver.execute_script("arguments[0].click();", category_selector)
+            apply_button: WebElement = driver.find_element(By.XPATH, "//a[contains(., 'Apply')]")
+            driver.execute_script("arguments[0].click();", apply_button)
             while True:
-
-                url = f'https://humanitix.com/nz/search/nz--wellington-region--wellington?countryAndLocation=nz--wellington-region--wellington&page={page}&categories={category}'
-                driver.get(url)
                 sleep(random.uniform(1, 2))
                 height = driver.execute_script("return document.body.scrollHeight")
                 scrolled_amount = 0
@@ -132,7 +139,10 @@ class HumanitixScrapper:
 
                     scrolled_amount += 100
                 events_data = driver.find_elements(By.CLASS_NAME, 'test')
-                if not events_data:
+                try:
+                    button: WebElement = driver.find_element(By.XPATH, "//a[contains(., 'Show More')]")
+                    driver.execute_script("arguments[0].click();", button)
+                except:
                     break
                 for event in events_data:
                     event_url = event.get_attribute('href')
@@ -149,7 +159,7 @@ class HumanitixScrapper:
                     event_urls.add(url_tuple)
                     json.dump(url_tuple, urls_file, indent=2)
                     urls_file.write(",\n")
-                page += 1
+
                 sleep(random.uniform(1, 3))
         urls_file.write("]\n")
         return event_urls

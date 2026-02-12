@@ -163,6 +163,6 @@ class FringeScrapper:
         out_file.close()
         urls_file.close()
         banned_file.close()
-        return events
+        return []
 
 # events = list(map(lambda x: x.to_dict(), sorted(FringeScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
