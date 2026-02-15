@@ -6,8 +6,8 @@
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/07827e3e-a8d2-4d46-97e6-17890200c0d9.jpeg",
       "venue": "Circus Bar, 17B Allen Street, Te Aro",
       "coordinates": {
-        "lat": -41.2929705,
-        "long": 174.7826363
+        "lat": -41.2930498,
+        "long": 174.7824013
       },
       "dates": [
         "2026-02-20-01:01",
@@ -96,8 +96,8 @@
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/94e97487-cf0d-4272-99b8-bac45c782785.jpeg",
       "venue": "Circus Bar, 17B Allen Street, Te Aro",
       "coordinates": {
-        "lat": -41.2929705,
-        "long": 174.7826363
+        "lat": -41.2930498,
+        "long": 174.7824013
       },
       "dates": [
         "2026-02-18-01:01",
@@ -291,15 +291,13 @@
         "long": 174.7704634
       },
       "dates": [
-        "2026-02-14-01:01",
-        "2026-02-15-01:01",
         "2026-02-16-01:01",
         "2026-02-17-01:01",
         "2026-02-18-01:01",
         "2026-02-19-01:01",
         "2026-02-20-01:01"
       ],
-      "displayDate": "Sat 14 Feb + more",
+      "displayDate": "Mon 16 Feb + more",
       "url": "https://tickets.fringe.co.nz/event/446:8359",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -313,8 +311,8 @@
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/d86d6966-29ed-4ab7-9b37-e749cfcf1d88.jpeg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-24-18:00"
@@ -392,34 +390,13 @@
       "labels": []
     },
     {
-      "id": "Bad Bard Bar Show-Ivy Bar & Cabaret, 63 Cuba Street-Fringe",
-      "name": "Bad Bard Bar Show",
-      "imageUrl": "https://nzf.assets.red61.com.au/nzf/f15dd319-ef70-47a9-9b65-1fd3200bbf27.jpeg",
-      "venue": "Ivy Bar & Cabaret, 63 Cuba Street",
-      "coordinates": {
-        "lat": -41.290983,
-        "long": 174.7772014
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8379",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nHear ye, hear ye! Heathens and scoundrels rejoice, Bad Bards return from their infamous quests across the whenua to bring tales of myth, magic and maidens ;).\nEscape the toils of the feudal system into stories and original tunes with nights of merriment, mischief, and slanderin' the king!\nA devised Musical Comedy spectacular, 'Bad Bard Bar Show' comes at you from Artificers a new emerging theatre company making its debut this Fringe. With Musical and comedic talents from Lydia Sainsbury (Wellington Raw Comedy Quest Winner 2025), Lizzy Burton Wood (The Ghost Show, Five Words or Less, Icky), Ngarongonui Mareikura-Ellery (Alma and the Mind Galaxy, Whanake) and Viki Moananu (Playwrights B425 2025 Winner).\n\n",
-      "description": "Hear ye, hear ye!\nHeathens and scoundrels rejoice, Bad Bards return from their infamous quests across the whenua to bring tales of myth, magic and maidens ;).\nEscape the toils of the feudal system into stories and original tunes with nights of merriment, mischief, and slanderin' the king!\nA devised Musical Comedy spectacular, 'Bad Bard Bar Show' comes at you from Artificers a new emerging theatre company making its debut this Fringe.\nWith Musical and comedic talents from Lydia Sainsbury (Wellington Raw Comedy Quest Winner 2025), Lizzy Burton Wood (The Ghost Show, Five Words or Less, Icky), Ngarongonui Mareikura-Ellery (Alma and the Mind Galaxy, Whanake) and Viki Moananu (Playwrights B425 2025 Winner).",
-      "labels": []
-    },
-    {
       "id": "Bad Girls-Circus Bar, 17B Allen Street, Te Aro-Fringe",
       "name": "Bad Girls",
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/f0f28056-4a2d-4c26-b6be-d799772c4d7e.jpeg",
       "venue": "Circus Bar, 17B Allen Street, Te Aro",
       "coordinates": {
-        "lat": -41.2929705,
-        "long": 174.7826363
+        "lat": -41.2930498,
+        "long": 174.7824013
       },
       "dates": [
         "2026-03-04-01:01",
@@ -458,6 +435,26 @@
     {
       "id": "Ben Miller: Volcano-29 Courtenay Place\n6011-Fringe",
       "name": "Ben Miller: Volcano",
+      "imageUrl": "https://nzf.assets.red61.com.au/nzf/2c0c2cdd-3bc3-4d86-a2ba-c701b1332c77.jpeg",
+      "venue": "29 Courtenay Place\n6011",
+      "coordinates": {
+        "lat": -41.2938989,
+        "long": 174.7820748
+      },
+      "dates": [
+        "2026-03-04-19:30"
+      ],
+      "displayDate": "Wed 04 Mar",
+      "url": "https://tickets.fringe.co.nz/event/446:8294",
+      "source": "Fringe",
+      "eventType": "Arts & Theatre",
+      "long_description": "\nWhat happens when a comedian walks into a volcano?\nIn 2023, Ben Miller was the artist in residence at Hawai'i Volcanoes National Park, the first ever stand-up comedian ever selected. This was probably a terrible idea on their part.\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nBen Miller is an NYC based scientist turned comedian who has been working for the past 9 years. In that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand. Ben was once ranked as the top roast battler in NYC. He has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage. In 2022, Ben Miller's debut hour, Stand-Up Science, had a completely sold-out run at the Edinburgh Fringe Festival and he now tours internationally.\n \nPraise for the show:\n \n\"Ben Miller's nerdy and vivid comic mind erupts in this hour-long set!\" - Winnipeg Free Press (4-star review)\n\"Ben does a fantastic job of getting the facts across and making us laugh at the same time! A real and rare treat. - The Mumble (4-star review)\n\"Ben had us laughing until we cried - very funny and very clever! - Audience member\n\n",
+      "description": "What happens when a comedian walks into a volcano?\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nIn that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand.\nBen was once ranked as the top roast battler in NYC.\nHe has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage.",
+      "labels": []
+    },
+    {
+      "id": "Ben Miller: Volcano-29 Courtenay Place\n6011-Fringe",
+      "name": "Ben Miller: Volcano",
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/a54180dc-f41e-41ab-8cd9-766954c30d05.jpeg",
       "venue": "29 Courtenay Place\n6011",
       "coordinates": {
@@ -470,26 +467,6 @@
       ],
       "displayDate": "Fri 06 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8340",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nWhat happens when a comedian walks into a volcano?\nIn 2023, Ben Miller was the artist in residence at Hawai'i Volcanoes National Park, the first ever stand-up comedian ever selected. This was probably a terrible idea on their part.\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nBen Miller is an NYC based scientist turned comedian who has been working for the past 9 years. In that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand. Ben was once ranked as the top roast battler in NYC. He has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage. In 2022, Ben Miller's debut hour, Stand-Up Science, had a completely sold-out run at the Edinburgh Fringe Festival and he now tours internationally.\n \nPraise for the show:\n \n\"Ben Miller's nerdy and vivid comic mind erupts in this hour-long set!\" - Winnipeg Free Press (4-star review)\n\"Ben does a fantastic job of getting the facts across and making us laugh at the same time! A real and rare treat. - The Mumble (4-star review)\n\"Ben had us laughing until we cried - very funny and very clever! - Audience member\n\n",
-      "description": "What happens when a comedian walks into a volcano?\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nIn that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand.\nBen was once ranked as the top roast battler in NYC.\nHe has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage.",
-      "labels": []
-    },
-    {
-      "id": "Ben Miller: Volcano-29 Courtenay Place\n6011-Fringe",
-      "name": "Ben Miller: Volcano",
-      "imageUrl": "https://nzf.assets.red61.com.au/nzf/2c0c2cdd-3bc3-4d86-a2ba-c701b1332c77.jpeg",
-      "venue": "29 Courtenay Place\n6011",
-      "coordinates": {
-        "lat": -41.2938989,
-        "long": 174.7820748
-      },
-      "dates": [
-        "2026-03-04-19:30"
-      ],
-      "displayDate": "Wed 04 Mar",
-      "url": "https://tickets.fringe.co.nz/event/446:8294",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
       "long_description": "\nWhat happens when a comedian walks into a volcano?\nIn 2023, Ben Miller was the artist in residence at Hawai'i Volcanoes National Park, the first ever stand-up comedian ever selected. This was probably a terrible idea on their part.\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nBen Miller is an NYC based scientist turned comedian who has been working for the past 9 years. In that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand. Ben was once ranked as the top roast battler in NYC. He has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage. In 2022, Ben Miller's debut hour, Stand-Up Science, had a completely sold-out run at the Edinburgh Fringe Festival and he now tours internationally.\n \nPraise for the show:\n \n\"Ben Miller's nerdy and vivid comic mind erupts in this hour-long set!\" - Winnipeg Free Press (4-star review)\n\"Ben does a fantastic job of getting the facts across and making us laugh at the same time! A real and rare treat. - The Mumble (4-star review)\n\"Ben had us laughing until we cried - very funny and very clever! - Audience member\n\n",
@@ -619,11 +596,9 @@
         "long": 25.6849227
       },
       "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01"
+        "2026-02-15-19:30"
       ],
-      "displayDate": "Fri 13 Feb + more",
+      "displayDate": "Sun 15 Feb",
       "url": "https://tickets.fringe.co.nz/event/446:7864",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -641,10 +616,9 @@
         "long": 174.7820748
       },
       "dates": [
-        "2026-02-14-01:01",
-        "2026-02-15-01:01"
+        "2026-02-15-19:00"
       ],
-      "displayDate": "Sat 14 Feb + more",
+      "displayDate": "Sun 15 Feb",
       "url": "https://tickets.fringe.co.nz/event/446:8287",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -658,8 +632,8 @@
       "imageUrl": "https://eventotron.imgix.net/09-24-2025-071807-8287.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-03-05-01:01",
@@ -725,8 +699,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-07-2025-034751-6380.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-28-21:00"
@@ -791,10 +765,6 @@
         "long": 174.780383
       },
       "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01",
-        "2026-02-16-01:01",
         "2026-02-17-01:01",
         "2026-02-18-01:01",
         "2026-02-19-01:01",
@@ -808,7 +778,7 @@
         "2026-02-27-01:01",
         "2026-02-28-01:01"
       ],
-      "displayDate": "Fri 13 Feb + more",
+      "displayDate": "Tue 17 Feb + more",
       "url": "https://tickets.fringe.co.nz/event/446:8215",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -884,27 +854,6 @@
       "labels": []
     },
     {
-      "id": "Dirty Old Songs-The Fringe Bar, 26-32 Allen Street-Fringe",
-      "name": "Dirty Old Songs",
-      "imageUrl": "https://eventotron.imgix.net/10-06-2025-032039-3811.jpg",
-      "venue": "The Fringe Bar, 26-32 Allen Street",
-      "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8271",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nCompelled to prove the past wasn't so prudish, Ms. Weeds will take you on a sonic ride with some of the dirtiest songs from blues history. Uniquely qualified for this task, burlesquer come blues musician, she will perform songs for your pleasure while telling you the stories behind them. In 2024, she co-produced her first ever Fringe show, Burlesque and Blues, the Devil's Own, which was nominated for the NZ Fringe Festival awards for Momentous Movement. Dirty Old Songs will be Ms. Weeds' first ever solo show!\nMs. Weeds is a retro weird singing burlesque darling from P\u014dneke, Wellington and has been performing around Aotearoa New Zealand since 2011. She's a multi-instrumentalist and with a voice that packs a punch, lovingly referred to as the human fog horn. Winner of numerous awards such as:\nYou can find her most weekends either backstage or on stage in the various cabaret shows of P\u014dneke or playing blues music with other local mischief makers.\n\n",
-      "description": "Compelled to prove the past wasn't so prudish, Ms. Weeds will take you on a sonic ride with some of the dirtiest songs from blues history.\nIn 2024, she co-produced her first ever Fringe show, Burlesque and Blues, the Devil's Own, which was nominated for the NZ Fringe Festival awards for Momentous Movement.\nMs. Weeds is a retro weird singing burlesque darling from P\u014dneke, Wellington and has been performing around Aotearoa New Zealand since 2011.\nShe's a multi-instrumentalist and with a voice that packs a punch, lovingly referred to as the human fog horn.\nWinner of numerous awards such as: You can find her most weekends either backstage or on stage in the various cabaret shows of P\u014dneke or playing blues music with other local mischief makers.",
-      "labels": []
-    },
-    {
       "id": "Dirty Rice-29 Courtenay Place\n6011-Fringe",
       "name": "Dirty Rice",
       "imageUrl": "https://eventotron.imgix.net/10-10-2025-010757-7399.jpg",
@@ -923,47 +872,6 @@
       "eventType": "Arts & Theatre",
       "long_description": "\nKick off Lunar New Year with a flavour explosion of laughs!\n\nDirty Rice is serving up an all-Asian comedy showcase that's bold, spicy, and absolutely unforgettable. This variety show is packed with razor-sharp punchlines, outrageous stories, and cultural twists that will leave you hungry for more.\nStarring a powerhouse lineup including Lily Catastrophe, Chen Wang, Elliott Lam, Ralph Hilaga, and more incredible Asian talent from across Aotearoa and beyond, this is your chance to experience comedy that's as vibrant and diverse as the Lunar New Year itself.\nExpect a night of sizzling humour, unexpected surprises, and a celebration of voices that deserve the spotlight. Whether you're here for the fiery jokes, the cheeky banter, or the sheer joy of live performance, Dirty Rice promises a feast of funny you won't forget.\nAbout the performers\n\n",
       "description": "Kick off Lunar New Year with a flavour explosion of laughs!\nDirty Rice is serving up an all-Asian comedy showcase that's bold, spicy, and absolutely unforgettable.\nThis variety show is packed with razor-sharp punchlines, outrageous stories, and cultural twists that will leave you hungry for more.\nStarring a powerhouse lineup including Lily Catastrophe, Chen Wang, Elliott Lam, Ralph Hilaga, and more incredible Asian talent from across Aotearoa and beyond, this is your chance to experience comedy that's as vibrant and diverse as the Lunar New Year itself.\nExpect a night of sizzling humour, unexpected surprises, and a celebration of voices that deserve the spotlight.",
-      "labels": []
-    },
-    {
-      "id": "Doing time with Lavinia--Fringe",
-      "name": "Doing time with Lavinia",
-      "imageUrl": "https://eventotron.imgix.net/02-05-2026-235128-7319.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-13-01:01"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8406",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nLavinia Draper, alcohol-soaked performer of a certain age, maintains her dream despite the struggle. The strife of aging artists, most particularly women, facing unrepentant discrimination and harassment, and the resultant dysphoria and substance use, is profound. But Lavinia is the rare hopeful dreamer who never gives up on herself and inspires the audience to do the same. A one-woman show performed by Susan Campanaro that shatters genre as deftly as the title character severs the comic/tragic line. Brimming with hysterical comedy, dark sensitivity and harsh reality, the play features a moving score by Lynn Portas.\n'A tour de force' (The Village Sun, New York).`\n'A masterpiece of creativity and talent by the incredible Susan Campanaro. It is a must-see!' (Audience Review).\n'Susan is a gem whose Lavinia is Broadway overdue! Lynn is a musical genius who creates the perfect frosting of lyrics and sound to the delicious layer cake that is Lavinia's story. Smart, funny, poignant, an evening well spent. BRAVO!!!' (Audience Review).\nPerformed and Directed by | Susan Campanaro\nLyrics and Music Composed by | Lynn Portas\nProduced by | Jimmy Burke\nPart of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round. Full programme at http://www.CtheArts.com\n\n",
-      "description": "Lavinia Draper, alcohol-soaked performer of a certain age, maintains her dream despite the struggle.\nThe strife of aging artists, most particularly women, facing unrepentant discrimination and harassment, and the resultant dysphoria and substance use, is profound.\nBut Lavinia is the rare hopeful dreamer who never gives up on herself and inspires the audience to do the same.\n'Susan is a gem whose Lavinia is Broadway overdue!\nPerformed and Directed by | Susan Campanaro Lyrics and Music Composed by | Lynn Portas Produced by | Jimmy Burke Part of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round.",
-      "labels": []
-    },
-    {
-      "id": "Driving me crazy-The Fringe Bar, 26-32 Allen Street-Fringe",
-      "name": "Driving me crazy",
-      "imageUrl": "https://eventotron.imgix.net/09-22-2025-003404-6591.jpg",
-      "venue": "The Fringe Bar, 26-32 Allen Street",
-      "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8274",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nDriving me crazy is a no-brakes comedy collision starring real-life married comedy couple Mo Munn and Q Potts -- and yes, they're still together... somehow.\nThis fast-paced, unfiltered blend of stand-up and sketch dives head-on into the chaos of co-piloting a life -- and a car -- with your partner. From white-knuckled driving lessons to petty habits that spark full-blown meltdowns, nothing is sacred. Refusing to drive a manual? Refusing to wipe the bench properly? Buckle up, because it's all going under the microscope.\nWith razor-sharp wit, undeniable chemistry, and just the right amount of road rage, Driving Me Crazy swerves through the hilarious potholes of modern relationships -- where love, frustration, and GPS miscommunications collide.\nExpect rapid-fire banter, brutally relatable stories, and sketches that hit a little too close to home. Mo and Q are living proof that marriage is messy, weird, and completely worth mocking on stage.\nPerfect for date night, mate night, or when you just need to laugh at someone else's dysfunction for once -- Driving Me Crazy is a comedic car crash you'll be glad you didn't miss this Valentine's weekend!\nMo Munn is a multi-award-winning comedian, recently named Best Newcomer at the 2025 NZ International Comedy Festival. Q Potts is a rising star on the scene, and a 2025 Wellington Raw Comedy Quest Finalist.\nRelationships don't come with a manual. But this show? It's the next best thing.\n\n",
-      "description": "Driving me crazy is a no-brakes comedy collision starring real-life married comedy couple Mo Munn and Q Potts -- and yes, they're still together... somehow.\nFrom white-knuckled driving lessons to petty habits that spark full-blown meltdowns, nothing is sacred.\nRefusing to drive a manual?\nWith razor-sharp wit, undeniable chemistry, and just the right amount of road rage, Driving Me Crazy swerves through the hilarious potholes of modern relationships -- where love, frustration, and GPS miscommunications collide.\nIt's the next best thing.",
       "labels": []
     },
     {
@@ -1043,11 +951,9 @@
         "long": 174.7846181
       },
       "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01"
+        "2026-02-15-19:00"
       ],
-      "displayDate": "Fri 13 Feb + more",
+      "displayDate": "Sun 15 Feb",
       "url": "https://tickets.fringe.co.nz/event/446:8200",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -1075,26 +981,6 @@
       "eventType": "Arts & Theatre",
       "long_description": "\nA lecture-performance following a stolen video down the rabbit hole of internet creeps -- the true story of five nude minutes sparking years of obsessive sharing, bizarre commentary, and surreal online encounters. A darkly humorous dive into consent in the digital age.\nIn 2020, during the first Covid lockdown, I made my solo show \"The Sensemaker\" temporarily available online.\nStrangely, the video quickly became highly sought-after in certain corners of the internet -- all because of the five minutes of nudity it contains. Years later, I'm still having to take it down from various adult forums where it keeps resurfacing without my consent.\nIn trying to track where it had been shared, I stumbled into a bizarre world of posts and comments.\nLet me read you a few.\n\"Embarrassed Naked Female (this show contains nudity)\" has won the Virtuoso Award (Stockholm Fringe Festival 2025) and the Hot Potato Award (Gothenburg Fringe 2025).\nThis show is presented in tandem with \"The Sensemaker\".\n\n",
       "description": "A lecture-performance following a stolen video down the rabbit hole of internet creeps -- the true story of five nude minutes sparking years of obsessive sharing, bizarre commentary, and surreal online encounters.\nA darkly humorous dive into consent in the digital age.\nIn 2020, during the first Covid lockdown, I made my solo show \"The Sensemaker\" temporarily available online.\nIn trying to track where it had been shared, I stumbled into a bizarre world of posts and comments.\nLet me read you a few.",
-      "labels": []
-    },
-    {
-      "id": "F R I D A-29 Courtenay Place\n6011-Fringe",
-      "name": "F R I D A",
-      "imageUrl": "https://eventotron.imgix.net/10-10-2025-082129-1196.jpg",
-      "venue": "29 Courtenay Place\n6011",
-      "coordinates": {
-        "lat": -41.2938989,
-        "long": 174.7820748
-      },
-      "dates": [
-        "2026-02-14-18:00"
-      ],
-      "displayDate": "Sat 14 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8296",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nEmerging from a place of stillness, reflection and sonic exploration, F R I D A explores a world of harmony, textures, and colour. Moving between jazz, meditative folk, and improvisation, inspired by the likes of Lianne Le Havas, Billie Martin and Melody Gardot. She weaves these influences to create a sonic landscape that reflects the beauty of the world around her.\nJoined by a band of many talents, F R I D A and Friends invite you on a sound journey building together a sonic painting of colour, peace and acceptance.\nThis is music to meditate to, to breathe, and to be lost in. An intimate concert that blurs the lines of sound and spirit.\n\n",
-      "description": "Emerging from a place of stillness, reflection and sonic exploration, F R I D A explores a world of harmony, textures, and colour.\nMoving between jazz, meditative folk, and improvisation, inspired by the likes of Lianne Le Havas, Billie Martin and Melody Gardot.\nShe weaves these influences to create a sonic landscape that reflects the beauty of the world around her.\nJoined by a band of many talents, F R I D A and Friends invite you on a sound journey building together a sonic painting of colour, peace and acceptance.\nThis is music to meditate to, to breathe, and to be lost in.",
       "labels": []
     },
     {
@@ -1196,26 +1082,6 @@
       "labels": []
     },
     {
-      "id": "Fires on the Plain--Fringe",
-      "name": "Fires on the Plain",
-      "imageUrl": "https://eventotron.imgix.net/02-05-2026-230311-6951.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-13-01:01"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8404",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nExperience a bold theatrical adaptation of one of Japan's most powerful war novels: \u014coka Sh\u014dhei's classic Fires on the Plain reimagined for the stage. This solo performance brings to life the harrowing journey of a soldier lost in the chaos of World War II. Through multiple roles, one actor explores the depths of war, solitude, and human survival. Explores themes of faith, dignity and humanity through the loneliness, hunger and moral dilemma of the Philippine front. A visceral, intimate take on Ooka's classic, confronting the darkness of war with haunting clarity.\nOriginal text by | \u014coka Sh\u014dhei\nAdapted and directed by | Horikawa Honoh\nPerformed by | Nagai Hideki\nPhoto | Igaki Photo Studio (use courtesy of Toyooka Theatre Festival, Japan)\nPart of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round. Full programme at http://www.CtheArts.com\n\n",
-      "description": "Experience a bold theatrical adaptation of one of Japan's most powerful war novels: \u014coka Sh\u014dhei's classic Fires on the Plain reimagined for the stage.\nThis solo performance brings to life the harrowing journey of a soldier lost in the chaos of World War II.\nThrough multiple roles, one actor explores the depths of war, solitude, and human survival.\nExplores themes of faith, dignity and humanity through the loneliness, hunger and moral dilemma of the Philippine front.\nA visceral, intimate take on Ooka's classic, confronting the darkness of war with haunting clarity.",
-      "labels": []
-    },
-    {
       "id": "Four Questions-Hannah Playhouse, 12 Cambridge Terrace-Fringe",
       "name": "Four Questions",
       "imageUrl": "https://eventotron.imgix.net/10-09-2025-234441-3559.jpg",
@@ -1242,8 +1108,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-08-2025-014903-2800.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-18-01:01",
@@ -1293,45 +1159,23 @@
       "labels": []
     },
     {
-      "id": "Gemma vs The Normal Worms--Fringe",
-      "name": "Gemma vs The Normal Worms",
-      "imageUrl": "https://eventotron.imgix.net/10-20-2025-050432-8061.jpg",
-      "venue": "",
+      "id": "Here Comes The Fencing Act 1979!-6011-Fringe",
+      "name": "Here Comes The Fencing Act 1979!",
+      "imageUrl": "https://eventotron.imgix.net/09-29-2025-032450-1805.jpg",
+      "venue": "6011",
       "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
+        "lat": 42.4298469,
+        "long": 25.6849227
       },
       "dates": [
-        "2026-02-13-01:01"
+        "2026-02-27-21:00"
       ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8262",
+      "displayDate": "Fri 27 Feb",
+      "url": "https://tickets.fringe.co.nz/event/446:8260",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
-      "long_description": "\n15 Episodes of beautifully produced, highly infectious audio comedy, inchworming into a mind near you....\n\nGiant space worms are invading Earth, and their wormy hive-minds are driving people Normal!\n\nTo save humanity from all that is conventional, amorously-awkward Gemma and loveable loafer Fabblestitch must take the ultimate trip: a kaleidoscopic adventure deep into the bowels of the Lost Worm Galaxy -- where the normal rules don't apply, but the Normal Worms do...\n\nGemma vs The Normal Worms is about holding your own when you're different, deviant, and diverging from the conventional, in a crazy world where everyone must submit to The Normal Thing to Do.\n\nWarning: Contains 420% reeferences to sex, drugs, & psychedelic worms.\n\n4 hours and 20 minutes of raunchy, whimsical fantasy, inspired by Monty Python's Flying Circus, and the nostalgic, old-timey radio storytelling of Spike Milligan's BadJelly The Witch.\n\nCosy up with your fav snacks and your best bud(s) and get ready to laugh your ass off! Hi-fi sound gear recommended.\nEarly Birds can catch our Worms at SPECIAL prices! Sign up to our socials/website to learn more!\n\nOr listen for FREE at our charming Listening Post installation at Hannah Playhouse!\n\n",
-      "description": "15 Episodes of beautifully produced, highly infectious audio comedy, inchworming into a mind near you....\nGiant space worms are invading Earth, and their wormy hive-minds are driving people Normal!\nTo save humanity from all that is conventional, amorously-awkward Gemma and loveable loafer Fabblestitch must take the ultimate trip: a kaleidoscopic adventure deep into the bowels of the Lost Worm Galaxy -- where the normal rules don't apply, but the Normal Worms do... Gemma vs The Normal Worms is about holding your own when you're different, deviant, and diverging from the conventional, in a crazy world where everyone must submit to The Normal Thing to Do.\nWarning: Contains 420% reeferences to sex, drugs, & psychedelic worms.\n4 hours and 20 minutes of raunchy, whimsical fantasy, inspired by Monty Python's Flying Circus, and the nostalgic, old-timey radio storytelling of Spike Milligan's BadJelly The Witch.",
-      "labels": []
-    },
-    {
-      "id": "Ghost Bros-29 Courtenay Place\n6011-Fringe",
-      "name": "Ghost Bros",
-      "imageUrl": "https://eventotron.imgix.net/10-09-2025-075129-7593.jpg",
-      "venue": "29 Courtenay Place\n6011",
-      "coordinates": {
-        "lat": -41.2938989,
-        "long": 174.7820748
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8334",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nAre you a skeptic or believer?\nGet in bros we're going hunting for ghosts! As night falls the GhostBros team embark on another jam-packed night of paranormal investigation. Orbs, cold spots, and mysterious creaks meet their match with the Bros whose gadgets, experience and teamwork mean they're ready to take on any spooky dwelling be it a house, manor, or shed.\nGhost Bros is a show about friendship, fear, and purpose. Exploring the massive popularity of ghost hunting media and a worldwide obsession with the strange and unexplained.\nFrom the team who brought you Goths Against Classical Music and Our Place, Ghost Bros is Curtain Call Company's third NZ Fringe Festival show, and one not to be missed.\nWho knows maybe this will be the night the Bros finally capture an actual real life ghost...\nLike, comment, and subscribe for more!\n\n",
-      "description": "Are you a skeptic or believer?\nGet in bros we're going hunting for ghosts!\nAs night falls the GhostBros team embark on another jam-packed night of paranormal investigation.\nOrbs, cold spots, and mysterious creaks meet their match with the Bros whose gadgets, experience and teamwork mean they're ready to take on any spooky dwelling be it a house, manor, or shed.\nGhost Bros is a show about friendship, fear, and purpose.",
+      "long_description": "\nWellington chamber pop orchestra the Sven Olsens return to the Fringe with another sonic slice of life in Aotearoa/New Zealand. The 18-strong collective has spent the past 15 years recording over 100 songs about what makes people in this country tick. They are still none the wiser but now twice the poorer.\nThis band presents material others sensibly avoid. They've created an 'ear-worm' farm using topics as varied as: the Fencing Act 1979, ever-elusive Hasting's tagger Kron, Huka Falls' boogie boarding dare devil Dr. Bubbles, the perils of kung fu dancing on top of chicken restaurants and the influence of 19th century painting on the hangovers of local librarians.\nThe Svens will sing 70 mins worth of material from their endless 'magnum 'opeless'. This show will be a celebration of national quirks, perks and potholes, baffling and fascinating in equal measure, gloriously short and to the point. There'll be strings, choir and a band. There'll be a multimedia extravaganza. There'll be merch. And there'll be you. This Svens' motto is 'one last shot at obscurity'. This is your chance to prove them wrong.\nThree great small venues.\nTe Hapori/ Newtown Community Centre Theatre,\nThe Tararua Tramping Club,\nbookhounds come to our Friday night show at Undercurrent.\nFour nights to choose from. Entry is free/koha.\n \n \n\n",
+      "description": "The 18-strong collective has spent the past 15 years recording over 100 songs about what makes people in this country tick.\nBubbles, the perils of kung fu dancing on top of chicken restaurants and the influence of 19th century painting on the hangovers of local librarians.\nThe Svens will sing 70 mins worth of material from their endless 'magnum 'opeless'.\nThere'll be strings, choir and a band.\nAnd there'll be you.",
       "labels": []
     },
     {
@@ -1379,53 +1223,13 @@
       "labels": []
     },
     {
-      "id": "Here Comes The Fencing Act 1979!-6011-Fringe",
-      "name": "Here Comes The Fencing Act 1979!",
-      "imageUrl": "https://eventotron.imgix.net/09-29-2025-032450-1805.jpg",
-      "venue": "6011",
-      "coordinates": {
-        "lat": 42.4298469,
-        "long": 25.6849227
-      },
-      "dates": [
-        "2026-02-27-21:00"
-      ],
-      "displayDate": "Fri 27 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8260",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nWellington chamber pop orchestra the Sven Olsens return to the Fringe with another sonic slice of life in Aotearoa/New Zealand. The 18-strong collective has spent the past 15 years recording over 100 songs about what makes people in this country tick. They are still none the wiser but now twice the poorer.\nThis band presents material others sensibly avoid. They've created an 'ear-worm' farm using topics as varied as: the Fencing Act 1979, ever-elusive Hasting's tagger Kron, Huka Falls' boogie boarding dare devil Dr. Bubbles, the perils of kung fu dancing on top of chicken restaurants and the influence of 19th century painting on the hangovers of local librarians.\nThe Svens will sing 70 mins worth of material from their endless 'magnum 'opeless'. This show will be a celebration of national quirks, perks and potholes, baffling and fascinating in equal measure, gloriously short and to the point. There'll be strings, choir and a band. There'll be a multimedia extravaganza. There'll be merch. And there'll be you. This Svens' motto is 'one last shot at obscurity'. This is your chance to prove them wrong.\nThree great small venues.\nTe Hapori/ Newtown Community Centre Theatre,\nThe Tararua Tramping Club,\nbookhounds come to our Friday night show at Undercurrent.\nFour nights to choose from. Entry is free/koha.\n \n \n\n",
-      "description": "The 18-strong collective has spent the past 15 years recording over 100 songs about what makes people in this country tick.\nBubbles, the perils of kung fu dancing on top of chicken restaurants and the influence of 19th century painting on the hangovers of local librarians.\nThe Svens will sing 70 mins worth of material from their endless 'magnum 'opeless'.\nThere'll be strings, choir and a band.\nAnd there'll be you.",
-      "labels": []
-    },
-    {
-      "id": "Hiding Behind the Mask: Jesters, Jokers and Clowns--Fringe",
-      "name": "Hiding Behind the Mask: Jesters, Jokers and Clowns",
-      "imageUrl": "https://eventotron.imgix.net/02-05-2026-214035-6741.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-13-01:01"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8402",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nAn intriguing, soul-searching masterclass into the personas of jesters, jokers, and clowns, through the lens of the theatrical mask. From Greek trickster gods to Japanese Noh Theatre, commedia dell'arte and opera to slapstick and cartoons, join Professor Rosemary George on a rollercoaster through the joys and sorrows, comedies and tragedies of life, which probes hidden identities in human behaviour.\n'The professor's range and extent of research is clearly apparent' (EdinburghGuide.com).\n'This is a masterclass in how we become what we are not, from the 'tears of a clown' to the masks of traditional Japanese Noh' (LouReviews.blog).\n'Brilliantly and eloquently written... Thoughtful... Extraordinarily well-researched' (Audience review).\n'Quite unique... Informative and fun' (Audience review). 'Truly thoughtful, educational' (Audience review).\nCreated and Performed by | Rosemary George\nPart of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round. Full programme at http://www.CtheArts.com\n\n",
-      "description": "'The professor's range and extent of research is clearly apparent' (EdinburghGuide.com).\n'This is a masterclass in how we become what we are not, from the 'tears of a clown' to the masks of traditional Japanese Noh' (LouReviews.blog).\n'Quite unique...\n'Truly thoughtful, educational' (Audience review).\nCreated and Performed by | Rosemary George Part of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round.",
-      "labels": []
-    },
-    {
       "id": "Hook, Line And Sphincter-Circus Bar, 17B Allen Street, Te Aro-Fringe",
       "name": "Hook, Line And Sphincter",
       "imageUrl": "https://eventotron.imgix.net/10-09-2025-070209-4565.jpg",
       "venue": "Circus Bar, 17B Allen Street, Te Aro",
       "coordinates": {
-        "lat": -41.2929705,
-        "long": 174.7826363
+        "lat": -41.2930498,
+        "long": 174.7824013
       },
       "dates": [
         "2026-02-26-01:01",
@@ -1518,9 +1322,9 @@
         "long": 174.7820748
       },
       "dates": [
-        "2026-02-14-01:06"
+        "2026-02-15-20:30"
       ],
-      "displayDate": "Sat 14 Feb",
+      "displayDate": "Sun 15 Feb",
       "url": "https://tickets.fringe.co.nz/event/446:8290",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -1636,27 +1440,6 @@
       "labels": []
     },
     {
-      "id": "Joana Joy: Miss Tui Whanganui 2009-1 Kent Tce, Te Aro, Wellington 6011\n6011-Fringe",
-      "name": "Joana Joy: Miss Tui Whanganui 2009",
-      "imageUrl": "https://eventotron.imgix.net/10-06-2025-030344-3436.jpg",
-      "venue": "1 Kent Tce, Te Aro, Wellington 6011\n6011",
-      "coordinates": {
-        "lat": -41.2935952,
-        "long": 174.7846181
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8197",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\n\"Hot, intelligent, and funny? Yeah Right.\"\nBest Newcomer nominee (NZICF 2024) Joana Joy was crowned 'Miss Tui Whanganui 2009'. Fifteen years since winning the title and a cheeky pash out the front of Countdown, she's been pondering beauty, Kiwi culture, femininity, and the nature of attraction. Part small-town nostalgia, part cultural commentary, part series of hilarious stories from her past, this show is a time-traveling party packed with pub bangers, Joana's signature physical comedy, and razor-sharp wit. Directed by Fred Award winner Barnie Duncan, this show proves you can take the girl out of Whanganui, but you can't take the Tui crown off her head.\nWellington-based comedian and MC Joana Joy has rapidly established herself as a formidable presence in Antipodean comedy. With a unique journey from commercial dancer to cabaret performer to stand-up comedian, she brings physical comedy, easy charm and witty authenticity to every performance. With over 12 years as a professional performer, JJ has performed at large scale events such as WOMAD (NZ), Twisted Frequency Festival, Woodford Folk Festival (AU), Melbourne International Comedy Festival and on lineups alongside Ben Hurley, Joe Daymond, Justine Smith, Angella Dravid, David Correos.\n\"Wellington's best kept secret\"- Art Murmurs\n\"She's that good a comic'- The Advertiser (AU)\n\"Fearless, intriguing and refreshing\"- Theatreview\nSpirit of the Festival - NZICF 2025 (Nominee)\nBest Newcomer - NZICF 2024 (Nominee)\nWellington Pun Battle 2024 (3rd Place)\nAustralia's Funniest State/Territory - Adelaide Fringe 2023 (Winner)\nAustralia's Got Talent 2013 (Semi-finalist)\nSold out solo shows in: Wellington, Melbourne, Adelaide, \u014ctautahi (Christchurch), Raglan, Whanganui\n \nDirection and dramaturgy by Barnie Duncan, who is a legendary AWARD WINNING comedian, excellent director and dramaturg. \n\n",
-      "description": "\"Hot, intelligent, and funny?\nYeah Right.\"\nBest Newcomer nominee (NZICF 2024) Joana Joy was crowned 'Miss Tui Whanganui 2009'.\nPart small-town nostalgia, part cultural commentary, part series of hilarious stories from her past, this show is a time-traveling party packed with pub bangers, Joana's signature physical comedy, and razor-sharp wit.\n\"Wellington's best kept secret\"- Art Murmurs \"She's that good a comic'- The Advertiser (AU) \"Fearless, intriguing and refreshing\"- Theatreview Spirit of the Festival - NZICF 2025 (Nominee) Best Newcomer - NZICF 2024 (Nominee) Wellington Pun Battle 2024 (3rd Place) Australia's Funniest State/Territory - Adelaide Fringe 2023 (Winner) Australia's Got Talent 2013 (Semi-finalist) Sold out solo shows in: Wellington, Melbourne, Adelaide, \u014ctautahi (Christchurch), Raglan, Whanganui Direction and dramaturgy by Barnie Duncan, who is a legendary AWARD WINNING comedian, excellent director and dramaturg.",
-      "labels": []
-    },
-    {
       "id": "Joana Joy: Miss Tui Whanganui 2009-Gryphon Theatre, 22 Ghuznee Street-Fringe",
       "name": "Joana Joy: Miss Tui Whanganui 2009",
       "imageUrl": "https://eventotron.imgix.net/10-06-2025-030344-3436.jpg",
@@ -1725,8 +1508,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-05-2025-124100-2892.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-03-04-01:01",
@@ -1740,27 +1523,6 @@
       "eventType": "Arts & Theatre",
       "long_description": "\nOh, hello there. Are you ready to get up close and personal with renowned lounge singer Carl Poteraychke? Join us for a night filled with sensational music, impeccable vibrations, and unforgettable memories... just for an hour.\nWinner: Best of Fest, Outstanding Comedy, World Premier, Cultural Exchange, and Artists' Pick (2025 San Diego Fringe).\nNominated: Top of Fringe, Adelaide Exchange, and Daredevil Award (2025 Hollywood Fringe).\nCreated and performed by Cam Poter (America's Got Talent, Ecole Gaulier, HBO's Silicon Valley, @CamOnCam69).\nCo-devised with Jeremy Poter. Directed by Paulyboy and Shawn Stoner.\n\n",
       "description": "Oh, hello there.\nAre you ready to get up close and personal with renowned lounge singer Carl Poteraychke?\nJoin us for a night filled with sensational music, impeccable vibrations, and unforgettable memories... just for an hour.\nWinner: Best of Fest, Outstanding Comedy, World Premier, Cultural Exchange, and Artists' Pick (2025 San Diego Fringe).\nNominated: Top of Fringe, Adelaide Exchange, and Daredevil Award (2025 Hollywood Fringe).",
-      "labels": []
-    },
-    {
-      "id": "Kipling DC - Lemonade Stand (& Friends)-Cavern Club, 22 Allen Street-Fringe",
-      "name": "Kipling DC - Lemonade Stand (& Friends)",
-      "imageUrl": "https://eventotron.imgix.net/10-09-2025-223125-7181.jpg",
-      "venue": "Cavern Club, 22 Allen Street",
-      "coordinates": {
-        "lat": 40.7154503,
-        "long": -73.992023
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:7837",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nYou like standup comedy!? You like lemonade!? Join Kipling DC (and some special guest comedians) while they test all new jokes, and give you some sweet, sour, and fresh lemonade! (There will be actual Lemonade).\nKipling DC is the self proclaimed 'Big Dog' of Wellington comedy. This jack russell with a microphone uses his quick wit and killer crowd work to leave his audiences in stitches and constantly guessing about what's coming next.\nHailing originally from the mighty Whang\u0101rei, this award comedian has taken his jokes up and down Aotearoa and left nothing off the table. He's a little self deprecating, a little bit cheeky, especially silly, and most of all very very funny! Ng\u0101puhi, Te Hikutu.\n2026 Billy T Nominee\nNominated - Best Comedian, Wellington Comedy Awards 2024\nNominated - Best Show, Wellington Comedy Awards 2024\nNominated - Best MC, Wellington Comedy Awards 2023\n\n",
-      "description": "You like lemonade!?\nThis jack russell with a microphone uses his quick wit and killer crowd work to leave his audiences in stitches and constantly guessing about what's coming next.\nHailing originally from the mighty Whang\u0101rei, this award comedian has taken his jokes up and down Aotearoa and left nothing off the table.\nHe's a little self deprecating, a little bit cheeky, especially silly, and most of all very very funny!\n2026 Billy T Nominee Nominated - Best Comedian, Wellington Comedy Awards 2024 Nominated - Best Show, Wellington Comedy Awards 2024 Nominated - Best MC, Wellington Comedy Awards 2023",
       "labels": []
     },
     {
@@ -1814,8 +1576,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-13-2025-212126-1632.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-19-01:01",
@@ -1860,10 +1622,6 @@
         "long": 174.783602
       },
       "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01",
-        "2026-02-16-01:01",
         "2026-02-17-01:01",
         "2026-02-18-01:01",
         "2026-02-19-01:01",
@@ -1884,7 +1642,7 @@
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Fri 13 Feb + more",
+      "displayDate": "Tue 17 Feb + more",
       "url": "https://tickets.fringe.co.nz/event/446:8367",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -1987,8 +1745,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-07-2025-011729-3334.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-26-01:01",
@@ -2027,53 +1785,13 @@
       "labels": []
     },
     {
-      "id": "Mountain Woman--Fringe",
-      "name": "Mountain Woman",
-      "imageUrl": "https://eventotron.imgix.net/02-05-2026-233000-8089.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-13-01:01"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8403",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nThis solo multimedia performance celebrates the raw power of creation and destruction embodied by a volcano, as it explores parallels between the cyclical movements of the earth and the emotional landscape of humanity. Through a series of vignettes, a combination of expressive dance, recorded narration, video, and music, immerses the audience in the essence of an evolving mountain. Performed on a set crafted from recycled and natural materials, Mountain Woman showcases the sacred feminine spirit, embodying growth, self-destruction, and balance as a call to reconnect with the cycles of the earth.\nCreated, Composed, Choreographed, Produced and Performed by | Ariel Bittner\nEngineering Assistance by | Derek Mouton (Tim Curry Designs)\nCostume Fabric Donation and Brainstorming by | Olea Stevens\nPart of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round. Full programme at http://www.CtheArts.com\n \n\n",
-      "description": "This solo multimedia performance celebrates the raw power of creation and destruction embodied by a volcano, as it explores parallels between the cyclical movements of the earth and the emotional landscape of humanity.\nThrough a series of vignettes, a combination of expressive dance, recorded narration, video, and music, immerses the audience in the essence of an evolving mountain.\nPerformed on a set crafted from recycled and natural materials, Mountain Woman showcases the sacred feminine spirit, embodying growth, self-destruction, and balance as a call to reconnect with the cycles of the earth.\nCreated, Composed, Choreographed, Produced and Performed by | Ariel Bittner Engineering Assistance by | Derek Mouton (Tim Curry Designs) Costume Fabric Donation and Brainstorming by | Olea Stevens Part of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round.\nFull programme at http://www.CtheArts.com",
-      "labels": []
-    },
-    {
-      "id": "Mud, Grass, & Monsters: Tales from Disc\u00f8via--Fringe",
-      "name": "Mud, Grass, & Monsters: Tales from Disc\u00f8via",
-      "imageUrl": "https://eventotron.imgix.net/01-21-2026-210831-3661.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-13-01:01"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8390",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nTales From Disc\u00f8via follows one PhD student's journey to uncover the history, folklore and culture of the world's most forgotten nation. Disc\u00f8via!\nIn each episode, Emily will interview experts, examine stories from the region, and discover her cultural ties to the country.\nJoin us on this exciting journey through Eastern Europe's \"Border Nation\". \nEpisodes will be available for free at https://tales-from-discovia.captivate.fm\nInstagram: @tales_from_discovia\n\n",
-      "description": "Tales From Disc\u00f8via follows one PhD student's journey to uncover the history, folklore and culture of the world's most forgotten nation.\nDisc\u00f8via!\nIn each episode, Emily will interview experts, examine stories from the region, and discover her cultural ties to the country.\nJoin us on this exciting journey through Eastern Europe's \"Border Nation\".\nEpisodes will be available for free at https://tales-from-discovia.captivate.fm Instagram: @tales_from_discovia",
-      "labels": []
-    },
-    {
       "id": "Musos Club Video Premiere-The Fringe Bar, 26-32 Allen Street-Fringe",
       "name": "Musos Club Video Premiere",
       "imageUrl": "https://eventotron.imgix.net/09-07-2025-094036-6680.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-27-21:00"
@@ -2174,8 +1892,8 @@
       "imageUrl": "https://eventotron.imgix.net/09-29-2025-231952-9340.jpg",
       "venue": "Circus Bar, 17B Allen Street, Te Aro",
       "coordinates": {
-        "lat": -41.2929705,
-        "long": 174.7826363
+        "lat": -41.2930498,
+        "long": 174.7824013
       },
       "dates": [
         "2026-02-20-01:01",
@@ -2286,8 +2004,8 @@
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/3bf131c4-3b44-43ff-9d00-2952ead6ec8f.png",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-03-06-01:01",
@@ -2400,15 +2118,11 @@
         "long": 153.091614
       },
       "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01",
-        "2026-02-16-01:01",
         "2026-02-17-01:01",
         "2026-02-18-01:01",
         "2026-02-19-01:01"
       ],
-      "displayDate": "Fri 13 Feb + more",
+      "displayDate": "Tue 17 Feb + more",
       "url": "https://tickets.fringe.co.nz/event/446:8258",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -2501,26 +2215,6 @@
       "labels": []
     },
     {
-      "id": "PeoplePeople--Fringe",
-      "name": "PeoplePeople",
-      "imageUrl": "https://eventotron.imgix.net/02-05-2026-220917-2032.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-13-01:01"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8405",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nA wildly quirky piece of physical theatre from Japan. Watching PeoplePeople is like peering into the minds of its five characters: a professor, a punk, a pierrot, a patient and a pupil. The experience is strangely humanising and somewhat mad. The movements are carefully crafted and highly stylised through the unique theatrical language of Corporeal Mime. The characters speak in their native tongue (Japanese, Chinese, English). There is no story. There is no set. Just five people, being people, in their own surreal way.\nCreated and performed by | Tomoki Nonaka, Ruxun Dai, Teruya Sugimoto, Masaya Tsujimoto, Harry Dean\nDirected by | Kentaro Suyama, Tania Coke\nAssistant direction | Yukiko Masui\nMusic by | Tania Coke, Henry Morse, Dreamylapse\nProjected images by | Kentaro Suyama\nLights by | Kentaro Suyama\nProduced by | tarinainanika\nPart of the C ARTS programme, a home for international independent arts, showcasing creativity, celebrating diversity, at C venues at the Edinburgh Fringe and on the C digital online platform year-round. Full programme at http://www.CtheArts.com\n\n",
-      "description": "A wildly quirky piece of physical theatre from Japan.\nWatching PeoplePeople is like peering into the minds of its five characters: a professor, a punk, a pierrot, a patient and a pupil.\nThe experience is strangely humanising and somewhat mad.\nThe movements are carefully crafted and highly stylised through the unique theatrical language of Corporeal Mime.\nThe characters speak in their native tongue (Japanese, Chinese, English).",
-      "labels": []
-    },
-    {
       "id": "Phobia-29 Courtenay Place\n6011-Fringe",
       "name": "Phobia",
       "imageUrl": "https://eventotron.imgix.net/10-09-2025-120259-3752.jpg",
@@ -2572,8 +2266,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-10-2025-053133-2628.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-03-03-01:01",
@@ -2612,27 +2306,6 @@
       "labels": []
     },
     {
-      "id": "Prophecy Girl-The Fringe Bar, 26-32 Allen Street-Fringe",
-      "name": "Prophecy Girl",
-      "imageUrl": "https://eventotron.imgix.net/09-28-2025-232710-5715.jpg",
-      "venue": "The Fringe Bar, 26-32 Allen Street",
-      "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8279",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nFrom that girl who did the Twilight show - Prophecy Girl is Maeve's new solo stand-up show about signs, experiences and clocking a gag !! \nSee you there on Friday 13th (Ahh, scary) or 14 of February (Valentine's Day, special)\n\n",
-      "description": "From that girl who did the Twilight show - Prophecy Girl is Maeve's new solo stand-up show about signs, experiences and clocking a gag !\n!\nSee you there on Friday 13th (Ahh, scary) or 14 of February (Valentine's Day, special)",
-      "labels": []
-    },
-    {
       "id": "P\u014dneke Gangster-1 Kent Tce, Te Aro, Wellington 6011\n6011-Fringe",
       "name": "P\u014dneke Gangster",
       "imageUrl": "https://eventotron.imgix.net/10-09-2025-112701-5606.jpg",
@@ -2666,31 +2339,27 @@
         "long": 174.77725
       },
       "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01",
-        "2026-02-16-01:01",
-        "2026-02-17-01:01",
-        "2026-02-18-01:01",
-        "2026-02-19-01:01",
-        "2026-02-20-01:01",
-        "2026-02-21-01:01",
-        "2026-02-22-01:01",
-        "2026-02-23-01:01",
-        "2026-02-24-01:01",
-        "2026-02-25-01:01",
-        "2026-02-26-01:01",
-        "2026-02-27-01:01",
-        "2026-02-28-01:01",
-        "2026-03-01-01:01",
-        "2026-03-02-01:01",
-        "2026-03-03-01:01",
-        "2026-03-04-01:01",
-        "2026-03-05-01:01",
-        "2026-03-06-01:01",
-        "2026-03-07-01:01"
+        "2026-02-16-01:49",
+        "2026-02-17-01:49",
+        "2026-02-18-01:49",
+        "2026-02-19-01:49",
+        "2026-02-20-01:49",
+        "2026-02-21-01:49",
+        "2026-02-22-01:49",
+        "2026-02-23-01:49",
+        "2026-02-24-01:49",
+        "2026-02-25-01:49",
+        "2026-02-26-01:49",
+        "2026-02-27-01:49",
+        "2026-02-28-01:49",
+        "2026-03-01-01:49",
+        "2026-03-02-01:49",
+        "2026-03-03-01:49",
+        "2026-03-04-01:49",
+        "2026-03-05-01:49",
+        "2026-03-06-01:49"
       ],
-      "displayDate": "Fri 13 Feb + more",
+      "displayDate": "Mon 16 Feb + more",
       "url": "https://tickets.fringe.co.nz/event/446:8339",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -2745,6 +2414,28 @@
       "labels": []
     },
     {
+      "id": "Renegade Cabaret-6011-Fringe",
+      "name": "Renegade Cabaret",
+      "imageUrl": "https://eventotron.imgix.net/09-09-2025-034424-1583.jpg",
+      "venue": "6011",
+      "coordinates": {
+        "lat": 42.4298469,
+        "long": 25.6849227
+      },
+      "dates": [
+        "2026-02-18-01:01",
+        "2026-02-19-01:01",
+        "2026-02-20-01:01"
+      ],
+      "displayDate": "Wed 18 Feb + more",
+      "url": "https://tickets.fringe.co.nz/event/446:8331",
+      "source": "Fringe",
+      "eventType": "Arts & Theatre",
+      "long_description": "\nCatch more Renegade downstairs at Sweet Axe from the 21st - 28th of February.\nThe award winning Renegade Cabaret returns to Wellington! After 2 smash hit seasons in 2025, we're bringing the sequins and sleaze back to the P\u014dneke Fringe with ten wild shows. Circus artists, burlesque babes, and cabaret queers from around Aotearoa are descending upon P\u014dneke to serve up the fringiest bits of the fest.\nEnjoy a celebration on the strange at Whisky & Wood. We're serving up a buffet of scandalous stunts, death defying acts, and idiotic party tricks. Roll the dice, spin the wheel, and mix the metaphor as experienced artists offer us their oddest acts. Each night promises a lineup that's unrepeatable, unpredictable, and potentially unmentionable.\nThis will get weird. . .\nCatch more Renegade downstairs at Sweet Axe from the 21st - 28th of February.\n\n",
+      "description": "Catch more Renegade downstairs at Sweet Axe from the 21st - 28th of February.\nThe award winning Renegade Cabaret returns to Wellington!\nAfter 2 smash hit seasons in 2025, we're bringing the sequins and sleaze back to the P\u014dneke Fringe with ten wild shows.\nCircus artists, burlesque babes, and cabaret queers from around Aotearoa are descending upon P\u014dneke to serve up the fringiest bits of the fest.\nEnjoy a celebration on the strange at Whisky & Wood.",
+      "labels": []
+    },
+    {
       "id": "Renegade Cabaret--Fringe",
       "name": "Renegade Cabaret",
       "imageUrl": "https://eventotron.imgix.net/09-09-2025-034424-1583.jpg",
@@ -2769,33 +2460,6 @@
       "eventType": "Arts & Theatre",
       "long_description": "\nCatch more Renegade upstairs at Whisky & Wood from the 13th - 20th of February.\nThe award winning Renegade Cabaret returns to Wellington! After 2 smash hit seasons in 2025, we're bringing the sequins and sleaze back to the P\u014dneke Fringe with ten wild shows. Circus artists, burlesque babes, and cabaret queers from around Aotearoa are descending upon P\u014dneke to serve up the fringiest bits of the fest.\nEnjoy a celebration on the strange at Whisky & Wood. We're serving up a buffet of scandalous stunts, death defying acts, and idiotic party tricks. Roll the dice, spin the wheel, and mix the metaphor as experienced artists offer us their oddest acts. Each night promises a lineup that's unrepeatable, unpredictable, and potentially unmentionable.\nThis will get weird. . .\nCatch more Renegade upstairs at Whisky & Wood from the 13th - 20th of February.\n\n",
       "description": "Catch more Renegade upstairs at Whisky & Wood from the 13th - 20th of February.\nThe award winning Renegade Cabaret returns to Wellington!\nAfter 2 smash hit seasons in 2025, we're bringing the sequins and sleaze back to the P\u014dneke Fringe with ten wild shows.\nCircus artists, burlesque babes, and cabaret queers from around Aotearoa are descending upon P\u014dneke to serve up the fringiest bits of the fest.\nEnjoy a celebration on the strange at Whisky & Wood.",
-      "labels": []
-    },
-    {
-      "id": "Renegade Cabaret-6011-Fringe",
-      "name": "Renegade Cabaret",
-      "imageUrl": "https://eventotron.imgix.net/09-09-2025-034424-1583.jpg",
-      "venue": "6011",
-      "coordinates": {
-        "lat": 42.4298469,
-        "long": 25.6849227
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01",
-        "2026-02-16-01:01",
-        "2026-02-17-01:01",
-        "2026-02-18-01:01",
-        "2026-02-19-01:01",
-        "2026-02-20-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8331",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nCatch more Renegade downstairs at Sweet Axe from the 21st - 28th of February.\nThe award winning Renegade Cabaret returns to Wellington! After 2 smash hit seasons in 2025, we're bringing the sequins and sleaze back to the P\u014dneke Fringe with ten wild shows. Circus artists, burlesque babes, and cabaret queers from around Aotearoa are descending upon P\u014dneke to serve up the fringiest bits of the fest.\nEnjoy a celebration on the strange at Whisky & Wood. We're serving up a buffet of scandalous stunts, death defying acts, and idiotic party tricks. Roll the dice, spin the wheel, and mix the metaphor as experienced artists offer us their oddest acts. Each night promises a lineup that's unrepeatable, unpredictable, and potentially unmentionable.\nThis will get weird. . .\nCatch more Renegade downstairs at Sweet Axe from the 21st - 28th of February.\n\n",
-      "description": "Catch more Renegade downstairs at Sweet Axe from the 21st - 28th of February.\nThe award winning Renegade Cabaret returns to Wellington!\nAfter 2 smash hit seasons in 2025, we're bringing the sequins and sleaze back to the P\u014dneke Fringe with ten wild shows.\nCircus artists, burlesque babes, and cabaret queers from around Aotearoa are descending upon P\u014dneke to serve up the fringiest bits of the fest.\nEnjoy a celebration on the strange at Whisky & Wood.",
       "labels": []
     },
     {
@@ -3048,28 +2712,6 @@
       "labels": []
     },
     {
-      "id": "Sexy Ghost Boy-6011-Fringe",
-      "name": "Sexy Ghost Boy",
-      "imageUrl": "https://eventotron.imgix.net/10-18-2025-025918-9085.jpg",
-      "venue": "6011",
-      "coordinates": {
-        "lat": 42.4298469,
-        "long": 25.6849227
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:7859",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nBegin with a circle. Work your way up, slowly. Bravely. The Macarena happens to completion. Scream.\nThis is how you summon Sexy Ghost Boy, the award winning and hilariously f***able spirit haunting Whiskey & Wood this Fringe.\nThe show dissects the unspoken rituals and micro neurosis we have around sex and the presentation of ourselves as sexual agents. Satirical in its burlesque and invigorating in its clown, this wordless performance inspires the audience to heroically rebel against insecurity.\nDescribed by witnesses as a hot mess mash up of Mr Bean and Marina Abramovi\u0107, it has split the sides of audiences across New Zealand and is boldly propositioning Wellingtonians to have an unforgettable evening of Theatre.\n\"A theatrical alchemist, Fenn has the rare talent to create something ridiculous yet very clever.\" - Rosheen Fitzgerald, Theatreview\n\n\"I left with a sore throat and vaguely manic euphoria from laughing so uproariously\" Ellen Murray, Theatreview\n\n\"we both feel so... I don't even know how to describe it. I feel like I'm floating while simultaneously feeling grounded, I'm ecstatic while also very chill. Maybe it's the full moon, or maybe I'm just a little bit possessed by the Sexy Ghost Boy\" Laura Ferguson, Art Murmurs\nSexy Ghost Boy is also on at Sweet Axe Throwing Co. from the 25th - 28th of February.\n\n",
-      "description": "Begin with a circle.\nWork your way up, slowly.\nBravely.\nThe Macarena happens to completion.\nScream.",
-      "labels": []
-    },
-    {
       "id": "Sexy Ghost Boy--Fringe",
       "name": "Sexy Ghost Boy",
       "imageUrl": "https://eventotron.imgix.net/10-18-2025-025918-9085.jpg",
@@ -3093,34 +2735,13 @@
       "labels": []
     },
     {
-      "id": "Shift of Tides-Cuba Street-Fringe",
-      "name": "Shift of Tides",
-      "imageUrl": "https://eventotron.imgix.net/10-09-2025-134845-7331.jpg",
-      "venue": "Cuba Street",
-      "coordinates": {
-        "lat": -41.2970403,
-        "long": 174.7736217
-      },
-      "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01"
-      ],
-      "displayDate": "Fri 13 Feb + more",
-      "url": "https://tickets.fringe.co.nz/event/446:8382",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nThe Shift of Tides\nCreated and performed by Karolina Gorton and Pipi-Ayesha Evans\nIn the windows of Graphic Comics at 105 Cuba Street.\nStep into a powerful physical theatre experience that explores the unpredictable nature of beginnings and endings - fluid, nonlinear, and often beyond our control. The Shift of Tides invites audiences to witness shifting states of emotion and movement, challenging perceptions and embracing the beauty of transformation.\nKarolina Gorton and Pipi-Ayesha Evans guide you through the circle of life - from the first breath to the last - navigating the spaces between yesterday and tomorrow, joy and sorrow, presence and absence. It's a journey of memory, resilience, joy, and rediscovery, where we carry our burdens and find the strength to lift them. We are not helpless... are we?\nDeveloped as an incubator performance with support from the Viewfinder window gallery in Whakat\u016b, Nelson, this striking work unfolds across two windows, two spaces - where reality bends through glass and connection is tested. The performers explore the boundaries between these spaces, revealing the tension, intimacy, and distance that shape our human experience.\nA visceral, poetic, and visually striking performance that resonates deeply with the rhythms of life and the tides of emotion.\nPhoto credits: Melissa Banks\n\n",
-      "description": "The Shift of Tides Created and performed by Karolina Gorton and Pipi-Ayesha Evans In the windows of Graphic Comics at 105 Cuba Street.\nStep into a powerful physical theatre experience that explores the unpredictable nature of beginnings and endings - fluid, nonlinear, and often beyond our control.\nThe Shift of Tides invites audiences to witness shifting states of emotion and movement, challenging perceptions and embracing the beauty of transformation.\nKarolina Gorton and Pipi-Ayesha Evans guide you through the circle of life - from the first breath to the last - navigating the spaces between yesterday and tomorrow, joy and sorrow, presence and absence.\nIt's a journey of memory, resilience, joy, and rediscovery, where we carry our burdens and find the strength to lift them.",
-      "labels": []
-    },
-    {
       "id": "Silver Tongues - Comedians over 50-The Fringe Bar, 26-32 Allen Street-Fringe",
       "name": "Silver Tongues - Comedians over 50",
       "imageUrl": "https://eventotron.imgix.net/09-28-2025-054046-5578.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-25-01:01",
@@ -3134,26 +2755,6 @@
       "eventType": "Arts & Theatre",
       "long_description": "\nEarly-bird Comedy! Wellington's fantastically funny comedians, all over the age of 50, storm the stage with an evening of entertainment. A fast paced and sharp-witted showcase of stand-up comedy showing that the silver haired are also silver tongued.\n\n",
       "description": "Early-bird Comedy!\nWellington's fantastically funny comedians, all over the age of 50, storm the stage with an evening of entertainment.\nA fast paced and sharp-witted showcase of stand-up comedy showing that the silver haired are also silver tongued.",
-      "labels": []
-    },
-    {
-      "id": "Ska Punk 90s Party! - Cancelled-13 Pirie Street, Mount Victoria-Fringe",
-      "name": "Ska Punk 90s Party! - Cancelled",
-      "imageUrl": "https://eventotron.imgix.net/10-19-2025-131440-4211.jpg",
-      "venue": "13 Pirie Street, Mount Victoria",
-      "coordinates": {
-        "lat": -41.2972108,
-        "long": 174.7828717
-      },
-      "dates": [
-        "2026-02-14-20:00"
-      ],
-      "displayDate": "Sat 14 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8388",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nGet ready to step back into the raddest decade ever! Join us for our 90's themed party featuring live music from ska-punk legends Ska Pai (Wellington) & Skarpakazoo (Taupo) playing slammin' originals and some bangin' throwback hits. Channel your favourite 90's icon and dress to impress for this colourful decade. Are you the muscle - Stone Cold Steve Austin? or 'girl power' pop legends - Spice Girls? Charge up your digi cam, gather your crew and revel in those simple days where Fresh Prince and Mariah Carey ruled.\n\n",
-      "description": "Get ready to step back into the raddest decade ever!\nJoin us for our 90's themed party featuring live music from ska-punk legends Ska Pai (Wellington) & Skarpakazoo (Taupo) playing slammin' originals and some bangin' throwback hits.\nChannel your favourite 90's icon and dress to impress for this colourful decade.\nAre you the muscle - Stone Cold Steve Austin?\nor 'girl power' pop legends - Spice Girls?",
       "labels": []
     },
     {
@@ -3281,10 +2882,9 @@
         "long": 174.7820748
       },
       "dates": [
-        "2026-02-14-01:01",
-        "2026-02-15-01:01"
+        "2026-02-15-19:30"
       ],
-      "displayDate": "Sat 14 Feb + more",
+      "displayDate": "Sun 15 Feb",
       "url": "https://tickets.fringe.co.nz/event/446:8301",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -3334,46 +2934,6 @@
       "eventType": "Arts & Theatre",
       "long_description": "\nWellingtons hit new quarterly comedy variety show has lined itself up nicely for FRINGE!\nFeaturing your favourite recurring cast of clowns, comedians and improvisors THIS SEASON the Devils are focusing on games to play WITH THE AUDIENCE (think of the infamous watermelon smash).\n\n",
       "description": "Wellingtons hit new quarterly comedy variety show has lined itself up nicely for FRINGE!\nFeaturing your favourite recurring cast of clowns, comedians and improvisors THIS SEASON the Devils are focusing on games to play WITH THE AUDIENCE (think of the infamous watermelon smash).",
-      "labels": []
-    },
-    {
-      "id": "THE ECO FASHION RUNWAY-2 Forrester's Lane, Wellington Central-Fringe",
-      "name": "THE ECO FASHION RUNWAY",
-      "imageUrl": "https://eventotron.imgix.net/10-13-2025-081001-2585.jpg",
-      "venue": "2 Forrester's Lane, Wellington Central",
-      "coordinates": {
-        "lat": -41.2821003,
-        "long": 174.7759494
-      },
-      "dates": [
-        "2026-02-14-20:00"
-      ],
-      "displayDate": "Sat 14 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8265",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nTe Aro Zero Waste in conjunction with ULTRAUPCYCED \nPresent:\n\"THE ECO FASHION RUNWAY \"\nM.C.: QUEEN Olivia III\nV.J. RASKAL \nD.J. PANDA\n \nKia Ora\nFor the FRINGE FEST 2026 & Valentine's Day Te Aro Zero Waste and Ultraupcyced (formerly HAND SEWN) will be transforming the Space into Glamourous Eco Runway with 4 continuous runways \"Spotlighting\" local Eco Designers and Garment stores that you may not have been aware of or get to view their garments.\nThe venue and carpark will be lit up for the models to walk from the interior to the outdoors and back again with seating surrounding four runways sew that participants can view the Garments at any angle. \nSew come along and Experience something new and different \n \n(Please note: on the night we are asking for Adult only attendees as there will be the serving of alcohol but that leaves you free for the night to celebrate Valentine's Day)\n\n",
-      "description": "Te Aro Zero Waste in conjunction with ULTRAUPCYCED Present:\n: QUEEN Olivia III\nKia Ora For the FRINGE FEST 2026 & Valentine's Day Te Aro Zero Waste and Ultraupcyced (formerly HAND SEWN) will be transforming the Space into Glamourous Eco Runway with 4 continuous runways \"Spotlighting\" local Eco Designers and Garment stores that you may not have been aware of or get to view their garments.\nThe venue and carpark will be lit up for the models to walk from the interior to the outdoors and back again with seating surrounding four runways sew that participants can view the Garments at any angle.\nSew come along and Experience something new and different (Please note: on the night we are asking for Adult only attendees as there will be the serving of alcohol but that leaves you free for the night to celebrate Valentine's Day)",
-      "labels": []
-    },
-    {
-      "id": "THE FOOLS-29 Courtenay Place\n6011-Fringe",
-      "name": "THE FOOLS",
-      "imageUrl": "https://eventotron.imgix.net/10-29-2025-222508-9733.jpg",
-      "venue": "29 Courtenay Place\n6011",
-      "coordinates": {
-        "lat": -41.2938989,
-        "long": 174.7820748
-      },
-      "dates": [
-        "2026-02-13-18:00"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8305",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nAn eve of sacred sin and stage, with Fringe's finest on parade. Some bards may sing, our FOOLS shall play - and THE GODS alone shall light your way. We welcome you to P\u014dneke's hottest new venue: THE GODS! You are invited to join THE FOOLS for a night of dionysian delights, whether you be a sinner, saint, swain or sage.\n\n",
-      "description": "An eve of sacred sin and stage, with Fringe's finest on parade.\nSome bards may sing, our FOOLS shall play - and THE GODS alone shall light your way.\nWe welcome you to P\u014dneke's hottest new venue: THE GODS!\nYou are invited to join THE FOOLS for a night of dionysian delights, whether you be a sinner, saint, swain or sage.",
       "labels": []
     },
     {
@@ -3506,13 +3066,10 @@
       "imageUrl": "https://eventotron.imgix.net/09-29-2025-015322-8857.jpg",
       "venue": "Courtenay Studios, 37 Courtenay Place\n6011",
       "coordinates": {
-        "lat": -41.2938239,
-        "long": 174.781853
+        "lat": -41.2940257,
+        "long": 174.7838926
       },
       "dates": [
-        "2026-02-13-01:01",
-        "2026-02-14-01:01",
-        "2026-02-15-01:01",
         "2026-02-16-01:01",
         "2026-02-17-01:01",
         "2026-02-18-01:01",
@@ -3533,7 +3090,7 @@
         "2026-03-05-01:01",
         "2026-03-06-01:01"
       ],
-      "displayDate": "Fri 13 Feb + more",
+      "displayDate": "Mon 16 Feb + more",
       "url": "https://tickets.fringe.co.nz/event/446:8222",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -3542,33 +3099,13 @@
       "labels": []
     },
     {
-      "id": "The Beatles Dub Club-29 Courtenay Place\n6011-Fringe",
-      "name": "The Beatles Dub Club",
-      "imageUrl": "https://eventotron.imgix.net/10-17-2025-092645-9929.jpg",
-      "venue": "29 Courtenay Place\n6011",
-      "coordinates": {
-        "lat": -41.2938989,
-        "long": 174.7820748
-      },
-      "dates": [
-        "2026-02-13-21:00"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8303",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nA special DJ set showcasing The Fab Four like you've never heard before!\nDJ Chris Arnold takes you on a magical mystery tour of his collection of covers, remixes and tracks that sampled arguably the greatest band that ever existed - The Beatles. Expect to hear plenty of reggae, ska, latin, hip hop, dub, funk, house and even drum & bass takes on the wonderful music created by John, Paul, George & Ringo.\nSince its explosive debut in 2021, The Beatles Dub Club has packed out stages at Glastonbury, Boomtown, Latitude, Isle of Wight, Camp Bestival, Green Man and far beyond.\nThe show has been championed by Fatboy Slim, who personally invited Chris to perform with him, and was tipped by Far Out Magazine as one of Glastonbury's \"Top 20 Alternative Acts to Watch\".\nThe Beatles Dub Club has since gone truly international, with acclaimed tours across Europe, Australia, New Zealand and Bali, while continuing to light up festivals all over the UK & Ireland - including standout sets supporting UB40, Craig Charles and The Wailers.\n\"If Sergeant Pepper had been a DJ, this would have been his set...\" - Fatboy Slim\n\"Far from pure novelty, it is a wonderful way to celebrate music in all of its connective guises\" - Far Out Magazine\n\"Loving it!\" - Mary McCartney\n\"Something so effective, and seemingly obvious, that it feels as if it should have existed for much\nlonger than its inception just a few years ago\" - The Fix Magazine\n\n",
-      "description": "A special DJ set showcasing The Fab Four like you've never heard before!\nDJ Chris Arnold takes you on a magical mystery tour of his collection of covers, remixes and tracks that sampled arguably the greatest band that ever existed - The Beatles.\nExpect to hear plenty of reggae, ska, latin, hip hop, dub, funk, house and even drum & bass takes on the wonderful music created by John, Paul, George & Ringo.\nSince its explosive debut in 2021, The Beatles Dub Club has packed out stages at Glastonbury, Boomtown, Latitude, Isle of Wight, Camp Bestival, Green Man and far beyond.\n\"If Sergeant Pepper had been a DJ, this would have been his set...\" - Fatboy Slim \"Far from pure novelty, it is a wonderful way to celebrate music in all of its connective guises\" - Far Out Magazine \"Loving it!\"",
-      "labels": []
-    },
-    {
       "id": "The Bridie and Rebecca Variety Show-Circus Bar, 17B Allen Street, Te Aro-Fringe",
       "name": "The Bridie and Rebecca Variety Show",
       "imageUrl": "https://eventotron.imgix.net/10-03-2025-013234-4195.jpg",
       "venue": "Circus Bar, 17B Allen Street, Te Aro",
       "coordinates": {
-        "lat": -41.2929705,
-        "long": 174.7826363
+        "lat": -41.2930498,
+        "long": 174.7824013
       },
       "dates": [
         "2026-02-19-20:30"
@@ -3631,8 +3168,8 @@
       "imageUrl": "https://eventotron.imgix.net/09-23-2025-012239-8773.jpg",
       "venue": "Circus Bar, 17B Allen Street, Te Aro",
       "coordinates": {
-        "lat": -41.2929705,
-        "long": 174.7826363
+        "lat": -41.2930498,
+        "long": 174.7824013
       },
       "dates": [
         "2026-03-05-01:01",
@@ -3653,8 +3190,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-12-2025-161049-8027.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-03-06-01:01",
@@ -3763,23 +3300,6 @@
       "labels": []
     },
     {
-      "id": "The Kitchen Show - Cancelled-Location to be revealed-Fringe",
-      "name": "The Kitchen Show - Cancelled",
-      "imageUrl": "https://eventotron.imgix.net/10-08-2025-221124-2585.jpg",
-      "venue": "Location to be revealed",
-      "coordinates": null,
-      "dates": [
-        "2026-02-14-19:00"
-      ],
-      "displayDate": "Sat 14 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8357",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nGrace and Sugar invite you into their kitchen. Sarah will also be there, but don't worry she's not cooking. \n \nJoin us for one night only, for an intimate event filled with food, warmth, stories and stangeness. \nA kitchen is a world of its own, filled with rules, systems and dynamics that are familiar but completely unique to each individual. To each house. And to each kitchen. \nThis kitchen is its own ecosystem. This kitchen does not make sense. This kitchen is trying to talk to you, and Grace, Sugar and Sarah are its mouth piece. \nS.L.U.G Theatre Company is back for NZ Fringe 2026 but this time we're doing something a little different. We're inviting you into our home for a theatre experience to give you a story of food, farewells, laughter and ceremony. As always, S.L.U.G aims to make work that is brash and beautiful.\n\n",
-      "description": "Sarah will also be there, but don't worry she's not cooking.\nA kitchen is a world of its own, filled with rules, systems and dynamics that are familiar but completely unique to each individual.\nThis kitchen does not make sense.\nThis kitchen is trying to talk to you, and Grace, Sugar and Sarah are its mouth piece.\nWe're inviting you into our home for a theatre experience to give you a story of food, farewells, laughter and ceremony.",
-      "labels": []
-    },
-    {
       "id": "The Last Straight Man on Earth-1 Kent Tce, Te Aro, Wellington 6011\n6011-Fringe",
       "name": "The Last Straight Man on Earth",
       "imageUrl": "https://eventotron.imgix.net/10-09-2025-100805-3707.jpg",
@@ -3856,8 +3376,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-09-2025-094736-3533.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-25-21:00"
@@ -3939,8 +3459,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-07-2025-050133-5977.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-19-01:01",
@@ -3978,26 +3498,6 @@
       "labels": []
     },
     {
-      "id": "The Silver Moon Files-29 Courtenay Place\n6011-Fringe",
-      "name": "The Silver Moon Files",
-      "imageUrl": "https://eventotron.imgix.net/10-09-2025-231507-2104.jpg",
-      "venue": "29 Courtenay Place\n6011",
-      "coordinates": {
-        "lat": -41.2938989,
-        "long": 174.7820748
-      },
-      "dates": [
-        "2026-02-13-19:00"
-      ],
-      "displayDate": "Fri 13 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8284",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nThe only sci-fi comedy radio drama about troll-nappings in the Tararua district being recorded live this Fringe.\n\nFrom the creators of \"Night of the Silver Moon\"\n\nStarring Teag Mackay, Phoebe Caldeiro, and friends. \n\n",
-      "description": "The only sci-fi comedy radio drama about troll-nappings in the Tararua district being recorded live this Fringe.\nFrom the creators of \"Night of the Silver Moon\" Starring Teag Mackay, Phoebe Caldeiro, and friends.",
-      "labels": []
-    },
-    {
       "id": "The Silver Slipper-1 Kent Tce, Te Aro, Wellington 6011\n6011-Fringe",
       "name": "The Silver Slipper",
       "imageUrl": "https://eventotron.imgix.net/10-10-2025-091749-4407.jpg",
@@ -4020,26 +3520,6 @@
       "labels": []
     },
     {
-      "id": "The Unluckiest Magician - Cancelled--Fringe",
-      "name": "The Unluckiest Magician - Cancelled",
-      "imageUrl": "https://eventotron.imgix.net/10-15-2025-003247-7374.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-21-19:30"
-      ],
-      "displayDate": "Sat 21 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:7856",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nSteve Wilbury navigates the ups and downs of his life, the audience witnesses how he uses humor and magic as tools for coping with adversity. Each surgical scar becomes a symbol of strength, and every setback becomes an opportunity for transformation. Steve's witty banter and awe-inspiring illusions not only entertain but also inspire, reminding us that even in our darkest moments, we can find the magic in life's challenges. \"The Unluckiest Magician\" is a celebration of the human spirit's ability to triumph over adversity, showing that our most difficult circumstances can empower us to see life as it truly is.\n\n",
-      "description": "Steve Wilbury navigates the ups and downs of his life, the audience witnesses how he uses humor and magic as tools for coping with adversity.\nEach surgical scar becomes a symbol of strength, and every setback becomes an opportunity for transformation.\nSteve's witty banter and awe-inspiring illusions not only entertain but also inspire, reminding us that even in our darkest moments, we can find the magic in life's challenges.\n\"The Unluckiest Magician\" is a celebration of the human spirit's ability to triumph over adversity, showing that our most difficult circumstances can empower us to see life as it truly is.",
-      "labels": []
-    },
-    {
       "id": "The Unluckiest Magician - Cancelled-6011-Fringe",
       "name": "The Unluckiest Magician - Cancelled",
       "imageUrl": "https://eventotron.imgix.net/10-15-2025-003247-7374.jpg",
@@ -4055,6 +3535,26 @@
       ],
       "displayDate": "Wed 18 Feb + more",
       "url": "https://tickets.fringe.co.nz/event/446:7863",
+      "source": "Fringe",
+      "eventType": "Arts & Theatre",
+      "long_description": "\nSteve Wilbury navigates the ups and downs of his life, the audience witnesses how he uses humor and magic as tools for coping with adversity. Each surgical scar becomes a symbol of strength, and every setback becomes an opportunity for transformation. Steve's witty banter and awe-inspiring illusions not only entertain but also inspire, reminding us that even in our darkest moments, we can find the magic in life's challenges. \"The Unluckiest Magician\" is a celebration of the human spirit's ability to triumph over adversity, showing that our most difficult circumstances can empower us to see life as it truly is.\n\n",
+      "description": "Steve Wilbury navigates the ups and downs of his life, the audience witnesses how he uses humor and magic as tools for coping with adversity.\nEach surgical scar becomes a symbol of strength, and every setback becomes an opportunity for transformation.\nSteve's witty banter and awe-inspiring illusions not only entertain but also inspire, reminding us that even in our darkest moments, we can find the magic in life's challenges.\n\"The Unluckiest Magician\" is a celebration of the human spirit's ability to triumph over adversity, showing that our most difficult circumstances can empower us to see life as it truly is.",
+      "labels": []
+    },
+    {
+      "id": "The Unluckiest Magician - Cancelled--Fringe",
+      "name": "The Unluckiest Magician - Cancelled",
+      "imageUrl": "https://eventotron.imgix.net/10-15-2025-003247-7374.jpg",
+      "venue": "",
+      "coordinates": {
+        "lat": -41.2887953,
+        "long": 174.7772114
+      },
+      "dates": [
+        "2026-02-21-19:30"
+      ],
+      "displayDate": "Sat 21 Feb",
+      "url": "https://tickets.fringe.co.nz/event/446:7856",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
       "long_description": "\nSteve Wilbury navigates the ups and downs of his life, the audience witnesses how he uses humor and magic as tools for coping with adversity. Each surgical scar becomes a symbol of strength, and every setback becomes an opportunity for transformation. Steve's witty banter and awe-inspiring illusions not only entertain but also inspire, reminding us that even in our darkest moments, we can find the magic in life's challenges. \"The Unluckiest Magician\" is a celebration of the human spirit's ability to triumph over adversity, showing that our most difficult circumstances can empower us to see life as it truly is.\n\n",
@@ -4192,26 +3692,6 @@
       "labels": []
     },
     {
-      "id": "Tune in a Bucket--Fringe",
-      "name": "Tune in a Bucket",
-      "imageUrl": "https://eventotron.imgix.net/10-09-2025-004447-4090.jpg",
-      "venue": "",
-      "coordinates": {
-        "lat": -41.2887953,
-        "long": 174.7772114
-      },
-      "dates": [
-        "2026-02-21-18:00"
-      ],
-      "displayDate": "Sat 21 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:7858",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nTwo teams of music lovers battle it out in musical comedian Troubadette's brand new game show Tune in a Bucket.\nLed by team captains Clever Hansel and Cordy Black, our contestants go head to head in a series of musical challenges, inspired by a bucket full of bangers. Who will hit the high notes? Who will fall flat? Which team will come out on top in all-out acapella war?\n\n",
-      "description": "Two teams of music lovers battle it out in musical comedian Troubadette's brand new game show Tune in a Bucket.\nLed by team captains Clever Hansel and Cordy Black, our contestants go head to head in a series of musical challenges, inspired by a bucket full of bangers.\nWho will hit the high notes?\nWho will fall flat?\nWhich team will come out on top in all-out acapella war?",
-      "labels": []
-    },
-    {
       "id": "Tune in a Bucket-6011-Fringe",
       "name": "Tune in a Bucket",
       "imageUrl": "https://eventotron.imgix.net/10-09-2025-004447-4090.jpg",
@@ -4236,13 +3716,33 @@
       "labels": []
     },
     {
+      "id": "Tune in a Bucket--Fringe",
+      "name": "Tune in a Bucket",
+      "imageUrl": "https://eventotron.imgix.net/10-09-2025-004447-4090.jpg",
+      "venue": "",
+      "coordinates": {
+        "lat": -41.2887953,
+        "long": 174.7772114
+      },
+      "dates": [
+        "2026-02-21-18:00"
+      ],
+      "displayDate": "Sat 21 Feb",
+      "url": "https://tickets.fringe.co.nz/event/446:7858",
+      "source": "Fringe",
+      "eventType": "Arts & Theatre",
+      "long_description": "\nTwo teams of music lovers battle it out in musical comedian Troubadette's brand new game show Tune in a Bucket.\nLed by team captains Clever Hansel and Cordy Black, our contestants go head to head in a series of musical challenges, inspired by a bucket full of bangers. Who will hit the high notes? Who will fall flat? Which team will come out on top in all-out acapella war?\n\n",
+      "description": "Two teams of music lovers battle it out in musical comedian Troubadette's brand new game show Tune in a Bucket.\nLed by team captains Clever Hansel and Cordy Black, our contestants go head to head in a series of musical challenges, inspired by a bucket full of bangers.\nWho will hit the high notes?\nWho will fall flat?\nWhich team will come out on top in all-out acapella war?",
+      "labels": []
+    },
+    {
       "id": "Unstuck - Cancelled-The Fringe Bar, 26-32 Allen Street-Fringe",
       "name": "Unstuck - Cancelled",
       "imageUrl": "https://eventotron.imgix.net/10-06-2025-040716-1825.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7222428,
-        "long": -73.9890401
+        "lat": 40.721281,
+        "long": -73.9894733
       },
       "dates": [
         "2026-02-18-01:01",
@@ -4256,26 +3756,6 @@
       "eventType": "Arts & Theatre",
       "long_description": "\nMiranda Camden's on a mission to get unstuck.\nShe's undertaking an ill-conceived self-improvement journey she describes as \"throwing sh*t at the wall to see what sticks\". Desperate for change, she's willing to try anything once (or twice) depending on the circumstances. But it depends. Is isolation the same thing as self-care? Does exercise have to be part of the journey? Would I be happier if I break-up with New Zealand? What is the best rebound country? Come along for this work-in-progress show about finding the humour in being imperfect.\nSince 2018, Miranda has been a regular MC and headline act. Her style of comedy has been described as unapologetic, which to be honest is a pretty amazing feat for a Canadian. A Wellington comedy staple, with Best MC and Best Up & Comer nominations in 2020 at the Wellington Comedy Awards, she's ready to do what it takes to get the life she wants...if only she knew what that was or how to do it.\n\"a snappy, fast paced delivery that has you sitting up in your seat\" - Theatreview\n\"Her material is funny, feminist, at times absurd and often relatable\" - Theatreview\n\n",
       "description": "Is isolation the same thing as self-care?\nWould I be happier if I break-up with New Zealand?\nSince 2018, Miranda has been a regular MC and headline act.\nHer style of comedy has been described as unapologetic, which to be honest is a pretty amazing feat for a Canadian.\nA Wellington comedy staple, with Best MC and Best Up & Comer nominations in 2020 at the Wellington Comedy Awards, she's ready to do what it takes to get the life she wants...if only she knew what that was or how to do it.",
-      "labels": []
-    },
-    {
-      "id": "WALK THE WALK-Cuba Street-Fringe",
-      "name": "WALK THE WALK",
-      "imageUrl": "https://eventotron.imgix.net/10-23-2025-062034-7225.jpg",
-      "venue": "Cuba Street",
-      "coordinates": {
-        "lat": -41.2970403,
-        "long": 174.7736217
-      },
-      "dates": [
-        "2026-02-15-14:00"
-      ],
-      "displayDate": "Sun 15 Feb",
-      "url": "https://tickets.fringe.co.nz/event/446:8347",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nNZ Fringe wants to pay homage to everyone's best friend, THE DOG, with Walk the Walk. Bring your best buddies to Cuba St, Wellington, meet outside Midnight Cafe during our NZ Fringe Summer Series, when we will be closing the St and walk in a DOG PARADE to Glover Park for doggie activities. We encourage dogs in their fanciest dress!\n\n",
-      "description": "NZ Fringe wants to pay homage to everyone's best friend, THE DOG, with Walk the Walk.\nBring your best buddies to Cuba St, Wellington, meet outside Midnight Cafe during our NZ Fringe Summer Series, when we will be closing the St and walk in a DOG PARADE to Glover Park for doggie activities.\nWe encourage dogs in their fanciest dress!",
       "labels": []
     },
     {
