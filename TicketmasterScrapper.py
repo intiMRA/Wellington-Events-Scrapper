@@ -135,13 +135,26 @@ class TicketmasterScrapper:
             if not info_button:
                 print(f"no info button for: {url}")
                 return []
+            count = 0
+            deets_count = 0
             while True:
-                info_button.click()
+                while count < 3:
+                    try:
+                        driver.execute_script("arguments[0].click();", info_button)
+                        break
+                    except:
+                        count += 1
+                        sleep(1)
                 deets = driver.find_elements(By.XPATH, "//section[@data-testid='panel']")
+                if not deets:
+                    deets = driver.find_elements(By.XPATH, "//div[contains(@class, 'SidePanel__StyledContent')]")
                 if deets:
                     event_details = deets[0]
                     break
                 sleep(random.uniform(1, 3))
+                if deets_count >= 3:
+                    return []
+                deets_count += 1
             divs = event_details.find_elements(By.TAG_NAME, "div")
             title = None
             venue = None

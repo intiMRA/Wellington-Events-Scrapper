@@ -38,6 +38,7 @@ class AllEventsInScrapper:
             original_date_string = date_string
             date_string = date_string.split(" (")[0]
             date_string = date_string.split(" to")[0]
+            date_string = date_string.replace(" • ", " ")
             date = parser.parse(date_string)
             if "nzst" in original_date_string.lower():
                 date = date + timedelta(hours=10)

@@ -109,9 +109,9 @@ class HumanitixScrapper:
     @staticmethod
     def get_urls(driver: uc, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str, bool]]:
         urls_file.write("[\n")
-        driver.get('https://humanitix.com/nz/search?locationQuery=Wellington&lat=-41.2923814&lng=174.7787463')
+        driver.get('https://humanitix.com/nz/events/nz--wellington-region--wellington')
         sleep(random.uniform(2, 4))
-        categories_button = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
+        categories_button = driver.find_element(By.XPATH, "//button[@id='search-and-explore-dropdown']")
         categories_button.click()
         categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
         categories = [(HumanitixScrapper.format_input(category.text), category.text) for category in categories]
