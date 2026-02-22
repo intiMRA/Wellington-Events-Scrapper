@@ -112,22 +112,18 @@ class HumanitixScrapper:
         driver.get('https://humanitix.com/nz/events/nz--wellington-region--wellington')
         sleep(random.uniform(2, 4))
         categories_button = driver.find_element(By.XPATH, "//button[@id='search-and-explore-dropdown']")
+        sleep(1)
         categories_button.click()
-        categories = driver.find_element(By.ID, "listbox-categories").find_elements(By.TAG_NAME, "li")
+        categories = driver.find_elements(By.XPATH, "//button[@data-dropdown-option='true']")
         categories = [(HumanitixScrapper.format_input(category.text), category.text) for category in categories]
         event_urls: Set[Tuple[str, str, bool]] = set()
         for category, categoryName in categories:
+            if category == "allCategories":
+                continue
             print("cat: ", category, " ", categoryName)
-            url = f'https://humanitix.com/nz/search/nz--wellington-region--wellington?countryAndLocation=nz--wellington-region--wellington'
+            url = f'https://humanitix.com/nz/events/nz--wellington-region--wellington/{category}'
+            print(f"cat url: {url}")
             driver.get(url)
-            sleep(random.uniform(1, 2))
-            cat_button = driver.find_element(By.XPATH, "//button[contains(., 'Categories')]")
-            driver.execute_script("arguments[0].click();", cat_button)
-            sleep(1)
-            category_selector = driver.find_element(By.XPATH, f"//li[contains(., '{categoryName}')]")
-            driver.execute_script("arguments[0].click();", category_selector)
-            apply_button: WebElement = driver.find_element(By.XPATH, "//a[contains(., 'Apply')]")
-            driver.execute_script("arguments[0].click();", apply_button)
             while True:
                 sleep(random.uniform(1, 2))
                 height = driver.execute_script("return document.body.scrollHeight")
@@ -142,6 +138,7 @@ class HumanitixScrapper:
                 try:
                     button: WebElement = driver.find_element(By.XPATH, "//a[contains(., 'Show More')]")
                     driver.execute_script("arguments[0].click();", button)
+                    sleep(1)
                 except:
                     break
                 for event in events_data:
@@ -223,4 +220,4 @@ class HumanitixScrapper:
         driver.close()
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(HumanitixScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(HumanitixScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
