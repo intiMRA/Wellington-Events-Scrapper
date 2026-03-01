@@ -329,8 +329,17 @@ class TicketmasterScrapper:
                 data = r.json()
                 if not data[PossibleKeys.events]:
                     return []
+                index = 0
+                cat = ""
+                mcat = data["events"][0]["majorCategory"]
+                while index < 10:
+                    if "id" in mcat.keys():
+                        cat = mcat["id"]
+                        break
+                    else:
+                        mcat = data["events"][index]["majorCategory"]
+                        index += 1
 
-                cat = data["events"][0]["majorCategory"]["id"]
                 category_name = None
                 for m in majorCats.keys():
                     key, value = m, majorCats[m]
