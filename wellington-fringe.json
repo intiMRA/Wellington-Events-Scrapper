@@ -62,8 +62,8 @@
       "url": "https://tickets.fringe.co.nz/event/446:8255",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
-      "long_description": "\nIf you like watching an assortment of Stand-up comedians, while enjoying pizza and beverages, then Alien Comedy is for you.\nJoin the cult following, its Wellington's second longest running Comedy Show. First Thursday of every month, 8pm at Moon Bar in Newtown.\nFringe Festival Editions! Two shows in one night!\n\n",
-      "description": "If you like watching an assortment of Stand-up comedians, while enjoying pizza and beverages, then Alien Comedy is for you.\nJoin the cult following, its Wellington's second longest running Comedy Show.\nFirst Thursday of every month, 8pm at Moon Bar in Newtown.\nFringe Festival Editions!\nTwo shows in one night!",
+      "long_description": "\nIf you like watching an assortment of Stand-up comedians, while enjoying pizza and beverages, then Alien Comedy is for you.\nJoin the cult following, its Wellington's second longest running Comedy Show. First Thursday of every month at Moon Bar in Newtown.\nFringe Festival Editions! Two shows in one night -7pm & 9pm!\n\n",
+      "description": "If you like watching an assortment of Stand-up comedians, while enjoying pizza and beverages, then Alien Comedy is for you.\nJoin the cult following, its Wellington's second longest running Comedy Show.\nFirst Thursday of every month at Moon Bar in Newtown.\nFringe Festival Editions!\nTwo shows in one night -7pm & 9pm!",
       "labels": []
     },
     {
@@ -132,6 +132,26 @@
     {
       "id": "Ben Miller: Volcano-29 Courtenay Place\n6011-Fringe",
       "name": "Ben Miller: Volcano",
+      "imageUrl": "https://nzf.assets.red61.com.au/nzf/2c0c2cdd-3bc3-4d86-a2ba-c701b1332c77.jpeg",
+      "venue": "29 Courtenay Place\n6011",
+      "coordinates": {
+        "lat": -41.2938989,
+        "long": 174.7820748
+      },
+      "dates": [
+        "2026-03-04-19:30"
+      ],
+      "displayDate": "Wed 04 Mar",
+      "url": "https://tickets.fringe.co.nz/event/446:8294",
+      "source": "Fringe",
+      "eventType": "Arts & Theatre",
+      "long_description": "\nWhat happens when a comedian walks into a volcano?\nIn 2023, Ben Miller was the artist in residence at Hawai'i Volcanoes National Park, the first ever stand-up comedian ever selected. This was probably a terrible idea on their part.\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nBen Miller is an NYC based scientist turned comedian who has been working for the past 9 years. In that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand. Ben was once ranked as the top roast battler in NYC. He has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage. In 2022, Ben Miller's debut hour, Stand-Up Science, had a completely sold-out run at the Edinburgh Fringe Festival and he now tours internationally.\n \nPraise for the show:\n \n\"Ben Miller's nerdy and vivid comic mind erupts in this hour-long set!\" - Winnipeg Free Press (4-star review)\n\"Ben does a fantastic job of getting the facts across and making us laugh at the same time! A real and rare treat. - The Mumble (4-star review)\n\"Ben had us laughing until we cried - very funny and very clever! - Audience member\n\n",
+      "description": "What happens when a comedian walks into a volcano?\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nIn that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand.\nBen was once ranked as the top roast battler in NYC.\nHe has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage.",
+      "labels": []
+    },
+    {
+      "id": "Ben Miller: Volcano-29 Courtenay Place\n6011-Fringe",
+      "name": "Ben Miller: Volcano",
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/a54180dc-f41e-41ab-8cd9-766954c30d05.jpeg",
       "venue": "29 Courtenay Place\n6011",
       "coordinates": {
@@ -144,26 +164,6 @@
       ],
       "displayDate": "Fri 06 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8340",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nWhat happens when a comedian walks into a volcano?\nIn 2023, Ben Miller was the artist in residence at Hawai'i Volcanoes National Park, the first ever stand-up comedian ever selected. This was probably a terrible idea on their part.\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nBen Miller is an NYC based scientist turned comedian who has been working for the past 9 years. In that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand. Ben was once ranked as the top roast battler in NYC. He has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage. In 2022, Ben Miller's debut hour, Stand-Up Science, had a completely sold-out run at the Edinburgh Fringe Festival and he now tours internationally.\n \nPraise for the show:\n \n\"Ben Miller's nerdy and vivid comic mind erupts in this hour-long set!\" - Winnipeg Free Press (4-star review)\n\"Ben does a fantastic job of getting the facts across and making us laugh at the same time! A real and rare treat. - The Mumble (4-star review)\n\"Ben had us laughing until we cried - very funny and very clever! - Audience member\n\n",
-      "description": "What happens when a comedian walks into a volcano?\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nIn that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand.\nBen was once ranked as the top roast battler in NYC.\nHe has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage.",
-      "labels": []
-    },
-    {
-      "id": "Ben Miller: Volcano-29 Courtenay Place\n6011-Fringe",
-      "name": "Ben Miller: Volcano",
-      "imageUrl": "https://nzf.assets.red61.com.au/nzf/2c0c2cdd-3bc3-4d86-a2ba-c701b1332c77.jpeg",
-      "venue": "29 Courtenay Place\n6011",
-      "coordinates": {
-        "lat": -41.2938989,
-        "long": 174.7820748
-      },
-      "dates": [
-        "2026-03-04-19:30"
-      ],
-      "displayDate": "Wed 04 Mar",
-      "url": "https://tickets.fringe.co.nz/event/446:8294",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
       "long_description": "\nWhat happens when a comedian walks into a volcano?\nIn 2023, Ben Miller was the artist in residence at Hawai'i Volcanoes National Park, the first ever stand-up comedian ever selected. This was probably a terrible idea on their part.\nCome watch this show where scientist turned stand-up comedian Ben Miller explores volcanology, entomology, Hawaiian history, space volcanoes, cats, cookies, and more.\nBen Miller is an NYC based scientist turned comedian who has been working for the past 9 years. In that time, he has performed at all the top clubs in the city such as Broadway Comedy Club, Carolines, and The Stand. Ben was once ranked as the top roast battler in NYC. He has a degree in Materials Science and Engineering, worked on a science bus, 3D printed cookies and has defused a few bar fights while on stage. In 2022, Ben Miller's debut hour, Stand-Up Science, had a completely sold-out run at the Edinburgh Fringe Festival and he now tours internationally.\n \nPraise for the show:\n \n\"Ben Miller's nerdy and vivid comic mind erupts in this hour-long set!\" - Winnipeg Free Press (4-star review)\n\"Ben does a fantastic job of getting the facts across and making us laugh at the same time! A real and rare treat. - The Mumble (4-star review)\n\"Ben had us laughing until we cried - very funny and very clever! - Audience member\n\n",
@@ -201,13 +201,12 @@
         "long": 174.7846181
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8210",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -243,8 +242,8 @@
       "imageUrl": "https://eventotron.imgix.net/09-24-2025-071807-8287.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7167354,
-        "long": -73.9918103
+        "lat": 40.7179795,
+        "long": -73.9908551
       },
       "dates": [
         "2026-03-05-01:01",
@@ -282,26 +281,6 @@
       "labels": []
     },
     {
-      "id": "David Klein presents: Birds-1 Marion Street, Te Aro, Wellington-Fringe",
-      "name": "David Klein presents: Birds",
-      "imageUrl": "https://eventotron.imgix.net/10-07-2025-034106-2814.jpg",
-      "venue": "1 Marion Street, Te Aro, Wellington",
-      "coordinates": {
-        "lat": -41.2938711,
-        "long": 174.7768365
-      },
-      "dates": [
-        "2026-03-02-18:30"
-      ],
-      "displayDate": "Mon 02 Mar",
-      "url": "https://tickets.fringe.co.nz/event/446:8214",
-      "source": "Fringe",
-      "eventType": "Arts & Theatre",
-      "long_description": "\nGoodnight Kiwi. Bird of the Year. The hoiho on your fiver. Hatupatu and the Birdwoman. The k\u0101k\u0101 screaming outside. A silly show with real bird facts. Fringe 2015's Best Newcomer finally hatches a new show - a love letter to Wellington and manu we share the city with.\nThis live presentation combines facts, jokes, video, prizes and songs into an engaging slice of science storytelling. Bird numbers are way up all over the city - it's a great time to be a bird or bird fan. Learn about the wildlife swooping past you and get excited for a Wellington that becomes wilder every day.\nFree Fact - most k\u0101k\u0101 are left-footed.\nDavid's last Fringe outing was Towards a Better Understanding of the Universe. Theatreview said, \"This is an autobiographical journey told through the Universe. Yes, the goddam amazing universe that we're all a part of. I'm hooked.\" The show also popped over to Melbourne Fringe where reviews glowed it was \"almost as perfect an hour as you could have.\"\nTowards evolved into Tour de Science - a science storytelling show. The Tour was on a bike and pedalled all around Aotearoa (down to Rakiura and up to Kaitaia!). Across 60 towns and cities, audiences loved David's easy-going yarns that sneakily piled on some real education.\nMost recently, David branched out and became Plant Man: a show for children that wondered, \"What would it be like to be a plant?\" Kim Hill asked him about trees and vegetables and described him as \"cool as a cucumber.\"\nBe cool, get hooked and squawk about this new show. The title says it all - David Klein presents: Birds\n\n",
-      "description": "Bird of the Year.\nBird numbers are way up all over the city - it's a great time to be a bird or bird fan.\nDavid's last Fringe outing was Towards a Better Understanding of the Universe.\nTowards evolved into Tour de Science - a science storytelling show.\nBe cool, get hooked and squawk about this new show.",
-      "labels": []
-    },
-    {
       "id": "FATG Unplugged-Gryphon Theatre, 22 Ghuznee Street-Fringe",
       "name": "FATG Unplugged",
       "imageUrl": "https://eventotron.imgix.net/10-06-2025-021527-1076.jpg",
@@ -334,10 +313,9 @@
         "long": 174.783602
       },
       "dates": [
-        "2026-03-03-01:01",
-        "2026-03-04-01:01"
+        "2026-03-04-19:30"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar",
       "url": "https://tickets.fringe.co.nz/event/446:8246",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -351,8 +329,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-08-2025-014903-2800.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7167354,
-        "long": -73.9918103
+        "lat": 40.7179795,
+        "long": -73.9908551
       },
       "dates": [
         "2026-03-04-19:30"
@@ -375,12 +353,11 @@
         "long": 174.7820748
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8292",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -420,11 +397,10 @@
         "long": 174.7840651
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8309",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -460,8 +436,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-05-2025-124100-2892.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7167354,
-        "long": -73.9918103
+        "lat": 40.7179795,
+        "long": -73.9908551
       },
       "dates": [
         "2026-03-04-01:01",
@@ -507,13 +483,12 @@
         "long": 174.783602
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8367",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -531,13 +506,12 @@
         "long": 174.7846181
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8199",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -594,8 +568,8 @@
       "imageUrl": "https://nzf.assets.red61.com.au/nzf/3bf131c4-3b44-43ff-9d00-2952ead6ec8f.png",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7167354,
-        "long": -73.9918103
+        "lat": 40.7179795,
+        "long": -73.9908551
       },
       "dates": [
         "2026-03-06-01:01",
@@ -682,15 +656,14 @@
       "imageUrl": "https://eventotron.imgix.net/10-10-2025-053133-2628.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7167354,
-        "long": -73.9918103
+        "lat": 40.7179795,
+        "long": -73.9908551
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8269",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -708,12 +681,11 @@
         "long": 174.77725
       },
       "dates": [
-        "2026-03-03-01:15",
-        "2026-03-04-01:15",
-        "2026-03-05-01:15",
-        "2026-03-06-01:15"
+        "2026-03-04-01:29",
+        "2026-03-05-01:29",
+        "2026-03-06-01:29"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8339",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -731,13 +703,12 @@
         "long": 174.7846181
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8325",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -755,12 +726,11 @@
         "long": 174.7820748
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8283",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -798,12 +768,11 @@
         "long": 174.7770631
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8229",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -821,13 +790,12 @@
         "long": 174.7846181
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8194",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -865,11 +833,11 @@
         "long": 174.781853
       },
       "dates": [
-        "2026-03-03-01:19",
-        "2026-03-04-01:19",
-        "2026-03-05-01:19"
+        "2026-03-04-01:01",
+        "2026-03-05-01:01",
+        "2026-03-06-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8222",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -927,8 +895,8 @@
       "imageUrl": "https://eventotron.imgix.net/10-12-2025-161049-8027.jpg",
       "venue": "The Fringe Bar, 26-32 Allen Street",
       "coordinates": {
-        "lat": 40.7167354,
-        "long": -73.9918103
+        "lat": 40.7179795,
+        "long": -73.9908551
       },
       "dates": [
         "2026-03-06-01:01",
@@ -972,9 +940,9 @@
         "long": 174.7770631
       },
       "dates": [
-        "2026-03-03-01:21"
+        "2026-03-04-20:30"
       ],
-      "displayDate": "Tue 03 Mar",
+      "displayDate": "Wed 04 Mar",
       "url": "https://tickets.fringe.co.nz/event/446:8225",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -992,13 +960,12 @@
         "long": 174.7846181
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8208",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
@@ -1059,13 +1026,12 @@
         "long": 174.7770631
       },
       "dates": [
-        "2026-03-03-01:01",
         "2026-03-04-01:01",
         "2026-03-05-01:01",
         "2026-03-06-01:01",
         "2026-03-07-01:01"
       ],
-      "displayDate": "Tue 03 Mar + more",
+      "displayDate": "Wed 04 Mar + more",
       "url": "https://tickets.fringe.co.nz/event/446:8408",
       "source": "Fringe",
       "eventType": "Arts & Theatre",
