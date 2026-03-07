@@ -4,11 +4,5 @@
     "name": "Wellington Animation Film Festival",
     "icon": "movie",
     "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/wellington-animation-film-festival.json"
-  },
-  {
-    "id": "WellingtonFringe",
-    "name": "Wellington Fringe Festival",
-    "icon": "theater",
-    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/wellington-fringe.json"
   }
 ]
