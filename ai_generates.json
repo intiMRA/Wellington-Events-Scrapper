@@ -60,60 +60,6 @@
     "ai": true
   },
   {
-    "description": "Wellington's Future Transport Network: A public consultation on the long-term vision for transport in the Wellington region, including new roads, cycleways, and train lines.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Debate on the Local Body Elections: A moderated debate between candidates for the local body elections, where they will discuss their vision for the city and their plans for the future.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington City Council's Annual Plan Hearing: A formal council meeting where residents can present their submissions on the council's draft annual plan and ask questions to the councillors.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Role of Public Service in a Modern Democracy: A panel discussion on the role of public servants in a modern democracy, with a focus on impartiality, accountability, and the future of public service.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington's Green Infrastructure Plan: A public meeting to gather feedback on the city's new green infrastructure plan, including new parks, green roofs, and urban forests.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Civic Education for a Healthy Democracy: A seminar for teachers and educators on how to teach civic education and political literacy to young people, with a focus on engaging and practical methods.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington's Economic Development Strategy: A conference for business owners and city officials on strategies for promoting economic growth and creating new jobs in Wellington's key sectors.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Local Government and Social Services Forum: A meeting for residents to discuss the funding and delivery of essential social services, such as social housing, mental health support, and youth programs, with council officials.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Public Consultation: Future of City Parks: A public meeting to gather feedback on the city's new masterplan for city parks, including new developments, conservation efforts, and recreational facilities.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "The Politics of Urban Development: A debate between city planners, developers, and community activists on the best strategies for managing urban development, from new housing projects to public spaces.",
     "label": "Government & Politics",
     "skip": false,

@@ -137,19 +137,26 @@ def predict_labels(classification_model, loaded_tokenizer, loaded_label_encoder,
         else:
             predicted_labels = [label for label, index in zip(loaded_label_encoder.inverse_transform(indecies), indecies)]
     return predicted_labels
-def predict_from_file(file_name):
+def predict_from_file(file_name, update_labels=True):
     """
     Predicts the labels for descriptions in a given file.
+    If update_labels is True, updates the source file with predicted labels
+    for categories: Music & Concerts, Markets & Fairs, Classes & Workshops.
     """
+    # Labels that should be auto-accepted when predicted
+    AUTO_ACCEPT_LABELS = {"Music & Concerts", "Markets & Fairs", "Classes & Workshops", "Arts & Theatre"}
+
     classification_model, loaded_tokenizer, loaded_label_encoder = load_models_from_file()
     with open(file_name, mode="r") as f:
         data = json.loads(f.read())
         texts_to_predict = []
         given_labels = []
-        for item in data:
+        item_indices = []  # Track which items in data correspond to predictions
+        for idx, item in enumerate(data):
             if item["skip"]:
                 continue
             texts_to_predict.append(item["description"])
+            item_indices.append(idx)
             if "new" in item.keys():
                 given_labels.append(item["label"] + "\nnew")
             else:
@@ -174,6 +181,9 @@ def predict_from_file(file_name):
             label_dict = [{"label": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip(loaded_label_encoder.inverse_transform(indecies), indecies)]
             predicted_labels.append(label_dict)
 
+    # Track label updates
+    labels_updated = 0
+
     with open("predictions_log.txt", mode="w") as f:
         correct_labels = 0
         for i, text in enumerate(texts_to_predict):
@@ -188,10 +198,31 @@ def predict_from_file(file_name):
             f.write(f"prediction correct: {found}\n")
             if found:
                 correct_labels+=1
+
+            # Check if we should update the label in the source file
+            if update_labels and len(predicted_labels[i]) > 0:
+                top_predicted = predicted_labels[i][0]["label"]
+                original_label = given_labels[i].replace("\nnew", "")
+
+                # Update if predicted is in auto-accept list and different from original
+                if top_predicted in AUTO_ACCEPT_LABELS and original_label != top_predicted:
+                    data_idx = item_indices[i]
+                    data[data_idx]["label"] = top_predicted
+                    labels_updated += 1
+                    f.write(f"LABEL UPDATED: {original_label} -> {top_predicted}\n")
+
             f.write("-" * 100)
             f.write("\n")
             f.write("\n")
         f.write(f"correct: {correct_labels} of {len(texts_to_predict)} {(correct_labels/len(texts_to_predict)) * 100}%\n")
+        f.write(f"labels updated: {labels_updated}\n")
+
+    # Save updated data back to file
+    if update_labels and labels_updated > 0:
+        with open(file_name, mode="w") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        print(f"Updated {labels_updated} labels in {file_name}")
+
     return predicted_labels
 
 def load_models_from_file():
@@ -214,5 +245,6 @@ unclassified_data_file = "unclassified_data.json"
 ga_output_combined = "ga_output_combined.json"
 
 labels_out = predict_from_file(
-    unclassified_data_file
+    unclassified_data_file,
+    True
 )
