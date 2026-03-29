@@ -50,7 +50,7 @@ class WellingtonNZScrapper:
     @staticmethod
     def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
         driver.get(url)
-        sleep(1)
+        sleep(5)
         count = 0
         while True:
             try:
@@ -60,7 +60,8 @@ class WellingtonNZScrapper:
                 break
             except:
                 if count >= 10:
-                    raise Exception(f"no image found {url}")
+                    return None
+                    # raise Exception(f"no image found {url}")
                 sleep(1)
                 count += 1
         driver.execute_script(f"window.scrollBy(0, {500});")
