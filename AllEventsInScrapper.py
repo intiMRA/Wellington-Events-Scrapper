@@ -44,7 +44,11 @@ class AllEventsInScrapper:
             date_string = date_string.split(" (")[0]
             date_string = date_string.split(" to")[0]
             date_string = date_string.replace(" • ", " ")
-            date = parser.parse(date_string)
+            try:
+                date = parser.parse(date_string)
+            except:
+                print(f"DATE_STRING: {date_string}")
+                return None
             if "nzst" in original_date_string.lower():
                 date = date + timedelta(hours=10)
             dates.append(date)
