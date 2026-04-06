@@ -81,6 +81,8 @@ class EventbriteScrapper:
     @staticmethod
     def get_categories(driver: webdriver) -> List[Tuple[str, str]]:
         categories = []
+        # TODO: fix me
+        sleep(5000)
         driver.find_element(By.CLASS_NAME, "filter-toggle").click()
         filters = driver.find_element(By.CLASS_NAME, "filter-choice-items")
         cats = filters.find_elements(By.TAG_NAME, "li")
