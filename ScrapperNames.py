@@ -19,7 +19,7 @@ ROXY: str = "Roxy Cinema"
 ALL_EVENTS_IN = "All Events In"
 FRINGE: str = "Fringe"
 now = datetime.now()
-
+# TODO: re add event brite
 ALL_SCRAPER_NAMES: List[str] = [
     WELLINGTON_HIGH_SCHOOL,
     VALHALLA,
