@@ -33,7 +33,10 @@ class WellingtonHeritageFestivalScrapper:
         except:
             return []
         data = response.json()
-        events_json_list = data["result"]["data"]["allContentfulEvent"]["nodes"]
+        try:
+            events_json_list = data["result"]["data"]["allContentfulEvent"]["nodes"]
+        except:
+            return []
         message_json = json.loads(data["result"]["data"]["contentfulLandingPage"]["content"]["raw"])
         try:
             dates_message = message_json["content"][0]["content"][1]["value"]
