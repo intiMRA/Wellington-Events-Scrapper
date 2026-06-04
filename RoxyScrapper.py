@@ -1,17 +1,17 @@
 import json
 
-from future.backports.datetime import timedelta
 from numpy.core.defchararray import title
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
 import CurrentFestivals
+from DateFormatting import DateFormatting
 import FileUtils
 import ScrapperNames
 from EventInfo import EventInfo
 from dateutil import parser
-from typing import List, Set, Optional, Dict
+from typing import List, Set, Optional, Dict, Tuple
 from time import sleep
 
 class RoxyScrapper:
@@ -55,7 +55,9 @@ class RoxyScrapper:
         return RoxyScrapper.get_event(event_url, driver)
 
     @staticmethod
-    def get_festival_urls(url: str, driver: webdriver) -> Set[str]:
+    def get_festival_urls(url: str, driver: webdriver) -> Set[Tuple[str, str]]:
+        if "doc-edge-film-festival" in url:
+            return RoxyScrapper.get_festival_urls_doc_edge(url, driver)
         driver.get(url)
         sleep(3)
         driver.execute_script(f"window.scrollBy(0, {400});")
@@ -69,7 +71,57 @@ class RoxyScrapper:
             scrolled_amount += 400
             sleep(1)
         films = driver.find_elements(By.CLASS_NAME, "poster-portrait-link")
-        return set([film.get_attribute("href") for film in films])
+        return set([(film.get_attribute("href"), "") for film in films])
+
+    @staticmethod
+    def get_festival_urls_doc_edge(url: str, driver: webdriver)-> Set[Tuple[str, str]]:
+        driver.get(url)
+        sleep(3)
+        links = driver.find_elements(By.TAG_NAME, 'a')
+        event_urls = set()
+        for link in links:
+            image_element: WebElement = link.find_elements(By.TAG_NAME, 'img')
+            if not image_element:
+                continue
+            image_url = image_element[0].get_attribute('src')
+            text = link.get_attribute("href")
+            if "docedge.nz" in text:
+                event_urls.add((text, image_url))
+        return event_urls
+
+    @staticmethod
+    def get_event_doc_edge(url: Tuple[str, str], driver: webdriver) -> Optional[EventInfo]:
+        driver.get(url[0])
+        sleep(3)
+        title = driver.find_element(By.XPATH, "//h1[contains(@class, 'elementor-heading-title')]").text
+        description = driver.find_elements(By.XPATH, "//div[contains(@class, 'elementor-widget-text-editor')]")[0].text
+        image_url = url[-1]
+        date_elements = driver.find_elements(By.XPATH, "//div[contains(@class, 'timeRow')]")
+        dates = []
+        for date_element in date_elements:
+            text = date_element.text
+            if "The Roxy" not in text:
+                continue
+            date_string = text.split("\n")[0]
+            if "to" in date_string:
+                start_string, end_string = date_string.split(" to ")
+                print(date_string)
+                print(url)
+                dates = list(DateFormatting.create_range(parser.parse(start_string), parser.parse(end_string)))
+            else:
+                try:
+                    dates.append(parser.parse(date_string))
+                except:
+                    print(date_string)
+                    continue
+        return EventInfo(name=title,
+                         dates=dates,
+                         image=image_url,
+                         url=url[0],
+                         venue="The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+                         source=ScrapperNames.ROXY,
+                         event_type="Film & Media",
+                         description=description)
 
     @staticmethod
     def get_events(films_urls: Set[str], driver: webdriver, previous_urls: Set[str], out_file) -> List[EventInfo]:
@@ -115,7 +167,10 @@ class RoxyScrapper:
             for event_url in event_urls:
                 print(f"fetching: {event_url}")
                 try:
-                    event = RoxyScrapper.get_event(event_url, driver)
+                    if "docedge.nz" in event_url[0]:
+                        event = RoxyScrapper.get_event_doc_edge(event_url, driver)
+                    else:
+                        event = RoxyScrapper.get_event(event_url[0], driver)
                     if event:
                         events.append(event.to_dict())
                 except Exception as e:

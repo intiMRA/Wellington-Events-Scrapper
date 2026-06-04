@@ -102,9 +102,7 @@ def load_events(from_file=FileNames.EVENTS) -> List[EventInfo]:
         skipped = 0
         for event_json in events_json:
             event = EventInfo.from_dict(event_json)
-            # TODO: readd
-            # if event and (from_file != FileNames.EVENTS or not is_facebook_url_expired_now(event.image, event.source)):
-            if event and (from_file != FileNames.EVENTS):
+            if event and (from_file != FileNames.EVENTS or not is_facebook_url_expired_now(event.image, event.source)):
                 events.append(event)
             else:
                 skipped += 1

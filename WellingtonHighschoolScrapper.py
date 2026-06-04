@@ -40,6 +40,9 @@ class WellingtonHighschoolScrapper:
             date_day = matches.group(1)
             date_month = matches.group(2)
             matches = re.findall(r"\d{1,2}:\d{1,2}\s*[aAmMpP]{2}", event_text)
+            if not matches:
+                print(event_text)
+                continue
             hour = matches[0]
             dates.append(parser.parse(f"{date_day} {date_month} {hour}"))
             print(f"day: {date_day} month: {date_month} hour: {hour}")
