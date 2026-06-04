@@ -96,12 +96,17 @@ class RoxyScrapper:
         title = driver.find_element(By.XPATH, "//h1[contains(@class, 'elementor-heading-title')]").text
         description = driver.find_elements(By.XPATH, "//div[contains(@class, 'elementor-widget-text-editor')]")[0].text
         image_url = url[-1]
-        date_elements = driver.find_elements(By.XPATH, "//div[contains(@class, 'dateTime')]")
+        date_elements = driver.find_elements(By.XPATH, "//div[contains(@class, 'timeRow')]")
         dates = []
         for date_element in date_elements:
-            date_string = date_element.text
+            text = date_element.text
+            if "The Roxy" not in text:
+                continue
+            date_string = text.split("\n")[0]
             if "to" in date_string:
                 start_string, end_string = date_string.split(" to ")
+                print(date_string)
+                print(url)
                 dates = list(DateFormatting.create_range(parser.parse(start_string), parser.parse(end_string)))
             else:
                 try:
