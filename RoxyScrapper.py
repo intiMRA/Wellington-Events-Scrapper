@@ -112,7 +112,7 @@ class RoxyScrapper:
         return EventInfo(name=title,
                          dates=dates,
                          image=image_url,
-                         url=url,
+                         url=url[0],
                          venue="The Roxy Cinema, 5 Park Road, Miramar, Wellington",
                          source=ScrapperNames.ROXY,
                          event_type="Film & Media",
