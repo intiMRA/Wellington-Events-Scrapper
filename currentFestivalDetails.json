@@ -7,7 +7,7 @@
   },
   {
     "id": "BurgerWellington",
-    "name": "Burger Wellington",
+    "name": "BurgerWellington",
     "icon": "burger",
     "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/burgers.json"
   }
