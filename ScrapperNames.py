@@ -38,5 +38,5 @@ ALL_SCRAPER_NAMES: List[str] = [
     FRINGE
 ]
 
-if now.month == 8 or now.month == 7:
+if now.month <= 8 or now.month >= 6:
     ALL_SCRAPER_NAMES.append(WOAP)
