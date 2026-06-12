@@ -1,14 +1,14 @@
 [
   {
-    "id": "RoxyFestival",
-    "name": "Doc Edge Film Festival",
-    "icon": "movie",
-    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/doc-edge-film-festival.json"
-  },
-  {
     "id": "BurgerWellington",
     "name": "BurgerWellington",
     "icon": "burger",
     "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/burgers.json"
+  },
+  {
+    "id": "RoxyFestival",
+    "name": "Doc Edge Film Festival",
+    "icon": "movie",
+    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/doc-edge-film-festival.json"
   }
 ]
