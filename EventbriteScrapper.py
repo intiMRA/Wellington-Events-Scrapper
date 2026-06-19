@@ -81,11 +81,12 @@ class EventbriteScrapper:
     @staticmethod
     def get_categories(driver: webdriver) -> List[Tuple[str, str]]:
         categories = []
-        # TODO: fix me
-        sleep(5000)
-        driver.find_element(By.CLASS_NAME, "filter-toggle").click()
-        filters = driver.find_element(By.CLASS_NAME, "filter-choice-items")
-        cats = filters.find_elements(By.TAG_NAME, "li")
+        sleep(1)
+        view_more_button = driver.find_element(By.XPATH, "//button[@aria-controls='view-more-category']")
+        view_more_button.click()
+        sleep(2)
+        cat_list = driver.find_element(By.XPATH, "//ul[@id='view-more-category']")
+        cats = cat_list.find_elements(By.TAG_NAME, "li")
         for cat in cats:
             link = cat.find_element(By.TAG_NAME, "a").get_attribute("href")
             category = (cat.text, link)
