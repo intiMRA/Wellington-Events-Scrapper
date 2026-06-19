@@ -60,49 +60,7 @@
     "ai": true
   },
   {
-    "description": "The Politics of Urban Development: A debate between city planners, developers, and community activists on the best strategies for managing urban development, from new housing projects to public spaces.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Local Government and Arts Funding Debate: A debate on public funding for the arts, with a focus on the role of local government in supporting Wellington's vibrant arts and culture sector.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Future of Wellington's Social Services: A public meeting to discuss the funding and delivery of essential social services, such as social housing, mental health support, and youth programs, with council officials.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Civic Literacy for Young People: A workshop for young people to learn about the importance of civic engagement, how to interact with local government, and how to make their voices heard.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
     "description": "Wellington's Green Infrastructure Plan: A public meeting to gather feedback on the city's new green infrastructure plan, including new parks, green roofs, and urban forests.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "The Role of Public Service in a Modern Democracy: A panel discussion on the role of public servants in a modern democracy, with a focus on impartiality, accountability, and the future of public service.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Wellington City Council's Annual Report: A public presentation of the city's annual report, providing an overview of its performance, achievements, and financial health over the past year.",
-    "label": "Government & Politics",
-    "skip": false,
-    "ai": true
-  },
-  {
-    "description": "Local Government and Economic Development: A conference for business owners and city officials on strategies for promoting economic growth and creating new jobs in Wellington's key sectors.",
     "label": "Government & Politics",
     "skip": false,
     "ai": true

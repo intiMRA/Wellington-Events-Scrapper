@@ -144,7 +144,7 @@ def predict_from_file(file_name, update_labels=True):
     for categories: Music & Concerts, Markets & Fairs, Classes & Workshops.
     """
     # Labels that should be auto-accepted when predicted
-    AUTO_ACCEPT_LABELS = {"Music & Concerts", "Markets & Fairs", "Classes & Workshops", "Arts & Theatre"}
+    AUTO_ACCEPT_LABELS = {"Music & Concerts", "Markets & Fairs", "Classes & Workshops", "Film & Media"}
 
     classification_model, loaded_tokenizer, loaded_label_encoder = load_models_from_file()
     with open(file_name, mode="r") as f:
@@ -183,7 +183,7 @@ def predict_from_file(file_name, update_labels=True):
 
     # Track label updates
     labels_updated = 0
-
+    percentages_per_class: dict = {}
     with open("predictions_log.txt", mode="w") as f:
         correct_labels = 0
         for i, text in enumerate(texts_to_predict):
@@ -198,6 +198,17 @@ def predict_from_file(file_name, update_labels=True):
             f.write(f"prediction correct: {found}\n")
             if found:
                 correct_labels+=1
+            if given_labels[i] in percentages_per_class.keys():
+                current = percentages_per_class[given_labels[i]]
+                percentages_per_class[given_labels[i]] = {"count": current["count"] + 1,
+                                                          "correct": current["correct"] + 1
+                                                          if found
+                                                          else current["correct"]}
+            else:
+                percentages_per_class[given_labels[i]] = {"count": 1,
+                                                          "correct": 1
+                                                          if found
+                                                          else 0}
 
             # Check if we should update the label in the source file
             if update_labels and len(predicted_labels[i]) > 0:
@@ -216,6 +227,9 @@ def predict_from_file(file_name, update_labels=True):
             f.write("\n")
         f.write(f"correct: {correct_labels} of {len(texts_to_predict)} {(correct_labels/len(texts_to_predict)) * 100}%\n")
         f.write(f"labels updated: {labels_updated}\n")
+        sorted_classes = sorted(percentages_per_class.keys(), key=lambda c: percentages_per_class[c]['correct'] / percentages_per_class[c]['count'], reverse=True)
+        for percentage_class in sorted_classes:
+            print(f"label: {percentage_class} percentage: {percentages_per_class[percentage_class]['correct']/ percentages_per_class[percentage_class]['count']}")
 
     # Save updated data back to file
     if update_labels and labels_updated > 0:
@@ -234,17 +248,17 @@ def load_models_from_file():
     loaded_label_encoder = joblib.load('label_encoder.joblib')
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
-# use_ai_data = False
-# should_train = False
-#
-# if should_train:
-#     train_from_manual_training_files(use_ai_data)
-#
-# training_data_file = "training_data.json"
-# unclassified_data_file = "unclassified_data.json"
-# ga_output_combined = "ga_output_combined.json"
-#
-# labels_out = predict_from_file(
-#     unclassified_data_file,
-#     True
-# )
+use_ai_data = True
+should_train = False
+
+if should_train:
+    train_from_manual_training_files(use_ai_data)
+
+training_data_file = "training_data.json"
+unclassified_data_file = "unclassified_data.json"
+ga_output_combined = "ga_output_combined.json"
+
+labels_out = predict_from_file(
+    unclassified_data_file,
+    False
+)
