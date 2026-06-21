@@ -143,6 +143,9 @@ class WoapScrapper:
                 dates: List[datetime] = []
                 for session in sessions:
                     start = session["start"]
+                    if not start:
+                        print(sessions)
+                        continue
                     date: datetime = parser.parse(start)
                     dates.append(parser.parse(date.strftime("%Y-%m-%d %H:%M")))
                 venue_slug = venue_dict["slug"]
