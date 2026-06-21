@@ -128,6 +128,11 @@ class EventbriteScrapper:
             image_url = ""
         event_link: str = url
         try:
+            driver.find_element(By.XPATH, "//button[contains(@calss, 'ViewDetailsButton_button')]").click()
+            sleep(1)
+        except:
+            pass
+        try:
             button: WebElement = driver.find_element(By.XPATH, "//button[contains(@data-heap-id, 'Listings - Description - Read more - Click')]")
             button.click()
             sleep(1)
@@ -236,7 +241,7 @@ class EventbriteScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        fetch_urls = False
+        fetch_urls = True
         categories = set()
         if not fetch_urls:
             categories = FileUtils.load_from_files(ScrapperNames.EVENT_BRITE)[1]

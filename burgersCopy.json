@@ -141,7 +141,7 @@
       "beerMatchPrice": 36.0,
       "mealAvailable": "Dinner",
       "beerMatch": "The Classic (Lager)",
-      "venue": "Cliftons Event Space, Level 28, 100 Willis St, Wellington CBD",
+      "venue": "Everybody Eats @ Cliftons, Level 28, 100 Willis St, Wellington CBD",
       "coordinates": {
         "lat": -41.2883854,
         "long": 174.7744053
@@ -155,7 +155,7 @@
       ],
       "mainProtein": "Beef, Meat Alternative",
       "sidesIncluded": true,
-      "url": "https://visawoap.com/venue/cliftons-event-space/6842"
+      "url": "https://visawoap.com/venue/everybody-eats-cliftons/6842"
     },
     {
       "id": "BvSCQ0eNRYuQApad23e8nQ",
@@ -3375,7 +3375,7 @@
       "price": 29.0,
       "beerMatchPrice": 48.0,
       "mealAvailable": "Lunch and Dinner",
-      "beerMatch": "Tiny Terror (Low ABV Hazy IPA)",
+      "beerMatch": "Tinyken (Non-Alc Hazy IPA)",
       "venue": "Intercontinental Hotel Wellington, 2 Grey Street, Wellington CBD",
       "coordinates": {
         "lat": -41.2846596,
@@ -3723,7 +3723,7 @@
       "price": 26.0,
       "beerMatchPrice": 38.0,
       "mealAvailable": "Lunch and Dinner",
-      "beerMatch": "Schandalous (Shandy)",
+      "beerMatch": "Tinyken (Non-Alc Hazy IPA)",
       "venue": "Two Grey, 2 Grey Street, Wellington CBD",
       "coordinates": {
         "lat": -41.28467,
@@ -4666,7 +4666,7 @@
         "long": 174.7742896
       },
       "dietaryRequirements": [],
-      "mainProtein": "Fish, Seafood, Sweet/Dessert",
+      "mainProtein": "Fish",
       "sidesIncluded": false,
       "url": "https://visawoap.com/venue/wellington-seamarket-cuba-street/7000"
     },
@@ -5043,7 +5043,7 @@
     },
     {
       "id": "ZxnA4Pd7TlOW_qcfJkGrcQ",
-      "name": "When Hanoi met Bhusan",
+      "name": "When Hanoi met Busan",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Burger-WOAP-2026-260501-125723.jpeg",
       "description": "Korean fried chicken, with Vietnamese chicken coleslaw, red onion, spearmint, and gochujang mayonnaise in a Dumpling Co grilled-steamed mandu bun.",
       "price": 27.0,
@@ -5110,7 +5110,7 @@
     {
       "id": "WbEMVmyjRBOwb31ecKoChw",
       "name": "Word on the Street Benedict",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Cable-Top-Eatery-Burger-5-260525-132756.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3204-260616-093748.jpeg",
       "description": "Smoked ham hock patty, with Shevington Farm free-range egg, potato rosti, smoked cheddar, watercress, kawakawa, and lemon hollandaise in a housemade semolina-dusted English muffin, with fennel and tangelo salad.",
       "price": 29.0,
       "beerMatchPrice": 37.0,
@@ -5227,7 +5227,6 @@
       "Schandalous (Shandy)",
       "Smooth Operator (Cream Ale)",
       "The Classic (Lager)",
-      "Tiny Terror (Low ABV Hazy IPA)",
       "Tinyken (Non-Alc Hazy IPA)"
     ],
     "proteins": [
