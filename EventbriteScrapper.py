@@ -26,57 +26,62 @@ class EventbriteScrapper:
             return []
         except:
             pass
-        try:
-            elements = driver.find_elements(By.CLASS_NAME, "child-event-dates-item")
-            if not elements:
-                raise Exception("no child-event-dates-item")
-            print("multi dates...")
-            for e in elements:
-                parts = e.text.split("\n")
-                if len(parts) > 3:
-                    parts = parts[1:]
-                    date_string = parts[0] + " " + parts[1] + " " + parts[2]
-                    dates.append(DateFormatting.replace_year(parser.parse(date_string)))
+        date_div_text: str = driver.find_element(By.XPATH, "//div[@data-testid='event-datetime']").text
+        if "Multiple dates" in date_div_text:
+            return EventbriteScrapper.parse_multiple_dates(driver)
+        date_div_text_comma_count = len(date_div_text.split(",") )
+        print(date_div_text)
+        if date_div_text_comma_count < 3:
+            date_text = date_div_text.replace("  •  ", " ").split(" - ")[0]
+            if date_text:
+                dates.append(DateFormatting.replace_year(parser.parse(date_text)))
+                return dates
+        if date_div_text_comma_count == 3:
+            parts = date_div_text.split("  •  ")
+            time_part = parts[1].split("-")[0].strip() if len(parts) > 1 else ""
+            date_parts = parts[0].split("-")
+            for dp in date_parts:
+                date_str = dp.split(",", 1)[1].strip()
+                date_text = f"{date_str} {time_part}".strip()
+                dates.append(DateFormatting.replace_year(parser.parse(date_text)))
             return dates
+        return dates
+
+    @staticmethod
+    def parse_multiple_dates(driver: webdriver) -> List[datetime]:
+        try:
+            driver.find_element(By.XPATH, "//button[@data-testid='explore-similar-events-button']")
+            return []
         except:
-            try:
-                date_string: str = driver.find_element(By.CLASS_NAME, "date-info__full-datetime").text
-                date_string: str = re.sub('NZST', "", date_string)
-                parts: List[str] = date_string.split(",")[-1].split("-")
-                date_string = parts[0].strip().replace(" · ", " ")
-                if not re.findall(r'[AaMmpP]{2}', date_string):
-                    am_pm = parts[-1].strip()
-                    am_pm = re.findall(r"[AaMmpP]{2}", am_pm)[0]
-                    date_string = f"{date_string} {am_pm}"
-                print(date_string)
-                return [parser.parse(date_string)]
-            except:
-                try:
-                    availability_button: WebElement = driver.find_element(By.XPATH,
-                                                                          "//button[contains(., 'Check availability')]")
-                    availability_button.click()
-                    sleep(5)
-                    print("finding from modem")
-                    iframe_element = driver.find_element(By.XPATH, "//iframe[contains(@id, 'eventbrite-widget-modal')]")
-                    driver.switch_to.frame(iframe_element)
-                    dates = []
-                    cards: List[WebElement] = driver.find_elements(By.XPATH, "//div[contains(@class, 'eds-card')]")
-                    for card in cards:
-                        day = card.find_element(By.XPATH, "//p[@data-spec='date-thumbnail-day']").text
-                        month = card.find_element(By.XPATH, "//p[@data-spec='date-thumbnail-month']").text
-                        hour = "1:01AM"
-                        hour_element = card.find_elements(By.XPATH, "//div[@data-spec='series-event-card-date-string']")
-                        if hour_element:
-                            hour_element_string = hour_element[0].text
-                            matches = re.findall(r"\d{1,2}\S*:\s*{d{1,2}\s*[aAmMpP]{2}", hour_element_string)
-                            if matches:
-                                hour = matches[0]
-                        print(f"date: {day} {month} {hour}")
-                        dates.append(parser.parse(f"{day} {month} {hour}"))
-                    return dates
-                except Exception as e:
-                    print(e)
-                    return []
+            pass
+        dates = []
+        driver.find_element(By.XPATH, "//button[@data-testid='conversion-bar-checkout-button']").click()
+        sleep(3)
+        iframe_element = driver.find_element(By.XPATH, "//iframe[contains(@id, 'eventbrite-widget-modal')]")
+        driver.switch_to.frame(iframe_element)
+        calendar_containers = driver.find_elements(By.XPATH, "//div[@data-testid='calendar-container']")
+        if calendar_containers:
+            month_sections = calendar_containers[0].find_elements(By.XPATH, ".//div[contains(@class, 'Stack_root')]")
+            current_month = ""
+            for section in month_sections:
+                month_elements = section.find_elements(By.XPATH, ".//p[contains(@class, 'CompactCalendar-module__monthName')]")
+                if month_elements:
+                    current_month = month_elements[0].text
+                day_elements = section.find_elements(By.XPATH, ".//p[contains(@class, 'CompactCalendar-module__dateText')]")
+                time_elements = section.find_elements(By.XPATH, ".//p[contains(@class, 'CompactCalendar-module__timeSlotText')]")
+                if day_elements and current_month:
+                    day = day_elements[0].text
+                    time_text = time_elements[0].text if time_elements else ""
+                    date_str = f"{current_month} {day} {time_text}".strip()
+                    dates.append(DateFormatting.replace_year(parser.parse(date_str)))
+        else:
+            date_text = driver.find_element(By.XPATH, "//p[contains(@class, 'EventInfoCard-module__dateWrapper')]").text
+            time_elements = driver.find_elements(By.XPATH, "//p[contains(@class, 'TimeSlotList_sessionText')]")
+            time_text = time_elements[0].text.split(" - ")[0].strip() if time_elements else ""
+            date_str = f"{date_text} {time_text}".strip()
+            dates.append(DateFormatting.replace_year(parser.parse(date_str)))
+        driver.switch_to.default_content()
+        return dates
 
     @staticmethod
     def get_categories(driver: webdriver) -> List[Tuple[str, str]]:
@@ -96,13 +101,15 @@ class EventbriteScrapper:
     @staticmethod
     def get_event(url: str, driver: webdriver, category: str, banned_file) -> Optional[EventInfo]:
         driver.get(url)
+        sleep(1)
         try:
-            button: WebElement = driver.find_element(By.XPATH, "//button[@data-testid='view-event-details-button']")
-            button.click()
+            bar = driver.find_element(By.XPATH, "//div[contains(@class, 'EventSignalsBar_signals')]")
+            if "sales ended" in bar.text.lower():
+                return None
         except:
             pass
         try:
-            location_text: str = driver.find_element(By.CLASS_NAME, "location-info__address").text
+            location_text: str = driver.find_element(By.XPATH, "//a[contains(@data-testid, 'event-venue')]").text
         except:
             return None
         if "leadflake" in location_text.lower():
@@ -110,14 +117,9 @@ class EventbriteScrapper:
             json.dump(url, banned_file, indent=2)
             banned_file.write(",\n")
             return None
-        split: List[str] = location_text.split("\n")
-        if len(split) == 3:
-            venue: str = split[1]
-        else:
-            venue: str = split[0]
-        print(venue)
+        venue = location_text
         try:
-            title: str = driver.find_element(By.CLASS_NAME, "event-title").text
+            title: str = driver.find_element(By.XPATH, "//h1[contains(@data-testid, 'event-title')]").text
         except:
             raise Exception("no title")
         try:
@@ -125,7 +127,17 @@ class EventbriteScrapper:
         except:
             image_url = ""
         event_link: str = url
-        description: str = driver.find_element(By.ID, "event-description").text
+        try:
+            button: WebElement = driver.find_element(By.XPATH, "//button[contains(@data-heap-id, 'Listings - Description - Read more - Click')]")
+            button.click()
+            sleep(1)
+            description: str = driver.find_element(By.XPATH, "//div[contains(@class,'AboutThisEventEmbedded_container')]").text
+        except:
+            try:
+                description: str = driver.find_element(By.XPATH,
+                                                   "//div[contains(@class,'Overview_summary')]").text
+            except:
+                raise Exception("no description")
         dates: List[datetime] = EventbriteScrapper.get_all_dates(driver)
         if not dates:
             date_matches = re.findall(r"\d{1,2}\s\w+\d{0,4}", title)
@@ -154,12 +166,11 @@ class EventbriteScrapper:
                          description=description)
 
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str]]:
+    def get_urls(driver: webdriver, previous_urls: Set[str]) -> Set[Tuple[str, str]]:
         current_page = 1
         urls = set()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')
         categories = EventbriteScrapper.get_categories(driver)
-        urls_file.write("[\n")
         total_cats = len(categories)
         cat_count = 1
         for category in categories:
@@ -207,7 +218,8 @@ class EventbriteScrapper:
                     sold_tags = [
                         "Sold Out",
                         "Sales Ended",
-                        "Unavailable"
+                        "Unavailable",
+                        "Sales ended"
                     ]
                     if texts[0] in sold_tags:
                         continue
@@ -220,20 +232,26 @@ class EventbriteScrapper:
                     previous_urls.add(event_url)
                     url_tuple = (event_url, cat_name)
                     urls.add(url_tuple)
-                    json.dump(url_tuple, urls_file)
-                    urls_file.write(",\n")
-        urls_file.write("]\n")
         return urls
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        fetch_urls = False
+        categories = set()
+        if not fetch_urls:
+            categories = FileUtils.load_from_files(ScrapperNames.EVENT_BRITE)[1]
         events = []
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
         driver = webdriver.Chrome()
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScrapperNames.EVENT_BRITE)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScrapperNames.EVENT_BRITE)))
-        categories = EventbriteScrapper.get_urls(driver, previous_urls, urls_file)
+        if fetch_urls:
+            categories = EventbriteScrapper.get_urls(driver, previous_urls)
+        json.dump(list(categories), urls_file, indent=2)
+        urls_file.close()
         out_file.write("[\n")
         for category in categories:
+            if (not fetch_urls) and category[0] in previous_urls:
+                continue
             url, category_name = category
             print(f"category: {category_name} url: {url}")
             try:
@@ -255,7 +273,8 @@ class EventbriteScrapper:
         driver.close()
         out_file.write("]\n")
         out_file.close()
-        urls_file.close()
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
+# previous_events = FileUtils.load_from_files(ScrapperNames.EVENT_BRITE)[0]
+# previous_urls = set(e["url"] for e in previous_events)
+# events = list(map(lambda x: x.to_dict(), sorted(EventbriteScrapper.fetch_events(previous_urls, set()), key=lambda k: k.name.strip())))
