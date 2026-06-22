@@ -30,13 +30,16 @@ class EventbriteScrapper:
         if "Multiple dates" in date_div_text:
             return EventbriteScrapper.parse_multiple_dates(driver)
         date_div_text_comma_count = len(date_div_text.split(",") )
+        bar_count = len(date_div_text.split("-"))
         print(date_div_text)
-        if date_div_text_comma_count < 3:
+        if date_div_text_comma_count < 3 and bar_count <= 2:
+            print("type 1")
             date_text = date_div_text.replace("  •  ", " ").split(" - ")[0]
             if date_text:
                 dates.append(DateFormatting.replace_year(parser.parse(date_text)))
                 return dates
         if date_div_text_comma_count == 3:
+            print("type 2")
             parts = date_div_text.split("  •  ")
             time_part = parts[1].split("-")[0].strip() if len(parts) > 1 else ""
             date_parts = parts[0].split("-")
@@ -45,6 +48,13 @@ class EventbriteScrapper:
                 date_text = f"{date_str} {time_part}".strip()
                 dates.append(DateFormatting.replace_year(parser.parse(date_text)))
             return dates
+        if bar_count > 2:
+            print("type 3")
+            parts = date_div_text.split("-")
+            first_date, second_date, _ = parts
+            second_date, time_string = second_date.split("  •  ")
+            dates.append(parser.parse(f"{first_date} {time_string}"))
+            dates.append(parser.parse(f"{second_date} {time_string}"))
         return dates
 
     @staticmethod
@@ -75,11 +85,14 @@ class EventbriteScrapper:
                     date_str = f"{current_month} {day} {time_text}".strip()
                     dates.append(DateFormatting.replace_year(parser.parse(date_str)))
         else:
-            date_text = driver.find_element(By.XPATH, "//p[contains(@class, 'EventInfoCard-module__dateWrapper')]").text
-            time_elements = driver.find_elements(By.XPATH, "//p[contains(@class, 'TimeSlotList_sessionText')]")
-            time_text = time_elements[0].text.split(" - ")[0].strip() if time_elements else ""
-            date_str = f"{date_text} {time_text}".strip()
-            dates.append(DateFormatting.replace_year(parser.parse(date_str)))
+            try:
+                date_text = driver.find_element(By.XPATH, "//p[contains(@class, 'EventInfoCard-module__dateWrapper')]").text
+                time_elements = driver.find_elements(By.XPATH, "//p[contains(@class, 'TimeSlotList_sessionText')]")
+                time_text = time_elements[0].text.split(" - ")[0].strip() if time_elements else ""
+                date_str = f"{date_text} {time_text}".strip()
+                dates.append(DateFormatting.replace_year(parser.parse(date_str)))
+            except:
+                pass
         driver.switch_to.default_content()
         return dates
 
@@ -172,7 +185,6 @@ class EventbriteScrapper:
 
     @staticmethod
     def get_urls(driver: webdriver, previous_urls: Set[str]) -> Set[Tuple[str, str]]:
-        current_page = 1
         urls = set()
         driver.get('https://www.eventbrite.co.nz/d/new-zealand--wellington/all-events/')
         categories = EventbriteScrapper.get_categories(driver)
@@ -191,6 +203,7 @@ class EventbriteScrapper:
                        + f"/?page=1&start_date={start_date.year}-{start_date.month}-{start_date.day}"
                          f"&end_date={end_date.year}-{end_date.month}-{end_date.day}")
             driver.get(new_url)
+            current_page = 1
             while True:
                 next_url = re.sub(r"page=\d+", f"page={current_page}", driver.current_url)
                 driver.get(next_url)
@@ -206,7 +219,9 @@ class EventbriteScrapper:
                     print(f"error finding paginstion: {e}")
                 current_page += 1
                 # search-event
+                sleep(2)
                 cards = driver.find_elements(By.XPATH, "//div[@data-testid='search-event']")
+                print(f"len cards: {len(cards)}")
                 for card in cards:
                     title_tag = card.find_element(By.CLASS_NAME, "event-card-link ")
                     event_url = title_tag.get_attribute("href")
@@ -237,11 +252,12 @@ class EventbriteScrapper:
                     previous_urls.add(event_url)
                     url_tuple = (event_url, cat_name)
                     urls.add(url_tuple)
+                print(f"len cards: {len(urls)}")
         return urls
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        fetch_urls = True
+        fetch_urls = False
         categories = set()
         if not fetch_urls:
             categories = FileUtils.load_from_files(ScrapperNames.EVENT_BRITE)[1]
