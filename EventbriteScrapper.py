@@ -153,9 +153,13 @@ class EventbriteScrapper:
         except:
             try:
                 description: str = driver.find_element(By.XPATH,
-                                                   "//div[contains(@class,'Overview_summary')]").text
+                                                       "//div[contains(@data-testid,'section-wrapper-overview')]").text
             except:
-                raise Exception("no description")
+                try:
+                    description: str = driver.find_element(By.XPATH,
+                                                       "//div[contains(@class,'Overview_summary')]").text
+                except:
+                    raise Exception("no description")
         dates: List[datetime] = EventbriteScrapper.get_all_dates(driver)
         if not dates:
             date_matches = re.findall(r"\d{1,2}\s\w+\d{0,4}", title)
@@ -257,7 +261,7 @@ class EventbriteScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        fetch_urls = False
+        fetch_urls = True
         categories = set()
         if not fetch_urls:
             categories = FileUtils.load_from_files(ScrapperNames.EVENT_BRITE)[1]
