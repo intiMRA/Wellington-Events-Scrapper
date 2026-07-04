@@ -36,8 +36,11 @@ class EventbriteScrapper:
             print("type 1")
             date_text = date_div_text.replace("  •  ", " ").split(" - ")[0]
             if date_text:
-                dates.append(DateFormatting.replace_year(parser.parse(date_text.replace(" at ", " ").replace(" Starts", " "))))
-                return dates
+                try:
+                    dates.append(DateFormatting.replace_year(parser.parse(date_text.replace(" at ", " ").replace(" Starts", " "))))
+                    return dates
+                except:
+                    pass
         if date_div_text_comma_count == 3:
             print("type 2")
             parts = date_div_text.split("  •  ")

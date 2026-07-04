@@ -1,3 +1,1045 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "58th-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "58th",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780304670612_CAP_58th.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-18-12:15"
+      ],
+      "displayDate": "Sat 18 Jul",
+      "url": "https://docedge.nz/events/58th/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "How can you forget when the wounds of the past are still fresh?\nThe 2009 Maguindanao Massacre was the deadliest attack on journalists in history. Through the eyes of Reynafe Castillo, daughter of the missing 58th victim, the film blends animation, archival footage and harrowing memories to chronicle a family\u2019s relentless fight for justice amidst a landscape of political violence.",
+      "description": "How can you forget when the wounds of the past are still fresh?\nThe 2009 Maguindanao Massacre was the deadliest attack on journalists in history.\nThrough the eyes of Reynafe Castillo, daughter of the missing 58th victim, the film blends animation, archival footage and harrowing memories to chronicle a family\u2019s relentless fight for justice amidst a landscape of political violence.",
+      "labels": []
+    },
+    {
+      "id": "A War on Women-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "A War on Women",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780306006109_CAP_a-war-on-women.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-19-15:45"
+      ],
+      "displayDate": "Sun 19 Jul",
+      "url": "https://docedge.nz/events/a-war-on-women/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A feminist resistance forty years in the making.\nTriggered by Mahsa Amini\u2019s death in morality police custody, the film looks beyond headlines to uncover Iranian women\u2019s forty-year struggle against the theocratic regime. Through interviews, archival material, and rare footage from inside Iran, the film traces an unbroken resistance shaped by prison, exile, and courage across generations and borders. Historical and urgent. Personal and political. A testament to the enduring spirit of Iranian women and a call to stand with them.",
+      "description": "A feminist resistance forty years in the making.\nThrough interviews, archival material, and rare footage from inside Iran, the film traces an unbroken resistance shaped by prison, exile, and courage across generations and borders.\nHistorical and urgent.\nPersonal and political.\nA testament to the enduring spirit of Iranian women and a call to stand with them.",
+      "labels": []
+    },
+    {
+      "id": "American Doctor-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "American Doctor",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780368750121_CAP_american-doctor.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-23-17:45"
+      ],
+      "displayDate": "Thu 23 Jul",
+      "url": "https://docedge.nz/events/american-doctor/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Three doctors. Three identities. One oath to save lives.\nThree physicians \u2014 Palestinian, Jewish and Zoroastrian\u2014 are unlikely friends united by a single oath to save lives. Dr Thaer Ahmad is measured and strategic, Dr Mark Perlmutter is blunt and wears his heart on his sleeve, and Dr Feroze Sidhwa is media-savvy and prolific. Captured as events unfold on the ground, the film follows them from a Gazan hospital under siege to the halls of Congress. Together, they fight to honour a promise to their Palestinian colleagues and patients, carrying the struggle to where it matters most: the United States of America.\n  Screening Note:  In-cinema only.  This film screens exclusively in cinemas in Auckland and Wellington.  It will not be available on the Doc Edge Virtual Cinema. We encourage you to catch it on the big screen.",
+      "description": "Three doctors.\nThree identities.\nThree physicians \u2014 Palestinian, Jewish and Zoroastrian\u2014 are unlikely friends united by a single oath to save lives.\nDr Thaer Ahmad is measured and strategic, Dr Mark Perlmutter is blunt and wears his heart on his sleeve, and Dr Feroze Sidhwa is media-savvy and prolific.\nTogether, they fight to honour a promise to their Palestinian colleagues and patients, carrying the struggle to where it matters most: the United States of America.",
+      "labels": []
+    },
+    {
+      "id": "Cagnat, Drawing or Nothing (Cagnat, le dessin sinon rien)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Cagnat, Drawing or Nothing (Cagnat, le dessin sinon rien)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780308050885_CAP_cagnat-drawing-or-nothing.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-22-16:30"
+      ],
+      "displayDate": "Wed 22 Jul",
+      "url": "https://docedge.nz/events/cagnat-drawing-or-nothing-cagnat-le-dessin-sinon-sien/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "17,000 drawings, one silence, and a father\u2019s story waiting to be told.\nSince the Charlie Hebdo attack, Jean-Pierre Cagnat, a press cartoonist, no longer draws. The National Library of France offered to archive part of his work. After his divorce from his wife, he left his 17,000 drawings in the cellar of his family home, which he no longer lives in. His daughter, Director Alice Cagnat, proposed an arrangement: she would help him sort through his drawings, in exchange for his life story as a man and an artist.\n  Screening Note:  This film is preceded by the short film, If You Don\u2019t Like It, Look Away (Au Bain des Dames), (30 mins).",
+      "description": "17,000 drawings, one silence, and a father\u2019s story waiting to be told.\nSince the Charlie Hebdo attack, Jean-Pierre Cagnat, a press cartoonist, no longer draws.\nThe National Library of France offered to archive part of his work.\nAfter his divorce from his wife, he left his 17,000 drawings in the cellar of his family home, which he no longer lives in.\nScreening Note:  This film is preceded by the short film, If You Don\u2019t Like It, Look Away (Au Bain des Dames), (30 mins).",
+      "labels": []
+    },
+    {
+      "id": "Cambodian Beer Dreams-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Cambodian Beer Dreams",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780369071583_CAP_cambodian-beer-dreams.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-23-20:30"
+      ],
+      "displayDate": "Thu 23 Jul",
+      "url": "https://docedge.nz/events/cambodian-beer-dreams/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "When beer becomes hope, and profit becomes power.\nIn Cambodia, major international breweries are battling to win the war over the rapidly growing beer market. Through aggressive marketing, the poor population is encouraged to drink more alcohol in one of the world\u2019s most corrupt countries. The film follows an activist who dares to stand up to the beer industry, fighting an uneven battle to introduce a national alcohol law. At the same time, we meet beer sellers, singers, and beer girls who dream that the beer industry will become their path to a better life.",
+      "description": "When beer becomes hope, and profit becomes power.\nIn Cambodia, major international breweries are battling to win the war over the rapidly growing beer market.\nThrough aggressive marketing, the poor population is encouraged to drink more alcohol in one of the world\u2019s most corrupt countries.\nThe film follows an activist who dares to stand up to the beer industry, fighting an uneven battle to introduce a national alcohol law.\nAt the same time, we meet beer sellers, singers, and beer girls who dream that the beer industry will become their path to a better life.",
+      "labels": []
+    },
+    {
+      "id": "Ceremony-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Ceremony",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780369458135_CAP_ceremony.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-24-18:00"
+      ],
+      "displayDate": "Fri 24 Jul",
+      "url": "https://docedge.nz/events/ceremony/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "What the river lost, the people remember.\nAfter a long winter in Bella Coola\u2019s Coast Mountains, the arrival of the ooligan was a time of celebration for the Nuxalk people. It brought vital nourishment and medicine. For 26 years they have been gone. The Nuxalk Nation carries this absence like a wound: an ecosystem collapse entangled with smallpox, occupied land, and silenced culture. Now, as one family builds the first home back in their ancestral village, something stirs in the river.",
+      "description": "What the river lost, the people remember.\nAfter a long winter in Bella Coola\u2019s Coast Mountains, the arrival of the ooligan was a time of celebration for the Nuxalk people.\nIt brought vital nourishment and medicine.\nFor 26 years they have been gone.\nThe Nuxalk Nation carries this absence like a wound: an ecosystem collapse entangled with smallpox, occupied land, and silenced culture.",
+      "labels": []
+    },
+    {
+      "id": "Coexistence, My Ass!-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Coexistence, My Ass!",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780373778804_CAP_coexistence-my-ass.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-26-17:30"
+      ],
+      "displayDate": "Sun 26 Jul",
+      "url": "https://docedge.nz/events/coexistence-my-ass/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Winner of the World Cinema Documentary Special Jury Award for Freedom of Expression.\nNoam Shuster Eliassi grew up the literal poster child for the Israeli-Palestinian peace process before making a hard pivot to stand-up comedy and political satire. Raised in a bilingual Israeli-Palestinian village \u2014 the only intentionally integrated community in the country \u2014 Noam grows disillusioned with traditional peace activism. As the region sinks deeper into devastating violence, she must meet the moment by challenging her audiences with hard truths that are no laughing matter.",
+      "description": "Winner of the World Cinema Documentary Special Jury Award for Freedom of Expression.\nNoam Shuster Eliassi grew up the literal poster child for the Israeli-Palestinian peace process before making a hard pivot to stand-up comedy and political satire.\nRaised in a bilingual Israeli-Palestinian village \u2014 the only intentionally integrated community in the country \u2014 Noam grows disillusioned with traditional peace activism.\nAs the region sinks deeper into devastating violence, she must meet the moment by challenging her audiences with hard truths that are no laughing matter.",
+      "labels": []
+    },
+    {
+      "id": "Collapse (Effondrement)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Collapse (Effondrement)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780305410836_CAP_collapse.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-18-18:15"
+      ],
+      "displayDate": "Sat 18 Jul",
+      "url": "https://docedge.nz/events/collapse/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A return home becomes a vantage point on violence, distance, and denial.\nShortly after October 7, 2023, Director Even returns to what was once her home, traversing for over two years the remnants of the kibbutz of Nir Oz and its environs, now repurposed for tourist itineraries and military training exercises. From distant vantage points along the fence demarcating the Gaza Strip, she observes the gradual ruination across the border and the calculated maneuvers of IDF troops. A cinematic essay, the film chronicles systematic violence while exposing the muted indifference of spectators.",
+      "description": "A return home becomes a vantage point on violence, distance, and denial.\nShortly after October 7, 2023, Director Even returns to what was once her home, traversing for over two years the remnants of the kibbutz of Nir Oz and its environs, now repurposed for tourist itineraries and military training exercises.\nFrom distant vantage points along the fence demarcating the Gaza Strip, she observes the gradual ruination across the border and the calculated maneuvers of IDF troops.\nA cinematic essay, the film chronicles systematic violence while exposing the muted indifference of spectators.",
+      "labels": []
+    },
+    {
+      "id": "Dance For Your Life-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Dance For Your Life",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780304166923_CAP_dance-for-your-life.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-17-17:45"
+      ],
+      "displayDate": "Fri 17 Jul",
+      "url": "https://docedge.nz/events/dance-for-your-life/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Talent gets you seen. Hunger gets you hired.\nAn intimate portrait into the highly competitive world of the commercial back-up dancer where chances are few, and your best friends are your competition. Brent Street, Australia\u2019s leading commercial dance schools, is offered a once-in-a-lifetime opportunity to send ten of its best dancers, past and present, to London to audition for international dance company, Shapehaus Dance Theatre, led by renowned dancer and choreographer, Dean Lee. Who will make the cut?",
+      "description": "Talent gets you seen.\nHunger gets you hired.\nAn intimate portrait into the highly competitive world of the commercial back-up dancer where chances are few, and your best friends are your competition.\nBrent Street, Australia\u2019s leading commercial dance schools, is offered a once-in-a-lifetime opportunity to send ten of its best dancers, past and present, to London to audition for international dance company, Shapehaus Dance Theatre, led by renowned dancer and choreographer, Dean Lee.\nWho will make the cut?",
+      "labels": []
+    },
+    {
+      "id": "Elon Musk Unveiled \u2013 The Tesla Experiment-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Elon Musk Unveiled \u2013 The Tesla Experiment",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780306235871_CAP_elon-musk-unveiled.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-19-17:45"
+      ],
+      "displayDate": "Sun 19 Jul",
+      "url": "https://docedge.nz/events/elon-musk-unveiled-the-tesla-experiment/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "When profit becomes more important than human lives.\nIt is 2014 and tech billionaire Elon Musk unveils his plans for a self-driving car in front of an enthusiastic audience. What consumers don\u2019t know is that Tesla\u2019s \u201cautopilot\u201d function is far from road-ready, and new owners are being used to improve the software by providing their data. A fatal accident in Florida triggers a protracted lawsuit to hold Tesla accountable, and it is not the only incident. Shocking footage from dashcams and security cameras shows the ruthlessness of Tesla cars suddenly braking or accelerating, and the crashes that follow.",
+      "description": "When profit becomes more important than human lives.\nIt is 2014 and tech billionaire Elon Musk unveils his plans for a self-driving car in front of an enthusiastic audience.\nWhat consumers don\u2019t know is that Tesla\u2019s \u201cautopilot\u201d function is far from road-ready, and new owners are being used to improve the software by providing their data.\nA fatal accident in Florida triggers a protracted lawsuit to hold Tesla accountable, and it is not the only incident.\nShocking footage from dashcams and security cameras shows the ruthlessness of Tesla cars suddenly braking or accelerating, and the crashes that follow.",
+      "labels": []
+    },
+    {
+      "id": "Finding Honk-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Finding Honk",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780307051089_CAP_finding-honk.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-20-20:15"
+      ],
+      "displayDate": "Mon 20 Jul",
+      "url": "https://docedge.nz/events/finding-honk/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A search for reconciliation, shaped by truth and imagination.\nWhen singing legend Hemi Pere is diagnosed with a terminal illness, he tasks his son, Hayden, with finding an estranged family member, \u201cHonk\u201d, so they can make peace before time runs out. As Hayden navigates Honk\u2019s connections within the criminal underbelly, he must decipher clues and red herrings to solve the mystery of Honk\u2019s whereabouts. The closer Hayden comes to finding Honk, the further he travels into danger. To fulfil his father\u2019s dying wish, Hayden is pulled into the shadows of his own family history, where vengeful enemies and hidden truths threaten everything he holds dear.",
+      "description": "A search for reconciliation, shaped by truth and imagination.\nWhen singing legend Hemi Pere is diagnosed with a terminal illness, he tasks his son, Hayden, with finding an estranged family member, \u201cHonk\u201d, so they can make peace before time runs out.\nAs Hayden navigates Honk\u2019s connections within the criminal underbelly, he must decipher clues and red herrings to solve the mystery of Honk\u2019s whereabouts.\nThe closer Hayden comes to finding Honk, the further he travels into danger.\nTo fulfil his father\u2019s dying wish, Hayden is pulled into the shadows of his own family history, where vengeful enemies and hidden truths threaten everything he holds dear.",
+      "labels": []
+    },
+    {
+      "id": "First Cuts are the Deepest (\u0e1a\u0e32\u0e14\u0e40\u0e25\u0e47\u0e01\u0e40\u0e08\u0e47\u0e1a\u0e25\u0e36\u0e01)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "First Cuts are the Deepest (\u0e1a\u0e32\u0e14\u0e40\u0e25\u0e47\u0e01\u0e40\u0e08\u0e47\u0e1a\u0e25\u0e36\u0e01)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780304827212_CAP_first-cuts-are-the-deepest.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-18-14:00"
+      ],
+      "displayDate": "Sat 18 Jul",
+      "url": "https://docedge.nz/events/first-cuts-are-the-deepest-baad-lek-jeb-luk/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Three Thai children, six years of becoming.\nFilmed over six years, the film follows three children growing up within Thailand\u2019s education system. Potter adjusts to a new home and faith in the deep South; Nut comes of age in a spiritual boarding school; while Tee moves through an overcrowded classroom in Bangkok. Without commentary, the film observes how everyday moments of friendship, confusion, and solitude quietly shape who they become over time.",
+      "description": "Three Thai children, six years of becoming.\nFilmed over six years, the film follows three children growing up within Thailand\u2019s education system.\nPotter adjusts to a new home and faith in the deep South; Nut comes of age in a spiritual boarding school; while Tee moves through an overcrowded classroom in Bangkok.\nWithout commentary, the film observes how everyday moments of friendship, confusion, and solitude quietly shape who they become over time.",
+      "labels": []
+    },
+    {
+      "id": "For Life-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "For Life",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780305005451_CAP_for-life.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-18-16:15"
+      ],
+      "displayDate": "Sat 18 Jul",
+      "url": "https://docedge.nz/events/for-life/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Separated by bars and borders, motherhood becomes an act of resistance.\nHind, a Palestinian woman, has been living apart from her husband, Ramadan, who has been held in an Israeli prison, serving a life sentence for over twenty years. Their rare visits are limited to brief moments in a space divided by a glass partition, where physical contact is impossible. Despite everything, Hind remains determined to fulfill her desire to become a mother. To do so, she must secretly smuggle her husband\u2019s sperm out of prison and undergo IVF treatment. Hind\u2019s arduous journey intersects with the stories of other prisoners\u2019 wives who share the same desire, forming a space of collective solidarity. For Palestinian women, this ordinary desire gradually transforms into an extraordinary act of resistance under the conditions of occupation.",
+      "description": "Separated by bars and borders, motherhood becomes an act of resistance.\nHind, a Palestinian woman, has been living apart from her husband, Ramadan, who has been held in an Israeli prison, serving a life sentence for over twenty years.\nTheir rare visits are limited to brief moments in a space divided by a glass partition, where physical contact is impossible.\nDespite everything, Hind remains determined to fulfill her desire to become a mother.\nTo do so, she must secretly smuggle her husband\u2019s sperm out of prison and undergo IVF treatment.",
+      "labels": []
+    },
+    {
+      "id": "Frost Without Snow and Ice-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Frost Without Snow and Ice",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780369892380_CAP_frost-without-snow.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-25-10:00"
+      ],
+      "displayDate": "Sat 25 Jul",
+      "url": "https://docedge.nz/events/frost-without-snow-and-ice/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "In the fastest\u2011warming place on earth, a mother bear fights to keep her cubs alive.\nFor ten years, Director Helgestad follows polar bear named Frost, a mother struggling to raise her cubs in a rapidly changing Arctic. A story of survival and love, conflict and loss in Svalbard, the fastest-warming place on earth. Helgestad is left with a question that frames the film: can empathy and understanding bridge the gap between humans and other animals before it\u2019s too late?",
+      "description": "In the fastest\u2011warming place on earth, a mother bear fights to keep her cubs alive.\nFor ten years, Director Helgestad follows polar bear named Frost, a mother struggling to raise her cubs in a rapidly changing Arctic.\nA story of survival and love, conflict and loss in Svalbard, the fastest-warming place on earth.\nHelgestad is left with a question that frames the film: can empathy and understanding bridge the gap between humans and other animals before it\u2019s too late?",
+      "labels": []
+    },
+    {
+      "id": "Half Moon-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Half Moon",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780306520009_CAP_half-moon.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-19-20:30"
+      ],
+      "displayDate": "Sun 19 Jul",
+      "url": "https://docedge.nz/events/half-moon/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "What is the role of art in times of great suffering and tragedy?\nNew York based clarinettist virtuoso and composer Kinan Azmeh, a Damascus-born musician living in exile, attempts to find meaning and purpose after the outbreak of war in Syria. Director Scheffer follows Kinan over several years as he attempts to navigate this crisis of identity and purpose, travelling the world for concerts with other world-class musicians (including Yo-Yo Ma), revisiting his former mentors, and developing his own unique style of improvisational composition. A profound exploration of the role art can play in forging identity and community.",
+      "description": "What is the role of art in times of great suffering and tragedy?\nNew York based clarinettist virtuoso and composer Kinan Azmeh, a Damascus-born musician living in exile, attempts to find meaning and purpose after the outbreak of war in Syria.\nDirector Scheffer follows Kinan over several years as he attempts to navigate this crisis of identity and purpose, travelling the world for concerts with other world-class musicians (including Yo-Yo Ma), revisiting his former mentors, and developing his own unique style of improvisational composition.\nA profound exploration of the role art can play in forging identity and community.",
+      "labels": []
+    },
+    {
+      "id": "In the Path of Giants-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "In the Path of Giants",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780368957429_CAP_in-the-path-of-giants.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-23-18:15"
+      ],
+      "displayDate": "Thu 23 Jul",
+      "url": "https://docedge.nz/events/in-the-path-of-giants/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Where refugees, farmers, and elephants compete for home.\nIn 2017, Bangladesh opened its borders to nearly a million Rohingya fleeing violence in Myanmar. But the vast camp built to shelter the refugees cut off Bangladesh\u2019s wild elephants from their last migratory corridor, causing them to rampage across farmland in their search for food. The result is a tense stand-off as Rohingya refugees, local Bengalis and Indigenous farmers are forced to contend with the elephants in a fight for land, survival and a place to call home.",
+      "description": "Where refugees, farmers, and elephants compete for home.\nIn 2017, Bangladesh opened its borders to nearly a million Rohingya fleeing violence in Myanmar.\nBut the vast camp built to shelter the refugees cut off Bangladesh\u2019s wild elephants from their last migratory corridor, causing them to rampage across farmland in their search for food.\nThe result is a tense stand-off as Rohingya refugees, local Bengalis and Indigenous farmers are forced to contend with the elephants in a fight for land, survival and a place to call home.",
+      "labels": []
+    },
+    {
+      "id": "Inside Gaza-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Inside Gaza",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780308367743_CAP_inside-gaza.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-22-18:00"
+      ],
+      "displayDate": "Wed 22 Jul",
+      "url": "https://docedge.nz/events/inside-gaza/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Bearing witness when no one else can enter.\nFree access to the Gaza Strip has remained closed to international journalists since the war began on October 7, 2023. Agence France-Presse (AFP) local reporters are among the few witnesses inside, documenting the conflict while struggling to survive. From exile, they recount a war that has become the deadliest on record for the press. Drawing on hundreds of hours of footage, photographs and reporting, Mai Yaghi, Adel El-Zaanun, Mohammed Abed and Mahmud Hams evoke the shock of escalation, the constant presence of the dead and wounded, and the burden of bearing witness.",
+      "description": "Bearing witness when no one else can enter.\nFree access to the Gaza Strip has remained closed to international journalists since the war began on October 7, 2023.\nAgence France-Presse (AFP) local reporters are among the few witnesses inside, documenting the conflict while struggling to survive.\nFrom exile, they recount a war that has become the deadliest on record for the press.\nDrawing on hundreds of hours of footage, photographs and reporting, Mai Yaghi, Adel El-Zaanun, Mohammed Abed and Mahmud Hams evoke the shock of escalation, the constant presence of the dead and wounded, and the burden of bearing witness.",
+      "labels": []
+    },
+    {
+      "id": "Kabul, Between Prayers-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Kabul, Between Prayers",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780304496866_CAP_kabul-between-prayers.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-17-20:30"
+      ],
+      "displayDate": "Fri 17 Jul",
+      "url": "https://docedge.nz/events/kabul-between-prayers/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "As one brother lives by doctrine, the other grows up inside it.\nA devoted soldier of the Taliban\u2019s ideology that has shaped his destiny since birth, Samim struggles between the alluring promises of martyrdom and the mundanity of his daily existence as a husband and farmer. Samim\u2019s younger brother, Rafi, idolises him as he navigates the confusion of adolescence, leaving behind playfulness to enter a world shaped by decades of military intervention and resulting radicalisation.",
+      "description": "As one brother lives by doctrine, the other grows up inside it.\nA devoted soldier of the Taliban\u2019s ideology that has shaped his destiny since birth, Samim struggles between the alluring promises of martyrdom and the mundanity of his daily existence as a husband and farmer.\nSamim\u2019s younger brother, Rafi, idolises him as he navigates the confusion of adolescence, leaving behind playfulness to enter a world shaped by decades of military intervention and resulting radicalisation.",
+      "labels": []
+    },
+    {
+      "id": "Kikuyu Land-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Kikuyu Land",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780373915105_CAP_kikuyu-land.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-26-17:50"
+      ],
+      "displayDate": "Sun 26 Jul",
+      "url": "https://docedge.nz/events/kikuyu-land/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "One man\u2019s fight for stolen land exposes Kenya\u2019s unfinished colonial past.\nSet in Kenya\u2019s tea highlands, Mr Mungai seeks justice for land taken from his family. His claim uncovers a deeper history of dispossession, bringing him into conflict with a multinational corporation still operating on contested ground. As the case gains momentum, it draws in Bea, a local news producer whose investigation reveals buried histories and long-silenced truths. Alongside them is Stephen, the son of a tea worker, growing up within the plantations at the centre of the dispute. Moving between legal battle and lived experience, the film traces a community\u2019s struggle to reclaim what was lost and confront a past that remains unresolved.",
+      "description": "One man\u2019s fight for stolen land exposes Kenya\u2019s unfinished colonial past.\nSet in Kenya\u2019s tea highlands, Mr Mungai seeks justice for land taken from his family.\nHis claim uncovers a deeper history of dispossession, bringing him into conflict with a multinational corporation still operating on contested ground.\nAs the case gains momentum, it draws in Bea, a local news producer whose investigation reveals buried histories and long-silenced truths.\nAlongside them is Stephen, the son of a tea worker, growing up within the plantations at the centre of the dispute.",
+      "labels": []
+    },
+    {
+      "id": "Kings of Venice-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Kings of Venice",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780369744694_CAP_kings-of-venice.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-24-20:15"
+      ],
+      "displayDate": "Fri 24 Jul",
+      "url": "https://docedge.nz/events/kings-of-venice/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "No paddles down when Pickleball comes to town.\nA madcap look at the Paddle Tennis community of Venice Beach. Once thriving, it is now kept alive by a collection of oddballs, including an Italian male model, a degenerate gambler, and Hollywood\u2019s most accomplished party crasher. When Pickleball arrives on the beach and overtakes their beloved courts, the locals hatch an over-the-top plan: a $50,000 winner-takes-all paddle tennis tournament \u2014 only to find top pickleball players entering.",
+      "description": "No paddles down when Pickleball comes to town.\nA madcap look at the Paddle Tennis community of Venice Beach.\nOnce thriving, it is now kept alive by a collection of oddballs, including an Italian male model, a degenerate gambler, and Hollywood\u2019s most accomplished party crasher.\nWhen Pickleball arrives on the beach and overtakes their beloved courts, the locals hatch an over-the-top plan: a $50,000 winner-takes-all paddle tennis tournament \u2014 only to find top pickleball players entering.",
+      "labels": []
+    },
+    {
+      "id": "Legacy (H\u00e9riti\u00e8res)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Legacy (H\u00e9riti\u00e8res)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780303896331_CAP_legacy.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-17-16:30",
+        "2026-07-17-16:30"
+      ],
+      "displayDate": "Fri 17 Jul + more",
+      "url": "https://docedge.nz/events/legacy-heritieres/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A women\u2019s musical gathering where memory becomes celebration.\nAt the crossroads of musical documentary, art film and poetic essay, this film delves into the musical project of the same name, bringing together more than twenty female musicians of different generations and cultural backgrounds. Through intimate testimonies and music, the film explores maternal legacy and the heritage carried between women across generations. Kiwi and Canadian co-directors Parry-Canet and Pion offer a full immersion into intergenerational memory.",
+      "description": "A women\u2019s musical gathering where memory becomes celebration.\nAt the crossroads of musical documentary, art film and poetic essay, this film delves into the musical project of the same name, bringing together more than twenty female musicians of different generations and cultural backgrounds.\nThrough intimate testimonies and music, the film explores maternal legacy and the heritage carried between women across generations.\nKiwi and Canadian co-directors Parry-Canet and Pion offer a full immersion into intergenerational memory.",
+      "labels": []
+    },
+    {
+      "id": "Let Our Mountains Live (La Fjella Leve)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Let Our Mountains Live (La Fjella Leve)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780373192391_CAP_let-our-mountains-live.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-26-12:00"
+      ],
+      "displayDate": "Sun 26 Jul",
+      "url": "https://docedge.nz/events/let-our-mountains-live/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Reindeer cannot eat money.\nS\u00e1mi reindeer herders Sissel Stormo Holtan, Terje Haugen, and Elise Holtan Pavall have spent two decades fighting Europe\u2019s largest wind power project, built across vital S\u00e1mi reindeer grazing lands in Norway. Before legal challenges were resolved, 151 turbines were installed. In a landmark ruling, the Supreme Court found the wind farm violated S\u00e1mi human rights, raising hopes the land would be restored. But the government refused to act, backing powerful energy interests and proposing coexistence. Now the reindeer herders face an impossible choice: accept a \u20ac14 million settlement to relocate, or continue a long legal battle.",
+      "description": "Reindeer cannot eat money.\nS\u00e1mi reindeer herders Sissel Stormo Holtan, Terje Haugen, and Elise Holtan Pavall have spent two decades fighting Europe\u2019s largest wind power project, built across vital S\u00e1mi reindeer grazing lands in Norway.\nBefore legal challenges were resolved, 151 turbines were installed.\nIn a landmark ruling, the Supreme Court found the wind farm violated S\u00e1mi human rights, raising hopes the land would be restored.\nBut the government refused to act, backing powerful energy interests and proposing coexistence.",
+      "labels": []
+    },
+    {
+      "id": "Loving Karma-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Loving Karma",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780374042752_CAP_loving-karma.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-26-19:45"
+      ],
+      "displayDate": "Sun 26 Jul",
+      "url": "https://docedge.nz/events/loving-karma/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "What happens when suffering meets compassion?\nIn the remote foothills of the Himalayas, former monk Lobsang Phuntsok founded Jhamtse Gatsal, a refuge for children shaped by abandonment and trauma. Once a teacher in the United States of America, he returned to India to build the community he never had as an orphan. Tashi, the youngest and most volatile arrival, carries the scars of a fractured childhood and resists every attempt at care. Twelve years after the Emmy Award winning Tashi and the Monk, this film follows their lives and a new generation of children, revealing a community where healing emerges through shared responsibility, presence, and love.",
+      "description": "What happens when suffering meets compassion?\nIn the remote foothills of the Himalayas, former monk Lobsang Phuntsok founded Jhamtse Gatsal, a refuge for children shaped by abandonment and trauma.\nOnce a teacher in the United States of America, he returned to India to build the community he never had as an orphan.\nTashi, the youngest and most volatile arrival, carries the scars of a fractured childhood and resists every attempt at care.\nTwelve years after the Emmy Award winning Tashi and the Monk, this film follows their lives and a new generation of children, revealing a community where healing emerges through shared responsibility, presence, and love.",
+      "labels": []
+    },
+    {
+      "id": "Mar Musa-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Mar Musa",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780308506519_CAP_mar-musa.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-22-20:30"
+      ],
+      "displayDate": "Wed 22 Jul",
+      "url": "https://docedge.nz/events/mar-musa/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A sanctuary of peace in a wounded land.\nIn the Syrian mountains of Al Ghalamoun, overlooking the vast desert, stands the ancient Christian monastery of Mar Musa, a beacon of interfaith dialogue and radical hospitality in a fractured land. The film follows the monks and nuns through intimate, observational storytelling as they navigate postwar devastation working towards peace, even in the face of grave personal loss. Through cinematography and a hypnotic score, this film emerges as a profound metaphor for Syria itself.",
+      "description": "A sanctuary of peace in a wounded land.\nIn the Syrian mountains of Al Ghalamoun, overlooking the vast desert, stands the ancient Christian monastery of Mar Musa, a beacon of interfaith dialogue and radical hospitality in a fractured land.\nThe film follows the monks and nuns through intimate, observational storytelling as they navigate postwar devastation working towards peace, even in the face of grave personal loss.\nThrough cinematography and a hypnotic score, this film emerges as a profound metaphor for Syria itself.",
+      "labels": []
+    },
+    {
+      "id": "Modern Whore-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Modern Whore",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780372255245_CAP_modern-whore.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-25-14:00"
+      ],
+      "displayDate": "Sat 25 Jul",
+      "url": "https://docedge.nz/events/modern-whore/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Funny, raw, and unapologetically real.\nBased on her book Modern Whore: A Memoir, Andrea Werhun portrays her past roles as escort Mary Ann, stripper Sophia, and an OnlyFans creator. Through a series of funny, raw and disarming encounters, Andrea explores intimacy, labour and identity, confronting how sex workers are seen and how they see themselves. This hybrid film pushes the conventional divide between documentary and fiction.\n  Screening Note:  This film is preceded by the short film, Monster Slayer, (21 mins).",
+      "description": "Funny, raw, and unapologetically real.\nBased on her book Modern Whore: A Memoir, Andrea Werhun portrays her past roles as escort Mary Ann, stripper Sophia, and an OnlyFans creator.\nThrough a series of funny, raw and disarming encounters, Andrea explores intimacy, labour and identity, confronting how sex workers are seen and how they see themselves.\nThis hybrid film pushes the conventional divide between documentary and fiction.\nScreening Note:  This film is preceded by the short film, Monster Slayer, (21 mins).",
+      "labels": []
+    },
+    {
+      "id": "Molly vs The Machines-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Molly vs The Machines",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780373633478_CAP_molly-vs-the-machines.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-26-16:00"
+      ],
+      "displayDate": "Sun 26 Jul",
+      "url": "https://docedge.nz/events/molly-vs-the-machines/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "From a teenager\u2019s suburban bedroom to the boardrooms of Silicon Valley.\nAt 14, Molly Russell seemed like any other teenager. But behind her screen, powerful algorithms were shaping what she saw. After her sudden death, her father Ian begins a relentless search for answers, uncovering how social media systems can draw young users into dangerous spirals. From a teenager\u2019s suburban bedroom to the boardrooms of Silicon Valley, this film is the story of a heartbroken father\u2019s quest to uncover the truth behind his daughter\u2019s death and his fightback against how the most powerful corporations of the modern age operate. A cautionary tale for both young people and parents.",
+      "description": "From a teenager\u2019s suburban bedroom to the boardrooms of Silicon Valley.\nAt 14, Molly Russell seemed like any other teenager.\nBut behind her screen, powerful algorithms were shaping what she saw.\nAfter her sudden death, her father Ian begins a relentless search for answers, uncovering how social media systems can draw young users into dangerous spirals.\nFrom a teenager\u2019s suburban bedroom to the boardrooms of Silicon Valley, this film is the story of a heartbroken father\u2019s quest to uncover the truth behind his daughter\u2019s death and his fightback against how the most powerful corporations of the modern age operate.",
+      "labels": []
+    },
+    {
+      "id": "Music and the Mystical Experience-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Music and the Mystical Experience",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1781144713311_CAP_music-and-the-mystical-experience.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-18-17:45"
+      ],
+      "displayDate": "Sat 18 Jul",
+      "url": "https://docedge.nz/events/music-and-the-mystical-experience/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Where music meets the mind\u2019s inner journey.\nMusician and sound engineer Michael Sutherland takes us on a metaphorical tour of his latest musical project involving over twenty talented New Zealanders, aimed at aiding the controversial practice of psychedelic therapy. Weaving artist interviews, numerous performances, and appearances from veterans in the psychedelic field, including Chris Bache, the film gives an insight into how music enhances a psychedelic therapy session, and how much thought and effort goes into getting that music just right.\n  Screening Note:  Companion immersive project in the World Press & Doc Edge Immersive Exhibition \u2013 More info.",
+      "description": "Where music meets the mind\u2019s inner journey.\nMusician and sound engineer Michael Sutherland takes us on a metaphorical tour of his latest musical project involving over twenty talented New Zealanders, aimed at aiding the controversial practice of psychedelic therapy.\nWeaving artist interviews, numerous performances, and appearances from veterans in the psychedelic field, including Chris Bache, the film gives an insight into how music enhances a psychedelic therapy session, and how much thought and effort goes into getting that music just right.\nScreening Note:  Companion immersive project in the World Press & Doc Edge Immersive Exhibition \u2013 More info.",
+      "labels": []
+    },
+    {
+      "id": "Ranginui: Call of the Ice-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Ranginui: Call of the Ice",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780307482320_CAP_ranginui-call-of-the-ice.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-21-18:00"
+      ],
+      "displayDate": "Tue 21 Jul",
+      "url": "https://docedge.nz/events/ranginui-call-of-the-ice/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "What is revealed depends on how closely you are willing to look.\nAntarctica in winter is one of the most extreme places on Earth: isolated, locked in darkness, and -50\u00b0C. M\u0101ori astronomer Rangi Matamua and language expert Mataia Keepa enter this frozen world, where science and Indigenous knowledge meet in real time. Rangi carries a personal promise to honour his grandfather\u2019s dying wish and share M\u0101ori starlore beyond Aotearoa. When unexpected snowstorms roll in, they are forced to stay longer than planned, cut off inside a continent that continues to shift and close in around them. Through auroras, storms, first sunrise and shifting ice, they learn to read a living landscape most will never witness.\n  Made with the support of Te M\u0101ngai P\u0101ho, TVNZ and RNZ.",
+      "description": "What is revealed depends on how closely you are willing to look.\nAntarctica in winter is one of the most extreme places on Earth: isolated, locked in darkness, and -50\u00b0C.\nM\u0101ori astronomer Rangi Matamua and language expert Mataia Keepa enter this frozen world, where science and Indigenous knowledge meet in real time.\nRangi carries a personal promise to honour his grandfather\u2019s dying wish and share M\u0101ori starlore beyond Aotearoa.\nWhen unexpected snowstorms roll in, they are forced to stay longer than planned, cut off inside a continent that continues to shift and close in around them.",
+      "labels": []
+    },
+    {
+      "id": "Redlight to Limelight-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Redlight to Limelight",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780372813119_CAP_redlight-to-limelight.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-25-20:00"
+      ],
+      "displayDate": "Sat 25 Jul",
+      "url": "https://docedge.nz/events/redlight-to-limelight/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "From the shadows of the street to the light of the silver screen.\nCAM-ON, a self-taught filmmaking collective of sex workers and their children, use cinema to reclaim their stories and challenge generations of stigma. Born into one of the most marginalised and caste-oppressed communities, they are not only telling their stories, but reshaping how they are seen. Through filmmaking, they move beyond lives long defined by others, building confidence, dignity and a renewed sense of self-worth. Told from within through v\u00e9rit\u00e9 and self-shot footage, the film is a powerful portrait of resilience and transformation.",
+      "description": "From the shadows of the street to the light of the silver screen.\nCAM-ON, a self-taught filmmaking collective of sex workers and their children, use cinema to reclaim their stories and challenge generations of stigma.\nBorn into one of the most marginalised and caste-oppressed communities, they are not only telling their stories, but reshaping how they are seen.\nThrough filmmaking, they move beyond lives long defined by others, building confidence, dignity and a renewed sense of self-worth.\nTold from within through v\u00e9rit\u00e9 and self-shot footage, the film is a powerful portrait of resilience and transformation.",
+      "labels": []
+    },
+    {
+      "id": "Remathau: People of the Ocean-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Remathau: People of the Ocean",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780369603679_CAP_remathau-people-of-the-ocean.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-24-18:15"
+      ],
+      "displayDate": "Fri 24 Jul",
+      "url": "https://docedge.nz/events/remathau-people-of-the-ocean/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "The deepest dive reveals an ancient lineage.\nNicole Yamase becomes the first Micronesian and Indigenous person to dive to \u201cChallenger Deep\u201d in the Marianas Trench, the deepest point in the ocean. As global attention intensifies, the weight of expectation pushes her to confront what it means to carry this historic first. Beyond the record, she turns inward, exploring her identity as a descendant of master navigators. In the silence of the ocean\u2019s depths, a richer story emerges of Pacific resilience where culture, language and ancestral knowledge endure.\n  Screening Note:  This film is preceded by the short film, Tied with the Tides, (10 mins). Andy Hui Liuxing (Director, Tied with the Tides) will be present at Takapuna Beachside Cinemas, Auckland screening for Q&A.",
+      "description": "The deepest dive reveals an ancient lineage.\nNicole Yamase becomes the first Micronesian and Indigenous person to dive to \u201cChallenger Deep\u201d in the Marianas Trench, the deepest point in the ocean.\nBeyond the record, she turns inward, exploring her identity as a descendant of master navigators.\nScreening Note:  This film is preceded by the short film, Tied with the Tides, (10 mins).\nAndy Hui Liuxing (Director, Tied with the Tides) will be present at Takapuna Beachside Cinemas, Auckland screening for Q&A.",
+      "labels": []
+    },
+    {
+      "id": "Replica-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Replica",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780372426700_CAP_replica.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-25-16:05"
+      ],
+      "displayDate": "Sat 25 Jul",
+      "url": "https://docedge.nz/events/replica/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "The perfect boyfriend doesn\u2019t exist. Until he is coded.\nThree women turn to AI lovers to fill gaps left by modern life. Qin, a factory worker in her twenties, creates the perfect boyfriend to escape isolation. Muna, a married housewife, uses AI to reclaim desire beyond the limits of her marriage. Sonya, independent and self-assured, treats AI as an experiment until it begins to unsettle her sense of control. As their relationships deepen, the film reveals the seductive pull of intimacy without friction, where affection is constant, responsive and designed to please. What happens to love when it no longer requires negotiation, and connection comes without consequence?",
+      "description": "The perfect boyfriend doesn\u2019t exist.\nUntil he is coded.\nThree women turn to AI lovers to fill gaps left by modern life.\nQin, a factory worker in her twenties, creates the perfect boyfriend to escape isolation.\nMuna, a married housewife, uses AI to reclaim desire beyond the limits of her marriage.",
+      "labels": []
+    },
+    {
+      "id": "Return to the Strange Land-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Return to the Strange Land",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780373479941_CAP_return-to-the-strange-land.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-26-14:00"
+      ],
+      "displayDate": "Sun 26 Jul",
+      "url": "https://docedge.nz/events/return-to-the-strange-land/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "One last masterpiece for his lifelong muse.\nRenowned choreographer Ji\u0159\u00ed Kyli\u00e1n\u2019s craft has always reflected his own life. His final choreography made for his lifelong love and collaborator, Sabine Kupferberg, is a deeply personal performance that celebrates love, creation, and the ephemeral nature of life. Set against the raw, windswept beauty of the Dutch island of Terschelling, the shifting light and landscape mirror the fragile boundary between life and its end. Blending movement and memory with a subtle sense of the tragicomic, the film becomes an intimate meditation on longing, love and the fleeting nature of existence.\n  Screening Note:  This film is preceded by the short film, Flashes in the Realm of Caves, (11 mins).",
+      "description": "One last masterpiece for his lifelong muse.\nRenowned choreographer Ji\u0159\u00ed Kyli\u00e1n\u2019s craft has always reflected his own life.\nHis final choreography made for his lifelong love and collaborator, Sabine Kupferberg, is a deeply personal performance that celebrates love, creation, and the ephemeral nature of life.\nSet against the raw, windswept beauty of the Dutch island of Terschelling, the shifting light and landscape mirror the fragile boundary between life and its end.\nScreening Note:  This film is preceded by the short film, Flashes in the Realm of Caves, (11 mins).",
+      "labels": []
+    },
+    {
+      "id": "Revolution\u2019s Daughter-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Revolution\u2019s Daughter",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780302486169_CAP_revolutions-daughter.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-15-18:00"
+      ],
+      "displayDate": "Wed 15 Jul",
+      "url": "https://docedge.nz/events/revolutions-daughter/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "His revolution. Her truth.\nAlina Fern\u00e1ndez grew up in Havana not knowing she was Fidel Castro\u2019s daughter, an open secret kept from her alone. Years before escaping Cuba and rebuilding her life in Miami, she made a choice that would define her: to speak out, and to keep speaking out. She calls it the only thing she ever really did, the one act she refused to shrink from. The film weaves Alina\u2019s defiance into the broader fabric of Miami\u2019s Cuban exile community, where artists and storytellers across generations carry the inheritance of revolution in their own ways, exploring identity, belonging, and what it costs to use your voice when silence would be easier.",
+      "description": "His revolution.\nHer truth.\nAlina Fern\u00e1ndez grew up in Havana not knowing she was Fidel Castro\u2019s daughter, an open secret kept from her alone.\nYears before escaping Cuba and rebuilding her life in Miami, she made a choice that would define her: to speak out, and to keep speaking out.\nShe calls it the only thing she ever really did, the one act she refused to shrink from.",
+      "labels": []
+    },
+    {
+      "id": "Seized-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Seized",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780369994437_CAP_seized.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-25-12:00"
+      ],
+      "displayDate": "Sat 25 Jul",
+      "url": "https://docedge.nz/events/seized/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "When journalism is raided, democracy is tested.\nThis film is a gripping, stranger-than-fiction investigative thriller that plunges audiences inside the troubling police raid on the Marion County Record. What begins as a shocking small-town incident quickly spirals into a story that reaches international headlines, exposing how corruption, politics, and decades-long tensions turned a quaint Kansas community into a microcosm of worldwide attacks on freedom of speech. Equal parts horrifying and hilarious, the film unfolds in real time through police body-cam and surveillance footage, revealing the raid\u2019s chaos, the remarkable pettiness that led up to them, and the devastating personal toll on the reporters, including the tragic death of the paper\u2019s 98-year-old co-publisher.",
+      "description": "When journalism is raided, democracy is tested.\nThis film is a gripping, stranger-than-fiction investigative thriller that plunges audiences inside the troubling police raid on the Marion County Record.\nWhat begins as a shocking small-town incident quickly spirals into a story that reaches international headlines, exposing how corruption, politics, and decades-long tensions turned a quaint Kansas community into a microcosm of worldwide attacks on freedom of speech.\nEqual parts horrifying and hilarious, the film unfolds in real time through police body-cam and surveillance footage, revealing the raid\u2019s chaos, the remarkable pettiness that led up to them, and the devastating personal toll on the reporters, including the tragic death of the paper\u2019s 98-year-old co-publisher.",
+      "labels": []
+    },
+    {
+      "id": "Shorts 1 : Leaving a Mark-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Shorts 1 : Leaving a Mark",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780303562089_CAP_leaving-a-mark.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-16-15:45"
+      ],
+      "displayDate": "Thu 16 Jul",
+      "url": "https://docedge.nz/events/shorts1-leaving-a-mark/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "This is a collection of four short films. \nGloria (16 mins)\nGood Kunst (12 mins)\nThe Revolution Against Death (23 mins)\nThe Weight of the World (15 mins)\nWhat does it mean to make something that lasts? From a pink church in Greymouth to Dick Frizzell\u2019s studio, from a Kiwi art collection under the hammer to Joshua Oppenheimer\u2019s meditation on immortality, these four shorts ask whether art, like life, is ever truly finished.\nScreening Note: More info on each film for this collection below.",
+      "description": "This is a collection of four short films.\nGloria (16 mins) Good Kunst (12 mins) The Revolution Against Death (23 mins) The Weight of the World (15 mins) What does it mean to make something that lasts?\nFrom a pink church in Greymouth to Dick Frizzell\u2019s studio, from a Kiwi art collection under the hammer to Joshua Oppenheimer\u2019s meditation on immortality, these four shorts ask whether art, like life, is ever truly finished.\nScreening Note: More info on each film for this collection below.",
+      "labels": []
+    },
+    {
+      "id": "Shorts 2 : Labour of Love-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Shorts 2 : Labour of Love",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780302747853_CAP_labour-of-love.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-15-16:15"
+      ],
+      "displayDate": "Wed 15 Jul",
+      "url": "https://docedge.nz/events/shorts-2-labour-of-love/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "This is a collection of four short films.\nSole (\uc5bc) (13 mins)\nThe Baker\u2019s Hotline (12 mins)\nThe Bookstore That Never Sleeps (27 mins)\nThe Tuners (Stroiciele) (21 mins)\nFor some, work is not what you do. It is who you are. A cobbler finds peace in craft. A hotline reveals tender lives behind kitchen catastrophes. A sailor keeps his bookstore open after dark. And behind the world\u2019s greatest piano competition, tuners chase perfect pitch.\nScreening Note: More info on each film in this collection below.",
+      "description": "This is a collection of four short films.\nSole (\uc5bc) (13 mins) The Baker\u2019s Hotline (12 mins) The Bookstore That Never Sleeps (27 mins) The Tuners (Stroiciele) (21 mins) For some, work is not what you do.\nIt is who you are.\nA cobbler finds peace in craft.\nA hotline reveals tender lives behind kitchen catastrophes.",
+      "labels": []
+    },
+    {
+      "id": "Shorts 3 : The View from Here-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Shorts 3 : The View from Here",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780368543442_CAP_the-view-from-here.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-23-16:30"
+      ],
+      "displayDate": "Thu 23 Jul",
+      "url": "https://docedge.nz/events/shorts-3-the-view-from-here/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "This is a collection of four short films.\nEmber (12 mins)\nFree Fish (\u0623\u0633\u0645\u0627\u0643 \u062d\u0631\u0651\u0629) (23 mins)\nMemories of a Window (19 mins)\nStudent Army (\u7ea2\u65d7\u4e0b\u7684\u86cb) (29 mins)\nFrom windows, shorelines, and occupied villages, these four films bear witness to the world\u2019s most urgent fractures. An elderly Ukrainian couple survives fire and occupation. Two brothers in Gaza remain bound by the sea despite siege and separation. And sometimes, the most powerful act of resistance is simply to keep watching.\nScreening Note: More info on each film in this collection below.",
+      "description": "This is a collection of four short films.\nEmber (12 mins) Free Fish (\u0623\u0633\u0645\u0627\u0643 \u062d\u0631\u0651\u0629) (23 mins) Memories of a Window (19 mins) Student Army (\u7ea2\u65d7\u4e0b\u7684\u86cb) (29 mins) From windows, shorelines, and occupied villages, these four films bear witness to the world\u2019s most urgent fractures.\nAn elderly Ukrainian couple survives fire and occupation.\nTwo brothers in Gaza remain bound by the sea despite siege and separation.\nAnd sometimes, the most powerful act of resistance is simply to keep watching.",
+      "labels": []
+    },
+    {
+      "id": "Shorts 4 : Steps of Courage-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Shorts 4 : Steps of Courage",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780305598537_CAP_steps-of-courage.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-19-12:15"
+      ],
+      "displayDate": "Sun 19 Jul",
+      "url": "https://docedge.nz/events/shorts-4-steps-of-courage/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "This is a collection of four short films.\nChicken Ghetto (18 mins)\nGirls\u2019 Flight Out (28 mins)\nHunter\u2019s Moon (14 mins)\nRace Be Run (15 mins)\nCourage wears many faces. A teenager in a Kampala slum sings her questions to God. Women from the Chatham Islands turn a breast screening trip into a ritual of defiance. A young Kiwi farmer runs Canada\u2019s highways in a Superman costume. And two mountaineers make history on Mt Cook.\nScreening Note: More info on each film in this collection below.",
+      "description": "This is a collection of four short films.\nChicken Ghetto (18 mins) Girls\u2019 Flight Out (28 mins) Hunter\u2019s Moon (14 mins) Race Be Run (15 mins) Courage wears many faces.\nA teenager in a Kampala slum sings her questions to God.\nWomen from the Chatham Islands turn a breast screening trip into a ritual of defiance.\nA young Kiwi farmer runs Canada\u2019s highways in a Superman costume.",
+      "labels": []
+    },
+    {
+      "id": "Shorts 5 : Close to Heart-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Shorts 5 : Close to Heart",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780306897715_CAP_close-to-heart.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-20-18:30"
+      ],
+      "displayDate": "Mon 20 Jul",
+      "url": "https://docedge.nz/events/shorts-5-close-to-heart/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "This is a collection of four short films.\nJacqueline Fahey: From Where I\u2019m Looking (18 mins)\nLove Birds (28 mins)\nStoats\u2019 Last Stand (15 mins)\nThe Place Where Memories Hide (22 mins)\nLove in all its forms \u2014 between partners, species, and the places we call home. A granddaughter captures sixty years of love meeting ten years of Alzheimer\u2019s, while a 1970s discovery rewrites what we thought we knew about seagulls and partnership. Tender, surprising, and quietly profound.\nScreening Note: More info on all films in this collection below.",
+      "description": "This is a collection of four short films.\nJacqueline Fahey: From Where I\u2019m Looking (18 mins) Love Birds (28 mins) Stoats\u2019 Last Stand (15 mins) The Place Where Memories Hide (22 mins) Love in all its forms \u2014 between partners, species, and the places we call home.\nA granddaughter captures sixty years of love meeting ten years of Alzheimer\u2019s, while a 1970s discovery rewrites what we thought we knew about seagulls and partnership.\nTender, surprising, and quietly profound.\nScreening Note: More info on all films in this collection below.",
+      "labels": []
+    },
+    {
+      "id": "Sukundimi Walks Before Me-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Sukundimi Walks Before Me",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780307189077_CAP_sukundimi-walks-before-me.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-20-20:30"
+      ],
+      "displayDate": "Mon 20 Jul",
+      "url": "https://docedge.nz/events/sukundimi-walks-before-me/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Where a river\u2019s rights become a people\u2019s fight.\nThe Sepik River is the mother line for Papua New Guinea communities. Winding through mountains and rainforests, she is the crucial vertebrae connecting and supporting the region\u2019s rare biodiversity and spiritual consciousness. But her livelihood and her communities are threatened by the proposal of a copper-gold mine being built near at her headwaters, which could extract, erode and pollute an environment that she has sustained for millennia.\u202f \u202fThe children of this river, led by Manu Peni, create a grassroots campaign to stop the mine from being built, resisting the forces of colonial bureaucracy and Western narratives of \u2018development\u2019 by invoking the Spirit of the river and indigenous knowledge.\u202f Sukundimi Walks Before Me, explores this existential fight through lyrical expressions of existence, resistance and life along the mother river.\nThis film is supported by RNZ, Screen Inc, Pacific Islanders in Communications (PIC), the Shark Island Foundation, the Three Springs Foundation, Screen Australia and VicScreen.",
+      "description": "Where a river\u2019s rights become a people\u2019s fight.\nThe Sepik River is the mother line for Papua New Guinea communities.\nWinding through mountains and rainforests, she is the crucial vertebrae connecting and supporting the region\u2019s rare biodiversity and spiritual consciousness.\nBut her livelihood and her communities are threatened by the proposal of a copper-gold mine being built near at her headwaters, which could extract, erode and pollute an environment that she has sustained for millennia.\nThe children of this river, led by Manu Peni, create a grassroots campaign to stop the mine from being built, resisting the forces of colonial bureaucracy and Western narratives of \u2018development\u2019 by invoking the Spirit of the river and indigenous knowledge.",
+      "labels": []
+    },
+    {
+      "id": "The Art of Adventure-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "The Art of Adventure",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780373042168_CAP_the-art-of-adventure.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-26-10:00"
+      ],
+      "displayDate": "Sun 26 Jul",
+      "url": "https://docedge.nz/events/the-art-of-adventure/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A vintage road trip that fuelled a lifetime of wonder.\nIn 1957, renowned wildlife artist Robert Bateman and spirited biologist Bristol Foster set out on a global expedition in a rugged Land Rover they called \u201cThe Grizzly Torque\u201d. Starting in the UK, their travels took them to the far corners of the earth. From the lush rainforests of the Congo to the vibrant landscapes of India, Bob painted the wonders they encounter, while Bristol filmed on his 16mm Bolex camera. Blending original 16mm footage with reflections from later life, the film traces how their journey shaped two remarkable paths: one through art, the other through science. A heartwarming, inspirational love letter to friendship and the adventure of life.",
+      "description": "A vintage road trip that fuelled a lifetime of wonder.\nIn 1957, renowned wildlife artist Robert Bateman and spirited biologist Bristol Foster set out on a global expedition in a rugged Land Rover they called \u201cThe Grizzly Torque\u201d.\nStarting in the UK, their travels took them to the far corners of the earth.\nFrom the lush rainforests of the Congo to the vibrant landscapes of India, Bob painted the wonders they encounter, while Bristol filmed on his 16mm Bolex camera.\nBlending original 16mm footage with reflections from later life, the film traces how their journey shaped two remarkable paths: one through art, the other through science.",
+      "labels": []
+    },
+    {
+      "id": "The Essence of Eva-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "The Essence of Eva",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780369237690_CAP_the-essence-of-eva.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-24-16:30"
+      ],
+      "displayDate": "Fri 24 Jul",
+      "url": "https://docedge.nz/events/the-essence-of-eva/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A heart-tugging story about a talent gone too soon.\nFeaturing never-before-heard recordings and exclusive archive footage, the film reveals the true essence of legendary American singer Eva Cassidy whose voice continues to captivate audiences. Eva passed away in 1996 at the age of just 33, following a battle with melanoma. At the time, she was virtually unknown outside her local music scene. In the years that followed, her recordings found a fervent global audience, and a groundswell of admiration that would posthumously propel her to multi-platinum success. Told through the eyes of those who knew her best, as well as acclaimed musicians Mick Fleetwood and Sting, this film traces the life and legacy of a woman whose music defied genre and convention.",
+      "description": "A heart-tugging story about a talent gone too soon.\nFeaturing never-before-heard recordings and exclusive archive footage, the film reveals the true essence of legendary American singer Eva Cassidy whose voice continues to captivate audiences.\nEva passed away in 1996 at the age of just 33, following a battle with melanoma.\nAt the time, she was virtually unknown outside her local music scene.\nIn the years that followed, her recordings found a fervent global audience, and a groundswell of admiration that would posthumously propel her to multi-platinum success.",
+      "labels": []
+    },
+    {
+      "id": "The Life We Leave-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "The Life We Leave",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780304361134_CAP_the-life-we-leave.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-17-18:30"
+      ],
+      "displayDate": "Fri 17 Jul",
+      "url": "https://docedge.nz/events/the-life-we-leave/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A greener way to say goodbye.\nWhen Washington State legalises human composting, entrepreneur Micah Truman bets everything on a new vision of deathcare. But when the conventional deathcare industry resists, he is forced to pivot and learn to care for the grieving while transforming his business. With funeral directors Brie Smith and Katey Houston, he builds the first large-scale terramation facility, reshaping how we grieve and return to the Earth. What begins as an ambitious venture becomes personal as they rediscover human connection, ritual, and legacy.",
+      "description": "A greener way to say goodbye.\nWhen Washington State legalises human composting, entrepreneur Micah Truman bets everything on a new vision of deathcare.\nBut when the conventional deathcare industry resists, he is forced to pivot and learn to care for the grieving while transforming his business.\nWith funeral directors Brie Smith and Katey Houston, he builds the first large-scale terramation facility, reshaping how we grieve and return to the Earth.\nWhat begins as an ambitious venture becomes personal as they rediscover human connection, ritual, and legacy.",
+      "labels": []
+    },
+    {
+      "id": "The Lives of My Father-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "The Lives of My Father",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780302911240_CAP_the-lives-of-my-father.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-15-20:30"
+      ],
+      "displayDate": "Wed 15 Jul",
+      "url": "https://docedge.nz/events/the-lives-of-my-father/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Spies, lies and a box of video tapes.\nDidrik thought his Norwegian father was a journalist. In reality, he was a CIA spy who fired AK-47s in the Kuwaiti desert and infiltrated cocaine laboratories in Colombia. When Didrik finds a box of old tapes and documents in his father\u2019s attic, he uncovers a story almost too strange to be true. For the first time his father, Bj\u00f8rn, begins to speak openly about his past. As Didrik digs deeper, the life and lies of a man who blurred the lines between journalism, propaganda, and international espionage begins to emerge. But can any of it be trusted?",
+      "description": "Didrik thought his Norwegian father was a journalist.\nWhen Didrik finds a box of old tapes and documents in his father\u2019s attic, he uncovers a story almost too strange to be true.\nFor the first time his father, Bj\u00f8rn, begins to speak openly about his past.\nAs Didrik digs deeper, the life and lies of a man who blurred the lines between journalism, propaganda, and international espionage begins to emerge.\nBut can any of it be trusted?",
+      "labels": []
+    },
+    {
+      "id": "The Trial of Alec Baldwin-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "The Trial of Alec Baldwin",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780307310398_CAP_the-trial-of-alec-baldwin.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-21-17:15"
+      ],
+      "displayDate": "Tue 21 Jul",
+      "url": "https://docedge.nz/events/the-trial-of-alec-baldwin/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Convicted by the headlines before the courtroom.\nOn October 21, 2021 cinematographer Halyna Hutchins is killed on a movie set by a prop gun held by the actor Alec Baldwin. In the immediate aftermath of the tragedy, virtually no one doubts that it was an accident and a deeply traumatizing experience for everyone involved. After the shock subsides, questions of responsibility, guilt, blame, punishment and justice begin circulating in the media. Baldwin becomes a lightning rod for online haters and a target for pushy paparazzi. With prosecutors weighing criminal charges, what unfolds is driven less by the facts surrounding the case, and more by who Alec Baldwin is, both as a man and a public figure.",
+      "description": "Convicted by the headlines before the courtroom.\nOn October 21, 2021 cinematographer Halyna Hutchins is killed on a movie set by a prop gun held by the actor Alec Baldwin.\nIn the immediate aftermath of the tragedy, virtually no one doubts that it was an accident and a deeply traumatizing experience for everyone involved.\nAfter the shock subsides, questions of responsibility, guilt, blame, punishment and justice begin circulating in the media.\nBaldwin becomes a lightning rod for online haters and a target for pushy paparazzi.",
+      "labels": []
+    },
+    {
+      "id": "The Werewolf in the Waves-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "The Werewolf in the Waves",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780308250339_CAP_the-werewolf-in-the-waves.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-22-18:15"
+      ],
+      "displayDate": "Wed 22 Jul",
+      "url": "https://docedge.nz/events/the-werewolf-in-the-waves/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Love is the anchor. Addiction is the tide.\nFrom award winning Director Soleil Moon Frye (childhood actress \u201cPunky Brewster\u201d), this is a deeply personal and poignant film that explores the complicated dynamics of love and addiction. Told through Moon Frye\u2019s empathetic lens, we follow her reunion with childhood friend, Seth Binzer (aka Shifty Shellshock) of the band Crazy Town, largely known for their hit 1999 song \u201cButterfly\u201d. She documents Crazy Town\u2019s comeback tour, during which time the connection between them quickly evolves into a love story playing out over euphoric and dream-like imagery. However, the narrative takes a heartbreaking turn when Seth relapses into drugs and the film becomes about the destructive forces of addiction.",
+      "description": "Love is the anchor.\nAddiction is the tide.\nFrom award winning Director Soleil Moon Frye (childhood actress \u201cPunky Brewster\u201d), this is a deeply personal and poignant film that explores the complicated dynamics of love and addiction.\nTold through Moon Frye\u2019s empathetic lens, we follow her reunion with childhood friend, Seth Binzer (aka Shifty Shellshock) of the band Crazy Town, largely known for their hit 1999 song \u201cButterfly\u201d.\nShe documents Crazy Town\u2019s comeback tour, during which time the connection between them quickly evolves into a love story playing out over euphoric and dream-like imagery.",
+      "labels": []
+    },
+    {
+      "id": "There\u2019s a Hole in My Bucket-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "There\u2019s a Hole in My Bucket",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780307625739_CAP_theres-a-hole-in-my-bucket.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-21-19:30"
+      ],
+      "displayDate": "Tue 21 Jul",
+      "url": "https://docedge.nz/events/theres-a-hole-in-my-bucket/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "The best tribute isn\u2019t a speech\u2014it\u2019s a bucket list.\nWhen Royd Tolkien, great-grandson of J R R Tolkien, loses his brother, Mike, to Motor Neurone Disease (ALS), Mike leaves behind one final act of love and mischief: a bucket list of 50 challenges designed to drag his reluctant, comfort-zone-hugging brother into the land of the living. What follows is an unexpected journey across New Zealand that pushes a grieving man further than he ever imagined possible. Narrated by Benedict Cumberbatch, with Peter Jackson, Billy Boyd, John Rhys-Davies and Weta Workshop along for the ride, the film is a raucous, tender argument that the best eulogy isn\u2019t a speech, it\u2019s a bucket list.",
+      "description": "The best tribute isn\u2019t a speech\u2014it\u2019s a bucket list.\nWhen Royd Tolkien, great-grandson of J R R Tolkien, loses his brother, Mike, to Motor Neurone Disease (ALS), Mike leaves behind one final act of love and mischief: a bucket list of 50 challenges designed to drag his reluctant, comfort-zone-hugging brother into the land of the living.\nWhat follows is an unexpected journey across New Zealand that pushes a grieving man further than he ever imagined possible.\nNarrated by Benedict Cumberbatch, with Peter Jackson, Billy Boyd, John Rhys-Davies and Weta Workshop along for the ride, the film is a raucous, tender argument that the best eulogy isn\u2019t a speech, it\u2019s a bucket list.",
+      "labels": []
+    },
+    {
+      "id": "Tough Old Broads (Dures \u00e0 cuire)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Tough Old Broads (Dures \u00e0 cuire)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780303376525_CAP_tough-old-broads.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-16-18:00"
+      ],
+      "displayDate": "Thu 16 Jul",
+      "url": "https://docedge.nz/events/tough-old-broads-dures-a-cuire/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Breaking barriers doesn\u2019t have an expiration date.\nThree trailblazing women broke barriers in their time: Kathrine Switzer, the first woman to officially run the Boston Marathon; Siila Watt-Cloutier, the first woman to connect climate change to human rights; and Sharon Farmer, the first woman to act as Chief White House Photographer. Today, they continue to pursue their passions. With determination and grit, these ladies shed light on what it takes to make it in a man\u2019s world, and what old age looks like when you\u2019re a self-described \u201ctough old broad\u201d.",
+      "description": "Breaking barriers doesn\u2019t have an expiration date.\nThree trailblazing women broke barriers in their time: Kathrine Switzer, the first woman to officially run the Boston Marathon; Siila Watt-Cloutier, the first woman to connect climate change to human rights; and Sharon Farmer, the first woman to act as Chief White House Photographer.\nToday, they continue to pursue their passions.\nWith determination and grit, these ladies shed light on what it takes to make it in a man\u2019s world, and what old age looks like when you\u2019re a self-described \u201ctough old broad\u201d.",
+      "labels": []
+    },
+    {
+      "id": "Unlikely Kin-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Unlikely Kin",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780306725967_CAP_unlikely-kin.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-20-18:00"
+      ],
+      "displayDate": "Mon 20 Jul",
+      "url": "https://docedge.nz/events/unlikely-kin/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Whales, trees, and kinship beyond species.\nFilmed over five years, the film follows elder Hori Parata (Ng\u0101ti Wai) and his son Te Kaurinui as they lead the sacred practice of harvesting stranded whales\u2014not for consumption, but to honour whakapapa and revive traditional medicine used to treat kauri dieback, a disease killing New Zealand\u2019s ancient trees. Alongside this, we follow their conservation work protecting the kiore, the Polynesian rat that arrived in Aotearoa with the great M\u0101ori migration. Interweaving themes of kinship between species, cultural survival, and M\u0101ori-led conservation, the film offers rare access to a sacred world where whales, forests, and even rats are revered as living ancestors.\nMade with the support of NZ On Air, RNZ, New Zealand Film Commission, Pacific Islander in Communication. ",
+      "description": "Whales, trees, and kinship beyond species.\nFilmed over five years, the film follows elder Hori Parata (Ng\u0101ti Wai) and his son Te Kaurinui as they lead the sacred practice of harvesting stranded whales\u2014not for consumption, but to honour whakapapa and revive traditional medicine used to treat kauri dieback, a disease killing New Zealand\u2019s ancient trees.\nAlongside this, we follow their conservation work protecting the kiore, the Polynesian rat that arrived in Aotearoa with the great M\u0101ori migration.\nInterweaving themes of kinship between species, cultural survival, and M\u0101ori-led conservation, the film offers rare access to a sacred world where whales, forests, and even rats are revered as living ancestors.\nMade with the support of NZ On Air, RNZ, New Zealand Film Commission, Pacific Islander in Communication.",
+      "labels": []
+    },
+    {
+      "id": "Yanuni-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Yanuni",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780372572473_CAP_yanuni.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-25-17:45"
+      ],
+      "displayDate": "Sat 25 Jul",
+      "url": "https://docedge.nz/events/yanuni/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "A fight for land, life, and the next generation.\nSet deep in the heart of the Amazon, Indigenous chief Juma Xipaia fights to protect her people\u2019s land from exploitation and destruction. Spanning years of activism and six assassination attempts, the film captures Juma\u2019s historic appointment as Brazil\u2019s first Secretary of Indigenous Rights, under President Lula. Hugo Loss, her husband and a former Special Forces ranger-turned-unwavering ally, leads dangerous operations against illegal gold miners. When Juma discovers she is pregnant, her battle takes on new urgency. Navigating impending motherhood, rising political responsibility, and Hugo\u2019s high-risk missions, she is forced to confront the personal cost of resistance.",
+      "description": "A fight for land, life, and the next generation.\nSet deep in the heart of the Amazon, Indigenous chief Juma Xipaia fights to protect her people\u2019s land from exploitation and destruction.\nSpanning years of activism and six assassination attempts, the film captures Juma\u2019s historic appointment as Brazil\u2019s first Secretary of Indigenous Rights, under President Lula.\nHugo Loss, her husband and a former Special Forces ranger-turned-unwavering ally, leads dangerous operations against illegal gold miners.\nWhen Juma discovers she is pregnant, her battle takes on new urgency.",
+      "labels": []
+    },
+    {
+      "id": "Yo (Love is a Rebellious Bird)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "Yo (Love is a Rebellious Bird)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780372684966_CAP_yo.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-25-18:15"
+      ],
+      "displayDate": "Sat 25 Jul",
+      "url": "https://docedge.nz/events/yo-love-is-a-rebellious-bird/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "She built a world to keep their story alive.\nAfter Yo\u2019s passing at 89, her 41-year-old friend, Anna, spends a decade obsessively building a detailed 1/3-scale version of Yo\u2019s house with a miniature puppet of her inside. Anna re-constructs a magical space where Yo\u2019s stories unfold, and their relationship continues. The film juxtaposes intimate v\u00e9rit\u00e9 of Yo\u2019s last year with Anna\u2019s creative interpretations of her dramatic life stories. Born in Switzerland in 1924, Yo lived life on her own terms, defying expectations around sexuality, mothering, aging, and even death.",
+      "description": "She built a world to keep their story alive.\nAfter Yo\u2019s passing at 89, her 41-year-old friend, Anna, spends a decade obsessively building a detailed 1/3-scale version of Yo\u2019s house with a miniature puppet of her inside.\nAnna re-constructs a magical space where Yo\u2019s stories unfold, and their relationship continues.\nThe film juxtaposes intimate v\u00e9rit\u00e9 of Yo\u2019s last year with Anna\u2019s creative interpretations of her dramatic life stories.\nBorn in Switzerland in 1924, Yo lived life on her own terms, defying expectations around sexuality, mothering, aging, and even death.",
+      "labels": []
+    },
+    {
+      "id": "featherStrength (Feather Strength)-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "featherStrength (Feather Strength)",
+      "imageUrl": "https://cdn.vwassets.com/roxycinema.co.nz/1780305796902_CAP_feather-strength.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-07-19-14:15"
+      ],
+      "displayDate": "Sun 19 Jul",
+      "url": "https://docedge.nz/events/feather-strength/",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Raising a child, reshaping a life.\nFilmed over a decade, one father gradually relinquishes his professional life to meet the relentless demands of raising a child with severe developmental challenges. With a camera and no crew, he films intimate fragments of daily life \u2013 routine, rupture, exhaustion, and unexpected resilience \u2013 as the weight of the new normal presses against the limits of what he can sustain. A meditation on care, acceptance, and the strength required to navigate life\u2019s wilderness. It is a story about learning to bend without breaking, and about discovering meaning not in resolution, but in the act of continuing \u2013 living the life you didn\u2019t plan for.\n  Screening Note:  This film is preceded by the short film, Chilapa Girl (Ni\u00f1a Chilapa),(17 mins).",
+      "description": "Raising a child, reshaping a life.\nFilmed over a decade, one father gradually relinquishes his professional life to meet the relentless demands of raising a child with severe developmental challenges.\nWith a camera and no crew, he films intimate fragments of daily life \u2013 routine, rupture, exhaustion, and unexpected resilience \u2013 as the weight of the new normal presses against the limits of what he can sustain.\nA meditation on care, acceptance, and the strength required to navigate life\u2019s wilderness.\nIt is a story about learning to bend without breaking, and about discovering meaning not in resolution, but in the act of continuing \u2013 living the life you didn\u2019t plan for.",
+      "labels": []
+    }
+  ]
 }
