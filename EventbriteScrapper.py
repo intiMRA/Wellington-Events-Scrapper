@@ -49,6 +49,7 @@ class EventbriteScrapper:
             for dp in date_parts:
                 date_str = dp.split(",", 1)[1].strip()
                 date_text = f"{date_str} {time_part}".strip()
+                date_text = date_text.replace("Starts at ", "")
                 dates.append(DateFormatting.replace_year(parser.parse(date_text)))
             return dates
         if bar_count > 2:
@@ -211,6 +212,7 @@ class EventbriteScrapper:
                          f"&end_date={end_date.year}-{end_date.month}-{end_date.day}")
             driver.get(new_url)
             current_page = 1
+            tries = 0
             while True:
                 next_url = re.sub(r"page=\d+", f"page={current_page}", driver.current_url)
                 driver.get(next_url)
@@ -224,6 +226,9 @@ class EventbriteScrapper:
                         break
                 except Exception as e:
                     print(f"error finding paginstion: {e}")
+                    if tries >=3:
+                        break
+                    tries += 1
                 current_page += 1
                 # search-event
                 sleep(2)
@@ -264,7 +269,7 @@ class EventbriteScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        fetch_urls = True
+        fetch_urls = False
         categories = set()
         if not fetch_urls:
             categories = FileUtils.load_from_files(ScrapperNames.EVENT_BRITE)[1]
