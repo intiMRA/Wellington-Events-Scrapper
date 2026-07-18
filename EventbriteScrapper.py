@@ -269,7 +269,7 @@ class EventbriteScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        fetch_urls = False
+        fetch_urls = True
         categories = set()
         if not fetch_urls:
             categories = FileUtils.load_from_files(ScrapperNames.EVENT_BRITE)[1]
