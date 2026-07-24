@@ -980,7 +980,7 @@
       "id": "LBM425wZT1SfMtDQp8Bgtg",
       "name": "Chop 'n' Dip",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3114-260609-085149.jpeg",
-      "description": "Slow-smoked beef brisket, with Swiss cheese, smoked cheese sauce, onion rings, pickles, pickled red onion, and burger sauce in a Dough Bakery honey-glazed brown butter brioche bun, with dill pickle seasoned fries and brisket chop dipping sauce.",
+      "description": "Low and slow SJ Firewood Manuka smoked beef brisket, with smoked provolone cheese, Southern spiced onion rings, trio of house pickles in a Dough Bakery honey-glazed brown butter brioche bun, with cheesy Tex-Mex tots.",
       "price": 32.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
@@ -1654,7 +1654,7 @@
       "name": "Hash-it Out",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/St-Johns-HERO-260518-123741.jpg",
       "description": "Fried chicken, with chicken salt hash, smashed cucumber, pickled tomato and red pepper relish, American cheese, Apostle Kiwifruit and Kawakawa Verde Hot Sauce, and garlic aioli in a P\u014dneke Bakery milk bun, with skin-on fries.",
-      "price": 33.0,
+      "price": 28.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
       "beerMatch": "",
@@ -1759,7 +1759,7 @@
       "description": "Chicken thigh, with Yucatan-style pickled onion and cucumber, avocado, cheddar, vindaloo curry sauce, and Mexican tzatziki in a P\u014dneke Bakery seeded milk bun.",
       "price": 24.0,
       "beerMatchPrice": null,
-      "mealAvailable": "Lunch and Dinner",
+      "mealAvailable": "Dinner",
       "beerMatch": "",
       "venue": "Choice Bros, 62 Ghuznee Street, Te Aro",
       "coordinates": {
@@ -1985,7 +1985,7 @@
     {
       "id": "THx6tQkTQYuNZvJYizwBvA",
       "name": "It's all in the Delivery",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Burger-Wellington-260415-165952.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3587-260716-142941.jpeg",
       "description": "Double Vision Brewing pilsner-brined chicken parmigiana, with mozzarella, napolitana sauce, iceberg lettuce, and bacon parmesan mayonnaise in a housemade brioche bun.",
       "price": 20.0,
       "beerMatchPrice": null,
@@ -2443,7 +2443,7 @@
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
       "beerMatch": "",
-      "venue": "Abandoned Taproom, 38 Fitzherbert Street, Petone",
+      "venue": "Abandoned Petone, 38 Fitzherbert Street, Petone",
       "coordinates": {
         "lat": -41.2240742,
         "long": 174.8752272
@@ -2451,7 +2451,7 @@
       "dietaryRequirements": [],
       "mainProtein": "Chicken",
       "sidesIncluded": true,
-      "url": "https://visawoap.com/venue/abandoned-taproom/6893"
+      "url": "https://visawoap.com/venue/abandoned-petone/6893"
     },
     {
       "id": "XfJfNLMORiuYpSkfxuMCug",
@@ -2564,7 +2564,7 @@
     {
       "id": "bpmMpa9iRRqoncP0171GxA",
       "name": "Masala Mauler",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_7564-260504-102706.jpeg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3603-260717-131638.jpeg",
       "description": "Crumbed chicken thigh, with date and tamarind chutney, Penray Gardens chilli and coriander salsa, and peanut and coconut crumb in a Volco milk bun.",
       "price": 26.0,
       "beerMatchPrice": 36.0,
@@ -2890,7 +2890,7 @@
       "id": "Nq8PtrGUTViw7dAaySY_0w",
       "name": "Onion Breath",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Edit---WOAP-Burg-26-260713-082658.png",
-      "description": "Smashed beef patty, with sweet and spicy pickles, provolone, onion dip, and tobacco onion crisps in a P\u014dneke Bakery potato bun.",
+      "description": "Beef patty, with sweet and spicy pickles, provolone, onion dip, and tobacco onion crisps in a P\u014dneke Bakery potato bun.",
       "price": 28.0,
       "beerMatchPrice": 40.0,
       "mealAvailable": "Lunch and Dinner",
@@ -3756,7 +3756,7 @@
       "id": "OMK1cM0ITRuOEprqHwksbA",
       "name": "Squeal the Deal",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/TheOldQuarterBurger_210526-8-260602-125602.jpg",
-      "description": "Ph\u1edf broth braised pork fillet, with melted cheese, bacon, pickles, and sweet 'n' spicy honey mayonnaise in a Brezelmania brioche bun, with fries and Vietnamese beef stew dipping sauce.",
+      "description": "Ph\u1edf broth braised pork belly, with melted cheese, bacon, pickles, and sweet 'n' spicy honey mayonnaise in a Brezelmania brioche bun, with fries and Vietnamese beef stew dipping sauce.",
       "price": 28.0,
       "beerMatchPrice": 38.0,
       "mealAvailable": "Lunch and Dinner",
@@ -4258,8 +4258,8 @@
     {
       "id": "SNZkpth-QxuH0sIdJWfuDw",
       "name": "The Grapevine",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP2026_lanscape-260414-144010.jpg",
-      "description": "Two smashed beef patties, with Parrotdog Stout beer-glazed bacon, caramelised onion, brie, marinated tomato, and aioli in a ciabatta bun.",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3594-260717-074354.jpeg",
+      "description": "Two smashed beef patties, with Parrotdog Stout beer-glazed bacon, caramelised onion, brie, marinated tomato, and aioli in a brioche bun.",
       "price": 23.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",

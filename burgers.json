@@ -252,7 +252,7 @@
       "id": "AaoGjfUaTcKja2UfhyPomw",
       "name": "Alpha Bravo Charlie",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/DS-Woap-burger-2026-260414-165737.jpg",
-      "description": "Smashed beef patty, with pulled BBQ pork, sweet and spicy pickles, house-pickled red cabbage, Wild Chef hash sticks, and sriracha mayo in an Arobake brioche bun, with mac 'n' cheese.",
+      "description": "Angus beef patty, with BBQ pulled pork, sweet and spicy pickles, house-pickled red cabbage, and sriracha mayo in an Arobake brioche bun, with mac 'n' cheese and Wild Chef hash sticks.",
       "price": 25.0,
       "beerMatchPrice": 37.0,
       "mealAvailable": "Lunch and Dinner",
@@ -335,27 +335,6 @@
       "mainProtein": "Chicken",
       "sidesIncluded": false,
       "url": "https://visawoap.com/venue/rizzo-s-pizzeria-kitchen/6935"
-    },
-    {
-      "id": "AezX8l8TQyGs5PriNhjWTQ",
-      "name": "Bang Bang Rendang",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP-2026---IndoPLUS-260520-072155.jpg",
-      "description": "Crumbed chicken rendang, with tomato, salad, and cheese in a Brezelmania brioche bun, with fries and rendang sauce.",
-      "price": 25.0,
-      "beerMatchPrice": null,
-      "mealAvailable": "Lunch and Dinner",
-      "beerMatch": "",
-      "venue": "Indoplus Kitchen, 20 Parumoana Street, Porirua Central",
-      "coordinates": {
-        "lat": -41.13059909770873,
-        "long": 174.83965407420504
-      },
-      "dietaryRequirements": [
-        "Nut Free Available"
-      ],
-      "mainProtein": "Chicken",
-      "sidesIncluded": true,
-      "url": "https://visawoap.com/venue/indoplus-kitchen/7050"
     },
     {
       "id": "EKD5otHLTDurGt5d8rbwpA",
@@ -980,7 +959,7 @@
       "id": "LBM425wZT1SfMtDQp8Bgtg",
       "name": "Chop 'n' Dip",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3114-260609-085149.jpeg",
-      "description": "Low and slow SJ Firewood Manuka smoked beef brisket, with smoked provolone cheese, Southern spiced onion rings, trio of house pickles in a Dough Bakery honey-glazed brown butter brioche bun, with cheesy Tex-Mex tots.",
+      "description": "Low and slow SJ Firewood Manuka smoked beef brisket, with smoked provolone cheese, Southern spiced onion rings, trio of house pickles in a brioche bun, with cheesy Tex-Mex tots.",
       "price": 32.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
@@ -1368,10 +1347,10 @@
     {
       "id": "QZ-PC-tdS6Oz9wdXBnQZ-A",
       "name": "Ferry Tale",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP--01-260604-130144.jpg",
-      "description": "Wairarapa lamb, with smoked scamorza, Zany Zeus roasted garlic yoghurt, pickled red onion, rocket, and spiced tomato relish in a P\u014dneke Bakery pretzel bun.",
-      "price": 18.0,
-      "beerMatchPrice": 30.0,
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP_Internal-comms_burger-only-260722-102022.jpg",
+      "description": "Wairarapa lamb, with smoked scamorza, Zany Zeus roasted garlic yoghurt, pickled red onion, rocket, and spiced tomato relish in a P\u014dneke Bakery pretzel bun. (Also available at their pop up outside the Wellington Railway Station on Thursdays & Fridays 11am-2pm)",
+      "price": 15.0,
+      "beerMatchPrice": 27.0,
       "mealAvailable": "Lunch and Dinner",
       "beerMatch": "Chin-Wag (Fruited Hazy)",
       "venue": "Interislander Ferry, 1 Aotea Quay, Pipitea",
@@ -1381,7 +1360,7 @@
       },
       "dietaryRequirements": [],
       "mainProtein": "Lamb",
-      "sidesIncluded": true,
+      "sidesIncluded": false,
       "url": "https://visawoap.com/venue/interislander-ferry/7090"
     },
     {
@@ -1614,11 +1593,11 @@
     {
       "id": "PNaQJ-YnQ8SWDwX_Pge2gw",
       "name": "Hao Good",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/_MG_0743-260517-133643.jpg",
-      "description": "Crispy fried square parcel loaded with K\u0101piti Kakato gouda cheese and seasoned beef mince, with mango chutney and rocket in a milk bao bun.",
-      "price": 9.0,
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3701-260721-165118.jpeg",
+      "description": "Crispy fried square parcel loaded with K\u0101piti Kakato gouda cheese and seasoned beef mince, with mango chutney and rocket in a milk bao bun. \r\n(This burger is in fact $8.88, but the VisaWOAP website only allows for dollar amounts).",
+      "price": 8.88,
       "beerMatchPrice": null,
-      "mealAvailable": "Lunch and Dinner",
+      "mealAvailable": "Dinner",
       "beerMatch": "",
       "venue": "Lucky8, 16 Courtenay Place, Te Aro",
       "coordinates": {
@@ -3184,7 +3163,7 @@
     },
     {
       "id": "cSB-KR23Q_mo95eDcl2Nqg",
-      "name": "Saigon Beef",
+      "name": "Saigon Shaking",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/63a42a8a-a6e0-4fc6-a91b-760c61710242-260401-214337.jpg",
       "description": "Garlic and soy seasoned sirloin\u00a0patty with mixed greens, aged cheddar, gherkins, tomato, red onion\u00a0and sriracha mayo on a Shelly Bay Baker brioche\u00a0bun, with fries.\u00a0",
       "price": 28.0,
@@ -3296,7 +3275,7 @@
       "id": "QkF-G9IhSH-dt3eJJYzbSg",
       "name": "Say No More",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/KCDC---WOAP---AMENDED-EDITS--3-260522-121523.jpeg",
-      "description": "Smoked pork belly, Zany Zeus halloumi, Wild Chef pumpkin and quinoa patty, cos lettuce, and rouille in a Village Baker brioche bun.",
+      "description": "Smoked pork belly, Zany Zeus halloumi, Wild Chef pumpkin and quinoa patty, cos lettuce and rouille, in a Cottage Lane plant-based brioche bun with thick-cut chips and tomato sauce.",
       "price": 25.0,
       "beerMatchPrice": 37.0,
       "mealAvailable": "Lunch and Dinner",
@@ -3343,7 +3322,7 @@
       "name": "Seaside Sichuan Deluxe",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/New-woap-260429-182217.jpg",
       "description": "Beef patty, with gruy\u00e8re, Sichuan sauce, rocket, carrot, red cabbage, red pepper, coriander, and spring onion in a Cottage Lane brioche bun, with straight-cut fries.",
-      "price": 33.0,
+      "price": 29.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
       "beerMatch": "",
@@ -3367,7 +3346,7 @@
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/GPO-and-Lobby--1--260430-104947.jpg",
       "description": "Wagyu menchi katsu, with soy-mirin cured egg yolk, wong bok coleslaw, kewpie curry mayonnaise, and caviar in a Brezelmania bun.",
       "price": 29.0,
-      "beerMatchPrice": 48.0,
+      "beerMatchPrice": 41.0,
       "mealAvailable": "Lunch and Dinner",
       "beerMatch": "Tinyken (Non-Alc Hazy IPA)",
       "venue": "Intercontinental Hotel Wellington, 2 Grey Street, Wellington CBD",
@@ -3538,7 +3517,7 @@
       "id": "DlGnDQiQSMe4FlO5MURz8A",
       "name": "Smoke 'n' Mirrors",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Otto-WOAP-260415-215805.jpeg",
-      "description": "Mushroom House oyster mushroom smash patty, with K\u0101piti smoked pimento cheese, fried green tomato, maple bacon, tobacco onion, bourbon BBQ glaze, rocket, and moonshine mayonnaise in a Cottage Lane potato bun, with speakeasy spud skins and garlic salt.",
+      "description": "Mushroom House oyster mushroom smash patty, with K\u0101piti smoked pimento cheese, pickled green tomato, maple facon, tobacco onion, bourbon BBQ glaze, rocket, and moonshine mayonnaise in a Cottage Lane potato bun, with speakeasy spud skins and garlic salt.",
       "price": 24.0,
       "beerMatchPrice": 37.0,
       "mealAvailable": "Lunch and Dinner",
@@ -3713,7 +3692,7 @@
       "id": "cCIFjh_6TEyjrhqss1aynQ",
       "name": "Spill the T-G",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Two-Grey-260430-104551.jpg",
-      "description": "Smashed beef patty, with whipped onion dip, Swiss cheese, fenugreek pickles, and smoked burger sauce in a Brezelmania bun.",
+      "description": "Smashed beef patty, with whipped onion dip, Swiss cheese, pickled chilli smash, fenugreek pickles, and smoked burger sauce in a Brezelmania bun.",
       "price": 26.0,
       "beerMatchPrice": 38.0,
       "mealAvailable": "Lunch and Dinner",
@@ -5205,7 +5184,7 @@
       "Vegetarian Available"
     ],
     "priceRange": {
-      "min": 9.0,
+      "min": 8.88,
       "max": 45.0
     },
     "beerMatch": [
