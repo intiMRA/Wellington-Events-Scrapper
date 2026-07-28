@@ -182,19 +182,25 @@ labels = predict_from_file("unclassified_data.json", update_labels=True)
 python MainScrapper.py
 ```
 
-**Individual scrapper:**
+**Individual scrapper** (run from the repo root):
 ```python
-import EventbriteScrapper
+from scrapers import EventbriteScrapper
 scrapper = EventbriteScrapper.EventbriteScrapper()
 events = scrapper.fetch_events([], [])
 ```
 
+**Auxiliary pipeline scripts** run as modules from the repo root, e.g.:
+```bash
+python -m classification.TextClassifier
+python -m classification.GenerateData
+```
+
 ### Scraper Output
 
-Each scraper generates three files:
-- `{Source}Events.json` - Scraped event data
-- `{Source}Urls.json` - Processed URLs (for deduplication)
-- `{Source}Banned.json` - Blocked/invalid URLs
+Each scraper generates three files under `data/`:
+- `data/{Source}Events.json` - Scraped event data
+- `data/{Source}Urls.json` - Processed URLs (for deduplication)
+- `data/{Source}Banned.json` - Blocked/invalid URLs
 
 ## Data Generation (`GenerateData.py`)
 
@@ -324,58 +330,73 @@ Uses a genetic algorithm (via PyGAD) to find the optimal subset of training data
 
 ```
 Wellington-Events-Scrapper/
-├── MainScrapper.py              # Orchestrates all scrapers
-├── ScrapperFactory.py           # Factory pattern for scraper instantiation
-├── ScrapperNames.py             # Scraper name constants
+├── MainScrapper.py              # Entry point: runs all scrapers -> events.json
+├── RecoverFromLast.py           # Resume a scrape from the last-run source
 │
-├── # Individual Scrapers
-├── AllEventsInScrapper.py       # allevents.in
-├── EventbriteScrapper.py        # Eventbrite
-├── EventFinderScrapper.py       # EventFinder
-├── FacebookScrapper.py          # Facebook Events
-├── FringeScrapper.py            # Fringe Festival
-├── HumanitixScrapper.py         # Humanitix
-├── RoxyScrapper.py              # Roxy Cinema
-├── SanFranScrapper.py           # San Fran venue
-├── TicketekScrapper.py          # Ticketek
-├── TicketmasterScrapper.py      # Ticketmaster
-├── UnderTheRaderScrapper.py     # Under The Radar
-├── ValhallaScrapper.py          # Valhalla
-├── WellingtonHeritageFestivalScrapper.py
-├── WellingtonHighschoolScrapper.py
-├── WellingtonNZScrapper.py      # Wellington.govt.nz
-├── WoapScrapper.py              # WOAP
-├── RougueScrapper.py            # Rogue & Vagabond
+├── scrapers/                    # One module per event source + factory/registry
+│   ├── ScrapperFactory.py       # Maps a source name to its scraper class
+│   ├── ScrapperNames.py         # Source name constants + active-source list
+│   ├── AllEventsInScrapper.py   # allevents.in
+│   ├── EventbriteScrapper.py    # Eventbrite
+│   ├── EventFinderScrapper.py   # EventFinder
+│   ├── FacebookScrapper.py      # Facebook Events
+│   ├── FringeScrapper.py        # Fringe Festival
+│   ├── HumanitixScrapper.py     # Humanitix
+│   ├── RoxyScrapper.py          # Roxy Cinema
+│   ├── RougueScrapper.py        # Rogue & Vagabond
+│   ├── SanFranScrapper.py       # San Fran venue
+│   ├── TicketekScrapper.py      # Ticketek
+│   ├── TicketmasterScrapper.py  # Ticketmaster
+│   ├── UnderTheRaderScrapper.py # Under The Radar
+│   ├── ValhallaScrapper.py      # Valhalla
+│   ├── WellingtonHeritageFestivalScrapper.py
+│   ├── WellingtonHighschoolScrapper.py
+│   ├── WellingtonNZScrapper.py  # Wellington.govt.nz
+│   └── WoapScrapper.py          # WOAP
 │
-├── # ML Pipeline
-├── GenerateData.py              # Data preparation and cleaning
-├── TextClassifier.py            # CNN classifier training and prediction
-├── DataCreator.py               # Genetic algorithm for data optimization
+├── model/                       # Domain data models
+│   ├── EventInfo.py             # Event data class
+│   ├── Buger.py                 # Burger data class (Wellington on a Plate)
+│   └── CategoryMapping.py       # Source-to-standard category mapping
 │
-├── # Utilities
-├── CategoryMapping.py           # Source-to-standard category mapping
-├── CoordinatesMapper.py         # Geographic coordinate mapping
-├── DateFormatting.py            # Date parsing utilities
-├── EventInfo.py                 # Event data class
-├── FileNames.py                 # File path constants
-├── FileUtils.py                 # File I/O operations
+├── classification/              # ML pipeline (run as: python -m classification.<name>)
+│   ├── TextClassifier.py        # CNN event-type classifier (train/predict)
+│   ├── KidFriendlyClassifier.py # Kid-friendly binary classifier
+│   ├── GenerateData.py          # Build/clean training + unclassified datasets
+│   ├── DataCreator.py           # Genetic-algorithm training-set optimisation
+│   └── LabelEvents.py           # Label events with the trained model
 │
-├── # Data Files
-├── events.json                  # Aggregated scraped events
-├── training_data.json           # Labeled training examples
-├── unclassified_data.json       # Events pending classification
-├── ai_generates.json            # AI-augmented training data
-├── ga_output_combined.json      # GA-optimized training set
+├── util/                        # Shared helpers and I/O
+│   ├── paths.py                 # Central data/ & models/ path resolution
+│   ├── FileNames.py             # Canonical file paths
+│   ├── FileUtils.py             # Event file I/O
+│   ├── CurrentFestivals.py      # Active festival registry
+│   ├── DateFormatting.py        # Date parsing utilities
+│   ├── CoordinatesMapper.py     # Geographic coordinate mapping
+│   ├── Summarizer.py            # Description summarisation
+│   └── tryAddLocation.py        # One-off location backfill utility
 │
-├── # Model Artifacts
-├── trained_model/               # Saved Keras model
-├── tokenizer_config.json        # Tokenizer configuration
-├── label_encoder.joblib         # Saved label encoder
+├── data/                        # Working/training data, per-scraper checkpoints, logs
+├── models/                      # Saved Keras models, tokenizers, label encoder
 │
-├── # Output
-├── predictions_log.txt          # Detailed prediction results
+├── events.json                  # Published feed (aggregated events), read via raw URL
+├── events_filtered.json         # Published filtered feed
+├── currentFestivals.json        # Published active-festival list
+├── currentFestivalDetails.json  # Published festival details (carries per-festival URLs)
+├── burgers.json                 # Published feed consumed directly by the iOS client
+├── wellington-fringe.json       # Published festival feed (linked from festival details)
+├── heritage-festival.json       #   "
+├── *-film-festival*.json         # Published Roxy festival feeds (linked from festival details)
+│
+├── requirements.txt
 └── README.md
 ```
+
+> **Published feeds stay at the repo root.** The iOS client
+> (`WellingtonEventsApp`) fetches these by `raw.githubusercontent.com/.../main/<file>` URL —
+> directly (`events.json`, `currentFestivals.json`, `currentFestivalDetails.json`,
+> `burgers.json`) or via the `url` fields inside `currentFestivalDetails.json`. Do not move
+> them into `data/`; only internal working data lives there.
 
 ## Data Formats
 

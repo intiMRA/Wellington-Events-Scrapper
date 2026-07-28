@@ -9,3 +9,13 @@ kid_friendly_predictions_log.txt
 duplicates.txt
 missingcats.txt
 ~/
+
+# Regenerable / derived data artifacts — kept on disk, regenerate via the pipeline.
+# Hand-labeled data (training_data*, unclassified_data, ai_generates, *Banned) stays TRACKED.
+data/events_copy.json
+data/events-labeled.json
+data/ga_training_choices.json
+data/ga_output.json
+data/ga_test.json
+data/ga_balanced_individual.json
+data/small_training_data_kid_friendly.json

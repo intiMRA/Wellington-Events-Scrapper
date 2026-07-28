@@ -1,10 +1,10 @@
 import json
 
-import FileNames
-import FileUtils
-import ScrapperFactory
-import ScrapperNames
-from EventInfo import EventInfo
+from util import FileNames
+from util import FileUtils
+from scrapers import ScrapperFactory
+from scrapers import ScrapperNames
+from model.EventInfo import EventInfo
 from typing import List, Set
 
 data: List[EventInfo] = []
