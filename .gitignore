@@ -1,5 +1,7 @@
 .idea/*
 __pycache__/
+*.pyc
+.venv/
 *.joblib
 tokenizer_config*.json
 predictions_log.txt

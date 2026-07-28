@@ -29,7 +29,7 @@ This project scrapes event data from various Wellington event sources and classi
 | Business & Networking | Hobbies & Interests |
 | Classes & Workshops | Kids & Parents |
 | Community & Culture | Markets & Fairs |
-| Conservation & Environment | Music & Concerts |
+| Conservation & Nature | Music & Concerts |
 | Festivals | Religion & Spirituality |
 | Film & Media | Sports & Fitness |
 | Food & Drink | Government & Politics |

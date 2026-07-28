@@ -4,7 +4,7 @@ import random
 import pygad
 from typing import List, Dict, Tuple
 import numpy as np
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.preprocessing import LabelEncoder
 from keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences, to_categorical, set_random_seed
@@ -18,6 +18,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 MODEL_CHOICE = 'LR'
+
+CV_SEED = 42  # fixed seed for the LR k-fold split so each chromosome's fitness is reproducible
 
 ga_test_file_name = "ga_test.json"
 ga_training_choices_file_name = "ga_training_choices.json"
@@ -183,7 +185,8 @@ def best_solution(solution: List[int]):
 
     training_array = np.array(training_list, dtype=object)
 
-    data = training_array[solution].tolist()
+    # Dedupe so the exported subset matches the unique set the model trained on.
+    data = training_array[np.unique(solution)].tolist()
 
     with open(ga_output_file_name, mode="w") as ga_output_file:
         json.dump(data, ga_output_file, indent=2)
@@ -202,19 +205,23 @@ X_test, Y_test = get_test(model_prep, label_encoder, num_classes)
 
 def fitness_func(ga_instance, solution: List[int], solution_idx) -> float:
     """Evaluates the fitness of a subset of training data using the selected model."""
-    nums = [234, 7383903, 134512449, 8475, 13453379]
-    accs = []
-    for num in nums:
-        set_random_seed(num)
-        enable_op_determinism()
+    # Dedupe selected indices so the model trains on a unique subset. This gives the
+    # effect of allow_duplicate_genes=False without pygad's expensive (and
+    # warning-prone) per-solution uniqueness resolution.
+    unique_solution = np.unique(solution)
+    new_x_train = X_pool[unique_solution]
+    new_y_train = Y_pool[unique_solution]
 
-        new_x_train = X_pool[solution]
-        new_y_train = Y_pool[solution]
+    if new_x_train.shape[0] < 2:
+        return 0.0
 
-        if new_x_train.shape[0] < 2:
-            return 0.0
+    if MODEL_CHOICE == 'NN':
+        nums = [234, 7383903, 134512449, 8475, 13453379]
+        accs = []
+        for num in nums:
+            set_random_seed(num)
+            enable_op_determinism()
 
-        if MODEL_CHOICE == 'NN':
             new_x_train_split, x_val, new_y_train_split, y_val = train_test_split(
                 new_x_train, new_y_train, test_size=0.2, random_state=num
             )
@@ -237,21 +244,29 @@ def fitness_func(ga_instance, solution: List[int], solution_idx) -> float:
             loss, accuracy = model.evaluate(X_test, Y_test, verbose=0)
             accs.append(accuracy)
 
-        else:
-            labels_1d = np.argmax(new_y_train, axis=1)
+        return sum(accs) / len(accs)
 
-            new_x_train_split, x_val, new_y_train_split, y_val = train_test_split(
-                new_x_train, labels_1d, test_size=0.2, random_state=num
-            )
+    else:
+        # LR: fitness = mean stratified k-fold validation accuracy on the selected
+        # subset. Every sample is validated exactly once (lower variance than repeated
+        # holdout at the same ~5-fit cost), and X_test is never touched during
+        # selection, so it stays a clean, unbiased final metric.
+        labels_1d = np.argmax(new_y_train, axis=1)
+        present_counts = np.bincount(labels_1d)
+        min_class = present_counts[present_counts > 0].min()
+        n_splits = int(min(5, min_class))
+        if n_splits < 2:
+            # A class has fewer than 2 samples -> can't validate; reject the subset.
+            return 0.0
 
-            model = LogisticRegression(solver='liblinear', random_state=num, max_iter=100, multi_class='ovr')
-            model.fit(new_x_train_split, new_y_train_split)
+        skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=CV_SEED)
+        fold_accs = []
+        for train_idx, val_idx in skf.split(new_x_train, labels_1d):
+            model = LogisticRegression(solver='liblinear', random_state=CV_SEED, max_iter=100, multi_class='ovr')
+            model.fit(new_x_train[train_idx], labels_1d[train_idx])
+            fold_accs.append(model.score(new_x_train[val_idx], labels_1d[val_idx]))
 
-            Y_test_1d = np.argmax(Y_test, axis=1)
-            accuracy = model.score(X_test, Y_test_1d)
-            accs.append(accuracy)
-
-    return sum(accs)/len(nums)
+        return sum(fold_accs) / len(fold_accs)
 
 
 # ----------------------------------------------------
@@ -278,20 +293,35 @@ def run():
     num_genes = len(balanced_individual)
 
     init_range_high = X_pool.shape[0] - 1
-    pop_size = 200
-    num_generations = 200
+    pop_size = 150
+    num_generations = 150
     num_parents_mating = int(pop_size * 0.2)
     init_range_low = 0
-    parent_selection_type = "sss"
-    keep_parents = 1
+    parent_selection_type = "tournament"
+    keep_elitism = 1
     crossover_type = "scattered"
-    mutation_type = "random"
-    mutation_percent_genes = 20
+    mutation_type = "adaptive"
+    mutation_percent_genes = [25, 6]
 
-    initial_population = []
+    def make_unique_individual(base: List[int]) -> List[int]:
+        # Keep ~half of the balanced genes, replace the rest with random indices.
+        # Individuals start duplicate-free for a diverse initial population; any
+        # duplicates introduced later by crossover/mutation are handled by the
+        # np.unique() dedupe in fitness_func.
+        used = set()
+        individual = []
+        for gene in base:
+            if random.uniform(0, 1) > 0.5 and gene not in used:
+                chosen = gene
+            else:
+                chosen = random.randint(init_range_low, init_range_high)
+                while chosen in used:
+                    chosen = random.randint(init_range_low, init_range_high)
+            used.add(chosen)
+            individual.append(chosen)
+        return individual
 
-    for _ in range(pop_size):
-        initial_population.append([ gene if random.uniform(0,1) > 0.5 else random.randint(init_range_low, init_range_high) for gene in balanced_individual])
+    initial_population = [make_unique_individual(balanced_individual) for _ in range(pop_size)]
 
     initial_population.append(balanced_individual)
 
@@ -304,7 +334,7 @@ def run():
                            init_range_high=init_range_high,
                            gene_type=int,
                            parent_selection_type=parent_selection_type,
-                           keep_parents=keep_parents,
+                           keep_elitism=keep_elitism,
                            crossover_type=crossover_type,
                            mutation_type=mutation_type,
                            mutation_percent_genes=mutation_percent_genes,

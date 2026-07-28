@@ -125,7 +125,7 @@ def count_categories():
         'Film & Media': 0,
         'Sports & Fitness': 0,
         'Health & Wellness': 0,
-        'Conservation & Environment': 0,
+        'Conservation & Nature': 0,
         'Community & Culture': 0,
         'Hobbies & Interests': 0,
         'Government & Politics': 0,
@@ -238,7 +238,7 @@ def move_top_n_largest(num:int, category: str):
 # move_top_n_shortest(2, "Business & Networking")
 # move_top_n_shortest(1, "Classes & Workshops")
 # move_top_n_shortest(10, "Community & Culture")
-# move_top_n_shortest(4, "Conservation & Environment")
+# move_top_n_shortest(4, "Conservation & Nature")
 # move_top_n_shortest(15, "Festivals")
 # move_top_n_shortest(20, "Film & Media")
 # move_top_n_shortest(11, "Food & Drink")
@@ -265,7 +265,7 @@ def move_top_n_largest(num:int, category: str):
 # move_top_n_largest(2, "Markets & Fairs")
 # move_top_n_largest(10, "Music & Concerts")
 # move_top_n_largest(1, "Sports & Fitness")
-# move_top_n_largest(2, "Conservation & Environment")
+# move_top_n_largest(2, "Conservation & Nature")
 # move_top_n_largest(100, "Government & Politics")
 # move_top_n_largest(7, "Religion & Spirituality")
 
