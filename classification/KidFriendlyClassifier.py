@@ -15,8 +15,8 @@ from util import paths
 true = True
 false = False
 
-training_data_file_name = paths.data_path("training_data_kid_friendly.json")
-small_training_data_file_name = paths.data_path("small_training_data_kid_friendly.json")
+training_data_file_name = paths.data_path("training/training_data_kid_friendly.json")
+small_training_data_file_name = paths.data_path("training/small_training_data_kid_friendly.json")
 
 should_train = true
 
@@ -92,7 +92,7 @@ def predict_from_file(file_name):
             label_dict = [{"kid_friendly": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip([index == 1 for index in  indecies], indecies)]
             predicted_labels.append(label_dict)
 
-    with open(paths.data_path("kid_friendly_predictions_log.txt"), mode="w") as f:
+    with open(paths.data_path("logs/kid_friendly_predictions_log.txt"), mode="w") as f:
         correct_labels = 0
         for i, text in enumerate(texts_to_predict):
             f.write(f"Text: {text}\n")

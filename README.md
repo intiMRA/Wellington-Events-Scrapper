@@ -197,10 +197,10 @@ python -m classification.GenerateData
 
 ### Scraper Output
 
-Each scraper generates three files under `data/`:
-- `data/{Source}Events.json` - Scraped event data
-- `data/{Source}Urls.json` - Processed URLs (for deduplication)
-- `data/{Source}Banned.json` - Blocked/invalid URLs
+Each scraper keeps its files in its own folder, `data/scrapers/{Source}/`:
+- `data/scrapers/{Source}/events.json` - Scraped event data
+- `data/scrapers/{Source}/urls.json` - Processed URLs (for deduplication)
+- `data/scrapers/{Source}/banned.json` - Blocked/invalid URLs
 
 ## Data Generation (`GenerateData.py`)
 
@@ -376,7 +376,10 @@ Wellington-Events-Scrapper/
 │   ├── Summarizer.py            # Description summarisation
 │   └── tryAddLocation.py        # One-off location backfill utility
 │
-├── data/                        # Working/training data, per-scraper checkpoints, logs
+├── data/
+│   ├── scrapers/<Source>/       # Per-scraper checkpoints: events.json, urls.json, banned.json
+│   ├── training/                # Training/GA datasets (training_data, unclassified, ga_*, ...)
+│   └── logs/                    # Prediction/debug logs
 ├── models/                      # Saved Keras models, tokenizers, label encoder
 │
 ├── events.json                  # Published feed (aggregated events), read via raw URL

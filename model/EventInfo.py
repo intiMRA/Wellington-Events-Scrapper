@@ -135,6 +135,7 @@ class EventInfo:
                 coordinates=data["coordinates"],
                 description=data["description"],
                 long_description=data["long_description"],
+                labels=data.get("labels", []),
                 loaded_from_dict=True
             )
         except Exception as e:

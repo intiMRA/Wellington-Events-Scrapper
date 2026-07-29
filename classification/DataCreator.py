@@ -23,17 +23,17 @@ MODEL_CHOICE = 'LR'
 
 CV_SEED = 42  # fixed seed for the LR k-fold split so each chromosome's fitness is reproducible
 
-ga_test_file_name = paths.data_path("ga_test.json")
-ga_training_choices_file_name = paths.data_path("ga_training_choices.json")
-ga_output_file_name = paths.data_path("ga_output.json")
-ga_output_file_combined_name = paths.data_path("ga_output_combined.json")
-ga_balanced_individual_file_name = paths.data_path("ga_balanced_individual.json")
+ga_test_file_name = paths.data_path("training/ga_test.json")
+ga_training_choices_file_name = paths.data_path("training/ga_training_choices.json")
+ga_output_file_name = paths.data_path("training/ga_output.json")
+ga_output_file_combined_name = paths.data_path("training/ga_output_combined.json")
+ga_balanced_individual_file_name = paths.data_path("training/ga_balanced_individual.json")
 
 def load_data_initial_data(load_ai) -> List[Dict]:
     data = []
-    file_names = [paths.data_path("training_data.json"), paths.data_path("unclassified_data.json")]
+    file_names = [paths.data_path("training/training_data.json"), paths.data_path("training/unclassified_data.json")]
     if load_ai:
-        file_names.append(paths.data_path("ai_generates.json"))
+        file_names.append(paths.data_path("training/ai_generates.json"))
     for file_name in file_names:
         try:
             with open(file_name, mode="r") as f:

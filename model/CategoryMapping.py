@@ -237,7 +237,7 @@ class CategoryMapping:
         mapped = _CATEGORY_MAPPING.get(category)
         if mapped is not None:
             return mapped
-        with open(paths.data_path("missingcats.txt"), "a") as f:
+        with open(paths.data_path("logs/missingcats.txt"), "a") as f:
             f.write(category)
             f.write("\n")
             print(f"Category Not Found {category}")

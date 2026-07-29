@@ -14,14 +14,15 @@ import joblib
 from typing import List
 
 from util import paths
+from model.EventInfo import EventInfo
 
 max_sequence_length = 1500
 num_words = 2000
 embedding_dim = 400
 def train_from_manual_training_files(load_ai):
     use_ga = True
-    training_data_file_name = paths.data_path("ga_output_combined.json") if use_ga else paths.data_path("training_data.json")
-    ai_data_file_name = paths.data_path("ai_generates.json")
+    training_data_file_name = paths.data_path("training/ga_output_combined.json") if use_ga else paths.data_path("training/training_data.json")
+    ai_data_file_name = paths.data_path("training/ai_generates.json")
 
     all_texts = []
     with open(training_data_file_name, mode="r") as f:
@@ -120,13 +121,27 @@ def get_data(file_name: str, label_encoder, tokenizer):
         x_train, x_test, y_train, y_test = train_test_split(padded_sequences, one_hot_labels, test_size=0.2,
                                                                 random_state=42)
         return x_train, x_test, y_train, y_test, number_of_classes
-def predict_labels(classification_model, loaded_tokenizer, loaded_label_encoder, texts: List[str]) -> List[str]:
+def classify_events(events: List[EventInfo], only_empty: bool = True) -> None:
+    """Populate events' `labels` with the classifier's predicted category via a single batched
+    prediction. By default only events whose `labels` are empty are classified (events that
+    already carry labels are left untouched); pass only_empty=False to relabel every event."""
+    targets = [event for event in events if not event.labels] if only_empty else list(events)
+    if not targets:
+        return
+    classification_model, loaded_tokenizer, loaded_label_encoder = load_models_from_file()
+    texts = [f"{event.name}, {event.long_description}" for event in targets]
+    label_lists = _predict_label_lists(classification_model, loaded_tokenizer, loaded_label_encoder, texts)
+    for event, labels in zip(targets, label_lists):
+        event.labels = labels
+
+
+def _predict_label_lists(classification_model, loaded_tokenizer, loaded_label_encoder, texts: List[str]) -> List[List[str]]:
     sequences = loaded_tokenizer.texts_to_sequences(texts)
     padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
 
     predictions = classification_model.predict(padded_sequences)
 
-    predicted_labels = []
+    label_lists = []
     for predictions_array in predictions:
         indecies = np.argpartition(predictions_array, -2)[-2:]
         indecies = indecies[np.argsort(-predictions_array[indecies])]
@@ -134,11 +149,8 @@ def predict_labels(classification_model, loaded_tokenizer, loaded_label_encoder,
         if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
             indecies = [indecies[0]]
 
-        if len(indecies) == 0:
-            continue
-        else:
-            predicted_labels = [label for label, index in zip(loaded_label_encoder.inverse_transform(indecies), indecies)]
-    return predicted_labels
+        label_lists.append([str(label) for label in loaded_label_encoder.inverse_transform(indecies)])
+    return label_lists
 def predict_from_file(file_name, update_labels=True):
     """
     Predicts the labels for descriptions in a given file.
@@ -186,7 +198,7 @@ def predict_from_file(file_name, update_labels=True):
     # Track label updates
     labels_updated = 0
     percentages_per_class: dict = {}
-    with open(paths.data_path("predictions_log.txt"), mode="w") as f:
+    with open(paths.data_path("logs/predictions_log.txt"), mode="w") as f:
         correct_labels = 0
         for i, text in enumerate(texts_to_predict):
             f.write(f"Text: {text}\n")
@@ -250,17 +262,18 @@ def load_models_from_file():
     loaded_label_encoder = joblib.load(paths.model_path('label_encoder.joblib'))
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
-use_ai_data = True
-should_train = False
+if __name__ == "__main__":
+    use_ai_data = True
+    should_train = False
 
-if should_train:
-    train_from_manual_training_files(use_ai_data)
+    if should_train:
+        train_from_manual_training_files(use_ai_data)
 
-training_data_file = paths.data_path("training_data.json")
-unclassified_data_file = paths.data_path("unclassified_data.json")
-ga_output_combined = paths.data_path("ga_output_combined.json")
+    training_data_file = paths.data_path("training/training_data.json")
+    unclassified_data_file = paths.data_path("training/unclassified_data.json")
+    ga_output_combined = paths.data_path("training/ga_output_combined.json")
 
-labels_out = predict_from_file(
-    unclassified_data_file,
-    False
-)
+    labels_out = predict_from_file(
+        unclassified_data_file,
+        False
+    )

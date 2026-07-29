@@ -1,5 +1,6 @@
 import json
 
+from classification import TextClassifier
 from util import FileNames
 from util import FileUtils
 from scrapers import ScrapperFactory
@@ -53,5 +54,8 @@ for file in FileUtils.all_event_file_names():
                     pass
                 raise e
             print("-" * 100)
+
+print(f"classifying {len(data)} events...")
+TextClassifier.classify_events(data)
 
 FileUtils.write_to_events_file(data)

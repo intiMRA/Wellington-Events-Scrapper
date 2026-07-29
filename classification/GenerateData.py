@@ -4,8 +4,8 @@ import random
 
 from util import paths
 
-training_file_name = paths.data_path("training_data.json")
-unclassified_file_name = paths.data_path("unclassified_data.json")
+training_file_name = paths.data_path("training/training_data.json")
+unclassified_file_name = paths.data_path("training/unclassified_data.json")
 skip_strings = [
     "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket",
     "BOK JOL WELLINGTON 2025, Age restriction. Under 18 only allowed with parents or legal guardian."
@@ -22,7 +22,7 @@ def clean_data(key: str, events):
         e[key] = description
 
 def generate_kid_friendly():
-    with open(paths.data_path("training_data_kid_friendly.json"), mode="r") as f:
+    with open(paths.data_path("training/training_data_kid_friendly.json"), mode="r") as f:
         full_set = json.loads(f.read())
         clean_data("description", full_set)
         small_set = []
@@ -35,7 +35,7 @@ def generate_kid_friendly():
         for i in range(1, len(trues)):
             small_set.append(falses[i])
         small_set += trues
-        with open(paths.data_path("small_training_data_kid_friendly.json"), mode="w") as w:
+        with open(paths.data_path("training/small_training_data_kid_friendly.json"), mode="w") as w:
             json.dump(small_set, w, indent=2)
 
 def generate_data():
@@ -146,7 +146,7 @@ def count_categories():
         UNDERLINE = '\033[4m'
 
     with open(training_file_name, mode="r") as read_training_file:
-        with open(paths.data_path("ai_generates.json"), mode="r") as ai_file:
+        with open(paths.data_path("training/ai_generates.json"), mode="r") as ai_file:
             training_data = json.loads(read_training_file.read())
             ai_data = json.loads(ai_file.read())
             ai_categories = {}
@@ -201,23 +201,23 @@ def print_duplicates():
                     print("DUPLICATES")
                 print("-" * 100)
 def move_top_n_shortest(num:int, category: str):
-    with open(paths.data_path("training_data.json"), mode="r") as training_file_read:
+    with open(paths.data_path("training/training_data.json"), mode="r") as training_file_read:
         training_data = json.loads(training_file_read.read())
-        with open(paths.data_path("unclassified_data.json"), mode="r") as unclassified_file_read:
+        with open(paths.data_path("training/unclassified_data.json"), mode="r") as unclassified_file_read:
             unclassified_data = json.loads(unclassified_file_read.read())
             category_training = [instance for instance in training_data if instance["label"] == category and not instance["skip"]]
             category_training = sorted(category_training, key=lambda x: len(x["description"]))[:num]
             training_data = [instance for instance in training_data if instance not in category_training]
             for instance in category_training:
                 unclassified_data.append(instance)
-            with open(paths.data_path("training_data.json"), mode="w") as training_file_write:
+            with open(paths.data_path("training/training_data.json"), mode="w") as training_file_write:
                 json.dump(training_data, training_file_write, indent=2)
-            with open(paths.data_path("unclassified_data.json"), mode="w") as unclassified_file_write:
+            with open(paths.data_path("training/unclassified_data.json"), mode="w") as unclassified_file_write:
                 json.dump(unclassified_data, unclassified_file_write, indent=2)
 def move_top_n_largest(num:int, category: str):
-    with open(paths.data_path("unclassified_data.json"), mode="r") as unclassified_file_read:
+    with open(paths.data_path("training/unclassified_data.json"), mode="r") as unclassified_file_read:
         unclassified_data = json.loads(unclassified_file_read.read())
-        with open(paths.data_path("training_data.json"), mode="r") as training_file_read:
+        with open(paths.data_path("training/training_data.json"), mode="r") as training_file_read:
             training_data = json.loads(training_file_read.read())
             training_titles = [element["description"].split(",")[0] for element in training_data]
             category_training = [instance for instance in unclassified_data
@@ -229,9 +229,9 @@ def move_top_n_largest(num:int, category: str):
             unclassified_data = [instance for instance in unclassified_data if instance not in category_training]
             for instance in category_training:
                 training_data.append(instance)
-            with open(paths.data_path("unclassified_data.json"), mode="w") as training_file_write:
+            with open(paths.data_path("training/unclassified_data.json"), mode="w") as training_file_write:
                 json.dump(unclassified_data, training_file_write, indent=2)
-            with open(paths.data_path("training_data.json"), mode="w") as unclassified_file_write:
+            with open(paths.data_path("training/training_data.json"), mode="w") as unclassified_file_write:
                 json.dump(training_data, unclassified_file_write, indent=2)
 
 # generate_kid_friendly()

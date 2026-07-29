@@ -114,27 +114,28 @@ def load_events(from_file=FileNames.EVENTS) -> List[EventInfo]:
 
 
 def get_files_for_scrapper(name: str) -> Tuple[IO, IO, IO]:
-    return (open(paths.data_path(f"{name}Events.json"), mode="w"),
-            open(paths.data_path(f"{name}Urls.json"), mode="w"),
-            open(paths.data_path(f"{name}Banned.json"), mode="a"))
+    paths.scraper_dir(name).mkdir(parents=True, exist_ok=True)
+    return (open(paths.scraper_path(name, "events.json"), mode="w"),
+            open(paths.scraper_path(name, "urls.json"), mode="w"),
+            open(paths.scraper_path(name, "banned.json"), mode="a"))
 
 
 def load_from_files(name: str) -> Tuple[List[EventInfo], List, List]:
     events: List[EventInfo] = []
     urls = []
     banned_urls = []
-    with open(paths.data_path(f"{name}Events.json"), mode="r") as f:
+    with open(paths.scraper_path(name, "events.json"), mode="r") as f:
         events = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
-    with open(paths.data_path(f"{name}Urls.json"), mode="r") as f:
+    with open(paths.scraper_path(name, "urls.json"), mode="r") as f:
         urls = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
-    with open(paths.data_path(f"{name}Banned.json"), mode="r") as f:
+    with open(paths.scraper_path(name, "banned.json"), mode="r") as f:
         file_text = f.read()[0:-2]
         banned_urls = json.loads(f"[{file_text}]")
     return events, urls, banned_urls
 
 
 def load_banned(name: str) -> Set[str]:
-    with open(paths.data_path(f"{name}Banned.json"), mode="r") as f:
+    with open(paths.scraper_path(name, "banned.json"), mode="r") as f:
         file_text = f.read()[0:-2]
         return json.loads(f"[{file_text}]")
 
@@ -142,5 +143,5 @@ def load_banned(name: str) -> Set[str]:
 def all_event_file_names() -> List[str]:
     names = []
     for scrapper in ScrapperNames.ALL_SCRAPER_NAMES:
-        names.append(paths.data_path(f"{scrapper}Events.json"))
+        names.append(paths.scraper_path(scrapper, "events.json"))
     return names
