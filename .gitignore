@@ -19,3 +19,7 @@ data/training/ga_output.json
 data/training/ga_test.json
 data/training/ga_balanced_individual.json
 data/training/small_training_data_kid_friendly.json
+# Python build artifacts
+*.egg-info/
+build/
+dist/

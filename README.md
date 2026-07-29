@@ -47,22 +47,21 @@ This project scrapes event data from various Wellington event sources and classi
 
 ### Prerequisites
 
-- Python 3.8+
+- **Python 3.11** (required: `StrEnum` needs ≥3.11, and the pinned TensorFlow 2.15 supports up to 3.11). The version is pinned in `.python-version` and `pyproject.toml` (`requires-python`).
 - Chrome/Chromium (for Selenium-based scrapers)
-- ChromeDriver matching your Chrome version
 
-### Install Dependencies
+### Set up the environment
+
+Create a 3.11 virtual environment at `.venv` and install the pinned dependencies:
 
 ```bash
-pip install tensorflow keras scikit-learn numpy pygad joblib selenium beautifulsoup4
+python3.11 -m venv .venv
+.venv/bin/pip install -r requirements.txt
 ```
 
-### Optional: GPU Support
+**PyCharm:** on first open it detects `requirements.txt` / `pyproject.toml` and offers to create the `.venv` and install everything automatically — just accept the prompt (it reads `requires-python` to pick 3.11). Run scripts **from the repo root**; auxiliary scripts run as modules, e.g. `python -m classification.TextClassifier`.
 
-For faster training with GPU:
-```bash
-pip install tensorflow-gpu
-```
+Dependencies are pinned in `requirements.txt` (the single source; `pyproject.toml` reads from it). ChromeDriver is managed automatically by `webdriver-manager`.
 
 ## Quick Start
 
