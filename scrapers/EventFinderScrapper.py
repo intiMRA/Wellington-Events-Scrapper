@@ -1,0 +1,239 @@
+import random
+from time import sleep
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+from util import FileUtils
+from scrapers.ScrapperNames import ScraperName
+from model.EventInfo import EventInfo
+import re
+from datetime import datetime, timedelta
+from util.DateFormatting import DateFormatting
+from dateutil import parser
+from dateutil.relativedelta import relativedelta
+from typing import List, Set, Optional, Tuple
+import json
+
+
+class EventFinderScrapper:
+    @staticmethod
+    def get_time_from_string(time_string: str) -> Optional[datetime]:
+        # Get the current date
+        today = datetime.now()
+
+        # Check if the string mentions "Tomorrow" or "Today"
+        if "Tomorrow" in time_string:
+            target_date = today + timedelta(days=1)  # Add one day for tomorrow
+        elif "Today" in time_string:
+            target_date = today  # Use today's date
+        else:
+            return None  # If the string doesn't contain "Today" or "Tomorrow"
+
+        # Extract the time (e.g., 6:30pm)
+        time_match = re.search(r'(\d{1,2}):(\d{2})(am|pm)', time_string, re.IGNORECASE)
+
+        if time_match:
+            hour = int(time_match.group(1))
+            minute = int(time_match.group(2))
+            am_pm = time_match.group(3).lower()
+
+            # Convert to 24-hour format if in PM
+            if am_pm == "pm" and hour != 12:
+                hour += 12
+            if am_pm == "am" and hour == 12:
+                hour = 0
+
+            # Combine the target date with the time
+            target_time = target_date.replace(hour=hour, minute=minute, second=0, microsecond=0)
+            return target_time
+        return None
+
+    @staticmethod
+    def get_event(url: str, category: Optional[str], driver: webdriver) -> Optional[EventInfo]:
+        try:
+            driver.find_element(By.XPATH, "//*[contains(., 'HTTP')]")
+            sleep(60 * 20)
+            driver.get(url)
+        except:
+            pass
+        sleep(random.uniform(1, 2))
+        driver.get(url)
+        try:
+            title: str = driver.find_element(By.CLASS_NAME, "value-title").text
+        except:
+            return None
+        venue: str = driver.find_element(By.CLASS_NAME, "venue").text
+        dates = EventFinderScrapper.get_all_event_dates(url, driver)
+        description: str = driver.find_element(By.CLASS_NAME, "description").text
+        image_url = ""
+        try:
+            image_url: str = driver.find_element(By.CLASS_NAME, "photo").get_attribute("src")
+        except:
+            print("no image found")
+        return EventInfo(
+            name=title,
+            dates=dates,
+            image=image_url,
+            url=url,
+            venue=venue,
+            source=ScraperName.EVENT_FINDER,
+            event_type=category if category else "Other",
+            description=description)
+
+    @staticmethod
+    def get_all_event_dates(url: str, driver) -> List[datetime]:
+        date_objects: List[datetime] = []
+        try:
+            driver.find_element(By.XPATH, "//*[contains(., 'HTTP')]")
+            sleep(2)
+            driver.get(url)
+        except:
+            pass
+        try:
+            all_dates_button = driver.find_element(By.CLASS_NAME, "show-more")
+            all_dates_button.click()
+        except:
+            pass
+        i = 0
+        dates = []
+        while i < 2:
+            try:
+                date_table = driver.find_element(By.CLASS_NAME, "sessions-info")
+                dates = date_table.find_elements(By.TAG_NAME, "time")
+                break
+            except:
+                i += 1
+                sleep(1)
+        for date in dates:
+            date_string = date.get_attribute("datetime")
+            try:
+                # datetime 2024-08-01, 09:00–13:00
+                full_string = date_string
+                date_string = date_string.split(",")[0]
+                if len(date_string.split("–")) > 1:
+                    start, last = date_string.split("–")
+                    hour = full_string.split(",")[-1].split("–")[0]
+                    start += " " + hour
+                    last += " " + hour
+                    print(f"start: {start} end: {last}")
+                    start_date_obj = parser.parse(start)
+                    end_date_obj = parser.parse(last)
+
+                    start_date_obj = DateFormatting.replace_year(start_date_obj)
+
+                    end_date_obj = DateFormatting.replace_year(end_date_obj)
+                    date_objects = list(DateFormatting.create_range(start_date_obj, end_date_obj))
+                else:
+                    date_string = date_string + " " + full_string.split(",")[-1].split("–")[0]
+                    date_obj = parser.parse(date_string)
+                    date_obj = DateFormatting.replace_year(date_obj)
+                    date_objects.append(date_obj)
+            except Exception as e:
+                print(f"error: {e}")
+        return date_objects
+
+    @staticmethod
+    def get_urls(driver: webdriver, previous_urls: Set[str], urls_file) -> Set[Tuple[str, str]]:
+        urls = set()
+        start_date = datetime.now()
+        end_date = start_date + relativedelta(days=30)
+
+        wellington_region_url = f"https://www.eventfinda.co.nz/whatson/events/wellington-region/date/to-month/{end_date.month}/to-day/{end_date.day}"
+
+        wellington_url = f"https://www.eventfinda.co.nz/whatson/events/wellington/date/to-month/{end_date.month}/to-day/{end_date.day}"
+        fetch_urls = [wellington_region_url, wellington_url]
+        urls_file.write("[\n")
+        for url in fetch_urls:
+            print("-" * 100)
+            print(f"fetching: {url}")
+            print("-"*100)
+            driver.get(url + f'/page/{2}')
+            last_page = 1
+            try:
+                pagination = driver.find_element(By.CLASS_NAME, 'lead')
+                last_page = int(re.sub('\W+', ' ', pagination.text).strip().split("of")[-1])
+            except:
+                print("error: ", url)
+                pass
+            current_page = 1
+            driver = webdriver.Chrome()
+            while current_page <= last_page:
+                page_url = url + f'/page/{current_page}'
+                driver.get(page_url)
+                i = 0
+                html = []
+                while i < 10:
+                    try:
+                        html = driver.find_element(By.CLASS_NAME, 'listings-events').find_elements(By.CLASS_NAME, 'card')
+                        break
+                    except:
+                        i += 1
+                        sleep(1)
+                for event in html:
+                    title_element = event.find_element(By.CLASS_NAME, "card-title").find_element(By.TAG_NAME, "a")
+                    try:
+                        event_url = title_element.get_attribute("href")
+                        if event_url in previous_urls:
+                            continue
+                        previous_urls.add(event_url)
+                        category: Optional[str] = None
+                        try:
+                            category = event.find_element(By.CLASS_NAME, 'category').text
+                        except:
+                            pass
+                        url_tuple = (event_url, category if category else "Other")
+
+                        urls.add(url_tuple)
+                        json.dump(url_tuple, urls_file, indent=2)
+                        urls_file.write(",\n")
+                    except:
+                        print(f"invalid event")
+                        continue
+                current_page += 1
+        urls_file.write("]\n")
+        return urls
+
+
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
+        fetch_urls = True
+        urls = set()
+        if not fetch_urls:
+            urls = FileUtils.load_from_files(ScraperName.EVENT_FINDER)[1]
+        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.EVENT_FINDER)
+        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.EVENT_FINDER)))
+        driver = webdriver.Chrome()
+        if fetch_urls:
+            urls = EventFinderScrapper.get_urls(driver, previous_urls, urls_file)
+        else:
+            json.dump(list(urls), urls_file, indent=2)
+        events: List[EventInfo] = []
+        out_file.write("[\n")
+        for parts in urls:
+            if (not fetch_urls) and parts[0] in previous_urls:
+                continue
+            url = parts[0]
+            category = parts[1]
+            print(f"category: {category} url: {url}")
+            try:
+                event = EventFinderScrapper.get_event(url, category, driver)
+                if event:
+                    events.append(event)
+                    json.dump(event.to_dict(), out_file, indent=2)
+                    out_file.write(",\n")
+            except Exception as e:
+                if "No dates found for" in str(e):
+                    print("-" * 100)
+                    print(e)
+                else:
+                    print("-" * 100)
+                    raise e
+            print("-" * 100)
+        out_file.write("]\n")
+        out_file.close()
+        driver.close()
+        urls_file.close()
+        banned_file.close()
+        return events
+
+# events = list(map(lambda x: x.to_dict(), sorted(EventFinderScrapper.fetch_events(set()), key=lambda k: k.name.strip())))

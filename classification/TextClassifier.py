@@ -1,0 +1,279 @@
+import numpy as np
+from keras.preprocessing.text import tokenizer_from_json
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from keras.preprocessing.text import Tokenizer
+from keras.utils import pad_sequences, to_categorical,set_random_seed
+import json
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense
+from tensorflow.config.experimental import enable_op_determinism
+from keras.callbacks import EarlyStopping
+from tensorflow.keras.models import load_model
+import joblib
+from typing import List
+
+from util import paths
+from model.EventInfo import EventInfo
+
+max_sequence_length = 1500
+num_words = 2000
+embedding_dim = 400
+def train_from_manual_training_files(load_ai):
+    use_ga = True
+    training_data_file_name = paths.data_path("training/ga_output_combined.json") if use_ga else paths.data_path("training/training_data.json")
+    ai_data_file_name = paths.data_path("training/ai_generates.json")
+
+    all_texts = []
+    with open(training_data_file_name, mode="r") as f:
+        data = json.loads(f.read())
+        all_texts.extend([item["description"] for item in data if not item["skip"]])
+    if load_ai:
+        with open(ai_data_file_name, mode="r") as f:
+            data = json.loads(f.read())
+            all_texts.extend([item["description"] for item in data if not item["skip"]])
+
+    tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
+    tokenizer.fit_on_texts(all_texts)
+    label_encoder = LabelEncoder()
+    set_random_seed(13453379)
+    enable_op_determinism()
+    X_train, X_test, Y_train, Y_test, num_classes = get_data(training_data_file_name, label_encoder, tokenizer)
+
+    X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
+
+    if load_ai:
+        X_train_ai, X_test_ai, Y_train_ai, Y_test_ai, num_classes_ai = get_data(ai_data_file_name, label_encoder, tokenizer)
+        for v in X_train_ai:
+            np.append(X_train, v)
+
+        for v in Y_train_ai:
+            np.append(Y_train, v)
+
+        for v in X_test_ai:
+            np.append(X_train, v)
+
+        for v in Y_test_ai:
+            np.append(Y_train, v)
+    train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder, tokenizer)
+
+def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder=None, tokenizer=None, epochs=100, verbose=1) -> float:
+    model = Sequential()
+    model.add(Embedding(input_dim=num_words, output_dim=embedding_dim, input_length=max_sequence_length))
+    model.add(Conv1D(filters=512, kernel_size=3, activation='relu'))
+    model.add(GlobalMaxPooling1D())
+    model.add(Dense(units=64, activation='relu'))
+    model.add(Dense(units=num_classes, activation='softmax'))
+
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+    early_stopping_callback = EarlyStopping(
+        monitor='val_loss',
+        patience=5,
+        mode='min',
+        restore_best_weights=True,
+        min_delta=0.0001
+    )
+
+    model.fit(
+        X_train, Y_train,
+        epochs=epochs,
+        batch_size=32,
+        validation_data=(X_val, Y_val),
+        callbacks=[early_stopping_callback],
+        verbose=verbose
+    )
+
+    loss, accuracy = model.evaluate(X_test, Y_test)
+    print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
+    if not label_encoder and not tokenizer:
+        return accuracy
+    model.save(paths.model_path('trained_model'))
+    tokenizer_json = tokenizer.to_json()
+    with open(paths.model_path('tokenizer_config.json'), 'w', encoding='utf-8') as f:
+        f.write(json.dumps(tokenizer_json, ensure_ascii=False))
+    joblib.dump(label_encoder, paths.model_path('label_encoder.joblib'))
+    return accuracy
+
+def get_data(file_name: str, label_encoder, tokenizer):
+    texts = []
+    labels = []
+    with open(file_name, mode="r") as f:
+        dictionary = json.loads(f.read())
+        for value in dictionary:
+            if value["skip"]:
+                continue
+            description = value["description"]
+            label = value["label"]
+            texts.append(description)
+            labels.append(label)
+
+        sequences = tokenizer.texts_to_sequences(texts)
+
+        padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
+
+        encoded_labels = label_encoder.fit_transform(labels)
+
+        number_of_classes = len(np.unique(encoded_labels))
+
+        one_hot_labels = to_categorical(encoded_labels, num_classes=number_of_classes)
+
+        x_train, x_test, y_train, y_test = train_test_split(padded_sequences, one_hot_labels, test_size=0.2,
+                                                                random_state=42)
+        return x_train, x_test, y_train, y_test, number_of_classes
+def classify_events(events: List[EventInfo], only_empty: bool = True) -> None:
+    """Populate events' `labels` with the classifier's predicted category via a single batched
+    prediction. By default only events whose `labels` are empty are classified (events that
+    already carry labels are left untouched); pass only_empty=False to relabel every event."""
+    targets = [event for event in events if not event.labels] if only_empty else list(events)
+    if not targets:
+        return
+    classification_model, loaded_tokenizer, loaded_label_encoder = load_models_from_file()
+    texts = [f"{event.name}, {event.long_description}" for event in targets]
+    label_lists = _predict_label_lists(classification_model, loaded_tokenizer, loaded_label_encoder, texts)
+    for event, labels in zip(targets, label_lists):
+        event.labels = labels
+
+
+def _predict_label_lists(classification_model, loaded_tokenizer, loaded_label_encoder, texts: List[str]) -> List[List[str]]:
+    sequences = loaded_tokenizer.texts_to_sequences(texts)
+    padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
+
+    predictions = classification_model.predict(padded_sequences)
+
+    label_lists = []
+    for predictions_array in predictions:
+        indecies = np.argpartition(predictions_array, -2)[-2:]
+        indecies = indecies[np.argsort(-predictions_array[indecies])]
+
+        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
+            indecies = [indecies[0]]
+
+        label_lists.append([str(label) for label in loaded_label_encoder.inverse_transform(indecies)])
+    return label_lists
+def predict_from_file(file_name, update_labels=True):
+    """
+    Predicts the labels for descriptions in a given file.
+    If update_labels is True, updates the source file with predicted labels
+    for categories: Music & Concerts, Markets & Fairs, Classes & Workshops.
+    """
+    # Labels that should be auto-accepted when predicted
+    AUTO_ACCEPT_LABELS = {"Music & Concerts", "Markets & Fairs", "Classes & Workshops", "Film & Media"}
+
+    classification_model, loaded_tokenizer, loaded_label_encoder = load_models_from_file()
+    with open(file_name, mode="r") as f:
+        data = json.loads(f.read())
+        texts_to_predict = []
+        given_labels = []
+        item_indices = []  # Track which items in data correspond to predictions
+        for idx, item in enumerate(data):
+            if item["skip"]:
+                continue
+            texts_to_predict.append(item["description"])
+            item_indices.append(idx)
+            if "new" in item.keys():
+                given_labels.append(item["label"] + "\nnew")
+            else:
+                given_labels.append(item["label"])
+
+    sequences = loaded_tokenizer.texts_to_sequences(texts_to_predict)
+    padded_sequences = pad_sequences(sequences, maxlen=max_sequence_length, padding='post')
+
+    predictions = classification_model.predict(padded_sequences)
+
+    predicted_labels = []
+    for predictions_array in predictions:
+        indecies = np.argpartition(predictions_array, -2)[-2:]
+        indecies = indecies[np.argsort(-predictions_array[indecies])]
+
+        if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
+            indecies = [indecies[0]]
+
+        if len(indecies) == 0:
+            predicted_labels.append([{"label": None, "confidence": f"Confidence 0%"}])
+        else:
+            label_dict = [{"label": label, "confidence": f"Confidence: {predictions_array[index] * 100:.2f}%"} for label, index in zip(loaded_label_encoder.inverse_transform(indecies), indecies)]
+            predicted_labels.append(label_dict)
+
+    # Track label updates
+    labels_updated = 0
+    percentages_per_class: dict = {}
+    with open(paths.data_path("logs/predictions_log.txt"), mode="w") as f:
+        correct_labels = 0
+        for i, text in enumerate(texts_to_predict):
+            f.write(f"Text: {text}\n")
+            f.write(f"Predicted Labels: {predicted_labels[i]}\n")
+            f.write(f"given Label: {given_labels[i]}\n")
+            found = False
+            for item in predicted_labels[i]:
+                if given_labels[i] == item["label"]:
+                    found = True
+                    break
+            f.write(f"prediction correct: {found}\n")
+            if found:
+                correct_labels+=1
+            if given_labels[i] in percentages_per_class.keys():
+                current = percentages_per_class[given_labels[i]]
+                percentages_per_class[given_labels[i]] = {"count": current["count"] + 1,
+                                                          "correct": current["correct"] + 1
+                                                          if found
+                                                          else current["correct"]}
+            else:
+                percentages_per_class[given_labels[i]] = {"count": 1,
+                                                          "correct": 1
+                                                          if found
+                                                          else 0}
+
+            # Check if we should update the label in the source file
+            if update_labels and len(predicted_labels[i]) > 0:
+                top_predicted = predicted_labels[i][0]["label"]
+                original_label = given_labels[i].replace("\nnew", "")
+
+                # Update if predicted is in auto-accept list and different from original
+                if top_predicted in AUTO_ACCEPT_LABELS and original_label != top_predicted:
+                    data_idx = item_indices[i]
+                    data[data_idx]["label"] = top_predicted
+                    labels_updated += 1
+                    f.write(f"LABEL UPDATED: {original_label} -> {top_predicted}\n")
+
+            f.write("-" * 100)
+            f.write("\n")
+            f.write("\n")
+        f.write(f"correct: {correct_labels} of {len(texts_to_predict)} {(correct_labels/len(texts_to_predict)) * 100}%\n")
+        f.write(f"labels updated: {labels_updated}\n")
+        sorted_classes = sorted(percentages_per_class.keys(), key=lambda c: percentages_per_class[c]['correct'] / percentages_per_class[c]['count'], reverse=True)
+        for percentage_class in sorted_classes:
+            print(f"label: {percentage_class} percentage: {percentages_per_class[percentage_class]['correct']/ percentages_per_class[percentage_class]['count']}")
+
+    # Save updated data back to file
+    if update_labels and labels_updated > 0:
+        with open(file_name, mode="w") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        print(f"Updated {labels_updated} labels in {file_name}")
+
+    return predicted_labels
+
+def load_models_from_file():
+    classification_model = load_model(paths.model_path("trained_model"))
+    with open(paths.model_path('tokenizer_config.json'), 'r', encoding='utf-8') as f:
+        tokenizer_config_string = json.loads(f.read())
+    loaded_tokenizer = tokenizer_from_json(tokenizer_config_string)
+
+    loaded_label_encoder = joblib.load(paths.model_path('label_encoder.joblib'))
+    return classification_model, loaded_tokenizer, loaded_label_encoder
+
+if __name__ == "__main__":
+    use_ai_data = True
+    should_train = False
+
+    if should_train:
+        train_from_manual_training_files(use_ai_data)
+
+    training_data_file = paths.data_path("training/training_data.json")
+    unclassified_data_file = paths.data_path("training/unclassified_data.json")
+    ga_output_combined = paths.data_path("training/ga_output_combined.json")
+
+    labels_out = predict_from_file(
+        ga_output_combined,
+        False
+    )

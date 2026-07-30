@@ -1,9 +1,10 @@
-import FileUtils
-import ScrapperFactory
-import ScrapperNames
-from EventInfo import EventInfo
+from util import FileUtils
+from scrapers import ScrapperFactory
+from scrapers import ScrapperNames
+from model.EventInfo import EventInfo
+from classification import TextClassifier
 from typing import List
-import FileNames
+from util import FileNames
 
 data: List[EventInfo] = []
 previous_events = FileUtils.load_events()
@@ -18,5 +19,8 @@ for scrapper_name in ScrapperNames.ALL_SCRAPER_NAMES:
     data += (scrapper.fetch_events(previous_urls, previous_titles) + previous_list)
     print(f"fetched: {len(data)} events")
     print("-" * 200)
+
+print(f"classifying {len(data)} events...")
+TextClassifier.classify_events(data)
 
 FileUtils.write_to_events_file(data)

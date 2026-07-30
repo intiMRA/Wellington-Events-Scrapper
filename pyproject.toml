@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wellington-events-scrapper"
+version = "0.1.0"
+description = "Scrapes Wellington events from many sources, classifies them, and publishes events.json for the companion iOS app."
+requires-python = ">=3.11,<3.12"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+# The code runs from the repo root (see README) and is not packaged/distributed.
+# This file exists so tools (PyCharm, pip, uv) know the required Python version,
+# the dependencies, and the formatter config.
+packages = []
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.black]
+target-version = ["py311"]
