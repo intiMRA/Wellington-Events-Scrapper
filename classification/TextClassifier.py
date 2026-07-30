@@ -274,6 +274,6 @@ if __name__ == "__main__":
     ga_output_combined = paths.data_path("training/ga_output_combined.json")
 
     labels_out = predict_from_file(
-        unclassified_data_file,
+        ga_output_combined,
         False
     )

@@ -23,3 +23,6 @@ data/training/small_training_data_kid_friendly.json
 *.egg-info/
 build/
 dist/
+
+# local backups
+*.bak.json
