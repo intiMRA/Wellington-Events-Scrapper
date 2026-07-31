@@ -1,62 +1,42 @@
 [
 {
-  "id": "The Racket Lounge-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "The Racket Lounge",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102969-37463.jpg",
+  "id": "Sunday Jazz - Matt Steele-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Sunday Jazz - Matt Steele",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103848-192472.jpg",
   "venue": "The Rogue & Vagabond",
   "coordinates": {
     "lat": -41.29336,
     "long": 174.7745002
   },
   "dates": [
-    "2026-10-07-18:30"
+    "2026-08-09-17:00"
   ],
-  "displayDate": "Wed 07 Oct",
-  "url": "http://www.undertheradar.co.nz/gig/102969/The-Racket-Lounge.utr",
+  "displayDate": "Sun 09 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/103848/Sunday-Jazz---Matt-Steele.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer, jazz, and hangs on a Sunday perfect!\n\nThis week featuring the return of local pianist Matt Steele\n\nMusic from 5pm, FREE ENTRY - Koha for the band appreciated!",
+  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer, jazz, and hangs on a Sunday perfect!\nThis week featuring the return of local pianist Matt Steele Music from 5pm, FREE ENTRY - Koha for the band appreciated!",
+  "labels": []
+},
+{
+  "id": "The Racket Lounge-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "The Racket Lounge",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102968-969368.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-09-09-18:30"
+  ],
+  "displayDate": "Wed 09 Sep",
+  "url": "http://www.undertheradar.co.nz/gig/102968/The-Racket-Lounge.utr",
   "source": "Rogue & Vagabond",
   "eventType": "Music & Concerts",
   "long_description": "Grab a spot on our couch and enjoy the noise at The Racket Lounge - a chill classical music series showcasing up-and-coming P\u014dneke musicians.\n\nIf you\u2019ve never been to a classical concert before, or if you have and now you want to see talented emerging musicians experimenting and playing what they want to play, then The Racket Lounge is for you. Over the past two seasons we\u2019ve seen classical covers, jazz ensembles, video game soundtracks, original compositions, loop pedals, poetry and much more. Our 2026 season is shaping up to be just as epic, plus with your tickets starting at just $5 you can afford to take a chance on something new.\n\nEach concert will feature a different line up of musicians and genres, to be announced a week before each session. If you\u2019re a musician looking to perform at The Racket Lounge, then head to the New Zealand String Quartet\u2019s website to see how to apply.\n\n\n\nThe Racket Lounge is created and presented by the New Zealand String Quartet Trust - Te R\u014dp\u016b T\u016br\u016b o Aotearoa, New Zealand\u2019s longest-running professional string quartet. With support from Wellington City Council.\n\nTickets are choose your price starting from just $5.\n\nPlease note that Bedlam & Squalor is a licensed venue, so under 18s must be accompanied by a parent or legal guardian. Everyone must bring ID.",
   "description": "Grab a spot on our couch and enjoy the noise at The Racket Lounge - a chill classical music series showcasing up-and-coming P\u014dneke musicians.\nIf you\u2019ve never been to a classical concert before, or if you have and now you want to see talented emerging musicians experimenting and playing what they want to play, then The Racket Lounge is for you.\nOur 2026 season is shaping up to be just as epic, plus with your tickets starting at just $5 you can afford to take a chance on something new.\nIf you\u2019re a musician looking to perform at The Racket Lounge, then head to the New Zealand String Quartet\u2019s website to see how to apply.\nTickets are choose your price starting from just $5.",
-  "labels": []
-},
-{
-  "id": "Sunday Jazz - Cumulonimbus-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Sunday Jazz - Cumulonimbus",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102962-521324.jpeg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2026-09-20-17:00"
-  ],
-  "displayDate": "Sun 20 Sep",
-  "url": "http://www.undertheradar.co.nz/gig/102962/Sunday-Jazz---Cumulonimbus.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Pizza, beer, jazz, on a Sunday perfect!\n\nThis week featuring local saxophonist Hayden Hockley and his Cumulonimbus group\n\nCumulonimbus - Come rain or come shine\nHayden Hockly's long term jazz project invites you out of the cold for a set of tunes all about the weather.\n\nMusic from 5pm, FREE ENTRY",
-  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nPizza, beer, jazz, on a Sunday perfect!\nThis week featuring local saxophonist Hayden Hockley and his Cumulonimbus group Cumulonimbus - Come rain or come shine Hayden Hockly's long term jazz project invites you out of the cold for a set of tunes all about the weather.\nMusic from 5pm, FREE ENTRY",
-  "labels": []
-},
-{
-  "id": "Sunday Jazz - Tyaan Singh-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Sunday Jazz - Tyaan Singh",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103791-390309.jpg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2026-08-02-17:00"
-  ],
-  "displayDate": "Sun 02 Aug",
-  "url": "http://www.undertheradar.co.nz/gig/103791/Sunday-Jazz---Tyaan-Singh.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer, hangs, and jazz, on a Sunday, perfect!\n\nThis week featuring local saxophonist Tyaan Singh and his band\n\nMusic from 5pm, FREE ENTRY",
-  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer, hangs, and jazz, on a Sunday, perfect!\nThis week featuring local saxophonist Tyaan Singh and his band Music from 5pm, FREE ENTRY",
   "labels": []
 },
 ]

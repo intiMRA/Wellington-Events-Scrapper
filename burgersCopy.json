@@ -2202,8 +2202,8 @@
     {
       "id": "RuBtaIaySTCZ1B_9Obid0A",
       "name": "KimCheek",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Landscape-Edit-2---65-Real-260518-074207.png",
-      "description": "Slow-cooked pork cheek, with pickled red cabbage, American cheese, and kimchi mayonnaise in a Brezelmania brioche bun.",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3825-260731-092935.png",
+      "description": "Panko crusted slow-cooked pork cheek patty, with iceberg lettuce, pickled red cabbage, American cheese, and kimchi mayonnaise in a Brezelmania brioche bun.",
       "price": 26.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch",
@@ -2215,8 +2215,7 @@
       },
       "dietaryRequirements": [
         "Dairy Free Available",
-        "Nut Free Available",
-        "Gluten Free Available"
+        "Nut Free Available"
       ],
       "mainProtein": "Pork",
       "sidesIncluded": false,
@@ -3995,7 +3994,7 @@
     {
       "id": "AUIWRBdKRuScMvj2nu0A1Q",
       "name": "That's Amore",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_2074-260604-105831.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3832-260731-114452.png",
       "description": "Wellington Seamarket Cook Strait caught crumbed fish fillet, with mesclun and tartare sauce in a Dough Bakery potato bun, with a skewered scampi and housemade scampi bisque.",
       "price": 25.0,
       "beerMatchPrice": null,
@@ -4625,7 +4624,7 @@
       "id": "GgFhg7qYRtCKhThOE745sw",
       "name": "The Tony",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_2046--1--260604-110025.jpg",
-      "description": "Wellington Seamarket Cook Strait caught crumbed fish fillet, with sliced salmon sashimi, lettuce, American cheese, and tartare sauce in a Dough Bakery potato bun.",
+      "description": "Wellington Seamarket Cook Strait caught crumbed fish fillet, with sliced Salmon sashimi, coleslaw, cheese, and tartare sauce in a Dough Bakery potato bun.",
       "price": 24.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
@@ -4775,7 +4774,7 @@
     {
       "id": "eb80b7SGTHCrTj63z98qEQ",
       "name": "Triple B Revival",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_2814-260511-122004.jpeg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3835-260731-123230.jpeg",
       "description": "Two beef patties, with bacon, smoked cheddar, lettuce, Chocolate Fish Caf\u00e9 bourbon glaze, and jalape\u00f1o aioli in a Cottage Lane milk bun.",
       "price": 27.0,
       "beerMatchPrice": 39.0,
