@@ -24,3 +24,6 @@ dist/
 
 # local backups
 *.bak.json
+
+# working logs
+data/logs/*.txt

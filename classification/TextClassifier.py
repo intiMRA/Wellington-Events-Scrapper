@@ -19,19 +19,14 @@ from model.EventInfo import EventInfo
 max_sequence_length = 1500
 num_words = 2000
 embedding_dim = 400
-def train_from_manual_training_files(load_ai):
+def train_from_manual_training_files():
     use_ga = True
-    training_data_file_name = paths.data_path("training/ga_output_combined.json") if use_ga else paths.data_path("training/training_data.json")
-    ai_data_file_name = paths.data_path("training/ai_generates.json")
+    training_data_file_name = paths.data_path("training/ga_output_combined.json") if use_ga else paths.data_path("training/generated_data.json")
 
     all_texts = []
     with open(training_data_file_name, mode="r") as f:
         data = json.loads(f.read())
         all_texts.extend([item["description"] for item in data if not item["skip"]])
-    if load_ai:
-        with open(ai_data_file_name, mode="r") as f:
-            data = json.loads(f.read())
-            all_texts.extend([item["description"] for item in data if not item["skip"]])
 
     tokenizer = Tokenizer(num_words=num_words, oov_token="<unk>")
     tokenizer.fit_on_texts(all_texts)
@@ -42,19 +37,6 @@ def train_from_manual_training_files(load_ai):
 
     X_train, X_val, Y_train, Y_val = train_test_split(X_train, Y_train, test_size=0.2, random_state=42)
 
-    if load_ai:
-        X_train_ai, X_test_ai, Y_train_ai, Y_test_ai, num_classes_ai = get_data(ai_data_file_name, label_encoder, tokenizer)
-        for v in X_train_ai:
-            np.append(X_train, v)
-
-        for v in Y_train_ai:
-            np.append(Y_train, v)
-
-        for v in X_test_ai:
-            np.append(X_train, v)
-
-        for v in Y_test_ai:
-            np.append(Y_train, v)
     train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder, tokenizer)
 
 def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_encoder=None, tokenizer=None, epochs=100, verbose=1) -> float:
@@ -100,10 +82,16 @@ def get_data(file_name: str, label_encoder, tokenizer):
     labels = []
     with open(file_name, mode="r") as f:
         dictionary = json.loads(f.read())
+        seen = set()
         for value in dictionary:
             if value["skip"]:
                 continue
             description = value["description"]
+            if description in seen:
+                # Drop duplicate descriptions so identical text can't land in both
+                # the train and test halves of the split and inflate accuracy.
+                continue
+            seen.add(description)
             label = value["label"]
             texts.append(description)
             labels.append(label)
@@ -263,14 +251,11 @@ def load_models_from_file():
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
 if __name__ == "__main__":
-    use_ai_data = True
     should_train = False
 
     if should_train:
-        train_from_manual_training_files(use_ai_data)
+        train_from_manual_training_files()
 
-    training_data_file = paths.data_path("training/training_data.json")
-    unclassified_data_file = paths.data_path("training/unclassified_data.json")
     ga_output_combined = paths.data_path("training/ga_output_combined.json")
 
     labels_out = predict_from_file(
