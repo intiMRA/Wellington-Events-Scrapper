@@ -1,22 +1,50 @@
 [
 [
-  "https://www.ticketmaster.co.nz/mamma-mia-wellington-15-08-2025/event/2400611AF1721F42",
-  "Other"
+  "https://www.moshtix.co.nz/v2/event/badtab-album-release-show/197045",
+  "MusicEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/venues-wellington-theatre-tours-wellington-06-09-2025/event/2400630E8D4C0C17",
+  "https://www.moshtix.co.nz/v2/event/funk-the-band-yawner-louie-flack/198525",
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/abracadabra-wellington-06-10-2026/event/240064EAE16548D9",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/cure-kids-nz-quiz-night-with-wellington-11-11-2025/event/240063069A97114D",
+  "https://www.ticketmaster.co.nz/che-fu-the-kratez-25-years-wellington-11-10-2026/event/240064DEE65D351F",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/set-fire-to-the-brass-wellington-15-10-2026/event/240064F7857116E3",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/home-brew-last-week-aus-nz-tour/198203",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/old-mervs-carparks-au-nz-tour/198109",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/buckshot-with-sidney-phillips-oscar18/198435",
   "MusicEvent"
 ],
 [
-  "https://www.ticketweb.com/event/tray-wellington-band-space-tickets/14453423",
+  "https://www.ticketmaster.co.nz/lee-harris-the-oneness-experience-wellington-09-03-2027/event/240064F7C3FF3366",
   "MusicEvent"
 ],
 [
-  "https://www.ticketweb.com/event/tray-wellington-band-with-special-showdown-saloon-tickets/13934954",
+  "https://www.ticketmaster.co.nz/wobil-wise-old-bugger-in-lycra-wellington-11-04-2027/event/240064EFD8DB2B8A",
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/menopause-the-musical-wellington-11-04-2027/event/240064EFEB4531B7",
+  "MusicEvent"
+],
+[
+  "https://www.ticketweb.com/event/tray-wellington-w-david-newbould-club-cafe-tickets/14989343",
   "MusicEvent"
 ],
 ]

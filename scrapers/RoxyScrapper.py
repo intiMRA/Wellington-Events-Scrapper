@@ -94,7 +94,10 @@ class RoxyScrapper:
     def get_event_doc_edge(url: Tuple[str, str], driver: webdriver) -> Optional[EventInfo]:
         driver.get(url[0])
         sleep(3)
-        title = driver.find_element(By.XPATH, "//h1[contains(@class, 'elementor-heading-title')]").text
+        try:
+            title = driver.find_element(By.XPATH, "//h1[contains(@class, 'elementor-heading-title')]").text
+        except:
+            return None
         description = driver.find_elements(By.XPATH, "//div[contains(@class, 'elementor-widget-text-editor')]")[0].text
         image_url = url[-1]
         date_elements = driver.find_elements(By.XPATH, "//div[contains(@class, 'timeRow')]")
