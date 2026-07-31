@@ -86,13 +86,13 @@ Processes scraped events into training and unclassified datasets.
 ```python
 # In TextClassifier.py, set:
 should_train = True
-train_from_manual_training_files(use_ai_data=False)
+train_from_manual_training_files()
 ```
 
 ### 4. Classify Events
 
 ```python
-labels = predict_from_file("unclassified_data.json", update_labels=True)
+labels = predict_from_file("generated_data.json", update_labels=True)
 ```
 
 ## Architecture
@@ -122,15 +122,12 @@ labels = predict_from_file("unclassified_data.json", update_labels=True)
 │                    │ GenerateData   │                                   │
 │                    └───────┬────────┘                                   │
 │                            │                                            │
-│              ┌─────────────┼─────────────┐                              │
-│              ▼             ▼             ▼                              │
-│     ┌──────────────┐ ┌──────────────┐ ┌──────────────┐                  │
-│     │training_data │ │ unclassified │ │ ai_generates │                  │
-│     │    .json     │ │  _data.json  │ │    .json     │                  │
-│     └──────┬───────┘ └──────────────┘ └──────┬───────┘                  │
-│            │                                 │                          │
-│            └─────────────┬───────────────────┘                          │
-│                          ▼                                              │
+│                            ▼                                            │
+│                    ┌────────────────┐                                   │
+│                    │ generated_data │                                   │
+│                    │     .json      │                                   │
+│                    └───────┬────────┘                                   │
+│                            ▼                                            │
 │                 ┌─────────────────┐                                     │
 │                 │  DataCreator    │ (Optional GA Optimization)          │
 │                 └────────┬────────┘                                     │
@@ -208,17 +205,12 @@ The data generation module prepares training data from scraped events.
 ### Key Functions
 
 #### `generate_data()`
-Processes events from `events.json` and updates the training dataset:
-1. Reads events with valid descriptions (excluding "Other" category)
-2. Cleans descriptions by removing boilerplate text like "You may also like..." sections
-3. Deduplicates entries by checking against existing training and unclassified data
-4. Creates training entries with format: `{description: "Event Name, Long Description", label: "Category"}`
+Ingests new events from `events.json` into the single dataset `generated_data.json`:
+1. Reads events with a valid `long_description` (any `eventType`)
+2. Cleans descriptions by removing boilerplate ("You may also like...", "Also check out other...")
+3. Deduplicates by description against the existing dataset
+4. Appends new entries as `{description: "Event Name, Long Description", label: eventType}` — uncategorised events come in as `Other` for later labeling
 5. Marks short entries (<110 characters) as `skip: true` to exclude from training
-
-#### `generate_unclassified_data()`
-Handles events marked as "Other" that need manual classification:
-1. Filters events without proper categorization
-2. Adds them to `unclassified_data.json` for later labeling
 
 #### `clean_data(key, events)`
 Removes noise from event descriptions by stripping:
@@ -226,15 +218,10 @@ Removes noise from event descriptions by stripping:
 - "Also check out other..."
 
 #### `count_categories()`
-Displays category distribution with color-coded output to identify imbalanced classes.
+Prints the label distribution of `generated_data.json` to spot class imbalance.
 
-#### `move_top_n_shortest()` / `move_top_n_largest()`
-Rebalances the dataset by moving entries between training and unclassified sets based on description length.
-
-### Data Files
-- `training_data.json` - Labeled training examples
-- `unclassified_data.json` - Events pending classification
-- `ai_generates.json` - AI-generated training examples for augmentation
+### Data File
+- `generated_data.json` - The single labeled dataset (both categorised and `Other` entries)
 
 ## Text Classifier (`TextClassifier.py`)
 
@@ -293,10 +280,10 @@ Predicts categories for events in a file:
 ```python
 # Training
 should_train = True
-train_from_manual_training_files(use_ai_data=False)
+train_from_manual_training_files()
 
 # Prediction
-labels = predict_from_file("unclassified_data.json", update_labels=True)
+labels = predict_from_file("generated_data.json", update_labels=True)
 ```
 
 ## Genetic Algorithm Optimization (`DataCreator.py`)
@@ -377,7 +364,7 @@ Wellington-Events-Scrapper/
 │
 ├── data/
 │   ├── scrapers/<Source>/       # Per-scraper checkpoints: events.json, urls.json, banned.json
-│   ├── training/                # Training/GA datasets (training_data, unclassified, ga_*, ...)
+│   ├── training/                # Training/GA datasets (generated_data, ga_*, ...)
 │   └── logs/                    # Prediction/debug logs
 ├── models/                      # Saved Keras models, tokenizers, label encoder
 │
@@ -418,7 +405,7 @@ Wellington-Events-Scrapper/
 }
 ```
 
-### Training Entry (`training_data.json`)
+### Data Entry (`generated_data.json`)
 
 ```json
 {
@@ -475,9 +462,9 @@ Wellington-Events-Scrapper/
 └─────────────────────────────┬───────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│ STEP 2: GENERATE TRAINING DATA                                  │
-│ $ python GenerateData.py                                        │
-│ Output: training_data.json, unclassified_data.json              │
+│ STEP 2: GENERATE / INGEST DATA                                  │
+│ $ python -m classification.GenerateData                         │
+│ Output: generated_data.json                                     │
 └─────────────────────────────┬───────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
@@ -490,32 +477,23 @@ Wellington-Events-Scrapper/
 │ STEP 4: TRAIN CLASSIFIER                                        │
 │ In TextClassifier.py:                                           │
 │   should_train = True                                           │
-│   train_from_manual_training_files(use_ai_data=False)           │
+│   train_from_manual_training_files()           │
 │ Output: trained_model/, tokenizer_config.json, label_encoder    │
 └─────────────────────────────┬───────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │ STEP 5: CLASSIFY EVENTS                                         │
 │ In TextClassifier.py:                                           │
-│   predict_from_file("unclassified_data.json", update_labels=True)│
+│   predict_from_file("generated_data.json", update_labels=True)│
 │ Output: predictions_log.txt, updated labels in source file      │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ### Manual Labeling Workflow
 
-1. Run `GenerateData.py` to populate `unclassified_data.json`
-2. Open `unclassified_data.json` and manually update `label` fields
-3. Move labeled entries to `training_data.json`
-4. Re-train the model with new data
-
-### Using AI-Generated Data
-
-1. Create synthetic training examples in `ai_generates.json`
-2. Train with augmentation:
-   ```python
-   train_from_manual_training_files(use_ai_data=True)
-   ```
+1. Run `python -m classification.GenerateData` to ingest new events into `generated_data.json`
+2. Open `generated_data.json` and set/correct `label` fields (uncategorised events come in as `Other`)
+3. Re-train the model with the updated data
 
 ## Troubleshooting
 

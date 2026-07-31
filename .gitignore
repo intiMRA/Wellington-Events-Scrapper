@@ -2,8 +2,6 @@
 __pycache__/
 *.pyc
 .venv/
-*.joblib
-tokenizer_config*.json
 predictions_log.txt
 kid_friendly_predictions_log.txt
 duplicates.txt
@@ -26,3 +24,6 @@ dist/
 
 # local backups
 *.bak.json
+
+# working logs
+data/logs/*.txt

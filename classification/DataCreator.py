@@ -22,6 +22,8 @@ from util import paths
 MODEL_CHOICE = 'LR'
 
 CV_SEED = 42  # fixed seed for the LR k-fold split so each chromosome's fitness is reproducible
+RANDOM_SEED = 42  # fixed seed so the train/test split + balanced individual are reproducible across runs
+REGENERATE_SPLIT = False  # set True to rebuild the split/balanced set from the current labelled data
 
 ga_test_file_name = paths.data_path("training/ga_test.json")
 ga_training_choices_file_name = paths.data_path("training/ga_training_choices.json")
@@ -29,11 +31,9 @@ ga_output_file_name = paths.data_path("training/ga_output.json")
 ga_output_file_combined_name = paths.data_path("training/ga_output_combined.json")
 ga_balanced_individual_file_name = paths.data_path("training/ga_balanced_individual.json")
 
-def load_data_initial_data(load_ai) -> List[Dict]:
+def load_data_initial_data() -> List[Dict]:
     data = []
-    file_names = [paths.data_path("training/training_data.json"), paths.data_path("training/unclassified_data.json")]
-    if load_ai:
-        file_names.append(paths.data_path("training/ai_generates.json"))
+    file_names = [paths.data_path("training/generated_data.json")]
     for file_name in file_names:
         try:
             with open(file_name, mode="r") as f:
@@ -77,7 +77,8 @@ def count_min_classes(data: List[Dict]) -> int:
 
 
 def generate_files():
-    data = load_data_initial_data(load_ai=False)
+    random.seed(RANDOM_SEED)  # reproducible split so the GA starts from the same base each run
+    data = load_data_initial_data()
 
     counts = count_min_classes(data)
     test_num = int(counts * 0.4)
@@ -91,9 +92,12 @@ def generate_files():
     for c in classes.keys():
         test.extend(classes[c][0:test_num])
 
-    test_set = set(id(d) for d in test)
-    data = load_data_initial_data(load_ai=True)
-    training = [d for d in data if id(d) not in test_set]
+    # Exclude test rows from the training pool by DESCRIPTION. The pool is reloaded
+    # below (new objects, new ids), so an id()-based check excludes nothing and leaks
+    # every test row back into training.
+    test_descriptions = set(d["description"] for d in test)
+    data = load_data_initial_data()
+    training = [d for d in data if d["description"] not in test_descriptions]
 
     training_classes = {}
     for d in training:
@@ -200,7 +204,8 @@ def best_solution(solution: List[int]):
         json.dump(data, ga_output_file_combined, indent=2)
 
 
-generate_files()
+if REGENERATE_SPLIT or not os.path.exists(ga_training_choices_file_name):
+    generate_files()
 
 X_pool, Y_pool, num_classes, label_encoder, model_prep = get_training()
 X_test, Y_test = get_test(model_prep, label_encoder, num_classes)
