@@ -1,22 +1,162 @@
 [
 {
-  "id": "The Pharcyde tickets-Meow Nui, Wellington, New Zealand-Ticketek",
-  "name": "The Pharcyde tickets",
-  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101872.jpg",
+  "id": "Hnry Stadium Member for a Day-Hnry Stadium, Wellington, New Zealand-Ticketek",
+  "name": "Hnry Stadium Member for a Day",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101905.png",
+  "venue": "Hnry Stadium, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2730528,
+    "long": 174.7858728
+  },
+  "dates": [
+    "2026-09-27-01:01"
+  ],
+  "displayDate": "Sun 27 Sep",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=LIONMEM426",
+  "source": "Ticketek",
+  "eventType": "Other",
+  "long_description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options. This package also includes:\nFull use of the Members Gallery facilities from gates open\nAn unreserved seat in our Level 4 Members Gallery*\n*Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package. You will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
+  "description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options.\nThis package also includes: Full use of the Members Gallery facilities from gates open An unreserved seat in our Level 4 Members Gallery* *Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package.\nYou will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
+  "labels": []
+},
+{
+  "id": "Propagandhi tickets-Meow Nui, Wellington, New Zealand-Ticketek",
+  "name": "Propagandhi tickets",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101885.jpg",
   "venue": "Meow Nui, Wellington, New Zealand",
   "coordinates": {
     "lat": -41.2954948,
     "long": 174.7779739
   },
   "dates": [
-    "2026-12-09-01:01"
+    "2027-02-05-01:01"
   ],
-  "displayDate": "Wed 09 Dec",
-  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHARCYDE26",
+  "displayDate": "Fri 05 Feb",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=PROPAGAN27",
   "source": "Ticketek",
   "eventType": "Other",
-  "long_description": "Presented by: Meow Touring\n*VENUE UPGRADE*\nDue to overwhelming demand, The Pharcyde has been upgraded to Meow Nui!\nAll existing tickets remain valid. If you haven't grabbed yours yet, now's the time.\nFew groups have had a greater impact on alternative hip hop than The Pharcyde.\nEmerging from South Central Los Angeles in the early '90s, they rewrote the rules with their wit, originality and unmistakable chemistry, delivering two of the most influential albums of the era.\nFrom the platinum-selling Bizarre Ride II the Pharcyde to the genre-defining Labcabincalifornia, classics like \"Passin' Me By,\" \"Runnin',\" \"Drop,\" \"Otha Fish\" and \"Ya Mama\" continue to inspire generations of artists and remain essential listening more than 30 years later.\nThe Pharcyde's legacy extends far beyond their own catalogue. They helped open the door for a more playful, soulful and inventive style of hip hop, collaborated with a then- emerging J Dilla, worked with visionary director Spike Jonze, and proved that creativity could be just as powerful as bravado. Their influence can still be heard across modern hip hop, while their timeless live show continues to win over audiences around the world.\nFeaturing Imani, Slimkid3, Fatlip and DJ Cee Brown, this is your chance to experience one of hip hop's defining groups live.\nSecure your tickets early and don't miss the opportunity to see true pioneers of alternative hip hop when they return this December.",
-  "description": "Presented by: Meow Touring\nDue to overwhelming demand, The Pharcyde has been upgraded to Meow Nui!\nAll existing tickets remain valid.\nIf you haven't grabbed yours yet, now's the time.\nFew groups have had a greater impact on alternative hip hop than The Pharcyde.",
+  "long_description": "Presented by: SBM\nPropagandhi will make their long-awaited return to Australia and Aotearoa in early 2027, marking their first shows in the region in nearly eight years.\nThe ever-evolving standard-bearers of politically charged punk have actively kicked against musical confines and bro-punk conservatism, promoting a message of anti-fascism since 1986. Distilling their DNA of breakneck riffs, hardcore ethos, and radical consciousness, their message remains as vital, and volatile, as ever.\nThe tour comes in support of the Manitoba, Canada-based outfit\u2019s eighth album, *At Peace*. In true Propagandhi fashion, it\u2019s smart music for dangerous times. \u201cEverything I\u2019m singing about is still coming from being the same person that wrote and sang our first record *How to Clean Everything* in 1993,\u201d Chris Hannah states, recalling the band\u2019s snarky skate-thrash origins.\n\u201cBut what we\u2019re putting into the songs now, probably reflects more despair than 30 years ago when we had similar perspectives, but with strands of hope and naivete. Now it\u2019s the existential dread of eking out a life worth living in this completely failed society.\u201d\nPropagandhi are set to bring their incendiary live show back to Australia and Aotearoa, drawing from a body of work that continues to challenge, confront, and inspire.\nNew album \"At Peace\" out now Propagandhi.com",
+  "description": "Presented by: SBM Propagandhi will make their long-awaited return to Australia and Aotearoa in early 2027, marking their first shows in the region in nearly eight years.\nThe ever-evolving standard-bearers of politically charged punk have actively kicked against musical confines and bro-punk conservatism, promoting a message of anti-fascism since 1986.\nDistilling their DNA of breakneck riffs, hardcore ethos, and radical consciousness, their message remains as vital, and volatile, as ever.\nThe tour comes in support of the Manitoba, Canada-based outfit\u2019s eighth album, *At Peace*.\nIn true Propagandhi fashion, it\u2019s smart music for dangerous times.",
+  "labels": []
+},
+{
+  "id": "Hnry Stadium Member for a Day-Hnry Stadium, Wellington, New Zealand-Ticketek",
+  "name": "Hnry Stadium Member for a Day",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101905.png",
+  "venue": "Hnry Stadium, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2730528,
+    "long": 174.7858728
+  },
+  "dates": [
+    "2026-09-19-01:01"
+  ],
+  "displayDate": "Sat 19 Sep",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=LIONMEM326",
+  "source": "Ticketek",
+  "eventType": "Other",
+  "long_description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options. This package also includes:\nFull use of the Members Gallery facilities from gates open\nAn unreserved seat in our Level 4 Members Gallery*\n*Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package. You will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
+  "description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options.\nThis package also includes: Full use of the Members Gallery facilities from gates open An unreserved seat in our Level 4 Members Gallery* *Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package.\nYou will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
+  "labels": []
+},
+{
+  "id": "Hnry Stadium Member for a Day-Hnry Stadium, Wellington, New Zealand-Ticketek",
+  "name": "Hnry Stadium Member for a Day",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101905.png",
+  "venue": "Hnry Stadium, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2730528,
+    "long": 174.7858728
+  },
+  "dates": [
+    "2026-08-30-01:01"
+  ],
+  "displayDate": "Sun 30 Aug",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=LIONMEM226",
+  "source": "Ticketek",
+  "eventType": "Other",
+  "long_description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options. This package also includes:\nFull use of the Members Gallery facilities from gates open\nAn unreserved seat in our Level 4 Members Gallery*\n*Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package. You will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
+  "description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options.\nThis package also includes: Full use of the Members Gallery facilities from gates open An unreserved seat in our Level 4 Members Gallery* *Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package.\nYou will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
+  "labels": []
+},
+{
+  "id": "Flamingo Pier (LIVE) tickets-Meow Nui, Wellington, New Zealand-Ticketek",
+  "name": "Flamingo Pier (LIVE) tickets",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101958.jpg",
+  "venue": "Meow Nui, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2954948,
+    "long": 174.7779739
+  },
+  "dates": [
+    "2026-10-09-01:01"
+  ],
+  "displayDate": "Fri 09 Oct",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=FLAMINGO26",
+  "source": "Ticketek",
+  "eventType": "Other",
+  "long_description": "Presented by: Banished Music & Lacuna\nAfter more than a decade of building dancefloors around the world, Flamingo Pier return home this spring to celebrate the release of their new album, WOVEN TOGETHER, with a six-date New Zealand tour.\nDon't miss the chance to experience WOVEN TOGETHER live, as Flamingo Pier bring their full live band to the stage for a euphoric celebration of connection, community and irresistible grooves. Expect an immersive live show filled with new music, fan favourites, and the infectious energy that has made Flamingo Pier one of Aotearoa's most beloved dance acts, with some very special guests along the way.\nFunded through NZ On Air and supported by the NZ Music Commission.",
+  "description": "Presented by: Banished Music & Lacuna After more than a decade of building dancefloors around the world, Flamingo Pier return home this spring to celebrate the release of their new album, WOVEN TOGETHER, with a six-date New Zealand tour.\nDon't miss the chance to experience WOVEN TOGETHER live, as Flamingo Pier bring their full live band to the stage for a euphoric celebration of connection, community and irresistible grooves.\nExpect an immersive live show filled with new music, fan favourites, and the infectious energy that has made Flamingo Pier one of Aotearoa's most beloved dance acts, with some very special guests along the way.\nFunded through NZ On Air and supported by the NZ Music Commission.",
+  "labels": []
+},
+{
+  "id": "Hnry Stadium Car Parking-Hnry Stadium Car Park, Wellington, New Zealand-Ticketek",
+  "name": "Hnry Stadium Car Parking",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx99877.png",
+  "venue": "Hnry Stadium Car Park, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2027-02-07-01:01"
+  ],
+  "displayDate": "Sun 07 Feb",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=SOADPARK27",
+  "source": "Ticketek",
+  "eventType": "Sports & Fitness",
+  "long_description": "Get your event day car park sorted in advance for the System of a Down concert at Hnry Stadium. With limited car parking in the CBD, this is the best way to secure your spot and avoid missing out, especially if you are coming from out of town.\nIf you require a mobility car park space, please complete the online form here.\nOnline parking sales close one hour prior to the car park open time.\n\nCar parking EZY tickets will need to be printed and be ready to show on your arrival to the car park. Once parked, please display clearly on your dashboard.\nStandard size vehicles only up to 2m wide x 5.4m long x 2.2m high. Larger vehicles may be turned away at the owners' risk. Please contact Hnry Stadium in advance should you wish to bring a large vehicle.",
+  "description": "With limited car parking in the CBD, this is the best way to secure your spot and avoid missing out, especially if you are coming from out of town.\nOnline parking sales close one hour prior to the car park open time.\nCar parking EZY tickets will need to be printed and be ready to show on your arrival to the car park.\nOnce parked, please display clearly on your dashboard.\nPlease contact Hnry Stadium in advance should you wish to bring a large vehicle.",
+  "labels": []
+},
+{
+  "id": "Timmy Regisford tickets-Meow Nui, Wellington, New Zealand-Ticketek",
+  "name": "Timmy Regisford tickets",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101925.jpg",
+  "venue": "Meow Nui, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2954948,
+    "long": 174.7779739
+  },
+  "dates": [
+    "2026-09-18-01:01"
+  ],
+  "displayDate": "Fri 18 Sep",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=TIMMYREG26",
+  "source": "Ticketek",
+  "eventType": "Other",
+  "long_description": "Presented by: Bench Music and TEG Touring\nFew figures have shaped the sound and spirit of house music like Timmy Regisford.\nFrom New York's legendary WBLS radio station to executive A&R roles at Atlantic, MCA, Motown and DreamWorks Records, Regisford has spent more than four decades helping define dance music from both behind the scenes and behind the decks.\nAs founder and resident of the iconic Club Shelter, Timmy created one of dance music's most influential institutions - a sanctuary built on soulful house, disco, Afro rhythms, jazz, gospel and community that continues to inspire DJs and dancers around the world.\nKnown for marathon sets that unfold over many hours, Timmy's performances are journeys through rhythm, emotion and timeless music rather than peak-time moments. His influence stretches across generations, remaining just as essential to young selectors discovering the roots of house as it is to those who experienced New York's golden era firsthand.",
+  "description": "Presented by: Bench Music and TEG Touring Few figures have shaped the sound and spirit of house music like Timmy Regisford.\nFrom New York's legendary WBLS radio station to executive A&R roles at Atlantic, MCA, Motown and DreamWorks Records, Regisford has spent more than four decades helping define dance music from both behind the scenes and behind the decks.\nAs founder and resident of the iconic Club Shelter, Timmy created one of dance music's most influential institutions - a sanctuary built on soulful house, disco, Afro rhythms, jazz, gospel and community that continues to inspire DJs and dancers around the world.\nKnown for marathon sets that unfold over many hours, Timmy's performances are journeys through rhythm, emotion and timeless music rather than peak-time moments.\nHis influence stretches across generations, remaining just as essential to young selectors discovering the roots of house as it is to those who experienced New York's golden era firsthand.",
+  "labels": []
+},
+{
+  "id": "Hnry Stadium Member for a Day-Hnry Stadium, Wellington, New Zealand-Ticketek",
+  "name": "Hnry Stadium Member for a Day",
+  "imageUrl": "https://https://d19py84rdi4j91.cloudfront.net/dbimages/sfx101905.png",
+  "venue": "Hnry Stadium, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2730528,
+    "long": 174.7858728
+  },
+  "dates": [
+    "2026-08-13-01:01"
+  ],
+  "displayDate": "Thu 13 Aug",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=LIONMEM126",
+  "source": "Ticketek",
+  "eventType": "Other",
+  "long_description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options. This package also includes:\nFull use of the Members Gallery facilities from gates open\nAn unreserved seat in our Level 4 Members Gallery*\n*Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package. You will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
+  "description": "Gather your family, colleagues and friends and catch the Wellington Lions at Hnry Stadium - all from the comfort of our Members Club.\nYou\u2019ll have access to our Level 4 Hnry Gallery, and the ability to purchase food and beverage from a wide range of options.\nThis package also includes: Full use of the Members Gallery facilities from gates open An unreserved seat in our Level 4 Members Gallery* *Please note this ticket provides access into the stadium and the Members Club, but it does not allocate you a reserved seat in the stadium bowl.\nThere\u2019s no minimum number required to book this package.\nYou will need to present your ticket to the Level 1 Members Helpdesk on match day to receive your Members Club guest pass.",
   "labels": []
 },
 ]
