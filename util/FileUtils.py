@@ -63,7 +63,6 @@ def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
     data = sorted(data, key=lambda k: k["name"])
     data = sorted(data, key=lambda k: parser.parse(k["dates"][0]))
     event_types = sorted(list(event_types))
-    event_types.append("Other")
     filters = {
         "sources": sorted(list(sources)),
         "eventTypes": event_types,
