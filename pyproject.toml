@@ -13,6 +13,10 @@ dynamic = ["dependencies"]
 # The code runs from the repo root (see README) and is not packaged/distributed.
 # This file exists so tools (PyCharm, pip, uv) know the required Python version,
 # the dependencies, and the formatter config.
+#
+# Post-install step (not auto-run by pip/setuptools — run it manually or in CI
+# after `pip install -r requirements.txt`):
+#     playwright install chromium
 packages = []
 
 [tool.setuptools.dynamic]

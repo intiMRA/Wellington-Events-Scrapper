@@ -1,22 +1,22 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from time import sleep
+from playwright.sync_api import sync_playwright, Page
 
 from util import FileUtils
+from util.PlaywrightUtils import new_context, goto_with_retry
+from util.Logger import Logger
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
 from dateutil import parser
-from typing import List, Set, Optional
+from typing import List, Set, Optional, TextIO
 import json
 
 
 class RougueScrapper:
     @staticmethod
-    def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
-        driver.get(url)
-        title: str = driver.find_element(By.CLASS_NAME, "display_title_1").text
-        date_string = driver.find_element(By.CLASS_NAME, "col-md-9").text.split("\n")[2].split(",")[0]
-        info_texts = driver.find_element(By.CLASS_NAME, "gig-guide-side-bar").text.split("\n")
+    def get_event(url: str, page: Page) -> Optional[EventInfo]:
+        goto_with_retry(page, url)
+        title: str = page.locator(".display_title_1").first.inner_text()
+        date_string: str = page.locator(".col-md-9").first.inner_text().split("\n")[2].split(",")[0]
+        info_texts: List[str] = page.locator(".gig-guide-side-bar").first.inner_text().split("\n")
         time = "1:01AM"
         found_gig_start = False
         for text in info_texts:
@@ -27,9 +27,9 @@ class RougueScrapper:
                 break
         parts = date_string.split(" ")
         date = parser.parse(f"{parts[1]} {parts[2]} {time}")
-        image_url = driver.find_element(By.CLASS_NAME, "img-responsive").get_attribute('src')
+        image_url: str = page.locator(".img-responsive").first.evaluate("img => img.src") or ""
         venue = "The Rogue & Vagabond"
-        description = driver.find_element(By.CLASS_NAME, "description").text
+        description: str = page.locator(".description").first.inner_text()
         return EventInfo(name=title,
                          dates=[date],
                          image=image_url,
@@ -40,50 +40,52 @@ class RougueScrapper:
                          description=description)
 
     @staticmethod
-    def get_urls(driver: webdriver, previous_urls, urls_file) -> Set[str]:
+    def get_urls(page: Page, previous_urls: Set[str], urls_file: TextIO) -> Set[str]:
         urls_file.write("[\n")
         event_urls: Set[str] = set()
-        driver.get("https://rogueandvagabond.co.nz/")
-        sleep(2)
-        titles = driver.find_elements(By.CLASS_NAME, "vevent")
+        goto_with_retry(page, "https://rogueandvagabond.co.nz/", wait_until="networkidle")
+        titles = page.locator(".vevent").all()
         for title in titles:
-            event_url = title.find_element(By.TAG_NAME, "a").get_attribute("href")
-            if event_url in previous_urls or event_url in event_urls:
+            event_url = title.locator("a").first.evaluate("a => a.href")
+            if event_url is None or event_url in previous_urls or event_url in event_urls:
                 continue
             event_urls.add(event_url)
             json.dump(event_url, urls_file, indent=2)
             urls_file.write(",\n")
         urls_file.write("]\n")
         return event_urls
+
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.ROGUE_AND_VAGABOND)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.ROGUE_AND_VAGABOND)))
-        driver = webdriver.Chrome()
-        event_urls = RougueScrapper.get_urls(driver, previous_urls, urls_file)
-        events = []
-        out_file.write("[\n")
-        for url in event_urls:
-            print(f"url: {url}")
-            try:
-                event = RougueScrapper.get_event(url, driver)
-                if event:
-                    events.append(event)
-                    json.dump(event.to_dict(), out_file, indent=2)
-                    out_file.write(",\n")
-            except Exception as e:
-                if "No dates found for" in str(e):
-                    print("-" * 100)
-                    print(e)
-                else:
-                    print("-" * 100)
-                    raise e
-            print("-" * 100)
-        out_file.write("]\n")
+        events: List[EventInfo] = []
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            context = new_context(browser)
+            page = context.new_page()
+            event_urls = RougueScrapper.get_urls(page, previous_urls, urls_file)
+            out_file.write("[\n")
+            for url in event_urls:
+                Logger.info(f"url: {url}")
+                try:
+                    event = RougueScrapper.get_event(url, page)
+                    if event:
+                        events.append(event)
+                        json.dump(event.to_dict(), out_file, indent=2)
+                        out_file.write(",\n")
+                except Exception as e:
+                    if "No dates found for" in str(e):
+                        Logger.divider()
+                        Logger.warning(str(e))
+                    else:
+                        Logger.divider()
+                        raise e
+                Logger.divider()
+            out_file.write("]\n")
+            browser.close()
         out_file.close()
         urls_file.close()
         banned_file.close()
-        driver.close()
         return events
-
-# events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(RougueScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))

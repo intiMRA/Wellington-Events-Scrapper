@@ -1,47 +1,45 @@
 import json
 import random
 import re
-from datetime import datetime
-
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webelement import WebElement
+from playwright.sync_api import sync_playwright, Page, Locator
 
 from util import CurrentFestivals
 from util.DateFormatting import DateFormatting
 from util import FileUtils
+from util.PlaywrightUtils import new_context, goto_with_retry
+from util.Logger import Logger
 from util import paths
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
 from dateutil import parser
-from typing import List, Set, Optional
+from typing import List, Set, Optional, TextIO
 from time import sleep
 
 class FringeScrapper:
     @staticmethod
-    def get_event(url: str, driver: webdriver) -> Optional[EventInfo]:
-        driver.get(url)
+    def get_event(url: str, page: Page) -> Optional[EventInfo]:
+        goto_with_retry(page, url)
         sleep(random.uniform(1,3))
-        title = driver.find_element(By.XPATH, "//h2[contains(@class, 'primary-color')]").text
+        title = page.locator("[class*='primary-color']").first.inner_text()
 
-        image_element = driver.find_element(By.XPATH, "//img[contains(@class, 'event-image-square')]")
-        image_url = image_element.get_attribute("src")
+        image_element = page.locator("[class*='event-image-square']").first
+        image_url = image_element.evaluate("img => img.src") or ""
 
-        venue = driver.find_element(By.XPATH, "//div[contains(@class, 'addres-pin')]").text
-        schedule: WebElement = driver.find_element(By.CLASS_NAME, "schedule")
-        schedule_elements = schedule.find_elements(By.TAG_NAME, "li")
-        dates = schedule_elements[2].text
+        venue = page.locator("[class*='addres-pin']").first.inner_text()
+        schedule: Locator = page.locator(".schedule")
+        schedule_elements = schedule.locator("li").all()
+        dates = schedule_elements[2].inner_text()
         time = None
         for element in schedule_elements:
-            m = re.findall(r"\d{1,2}:\d{1,2}", element.text)
+            m = re.findall(r"\d{1,2}:\d{1,2}", element.inner_text())
             if m:
                 time = m[0]
         if not time:
             time = "1:01AM"
         date_text = dates.split(" ")
-        print(f"{time} time")
-        print(f"{dates} dates")
-        print(f"{date_text} date text")
+        Logger.debug(f"{time} time")
+        Logger.debug(f"{dates} dates")
+        Logger.debug(f"{date_text} date text")
         if len(date_text) > 3:
             start_date_obj, end_date_obj = dates.split("-")
             start_date, end_date = parser.parse(start_date_obj + " " + time), parser.parse(end_date_obj + " " + time)
@@ -55,11 +53,11 @@ class FringeScrapper:
                 dates = list(DateFormatting.create_range(start_date, end_date))
             else:
                 dates = [parser.parse(dates + " " + time)]
-        content: WebElement = driver.find_element(By.XPATH, "//div[contains(@class, 'content')]")
-        paragraphs = content.find_elements(By.TAG_NAME, "p")
+        content: Locator = page.locator("[class*='content']")
+        paragraphs = content.locator("p").all()
         description = ""
         for paragraph in paragraphs:
-            description += paragraph.text + "\n"
+            description += paragraph.inner_text() + "\n"
         return EventInfo(
             name=title,
             dates=dates,
@@ -72,61 +70,51 @@ class FringeScrapper:
         )
 
     @staticmethod
-    def get_festival_urls(url: str, driver: webdriver) -> Set[str]:
-        driver.get(url)
+    def get_festival_urls(url: str, page: Page) -> Set[str]:
+        goto_with_retry(page, url)
         sleep(3)
 
         # Scroll to load all events
-        height = driver.execute_script("return document.body.scrollHeight")
+        height = page.evaluate("document.body.scrollHeight")
         scrolled_amount = 0
         while scrolled_amount < height:
-            driver.execute_script(f"window.scrollBy(0, {1200});")
+            page.evaluate(f"window.scrollBy(0, {1200})")
             scrolled_amount += 1200
             sleep(0.5)
-            new_height = driver.execute_script("return document.body.scrollHeight")
+            new_height = page.evaluate("document.body.scrollHeight")
             if new_height > height:
                 height = new_height
 
-        # Find all event links
-        event_urls = set()
-        try:
-            links = driver.find_elements(By.TAG_NAME, "a")
-            for link in links:
-                href = link.get_attribute("href")
-                if href and "/event/" in href:
-                    event_urls.add(href)
-        except:
-            pass
-
-        return event_urls
+        hrefs = page.locator("a").evaluate_all("links => links.map(link => link.href)")
+        return {href for href in hrefs if href and "/event/" in href}
 
     @staticmethod
-    def get_events(event_urls: Set[str], driver: webdriver, previous_urls: Set[str], out_file) -> List[EventInfo]:
+    def get_events(event_urls: Set[str], page: Page, previous_urls: Set[str], out_file: TextIO) -> List[EventInfo]:
         events = []
         for event_url in event_urls:
             if event_url in previous_urls:
                 continue
-            print(f"url: {event_url}")
+            Logger.info(f"url: {event_url}")
             try:
-                event = FringeScrapper.get_event(event_url, driver)
+                event = FringeScrapper.get_event(event_url, page)
                 if event:
-                    print(f"Title: {event.name}")
-                    print(f"Dates: {event.dates}")
-                    print(f"Venue: {event.venue}")
-                    print(f"Image: {event.image}")
-                    print(f"Description: {event.description[:100]}..." if len(event.description) > 100 else f"Description: {event.description}")
-                    print(f"Event Type: {event.eventType}")
+                    Logger.debug(f"Title: {event.name}")
+                    Logger.debug(f"Dates: {event.dates}")
+                    Logger.debug(f"Venue: {event.venue}")
+                    Logger.debug(f"Image: {event.image}")
+                    Logger.debug(f"Description: {event.description[:100]}..." if len(event.description) > 100 else f"Description: {event.description}")
+                    Logger.debug(f"Event Type: {event.eventType}")
                     events.append(event)
                     json.dump(event.to_dict(), out_file, indent=2)
                     out_file.write(",\n")
             except Exception as e:
                 if "No dates found for" in str(e):
-                    print("-" * 100)
-                    print(e)
+                    Logger.divider()
+                    Logger.warning(str(e))
                 else:
-                    print("-" * 100)
-                    print(f"Error fetching {event_url}: {e}")
-            print("-" * 100)
+                    Logger.divider()
+                    Logger.info(f"Error fetching {event_url}: {e}")
+            Logger.divider()
         return events
 
     @staticmethod
@@ -134,33 +122,34 @@ class FringeScrapper:
 
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.FRINGE)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.FRINGE)))
-        driver = webdriver.Chrome()
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            context = new_context(browser)
+            page = context.new_page()
 
-        # Get all event URLs from the main page
-        event_urls = FringeScrapper.get_festival_urls("https://tickets.fringe.co.nz/events/", driver)
-        print(f"Found {len(event_urls)} event URLs")
+            # Get all event URLs from the main page
+            event_urls = FringeScrapper.get_festival_urls("https://tickets.fringe.co.nz/events/", page)
+            Logger.info(f"Found {len(event_urls)} event URLs")
 
-        # Only add to current festivals if we found events
+            # Only add to current festivals if we found events
 
-        out_file.write("[\n")
-        events = FringeScrapper.get_events(event_urls, driver, set(), out_file)
-        out_file.write("]\n")
+            out_file.write("[\n")
+            events = FringeScrapper.get_events(event_urls, page, set(), out_file)
+            out_file.write("]\n")
 
-        if events:
-            CurrentFestivals.CURRENT_FESTIVALS.append("WellingtonFringe")
-            CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
-                "id": "WellingtonFringe",
-                "name": "Wellington Fringe Festival",
-                "icon": "theater",
-                "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/wellington-fringe.json"
-            })
+            if events:
+                CurrentFestivals.CURRENT_FESTIVALS.append("WellingtonFringe")
+                CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({
+                    "id": "WellingtonFringe",
+                    "name": "Wellington Fringe Festival",
+                    "icon": "theater",
+                    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/wellington-fringe.json"
+                })
 
-        festival_file = open(paths.root_path("wellington-fringe.json"), mode="w")
-        events_dicts = [event.to_dict() for event in events]
-        json.dump({"events": sorted(events_dicts, key=lambda evt: evt["name"])}, festival_file, indent=2)
+            festival_file = open(paths.root_path("wellington-fringe.json"), mode="w")
+            events_dicts = [event.to_dict() for event in events]
+            json.dump({"events": sorted(events_dicts, key=lambda evt: evt["name"])}, festival_file, indent=2)
         festival_file.close()
-
-        driver.close()
         out_file.close()
         urls_file.close()
         banned_file.close()

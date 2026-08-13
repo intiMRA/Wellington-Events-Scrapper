@@ -1,38 +1,38 @@
 # https://www.cecwellington.ac.nz/w/courses/
 from time import sleep
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webelement import WebElement
+from playwright.sync_api import sync_playwright, Page, Locator
 
 from util import FileUtils
+from util.PlaywrightUtils import new_context, goto_with_retry
+from util.Logger import Logger
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
 import re
 from datetime import datetime
 from dateutil import parser
-from typing import List, Tuple, Set, Optional
+from typing import List, Tuple, Set, Optional, TextIO
 import json
 
 
 class WellingtonHighschoolScrapper:
     @staticmethod
-    def slow_scroll_to_bottom(driver: webdriver):
+    def slow_scroll_to_bottom(page: Page):
         prev_height = 0
         while True:
-            height = driver.execute_script("return document.body.scrollHeight")
-            driver.execute_script(f"window.scrollBy(0, {height});")
+            height = page.evaluate("document.body.scrollHeight")
+            page.evaluate(f"window.scrollBy(0, {height})")
             sleep(1)
             if prev_height == height:
                 break
             prev_height = height
 
     @staticmethod
-    def get_all_event_dates(driver: webdriver) -> List[datetime]:
+    def get_all_event_dates(page: Page) -> List[datetime]:
         dates = []
-        events_list: WebElement = driver.find_element(By.CLASS_NAME, "event-list")
-        events = events_list.find_elements(By.XPATH, "//div[contains(@class, 'event ')]")
+        events_list: Locator = page.locator(".event-list")
+        events = events_list.locator("[class*='event ']").all()
         for event in events:
-            event_text = event.text
+            event_text = event.inner_text()
             regex = r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)?\s*(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
             matches = re.search(regex, event_text)
             if not matches:
@@ -41,27 +41,26 @@ class WellingtonHighschoolScrapper:
             date_month = matches.group(2)
             matches = re.findall(r"\d{1,2}:\d{1,2}\s*[aAmMpP]{2}", event_text)
             if not matches:
-                print(event_text)
+                Logger.debug(event_text)
                 continue
             hour = matches[0]
             dates.append(parser.parse(f"{date_day} {date_month} {hour}"))
-            print(f"day: {date_day} month: {date_month} hour: {hour}")
+            Logger.debug(f"day: {date_day} month: {date_month} hour: {hour}")
 
         return dates
 
     @staticmethod
-    def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
-        driver.get(url)
+    def get_event(url: str, category: str, page: Page) -> Optional[EventInfo]:
+        goto_with_retry(page, url)
         sleep(1)
-        title: str = driver.find_element(By.CLASS_NAME, "page-title").text
-        try:
-            image_element: str = driver.find_element(By.CLASS_NAME, "image-hero").get_attribute("style")
-            image_url = re.findall(r'url\("([^"]+)"\)', image_element)[0]
-        except:
-            image_url = "no image"
-        dates = WellingtonHighschoolScrapper.get_all_event_dates(driver)
-        description: str = driver.find_element(By.CLASS_NAME, "content-field-text").text
-        print(dates)
+        title: str = page.locator(".page-title").first.inner_text()
+        heros = page.locator(".image-hero")
+        image_style = (heros.first.get_attribute("style") or "") if heros.count() else ""
+        image_matches = re.findall(r'url\("([^"]+)"\)', image_style)
+        image_url = image_matches[0] if image_matches else "no image"
+        dates = WellingtonHighschoolScrapper.get_all_event_dates(page)
+        description: str = page.locator(".content-field-text").first.inner_text()
+        Logger.debug(dates)
         return EventInfo(name=title,
                          image=image_url,
                          venue="Wellington High School, 249 Taranaki Street, Te Aro, Wellington",
@@ -70,22 +69,23 @@ class WellingtonHighschoolScrapper:
                          source=ScraperName.WELLINGTON_HIGH_SCHOOL,
                          event_type=category,
                          description=description)
+
     @staticmethod
-    def get_urls(previous_urls: Set[str], driver: webdriver, urls_file) -> Set[Tuple[str, str]]:
+    def get_urls(previous_urls: Set[str], page: Page, urls_file: TextIO) -> Set[Tuple[str, str]]:
         urls_file.write("[\n")
-        categories = WellingtonHighschoolScrapper.get_categories()
-        event_urls = set()
+        categories = WellingtonHighschoolScrapper.get_categories(page)
+        event_urls: Set[Tuple[str, str]] = set()
         category_count = 1
         for category_parts in categories:
             category, url = category_parts
-            print(f"fetching: {category} {category_count} of {len(categories)}")
+            Logger.info(f"fetching: {category} {category_count} of {len(categories)}")
             category_count += 1
-            driver.get(url)
-            WellingtonHighschoolScrapper.slow_scroll_to_bottom(driver)
-            catalog = driver.find_element(By.CLASS_NAME, "catalogue")
-            elements = catalog.find_elements(By.CLASS_NAME, "catalogue-item")
+            goto_with_retry(page, url)
+            WellingtonHighschoolScrapper.slow_scroll_to_bottom(page)
+            catalog = page.locator(".catalogue").first
+            elements = catalog.locator(".catalogue-item").all()
             for element in elements:
-                event_url = element.find_element(By.TAG_NAME, "a").get_attribute("href")
+                event_url = element.locator("a").first.evaluate("a => a.href")
                 if event_url in previous_urls:
                     continue
                 previous_urls.add(event_url)
@@ -97,50 +97,49 @@ class WellingtonHighschoolScrapper:
         return event_urls
 
     @staticmethod
-    def get_categories() -> List[Tuple[str, str]]:
-        driver = webdriver.Chrome()
-        driver.get("https://www.cecwellington.ac.nz/w/courses/")
-        filters = driver.find_elements(By.CLASS_NAME, "radio-filter")
-        categories = []
+    def get_categories(page: Page) -> List[Tuple[str, str]]:
+        goto_with_retry(page, "https://www.cecwellington.ac.nz/w/courses/")
+        filters = page.locator(".radio-filter").all()
+        categories: List[Tuple[str, str]] = []
         for f in filters:
-            a_tag = f.find_element(By.TAG_NAME, "a")
-            category = (f.text, a_tag.get_attribute("href"))
-            categories.append(category)
-        driver.close()
+            a_tag = f.locator("a").first
+            categories.append((f.inner_text(), a_tag.evaluate("a => a.href")))
         return categories
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.WELLINGTON_HIGH_SCHOOL)
-        previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.WELLINGTON_HIGH_SCHOOL)))
-        driver = webdriver.Chrome()
-        event_urls = WellingtonHighschoolScrapper.get_urls(previous_urls, driver, urls_file)
-        events: List[EventInfo] = []
-        out_file.write("[\n")
-        for parts in event_urls:
-            event_url, category = parts
-            print(f"category: {category} url: {event_url}")
-            try:
-                event = WellingtonHighschoolScrapper.get_event(event_url, category, driver)
-                if event:
-                    events.append(event)
-                    json.dump(event.to_dict(), out_file, indent=2)
-                    out_file.write(",\n")
-            except Exception as e:
-                if "No dates found for" in str(e):
-                    print("-" * 100)
-                    print(e)
-                    json.dump(event_url, banned_file, indent=2)
-                    banned_file.write(",\n")
-                else:
-                    print("-" * 100)
-                    raise e
-            print("-" * 100)
-        out_file.write("]\n")
+        with sync_playwright() as playwright:
+            out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.WELLINGTON_HIGH_SCHOOL)
+            previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.WELLINGTON_HIGH_SCHOOL)))
+            browser = playwright.chromium.launch(headless=True)
+            context = new_context(browser)
+            page = context.new_page()
+            event_urls = WellingtonHighschoolScrapper.get_urls(previous_urls, page, urls_file)
+            events: List[EventInfo] = []
+            out_file.write("[\n")
+            for parts in event_urls:
+                event_url, category = parts
+                Logger.info(f"category: {category} url: {event_url}")
+                try:
+                    event = WellingtonHighschoolScrapper.get_event(event_url, category, page)
+                    if event:
+                        events.append(event)
+                        json.dump(event.to_dict(), out_file, indent=2)
+                        out_file.write(",\n")
+                except Exception as e:
+                    if "No dates found for" in str(e):
+                        Logger.divider()
+                        Logger.warning(str(e))
+                        json.dump(event_url, banned_file, indent=2)
+                        banned_file.write(",\n")
+                    else:
+                        Logger.divider()
+                        raise e
+                Logger.divider()
+            out_file.write("]\n")
         out_file.close()
         urls_file.close()
         banned_file.close()
-        driver.close()
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(WelxlingtonHighschoolScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(WellingtonHighschoolScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
