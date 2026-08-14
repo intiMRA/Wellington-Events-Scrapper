@@ -1,22 +1,20 @@
 import json
 import re
-import subprocess
 from time import sleep
 import random
 import requests
-from selenium.webdriver.remote.webelement import WebElement
 
 from util import FileUtils
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
 from enum import Enum
 from dateutil import parser
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
 import time
 import pytz
-from typing import List, Optional, Set, Tuple
+from typing import List, Optional, Set, Tuple, TextIO
+from playwright.sync_api import sync_playwright, Page, Locator
+from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay
+from util.Logger import Logger
 
 nz_timezone = pytz.timezone('Pacific/Auckland')
 majorCats = {
@@ -81,29 +79,29 @@ class TicketmasterScrapper:
         return nz_dt
 
     @staticmethod
-    def get_image_url_with_timeout(driver, url: str, timeout=10):
+    def get_image_url_with_timeout(page: Page, timeout=10):
         start_time = time.time()
         while True:
             try:
                 sleep(random.uniform(2, 3))
-                image_urls = driver.find_elements(By.TAG_NAME, "img")
+                image_urls = page.locator("img").all()
                 image_url = ""
                 for loop_url in image_urls:
-                    loop_url = loop_url.get_attribute("src")
+                    loop_url = loop_url.evaluate("img => img.src")
                     if "EVENT_DETAIL_PAGE" in loop_url:
                         image_url = loop_url
                 return image_url.split(",")[0]
-            except:
+            except Exception:
                 if time.time() - start_time > timeout:
-                    print("Timeout reached. Image element not found.")
+                    Logger.warning("Timeout reached. Image element not found.")
                     return None
                 sleep(random.uniform(7, 12))
 
     @staticmethod
-    def get_description(div: WebElement) -> Optional[str]:
-        sub_divs = div.find_elements(By.TAG_NAME, "div")
+    def get_description(div: Locator) -> Optional[str]:
+        sub_divs = div.locator("div").all()
         if not sub_divs:
-            text = div.get_attribute("textContent")
+            text = div.text_content() or ""
             if "Event Info" in text:
                 return text
             else:
@@ -116,53 +114,50 @@ class TicketmasterScrapper:
             return None
 
     @staticmethod
-    def get_event(url: str, category: str, driver: webdriver) -> Optional[EventInfo]:
+    def get_event(url: str, category: str, page: Page) -> Optional[EventInfo]:
         sleep(random.uniform(1, 3))
-        driver.get(url)
+        goto_with_retry(page, url)
         sleep(random.uniform(1, 3))
         if "ticketmaster.co.nz" in url:
             start_time = time.time()
-            info_button = None
+            info_button: Optional[Locator] = None
             while True:
-                try:
-                    info_button = driver.find_element(By.XPATH, "//button[contains(., 'More Info')]")
+                if page.get_by_text("More Info").count():
+                    info_button = page.get_by_text("More Info").first
                     break
-                except:
+                else:
                     if time.time() - start_time > 10:
                         break
                     sleep(random.uniform(7, 12))
-            image_url = TicketmasterScrapper.get_image_url_with_timeout(driver, url)
-            print("ticketmaster.co.nz")
+            image_url = TicketmasterScrapper.get_image_url_with_timeout(page)
+            Logger.debug("ticketmaster.co.nz")
             if not info_button:
-                print(f"no info button for: {url}")
+                Logger.warning(f"no info button for: {url}")
                 return []
-            count = 0
             deets_count = 0
             while True:
-                while count < 3:
-                    try:
-                        driver.execute_script("arguments[0].click();", info_button)
-                        break
-                    except:
-                        count += 1
-                        sleep(1)
-                deets = driver.find_elements(By.XPATH, "//section[@data-testid='panel']")
+                # "More Info" is often covered by an overlay/sticky bar (Playwright reports the
+                # click "intercepts pointer events"); dispatch the event directly so it isn't
+                # blocked by the actionability check.
+                if info_button.count():
+                    info_button.dispatch_event("click")
+                sleep(random.uniform(1, 3))
+                deets = page.locator("[data-testid='panel']").all()
                 if not deets:
-                    deets = driver.find_elements(By.XPATH, "//div[contains(@class, 'SidePanel__StyledContent')]")
+                    deets = page.locator("[class*='SidePanel__StyledContent']").all()
                 if deets:
                     event_details = deets[0]
                     break
-                sleep(random.uniform(1, 3))
                 if deets_count >= 3:
                     return []
                 deets_count += 1
-            divs = event_details.find_elements(By.TAG_NAME, "div")
+            divs = event_details.locator("div").all()
             title = None
             venue = None
             description = TicketmasterScrapper.get_description(event_details)
             dates = []
             for div in divs:
-                text = div.get_attribute("textContent")
+                text = div.text_content() or ""
                 if not venue and "Venue" in text:
                     text = re.sub("BackEvent Info", "", text)
                     text = re.sub("Date", ";", text)
@@ -177,15 +172,15 @@ class TicketmasterScrapper:
                         for match in matches:
                             try:
                                 dates.append(parser.parse(match))
-                            except:
-                                print("no parts")
-                                print(part)
+                            except Exception:
+                                Logger.debug("no parts")
+                                Logger.debug(part)
                         venue = parts[-1]
-                    print(venue)
-                    print(dates)
+                    Logger.debug(venue)
+                    Logger.debug(dates)
                     break
             if not title or not venue:
-                print("no title")
+                Logger.warning("no title")
                 return None
             return EventInfo(name=title,
                              image=image_url,
@@ -196,33 +191,30 @@ class TicketmasterScrapper:
                              event_type=category,
                              description=description)
         elif "universe.com" in url:
-            print("universe.com")
-            content = driver.find_element(By.XPATH, "//div[contains(@class, 'content')]")
-            title = content.find_element(By.XPATH, "//h2[contains(@class, 'heading')]").text
-            image_url = driver.find_element(By.XPATH, "//*[contains(@class, 'heroImage')]").get_attribute("style")
+            Logger.debug("universe.com")
+            content = page.locator("[class*='content']").first
+            title = content.locator("[class*='heading']").first.inner_text()
+            image_url = page.locator("[class*='heroImage']").first.evaluate("a => a.style.cssText")
             image_url = re.findall(r'url\("([^"]+)"\)', image_url)[0]
-            date_string, venue = content.find_elements(By.XPATH, "//span[contains(@class, 'location')]")
-            venue = venue.text
-            description = driver.find_element(By.XPATH, "//div[contains(@id, 'escription')]").text
-            date_string = date_string.text
+            date_string, venue = content.locator("[class*='location']").all()
+            venue = venue.inner_text()
+            description = page.locator("[id*='escription']").first.inner_text()
+            date_string = date_string.inner_text()
             dates = []
             if "Multiple" in date_string:
-                driver.execute_script(f"window.scrollBy(0, 1000);")
+                page.evaluate("window.scrollBy(0, 1000)")
                 sleep(random.uniform(3, 7))
-                try:
-                    iframe_element = driver.find_element(By.XPATH, "//iframe[@title='Event Dates Calendar']")
-                    driver.switch_to.frame(iframe_element)
-                    days = driver.find_elements(By.XPATH, "//td[@aria-disabled='false']")
-                    for day in days:
-                        ds = day.get_attribute("aria-label")
-                        parts = ds.split(",")
-                        ds = f"{parts[1]} {parts[2]} 1:01AM"
-                        dates.append(parser.parse(ds))
-                except:
-                    dates = []
+                frame = page.frame_locator("iframe[title='Event Dates Calendar']")
+                days = frame.locator("[aria-disabled='false']").all()
+                for day in days:
+                    ds = day.get_attribute("aria-label")
+                    parts = ds.split(",")
+                    ds = f"{parts[1]} {parts[2]} 1:01AM"
+                    dates.append(parser.parse(ds))
+                frame.locator("#x").click()
             else:
-                print(f"new date format found for{url}")
-            print(image_url)
+                Logger.warning(f"new date format found for{url}")
+            Logger.debug(image_url)
             return EventInfo(name=title,
                              image=image_url,
                              venue=venue,
@@ -232,30 +224,27 @@ class TicketmasterScrapper:
                              event_type=category,
                              description=description)
         elif "moshtix.co" in url:
-            print("moshtix.co")
-            title = driver.find_element(By.ID, "event-summary-title").text
-            try:
-                image_url = (driver
-                             .find_element(By.CLASS_NAME, "page_headleftimage")
-                             .find_element(By.TAG_NAME, "img")
-                             .get_attribute("src"))
-            except:
-                image_url = ""
+            Logger.debug("moshtix.co")
+            title = page.locator("#event-summary-title").first.inner_text()
+            image_url = (page
+                         .locator(".page_headleftimage").first
+                         .locator("img").first
+                         .evaluate("img => img.src"))
             if "https:" not in image_url:
                 image_url = "https:" + image_url
-            venue = driver.find_element(By.CLASS_NAME, "event-venue").text
-            date_string = driver.find_element(By.CLASS_NAME, "event-date").text
+            venue = page.locator(".event-venue").first.inner_text()
+            date_string = page.locator(".event-date").first.inner_text()
             date_matches = re.findall(r"\d{1,2}:\d{2}[amp]{2},\s[aA-zZ]{3}\s\d{1,2}\s[aA-zZ]*,\s\d{4}", date_string)
             dates = []
             for date_match in date_matches:
                 date_parts = date_match.split(",")
                 date_day = " ".join(date_parts[1].split(" ")[1:])
                 date_string = f"{date_day}{date_parts[-1]} {date_parts[0]}"
-                print(date_string)
+                Logger.debug(date_string)
                 dates.append(parser.parse(date_string))
             #  4:00pm, Sat 6 September, 2025 - 3:00am, Sun 7 September, 2025
-            details = driver.find_element(By.ID, "event-details-section")
-            description = details.find_element(By.XPATH, "//div[contains(@class, 'moduleseparator')]").text
+            details = page.locator("#event-details-section").first
+            description = details.locator("[class*='moduleseparator']").first.inner_text()
             return EventInfo(name=title,
                              image=image_url,
                              venue=venue,
@@ -267,7 +256,7 @@ class TicketmasterScrapper:
         return None
 
     @staticmethod
-    def get_urls(previous_urls: set, previous_titles: set, from_file: bool, urls_file) -> List[Tuple[str, str]]:
+    def get_urls(previous_urls: set, previous_titles: set, from_file: bool, urls_file: TextIO) -> List[Tuple[str, str]]:
         event_urls: List[Tuple[str, str]] = []
         if from_file:
             return FileUtils.load_from_files(ScraperName.TICKET_MASTER)[1]
@@ -321,7 +310,7 @@ class TicketmasterScrapper:
         page = 0
         count = 0
         while True:
-            print(f"fetching page {page}")
+            Logger.info(f"fetching page {page}")
             api_url = f'https://www.ticketmaster.co.nz/api/search/events?q=wellington&region=750&sort=date&page={page}'
             r = requests.get(url=api_url, headers=headers)
             if r.status_code != 200:
@@ -370,8 +359,8 @@ class TicketmasterScrapper:
                     break
                 page += 1
             except Exception as e:
-                print("ticket master error")
-                print(e)
+                Logger.warning("ticket master error")
+                Logger.warning(str(e))
                 count += 1
         urls_file.write("]\n")
         return event_urls
@@ -381,43 +370,36 @@ class TicketmasterScrapper:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.TICKET_MASTER)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.TICKET_MASTER)))
         events: List[EventInfo] = []
-
-        subprocess.run(['pkill', '-f', 'Google Chrome'])
-        options = Options()
-        options.add_argument("--profile-directory=Profile 1")  # Specify profile name only
-
-        # For Apple Silicon Macs
-        options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-
-        driver = webdriver.Chrome(options=options)
+        # get_urls is the requests-based Ticketmaster API — no browser needed for it.
         event_urls = TicketmasterScrapper.get_urls(previous_urls, previous_titles, False, urls_file)
-
-        out_file.write("[\n")
-        for part in event_urls:
-            print(f"category: {part[1]} url: {part[0]}")
-            try:
-                event = TicketmasterScrapper.get_event(part[0], part[1], driver)
-                if event:
-                    events.append(event)
-                    json.dump(event.to_dict(), out_file, indent=2)
-                    out_file.write(",\n")
-                else:
-                    print("no event returned")
-            except Exception as e:
-                if "No dates found for" in str(e):
-                    print("-" * 100)
-                    print(e)
-                    json.dump(part[0], banned_file, indent=2)
-                    banned_file.write(",\n")
-                else:
-                    print("-" * 100)
-                    raise e
-            print("-" * 100)
-        out_file.write("]\n")
+        with sync_playwright() as playwright:
+            # Event detail pages (ticketmaster.co.nz / universe.com / moshtix) are bot-protected.
+            context = launch_stealth(playwright, headless=False)
+            page = context.new_page()
+            out_file.write("[\n")
+            for part in event_urls:
+                Logger.info(f"category: {part[1]} url: {part[0]}")
+                try:
+                    event = TicketmasterScrapper.get_event(part[0], part[1], page)
+                    if event:
+                        events.append(event)
+                        json.dump(event.to_dict(), out_file, indent=2)
+                        out_file.write(",\n")
+                    else:
+                        Logger.debug("no event returned")
+                except Exception as e:
+                    if "No dates found for" in str(e):
+                        Logger.warning(str(e))
+                        json.dump(part[0], banned_file, indent=2)
+                        banned_file.write(",\n")
+                    else:
+                        raise e
+                Logger.divider()
+            out_file.write("]\n")
+            context.close()
         out_file.close()
         urls_file.close()
         banned_file.close()
-        driver.close()
         return events
 
-# events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(set()), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(TicketmasterScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))

@@ -1,4 +1,4 @@
-from typing import List, IO, Set, Tuple
+from typing import List, Set, Tuple, TextIO
 
 from util import CurrentFestivals
 from util import FileNames
@@ -63,7 +63,6 @@ def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
     data = sorted(data, key=lambda k: k["name"])
     data = sorted(data, key=lambda k: parser.parse(k["dates"][0]))
     event_types = sorted(list(event_types))
-    event_types.append("Other")
     filters = {
         "sources": sorted(list(sources)),
         "eventTypes": event_types,
@@ -113,11 +112,25 @@ def load_events(from_file=FileNames.EVENTS) -> List[EventInfo]:
         return events
 
 
-def get_files_for_scrapper(name: str) -> Tuple[IO, IO, IO]:
+def get_files_for_scrapper(name: str) -> Tuple[TextIO, TextIO, TextIO]:
     paths.scraper_dir(name).mkdir(parents=True, exist_ok=True)
     return (open(paths.scraper_path(name, "events.json"), mode="w"),
             open(paths.scraper_path(name, "urls.json"), mode="w"),
             open(paths.scraper_path(name, "banned.json"), mode="a"))
+
+
+def _load_json_array(f: TextIO) -> list:
+    cleaned = f.read().replace(',\n}', '\n}').replace(',\n]', '\n]')
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        # Scrapers write these arrays incrementally and close them with "]" only at the end,
+        # so a run that crashed mid-write leaves a truncated file (trailing "," and no "]").
+        # Recover by trimming the dangling comma and closing the array.
+        text = cleaned.strip().rstrip(",")
+        if text.startswith("[") and not text.endswith("]"):
+            text += "]"
+        return json.loads(text)
 
 
 def load_from_files(name: str) -> Tuple[List[EventInfo], List, List]:
@@ -125,9 +138,9 @@ def load_from_files(name: str) -> Tuple[List[EventInfo], List, List]:
     urls = []
     banned_urls = []
     with open(paths.scraper_path(name, "events.json"), mode="r") as f:
-        events = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
+        events = _load_json_array(f)
     with open(paths.scraper_path(name, "urls.json"), mode="r") as f:
-        urls = json.loads(f.read().replace(',\n}', '\n}').replace(',\n]', '\n]'))
+        urls = _load_json_array(f)
     with open(paths.scraper_path(name, "banned.json"), mode="r") as f:
         file_text = f.read()[0:-2]
         banned_urls = json.loads(f"[{file_text}]")

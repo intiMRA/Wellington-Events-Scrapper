@@ -1,6 +1,4 @@
-selenium==4.27.1
-undetected-chromedriver==3.5.5
-webdriver-manager
+playwright==1.49.1
 beautifulsoup4==4.13.4
 requests==2.32.4
 python-dateutil==2.9.0.post0
