@@ -1,102 +1,776 @@
 [
 {
-  "id": "Palmerston North Winter Beauty & Wellness Expo-Distinction Coachman Hotel Palmerston NorthPalmerston North, Manawat\u016b-Whanganui Region-Event Brite",
-  "name": "Palmerston North Winter Beauty & Wellness Expo",
-  "imageUrl": "https://www.eventbrite.co.uk/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190008560%252F315485386380%252F1%252Foriginal.20260731-022115%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D79ae38d4645371aa119a5059b83e61f3&w=1880&q=75",
-  "venue": "Distinction Coachman Hotel Palmerston NorthPalmerston North, Manawat\u016b-Whanganui Region",
-  "coordinates": {
-    "lat": -40.7307598,
-    "long": 175.2037799
-  },
-  "dates": [
-    "2026-08-27-19:00"
-  ],
-  "displayDate": "Thu 27 Aug",
-  "url": "https://www.eventbrite.co.uk/e/palmerston-north-winter-beauty-wellness-expo-tickets-1996185520628?aff=ebdssbdestsearch",
-  "source": "Event Brite",
-  "eventType": "Health & Wellness",
-  "long_description": "Overview\nJoin us for an interactive evening of Beauty, Wellness and fun! Discover the latest tips and trends and explore what is right for you!",
-  "description": "Overview Join us for an interactive evening of Beauty, Wellness and fun!\nDiscover the latest tips and trends and explore what is right for you!",
-  "labels": []
-},
-{
-  "id": "Passkey to the Inner Worlds-Otaki Memorial Hall\u014ctaki, Wellington Region-Event Brite",
-  "name": "Passkey to the Inner Worlds",
-  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1189759866%252F220235129400%252F1%252Foriginal.20260728-042121%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D0bc830b55430220357c7ca005b823e1d&w=1880&q=75",
-  "venue": "Otaki Memorial Hall\u014ctaki, Wellington Region",
-  "coordinates": {
-    "lat": -41.2235474,
-    "long": 175.4157576
-  },
-  "dates": [
-    "2026-08-30-14:00"
-  ],
-  "displayDate": "Sun 30 Aug",
-  "url": "https://www.eventbrite.co.nz/e/passkey-to-the-inner-worlds-tickets-1995612521773?aff=ebdssbdestsearch",
-  "source": "Event Brite",
-  "eventType": "Religion & Spirituality",
-  "long_description": "Overview\n\n\nOpen your heart and your spiritual eye with the HU mantra\n\nHU is a sacred sound and ancient mantra. It is a love song to God that can uplift people of any religion, culture, or walk of life. When sung or chanted with an open heart, it opens the lines of communication to the most sacred part of yourself.\nSinging HU acts as a tuning fork, aligning Soul to higher states of love, creativity, healing, and awareness.\nAt a Sound of Soul event, you are welcome to join others in chanting this ancient mantra for fifteen to twenty minutes, followed by a short time for contemplation. Afterwards, enjoy spiritual conversation with others of like heart.\nReceive a free beautifully illustrated Raise Your Spiritual IQ Experience Journal with simple, yet powerful tools to find the spiritual treasure within you.\n\nVenue: Otaki Memorial Hall supper room, 9 Aotaki Street\nRegister here or just drop in. We\u2019d love to see you!\nFor more information please contact Dave Phone: 021 214 1668\nExplore more about HU, the Sound of Soul here.\nRead less",
-  "description": "Overview Open your heart and your spiritual eye with the HU mantra HU is a sacred sound and ancient mantra.\nIt is a love song to God that can uplift people of any religion, culture, or walk of life.\nAt a Sound of Soul event, you are welcome to join others in chanting this ancient mantra for fifteen to twenty minutes, followed by a short time for contemplation.\nVenue: Otaki Memorial Hall supper room, 9 Aotaki Street Register here or just drop in.\nWe\u2019d love to see you!",
-  "labels": []
-},
-{
-  "id": "Business Continuity Planning-Wellington Chamber Of CommerceWellington, Wellington-Event Brite",
-  "name": "Business Continuity Planning",
-  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188978209%252F2236373069953%252F1%252Foriginal.20260716-045110%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dfe73359f855079699774fdb6763372f3&w=1880&q=75",
-  "venue": "Wellington Chamber Of CommerceWellington, Wellington",
+  "id": "Japanese/French fusion High Tea | 5 SEPTEMBER 2026-Le Cordon Bleu New ZealandWellington, Wellington-Event Brite",
+  "name": "Japanese/French fusion High Tea | 5 SEPTEMBER 2026",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1189365748%252F263492766973%252F1%252Foriginal.20260722-031435%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D82d3885d8b2af1d09b87defbf8dc4b43&w=1880&q=75",
+  "venue": "Le Cordon Bleu New ZealandWellington, Wellington",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-08-21-09:00"
+    "2026-09-05-00:00"
   ],
-  "displayDate": "Fri 21 Aug",
-  "url": "https://www.eventbrite.co.nz/e/business-continuity-planning-tickets-1994113739876?aff=ebdssbdestsearch",
-  "source": "Event Brite",
-  "eventType": "Classes & Workshops",
-  "long_description": "Overview\n\n\n\nThis practical Business Continuity Planning workshop helps small and medium-sized businesses prepare for disruption before it happens.\nCould your business keep operating if something unexpected happened tomorrow?\nDisruptions don\u2019t wait until you\u2019re ready. Severe weather, supplier delays, cyber incidents, key staff absence, power outages, cash flow pressure or system failures can all stop normal operations fast.\nThis practical workshop will help you understand what a Business Continuity Plan is, why it matters, and how to start building one that works for your business.\nYou\u2019ll learn how to identify your most critical business activities, understand the risks that could interrupt them, and put simple steps in place to keep operating, recover faster and communicate clearly when things go wrong.\nWhat you\u2019ll walk away with\nA clear understanding of what a Business Continuity Plan should include\nA practical framework to assess, prepare, respond and review\nTools to identify your critical processes, dependencies and recovery priorities\nSimple steps to strengthen your business resilience over 30, 60 and 90 days\nConfidence to start your plan without waiting for it to be perfect\nWho should attend\nThis workshop is designed for New Zealand small and medium-sized business owners, managers and decision-makers who want to be better prepared for disruption.\nWhy attend\nBecause a simple plan started today could make all the difference when disruption arrives tomorrow.\n\nWorkshop details\n\ud83d\udcc5 Friday 21 August 2026\n\u23f0 9am to 12:00pm\n\ud83d\udccd Business Central/Wellington Chamber of Commerce (NTT Tower, L13, 157 Lambton Quay, Wellington)\n\ud83d\ude80 Provided by Wellington NZ\nSpaces are limited so register fast to secure your spot!\nRead less",
-  "description": "Disruptions don\u2019t wait until you\u2019re ready.\nSevere weather, supplier delays, cyber incidents, key staff absence, power outages, cash flow pressure or system failures can all stop normal operations fast.\nThis practical workshop will help you understand what a Business Continuity Plan is, why it matters, and how to start building one that works for your business.\nYou\u2019ll learn how to identify your most critical business activities, understand the risks that could interrupt them, and put simple steps in place to keep operating, recover faster and communicate clearly when things go wrong.\nWorkshop details \ud83d\udcc5 Friday 21 August 2026 \u23f0 9am to 12:00pm \ud83d\udccd Business Central/Wellington Chamber of Commerce (NTT Tower, L13, 157 Lambton Quay, Wellington) \ud83d\ude80 Provided by Wellington NZ Spaces are limited so register fast to secure your spot!",
-  "labels": []
-},
-{
-  "id": "Wellington - Winter Beauty & Wellness Expo-Upper Hutt Cosmopolitan ClubUpper Hutt, Wellington Region-Event Brite",
-  "name": "Wellington - Winter Beauty & Wellness Expo",
-  "imageUrl": "https://www.eventbrite.co.uk/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190008047%252F315485386380%252F1%252Foriginal.20260731-020840%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D08b0bb9d46cf92b03261dc74cb276f82&w=1880&q=75",
-  "venue": "Upper Hutt Cosmopolitan ClubUpper Hutt, Wellington Region",
-  "coordinates": {
-    "lat": -41.2235474,
-    "long": 175.4157576
-  },
-  "dates": [
-    "2026-08-26-19:00"
-  ],
-  "displayDate": "Wed 26 Aug",
-  "url": "https://www.eventbrite.co.uk/e/wellington-winter-beauty-wellness-expo-tickets-1996185360148?aff=ebdssbdestsearch",
-  "source": "Event Brite",
-  "eventType": "Health & Wellness",
-  "long_description": "Overview\nJoin us for an interactive evening of Beauty, Wellness and fun! Discover the latest tips and trends and explore what is right for you!\nTreat yourself to an evening of Beauty, Wellness and Self Care. During this event you will have hands on experience, Skincare recommendations tailored to your needs, Make up tips and trends and Wellness inspiration to support your everyday health. This event is perfect for Nutrimetics VIP members, customers and guests who want to discover new favourites. Bring a friend and come along to learn practical beauty and wellness tips along with enjoying a relaxed and welcoming evening of fun.\nRead less",
-  "description": "Overview Join us for an interactive evening of Beauty, Wellness and fun!\nDiscover the latest tips and trends and explore what is right for you!\nDuring this event you will have hands on experience, Skincare recommendations tailored to your needs, Make up tips and trends and Wellness inspiration to support your everyday health.\nThis event is perfect for Nutrimetics VIP members, customers and guests who want to discover new favourites.\nRead less",
-  "labels": []
-},
-{
-  "id": "GLOWWA EDUCATION TOUR WELLINGTON-Whisky & WoodWellington, Wellington Region-Event Brite",
-  "name": "GLOWWA EDUCATION TOUR WELLINGTON",
-  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188133814%252F3000460911802%252F1%252Foriginal.20260703-032338%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Da4294fd3df9e1b4596e724acc160be93&w=1880&q=75",
-  "venue": "Whisky & WoodWellington, Wellington Region",
-  "coordinates": {
-    "lat": -41.2235474,
-    "long": 175.4157576
-  },
-  "dates": [
-    "2026-08-30-16:30"
-  ],
-  "displayDate": "Sun 30 Aug",
-  "url": "https://www.eventbrite.com/e/glowwa-education-tour-wellington-tickets-1993105086968?aff=ebdssbdestsearch",
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.eventbrite.co.nz/e/japanesefrench-fusion-high-tea-5-september-2026-tickets-1993800001476?aff=ebdssbdestsearch",
   "source": "Event Brite",
   "eventType": "Business & Networking",
-  "long_description": "Overview\n\n\n\nJoin Haircare Group for an exclusive event hosted by GLOWWA Head of Global Education, Jerome Wilson.\nGet Ready for the GLOWWA EDUCATION TOUR!\nIn this intimate setting, Jerome will share powerful insights into the science of hair nutrition, along with the inspiring global success story behind GLOWWA\u2014 the award-winning brand now launching in Australia. Don\u2019t miss this rare opportunity to connect, learn, and be inspired.\n\nSave Your Seat\nSecure your place today for just $85 and receive a 3-month supply of GLOWWA Hair Food valued at $219 RRP.\nLearn how GLOWWA is transforming hair from within and walk away being able to empower your team and clients with fresh, science-backed insights.\nGet a three-month supply of GLOWWA Hair Food valued at $219 RRP.\nGain your Level 1 GLOWWA Certificate in Hair Nutrition\nRead less",
-  "description": "Get Ready for the GLOWWA EDUCATION TOUR!\nIn this intimate setting, Jerome will share powerful insights into the science of hair nutrition, along with the inspiring global success story behind GLOWWA\u2014 the award-winning brand now launching in Australia.\nDon\u2019t miss this rare opportunity to connect, learn, and be inspired.\nLearn how GLOWWA is transforming hair from within and walk away being able to empower your team and clients with fresh, science-backed insights.\nGet a three-month supply of GLOWWA Hair Food valued at $219 RRP.",
+  "long_description": "Overview\nExperience an exquisite selection of the finest French P\u00e2tisserie prepared by our highly creative & talented Dipl\u00f4me de P\u00e2tisserie students.\nExperience an exquisite selection of the finest French P\u00e2tisserie prepared by our highly creative and talented Le Cordon Bleu New Zealand Dipl\u00f4me de P\u00e2tisserie students. Tickets are allocated for specific days and seating times, please ensure you arrive promptly at the time-slot you have booked for.\nTHEME - Japanese/French fusion: enjoy a variety of items inspired by Japanese cuisine with a Le Cordon Bleu French twist.\nTicket Information:\nIMPORTANT NOTE: Tables are arranged per order. If you purchase tickets separately you need to e-mail nz@cordonbleu.edu to advise which other ticket holders you wish to be seated with.\nDate: Saturday 5th September. (other sessions are also available, to purchase tickets for these events please click here. Tickets are non-transferable, please ensure you purchase tickets for the correct date.)\nPrice: $45 per person includes High Tea and complimentary Tea and Coffee.\nBooking Times: 11:00am | 11:30pm | 2:00pm | 2:30pm\nTickets are allocated for specific days and seating times, please ensure you arrive promptly at the time you have booked for.\nThe estimated time to enjoy the full Le Cordon Bleu High Tea experience is one hour. We invite you to sit back, relax and enjoy our students' collection of French P\u00e2tisserie.\nDietary Requirements: Our menu is set and we are unable to make any menu alterations, or cater to any specific dietary requirements (including religious diets) or food allergies. We apologise for any inconvenience this may cause.\nWhat is Brasserie Le Cordon Bleu?\nBrasserie Le Cordon Bleu is our training restaurant where our students get practical experience in a real restaurant environment - all under the expert guidance of their chef lecturers. In the kitchen, we have students from our Dipl\u00f4me de P\u00e2tisserie programme. In the dining room we have our Bachelor of Culinary Arts and Business students serving you and putting their theory skills into practice.\nBrasserie & High Tea Refund Policy\n\u2022 No refunds are provided unless the event is cancelled by Le Cordon Bleu NZ.\n\u2022 Customers can arrange for someone else to take their place.\nRead less",
+  "description": "Experience an exquisite selection of the finest French P\u00e2tisserie prepared by our highly creative and talented Le Cordon Bleu New Zealand Dipl\u00f4me de P\u00e2tisserie students.\nTickets are non-transferable, please ensure you purchase tickets for the correct date.)\nThe estimated time to enjoy the full Le Cordon Bleu High Tea experience is one hour.\nWe invite you to sit back, relax and enjoy our students' collection of French P\u00e2tisserie.\nBrasserie Le Cordon Bleu is our training restaurant where our students get practical experience in a real restaurant environment - all under the expert guidance of their chef lecturers.",
+  "labels": []
+},
+{
+  "id": "Speed Share: Beyond Tomorrow-85 Budge StreetBlenheim, Marlborough Region-Event Brite",
+  "name": "Speed Share: Beyond Tomorrow",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190172258%252F3003575339248%252F1%252Foriginal.png%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C940%252C470%26s%3D3a0987b793589aa318a7dd016806e334&w=1880&q=75",
+  "venue": "85 Budge StreetBlenheim, Marlborough Region",
+  "coordinates": {
+    "lat": 41.631451,
+    "long": -72.4595549
+  },
+  "dates": [
+    "2026-08-13-17:30"
+  ],
+  "displayDate": "Thu 13 Aug",
+  "url": "https://www.eventbrite.com/e/speed-share-beyond-tomorrow-tickets-1996429095166?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nSpeed Share: Beyond Tomorrow is your chance to swap cool ideas and fast-track the future in person!\nWelcome to Speed Share: Beyond Tomorrow!\nGet ready for an exciting in-person event where ideas zoom fast and futures get brighter. It's all about quick, powerful connections that push you beyond tomorrow. Meet cool people, share your thoughts, and spark new inspiration in a relaxed, fun setting.\nDon't miss out on this unique chance to be part of something fresh and forward-thinking. See you there!\nRead less",
+  "description": "Overview Speed Share: Beyond Tomorrow is your chance to swap cool ideas and fast-track the future in person!\nWelcome to Speed Share: Beyond Tomorrow!\nGet ready for an exciting in-person event where ideas zoom fast and futures get brighter.\nIt's all about quick, powerful connections that push you beyond tomorrow.\nDon't miss out on this unique chance to be part of something fresh and forward-thinking.",
+  "labels": []
+},
+{
+  "id": "Slowly but Surely: Twenty Years of Wayne Youle-The Dowse Art MuseumLower Hutt, Wellington-Event Brite",
+  "name": "Slowly but Surely: Twenty Years of Wayne Youle",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190346465%252F261398787005%252F1%252Foriginal.20260805-042919%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D4e294c03c42e948fbf59126ab114b9be&w=1880&q=75",
+  "venue": "The Dowse Art MuseumLower Hutt, Wellington",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-08-16-11:00"
+  ],
+  "displayDate": "Sun 16 Aug",
+  "url": "https://www.eventbrite.co.nz/e/slowly-but-surely-twenty-years-of-wayne-youle-tickets-1996772180343?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nA talk on Wayne Youle and his place in New Zealand art, given by Auckland Art Gallery's Nathan P\u014dhio.\nThe Dowse Art Museum invites audiences to a special floor talk with Nathan P\u014dhio on Sunday 16 August at 11am. P\u014dhio is Kaitiaki Matua, Toi M\u0101ori | Senior Curator, M\u0101ori Art at Auckland Art Gallery Toi o T\u0101maki.\nIn this illuminating discussion, P\u014dhio will situate Wayne Youle's practice within the broader landscape of New Zealand and M\u0101ori art. P\u014dhio will reflect on the humility, wit, conceptual rigour, themes and community engagement that define Youle\u2019s art making to date, drawing on more than 20 years of watching him thrive as both an artist and a respected member of the \u014ctautahi arts community.\nThe talk coincides with Wayne Youle: Back In Five, a major survey exhibition charting two decades of Youle\u2019s practice.\nRead less",
+  "description": "Overview A talk on Wayne Youle and his place in New Zealand art, given by Auckland Art Gallery's Nathan P\u014dhio.\nP\u014dhio is Kaitiaki Matua, Toi M\u0101ori | Senior Curator, M\u0101ori Art at Auckland Art Gallery Toi o T\u0101maki.\nIn this illuminating discussion, P\u014dhio will situate Wayne Youle's practice within the broader landscape of New Zealand and M\u0101ori art.\nP\u014dhio will reflect on the humility, wit, conceptual rigour, themes and community engagement that define Youle\u2019s art making to date, drawing on more than 20 years of watching him thrive as both an artist and a respected member of the \u014ctautahi arts community.\nRead less",
+  "labels": []
+},
+{
+  "id": "Beautiful Words Launch Party-Project 100Nelson, Nelson Region-Event Brite",
+  "name": "Beautiful Words Launch Party",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188247900%252F1541284311233%252F1%252Foriginal.20260705-205459%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D0813b83c7c34e628473e17a31bca0401&w=1880&q=75",
+  "venue": "Project 100Nelson, Nelson Region",
+  "coordinates": {
+    "lat": 43.3758989,
+    "long": -79.8352337
+  },
+  "dates": [
+    "2026-09-03-17:30"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.eventbrite.co.nz/e/beautiful-words-launch-party-tickets-1993070871629?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\n\n\n\n\nNo Bookings Required! Come Celebrate the Launch of Beautiful Words at Project 100 in Nelson!\nEnjoy catching up with old friends and new, and just have some fun as we launch Beautiful Words, New Zealand's newest independent writing con.\nJoin George Penney, Tony Johnson & Nina van der Voorn as they celebrate the launch of two brand new books and then admire the word art of numerous talented local artists in the Project 100 Markers' Space.\n\nThis is an all ages evening that's all about enjoying how vibrant the creative community is here in Nelson Tasman.\n\nNo bookings needed. Just bring yourself and a friend.\n\nFor all other Beautiful Words events, go to www.beautifulwords.net\nRead less",
+  "description": "Overview No Bookings Required!\nCome Celebrate the Launch of Beautiful Words at Project 100 in Nelson!\nEnjoy catching up with old friends and new, and just have some fun as we launch Beautiful Words, New Zealand's newest independent writing con.\nJoin George Penney, Tony Johnson & Nina van der Voorn as they celebrate the launch of two brand new books and then admire the word art of numerous talented local artists in the Project 100 Markers' Space.\nThis is an all ages evening that's all about enjoying how vibrant the creative community is here in Nelson Tasman.",
+  "labels": []
+},
+{
+  "id": "Requirements Elicitation-Venue To be Confirmed | Wellington CBDWellington, Wellington Region-Event Brite",
+  "name": "Requirements Elicitation",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188327996%252F436754416716%252F1%252Foriginal.20260706-223956%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D1456ff4d253c5f6f8d75aa5db967e3dc&w=1880&q=75",
+  "venue": "Venue To be Confirmed | Wellington CBDWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-03-09:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.eventbrite.co.nz/e/requirements-elicitation-tickets-1993371215967?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\nGain a core understanding of requirements elicitation, the importance of planning, and coverage of many valuable elicitation techniques.\nDescription\nThis one-day course provides a core understanding of elicitation, the importance of planning, and coverage of many valuable elicitation techniques. Emphasis is also placed on the need to verify requirements with the business to confirm that an accurate understanding has been elicited. During the afternoon session course participants undertake a realistic elicitation exercise, to reinforce the principles and techniques learnt during the course.\nGreater emphasis is being placed on skilled business analysts who have the ability to communicate strongly, engage with stakeholders, and elicit a clear understanding of business requirements. Requirements elicitation skills have never been more important for business analysts and IT professionals.\n\nThe Requirements Elicitation course is delivered by seasoned Equinox consultant practitioners who apply the techniques and practices presented in this course on a daily basis.\n\nOutline\nIntroduction to Requirements Elicitation\nGoals of elicitation\nElicitation in the analysis process\nRequirements elicitation methodology\nPlan\nThe need for planning\nCommon elicitation problems\nRequirements elicitation techniques\nRequirements election patterns\nSelection criteria\nThe requirements elicitation plan\nDo\nPreparing for the elicitation session\nPerforming elicitation\nManaging the elicitation session\nPresenting the elicitation results\nCheck\nCommunicate the requirements set\nCheck elicitation results\nCheck elicitation process\nAct \u2013 corrective action\nRequirements elicitation exercise\n\nLearning outcomes\nFollowing the completion of this course, students will be able to:\nIdentify where requirements elicitation fits within the broader requirements process\nUnderstand and adopt an elicitation methodology\nSelect appropriate elicitation techniques for the situation\nPlan and manage a requirements elicitation session\nUnderstand the need for verification of elicitation results\n\nAudience\nThe primary audience for this course is business analysts and systems analysts of all levels of experience. The course will also be of value to any project team members who are involved in elicitation or requirements activities.\n\nPrerequisites\nIt is recommended that participants have some experience with requirements in project environment before attending.\n\nRead less",
+  "description": "Emphasis is also placed on the need to verify requirements with the business to confirm that an accurate understanding has been elicited.\nRequirements elicitation skills have never been more important for business analysts and IT professionals.\nThe Requirements Elicitation course is delivered by seasoned Equinox consultant practitioners who apply the techniques and practices presented in this course on a daily basis.\nOutline Introduction to Requirements Elicitation Goals of elicitation Elicitation in the analysis process Requirements elicitation methodology Plan The need for planning Common elicitation problems Requirements elicitation techniques Requirements election patterns Selection criteria The requirements elicitation plan Do Preparing for the elicitation session Performing elicitation Managing the elicitation session Presenting the elicitation results Check Communicate the requirements set Check elicitation results Check elicitation process Act \u2013 corrective action Requirements elicitation exercise Learning outcomes Following the completion of this course, students will be able to: Identify where requirements elicitation fits within the broader requirements process Understand and adopt an elicitation methodology Select appropriate elicitation techniques for the situation Plan and manage a requirements elicitation session Understand the need for verification of elicitation results Audience The primary audience for this course is business analysts and systems analysts of all levels of experience.\nThe course will also be of value to any project team members who are involved in elicitation or requirements activities.",
+  "labels": []
+},
+{
+  "id": "Finding Tiny Moments of Joy in Everyday Life-Project 100Nelson, Nelson Region-Event Brite",
+  "name": "Finding Tiny Moments of Joy in Everyday Life",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188400865%252F1541284311233%252F1%252Foriginal.20260707-195851%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D944034bffd1f4e8340e0571e6d6a5a82&w=1880&q=75",
+  "venue": "Project 100Nelson, Nelson Region",
+  "coordinates": {
+    "lat": 43.3758989,
+    "long": -79.8352337
+  },
+  "dates": [
+    "2026-09-05-10:00"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.eventbrite.co.nz/e/finding-tiny-moments-of-joy-in-everyday-life-tickets-1992405975908?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\n\n\nDo you need more joy and calmness in your life? Then this workshop about how to find small joys in the world might be for you!\nIn an increasingly frenetic world with social media and news cycles encouraging us to see things as increasingly doom and gloom, this workshop will help you recalibrate by using micro journaling to rediscover the small joys in your everyday life.\nBecause while we can\u2019t change the big things, sometimes a small shift to a more positive outlook can help us go about our day-to-day lives less stressed and more resilient.\nWith fun, practical steps George Penney, author of the US, UK and Australian bestselling book of people watching vignettes, Tiny Moments of Joy: Spotted on Market Day in Aotearoa New Zealand, will guide you through looking at the world around you with fresh eyes, finding moments of peace, calm and even happiness.\n\n\nFor all other Beautiful Words events, go to www.beautifulwords.net\n\n\nRead less",
+  "description": "Overview Do you need more joy and calmness in your life?\nThen this workshop about how to find small joys in the world might be for you!\nIn an increasingly frenetic world with social media and news cycles encouraging us to see things as increasingly doom and gloom, this workshop will help you recalibrate by using micro journaling to rediscover the small joys in your everyday life.\nBecause while we can\u2019t change the big things, sometimes a small shift to a more positive outlook can help us go about our day-to-day lives less stressed and more resilient.\nWith fun, practical steps George Penney, author of the US, UK and Australian bestselling book of people watching vignettes, Tiny Moments of Joy: Spotted on Market Day in Aotearoa New Zealand, will guide you through looking at the world around you with fresh eyes, finding moments of peace, calm and even happiness.",
+  "labels": []
+},
+{
+  "id": "An Evening With Mat Tait-Project 100Nelson, Nelson Region-Event Brite",
+  "name": "An Evening With Mat Tait",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1187807803%252F1541284311233%252F1%252Foriginal.20260628-214907%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.222%26fp-y%3D0.42%26s%3Df124c44454a2ac065840dc2a609c1e1e&w=1880&q=75",
+  "venue": "Project 100Nelson, Nelson Region",
+  "coordinates": {
+    "lat": 43.3758989,
+    "long": -79.8352337
+  },
+  "dates": [
+    "2026-09-04-18:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.eventbrite.co.nz/e/an-evening-with-mat-tait-tickets-1992404407216?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nCome listen to Mat Tait talk all things writing, illustration and inspiration.\nJoin celebrated artist, illustrator and writer Mat Tait in a relaxed conversation about his creative process, writing both in English and te reo and illustrating mythology and the fantastical.\n\nFor all other Beautiful Words events, go to www.beautifulwords.net",
+  "description": "Overview Come listen to Mat Tait talk all things writing, illustration and inspiration.\nJoin celebrated artist, illustrator and writer Mat Tait in a relaxed conversation about his creative process, writing both in English and te reo and illustrating mythology and the fantastical.\nFor all other Beautiful Words events, go to www.beautifulwords.net",
+  "labels": []
+},
+{
+  "id": "Info Session on Family Law-Kapiti Women's CentreParaparaumu, Wellington Region-Event Brite",
+  "name": "Info Session on Family Law",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190510931%252F131884248332%252F1%252Foriginal.20260807-005054%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.609%26fp-y%3D0.577%26s%3D8f90d9aff8c253348df87ccf9a0ff741&w=1880&q=75",
+  "venue": "Kapiti Women's CentreParaparaumu, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-08-15-10:30"
+  ],
+  "displayDate": "Sat 15 Aug",
+  "url": "https://www.eventbrite.com/e/info-session-on-family-law-tickets-1997092533528?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nThis practical information session is designed to guide you through the key steps following a separation.\nDoors Open: 10.15am\nInfo Session on Family Law\nHosted by the Craft Your Life Wisdom Circle, KAPITI\nThe session covers what to do immediately after separating, when and how to address relationship property, and the right time to engage a lawyer.\nYou will gain clarity on separation agreements, your legal entitlements, and what life looks like after signing.The session also explains mediation, the process if an agreement cannot be reached, and potential court proceedings.\nIdeal for those seeking clear, structured guidance to make informed, confident decisions during a challenging transition.\nJoin us for the Craft Your Life Wisdom Circle in KAPITI, a group designed for people seeking connection, encouragement, fresh perspective, and practical wisdom as they grow into their next season with confidence and purpose.\nBrooke Young, solicitor, has a natural passion for connecting with people. She believes that the best outcomes are achieved through realistic advice and a focus on keeping clients informed and empowered throughout the legal process.\nHer key areas of interest span family law \u2014 including Parenting Orders, Protection Orders, relationship property and separation matters \u2014 as well as trusts work covering establishment, administration and wind-ups.\nRead less",
+  "description": "Doors Open: 10.15am Info Session on Family Law Hosted by the Craft Your Life Wisdom Circle, KAPITI The session covers what to do immediately after separating, when and how to address relationship property, and the right time to engage a lawyer.\nIdeal for those seeking clear, structured guidance to make informed, confident decisions during a challenging transition.\nJoin us for the Craft Your Life Wisdom Circle in KAPITI, a group designed for people seeking connection, encouragement, fresh perspective, and practical wisdom as they grow into their next season with confidence and purpose.\nShe believes that the best outcomes are achieved through realistic advice and a focus on keeping clients informed and empowered throughout the legal process.\nHer key areas of interest span family law \u2014 including Parenting Orders, Protection Orders, relationship property and separation matters \u2014 as well as trusts work covering establishment, administration and wind-ups.",
+  "labels": []
+},
+{
+  "id": "Palmerston North - Empower Her Networking - Magnetic Offer Creation-BNZ Partners Centre - Palmerston NorthPalmerston North, Manawat\u016b-Whanganui Region-Event Brite",
+  "name": "Palmerston North - Empower Her Networking - Magnetic Offer Creation",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1177094115%252F1374750981333%252F1%252Foriginal.20260209-193915%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D91d6b6f8a4b35d8f56fc3e1c5179127f&w=1880&q=75",
+  "venue": "BNZ Partners Centre - Palmerston NorthPalmerston North, Manawat\u016b-Whanganui Region",
+  "coordinates": {
+    "lat": -40.7307598,
+    "long": 175.2037799
+  },
+  "dates": [
+    "2026-08-27-13:00"
+  ],
+  "displayDate": "Thu 27 Aug",
+  "url": "https://www.eventbrite.co.nz/e/palmerston-north-empower-her-networking-magnetic-offer-creation-tickets-1996437763092?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\nEmpower Her, female networking group that offers a welcoming and safe environment for women of all business backgrounds and experiences\nPALMERSTON NORTH - BNZ Centre, Manawat\u016b Boardroom\nMonthly Topic: Magnetic Offer Creation\nHosted by: Tina Rush\nMost women are not struggling to sell because their offer is wrong. They are struggling because they are trying to speak to everyone, doing too many things at once, or buried under so much complexity that the right client cannot see themselves in it. This month we are getting into the work that actually makes a difference. Building a simple offer suite that meets clients wherever they are, stripping back the noise so your offers are genuinely easy to buy, and getting so specific about who you help and what changes for them that the right person reads it and thinks you wrote it just for them.\nWant to get your ticket for FREE?\nAre you a woman in business looking for a supportive community to help you connect, grow, and learn?\nAs an Inner Circle member, you can attend as many of our networking hubs as you like for FREE! This includes our hubs across Auckland, NZ, Australia and the UK. Enjoy unlimited access to our netwokring events and take full advantage of the community and networking opportunities.\nJoin the Inner Circle\nJoin the Inner Circle to unlock even more benefits:\nMonthly Masterclasses:\nLearn from industry experts on topics that will elevate your business and mindset.\nAccountability Calls:\nStay on track with our supportive community and achieve your goals.\nPersonal Branding Opportunities:\nCreate your own masterclasses and shine as an expert.\nExclusive Discounts:\nEnjoy special rates on Empower Her events and live workshops.\nVibrant Community:\nShare your journey, get support, and celebrate your successes with empowering women.\nJoin the Inner Circle now and become part of a wonderful community of women in business who are ready to build their dream life and business.\nEmpower Her is a global female networking community, that offers a welcoming and safe environment for women of all business backgrounds and experiences.\nWhether you're just starting out with new business ideas or have years of experience under your belt, all are welcome! Empower Her provides a safe space where you can share your business with others, connect with like-minded women in business, and prioritise collaboration over competition.\nOur groups value the power of connection, and we believe that together, we can achieve more than we ever could alone. That's why we're committed to fostering a supportive community that empowers each member to reach their full potential. Our groups are focused on connection, inspiring stories, celebrating each other's successes and sharing our vulnerable moments.\nJoin our free community\nThe Inner Circle\nFollow us on Instagram\nEmpower Her Co-Founders Victoria and Charlotte are highly passionate and dedicated to empowering female leaders in the business world. By joining Empower Her, you will not only expand your professional network but also gain access to a supportive community of like-minded individuals who are committed to helping each other succeed.Find out more about us and check up our upcoming events on our website.\n\nRead less",
+  "description": "Are you a woman in business looking for a supportive community to help you connect, grow, and learn?\nVibrant Community: Share your journey, get support, and celebrate your successes with empowering women.\nJoin the Inner Circle now and become part of a wonderful community of women in business who are ready to build their dream life and business.\nEmpower Her provides a safe space where you can share your business with others, connect with like-minded women in business, and prioritise collaboration over competition.\nBy joining Empower Her, you will not only expand your professional network but also gain access to a supportive community of like-minded individuals who are committed to helping each other succeed.Find out more about us and check up our upcoming events on our website.",
+  "labels": []
+},
+{
+  "id": "World Photography Day Photo Walk | Wellington-Dockside Restaurant & BarWellington, Wellington Region-Event Brite",
+  "name": "World Photography Day Photo Walk | Wellington",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190226679%252F568723892493%252F1%252Foriginal.20260803-200232%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D60478f31c0c14e2cc3817c7ee8f4ded8&w=1880&q=75",
+  "venue": "Dockside Restaurant & BarWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-08-16-13:00"
+  ],
+  "displayDate": "Sun 16 Aug",
+  "url": "https://www.eventbrite.co.nz/e/world-photography-day-photo-walk-wellington-tickets-1996496185836?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\n\n\n\n\n\nCelebrate World Photography Day with Fujifilm!\nCelebrate World Photography Day with Fujifilm New Zealand and join us for an inspiring photo walk along Wellington\u2019s iconic waterfront.\n\nLed by Lindsay Keats (@lindsaykeats) and Hemi & Michelle Phillips (@patina.photo.nz), we\u2019ll explore the waterfront together, capturing the city\u2019s unique architecture, public art, harbour views and everyday moments that make Wellington such a vibrant place to photograph.\n\nWhether you\u2019re a beginner or a seasoned photographer, this is a great opportunity to connect with the local photography community and spend an afternoon shooting alongside like-minded creatives.\n\nAfter the walk, you\u2019re welcome to join us at Dockside Restaurant for a coffee and chat.\n\nEvent Details\n\n\ud83d\udcc5 Sunday 16 August\n\ud83d\udd50 1:00pm\n\ud83d\udccd Meet at Dockside Restaurant\n\ud83d\udeb6 Photo walk along the Wellington Waterfront\n\u2615 Optional coffee afterwards at Dockside Restaurant\n\nWhat to bring\n\nYour camera (all brands welcome!)\nComfortable walking shoes\nWeather-appropriate clothing\nA charged battery and memory card\n\nRead less",
+  "description": "Celebrate World Photography Day with Fujifilm New Zealand and join us for an inspiring photo walk along Wellington\u2019s iconic waterfront.\nLed by Lindsay Keats (@lindsaykeats) and Hemi & Michelle Phillips (@patina.photo.nz), we\u2019ll explore the waterfront together, capturing the city\u2019s unique architecture, public art, harbour views and everyday moments that make Wellington such a vibrant place to photograph.\nAfter the walk, you\u2019re welcome to join us at Dockside Restaurant for a coffee and chat.\nEvent Details \ud83d\udcc5 Sunday 16 August \ud83d\udd50 1:00pm \ud83d\udccd Meet at Dockside Restaurant \ud83d\udeb6 Photo walk along the Wellington Waterfront \u2615 Optional coffee afterwards at Dockside Restaurant What to bring Your camera (all brands welcome!)\nComfortable walking shoes Weather-appropriate clothing A charged battery and memory card Read less",
+  "labels": []
+},
+{
+  "id": "INSPIRE Festival-Nayland CollegeNelson, Nelson Region-Event Brite",
+  "name": "INSPIRE Festival",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1175808767%252F180166367790%252F1%252Foriginal.20260126-034024%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3De4769bc5907f6ab32da98a70e8303c1e&w=1880&q=75",
+  "venue": "Nayland CollegeNelson, Nelson Region",
+  "coordinates": {
+    "lat": 43.3758989,
+    "long": -79.8352337
+  },
+  "dates": [
+    "2026-09-04-09:00",
+    "2026-09-05-09:00"
+  ],
+  "displayDate": "Fri 04 Sep + more",
+  "url": "https://www.eventbrite.co.nz/e/inspire-festival-tickets-1981551629265?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\nINSPIRE Festival is for all tamariki aged 8-13 (up to year 8) who are interested in STEAMS learning.\nPublic ticket sales open on 7 August. Early access is currently available by invitation only.\n\nINSPIRE Festival is 4-5 Sept 2026!\n$60 per child per day for a full day of STEAMS learning!\nINSPIRE Festival 2026 offers two days of student selected challenging discussions and hands-on workshops all focused around STEAMS (Science, Technology, Engineering, Arts, Maths, and Society). This year the festival is being hosted at Nayland College!\n\u2022 Friday: 1- or 2-hour workshops\n\u2022 Saturday: 2-4 hour, in-depth workshops. Perfect for students to get really stuck in to topics.\nINSPIRE offers thought-provoking discussions and hands on experiments for AGES 8-13 (up to Year 8). Students choose up to 4 sessions to attend, all based on the STEAMS model of education and delivered by New Zealand's top professionals, scientists, businessmen, and mentored college students.\nINSPIRE will develop the connection between classroom theory and some very exciting and ground-breaking real careers which make a difference in our world. The inaugural INSPIRE was in 2012 and massive demand has led to it being hosted annually with over 650 students attending and has continued to grow. The energy and enthusiasm of the students is wonderful and, with their feedback, demonstrates the necessity and benefits of INSPIRE. All attendees will be our future leaders and creative thinkers and they have told us they want more; more challenge, more connections and more opportunities to grow and learn.\nIt is recommended that students attending INSPIRE Festival have a teacher/adult 'in-charge' of them. Students left at the venue without an adult 'in-charge' are left at their own risk.\nProgramme Description and TIMETABLE:\nhttps://heyzine.com/flip-book/79774ff44c.html\n\nRead less",
+  "description": "Overview INSPIRE Festival is for all tamariki aged 8-13 (up to year 8) who are interested in STEAMS learning.\nThis year the festival is being hosted at Nayland College!\nINSPIRE offers thought-provoking discussions and hands on experiments for AGES 8-13 (up to Year 8).\nThe inaugural INSPIRE was in 2012 and massive demand has led to it being hosted annually with over 650 students attending and has continued to grow.\nThe energy and enthusiasm of the students is wonderful and, with their feedback, demonstrates the necessity and benefits of INSPIRE.",
+  "labels": []
+},
+{
+  "id": "Nelson/Tasman - Empower Her Networking - Focus, Flow & Productivity-The JellyfishM\u0101pua, Tasman Region-Event Brite",
+  "name": "Nelson/Tasman - Empower Her Networking - Focus, Flow & Productivity",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1189456499%252F1374750981333%252F1%252Foriginal.20260723-082230%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Da00cbc262de8ecc6b75b4464e3f96c9f&w=1880&q=75",
+  "venue": "The JellyfishM\u0101pua, Tasman Region",
+  "coordinates": {
+    "lat": 41.9414732,
+    "long": 33.5015706
+  },
+  "dates": [
+    "2026-09-04-09:30"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.eventbrite.co.nz/e/nelsontasman-empower-her-networking-focus-flow-productivity-tickets-1996812718594?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nEmpower Her, female networking group that offers a welcoming and safe environment for women of all business backgrounds and experiences\nNELSON/TASMAN - The Jellyfish Restaurant & Bar\nMonthly Topic: Focus, Flow & Productivity\nHosted by: Lilly Minnich\nRunning a business can often feel like juggling a hundred priorities at once. This month\u2019s Empower Her community session is all about creating more focus, finding your flow, and working in a way that feels productive without leading to burnout. Together, we\u2019ll share practical strategies, tools and ideas to help you minimise distractions, stay accountable, prioritise what matters most, and build a business that works with you, not against you. Leave with fresh inspiration and simple actions you can put into practice straight away.\nWant to get your ticket for FREE?\nAre you a woman in business looking for a supportive community to help you connect, grow, and learn?\nAs an Inner Circle member, you can attend as many of our networking hubs as you like for FREE! This includes our hubs across Auckland, NZ, Australia and the UK. Enjoy unlimited access to our netwokring events and take full advantage of the community and networking opportunities.\nJoin the Inner Circle\nJoin the Inner Circle to unlock even more benefits:\nMonthly Masterclasses: Learn from industry experts on topics that will elevate your business and mindset.\nAccountability Calls: Stay on track with our supportive community and achieve your goals.\nPersonal Branding Opportunities: Create your own masterclasses and shine as an expert.\nExclusive Discounts: Enjoy special rates on Empower Her events and live workshops.\nVibrant Community: Share your journey, get support, and celebrate your successes with empowering women.\nJoin the Inner Circle now and become part of a wonderful community of women in business who are ready to build their dream life and business.\nEmpower Her is a global female networking group, that offers a welcoming and safe environment for women of all business backgrounds and experiences.\nWhether you're just starting out with new business ideas or have years of experience under your belt, all are welcome! Empower Her provides a safe space where you can share your business with others, connect with like-minded women in business, and prioritise collaboration over competition.\nOur groups value the power of connection, and we believe that together, we can achieve more than we ever could alone. That's why we're committed to fostering a supportive community that empowers each member to reach their full potential. Our groups are focused on connection, inspiring stories, celebrating each other's successes and sharing our vulnerable moments.\nJoin our free community\nThe Inner Circle\nFollow us on Instagram\nEmpower Her Co-Founders Victoria and Charlotte are highly passionate and dedicated to empowering female leaders in the business world. By joining Empower Her, you will not only expand your professional network but also gain access to a supportive community of like-minded individuals who are committed to helping each other succeed.Find out more about us and check up our upcoming events on our website.\nRead less",
+  "description": "Are you a woman in business looking for a supportive community to help you connect, grow, and learn?\nAs an Inner Circle member, you can attend as many of our networking hubs as you like for FREE!\nEmpower Her is a global female networking group, that offers a welcoming and safe environment for women of all business backgrounds and experiences.\nEmpower Her provides a safe space where you can share your business with others, connect with like-minded women in business, and prioritise collaboration over competition.\nBy joining Empower Her, you will not only expand your professional network but also gain access to a supportive community of like-minded individuals who are committed to helping each other succeed.Find out more about us and check up our upcoming events on our website.",
+  "labels": []
+},
+{
+  "id": "Wellington Home & Garden Show 2026-Hnry StadiumWellington, Wellington Region-Event Brite",
+  "name": "Wellington Home & Garden Show 2026",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1072645933%252F241346583307%252F1%252Foriginal.20250713-231026%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D56020f3a5a4c3010258a973387c2ff91&w=1880&q=75",
+  "venue": "Hnry StadiumWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-04-10:00",
+    "2026-09-06-10:00"
+  ],
+  "displayDate": "Fri 04 Sep + more",
+  "url": "https://www.eventbrite.co.nz/e/wellington-home-garden-show-2026-tickets-1985328981427?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\nThe iconic Wellington Home & Garden Show is back at Hnry Stadium. Join us for a tonne of inspiration for the home, garden & lifestyle!\nThe entry ticket is non-refundable, but it is transferable so you if you can't attend for whatever reason, you can give the ticket to a friend.\nIt\u2019s all about ideas at the Wellington Home & Garden Show 2026. A wonderful range of exhibitors, 'Ask an Expert' sessions, latest trends, innovations and exclusive show specials it\u2019s the place to be for inspiration for indoors and out.\nFor more information visit homeandgardenshow.co.nz or 'Like us' on Facebook.\nWe are working very hard to keep our events safe and we ask that you please stay home if you are unwell.\nShow opening hours: Friday & Saturday 10-5pm, Sunday 10-4pm\nFAQs\n1. What are my transport/parking options for getting to and from the event?\nParking is available at the venue, at a cost of $10. Please note parking is card payment only (entry to the Show is card or cash).\n2. What is the best time to attend?\nPeak visitor times are normally between 11am - 2pm so the crowds are less outside of these times.\n3. What days is the ticket valid for?\nGeneral Admission entry tickets is for one entry only and is valid for any one of the 3 event days.\nGold Card Special 1/2 price tickets valid for Friday only.\n4. Do I have to bring my printed ticket to the event?\nA printed ticket or showing the barcode on your phone to the entry staff is required.\n\n\nRead less",
+  "description": "Join us for a tonne of inspiration for the home, garden & lifestyle!\nWhat are my transport/parking options for getting to and from the event?\nWhat days is the ticket valid for?\nGold Card Special 1/2 price tickets valid for Friday only.\nA printed ticket or showing the barcode on your phone to the entry staff is required.",
+  "labels": []
+},
+{
+  "id": "Physical Oceanography Workshop 2026-Earth Sciences New Zealand - WellingtonWellington, Wellington Region-Event Brite",
+  "name": "Physical Oceanography Workshop 2026",
+  "imageUrl": "",
+  "venue": "Earth Sciences New Zealand - WellingtonWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-02-09:00",
+    "2026-09-03-09:00"
+  ],
+  "displayDate": "Wed 02 Sep + more",
+  "url": "https://www.eventbrite.com/e/physical-oceanography-workshop-2026-tickets-1990053617942?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\n\n\n\n\n\n\n\n\n\nThe physics of the ocean in the age of multiple stressors.\n\n\n\n\nWelcome to the biannual New Zealand Physical Oceanography Workshop (POW).\nAs climate change fundamentally reshapes our marine environments, understanding the fluid dynamics, heat distribution, and structural dynamics of our oceans has never been more critical. This year, our community gathers under a vital, unifying theme: The physics of the ocean in the age of multiple stressors.\n\nWe invite abstracts and presentations exploring the fundamental physical processes driving\u2014and reacting to\u2014global environmental change:\nCoastal Oceanography of New Zealand\nHigh-Latitude and Polar Dynamics\nNext-Generation Ocean Modelling & Data Integration\nCross-Disciplinary Climate Solutions\nHow to do oceanography in the age of gestures broadly\n\nCall for Abstracts & Registration Details\nOral Presentations: Standard 15-minute slots (including Q&A).\nLightning Talks: Project snapshots\u2014ideal for introducing preliminary findings, novel scripts, or new field deployments.\nHow to Submit: Please email your presentation title, authors' list, a brief abstract (max 250 words), and your presentation preference directly to the organising committee at oceanography.newzealand@gmail.com.\nAbstract Submission Deadline: 20 August 2026\nRegistration Deadline: 20 August 2026\nHybrid Registration Deadline: 1 September 2026\nRegistration is $100 for general attendees and free for students. We also have a free hybrid attendance option with the ability to present. Early-career researchers are highly encouraged to present.\n\nWe are planning a fun dinner on Wednesday, and we aim to finish early on Thursday.\nWe're looking forward to seeing you in September!\n\n\n\n\n\nRead less",
+  "description": "This year, our community gathers under a vital, unifying theme: The physics of the ocean in the age of multiple stressors.\nWe invite abstracts and presentations exploring the fundamental physical processes driving\u2014and reacting to\u2014global environmental change: Coastal Oceanography of New Zealand High-Latitude and Polar Dynamics Next-Generation Ocean Modelling & Data Integration Cross-Disciplinary Climate Solutions How to do oceanography in the age of gestures broadly Call for Abstracts & Registration Details Oral Presentations: Standard 15-minute slots (including Q&A).\nLightning Talks: Project snapshots\u2014ideal for introducing preliminary findings, novel scripts, or new field deployments.\nHow to Submit: Please email your presentation title, authors' list, a brief abstract (max 250 words), and your presentation preference directly to the organising committee at oceanography.newzealand@gmail.com.\nAbstract Submission Deadline: 20 August 2026 Registration Deadline: 20 August 2026 Hybrid Registration Deadline: 1 September 2026 Registration is $100 for general attendees and free for students.",
+  "labels": []
+},
+{
+  "id": "Film Screening: The Sandwich Man \u5152\u5b50\u7684\u5927\u73a9\u5076-Lecture Theatre 104, Hugh Mackenzie BuildingWellington, Wellington Region-Event Brite",
+  "name": "Film Screening: The Sandwich Man \u5152\u5b50\u7684\u5927\u73a9\u5076",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190169235%252F2834126008231%252F1%252Foriginal.20260803-040439%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D03b3c0a49254d9e9d141fc41dec2dc54&w=1880&q=75",
+  "venue": "Lecture Theatre 104, Hugh Mackenzie BuildingWellington, Wellington Region",
+  "coordinates": {
+    "lat": 51.4287211,
+    "long": -0.3703766
+  },
+  "dates": [
+    "2026-09-04-17:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.eventbrite.com/e/film-screening-the-sandwich-man-tickets-1996426478339?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\nJoin us for a special screening of the 1983 film by Directors | Hou Hsiao-hsien \u4faf\u5b5d\u8ce2 Wan Jen\u842c\u4ec1 Tseng Chuang-hsiang \u66fe\u58ef\u7965\nAdapted from three of Huang Chun-ming's short stories, this episodic film portrays the struggles of marginalised individuals during challenging times. It skilfully blends moments of self-doubt with dignity, humour with sorrow, and hope with despair, capturing the emotional turmoil and innocence of people confronting the intrusion of foreign influences in a developing nation. Widely regarded as foundational in Taiwan\u2019s New Cinema, this film reflects the social realities of the era with deep empathy and sharp satire.\n\n2015 International Film Festival Rotterdam \u9e7f\u7279\u4e39\u570b\u969b\u5f71\u5c55\n1983 Golden Horse Awards \u2013 Best Supporting Actor, Child Actor, Original Song Nominations \u91d1\u99ac\u734e\u6700\u4f73\u7537\u914d\u89d2\u3001\u7ae5\u661f\u3001\u6539\u7de8\u5287\u672c\u63d0\u540d\nRead less",
+  "description": "Overview Join us for a special screening of the 1983 film by Directors | Hou Hsiao-hsien \u4faf\u5b5d\u8ce2 Wan Jen\u842c\u4ec1 Tseng Chuang-hsiang \u66fe\u58ef\u7965 Adapted from three of Huang Chun-ming's short stories, this episodic film portrays the struggles of marginalised individuals during challenging times.\nIt skilfully blends moments of self-doubt with dignity, humour with sorrow, and hope with despair, capturing the emotional turmoil and innocence of people confronting the intrusion of foreign influences in a developing nation.\nWidely regarded as foundational in Taiwan\u2019s New Cinema, this film reflects the social realities of the era with deep empathy and sharp satire.\n2015 International Film Festival Rotterdam \u9e7f\u7279\u4e39\u570b\u969b\u5f71\u5c55 1983 Golden Horse Awards \u2013 Best Supporting Actor, Child Actor, Original Song Nominations \u91d1\u99ac\u734e\u6700\u4f73\u7537\u914d\u89d2\u3001\u7ae5\u661f\u3001\u6539\u7de8\u5287\u672c\u63d0\u540d Read less",
+  "labels": []
+},
+{
+  "id": "Men's Circle & Breathwork-Bhakti Lounge WellingtonWellington, Wellington-Event Brite",
+  "name": "Men's Circle & Breathwork",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190073554%252F2995225513767%252F1%252Foriginal.20260731-234353%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.071%26fp-y%3D0.398%26s%3Db9d321b8f5ffe1faa8ed37d59da7b23b&w=1880&q=75",
+  "venue": "Bhakti Lounge WellingtonWellington, Wellington",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-03-18:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.eventbrite.co.nz/e/mens-circle-breathwork-tickets-1996316025973?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nA welcoming men\u2019s circle for honest conversation, breathwork and meaningful connection in a space of trust and support.\nMen's Circle & Breathwork \nStarts at 6pm\nIn a world where men are often expected to have everything figured out, this gathering offers a space to be genuine, not perfect.\nThis is a free event, with an optional plant-based dinner available for $15. While there\u2019s no obligation to stay for dinner, sharing a meal together offers a meaningful way to strengthen connections.\nAndre and Sri Jiva co-host this circle with a shared passion for creating authentic, supportive spaces where men can connect deeply, offering this gathering simply because they believe in its importance.\nThe Men\u2019s Circle provides a safe and nurturing environment where men can share openly, express their feelings and encourage personal growth. Through honest sharing and collective support, participants build resilience, deepen self-awareness, and strengthen their sense of identity and purpose.\n Structure of the Circle\nGathering in a Circle: Participants sit in a circle to symbolize equality and unity.\nBreathwork is a powerful practice to help ground the nervous system and connect to a deep presence. \nTalking Object: A sharing stick or object is placed in the center. Only the person holding the object may speak, ensuring uninterrupted sharing.\nOpen Sharing: Anyone may choose to share while holding the object. Sharing is optional, and passing is always respected.\nActive Listening: While one person shares, others listen attentively without speaking, interrupting, or offering advice. The focus is on witnessing and being present.\nNo Judgments or Advice: Participants refrain from judging or offering unsolicited advice, creating a safe space for authentic expression.\nClosing: The circle may conclude with a group reflection, a moment of gratitude, or a simple acknowledgment of the shared experience.\n Circle Agreements\nSupportive Environment: We are here to uplift and support one another, fostering trust and brotherhood.\nFocus on the Present: Share what's alive for you now, focusing on your emotions and experiences to deepen emotional awareness.\nUse \"I\" Statements: Speak from your personal perspective using \"I\" statements to promote authenticity and responsibility. Avoid generalizations like \"we\" or \"us.\"\nNo Judgment or fixing: Refrain from judging others sharing or offering unsolicited advice, ensuring a safe and non-critical space.\nConfidentiality: What is shared in the circle stays in the circle. You may discuss your own experience outside the group but keep others' details private.\nJoin us after this free event for an optional plant-based dinner and dessert for only $20 (or $10 for students).\nMeet Andre, your host:\nAndre has been immersed in men\u2019s work since the age of 13, when he first experienced a rite of passage in Golden Bay. That formative experience sparked a lifelong connection to circle work, which he later deepened by returning as a mentor. A multi-instrumental musician, poet, and pranayama (breathwork) facilitator, Andre also brings his passion for ecstatic dance, philosophy, and authentic connection into his offerings. He is deeply inspired by the question of what it means to be human, how we can more fully experience our aliveness, our depth, and reconnecting with the beauty of life together.\nMeet Sri Jiva, your host:\nSince childhood, Sri Jiva has been fascinated by meaning, purpose, and authentic life fulfilment. This, among other things, led him to join a monastery at the age of 19. After years of monastic training, he chose to marry and pursue a career. He felt called to use his monastic experience to help others understand themselves, and to find wisdom, meaning, and purpose in their own lives. Inspired by this calling, he went to university to study counselling. Now, Sri Jiva and his wife live near Wellington, where he works with a small team of counsellors, supporting clients individually and in groups.\nRead less",
+  "description": "Overview A welcoming men\u2019s circle for honest conversation, breathwork and meaningful connection in a space of trust and support.\nAndre and Sri Jiva co-host this circle with a shared passion for creating authentic, supportive spaces where men can connect deeply, offering this gathering simply because they believe in its importance.\nConfidentiality: What is shared in the circle stays in the circle.\nJoin us after this free event for an optional plant-based dinner and dessert for only $20 (or $10 for students).\nHe felt called to use his monastic experience to help others understand themselves, and to find wisdom, meaning, and purpose in their own lives.",
+  "labels": []
+},
+{
+  "id": "After the Eclipse: A Letting Go Circle-31 Hobson CrescentThorndon, Wellington-Event Brite",
+  "name": "After the Eclipse: A Letting Go Circle",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190242964%252F1419131978763%252F1%252Foriginal.20260804-000402%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26s%3De01c2c124407d08380cb59d4f9130546&w=1880&q=75",
+  "venue": "31 Hobson CrescentThorndon, Wellington",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-08-29-17:30"
+  ],
+  "displayDate": "Sat 29 Aug",
+  "url": "https://www.eventbrite.co.nz/e/after-the-eclipse-a-letting-go-circle-tickets-1996530464364?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nA gentle, consent-based Reiki circle held in the quiet after the 27-28 August partial lunar eclipse and Full Moon in Pisces closes out.",
+  "description": "Overview A gentle, consent-based Reiki circle held in the quiet after the 27-28 August partial lunar eclipse and Full Moon in Pisces closes out.",
+  "labels": []
+},
+{
+  "id": "In Conversation: The Rt. Hon. Helen Clark & Hon. Philip Woollaston-Mapua Community HallM\u0101pua, Tasman Region-Event Brite",
+  "name": "In Conversation: The Rt. Hon. Helen Clark & Hon. Philip Woollaston",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190362703%252F959754771323%252F1%252Foriginal.20260805-111356%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26s%3Ddfd5e8d9f7a677ca7634c66b9856672b&w=1880&q=75",
+  "venue": "Mapua Community HallM\u0101pua, Tasman Region",
+  "coordinates": {
+    "lat": 41.9414732,
+    "long": 33.5015706
+  },
+  "dates": [
+    "2026-08-23-12:30"
+  ],
+  "displayDate": "Sun 23 Aug",
+  "url": "https://www.eventbrite.co.nz/e/in-conversation-the-rt-hon-helen-clark-hon-philip-woollaston-tickets-1996790522204?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nThe people, politics and ideas that shaped New Zealand\u2019s conservation legacy, hosted by West Coast-Tasman Labour candidate, Rory Paterson.\nAs New Zealand debates proposed changes to our conservation laws, there has never been a better time to hear from two people who played a pivotal role in shaping our conservation history.\nJoin former Prime Minister and former Conservation Minister, the Rt. Hon. Helen Clark, and former Minister of Conservation and former Nelson mayor, Hon. Philip Woollaston, for a special lunchtime conversation exploring the people, politics and ideas that shaped modern conservation in New Zealand.\nHelen and Philip were New Zealand\u2019s second and third Conservation Ministers, respectively.\nDrawing on their first-hand experience, they will reflect on the vision, challenges and decisions behind some of New Zealand's most significant conservation legislation and discuss the legacy it continues to leave today.\nThe conversation will be facilitated by Johny O'Donnell and hosted by West Coast-Tasman Labour candidate, Rory Paterson.\nBring your lunch, bring your curiosity, and enjoy an engaging discussion, with plenty of time for audience questions.\nAdmission is free. Koha at the door is appreciated.\nWe\u2019ll also have raffles and a silent auction, so bring some cash if you\u2019d like to support our West Coast-Tasman campaign.\nSeating reservations on a first-come, first-served basis.\nRead less",
+  "description": "Overview The people, politics and ideas that shaped New Zealand\u2019s conservation legacy, hosted by West Coast-Tasman Labour candidate, Rory Paterson.\nAs New Zealand debates proposed changes to our conservation laws, there has never been a better time to hear from two people who played a pivotal role in shaping our conservation history.\nHelen Clark, and former Minister of Conservation and former Nelson mayor, Hon.\nPhilip Woollaston, for a special lunchtime conversation exploring the people, politics and ideas that shaped modern conservation in New Zealand.\nHelen and Philip were New Zealand\u2019s second and third Conservation Ministers, respectively.",
+  "labels": []
+},
+{
+  "id": "Japanese/French fusion High Tea | 4 SEPTEMBER 2026-Le Cordon Bleu New ZealandWellington, Wellington-Event Brite",
+  "name": "Japanese/French fusion High Tea | 4 SEPTEMBER 2026",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1189365680%252F263492766973%252F1%252Foriginal.20260722-031312%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D486205c5068aaf651d5c806693471032&w=1880&q=75",
+  "venue": "Le Cordon Bleu New ZealandWellington, Wellington",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-04-00:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.eventbrite.co.nz/e/japanesefrench-fusion-high-tea-4-september-2026-tickets-1993799503988?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Other",
+  "long_description": "Overview\nExperience an exquisite selection of the finest French P\u00e2tisserie prepared by our highly creative & talented Dipl\u00f4me de P\u00e2tisserie students.\nExperience an exquisite selection of the finest French P\u00e2tisserie prepared by our highly creative and talented Le Cordon Bleu New Zealand Dipl\u00f4me de P\u00e2tisserie students. Tickets are allocated for specific days and seating times, please ensure you arrive promptly at the time-slot you have booked for.\nTHEME - Japanese/French fusion: enjoy a variety of items inspired by Japanese cuisine with a Le Cordon Bleu French twist.\nTicket Information:\nIMPORTANT NOTE: Tables are arranged per order. If you purchase tickets separately you need to e-mail nz@cordonbleu.edu to advise which other ticket holders you wish to be seated with.\nDate: Friday 4th September. (other sessions are also available, to purchase tickets for these events please click here. Tickets are non-transferable, please ensure you purchase tickets for the correct date.)\nPrice: $45 per person includes High Tea and complimentary Tea and Coffee.\nBooking Times: 11.30am | 12:00pm\nTickets are allocated for specific days and seating times, please ensure you arrive promptly at the time you have booked for.\nThe estimated time to enjoy the full Le Cordon Bleu High Tea experience is one hour. We invite you to sit back, relax and enjoy our students' collection of French P\u00e2tisserie.\nDietary Requirements: Our menu is set and we are unable to make any menu alterations, or cater to any specific dietary requirements (including religious diets) or food allergies. We apologise for any inconvenience this may cause.\nWhat is Brasserie Le Cordon Bleu?\nBrasserie Le Cordon Bleu is our training restaurant where our students get practical experience in a real restaurant environment - all under the expert guidance of their chef lecturers. In the kitchen, we have students from our Dipl\u00f4me de P\u00e2tisserie programme. In the dining room we have our Bachelor of Culinary Arts and Business students serving you and putting their theory skills into practice.\nBrasserie & High Tea Refund Policy\n\u2022 No refunds are provided unless the event is cancelled by Le Cordon Bleu NZ.\n\u2022 Customers can arrange for someone else to take their place.\nRead less",
+  "description": "Experience an exquisite selection of the finest French P\u00e2tisserie prepared by our highly creative and talented Le Cordon Bleu New Zealand Dipl\u00f4me de P\u00e2tisserie students.\nTickets are non-transferable, please ensure you purchase tickets for the correct date.)\nThe estimated time to enjoy the full Le Cordon Bleu High Tea experience is one hour.\nWe invite you to sit back, relax and enjoy our students' collection of French P\u00e2tisserie.\nBrasserie Le Cordon Bleu is our training restaurant where our students get practical experience in a real restaurant environment - all under the expert guidance of their chef lecturers.",
+  "labels": []
+},
+{
+  "id": "WELLINGTON Speed Dating For Ages 26-44 by Cheeky Events New Zealand-TRINITY HOTEL (ARBORIST ROOFTOP BUT THE INSIDE AREA)WELLINGTON, TE ARO-Event Brite",
+  "name": "WELLINGTON Speed Dating For Ages 26-44 by Cheeky Events New Zealand",
+  "imageUrl": "https://www.eventbrite.com.au/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1187693527%252F542835271873%252F1%252Foriginal.20260626-055837%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D6a7c10de0e8474749a25da0e752bf7f5&w=1880&q=75",
+  "venue": "TRINITY HOTEL (ARBORIST ROOFTOP BUT THE INSIDE AREA)WELLINGTON, TE ARO",
+  "coordinates": {
+    "lat": -41.2925372,
+    "long": 174.7789184
+  },
+  "dates": [
+    "2026-08-27-19:00"
+  ],
+  "displayDate": "Thu 27 Aug",
+  "url": "https://www.eventbrite.com.au/e/wellington-speed-dating-for-ages-26-44-by-cheeky-events-new-zealand-tickets-1992617521647?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Other",
+  "long_description": "Overview\n\n\nGet ready for a night of fun and connection at WELLINGTON'S hottest speed dating event!\nLet\u2019s ditch the apps together and embrace real connections. Say goodbye to the dating apps and hello to your very own Cheeky Love Story!\nWhat\u2019s included: Your first drink is on us\u2014let\u2019s toast to great company!\nHow It Works:\nBefore the event:\nIf you have the App store on your phone make sure to download the Cheeky Events App to set up your profile and upload a photo. The app is not avilable yet on Google Store so if you have a Google phone then save and use this web browser link instead to enter who you like and receive any matches:\nhttps://app.cheekyeventsaustralia.com/\n\nP.S. Don\u2019t worry\u2014it\u2019s not a dating app! We\u2019ve skipped the chat feature because we\u2019re all about real, in-person connections.\nDuring the event:\nCheck in to grab your name tag and free drink token.\nArrive on time to enjoy 15 minutes of casual pre-mingling.\nLadies stay seated while men rotate every 5 minutes\u2014don\u2019t forget to rate your matches in the app!\nTake a quick 15-minute break before the next round.\nAfter the rotations, feel free to stick around for some extra socializing!\nAfter the event: Stay for extra mingling and check the app for your cheeky matches 12 hours later!\nFor more details, check out our blog: What to expect\nWho knows? You might just find your next spark!Our IRL singles events (single mixers and speed dating events) are happening across Australia & New Zealand.\nAbout Cheeky Events\nWe host fun, inclusive singles events across Australia & New Zealand! Whether you\u2019re in your 20s, over 40, looking for love, or just looking to meet new people, our events are designed to bring people together. Whether you\u2019re seeking romance, new friendships, or even networking, we\u2019ve got something for everyone!\nFollow us on Instagram:@cheekyeventsaustralia @cheekyeventsukandireland @cheekyeventsnewzealand @cheekyeventsukandireland @cheekeventsus\nVisit our website: www.cheekyevents.net or download the Cheeky Events app to get started.\nWe can\u2019t wait to see you at one of our events soon!\n#speeddating\n\nRead less",
+  "description": "Let\u2019s ditch the apps together and embrace real connections.\nHow It Works: Before the event: If you have the App store on your phone make sure to download the Cheeky Events App to set up your profile and upload a photo.\nDon\u2019t worry\u2014it\u2019s not a dating app!\nAfter the event: Stay for extra mingling and check the app for your cheeky matches 12 hours later!\nAbout Cheeky Events We host fun, inclusive singles events across Australia & New Zealand!",
+  "labels": []
+},
+{
+  "id": "Fortnightly Scones at Q Space | Coffee, Scones & Connections-Q Space | Coworking Lower HuttLower Hutt, Wellington Region-Event Brite",
+  "name": "Fortnightly Scones at Q Space | Coffee, Scones & Connections",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188253753%252F2221861344003%252F1%252Foriginal.20260705-234314%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.445%26fp-y%3D0.474%26s%3D471b233c352b170071941387c1f03e25&w=1880&q=75",
+  "venue": "Q Space | Coworking Lower HuttLower Hutt, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-01-10:30"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.eventbrite.com/e/fortnightly-scones-at-q-space-coffee-scones-connections-tickets-1993296695073?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\nJoin us every two weeks at Q Space for coffee, scones, and good vibes with great connections!\nThere's nothing quite like a warm scone and a good chat!\nEvery couple of weeks, we invite our members and guests to join us for one of Q Space's favourite traditions \u2013 Fortnightly Scones\nWhether you're taking a break between meetings, working remotely for the day, or looking to meet other local professionals, it's the perfect excuse to step away from your desk and connect with the community.\nCome along for a relaxed morning filled with delicious food, friendly faces and great conversation.\n\nWhat's Included\n\ud83e\udd50 Freshly baked scones with jam & cream\n\u2615 Complimentary tea & barista-style coffee\n\ud83e\udd1d Casual networking\n\ud83c\udfe2 Meet the Q Space community\n\u2728 Optional coworking space tour\n\nWho Should Attend?\n\u2022 Q Space Members\n\u2022 Local business owners\n\u2022 Remote & hybrid workers\n\u2022 Freelancers\n\u2022 Entrepreneurs\n\u2022 Anyone curious about coworking\nEveryone is welcome!\n\nWhy Visit Q Space?\nQ Space is Lower Hutt's premium coworking and flexible office space, bringing together businesses, freelancers, remote workers and growing teams in a modern, collaborative environment.\nIf you've been thinking about coworking, this is a relaxed, no-pressure opportunity to experience the space, meet our members and see what we're all about.\nRead less",
+  "description": "Overview Join us every two weeks at Q Space for coffee, scones, and good vibes with great connections!\nThere's nothing quite like a warm scone and a good chat!\nEvery couple of weeks, we invite our members and guests to join us for one of Q Space's favourite traditions \u2013 Fortnightly Scones Whether you're taking a break between meetings, working remotely for the day, or looking to meet other local professionals, it's the perfect excuse to step away from your desk and connect with the community.\nWhat's Included \ud83e\udd50 Freshly baked scones with jam & cream \u2615 Complimentary tea & barista-style coffee \ud83e\udd1d Casual networking \ud83c\udfe2 Meet the Q Space community \u2728 Optional coworking space tour Who Should Attend?\n\u2022 Q Space Members \u2022 Local business owners \u2022 Remote & hybrid workers \u2022 Freelancers \u2022 Entrepreneurs \u2022 Anyone curious about coworking Everyone is welcome!",
+  "labels": []
+},
+{
+  "id": "How To Write A Romance Novel: A Workshop-Project 100Nelson, Nelson Region-Event Brite",
+  "name": "How To Write A Romance Novel: A Workshop",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1187807784%252F1541284311233%252F1%252Foriginal.20260628-214807%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.536%26fp-y%3D0.476%26s%3D9af6ef0ef27039595fa69b867a9566f6&w=1880&q=75",
+  "venue": "Project 100Nelson, Nelson Region",
+  "coordinates": {
+    "lat": 43.3758989,
+    "long": -79.8352337
+  },
+  "dates": [
+    "2026-09-01-18:00"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.eventbrite.co.nz/e/how-to-write-a-romance-novel-a-workshop-tickets-1992456474952?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\n\n\n\nA workshop that will take you through the A to Z of writing a character driven romance novel from bestselling author George Penney.\nDo you have dreams of typing \u201cThe End\u201d on a romance novel you\u2019ve written but don\u2019t know where to start?\nHave you always dreamed of being a writer but find the actual process of becoming one intimidating?\nOr maybe you\u2019re a forever-writer just looking for pointers for how to shape your ideas into a structure that\u2019ll sell to readers.\nThis three hour workshop will take you from initial character creation, through romance story structure and then to practical tips on getting your romance novel finished.\nYou\u2019ll be taken through different romance genres, how to come up with three-dimensional, interesting characters, how to built tension and conflict, tips on writing good sex scenes and how to write that truly satisfying Happy Ever After ending.\nThis is a practical workshop designed to leave attendees motivated, excited and equipped with the tools to go on and finish that book!\n\n*Please note: This is an AI free writing workshop. We believe that writing should be a messy, wonderful, exasperating, rewarding process that explores the depth of human creativity rather than a test on how well someone can type a prompt into a LLM. If you'd like to argue this point, please send us a non-AI hardbound treatise of no less than one hundred thousand words, hand-written in iambic pentameter.\n\nFor all other Beautiful Words events, go to www.beautifulwords.net\n\n\nRead less",
+  "description": "Do you have dreams of typing \u201cThe End\u201d on a romance novel you\u2019ve written but don\u2019t know where to start?\nHave you always dreamed of being a writer but find the actual process of becoming one intimidating?\nOr maybe you\u2019re a forever-writer just looking for pointers for how to shape your ideas into a structure that\u2019ll sell to readers.\nThis three hour workshop will take you from initial character creation, through romance story structure and then to practical tips on getting your romance novel finished.\nThis is a practical workshop designed to leave attendees motivated, excited and equipped with the tools to go on and finish that book!",
+  "labels": []
+},
+{
+  "id": "Raise Your Spiritual IQ with Creative Problem-Solving!-Nightingale Library MemorialNelson-Event Brite",
+  "name": "Raise Your Spiritual IQ with Creative Problem-Solving!",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190513267%252F2991724439608%252F1%252Foriginal.20260807-013422%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.493%26fp-y%3D0.334%26s%3D62df8a7f0f8acc0132b78db0f8bcedb0&w=1880&q=75",
+  "venue": "Nightingale Library MemorialNelson",
+  "coordinates": null,
+  "dates": [
+    "2026-08-23-15:00"
+  ],
+  "displayDate": "Sun 23 Aug",
+  "url": "https://www.eventbrite.co.nz/e/raise-your-spiritual-iq-with-creative-problem-solving-tickets-1997093665915?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nExplore spiritual keys to unlock the secrets to effective problem solving in this free spiritual discussion.\nRaise Your Spiritual IQ!\nAwaken to your full spiritual potential with creative ways to solve problems.\nYour spiritual IQ is unlimited.\nGain a new perspective on your purpose in life. Watch our event video and discover how you can enhance your spirituality\nWhat to expect:\nExpand your inner awareness with creative problem-solving\nShare your experiences with other like-hearted people!\nLearn ways to handle challenges from a spiritual perspective\nDiscover techniques to access your divine intuition\nGet simple spiritual exercises to directly connect with the Life Source\nReceive a free book and beautifully illustratedExperience Journal to jump start your spiritual adventure!\nVenue: Nightingale Library Meeting Room, 2 Beach Road, Tahunanui, Nelson\nRegister here or just drop in. We would love to see you!\nFor more information please contact Sara on 0211882036\nRead less",
+  "description": "Raise Your Spiritual IQ!\nAwaken to your full spiritual potential with creative ways to solve problems.\nYour spiritual IQ is unlimited.\nLearn ways to handle challenges from a spiritual perspective Discover techniques to access your divine intuition Get simple spiritual exercises to directly connect with the Life Source Receive a free book and beautifully illustratedExperience Journal to jump start your spiritual adventure!\nVenue: Nightingale Library Meeting Room, 2 Beach Road, Tahunanui, Nelson Register here or just drop in.",
+  "labels": []
+},
+{
+  "id": "2026 Taiwan Update Lectures-Room AM106, Alan MacDiarmid BuildingWellington, Wellington Region-Event Brite",
+  "name": "2026 Taiwan Update Lectures",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190168949%252F2834126008231%252F1%252Foriginal.20260803-035733%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Df6fbd65b2eca175f5f5d036950bae7f9&w=1880&q=75",
+  "venue": "Room AM106, Alan MacDiarmid BuildingWellington, Wellington Region",
+  "coordinates": null,
+  "dates": [
+    "2026-09-04-12:30"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.eventbrite.com/e/2026-taiwan-update-lectures-tickets-1996419206589?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nJoin us for three talks by experts on different aspects of Taiwan",
+  "description": "Overview Join us for three talks by experts on different aspects of Taiwan",
+  "labels": []
+},
+{
+  "id": "Pre-Show Drinks & Nibbles - Nayland Jubilee Gala Concert-Theatre Royal NelsonNelson, Nelson Region-Event Brite",
+  "name": "Pre-Show Drinks & Nibbles - Nayland Jubilee Gala Concert",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190501438%252F1092528778673%252F1%252Foriginal.20260806-215206%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D42011e5bc701bd19c21301950e0659b4&w=1880&q=75",
+  "venue": "Theatre Royal NelsonNelson, Nelson Region",
+  "coordinates": {
+    "lat": 43.3758989,
+    "long": -79.8352337
+  },
+  "dates": [
+    "2026-08-28-17:45"
+  ],
+  "displayDate": "Fri 28 Aug",
+  "url": "https://www.eventbrite.co.nz/e/pre-show-drinks-nibbles-nayland-jubilee-gala-concert-tickets-1997087768275?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nEnjoy drinks & nibbles in the Theatre Royal foyer before the 60th Jubilee Gala Concert. Your ticket includes nibbles and your first drink.\nPre-Show Drinks & Nibbles - Jubilee Gala Concert\nJoin us at the Theatre Royal Nelson on August 28, 2026 at 5:45 PM for an evening celebrating Nayland College's 60th Jubilee. Enjoy pre-show drinks and nibbles as part of the festivities leading into the Performing Arts Gala Concert.\nThis is a wonderful opportunity to come together and commemorate six decades of excellence in education and the arts.\nTickets for the Gala Concert are available at:\nhttps://nz.patronbase.com/_TheatreRoyalNelson/Productions/GC26/Performances\nRead less",
+  "description": "Your ticket includes nibbles and your first drink.\nPre-Show Drinks & Nibbles - Jubilee Gala Concert Join us at the Theatre Royal Nelson on August 28, 2026 at 5:45 PM for an evening celebrating Nayland College's 60th Jubilee.\nEnjoy pre-show drinks and nibbles as part of the festivities leading into the Performing Arts Gala Concert.\nThis is a wonderful opportunity to come together and commemorate six decades of excellence in education and the arts.\nTickets for the Gala Concert are available at: https://nz.patronbase.com/_TheatreRoyalNelson/Productions/GC26/Performances Read less",
+  "labels": []
+},
+{
+  "id": "SMOG Prizegiving 2026-1841 Bar and RestaurantWellington, Wellington Region-Event Brite",
+  "name": "SMOG Prizegiving 2026",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190088430%252F295431999457%252F1%252Foriginal.20260801-092356%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C900%252C1080%252C540%26s%3D35f663b74eedb661a985c8d1f689ee8d&w=1880&q=75",
+  "venue": "1841 Bar and RestaurantWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-08-22-19:00"
+  ],
+  "displayDate": "Sat 22 Aug",
+  "url": "https://www.eventbrite.co.nz/e/smog-prizegiving-2026-tickets-1996328921544?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nSMOG's annual prizegiving is coming up! Come along to celebrate a great year of netball and top player and club member awards",
+  "description": "Overview SMOG's annual prizegiving is coming up!\nCome along to celebrate a great year of netball and top player and club member awards",
+  "labels": []
+},
+{
+  "id": "Othe event 2026-kanpurWellington-Event Brite",
+  "name": "Othe event 2026",
+  "imageUrl": "",
+  "venue": "kanpurWellington",
+  "coordinates": null,
+  "dates": [
+    "2026-08-31-00:00"
+  ],
+  "displayDate": "Mon 31 Aug",
+  "url": "https://www.eventbrite.co.nz/e/othe-event-2026-tickets-1970800000855?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nother event",
+  "description": "Overview other event",
+  "labels": []
+},
+{
+  "id": "2026 Francis Gurry Lecture on Intellectual Property - WELLINGTON-AJ ParkWellington, Wellington Region-Event Brite",
+  "name": "2026 Francis Gurry Lecture on Intellectual Property - WELLINGTON",
+  "imageUrl": "https://www.eventbrite.com.au/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1142064263%252F407347580783%252F1%252Foriginal.20251002-005806%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D77622604c449bd5fb0d71f74994acf34&w=1880&q=75",
+  "venue": "AJ ParkWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-08-31-17:30"
+  ],
+  "displayDate": "Mon 31 Aug",
+  "url": "https://www.eventbrite.com.au/e/2026-francis-gurry-lecture-on-intellectual-property-wellington-tickets-1993263026369?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\"The Future of IP Dispute Resolution\" by Sir Colin Birss, Chancellor of the High Court of England and Wales\n5.30pm | Pre-event refreshments\n6.00pm | Public lecture\n\nThe Future of IP Dispute Resolution\nThe legal landscape is changing before our eyes. The advent of AI and digital assets, the internationalisation of dispute resolution, and the changing expectations of users, all pose challenges, and intellectual property has always raised issues of its own.\nThis lecture will examine the state of intellectual property litigation today in the wider context, consider where it needs to be in future, and look at how we need to adapt to meet the challenges.\nThe topics include the major legal problems in IP which will need to be addressed; the legal and practical impact of artificial intelligence; the importance of digital assets and tokenisation; and the emergence of alternative modes of resolving dispute resolution.\nColin Birss is the Chancellor (Head of the Chancery Division) of the High Court of England and Wales. Called to the English Bar in 1990, he practised intellectual property law. In 2010 he became judge at the Patents County Court (now IPEC), in 2013 he went to the High Court, and in 2021 to the Court of Appeal. He was Deputy Head of Civil Justice 2021-25, and appointed Chancellor in 2025. He sits in the Court of Appeal and in the High Court.\n\nIf you are a University of Melbourne alumni, information about your participation may be shared with the Advancement team, as explained in our privacy notice.\nRead less",
+  "description": "Overview \"The Future of IP Dispute Resolution\" by Sir Colin Birss, Chancellor of the High Court of England and Wales 5.30pm | Pre-event refreshments 6.00pm | Public lecture The Future of IP Dispute Resolution The legal landscape is changing before our eyes.\nThis lecture will examine the state of intellectual property litigation today in the wider context, consider where it needs to be in future, and look at how we need to adapt to meet the challenges.\nThe topics include the major legal problems in IP which will need to be addressed; the legal and practical impact of artificial intelligence; the importance of digital assets and tokenisation; and the emergence of alternative modes of resolving dispute resolution.\nColin Birss is the Chancellor (Head of the Chancery Division) of the High Court of England and Wales.\nIn 2010 he became judge at the Patents County Court (now IPEC), in 2013 he went to the High Court, and in 2021 to the Court of Appeal.",
+  "labels": []
+},
+{
+  "id": "Investing through the AI revolution-BNZ Partners Centre WellingtonWellington, Wellington Region-Event Brite",
+  "name": "Investing through the AI revolution",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1187684694%252F323546313631%252F1%252Foriginal.20260626-013311%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D98f466f8538a113a846e34ecfcbbda66&w=1880&q=75",
+  "venue": "BNZ Partners Centre WellingtonWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-08-19-11:30"
+  ],
+  "displayDate": "Wed 19 Aug",
+  "url": "https://www.eventbrite.co.nz/e/investing-through-the-ai-revolution-tickets-1992605281035?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\n\nJoin RIVAL Wealth for a small, interactive session exploring the rise of AI and what it could mean for your investments.\nArtificial intelligence is changing how businesses operate, how markets move, and where capital is being invested, so what does that actually mean for your investments in practice?\nThis session steps away from the headlines and focuses on the practical side of investing in a world shaped by AI. Matt Logan, a Portfolio Manager at Fisher Funds, will walk through how AI is influencing portfolios today, and where we are seeing real impacts in markets and investment decisions. With almost 20 years' experience at Fisher Funds, Matt is a senior member of the investment team and brings extensive experience analysing markets, managing risk and identifying investment opportunities.\nHe will cover:\n\u2022 How AI is affecting global markets and investment returns\n\u2022 Where opportunities may sit, and where risks are building\n\u2022 How your KiwiSaver or investment portfolio may already have exposure\n\u2022 What a considered, long-term approach looks like in this environment\nThis is an opportunity to ask questions and understand how this fits into your wider financial plan, and what it may mean for your own situation.\nA light lunch and refreshments will be provided.\nYou are welcome to arrive from 11.30am for a coffee and a chat, with the presentation starting at 12.00pm. If you are joining us for your lunch break, feel free to arrive closer to the start time. We will be in the Te Papa Noho room at the BNZ Partners Centre, Wellington.\nWe are keeping this session small, so we recommend registering early to secure your place.\nParking is available at Stout Street, Wellington and Queens Warf Waterfront parking, both a short walk to the BNZ Partners Centre.\nRIVAL Wealth is a Financial Advice Provider (FAP) licenced by the Financial Markets Authority to provide financial advice. Our disclosure document is located at rivalwealth.co.nz or a written copy is available on request\nRead less",
+  "description": "Overview Join RIVAL Wealth for a small, interactive session exploring the rise of AI and what it could mean for your investments.\nMatt Logan, a Portfolio Manager at Fisher Funds, will walk through how AI is influencing portfolios today, and where we are seeing real impacts in markets and investment decisions.\nYou are welcome to arrive from 11.30am for a coffee and a chat, with the presentation starting at 12.00pm.\nIf you are joining us for your lunch break, feel free to arrive closer to the start time.\nWe will be in the Te Papa Noho room at the BNZ Partners Centre, Wellington.",
+  "labels": []
+},
+{
+  "id": "HealthX - Wellington (Nursing) - Employer Ticket - 9/2-WellingtonWellington, WGN-Event Brite",
+  "name": "HealthX - Wellington (Nursing) - Employer Ticket - 9/2",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F551014609%252F1641337666183%252F1%252Foriginal.20230708-143307%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D6b4830f77942db22dafd6315cdb04e5e&w=1880&q=75",
+  "venue": "WellingtonWellington, WGN",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-02-17:00"
+  ],
+  "displayDate": "Wed 02 Sep",
+  "url": "https://www.eventbrite.com/e/healthx-wellington-nursing-employer-ticket-92-tickets-1980601242633?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\nConnect with top nursing in Wellington\nThe Invite-Only Job Fair\n\nHealthX is a streamlined, high-touch hiring environment connecting leading healthcare organizations with the region\u2019s most sought-after talent.\nThis is not a standard career fair. It is a targeted sourcing event designed to bypass the inefficiencies of traditional healthcare recruiting. We focus exclusively on quality over quantity, ensuring you spend your time interviewing, not filtering.\nWe Recruit For You\nThe primary distinction of HealthX is our active sourcing model. We do not rely solely on open invitations; we build the candidate pool around the specific needs of the attending organizations.\nHow the \"Custom Sourcing\" Works:\nReserve Your Spot: Secure your organization's attendance.\nShare Your Needs: Submit your open requisitions\u2014whether for clinical staff, allied health, or administrative roles.\nWe Source: Upon your registration, our recruiting team launches a targeted campaign to identify and invite professionals who specifically match your credentialing and experience requirements.\nHealthcare Professionals of All Specializations\nWe cater to the full spectrum of the healthcare industry. Whether you are looking to fill high-volume clinical roles or specialized leadership positions, we source the talent you need each event highlights a specific fous.\n\nThe Format\nIn a competitive healthcare market, top talent is rarely active on public job boards. We provide access to a pre-vetted pool of professionals in a format designed for speed and impact.\nInvite-Only: Every attendee is reviewed to ensure they hold valid credentials and relevant experience.\nAccelerated Interviews: Our \"speed-dating\" format allows you to conduct intro interviews with dozens of qualified candidates in a single session\u2014volume that would typically require weeks of scheduling.\nActive Talent: Engage with 100+ motivated professionals who are actively seeking new opportunities.\n\nCandidates\nTo ensure you can maximize your time, we provide complete transparency regarding who is in the room. Participating employers receive:\nFull Candidate Roster: Names and background details provided in advance.\nProfessional Profiles: Direct links to LinkedIn or professional bios.\nCredentials: Visibility into licensure and work history.\nDirect Contact Info: Verified email addresses to facilitate immediate follow-up.\n\nSecure Your Spot\nPlease Note: To maintain a balanced candidate-to-employer ratio, participation is strictly limited.\n\nQuestions? Email hello@healthxevents.com\nRead less",
+  "description": "Overview Connect with top nursing in Wellington The Invite-Only Job Fair HealthX is a streamlined, high-touch hiring environment connecting leading healthcare organizations with the region\u2019s most sought-after talent.\nWe do not rely solely on open invitations; we build the candidate pool around the specific needs of the attending organizations.\nHealthcare Professionals of All Specializations We cater to the full spectrum of the healthcare industry.\nWe provide access to a pre-vetted pool of professionals in a format designed for speed and impact.\nInvite-Only: Every attendee is reviewed to ensure they hold valid credentials and relevant experience.",
+  "labels": []
+},
+{
+  "id": "RISE Fly Fishing Film Tour 2026 20th Anniversary - Wellington-Penthouse Cinema & CafeWellington, Wellington Region-Event Brite",
+  "name": "RISE Fly Fishing Film Tour 2026 20th Anniversary - Wellington",
+  "imageUrl": "https://www.eventbrite.com.au/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1172763562%252F214074833082%252F1%252Foriginal.20251211-135337%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D8ffcc5f202419e94a37577f07238c8ff&w=1880&q=75",
+  "venue": "Penthouse Cinema & CafeWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-03-19:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.eventbrite.com.au/e/rise-fly-fishing-film-tour-2026-20th-anniversary-wellington-tickets-1982475124464?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\nTHE WORLD\u2019S BIGGEST FLY FISHING FILM EVENT RETURNS\nRISE Fly Fishing Film Tour (F3T) is back in 2026 with a fresh lineup of the year\u2019s best fly fishing films \u2014 hand-picked from around the globe and brought to the big screen in cities, towns, and fishing communities across Australia and New Zealand.\nThis year\u2019s program delivers cinematic stories from salt to fresh, close to home and far off the map \u2014 all capturing the passion, places, and people that make fly fishing more than just a sport. You\u2019ll meet characters who fish hard, care deeply, and share their adventures with humour, honesty, and heart.\nAlongside the films, each event brings prize giveaways, local fly shop support, and a chance to catch up with your crew \u2014 or meet a few new ones. Whether you\u2019re a lifelong fly fisher or just starting out, F3T is a great night out with the community that lives and breathes the water.\nJoin us for the 20th season of fly fishing\u2019s most anticipated film event \u2014 now screening in over 14 countries, and still growing.\nTickets are on sale now at flyfilmtour.com.\n\nNO REFUNDS OUTSIDE OF ADVENTURE ENTERTAINMENT'S CONTROL\nRead less",
+  "description": "Overview\nRISE Fly Fishing Film Tour (F3T) is back in 2026 with a fresh lineup of the year\u2019s best fly fishing films \u2014 hand-picked from around the globe and brought to the big screen in cities, towns, and fishing communities across Australia and New Zealand.\nYou\u2019ll meet characters who fish hard, care deeply, and share their adventures with humour, honesty, and heart.\nAlongside the films, each event brings prize giveaways, local fly shop support, and a chance to catch up with your crew \u2014 or meet a few new ones.\nWhether you\u2019re a lifelong fly fisher or just starting out, F3T is a great night out with the community that lives and breathes the water.",
+  "labels": []
+},
+{
+  "id": "KAN Wellington PD Day-Silverstream RetreatLower Hutt, Wellington Region-Event Brite",
+  "name": "KAN Wellington PD Day",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1187210388%252F1649204843613%252F1%252Foriginal.20260618-164628%3Fw%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26s%3D6594f10a3540088d9e82f35baf6f224e&w=1880&q=75",
+  "venue": "Silverstream RetreatLower Hutt, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-02-09:30"
+  ],
+  "displayDate": "Wed 02 Sep",
+  "url": "https://www.eventbrite.com/e/kan-wellington-pd-day-tickets-1992149875906?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nJoin advisers and industry experts for lender, KiwiSaver, insurance, compliance and market updates, insights and networking.",
+  "description": "Overview Join advisers and industry experts for lender, KiwiSaver, insurance, compliance and market updates, insights and networking.",
+  "labels": []
+},
+{
+  "id": "Can Electricity Markets Deliver the Clean Energy Transition?-Russell McVeaghWellington, Wellington Region-Event Brite",
+  "name": "Can Electricity Markets Deliver the Clean Energy Transition?",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190508113%252F3002424753132%252F1%252Foriginal.20260806-235305%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.467%26fp-y%3D0.472%26s%3D2b302ddfae215f043943f545256b73c1&w=1880&q=75",
+  "venue": "Russell McVeaghWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-03-16:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.eventbrite.co.nz/e/can-electricity-markets-deliver-the-clean-energy-transition-tickets-1996905965498?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nA global perspective on investment, reliability, and the risks of getting it wrong.\nThree recent shocks to electricity markets - cheap renewables, declining storage costs, and the return of demand growth - have led some to conclude that electricity markets as we know them have run their course. Drawing on thirty years of restructured markets abroad, this presentation will argue that these developments actually strengthen the case for markets \u2014 and will explore what reliability means, and how it should be provided, in a greener electricity system.\nProfessor James Bushnell \u2013 Biography\nProfessor James Bushnell is a distinguished scholar whose research and policy contributions have helped shape modern understanding of electricity markets, energy regulation, and climate policy, making him one of the most influential voices in energy economics. He is an internationally recognised expert in energy economics, electricity markets, environmental policy, and industrial organisation.The event is being facilitated by ERGANZ and will be hosted at the Wellington offices of Russell McVeagh\nDate and Time: Thursday 3 September, 4pm - 6pm @Russell McVeagh, 157 Lambton Quay, please join us for a drink and nibbles from 4pm, presentation to start at 4:30pm with a Q&A to follow.\nPlease email admin@erganz.org.nz with any dietary requirements.\nRSVP: Registrations can be secured by clicking on \"Reserve a Spot\".\nRead less",
+  "description": "Overview A global perspective on investment, reliability, and the risks of getting it wrong.\nThree recent shocks to electricity markets - cheap renewables, declining storage costs, and the return of demand growth - have led some to conclude that electricity markets as we know them have run their course.\nDrawing on thirty years of restructured markets abroad, this presentation will argue that these developments actually strengthen the case for markets \u2014 and will explore what reliability means, and how it should be provided, in a greener electricity system.\nProfessor James Bushnell \u2013 Biography Professor James Bushnell is a distinguished scholar whose research and policy contributions have helped shape modern understanding of electricity markets, energy regulation, and climate policy, making him one of the most influential voices in energy economics.\nHe is an internationally recognised expert in energy economics, electricity markets, environmental policy, and industrial organisation.The event is being facilitated by ERGANZ and will be hosted at the Wellington offices of Russell McVeagh Date and Time: Thursday 3 September, 4pm - 6pm @Russell McVeagh, 157 Lambton Quay, please join us for a drink and nibbles from 4pm, presentation to start at 4:30pm with a Q&A to follow.",
+  "labels": []
+},
+{
+  "id": "Kids Foundation Razzamatazz Show featuring the Mulletman - Wellington-Wellington East Girls' CollegeWellington, Wellington Region-Event Brite",
+  "name": "Kids Foundation Razzamatazz Show featuring the Mulletman - Wellington",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190427800%252F3010074604857%252F1%252Foriginal.20260806-014810%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D526fbbf44db3b5d511b10a8946750c12&w=1880&q=75",
+  "venue": "Wellington East Girls' CollegeWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-05-12:00"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.eventbrite.com/e/kids-foundation-razzamatazz-show-featuring-the-mulletman-wellington-tickets-1996919710610?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\nRazzamatazz is a high-energy family comedy show in celebration of one of history's most iconic hairstyles - Mulletman!\nTWO FUN PACKED SHOWS - 12PM & 3PM\nSelect time from Check Availability and get your FREE tickets now!\n\nGet ready for a laugh-out-loud, high-energy comedy show packed with incredible juggling, great music, cheeky comedy, audience participation, and the legendary magic of the mullet!\nBrave volunteers will join the fun as Mulletman creates unforgettable moments filled with laughter and surprises.\nA joyful, family-friendly show that's guaranteed to have kids and grown-ups smiling from start to finish!\nThanks to the amazing generosity of local businesses, we\u2019re able to gift complimentary tickets so less fortunate children and their families can enjoy all the fun\n\u2013 Absolutely Free!\nRead less",
+  "description": "Overview Razzamatazz is a high-energy family comedy show in celebration of one of history's most iconic hairstyles - Mulletman!\nSelect time from Check Availability and get your FREE tickets now!\nGet ready for a laugh-out-loud, high-energy comedy show packed with incredible juggling, great music, cheeky comedy, audience participation, and the legendary magic of the mullet!\nBrave volunteers will join the fun as Mulletman creates unforgettable moments filled with laughter and surprises.\nA joyful, family-friendly show that's guaranteed to have kids and grown-ups smiling from start to finish!",
+  "labels": []
+},
+{
+  "id": "State-Market Tensions & Geopolitical Rivalry in the Semiconductor Industry-HMLT002 Hugh Mackenzie BuildingWellington, Wellington Region-Event Brite",
+  "name": "State-Market Tensions & Geopolitical Rivalry in the Semiconductor Industry",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190170565%252F2834126008231%252F1%252Foriginal.20260803-043901%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3De0eaa790cacbbb085739939213303743&w=1880&q=75",
+  "venue": "HMLT002 Hugh Mackenzie BuildingWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-09-03-16:30"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.eventbrite.com/e/state-market-tensions-geopolitical-rivalry-in-the-semiconductor-industry-tickets-1996427108223?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nWhy are semiconductors central to global power? This keynote explores state-market tensions, supply chains, and geopolitical rivalry.\nUsing the global semiconductor industry as a case study, this lecture explores \u2018decoupling\u2019 amidst the complex web of state-market relations.\nMost studies of decoupling focus on the United States and China. In contrast, I focus on the relationship between the United States and the full range of key semiconductor producers (Taiwan, South Korea, Japan, and China). I ask when, and how, states intervene in semiconductor markets and propose that while the main actors in the semiconductor supply chain are not hegemonic powers, their high production capacities mean that their power is \u2018pivotal\u2019.\nI argue that while technology production chains reflect the conflicting interests of states, because production chains also embody key shared interests, states cannot completely \u2018decouple\u2019 from one another. Meanwhile, key stakeholders are not always states, but also private companies and skilled workers. These actors have their own interests as well, meaning that production chains become further intertwined, rendering true decoupling impossible. Their resistance to decoupling means that this \u2018stickiness\u2019 will be a feature of any state-led attempt to forge supply chain independence.\nRead less",
+  "description": "This keynote explores state-market tensions, supply chains, and geopolitical rivalry.\nIn contrast, I focus on the relationship between the United States and the full range of key semiconductor producers (Taiwan, South Korea, Japan, and China).\nI ask when, and how, states intervene in semiconductor markets and propose that while the main actors in the semiconductor supply chain are not hegemonic powers, their high production capacities mean that their power is \u2018pivotal\u2019.\nI argue that while technology production chains reflect the conflicting interests of states, because production chains also embody key shared interests, states cannot completely \u2018decouple\u2019 from one another.\nTheir resistance to decoupling means that this \u2018stickiness\u2019 will be a feature of any state-led attempt to forge supply chain independence.",
+  "labels": []
+},
+{
+  "id": "A Quietly Remarkable Life: An Evening With Robbie Burton-Project 100Nelson, Nelson Region-Event Brite",
+  "name": "A Quietly Remarkable Life: An Evening With Robbie Burton",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1187808006%252F1541284311233%252F1%252Foriginal.20260628-215441%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dafe32d1f2e2200e3b1875968eec24ae6&w=1880&q=75",
+  "venue": "Project 100Nelson, Nelson Region",
+  "coordinates": {
+    "lat": 43.3758989,
+    "long": -79.8352337
+  },
+  "dates": [
+    "2026-09-05-18:00"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.eventbrite.co.nz/e/a-quietly-remarkable-life-an-evening-with-robbie-burton-tickets-1992405867584?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nA relaxed evening with a legend in New Zealand publishing who'll be talking about life, career and the challenges of writing autobiography.\nCome listen to the wonderful Robbie Burton, co-owner of Potton & Burton, one of New Zealand's biggest independent publishers, in a conversation about memoir writing and leaving a legacy to be proud of.\n\nFor all other Beautiful Words events, go to www.beautifulwords.net",
+  "description": "Overview A relaxed evening with a legend in New Zealand publishing who'll be talking about life, career and the challenges of writing autobiography.\nCome listen to the wonderful Robbie Burton, co-owner of Potton & Burton, one of New Zealand's biggest independent publishers, in a conversation about memoir writing and leaving a legacy to be proud of.\nFor all other Beautiful Words events, go to www.beautifulwords.net",
+  "labels": []
+},
+{
+  "id": "Comedy Night with Chris Lippiatt-Fidelio Cafe, Wine Bar and Wine ShopBlenheim, Marlborough Region-Event Brite",
+  "name": "Comedy Night with Chris Lippiatt",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190079939%252F2999763218901%252F1%252Foriginal.20260801-030257%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.495%26fp-y%3D0.316%26s%3Dc100ea8749414fcbbf7f57c6951f3c58&w=1880&q=75",
+  "venue": "Fidelio Cafe, Wine Bar and Wine ShopBlenheim, Marlborough Region",
+  "coordinates": {
+    "lat": -34.0974123,
+    "long": -59.0224928
+  },
+  "dates": [
+    "2026-08-27-18:00"
+  ],
+  "displayDate": "Thu 27 Aug",
+  "url": "https://www.eventbrite.co.nz/e/comedy-night-with-chris-lippiatt-tickets-1996319798256?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\nGet ready for an evening of big laughs, great wine, and good company as comedian Chris Lippiatt takes the stage at Fidelio\nComedy Night with Chris Lippiatt\nGet ready for an evening of big laughs, great wine, and good company as comedian Chris Lippiatt takes the stage at Fidelio. Expect sharp wit, hilarious stories, and 50 minutes of non-stop entertainment\u2014all paired with your favourite wines and tapas.\nBook your seats now\u2014it's a night you won't want to miss!\nRead less",
+  "description": "Overview Get ready for an evening of big laughs, great wine, and good company as comedian Chris Lippiatt takes the stage at Fidelio Comedy Night with Chris Lippiatt Get ready for an evening of big laughs, great wine, and good company as comedian Chris Lippiatt takes the stage at Fidelio.\nExpect sharp wit, hilarious stories, and 50 minutes of non-stop entertainment\u2014all paired with your favourite wines and tapas.\nBook your seats now\u2014it's a night you won't want to miss!\nRead less",
+  "labels": []
+},
+{
+  "id": "Capital Connection: An hour with the Prime Minister-Banquet Hall, New Zealand Parliament BuildingsWellington, Wellington-Event Brite",
+  "name": "Capital Connection: An hour with the Prime Minister",
+  "imageUrl": "https://www.eventbrite.co.nz/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190167961%252F3005568361424%252F1%252Foriginal.20260803-032924%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Df236beb1a0eca0b2787a3f8d8aa21969&w=1880&q=75",
+  "venue": "Banquet Hall, New Zealand Parliament BuildingsWellington, Wellington",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-02-07:00"
+  ],
+  "displayDate": "Wed 02 Sep",
+  "url": "https://www.eventbrite.co.nz/e/capital-connection-an-hour-with-the-prime-minister-tickets-1996425325892?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\nWellington Chamber of Commerce and Pax8 are proud to host the Prime Minister, Christopher Luxon.\nJoin Business Central and the Wellington Chamber of Commerce for an exclusive breakfast event featuring Prime Minister Rt Hon Christopher Luxon in conversation with Hayley Horan, Chief Executive of Business Central.\nSet within the iconic Banquet Hall at Parliament, this special event offers members and the wider business community a rare opportunity to hear directly from New Zealand's leader in a professionally moderated fireside chat.\nUnlike a traditional keynote speech, this event has been designed as a genuine conversation. The discussion will be informed by the experiences, perspectives, and questions submitted by Business Central and Wellington Chamber members, helping to ensure the topics explored reflect the realities, opportunities, and challenges facing our business community today.\nDesigned to be engaging, insightful, and business-focused, the discussion will explore the opportunities and challenges shaping New Zealand's future. From economic growth, productivity, trade, infrastructure, workforce development and artificial intelligence, through to geopolitics and New Zealand's long-term competitiveness, the conversation will focus on the issues that matter most to businesses across our region.\nFollowing the fireside chat, attendees will have the opportunity to participate in a live audience Q&A, providing further engagement with the Prime Minister and valuable insight into the Government's priorities and vision for New Zealand.\nYour Ticket Includes:\nShared breakfast at a round table with fellow business leaders\nExclusive access to a one-hour conversation with the Prime Minister\nOpportunity to submit questions that may shape the discussion\nLive audience Q&A\nNetworking with business, government, and community leaders before and after the event\nAgenda:\n7.00 am - Guest arrival & networking\n7.20 am - Guests seated for breakfast buffet\n7.45 am - Prime Minister to speak\n8.05 am - Q&A with audience\n8.30 am - Closing formalities\n\nWhy Attend?\nWhether you're a business owner, executive, manager, entrepreneur, policy professional, or emerging leader, this event offers a rare opportunity to gain direct insight into the issues shaping New Zealand's future while connecting with some of the region's most engaged and influential business people.\nBring your questions. Share your perspective. Help shape the conversation.\nSpaces are limited and demand is expected to be high. Register early to secure your place and ensure your voice is part of the discussion.\n\nRead less",
+  "description": "Join Business Central and the Wellington Chamber of Commerce for an exclusive breakfast event featuring Prime Minister Rt Hon Christopher Luxon in conversation with Hayley Horan, Chief Executive of Business Central.\nSet within the iconic Banquet Hall at Parliament, this special event offers members and the wider business community a rare opportunity to hear directly from New Zealand's leader in a professionally moderated fireside chat.\nWhether you're a business owner, executive, manager, entrepreneur, policy professional, or emerging leader, this event offers a rare opportunity to gain direct insight into the issues shaping New Zealand's future while connecting with some of the region's most engaged and influential business people.\nBring your questions.\nShare your perspective.",
+  "labels": []
+},
+{
+  "id": "Just A Drink Speed Dating (Age Range Mid-20s \u2013 Mid-30s)-Waitoa Victoria StWellington, Wellington Region-Event Brite",
+  "name": "Just A Drink Speed Dating (Age Range Mid-20s \u2013 Mid-30s)",
+  "imageUrl": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1190431487%252F2995373763300%252F1%252Foriginal.20260806-030803%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D1880%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D80d8f640f42eaf43dea39c0ac9d879c1&w=1880&q=75",
+  "venue": "Waitoa Victoria StWellington, Wellington Region",
+  "coordinates": {
+    "lat": -41.2235474,
+    "long": 175.4157576
+  },
+  "dates": [
+    "2026-08-29-18:00"
+  ],
+  "displayDate": "Sat 29 Aug",
+  "url": "https://www.eventbrite.com/e/just-a-drink-speed-dating-age-range-mid-20s-mid-30s-tickets-1996920532067?aff=ebdssbdestsearch",
+  "source": "Event Brite",
+  "eventType": "Business & Networking",
+  "long_description": "Overview\n\n\n\n\n\n\n\n\nApps are shit. This is less shit. Everyone comes with a single friend they think is worth meeting. 6-10 dates. ~5 mins each. Drink included.\n\nJust A Drink Speed Dating\nWe put on events so that the single people worth meeting can meet each other without having to open an app.\n\nHow This Event Works\nThis event works by asking everyone to come in pairs. We do this for two key reasons:\nYou\u2019ve both got someone to go with. Good company is guaranteed and moral support is built-in.\nIf someone has been brought along by a friend, they\u2019re probably all good. We love that everyone at our events is someone another person there can vouch for.\n\nWhat We're Trying To Help With\nIt's hard for the single people worth meeting to find each other.\nOut and about, you can\u2019t always tell who\u2019s single.\nThe apps have helped \u2013 you\u2019ve probably met some good people through them \u2013 but it can still be hard to tell who\u2019s actually worth leaving the house for.\nSo, here\u2019s another way to meet people.\nCome along. It\u2019s just a drink.\nRead less",
+  "description": "This is less shit.\nEveryone comes with a single friend they think is worth meeting.\nJust A Drink Speed Dating We put on events so that the single people worth meeting can meet each other without having to open an app.\nWhat We're Trying To Help With It's hard for the single people worth meeting to find each other.\nThe apps have helped \u2013 you\u2019ve probably met some good people through them \u2013 but it can still be hard to tell who\u2019s actually worth leaving the house for.",
   "labels": []
 },
 ]
