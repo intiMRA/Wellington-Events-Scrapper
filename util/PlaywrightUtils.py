@@ -2,7 +2,7 @@ import random
 import re
 from pathlib import Path
 
-from playwright.sync_api import Browser, BrowserContext, Page, Playwright, Error as PlaywrightError
+from playwright.sync_api import Browser, BrowserContext, Page, Playwright, Error as PlaywrightError, Locator
 
 from util.Logger import Logger
 
@@ -122,7 +122,8 @@ def stealth_page(context: BrowserContext) -> Page:
     return context.pages[0] if context.pages else context.new_page()
 
 
-def wait_for_items(locator: Locator, timeout_ms: int = 10000) -> int:
+def wait_for_items(locator:
+Locator, timeout_ms: int = 10000) -> int:
     # Wait (event-driven, up to timeout) for at least one match to attach, so a lazily-rendered
     # listing isn't read with `.all()` before it has populated (which silently skips events).
     # Non-throwing: returns the final match count (0 if none appeared within the timeout).

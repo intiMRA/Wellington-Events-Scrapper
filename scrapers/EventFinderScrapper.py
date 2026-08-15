@@ -51,7 +51,6 @@ class EventFinderScrapper:
     @staticmethod
     def get_event(url: str, category: Optional[str], page: Page) -> Optional[EventInfo]:
         if page.get_by_text("HTTP").count():
-            sleep(60 * 20)
             goto_with_retry(page, url)
         sleep(random.uniform(1, 2))
         goto_with_retry(page, url)

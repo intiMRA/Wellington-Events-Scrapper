@@ -1,42 +1,194 @@
 [
 {
-  "id": "Chamber Music New Zealand \u2014 The John Psathas Group-Michael Fowler Centre, Wellington, New Zealand-Wellington NZ",
-  "name": "Chamber Music New Zealand \u2014 The John Psathas Group",
-  "imageUrl": "https://wellingtonnz.bynder.com/transform/17bed606-6a86-44cc-8154-f96093b6852d/Chamber-Music-NZ-1?quality=80&io=transform:fill,width:576,height:450",
-  "venue": "Michael Fowler Centre, Wellington, New Zealand",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2026-08-09-01:01"
-  ],
-  "displayDate": "Sun 09 Aug",
-  "url": "https://www.wellingtonnz.com/visit/events/chamber-music-new-zealand-the-john-psathas-group",
-  "source": "Wellington NZ",
-  "eventType": "Music & Concerts",
-  "long_description": "New Zealand/Greek composer John Psathas has reached a level of global success unparalleled by any other Kiwi composer. He regularly collaborates with musicians at the top of their game. Chamber Music New Zealand is proud to help John usher in a new supergroup of international artists devoted to bringing his music to life. The John Psathas Group performs for the first time at the Michael Fowler Centre on 9 August. It presents a programme that shapes a vision for the future of chamber music, one that is compelling, thought-provoking, and incorporates contemporary ideas, issues, and technologies. \nSays John of the concert \u2014 \u201cEach of the works tells some part of the story of our shared humanity. Relentless projects text about the experience of women through the ages, and The Nature of Reality pools together the words of writers currently at the forefront of describing how the social fabric of today\u2019s world is being reinvented around us.\u201d",
-  "description": "New Zealand/Greek composer John Psathas has reached a level of global success unparalleled by any other Kiwi composer.\nHe regularly collaborates with musicians at the top of their game.\nChamber Music New Zealand is proud to help John usher in a new supergroup of international artists devoted to bringing his music to life.\nThe John Psathas Group performs for the first time at the Michael Fowler Centre on 9 August.\nIt presents a programme that shapes a vision for the future of chamber music, one that is compelling, thought-provoking, and incorporates contemporary ideas, issues, and technologies.",
-  "labels": []
-},
-{
-  "id": "High Tide Festival 2026--Wellington NZ",
-  "name": "High Tide Festival 2026",
-  "imageUrl": "https://wellingtonnz.bynder.com/transform/b45ee606-5dda-4aa8-8a83-3465c78afb6f/WNZ-High-Tide-Festival-Highlights-2025-17?quality=80&io=transform:fill,width:576,height:450",
+  "id": "TAHI: New Zealand Festival of Solo Performance--Wellington NZ",
+  "name": "TAHI: New Zealand Festival of Solo Performance",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/2bb565be-7945-4b64-9bb3-57dd9de05bfd/TAHI-Festival-OF-Solo-Performance?quality=80&io=transform:fill,width:576,height:450",
   "venue": "",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-11-07-01:01"
+    "2026-09-09-01:01",
+    "2026-09-10-01:01",
+    "2026-09-11-01:01",
+    "2026-09-12-01:01",
+    "2026-09-13-01:01",
+    "2026-09-14-01:01",
+    "2026-09-15-01:01",
+    "2026-09-16-01:01",
+    "2026-09-17-01:01",
+    "2026-09-18-01:01",
+    "2026-09-19-01:01"
   ],
-  "displayDate": "Sat 07 Nov",
-  "url": "https://www.wellingtonnz.com/visit/events/high-tide-festival-2026",
+  "displayDate": "Wed 09 Sep + more",
+  "url": "https://www.wellingtonnz.com/visit/events/tahi-new-zealand-festival-of-solo-performance",
+  "source": "Wellington NZ",
+  "eventType": "Arts & Theatre",
+  "long_description": "Comedy, cabaret, poetry, family-friendly acts, and world premieres are all on the radar for this theatrical event. The annual TAHI NZ Festival of Solo Performance provides a stage for more than 25 actors, celebrating emerging artists to experienced professionals. Storylines vary from rugby to the manosphere to an improvised nature documentary. Laughing and crying are both considered acceptable responses.\n\nTahi in Te Reo M\u0101ori translates to \u2018one\u2019, but another translation for this word is \u2019unity\u2019. Dr. Sally Richards, director of TAHI, chose the name because of this duality. Solo theatre requires both personal courage and creative collaboration. As Sally says, \u201cI see the stage manager, broom in hand, sweep before and after a performance. It reminds me that the solo performer is a misnomer \u2014 that solo performance relies on successful collaboration with others.\u201d\n\nDiscover the brilliance of solo theatre at TAHI this September.",
+  "description": "Comedy, cabaret, poetry, family-friendly acts, and world premieres are all on the radar for this theatrical event.\nStorylines vary from rugby to the manosphere to an improvised nature documentary.\nTahi in Te Reo M\u0101ori translates to \u2018one\u2019, but another translation for this word is \u2019unity\u2019.\nSolo theatre requires both personal courage and creative collaboration.\nIt reminds me that the solo performer is a misnomer \u2014 that solo performance relies on successful collaboration with others.\u201d Discover the brilliance of solo theatre at TAHI this September.",
+  "labels": []
+},
+{
+  "id": "Wellington Home & Garden Show-Hnry Stadium, Wellington, New Zealand-Wellington NZ",
+  "name": "Wellington Home & Garden Show",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/06c8ba26-555b-4b94-94f2-be1f91e5de3b/Wellington-Home-and-Garden-Show-2026-3?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "Hnry Stadium, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2730528,
+    "long": 174.7858728
+  },
+  "dates": [
+    "2026-09-04-01:01",
+    "2026-09-05-01:01",
+    "2026-09-06-01:01"
+  ],
+  "displayDate": "Fri 04 Sep + more",
+  "url": "https://www.wellingtonnz.com/visit/events/home-and-garden-show",
+  "source": "Wellington NZ",
+  "eventType": "Arts & Theatre",
+  "long_description": "Spring into your house projects with fresh advice from the best in the business at the Wellington Home & Garden Show. Bring your ideas to Hnry Stadium and get inspired to put them into action. Wherever you are in your home improvement journey, there's something for you. Explore kitchens, energy-saving solutions, renovating, landscaping, homewares, and more. Artisan goods, and health and well-being products are also on show. Take your time browsing the stalls, then attend an informative \u2018Ask an Expert\u2019 session. Legendary Newstalk ZB resident builder Peter Wolflkamp will make an appearance as well.\u00a0 \u00a0\n\nIf you need a brain break, go paint a pot with the team at Resene, or grab a coffee and bite to eat. Bringing the kids? No worries. There are family-friendly activities provided in the Springfree Family Zone. The show will also feature exclusive specials and giveaways, and one major prize.\u00a0",
+  "description": "Bring your ideas to Hnry Stadium and get inspired to put them into action.\nWherever you are in your home improvement journey, there's something for you.\nExplore kitchens, energy-saving solutions, renovating, landscaping, homewares, and more.\nArtisan goods, and health and well-being products are also on show.\nTake your time browsing the stalls, then attend an informative \u2018Ask an Expert\u2019 session.",
+  "labels": []
+},
+{
+  "id": "Set Fire to the Brass-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "Set Fire to the Brass",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/5e3a795b-df61-446d-b5bd-feaa46e9c8a1/Set-Fire-to-the-Brass?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2026-10-15-01:01",
+    "2026-10-16-01:01"
+  ],
+  "displayDate": "Thu 15 Oct + more",
+  "url": "https://www.wellingtonnz.com/visit/events/set-fire-to-the-brass",
   "source": "Wellington NZ",
   "eventType": "Music & Concerts",
-  "long_description": "High Tide is back and bigger than ever. Waitangi Park on the Wellington waterfront will again host the multi-genre music festival. With drum & bass, house, grime, and hip-hop on the music menu there should be something for anyone looking for a party atmosphere.\nSince 2022 Hide Tide has brought a wide range of international, New Zealand, and local music talent to Wellington. \nThere are some big names announced for the 2026 installment including New Zealand exclusive shows from MK and Ocean Wisdom. Other world-class acts include Hybrid Minds, MK, Wax Motif, P- Money x Whiney, Fred V, and Charlotte Haining. Some major names in the Kiwi scene are also performing like Cee, Ponz Seini, Bari & Lambchompz, and Rob the Bank. Check out the complete list on the High Tide webpage.\nHigh Tide is all about creating a safe space to celebrate music, culture and connection. The event promotes inclusion and diversity, offering a safe and accessible festival experience.\nIt's a great way to celebrate an early summer in style. The R18 event kicks off at 12.30pm and the beats don\u2019t stop until 10.30pm. If you\u2019re looking to dance and party under the sun and stars then High Tide 2026 is for you.\nPresale\nGeneral sale for High Tide is Wednesday 12 August at 7:00pm. There is an exclusive pre-sale an hour earlier for those who sign up now. Get in and beat the crowd.",
-  "description": "High Tide is back and bigger than ever.\nWaitangi Park on the Wellington waterfront will again host the multi-genre music festival.\nWith drum & bass, house, grime, and hip-hop on the music menu there should be something for anyone looking for a party atmosphere.\nThere are some big names announced for the 2026 installment including New Zealand exclusive shows from MK and Ocean Wisdom.\nHigh Tide is all about creating a safe space to celebrate music, culture and connection.",
+  "long_description": "Expect familiar melodies, unexpected turns, and a celebration of jazz. For two nights only, Set Fire to the Brass brings a two-part show to The Opera House. First on stage, say \u2018Hello\u2019 to Kiwi vocalist Joanna Darling. She gives English singer-songwriter Adele\u2019s songs a lush, jazz-infused edge. She\u2019ll give full-hearted renditions of hits like Rolling in the Deep and Skyfall. Members of the Rodger Fox Big Band and local musicians lead the second half with improv solos and classic jazz standards.\u00a0\n\nJoanna has performed in musicals, cabarets, and as a soloist on international cruise lines. She combines a powerful vocal belt with piano and guitar. The Rodger Fox Big Band has played at prestigious jazz festivals and won six Tui Awards for the best New Zealand jazz recording. Together, they deliver the emotional depth of Adele\u2019s lyrics with the warmth of live jazz.",
+  "description": "Expect familiar melodies, unexpected turns, and a celebration of jazz.\nFirst on stage, say \u2018Hello\u2019 to Kiwi vocalist Joanna Darling.\nShe\u2019ll give full-hearted renditions of hits like Rolling in the Deep and Skyfall.\nMembers of the Rodger Fox Big Band and local musicians lead the second half with improv solos and classic jazz standards.\nTogether, they deliver the emotional depth of Adele\u2019s lyrics with the warmth of live jazz.",
+  "labels": []
+},
+{
+  "id": "Ford National Hockey Championship 2026-National Hockey Stadium Wellington-Wellington NZ",
+  "name": "Ford National Hockey Championship 2026",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/c87a8e5e-b4a3-41b2-9b7c-64ef37445faf/National-Hockey-Championship-2026-1?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "National Hockey Stadium Wellington",
+  "coordinates": {
+    "lat": -41.325922,
+    "long": 174.7815005
+  },
+  "dates": [
+    "2026-09-13-01:01",
+    "2026-09-14-01:01",
+    "2026-09-15-01:01",
+    "2026-09-16-01:01",
+    "2026-09-17-01:01",
+    "2026-09-18-01:01",
+    "2026-09-19-01:01"
+  ],
+  "displayDate": "Sun 13 Sep + more",
+  "url": "https://www.wellingtonnz.com/visit/events/ford-national-hockey-championship-2026",
+  "source": "Wellington NZ",
+  "eventType": "Sports & Fitness",
+  "long_description": "For seven days, men\u2019s and women\u2019s hockey teams from across Aotearoa head to Wellington for a major competition. The outdoor pitches of the National Hockey Stadium will welcome dozens of teams in the Ford National Hockey Championship 2026. They compete across three tiers in the hope of impressing selectors ahead of the Premier Hockey League. Current and former Black Sticks play alongside emerging talent. Expect mouthguards, shin guards, and heated rivalries. Competition gets fierce when regional bragging rights are on the line.\u00a0",
+  "description": "For seven days, men\u2019s and women\u2019s hockey teams from across Aotearoa head to Wellington for a major competition.\nThe outdoor pitches of the National Hockey Stadium will welcome dozens of teams in the Ford National Hockey Championship 2026.\nThey compete across three tiers in the hope of impressing selectors ahead of the Premier Hockey League.\nCurrent and former Black Sticks play alongside emerging talent.\nExpect mouthguards, shin guards, and heated rivalries.",
+  "labels": []
+},
+{
+  "id": "Great Sounds Great-Various venues, Wellington, New Zealand-Wellington NZ",
+  "name": "Great Sounds Great",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/85b9b0c1-1aa3-48f0-83db-13a178ccce34/Great-Sounds-Great?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "Various venues, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-05-01:01"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.wellingtonnz.com/visit/events/great-sounds-great",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "One ticket gets you access to ten venues and 40 artists. Great Sounds Great is back and it\u2019s out to celebrate the alternative music community with the biggest party in P\u014dneke. The music and art festival will please everyone, from novice gig-goers to devoted music lovers. National treasure Bic Runga leads the lineup, joined by crowd favourite Savage, heavy hitters Beastwars, electro-pop Silicon, and M\u0101ori bass artist Mokotron. Artists will play iconic Wellington venues including Meow Nui, San Fran and Valhalla. Between sets, catch local poets spinning yarns.\u00a0\n\nEyegum Music Collective are the crew behind the festival. Established in 2021, Great Sounds Great is their flagship event and has grown in popularity every year. Looking for a warm-up? Eyegum created a mini festival named The Night Before. On 4 September 12 artists take over Newtown music venues before the action moves to Great Sounds Great in the city the following night.",
+  "description": "One ticket gets you access to ten venues and 40 artists.\nNational treasure Bic Runga leads the lineup, joined by crowd favourite Savage, heavy hitters Beastwars, electro-pop Silicon, and M\u0101ori bass artist Mokotron.\nEyegum Music Collective are the crew behind the festival.\nEyegum created a mini festival named The Night Before.\nOn 4 September 12 artists take over Newtown music venues before the action moves to Great Sounds Great in the city the following night.",
+  "labels": []
+},
+{
+  "id": "Visa Wellington On a Plate--Wellington NZ",
+  "name": "Visa Wellington On a Plate",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/d8c238b2-2f9d-4e60-8aa9-556da7b555c9/Visa-Wellington-On-a-Plate-2026-24?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-08-17-01:34",
+    "2026-08-18-01:34",
+    "2026-08-19-01:34",
+    "2026-08-20-01:34",
+    "2026-08-21-01:34",
+    "2026-08-22-01:34",
+    "2026-08-23-01:34",
+    "2026-08-24-01:34",
+    "2026-08-25-01:34",
+    "2026-08-26-01:34",
+    "2026-08-27-01:34",
+    "2026-08-28-01:34",
+    "2026-08-29-01:34",
+    "2026-08-30-01:34"
+  ],
+  "displayDate": "Mon 17 Aug + more",
+  "url": "https://www.wellingtonnz.com/visit/events/visa-wellington-on-a-plate",
+  "source": "Wellington NZ",
+  "eventType": "Festivals",
+  "long_description": "Visa Wellington On a Plate (Visa WOAP) takes over the city for the whole of August. Venues across the wider Wellington region also serve up a packed programme of food experiences. From immersive events and pop-up restaurants to the ever-popular Burger Wellington, there is plenty to explore.",
+  "description": "Visa Wellington On a Plate (Visa WOAP) takes over the city for the whole of August.\nVenues across the wider Wellington region also serve up a packed programme of food experiences.\nFrom immersive events and pop-up restaurants to the ever-popular Burger Wellington, there is plenty to explore.",
+  "labels": []
+},
+{
+  "id": "Kevin Bridges \u2014 Here If You Need Me-Michael Fowler Centre, Wellington, New Zealand-Wellington NZ",
+  "name": "Kevin Bridges \u2014 Here If You Need Me",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/12720107-ee95-4968-9735-8f07000f316d/Kevin-Bridges-1?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "Michael Fowler Centre, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2895258,
+    "long": 174.7780167
+  },
+  "dates": [
+    "2027-03-07-01:01"
+  ],
+  "displayDate": "Sun 07 Mar",
+  "url": "https://www.wellingtonnz.com/visit/events/kevin-bridges-here-if-you-need-me",
+  "source": "Wellington NZ",
+  "eventType": "Arts & Theatre",
+  "long_description": "Punchy delivery and sharp social commentary are on the cards when Kevin Bridges heads to Wellington. His stand-up show \u2018Here If You Need Me\u2019 will have the audience at the Michael Fowler Centre laughing heartily. Kevin\u2019s observational comedy has drawn more than two million fans across the globe. He\u2019s built this through multiple live tours, plus radio and television appearances.\n\nKevin started performing in Glasgow after leaving school at 17. He made his TV debut at 18 at the Edinburgh Fringe. Since then, his tours have earned him Ents24 Fastest Selling Ticket of the Year and Ticketmaster\u2019s UK Ticket of the Year. If you are a follower of UK television comedy you might have seen Kevin on \u2018Live at the Apollo\u2019, \u20188 Out of 10 Cats\u2019, or \u2018Mock the Week\u2019. The Scotsman is flying over, and this is one comedian you\u2019ll want to move fast for.",
+  "description": "Punchy delivery and sharp social commentary are on the cards when Kevin Bridges heads to Wellington.\nKevin\u2019s observational comedy has drawn more than two million fans across the globe.\nHe\u2019s built this through multiple live tours, plus radio and television appearances.\nKevin started performing in Glasgow after leaving school at 17.\nIf you are a follower of UK television comedy you might have seen Kevin on \u2018Live at the Apollo\u2019, \u20188 Out of 10 Cats\u2019, or \u2018Mock the Week\u2019.",
+  "labels": []
+},
+{
+  "id": "Lee Harris: The Oneness Experience-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "Lee Harris: The Oneness Experience",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/f078ae55-4329-47d5-9925-acead72d7263/Lee-Harris-The-Oneness-Experience?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2027-03-09-01:01"
+  ],
+  "displayDate": "Tue 09 Mar",
+  "url": "https://www.wellingtonnz.com/visit/events/lee-harris-the-oneness-experience",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "Follow your curiosity about the spiritual realm with the help of intuitive teacher and musician Lee Harris. For The Oneness Experience Lee is joined on stage by multi-instrumentalist Davor Bozic. Together they create a show that is part concert, part guided meditation, part unscripted spiritual teaching. Leave feeling lighter, wiser, and with the tools to navigate a changing world.\u00a0\n\nLee has spent more than 20 years working with people around the globe with his monthly Energy Update videos on YouTube reach millions. His approach is warm, practical, and funny (in a way you might not expect from a spiritual event). Every show can take up to three hours and each is different. Lee reads the energy of the room and Davor responds musically, so no two nights follow the same path.",
+  "description": "Follow your curiosity about the spiritual realm with the help of intuitive teacher and musician Lee Harris.\nFor The Oneness Experience Lee is joined on stage by multi-instrumentalist Davor Bozic.\nTogether they create a show that is part concert, part guided meditation, part unscripted spiritual teaching.\nLeave feeling lighter, wiser, and with the tools to navigate a changing world.\nLee has spent more than 20 years working with people around the globe with his monthly Energy Update videos on YouTube reach millions.",
   "labels": []
 },
 ]

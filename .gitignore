@@ -29,3 +29,18 @@ dist/
 
 # working logs
 data/logs/*.txt
+Variations
+SingletonSocket
+SingletonLock
+SingletonCookie
+RunningChromeVersion
+Local State
+Last Version
+*.db
+*.db.*
+*.db*
+ChromeFeatureState
+*GraphiteDawnCache*
+segmentation_platform/*
+ShaderCache/*
+GrShaderCache/*

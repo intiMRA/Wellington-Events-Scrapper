@@ -203,7 +203,7 @@
       "id": "UEUIXTXKT2-oa6Tk-HfeTg",
       "name": "Al Caprawn",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/20260610_142046-260610-130417.jpg",
-      "description": "Beef patty, with pickled onion, pickled ginger, rocket, nori, togarashi spice, kewpie and seaweed butter, and prawn mayonnaise in a Brezelmania brioche bun, with potato fries.",
+      "description": "Beef and prawn patty, with pink onion, pickled ginger, rocket, and togarashi spice prawn mayonnaise and nori infused Kewpie in a Brezelmania bun with fries.",
       "price": 31.0,
       "beerMatchPrice": 42.0,
       "mealAvailable": "Lunch and Dinner",
@@ -377,7 +377,7 @@
     {
       "id": "IhAZEZlrRZu7T7tjSSsv0w",
       "name": "Best Kept Secret",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP-2026---Co-op-260520-070711.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Whitby-Co-Op-Burger-260803-131145.jpg",
       "description": "Beef patty and pork loin, with grilled pineapple, pickles, lettuce, BBQ sauce, and secret burger sauce in a P\u014dneke Bakery brioche bun, with fries.",
       "price": 28.0,
       "beerMatchPrice": null,
@@ -404,7 +404,7 @@
       "price": 30.0,
       "beerMatchPrice": 40.0,
       "mealAvailable": "Lunch",
-      "beerMatch": "Expatriate (APA)",
+      "beerMatch": "",
       "venue": "Scorch-O-Rama, 497 Karaka Bay Road, Karaka Bays",
       "coordinates": {
         "lat": -41.298114,
@@ -421,7 +421,7 @@
       "id": "PdY30wAqRGCPK9JSaP_JbA",
       "name": "Birria On The Beach",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/HCMar2026-23-260611-121017.jpg",
-      "description": "Beef patty and pulled birria beef, with corn tortilla, onion and coriander salsa, Apostle Tropical Charred Sweetcorn Salsa and spicy crema in a housemade brioche bun, with jalape\u00f1o poppers and birria consom\u00e9.",
+      "description": "Beef patty and pulled birria beef, with corn tortilla, onion and coriander salsa, Apostle Tropical Charred Sweetcorn Salsa and spicy crema in a brioche bun, with jalape\u00f1o poppers and birria consom\u00e9.",
       "price": 34.0,
       "beerMatchPrice": 44.0,
       "mealAvailable": "Lunch and Dinner",
@@ -582,7 +582,7 @@
       "id": "aBulL34nRf2C-hUgMqUpcA",
       "name": "Boss Level",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/20200110-IMG_0954-260429-141124.jpg",
-      "description": "Smashed beef patty, with cheese, pickles, onion, and Garage Project Boss Level MSG spiked umami sauce in a Volco toasted sesame potato bun.",
+      "description": "Dry-aged Wagyu beef patty with cheese, pickles, onion, and MSG-spiked burger sauce on a Volco sesame potato bun.",
       "price": 25.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
@@ -623,26 +623,26 @@
       "id": "f-7nu_ajT6SD3_VYNsmX4g",
       "name": "Broadcaster",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Broadcaster--2-260605-103046.png",
-      "description": "Moana Pacific smoked snapper panko patty, with crayfish oil, herb coleslaw, and crayfish mayonnaise in a Shelly Bay Baker sesame milk bun.",
+      "description": "Moana Pacific smoked fish panko patty, with crayfish oil, herb coleslaw, and crayfish mayonnaise in a Shelly Bay Baker sesame milk bun, with Agria Makikihi fries seasoned with furikake salt, and a warm crayfish cheese fondue.",
       "price": 32.0,
       "beerMatchPrice": 42.0,
       "mealAvailable": "Lunch and Dinner",
       "beerMatch": "Schandalous (Shandy)",
-      "venue": "Double Vision Brewing - Island Bay, 128 The Parade, Island Bay",
+      "venue": "Dub Hub, 163A The Parade, Island Bay",
       "coordinates": {
-        "lat": -41.3339887,
-        "long": 174.7731897
+        "lat": -41.3353546,
+        "long": 174.7734954
       },
       "dietaryRequirements": [],
       "mainProtein": "Fish, Seafood",
       "sidesIncluded": true,
-      "url": "https://visawoap.com/venue/double-vision-brewing-island-bay/6943"
+      "url": "https://visawoap.com/venue/dub-hub/6943"
     },
     {
       "id": "KSkP3P2US9m7oYZphqwPAQ",
       "name": "Buck Yeah, Clive!",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/image0--4--260604-100230.jpeg",
-      "description": "Venison patty, with beetroot relish, smoked cheese, pickles, and red onion ketchup in a housemade sesame seed milk bun, with skin-on chunky chips.",
+      "description": "Venison patty, with beetroot relish, smoked cheese, pickles, and red onion ketchup and aioli in a housemade sesame seed milk bun, with skin-on chunky chips.",
       "price": 29.0,
       "beerMatchPrice": 40.0,
       "mealAvailable": "Lunch and Dinner",
@@ -1159,6 +1159,25 @@
       "url": "https://visawoap.com/venue/dragons-chinese-restaurant/6950"
     },
     {
+      "id": "VhiHJo1LReKzh1K71auldw",
+      "name": "Dalmatian \u0106evapi",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3557-260803-180314.jpeg",
+      "description": "\u0106evapi patty, with ajvar, balsamic rocket and parmesan coleslaw, Dijon mustard, and aioli in an Arobake ciabatta bun.",
+      "price": 28.0,
+      "beerMatchPrice": null,
+      "mealAvailable": "Lunch and Dinner",
+      "beerMatch": "",
+      "venue": "Kelburn Village Pub, 87 Upland Road, Kelburn",
+      "coordinates": {
+        "lat": -41.2893954,
+        "long": 174.76219330000004
+      },
+      "dietaryRequirements": [],
+      "mainProtein": "Beef, Pork",
+      "sidesIncluded": true,
+      "url": "https://visawoap.com/venue/kelburn-village-pub/7083"
+    },
+    {
       "id": "E8H1svSZREa-1S0x-FrGNw",
       "name": "Dinamico",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3068-260604-170918.png",
@@ -1433,7 +1452,7 @@
       "id": "PO08bhEjTya5EPHows_IJQ",
       "name": "Get Smashed",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/022A9177-260414-070752.jpg",
-      "description": "Smashed beef patty, with cheddar, pickles, and L'affare burger sauce in an Acron Bakery milk brioche bun, with fries.",
+      "description": "Smashed beef patty, with cheddar, pickles, and L'affare burger sauce in an Acorn Bakery milk brioche bun, with fries.",
       "price": 10.0,
       "beerMatchPrice": 20.0,
       "mealAvailable": "Lunch",
@@ -2542,7 +2561,7 @@
       "id": "bpmMpa9iRRqoncP0171GxA",
       "name": "Masala Mauler",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3603-260717-131638.jpeg",
-      "description": "Crumbed chicken thigh, with date and tamarind chutney, Penray Gardens chilli and coriander salsa, and peanut and coconut crumb in a Volco milk bun.",
+      "description": "Crumbed chicken thigh, with date and tamarind chutney, Penray Gardens chilli and coriander salsa, and peanut and coconut crumb in a Volco milk bun.\r\n\r\nVegetarian option: potato hash replaces crumbed chicken thigh.",
       "price": 26.0,
       "beerMatchPrice": 36.0,
       "mealAvailable": "Lunch and Dinner",
@@ -2577,8 +2596,7 @@
         "Dairy Free Available",
         "Vegan Available",
         "Vegetarian Available",
-        "Nut Free Available",
-        "Gluten Free Available"
+        "Nut Free Available"
       ],
       "mainProtein": "Chicken",
       "sidesIncluded": true,
@@ -3052,7 +3070,7 @@
     {
       "id": "Gy82_riFSXKSwiyWam1T_A",
       "name": "Porte\u00f1a!",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_20260428_151846-260428-171307.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/One80Burger_210526-9-260805-085335.jpg",
       "description": "Smoky Harringtons beef patty, with Swiss cheese, iceberg lettuce, pickles and chimichurri aioli in a Clareville Bakery potato bun, with rosemary salt steak-cut chips and Creole Argentinian mayo.",
       "price": 29.0,
       "beerMatchPrice": 39.0,
@@ -3075,7 +3093,7 @@
     {
       "id": "eJCd7TTzSjG-1WJXL4G5pg",
       "name": "P\u014d Kawakawa Ana",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Botanist-WOAP-1-260415-213614.jpeg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Bot-new-burger-pic-WOAP-260805-132949.png",
       "description": "L&P-battered k\u016bmara fritter and Mushroom House oyster mushroom \"scallops\", with foraged kawakawa and Granny Smith coleslaw, iceberg lettuce, kiwi and green apple chutney, and Kiwi onion dip in a Cottage Lane potato bun, with fairy bread-salted chips and marmite gravy.",
       "price": 23.0,
       "beerMatchPrice": 38.0,
@@ -3162,7 +3180,7 @@
     {
       "id": "cSB-KR23Q_mo95eDcl2Nqg",
       "name": "Saigon Shaking",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/63a42a8a-a6e0-4fc6-a91b-760c61710242-260401-214337.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3851-260801-122704.jpeg",
       "description": "Garlic and soy seasoned sirloin\u00a0patty with mixed greens, aged cheddar, gherkins, tomato, red onion\u00a0and sriracha mayo on a Shelly Bay Baker brioche\u00a0bun, with fries.\u00a0",
       "price": 28.0,
       "beerMatchPrice": 38.0,
@@ -3186,7 +3204,7 @@
     {
       "id": "Xt-r6Vg5QXeIAOH7fCjfZw",
       "name": "Saigon Sizzle",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_5230-260415-212203.jpeg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP-Burger_Rockyard-260805-145734.jpg",
       "description": "Five-spice fried chicken, with chicken liver p\u00e2t\u00e9, H L Young Farm pickles, lettuce, herb aioli, and cheese sauce in a Cottage Lane artisan bun, with fries.",
       "price": 28.0,
       "beerMatchPrice": 40.0,
@@ -3319,7 +3337,7 @@
       "id": "GjlzCMjhR4mGKgb0_4gx2A",
       "name": "Seaside Sichuan Deluxe",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/New-woap-260429-182217.jpg",
-      "description": "Beef patty, with gruy\u00e8re, Sichuan sauce, rocket, carrot, red cabbage, red pepper, coriander, and spring onion in a Cottage Lane brioche bun, with straight-cut fries.",
+      "description": "Double beef patties,\r\nwith gruy\u00e8re, Sichuan sauce, rocket, carrot, red cabbage, red pepper, coriander, and spring onion in a Cottage Lane brioche bun, with straight-cut fries.",
       "price": 29.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
@@ -3352,9 +3370,7 @@
         "lat": -41.2846596,
         "long": 174.77693669999996
       },
-      "dietaryRequirements": [
-        "Gluten Free Available"
-      ],
+      "dietaryRequirements": [],
       "mainProtein": "Beef",
       "sidesIncluded": true,
       "url": "https://visawoap.com/venue/intercontinental-hotel-wellington/6916"
@@ -3435,11 +3451,7 @@
         "long": 174.7743395
       },
       "dietaryRequirements": [
-        "Dairy Free Available",
-        "Vegan Available",
-        "Vegetarian Available",
-        "Nut Free Available",
-        "Gluten Free Available"
+        "Vegetarian Available"
       ],
       "mainProtein": "Chicken",
       "sidesIncluded": true,
@@ -3471,7 +3483,7 @@
     {
       "id": "Xkk907mOQouIHSLHlB2iBw",
       "name": "Silent Treatment",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_5758-2-260428-215113.jpeg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_3878-260804-055452.jpeg",
       "description": "Tempura chicken, with coleslaw, pickled onion, pickles, and kasundi mayonnaise in an Arobake brioche bun, with fries.",
       "price": 26.0,
       "beerMatchPrice": null,
@@ -3488,7 +3500,7 @@
         "Nut Free Available",
         "Gluten Free Available"
       ],
-      "mainProtein": "Chicken, Meat Alternative",
+      "mainProtein": "Chicken",
       "sidesIncluded": true,
       "url": "https://visawoap.com/venue/rock-salt-bar-grill/7023"
     },
@@ -3732,7 +3744,7 @@
     {
       "id": "OMK1cM0ITRuOEprqHwksbA",
       "name": "Squeal the Deal",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/TheOldQuarterBurger_210526-8-260602-125602.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/Burger-2026-ac-260805-121455.jpg",
       "description": "Ph\u1edf broth braised pork belly, with melted cheese, bacon, pickles, and sweet 'n' spicy honey mayonnaise in a Brezelmania brioche bun, with fries and Vietnamese beef stew dipping sauce.",
       "price": 28.0,
       "beerMatchPrice": 38.0,
@@ -3744,7 +3756,6 @@
         "long": 174.7771633
       },
       "dietaryRequirements": [
-        "Dairy Free Available",
         "Nut Free Available"
       ],
       "mainProtein": "Pork",
@@ -3826,7 +3837,6 @@
       },
       "dietaryRequirements": [
         "Dairy Free Available",
-        "Vegan Available",
         "Vegetarian Available",
         "Gluten Free Available"
       ],
@@ -4033,7 +4043,7 @@
       "id": "cUkIgzo1Q06-tnf8VfVO5w",
       "name": "The B.P.M",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/QT_APRIL_2026_063_small-260429-090629.jpg",
-      "description": "Beef and smoked p\u0101ua patty, with kawakawa fried onion crunch, pickled k\u016bmara, black fermented garlic paste, umami butter mayonnaise, and K\u0101piti cheese in a Shelly Bay Baker brioche bun glazed with Grafters m\u0101nuka honey hot honey.",
+      "description": "Beef and smoked p\u0101ua patty, with kawakawa fried onion crunch, pickled k\u016bmara, black fermented garlic paste, umami butter mayonnaise, and K\u0101piti cheese in a Shelly Bay Baker brioche bun glazed with Grafters m\u0101nuka honey hot honey. Exclusive to the Gallery Lounge",
       "price": 36.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
@@ -4471,7 +4481,7 @@
       "id": "Vv7BPfbMTB2X7dU_nBYL3w",
       "name": "The Rumour Mill",
       "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP-2026---Peppermill-260520-072356.jpg",
-      "description": "Pork belly and candied bacon, with smoked provolone, apple coleslaw, and bacon jam in an Arobake brioche bun, with curly fries.",
+      "description": "Pork belly and candied bacon, with smoked provolone, apple coleslaw, and bacon jam in an Arobake brioche bun, with smashed potatoes.",
       "price": 29.0,
       "beerMatchPrice": null,
       "mealAvailable": "Lunch",
@@ -4577,7 +4587,7 @@
     {
       "id": "E4e-y0b-RHm7LDuVjE9X2w",
       "name": "The Southerly Stack",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_5914-260606-204701.jpeg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP-260803-142723.jpg",
       "description": "Braised beef short rib, with braised red cabbage, pickles, onion crisps, and horseradish aioli in a Shelly Bay Baker brioche bun, with hand-cut fries.",
       "price": 30.0,
       "beerMatchPrice": 40.0,
@@ -4938,7 +4948,7 @@
         "long": 174.7748956
       },
       "dietaryRequirements": [
-        "Vegetarian Available",
+        "Vegan Available",
         "Gluten Free Available"
       ],
       "mainProtein": "Pork",
@@ -4998,7 +5008,7 @@
       "beerMatchPrice": null,
       "mealAvailable": "Lunch and Dinner",
       "beerMatch": "",
-      "venue": "Elemental Eats, Unit 2/51 Kenepuru Drive, Porirua",
+      "venue": "Elemental Eats, Unit 2/51 Kenepuru Drive, Porirua Central",
       "coordinates": {
         "lat": -41.148683,
         "long": 174.8392391

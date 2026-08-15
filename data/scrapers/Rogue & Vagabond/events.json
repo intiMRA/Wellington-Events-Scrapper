@@ -1,38 +1,58 @@
 [
 {
-  "id": "Traskforce! Ft. Eugene Wolfin-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Traskforce! Ft. Eugene Wolfin",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103932-482606.jpeg",
+  "id": "Sam Fowles And The Expierence-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Sam Fowles And The Expierence",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104059-196088.jpg",
   "venue": "The Rogue & Vagabond",
   "coordinates": {
     "lat": -41.29336,
     "long": 174.7745002
   },
   "dates": [
-    "2026-08-27-20:00"
+    "2026-09-12-21:30"
   ],
-  "displayDate": "Thu 27 Aug",
-  "url": "http://www.undertheradar.co.nz/gig/103932/Traskforce!-Ft-Eugene-Wolfin.utr",
+  "displayDate": "Sat 12 Sep",
+  "url": "http://www.undertheradar.co.nz/gig/104059/Sam-Fowles-And-The-Expierence.utr",
   "source": "Rogue & Vagabond",
   "eventType": "Music & Concerts",
-  "long_description": "Starring Eugene Wolfin on vocals, the octet will present a fizzing set of big band swing, Broadway hits, and gorgeous ballads. Hear the fine lyricism of the 20th century sung by one of Wellington\u2019s most exciting performers.\n\nFree entry! Koha encouraged.\n\nFor the last 8 years vocalist Eugene Wolfin has been a regular of Wellington music scene performing in a wide variety of genres including Jazz, Blues, and Rock \u2019n\u2019 Roll. He has had a hand in a few local Musical Theatre productions performing lead roles in \u2018Chess\u2019 and the modern hit \u2018If/Then', and is a regular in front of Jazz Orchestras including the Royal New Zealand Air Force Band and the Rodger Fox Big Band.\n\nTraskforce! is bandleader Alex Trask\u2019s most swinging musical organisation. They play fresh arrangements of original compositions, classic swing, and Broadway ballads. This includes songs from the Basie repertoire, Bob Mintzer, Oliver Nelson, Quincey Jones, and Lionel Bart's Oliver! to name a few. The five horn arrangements allow for the power of a big band and the subtlety of a quartet to shine side by side. The band is made up of Wellington\u2019s top players, including members of the Aotearoa Jazz Orchestra, the RNZAF band, NZSM faculty, and rising stars.\n\nPhoto by Oscar Laven",
-  "description": "Starring Eugene Wolfin on vocals, the octet will present a fizzing set of big band swing, Broadway hits, and gorgeous ballads.\nHear the fine lyricism of the 20th century sung by one of Wellington\u2019s most exciting performers.\nHe has had a hand in a few local Musical Theatre productions performing lead roles in \u2018Chess\u2019 and the modern hit \u2018If/Then', and is a regular in front of Jazz Orchestras including the Royal New Zealand Air Force Band and the Rodger Fox Big Band.\nThe five horn arrangements allow for the power of a big band and the subtlety of a quartet to shine side by side.\nThe band is made up of Wellington\u2019s top players, including members of the Aotearoa Jazz Orchestra, the RNZAF band, NZSM faculty, and rising stars.",
+  "long_description": "Sam Fowles and his band, The Experience, are coming at you, live and direct.\nExpect a solid night of groove heavy south pacific psychedelic soul, blending global influences with local roots. Upfront guitar slinging, tight funky rhythms, and soulful vocals delivering tales about the high and low tides of life.\n\nBand:\nSam Fowles\nBlain Fitzpatrick\nJared Reynolds\nJason Vinod\nSamson Lenati\n\nMusic from 9:30 PM, FREE ENTRY - Koha for the band encouraged!",
+  "description": "Sam Fowles and his band, The Experience, are coming at you, live and direct.\nExpect a solid night of groove heavy south pacific psychedelic soul, blending global influences with local roots.\nUpfront guitar slinging, tight funky rhythms, and soulful vocals delivering tales about the high and low tides of life.\nBand: Sam Fowles Blain Fitzpatrick Jared Reynolds Jason Vinod Samson Lenati Music from 9:30 PM, FREE ENTRY - Koha for the band encouraged!",
+  "labels": []
+},
+{
+  "id": "Undubbed Goes Rogue-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Undubbed Goes Rogue",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104068-203944.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-09-25-21:30"
+  ],
+  "displayDate": "Fri 25 Sep",
+  "url": "http://www.undertheradar.co.nz/gig/104068/Undubbed-Goes-Rogue.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "Join UNDUBBED at The Rogue and Vagabond as they play their favourite deep cuts from jazz, hip-hop, fusion and beyond. With many years of improvisational experience as a group, UNDUBBED is sure to take you on a journey from introspective soundscapes to chaotic interplay.\n\nUNDUBBED is made up of some familiar faces:\n\nBlair Gowan - Keyboards\nCiaran Egan - Drums\nAlex Cooper - Bass\nJoin them for a memorable night at the Rogue and Vagabond, where deep grooves meet cinematic soundscapes.\n\nMusic from 9:30pm, FREE Entry (Koha encouraged)",
+  "description": "Join UNDUBBED at The Rogue and Vagabond as they play their favourite deep cuts from jazz, hip-hop, fusion and beyond.\nWith many years of improvisational experience as a group, UNDUBBED is sure to take you on a journey from introspective soundscapes to chaotic interplay.\nUNDUBBED is made up of some familiar faces: Blair Gowan - Keyboards Ciaran Egan - Drums Alex Cooper - Bass Join them for a memorable night at the Rogue and Vagabond, where deep grooves meet cinematic soundscapes.\nMusic from 9:30pm, FREE Entry (Koha encouraged)",
   "labels": []
 },
 {
   "id": "The Racket Lounge-The Rogue & Vagabond-Rogue & Vagabond",
   "name": "The Racket Lounge",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102969-37463.jpg",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102968-969368.jpg",
   "venue": "The Rogue & Vagabond",
   "coordinates": {
     "lat": -41.29336,
     "long": 174.7745002
   },
   "dates": [
-    "2026-10-07-18:30"
+    "2026-09-09-18:30"
   ],
-  "displayDate": "Wed 07 Oct",
-  "url": "http://www.undertheradar.co.nz/gig/102969/The-Racket-Lounge.utr",
+  "displayDate": "Wed 09 Sep",
+  "url": "http://www.undertheradar.co.nz/gig/102968/The-Racket-Lounge.utr",
   "source": "Rogue & Vagabond",
   "eventType": "Music & Concerts",
   "long_description": "Grab a spot on our couch and enjoy the noise at The Racket Lounge - a chill classical music series showcasing up-and-coming P\u014dneke musicians.\n\nIf you\u2019ve never been to a classical concert before, or if you have and now you want to see talented emerging musicians experimenting and playing what they want to play, then The Racket Lounge is for you. Over the past two seasons we\u2019ve seen classical covers, jazz ensembles, video game soundtracks, original compositions, loop pedals, poetry and much more. Our 2026 season is shaping up to be just as epic, plus with your tickets starting at just $5 you can afford to take a chance on something new.\n\nEach concert will feature a different line up of musicians and genres, to be announced a week before each session. If you\u2019re a musician looking to perform at The Racket Lounge, then head to the New Zealand String Quartet\u2019s website to see how to apply.\n\n\n\nThe Racket Lounge is created and presented by the New Zealand String Quartet Trust - Te R\u014dp\u016b T\u016br\u016b o Aotearoa, New Zealand\u2019s longest-running professional string quartet. With support from Wellington City Council.\n\nTickets are choose your price starting from just $5.\n\nPlease note that Bedlam & Squalor is a licensed venue, so under 18s must be accompanied by a parent or legal guardian. Everyone must bring ID.",
@@ -40,23 +60,203 @@
   "labels": []
 },
 {
-  "id": "George Young And Band-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "George Young And Band",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103902-664534.jpeg",
+  "id": "Street Beat-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Street Beat",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104009-662699.jpg",
   "venue": "The Rogue & Vagabond",
   "coordinates": {
     "lat": -41.29336,
     "long": 174.7745002
   },
   "dates": [
-    "2026-08-08-21:00"
+    "2026-08-22-17:00"
   ],
-  "displayDate": "Sat 08 Aug",
-  "url": "http://www.undertheradar.co.nz/gig/103902/George-Young-And-Band.utr",
+  "displayDate": "Sat 22 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/104009/Street-Beat.utr",
   "source": "Rogue & Vagabond",
   "eventType": "Music & Concerts",
-  "long_description": "George has been called \u201cWellingtons best kept secret\u201d. A soulful songwriter that stretches styles and sonic scenes. A great voice in great musical company. George has been in the mix for a while and he has a raft of new and unheard material. From heart-melters to shoe-movers, you will not be disappointed.\n\nBand:\nGeorge Young\nJeremy Desmond\nJason Rapana\nAndy Hoy\n\nMusic from 9:00pm, FREE ENTRY",
-  "description": "George has been called \u201cWellingtons best kept secret\u201d.\nA great voice in great musical company.\nGeorge has been in the mix for a while and he has a raft of new and unheard material.\nFrom heart-melters to shoe-movers, you will not be disappointed.\nBand: George Young Jeremy Desmond Jason Rapana Andy Hoy Music from 9:00pm, FREE ENTRY",
+  "long_description": "FAM wh\u0101nau & friends are in FULL EFFECT, celebrating the rich tapestry that is \u2018street\u2019 music, nodding our keen heads to the influence Hip Hop, and its far reaching, DIY community mindset, has had on our ability to approach music, express, create, connect, innovate, refine, invigorate, remix, dance, shake it down, and do it up super niiiiiiiiiice.\n\nFrom Boom Bap to Backpack, Westcoast, Electro, New school, Underground, Bruk, Broken beat, 90s, 80\u2019s, Golden Era, Ragga, Go-go, Freestyle, Grime, Street Soul, Baltimore, Ghettotech, Hyphy, Baile Funk, Footwork, Chopped, Screwed, Memphis, Bounce, Boogie, Bass, Aotearoa, UK, Dancehall, Breakbeat, it's like dat, and it don't stop!\n\nStupid dope lineup including Awa, Mikki D, Tony Douglas, DFresh, M\u016bsh, Maximilian, Kerb, Uncle Silverback, Cassawarrior, Campbell Ngata, G Major and friends, spinning across the board, street beat music for the party people dem.\n\nAll of that to really just say, let\u2019s have a party!\n\n",
+  "description": "FAM wh\u0101nau & friends are in FULL EFFECT, celebrating the rich tapestry that is \u2018street\u2019 music, nodding our keen heads to the influence Hip Hop, and its far reaching, DIY community mindset, has had on our ability to approach music, express, create, connect, innovate, refine, invigorate, remix, dance, shake it down, and do it up super niiiiiiiiiice.\nFrom Boom Bap to Backpack, Westcoast, Electro, New school, Underground, Bruk, Broken beat, 90s, 80\u2019s, Golden Era, Ragga, Go-go, Freestyle, Grime, Street Soul, Baltimore, Ghettotech, Hyphy, Baile Funk, Footwork, Chopped, Screwed, Memphis, Bounce, Boogie, Bass, Aotearoa, UK, Dancehall, Breakbeat, it's like dat, and it don't stop!\nStupid dope lineup including Awa, Mikki D, Tony Douglas, DFresh, M\u016bsh, Maximilian, Kerb, Uncle Silverback, Cassawarrior, Campbell Ngata, G Major and friends, spinning across the board, street beat music for the party people dem.\nAll of that to really just say, let\u2019s have a party!",
+  "labels": []
+},
+{
+  "id": "Sunday Jazz - Oscar Lav\u00ebn-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Sunday Jazz - Oscar Lav\u00ebn",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104058-53160.jpeg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-08-30-17:00"
+  ],
+  "displayDate": "Sun 30 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/104058/Sunday-Jazz---Oscar-Lavn.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer and jazz, on a Sunday perfect! This week featuring local saxophonist Oscar Lav\u00ebn and his quintet\n\nFlamboyant saxophonist / multi-instrumentalist Oscar Lav\u00ebn presents a kaleidoscopic array of fresh original music, drawing on an eclectic array of swing, blues, surrealism and 50s bar-walking R&B saxophone.\n\nMusic from 5pm, FREE ENTRY - Koha for the band encouraged!",
+  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer and jazz, on a Sunday perfect!\nThis week featuring local saxophonist Oscar Lav\u00ebn and his quintet Flamboyant saxophonist / multi-instrumentalist Oscar Lav\u00ebn presents a kaleidoscopic array of fresh original music, drawing on an eclectic array of swing, blues, surrealism and 50s bar-walking R&B saxophone.\nMusic from 5pm, FREE ENTRY - Koha for the band encouraged!",
+  "labels": []
+},
+{
+  "id": "Sunday Jazz - Miles Craford-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Sunday Jazz - Miles Craford",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104060-430002.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-09-06-17:00"
+  ],
+  "displayDate": "Sun 06 Sep",
+  "url": "http://www.undertheradar.co.nz/gig/104060/Sunday-Jazz---Miles-Craford.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer, hangs, and jazz, on a Sunday, perfect!\n\nThis week featuring local organist Miles Crayford and his quartet\n\nMiles Crayford is a jazz organist playing a mix of jazz standards, tunes by Hammond organ legend Jimmy Smith, and a few original compositions. Expect plenty of improvisation, soulful organ sounds, and a laid-back set that draws on classic jazz with a touch of funk.\n\n\nMusic from 5pm, FREE ENTRY - Koha for the band encouraged!",
+  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer, hangs, and jazz, on a Sunday, perfect!\nExpect plenty of improvisation, soulful organ sounds, and a laid-back set that draws on classic jazz with a touch of funk.\nMusic from 5pm, FREE ENTRY - Koha for the band encouraged!",
+  "labels": []
+},
+{
+  "id": "Emerald Hours: Soul, Disco, Boogie & Jazz-Funk-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Emerald Hours: Soul, Disco, Boogie & Jazz-Funk",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104086-6802.jpeg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-08-28-20:00"
+  ],
+  "displayDate": "Fri 28 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/104086/Emerald-Hours-Soul-Disco-Boogie--Jazz-Funk.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "Emerald Hours is back!\nDJs spinning dance floor heat to thaw out your feet.\nAll vinyl, all night.",
+  "description": "Emerald Hours is back!\nDJs spinning dance floor heat to thaw out your feet.\nAll vinyl, all night.",
+  "labels": []
+},
+{
+  "id": "The Oscar Laven Organ Trio-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "The Oscar Laven Organ Trio",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104066-467838.JPG",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-08-18-21:30"
+  ],
+  "displayDate": "Tue 18 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/104066/The-Oscar-Laven-Organ-Trio.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "Dynamic saxophonist / multi-instrumentalist Oscar Lav\u00ebn joins forces with heavyweights of the Aotearoa music landscape Louis Thompson-Munn (keyboards), and Darren Mathiassen (drums) in a tornado of fierce collaborative music, drawing from blues, soul, jazz and bar-walking rock & roll saxophone.\n\nFree entry, koha-to-the-band encouraged.\n\n9:30pm start.\n\nBe there or be square.",
+  "description": "Dynamic saxophonist / multi-instrumentalist Oscar Lav\u00ebn joins forces with heavyweights of the Aotearoa music landscape Louis Thompson-Munn (keyboards), and Darren Mathiassen (drums) in a tornado of fierce collaborative music, drawing from blues, soul, jazz and bar-walking rock & roll saxophone.\nFree entry, koha-to-the-band encouraged.\n9:30pm start.\nBe there or be square.",
+  "labels": []
+},
+{
+  "id": "The New Zealand Swing Quartet - The Music Of New Orleans-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "The New Zealand Swing Quartet - The Music Of New Orleans",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104067-609460.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-09-11-21:00"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "http://www.undertheradar.co.nz/gig/104067/The-New-Zealand-Swing-Quartet---The-Music-Of-New-Orleans.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "Experience a portrait of the soulful, vibrant New Orleans music made famous by icons Sidney Bechet, Louis Armstrong, Kid Ory, Jelly Roll Morton and more, presented by the New Zealand Swing Quartet, plus guests.\n\nPresented by:\n\nOscar Lav\u00ebn (clarinet/saxophones)\nJacob Randall (drums),\nDaniel Yeabsley (double bass)\nMat Enright (trumpet)\nAdrian Jensen (guitar)\n\nMusic from 9 pm, FREE ENTRY\n",
+  "description": "Experience a portrait of the soulful, vibrant New Orleans music made famous by icons Sidney Bechet, Louis Armstrong, Kid Ory, Jelly Roll Morton and more, presented by the New Zealand Swing Quartet, plus guests.\nPresented by: Oscar Lav\u00ebn (clarinet/saxophones) Jacob Randall (drums), Daniel Yeabsley (double bass) Mat Enright (trumpet) Adrian Jensen (guitar) Music from 9 pm, FREE ENTRY",
+  "labels": []
+},
+{
+  "id": "Sunday Jazz - Kaito Walley-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Sunday Jazz - Kaito Walley",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104040-788740.jpeg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-08-16-17:00"
+  ],
+  "displayDate": "Sun 16 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/104040/Sunday-Jazz---Kaito-Walley.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer and jazz, on a Sunday, perfect!\n\nThis week featuring local trombonist Kaito Walley and his quartet.\n\nYou've seen him in bands such as Tunes Of I, Niko Ne Zna, The Wellington City Shake em on Downers, The Wellington Mingus Ensemble, the Brett McKenzie live band, and L.A.B. now hear him dust off his quartet chops for an evening of trombone goodness\n\nMusic from 5pm.\n\nThrow some change in the KOHA TUBA for the band!",
+  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer and jazz, on a Sunday, perfect!\nThis week featuring local trombonist Kaito Walley and his quartet.\nYou've seen him in bands such as Tunes Of I, Niko Ne Zna, The Wellington City Shake em on Downers, The Wellington Mingus Ensemble, the Brett McKenzie live band, and L.A.B.",
+  "labels": []
+},
+{
+  "id": "Sunday Jazz - Seth Boy-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Sunday Jazz - Seth Boy",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104056-385724.jpeg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-08-23-17:00"
+  ],
+  "displayDate": "Sun 23 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/104056/Sunday-Jazz---Seth-Boy.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer, jazz, and hangs on a Sunday, perfect!\n\nThis week featuring local bass player Seth Boy.\n\nSeth Boy's Super Fun Band\n\nMusic from 5pm, FREE ENTRY - Koha for the band encouraged",
+  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer, jazz, and hangs on a Sunday, perfect!\nThis week featuring local bass player Seth Boy.\nSeth Boy's Super Fun Band Music from 5pm, FREE ENTRY - Koha for the band encouraged",
+  "labels": []
+},
+{
+  "id": "Te K\u014dk\u012b Big Band Presents: You Can Count On Ella!-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Te K\u014dk\u012b Big Band Presents: You Can Count On Ella!",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104062-108279.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-09-17-20:00"
+  ],
+  "displayDate": "Thu 17 Sep",
+  "url": "http://www.undertheradar.co.nz/gig/104062/Te-Kk-Big-Band-Presents-You-Can-Count-On-Ella!.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "Te K\u014dk\u012b NZSM Big Band One will be performing songs from the 1963 album Ella and Basie! as well as other selections from the wider catalogues of both Ella Fitzgerald and the Count Basie Orchestra, two of the most important figures of the style.\n\nThis programme will be artfully presented by featured student vocalists Izi Dawson and Georgia Doyne, and instrumentalists from NZSM's jazz school led by Seth Boy.\n\nThey will be supported on the night by NZSM's vocal ensemble led by artist teacher Iris Little.\n\nMusic from 8pm, FREE ENTRY - Koha for the band encouraged!",
+  "description": "Te K\u014dk\u012b NZSM Big Band One will be performing songs from the 1963 album Ella and Basie!\nas well as other selections from the wider catalogues of both Ella Fitzgerald and the Count Basie Orchestra, two of the most important figures of the style.\nThis programme will be artfully presented by featured student vocalists Izi Dawson and Georgia Doyne, and instrumentalists from NZSM's jazz school led by Seth Boy.\nThey will be supported on the night by NZSM's vocal ensemble led by artist teacher Iris Little.\nMusic from 8pm, FREE ENTRY - Koha for the band encouraged!",
+  "labels": []
+},
+{
+  "id": "Mat Enright And The Cuzzies-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Mat Enright And The Cuzzies",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104055-577479.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-08-20-21:00"
+  ],
+  "displayDate": "Thu 20 Aug",
+  "url": "http://www.undertheradar.co.nz/gig/104055/Mat-Enright-And-The-Cuzzies.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "Mat Enright and the Cuzzies 6 piece jass band brings a night of old time tunes to the Rogue and Vagabond.\n\nFrom Piedmont Mississippi and New Orleans Trad, to Chicago Blues, Riverboat tunes, Train songs, and originals like 'a billion dollars for no boats' and 'mcskimming over the details'\n\nThis will be a night of good times, good music, and good humour.\n\nMusic from 9pm, FREE ENTRY - Koha for the band encouraged!",
+  "description": "Mat Enright and the Cuzzies 6 piece jass band brings a night of old time tunes to the Rogue and Vagabond.\nFrom Piedmont Mississippi and New Orleans Trad, to Chicago Blues, Riverboat tunes, Train songs, and originals like 'a billion dollars for no boats' and 'mcskimming over the details' This will be a night of good times, good music, and good humour.\nMusic from 9pm, FREE ENTRY - Koha for the band encouraged!",
   "labels": []
 },
 ]

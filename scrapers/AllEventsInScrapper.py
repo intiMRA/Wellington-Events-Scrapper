@@ -74,18 +74,25 @@ class AllEventsInScrapper:
         scrolled_amount = 0
         more_count = 0
         height = max(height, 800)
+        tapped_more = 0
         while True:
             if scrolled_amount > height or more_count > 1:
                 Logger.debug("finished scroll")
                 break
-            page.evaluate(f"window.scrollBy(0, {400});")
+            page.evaluate(f"window.scrollBy(0, {400})")
             scrolled_amount += 400
             sleep(1)
             if page.locator("[class*='eventlist-container']").all():
                 container: Locator = page.locator("[class*='eventlist-container']").first
                 height = container.evaluate("document.body.scrollHeight")
-            if page.locator("#show_more_events").all():
-                page.locator("#show_more_events").first.click()
+            more_buttons = page.locator("#show_more_events").count()
+            if more_buttons and more_buttons > tapped_more:
+                try:
+                    page.locator("#show_more_events").first.scroll_into_view_if_needed()
+                    page.locator("#show_more_events").first.click()
+                except Exception as e:
+                    Logger.warning(f"Error scrolling more_events {e}")
+                    tapped_more += 1
                 container: Locator = page.locator("[class*='eventlist-container']").first
                 height = container.evaluate("document.body.scrollHeight")
                 sleep(2)
@@ -143,12 +150,20 @@ class AllEventsInScrapper:
         if page.locator(".remaining-cat-count").count():
             page.locator(".remaining-cat-count").first.click()
         sleep(1)
-        wait_for_items(page.locator("[class*='cat-item']"))
-        category_items: List[Locator] = page.locator("[class*='cat-item']").all()
+        if page.locator("[class*='v2-see-all-item']").count():
+            page.locator("[class*='v2-see-all-item']").first.click()
+        sleep(1)
+        wait_for_items(page.locator("[class*='cat-item track']"))
+        category_items: List[Locator] = page.locator("[class*='cat-item track']").all()
+        category_names = set()
         for category_item in category_items:
             category_name = category_item.inner_text()
+            if category_name in category_names or not category_name:
+                continue
+            category_names.add(category_name)
             category_url = category_item.evaluate("a => a.href").split("?")[0]
             categories.add((category_name, category_url))
+            Logger.info(f"category name: {category_name} category url: {category_url}")
         return categories
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:

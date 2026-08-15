@@ -1,26 +1,46 @@
 [
 [
-  "https://www.moshtix.co.nz/v2/event/funk-the-band-yawner-louie-flack/198525",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/manon-massenet-wellington-07-08-2026/event/240063667E43234F",
-  "MusicEvent"
-],
-[
-  "https://www.moshtix.co.nz/v2/event/the-last-skram-gig-a-fundraiser-for-henry/198781",
-  "MusicEvent"
-],
-[
-  "https://www.moshtix.co.nz/v2/event/kita-love-lives-here-%E6%84%9B%E4%BD%8F%E5%9C%A8%E9%80%99%E8%A3%A1/198584",
+  "https://www.ticketmaster.co.nz/myths-legends-wellington-15-08-2026/event/24006435E9062E11",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/two-psychics-and-a-medium-wellington-18-03-2027/event/24006503A66B248A",
+  "https://www.moshtix.co.nz/v2/event/plini-an-unnameable-desire-australia-new-zealand-tour/194398",
   "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/tawa-goes-to-town-wellington-21-09-2026/event/2400650B96751E39",
+  "SportsEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/joey-alexander-trio-wellington-14-10-2026/event/240064EAE2EC49A6",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/real-black-for-me-zoe-moon-wellington-16-10-2026/event/240064FBDFDB3593",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/benjamin-clementine-back-to-basics-tour-wellington-17-10-2026/event/240064F5B1F0261E",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/te-ao-kohatu-hikurangi-schaverienkaa-wellington-18-10-2026/event/240064F580381510",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/heath-franklins-chopper-gold-wellington-20-11-2026/event/24006504DF0D3F23",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketweb.com/event/tray-wellington-band-at-woodlands-woodlands-tavern-tickets/15031693",
+  "MusicEvent"
 ],
 [
   "https://www.ticketweb.com/event/tray-wellington-w-david-newbould-club-cafe-tickets/14989343",
-  "TheaterEvent"
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.com.au/202627-isuzu-ute-aleague-sydney-fc-sydney-07-05-2027/event/250064FFCB019769",
+  "MusicEvent"
 ],
 ]

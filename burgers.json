@@ -3,7 +3,7 @@
     {
       "id": "CsFP2lvyQXudVs950La8MA",
       "name": "0800 THE WORD",
-      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/CRM06250-2-260416-140007.jpg",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/IMG_4073-260812-063735.jpeg",
       "description": "Rocket Fuel glazed smashed beef patty, with pickled cabbage and beetroot coleslaw, smoked cheese, and Apostle Hot Honey spiked tomato sauce in a sesame seed bun, with cheese onion salted fries and kiwi onion dip.",
       "price": 19.0,
       "beerMatchPrice": 27.0,
@@ -335,6 +335,27 @@
       "mainProtein": "Chicken",
       "sidesIncluded": false,
       "url": "https://visawoap.com/venue/rizzo-s-pizzeria-kitchen/6935"
+    },
+    {
+      "id": "AezX8l8TQyGs5PriNhjWTQ",
+      "name": "Bang Bang Rendang",
+      "image": "https://goodcms.s3.amazonaws.com/woap-26/event/WOAP-2026---IndoPLUS-260520-072155.jpg",
+      "description": "Crumbed chicken rendang, with tomato, salad, and cheese in a Brezelmania brioche bun, with fries and rendang sauce.",
+      "price": 25.0,
+      "beerMatchPrice": null,
+      "mealAvailable": "Lunch and Dinner",
+      "beerMatch": "",
+      "venue": "Indoplus Kitchen, 20 Parumoana Street, Porirua Central",
+      "coordinates": {
+        "lat": -41.13059909770873,
+        "long": 174.83965407420504
+      },
+      "dietaryRequirements": [
+        "Nut Free Available"
+      ],
+      "mainProtein": "Chicken",
+      "sidesIncluded": true,
+      "url": "https://visawoap.com/venue/indoplus-kitchen/7050"
     },
     {
       "id": "EKD5otHLTDurGt5d8rbwpA",
@@ -3251,7 +3272,7 @@
       "description": "Fried chicken thigh, with pickled cucumber, lettuce, red onion, sambal sauce, and raita in an Arobake potato bun, with potato and coconut fritters and a k\u016bmara and peanut sauce.",
       "price": 24.0,
       "beerMatchPrice": null,
-      "mealAvailable": "Lunch",
+      "mealAvailable": "Lunch and Dinner",
       "beerMatch": "",
       "venue": "Pandan Asian Cuisine, Press Hall, 80 Willis Street, Wellington CBD",
       "coordinates": {
@@ -3405,8 +3426,8 @@
       "beerMatch": "",
       "venue": "The Polish Sausage Company, 25/ 70 Kingsford Smith Street, Lyall Bay",
       "coordinates": {
-        "lat": -41.3275762,
-        "long": 174.8000926
+        "lat": -41.32757015741419,
+        "long": 174.79956152261505
       },
       "dietaryRequirements": [
         "Nut Free Available"
@@ -3837,6 +3858,7 @@
       },
       "dietaryRequirements": [
         "Dairy Free Available",
+        "Vegan Available",
         "Vegetarian Available",
         "Gluten Free Available"
       ],
