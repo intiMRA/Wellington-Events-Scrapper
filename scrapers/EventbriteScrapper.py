@@ -14,7 +14,7 @@ from time import sleep
 from typing import List, Tuple, Set, Optional, TextIO
 from playwright.sync_api import sync_playwright, Page, Error as PlaywrightError
 
-from util.PlaywrightUtils import goto_with_retry, new_context, normalize_text
+from util.PlaywrightUtils import goto_with_retry, new_context, normalize_text, wait_for_items
 from util.Logger import Logger
 
 
@@ -108,6 +108,7 @@ class EventbriteScrapper:
         view_more_button.click()
         sleep(2)
         cat_list = page.locator("#view-more-category").first
+        wait_for_items(cat_list.locator("li"))
         cats = cat_list.locator("li").all()
         for cat in cats:
             link = cat.locator("a").first.evaluate("a => a.href")
@@ -224,6 +225,8 @@ class EventbriteScrapper:
                     tries += 1
                 current_page += 1
                 sleep(2)
+                # New page navigated — wait for its event cards to render before snapshotting.
+                wait_for_items(page.locator("[data-testid='search-event']"))
                 cards = page.locator("[data-testid='search-event']").all()
                 Logger.debug(f"len cards: {len(cards)}")
                 for card in cards:

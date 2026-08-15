@@ -3,7 +3,7 @@ import json
 from playwright.sync_api import sync_playwright, Page, Locator
 
 from util import FileUtils
-from util.PlaywrightUtils import new_context, goto_with_retry
+from util.PlaywrightUtils import new_context, goto_with_retry, wait_for_items
 from util.Logger import Logger
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
@@ -51,6 +51,8 @@ class ValhallaScrapper:
     @staticmethod
     def get_urls(page: Page, previous_urls: Set[str], urls_file: TextIO, scroll_increment: int = 300) -> Set[Tuple[str, str]]:
         goto_with_retry(page, "https://www.valhallatavern.com/events-1")
+        # Squarespace renders the event list client-side — wait for it before measuring/scrolling.
+        wait_for_items(page.locator(".eventlist-event"))
         height: int = page.evaluate("document.body.scrollHeight")
         scrolled_amount = 0
         event_urls: Set[Tuple[str, str]] = set()
@@ -61,6 +63,9 @@ class ValhallaScrapper:
             page.evaluate(f"window.scrollBy(0, {scroll_increment})")
 
             scrolled_amount += scroll_increment
+            # Re-read height: scrolling lazy-loads more events, growing the page — without this the
+            # loop can stop before later events appear.
+            height = page.evaluate("document.body.scrollHeight")
             html = page.locator(".eventlist-event").all()
             for event in html:
                 title_element: Locator = event.locator(".eventlist-title").first

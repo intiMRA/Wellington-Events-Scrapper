@@ -3,7 +3,7 @@ from time import sleep
 from playwright.sync_api import sync_playwright, Page, Locator
 
 from util import FileUtils
-from util.PlaywrightUtils import new_context, goto_with_retry
+from util.PlaywrightUtils import new_context, goto_with_retry, wait_for_items
 from util.Logger import Logger
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
@@ -83,6 +83,9 @@ class WellingtonHighschoolScrapper:
             goto_with_retry(page, url)
             WellingtonHighschoolScrapper.slow_scroll_to_bottom(page)
             catalog = page.locator(".catalogue").first
+            # New category page — wait for its items before snapshotting (scrolling alone doesn't
+            # guarantee they've rendered).
+            wait_for_items(catalog.locator(".catalogue-item"))
             elements = catalog.locator(".catalogue-item").all()
             for element in elements:
                 event_url = element.locator("a").first.evaluate("a => a.href")
@@ -99,6 +102,9 @@ class WellingtonHighschoolScrapper:
     @staticmethod
     def get_categories(page: Page) -> List[Tuple[str, str]]:
         goto_with_retry(page, "https://www.cecwellington.ac.nz/w/courses/")
+        # Wait for the category filters to render — reading them too early would return no
+        # categories, which silently drops every event.
+        wait_for_items(page.locator(".radio-filter"))
         filters = page.locator(".radio-filter").all()
         categories: List[Tuple[str, str]] = []
         for f in filters:

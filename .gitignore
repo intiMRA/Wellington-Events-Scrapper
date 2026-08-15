@@ -8,6 +8,7 @@ duplicates.txt
 missingcats.txt
 ~/
 ChromeTestProfile
+.chrome-profile/
 
 # Regenerable / derived data artifacts — kept on disk, regenerate via the pipeline.
 # Hand-labeled data (training_data*, unclassified_data, ai_generates, *Banned) stays TRACKED.

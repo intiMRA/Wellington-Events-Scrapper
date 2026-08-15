@@ -9,7 +9,7 @@ from typing import List, Set, Optional, Tuple, TextIO
 import json
 from datetime import timedelta
 from playwright.sync_api import sync_playwright, Page, Locator
-from util.PlaywrightUtils import goto_with_retry
+from util.PlaywrightUtils import goto_with_retry, launch_stealth, stealth_page, wait_for_items
 from util.Logger import Logger
 class AllEventsInScrapper:
     @staticmethod
@@ -93,6 +93,7 @@ class AllEventsInScrapper:
                 Logger.info("loaded more")
         sleep(2)
         container: Locator = page.locator("[class*='eventlist-container']").first
+        wait_for_items(container.locator("[class*='link']"))
         events = container.locator("[class*='link']").all()
         Logger.info(f"event count: {len(events)}")
         for event in events:
@@ -142,6 +143,7 @@ class AllEventsInScrapper:
         if page.locator(".remaining-cat-count").count():
             page.locator(".remaining-cat-count").first.click()
         sleep(1)
+        wait_for_items(page.locator("[class*='cat-item']"))
         category_items: List[Locator] = page.locator("[class*='cat-item']").all()
         for category_item in category_items:
             category_name = category_item.inner_text()
@@ -165,14 +167,9 @@ class AllEventsInScrapper:
                 "https://allevents.in/waikanae",
                 "https://allevents.in/paraparaumu",
             ]
-            # Persistent profile keeps the (Facebook) login across runs; ~ must be expanded
-            # explicitly (Chrome/Playwright won't). launch_persistent_context replaces
-            # launch() + new_context() and returns the context directly.
-            # In-project Chrome profile (literal "~" folder in the repo root, gitignored via "~/").
-            profile_path = "~/ChromeTestProfile"
-            context = playwright.chromium.launch_persistent_context(user_data_dir=profile_path, headless=False)
-            # A persistent context already has a default page open — reuse it, don't open a second.
-            page = context.pages[0] if context.pages else context.new_page()
+            # Shared stealth Chrome profile (persistent — keeps the AllEventsIn login across runs).
+            context = launch_stealth(playwright, headless=False)
+            page = stealth_page(context)
             if fetch_urls:
                 urls_file.write("[\n")
                 for city_url in city_urls:
@@ -182,8 +179,8 @@ class AllEventsInScrapper:
                     # Reset the session between cities (a user_data_dir can only be held by one
                     # context at a time), mirroring the old driver.close() + reopen.
                     context.close()
-                    context = playwright.chromium.launch_persistent_context(user_data_dir=profile_path, headless=False)
-                    page = context.pages[0] if context.pages else context.new_page()
+                    context = launch_stealth(playwright, headless=False)
+                    page = stealth_page(context)
                 urls_file.write("]\n")
             else:
                 json.dump(list(event_urls), urls_file, indent=2)

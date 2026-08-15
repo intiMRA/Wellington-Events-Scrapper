@@ -10,7 +10,7 @@ from dateutil import parser
 from typing import List, Set, Optional, Dict, Tuple, TextIO
 from time import sleep
 from playwright.sync_api import sync_playwright, Page, Locator
-from util.PlaywrightUtils import goto_with_retry, new_context
+from util.PlaywrightUtils import goto_with_retry, new_context, wait_for_items
 from util.Logger import Logger
 
 class RoxyScrapper:
@@ -68,6 +68,7 @@ class RoxyScrapper:
             page.evaluate(f"window.scrollBy(0, {400});")
             scrolled_amount += 400
             sleep(1)
+        wait_for_items(page.locator(".poster-portrait-link"))
         films = page.locator(".poster-portrait-link").all()
         return set([(film.evaluate("f => f.href"), "") for film in films])
 
