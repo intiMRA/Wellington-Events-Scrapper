@@ -14,7 +14,7 @@ from pathlib import Path
 from dateutil.relativedelta import relativedelta
 from typing import List, Optional, Set, Tuple, TextIO
 from playwright.sync_api import sync_playwright, Page
-from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay
+from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay, stealth_page
 from util.Logger import Logger
 
 dotenv_path = Path('venv/.env')
@@ -198,10 +198,8 @@ class FacebookScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        # Persistent Chrome profile keeps the Facebook login across runs; run headed + stealth.
-        # In-project Chrome profile (the literal "~" folder in the repo root, gitignored via "~/")
-        # — it holds the logged-in Facebook session. NOT expanded to $HOME (that's a fresh profile).
-        profile_path = "~/ChromeTestProfile"
+        # Uses the shared stealth Chrome profile (chrome_profile_dir), which persists the
+        # Facebook login across runs. Run headed and log in once; the session is reused after.
         start_date = datetime.now()
         start_date_string = start_date.strftime("%Y-%m-%d") + "T05%3A00%3A00.000Z"
         end_date = start_date + relativedelta(days=15)
@@ -214,10 +212,8 @@ class FacebookScrapper:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.FACEBOOK)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.FACEBOOK)))
         with sync_playwright() as playwright:
-            context = launch_stealth(playwright, headless=False, user_data_dir=profile_path)
-            # A persistent context already has a default page open — reuse it instead of
-            # opening a second window with new_page().
-            page = context.pages[0] if context.pages else context.new_page()
+            context = launch_stealth(playwright, headless=False)
+            page = stealth_page(context)
             page.set_default_timeout(15000)
             if fetch_urls:
                 category_urls = FacebookScrapper.get_urls(urls_file, page, start_date_string, end_date_string,

@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright, Page
 
 from util import FileUtils
-from util.PlaywrightUtils import new_context, goto_with_retry
+from util.PlaywrightUtils import new_context, goto_with_retry, wait_for_items
 from util.Logger import Logger
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
@@ -44,6 +44,9 @@ class RougueScrapper:
         urls_file.write("[\n")
         event_urls: Set[str] = set()
         goto_with_retry(page, "https://rogueandvagabond.co.nz/", wait_until="networkidle")
+        # Wait for the event list to render before reading it — .all() takes a snapshot and would
+        # silently return nothing if the listing hasn't loaded yet.
+        wait_for_items(page.locator(".vevent"))
         titles = page.locator(".vevent").all()
         for title in titles:
             event_url = title.locator("a").first.evaluate("a => a.href")

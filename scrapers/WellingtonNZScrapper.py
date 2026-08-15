@@ -2,7 +2,7 @@ from datetime import datetime
 from time import sleep
 
 from util import FileUtils
-from util.PlaywrightUtils import new_context, goto_with_retry
+from util.PlaywrightUtils import new_context, goto_with_retry, wait_for_items
 from util.Logger import Logger
 from scrapers.ScrapperNames import ScraperName
 from util.DateFormatting import DateFormatting
@@ -119,6 +119,7 @@ class WellingtonNZScrapper:
         button = page.locator("[class*='filters-button__icon']").all()[-1]
         button.click()
         sleep(1)
+        wait_for_items(page.locator(".search-button-filter"))
         categories = page.locator(".search-button-filter").all()
         new_categories = []
         for cat in categories:
@@ -144,6 +145,7 @@ class WellingtonNZScrapper:
             number_of_events = [0, 1]
             # The &page=N URL is cumulative (page 2 = 50 items, page 3 = 75, ...), so the loop
             # above has now loaded every event for the category — collect them all.
+            wait_for_items(page.locator(".grid-item"))
             for event in page.locator(".grid-item").all():
                 event_url = event.locator("a").first.evaluate("a => a.href")
                 if event_url in previous_urls:

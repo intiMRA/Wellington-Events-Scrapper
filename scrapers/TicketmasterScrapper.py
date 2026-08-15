@@ -13,7 +13,7 @@ import time
 import pytz
 from typing import List, Optional, Set, Tuple, TextIO
 from playwright.sync_api import sync_playwright, Page, Locator
-from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay
+from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay, stealth_page
 from util.Logger import Logger
 
 nz_timezone = pytz.timezone('Pacific/Auckland')
@@ -375,7 +375,7 @@ class TicketmasterScrapper:
         with sync_playwright() as playwright:
             # Event detail pages (ticketmaster.co.nz / universe.com / moshtix) are bot-protected.
             context = launch_stealth(playwright, headless=False)
-            page = context.new_page()
+            page = stealth_page(context)
             out_file.write("[\n")
             for part in event_urls:
                 Logger.info(f"category: {part[1]} url: {part[0]}")

@@ -10,7 +10,7 @@ from dateutil import parser
 from typing import List, Optional, Set, Tuple, TextIO
 import json
 from playwright.sync_api import sync_playwright, Page
-from util.PlaywrightUtils import goto_with_retry, launch_stealth
+from util.PlaywrightUtils import goto_with_retry, launch_stealth, stealth_page, wait_for_items
 from util.Logger import Logger
 
 class HumanitixScrapper:
@@ -109,6 +109,7 @@ class HumanitixScrapper:
         categories_button = page.locator("#search-and-explore-dropdown")
         sleep(1)
         categories_button.click()
+        wait_for_items(page.locator("[data-dropdown-option='true']"))
         categories = page.locator("[data-dropdown-option='true']").all()
         categories = [(HumanitixScrapper.format_input(category.inner_text()), category.inner_text()) for category in categories]
         event_urls: Set[Tuple[str, str, bool]] = set()
@@ -128,6 +129,8 @@ class HumanitixScrapper:
                     page.evaluate(f"window.scrollBy(0, {100})")
 
                     scrolled_amount += 100
+                # New category page — wait for its events to render before snapshotting.
+                wait_for_items(page.locator('.test'))
                 events_data = page.locator('.test').all()
                 # Process this page's events BEFORE deciding to paginate — otherwise a category
                 # with no "Show More" (a single page) breaks out having collected nothing.
@@ -164,7 +167,7 @@ class HumanitixScrapper:
             # Humanitix has bot protection — stealth launch (headed, real UA, automation flags
             # stripped, navigator.webdriver hidden) replaces the old undetected-chromedriver setup.
             context = launch_stealth(playwright, headless=False)
-            page = context.new_page()
+            page = stealth_page(context)
             if fetch_urls:
                 event_urls = HumanitixScrapper.get_urls(page, previous_urls, urls_file)
             else:

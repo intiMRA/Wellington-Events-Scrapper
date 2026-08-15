@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright, Page, Locator
 from util import CurrentFestivals
 from util.DateFormatting import DateFormatting
 from util import FileUtils
-from util.PlaywrightUtils import new_context, goto_with_retry
+from util.PlaywrightUtils import new_context, goto_with_retry, wait_for_items
 from util.Logger import Logger
 from util import paths
 from scrapers.ScrapperNames import ScraperName
@@ -73,6 +73,9 @@ class FringeScrapper:
     def get_festival_urls(url: str, page: Page) -> Set[str]:
         goto_with_retry(page, url)
         sleep(3)
+        # Wait for the first event links to render before scrolling/collecting, so a slow load
+        # doesn't leave us collecting an empty page.
+        wait_for_items(page.locator("a[href*='/event/']"))
 
         # Scroll to load all events
         height = page.evaluate("document.body.scrollHeight")

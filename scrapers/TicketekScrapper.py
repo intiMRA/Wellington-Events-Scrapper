@@ -10,7 +10,7 @@ import re
 from dateutil import parser
 from typing import List, Optional, Set, Tuple, TextIO
 from playwright.sync_api import sync_playwright, Page, BrowserContext
-from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay
+from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay, stealth_page, wait_for_items
 from util.Logger import Logger
 
 class TicketekScrapper:
@@ -103,6 +103,7 @@ class TicketekScrapper:
     @staticmethod
     def get_urls(page: Page, previous_urls: Set[str], urls_file: TextIO) -> Set[Tuple[str, str]]:
         goto_with_retry(page, "https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
+        wait_for_items(page.locator(".cat-nav-item"))
         cats = page.locator(".cat-nav-item").all()
         cats = [(cat.inner_text(), cat.evaluate("a => a.href").split("c=")[-1]) for cat in cats if
                 len(cat.evaluate("a => a.href").split("c=")) > 1 and len(cat.inner_text()) > 0]
@@ -113,6 +114,10 @@ class TicketekScrapper:
             page_counter = 1
             while True:
                 goto_with_retry(page, f"https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington&page={page_counter}&c={categoryTag}")
+                # Wait for this category/page to populate (or show its "no results" marker) before
+                # snapshotting — a freshly navigated category takes a moment to render its events.
+                # The combined selector returns fast on empty pages instead of stalling the timeout.
+                wait_for_items(page.locator(".resultBuyNow, .noResultsMessage"))
                 buttons = page.locator(".resultBuyNow").all()
                 content_events = page.locator(".contentEvent").all()
                 for button, content_event in zip(buttons, content_events):
@@ -144,7 +149,7 @@ class TicketekScrapper:
         events_info: List[EventInfo] = []
         with sync_playwright() as playwright:
             context = launch_stealth(playwright, headless=False)
-            page = context.new_page()
+            page = stealth_page(context)
             if fetch_urls:
                 event_urls = TicketekScrapper.get_urls(page, previous_urls, urls_file)
             else:
