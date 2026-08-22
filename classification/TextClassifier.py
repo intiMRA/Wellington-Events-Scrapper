@@ -251,14 +251,14 @@ def load_models_from_file():
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
 if __name__ == "__main__":
-    should_train = False
+    should_train = True
 
     if should_train:
         train_from_manual_training_files()
 
     ga_output_combined = paths.data_path("training/ga_output_combined.json")
-
+    generated_data = paths.data_path("training/ga_output_combined.json")
     labels_out = predict_from_file(
-        ga_output_combined,
+        generated_data,
         False
     )
