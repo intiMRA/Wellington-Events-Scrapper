@@ -1,45 +1,5 @@
 [
 {
-  "id": "Avatar Earth Wind Fire Tribute-San Fran, Wellington-San Fran",
-  "name": "Avatar Earth Wind Fire Tribute",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/r/c/d/78519e93-a132-4245-b0c3-b24fa5fbb815.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-18-00:00"
-  ],
-  "displayDate": "Sun 18 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/avatar-earth-wind-and-fire-tribute-tickets-ae1690409",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Old Mervs-San Fran, Wellington-San Fran",
-  "name": "Old Mervs",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/s/s/y/56b46094-3397-461f-a77c-49f74b0eb920.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-11-06-00:00"
-  ],
-  "displayDate": "Fri 06 Nov",
-  "url": "https://www.sanfran.co.nz/all-events/old-mervs-tickets-ae1488974",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
   "id": "Flyte-San Fran, Wellington-San Fran",
   "name": "Flyte",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/x/m/e/20ee267f-9429-45b7-9cdb-77e0dac1763f.png",
