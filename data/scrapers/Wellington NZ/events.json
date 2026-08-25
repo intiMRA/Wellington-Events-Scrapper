@@ -19,4 +19,24 @@
   "description": "The Australian comedian, otherwise known as Heath Franklin, is storming The Opera House with his new show \u2018Chopper - Gold\u2019.\nAs usual, his take-no-prisoners sense of humour will be on display.\nFor his 2026 tour, he\u2019s delivering two decades of his funniest gags.\nExpect a big dose of swearing with big hits like Harden the F*** Up, The Weather sketch, and Shopping at Bunnings.\nWhen Chopper is not shocking crowds, he\u2019s appearing on New Zealand television show \u20187 Days\u2019.",
   "labels": []
 },
+{
+  "id": "The Beatles Anthology-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "The Beatles Anthology",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/2238a46e-ee0e-405d-bbf6-8d5d0d9eebae/The-Beatles-Anthology-3?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2027-06-23-01:01"
+  ],
+  "displayDate": "Wed 23 Jun",
+  "url": "https://www.wellingtonnz.com/visit/events/the-beatles-anthology",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "Tribute band The Beatles Anthology is coming to The Opera House in June. For two hours, the show will take you down the long and winding road of The Beatles\u2019 greatest hits. Expect the band to cover the era of matching suits and mop haircuts to the later experimental days. The four singers stand out for their authenticity and attention to detail, bringing the essence of The Beatles to life in every show.\u00a0\n\nYou might hear classics like Let It Be, Lucy in the Sky with Diamonds, and Yellow Submarine. Often regarded as the most influential band in popular music, The Beatles need little introduction. The Beatles Anthology brings a performance that captures the spirit of the Fab Four to Wellington audiences. This concert has the costumes, the hairstyles, the banter, and the gear. It\u2019s not The Beatles, but it\u2019ll feel like it.",
+  "description": "Tribute band The Beatles Anthology is coming to The Opera House in June.\nFor two hours, the show will take you down the long and winding road of The Beatles\u2019 greatest hits.\nExpect the band to cover the era of matching suits and mop haircuts to the later experimental days.\nThe four singers stand out for their authenticity and attention to detail, bringing the essence of The Beatles to life in every show.\nYou might hear classics like Let It Be, Lucy in the Sky with Diamonds, and Yellow Submarine.",
+  "labels": []
+},
 ]

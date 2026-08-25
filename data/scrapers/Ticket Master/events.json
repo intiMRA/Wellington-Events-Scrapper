@@ -9,11 +9,11 @@
     "long": 174.7779946
   },
   "dates": [
-    "2026-10-25-10:00",
-    "2026-10-25-10:00"
+    "2026-10-25-14:00",
+    "2026-10-25-14:00"
   ],
   "displayDate": "Sun 25 Oct + more",
-  "url": "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E3C3533515",
+  "url": "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E6AF3D1A4E",
   "source": "Ticket Master",
   "eventType": "Other",
   "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nJoin us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House. Discover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces. Led by expert guides, this tour takes you on a journey through over a century of theatre magic. Tread the boards in the footsteps of legendary performers. Uncover the secrets of stagecraft and marvel at the breathtaking details of these heritage-listed buildings. From opulent foyers and ornate auditoriums to backstage corridors brimming with history, you'll see the theatres as you've never seen them before. ",
@@ -21,8 +21,29 @@
   "labels": []
 },
 {
-  "id": "Sat, 7 Nov 2026, 5:00 pmSat, 7 Nov 2026, 5:00 pm-Go Media Stadium, Auckland, NZ-Ticket Master",
-  "name": "Sat, 7 Nov 2026, 5:00 pmSat, 7 Nov 2026, 5:00 pm",
+  "id": "Sun, 8 Nov 2026, 2:30 pmSun, 8 Nov 2026, 2:30 pm-Michael Fowler Centre, Wellington, NZ-Ticket Master",
+  "name": "Sun, 8 Nov 2026, 2:30 pmSun, 8 Nov 2026, 2:30 pm",
+  "imageUrl": "https://s1.ticketm.net/tm/en-nz/dam/a/71f/d26ff614-2617-479f-acde-0539f4ca371f_EVENT_DETAIL_PAGE_16_9.jpg",
+  "venue": "Michael Fowler Centre, Wellington, NZ",
+  "coordinates": {
+    "lat": -41.2895258,
+    "long": 174.7780167
+  },
+  "dates": [
+    "2026-11-08-14:30",
+    "2026-11-08-14:30"
+  ],
+  "displayDate": "Sun 08 Nov + more",
+  "url": "https://www.ticketmaster.co.nz/air-force-in-concert-featuring-bret-wellington-08-11-2026/event/240065138C2C1943",
+  "source": "Ticket Master",
+  "eventType": "Arts & Theatre",
+  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: Children under 2 years and under will be admitted free providing they sit on their caregiver's lap.\r\n\r\nBring the whole family! Join Bret McKenzie and the Royal New Zealand Air Force Band for an afternoon of musical delights showcasing hits from the Muppets, Flight of the Concords, and more. Air Force in Concert featuring Bret McKenzie on 8 November at the Michael Fowler Centre. Tickets via Ticketmaster-book now ",
+  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: Children under 2 years and under will be admitted free providing they sit on their caregiver's lap.\nBring the whole family!\nJoin Bret McKenzie and the Royal New Zealand Air Force Band for an afternoon of musical delights showcasing hits from the Muppets, Flight of the Concords, and more.\nAir Force in Concert featuring Bret McKenzie on 8 November at the Michael Fowler Centre.",
+  "labels": []
+},
+{
+  "id": "Sat, 13 Feb 2027, 5:00 pmSat, 13 Feb 2027, 5:00 pm-Go Media Stadium, Auckland, NZ-Ticket Master",
+  "name": "Sat, 13 Feb 2027, 5:00 pmSat, 13 Feb 2027, 5:00 pm",
   "imageUrl": "https://s1.ticketm.net/tm/en-nz/dam/a/b23/6d1bbeb1-6a5b-42b9-ad9e-be057c5fbb23_EVENT_DETAIL_PAGE_16_9.jpg",
   "venue": "Go Media Stadium, Auckland, NZ",
   "coordinates": {
@@ -30,11 +51,11 @@
     "long": 174.8122802
   },
   "dates": [
-    "2026-11-07-17:00",
-    "2026-11-07-17:00"
+    "2027-02-13-17:00",
+    "2027-02-13-17:00"
   ],
-  "displayDate": "Sat 07 Nov + more",
-  "url": "https://www.ticketmaster.co.nz/auckland-fc-v-wellington-phoenix-auckland-07-11-2026/event/2400650D9FFE2289",
+  "displayDate": "Sat 13 Feb + more",
+  "url": "https://www.ticketmaster.co.nz/auckland-fc-v-wellington-phoenix-auckland-13-02-2027/event/24006514BCCE3D8B",
   "source": "Ticket Master",
   "eventType": "Arts & Theatre",
   "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: Children aged 2 and under will be permitted free provided they do not occupy a seat. ",
@@ -42,86 +63,24 @@
   "labels": []
 },
 {
-  "id": "Enigma-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Enigma",
-  "imageUrl": "https://s1.ticketm.net/dam/a/2bd/c84c86bc-441b-41a6-8632-444ff42792bd_EVENT_DETAIL_PAGE_16_9.jpg",
+  "id": "Fri, 12 Mar 2027, 7:30 pmFri, 12 Mar 2027, 7:30 pm-Michael Fowler Centre, Wellington, NZ-Ticket Master",
+  "name": "Fri, 12 Mar 2027, 7:30 pmFri, 12 Mar 2027, 7:30 pm",
+  "imageUrl": "https://s1.ticketm.net/tm/en-nz/dam/a/de5/676e04bf-46d2-4b74-80bf-60009ad89de5_EVENT_DETAIL_PAGE_16_9.jpg",
   "venue": "Michael Fowler Centre, Wellington, NZ",
   "coordinates": {
     "lat": -41.2895258,
     "long": 174.7780167
   },
   "dates": [
-    "2026-11-13-18:30",
-    "2026-11-13-18:30"
+    "2027-03-12-19:30",
+    "2027-03-12-19:30"
   ],
-  "displayDate": "Fri 13 Nov + more",
-  "url": "https://www.ticketmaster.co.nz/enigma-wellington-13-11-2026/event/24006435E8822DE6",
+  "displayDate": "Fri 12 Mar + more",
+  "url": "https://www.ticketmaster.co.nz/miss-saigon-wellington-12-03-2027/event/240064FBDEEE355B",
   "source": "Ticket Master",
   "eventType": "Arts & Theatre",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: All ages event. All patrons must hold a valid ticket for entry. ",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: All ages event.\nAll patrons must hold a valid ticket for entry.",
-  "labels": []
-},
-{
-  "id": "Beethoven 9-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "Beethoven 9",
-  "imageUrl": "https://s1.ticketm.net/dam/a/2bd/c84c86bc-441b-41a6-8632-444ff42792bd_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2026-11-19-18:30",
-    "2026-11-19-18:30"
-  ],
-  "displayDate": "Thu 19 Nov + more",
-  "url": "https://www.ticketmaster.co.nz/beethoven-9-wellington-19-11-2026/event/24006435E91C2E1A",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: All ages event. All patrons must hold a valid ticket for entry. ",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: All ages event.\nAll patrons must hold a valid ticket for entry.",
-  "labels": []
-},
-{
-  "id": "Bootleg Rascal - \u2018Asleep In The Machine\u2019 10th Anniversary Tour-Valhalla Wellington, Wellington -Ticket Master",
-  "name": "Bootleg Rascal - \u2018Asleep In The Machine\u2019 10th Anniversary Tour",
-  "imageUrl": "https://www.moshtix.co.nz/uploads/7ca2fb41-1a0d-4c71-8412-ca685c2e0e33x600x600",
-  "venue": "Valhalla Wellington, Wellington ",
-  "coordinates": {
-    "lat": -41.2948002,
-    "long": 174.7753363
-  },
-  "dates": [
-    "2026-12-10-19:00"
-  ],
-  "displayDate": "Thu 10 Dec",
-  "url": "https://www.moshtix.co.nz/v2/event/bootleg-rascal-asleep-in-the-machine-10th-anniversary-tour/198141",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "long_description": "To celebrate the tenth anniversary of their critically-praised and fan-adored debut album 'Asleep In The Machine', Yugambeh/Gold Coast-based duo Bootleg Rascal have just announced a five-date New Zealand tour, taking place in December off the back of their Australian tour.\n\nStopping off in Wellington, Auckland, Christchurch and Queenstown, the band will perform tracks from 'Asleep In The Machine', plus their most recent and fourth self-titled studio album, and all the classics from their extended discography.\n\n'Asleep In The Machine' is one of Bootleg Rascal's most career-defining moments. Performing the title track on triple j's Like A Version, and amassing 35 million streams across Spotify and Apple Music, the record solidified the duo's signature blend of indie-rock, hip-hop, electronica and dub, ultimately serving as the catalyst for a decade of relentless touring and a fiercely loyal global fanbase.",
-  "description": "To celebrate the tenth anniversary of their critically-praised and fan-adored debut album 'Asleep In The Machine', Yugambeh/Gold Coast-based duo Bootleg Rascal have just announced a five-date New Zealand tour, taking place in December off the back of their Australian tour.\nStopping off in Wellington, Auckland, Christchurch and Queenstown, the band will perform tracks from 'Asleep In The Machine', plus their most recent and fourth self-titled studio album, and all the classics from their extended discography.\n'Asleep In The Machine' is one of Bootleg Rascal's most career-defining moments.\nPerforming the title track on triple j's Like A Version, and amassing 35 million streams across Spotify and Apple Music, the record solidified the duo's signature blend of indie-rock, hip-hop, electronica and dub, ultimately serving as the catalyst for a decade of relentless touring and a fiercely loyal global fanbase.",
-  "labels": []
-},
-{
-  "id": "The Beatles Anthology-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "The Beatles Anthology",
-  "imageUrl": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2027-06-23-19:30",
-    "2027-06-23-19:30"
-  ],
-  "displayDate": "Wed 23 Jun + more",
-  "url": "https://www.ticketmaster.co.nz/the-beatles-anthology-wellington-23-06-2027/event/2400650792F430BC",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs. The Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo. For further information, please contact us on 04 916 1205.\r\n\r\nJoin us on a Magical Mystery Tour to relive the years of The Greatest Rock 'n' Roll Band of all time \r\nThe Beatles need no introduction.. THE most influential, highest selling, most important band in music history. ",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo.\nJoin us on a Magical Mystery Tour to relive the years of The Greatest Rock 'n' Roll Band of all time The Beatles need no introduction..",
+  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: This show is recommended for ages 8+, all patrons require a ticket for entry.\r\n\r\nMiss Saigon is the second massively successful offering from the creators of Les Miserables. This semi-staged concert series of the epic score, featuring some of New Zealand's finest musical theatre talent, a local orchestra and a choir of forty is presented by G&T Productions. For more info click here(Opens in new tab)",
+  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: This show is recommended for ages 8+, all patrons require a ticket for entry.\nMiss Saigon is the second massively successful offering from the creators of Les Miserables.\nThis semi-staged concert series of the epic score, featuring some of New Zealand's finest musical theatre talent, a local orchestra and a choir of forty is presented by G&T Productions.",
   "labels": []
 },
 ]
