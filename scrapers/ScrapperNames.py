@@ -20,6 +20,7 @@ class ScraperName(StrEnum):
     ROXY = "Roxy Cinema"
     ALL_EVENTS_IN = "All Events In"
     FRINGE = "Fringe"
+    Mangaroa = "Mangaroa"
 
 
 now = datetime.now()
@@ -37,6 +38,7 @@ ALL_SCRAPER_NAMES: list[ScraperName] = [
     ScraperName.EVENT_FINDER,
     ScraperName.ALL_EVENTS_IN,
     ScraperName.WELLINGTON_NZ,
+    ScraperName.Mangaroa,
     ScraperName.ROXY,
     ScraperName.WELLINGTON_HERITAGE_FESTIVAL,
     ScraperName.FRINGE,
