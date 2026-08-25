@@ -17,6 +17,7 @@ from scrapers.RoxyScrapper import RoxyScrapper
 from scrapers.AllEventsInScrapper import AllEventsInScrapper
 from scrapers.WellingtonHeritageFestivalScrapper import WellingtonHeritageFestivalScrapper
 from scrapers.FringeScrapper import FringeScrapper
+from scrapers.MangaroaScrapper import MangaroaScrapper
 from model.EventInfo import EventInfo
 from scrapers.ScrapperNames import ScraperName
 
@@ -38,6 +39,7 @@ _SCRAPERS: dict[ScraperName, type] = {
     ScraperName.ALL_EVENTS_IN: AllEventsInScrapper,
     ScraperName.WELLINGTON_HERITAGE_FESTIVAL: WellingtonHeritageFestivalScrapper,
     ScraperName.FRINGE: FringeScrapper,
+    ScraperName.Mangaroa: MangaroaScrapper,
 }
 
 
