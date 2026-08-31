@@ -1,122 +1,22 @@
 [
 {
-  "id": "Community Tree\u00a0Planting on the Farm Loop-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Community Tree\u00a0Planting on the Farm Loop",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/Screenshot2026-08-19at3.49.20PM.png?v=1787111376&width=493",
+  "id": "Community Seed & Plant Swap-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
+  "name": "Community Seed & Plant Swap",
+  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/Screenshot2026-08-28at3.07.56PM.png?v=1787886492&width=1946",
   "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
   "coordinates": {
     "lat": -41.1452704,
     "long": 175.090018
   },
   "dates": [
-    "2026-08-29-09:30"
+    "2026-09-19-11:00"
   ],
-  "displayDate": "Sat 29 Aug",
-  "url": "https://store.mangaroa.org/products/fruit-forage-loop-planting-grafting-day-sat-29th-august",
+  "displayDate": "Sat 19 Sep",
+  "url": "https://store.mangaroa.org/products/community-seed-plant-swap-sat-19th-september",
   "source": "Mangaroa",
   "eventType": "Music & Concerts",
-  "long_description": "Come and help us plant the first chapter of the Mangaroa Fruit & Forage walking track.\n\nThanks to the incredible generosity of our community, and matched support through the Ma Earth Fund, we're excited to begin bringing this vision to life. Over the coming years, our 4km farm loop will become an edible landscape filled with heritage fruit trees, nuts, berries, medicinal plants, and foraging species. A place of abundance, learning, biodiversity, and community for generations to come.\n\nIt felt only right that a trail for the community, funded by the community, could also be planted by the community.\n\nBefore we get planting, local tree crop legends Hannah Dawson and Eric Cairns will share a few practical tips and some of the wisdom behind heritage fruit trees and long-term orchard establishment. Then we'll roll up our sleeves and begin planting the first section of what we hope becomes one of Mangaroa's most loved spaces.\n\nWhat to bring:\n\ud83e\udd7e Sturdy footwear\n\ud83c\udf26 Weather-appropriate clothing\n\ud83d\udca7 Water bottle\n\ud83e\ude8f A spade if you have one\n\nWhether you're sponsoring a tree, curious about the project, or simply keen to spend a morning outdoors doing something worthwhile, we'd love to have you with us.\n\nWe will begin at Sat 29th August | 9:30am at the Farm Shop - 98 Whitemans Valley Road.\n\nWe'll wrap up around 1:30pm with a classic Mangaroa sausage sizzle, good yarns, and a chance to celebrate the beginning of something special back at the Farm Shop.\n\nAny questions, please email events@mangaroa.org",
-  "description": "Come and help us plant the first chapter of the Mangaroa Fruit & Forage walking track.\nOver the coming years, our 4km farm loop will become an edible landscape filled with heritage fruit trees, nuts, berries, medicinal plants, and foraging species.\nA place of abundance, learning, biodiversity, and community for generations to come.\nBefore we get planting, local tree crop legends Hannah Dawson and Eric Cairns will share a few practical tips and some of the wisdom behind heritage fruit trees and long-term orchard establishment.\nThen we'll roll up our sleeves and begin planting the first section of what we hope becomes one of Mangaroa's most loved spaces.",
-  "labels": []
-},
-{
-  "id": "Mangaroa Farms Spring Festival-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Mangaroa Farms Spring Festival",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/FREEENTRYREGISTERATMANGAROA.ORG.png?v=1774226321&width=493",
-  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
-  "coordinates": {
-    "lat": -41.1452704,
-    "long": 175.090018
-  },
-  "dates": [
-    "2026-10-31-10:00"
-  ],
-  "displayDate": "Sat 31 Oct",
-  "url": "https://store.mangaroa.org/products/mangaroa-spring-festival-2026-sat-31st-october",
-  "source": "Mangaroa",
-  "eventType": "Music & Concerts",
-  "long_description": "Join us on Saturday 31 October from 10am\u20133pm for our Spring Festival \u2014 a special way to welcome the sun with a day of farm charm. Expect family-friendly activities including live music, kids activities, farm and garden tours, workshops, vendors and more. These events are our biggest day of the year, and certainly a great way to experience the joy of Mangaroa Farms.\n\nMore details to come - we look forward to seeing you in Spring.",
-  "description": "Join us on Saturday 31 October from 10am\u20133pm for our Spring Festival \u2014 a special way to welcome the sun with a day of farm charm.\nExpect family-friendly activities including live music, kids activities, farm and garden tours, workshops, vendors and more.\nThese events are our biggest day of the year, and certainly a great way to experience the joy of Mangaroa Farms.\nMore details to come - we look forward to seeing you in Spring.",
-  "labels": []
-},
-{
-  "id": "Sourdough Bread Baking Workshop-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Sourdough Bread Baking Workshop",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/EventsApril22_1_fe71c218-8a36-48e4-9eee-34e4837254e8.png?v=1785256059&width=493",
-  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
-  "coordinates": {
-    "lat": -41.1452704,
-    "long": 175.090018
-  },
-  "dates": [
-    "2026-10-17-10:00"
-  ],
-  "displayDate": "Sat 17 Oct",
-  "url": "https://store.mangaroa.org/products/sourdough-bread-baking-workshop-sat-17th-october",
-  "source": "Mangaroa",
-  "eventType": "Music & Concerts",
-  "long_description": "Join Mangaroa Farms for an afternoon in the kitchen with Doris Zuur, who has been baking the slow way for decades. Rye sourdoughs raised on a living starter, wholemeal loaves that rise through an afternoon, Swiss Zopf plaited by hand, focaccia, and a fermented buckwheat loaf for those who can't eat wheat. Her bread is the kind that fills a house with its smell and a table with quiet conversation.\n\nSpend an afternoon with her in our kitchen. You'll mix, knead, plait and bake alongside her. You'll learn how to keep a starter alive, how to read a dough by touch, and the small decisions (temperature, time, gusto) that turn flour and water into a good loaf.\n\nYou'll leave with:\n- A jar of living starter to take home\n- A warm loaf from the oven\n- Doris's full recipe collection (rye sourdough, wholemeal, Swiss Zopf, fermented buckwheat, focaccia, Oaties)\n- Her \"0800 bread helpline\" for when you need a hand at home\n\nAfternoon tea included. Bring a clean glass jar with a lid, an apron, and a willingness to slow down.\n\nWe will begin at Sat 17th October | 10:00am at 298 Whitemans Valley Road (Wharekai/Yurt).\n\nAny questions, please email events@mangaroa.org",
-  "description": "Join Mangaroa Farms for an afternoon in the kitchen with Doris Zuur, who has been baking the slow way for decades.\nHer bread is the kind that fills a house with its smell and a table with quiet conversation.\nSpend an afternoon with her in our kitchen.\nYou'll learn how to keep a starter alive, how to read a dough by touch, and the small decisions (temperature, time, gusto) that turn flour and water into a good loaf.\nYou'll leave with: - A jar of living starter to take home - A warm loaf from the oven - Doris's full recipe collection (rye sourdough, wholemeal, Swiss Zopf, fermented buckwheat, focaccia, Oaties) - Her \"0800 bread helpline\" for when you need a hand at home Afternoon tea included.",
-  "labels": []
-},
-{
-  "id": "Somatic Breathwork Journey-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Somatic Breathwork Journey",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/Events2026Rolling_3.png?v=1786064260&width=493",
-  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
-  "coordinates": {
-    "lat": -41.1452704,
-    "long": 175.090018
-  },
-  "dates": [
-    "2026-09-22-18:00"
-  ],
-  "displayDate": "Tue 22 Sep",
-  "url": "https://store.mangaroa.org/products/somatic-breathwork-journey-tue-22nd-september",
-  "source": "Mangaroa",
-  "eventType": "Music & Concerts",
-  "long_description": "Join Mangaroa Farms for Somatic Breathwork Journey \u2014 \u00a0Tue 22nd September | 6:00PM - 7:30PM\n\nJoin Amy Webber and Mangaroa Farms for a journey into your breath. Somatic Breathwork\u2122 is a full embodiment experience designed to help you release stress, trauma, emotions and stuck energy from the body. This powerful modality uses your own breath to shed layers that no longer serve you, creating space for meaningful change in your life.\n\nThrough consciously connected breathing patterns, you'll tap into your body's innate wisdom to discover areas needing clearing. The immersive musical experience may bring forth cathartic releases\u2014laughing, moving, crying, or shaking\u2014all welcome expressions that help move pent-up energy through your system.\n\nIn the second half of our journey, we'll shift to a gentler breathing technique, helping you reconnect with your true self. Together, we'll use the breath to envision how you want to show up in the world, the changes you wish to make, and gain clarity on living your best life.\n\nWe will begin at Tue 22nd Sep | 6:00pm at 298 Whitemans Valley Road (Wharekai/Yurt)\n\nAny questions, please email events@mangaroa.org",
-  "description": "Join Mangaroa Farms for Somatic Breathwork Journey \u2014 \u00a0Tue 22nd September | 6:00PM - 7:30PM Join Amy Webber and Mangaroa Farms for a journey into your breath.\nSomatic Breathwork\u2122 is a full embodiment experience designed to help you release stress, trauma, emotions and stuck energy from the body.\nThis powerful modality uses your own breath to shed layers that no longer serve you, creating space for meaningful change in your life.\nThrough consciously connected breathing patterns, you'll tap into your body's innate wisdom to discover areas needing clearing.\nThe immersive musical experience may bring forth cathartic releases\u2014laughing, moving, crying, or shaking\u2014all welcome expressions that help move pent-up energy through your system.",
-  "labels": []
-},
-{
-  "id": "Vegetable Fermentation Workshop-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Vegetable Fermentation Workshop",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/Events2026Rolling_2.png?v=1785654167&width=493",
-  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
-  "coordinates": {
-    "lat": -41.1452704,
-    "long": 175.090018
-  },
-  "dates": [
-    "2026-09-12-10:30"
-  ],
-  "displayDate": "Sat 12 Sep",
-  "url": "https://store.mangaroa.org/products/vegetable-fermentation-workshop-sat-12th-september",
-  "source": "Mangaroa",
-  "eventType": "Music & Concerts",
-  "long_description": "Join Mangaroa Farm and Hella Coenen for this hands-on vegetable fermentation workshop where you'll learn the art of making small quantities of different krauts at home, followed by a shared meal together.\n\nThis is a practical, get-your-hands-dirty kind of day where you'll discover the simple magic of fermentation and take home the skills to keep your kai alive with good bacteria.\n\nYou'll make and take home 3 different jars of vegetables to ferment at home, enjoy a shared meal where you can taste a variety of krauts, kombucha and sourdough bread, and be provided with starters, a detailed handout and recipes to continue your fermentation journey.\n\nWe will begin at Saturday 12th September, 10:30am at Wharekai - 298 Whitemans Valley Road.\n\nAny questions, please email events@mangaroa.org",
-  "description": "Join Mangaroa Farm and Hella Coenen for this hands-on vegetable fermentation workshop where you'll learn the art of making small quantities of different krauts at home, followed by a shared meal together.\nThis is a practical, get-your-hands-dirty kind of day where you'll discover the simple magic of fermentation and take home the skills to keep your kai alive with good bacteria.\nYou'll make and take home 3 different jars of vegetables to ferment at home, enjoy a shared meal where you can taste a variety of krauts, kombucha and sourdough bread, and be provided with starters, a detailed handout and recipes to continue your fermentation journey.\nWe will begin at Saturday 12th September, 10:30am at Wharekai - 298 Whitemans Valley Road.\nAny questions, please email events@mangaroa.org",
-  "labels": []
-},
-{
-  "id": "Foraging with Earth School Aotearoa | Spring has Sprung-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Foraging with Earth School Aotearoa | Spring has Sprung",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/1_f60464ba-22bc-42cc-84ac-03115bfe9ef6.png?v=1780579522&width=493",
-  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
-  "coordinates": {
-    "lat": -41.1452704,
-    "long": 175.090018
-  },
-  "dates": [
-    "2026-09-05-11:30"
-  ],
-  "displayDate": "Sat 05 Sep",
-  "url": "https://store.mangaroa.org/products/foraging-with-earth-school-aotearoa-spring-has-sprung-sat-5th-september",
-  "source": "Mangaroa",
-  "eventType": "Music & Concerts",
-  "long_description": "Join the Earth School Aotearoa theme for a wild forage walk, timed with the season . We are big believers in learning with our Children, be it adult ones, or younger, so this walk is priced per family, not per person. Come as one, or come as many and come for a wild forage walk looking at the early spring foraging, explore fresh roots and and a range of medicinal and edible plants. The walk is pram friendly, and will be about 1 hour.\n\nPrice is per family.\n\nPlease park in the paddock beside the shop and meet under the farm shop shelter.\n\nWet weather. We will notify if we need to cancel within 48 hours, if the weather is too wet we have alternative locations and we may choose to make food from foraged plants instead. However if it\u2019s too wet and cold we will likely cancel and you can join the following month. Please email hannah@earthschool.nz for any questions.",
-  "description": "Join the Earth School Aotearoa theme for a wild forage walk, timed with the season .\nWe are big believers in learning with our Children, be it adult ones, or younger, so this walk is priced per family, not per person.\nCome as one, or come as many and come for a wild forage walk looking at the early spring foraging, explore fresh roots and and a range of medicinal and edible plants.\nThe walk is pram friendly, and will be about 1 hour.\nWe will notify if we need to cancel within 48 hours, if the weather is too wet we have alternative locations and we may choose to make food from foraged plants instead.",
+  "long_description": "Join Mangaroa Farms for a Community Seed & Plant Swap, where we gather to share the abundance of our gardens and connect with fellow growers.\n\nWe're running a local seed and plant swap right here at the farm, next to the shop. It's a simple kaupapa: bring along any spare seeds or plants you'd like to pass on, pop them on the tables provided, and take home whatever catches your eye. All seeds should be labelled in bags, and plants labelled too so everyone knows what they're getting.\n\nThis is a chance to diversify your garden, meet other local growers, and keep the cycle of sharing alive. Whether you're after heritage varieties, curious about something new, or just keen to see what others are growing, you're welcome here.\n\nMangaroa Farms will have the coffee cart running, and the farm shop will be open if you need to stock up on anything else. Parking will be in a paddock a short walk from the shop.\n\nRemember to bring your own envelopes or bags, labels and a pen to collect any seeds that take your interest.\n\nWe will begin at Sat 19th September | 11:00am at 98 Whitemans Valley Road (Garden Tour or Shop). Any questions, please email events@mangaroa.org",
+  "description": "We're running a local seed and plant swap right here at the farm, next to the shop.\nIt's a simple kaupapa: bring along any spare seeds or plants you'd like to pass on, pop them on the tables provided, and take home whatever catches your eye.\nAll seeds should be labelled in bags, and plants labelled too so everyone knows what they're getting.\nThis is a chance to diversify your garden, meet other local growers, and keep the cycle of sharing alive.\nMangaroa Farms will have the coffee cart running, and the farm shop will be open if you need to stock up on anything else.",
   "labels": []
 },
 ]

@@ -1,25 +1,5 @@
 [
 {
-  "id": "Bojack Funkman-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Bojack Funkman",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104308-772036.jpg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2026-09-04-21:30"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "http://www.undertheradar.co.nz/gig/104308/Bojack-Funkman.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "long_description": "Fronted by Ben Hunt, Andre Paris, and Kaito Walley, with an all-star cast of rhythm section virtuosos, this crossover episode brings together music by: Lettuce, Takuya Kuroda, Jonathan Crayford, and more! Stay home? Neigh way, Jos\u00e9!\n\nBen Hunt - trumpet/percussion\nAndre Paris - saxophone/percussion\nKaito Walley - trombone/percussion\nBlair Gowan - keys\nPetar Tavich - guitar\nEmma Hattaway - bass\nDarren Mathieson - drums\n\nMusic from 9:30pm, FREE ENTRY - Koha for the band encouraged!",
-  "description": "Fronted by Ben Hunt, Andre Paris, and Kaito Walley, with an all-star cast of rhythm section virtuosos, this crossover episode brings together music by: Lettuce, Takuya Kuroda, Jonathan Crayford, and more!\nStay home?\nNeigh way, Jos\u00e9!\nBen Hunt - trumpet/percussion Andre Paris - saxophone/percussion Kaito Walley - trombone/percussion Blair Gowan - keys Petar Tavich - guitar Emma Hattaway - bass Darren Mathieson - drums Music from 9:30pm, FREE ENTRY - Koha for the band encouraged!",
-  "labels": []
-},
-{
   "id": "The Racket Lounge-The Rogue & Vagabond-Rogue & Vagabond",
   "name": "The Racket Lounge",
   "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102969-37463.jpg",
@@ -37,86 +17,6 @@
   "eventType": "Music & Concerts",
   "long_description": "Grab a spot on our couch and enjoy the noise at The Racket Lounge - a chill classical music series showcasing up-and-coming P\u014dneke musicians.\n\nIf you\u2019ve never been to a classical concert before, or if you have and now you want to see talented emerging musicians experimenting and playing what they want to play, then The Racket Lounge is for you. Over the past two seasons we\u2019ve seen classical covers, jazz ensembles, video game soundtracks, original compositions, loop pedals, poetry and much more. Our 2026 season is shaping up to be just as epic, plus with your tickets starting at just $5 you can afford to take a chance on something new.\n\nEach concert will feature a different line up of musicians and genres, to be announced a week before each session. If you\u2019re a musician looking to perform at The Racket Lounge, then head to the New Zealand String Quartet\u2019s website to see how to apply.\n\n\n\nThe Racket Lounge is created and presented by the New Zealand String Quartet Trust - Te R\u014dp\u016b T\u016br\u016b o Aotearoa, New Zealand\u2019s longest-running professional string quartet. With support from Wellington City Council.\n\nTickets are choose your price starting from just $5.\n\nPlease note that Bedlam & Squalor is a licensed venue, so under 18s must be accompanied by a parent or legal guardian. Everyone must bring ID.",
   "description": "Grab a spot on our couch and enjoy the noise at The Racket Lounge - a chill classical music series showcasing up-and-coming P\u014dneke musicians.\nIf you\u2019ve never been to a classical concert before, or if you have and now you want to see talented emerging musicians experimenting and playing what they want to play, then The Racket Lounge is for you.\nOur 2026 season is shaping up to be just as epic, plus with your tickets starting at just $5 you can afford to take a chance on something new.\nIf you\u2019re a musician looking to perform at The Racket Lounge, then head to the New Zealand String Quartet\u2019s website to see how to apply.\nTickets are choose your price starting from just $5.",
-  "labels": []
-},
-{
-  "id": "Slow Jazz Ensemble-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Slow Jazz Ensemble",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104170-585010.jpg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2026-09-24-20:00"
-  ],
-  "displayDate": "Thu 24 Sep",
-  "url": "http://www.undertheradar.co.nz/gig/104170/Slow-Jazz-Ensemble.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "long_description": "Following a year-long hiatus, Slow Jazz Ensemble return for an exclusive free show at the Rogue & Vagabond on September 24th. They\u2019ll be presenting brand-new compositions, full of immersive textural soundscapes inspired by their home in Te Whanganui-a-Tara.\n\nFREE ENTRY - Koha for the band encouraged\n\nMusic from 8:00 pm",
-  "description": "Following a year-long hiatus, Slow Jazz Ensemble return for an exclusive free show at the Rogue & Vagabond on September 24th.\nThey\u2019ll be presenting brand-new compositions, full of immersive textural soundscapes inspired by their home in Te Whanganui-a-Tara.\nFREE ENTRY - Koha for the band encouraged Music from 8:00 pm",
-  "labels": []
-},
-{
-  "id": "Rory Johns And The Mystic-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Rory Johns And The Mystic",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104171-426112.jpg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2026-09-10-20:00"
-  ],
-  "displayDate": "Thu 10 Sep",
-  "url": "http://www.undertheradar.co.nz/gig/104171/Rory-Johns-And-The-Mystic.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "long_description": "Rory Johns and The Mystic is a jazz-influenced ensemble led by pianist Rory Johns.\n\nDrawing on influences such as Nala Sinephro, Ancient Infinity Orchestra, and Bill Laurance, the group blends contemporary jazz, ambient textures, and improvisation to create immersive, atmospheric music that moves fluidly between composed passages and spontaneous exploration.\n\nMusic from 8pm, FREE ENTRY - Koha for the band encouraged!",
-  "description": "Rory Johns and The Mystic is a jazz-influenced ensemble led by pianist Rory Johns.\nDrawing on influences such as Nala Sinephro, Ancient Infinity Orchestra, and Bill Laurance, the group blends contemporary jazz, ambient textures, and improvisation to create immersive, atmospheric music that moves fluidly between composed passages and spontaneous exploration.\nMusic from 8pm, FREE ENTRY - Koha for the band encouraged!",
-  "labels": []
-},
-{
-  "id": "Loose Parts-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Loose Parts",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104172-518794.jpeg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2026-09-19-21:30"
-  ],
-  "displayDate": "Sat 19 Sep",
-  "url": "http://www.undertheradar.co.nz/gig/104172/Loose-Parts.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "long_description": "Loose Parts is an all new dance-music project inspired by live broken beats, jungle and liquid funk music non-stop all throughout the night! Taking inspiration from classic dance floor rhythms and sounds, they will be putting their own spin on club and DJ music via the form of a live band, steeped in jazz and improvisation.\n\nLoose Parts consists of:\n\nAlex Vujanic - saxophone and samples\nJamin Forlong - guitar\nSam Hunter - keyboard\nTyaan Singh - bass\nAteo Buhne - drums\n\nMusic from 9:30pm, FREE ENTRY - Koha for the band appreciated!",
-  "description": "Loose Parts is an all new dance-music project inspired by live broken beats, jungle and liquid funk music non-stop all throughout the night!\nTaking inspiration from classic dance floor rhythms and sounds, they will be putting their own spin on club and DJ music via the form of a live band, steeped in jazz and improvisation.\nLoose Parts consists of: Alex Vujanic - saxophone and samples Jamin Forlong - guitar Sam Hunter - keyboard Tyaan Singh - bass Ateo Buhne - drums Music from 9:30pm, FREE ENTRY - Koha for the band appreciated!",
-  "labels": []
-},
-{
-  "id": "Jams With D And Muss-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Jams With D And Muss",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104299-300049.jpg",
-  "venue": "The Rogue & Vagabond",
-  "coordinates": {
-    "lat": -41.29336,
-    "long": 174.7745002
-  },
-  "dates": [
-    "2026-08-28-21:30"
-  ],
-  "displayDate": "Fri 28 Aug",
-  "url": "http://www.undertheradar.co.nz/gig/104299/Jams-With-D-And-Muss.utr",
-  "source": "Rogue & Vagabond",
-  "eventType": "Music & Concerts",
-  "long_description": "Come on down and get some jazz in your ears with D, Muss and Guests!\n\nJames Illingworth (Louis Baker Band) - Keys\nDarren Mathiassen (Shapeshifter) - Drums\n\nMany special guests!\n\nMusic from 9pm FREE ENTRY - Koha for the band encouraged",
-  "description": "Come on down and get some jazz in your ears with D, Muss and Guests!\nJames Illingworth (Louis Baker Band) - Keys Darren Mathiassen (Shapeshifter) - Drums Many special guests!\nMusic from 9pm FREE ENTRY - Koha for the band encouraged",
   "labels": []
 },
 ]

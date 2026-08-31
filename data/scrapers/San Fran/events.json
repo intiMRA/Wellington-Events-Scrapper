@@ -1,65 +1,5 @@
 [
 {
-  "id": "Eyegum free Wednesdays Danica Bryant Kloey taxx-San Fran, Wellington-San Fran",
-  "name": "Eyegum free Wednesdays Danica Bryant Kloey taxx",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/h/e/d/c085386f-b9a5-4218-abf8-efe78e88d462.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-08-26-00:00"
-  ],
-  "displayDate": "Wed 26 Aug",
-  "url": "https://www.sanfran.co.nz/all-events/danica-bryant-and-kloey-taxx-tickets-ae1692183",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Daffodil Dancefloor Cancer Society Fundraiser-San Fran, Wellington-San Fran",
-  "name": "Daffodil Dancefloor Cancer Society Fundraiser",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/o/u/m/098e4876-91b7-47a9-8cf3-cc66a9a96ebf.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-08-28-00:00"
-  ],
-  "displayDate": "Fri 28 Aug",
-  "url": "https://www.sanfran.co.nz/all-events/daffodil-dancefloor-tickets-ae1620366",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "24 Hour Party People-San Fran, Wellington-San Fran",
-  "name": "24 Hour Party People",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/a/b/x/af7f699c-f731-49e5-9013-19526631720d.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-08-29-00:00"
-  ],
-  "displayDate": "Sat 29 Aug",
-  "url": "https://www.sanfran.co.nz/all-events/24-hour-party-people-tickets-ae288274",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
   "id": "KPOP Club Night-San Fran, Wellington-San Fran",
   "name": "KPOP Club Night",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/h/l/k/a90a3fa3-6fbf-4daf-b678-207a45a709ab.png",
@@ -360,6 +300,26 @@
   "labels": []
 },
 {
+  "id": "Myshaan-San Fran, Wellington-San Fran",
+  "name": "Myshaan",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/w/v/q/32accb98-75ec-46b4-839e-82d94b478f69.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-11-07-00:00"
+  ],
+  "displayDate": "Sat 07 Nov",
+  "url": "https://www.sanfran.co.nz/all-events/myshaan-tickets-ae1693142",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Flyte-San Fran, Wellington-San Fran",
   "name": "Flyte",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/x/m/e/20ee267f-9429-45b7-9cdb-77e0dac1763f.png",
@@ -539,3 +499,4 @@
   "description": "",
   "labels": []
 },
+]

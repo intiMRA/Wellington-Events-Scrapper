@@ -1,5 +1,45 @@
 [
 {
+  "id": "An Audience with Sir Tony Robinson-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "An Audience with Sir Tony Robinson",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/a678ba1e-7427-4a5a-a052-1e69a355a304/An-Audience-with-Sir-Tony-Robinson?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2026-11-28-01:01"
+  ],
+  "displayDate": "Sat 28 Nov",
+  "url": "https://www.wellingtonnz.com/visit/events/an-audience-with-sir-tony-robinson",
+  "source": "Wellington NZ",
+  "eventType": "Other",
+  "long_description": "After a sold-out tour in early 2026, Sir Tony Robinson brings his talk show back to Wellington. Catch \u2018An Audience with Sir Tony Robinson\u2019 at The Opera House. The television presenter, actor, and award-winning writer has an impressive decades-long career. Tony will divulge behind-the-scenes stories from his life on and off screen. He\u2019ll then read from his fiction debut\u202f\u2018The House of Wolf\u2019, an epic tale of Alfred the Great and the bloody birth of England. He won\u2019t hog the microphone the whole time \u2014 you\u2019ll also get the chance to ask him questions. Expect masterful storytelling from Tony and lots of laughs from the audience.\u00a0\n\nYou might have seen Tony play Baldrick in\u202fRowan Atkinson\u2019s cult 80s sitcom \u2018Blackadder\u2019. In the show, his \u201cI have a cunning plan\u201d catchphrase and comedic timing made him a household name. He\u2019s also celebrated for his work in historical broadcasting, which includes presenting 20 seasons of\u202f\u2018Time Team\u2019. His infectious enthusiasm for history continued, as he wrote his first novel aged 78. The book delves into the (often grim) realities of life for ordinary people caught between Saxon kings and Viking raiders.",
+  "description": "After a sold-out tour in early 2026, Sir Tony Robinson brings his talk show back to Wellington.\nCatch \u2018An Audience with Sir Tony Robinson\u2019 at The Opera House.\nThe television presenter, actor, and award-winning writer has an impressive decades-long career.\nHe won\u2019t hog the microphone the whole time \u2014 you\u2019ll also get the chance to ask him questions.\nExpect masterful storytelling from Tony and lots of laughs from the audience.",
+  "labels": []
+},
+{
+  "id": "Air Force in Concert with Bret McKenzie-Michael Fowler Centre, Wellington, New Zealand-Wellington NZ",
+  "name": "Air Force in Concert with Bret McKenzie",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/73b17186-b3f0-468b-bc6a-ed052eb0e7bf/Air-Force-in-Concert-with-Bret-McKenzie?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "Michael Fowler Centre, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2895258,
+    "long": 174.7780167
+  },
+  "dates": [
+    "2026-11-08-01:01"
+  ],
+  "displayDate": "Sun 08 Nov",
+  "url": "https://www.wellingtonnz.com/visit/events/air-force-in-concert-with-bret-mckenzie",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "Join two major Wellington talents for an afternoon of musical delights. The Michael Fowler Centre hosts a collaborative show for the whole family. \u2018Air Force in Concert with Bret McKenzie\u2019 includes kid-friendly hits from Flight of the Conchords, The Muppets, The Black Seeds, and Brett's recent album. The band plays tunes ranging from symphonic favourites and toe-tapping marches to movie classics and pop hits. There\u2019s a rumour that a sousaphone will be one of the instruments that makes an appearance. Expect laughs, expect brass, expect philosophical lyrics like \u201clife\u2019s a fillet of fish\u201d.\u00a0\n\nBret is best known as one half of the internationally celebrated comedy duo Flight of the Conchords. He formed it with Jemaine Clement in 1998. Since then, he\u2019s become a Grammy and Academy Award-winning songwriter and performer. Known for crafting witty and wonderful songs. The Royal New Zealand Air Force Band is a reserve force military band based in Wellington. They perform regularly to welcome dignitaries at the Government House and Parliament. They also provide music for parades and commemorations at Pukeahu National War Memorial.",
+  "description": "Join two major Wellington talents for an afternoon of musical delights.\nThe Michael Fowler Centre hosts a collaborative show for the whole family.\n\u2018Air Force in Concert with Bret McKenzie\u2019 includes kid-friendly hits from Flight of the Conchords, The Muppets, The Black Seeds, and Brett's recent album.\nThere\u2019s a rumour that a sousaphone will be one of the instruments that makes an appearance.\nExpect laughs, expect brass, expect philosophical lyrics like \u201clife\u2019s a fillet of fish\u201d.",
+  "labels": []
+},
+{
   "id": "Chopper \u2014 Gold-The Opera House, Wellington, New Zealand-Wellington NZ",
   "name": "Chopper \u2014 Gold",
   "imageUrl": "https://wellingtonnz.bynder.com/transform/c4c92a18-0ff1-433d-b7d4-0231cf9e3236/Chopper-Gold?quality=80&io=transform:fill,width:576,height:450",
@@ -37,6 +77,35 @@
   "eventType": "Music & Concerts",
   "long_description": "Tribute band The Beatles Anthology is coming to The Opera House in June. For two hours, the show will take you down the long and winding road of The Beatles\u2019 greatest hits. Expect the band to cover the era of matching suits and mop haircuts to the later experimental days. The four singers stand out for their authenticity and attention to detail, bringing the essence of The Beatles to life in every show.\u00a0\n\nYou might hear classics like Let It Be, Lucy in the Sky with Diamonds, and Yellow Submarine. Often regarded as the most influential band in popular music, The Beatles need little introduction. The Beatles Anthology brings a performance that captures the spirit of the Fab Four to Wellington audiences. This concert has the costumes, the hairstyles, the banter, and the gear. It\u2019s not The Beatles, but it\u2019ll feel like it.",
   "description": "Tribute band The Beatles Anthology is coming to The Opera House in June.\nFor two hours, the show will take you down the long and winding road of The Beatles\u2019 greatest hits.\nExpect the band to cover the era of matching suits and mop haircuts to the later experimental days.\nThe four singers stand out for their authenticity and attention to detail, bringing the essence of The Beatles to life in every show.\nYou might hear classics like Let It Be, Lucy in the Sky with Diamonds, and Yellow Submarine.",
+  "labels": []
+},
+{
+  "id": "Miss Saigon-Michael Fowler Centre, Wellington, New Zealand-Wellington NZ",
+  "name": "Miss Saigon",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/86d5dad6-2bd4-4bbf-b83b-c3f7980e1041/Miss-Saigon?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "Michael Fowler Centre, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2895258,
+    "long": 174.7780167
+  },
+  "dates": [
+    "2027-03-12-01:01",
+    "2027-03-13-01:01",
+    "2027-03-14-01:01",
+    "2027-03-15-01:01",
+    "2027-03-16-01:01",
+    "2027-03-17-01:01",
+    "2027-03-18-01:01",
+    "2027-03-19-01:01",
+    "2027-03-20-01:01",
+    "2027-03-21-01:01"
+  ],
+  "displayDate": "Fri 12 Mar + more",
+  "url": "https://www.wellingtonnz.com/visit/events/miss-saigon",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "Tragic pop-musical Miss Saigon hasn\u2019t played Wellington in over 15 years. Fabulous soloists, a 40-strong local choir, and a live orchestra are rectifying that in 2027. G&T Productions brings a semi-staged concert to the Michael Fowler Centre. This format puts the performers and music front and centre. Set during the final days of the Vietnam War in 1975, Miss Saigon is a heartbreaking, bold, and gripping musical theatre piece.\u00a0\n\nFrom the songwriting team behind \u2018Les Mis\u00e9rables\u2019, Miss Saigon is a tragic love story of a young Vietnamese woman (Kim) who falls in love with an American soldier (Chris). Saigon falls, and their story unfolds alongside the Engineer, a ruthless survivor chasing his own \u2018American Dream\u2019.\u00a0\n\nWellingtonian Maya Handa Naff plays Kim. She has previously sung the role in the United States. Maya is an actor, director, and teacher whose Wellington performance credits include \u2018Wicked\u2019 (Glinda) and \u2018Les Mis\u00e9rables\u2019 (Eponine). Director and actor Kyle Chuen plays Chris. Laurence Mossman returns as Thuy after performing the part on Australian and international tours. Expect to hear songs like I\u2019d Give My Life for You, Why God Why, and Bui Doi.",
+  "description": "Fabulous soloists, a 40-strong local choir, and a live orchestra are rectifying that in 2027.\nG&T Productions brings a semi-staged concert to the Michael Fowler Centre.\nThis format puts the performers and music front and centre.\nFrom the songwriting team behind \u2018Les Mis\u00e9rables\u2019, Miss Saigon is a tragic love story of a young Vietnamese woman (Kim) who falls in love with an American soldier (Chris).\nDirector and actor Kyle Chuen plays Chris.",
   "labels": []
 },
 ]

@@ -1,18 +1,98 @@
 [
 {
-  "id": "Sunday Jazz-Garibaldi Club, 118 Tory St, Te Aro, Wellington 6011, New Zealand-Facebook",
-  "name": "Sunday Jazz",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/721430354_954184764331662_6548972454645360188_n.jpg?stp=dst-jpg_tt6&cstp=mx1432x634&ctp=s1432x634&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=YVXQs1xqdQEQ7kNvwFN3IZL&_nc_oc=Adr5QNMib9gwk6_wHZP3IMvtMx3xWY-f4_myugYRBbKHvqaaIDgUyllippy5Ad4Z4nFK6Wo6XmwuTBhQB3zDkSBA&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=-_0nXJ_U2huqWHyoiIxsOg&_nc_ss=7e2a8&oh=00_AQEQAkCCLmcQXcunaavsoT7TABJsUdhP1TMt3sYcey3daw&oe=6A934AD5",
-  "venue": "Garibaldi Club, 118 Tory St, Te Aro, Wellington 6011, New Zealand",
+  "id": "Futuna Chapel Open Sundays-62 Friend St, Karori, Wellington 6012, New Zealand-Facebook",
+  "name": "Futuna Chapel Open Sundays",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/716190544_1310616891252489_6565929590035230867_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ibo-UoQlQS4Q7kNvwE7nYrV&_nc_oc=AdrLDpA99WYnRV3uVp0jYI19g8NDNb0huyjmbFxAL04pZH8eYMBGwKmtR5DWYWEWV4kGucL6Nnj6vvMbLfAto-yY&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=BIae_WJCdvA0R0tc-WfMTw&_nc_ss=7e2a8&oh=00_AQJ_dWuJPVJumoskz08zacCaOOR7cfDounZzPFYNaUB4iA&oe=6A9907AA",
+  "venue": "62 Friend St, Karori, Wellington 6012, New Zealand",
   "coordinates": {
-    "lat": -41.2960797,
-    "long": 174.7795355
+    "lat": -41.2821056,
+    "long": 174.7385899
   },
   "dates": [
-    "2026-08-30-15:30"
+    "2026-09-06-11:00"
+  ],
+  "displayDate": "Sun 06 Sep",
+  "url": "https://www.facebook.com/events/829048563334027",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Come Together - Talking Head's Stop Making Sense - Wellington-Courtenay Place, Wellington, Wellington-Facebook",
+  "name": "Come Together - Talking Head's Stop Making Sense - Wellington",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/639168303_1484871616979701_565602732389669026_n.jpg?stp=dst-jpg_tt6&cstp=mx1170x504&ctp=s1170x504&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=YH0hY9C2BaoQ7kNvwH3NXBA&_nc_oc=AdqP3nEFNsK7g_CaKf-scywKNdcnmKIXPic9XfSwo9TQqQf84grqhrYHiIqynqgZTJ2u_qAc7HCeTnNJbYuPRuT3&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=xO8YuLK08z9Zf_BjBULx4Q&_nc_ss=7e2a8&oh=00_AQLOs8W4YdOwbMOJLt__N8ddLMao1uwXKQHnHu2LuzQY2g&oe=6A98FE49",
+  "venue": "Courtenay Place, Wellington, Wellington",
+  "coordinates": {
+    "lat": -41.2931539,
+    "long": 174.7804251
+  },
+  "dates": [
+    "2026-09-03-20:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/2117782889031298",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Linden Community Social Connect Hub-Linden Social Centre, 10 Linden Ave, Tawa, Wellington 5028, New Zealand-Facebook",
+  "name": "Linden Community Social Connect Hub",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/569113922_1146233740948707_803700089640879285_n.jpg?stp=dst-jpg_tt6&cstp=mx1773x1182&ctp=s1773x1182&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=8yGZsZk-RrYQ7kNvwF8PXC6&_nc_oc=Adrni4-n2ztkj9vBDG6qkOk0QkOgLhm3SxUMsD_e2AkCJ7jq82sBS3MqXRiPq4RRPoYqjXAY5KOzYofpkqOtA7nn&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=a4ppAcPJoIRWsTTo_o2EpA&_nc_ss=7e2a8&oh=00_AQINYz5zAhrp4ft4pAtqFIA2Dx87_OIeuHJWKPDMHN4Q1A&oe=6A992C43",
+  "venue": "Linden Social Centre, 10 Linden Ave, Tawa, Wellington 5028, New Zealand",
+  "coordinates": {
+    "lat": -41.1572003,
+    "long": 174.83166
+  },
+  "dates": [
+    "2026-09-08-13:00"
+  ],
+  "displayDate": "Tue 08 Sep",
+  "url": "https://www.facebook.com/events/1772410873561212",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "The Broken Heartbreakers with Eigenface-93 Mornington Rd, Brooklyn, Wellington 6021, New Zealand-Facebook",
+  "name": "The Broken Heartbreakers with Eigenface",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/713585907_1623886063077702_8419283847912949420_n.jpg?stp=dst-jpg_tt6&cstp=mx1217x645&ctp=s1217x645&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=PNwodsQ3N58Q7kNvwGfBXEN&_nc_oc=Adr0_xSN7CQK9JNO7QnMsES6XYfewmthtYg_lmUigk0IBgsLkrUj4UlqYKprRNIa-v_a6rzv0MZsAAUh5rr4i3PQ&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=nIh08AK6xpSE758G8b20rg&_nc_ss=7e2a8&oh=00_AQJ5E1XDc_EAaDlWbK9lyaaY8_6gA8szmUdRjM44mUsMjg&oe=6A98FF28",
+  "venue": "93 Mornington Rd, Brooklyn, Wellington 6021, New Zealand",
+  "coordinates": {
+    "lat": -41.3141528,
+    "long": 174.7642726
+  },
+  "dates": [
+    "2026-09-12-19:00"
+  ],
+  "displayDate": "Sat 12 Sep",
+  "url": "https://www.facebook.com/events/988999850498838",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "T\u016aMANAKO! HOPE! Children's art. Works for a peaceful world-34 Moorefield Rd, Johnsonville, Wellington 6037, New Zealand-Facebook",
+  "name": "T\u016aMANAKO! HOPE! Children's art. Works for a peaceful world",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/641398858_1227644222889267_6094504854630583285_n.jpg?stp=dst-jpg_tt6&cstp=mx940x788&ctp=s940x788&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=4OcmWKXEjvUQ7kNvwEwSpVx&_nc_oc=AdrLmIMknak34tlsa66h6CtVsc58rD2hujbBfUolg5tQbTMHfRP7FHMq58ukKHtlD1cdcw4R95mcH9MOu6535kaO&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=LNPbYyCQEdozzZbpN_UhOQ&_nc_ss=7e2a8&oh=00_AQJ9_vz9fPReWWS7dJAOAsVuAL6Qg3iE-4Kto5LH9mNTfw&oe=6A99054F",
+  "venue": "34 Moorefield Rd, Johnsonville, Wellington 6037, New Zealand",
+  "coordinates": {
+    "lat": -41.2227905,
+    "long": 174.8047695
+  },
+  "dates": [
+    "2026-08-30-10:00"
   ],
   "displayDate": "Sun 30 Aug",
-  "url": "https://www.facebook.com/events/2285742268942730",
+  "url": "https://www.facebook.com/events/1436458761536560",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -20,19 +100,19 @@
   "labels": []
 },
 {
-  "id": "VT for Michael C-167 Riddiford St, Newtown, Wellington-Facebook",
-  "name": "VT for Michael C",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/784433134_4176401945828076_418002157254866689_n.jpg?stp=dst-jpg_tt6&cstp=mx723x586&ctp=s723x586&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FEC4XCt4DKgQ7kNvwEWnR25&_nc_oc=AdrAmCsfepkTnOyMaHWy8TyF0q5CMDuKRiaYmT42iB5w-2-mc9IseOypRH7yKFAoYhRk9gA1uFR_vEZ-XLXG-04e&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=SXHy-vxOphahTFc186b6Og&_nc_ss=7e2a8&oh=00_AQFpnJMcveXmiSrx8gdfHcRszB19P7u8qIeiBVYb7J1uTQ&oe=6A934A13",
-  "venue": "167 Riddiford St, Newtown, Wellington",
+  "id": "Free Soup Friday-7A Rintoul St, Newtown, Wellington 6021, New Zealand-Facebook",
+  "name": "Free Soup Friday",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/615827137_874420375289702_2869581216783135709_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=40YAUkkRvToQ7kNvwEknXaP&_nc_oc=AdoaXgN8BygOMVQAyliC_PT8PSed3hupT6nBuHRhevZcI2OeqcufnFcS1rBR2GL9_JXlEq5TWNxLe1O0ThYycppZ&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=7YN9vXZfVIUpOHkm1nnM-Q&_nc_ss=7e2a8&oh=00_AQI9rVeT_xguKGEc2S4WmCoyj0E1XvWU8iaUpLHsJlZRaQ&oe=6A992271",
+  "venue": "7A Rintoul St, Newtown, Wellington 6021, New Zealand",
   "coordinates": {
-    "lat": -41.313148,
-    "long": 174.7798543
+    "lat": -41.3124432,
+    "long": 174.7790467
   },
   "dates": [
-    "2026-08-30-17:30"
+    "2026-09-04-13:00"
   ],
-  "displayDate": "Sun 30 Aug",
-  "url": "https://www.facebook.com/events/1048075998107531",
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/887326837615802",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -40,59 +120,19 @@
   "labels": []
 },
 {
-  "id": "Let's sketch and drink coffee at Old Bank Arcade-Old Bank Chambers, 233 Lambton Quay, Wellington Central, Wellington 6011, New Zealand-Facebook",
-  "name": "Let's sketch and drink coffee at Old Bank Arcade",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/651185059_10164975601309314_2518936094620131567_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x968&ctp=s1440x968&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=sQ11wiil3YUQ7kNvwH1Bwr-&_nc_oc=AdqBLBV511elczhLRjooxcD1wohmsx2Ln2vZJ6y-WqLTrnGXTgauvWvi4XrwFv7rskMlHIMzYtFLMZzlXr94NiVX&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=PJyTyB_lvSmkA-zRphpm9g&_nc_ss=7e2a8&oh=00_AQH39T9kWN79JEBqBOlXgQ_OrJN19ETi5vU13Yoe7nfUCA&oe=6A934A4C",
-  "venue": "Old Bank Chambers, 233 Lambton Quay, Wellington Central, Wellington 6011, New Zealand",
+  "id": "Mahi Toi Open Art Group-7A Rintoul St, Newtown, Wellington 6021, New Zealand-Facebook",
+  "name": "Mahi Toi Open Art Group",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/529843865_749932084405199_8277494527249905339_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=bGgbSSi8MgEQ7kNvwGnTunU&_nc_oc=AdqK_pyg57LLLoOAxed7n99V-fbKf-8jCJyQDO1wzUzqiuz5FaYFGJ8XvvOtTGwvvhJdKJ1zh5kG1EhC4ZO_TRel&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=0W5SimFMJIIOkV2laS2FtA&_nc_ss=7e2a8&oh=00_AQIshEz-dK4LPK8rBNdMunAD3sK8b3_HARfyyI4Wg9lyPA&oe=6A991469",
+  "venue": "7A Rintoul St, Newtown, Wellington 6021, New Zealand",
   "coordinates": {
-    "lat": -41.2858765,
-    "long": 174.7760915
+    "lat": -41.3124432,
+    "long": 174.7790467
   },
   "dates": [
-    "2026-09-05-10:00"
-  ],
-  "displayDate": "Sat 05 Sep",
-  "url": "https://www.facebook.com/events/2125326584934547",
-  "source": "Facebook",
-  "eventType": "Other",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Yoga Nidra: The Echoes That Remain-175 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
-  "name": "Yoga Nidra: The Echoes That Remain",
-  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/736493946_1652799113167067_6662549423874749402_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1072&ctp=s2048x1072&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-fOJSzbeB64Q7kNvwFxy6UJ&_nc_oc=AdrSLjXgU0rDcRattbyIurx4ajBBbCu47uOZ0m4SQ1zupqb4U1d33IFGoVnAN-ViTbc1WQCxDcAQen9KvVDCq56w&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=lDV3QO5iHcnIzfmX4Wsdgw&_nc_ss=7e2a8&oh=00_AQEawl8CEdx8L5Cou0G370uAbF9jN0h35aj05CJc6wYm7g&oe=6A9363D7",
-  "venue": "175 Vivian St, Te Aro, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.2946838,
-    "long": 174.7737225
-  },
-  "dates": [
-    "2026-08-27-18:00"
-  ],
-  "displayDate": "Thu 27 Aug",
-  "url": "https://www.facebook.com/events/1300420185189747",
-  "source": "Facebook",
-  "eventType": "Other",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "QUIZ NIGHT ALERT-74 Courtenay Pl, Te Aro, Wellington 6011, New Zealand-Facebook",
-  "name": "QUIZ NIGHT ALERT",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/611169448_1193666889632831_3375265750663927087_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=86Liiz7nj3IQ7kNvwHD8P4m&_nc_oc=AdrxJWr2Smt9kuVFec5kmchQd2Q7c5zA20N0Gc7OYcSIze6ZtAC1DkEOktA1pbxMpdwCjM-KvoQ6aGXa1-xIs49a&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=4jniJVXEIvFXwr0lZfly9A&_nc_ss=7e2a8&oh=00_AQHJGZAZrB-F6RQUKax_pPDCN8EIYNO7tJndx68rY3FL3g&oe=6A933B5C",
-  "venue": "74 Courtenay Pl, Te Aro, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.293057,
-    "long": 174.7805144
-  },
-  "dates": [
-    "2026-09-01-19:00"
+    "2026-09-01-13:30"
   ],
   "displayDate": "Tue 01 Sep",
-  "url": "https://www.facebook.com/events/907902454918699",
+  "url": "https://www.facebook.com/events/775977168274389",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -100,19 +140,19 @@
   "labels": []
 },
 {
-  "id": "Tuesday Night Ballroom Sequence Dancing-Otaki-Facebook",
-  "name": "Tuesday Night Ballroom Sequence Dancing",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/730398297_1555635019599571_2122138579343546604_n.jpg?stp=dst-jpg_tt6&cstp=mx448x276&ctp=s448x276&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-jSLjUir4TQQ7kNvwH-W5ls&_nc_oc=AdqzdptL_xExOafZbdnacGc0aCZHhwQZYRKqryOee1hARoTv7QBO5ybctUWYXvdXhb5QswmIvdSNqiT-rAhsIud6&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=b0Nz4CRBXg8rct0oJRWFGQ&_nc_ss=7e2a8&oh=00_AQG8tVrvVGdBqXnHr4-OyL-csXqw4deexavDxjxDzpqJLw&oe=6A93577F",
-  "venue": "Otaki",
+  "id": "Massage (By appointment only)-12 King Street, Upper Hutt-Facebook",
+  "name": "Massage (By appointment only)",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/612384248_1296572262516325_7756807516488679275_n.jpg?stp=dst-jpg_tt6&cstp=mx960x713&ctp=s960x713&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=J-aXmW7AwXwQ7kNvwEwmDBf&_nc_oc=AdrCm4TmDtyzrMDj6TQsY54SE1fZehbcB8DIecDQh5bdxQ_q0z4qqZgE6TXAqKTgCc_Bz956BcwRxB1s2I7dhcJf&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=JozYMxdSfGxfNG8QzBQJ2w&_nc_ss=7e2a8&oh=00_AQJfzueZVcahmYrC4X6NBcA8ZlMbqdVk86j27oShj7avgQ&oe=6A9920FB",
+  "venue": "12 King Street, Upper Hutt",
   "coordinates": {
-    "lat": 35.7961622,
-    "long": 137.5636975
+    "lat": -41.1229764,
+    "long": 175.0751383
   },
   "dates": [
-    "2026-09-01-19:30"
+    "2026-09-04-09:30"
   ],
-  "displayDate": "Tue 01 Sep",
-  "url": "https://www.facebook.com/events/2172792600172022",
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/25461484886865882",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -120,20 +160,19 @@
   "labels": []
 },
 {
-  "id": "Te K\u014dk\u012b Big Band Two at the Southern Cross-39 Abel Smith St, Te Aro, Wellington 6011, New Zealand-Facebook",
-  "name": "Te K\u014dk\u012b Big Band Two at the Southern Cross",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/783288276_1749923339432020_1022471856707639259_n.jpg?stp=dst-jpg_tt6&cstp=mx1448x2048&ctp=s1448x2048&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=1YL_0-wgrbkQ7kNvwEkoQM5&_nc_oc=Adph8GEk5N6ajaCCiQruRrilLEFp2xyxKeVrNlZzIsN7PxOI2-jYeiktHSABzISoo8E7uHo3x6mf4jvS2FFJQtAw&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=gfca3VCygmazYMI50c8q9A&_nc_ss=7e2a8&oh=00_AQEr0ECX-RsS8xNGvopecNVDD0-rrztNxqtJQZTbjQKX5w&oe=6A93369D",
-  "venue": "39 Abel Smith St, Te Aro, Wellington 6011, New Zealand",
+  "id": "Vinyasa flow yoga class-36 Worcester St, Wilton, Wellington 6012, New Zealand-Facebook",
+  "name": "Vinyasa flow yoga class",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/620050384_1413103587494605_4182304312166738113_n.jpg?stp=dst-jpg_tt6&cstp=mx940x1350&ctp=s940x1350&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=yx5zAeNQTmAQ7kNvwFPxeNR&_nc_oc=AdoAKvyAYt0PigE4gJTIhe2jEdMvYFDl-_uFxxUSWtZx-p5GWMIrSZaazKKabTEVznE9HJQD_3HZj4MCobp0qUDT&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=AUx-An4WFjPzU3CR0XtsWQ&_nc_ss=7e2a8&oh=00_AQJ9gDwWtFAG6dtZ2R97cCATdXI_Co4UZB3bQdHwTPX13A&oe=6A9924D9",
+  "venue": "36 Worcester St, Wilton, Wellington 6012, New Zealand",
   "coordinates": {
-    "lat": -41.2964996,
-    "long": 174.7744694
+    "lat": -41.2721949,
+    "long": 174.7556042
   },
   "dates": [
-    "2026-08-26-20:00",
-    "2026-09-09-20:00"
+    "2026-09-03-19:00"
   ],
-  "displayDate": "Wed 26 Aug + more",
-  "url": "https://www.facebook.com/events/2471226183363587",
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/1254078349960957",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -141,39 +180,19 @@
   "labels": []
 },
 {
-  "id": "Raw Meat Monday - open mic comedy-30 Allen St, Te Aro, Wellington 6011, New Zealand-Facebook",
-  "name": "Raw Meat Monday - open mic comedy",
-  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/762803107_1470413084893740_2641626985388526522_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=7GX3t0rYvNAQ7kNvwGqY1NR&_nc_oc=AdpBL3UO9NAG7scySWBKI_WFvVP3bLAekDr_2vj1Sq2GTxqmd7MjcaFNW4t7WHTOd6zyU-VkQcdln2HBSz3w5CZj&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=H3VJekBhEJq3moFd0Gn2YA&_nc_ss=7e2a8&oh=00_AQHBr8n5gNPf6HQrPRjnqHYCbpWNnSUKPUiDVcBSOxXnYg&oe=6A934440",
-  "venue": "30 Allen St, Te Aro, Wellington 6011, New Zealand",
+  "id": "The Daffodil Express-Bunny Street, Wellington-Facebook",
+  "name": "The Daffodil Express",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.99422-6/725050722_2050331959219571_4061212282827389322_n.png?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ftnXP0GU85MQ7kNvwEEImQ_&_nc_oc=AdqBWLrz4M3whrax-m6YqMYsBMWwuu82zpGMhzUpUf-uVJ14lWWTJnUA74VlqRWpMnFm94OiEezVKk8iYhYWfAPE&_nc_zt=14&_nc_ht=scontent.fakl1-4.fna&_nc_gid=Xi3BSD5rkPnFUQXytMuRag&_nc_ss=7e2a8&oh=00_AQIWX_LCoQNXqdVTYZpi6QuWbASyvNcQs7MG8ipfsSqMSw&oe=6A99146E",
+  "venue": "Bunny Street, Wellington",
   "coordinates": {
-    "lat": -41.2932977,
-    "long": 174.7820641
+    "lat": -41.2797398,
+    "long": 174.7795908
   },
   "dates": [
-    "2026-08-31-20:00"
+    "2026-09-13-08:00"
   ],
-  "displayDate": "Mon 31 Aug",
-  "url": "https://www.facebook.com/events/1426152606199326",
-  "source": "Facebook",
-  "eventType": "Other",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Solo travellers: casual hangout in Wellington (4pm)-57 Jervois Quay, Wellington Central, Wellington 6011, New Zealand-Facebook",
-  "name": "Solo travellers: casual hangout in Wellington (4pm)",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/633824454_122103401307251105_3197554847623497795_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1391&ctp=s2048x1391&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=dR1CKHBFevwQ7kNvwEsO-yM&_nc_oc=AdrKLhP2cSojk8LocmNY2kr4RkWadR3Ngux7zIMRMVRP1XgO3t98FsR7MyqcfBNNy8RPDmw9MwsTZeYLdm9qRPcO&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=UMlt2ZJ2AGVdpfllAxCRng&_nc_ss=7e2a8&oh=00_AQHG1JZUhtZoZQPtZWjFh7fvlocLSDPnW0kbv3ab7ERGBg&oe=6A93666A",
-  "venue": "57 Jervois Quay, Wellington Central, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.2845737,
-    "long": 174.7776033
-  },
-  "dates": [
-    "2026-08-30-16:00"
-  ],
-  "displayDate": "Sun 30 Aug",
-  "url": "https://www.facebook.com/events/1102805901943653",
+  "displayDate": "Sun 13 Sep",
+  "url": "https://www.facebook.com/events/2167559127142919",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -183,17 +202,17 @@
 {
   "id": "Craft time for adults - bring a project!-Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand-Facebook",
   "name": "Craft time for adults - bring a project!",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/708882156_1488398333324587_1943453067366254558_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FwX2OEVz_MkQ7kNvwHDUytU&_nc_oc=AdpBMhdnKXafdhTD93GypvNAkBLMVW9_sliNQVofLXrQMbvjTPddjVDl__NThplArSVmwipKSRnKC6ZtBWpHgoSr&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=xOYnFxoHGzMm-z8LKNniCA&_nc_ss=7e2a8&oh=00_AQG4-h7XAOx6XZlDfHIY65v-kLmKmDYI-2Y7wuXMnYTmDg&oe=6A933B93",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/708866022_1488396089991478_1971138117521071244_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=BUBn_si5SdYQ7kNvwGde0lm&_nc_oc=AdqYk2Pz7bsnqxZNzlQPk7Yc4OGkE7xExVyQhbOs70rGK2Tj9WVKk61sn0imuFhLR2m_7AIBl0OdVpxFf-R1qzNd&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=xlH9rMOpnPDcf0jUiCkMJA&_nc_ss=7e2a8&oh=00_AQLilFgwsWLBBNbGv-dMPgibwlWsMqWmPfK5AmRjBBmt9w&oe=6A992ACF",
   "venue": "Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand",
   "coordinates": {
     "lat": -41.2881864,
     "long": 174.7767337
   },
   "dates": [
-    "2026-08-31-17:00"
+    "2026-09-02-12:00"
   ],
-  "displayDate": "Mon 31 Aug",
-  "url": "https://www.facebook.com/events/1313106004259618",
+  "displayDate": "Wed 02 Sep",
+  "url": "https://www.facebook.com/events/26850374644647559",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -201,19 +220,19 @@
   "labels": []
 },
 {
-  "id": "KOHA SUNDAYS at AWHI - Heated Flow-14 Johnston St, Wellington Central, Wellington 6011, New Zealand-Facebook",
-  "name": "KOHA SUNDAYS at AWHI - Heated Flow",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/641701847_1475816741151269_840675423769830988_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1367&ctp=s2048x1367&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=v4jV18rBzSIQ7kNvwEkhxnA&_nc_oc=AdpFPPi198-YfWP8Rwpd5Ob3Nu44P5SE7KMR-bwSQZffGPnbt3ahjG5zKpMgYgqJ6r1vB0ylewhhKTF1izTiuykZ&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=QauLQk2JRp5-iC8d8vBUuQ&_nc_ss=7e2a8&oh=00_AQEvcwSZx6yjutFJNid3SJwfTsTbkhW531WwaRzExWWsLw&oe=6A936773",
-  "venue": "14 Johnston St, Wellington Central, Wellington 6011, New Zealand",
+  "id": "Out in the Pool -15 Frankmoore Ave, Johnsonville, Wellington 6037, New Zealand-Facebook",
+  "name": "Out in the Pool ",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/623645486_1291161339700989_305351545863456840_n.jpg?stp=dst-jpg_tt6&cstp=mx960x540&ctp=s960x540&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=PbEdLfZ_rNMQ7kNvwERFR-A&_nc_oc=AdpNNDR6xeAPHEe1zWTkneBlVyNCITkVBgvxBDvk5agZcUYTCYnT37glc4kskDrk9TRqT6CsoUgBYGzrXcJ7hLCU&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=WAFcQO916L_lYpc7odPp5g&_nc_ss=7e2a8&oh=00_AQKY2nP9iPzbbpjkzYVJaZDMRQyJHlkYH8Mwq9NlZ9D8oA&oe=6A991D7D",
+  "venue": "15 Frankmoore Ave, Johnsonville, Wellington 6037, New Zealand",
   "coordinates": {
-    "lat": -41.2826804,
-    "long": 174.7765028
+    "lat": -41.2223983,
+    "long": 174.8046042
   },
   "dates": [
-    "2026-08-30-10:00"
+    "2026-09-06-17:00"
   ],
-  "displayDate": "Sun 30 Aug",
-  "url": "https://www.facebook.com/events/953878620403542",
+  "displayDate": "Sun 06 Sep",
+  "url": "https://www.facebook.com/events/741155209064135",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -221,19 +240,39 @@
   "labels": []
 },
 {
-  "id": "felt award ribbons - jules + the wildflowers craft club-7A Rintoul St, Newtown, Wellington 6021, New Zealand-Facebook",
-  "name": "felt award ribbons - jules + the wildflowers craft club",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/735576835_1891797875073837_7965640484622734365_n.png?stp=dst-jpg_tt6&cstp=mx2896x1448&ctp=p960x960&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=hsmeLIBxtNIQ7kNvwFXNzy3&_nc_oc=Ado7xu_Sf20tasfIxem3zNLks5JbaDwsEgRXRpyvVVseYYPHu6yg-8djQb1vGJO0tZUX7Yre8L9aFBW4Q0fV8nEq&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=TM4bF7TFzGWb4LwoAOzjZA&_nc_ss=7e2a8&oh=00_AQF5Hyz-ma1fDkVtHpJ-PU8xyyJcnLfpkGQVHY96WeuolA&oe=6A9353C5",
+  "id": "WRAC Toddler Time-55 Kilbirnie Cres, Kilbirnie, Wellington 6022, New Zealand-Facebook",
+  "name": "WRAC Toddler Time",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/672004263_1375942487891167_814962927319240955_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=GQNj0XZmisgQ7kNvwEAnXM_&_nc_oc=AdqR9IdL8YlSLKkdKpJYsz4fzID3AIeHA6D8Qcj38-Ow71NOvyP0gF3bsv6pbyqFK2Creb0LHKKeXVJZomk07y8r&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=tjnduoiFJDVi5BIARJQjlA&_nc_ss=7e2a8&oh=00_AQJ2lC2oNKoU9rJnqkJbn48ECUBIfz2rHZAdaj32yZ-mug&oe=6A98FF9C",
+  "venue": "55 Kilbirnie Cres, Kilbirnie, Wellington 6022, New Zealand",
+  "coordinates": {
+    "lat": -41.3149785,
+    "long": 174.7934169
+  },
+  "dates": [
+    "2026-09-03-09:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/1469839181301808",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Tai Chi - Beginner Classes-7A Rintoul St, Newtown, Wellington 6021, New Zealand-Facebook",
+  "name": "Tai Chi - Beginner Classes",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/615332601_874411955290544_5274069591884409318_n.jpg?stp=dst-jpg_tt6&cstp=mx960x540&ctp=s960x540&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=xoBDuQo8NcoQ7kNvwEy2UBk&_nc_oc=Ados8y-TBqBFE_V3LrLsPEqDVva-ucCuZC9LxMBaJyHyfKbeIMIksYo6Cqj5PNEJPAG2PiwHCeA0e-3__O-4o8AI&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=NBT_Xmsi0xbEjXv8Vki_5A&_nc_ss=7e2a8&oh=00_AQKZxDHXjJtXC9OuO9F-pNkFh5O9fG5A8mDB_Mxxt22gdA&oe=6A991F43",
   "venue": "7A Rintoul St, Newtown, Wellington 6021, New Zealand",
   "coordinates": {
     "lat": -41.3124432,
     "long": 174.7790467
   },
   "dates": [
-    "2026-08-26-18:00"
+    "2026-09-04-10:00"
   ],
-  "displayDate": "Wed 26 Aug",
-  "url": "https://www.facebook.com/events/1331184158571573",
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1552674959369056",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -241,19 +280,19 @@
   "labels": []
 },
 {
-  "id": "AcroJam, Beginners welcome-49 Kilbirnie Crescent, Wellington-Facebook",
-  "name": "AcroJam, Beginners welcome",
-  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/695502282_35567553686221496_5809197186995340906_n.jpg?stp=dst-jpg_tt6&cstp=mx3725x1125&ctp=p590x590&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=itCTcvEMRjMQ7kNvwHFC_-e&_nc_oc=AdrDDYUQJIqi3q4rg1Xpy6MZdIsEBrSBhE-0hjcoivuF9MRd4O0S7X-WEJ_HS_vPpGuTK9SAg7nwfyWzRrhLmTW8&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=O2v0zEVjwUcD7RHkAhsbfw&_nc_ss=7e2a8&oh=00_AQEkUgwLiUYQnExjNlLKwvxXsimX5JZcnetOGEAFbluPbA&oe=6A9354D1",
-  "venue": "49 Kilbirnie Crescent, Wellington",
+  "id": "YOGA NIDRA-14 Johnston St, Wellington Central, Wellington 6011, New Zealand-Facebook",
+  "name": "YOGA NIDRA",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/642345066_1475821754484101_965145969088078473_n.jpg?stp=dst-jpg_tt6&cstp=mx851x315&ctp=s851x315&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FpJY8uDnNe0Q7kNvwHzYiQG&_nc_oc=AdoVMzW7nI30gq5bGv4zLkCwMIQo3iRSXNW0P6Qfi2JNEk07vjud0Yv_i7od0znj8Y1IOdCFNWACID1-ABqClCmq&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=B19ZBA2xAWJMXCPi9WTwog&_nc_ss=7e2a8&oh=00_AQKJwuci4Dob2_eYumFbLzOfy5L7fqtdlzpqtR-7_20BuQ&oe=6A991FD8",
+  "venue": "14 Johnston St, Wellington Central, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -41.3143204,
-    "long": 174.7929889
+    "lat": -41.2826804,
+    "long": 174.7765028
   },
   "dates": [
-    "2026-09-01-18:30"
+    "2026-09-04-19:00"
   ],
-  "displayDate": "Tue 01 Sep",
-  "url": "https://www.facebook.com/events/962709669962288",
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/923676173393997",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -261,19 +300,199 @@
   "labels": []
 },
 {
-  "id": "Dragon Comedy-Middle of the Road, Cambridge Terrace, Wellington-Facebook",
-  "name": "Dragon Comedy",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/626456718_1506848444783829_4103211053758750484_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=9yIdAplh_y4Q7kNvwEsJAjb&_nc_oc=AdqztYf2mpzLneU9_CoJoUgeAtMRFvvjTsDazaRGueTauLfc5oWUffADcqhofhpVJYwIxP7pT_q3AaUKgnNIJ8xK&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=20mjoS3HraryqKBh6tFI5Q&_nc_ss=7e2a8&oh=00_AQGjkhmKClC-iPDbN1TF7s5U-eehBQ_v3Ihe6YZGNYwafA&oe=6A9350F3",
-  "venue": "Middle of the Road, Cambridge Terrace, Wellington",
+  "id": "B\u00e1nh M\u00ec Workshop: Open to all VUW Staff & Students-Ramsey House, 8 Kelburn Pde, Kelburn, Wellington 6012, New Zealand-Facebook",
+  "name": "B\u00e1nh M\u00ec Workshop: Open to all VUW Staff & Students",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/761677703_1559332525988454_8675567141873669244_n.jpg?stp=dst-jpg_tt6&cstp=mx2896x1448&ctp=p960x960&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=irhisbBJoJ8Q7kNvwFt48Kc&_nc_oc=AdqW2-ZbmPpAwln7m3LwC28nQbVbPITiUS-0OQKygOQG86-XSGcSIoURq4eGzuKnLLst0AlZlIvR93FLH4kL_kS6&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=xhBwZi7pPkvi9eRP2xqlyQ&_nc_ss=7e2a8&oh=00_AQIKNmBNwE1fkKVqv37WaduQ6DUACyBnlikdLWZvPxIiOg&oe=6A99026F",
+  "venue": "Ramsey House, 8 Kelburn Pde, Kelburn, Wellington 6012, New Zealand",
   "coordinates": {
-    "lat": -41.2216243,
-    "long": 174.9113917
+    "lat": -41.2870116,
+    "long": 174.7686182
+  },
+  "dates": [
+    "2026-09-02-16:00"
+  ],
+  "displayDate": "Wed 02 Sep",
+  "url": "https://www.facebook.com/events/1056177620397394",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Tai Chi - Advanced Classes-7A Rintoul St, Newtown, Wellington 6021, New Zealand-Facebook",
+  "name": "Tai Chi - Advanced Classes",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/617537229_874410715290668_8252822164625741812_n.jpg?stp=dst-jpg_tt6&cstp=mx960x540&ctp=s960x540&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=L3nrpOGsbIMQ7kNvwFN72mU&_nc_oc=Ado4fwQA2iJqASvTaNWjSGSiKxzD45tYzJE7oBSZCg-_3nQoHBVWIZP2fj6HpKZa6hZHbifM3MbonTHHj9UPSM2P&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=-rHL7aC7XDh6cHlo5FOQsw&_nc_ss=7e2a8&oh=00_AQJUpdIMdwBRvEjyXK-N5GjaCySbO73DN8g5NMq60AftdA&oe=6A991F2F",
+  "venue": "7A Rintoul St, Newtown, Wellington 6021, New Zealand",
+  "coordinates": {
+    "lat": -41.3124432,
+    "long": 174.7790467
+  },
+  "dates": [
+    "2026-09-01-10:00"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.facebook.com/events/3759382937529863",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Pati at Southern Cross-39 Abel Smith St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Pati at Southern Cross",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/684691891_1373744188121290_2115062673831168731_n.jpg?stp=dst-jpg_tt6&cstp=mx1500x1001&ctp=s1500x1001&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=KDNG7q3qIJEQ7kNvwGEZ5wo&_nc_oc=Adqj3_Om94M-H3GUE0a-9Bl_Hx6n_TBxCnubufJkkgHIGrdJTzfPj6jjviflB5Gaxv3LFjm14YkGPRbwaStU3DvI&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=Uccm61dT9FCiWkk1clL2pA&_nc_ss=7e2a8&oh=00_AQIiaA9J8VmvJI5GP1uAZE06K-47rgeAorYzjdmVeg2LjA&oe=6A990725",
+  "venue": "39 Abel Smith St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2964996,
+    "long": 174.7744694
+  },
+  "dates": [
+    "2026-09-11-18:00"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.facebook.com/events/2239490426618379",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Formation: A New Performer Show-63 Cuba St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Formation: A New Performer Show",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/615423246_1318944593587477_989538639796632363_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Gi0WVHTVgEsQ7kNvwFVshhe&_nc_oc=AdpxBmSS2m2hCg9bwssy7komVZEcs5A9zoLawSUd7mp6RHyrOL3Os2FYayIhMM2OcPmitcHiC6b7dIfmzEtQB2Ry&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=HHBHtavkko8elxHptWpTBQ&_nc_ss=7e2a8&oh=00_AQIesgvl6wcJS9nOS-nBBwP41DGOKRooI7jVodJ0l7Y1Bw&oe=6A991172",
+  "venue": "63 Cuba St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.290983,
+    "long": 174.7772014
+  },
+  "dates": [
+    "2026-09-05-22:00"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/1847023959348250",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Women's Adventure Film Tour 2026 - Wellington-205 Ohiro Road, Brooklyn, Wellington-Facebook",
+  "name": "Women's Adventure Film Tour 2026 - Wellington",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/732226200_1944050316537466_529198668873847335_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=mU3mqL_MgPQQ7kNvwGfobqf&_nc_oc=AdpqFiD7K8pqc1SvhBlKl7ICj6QBOr1PQzEUziZu2PUZdNSMQeLBvOIyviHDf62cYFYGSfbqg55SRdNkCkNA2V-D&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=ynWP_C4rVMowB242XdlLKQ&_nc_ss=7e2a8&oh=00_AQKNGTse9zL7qa5j0ogeJaRJRkKa-zg2kIw3f8_oj7E4_A&oe=6A992016",
+  "venue": "205 Ohiro Road, Brooklyn, Wellington",
+  "coordinates": {
+    "lat": -41.3058294,
+    "long": 174.7637101
+  },
+  "dates": [
+    "2026-09-13-16:00"
+  ],
+  "displayDate": "Sun 13 Sep",
+  "url": "https://www.facebook.com/events/2468573070278939",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "THE YEAR OF THE HORSE: ABBY LETTERI AND MARTY SMITH-Red Gates te Papa, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "THE YEAR OF THE HORSE: ABBY LETTERI AND MARTY SMITH",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/760444727_1342331661405267_2544676211245404790_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=e3tL_BzfM1cQ7kNvwGqF_H9&_nc_oc=AdriKQC3fKEl9XJYj8cAe2CRhtaeODHIzRjJzmCYd86jpXfdgahffp9RQRCJu4HVrYrJVON8qA3BEXEAhV_KWivV&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=vyiDXR6LIb3e9AVJrhmODQ&_nc_ss=7e2a8&oh=00_AQKP0Fnme5xBMyQa6ogU5RJ3J0-bezZbcytDC-tNXyFoww&oe=6A992AB7",
+  "venue": "Red Gates te Papa, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2925372,
+    "long": 174.7789184
+  },
+  "dates": [
+    "2026-09-07-12:15"
+  ],
+  "displayDate": "Mon 07 Sep",
+  "url": "https://www.facebook.com/events/2244924112712785",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Future Disco-6 Park Rd, Miramar, Wellington 6022, New Zealand-Facebook",
+  "name": "Future Disco",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/716010730_1640244431434161_6972408772437385993_n.jpg?stp=dst-jpg_tt6&cstp=mx1424x752&ctp=s1424x752&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=sAOs3aNxZ-QQ7kNvwHm7uJe&_nc_oc=AdrgJt1ukVxv6wo6Te2bju4L4k_6hTELL3Pky1OwgAA2qVqdk1tC3LzRE4hHm6eoN66QxQ4Fwizg9RE3_vVcPBve&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=MXAvJMVHPT6IIP_jKTTfgw&_nc_ss=7e2a8&oh=00_AQKDS2_h35Bozi1NaZU5iIfJ8Cl2uHV58GHe_W666xkwRQ&oe=6A992E1A",
+  "venue": "6 Park Rd, Miramar, Wellington 6022, New Zealand",
+  "coordinates": {
+    "lat": -41.3160487,
+    "long": 174.8167542
+  },
+  "dates": [
+    "2026-09-04-16:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1441438998010262",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Te \u0100hua o te Haenga | Pollination in Motion-Begonia House, 101 Glenmore St, Kelburn, Wellington 6012, New Zealand-Facebook",
+  "name": "Te \u0100hua o te Haenga | Pollination in Motion",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/762690419_1502294011937636_7221743522639994890_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1072&ctp=s2048x1072&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=5dIiTQ_5UQsQ7kNvwEkcM0S&_nc_oc=AdpsCxqHk2ki48-HPss69uz0Fmr6m8uuf5M0vpO3LR0EBY4vE9iIZvbpyfrgrhNMGYqjxgphscRUw3tCGTdSvIVv&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=Qms69bXc1iQQY-HGHr5Vnw&_nc_ss=7e2a8&oh=00_AQLNZh7cq04GoGE0vhgJdgRjdHyEZxrd19Sowtyj-e7AdA&oe=6A990036",
+  "venue": "Begonia House, 101 Glenmore St, Kelburn, Wellington 6012, New Zealand",
+  "coordinates": {
+    "lat": -41.282195,
+    "long": 174.763785
+  },
+  "dates": [
+    "2026-09-12-10:00"
+  ],
+  "displayDate": "Sat 12 Sep",
+  "url": "https://www.facebook.com/events/2301323130606375",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Behind the Scenes: Napier Port & Mainfreight Learning Adventure-Wellington-Facebook",
+  "name": "Behind the Scenes: Napier Port & Mainfreight Learning Adventure",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/728951435_122116790205284202_3490695369722849524_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x667&ctp=s1600x667&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Lx9njndCK-QQ7kNvwGjkx26&_nc_oc=Adox0Gz8rx9xzGU5v9LzJoxG6LczOF7bVfXn9N7tD6E-bXINvqLvaISu3Ieojv4L56oEyEzq69ms6TBEBr-rM1VY&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=N_Rnb4A6uiCc2h_tjVG_Ig&_nc_ss=7e2a8&oh=00_AQImhEk5HHyzi2Z8u2USsGtf5Tslf6R47sC6NxS_DyUfww&oe=6A99194B",
+  "venue": "Wellington",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-01-10:00"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.facebook.com/events/2456434918174969",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Te K\u014dk\u012b Big Band Two at the Southern Cross-39 Abel Smith St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Te K\u014dk\u012b Big Band Two at the Southern Cross",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/783288276_1749923339432020_1022471856707639259_n.jpg?stp=dst-jpg_tt6&cstp=mx1448x2048&ctp=s1448x2048&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Xmf9-ZwUWngQ7kNvwGub1FI&_nc_oc=AdoxkA3h9lEZytu146cNiz7_TfL2qjtNCsWXPu4YX70ZZavbDF19M9LCCPY2d0gPKRCg5v1umo7x3jLHOj7CKmUC&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=iZ0CrTZeV900Y1Ku3AwIFg&_nc_ss=7e2a8&oh=00_AQLjgFlFabJQ_3VtS8rclwwUJ5qpRnfrRKymyXHb77EYkw&oe=6A99255D",
+  "venue": "39 Abel Smith St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2964996,
+    "long": 174.7744694
   },
   "dates": [
     "2026-09-09-20:00"
   ],
   "displayDate": "Wed 09 Sep",
-  "url": "https://www.facebook.com/events/2661818300851304",
+  "url": "https://www.facebook.com/events/2471226183363587",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -281,19 +500,359 @@
   "labels": []
 },
 {
-  "id": "Sunday Roast-The Customhouse, 17 Whitmore St, Wellington Central, Wellington 6011, New Zealand-Facebook",
-  "name": "Sunday Roast",
-  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/714937749_1674676310773336_38347159548580301_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=6HRiEs0ehH0Q7kNvwEXD0Sz&_nc_oc=AdoXwytaBYuYEDytGJ7XH_KB2AgCDe0b91_EqtuGeVVs_B-l714zn9gwUBdIHvEmWMiFAgy4FQKz-kAUQ3C9DSsL&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=5V_sbOHVaA72Q0azVXEv7Q&_nc_ss=7e2a8&oh=00_AQHF9ONtxDk1K0nKtk0zQFcn8uaQ2jGInxq_6cl-NN5i8Q&oe=6A9364D7",
-  "venue": "The Customhouse, 17 Whitmore St, Wellington Central, Wellington 6011, New Zealand",
+  "id": "Chris Parker | Wellington-83 Courtenay Pl, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Chris Parker | Wellington",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/646361769_1266617095568554_3156943655373978776_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x628&ctp=s1200x628&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-BuKqXvfpAgQ7kNvwFryxxT&_nc_oc=Adp3JWd1Uu9_Z6hzseVEXkEG0TUM1f4eVRLoBaAwmm5VH7MtAfP3GOV7bHWjifkAAO3cFZhqrxjKhoxvVTCB5w9Z&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=qyxcZ1Uhc5g3VsRCswIQ-Q&_nc_ss=7e2a8&oh=00_AQJjHGhFGi6bSBS0Cs5aOe1uPjSWQAxEn-uc1GER_fLWOw&oe=6A992825",
+  "venue": "83 Courtenay Pl, Te Aro, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -41.2809882,
-    "long": 174.7780283
+    "lat": -41.2938809,
+    "long": 174.7827467
   },
   "dates": [
-    "2026-08-30-17:00"
+    "2026-09-04-19:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/902472516012800",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Monthly World Peace Chanting Meeting-287 Cuba St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Monthly World Peace Chanting Meeting",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/707993523_122160683936963030_6444152401795922290_n.png?stp=dst-jpg_tt6&cstp=mx1282x801&ctp=s1282x801&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=1tkSUFPUhIwQ7kNvwHYqWh9&_nc_oc=AdrCNffp3fkHIP4Ep6tqeVVQQl_Ub4A4T6XWmOLDAuErsqhHOKayeHazrgNe0lbuUhNp939RMeeF7jAm_dzswueI&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=dO6B_agqZQjEq0JKzaxMaQ&_nc_ss=7e2a8&oh=00_AQKi9qnDTceIJb5ds1kbFjltRb6nJKQDmZ3SqsqRUywbyw&oe=6A991E49",
+  "venue": "287 Cuba St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2970502,
+    "long": 174.7737711
+  },
+  "dates": [
+    "2026-09-06-10:00"
+  ],
+  "displayDate": "Sun 06 Sep",
+  "url": "https://www.facebook.com/events/1412367117608887",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Wellington YoYo Club-Motu Kairangi Te Kohanga Reo, 27 Chelsea St, Miramar, Wellington 6022, New Zealand-Facebook",
+  "name": "Wellington YoYo Club",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/725439663_122201976716576740_5519390239694498815_n.jpg?stp=dst-jpg_tt6&cstp=mx1024x1536&ctp=s1024x1536&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=byfJCkWAOlIQ7kNvwHr_Bu5&_nc_oc=Adq70YJ6a3A7ulQCZLZ9mZK-rzK1XQ__S-BL-NdRQ4goj_V5QLU2XPP06Z9n6l7Mjo4IpAK7GJcXgxdzmnl1FA3k&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=0HeKT2S97_wK8haKPOx3sw&_nc_ss=7e2a8&oh=00_AQJLsn3gPiU-RrDk1bGJKbbV_nFDW8enFQLHBoVEK0d6qQ&oe=6A9901E6",
+  "venue": "Motu Kairangi Te Kohanga Reo, 27 Chelsea St, Miramar, Wellington 6022, New Zealand",
+  "coordinates": {
+    "lat": -41.3176454,
+    "long": 174.8172814
+  },
+  "dates": [
+    "2026-09-12-10:00"
+  ],
+  "displayDate": "Sat 12 Sep",
+  "url": "https://www.facebook.com/events/28302278132695243",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "P\u014dneke Pinballers - Tournament & Free Play-18A Bond St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "P\u014dneke Pinballers - Tournament & Free Play",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/619999317_1211285784445021_4154033814425177022_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1072&ctp=s2048x1072&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=gjsdo9_tx2wQ7kNvwFXTLdz&_nc_oc=AdqL7_Cd0yQrA3xnsd0TNAc-b_oWxs0s89VzjVE-FnaHrkpq7jX-znPY4_pKex2irvi7Gs-1ijr2e1oEvFDvVAN4&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=ytOsvW8i77Bz3OQT03Dl1g&_nc_ss=7e2a8&oh=00_AQLWOF1IBBGfG3JPvWFXNzBYqdKc4B43h-fbvlU-D0KLnA&oe=6A990825",
+  "venue": "18A Bond St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2892033,
+    "long": 174.7755758
+  },
+  "dates": [
+    "2026-09-03-18:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/1135864208479264",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Tuesday Trivia Nights @ Lovy's Eatery-43 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Tuesday Trivia Nights @ Lovy's Eatery",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/664779912_1582260357238967_7686965065542506984_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=pKYGsZ9zDs8Q7kNvwGC2TX2&_nc_oc=Adrq7WwnxxuVQa-AuR_8WiKLHW8ZjcbBSvCfvHva9WTyPicUabG8YwTr3RFQ6NOwO47X7EsLBduWPBnoUoydbeWe&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=f01ZPu4XErFao4SQaPfoJg&_nc_ss=7e2a8&oh=00_AQL1WetbIyxTpPs1aBMtwuX8gV-kB15k5nuMNqXA1wuirg&oe=6A991193",
+  "venue": "43 Vivian St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.296289,
+    "long": 174.7792756
+  },
+  "dates": [
+    "2026-09-01-18:30"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.facebook.com/events/976269461737317",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Cathedral Parishioners - Coffee, Cake, and Chat 2026-Sacred Heart Cathedral, 40 Hill St, Thorndon, Wellington 6011, New Zealand-Facebook",
+  "name": "Cathedral Parishioners - Coffee, Cake, and Chat 2026",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/619206997_1334356572053283_8955827236226186298_n.jpg?stp=dst-jpg_tt6&cstp=mx1318x539&ctp=s1318x539&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=ViJ_K2gMd-AQ7kNvwGe5hIL&_nc_oc=AdrlPkAvsSXGont2604QMF_2DkUgatntcIArIakcvXrNcx0UDq6e31f_Sk41B4C5L5Q4dCkKZLp5DOC9Oaoj8Mdm&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=7XK_p0LcHt-4FA6-1wVXIg&_nc_ss=7e2a8&oh=00_AQIOSxV6bD8ObM40krCcnoqsEH0GH7HNL2OzzIDvZ3dBCg&oe=6A9906D3",
+  "venue": "Sacred Heart Cathedral, 40 Hill St, Thorndon, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2767258,
+    "long": 174.7755667
+  },
+  "dates": [
+    "2026-09-04-10:30"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1792594711440145",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "UNCANNY VALLEY: PIP ADAM, TERRI TE TAU, AND TIM CORBALLIS-55 Cable Street, Wellington-Facebook",
+  "name": "UNCANNY VALLEY: PIP ADAM, TERRI TE TAU, AND TIM CORBALLIS",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/718699068_1301024855535948_6993274486471901171_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=XZgnPVXOJR8Q7kNvwH2nn1Z&_nc_oc=Ado_qiyWlTCn7nO6cYWvRHei97UodRWUR6QPhtY6wLVY8XnO9qtBEzpISMpRTEVzQKHDkvTabKVUgFxmb9kuDdYJ&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=bVwvznp_m3jisUXXLaq-7w&_nc_ss=7e2a8&oh=00_AQLjH8C_urEMmhPYdUKavbA06H_p7-OU_Qzn7Iqb1GkEGA&oe=6A992A1D",
+  "venue": "55 Cable Street, Wellington",
+  "coordinates": {
+    "lat": -41.2903326,
+    "long": 174.7819275
+  },
+  "dates": [
+    "2026-08-31-12:15"
+  ],
+  "displayDate": "Mon 31 Aug",
+  "url": "https://www.facebook.com/events/1538824574562358",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Sunday: Battle Honours-64 Manners St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Sunday: Battle Honours",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.99422-6/726495284_1557542169366660_7498155125235943551_n.png?stp=dst-jpg_tt6&cstp=mx588x414&ctp=s588x414&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=L2vTYQCSbEUQ7kNvwHX_h0f&_nc_oc=Adoqr5blpZn4KoqDv-CaA4DzRay60JXptUkXbGRAjJB7-ezQjbjilr5UlQpGSpmR2Yu2sIUWtkshij46DShicIWz&_nc_zt=14&_nc_ht=scontent.fakl1-4.fna&_nc_gid=zhEc6Fb1Sh_QRyuJhnVrWw&_nc_ss=7e2a8&oh=00_AQKHGW6f72wYnDnaG9Fo28RmBBun_xkkAtmLfuyiExy0UQ&oe=6A991263",
+  "venue": "64 Manners St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2906791,
+    "long": 174.7759127
+  },
+  "dates": [
+    "2026-08-30-10:00"
   ],
   "displayDate": "Sun 30 Aug",
-  "url": "https://www.facebook.com/events/2144567412792989",
+  "url": "https://www.facebook.com/events/1167864848828742",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Capital Trees--41.267300, 174.759000-Facebook",
+  "name": "Capital Trees",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/727814115_1463651089135262_4667620636551642396_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=omTibmcBwecQ7kNvwEhG22b&_nc_oc=Ado5p1DDSuYIwaW01ll60bxL-ofy7_IcP7KhSRwTnKvA3dilN7bY1jMqGIAEe2ynRH3r7GYLPD10xz0S41BX0CrR&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=eVDgKImmHtPJUCzBsNTj_g&_nc_ss=7e2a8&oh=00_AQIYQ3fUaKW7naXLdnAiraoop3efgCpPG7y0b3fD8ijjKA&oe=6A990BD1",
+  "venue": "-41.267300, 174.759000",
+  "coordinates": {
+    "lat": -41.2673892,
+    "long": 174.7589627
+  },
+  "dates": [
+    "2026-09-01-19:30"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.facebook.com/events/1034779948983170",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Glow In the Dark Titiwai Tours - New Zealand Glow Worms-Begonia House, 101 Glenmore St, Kelburn, Wellington 6012, New Zealand-Facebook",
+  "name": "Glow In the Dark Titiwai Tours - New Zealand Glow Worms",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/635008209_1354486066718432_4085855366021465265_n.jpg?stp=dst-jpg_tt6&cstp=mx780x336&ctp=s780x336&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=tXaECH3aqD8Q7kNvwEEsy6z&_nc_oc=AdqGE1y8_Q4YfwPeQELdPxBZRD-A3iLu2KUeq6QSnhJUpSihtGMs6Uj3CEtkN4D0yclkIkfghFg8QX_QeMDC5aek&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=jZjzV5pgi_-bTTiztO7aVA&_nc_ss=7e2a8&oh=00_AQIzGR_5wOcyHAfLOIMu9y4Zjt_-kIMup-Pbq5kcQ50QVw&oe=6A98FA52",
+  "venue": "Begonia House, 101 Glenmore St, Kelburn, Wellington 6012, New Zealand",
+  "coordinates": {
+    "lat": -41.282195,
+    "long": 174.763785
+  },
+  "dates": [
+    "2026-09-11-19:00"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.facebook.com/events/1841403493207038",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Emerson: Leap! on Tour at San Fran-Edilsons Building, 171 Cuba St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Emerson: Leap! on Tour at San Fran",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.99422-6/730570602_1710083823556074_7503486788344990265_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=odTY9izN3LMQ7kNvwE0r4_l&_nc_oc=Ado2N-O8HeNAzxNoNhS8Aepbj7px-U4tvblOq9Kk3r6EH8o_M2gHSpc160MSr1dQZ403B_1VA4muSvR9dUqe2yI3&_nc_zt=14&_nc_ht=scontent.fakl1-4.fna&_nc_gid=GWjLJMDpuQzJ6Mi01HH7Ig&_nc_ss=7e2a8&oh=00_AQIvslQ05qwz5X8HXpyLN5vR60EXLVNuAlJmddAclIQa4w&oe=6A991A41",
+  "venue": "Edilsons Building, 171 Cuba St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-09-11-06:30"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.facebook.com/events/3183111001889256",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Hiatus Kaiyote | Wellington-9 Edward St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Hiatus Kaiyote | Wellington",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/706064918_1334532968776966_1245176887285035999_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=cdhQdbMGybYQ7kNvwFvv4Lx&_nc_oc=Adr_BHLC082ZwpwCcMTskHz1r6Hs0E_CqXQzBYnck3sHYQdI7dhB7INVNbOODeeU2Otr49en5lOw5xgNhI9er_7j&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=7VzG9eo0Z6p4-Aoqz5fGyg&_nc_ss=7e2a8&oh=00_AQIpLsz2HcutfqswwkE6BRNxLq6ri1jYelJpmrkMwMItMw&oe=6A99212B",
+  "venue": "9 Edward St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2906466,
+    "long": 174.7748395
+  },
+  "dates": [
+    "2026-09-03-19:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/1993931067947276",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Fabric & fibrecraft meet up-5 Cambridge St, Tawa, Wellington 5028, New Zealand-Facebook",
+  "name": "Fabric & fibrecraft meet up",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/705388187_1000718955658098_341362247150279799_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=aN63ypjywLAQ7kNvwHPxpNI&_nc_oc=AdreRjlhpEpwgfQs8lGZqFBXOp2Qcl_5bxGncDY8Sy-nc3o_UGxU0xjkW0BH9jhdRpKpbl9nFV3JxqlfQYjG5ff6&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=GR5uXoYBMsb33dtSUHmVew&_nc_ss=7e2a8&oh=00_AQJgia9OvGhsIzxDDQzpVcKrkdb0TbjNwbiiIXbNZ8s_7w&oe=6A9926A0",
+  "venue": "5 Cambridge St, Tawa, Wellington 5028, New Zealand",
+  "coordinates": {
+    "lat": -41.1708757,
+    "long": 174.825663
+  },
+  "dates": [
+    "2026-09-02-10:00"
+  ],
+  "displayDate": "Wed 02 Sep",
+  "url": "https://www.facebook.com/events/847484947924406",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Mel Parsons - Castle Hill Album Tour - Wellington-Manners Street, Wellington-Facebook",
+  "name": "Mel Parsons - Castle Hill Album Tour - Wellington",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/689965662_1574547024673213_6896143349228114508_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=kMvQfcWnmFgQ7kNvwEoyBsu&_nc_oc=Adp88PweZrNMRwoq1T_bRRox5trkOsE5J1L5U_yu4_7XLvEdodP7ebJPm6dJgRBI-OjPyC1CbwTR39DMBWkWlMml&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=6ttDeRRNBA1xctxVOMhPpw&_nc_ss=7e2a8&oh=00_AQKOeN0hBtq5Q1Dq4M98PJyrv2ZhRjWQ4eyQiDBTmTfHFA&oe=6A98F967",
+  "venue": "Manners Street, Wellington",
+  "coordinates": {
+    "lat": -41.2908034,
+    "long": 174.7763065
+  },
+  "dates": [
+    "2026-09-05-19:30"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/981530314370585",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Judy's Encore-1A Taranaki St, Wellington Central, Wellington 6011, New Zealand-Facebook",
+  "name": "Judy's Encore",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/734008762_1680132827452831_2770526047625204640_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=eaqL_hgvyegQ7kNvwE9JPXe&_nc_oc=Ado1UNB_f7EeZvPb23DFMr2xlkIKAKXcLdHGkmMEraWiPjJJlTUgLk2AbDyIWOESouhv8UQV9TdQc3kODu3X5SPR&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=qKKu3RrJTfVGWXFoOP3GDg&_nc_ss=7e2a8&oh=00_AQID8vf1VnQgO1-FUgTGOfW6bKrrNYiMvz7kKDWNfvCFEw&oe=6A992CF5",
+  "venue": "1A Taranaki St, Wellington Central, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2821003,
+    "long": 174.7759494
+  },
+  "dates": [
+    "2026-08-30-16:30"
+  ],
+  "displayDate": "Sun 30 Aug",
+  "url": "https://www.facebook.com/events/1736589017700250",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "September Shuffler Social Dance-293 Cuba Street, Te Aro, Wellington-Facebook",
+  "name": "September Shuffler Social Dance",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/758793593_1498467212306980_1752940908281748838_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1072&ctp=s2048x1072&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=m05m1mbYpI0Q7kNvwHgNs35&_nc_oc=Adr9bomRWLpBs6lNtJWBSFsJPqnqAF9-jNbpPMJHgS_PSIfdUE9UBiPlQST2sMed_bAE9urIO3QnCYgEMYnFOYaX&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=YfKnoWmINlhnIiG6hTh3Ew&_nc_ss=7e2a8&oh=00_AQK30wleRHLy4RYj0FXGLNttMJRnCB7jsNdr26LvgzjA4w&oe=6A99279B",
+  "venue": "293 Cuba Street, Te Aro, Wellington",
+  "coordinates": {
+    "lat": -41.2973459,
+    "long": 174.7736051
+  },
+  "dates": [
+    "2026-09-12-19:00"
+  ],
+  "displayDate": "Sat 12 Sep",
+  "url": "https://www.facebook.com/events/1361215342862545",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Krakerjack-Garibaldi Club, 118 Tory St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Krakerjack",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.99422-6/778972441_1613077140255953_5015637993434089801_n.png?stp=dst-jpg_tt6&cstp=mx581x850&ctp=s581x850&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=BK6MqqD6EAsQ7kNvwEWfLjR&_nc_oc=Adpi6eBM0cTGykFjPQdt9YywSzR-wp9eAjY8IF547feFA66qtQapcBO8k2AXkiUMubRzaqkUr2pXZPR6xrr6H0OX&_nc_zt=14&_nc_ht=scontent.fakl1-4.fna&_nc_gid=4paD85Q8Ce_eAv1mK3tD7Q&_nc_ss=7e2a8&oh=00_AQKwh1Bg-WmentGxV2rLBaiAljw2Wj5_V-P8vhBPyb9ycQ&oe=6A990790",
+  "venue": "Garibaldi Club, 118 Tory St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2960797,
+    "long": 174.7795355
+  },
+  "dates": [
+    "2026-09-05-19:30"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/1984580948887907",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Spring Yum Cha-219 Onepu Rd, Lyall Bay, Wellington 6022, New Zealand-Facebook",
+  "name": "Spring Yum Cha",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/762660801_1880521949792684_18557193108734833_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1254&ctp=s2048x1254&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=6aJzTvfFOzMQ7kNvwEvI5Zn&_nc_oc=AdrfYxdz-A_TAeDfPqTILb2FYyyEma9L_0_dFEvgSoMPzERBttELLuDtqxiZkNKYzRJRC2kznXm4FV5k1oTr6u1W&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=-RaSpBYOC9zXZTzL7CJuYw&_nc_ss=7e2a8&oh=00_AQJo7XzC2tYt9p4LfSK9OuYPFEtx3-14Z41HSuZcKJ7tKg&oe=6A993041",
+  "venue": "219 Onepu Rd, Lyall Bay, Wellington 6022, New Zealand",
+  "coordinates": {
+    "lat": -41.3288505,
+    "long": 174.7955315
+  },
+  "dates": [
+    "2026-09-11-17:00"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.facebook.com/events/2080997945862839",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -303,7 +862,7 @@
 {
   "id": "Moon Jam Night-167 Riddiford St, Newtown, Wellington 6021, New Zealand-Facebook",
   "name": "Moon Jam Night",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/689013549_1627546368842365_1304563189122942463_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=fL1ZQoKjSRsQ7kNvwHCN3OU&_nc_oc=AdrxSYcm8m4h3Zk5PD-LPwGbxU7CW0JQsgPxUU3FPGuIWC0MClBESYQO8aK6qrDMkyvJpLm8th7mYLX71MXLTyCE&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=4a3nJkOcBTZZ2mSUzb8XZw&_nc_ss=7e2a8&oh=00_AQF7sTewviR487rtNqGI-fe0iZUVc1p-m0sgR1TLWR5euA&oe=6A9337E9",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/689013549_1627546368842365_1304563189122942463_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=qouBOdsGRVsQ7kNvwGgk2d0&_nc_oc=Adpi86TeNqCAyNA0vkkr45q_YPeQVx3Yuzbgh4OvFfRSyrDtvS8NSCVPVeWXyiiY091WQ0v_kOu49MU0sIMGVjpI&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=OdoVdVsq9yuFpLyWQeDCuQ&_nc_ss=7e2a8&oh=00_AQJ0Rkf87stJmcPJVcse1TKQ4OsgFRDSk6nBM2aZgo4vRA&oe=6A9926A9",
   "venue": "167 Riddiford St, Newtown, Wellington 6021, New Zealand",
   "coordinates": {
     "lat": -41.313148,
@@ -321,59 +880,19 @@
   "labels": []
 },
 {
-  "id": "9|9 Gateway. Sacred Sound bath W Blue Lotus Tea and Kai.-Wellington, New Zealand-Facebook",
-  "name": "9|9 Gateway. Sacred Sound bath W Blue Lotus Tea and Kai.",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/774243045_1083810064179112_8472527846499495196_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=2c0b5C0Psy4Q7kNvwFOcc21&_nc_oc=AdrNCXPNiqB-C-epwl8mjU5M-5U43aP6euP-RQ_0dMneOrI0w7ETqbI5oK7541eLCMQMBpavyHApg6_mo3dh90K3&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=JgLU0UrC1uGiSVufmiyQrw&_nc_ss=7e2a8&oh=00_AQFR_oz-4Z3IBbuxBSZfyTMgfgcyqIAzF3i7wl9TtQkJOQ&oe=6A933E8D",
-  "venue": "Wellington, New Zealand",
+  "id": "Moonday night quiz-167 Riddiford St, Newtown, Wellington 6021, New Zealand-Facebook",
+  "name": "Moonday night quiz",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/723852255_1665209445076057_8037215430012249971_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=NHZlOvxZaAEQ7kNvwFbUhp5&_nc_oc=AdqkJwuPkLQ5IJ8wtUBSNTZvZWWu-Hy1URUzeK447HoGwYCspW3RDaQPK-8jW4648Kxh83YLi5zUoJA2cdHJfkHB&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=Di5RmP301bIaOev4BQtgRQ&_nc_ss=7e2a8&oh=00_AQIrKJFBFaCGVuw7_b4ixu3Je7v51lSYCP5Xu6hAOIpd2A&oe=6A992210",
+  "venue": "167 Riddiford St, Newtown, Wellington 6021, New Zealand",
   "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
+    "lat": -41.313148,
+    "long": 174.7798543
   },
   "dates": [
-    "2026-09-09-18:30"
-  ],
-  "displayDate": "Wed 09 Sep",
-  "url": "https://www.facebook.com/events/25941862915418480",
-  "source": "Facebook",
-  "eventType": "Other",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Three Sisters Wellington - Quiz Night-19 Blair St, Te Aro, Wellington 6011, New Zealand-Facebook",
-  "name": "Three Sisters Wellington - Quiz Night",
-  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/618630717_1506969588101378_3094188132242656874_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x608&ctp=s1080x608&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=RnH4lu9hqOAQ7kNvwHtLvT6&_nc_oc=AdqSMqpjuosjYLe2quYDIdnvEifXcUppYjsyKtNZKWzQpJnyKtxRQh3SqbCvQEYw_bnoBA1hk2T0bdEtHZgo7KQc&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=AlKc68N0WFztlYh4-g68nQ&_nc_ss=7e2a8&oh=00_AQHab8YLqR_NyHtAhJqp46JwW4LbFbsLFcopAIW8XwzUKw&oe=6A934C1B",
-  "venue": "19 Blair St, Te Aro, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.2933031,
-    "long": 174.7833791
-  },
-  "dates": [
-    "2026-09-01-18:30"
-  ],
-  "displayDate": "Tue 01 Sep",
-  "url": "https://www.facebook.com/events/803615646023696",
-  "source": "Facebook",
-  "eventType": "Other",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Let\u2019s talk in English together-Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand-Facebook",
-  "name": "Let\u2019s talk in English together",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/728003765_1511485241015896_1463979803112851630_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=c44k4GwQDioQ7kNvwHF26qF&_nc_oc=AdodZXYJoUBsmd7sVHgc8RirP_Ftsh7ipPDzNQyp2ZRrfes9bgcQwIFJ6A-sLUFoO0XKRDI2_xo1DIAkcDMyFGBQ&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=ZrFehAYo1C6tWnH-iZEG7A&_nc_ss=7e2a8&oh=00_AQFa39fwCWy_Ct5cLTwcCseMw_3OAP9eMaiE9N919fy5MA&oe=6A9343F1",
-  "venue": "Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand",
-  "coordinates": {
-    "lat": -41.2881864,
-    "long": 174.7767337
-  },
-  "dates": [
-    "2026-08-31-11:00"
+    "2026-08-31-19:00"
   ],
   "displayDate": "Mon 31 Aug",
-  "url": "https://www.facebook.com/events/1014587817610304",
+  "url": "https://www.facebook.com/events/1533559054942909",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -381,19 +900,19 @@
   "labels": []
 },
 {
-  "id": "Understanding self-regulation and behaviour - Wellington-The Thorndon Centre, 191 Thorndon Quay, Pipitea, Wellington 6011, New Zealand-Facebook",
-  "name": "Understanding self-regulation and behaviour - Wellington",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/649692315_1316464707172006_2149258301344286175_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x628&ctp=s1200x628&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=CVqOY2yMIycQ7kNvwGq6XeF&_nc_oc=AdpW6uteLDvLarfJ2kNGKqn6l1SjBgD-FFE1uPBPrIB4Ix1owm-kbHgBup2wON_B0Hqch3XNDvtSBQNQgHdxnknI&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=dH0Kx_r8nFpqnJjtyQBaTg&_nc_ss=7e2a8&oh=00_AQFWtLID4B7Za4wMFdzS8TXWL_V8XmRxddupNQZfWDXPuw&oe=6A935F12",
-  "venue": "The Thorndon Centre, 191 Thorndon Quay, Pipitea, Wellington 6011, New Zealand",
+  "id": "Rhythm & Dance - Wellington-111 Wakefield St, Wellington-Facebook",
+  "name": "Rhythm & Dance - Wellington",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/609139265_1419817852834268_5462728432875892004_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1381&ctp=s2048x1381&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=lbS9DJJgW6cQ7kNvwFugt8a&_nc_oc=Adr3bCJRULnTLJ_MO0rb4d_Y3Tb-KoHgZyvI60fGFUuaIvCYAqI7jQAtjKmK9a5AgGwZYKoUXhiGVZS2WPj8CSTG&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=VDkq92qXnCEAz2RDLE_HOw&_nc_ss=7e2a8&oh=00_AQLe2icxTomPdkz6HzwO5eYSVhiP-9zf-rhK_BqDQwpTJw&oe=6A990267",
+  "venue": "111 Wakefield St, Wellington",
   "coordinates": {
-    "lat": -41.2717302,
-    "long": 174.7817696
+    "lat": -41.2895258,
+    "long": 174.7780167
   },
   "dates": [
-    "2026-09-09-18:00"
+    "2026-09-04-18:30"
   ],
-  "displayDate": "Wed 09 Sep",
-  "url": "https://www.facebook.com/events/3211794892326677",
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1585862559235936",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -401,19 +920,159 @@
   "labels": []
 },
 {
-  "id": "T\u016aMANAKO! HOPE! Children's art. Works for a peaceful world-34 Moorefield Rd, Johnsonville, Wellington 6037, New Zealand-Facebook",
-  "name": "T\u016aMANAKO! HOPE! Children's art. Works for a peaceful world",
-  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/641398858_1227644222889267_6094504854630583285_n.jpg?stp=dst-jpg_tt6&cstp=mx940x788&ctp=s940x788&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=u95Yk2_JCYQQ7kNvwFw7B4L&_nc_oc=AdqK8zxh5i7MKFfZBHbmXhaUiaPBV1C5WSANM0FUZJEyYZr5WnhyvbgVJncuZDE-VFSviTmrX4uPGTUPEKdCZGOK&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=jTPP9R7Q6bc_VGGnZysoPg&_nc_ss=7e2a8&oh=00_AQEUZGFLcByWkvNsDHMIXc0RDBbZ7RrAy8zJy3neQGpnxg&oe=6A934ECF",
+  "id": "String House Project - Our House - Wellington edition-172 Cuba St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "String House Project - Our House - Wellington edition",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/743588874_122190955634875825_6190722489220520301_n.jpg?stp=dst-jpg_tt6&cstp=mx940x788&ctp=s940x788&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=tM4mQbnHljoQ7kNvwFugV3h&_nc_oc=AdozvvR9dWMACM0M0ofVWA4oYl5pTsyeOi6jFQjeuRLv5IWI_EH6SI9Oc5tqc66z0waT5btS_VIIpaQuo9tWNjN5&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=aDV6JXgNR4fPt6wt0uRC5g&_nc_ss=7e2a8&oh=00_AQL19uucWhjVSUzpRAQhzlYOPFwkGoS135b3UDbuPUOwzA&oe=6A992C5D",
+  "venue": "172 Cuba St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2944279,
+    "long": 174.7749398
+  },
+  "dates": [
+    "2026-09-04-20:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1708825343600569",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Closing Time: Tough Decisions-Paraparaumu-Facebook",
+  "name": "Closing Time: Tough Decisions",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/758765067_1661944122383223_1862883206212928965_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x517&ctp=s1200x517&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=oMca5uvDYw4Q7kNvwFY_vP6&_nc_oc=AdplzpY443SYuJ2azwRWp_a8SkYuYulZoSmMhsYPNSWFWJK3b9BUAIgwTukQGG4A86kZsQJbumDWkBmEXbx0L6Ey&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=awcnqEJasfrC4xfbyCR7aQ&_nc_ss=7e2a8&oh=00_AQJSyAgU0_K2h09RVMeLkqfRf92LkXIEqkUqKFPmdZKXHA&oe=6A990476",
+  "venue": "Paraparaumu",
+  "coordinates": {
+    "lat": -40.9144636,
+    "long": 175.0061963
+  },
+  "dates": [
+    "2026-08-31-17:30"
+  ],
+  "displayDate": "Mon 31 Aug",
+  "url": "https://www.facebook.com/events/1415638587338674",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Strung Out w/ The Vile Maxim, No Sector and Ricky Bobby-154 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Strung Out w/ The Vile Maxim, No Sector and Ricky Bobby",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/678530933_943405491804156_1599293134077032142_n.jpg?stp=dst-jpg_tt6&cstp=mx1448x2048&ctp=s1448x2048&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=IHJBX23a-UIQ7kNvwEzCDus&_nc_oc=AdpOdriOb1RUMsNy0OktEzPjTrTXhwf2Coskq0VPsPWM1qxKLGlukEOWcVxREVeTCViUbHO6a2fWSNNSb62WlyzP&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=VDPyuNLmdL_KY6XiKGtdKw&_nc_ss=7e2a8&oh=00_AQKolXM_Qnbc7g7EQ1FRt84m72mkHWpL1k2s78B5xvjqIw&oe=6A9914F4",
+  "venue": "154 Vivian St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2948002,
+    "long": 174.7753363
+  },
+  "dates": [
+    "2026-09-13-15:00"
+  ],
+  "displayDate": "Sun 13 Sep",
+  "url": "https://www.facebook.com/events/1001046369246208",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Silver Clay Taster - Spring-3 Market Ln, Wellington Central, Wellington 6011, New Zealand-Facebook",
+  "name": "Silver Clay Taster - Spring",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/714611509_1578658887603675_1401501708530477417_n.jpg?stp=dst-jpg_tt6&cstp=mx1414x2048&ctp=s1414x2048&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=wvSBBXxa8KQQ7kNvwFlxTGJ&_nc_oc=AdqFRbKIrldtguFx6uhjpR8ooB8nBnwCyGCUhR3ScJoYOw-XFFPPN0DLy0m3FhQ9OkwahJgUw8Rs6AQbWEC4Lqtm&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=O0B0pBz--u46d4Lj9-KLgQ&_nc_ss=7e2a8&oh=00_AQIgyFer7DMc6ophsgcgPA8JHjF09RfW-CirEmEGTF2ijg&oe=6A991438",
+  "venue": "3 Market Ln, Wellington Central, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2903122,
+    "long": 174.7792585
+  },
+  "dates": [
+    "2026-09-06-10:00"
+  ],
+  "displayDate": "Sun 06 Sep",
+  "url": "https://www.facebook.com/events/991346993301141",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Sep Miramar Maupuia community centre Raranga-Motu Kairangi Te Kohanga Reo, 27 Chelsea St, Miramar, Wellington 6022, New Zealand-Facebook",
+  "name": "Sep Miramar Maupuia community centre Raranga",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/704801777_1033967732527647_1496867734628593929_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s1536x2048&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=aMODxpBqCJAQ7kNvwGzKaug&_nc_oc=AdoulBEKpVq_p1wi_mDzEkQp1MifULgAB-Xx-enp0NY8godq7VqJdoifVkSk4DPh9QVsGdkjVZ7sGulsV5xiEBAW&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=x2kKF5PmF9b64lkhK2pOWQ&_nc_ss=7e2a8&oh=00_AQJRB7VJquQ8WXPI__R31inRpa7YWmzRBpeUIxSnBTSOJg&oe=6A992788",
+  "venue": "Motu Kairangi Te Kohanga Reo, 27 Chelsea St, Miramar, Wellington 6022, New Zealand",
+  "coordinates": {
+    "lat": -41.3176454,
+    "long": 174.8172814
+  },
+  "dates": [
+    "2026-09-13-10:00"
+  ],
+  "displayDate": "Sun 13 Sep",
+  "url": "https://www.facebook.com/events/3894640607509753",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "RISE FLY FISHING FILM TOUR 2026 - 20th Anniversary - Wellington-205 Ohiro Road, Brooklyn, Wellington-Facebook",
+  "name": "RISE FLY FISHING FILM TOUR 2026 - 20th Anniversary - Wellington",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/714981244_1313532270755244_4158697202360541698_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=vWDBbIzuZOoQ7kNvwHFrraA&_nc_oc=AdpATOcLWcmkJed10kJHJNbMCWEfT0JcMOQHDEATZ5YAUv5MjNd65iGAoPenJIjhwE950lNl7Op801-lvsvMbq99&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=XrBGYy05EgqqbgXqcXl-OA&_nc_ss=7e2a8&oh=00_AQIlAjV0dvdN3Uwi3ADjo0EmsoZk6NAu_Z0jrHh7fF3g6w&oe=6A9917B8",
+  "venue": "205 Ohiro Road, Brooklyn, Wellington",
+  "coordinates": {
+    "lat": -41.3058294,
+    "long": 174.7637101
+  },
+  "dates": [
+    "2026-09-03-19:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/1260548672600549",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Taita Cemetery Tidy Up 2026-Kowhai Street, Naenae, Lower Hutt-Facebook",
+  "name": "Taita Cemetery Tidy Up 2026",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/622370400_122169708110857125_9008809825650313003_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1866&ctp=s2048x1866&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-urEwgTh61UQ7kNvwHFZiQ_&_nc_oc=AdpIkS3RvM5cZDGwjHEtd_j4cQoyDBBRUpoedMb6wqCtSBnYtXFHDM4xhR_PqO1IoLfRV32lsumiR1mkXNZLic2I&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=67VDHuOlBkDTxHpN9yCtDA&_nc_ss=7e2a8&oh=00_AQJg8Lq7lI3iiw4xBVh305EGuBcGpbkeqxH89uNogqq24A&oe=6A9905AA",
+  "venue": "Kowhai Street, Naenae, Lower Hutt",
+  "coordinates": {
+    "lat": -41.1983574,
+    "long": 174.9607809
+  },
+  "dates": [
+    "2026-09-12-09:00"
+  ],
+  "displayDate": "Sat 12 Sep",
+  "url": "https://www.facebook.com/events/914715597714591",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Tea & Tales Book Club-34 Moorefield Rd, Johnsonville, Wellington 6037, New Zealand-Facebook",
+  "name": "Tea & Tales Book Club",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/615211110_1305839728256424_4235000229822251341_n.jpg?stp=dst-jpg_tt6&cstp=mx1356x2048&ctp=s1356x2048&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=NTvySEOPRBsQ7kNvwG0Wmdk&_nc_oc=AdqkAENwh61Qd_YBNbFoSpo8jcSQ_evC-mbLFFISBVUZDry5nmF8Gj_bNIe6ljjcYHOUSKVLyLrqy3xlVVkibqV0&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=IM1OtErGeXa_Y9DfPTwUAQ&_nc_ss=7e2a8&oh=00_AQJRAaj8hveWbf2mZZiMo7v7Cmw46OoGP8MUMbEltDodVg&oe=6A99152F",
   "venue": "34 Moorefield Rd, Johnsonville, Wellington 6037, New Zealand",
   "coordinates": {
     "lat": -41.2227905,
     "long": 174.8047695
   },
   "dates": [
-    "2026-08-26-10:00"
+    "2026-09-04-14:00"
   ],
-  "displayDate": "Wed 26 Aug",
-  "url": "https://www.facebook.com/events/1436458764869893",
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1209948224576544",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -421,19 +1080,39 @@
   "labels": []
 },
 {
-  "id": "Craft time for adults - bring a project!-Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand-Facebook",
-  "name": "Craft time for adults - bring a project!",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/708891846_1488390703325350_6106701021275852404_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=gSk-qikHdWMQ7kNvwH2YlvL&_nc_oc=AdqGSHNqAU5gcoUe3cJ6VsbFI86ASkH-p9oeX-62PGKU74yv3iPYtucNCe9Z6CaVdUSDYuqfsi3DaQGDDwmlSuzB&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=FP6sJqXt9HfBuLxNTQ2Fkg&_nc_ss=7e2a8&oh=00_AQGnuwjw_CHz-f8CLA84IVHvOy3aHxMmadVJkmaFVVBJTQ&oe=6A9358E3",
-  "venue": "Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand",
+  "id": "Kelburn Community Garden Working Bee - Autumn/Winter first Saturday of the month-93A Kelburn Pde, Kelburn, Wellington 6012, New Zealand-Facebook",
+  "name": "Kelburn Community Garden Working Bee - Autumn/Winter first Saturday of the month",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/662873584_847588998354416_5059242670539565155_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1024x768&ctp=s1024x768&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-AoL-qc-D5YQ7kNvwHrLzQt&_nc_oc=AdpFq1CuIHEw_YRWFv6EjI7qqyzOjUzEaAzV_YXZ5TF93_8RJofmeFIEUk7mhmEwV6FSc6_5ozk5Gpj_ZQzge84A&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=jnEdvVJtbHlpMbW3hMkYFQ&_nc_ss=7e2a8&oh=00_AQKwn0IMk8icO-wj1lS3ZDhe7N1o03eQgZNcMbIddsgmBQ&oe=6A991EB0",
+  "venue": "93A Kelburn Pde, Kelburn, Wellington 6012, New Zealand",
   "coordinates": {
-    "lat": -41.2881864,
-    "long": 174.7767337
+    "lat": -41.2910078,
+    "long": 174.7666123
+  },
+  "dates": [
+    "2026-09-05-11:00"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/26299606756374912",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Sit N' Knit-34 Moorefield Rd, Johnsonville, Wellington 6037, New Zealand-Facebook",
+  "name": "Sit N' Knit",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/615175410_1305837118256685_5551656191742339311_n.jpg?stp=dst-jpg_tt6&cstp=mx542x676&ctp=s542x676&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=eJDA1ESt-f8Q7kNvwEN53iS&_nc_oc=AdoXmrtI6YRPVpspICqCbPOBwPuOTckl2-8C-U3K0LxrjbyMntGRg2GQAdqHBCA6tB32gqxN8vp6njHeCcFrvHRJ&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=JjOOXYBzMqKW_Uek8l8Sdg&_nc_ss=7e2a8&oh=00_AQLZyw4e0QMx6g_DMryyPmBagc4aP5vF47p6ZWd0gV1m0Q&oe=6A992551",
+  "venue": "34 Moorefield Rd, Johnsonville, Wellington 6037, New Zealand",
+  "coordinates": {
+    "lat": -41.2227905,
+    "long": 174.8047695
   },
   "dates": [
     "2026-08-30-14:00"
   ],
   "displayDate": "Sun 30 Aug",
-  "url": "https://www.facebook.com/events/2808645669500586",
+  "url": "https://www.facebook.com/events/1210526047216166",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -441,19 +1120,60 @@
   "labels": []
 },
 {
-  "id": "QUIZ NIGHT @ GIBBONS HOTEL-7 Dixon St, Te Aro, Wellington 6011, New Zealand-Facebook",
-  "name": "QUIZ NIGHT @ GIBBONS HOTEL",
-  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/592154373_1383255193813388_8616666693609912383_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=6bKHXQUpSckQ7kNvwG9ylkZ&_nc_oc=AdpO_i_us93LkBWS0IuNn6WyqMbfbgGskIOdDQaFQN_B8d-znCsxVNrQz_R63ZGFhbS4T1YPFl9NPU4yk2zMBrJu&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=ikXtFUL5q6vfg97g7Ph2eA&_nc_ss=7e2a8&oh=00_AQGXEz5T89saIM1-Ku2l_wNipfGs6dSWayJgE2rW3DZQJw&oe=6A9359CD",
-  "venue": "7 Dixon St, Te Aro, Wellington 6011, New Zealand",
+  "id": "Mandarin Corner: Mid-Autumn festival - explore its traditions, food, characters & craft-11 Bunny St, Pipitea, Wellington 6011, New Zealand-Facebook",
+  "name": "Mandarin Corner: Mid-Autumn festival - explore its traditions, food, characters & craft",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/719755232_1651261443673983_8398313938980922141_n.jpg?stp=dst-jpg_tt6&cstp=mx640x360&ctp=s640x360&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=MHN9kNyskhQQ7kNvwH33WN0&_nc_oc=AdohOZkBC-4DqmYP3cNKuLA_4pDaKmDBFF01NNbMcOEsnnhIwLgK-soMmXwAlp6HrI8vXzEnbxLMw8a1i9XLB1WV&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=tm3i32xEF29ITIJZ_7RlTA&_nc_ss=7e2a8&oh=00_AQKIxd5e--92erdWl2EyKjPRqdHgkLv4ySXWQQYKbCUlyg&oe=6A99119B",
+  "venue": "11 Bunny St, Pipitea, Wellington 6011, New Zealand",
   "coordinates": {
-    "lat": -41.2924161,
-    "long": 174.7783364
+    "lat": -41.2800569,
+    "long": 174.7795798
   },
   "dates": [
-    "2026-09-01-18:30"
+    "2026-09-12-15:30"
   ],
-  "displayDate": "Tue 01 Sep",
-  "url": "https://www.facebook.com/events/1158751736386642",
+  "displayDate": "Sat 12 Sep",
+  "url": "https://www.facebook.com/events/1637326294002591",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Dying Matters Week Wellington Region-108 Wakefield St, Wellington Central, Wellington 6011, New Zealand-Facebook",
+  "name": "Dying Matters Week Wellington Region",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/734872179_122102210229374845_3725603067208470340_n.png?stp=dst-jpg_tt6&cstp=mx2044x802&ctp=s2044x802&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Kw6RNgS7ub8Q7kNvwHpj0vI&_nc_oc=AdqnSO-A7my8Ft7Ae3B1SSLcWt_hsHfzxEQDs66yLyZXW1iY-ZOBh-SLLed1BOTyuE-R5ZK-Y-PkB2fzlL18phWB&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=Rov5fyGWINSFiUtF5aT4bA&_nc_ss=7e2a8&oh=00_AQJWa08c_xmyLVW8qqRkJ3h1VOP5cU63PRYAflSFQib5qw&oe=6A9915D0",
+  "venue": "108 Wakefield St, Wellington Central, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2893771,
+    "long": 174.7764887
+  },
+  "dates": [
+    "2026-09-07-00:00",
+    "2026-09-13-00:00"
+  ],
+  "displayDate": "Mon 07 Sep + more",
+  "url": "https://www.facebook.com/events/1338156544396483",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Mantra, Pranayama & Meditation Course-14 Johnston St, Wellington Central, Wellington 6011, New Zealand-Facebook",
+  "name": "Mantra, Pranayama & Meditation Course",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/730040276_1584231093643166_2180059693656677638_n.jpg?stp=dst-jpg_tt6&cstp=mx1640x924&ctp=s1640x924&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=BHMRyzkULyMQ7kNvwGgwOY2&_nc_oc=AdqCZlG1xlr6veSlyB4IUYxdpsqNwxrIpvYs5LbU2mdHJGZJfkcnmYvFD7KSNDdhUxYJPJjjYHcpwwycvcaiE3J0&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=E3Yht-AMyaCrL6m-94gFBg&_nc_ss=7e2a8&oh=00_AQLNc3Z2Qhqc-junHGoW5-qbUv2uG0KPb3shhItWhG5Y_w&oe=6A992ED6",
+  "venue": "14 Johnston St, Wellington Central, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2826804,
+    "long": 174.7765028
+  },
+  "dates": [
+    "2026-09-05-09:00"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/2774570539594996",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",
@@ -463,17 +1183,397 @@
 {
   "id": "Craft time for adults - bring a project!-Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand-Facebook",
   "name": "Craft time for adults - bring a project!",
-  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/708866022_1488396089991478_1971138117521071244_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=eyUd3MNV9B0Q7kNvwG2jXgO&_nc_oc=AdpOf4FUCNv5ktiGB1TOpPkbKp2aAn2z7FTj4rVxhhpSWDmuvyXp6n3Wi7Zk6XVja2A6IcsdWFobdoaqwlbzXDlY&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=feN0z0sdYs42rcTd-oGbjg&_nc_ss=7e2a8&oh=00_AQFtNsv8kiRpuMEbu9L9DjYuKCtRHG5KYCLe2PpkAW7Rlg&oe=6A933C0F",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/708882156_1488398333324587_1943453067366254558_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=b0mVR36zJCkQ7kNvwGZUY_x&_nc_oc=AdrFCjLKgkfjwR3eAnmeWdld1y_T-LFO2ddsCLUUne9BurOd_uuMzhOleZjvVLxUGf1nB9oL-IEVwhjtUZWGWDSr&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=tjRtcbMcBWvftOaBFjhUcQ&_nc_ss=7e2a8&oh=00_AQIqm3sH99Czn7h6TH-DECmC49JaQiLZtzrgQzw7T8ODmw&oe=6A992A53",
   "venue": "Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand",
   "coordinates": {
     "lat": -41.2881864,
     "long": 174.7767337
   },
   "dates": [
-    "2026-08-26-12:00"
+    "2026-08-31-17:00"
   ],
-  "displayDate": "Wed 26 Aug",
-  "url": "https://www.facebook.com/events/26850374594647564",
+  "displayDate": "Mon 31 Aug",
+  "url": "https://www.facebook.com/events/1313106004259618",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Great Sounds Great festival 2026-35 Ghuznee St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Great Sounds Great festival 2026",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/721415403_1468084518691781_4794240200653414477_n.png?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=mSBV-vDqqD0Q7kNvwH46Ss4&_nc_oc=AdrAQh-_blZIE5Ln2wfDPqEwS4dWOG9viEAH_Zhn-2Bo3JPFxEYrcsXPjp7Wbu2MGoyvhDbeH6UD3VnftHmfkbm1&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=Mqr5tRJp1X9zW93u7BIAjA&_nc_ss=7e2a8&oh=00_AQLOmn2aSzE5ruCciBepXn7EtpBd1G8nTW-O5xxSzC-Tgw&oe=6A991955",
+  "venue": "35 Ghuznee St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2936308,
+    "long": 174.7763688
+  },
+  "dates": [
+    "2026-09-05-15:00"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/990498617102010",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Hobby Friday-64 Manners St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Hobby Friday",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.99422-6/726495286_2023463334926571_5627200982762588805_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=of0-aqTQPKwQ7kNvwGoM8xh&_nc_oc=Adr-QgWe4Gz7sqfR88Pi-GYbagVCRZcR89G2mSfmXZAXEUYVlD-v_rIQEzXakgkxkLJA_LL2NCSNXMZGwtTfIHJD&_nc_zt=14&_nc_ht=scontent.fakl1-3.fna&_nc_gid=RIrmllhUcmxzMcXEB1Agbw&_nc_ss=7e2a8&oh=00_AQJrtqt1y9nkJqhU1EvTGfD2NtQd2xGpiOxCAEjCgYszpw&oe=6A98FDE5",
+  "venue": "64 Manners St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2906791,
+    "long": 174.7759127
+  },
+  "dates": [
+    "2026-09-04-10:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1726003701712561",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "The Spring Fling Express-Paekakariki-Facebook",
+  "name": "The Spring Fling Express",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/718132544_1589751976485080_8271202346482257077_n.jpg?stp=dst-jpg_tt6&cstp=mx800x534&ctp=s800x534&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=JHCRWRVSdFAQ7kNvwHXfEIs&_nc_oc=AdqFhNdpW7uunRuYzrnghw478tbFZ6685oVfYkJK1HmJUL7WHG2hQVpcYTnF4GmRClvj5Gh3tw2AIQdX5svA3t55&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=B8XMZxyk4LYY_Lqlaf_Z4A&_nc_ss=7e2a8&oh=00_AQLQN7ZEnw-E_2KwiVA1KGGceln4n-wa4rJE6K5hc38gfg&oe=6A993072",
+  "venue": "Paekakariki",
+  "coordinates": {
+    "lat": -40.9883074,
+    "long": 174.9514432
+  },
+  "dates": [
+    "2026-09-05-06:52"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/2444394126062276",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "SIGMA (UK) | WELLINGTON-Wellington, New Zealand-Facebook",
+  "name": "SIGMA (UK) | WELLINGTON",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/704689801_1431425002346541_7297986891196243195_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1152&ctp=s2048x1152&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=FewTx4ijTh0Q7kNvwFhfa73&_nc_oc=Adpz82nFayP9wpTh0snT-g6C1gQCgrFWKB8qBGN9b4bIxCY9oGfAKOVShwcnMg3pITYVQ7MNrbi-NM1GwqPMXnP1&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=56DDNh6qOX2koGhETMjQjg&_nc_ss=7e2a8&oh=00_AQIxKTkHlNOtrM52gU6WABEQSMEh-DTpAmGRmAE7zot-pg&oe=6A991194",
+  "venue": "Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-11-21:00"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.facebook.com/events/1351940026797579",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "A Voyage to the Moon by Offenbach: A NZSM Opera Production-73A Kelburn Pde, Kelburn, Wellington 6012, New Zealand-Facebook",
+  "name": "A Voyage to the Moon by Offenbach: A NZSM Opera Production",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/783286447_1503339921813510_8009541998147147343_n.jpg?stp=dst-jpg_tt6&cstp=mx1449x2048&ctp=s1449x2048&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=sHQxfbPK7Y8Q7kNvwHVpvV4&_nc_oc=AdpeEYnzSAN3MZmzhpXj2Qtu64JMm0PUsmBedqtCu4NvAxcatcx6045bJOsPgekrbbdM8btk3ARJ10w8Xbi60-Gn&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=NqGA2M6OSOLnp3yE0j-RIw&_nc_ss=7e2a8&oh=00_AQLFwedtjoeS_EvoGKACNKVNaV3ntjSZGH1fQPR69NamEQ&oe=6A991A1F",
+  "venue": "73A Kelburn Pde, Kelburn, Wellington 6012, New Zealand",
+  "coordinates": {
+    "lat": -41.290905,
+    "long": 174.7671455
+  },
+  "dates": [
+    "2026-09-04-19:30"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1800318501325421",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "\ud835\udc12\ud835\udc14\ud835\udc19\ud835\udc00\ud835\udc0d\ud835\udc0d\ud835\udc04 \ud835\udc15\ud835\udc04\ud835\udc06\ud835\udc00 | Sun 6 Sept 2026 | St. James Theatre, Wellington-83 Courtenay Pl, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "\ud835\udc12\ud835\udc14\ud835\udc19\ud835\udc00\ud835\udc0d\ud835\udc0d\ud835\udc04 \ud835\udc15\ud835\udc04\ud835\udc06\ud835\udc00 | Sun 6 Sept 2026 | St. James Theatre, Wellington",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/571396100_1280852914084897_3002755525221310199_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=s1920x1005&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=066CCXYqFSQQ7kNvwF6Bf_j&_nc_oc=Adr7tUoLrNBNKYg6sKPEl7r8yx_1btmaduQ9CH82_1A9AzXdtKC_HxKNe0fQhxlmk00RSjau6JBiZ2r5Dfb60kfW&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=S8vue5Kdzjp3PzGGNGShRw&_nc_ss=7e2a8&oh=00_AQKn3ocXbnsvZ91fq028L7J_R9UEM3IkuIB-H6sfchu8jQ&oe=6A9908C0",
+  "venue": "83 Courtenay Pl, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2938809,
+    "long": 174.7827467
+  },
+  "dates": [
+    "2026-09-06-19:30"
+  ],
+  "displayDate": "Sun 06 Sep",
+  "url": "https://www.facebook.com/events/25221867367444264",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Trivia Tuesday @ Kelburn Village Pub-87 Upland Rd, Wellington-Facebook",
+  "name": "Trivia Tuesday @ Kelburn Village Pub",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/627395581_1523048403160163_1763249959606629481_n.jpg?stp=dst-jpg_tt6&cstp=mx1640x924&ctp=s1640x924&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=K1VGna3T4VUQ7kNvwHx_pVL&_nc_oc=AdpyFW8uukLLdmfaBu_TdCizmpV0OvLs4NSMu280YDWMhgpJu3I0Ap3acUG3sC68bwYXjL59NQlC2kB8ZaO7Y1I-&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=emlOz15T59aLIAe89Fbh-w&_nc_ss=7e2a8&oh=00_AQLaj_MGQPX8Vi3GIdqR3SFeD-_SN1CF5GzdcAiE6CtgBw&oe=6A990430",
+  "venue": "87 Upland Rd, Wellington",
+  "coordinates": {
+    "lat": -41.2893387,
+    "long": 174.7622361
+  },
+  "dates": [
+    "2026-09-01-19:00"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.facebook.com/events/657954650714289",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Open Decks & DJ Workshop hosted by Intec (Third Eye Hifi)-167 Riddiford St, Newtown, Wellington 6021, New Zealand-Facebook",
+  "name": "Open Decks & DJ Workshop hosted by Intec (Third Eye Hifi)",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/659844899_1593190438944625_7428869013969645892_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=nZKKgrRJnCoQ7kNvwG1nka0&_nc_oc=AdpZqnMLmZx2pf-bQhVgPSX-R3oF6bnsO38yFD6YYPMUQTYwZ93c7gIZfk4hR3UvynGdUzzDz6W_B9F49nDwtoCJ&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=XinadmNAYi65osFKXAXcmw&_nc_ss=7e2a8&oh=00_AQIZ-RKf2kQ0LD8LvrCD8jgKIlAswA06_mu8ZQzNeIBfeg&oe=6A990C20",
+  "venue": "167 Riddiford St, Newtown, Wellington 6021, New Zealand",
+  "coordinates": {
+    "lat": -41.313148,
+    "long": 174.7798543
+  },
+  "dates": [
+    "2026-09-10-17:00"
+  ],
+  "displayDate": "Thu 10 Sep",
+  "url": "https://www.facebook.com/events/1446316383871545",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Tuesday Trivia Nights @ Lovy's Eatery (Fortnightly)-43 Vivian St, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Tuesday Trivia Nights @ Lovy's Eatery (Fortnightly)",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/666826600_1582266017238401_1949076697256827630_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=UtwNao7xCSsQ7kNvwElbqMP&_nc_oc=AdpGObfmJTOjukMBqG8lnMhhBo1BvsFOq-jpCxpc5IP4HoN3hrhR7woh2-isYJ_QW6OY6LHyScqMT1j4khx0Slpg&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=BmgG53Fk7dfstBb3kKVntQ&_nc_ss=7e2a8&oh=00_AQLil4gGnowyi0EcNZjzdnwjg3F-xiflQkHtO2FsmJ1l5g&oe=6A991631",
+  "venue": "43 Vivian St, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.296289,
+    "long": 174.7792756
+  },
+  "dates": [
+    "2026-09-01-18:30"
+  ],
+  "displayDate": "Tue 01 Sep",
+  "url": "https://www.facebook.com/events/800080966505206",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Bangers Bingo Night-74 Courtenay Pl, Te Aro, Wellington 6011, New Zealand-Facebook",
+  "name": "Bangers Bingo Night",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/612728674_1193651892967664_4241804976075381983_n.png?stp=dst-jpg_tt6&cstp=mx851x315&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=aieUNlCcsgkQ7kNvwFO9-S-&_nc_oc=AdpiJakMN8HdUSNWBa6Bi-a9FLw2joH8I-AxAhiv4eRjJtnWvMOFT-q23K5BowME_hgh_LNwLpsivxtQb4aNOZqA&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=40TKvCLKJqXTnWg1hgeuzA&_nc_ss=7e2a8&oh=00_AQLLYEma0h2Wlv9gJvw3jMV4hakZQ6ydWrVHNfKubS-YsQ&oe=6A991994",
+  "venue": "74 Courtenay Pl, Te Aro, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.293057,
+    "long": 174.7805144
+  },
+  "dates": [
+    "2026-09-03-19:00"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/1735427177843753",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Monthly Babywearing meet up-Johnsonville Community Centre, 3 Frankmoore Ave, Johnsonville, Wellington 6037, New Zealand-Facebook",
+  "name": "Monthly Babywearing meet up",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/624734444_1334972138672801_6156856780901669327_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1152&ctp=s2048x1152&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=kWB8ZjJm7Y0Q7kNvwFkCNcZ&_nc_oc=AdpytBXno7emMnYQ_W-kI9_HF6yMEQNmXF3oEk3bR_xXKhn9PA6svaP5rlI-1jowghOCEREviQEMRwE5Zp6HPXiU&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=x2P5VU08n7ptSe0KKDFGUg&_nc_ss=7e2a8&oh=00_AQIm8q0jPDpArVXAGj9gThZsd4m5l9u3aOo31ZWXh_iCug&oe=6A992034",
+  "venue": "Johnsonville Community Centre, 3 Frankmoore Ave, Johnsonville, Wellington 6037, New Zealand",
+  "coordinates": {
+    "lat": -41.2224239,
+    "long": 174.8051222
+  },
+  "dates": [
+    "2026-09-04-10:00"
+  ],
+  "displayDate": "Fri 04 Sep",
+  "url": "https://www.facebook.com/events/1278861710837344",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "ONZ Symposium 2026-Rydges Wellington Airport, 28 Stewart Duff Dr, Rongotai, Wellington 6022, New Zealand-Facebook",
+  "name": "ONZ Symposium 2026",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/694617695_1804443934257142_4731308437143527297_n.jpg?stp=dst-jpg_tt6&cstp=mx1774x887&ctp=s1774x887&_nc_cat=103&ccb=1-7&_nc_sid=75d36f&_nc_ohc=o4874F4iv_oQ7kNvwEQx8wg&_nc_oc=AdpDe0MDt_A-vN0ZCxn4izLcWxCGlr7AZfd9J1sPJVP39_2sddZFEdMH409X64S2TVEavbYVOQwP4SnB-mVMYfpx&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=kYHp6_HlbBHGNar9m77R_Q&_nc_ss=7e2a8&oh=00_AQIyY4PLqmfORP4AMBNtz-ZRNmreL3z_6uIyvuGjO99GHw&oe=6A992ACB",
+  "venue": "Rydges Wellington Airport, 28 Stewart Duff Dr, Rongotai, Wellington 6022, New Zealand",
+  "coordinates": {
+    "lat": -41.3302555,
+    "long": 174.8112968
+  },
+  "dates": [
+    "2026-09-05-08:30"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/1025678263121623",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Saturday Practica-22 Webb St, Mount Cook, Wellington 6011, New Zealand-Facebook",
+  "name": "Saturday Practica",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/739012746_10242490093133603_5634163786276861020_n.jpg?stp=dst-jpg_tt6&cstp=mx650x402&ctp=s650x402&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Dg-f9u-lAp4Q7kNvwFDFR7g&_nc_oc=Adpi0NXWaesvSaEVIlYmlMm-LWQo8redZ3AJuiNwh_QYBkXNdWm4p1nPCj6jD5cmpAGRGv37QaOwtvdcFuD_DmcF&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=6TPsarKYkG-MF-DPorWKvQ&_nc_ss=7e2a8&oh=00_AQI750jJoqVI76iJ9FBZOGhaIc31Y9Woz4hMiVfMQWQgng&oe=6A992130",
+  "venue": "22 Webb St, Mount Cook, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2980634,
+    "long": 174.7747644
+  },
+  "dates": [
+    "2026-09-05-16:30"
+  ],
+  "displayDate": "Sat 05 Sep",
+  "url": "https://www.facebook.com/events/2164138934381892",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Petone Beach Clean-Up (Eastern End)-Petone, New Zealand-Facebook",
+  "name": "Petone Beach Clean-Up (Eastern End)",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/682005067_1279110057680293_5681525909330776631_n.jpg?stp=dst-jpg_tt6&cstp=mx851x315&ctp=s851x315&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=i3u5lMBh9DgQ7kNvwGCOi59&_nc_oc=Adphg3LLh_D_U6KHogyCmqbECTuqkFSSKVbhddZWWTgq067mzA0l8p11YTginmSLCQJfaYpMIgmldI2k-BZQqNVt&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=UM6JA8bmaGmGUacCWhcBrA&_nc_ss=7e2a8&oh=00_AQLSXQnpUAXM1a0iCFoYEulguK7-aGFtZAupKJLyQcD2ng&oe=6A99124C",
+  "venue": "Petone, New Zealand",
+  "coordinates": {
+    "lat": -41.2249675,
+    "long": 174.8790351
+  },
+  "dates": [
+    "2026-08-30-09:00"
+  ],
+  "displayDate": "Sun 30 Aug",
+  "url": "https://www.facebook.com/events/2060994261509827",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Love Tennis-55 Delhi Cres, Khandallah, Wellington 6035, New Zealand-Facebook",
+  "name": "Love Tennis",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/658774878_1522292233236220_5490477218458140501_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=xwND0Sp0UfIQ7kNvwGp7Vbz&_nc_oc=AdoDe-aqFa3nKefYAz-jBw-aQ1X3RNEV8ydtcxWeDCtq3zSUlAXru7t5CczO_WGxgFtZxDbbeHu8tsxSwYiJBbyf&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=Ibe1EUiyT6yI5-GhtyF7-A&_nc_ss=7e2a8&oh=00_AQLMpN6LHy37nL8_XWVPuH1N22ekOiokcEwgMoVUTkaJxw&oe=6A98FF2A",
+  "venue": "55 Delhi Cres, Khandallah, Wellington 6035, New Zealand",
+  "coordinates": {
+    "lat": -41.2427604,
+    "long": 174.7958012
+  },
+  "dates": [
+    "2026-09-13-10:00"
+  ],
+  "displayDate": "Sun 13 Sep",
+  "url": "https://www.facebook.com/events/1499725925106569",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "African Book Club-Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand-Facebook",
+  "name": "African Book Club",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/706881216_1485651563599264_5639416676306533631_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=108&ccb=1-7&_nc_sid=75d36f&_nc_ohc=IoKD1s-RPWkQ7kNvwFToXkV&_nc_oc=AdoEzyxVS5Ev3WwRHGu9OzCP-mDRqrZ0vChnGQ1znuEmmDs4FomKLIK5HD2PI5do6rkDgvQGYqvvdLg8KEoh7lWX&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=PAgNBB6CbYXzuSjDg7JAag&_nc_ss=7e2a8&oh=00_AQI-Jzt1NPZ0vJZKbahzbuE-zguVzx4vk0sIFr1CxpyBhg&oe=6A992A98",
+  "venue": "Public Library Building, 65 Victoria St, Wellington Central, Wellington 6011, New Zealand",
+  "coordinates": {
+    "lat": -41.2881864,
+    "long": 174.7767337
+  },
+  "dates": [
+    "2026-09-03-17:30"
+  ],
+  "displayDate": "Thu 03 Sep",
+  "url": "https://www.facebook.com/events/1684919922651241",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Community Book Chat at Wadestown Library-1 Moorhouse St, Wadestown, Wellington 6012, New Zealand-Facebook",
+  "name": "Community Book Chat at Wadestown Library",
+  "imageUrl": "https://scontent.fakl1-3.fna.fbcdn.net/v/t39.30808-6/641628195_1411325084365246_2629050724001409185_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x628&ctp=s1200x628&_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=7HvaJrgKAvoQ7kNvwGgzGKV&_nc_oc=AdqSW_GyI5EGgad_FcY9IpOIfYwFei7R0pvQNYiIX-SB81zwXmNSgNR14xc2NqC-pFKF6L6uSodPaKMqoEqfA0nT&_nc_zt=23&_nc_ht=scontent.fakl1-3.fna&_nc_gid=LUzAM0EEem8W9op5dL747Q&_nc_ss=7e2a8&oh=00_AQJITpuVGe67RcWItVnBdPBA-yllF18qW3L_3nbRVu5y4A&oe=6A993010",
+  "venue": "1 Moorhouse St, Wadestown, Wellington 6012, New Zealand",
+  "coordinates": {
+    "lat": -41.2630691,
+    "long": 174.7768344
+  },
+  "dates": [
+    "2026-09-09-11:00"
+  ],
+  "displayDate": "Wed 09 Sep",
+  "url": "https://www.facebook.com/events/1428873435655841",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Stitch and Butch @ Blondini's-10 Kent Terrace, Wellington-Facebook",
+  "name": "Stitch and Butch @ Blondini's",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/626327390_10166967854269968_5403085573296693612_n.jpg?stp=dst-jpg_tt6&cstp=mx960x720&ctp=s960x720&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Sgg1RzZ47vYQ7kNvwE0aWPp&_nc_oc=Adr7AE_r6Ms4ZKXyR-Yq0rCaRWY2RcGcAMyE5IwxZLHOrCRUgy8rlzH8O1Ph1df7rj-hAsJVYGBVCiD8wFo86ra9&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=hBXCYV_4-bYvMex704vXlw&_nc_ss=7e2a8&oh=00_AQLUdD2EJL0aHEeMc7iimvZrtzO21IQjaisVNyyUbXnhgA&oe=6A9903E2",
+  "venue": "10 Kent Terrace, Wellington",
+  "coordinates": {
+    "lat": -41.2943273,
+    "long": 174.7840349
+  },
+  "dates": [
+    "2026-09-14-18:30"
+  ],
+  "displayDate": "Mon 14 Sep",
+  "url": "https://www.facebook.com/events/2463271617444303",
+  "source": "Facebook",
+  "eventType": "Other",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Soul in Motion-Khandallah Presbyterian Church, 33 Ganges Rd, Khandallah, Wellington 6035, New Zealand-Facebook",
+  "name": "Soul in Motion",
+  "imageUrl": "https://scontent.fakl1-4.fna.fbcdn.net/v/t39.30808-6/689290391_1457113832878396_7129917842691251051_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s1920x1080&_nc_cat=101&ccb=1-7&_nc_sid=75d36f&_nc_ohc=0pHr3tt4ZMoQ7kNvwGSh9eP&_nc_oc=Adp3t4ReKdJTcF8zwbr2zHwXz1pt-Ne0mT2p4imI5F1O2qdyRbBV605ESFM42iP-a-m2BBpsRF1vKHgob6ZeqwOi&_nc_zt=23&_nc_ht=scontent.fakl1-4.fna&_nc_gid=JqrDKQxSASS-hrxR525zSA&_nc_ss=7e2a8&oh=00_AQLv6QQSoPt0vgQdukVMowFsHymNj3A8TjgbBKSjsbmS8Q&oe=6A98FC07",
+  "venue": "Khandallah Presbyterian Church, 33 Ganges Rd, Khandallah, Wellington 6035, New Zealand",
+  "coordinates": {
+    "lat": -41.2473182,
+    "long": 174.7919688
+  },
+  "dates": [
+    "2026-08-31-18:15"
+  ],
+  "displayDate": "Mon 31 Aug",
+  "url": "https://www.facebook.com/events/1525834915642915",
   "source": "Facebook",
   "eventType": "Other",
   "long_description": "",

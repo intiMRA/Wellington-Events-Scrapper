@@ -1,34 +1,34 @@
 [
 [
-  "https://www.ticketmaster.co.nz/george-motz-burger-scholar-wellington-25-08-2026/event/240064CFBB661A87",
-  "Other"
+  "https://www.moshtix.co.nz/v2/event/great-sounds-great-festival-2026/196520",
+  "MusicEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/wet-denim-water-for-dogs-ep-release-tour-wellington/199393",
+  "MusicEvent"
 ],
 [
   "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E6AF3D1A4E",
-  "Other"
+  "MusicEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/air-force-in-concert-featuring-bret-wellington-08-11-2026/event/240065138C2C1943",
+  "https://www.ticketmaster.co.nz/an-audience-with-sir-tony-robinson-wellington-28-11-2026/event/2400651496C92788",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/auckland-fc-v-wellington-phoenix-auckland-13-02-2027/event/24006514BCCE3D8B",
-  "TheaterEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/miss-saigon-wellington-12-03-2027/event/240064FBDEEE355B",
-  "TheaterEvent"
-],
-[
-  "https://www.ticketweb.com/event/tray-wellington-band-at-woodlands-woodlands-tavern-tickets/15031693",
-  "TheaterEvent"
-],
-[
-  "https://www.ticketweb.com/event/tray-wellington-w-david-newbould-club-cafe-tickets/14989343",
+  "https://www.ticketmaster.co.nz/miss-saigon-wellington-13-03-2027/event/2400650204684C80",
   "TheaterEvent"
 ],
 [
   "https://www.ticketweb.com/event/tractor-presents-tray-wellington-band-tractor-tickets/14280824",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-newcastle-31-10-2026/event/13006519E6FE6318",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-car-newcastle-31-10-2026/event/1300651994F81DBA",
   "TheaterEvent"
 ],
 [
@@ -40,7 +40,7 @@
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.com.au/202627-isuzu-ute-aleague-sydney-fc-sydney-07-05-2027/event/250064FFCB019769",
+  "https://www.ticketmaster.com.au/202627-aleague-sydney-fc-v-wellington-sydney-07-05-2027/event/250064FFCB019769",
   "TheaterEvent"
 ],
 ]
