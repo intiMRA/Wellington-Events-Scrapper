@@ -55,7 +55,9 @@ def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
             events_dict[event_id] = event
 
     data = list(events_dict.values())
-    event_types = set([event.eventType for event in data])
+    event_types = set()
+    for event in data:
+        event_types.update(event.labels)
     if "Other" in event_types:
         event_types.remove("Other")
     sources = set([event.source for event in data])
