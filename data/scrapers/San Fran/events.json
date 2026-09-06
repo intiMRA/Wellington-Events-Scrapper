@@ -1,45 +1,5 @@
 [
 {
-  "id": "KPOP Club Night-San Fran, Wellington-San Fran",
-  "name": "KPOP Club Night",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/h/l/k/a90a3fa3-6fbf-4daf-b678-207a45a709ab.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-04-00:00"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/kpop-club-night-tickets-ae1417811",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Great Sounds Great Festival 2026-San Fran, Wellington-San Fran",
-  "name": "Great Sounds Great Festival 2026",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/i/v/u/e814ffa4-8210-4a7f-a841-b46fcf440c99.jpeg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-05-00:00"
-  ],
-  "displayDate": "Sat 05 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/great-sounds-great-festival-2026-tickets-ae1681897",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
   "id": "Emerson Leap On Tour-San Fran, Wellington-San Fran",
   "name": "Emerson Leap On Tour",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/n/q/j/b4bf785b-e698-4f7a-9d00-aed57cc36d6a.png",
@@ -140,6 +100,26 @@
   "labels": []
 },
 {
+  "id": "Bust a Move with Miss Raven-San Fran, Wellington-San Fran",
+  "name": "Bust a Move with Miss Raven",
+  "imageUrl": "https://networksites.livenationinternational.com/networksites/kukb4cog/busta-move.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-09-18-00:00"
+  ],
+  "displayDate": "Fri 18 Sep",
+  "url": "https://www.sanfran.co.nz/all-events/miss-raven-tickets-ae1595477",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Reece Mastin-San Fran, Wellington-San Fran",
   "name": "Reece Mastin",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/q/s/k/69f4fc5e-2d0a-432c-8e10-62de359378ef.jpg",
@@ -153,6 +133,26 @@
   ],
   "displayDate": "Sat 19 Sep",
   "url": "https://www.sanfran.co.nz/all-events/reece-mastin-tickets-ae1477466",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "The Beatniks with Molipane and Lucy Dibble-San Fran, Wellington-San Fran",
+  "name": "The Beatniks with Molipane and Lucy Dibble",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/c/o/w/4598906a-1c9b-41cf-ae1d-56c6b21f73e9.jpeg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-09-24-00:00"
+  ],
+  "displayDate": "Thu 24 Sep",
+  "url": "https://www.sanfran.co.nz/all-events/the-beatniks-with-molipane-and-lucy-dibble-tickets-ae1695342",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -193,6 +193,26 @@
   ],
   "displayDate": "Sat 26 Sep",
   "url": "https://www.sanfran.co.nz/all-events/wet-denim-tickets-ae1514198",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Oots AUS-San Fran, Wellington-San Fran",
+  "name": "Oots AUS",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/j/i/n/66dd08f3-1a4d-45ef-b3a3-6d7d29380254.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-03-00:00"
+  ],
+  "displayDate": "Sat 03 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/oots-tickets-ae1687693",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -253,6 +273,46 @@
   ],
   "displayDate": "Sat 10 Oct",
   "url": "https://www.sanfran.co.nz/all-events/where-s-jai-tickets-ae1603030",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "La Latina-San Fran, Wellington-San Fran",
+  "name": "La Latina",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/k/k/y/3732da3e-8044-465f-bc28-a7c344e82206.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-10-00:00"
+  ],
+  "displayDate": "Sat 10 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/la-latina-tickets-ae1695058",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Shake em On Downers-San Fran, Wellington-San Fran",
+  "name": "Shake em On Downers",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/m/u/t/3a2d625a-ebd1-466d-bead-c9641c33f1fd.jpeg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-17-00:00"
+  ],
+  "displayDate": "Sat 17 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/shake-em-on-downers-tickets-ae1694380",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -333,6 +393,26 @@
   ],
   "displayDate": "Sat 14 Nov",
   "url": "https://www.sanfran.co.nz/all-events/flyte-tickets-ae436891",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Goodnight Nurse The Always and Never Again Tour-San Fran, Wellington-San Fran",
+  "name": "Goodnight Nurse The Always and Never Again Tour",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/x/v/u/442e97b3-386e-469f-b944-7fa07e033ea0.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-11-20-00:00"
+  ],
+  "displayDate": "Fri 20 Nov",
+  "url": "https://www.sanfran.co.nz/all-events/goodnight-nurse-tickets-ae1693784",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -442,7 +522,7 @@
 {
   "id": "Uncle Acid and the Deadbeats-San Fran, Wellington-San Fran",
   "name": "Uncle Acid and the Deadbeats",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/o/y/b/9a6980aa-50d0-4fd8-96ed-29a4cb732614.jpg",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/f/f/k/b072d553-7cac-43b9-b936-354ad6cc17b8.jpg",
   "venue": "San Fran, Wellington",
   "coordinates": {
     "lat": -41.2941512,
@@ -453,6 +533,26 @@
   ],
   "displayDate": "Fri 11 Dec",
   "url": "https://www.sanfran.co.nz/all-events/uncle-acid-and-the-deadbeats-tickets-ae430631",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Yurt Party-San Fran, Wellington-San Fran",
+  "name": "Yurt Party",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/b/d/u/6cb06bb7-1d67-4cef-88de-2bfe4462e703.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-12-12-00:00"
+  ],
+  "displayDate": "Sat 12 Dec",
+  "url": "https://www.sanfran.co.nz/all-events/yurt-party-tickets-ae1694479",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -473,6 +573,26 @@
   ],
   "displayDate": "Sun 07 Feb",
   "url": "https://www.sanfran.co.nz/all-events/steve-hofstetter-tickets-ae1434150",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "The Smyths UK perform The Very Best of The Smith-San Fran, Wellington-San Fran",
+  "name": "The Smyths UK perform The Very Best of The Smith",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/f/l/w/6d98f505-5a9a-431e-a09c-a8ce0184d3d5.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-02-13-00:00"
+  ],
+  "displayDate": "Sat 13 Feb",
+  "url": "https://www.sanfran.co.nz/all-events/the-smyths-tickets-ae68979",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",

@@ -4,19 +4,47 @@
   "MusicEvent"
 ],
 [
-  "https://www.moshtix.co.nz/v2/event/wet-denim-water-for-dogs-ep-release-tour-wellington/199393",
+  "https://www.ticketmaster.co.nz/suzanne-vega-flying-with-angels-tour-wellington-06-09-2026/event/2400633A4BB861C7",
   "MusicEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E6AF3D1A4E",
+  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E3C3533515",
   "MusicEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/an-audience-with-sir-tony-robinson-wellington-28-11-2026/event/2400651496C92788",
+  "https://www.moshtix.co.nz/v2/event/myshaan/199669",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/miss-saigon-wellington-13-03-2027/event/2400650204684C80",
+  "https://www.ticketmaster.co.nz/tuanbia-thar-wellington-07-11-2026/event/2400651FDF422F01",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/goodnight-nurse-the-always-and-never-again-tour/199672",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/randy-feltface-gimmick-wellington-01-02-2027/event/24006519E16D28D7",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/kneecap-fenian-tour-wellington-10-02-2027/event/24006521AB55249D",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/the-smyths-uk-perform-the-very-best-of-the-smiths/199682",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/an-evening-with-gillian-welch-david-wellington-20-02-2027/event/2400651FAE0F205B",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/shen-yun-2027-wellington-25-02-2027/event/2400651A9F4618A9",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/strings-in-the-earth-air-wellington-central-03-04-2027/event/2400651FBCF3247C",
   "TheaterEvent"
 ],
 [
@@ -24,23 +52,27 @@
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-newcastle-31-10-2026/event/13006519E6FE6318",
+  "https://www.ticketweb.com/event/starlily-falling-into-light-dingbatz-tickets/14303294?REFERRAL_ID=tmfeed",
   "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-newcastle-31-10-2026/event/13006519E6FE6318",
+  "SportsEvent"
 ],
 [
   "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-car-newcastle-31-10-2026/event/1300651994F81DBA",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 [
-  "https://www.ticketmaster.com.au/202627-ws-wanderers-isuzu-ute-a-parramatta-13-12-2026/event/2500651388D01BAE",
-  "TheaterEvent"
+  "https://www.ticketmaster.com.au/202627-ws-wanderers-a-league-season-parramatta-13-12-2026/event/2500651388D01BAE",
+  "SportsEvent"
 ],
 [
   "https://www.ticketmaster.com.au/perth-glory-v-wellington-phoenix-fc-perth-30-04-2027/event/13006512DA8B65DD",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 [
   "https://www.ticketmaster.com.au/202627-aleague-sydney-fc-v-wellington-sydney-07-05-2027/event/250064FFCB019769",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 ]

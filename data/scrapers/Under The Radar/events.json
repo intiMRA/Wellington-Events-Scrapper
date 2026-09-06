@@ -1,58 +1,18 @@
 [
 {
-  "id": "Sunday Jazz Ft. The Cowie Quartet-The Undercurrent, Wellington -Under The Radar",
-  "name": "Sunday Jazz Ft. The Cowie Quartet",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104089-247296.jpg",
-  "venue": "The Undercurrent, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-08-30-15:30"
-  ],
-  "displayDate": "Sun 30 Aug",
-  "url": "https://www.undertheradar.co.nz/gig/104089/Sunday-Jazz-Ft-The-Cowie-Quartet.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "This Sunday presents The Cowie Quartet!\u00a0\n\nThe Cowie Quartet invites you to The Undercurrent's first ever classical gig!\u00a0\n\nCome along for a relaxed afternoon of varied string quartet music from across the globe. We'll be playing 19th-century classics by Borodin and Dvorak, jazz-inspired works of Takemitsu and Piazzolla, as well as unique folk song arrangements.\n\nWe are a newly formed quartet of students from the New Zealand School of Music, brought together by our goal to bring classical music out of the concert hall and into more venues around Wellington. Come hang out, have a drink, and enjoy some live classical music in a different kind of setting.\n\nSunday August 30\nDoors 3pm\nMusic 3:30pm\n$20 ($10 student)\n\nTickets available online and at the door!\n\nAs always, we are selling a range of refreshing drinks!\n\nWe still have our complimentary cheese crackers (we put the cheese on the crackers so you don\u2019t have to do it) and tea and coffee, and of course...books available for purchase.\n\nWe hope to see you there! \u2b50\ufe0f",
-  "description": "This Sunday presents The Cowie Quartet!\nThe Cowie Quartet invites you to The Undercurrent's first ever classical gig!\nCome along for a relaxed afternoon of varied string quartet music from across the globe.\nWe'll be playing 19th-century classics by Borodin and Dvorak, jazz-inspired works of Takemitsu and Piazzolla, as well as unique folk song arrangements.\nWe are a newly formed quartet of students from the New Zealand School of Music, brought together by our goal to bring classical music out of the concert hall and into more venues around Wellington.",
-  "labels": []
-},
-{
-  "id": "Sunday Jazz - Oscar Lav\u00ebn-Rogue and Vagabond, Wellington -Under The Radar",
-  "name": "Sunday Jazz - Oscar Lav\u00ebn",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104058-53160.jpeg",
-  "venue": "Rogue and Vagabond, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-08-30-17:00"
-  ],
-  "displayDate": "Sun 30 Aug",
-  "url": "https://www.undertheradar.co.nz/gig/104058/Sunday-Jazz---Oscar-Lavn.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer and jazz, on a Sunday perfect! This week featuring local saxophonist Oscar Lav\u00ebn and his quintet\n\nFlamboyant saxophonist / multi-instrumentalist Oscar Lav\u00ebn presents a kaleidoscopic array of fresh original music, drawing on an eclectic array of swing, blues, surrealism and 50s bar-walking R&B saxophone.\n\nMusic from 5pm, FREE ENTRY - Koha for the band encouraged!",
-  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer and jazz, on a Sunday perfect!\nThis week featuring local saxophonist Oscar Lav\u00ebn and his quintet Flamboyant saxophonist / multi-instrumentalist Oscar Lav\u00ebn presents a kaleidoscopic array of fresh original music, drawing on an eclectic array of swing, blues, surrealism and 50s bar-walking R&B saxophone.\nMusic from 5pm, FREE ENTRY - Koha for the band encouraged!",
-  "labels": []
-},
-{
   "id": "Moonday Quiz Hosted By Young Gho$t-MOON, Wellington -Under The Radar",
   "name": "Moonday Quiz Hosted By Young Gho$t",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104261-800158.jpg",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104262-616108.jpg",
   "venue": "MOON, Wellington ",
   "coordinates": {
     "lat": -41.3132459,
     "long": 174.7798505
   },
   "dates": [
-    "2026-08-31-19:00"
+    "2026-09-07-19:00"
   ],
-  "displayDate": "Mon 31 Aug",
-  "url": "https://www.undertheradar.co.nz/gig/104261/Moonday-Quiz-Hosted-By-Young-Ghot.utr",
+  "displayDate": "Mon 07 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104262/Moonday-Quiz-Hosted-By-Young-Ghot.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
   "long_description": "Mondays don\u2019t have to be a drag - come flex your brain at Moon with quizmaster Young Gho$t.\n\nExpect two music rounds, plus general knowledge, pop culture, geography and whatever else we feel like throwing at you.\n\nTeams are capped at 8, so round up your smartest mates and grab a table. $2 entry per person\nThe quiz kicks off at 7pm, but come early for food - we\u2019ve got pizza and drink deals to keep your neurons firing. Prizes include Moon show tickets and more!\n\nBook your table at newtownmoon.co.nz",
@@ -60,343 +20,283 @@
   "labels": []
 },
 {
-  "id": "Back Pocket Debut Gig-Valhalla, Wellington -Under The Radar",
-  "name": "Back Pocket Debut Gig",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103802-906742.jpg",
+  "id": "Moon Jam Nite-MOON, Wellington -Under The Radar",
+  "name": "Moon Jam Nite",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104471-136928.jpg",
+  "venue": "MOON, Wellington ",
+  "coordinates": {
+    "lat": -41.3132459,
+    "long": 174.7798505
+  },
+  "dates": [
+    "2026-09-08-19:30"
+  ],
+  "displayDate": "Tue 08 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104471/Moon-Jam-Nite.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Get your 15 minutes of fame at Newtown's famous Moon Jam Nite, every Tuesday from 7.30pm\n\nThe evening starts off as a regular open mic, and transforms into a full on jam towards the end.\n\nPut your moniker into the sign up sheet, and own your time slot. You can call upon the many talented muso's available to help you play your slot.\n\nA full stage with electric guitar, bass, keyboard, drums, mics, lights and full support from our sound tech.\n\nBring your own songs, poems, and friends (and make some new ones too)\n\n",
+  "description": "Get your 15 minutes of fame at Newtown's famous Moon Jam Nite, every Tuesday from 7.30pm The evening starts off as a regular open mic, and transforms into a full on jam towards the end.\nPut your moniker into the sign up sheet, and own your time slot.\nYou can call upon the many talented muso's available to help you play your slot.\nA full stage with electric guitar, bass, keyboard, drums, mics, lights and full support from our sound tech.\nBring your own songs, poems, and friends (and make some new ones too)",
+  "labels": []
+},
+{
+  "id": "Siege Machine - Twiay - Molipane-Valhalla, Wellington -Under The Radar",
+  "name": "Siege Machine - Twiay - Molipane",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104274-221767.jpg",
   "venue": "Valhalla, Wellington ",
   "coordinates": {
     "lat": -41.2948002,
     "long": 174.7753363
   },
   "dates": [
-    "2026-09-02-20:00"
+    "2026-09-09-20:00"
   ],
-  "displayDate": "Wed 02 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103802/Back-Pocket-Debut-Gig.utr",
+  "displayDate": "Wed 09 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104274/Siege-Machine---Twiay---Molipane.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "Back Pocket is Wellington\u2019s freshest band on the scene, fusing the deep groove of funk with the raw electricity of rock. One thing\u2019s certain: their sound will get your whole body moving. Joined by local powerhouse Studio 4, and the undisputed weaponry of Siege Machine, this lineup is set to light up the night.\n\nLooking for a midweek pick\u2011me\u2011up? Shake off those seasonal blues and dive into a Wednesday bursting with raw energy, big basslines, and great company. We\u2019re all about community, so we want to see as many new faces as possible \u2014 come and be a part of the vibe.",
-  "description": "Back Pocket is Wellington\u2019s freshest band on the scene, fusing the deep groove of funk with the raw electricity of rock.\nOne thing\u2019s certain: their sound will get your whole body moving.\nJoined by local powerhouse Studio 4, and the undisputed weaponry of Siege Machine, this lineup is set to light up the night.\nLooking for a midweek pick\u2011me\u2011up?\nShake off those seasonal blues and dive into a Wednesday bursting with raw energy, big basslines, and great company.",
+  "long_description": "Boom! we're back, and on the 9th of September, we are ready to bring the walls of Valhalla down!\n\nSiege Machine is a Progressive Grunge/Alt-rock Band bringing heavy hitting riffs and a drenching of melodic angst.\n\nWe are so excited to be joined by the Post-Gaze / experimental rock quintet The World is Against You and the Grungegaze/Alt-Rock band Molipane.\n\nThree Alt-rock/ Grunge bands, One heavy night.\n\nThis lineup is so stacked it'd be a crime to miss it.\n\nPoster by: May Bewg",
+  "description": "Boom!\nwe're back, and on the 9th of September, we are ready to bring the walls of Valhalla down!\nSiege Machine is a Progressive Grunge/Alt-rock Band bringing heavy hitting riffs and a drenching of melodic angst.\nWe are so excited to be joined by the Post-Gaze / experimental rock quintet The World is Against You and the Grungegaze/Alt-Rock band Molipane.\nThree Alt-rock/ Grunge bands, One heavy night.",
   "labels": []
 },
 {
-  "id": "April Phillips-Cable Top Eatery, Wellington -Under The Radar",
-  "name": "April Phillips",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104352-163373.jpg",
+  "id": "The Racket Lounge-Bedlam And Squalor, Wellington -Under The Radar",
+  "name": "The Racket Lounge",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102968-969368.jpg",
+  "venue": "Bedlam And Squalor, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-09-18:30"
+  ],
+  "displayDate": "Wed 09 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/102968/The-Racket-Lounge.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Grab a spot on our couch and enjoy the noise at The Racket Lounge - a chill classical music series showcasing up-and-coming P\u014dneke musicians.\n\nIf you\u2019ve never been to a classical concert before, or if you have and now you want to see talented emerging musicians experimenting and playing what they want to play, then The Racket Lounge is for you. Over the past two seasons we\u2019ve seen classical covers, jazz ensembles, video game soundtracks, original compositions, loop pedals, poetry and much more. Our 2026 season is shaping up to be just as epic, plus with your tickets starting at just $5 you can afford to take a chance on something new.\n\nEach concert will feature a different line up of musicians and genres, to be announced a week before each session. If you\u2019re a musician looking to perform at The Racket Lounge, then head to the New Zealand String Quartet\u2019s website to see how to apply.\n\n\n\nThe Racket Lounge is created and presented by the New Zealand String Quartet Trust - Te R\u014dp\u016b T\u016br\u016b o Aotearoa, New Zealand\u2019s longest-running professional string quartet. With support from Wellington City Council.\n\nTickets are choose your price starting from just $5.\n\nPlease note that Bedlam & Squalor is a licensed venue, so under 18s must be accompanied by a parent or legal guardian. Everyone must bring ID.",
+  "description": "Grab a spot on our couch and enjoy the noise at The Racket Lounge - a chill classical music series showcasing up-and-coming P\u014dneke musicians.\nIf you\u2019ve never been to a classical concert before, or if you have and now you want to see talented emerging musicians experimenting and playing what they want to play, then The Racket Lounge is for you.\nOur 2026 season is shaping up to be just as epic, plus with your tickets starting at just $5 you can afford to take a chance on something new.\nIf you\u2019re a musician looking to perform at The Racket Lounge, then head to the New Zealand String Quartet\u2019s website to see how to apply.\nTickets are choose your price starting from just $5.",
+  "labels": []
+},
+{
+  "id": "Evie Bamford 'Now Rising, Now Falling' Release Tour-San Fran, Wellington -Under The Radar",
+  "name": "Evie Bamford 'Now Rising, Now Falling' Release Tour",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104034-640484.jpg",
+  "venue": "San Fran, Wellington ",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-09-09-01:01"
+  ],
+  "displayDate": "Wed 09 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104034/Evie-Bamford-Now-Rising-Now-Falling-Release-Tour-.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Eyegum Free Wednesdays | Evie Bamford & Emily Alice\n\nFollowing a breakthrough year, Auckland-based songwriter, producer and multi-instrumentalist Evie Bamford releases her debut EP Now Rising, Now Falling on 1 September, and will be taking it on the road with her band to celebrate.\n\nAcross six tracks, the EP explores anxiety, self-worth, relationships and resilience, documenting a period of growing up through warm, intricately arranged indie rock.",
+  "description": "Eyegum Free Wednesdays | Evie Bamford & Emily Alice Following a breakthrough year, Auckland-based songwriter, producer and multi-instrumentalist Evie Bamford releases her debut EP Now Rising, Now Falling on 1 September, and will be taking it on the road with her band to celebrate.\nAcross six tracks, the EP explores anxiety, self-worth, relationships and resilience, documenting a period of growing up through warm, intricately arranged indie rock.",
+  "labels": []
+},
+{
+  "id": "Swing Jazz Jam-The Undercurrent, Wellington -Under The Radar",
+  "name": "Swing Jazz Jam",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104186-678809.jpg",
+  "venue": "The Undercurrent, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-09-20:00"
+  ],
+  "displayDate": "Wed 09 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104186/Swing-Jazz-Jam.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Swing into the golden age of jazz at the Swing Jazz Jam - a toe-tapping evening of classic grooves and spontaneous musical magic! \u2728\n\nFeaturing piano, guitar, double bass, and drums, this open jam invites musicians and jazz lovers alike to soak up the rhythm and energy of timeless swing.\n\nWhether you\u2019re here to play or just to sway, come down to Undercurrent on Wednesday 9th September at 8pm.\n\nKoha entry, all welcome!",
+  "description": "Swing into the golden age of jazz at the Swing Jazz Jam - a toe-tapping evening of classic grooves and spontaneous musical magic!\n\u2728 Featuring piano, guitar, double bass, and drums, this open jam invites musicians and jazz lovers alike to soak up the rhythm and energy of timeless swing.\nWhether you\u2019re here to play or just to sway, come down to Undercurrent on Wednesday 9th September at 8pm.\nKoha entry, all welcome!",
+  "labels": []
+},
+{
+  "id": "Mark Lockett Trio-Cable Top Eatery, Wellington -Under The Radar",
+  "name": "Mark Lockett Trio",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104355-225752.jpg",
   "venue": "Cable Top Eatery, Wellington ",
   "coordinates": {
     "lat": -41.2856291,
     "long": 174.7676135
   },
   "dates": [
-    "2026-09-02-17:30"
+    "2026-09-09-17:30"
   ],
-  "displayDate": "Wed 02 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/104352/April-Phillips.utr",
+  "displayDate": "Wed 09 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104355/Mark-Lockett-Trio.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "April performs solo with professional high quality backing tracks - get the big band\nsound with intimacy and elegance of a solo class act.\n\nHer forte is jazz and blues and she has appeared in many jazz festivals throughout\nNew Zealand. Jazz reviewers have described her as having \u201ca voice of honey\u201d and\nshe has been compared to Diana Krall and Ella Fitzgerald.\n\nBegins at 530pm - 730pm, at the Cabletop Eatery.\n\nWheelchair access from the main carpark entrance.",
-  "description": "April performs solo with professional high quality backing tracks - get the big band sound with intimacy and elegance of a solo class act.\nHer forte is jazz and blues and she has appeared in many jazz festivals throughout New Zealand.\nJazz reviewers have described her as having \u201ca voice of honey\u201d and she has been compared to Diana Krall and Ella Fitzgerald.\nBegins at 530pm - 730pm, at the Cabletop Eatery.\nWheelchair access from the main carpark entrance.",
+  "long_description": "The Mark Lockett Trio brings together three of New Zealand\u2019s most exciting jazz\nvoices. With Mark Lockett on drums, Daniel Yeabsley on bass and Dan Hayles on\npiano, this trio reimagines standards from the Great American Songbook with\nenergy, playfulness, and heart.\n\nEach musician is a standout artist in their own right,\nand their weekly residency over the past three years means this is anything but\nthrown together. Come up, check it out.\n\nBegins at 5.30pm\n\nWheelchair access from the main carpark.",
+  "description": "The Mark Lockett Trio brings together three of New Zealand\u2019s most exciting jazz voices.\nWith Mark Lockett on drums, Daniel Yeabsley on bass and Dan Hayles on piano, this trio reimagines standards from the Great American Songbook with energy, playfulness, and heart.\nEach musician is a standout artist in their own right, and their weekly residency over the past three years means this is anything but thrown together.\nCome up, check it out.\nBegins at 5.30pm Wheelchair access from the main carpark.",
   "labels": []
 },
 {
-  "id": "New Music Islands-Pyramid Club, Wellington -Under The Radar",
-  "name": "New Music Islands",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103824-620689.jpg",
-  "venue": "Pyramid Club, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-09-03-19:30"
-  ],
-  "displayDate": "Thu 03 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103824/New-Music-Islands.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Four Islands, Infinite Interpretations.\n\nNew Music Islands explores how we can forge connections across vast geographies while also doing our own thing, here, in our own way. The evening will be presented in two halves. The first 45 minutes feature a New Music Islands programme showcasing selected works from the Faroe Islands, Aotearoa New Zealand, the Canary Islands and Gotland. The second half celebrates the richness and diversity of contemporary music in New Zealand with a selection of works by New Zealand composers.\n\nThe programme centres on four works that embrace openness through flexible instrumentation and deliberately broad performance instructions. Each ensemble is invited to make the music their own, resulting in unique interpretations as the programme travels between the four island communities.\n\nFeaturing performances by Tristan Carter, Jonny Marks, Erika Grant, Naoto Segawa and Rebecca Steel, with music by Jesse Austin-Stewart, Ruby Solly, Elliot Vaughan, Ciro Hern\u00e1ndez, Lasse Thornin, Weston Olencki, Michelle Scullion, Jessie Leov, Garling Wu and Chris Cree Brown.\n\nEach concert will be a singular experience, with this being the Aotearoa New Zealand presentation. - New Music Islands is an international collaboration between four member societies of the International Society for Contemporary Music (ISCM): the Faroe Islands Section, VICC (ISCM Gotland Section), COSIMITE (ISCM Affiliated Associate Member representing the Canary Islands) and CANZ (ISCM New Zealand Section).\n\nNew Music Islands is an international collaboration between four member societies of the International Society for Contemporary Music (ISCM): the Faroe Islands Section, VICC (ISCM Gotland Section), COSIMITE (ISCM Affiliated Associate Member representing the Canary Islands) and CANZ (ISCM New Zealand Section).\n\n$20 ($10 underwaged and CANZ members)\nSpecial thanks to Creative NZ and Wellington City Council for supporting Pyramid Club's programme.",
-  "description": "Four Islands, Infinite Interpretations.\nNew Music Islands explores how we can forge connections across vast geographies while also doing our own thing, here, in our own way.\nThe first 45 minutes feature a New Music Islands programme showcasing selected works from the Faroe Islands, Aotearoa New Zealand, the Canary Islands and Gotland.\nThe second half celebrates the richness and diversity of contemporary music in New Zealand with a selection of works by New Zealand composers.\nEach concert will be a singular experience, with this being the Aotearoa New Zealand presentation.",
-  "labels": []
-},
-{
-  "id": "Siren-The Undercurrent, Wellington -Under The Radar",
-  "name": "Siren",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104076-390333.jpg",
+  "id": "Wellington Calling Open Mic-The Undercurrent, Wellington -Under The Radar",
+  "name": "Wellington Calling Open Mic",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104090-532777.jpg",
   "venue": "The Undercurrent, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-09-03-19:30"
+    "2026-09-10-19:30"
   ],
-  "displayDate": "Thu 03 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/104076/Siren.utr",
+  "displayDate": "Thu 10 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104090/Wellington-Calling-Open-Mic.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "The Undercurrent presents Siren!\n\nSiren is a four piece indie-rock band from Wellington's south coast. Their key influences include The Last Dinner Party, Fleetwood Mac and Sharon Van Etten. Siren is a new band on the scene but that has not hindered an EP being recorded and released. Come to The Undercurrent for the official release and celebrate Siren's first EP \"Born Anew\".\n\nThursday September 3\nDoors 7pm\nMusic 7:30pm\n$10\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "The Undercurrent presents Siren!\nSiren is a four piece indie-rock band from Wellington's south coast.\nTheir key influences include The Last Dinner Party, Fleetwood Mac and Sharon Van Etten.\nSiren is a new band on the scene but that has not hindered an EP being recorded and released.\nCome to The Undercurrent for the official release and celebrate Siren's first EP \"Born Anew\".",
+  "long_description": "The Undercurrent presents the Wellington Calling Open Mic!\n\nThe Undercurrent is hosting the Wellington Calling Open Mic and we're looking for diverse acts to contribute! Each performer gets the chance to have a six-minute set with a microphone, guitar and piano provided. This is an originals only event. We want to encourage new creative voices to be heard. \u201cWe want to provide a positive and encouraging environment for established and fledgling acts to shine in. It's a pretty inspiring place to perform,\u201d says host Steven Hood.\n\nEach performer will need to sign up in person before 7:30pm and registrations of interest need to be emailed to openwandw@gmail.com before September 10.\n\nThe feature act is Elyssa Vulpes with Catherine Ireland. Italian-born, Wellington-based, twenty-five years on stage Elyssa Vulpes brings violinist Catherine Ireland to the Undercurrent with atmospheric indie-folk ballads in English and Italian, raw and Celtic-tinged, real-life stories that walk into the melancholic and find their way back to light.\n\nThursday September 10\nDoors 7pm\nMusic 7:30pm\nKoha entry\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
+  "description": "The Undercurrent is hosting the Wellington Calling Open Mic and we're looking for diverse acts to contribute!\nEach performer gets the chance to have a six-minute set with a microphone, guitar and piano provided.\nThis is an originals only event.\n\u201cWe want to provide a positive and encouraging environment for established and fledgling acts to shine in.\nIt's a pretty inspiring place to perform,\u201d says host Steven Hood.",
   "labels": []
 },
 {
-  "id": "Stereoface: A Radiohead Tribute-Valhalla, Wellington -Under The Radar",
-  "name": "Stereoface: A Radiohead Tribute",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103234-639321.jpg",
-  "venue": "Valhalla, Wellington ",
-  "coordinates": {
-    "lat": -41.2948002,
-    "long": 174.7753363
-  },
-  "dates": [
-    "2026-09-03-19:30"
-  ],
-  "displayDate": "Thu 03 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103234/Stereoface-A-Radiohead-Tribute.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "After a knockout debut, Stereoface returns to Valhalla!\nJoin us for a night celebrating Radiohead's 30 year catalogue including music from albums Ok Computer, In Rainbows, The Bends and more...\n\nJoining us will be the Bottom Bunk Club, a folkpunk/antifolk band from P\u014dneke. They combine the energy of a sweaty basement punk gig with the feel-good plucking and strumming of an old-time bluegrass hoedown. Imagine Woody Guthrie had a baby with 90s Green Day!\n\nEntry fee: $15 cash at the door\n",
-  "description": "After a knockout debut, Stereoface returns to Valhalla!\nJoin us for a night celebrating Radiohead's 30 year catalogue including music from albums Ok Computer, In Rainbows, The Bends and more...\nJoining us will be the Bottom Bunk Club, a folkpunk/antifolk band from P\u014dneke.\nThey combine the energy of a sweaty basement punk gig with the feel-good plucking and strumming of an old-time bluegrass hoedown.\nImagine Woody Guthrie had a baby with 90s Green Day!",
-  "labels": []
-},
-{
-  "id": "Open Mic Night At The Beer Engine-The Beer Engine, Titahi Bay, Porirua, Wellington -Under The Radar",
-  "name": "Open Mic Night At The Beer Engine",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104199-817815.jpg",
-  "venue": "The Beer Engine, Titahi Bay, Porirua, Wellington ",
-  "coordinates": {
-    "lat": -41.1088845,
-    "long": 174.8373899
-  },
-  "dates": [
-    "2026-09-03-19:00"
-  ],
-  "displayDate": "Thu 03 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/104199/Open-Mic-Night-At-The-Beer-Engine.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Come along and play a few of your favorite cover songs and/or original songs in a relaxed, welcoming space!\n\nLocated in Titahi Bay, we'll be gathering to hear your performances/spoken word and sharing some good vibes.\n\nStarts around 7, ends at 9.\n\nFree entry, bring your own instruments. Microphone provided.\n\nAlso, if you perform you get a free mulled wine\u2744\ufe0f",
-  "description": "Come along and play a few of your favorite cover songs and/or original songs in a relaxed, welcoming space!\nLocated in Titahi Bay, we'll be gathering to hear your performances/spoken word and sharing some good vibes.\nStarts around 7, ends at 9.\nFree entry, bring your own instruments.\nMicrophone provided.",
-  "labels": []
-},
-{
-  "id": "The Night Before (Great Sounds Great)-Multiple venues in Newtown, Wellington -Under The Radar",
-  "name": "The Night Before (Great Sounds Great)",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103280-942332.jpeg",
-  "venue": "Multiple venues in Newtown, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-09-04-19:30"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103280/The-Night-Before-Great-Sounds-Great.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Eyegum is excited to present for the first time, THE NIGHT BEFORE, a new addition to Great Sounds Great. This multi-venue mini-festival will be focused on Te Whanganui-a-Tara\u2019s beloved Newtown village for one night to warm people up for the main event the next day. It will feature 12 incredible local artists performing across three neighbouring venues.\n\nWe are really stoked to be bringing the GSG party to and sharing the love with this special part of the city that has long been a home to our music and arts communities. With a programme curated to showcase the best up-and-coming artists that the capital (and \u014ctepoti) has to offer.\n\nLimited tickets to Newtown\u2019s newest party on sale now. Tickets to the main Great Sounds Great festival available from eyegum.co.nz.\n\nTicket holders will receive a wristband that will give them access to each of the participating venues throughout the event. Information on how to pick up wristbands will be provided to ticket holders closer to the time.\n\nVenues: Moon, Office Bar, Newtown Community Centre.\n\nLineup: Bone Chapel, Boy Band, Bug Michigan, Dale Kerrigan, Dillon Jo, Elly Mae, Felix Bird, Girls Factory, Nameless and Brainless, Re:Ruby, The Muscle, Yawner.\n\nPresented with support from Abandoned Brewery, RadioActive.FM, and Wellington City Council.",
-  "description": "Eyegum is excited to present for the first time, THE NIGHT BEFORE, a new addition to Great Sounds Great.\nThis multi-venue mini-festival will be focused on Te Whanganui-a-Tara\u2019s beloved Newtown village for one night to warm people up for the main event the next day.\nIt will feature 12 incredible local artists performing across three neighbouring venues.\nWe are really stoked to be bringing the GSG party to and sharing the love with this special part of the city that has long been a home to our music and arts communities.\nInformation on how to pick up wristbands will be provided to ticket holders closer to the time.",
-  "labels": []
-},
-{
-  "id": "Katelyn Henshall EP Release With Jeline And Ari Leason-Vogelmorn Upstairs, Wellington -Under The Radar",
-  "name": "Katelyn Henshall EP Release With Jeline And Ari Leason",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103508-208543.jpg",
-  "venue": "Vogelmorn Upstairs, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-09-04-20:00"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103508/Katelyn-Henshall-EP-Release-With-Jeline-And-Ari-Leason.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Katelyn Henshall fuses pop, R&B, and soul into something uniquely her own. Fronting the genre of what she claims to be whiskey lounge soul, Katelyn and her band are excited to share live performances from their debut EP, A lil somethin' somethin'. Kicking off 2026 with a bang, Katelyn has released two singles, Take Me Away and Nothing lasts forever (de verano), in anticipation of the full EP. A lil somethin\u2019 somethin\u2019\u201d is a tasting tray of a few of the genres Katelyn is passionate about, showcasing the strengths and skills of every member of the band. Katelyn's band consists of D\u00f3nal Gunning (bass), Tane James (guitar), and Oliver Dudziak (drums).\n\n\u014ctaki-born singer-songwriter Ari Leason will open the show. Her soulful blend of indie folk and intimate storytelling shines through her debut album Hello Darling. Honest, vulnerable, and deeply authentic, Ari brings songs shaped by activism, travel, and a coming-of-age journey that resonates long after the last note.\n\nAlso supporting Katelyn is jeline, your \u2018filipina-next door\u2019 - an indie-pop-rock artist who's writing songs about feelings she can't contain to herself and belting her heart out to whoever's listening! jeline has surrounded herself in different genres and music tastes but after trying to find her feet as an artist, some honest talks with the industry and scrapping a whole ass album, she finally locked in to her recognisable indie-pop-rock sound. From songs about first love to obsessing over exes, jeline's relatability and vulnerability is always packaged in a song you can bop along to.\n\nDoors open\n7:30pm\n\nGig starts\n8pm\n\nAll Ages\nCover charge*\nUnwaged $15\nWaged $20\nSupport the Artists $30\n*Guide only - booking fees apply\n\nVenue accessibility information:\n\nVogelmorn Upstairs is not a wheelchair accessible building. There is an accessible\nbathroom in the space. This is an all ages venue but those under the age of 16 must be\naccompanied by a designated adult after 8pm. The Vogelmorn Precinct is a community\nspace located in a residential area. With that in mind, the team ask that you be kind to\nothers' and that when you leave the gig, you do so quietly to avoid disturbing our\nneighbours.\n\nCome early before the show and enjoy a meal at Vogelmorn's restaurant, VBC Eats, from 4:00pm to 9:00pm. VBC Eats is a relaxed community-focused restaurant delivering tasty specials, from curries to salads to pizzas to bite-sized bar snacks. By locals for locals!\n",
-  "description": "Katelyn Henshall fuses pop, R&B, and soul into something uniquely her own.\nKicking off 2026 with a bang, Katelyn has released two singles, Take Me Away and Nothing lasts forever (de verano), in anticipation of the full EP.\nA lil somethin\u2019 somethin\u2019\u201d is a tasting tray of a few of the genres Katelyn is passionate about, showcasing the strengths and skills of every member of the band.\nAlso supporting Katelyn is jeline, your \u2018filipina-next door\u2019 - an indie-pop-rock artist who's writing songs about feelings she can't contain to herself and belting her heart out to whoever's listening!\nFrom songs about first love to obsessing over exes, jeline's relatability and vulnerability is always packaged in a song you can bop along to.",
-  "labels": []
-},
-{
-  "id": "Our House - Deep House With Live Violin-Cuba St Tavern, Wellington -Under The Radar",
-  "name": "Our House - Deep House With Live Violin",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103512-660339.jpg",
-  "venue": "Cuba St Tavern, Wellington ",
-  "coordinates": {
-    "lat": -41.2944279,
-    "long": 174.7749398
-  },
-  "dates": [
-    "2026-09-04-20:00"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103512/Our-House---Deep-House-With-Live-Violin.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "What started as laid-back practice sessions in a cosy Lyall Bay living room went off in Auckland \u2014 now it\u2019s landing back home at Cuba St Tavern. Same living room energy, more courtyard vibes.\n\nWarm sounds for a fresh spring night. Expect deep, uplifting house music enhanced with live violin.\nStep into Our House \u2014 now with Crooked Mind joining the lineup.\n\nFriday 4 September\nRunning order:\n8.00pm - Crooked Mind\n9.45pm - String House Project\n11.15pm - Lady Fee\n1.00am - finish\n",
-  "description": "What started as laid-back practice sessions in a cosy Lyall Bay living room went off in Auckland \u2014 now it\u2019s landing back home at Cuba St Tavern.\nSame living room energy, more courtyard vibes.\nWarm sounds for a fresh spring night.\nExpect deep, uplifting house music enhanced with live violin.\nStep into Our House \u2014 now with Crooked Mind joining the lineup.",
-  "labels": []
-},
-{
-  "id": "DEATHRO (Japan)-Newtown Bowling Club, Wellington -Under The Radar",
-  "name": "DEATHRO (Japan)",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103873-172600.jpg",
-  "venue": "Newtown Bowling Club, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-09-04-18:30"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103873/DEATHRO-Japan.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "DEATHRO (Japan) returns to Te Whanganui-a-Tara!\n\nFriday 4 September, Chain Punk Baddie and Swamp Soul present a special show at the Newtown Bowls Club, together with a stacked lineup of sick bands from all over - Unsanitary Napkin (Te Whanganui-a-Tara/\u014ctepoti), Crook (T\u0101maki Makaurau), Forced Starvation (Te Whanganui-a-Tara), Silicon Tongue (Te Whanganui-a-Tara), and Western Haikus (Te Whanganui-a-Tara).\n\n-------------\n\nKanagawa Japan\u2019s #1 rock vocalist DEATHRO returns to Aotearoa in September 2026, presented by Wrought Material and Chain Punk Baddie. Beloved by the Tokyo punk underground, DEATHRO combines new wave, post-punk, and J-Rock into high-energy BEATROCK in the 1980\u2019s Japanese tradition.\n\nDEATHRO\u2019s performance is ecstatic and powerful, while the lyrics are grounded in working class politics. DEATHRO has a punk mind and expresses it. Amongst messages of solidarity, freedom of expression, and love for his hometown Kanagawa, DEATHRO tackles the injustice of colonisation and the oppression of the Palestinian people.\n\nDEATHRO will be joined by UNSANITARY NAPKIN from Te Whanganui-a-Tara/\u014ctepoti for all shows, and supported by local legends in each centre.\n\nDEATHRO showcases his high energy beatrock performances in an extensive journey across both Te Ika-a-M\u0101ui and Te Waipounamu this September, including a stop at Great Sounds Great Festival in Te Whanganui-a-Tara. Don't miss it!\n",
-  "description": "DEATHRO (Japan) returns to Te Whanganui-a-Tara!\nFriday 4 September, Chain Punk Baddie and Swamp Soul present a special show at the Newtown Bowls Club, together with a stacked lineup of sick bands from all over - Unsanitary Napkin (Te Whanganui-a-Tara/\u014ctepoti), Crook (T\u0101maki Makaurau), Forced Starvation (Te Whanganui-a-Tara), Silicon Tongue (Te Whanganui-a-Tara), and Western Haikus (Te Whanganui-a-Tara).\nBeloved by the Tokyo punk underground, DEATHRO combines new wave, post-punk, and J-Rock into high-energy BEATROCK in the 1980\u2019s Japanese tradition.\nDEATHRO\u2019s performance is ecstatic and powerful, while the lyrics are grounded in working class politics.\nDEATHRO has a punk mind and expresses it.",
-  "labels": []
-},
-{
-  "id": "Dave Against The Machine- Bulls On Parade 2026-Valhalla, Wellington -Under The Radar",
-  "name": "Dave Against The Machine- Bulls On Parade 2026",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104021-112784.jpeg",
-  "venue": "Valhalla, Wellington ",
-  "coordinates": {
-    "lat": -41.2948002,
-    "long": 174.7753363
-  },
-  "dates": [
-    "2026-09-04-20:30"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/104021/Dave-Against-The-Machine--Bulls-On-Parade-2026.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "It\u2019s been a minute but they are back!\n\nThe Ultimate Rage Against The Machine Experience: DAVE AGAINST THE MACHINE. Delivering their world class show with all the aggression, power and passion of the original band.\nIf you love Rage Against the Machine, you will LOVE this band.\n\nWith special guests Her Dead Bride and DJ Take the Power Back!",
-  "description": "It\u2019s been a minute but they are back!\nThe Ultimate Rage Against The Machine Experience: DAVE AGAINST THE MACHINE.\nDelivering their world class show with all the aggression, power and passion of the original band.\nIf you love Rage Against the Machine, you will LOVE this band.\nWith special guests Her Dead Bride and DJ Take the Power Back!",
-  "labels": []
-},
-{
-  "id": "Los Manuelitos-Thunderbird cafe, Wellington -Under The Radar",
-  "name": "Los Manuelitos",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103449-234513.jpg",
-  "venue": "Thunderbird cafe, Wellington ",
-  "coordinates": {
-    "lat": -41.2836491,
-    "long": 174.7766603
-  },
-  "dates": [
-    "2026-09-04-17:00"
-  ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103449/Los-Manuelitos.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "laid back original tunes",
-  "description": "laid back original tunes",
-  "labels": []
-},
-{
-  "id": "Bojack Funkman-Rogue and Vagabond, Wellington -Under The Radar",
-  "name": "Bojack Funkman",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104308-772036.jpg",
+  "id": "Rory Johns And The Mystic-Rogue and Vagabond, Wellington -Under The Radar",
+  "name": "Rory Johns And The Mystic",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104171-426112.jpg",
   "venue": "Rogue and Vagabond, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-09-04-21:30"
+    "2026-09-10-20:00"
   ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/104308/Bojack-Funkman.utr",
+  "displayDate": "Thu 10 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104171/Rory-Johns-And-The-Mystic.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "Fronted by Ben Hunt, Andre Paris, and Kaito Walley, with an all-star cast of rhythm section virtuosos, this crossover episode brings together music by: Lettuce, Takuya Kuroda, Jonathan Crayford, and more! Stay home? Neigh way, Jos\u00e9!\n\nBen Hunt - trumpet/percussion\nAndre Paris - saxophone/percussion\nKaito Walley - trombone/percussion\nBlair Gowan - keys\nPetar Tavich - guitar\nEmma Hattaway - bass\nDarren Mathieson - drums\n\nMusic from 9:30pm, FREE ENTRY - Koha for the band encouraged!",
-  "description": "Fronted by Ben Hunt, Andre Paris, and Kaito Walley, with an all-star cast of rhythm section virtuosos, this crossover episode brings together music by: Lettuce, Takuya Kuroda, Jonathan Crayford, and more!\nStay home?\nNeigh way, Jos\u00e9!\nBen Hunt - trumpet/percussion Andre Paris - saxophone/percussion Kaito Walley - trombone/percussion Blair Gowan - keys Petar Tavich - guitar Emma Hattaway - bass Darren Mathieson - drums Music from 9:30pm, FREE ENTRY - Koha for the band encouraged!",
+  "long_description": "Rory Johns and The Mystic is a jazz-influenced ensemble led by pianist Rory Johns.\n\nDrawing on influences such as Nala Sinephro, Ancient Infinity Orchestra, and Bill Laurance, the group blends contemporary jazz, ambient textures, and improvisation to create immersive, atmospheric music that moves fluidly between composed passages and spontaneous exploration.\n\nMusic from 8pm, FREE ENTRY - Koha for the band encouraged!",
+  "description": "Rory Johns and The Mystic is a jazz-influenced ensemble led by pianist Rory Johns.\nDrawing on influences such as Nala Sinephro, Ancient Infinity Orchestra, and Bill Laurance, the group blends contemporary jazz, ambient textures, and improvisation to create immersive, atmospheric music that moves fluidly between composed passages and spontaneous exploration.\nMusic from 8pm, FREE ENTRY - Koha for the band encouraged!",
   "labels": []
 },
 {
-  "id": "Mauri Film Screening-The Undercurrent, Wellington -Under The Radar",
-  "name": "Mauri Film Screening",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104334-945108.jpg",
+  "id": "Open Decks And DJ Workshop Hosted By Intec (Third Eye Hifi)-MOON, Wellington -Under The Radar",
+  "name": "Open Decks And DJ Workshop Hosted By Intec (Third Eye Hifi)",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104513-39638.jpg",
+  "venue": "MOON, Wellington ",
+  "coordinates": {
+    "lat": -41.3132459,
+    "long": 174.7798505
+  },
+  "dates": [
+    "2026-09-10-17:00"
+  ],
+  "displayDate": "Thu 10 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104513/Open-Decks-And-DJ-Workshop-Hosted-By-Intec-Third-Eye-Hifi.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "DJs & producers of all experience levels are welcome to come & share their tunes at Moon!\n\nIntec will be down early to share his knowledge with anyone who wants to learn about decks/soundsystems. This is for entry level DJs & sound techs who are not confident/experienced enough to do it on their own yet.\n\nFrom 6pm we'll have 15 minute Open Decks slots! Come down early to book your spot ?\n\nWe'll be using an XDJ-RR and turntables on Moon's house soundsystem, so bring your tracks on a USB (ideally processed in rekordbox, aiff/wav (not bandcamp wavs!) or mp3), bring your records, or just come down for a boogie! It's always a fun, eclectic mix of genres.\n\nFree entry!",
+  "description": "This is for entry level DJs & sound techs who are not confident/experienced enough to do it on their own yet.\nFrom 6pm we'll have 15 minute Open Decks slots!\nCome down early to book your spot ?\nWe'll be using an XDJ-RR and turntables on Moon's house soundsystem, so bring your tracks on a USB (ideally processed in rekordbox, aiff/wav (not bandcamp wavs!)\nIt's always a fun, eclectic mix of genres.",
+  "labels": []
+},
+{
+  "id": "The Golden Awesome, Beach Balls, Ceramic, S.L. Reflex-Valhalla, Wellington -Under The Radar",
+  "name": "The Golden Awesome, Beach Balls, Ceramic, S.L. Reflex",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103666-88083.jpg",
+  "venue": "Valhalla, Wellington ",
+  "coordinates": {
+    "lat": -41.2948002,
+    "long": 174.7753363
+  },
+  "dates": [
+    "2026-09-11-01:01"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/103666/The-Golden-Awesome-Beach-Balls-Ceramic-SL-Reflex.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "After converging at PSY FI festival in May for the first time since Covid, shoegazers the Golden Awesome are playing in Wellington again - this time with a bunch of their friends.\n\nBeach Balls are psych rock meets motorik drone, Ceramic is 80s infused trippy synth wave, S.L. Reflex is mystery electro pop. Visuals by Mike Heynes.\n\n\n\n",
+  "description": "After converging at PSY FI festival in May for the first time since Covid, shoegazers the Golden Awesome are playing in Wellington again - this time with a bunch of their friends.\nBeach Balls are psych rock meets motorik drone, Ceramic is 80s infused trippy synth wave, S.L.\nReflex is mystery electro pop.\nVisuals by Mike Heynes.",
+  "labels": []
+},
+{
+  "id": "Noise Control 001-The Pow Wow Room, Wellington -Under The Radar",
+  "name": "Noise Control 001",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104115-519052.jpg",
+  "venue": "The Pow Wow Room, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-11-21:00"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104115/Noise-Control-001.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "NOISE CONTROL 001\n\nNoise Control is taking over the Pow Wow Room (upstairs at Dakota) on Friday, 11th September for our massive launch night.\nWe are skipping the generic tracks and bringing a heavy dose of global club culture straight to the dancefloor. Expect a fast-paced night packed with Baile Funk, Jersey Club, Favela Funk, Miami Bass, and Footwork, loaded up with raw SoundCloud flips, edits, and bootlegs you won\u2019t hear anywhere else.\nWe are stripping things back to create an intimate, high-energy space focused entirely on deep bass, heavy rhythms, and massive crowd energy.\nLINEUP:\n\n* MR PLAYUPS\n* J SWIZZLE\n* VITAMIN COS\n* RH\n* MISS DOODIE\n\nDETAILS:\n\n* Date: Friday, 11th September\n* Venue: Pow Wow Room (Upstairs, 22 Courtenay Place)\n* Doors Open: 8:00 PM\n* Set Times: 9:00 PM - 2:00 AM\n\nTickets are strictly limited due to the intimate venue capacity. Secure yours now to lock in your spot. See you on the floor.\n\n",
+  "description": "Noise Control is taking over the Pow Wow Room (upstairs at Dakota) on Friday, 11th September for our massive launch night.\nWe are skipping the generic tracks and bringing a heavy dose of global club culture straight to the dancefloor.\nExpect a fast-paced night packed with Baile Funk, Jersey Club, Favela Funk, Miami Bass, and Footwork, loaded up with raw SoundCloud flips, edits, and bootlegs you won\u2019t hear anywhere else.\nWe are stripping things back to create an intimate, high-energy space focused entirely on deep bass, heavy rhythms, and massive crowd energy.\n* Date: Friday, 11th September * Venue: Pow Wow Room (Upstairs, 22 Courtenay Place) * Doors Open: 8:00 PM * Set Times: 9:00 PM - 2:00 AM Tickets are strictly limited due to the intimate venue capacity.",
+  "labels": []
+},
+{
+  "id": "Tessa De Lyon - E.p Release With Stan Antonio-Vogelmorn Upstairs, Wellington -Under The Radar",
+  "name": "Tessa De Lyon - E.p Release With Stan Antonio",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104146-463304.jpg",
+  "venue": "Vogelmorn Upstairs, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-11-20:00"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104146/Tessa-De-Lyon---Ep-Release-With-Stan-Antonio.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Come and celebrate Tessa de Lyon\u2019s latest release, Heart Melt, a six track E.P that has already broken the charts for melting hearts.\nReleased just in time for the spring thaw, Heart Melt is chock-a-block full of warm and sweet tunes, some about misery, most about joy, and all celebrating a love for the bewildering journey of it all. Recorded in a lo-fi fashion out of her own home, Tessa de Lyon is taking the music to the stage for a live rendition.\n\nYou\u2019ll be in for an evening of eclectic instrumentation; harmonicas, xylophones, banjos\u2026 all sorts! Tessa de Lyon will be accompanied by talented musicians such as Olivia Campion (Mystery Waitress, Yumi Zouma), Alex Howie (Stan Antonio) and Brooke Singer (French For Rabbits).\n\nTessa de Lyon received glowing reviews for her debut album, \u2018Tessa\u2019s Album\u2019, released in late 2024. Praised for her \u201cmellifluous voice\u201d and songs that are \u201cquietly impactful\u201d \u201cfull of hope\u201d and \u201ccomforting melodies\u201d, she has since performed on RNZ live with Jesse Mulligan, and opened for some of Aotearoa\u2019s finest musical acts including Womb, Fazed On A Pony, Louis TM, Violet Hirst and more.\n\nPhoebe and Alex of Stan Antonio grew up attending folk festivals and have played around Wellington as part of various folk groups. They dabble in the realms of Americana, folk, and bluegrass, and have recently been writing music together. Their influences include classic artists such as Gillian Welch and Dave Rawlings, more contemporary artists such as Adrianne Lenker. They aspire to use the banjo as a force for good in this world, alongside close harmonies and acoustic guitar.",
+  "description": "Come and celebrate Tessa de Lyon\u2019s latest release, Heart Melt, a six track E.P that has already broken the charts for melting hearts.\nReleased just in time for the spring thaw, Heart Melt is chock-a-block full of warm and sweet tunes, some about misery, most about joy, and all celebrating a love for the bewildering journey of it all.\nRecorded in a lo-fi fashion out of her own home, Tessa de Lyon is taking the music to the stage for a live rendition.\nYou\u2019ll be in for an evening of eclectic instrumentation; harmonicas, xylophones, banjos\u2026 all sorts!\nPhoebe and Alex of Stan Antonio grew up attending folk festivals and have played around Wellington as part of various folk groups.",
+  "labels": []
+},
+{
+  "id": "Teeth-Pyramid Club, Wellington -Under The Radar",
+  "name": "Teeth",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104251-525900.jpg",
+  "venue": "Pyramid Club, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-09-11-20:30"
+  ],
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104251/Teeth.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Easy listening noise band, Teeth, are back! Comprised of Luke Buda (Phoenix Foundation), Tom Callwood (Phoenix Foundation), Anthony Donaldson (Farewell Spit) and David Long (Teeth). They'll be playing mostly new music as they head towards recording a new album. See it live in the intimate surroundings of the Pyramid Club!",
+  "description": "Easy listening noise band, Teeth, are back!\nComprised of Luke Buda (Phoenix Foundation), Tom Callwood (Phoenix Foundation), Anthony Donaldson (Farewell Spit) and David Long (Teeth).\nThey'll be playing mostly new music as they head towards recording a new album.\nSee it live in the intimate surroundings of the Pyramid Club!",
+  "labels": []
+},
+{
+  "id": "Dani-The Undercurrent, Wellington -Under The Radar",
+  "name": "Dani",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104396-234951.jpg",
   "venue": "The Undercurrent, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-09-04-18:00"
+    "2026-09-11-19:30"
   ],
-  "displayDate": "Fri 04 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/104334/Mauri-Film-Screening.utr",
+  "displayDate": "Fri 11 Sep",
+  "url": "https://www.undertheradar.co.nz/gig/104396/Dani.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "The Undercurrent presents a Film Screening of Mauri!\n\nJoin us for a free community screening of Mauri, directed by Maurizio and Zaya Benazzo and part of The Eternal Song, an extraordinary 13-film documentary journey exploring Indigenous wisdom, ancestral knowledge, resilience and healing across cultures.\n\nFilmed in Aotearoa, Mauri journeys alongside M\u0101ori healers, elders and knowledge keepers, exploring colonisation, intergenerational trauma, identity, whenua and pathways of healing.\n\nWe'll gather first over kai and conversation, then share a gentle 15-minute grounding, gratitude and connection practice before immersing ourselves together in this powerful 70-minute film.\n\nFriday Sept 4\nStart 6pm\nFree entry\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "The Undercurrent presents a Film Screening of Mauri!\nJoin us for a free community screening of Mauri, directed by Maurizio and Zaya Benazzo and part of The Eternal Song, an extraordinary 13-film documentary journey exploring Indigenous wisdom, ancestral knowledge, resilience and healing across cultures.\nFilmed in Aotearoa, Mauri journeys alongside M\u0101ori healers, elders and knowledge keepers, exploring colonisation, intergenerational trauma, identity, whenua and pathways of healing.\nWe'll gather first over kai and conversation, then share a gentle 15-minute grounding, gratitude and connection practice before immersing ourselves together in this powerful 70-minute film.\nFriday Sept 4 Start 6pm Free entry Snacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!",
-  "labels": []
-},
-{
-  "id": "Krakerjack-The Undercurrent, Wellington -Under The Radar",
-  "name": "Krakerjack",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104185-303847.jpg",
-  "venue": "The Undercurrent, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-09-05-19:30"
-  ],
-  "displayDate": "Sat 05 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/104185/Krakerjack.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "The Undercurrent presents Krakerjack!\n\nPrepare for a rollicking good time of soulful harmonies and scintillating heart-pumping tunes from Poland and nearby.\n\nKrakerjack is Aotearoa's leading Polish band showcasing powerful vocals alongside virtuosic instrumentals and lively dance numbers. We celebrate unique cultural traditions with a Kiwi twist. Na zdrowie!\n\nSaturday Sept 5\nDoors 7pm\nMusic 7:30pm\n$20\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "The Undercurrent presents Krakerjack!\nPrepare for a rollicking good time of soulful harmonies and scintillating heart-pumping tunes from Poland and nearby.\nKrakerjack is Aotearoa's leading Polish band showcasing powerful vocals alongside virtuosic instrumentals and lively dance numbers.\nWe celebrate unique cultural traditions with a Kiwi twist.\nNa zdrowie!",
-  "labels": []
-},
-{
-  "id": "Mel Parsons - Castle Hill Album Release Tour-The Opera House, Wellington -Under The Radar",
-  "name": "Mel Parsons - Castle Hill Album Release Tour",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/102487-888756.jpg",
-  "venue": "The Opera House, Wellington ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2026-09-05-19:30"
-  ],
-  "displayDate": "Sat 05 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/102487/Mel-Parsons---Castle-Hill-Album-Release-Tour.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Singer-songwriting luminary, Mel Parsons, has announced a seven-date national theatre tour with her band in August and September 2026, celebrating her much-anticipated new album, CASTLE HILL, to released on August 7.\n\nPlus1 proudly presents Mel Parsons live around Aotearoa in some of our country's most beautiful theatres.\n\nThursday August 27 - Theatre Royal, Nelson\nFriday August 28 - Isaac Theatre Royal, Christchurch\nSaturday August 29 - Glenroy Auditorium, Dunedin\nThursday September 3 - Clarence St Theatre, Hamilton\nFriday September 4 - Q Theatre, Rangatira - Auckland\nSaturday September 5 - Opera House, Wellington\nSunday September 6 - Globe Theatre, Palmerston North\n\nFull tour info at plus1.co.nz and MelParsons.com\n\nTaking its name from the remote mountain town in the Southern Alps where it was recorded, CASTLE HILL was produced by Josh Logan and recorded live with Mel\u2019s longtime band members Aaron Stewart (bass) and Jed Parsons (drums); joined by Ben King (Goldenhorse, Grand Rapids) on guitars. Parsons says of these sessions: \u201cit was a full immersion recording experience over a stolen summer holiday\u201d\n\nFollowing the release of SABOTAGE in 2024, multi-award winning Parsons toured the country with Crowded House, performed in Canada and Australia, and has continued her stellar run including a finalist nod for Best Folk Artist at the 2026 AMA\u2019s.\n\nSingles already released from the record include the alternative radio chart toppers Post High Slide, Brick By Brick, Be Here Now, Don't Leave The Light On, and Caravan, as well as new single Grain By Grain. Castle Hill album release tour is funded through NZ On Air and supported by the NZ Music Commission.\n\nExpect soaring harmonies, a dynamic live show, and a feel-good vibe throughout as Mel Parsons performs live this August and September. Come and celebrate one of Aotearoa\u2019s finest live artists!",
-  "description": "Singer-songwriting luminary, Mel Parsons, has announced a seven-date national theatre tour with her band in August and September 2026, celebrating her much-anticipated new album, CASTLE HILL, to released on August 7.\nPlus1 proudly presents Mel Parsons live around Aotearoa in some of our country's most beautiful theatres.\nSingles already released from the record include the alternative radio chart toppers Post High Slide, Brick By Brick, Be Here Now, Don't Leave The Light On, and Caravan, as well as new single Grain By Grain.\nCastle Hill album release tour is funded through NZ On Air and supported by the NZ Music Commission.\nExpect soaring harmonies, a dynamic live show, and a feel-good vibe throughout as Mel Parsons performs live this August and September.",
-  "labels": []
-},
-{
-  "id": "Great Sounds Great Festival 2026-Multiple venues across the Cuba Street precinct, Wellington -Under The Radar",
-  "name": "Great Sounds Great Festival 2026",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103039-196531.jpg",
-  "venue": "Multiple venues across the Cuba Street precinct, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-09-05-15:00"
-  ],
-  "displayDate": "Sat 05 Sep",
-  "url": "https://www.undertheradar.co.nz/gig/103039/Great-Sounds-Great-Festival-2026.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Eyegum Music Collective presents GREAT SOUNDS GREAT, a multi-venue music and arts festival taking over P\u014dneke's Te Aro precinct for one night only on Saturday 5 September 2026. Showcasing 40 of Aotearoa's best artists across 10 neighbouring venues, this is one big party you shouldn't miss.\n\nEyegum has worked hard to curate a programme that is sure to offer something for everyone, from first time gig-goers to seasoned live music obsessives. The eclectic lineup includes national treasures like Bic Runga and Savage, heavy-hitting legends Beastwars, Kody Nielson\u2019s enigmatic project Silicon, indie math rockers So So Modern, powerhouse party starter Mokotron, local hip hop sensation M\u0100, and everything in between.\n\nTonic Collective are back with an impeccably curated lineup for their travelling stage, which includes Pitch Black celebrating 30 years as Aotearoa electronica pioneers and award winning sonic explorer Amamelia.\n\nIt's not all music, three of our best poets Chris Tse, Dani Yourukova, and Jackson McCarthy will also perform.\n\nExcitingly for 2026, we are adding a new venue, the incomparable Meow Nui, helping make this year's event bigger and better than ever. We are also throwing a warm-up party, The Night Before, across three venues in Newtown village on Friday 4 September. This will showcase 12 incredible up-and-coming artists and is the perfect way to prepare for the main event.\n\nTicket holders will receive a wristband that will give them access to each of the participating venues throughout the event. Information on how to pick up wristbands will be provided to ticket holders closer to the time.\n\nLimited tickets on sale now from eyegum.co.nz/great-sounds-great\n\nPresented with support from Abandoned Brewery, RadioActive.FM, and Wellington City Council.\n\nVenues: Meow Nui, San Fran, Meow, Valhalla, Rogue & Vagabond, Bedlam & Squalor, Hotel Bristol, St Peter's on Willis, Flying Nun Records, Tonic Travelling Stage.\n\nLineup: Amamelia, Beastwars, Bic Runga, Bri Louise, Chris Tse, Crook, Cruelly, Dani Yourukova, Deathro (JPN), Dream Chambers, Fazed on a Pony, Groove Council, Hemi Hemingway, Hihi & The Stitchbirds, Hunter Jackson, In Good Company, Jackson McCarthy, JELL, Ludus b2b Rizzo, M\u0100, Mauri Aura, mHz, Mokotron, More Blue Noise, Naakz & Babyzoot, Office Dog, Pearly*, Pitch Black, Savage (DJ Set), Savagehine, Sheeps, Silicon, So So Modern, Soft Bait, Tamatha Paul, The Sour, The Spectre Collective: Live-Scored Cinema, T\u016bi Band, Unsanitary Napkin.",
-  "description": "Eyegum Music Collective presents GREAT SOUNDS GREAT, a multi-venue music and arts festival taking over P\u014dneke's Te Aro precinct for one night only on Saturday 5 September 2026.\nTonic Collective are back with an impeccably curated lineup for their travelling stage, which includes Pitch Black celebrating 30 years as Aotearoa electronica pioneers and award winning sonic explorer Amamelia.\nThis will showcase 12 incredible up-and-coming artists and is the perfect way to prepare for the main event.\nInformation on how to pick up wristbands will be provided to ticket holders closer to the time.\nLineup: Amamelia, Beastwars, Bic Runga, Bri Louise, Chris Tse, Crook, Cruelly, Dani Yourukova, Deathro (JPN), Dream Chambers, Fazed on a Pony, Groove Council, Hemi Hemingway, Hihi & The Stitchbirds, Hunter Jackson, In Good Company, Jackson McCarthy, JELL, Ludus b2b Rizzo, M\u0100, Mauri Aura, mHz, Mokotron, More Blue Noise, Naakz & Babyzoot, Office Dog, Pearly*, Pitch Black, Savage (DJ Set), Savagehine, Sheeps, Silicon, So So Modern, Soft Bait, Tamatha Paul, The Sour, The Spectre Collective: Live-Scored Cinema, T\u016bi Band, Unsanitary Napkin.",
+  "long_description": "The Undercurrent presents DANI!\n\nDANI is a Wellington-based artist whose music moves through the haze of smoky chamber pop: intimate and cinematic, it makes you feel like a secret being told just to you.\u00a0\n\nDANI is a daydreamer who takes action. She soaks up the experience of life in lessons and finds the way to craft it into lyrics that would live as a reminder to be true to ourselves.\n\nJoin Dani and her chamber pop team:\n\nAndrew Kerr - harmonica and bodhran\nCharley Davenport - cello and bass\nGiacomo Caleffi - guitar and bass\nElliot Vaughan - viola\nEmmie Ellis - backing vocals\n\nFriday Sept 11\nDoors 7pm\nMusic 7:30pm\n$20 ($15 unwaged door sales)\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
+  "description": "The Undercurrent presents DANI!\nDANI is a Wellington-based artist whose music moves through the haze of smoky chamber pop: intimate and cinematic, it makes you feel like a secret being told just to you.\nDANI is a daydreamer who takes action.\nShe soaks up the experience of life in lessons and finds the way to craft it into lyrics that would live as a reminder to be true to ourselves.\nJoin Dani and her chamber pop team: Andrew Kerr - harmonica and bodhran Charley Davenport - cello and bass Giacomo Caleffi - guitar and bass Elliot Vaughan - viola Emmie Ellis - backing vocals Friday Sept 11 Doors 7pm Music 7:30pm $20 ($15 unwaged door sales) Tickets available online and at the door!",
   "labels": []
 },
 ]

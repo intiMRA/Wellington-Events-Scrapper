@@ -1,3 +1,623 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "IFF - Bread & Tulips-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Bread & Tulips",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_f02c252a-05cd-478b-a388-45655616e2e1.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-17-14:30",
+        "2026-10-24-14:30",
+        "2026-11-08-14:30",
+        "2026-11-14-14:30"
+      ],
+      "displayDate": "Sat 17 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-bread-tulips",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Silvio Soldini\n\nPane e Tulipani\n\nPresented by Mediterranean Foods\n\nAn international hit 25 years ago, director Silvio Soldini\u2019s gently subversive comedy of womanhood and middle age is delightful, quirky and utterly charming. It\u2019s the story of Rosalba, a mother and housewife who is so taken for granted, that her family leave her behind, forgetting her at a rest stop on a tour bus holiday.\n\nInstead of going home, Rosealba defiantly sets out on a life-changing adventure to Venice.\n\nThe cast of eccentric and colourful characters she meets along the way is led by the wonderfully deadpan Bruno Ganz as Fernando, the Icelandic waiter. But back home her overbearing husband Fermo, hires a plumber to track her down in Venice.\n\nEach character has their own poetic eccentricity, populating the film with a very lovable cast of oddballs.\n\nRosealba\u2019s old life now seems dull and she relishes her second chance at really living.\n\nBread & Tulips is a treasured, adorable film that remains well-loved many years later.\n\nWINNER\nBest Film, Best Actress, Best Actor - David di Donatello Awards\nBest Director - Italian National Syndicate of Film Journalists\nBest Screenplay - Italian Golden Globes\n\n\"I am not at the movies for lonely-hearts tips. I require the characters to be strange and wonderful, romantic and quirky, and above all, lovable.\" - Roger Ebert, Rotten Tomatoes\n\nRomantic Comedy | Italy",
+      "description": "Details Directed by Silvio Soldini Pane e Tulipani Presented by Mediterranean Foods An international hit 25 years ago, director Silvio Soldini\u2019s gently subversive comedy of womanhood and middle age is delightful, quirky and utterly charming.\nIt\u2019s the story of Rosalba, a mother and housewife who is so taken for granted, that her family leave her behind, forgetting her at a rest stop on a tour bus holiday.\nThe cast of eccentric and colourful characters she meets along the way is led by the wonderfully deadpan Bruno Ganz as Fernando, the Icelandic waiter.\nBut back home her overbearing husband Fermo, hires a plumber to track her down in Venice.\nEach character has their own poetic eccentricity, populating the film with a very lovable cast of oddballs.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Diamonds-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Diamonds",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_4f86c4cf-cc81-4530-be7a-b1ac346903fe.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-17-17:00",
+        "2026-10-23-17:00",
+        "2026-11-07-17:00",
+        "2026-11-13-17:00"
+      ],
+      "displayDate": "Sat 17 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-diamonds",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Ferzan \u00d6zpetek\n\nDiamanti\n\nPresented by STUDIO ITALIA\n\nInspired by Ozpetek\u2019s personal experience frequenting film and theatre tailoring shops in the 1980s, Diamonds features a dazzling all-star ensemble cast led by Luisa Ranieri and Jasmine Trinca, with costumes by designer Stefano Ciammitti.\n\nIn the present day, Ozpetek decides to make a film about women and so gathers his favourite actresses for a lunch and script read-through, which leads to his imagination transporting them into another era.\n\nIn 1970s Rome, sisters Alberta and Gabriella run a prestigious fashion house, where the noise of the sewing machines fills a workplace populated by women. When an important order arrives from an Oscar-winning costume designer client, challenges arise as the team of talented dressmakers try to fulfill the requirements. Outside and within the atelier, passions, anxieties, and unbreakable bonds intertwine as the line between reality and fiction begins to blur.\n\n\"A declaration of love to women, to the art of dressmaking, and the emotional power of cinema.\" - Vogue\n\nDrama, Comedy | Italy | Italian with English subtitles",
+      "description": "Details Directed by Ferzan \u00d6zpetek Diamanti Presented by STUDIO ITALIA Inspired by Ozpetek\u2019s personal experience frequenting film and theatre tailoring shops in the 1980s, Diamonds features a dazzling all-star ensemble cast led by Luisa Ranieri and Jasmine Trinca, with costumes by designer Stefano Ciammitti.\nIn the present day, Ozpetek decides to make a film about women and so gathers his favourite actresses for a lunch and script read-through, which leads to his imagination transporting them into another era.\nIn 1970s Rome, sisters Alberta and Gabriella run a prestigious fashion house, where the noise of the sewing machines fills a workplace populated by women.\nWhen an important order arrives from an Oscar-winning costume designer client, challenges arise as the team of talented dressmakers try to fulfill the requirements.\nOutside and within the atelier, passions, anxieties, and unbreakable bonds intertwine as the line between reality and fiction begins to blur.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Diva Futura-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Diva Futura",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_c27676a4-f805-48af-90e8-1d5b2879b020.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-15-20:30",
+        "2026-10-30-20:30",
+        "2026-11-12-20:30"
+      ],
+      "displayDate": "Thu 15 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-diva-futura",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Giulia Louise Steigerwalt\n\nPresented by EDIT.\n\nIn a conservative Catholic nation with draconian censorship laws, his production company was briefly a utopian dream of revolution and sexual freedom. Schicci\u2019s venture took place in a simpler, kinder pre-internet era, but in a rapidly changing Berlusconi Italy.\n\nDirector Giulia Louise Steigerwalt paints him as a likeable impresario steering the narrative away from easy impressions. Pietro Castellitto\u2019s acclaimed, wide-eyed performance of him as a quirky visionary whose main sin was \u2018loving woemn too much\u2019 reflects the perspective of his secretary and some of the women he worked with.\n\nWhile comparisons to Boogie Nights are inevitable, the film celebrates the women\u2019s stories, including nods to figures like Cicciolina who was famously elected as a member of the Chamber of Deputies. We are led on a lighthearted romp with unexpected wit and tenderness.\n\n\"A celebration of the golden age of an Italian prom empire.\" - The Hollywood Reporter\n\nComedy | Italy | Italian with English subtitles & English Language",
+      "description": "Details Directed by Giulia Louise Steigerwalt Presented by EDIT.\nIn a conservative Catholic nation with draconian censorship laws, his production company was briefly a utopian dream of revolution and sexual freedom.\nSchicci\u2019s venture took place in a simpler, kinder pre-internet era, but in a rapidly changing Berlusconi Italy.\nDirector Giulia Louise Steigerwalt paints him as a likeable impresario steering the narrative away from easy impressions.\nPietro Castellitto\u2019s acclaimed, wide-eyed performance of him as a quirky visionary whose main sin was \u2018loving woemn too much\u2019 reflects the perspective of his secretary and some of the women he worked with.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Ennio-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Ennio",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_aa53bddb-5f52-4e8d-83d8-b7a3dc9505a2.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-18-14:30",
+        "2026-10-24-14:30",
+        "2026-11-13-14:30"
+      ],
+      "displayDate": "Sun 18 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-ennio",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Giuseppe Tornatore\n\nPresented by The Istituto Italiano di Cultura, Sydney\n\nAfter 40 years of teaching in the metropolitan jungle of Rome, primary school teacher Michele Cortese (Antonio Albanese) moves to an idyllic village in the heart of the Abruzzo National Park, population 1800, to teach at a tiny school with only a handful of students aged seven to ten. He quickly has trouble adjusting to the local culture to entertaining results but gradually adapts, thanks to the school's friendly vice-principal Agnese (Virginia Raffaele) and its spirited pupils.\n\nHowever, just as all seems well, unwelcome news arrives: the school has failed to meet its student enrolment quota for the next year and will be forced to close. So begins a race against time to save it whatever it takes...\n\nAddressing the dynamics and challenges faced by small communities - and the vital importance of educational institutions for their survival - with sensitivity and lightness, this heartwarming story won over Italian audiences, becoming the #1 local box office smash of 2024.\n\n\"Ennio Morricone, the Maestro of the movie soundtrack, gets the entrancing documentary he deserves.\" - Owen Gleiberman. Variety\n\nWINNER\nBest Documentary, David di Donatello Awards\nBest Sound Design, David di Donatello Awards\nBest Editing, David di Donatello Awards\nSilver Ribbon, National Syndicate of Film Journalists\nBest Documentary, Golden Globes Italy\n\nDocumentary | Italian with English subtitles",
+      "description": "Details Directed by Giuseppe Tornatore Presented by The Istituto Italiano di Cultura, Sydney After 40 years of teaching in the metropolitan jungle of Rome, primary school teacher Michele Cortese (Antonio Albanese) moves to an idyllic village in the heart of the Abruzzo National Park, population 1800, to teach at a tiny school with only a handful of students aged seven to ten.\nHe quickly has trouble adjusting to the local culture to entertaining results but gradually adapts, thanks to the school's friendly vice-principal Agnese (Virginia Raffaele) and its spirited pupils.\nHowever, just as all seems well, unwelcome news arrives: the school has failed to meet its student enrolment quota for the next year and will be forced to close.\nSo begins a race against time to save it whatever it takes...\nAddressing the dynamics and challenges faced by small communities - and the vital importance of educational institutions for their survival - with sensitivity and lightness, this heartwarming story won over Italian audiences, becoming the #1 local box office smash of 2024.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Fuori-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Fuori",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_312cb5c4-5514-45d4-ab75-c44e45509f48.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-23-10:30",
+        "2026-11-05-10:30"
+      ],
+      "displayDate": "Fri 23 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-fuori",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Mario Martone\n\nPresented by Quaglia @ Casamassima\n\nRome, 1980.\n\nUnable to get her novel The Art of Joy published, author Goliarda Sapienza finds herself briefly imprisoned after she steals some jewellery from a wealthy friend. The experience turns out to be life-changing, as Goliarda discovers a world without class barriers, and forms a deep bond with some of the younger inmates.\n\nAfter their release and during a sweltering summer, the women continue to meet. Her friends\u2019 stories and struggles for independence liberate Goliarda, who re-discovers the joy of living, and her drive to write.\n\nInspired by Sapienza\u2019s 1983 autobiography The University of Rebibbia, Fuori is an inspiring story of friendship, female solidarity and freedom, capturing the essence of a remarkable woman ahead of her time, whose aspiration for personal and collective freedom remains topical.\n\n\"Valeria Golino shines in this tribute to maverick Italian writer Goliarda Sapienza\"\n\nIn one of her finest performances to date, Golino plays the writer who found more acceptance and understanding with her fellow inmates than in Italian intellectual circles.\n\nDrama, Biography | Italy | Italian, with English subtitles",
+      "description": "Details Directed by Mario Martone Presented by Quaglia @ Casamassima Rome, 1980.\nUnable to get her novel The Art of Joy published, author Goliarda Sapienza finds herself briefly imprisoned after she steals some jewellery from a wealthy friend.\nThe experience turns out to be life-changing, as Goliarda discovers a world without class barriers, and forms a deep bond with some of the younger inmates.\nAfter their release and during a sweltering summer, the women continue to meet.\nHer friends\u2019 stories and struggles for independence liberate Goliarda, who re-discovers the joy of living, and her drive to write.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Heads or Tails?-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Heads or Tails?",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_f98ef574-311d-4202-bd17-a6a2fd6cdb88.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-16-20:30",
+        "2026-10-22-20:30",
+        "2026-10-31-20:30",
+        "2026-11-12-20:30",
+        "2026-11-14-20:30"
+      ],
+      "displayDate": "Fri 16 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-heads-or-tails",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Alessio Rigo de Righi Matteo Zoppis\n\nTesta o Croce?\n\nPresented by Rialto View\n\nSet in Italy at the beginning of the 20th century when Italians were still fascinated by the myths of the Wild West.\n\nJohn C. Reilly as Buffalo Bill is a likeable showman who caricatures cowboys for Italian aristocrats. Like Once Upon a Time in the West it is driven by a female protagonist, Rosa (played by French star Nadia Tereszkiewicz). Rosa falls in love with the skilful stablehand, Santino, played by Alessandro Borghi. Santino is handsome, heroic and brave and, in a comic inversion, he\u2019s portrayed as eye candy for our heroine.\n\nWhen Santino is accused of murder they on on the run. Beautiful cinematic sequences are followed by moments of unexpected magical realism. Filmed entirely on lush, celluloid film with an artful sensibility that makes the most of the stunning Italian landscapes.\n\n\"A spectacularly photographed, wittily written, romantic Western\" - Carlos Aguilar, The Playlist (Cannes 2025 Review)\n\nWINNER\nBest Film, Melbourne International Film Festival\nBest Directors, Tokyo International Film Festival\nJury Prize, Festival du Film Italien de Villerupt\nJury Prize, Fabrique du Cinema\n\nPremiered\nUn Certain Regard, Cannes Film Festival\n\nWestern | Italy | Italian with English subtitles",
+      "description": "Details Directed by Alessio Rigo de Righi Matteo Zoppis Testa o Croce?\nJohn C. Reilly as Buffalo Bill is a likeable showman who caricatures cowboys for Italian aristocrats.\nLike Once Upon a Time in the West it is driven by a female protagonist, Rosa (played by French star Nadia Tereszkiewicz).\nWhen Santino is accused of murder they on on the run.\nFilmed entirely on lush, celluloid film with an artful sensibility that makes the most of the stunning Italian landscapes.",
+      "labels": []
+    },
+    {
+      "id": "IFF - I Saw a King-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - I Saw a King",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_c349c697-5ee3-4e18-843a-3b6e92758866.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-16-10:30",
+        "2026-10-25-10:30",
+        "2026-11-05-10:30",
+        "2026-11-11-10:30"
+      ],
+      "displayDate": "Fri 16 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-i-saw-a-king",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Giorgia Farina\n\nHo Visto un Re\n\nPresented by Brebnerprint\n\nIt\u2019s 1936 and Mussolini\u2019s Italy has invaded Ethiopia in its colonial fervour.\n\nThis incredible true story is set in a seaside town in a grand aristocratic estate, where young Emilio is more interested in his novels, populated with romanticised orientalist characters, than in nationalistic exploits.\n\nHis mother is an eccentric artist and his father is the overbearing, fascist mayor of the town. When a captured Ethiopian prince is imprisoned in an aviary on the family estate, Emilio imagines the exotic gentleman is a character form one of his novels. Against his father\u2019s wishes, the two strike up a friendship.\n\nIn this clever and colourful coming-of-age film, Emilio will come to realise the true nature and absurdity of his world.\n\nWINNER\nBest Film, Pasinetti Award at the Venice Film Festival\nBest Prop Maker, Venice Film Festival\nLizzani Award, Venice Film Festival\n\n\"A fable against xenophobia that deserves to be seen, discussed and appreciated.\" - Deadline",
+      "description": "Details Directed by Giorgia Farina Ho Visto un Re Presented by Brebnerprint It\u2019s 1936 and Mussolini\u2019s Italy has invaded Ethiopia in its colonial fervour.\nThis incredible true story is set in a seaside town in a grand aristocratic estate, where young Emilio is more interested in his novels, populated with romanticised orientalist characters, than in nationalistic exploits.\nAgainst his father\u2019s wishes, the two strike up a friendship.\nIn this clever and colourful coming-of-age film, Emilio will come to realise the true nature and absurdity of his world.\n- Deadline",
+      "labels": []
+    },
+    {
+      "id": "IFF - I Told You So-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - I Told You So",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_0c2d04ba-cf7c-4c64-a554-877e2b635fb6.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-17-12:15",
+        "2026-11-08-12:15"
+      ],
+      "displayDate": "Sat 17 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-i-told-you-so",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Ginevra Elkann\n\nTe L\u2019avevo Detto\n\nPresented by PERONI\n\nDirector Ginevra Elkann has assembled a stellar cast to depict a time that may not be too far away, beyond the climate tipping point. Through a series of intertwined threads, we\u2019re immersed in stories ranging from the hilarious to the tragic. Valeria Bruni Tedeschi plays a woman who inhabits a world of her own.\n\nThe wonderful Valeria Golino plays a botox-filled ageing porn star who pines for the spotlight but instead lives with her cats. Danny Houston plays an Amercican priest who struggles with his heroin addiction. Thse and other micro-stories create a clever mosaic of pieces that, when they come together, form a richly complex, deliciously dark comedy with outrageous poignancy.\n\nThe bold, stylised visual approach, with its hypnotic, pastel palette, is surreal, highly original and captivating.\n\n\"Brilliant and bittersweet.\" - Ashbury Films\n\nBlack Comedy | Italian with English subtitles",
+      "description": "Details Directed by Ginevra Elkann Te L\u2019avevo Detto Presented by PERONI Director Ginevra Elkann has assembled a stellar cast to depict a time that may not be too far away, beyond the climate tipping point.\nThrough a series of intertwined threads, we\u2019re immersed in stories ranging from the hilarious to the tragic.\nValeria Bruni Tedeschi plays a woman who inhabits a world of her own.\nThe wonderful Valeria Golino plays a botox-filled ageing porn star who pines for the spotlight but instead lives with her cats.\nDanny Houston plays an Amercican priest who struggles with his heroin addiction.",
+      "labels": []
+    },
+    {
+      "id": "IFF - It's Time to Talk-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - It's Time to Talk",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_697d836a-f361-46ad-bdfd-23d9ac4d62e2.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-21-15:30",
+        "2026-10-23-15:30",
+        "2026-11-08-15:30"
+      ],
+      "displayDate": "Wed 21 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-its-time-to-talk",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Alessandro Siani\n\nPresented by ANTHONY HARPER\n\nA relaxed comedy that blends humour and crime and invites audiences into the chaotic lives of its two amusing leads. Alessandro Siani directs and stars as Antonio, blending a ligh-hearted romance with elements reminiscent of 1980s American buddy-cop films.\n\nIn Italy, both Siani and Pieraccioni (Pieraldo) are household names, but this is the first time they\u2019ve appeared on screen together. It was Italy\u2019s biggest comedy in 2024 and was shot entirely on the Adriatic Coast of Le Marche and in Ancona, giving it a laid-back seaside vibe.\n\nIt\u2019s Time to Talk strikes a balance that keeps viewers entertained without losing sight of what makes stories compelling; human connection amid adversity, family, love, and a never-take-yourself-too-seriously attitude.\n\n\",,, a light, well-structured comedy, rich in a steady flow of gags. A comedy, yes - but in truth also a police film, a genre that always brings mystery and action.\"\n\nWINNER\nBest Movie, Filming Italy Award\n\nComedy | Italy | Italian with English subtitles",
+      "description": "Details Directed by Alessandro Siani Presented by ANTHONY HARPER A relaxed comedy that blends humour and crime and invites audiences into the chaotic lives of its two amusing leads.\nAlessandro Siani directs and stars as Antonio, blending a ligh-hearted romance with elements reminiscent of 1980s American buddy-cop films.\nIn Italy, both Siani and Pieraccioni (Pieraldo) are household names, but this is the first time they\u2019ve appeared on screen together.\nIt was Italy\u2019s biggest comedy in 2024 and was shot entirely on the Adriatic Coast of Le Marche and in Ancona, giving it a laid-back seaside vibe.\nIt\u2019s Time to Talk strikes a balance that keeps viewers entertained without losing sight of what makes stories compelling; human connection amid adversity, family, love, and a never-take-yourself-too-seriously attitude.",
+      "labels": []
+    },
+    {
+      "id": "IFF - La Grazia-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - La Grazia",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_0d71946a-452b-4cb4-b3a1-f611218bb3ce.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-16-18:00",
+        "2026-10-24-18:00",
+        "2026-11-07-18:00",
+        "2026-11-15-18:00"
+      ],
+      "displayDate": "Fri 16 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-la-grazia",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Paolo Sorrentino\n\nPresented by The Embassy of Italy, Wellington\n\nAcademy Award Winner Paolo Sorrentino possesses one of the most distinct, artful, and intelligent voices in contemporary cinema. With La Grazia, he continues to astonish audiences, but this time not only for his creative flourishes, but for an elegant, immensely thoughtful, and restrained meditation on power, morality, and legacy.\n\nWith majestic authority, Toni Servillo plays Mariano De Santis, President of the Italian Republic, in his final weeks in office. He wrestles with the legacy of his career and, for the first time, finds himself unable to make decisions. He must make a resolution on a euthanasia bill and decide whether to grant pardons for two convicted murderers. It\u2019s in the extraordinary private and intimate sequences that we feel his grief for his now deceased wife and the scars left by her ancient infidelity.\n\n\u2018La Grazia\u2019 has the double meaning of a \u2018legal pardon\u2019 and the more spiritual significance of being in a \u2018state of grace\u2019. In La Grazia Sorrentino and his collaborator of over twenty-six years, Servillo, are indeed in a state of filmmaking grace.\n\n\"Sorrentino has made some beauties in his career. This is one of his best.\" - Pete Hammond. Deadline\n\nWINNER\nBest Actor, Toni Servillo, Venice Film Festival\nBest Film Pasinetti Award, Venice Film Festival\nBest Film Italian Film in Venice, Venice Film Festival\nBest Screenplay, Chicago International Film Festival\nSpecial Prize, Anna Ferzetti, Venice Film Festival\n\nDrama | Italian with English subtitles",
+      "description": "Details Directed by Paolo Sorrentino Presented by The Embassy of Italy, Wellington Academy Award Winner Paolo Sorrentino possesses one of the most distinct, artful, and intelligent voices in contemporary cinema.\nWith majestic authority, Toni Servillo plays Mariano De Santis, President of the Italian Republic, in his final weeks in office.\nHe must make a resolution on a euthanasia bill and decide whether to grant pardons for two convicted murderers.\nIt\u2019s in the extraordinary private and intimate sequences that we feel his grief for his now deceased wife and the scars left by her ancient infidelity.\n\u2018La Grazia\u2019 has the double meaning of a \u2018legal pardon\u2019 and the more spiritual significance of being in a \u2018state of grace\u2019.",
+      "labels": []
+    },
+    {
+      "id": "IFF - My Place is Here-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - My Place is Here",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_88e6fe8e-5536-4e06-915c-577f2754ec30.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-22-10:30",
+        "2026-11-05-10:30"
+      ],
+      "displayDate": "Thu 22 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-my-place-is-here",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Cristiano Bortone, Daniela Porto\n\nIl Mio Posto \u00e8 Qui\n\nPresented by GO MEDIA\n\nIn the impoverished confines of her parents\u2019 home, 17-year-old Marta awaits the return of her fiance from war. As a single mother, she faces the scorn of her community, and in the aftermath of WWII, she finds herself promised to an older farmer.\n\nDuring the village\u2019s preparatory course for wives, she forges an unlikely friendship with Lorenzo, the village\u2019s wedding planner.\n\nIn conservative, rural, Southern Italy, Lorenzo introduces her to a hidden community, sparking Marta\u2019s courageous journey to challenge societal prejudices. Against the historical backdrop of the first year of women\u2019s suffrage in Italy, Marta navigates her evolving role as a woman, breaking barriers and finding her place in a changing world.\n\n\"Female redemption that speaks to the present.\" - The Hollywood Reporter\n\nWINNER\nBest Directors, Bari International Film Festival\nBest Screenplay, Bari International Film Festival\nBest Film, Italian Film Festival Berlin\nBest Film, Catalina Film Festival\n\nDrama | Italy, Germany | Italian with English subtitles",
+      "description": "Details Directed by Cristiano Bortone, Daniela Porto Il Mio Posto \u00e8 Qui Presented by GO MEDIA In the impoverished confines of her parents\u2019 home, 17-year-old Marta awaits the return of her fiance from war.\nAs a single mother, she faces the scorn of her community, and in the aftermath of WWII, she finds herself promised to an older farmer.\nDuring the village\u2019s preparatory course for wives, she forges an unlikely friendship with Lorenzo, the village\u2019s wedding planner.\nIn conservative, rural, Southern Italy, Lorenzo introduces her to a hidden community, sparking Marta\u2019s courageous journey to challenge societal prejudices.\nAgainst the historical backdrop of the first year of women\u2019s suffrage in Italy, Marta navigates her evolving role as a woman, breaking barriers and finding her place in a changing world.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Napoli - New York-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Napoli - New York",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_08388895-b867-4e97-afae-97e261eaaab3.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-15-18:00",
+        "2026-10-25-18:00",
+        "2026-11-06-18:00",
+        "2026-11-14-18:00"
+      ],
+      "displayDate": "Thu 15 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-napoli-new-york",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Gabriele Salvatores\n\nPresented by HOUSE OF TRAVEL & LUFTHANSA GROUP\n\nIn 1949, the Italian city of Naples lies in ruins after the devastation of WWII. Amidst the poverty and rubble-strewn streets of the city, two children, Carmine and Celestina, try to survive as best they can by helping each other. Like so many others, they dream of going to America.\n\nAfter a chance encounter with a steamship\u2019s chef, one night, they secretly stow themselves away on a ship bound for New York to reach Celestina\u2019s sister, who emigrated to America several years earlier. On board, Carmine and Celestina join the many Italian emigrants seeking a new, better life in America.\n\nOn the run from the Italian purser (Pierfrancesco Favino), the pair eventually arrive in an unknown metropolis, which, after several misadventures, they eventually learn to call home.\n\nThe young actors live up tot he tradition of incredible performances that back to The Bicycle Thieves while Pierfrancesco Favino\u2019s performances as the ship\u2019s chief officer is wonderfully playful.\n\nSalvatores celebrates, with obvious glee, many of the feel-good, sentimental and neo-realist tropes of 20th century cinema. The result is a grand film that is moving, amusing and both visually and narratively unique.\n\nA film that can be truly enjoyed by the whole family or Italian film connoisseurs.\n\n\"A moving exploration of migration, identity, and the bittersweet search for belonging.\" - Natasha Senjanovic. The Hollywood Reporter\n\nWINNER\nBest Visual Effects, David di Donatello Awards\nDavid of Youth Award\nBest Score, Golden Globes Italy\n\nComedy, Drama | Italy | Italian with English subtitles",
+      "description": "Amidst the poverty and rubble-strewn streets of the city, two children, Carmine and Celestina, try to survive as best they can by helping each other.\nAfter a chance encounter with a steamship\u2019s chef, one night, they secretly stow themselves away on a ship bound for New York to reach Celestina\u2019s sister, who emigrated to America several years earlier.\nOn board, Carmine and Celestina join the many Italian emigrants seeking a new, better life in America.\nOn the run from the Italian purser (Pierfrancesco Favino), the pair eventually arrive in an unknown metropolis, which, after several misadventures, they eventually learn to call home.\nThe result is a grand film that is moving, amusing and both visually and narratively unique.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Once Upon a Time in the West-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Once Upon a Time in the West",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_36276eb4-6934-44c1-9d02-d3c726c5793f.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-16-12:30",
+        "2026-10-28-12:30",
+        "2026-11-07-12:30",
+        "2026-11-15-12:30"
+      ],
+      "displayDate": "Fri 16 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-once-upon-a-time-in-the-west-",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Sergio Leone\n\nPresented by Illy\n\nCharles Bronson plays the mysterious \u2018man with the harmonica\u2019 who, with outlaw Cheyenne protects the majestic Claudia Cardinale, arguably in her best role.\n\nThe standout performance comes from the wildly against-type casting of the great Henry Fonda as a ruthless assassin working for the railways. It is a film of sprawling scale, operative and exquisite in its detail, unlike an other western - cinema on a grand scale.\n\nSergio Leone\u2019s collaboration with composer Ennio Morricone was one of the most creative partnerships in cinema history and its influence is still felt today. The themes are uncannily resonant today; the foundations of contemporary USA with the unstoppable force of technology and the violent, lawless brutality of unchecked greed.\n\nThis is UNMISSABLE on the big screen.\n\n\"A true masterpiece of the genre and arguable the best spaghetti western every made.\" - Sher Linden. The Hollywood Reporter\n\nSpaghetti Western | Italy | Italian with English subtitles",
+      "description": "Details Directed by Sergio Leone Presented by Illy Charles Bronson plays the mysterious \u2018man with the harmonica\u2019 who, with outlaw Cheyenne protects the majestic Claudia Cardinale, arguably in her best role.\nThe standout performance comes from the wildly against-type casting of the great Henry Fonda as a ruthless assassin working for the railways.\nIt is a film of sprawling scale, operative and exquisite in its detail, unlike an other western - cinema on a grand scale.\nSergio Leone\u2019s collaboration with composer Ennio Morricone was one of the most creative partnerships in cinema history and its influence is still felt today.\nThe themes are uncannily resonant today; the foundations of contemporary USA with the unstoppable force of technology and the violent, lawless brutality of unchecked greed.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Siblings-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Siblings",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b4565cb1-f837-4ac1-bd7d-3f254374a2ac.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-21-17:30",
+        "2026-11-05-17:30",
+        "2026-11-13-17:30"
+      ],
+      "displayDate": "Wed 21 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-siblings",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Greta Scarano\n\nLa Vita da Grandi\n\nPresented by Ondazzurra\n\nIrene (Matilda De Angelis) is trying to build a regular life in Rome when she is forced to return to her hometown Rimini, to take care of Omar (newcomer Yuri Tuci), her 40-year-old autistic brother.\n\nShe will find out that Omar has very clear ideas about his future; he does not want to live with her at all when their parents are no longer around. Instead, he convinces Irene to give him an intensive course in adulthood to enable him to become independent. More importantly, he aims to fulfill his dreams, such as participating in the talent show that will make him a famous singer.\n\nA joyous tale about overcoming obstacles and daring to go beyond the limited imposed by society and others, Siblings explores the universal bond between siblings.\n\nOFFICIAL SELECTION\nKarlovy Vary International Film Festival 2025\nBari International Film Festival\n\n\"A sensitive and soothing comedy.\" - Cineropa",
+      "description": "Details Directed by Greta Scarano La Vita da Grandi Presented by Ondazzurra Irene (Matilda De Angelis) is trying to build a regular life in Rome when she is forced to return to her hometown Rimini, to take care of Omar (newcomer Yuri Tuci), her 40-year-old autistic brother.\nShe will find out that Omar has very clear ideas about his future; he does not want to live with her at all when their parents are no longer around.\nInstead, he convinces Irene to give him an intensive course in adulthood to enable him to become independent.\nMore importantly, he aims to fulfill his dreams, such as participating in the talent show that will make him a famous singer.\nA joyous tale about overcoming obstacles and daring to go beyond the limited imposed by society and others, Siblings explores the universal bond between siblings.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Sicilian Letters-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Sicilian Letters",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_936092eb-09c2-42fa-abc0-84bc938a9148.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-25-19:45",
+        "2026-11-12-19:45"
+      ],
+      "displayDate": "Sun 25 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-sicilian-letters",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Antonio Piazza, Fabio Grassadonia\n\nIddu\n\nPresented by DELUXE | THE VAULT\n\nIn early 2000s Sicily, after serving several years in prison for Mafia-related crimes, Catello (Servillo), a long-serving local councillor, has lost everything. when the Italian Secret Service persuades him to help capture Matteo (Germano), the son of his closest friend and the last major Mafia boss still on the run, Catello sees an opportunity. A shrewd man and a tireless illusionist who turns truth into falsehood and falsehood into truth, under their guidance Catello begins to correspond with the fugitive.\n\nExploiting the younger man\u2019s emotional state, Catello\u2019s gamble involves a significant risk, as he plays a game of cat and mouse with one of the most wanted criminals in the world.\n\nWINNER\nBest Film, Pasinetti Award at the Venice Film Festival\nBest Prop Maker, Venice Film Festival\nLizzani Award, Venice Film Festival\n\n\"Tony Servillo leads a ripping yarn of a mob movie.\" - Deadline\n\nItaly | Drama",
+      "description": "Details Directed by Antonio Piazza, Fabio Grassadonia Iddu Presented by DELUXE | THE VAULT In early 2000s Sicily, after serving several years in prison for Mafia-related crimes, Catello (Servillo), a long-serving local councillor, has lost everything.\nwhen the Italian Secret Service persuades him to help capture Matteo (Germano), the son of his closest friend and the last major Mafia boss still on the run, Catello sees an opportunity.\nA shrewd man and a tireless illusionist who turns truth into falsehood and falsehood into truth, under their guidance Catello begins to correspond with the fugitive.\nExploiting the younger man\u2019s emotional state, Catello\u2019s gamble involves a significant risk, as he plays a game of cat and mouse with one of the most wanted criminals in the world.\nBest Film, Pasinetti Award at the Venice Film Festival Best Prop Maker, Venice Film Festival Lizzani Award, Venice Film Festival \"Tony Servillo leads a ripping yarn of a mob movie.\"",
+      "labels": []
+    },
+    {
+      "id": "IFF - Somebody to Love-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Somebody to Love",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_78eb0304-788e-4b46-a7a8-c67810a874c7.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-18-17:45",
+        "2026-11-01-17:45",
+        "2026-11-15-17:45"
+      ],
+      "displayDate": "Sun 18 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-somebody-to-love",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Paolo Genovese\n\nFollemente\n\nSomebody to Love has swept over 2.5million moviegoers off their feet to become Italy\u2019s #1 box office hit of 2025.\n\nThe film chronicles a first date between philosophy professor, Piero (Edoardo Leo), and talented furniture restorer, Lara Pilar Fogliati). The brilliant twist is that the film is populated by a chorus of personified emotions in their heads. A Greek chorus (or, in this case, an Italian chorus) of emotions. Over the course of the evening, they must content with competing inner motivations, instincts, logic, romance, lust, impulse, desire etc, each depicted by a hilarious cast. It\u2019s a perfect setup for revealing the inner debates, turbulence and trepidation experienced in romance.\n\nIt is a delightful game where we\u2019re privy to their hidden quirks, insecurities, desires and secret hopes.\n\nA fresh, crowd-pleasing and highly entertaining new take on the comedy romance.\n\nCan I say it? \u2026 a perfect date-night film.\n\n\"Hilarious. A comedy with a touch of class and a sense of observation of humans grappling with their emotions and postures. Unmissable.\" - Alvaro Moretti, Il Mesagero\n\nItalian with English subtitles",
+      "description": "Details Directed by Paolo Genovese Follemente Somebody to Love has swept over 2.5million moviegoers off their feet to become Italy\u2019s #1 box office hit of 2025.\nThe film chronicles a first date between philosophy professor, Piero (Edoardo Leo), and talented furniture restorer, Lara Pilar Fogliati).\nThe brilliant twist is that the film is populated by a chorus of personified emotions in their heads.\nOver the course of the evening, they must content with competing inner motivations, instincts, logic, romance, lust, impulse, desire etc, each depicted by a hilarious cast.\nA comedy with a touch of class and a sense of observation of humans grappling with their emotions and postures.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Somebody to Love - Opening Night-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Somebody to Love - Opening Night",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_27a42bc5-487d-4f02-9876-b5758ef8e308.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-14-19:30"
+      ],
+      "displayDate": "Wed 14 Oct",
+      "url": "https://www.roxycinema.co.nz/movie/iff-somebody-to-love-opening-night",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Paolo Genovese\n\nOpening Night Ticket $30.\n\nIncludes Peronia, San Pellegrino, Prosecco, Pizza.\n\nArrivals from 6:45pm for a 7:30pm film screening.\n\nFollemente\n\nSomebody to Love has swept over 2.5million moviegoers off their feet to become Italy\u2019s #1 box office hit of 2025.\n\nThe film chronicles a first date between philosophy professor, Piero (Edoardo Leo), and talented furniture restorer, Lara Pilar Fogliati). The brilliant twist is that the film is populated by a chorus of personified emotions in their heads. A Greek chorus (or, in this case, an Italian chorus) of emotions. Over the course of the evening, they must content with competing inner motivations, instincts, logic, romance, lust, impulse, desire etc, each depicted by a hilarious cast. It\u2019s a perfect setup for revealing the inner debates, turbulence and trepidation experienced in romance.\n\nIt is a delightful game where we\u2019re privy to their hidden quirks, insecurities, desires and secret hopes.\n\nA fresh, crowd-pleasing and highly entertaining new take on the comedy romance.\n\nCan I say it? \u2026 a perfect date-night film.\n\n\"Hilarious. A comedy with a touch of class and a sense of observation of humans grappling with their emotions and postures. Unmissable.\" - Alvaro Moretti, Il Mesagero\n\nItalian with English subtitles",
+      "description": "The brilliant twist is that the film is populated by a chorus of personified emotions in their heads.\nOver the course of the evening, they must content with competing inner motivations, instincts, logic, romance, lust, impulse, desire etc, each depicted by a hilarious cast.\nIt\u2019s a perfect setup for revealing the inner debates, turbulence and trepidation experienced in romance.\nIt is a delightful game where we\u2019re privy to their hidden quirks, insecurities, desires and secret hopes.\nA comedy with a touch of class and a sense of observation of humans grappling with their emotions and postures.",
+      "labels": []
+    },
+    {
+      "id": "IFF - The Boy with Pink Trousers-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - The Boy with Pink Trousers",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_f9d3e91a-3ff7-41ac-8bf0-4812eba38a3a.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-22-15:30",
+        "2026-11-04-15:30",
+        "2026-11-15-15:30"
+      ],
+      "displayDate": "Thu 22 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-the-boy-with-pink-trousers",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Margherita Ferri\n\nIl Ragazzo dai Pantaloni Rosa\n\nPresented by DANTE ALIGHIERI AUCKLAND\n\nLoosely adapted from a book by Andrea\u2019s mother Teresa Manes (played by Claudia Pandolfi), who has since become an anti-bullying advocate, this compelling film from Margherita Ferri portrays the tragic true story of 15-year -old Andrea Spezzacatene, featuring rising star Samuele Carrino in the lead role.\n\nAndrea is a gifted student and a talented singer who longs to make friends and fit in at his new school. but he soon falls prey to Christian, a charming student with a darker side. Then, when a laundry mishap causes his new red trousers, a gift from his mother, to turn pink in the wash, events take a turn for the worse as school bullying intensifies.\n\nCalling attention to the impact of bullying, homophobia and intolerance, The Boy with Pink Trousers is a moving and powerful film, honouring the memory of Andrea.\n\n\"Shows the beauty and depth of the life that was lost, reminding us of the person behind the headlines.\" - Journey into Cinema\n\nFamily, Drama | Italian with English subtitles",
+      "description": "Details Directed by Margherita Ferri Il Ragazzo dai Pantaloni Rosa Presented by DANTE ALIGHIERI AUCKLAND Loosely adapted from a book by Andrea\u2019s mother Teresa Manes (played by Claudia Pandolfi), who has since become an anti-bullying advocate, this compelling film from Margherita Ferri portrays the tragic true story of 15-year -old Andrea Spezzacatene, featuring rising star Samuele Carrino in the lead role.\nAndrea is a gifted student and a talented singer who longs to make friends and fit in at his new school.\nbut he soon falls prey to Christian, a charming student with a darker side.\nCalling attention to the impact of bullying, homophobia and intolerance, The Boy with Pink Trousers is a moving and powerful film, honouring the memory of Andrea.\n- Journey into Cinema Family, Drama | Italian with English subtitles",
+      "labels": []
+    },
+    {
+      "id": "IFF - The Great Ambition-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - The Great Ambition",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_ddfd35d2-96f4-456b-9c5a-c1053d06b38e.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-17-20:30",
+        "2026-10-23-20:30",
+        "2026-10-29-20:30",
+        "2026-11-08-20:30",
+        "2026-11-14-20:30"
+      ],
+      "displayDate": "Sat 17 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-the-great-ambition",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Andrea Segre\n\nBerlinguer. La Grande Ambizione\n\nItaly, 1970s. Enrico Berlinguer is the Secretary of the most important Communist Party in the western world, with over one million seven hundred thousand card-holding members and more than twelve million voters, united by the great ambition of achieving socialism within a democracy.\n\nChallenging the dogmas of the Cold War and a world divided in two, Berlinguer and the Italian Communist Party (PCI) sought for five years to come to power, opening a season of dialogue with the Christian Democracy and almost changing history. Covering the period from 1973 when Berlinguer escapes an assassination attempt by the Bulgarian secret services in Sofia, makes it through election campaigns and trips to Moscow, onto the front pages of newspapers worldwide and holds a risky relationship with power until 1978.\n\nThe Great Ambition is a compelling portrait of the popular leaders at his peak.\n\n\"An impressive, graceful performance from Germano.\" - Roger Ebert\n\nWINNER\nBest Actor, Best Editing - David di Donatello Awards 2025\nBest Actor - Rome Film Festival\n\nOFFICIAL SELECTION\nGoteborg Film Festival 2025 (Voyage)\n\nHistorical Drama, Biopic | Italian with English subtitles",
+      "description": "Details Directed by Andrea Segre Berlinguer.\nLa Grande Ambizione Italy, 1970s.\nEnrico Berlinguer is the Secretary of the most important Communist Party in the western world, with over one million seven hundred thousand card-holding members and more than twelve million voters, united by the great ambition of achieving socialism within a democracy.\nChallenging the dogmas of the Cold War and a world divided in two, Berlinguer and the Italian Communist Party (PCI) sought for five years to come to power, opening a season of dialogue with the Christian Democracy and almost changing history.\n\"An impressive, graceful performance from Germano.\"",
+      "labels": []
+    },
+    {
+      "id": "IFF - The Illusion-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - The Illusion",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_878a88dd-5c13-430f-bfb9-e9f1e4815f41.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-21-12:30",
+        "2026-11-04-12:30",
+        "2026-11-11-12:30"
+      ],
+      "displayDate": "Wed 21 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-the-illusion",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Roberto Ando\n\nPresented by SAN PELLEGRINO& FEDERAL MERCHANTS\n\nYoung idealists from all regions of Italy join Giuseppe Garibaldi in Quarto, near Genoa, for the adventure of the \u201cMille\u201d. with his faithful group of officers, including the loyal Colonel Vincenzo Giodano Orsini (Servillo), Garibaldi recruits volunteers for the expedition. Among the many soldiers recruited are two (fictitious) Sicilians, peasant farmer Domenico Trico (Ficarra), and noble yet penniless trickster Rosario Spitale (Picone).\n\nLanding at Marsala, Sicilty, the \u201cMille\u201d begins fighting with the Bourbon army, whose superior numbers are immediately evident, and it seems impossible to breach enemy lines. But when is is almost forced to retreat, Garibaldi devises an ingenious plan.\n\nDirected and co-written by Roberto Ando, this entertaining tale blends comedy and drama to illuminate a piece of history, exploring the paradoxes of Sicilian identity.\n\n\"STAGES THE PAST TO SPEAK OF THE PRESENT. ANDO DOES SO MASTERFULLY, LIGHTLY AND SHREWDLY\" - Cineuropa\n\nDrama, Comedy, Historial | Italian with English subtitles",
+      "description": "with his faithful group of officers, including the loyal Colonel Vincenzo Giodano Orsini (Servillo), Garibaldi recruits volunteers for the expedition.\nAmong the many soldiers recruited are two (fictitious) Sicilians, peasant farmer Domenico Trico (Ficarra), and noble yet penniless trickster Rosario Spitale (Picone).\nLanding at Marsala, Sicilty, the \u201cMille\u201d begins fighting with the Bourbon army, whose superior numbers are immediately evident, and it seems impossible to breach enemy lines.\nBut when is is almost forced to retreat, Garibaldi devises an ingenious plan.\nDirected and co-written by Roberto Ando, this entertaining tale blends comedy and drama to illuminate a piece of history, exploring the paradoxes of Sicilian identity.",
+      "labels": []
+    },
+    {
+      "id": "IFF - The Last One for the Road-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - The Last One for the Road",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_2aeede8f-e348-44bd-8bf8-adf4a6f03623.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-22-18:00",
+        "2026-11-06-18:00"
+      ],
+      "displayDate": "Thu 22 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-the-last-one-for-the-road",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Francesco Sossai\n\nLe Citt\u00e0 di Pianura\n\nPresented by fish.\n\nA story of the friendship of two fun-loving men who have never fully grown up. Born into an economic boom, but now, instead of struggling, they choose to cheerfully enjoy one tipple after another.\n\nDoriano (Pierpaolo Capovilla) and Carlobiachi (Sergio Romano) are immensely likeable rogues who remain in a permanent state of tipsiness, yet are never creepy or tragic. Along the way, they pick up a nerdy, naive architecture student, Giulio (Filippo Scotti). Giulio soon finds himself embroiled in their escapades, but in turn conveys his appreciation for the local architecture.\n\nShot artfully on 35mm film, the look adds an appealing, nostalgic style that speaks to men\u2019s age and what they\u2019ve left behind.\n\nI found it impossible not to love this film, and it is my indie-arthouse pick our 2026 line up.\n\n\"If you\u2019re looking for a road-trip buddy comedy with arthouse sensibilities, Francesco Sossai has made the film for you. The Last One for the Road is one of the most charming films of the year.\" - Alex Papaioannou, In Session Film\n\nWINNER\nBest Actor(s) Sergio Romano, Pierpaolo Capovilla - Thessaloniki Film Festival\nBest Film - Thessaloniki Film Festival\n\nItalian with English subtitles",
+      "description": "Details Directed by Francesco Sossai Le Citt\u00e0 di Pianura Presented by fish.\nA story of the friendship of two fun-loving men who have never fully grown up.\nDoriano (Pierpaolo Capovilla) and Carlobiachi (Sergio Romano) are immensely likeable rogues who remain in a permanent state of tipsiness, yet are never creepy or tragic.\nGiulio soon finds himself embroiled in their escapades, but in turn conveys his appreciation for the local architecture.\nThe Last One for the Road is one of the most charming films of the year.\"",
+      "labels": []
+    },
+    {
+      "id": "IFF - The Sleeper - The Lost Caravaggio-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - The Sleeper - The Lost Caravaggio",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_a50716b5-9cfb-4428-bf52-01b67c63d949.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-18-10:30",
+        "2026-10-24-10:30",
+        "2026-11-11-10:30"
+      ],
+      "displayDate": "Sun 18 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-the-sleeper-the-lost-caravaggio",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Alvaro Longoria\n\nPresented by BOFFI STUDIO | ELEMENTO\n\nMillions of tourists line up to see his works in churches and museums and for centuries, counterfeits and fakes have emerged and been exposed. It seemed absolutely unthinkable that a \u2018lost masterpiece\u2019 would emerge.\n\nIn Madrid an eighty-year old woman decided to declutter and sell an old painting that had hung on her family\u2019s walls for generations. The auction house put a EUR1500 price tag on the work and within 24 hours it was re-valued at 300million Euros. The chain of events from here is worthy of a thriller. Mysteries of provenance, government interventions between doubts about the veracity, family ructions, and fierce competitions among art dealers.\n\nThis is an extraordinary and electrifying documentary that proves that sometimes fact is stranger than fiction.\n\n\"An entertaining thriller-like documentary\" - Janet Maslin. New York Times\n\nDocumentary | English, Spanish, Italian with English subtitles",
+      "description": "Details Directed by Alvaro Longoria Presented by BOFFI STUDIO | ELEMENTO Millions of tourists line up to see his works in churches and museums and for centuries, counterfeits and fakes have emerged and been exposed.\nIt seemed absolutely unthinkable that a \u2018lost masterpiece\u2019 would emerge.\nIn Madrid an eighty-year old woman decided to declutter and sell an old painting that had hung on her family\u2019s walls for generations.\nThe auction house put a EUR1500 price tag on the work and within 24 hours it was re-valued at 300million Euros.\nThe chain of events from here is worthy of a thriller.",
+      "labels": []
+    },
+    {
+      "id": "IFF - The Tasters-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - The Tasters",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_c2701e8d-fdde-4189-8b79-61486c2582be.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-25-15:10",
+        "2026-11-07-15:10"
+      ],
+      "displayDate": "Sun 25 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-the-tasters",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Silvio Soldini\n\nLe Assaggiatrici\n\nPresented by Embassy of Switzerland\n\nAutumn, 1943.\n\nTwenty-six-year-old Rosa (Elisa Schlott) having fled Berlin, reaches the small, isolated East Prussian village of Gross-Partsch where her in-laws live and where her husband, who is on the front, has written to her to take refuge while awaiting his return.\n\nRosa soon discovers that the apparently peaceful village hides a secret: inside the neighbouring forest lies Hitler\u2019s headquarters, known as Wolf\u2019s Lair.\n\nThe Fuhrer sees enemies everywhere, and the risk of his being poisoned is his obsession.\n\nOne morning at dawn Rosa is taken, along with other young women from the village, to taste the food cooked for him. Torn between fear of death and hunger, the tasters form alliances, friendships and secret pacts among themselves, determined not to give up hope.\n\n\"Outstanding. Well shot and beautifully acted.\" - La Republica\n\nWINNER\nBest Screenplay, Golden Globes Italy\n\nOFFICIAL SELECTION\nBari International Film & TV Festival\n\nHistorical Drama | Italy, Switzerland | German with English subtitles",
+      "description": "Details Directed by Silvio Soldini Le Assaggiatrici Presented by Embassy of Switzerland Autumn, 1943.\nTwenty-six-year-old Rosa (Elisa Schlott) having fled Berlin, reaches the small, isolated East Prussian village of Gross-Partsch where her in-laws live and where her husband, who is on the front, has written to her to take refuge while awaiting his return.\nRosa soon discovers that the apparently peaceful village hides a secret: inside the neighbouring forest lies Hitler\u2019s headquarters, known as Wolf\u2019s Lair.\nThe Fuhrer sees enemies everywhere, and the risk of his being poisoned is his obsession.\nOne morning at dawn Rosa is taken, along with other young women from the village, to taste the food cooked for him.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Trifole-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Trifole",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_701f5664-2008-4b9b-ab3b-b1dbbf1e152e.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-15-10:30",
+        "2026-10-25-10:30",
+        "2026-11-11-10:30"
+      ],
+      "displayDate": "Thu 15 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-trifole",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Gabriele Fabbro\n\nTruffles\n\nTrifole is Presented by Sabatino\n\nA young woman with Italian roots, Dalia, is beckoned from her home in London to visit her ailing truffle hunter grandfather, Igor (veteran screen actor Umberto Orsini). Igor now seems unable to look after himself and Dalia fears the worst. She soon discovers there\u2019s much more to her fragile grandfather, his situation, or the bucolic landscapes than she anticipated. The breathtaking autumnal countryside and a notable great performance by the truffle dog, Birba, soon enchants and draws us into a deeper, more complex story.\n\nIt is a gentle, warm-hearted film with a few touches of the fairytale.\n\nTrifole\u2019s disarmingly genuine nature has connected with festival audiences worldwide.\n\n\"Trifole is the must-see film for fans of truffles, Italy and cute dogs.\" - Leslie Kelly, Forbes\n\nDrama | Italian with English subtitles",
+      "description": "Details Directed by Gabriele Fabbro Truffles Trifole is Presented by Sabatino A young woman with Italian roots, Dalia, is beckoned from her home in London to visit her ailing truffle hunter grandfather, Igor (veteran screen actor Umberto Orsini).\nIgor now seems unable to look after himself and Dalia fears the worst.\nShe soon discovers there\u2019s much more to her fragile grandfather, his situation, or the bucolic landscapes than she anticipated.\nThe breathtaking autumnal countryside and a notable great performance by the truffle dog, Birba, soon enchants and draws us into a deeper, more complex story.\nIt is a gentle, warm-hearted film with a few touches of the fairytale.",
+      "labels": []
+    },
+    {
+      "id": "IFF - Umberto Eco - A Library of the World-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Umberto Eco - A Library of the World",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_8174e89d-3a9f-4d21-996d-5415235808e3.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-17-10:30",
+        "2026-11-04-10:30",
+        "2026-11-13-10:30"
+      ],
+      "displayDate": "Sat 17 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-umberto-eco-a-library-of-the-world",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Davide Ferrario\n\nPresented by Istituto Italiano di Cultura, Sydney\n\nUmberto Eco was unconventional and had a unique sense of humour, his personal library is filled with a staggeringly large collection of antique books, especially on unexpected and obscure topics. Umberto has been gone for ten years now and I feel his library was his personal legacy, a kind of metaphor for his own vast knowledge. Eco\u2019s love for exploring anything that captured his interest is infectious; he exudes his idiosyncratic wisdom with a refreshing lightness and clarity of thought. Even if you have not read any of his books, this documentary will give you a sense of Umberto Eco\u2019s worldwide impact as a thinker and truly captivating personality.\n\n\"A documentary about old books might sound stuff, but \u2018A Library of the World\u2019 is surprisingly fun.\" - POV Magazine\n\nWINNER\nBest Documentary, David di Donatello Awards\nBest Sound Design, David di Donatello Awards\nBest Editing, David di Donatello Awards\nSilver Ribbon, National Syndicate of Film Journalists\nBest Documentary, Golden Globes Italy\n\nDocumentary | Italy | Italian with English subtitles",
+      "description": "Details Directed by Davide Ferrario Presented by Istituto Italiano di Cultura, Sydney Umberto Eco was unconventional and had a unique sense of humour, his personal library is filled with a staggeringly large collection of antique books, especially on unexpected and obscure topics.\nUmberto has been gone for ten years now and I feel his library was his personal legacy, a kind of metaphor for his own vast knowledge.\nEco\u2019s love for exploring anything that captured his interest is infectious; he exudes his idiosyncratic wisdom with a refreshing lightness and clarity of thought.\nEven if you have not read any of his books, this documentary will give you a sense of Umberto Eco\u2019s worldwide impact as a thinker and truly captivating personality.\n\"A documentary about old books might sound stuff, but \u2018A Library of the World\u2019 is surprisingly fun.\"",
+      "labels": []
+    },
+    {
+      "id": "IFF - Vittoria-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Vittoria",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_4ae23b15-36c4-48aa-bc35-f35a96123634.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-15-12:45",
+        "2026-11-06-12:45",
+        "2026-11-15-12:45"
+      ],
+      "displayDate": "Thu 15 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-vittoria",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Alessandro Cassigoli\n\nPresented by FARINA\n\nJasmine (Marilena Amato) is a Neapolitan woman whose three sons are growing older and who has always dreamed of having a daughter. Jasmine is the beating heart of the family, she runs a hairdressing business employing her son, her home life is busy and within her humble working-class family her unlikely dream causes tensions among her husband and sons.\n\nIt seems everything is against her, the bureaucracy, her finances and the lack of consensus among friends and family.\n\nYet, she perseveres. It feels as if we are watching a documentary, the performances are so restrained and realistic that we feel like witnesses to something truly personal, intimate and absolutely unique. It reminded me of Ken Loach\u2019s best work.\n\nMany of the cast are not professional actors, grounding the film in a vernacular honesty that is quietly surprising and genuinely profound.\n\nWINNER\nFedic Award, Best Italian Film - La Biennale di Venezia\nBest Italian Film, Permio Arca Cinema Giovani\nBest Screenplay - Cairo International Film Festival\n\nDrama | Italy | Italian with English subtitles",
+      "description": "Details Directed by Alessandro Cassigoli Presented by FARINA Jasmine (Marilena Amato) is a Neapolitan woman whose three sons are growing older and who has always dreamed of having a daughter.\nJasmine is the beating heart of the family, she runs a hairdressing business employing her son, her home life is busy and within her humble working-class family her unlikely dream causes tensions among her husband and sons.\nIt seems everything is against her, the bureaucracy, her finances and the lack of consensus among friends and family.\nYet, she perseveres.\nIt feels as if we are watching a documentary, the performances are so restrained and realistic that we feel like witnesses to something truly personal, intimate and absolutely unique.",
+      "labels": []
+    },
+    {
+      "id": "IFF - When Mum is away... with the in-laws-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - When Mum is away... with the in-laws",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7136f554-227f-4ad6-bab6-622298649510.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-18-12:15",
+        "2026-10-24-12:15",
+        "2026-11-06-12:15",
+        "2026-11-12-12:15"
+      ],
+      "displayDate": "Sun 18 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-when-mum-is-away-with-the-in-laws",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Simone Godano\n\n10 giorni con i suoi\n\nFabio De Luigi and Valentina Lodovini return as Carlo and Giulia Rovelli and this time, the family is heading to sunny Puglia, where their eldest daughter, eighteen-year-old Camilla, is moving to attend university with her boyfriend, Antonio Paradiso.\n\nHowever, Carlo is not ready to let go of his firstborn - especially if it means having her live with a young man he does not trust at all.\n\nOnce the Rovellis arrive at the farmhouse of the Paradiso family, Carlo does not miss an opportunity to be the world\u2019s most unwelcome guest. Amid theft, lies, culture clashes, romantic escapades, and a series of hilarious misunderstandings, only time will tell whether the Rovellis and the Paradisos will remain at odds or become one big family.\n\nOFFICIAL SELECTION\nItalian Contemporary Film Festival 2025\n\n\"Lightheartedness and laughter for all the family\" - Vanity Fair Italy\n\nComedy | Italian with English subtitles",
+      "description": "Details Directed by Simone Godano 10 giorni con i suoi Fabio De Luigi and Valentina Lodovini return as Carlo and Giulia Rovelli and this time, the family is heading to sunny Puglia, where their eldest daughter, eighteen-year-old Camilla, is moving to attend university with her boyfriend, Antonio Paradiso.\nHowever, Carlo is not ready to let go of his firstborn - especially if it means having her live with a young man he does not trust at all.\nOnce the Rovellis arrive at the farmhouse of the Paradiso family, Carlo does not miss an opportunity to be the world\u2019s most unwelcome guest.\nAmid theft, lies, culture clashes, romantic escapades, and a series of hilarious misunderstandings, only time will tell whether the Rovellis and the Paradisos will remain at odds or become one big family.\nItalian Contemporary Film Festival 2025 \"Lightheartedness and laughter for all the family\" - Vanity Fair Italy Comedy | Italian with English subtitles",
+      "labels": []
+    },
+    {
+      "id": "IFF - Who wants to be a Parent?-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "IFF - Who wants to be a Parent?",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_d5b1100e-1fd3-4491-8b82-58a50a8293d5.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-21-10:30",
+        "2026-11-04-10:30",
+        "2026-11-14-10:30"
+      ],
+      "displayDate": "Wed 21 Oct + more",
+      "url": "https://www.roxycinema.co.nz/movie/iff-who-wants-to-be-a-parent",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Fausto Brizzi\n\nDove osano le cicogne?\n\nPresented by VESPA\n\nWhen a devoted but wildly unprepared couple realise they are biologically unable to start a family, they hatch a plan that seems practical on paper but completely chaotic in real life - surrogacy - which is illegal in Italy.\n\nTheir decision sends them to Spain triggering a series of misunderstandings and cultural clashes. For the next nine months they must host and hide their Spanish surrogate and Marta must simulate a pregnancy hiding the truth from her old-fashioned father. Driven by sharp dialogue and a savvy sensibility, the film finds humour in bureaucracy, relationships and the absurd rules of the modern world. Beneath the laughs lies a warm, generous-hearted film directed by the comic talents of Fausto Brizzi (a well-known Italian television personality), delivering an entertaining, crowd-pleasing ride about our desire to be parents.\n\n\"A film suitable for everyone - mainstream in the truest sense of the term.\" - Matteo Pivetti, Sentieri Selvaggi\n\nComedy | Italy | Italian with English subtitles",
+      "description": "Details Directed by Fausto Brizzi Dove osano le cicogne?\nPresented by VESPA When a devoted but wildly unprepared couple realise they are biologically unable to start a family, they hatch a plan that seems practical on paper but completely chaotic in real life - surrogacy - which is illegal in Italy.\nTheir decision sends them to Spain triggering a series of misunderstandings and cultural clashes.\nFor the next nine months they must host and hide their Spanish surrogate and Marta must simulate a pregnancy hiding the truth from her old-fashioned father.\nDriven by sharp dialogue and a savvy sensibility, the film finds humour in bureaucracy, relationships and the absurd rules of the modern world.",
+      "labels": []
+    }
+  ]
 }
