@@ -1,338 +1,18 @@
 [
 {
-  "id": "Emerson Leap On Tour-San Fran, Wellington-San Fran",
-  "name": "Emerson Leap On Tour",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/n/q/j/b4bf785b-e698-4f7a-9d00-aed57cc36d6a.png",
+  "id": "Taking Back Saturday Halloween Emo Pop Punk Party-San Fran, Wellington-San Fran",
+  "name": "Taking Back Saturday Halloween Emo Pop Punk Party",
+  "imageUrl": "https://networksites.livenationinternational.com/networksites/5tndmxh5/anthony-delanoix-hzgs56ze49s-unsplash.jpg",
   "venue": "San Fran, Wellington",
   "coordinates": {
     "lat": -41.2941512,
     "long": 174.7755614
   },
   "dates": [
-    "2026-09-11-00:00"
+    "2026-10-31-00:00"
   ],
-  "displayDate": "Fri 11 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/emerson-tickets-ae1574004",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Convergence A Drag Night Fundraiser-San Fran, Wellington-San Fran",
-  "name": "Convergence A Drag Night Fundraiser",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/m/a/y/31ceea26-d834-4591-af03-d92e0e012656.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-11-00:00"
-  ],
-  "displayDate": "Fri 11 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/convergence-a-drag-night-fundraiser-tickets-ae1690521",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "2010s Time Machine Party Wellington-San Fran, Wellington-San Fran",
-  "name": "2010s Time Machine Party Wellington",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/k/n/v/a8630d58-4e73-4240-865a-a7f78b043acd.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-12-00:00"
-  ],
-  "displayDate": "Sat 12 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/2010s-time-machine-party-wellington-tickets-ae1690529",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "ASH 1977 30th Anniversary Tour-San Fran, Wellington-San Fran",
-  "name": "ASH 1977 30th Anniversary Tour",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/q/o/k/580a905e-e23a-4a8d-8c5c-64ebf107c602.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-15-00:00"
-  ],
-  "displayDate": "Tue 15 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/ash-tickets-ae146474",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Debt Club-San Fran, Wellington-San Fran",
-  "name": "Debt Club",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/u/v/m/b9dcff2e-3d6d-41d3-a8ab-97a124fa3857.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-18-00:00"
-  ],
-  "displayDate": "Fri 18 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/debt-club-tickets-ae1470011",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Bust a Move with Miss Raven-San Fran, Wellington-San Fran",
-  "name": "Bust a Move with Miss Raven",
-  "imageUrl": "https://networksites.livenationinternational.com/networksites/kukb4cog/busta-move.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-18-00:00"
-  ],
-  "displayDate": "Fri 18 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/miss-raven-tickets-ae1595477",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Reece Mastin-San Fran, Wellington-San Fran",
-  "name": "Reece Mastin",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/q/s/k/69f4fc5e-2d0a-432c-8e10-62de359378ef.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-19-00:00"
-  ],
-  "displayDate": "Sat 19 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/reece-mastin-tickets-ae1477466",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "The Beatniks with Molipane and Lucy Dibble-San Fran, Wellington-San Fran",
-  "name": "The Beatniks with Molipane and Lucy Dibble",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/c/o/w/4598906a-1c9b-41cf-ae1d-56c6b21f73e9.jpeg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-24-00:00"
-  ],
-  "displayDate": "Thu 24 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/the-beatniks-with-molipane-and-lucy-dibble-tickets-ae1695342",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "KITA-San Fran, Wellington-San Fran",
-  "name": "KITA",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/d/o/c/d736de6b-319b-4295-b94a-0188b3c6039f.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-25-00:00"
-  ],
-  "displayDate": "Fri 25 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/kita-tickets-ae1415326",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Wet Denim Water For Dogs EP Release Tour-San Fran, Wellington-San Fran",
-  "name": "Wet Denim Water For Dogs EP Release Tour",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/s/j/v/0d2fa5ae-80e8-433d-b330-b7ae3b404aa2.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-26-00:00"
-  ],
-  "displayDate": "Sat 26 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/wet-denim-tickets-ae1514198",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Oots AUS-San Fran, Wellington-San Fran",
-  "name": "Oots AUS",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/j/i/n/66dd08f3-1a4d-45ef-b3a3-6d7d29380254.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-03-00:00"
-  ],
-  "displayDate": "Sat 03 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/oots-tickets-ae1687693",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "August Burns Red-San Fran, Wellington-San Fran",
-  "name": "August Burns Red",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/l/v/i/b1d87d59-5522-4622-9a79-81112920dbeb.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-07-00:00"
-  ],
-  "displayDate": "Wed 07 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/august-burns-red-tickets-ae2148",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Mountain Boy-San Fran, Wellington-San Fran",
-  "name": "Mountain Boy",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/t/e/s/cb46bae3-1954-4bf3-b512-4e6e13c14504.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-08-00:00"
-  ],
-  "displayDate": "Thu 08 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/mountain-boy-tickets-ae1629242",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Where s Jai-San Fran, Wellington-San Fran",
-  "name": "Where s Jai",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/g/h/x/5c7f073a-2be7-40c1-a0e0-27bc47985156.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-10-00:00"
-  ],
-  "displayDate": "Sat 10 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/where-s-jai-tickets-ae1603030",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "La Latina-San Fran, Wellington-San Fran",
-  "name": "La Latina",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/k/k/y/3732da3e-8044-465f-bc28-a7c344e82206.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-10-00:00"
-  ],
-  "displayDate": "Sat 10 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/la-latina-tickets-ae1695058",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Shake em On Downers-San Fran, Wellington-San Fran",
-  "name": "Shake em On Downers",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/m/u/t/3a2d625a-ebd1-466d-bead-c9641c33f1fd.jpeg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-17-00:00"
-  ],
-  "displayDate": "Sat 17 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/shake-em-on-downers-tickets-ae1694380",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Avatar Earth Wind Fire Tribute-San Fran, Wellington-San Fran",
-  "name": "Avatar Earth Wind Fire Tribute",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/r/c/d/78519e93-a132-4245-b0c3-b24fa5fbb815.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-18-00:00"
-  ],
-  "displayDate": "Sun 18 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/avatar-earth-wind-and-fire-tribute-tickets-ae1690409",
+  "displayDate": "Sat 31 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/taking-back-saturday-halloween-emo-and-pop-punk-party-tickets-ae1613271",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -613,6 +293,26 @@
   ],
   "displayDate": "Fri 19 Mar",
   "url": "https://www.sanfran.co.nz/all-events/grace-petrie-tickets-ae1221656",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "The Early November Hellogoodbye-San Fran, Wellington-San Fran",
+  "name": "The Early November Hellogoodbye",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/k/v/z/47cfff8c-6f0a-420c-843b-2feb1acb5d26.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-03-21-00:00"
+  ],
+  "displayDate": "Sun 21 Mar",
+  "url": "https://www.sanfran.co.nz/all-events/the-early-november-hellogoodbye-tickets-ae1696222",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",

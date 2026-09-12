@@ -1,14 +1,134 @@
 [
 {
-  "id": "Wellington Heritage Festival-Various locations, Wellington, New Zealand-Wellington NZ",
-  "name": "Wellington Heritage Festival",
-  "imageUrl": "https://wellingtonnz.bynder.com/transform/5309ce04-377d-4f2d-8a28-e9f1516166de/Wellington-Heritage-Festival-2?quality=80&io=transform:fill,width:576,height:450",
-  "venue": "Various locations, Wellington, New Zealand",
+  "id": "Two Psychics and a Medium-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "Two Psychics and a Medium",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/76ac5038-9bcc-4704-acd6-6e1a878aa706/Two-Psychics-and-a-Medium?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2027-03-18-01:01"
+  ],
+  "displayDate": "Thu 18 Mar",
+  "url": "https://www.wellingtonnz.com/visit/events/two-psychics-and-a-medium",
+  "source": "Wellington NZ",
+  "eventType": "Other",
+  "long_description": "Following sold-out performances across Australia and New Zealand, \u2018Two Psychics and a Medium\u2019 is back. Catch the show at The Opera House as part of the \u2018Eternal World Tour\u2019. Psychic mediums Julia Cartagena and Anthony Grzelka star in the live theatre experience. There are no scripts and no pre-selected participants, so every show is unique. Julia and Anthony connect with audience members in real time. You can expect readings, laughs, and powerful moments of connection.\u00a0\n\nAlongside being a psychic medium, Julia is an author and inspirational speaker. For over two decades, she\u2019s held readings for a range of clients: from celebrities to business leaders. Anthony is a psychic medium, author, and spiritual communicator known as Australia\u2019s \u2018Ghost Whisperer\u2019. He reports he experienced spiritual guidance from spirits as early as five years old. Since then, he\u2019s turned it into his career. He was the first medium in Australia to give live audience readings, and he\u2019s often appearing on television. Together, Julia and Anthony\u2019s personal messages leave audiences feeling comforted and inspired.",
+  "description": "Psychic mediums Julia Cartagena and Anthony Grzelka star in the live theatre experience.\nThere are no scripts and no pre-selected participants, so every show is unique.\nYou can expect readings, laughs, and powerful moments of connection.\nAnthony is a psychic medium, author, and spiritual communicator known as Australia\u2019s \u2018Ghost Whisperer\u2019.\nHe was the first medium in Australia to give live audience readings, and he\u2019s often appearing on television.",
+  "labels": []
+},
+{
+  "id": "Gillian Welch & David Rawlings-Michael Fowler Centre, Wellington, New Zealand-Wellington NZ",
+  "name": "Gillian Welch & David Rawlings",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/7acdea9e-3c16-4e8f-a8e3-d5cd3430b896/Gillian-Welch-David-Rawlings-1?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "Michael Fowler Centre, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2895258,
+    "long": 174.7780167
+  },
+  "dates": [
+    "2027-02-20-01:01"
+  ],
+  "displayDate": "Sat 20 Feb",
+  "url": "https://www.wellingtonnz.com/visit/events/gillian-welch-and-david-rawlings",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "The traditional sound of Appalachian music. bluegrass, country, Americana, and folk will fill the Michael Fowler Centre in February. American singer-songwriters Gillian Welch and David Rawlings blend the traditional music practices together in their first New Zealand concert in over a decade. The partners on stage and in life have 30 years of experience collaborating over haunting covers of folk greats. You might hear songs like Look at Miss Ohio, Orphan Girl, and Empty Trainload of Sky. Expect sparse magical arrangements and exquisite lyricism.\u00a0\n\nSince their last visit to Wellington, they've been busy writing and producing music. Their recent album, \u2018Woodland\u2019, is the first attributed to both of them. Despite collaborating on most things, previous albums were billed individually. The album shares the name of their Nashville studio Woodland, lost to a tornado in 2020.\u00a0\n\nYou might recognise Gillian\u2019s voice from the Coen brothers film \u2018O Brother, Where Art Thou?\u2019. She contributed to the soundtrack and snuck into the film itself. David is also a record producer and fronts the band Dave Rawlings Machine. Together, the pair are winners of multiple Grammy Awards and a slew of other accolades.",
+  "description": "bluegrass, country, Americana, and folk will fill the Michael Fowler Centre in February.\nAmerican singer-songwriters Gillian Welch and David Rawlings blend the traditional music practices together in their first New Zealand concert in over a decade.\nThe partners on stage and in life have 30 years of experience collaborating over haunting covers of folk greats.\nYou might hear songs like Look at Miss Ohio, Orphan Girl, and Empty Trainload of Sky.\nExpect sparse magical arrangements and exquisite lyricism.",
+  "labels": []
+},
+{
+  "id": "Kneecap-TSB Arena, Wellington, New Zealand-Wellington NZ",
+  "name": "Kneecap",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/893a98c3-7fe9-4f1d-970c-44110cafa344/Kneecap?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "TSB Arena, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2856676,
+    "long": 174.778804
+  },
+  "dates": [
+    "2027-02-10-01:01"
+  ],
+  "displayDate": "Wed 10 Feb",
+  "url": "https://www.wellingtonnz.com/visit/events/kneecap",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "A blend of Irish-language rap and sharp social commentary has built an international following for Kneecap . The hip-hop trio, made up of Mo Chara, M\u00f3gla\u00ed Bap, and DJ Pr\u00f3va\u00ed, made a name for itself with raucous live performances. Formed in Belfast in 2017, Kneecap\u2019s popularity skyrocketed following the release of the 2024 biographical film \u2018Kneecap\u2019 in which the group\u2019s members each played themselves. Their previous visit to Wellington in 2025 was described by The Post as \u201cexplosive\u201d, with the crowd eating out of the palm of their hand from the moment they took the stage.\u00a0\n\nThat tour was followed in 2026 by the release of third album \u2018Fenian\u2019 which has seen the group expand its sound to something darker and even more controversial. The trio will be joined in Wellington\u2019s TSB Arena in February by Aotearoa\u2019s own DJ, producer, and artist Lady Shaka. Expect a night of high-energy hip-hop, razor-sharp lyrics, and one of the most talked-about live shows on the touring circuit.",
+  "description": "The hip-hop trio, made up of Mo Chara, M\u00f3gla\u00ed Bap, and DJ Pr\u00f3va\u00ed, made a name for itself with raucous live performances.\nFormed in Belfast in 2017, Kneecap\u2019s popularity skyrocketed following the release of the 2024 biographical film \u2018Kneecap\u2019 in which the group\u2019s members each played themselves.\nTheir previous visit to Wellington in 2025 was described by The Post as \u201cexplosive\u201d, with the crowd eating out of the palm of their hand from the moment they took the stage.\nThat tour was followed in 2026 by the release of third album \u2018Fenian\u2019 which has seen the group expand its sound to something darker and even more controversial.\nExpect a night of high-energy hip-hop, razor-sharp lyrics, and one of the most talked-about live shows on the touring circuit.",
+  "labels": []
+},
+{
+  "id": "Randy Feltface \u2014 Gimmick-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "Randy Feltface \u2014 Gimmick",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/275b96f0-0024-4ab3-a42d-93cda11ff091/Randy-Feltface-Gimmick-1?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2027-02-01-01:01"
+  ],
+  "displayDate": "Mon 01 Feb",
+  "url": "https://www.wellingtonnz.com/visit/events/randy-feltface-gimmick",
+  "source": "Wellington NZ",
+  "eventType": "Arts & Theatre",
+  "long_description": "He\u2019s purple, has no eyebrows, and is made of felt. Randy Feltface is an Australian puppet comedian. After two decades collecting awards and critical praise around the world, he opens his \u2018Gimmick\u2019 tour in Wellington. Come down to The Opera House for a silly and self-hour hour of laughs.\u00a0\n\nRandy Feltface has spent his career denying the accusation that he is a gimmick. Now, he says it\u2019s time to own it. Expect a show that blends existential dread, cultural commentary and relentless punchlines.\u00a0\n\nThe creator of Randy Feltface, Heath McIvor, has amassed a devoted following across the globe. He\u2019s a regular fixture on Australian television and the international stand-up comedy circuit. Heath has written and performed a dozen solo stand-up comedy shows, released seven comedy specials and has a Netflix special.",
+  "description": "He\u2019s purple, has no eyebrows, and is made of felt.\nCome down to The Opera House for a silly and self-hour hour of laughs.\nRandy Feltface has spent his career denying the accusation that he is a gimmick.\nNow, he says it\u2019s time to own it.\nExpect a show that blends existential dread, cultural commentary and relentless punchlines.",
+  "labels": []
+},
+{
+  "id": "Bee in the City--Wellington NZ",
+  "name": "Bee in the City",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/1e5bced8-7132-43aa-9004-0180ae746791/Bee-in-the-City-2026-2?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
+    "2026-09-14-01:01",
+    "2026-09-15-01:01",
+    "2026-09-16-01:01",
+    "2026-09-17-01:01",
+    "2026-09-18-01:01",
+    "2026-09-19-01:01",
+    "2026-09-20-01:01",
+    "2026-09-21-01:01",
+    "2026-09-22-01:01",
+    "2026-09-23-01:01",
+    "2026-09-24-01:01",
+    "2026-09-25-01:01",
+    "2026-09-26-01:01",
+    "2026-09-27-01:01",
+    "2026-09-28-01:01",
+    "2026-09-29-01:01",
+    "2026-09-30-01:01",
+    "2026-10-01-01:01",
+    "2026-10-02-01:01",
+    "2026-10-03-01:01",
+    "2026-10-04-01:01",
+    "2026-10-05-01:01",
+    "2026-10-06-01:01",
+    "2026-10-07-01:01",
+    "2026-10-08-01:01",
+    "2026-10-09-01:01",
+    "2026-10-10-01:01",
+    "2026-10-11-01:01",
+    "2026-10-12-01:01",
+    "2026-10-13-01:01",
+    "2026-10-14-01:01",
+    "2026-10-15-01:01",
+    "2026-10-16-01:01",
+    "2026-10-17-01:01",
+    "2026-10-18-01:01",
+    "2026-10-19-01:01",
+    "2026-10-20-01:01",
+    "2026-10-21-01:01",
+    "2026-10-22-01:01",
+    "2026-10-23-01:01",
     "2026-10-24-01:01",
     "2026-10-25-01:01",
     "2026-10-26-01:01",
@@ -24,21 +144,14 @@
     "2026-11-05-01:01",
     "2026-11-06-01:01",
     "2026-11-07-01:01",
-    "2026-11-08-01:01",
-    "2026-11-09-01:01",
-    "2026-11-10-01:01",
-    "2026-11-11-01:01",
-    "2026-11-12-01:01",
-    "2026-11-13-01:01",
-    "2026-11-14-01:01",
-    "2026-11-15-01:01"
+    "2026-11-08-01:01"
   ],
-  "displayDate": "Sat 24 Oct + more",
-  "url": "https://www.wellingtonnz.com/visit/events/wellington-heritage-festival",
+  "displayDate": "Mon 14 Sep + more",
+  "url": "https://www.wellingtonnz.com/visit/events/bee-in-the-city",
   "source": "Wellington NZ",
-  "eventType": "Other",
-  "long_description": "Every year, the Wellington Heritage Festival connects more than 20,000 visitors with local heritage and history. Choose from an extensive programme of community-led events across the region.",
-  "description": "Every year, the Wellington Heritage Festival connects more than 20,000 visitors with local heritage and history.\nChoose from an extensive programme of community-led events across the region.",
+  "eventType": "Arts & Theatre",
+  "long_description": "In Spring, Wellington transforms into a vibrant outdoor art gallery to raise funds for LifeFlight. The bee trail is perfect for a fun, free, family-friendly day out. Download the app or pick up a map from The Enormous Crocodile Company bike shop on Herd Street. Bee in the know about where to go, tick off sculptures, earn rewards, and discover new corners of the waterfront.\u00a0\n\nNew Zealand artists and community groups have designed each sculpture to uniquely tell the story of Aotearoa. Keep an eye out for local artist Ariki Brightwell\u2019s \u2018Ngaro huruhuru\u2019, inspired by our native bee. Found a favourite? When the trail ends, you can bid for the artwork and take it home. Auction proceeds will contribute to LifeFlight\u2019s lifesaving work, including the Westpac Rescue Helicopter.",
+  "description": "In Spring, Wellington transforms into a vibrant outdoor art gallery to raise funds for LifeFlight.\nThe bee trail is perfect for a fun, free, family-friendly day out.\nDownload the app or pick up a map from The Enormous Crocodile Company bike shop on Herd Street.\nBee in the know about where to go, tick off sculptures, earn rewards, and discover new corners of the waterfront.\nNew Zealand artists and community groups have designed each sculpture to uniquely tell the story of Aotearoa.",
   "labels": []
 },
 ]
