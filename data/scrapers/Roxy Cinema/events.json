@@ -1,2 +1,22 @@
 [
+{
+  "id": "The Transformers: The Movie-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+  "name": "The Transformers: The Movie",
+  "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_9c6474bd-29d3-4af7-8f34-052650c820f4.jpg",
+  "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+  "coordinates": {
+    "lat": -41.3158511,
+    "long": 174.816259
+  },
+  "dates": [
+    "2026-09-20-11:30"
+  ],
+  "displayDate": "Sun 20 Sep",
+  "url": "https://www.roxycinema.co.nz/movie/the-transformers-the-movie",
+  "source": "Roxy Cinema",
+  "eventType": "Film & Media",
+  "long_description": "Details\n\nDirected by Nelson Shin\n\nStarring Scatman Crothers, Peter Cullen, Eric Idle, Orson Welles, Leonard Nimoy, Judd Nelson, Robert Stack, Frank Welker\n\nPeter Cullen Tribute Screening\n\n40th Anniversary\n\n--- The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons. ---",
+  "description": "Details Directed by Nelson Shin Starring Scatman Crothers, Peter Cullen, Eric Idle, Orson Welles, Leonard Nimoy, Judd Nelson, Robert Stack, Frank Welker Peter Cullen Tribute Screening 40th Anniversary --- The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership.\nAt the same time, they must defend themselves against an all-out attack from the Decepticons.\n---",
+  "labels": []
+},
 ]

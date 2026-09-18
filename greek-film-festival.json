@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "id": "GFF - America America-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "GFF - America America",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_6a5b4e54-73e8-421a-9700-b60eeb8e0633.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-20-19:00"
+      ],
+      "displayDate": "Tue 20 Oct",
+      "url": "https://www.roxycinema.co.nz/movie/gff-america-america",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Elia Kazan\n\nA young Anatolian Greek, entrusted with his family\u2019s fortune, loses it en route to Istanbul and dreams of going to America.",
+      "description": "Details Directed by Elia Kazan A young Anatolian Greek, entrusted with his family\u2019s fortune, loses it en route to Istanbul and dreams of going to America.",
+      "labels": []
+    },
+    {
+      "id": "GFF - Kapodistrias: The Governor-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "GFF - Kapodistrias: The Governor",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_f02ea55e-72e3-4b1b-8d4f-af75f971209a.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-13-19:00"
+      ],
+      "displayDate": "Tue 13 Oct",
+      "url": "https://www.roxycinema.co.nz/movie/gff-kapodistrias-the-governor",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Yannis Smaragdis\n\n\u039a\u03b1\u03c0\u03bf\u03b4\u03af\u03c3\u03c4\u03c1\u03b9\u03b1\u03c2\n\nThe story of the statesman Ioannis Kapodistrias from his time as foreign minister of Russia all the way to Greece\u2019s independence in the 1820s.",
+      "description": "Details Directed by Yannis Smaragdis \u039a\u03b1\u03c0\u03bf\u03b4\u03af\u03c3\u03c4\u03c1\u03b9\u03b1\u03c2 The story of the statesman Ioannis Kapodistrias from his time as foreign minister of Russia all the way to Greece\u2019s independence in the 1820s.",
+      "labels": []
+    },
+    {
+      "id": "GFF - My Name Is Eftihia-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "GFF - My Name Is Eftihia",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_610bb5ba-5913-475e-aee1-a857a58e7603.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-10-27-19:00"
+      ],
+      "displayDate": "Tue 27 Oct",
+      "url": "https://www.roxycinema.co.nz/movie/gff-my-name-is-eftihia",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Angelos Frantzis\n\n\u0395\u03c5\u03c4\u03c5\u03c7\u03af\u03b1\n\nA young girl, recently married, is traveling from Aidini to Greece with her mother and her two daughters. On board the ship she decides not to let life pass her by, but to live her own way. And she goes ahead! She writes endlessly wherever she can, on napkins and cigarette boxes, to bills. She smokes, she passionately falls in love, casually gambles in luxurious salons, but also in illegal basements. A teacher who becomes an actress and plays in streets and in theaters, a poet who becomes the greatest Greek folk songwriter. She collaborates with all the famous music personalities of the country, from Vassilis Tsitsanis and Apostolos Kaldaras to Manolis \u0397iotis, Antonis Repanis and Manos Hadjidakis, bravely asserting herself to a cruel and typically male-dominated world.",
+      "description": "Details Directed by Angelos Frantzis \u0395\u03c5\u03c4\u03c5\u03c7\u03af\u03b1 A young girl, recently married, is traveling from Aidini to Greece with her mother and her two daughters.\nOn board the ship she decides not to let life pass her by, but to live her own way.\nAnd she goes ahead!\nShe writes endlessly wherever she can, on napkins and cigarette boxes, to bills.\nShe smokes, she passionately falls in love, casually gambles in luxurious salons, but also in illegal basements.",
+      "labels": []
+    },
+    {
+      "id": "GFF - Zorba the Greek-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "GFF - Zorba the Greek",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7913bc7d-e042-4982-83ed-74cec75aada1.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3158511,
+        "long": 174.816259
+      },
+      "dates": [
+        "2026-11-03-19:00"
+      ],
+      "displayDate": "Tue 03 Nov",
+      "url": "https://www.roxycinema.co.nz/movie/gff-zorba-the-greek",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nDirected by Mihalis Kakogiannis\n\n\u0391\u03bb\u03ad\u03be\u03b7\u03c2 \u0396\u03bf\u03c1\u03bc\u03c0\u03ac\u03c2\n\nAn uptight English writer traveling to Crete on a matter of business finds his life changed forever when he meets the gregarious Alexis Zorba.",
+      "description": "Details Directed by Mihalis Kakogiannis \u0391\u03bb\u03ad\u03be\u03b7\u03c2 \u0396\u03bf\u03c1\u03bc\u03c0\u03ac\u03c2 An uptight English writer traveling to Crete on a matter of business finds his life changed forever when he meets the gregarious Alexis Zorba.",
+      "labels": []
+    }
+  ]
+}
