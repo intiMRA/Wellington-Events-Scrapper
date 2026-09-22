@@ -1,65 +1,5 @@
 [
 {
-  "id": "Debt Club-San Fran, Wellington-San Fran",
-  "name": "Debt Club",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/u/v/m/b9dcff2e-3d6d-41d3-a8ab-97a124fa3857.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-18-00:00"
-  ],
-  "displayDate": "Fri 18 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/debt-club-tickets-ae1470011",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Bust a Move with Miss Raven-San Fran, Wellington-San Fran",
-  "name": "Bust a Move with Miss Raven",
-  "imageUrl": "https://networksites.livenationinternational.com/networksites/kukb4cog/busta-move.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-18-00:00"
-  ],
-  "displayDate": "Fri 18 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/miss-raven-tickets-ae1595477",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Reece Mastin-San Fran, Wellington-San Fran",
-  "name": "Reece Mastin",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/q/s/k/69f4fc5e-2d0a-432c-8e10-62de359378ef.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-19-00:00"
-  ],
-  "displayDate": "Sat 19 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/reece-mastin-tickets-ae1477466",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
   "id": "The Beatniks with Molipane and Lucy Dibble-San Fran, Wellington-San Fran",
   "name": "The Beatniks with Molipane and Lucy Dibble",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/w/v/g/51f0b17e-34f5-4382-81ed-aefbe00462e6.jpeg",
@@ -362,7 +302,7 @@
 {
   "id": "Taking Back Saturday Halloween Emo Pop Punk Party-San Fran, Wellington-San Fran",
   "name": "Taking Back Saturday Halloween Emo Pop Punk Party",
-  "imageUrl": "https://networksites.livenationinternational.com/networksites/5tndmxh5/anthony-delanoix-hzgs56ze49s-unsplash.jpg",
+  "imageUrl": "https://networksites.livenationinternational.com/networksites/eeyhjrrd/banner.png",
   "venue": "San Fran, Wellington",
   "coordinates": {
     "lat": -41.2941512,

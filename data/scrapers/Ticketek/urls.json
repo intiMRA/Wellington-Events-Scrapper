@@ -1,4 +1,8 @@
 [
+  "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHXPARK27",
+  "Sports"
+],
+[
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHXMG127",
   "Sports"
 ],
@@ -35,6 +39,10 @@
   "Concerts"
 ],
 [
+  "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHXPARK27",
+  "Sports"
+],
+[
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHXMG127",
   "Sports"
 ],
@@ -72,14 +80,14 @@
 ],
 [
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=REBIRTH26",
-  "Other"
-],
-[
-  "https://premier.ticketek.co.nz/shows/show.aspx?sh=LIONMEM326",
   "Other"
 ],
 [
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=LIONMEM426",
+  "Other"
+],
+[
+  "https://premier.ticketek.co.nz/shows/show.aspx?sh=PHXPARK27",
   "Other"
 ],
 [
@@ -96,6 +104,10 @@
 ],
 [
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=RASHAD2027",
+  "Other"
+],
+[
+  "https://premier.ticketek.co.nz/shows/show.aspx?sh=ROCNZUMB27",
   "Other"
 ],
 [
@@ -127,15 +139,19 @@
   "Other"
 ],
 [
-  "https://premier.ticketek.co.nz/shows/show.aspx?sh=LOUISBAK26",
-  "Other"
-],
-[
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=RSANCHEZ26",
   "Other"
 ],
 [
+  "https://premier.ticketek.co.nz/shows/show.aspx?sh=LOUISBAK26",
+  "Other"
+],
+[
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=KOTAHITA26",
+  "Other"
+],
+[
+  "https://premier.ticketek.co.nz/shows/show.aspx?sh=MEOWNUI",
   "Other"
 ],
 [
@@ -144,9 +160,5 @@
 ],
 [
   "https://premier.ticketek.co.nz/shows/show.aspx?sh=DANDYWAR26",
-  "Other"
-],
-[
-  "https://premier.ticketek.co.nz/shows/show.aspx?sh=MEOWNUI",
   "Other"
 ],

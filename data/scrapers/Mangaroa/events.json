@@ -1,25 +1,5 @@
 [
 {
-  "id": "Mangaroa Butchery Launch BBQ-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Mangaroa Butchery Launch BBQ",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/Events2026Rolling_7.png?v=1789373022&width=493",
-  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
-  "coordinates": {
-    "lat": -41.1452704,
-    "long": 175.090018
-  },
-  "dates": [
-    "2026-10-17-11:00"
-  ],
-  "displayDate": "Sat 17 Oct",
-  "url": "https://store.mangaroa.org/products/managroa-farms-meat-launch-sat-17th-october",
-  "source": "Mangaroa",
-  "eventType": "Music & Concerts",
-  "long_description": "Join us for a special celebration of our newly opened onsite butchery. Come along and taste the delicious cuts of meat grown right here on the farm, raised with care on our regenerative pastures.\n\nThis is your chance to grab some free tasters of locally raised meat, meet the team behind it all, and grab your 10% discount meat voucher to take home.\n\nWe will begin at Sat 17th October | 11:00am at 98 Whitemans Valley Road.\n\nAny questions, please email events@mangaroa.org",
-  "description": "Join us for a special celebration of our newly opened onsite butchery.\nCome along and taste the delicious cuts of meat grown right here on the farm, raised with care on our regenerative pastures.\nThis is your chance to grab some free tasters of locally raised meat, meet the team behind it all, and grab your 10% discount meat voucher to take home.\nWe will begin at Sat 17th October | 11:00am at 98 Whitemans Valley Road.\nAny questions, please email events@mangaroa.org",
-  "labels": []
-},
-{
   "id": "Somatic Breathwork Journey-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
   "name": "Somatic Breathwork Journey",
   "imageUrl": "https://store.mangaroa.org/cdn/shop/files/Events2026Rolling_5.png?v=1789372008&width=493",
@@ -57,26 +37,6 @@
   "eventType": "Music & Concerts",
   "long_description": "Join Mangaroa Farms for a Sourdough Bread Baking Workshop with Doris Zuur, who has been baking the slow way for decades: rye sourdoughs raised on a living starter, wholemeal loaves that rise through an afternoon, Swiss Zopf plaited by hand, focaccia, and a fermented buckwheat loaf for those who can't take wheat. Her bread is the kind that fills a house with its smell and a table with quiet conversation.\n\nSpend an afternoon with her in our kitchen. You'll mix, knead, plait and bake alongside her. You'll learn how to keep a starter alive, how to read a dough by touch, and the small decisions \u2014 temperature, time, a bit of gusto \u2014 that turn flour and water into a good loaf.\n\nYou'll leave with:\n\nA jar of living starter to take home\nA warm loaf from the oven\nDoris's full recipe collection (rye sourdough, wholemeal, Swiss Zopf, fermented buckwheat, focaccia, Oaties)\nHer \"0800 bread helpline\" for when you need a hand at home\n\nAfternoon tea included. Bring a clean glass jar with a lid, an apron, and a willingness to slow down.\n\nGood bread likes it slow.\n\nWe will begin at Sat 7th November | 10:00am at Wharekai - 298 Whitemans Valley Road\n\nAny questions, please email events@mangaroa.org",
   "description": "Her bread is the kind that fills a house with its smell and a table with quiet conversation.\nSpend an afternoon with her in our kitchen.\nYou'll mix, knead, plait and bake alongside her.\nYou'll learn how to keep a starter alive, how to read a dough by touch, and the small decisions \u2014 temperature, time, a bit of gusto \u2014 that turn flour and water into a good loaf.\nYou'll leave with: A jar of living starter to take home A warm loaf from the oven Doris's full recipe collection (rye sourdough, wholemeal, Swiss Zopf, fermented buckwheat, focaccia, Oaties) Her \"0800 bread helpline\" for when you need a hand at home Afternoon tea included.",
-  "labels": []
-},
-{
-  "id": "Mangaroa Farms Disc Golf Course - Official Opening-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
-  "name": "Mangaroa Farms Disc Golf Course - Official Opening",
-  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/Events2026Rolling_6.png?v=1789372070&width=1946",
-  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
-  "coordinates": {
-    "lat": -41.1452704,
-    "long": 175.090018
-  },
-  "dates": [
-    "2026-10-17-10:00"
-  ],
-  "displayDate": "Sat 17 Oct",
-  "url": "https://store.mangaroa.org/products/mangaroa-farms-disc-golf-course-official-opening-sat-17th-october",
-  "source": "Mangaroa",
-  "eventType": "Music & Concerts",
-  "long_description": "Join Mangaroa Farms for the official opening of our Disc Golf Course. We're hoping for fine weather and planning a good day out on the course with tunes, the BBQ fired up, coffee cart running and the Farm Shop open. We'll be on the course from 10am till late afternoon.\n\nWe're running an open competition, so players of all abilities are welcome. Log your round through UDisc, with prizes generously sponsored by Disc Shop Wellington and Mangaroa Farm Shop.\n\nThe day is also a fundraiser to help us purchase baskets, so we're asking for an entry fee to compete. You can pay when registering or on the day.\n\nCompetition Entry: $20\n\nPlease register through the online portal so we know you're coming.\n\nBring your discs, bring your mates, and join us for a cracking day of disc golf. We look forward to seeing you out on the course.\n\nWe will begin at Sat 17th October | 10:00am at Other.\n\nAny questions, please email events@mangaroa.org",
-  "description": "We're hoping for fine weather and planning a good day out on the course with tunes, the BBQ fired up, coffee cart running and the Farm Shop open.\nWe're running an open competition, so players of all abilities are welcome.\nBring your discs, bring your mates, and join us for a cracking day of disc golf.\nWe look forward to seeing you out on the course.\nWe will begin at Sat 17th October | 10:00am at Other.",
   "labels": []
 },
 ]
