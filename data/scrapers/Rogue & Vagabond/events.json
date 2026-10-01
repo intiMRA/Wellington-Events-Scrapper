@@ -1,22 +1,62 @@
 [
 {
-  "id": "Sunday Jazz - Alex Trask-The Rogue & Vagabond-Rogue & Vagabond",
-  "name": "Sunday Jazz - Alex Trask",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104823-776596.jpg",
+  "id": "Madera Fina And Friends-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Madera Fina And Friends",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104997-867963.jpg",
   "venue": "The Rogue & Vagabond",
   "coordinates": {
     "lat": -41.29336,
     "long": 174.7745002
   },
   "dates": [
-    "2026-09-27-17:00"
+    "2026-10-02-21:30"
   ],
-  "displayDate": "Sun 27 Sep",
-  "url": "http://www.undertheradar.co.nz/gig/104823/Sunday-Jazz---Alex-Trask.utr",
+  "displayDate": "Fri 02 Oct",
+  "url": "http://www.undertheradar.co.nz/gig/104997/Madera-Fina-And-Friends.utr",
   "source": "Rogue & Vagabond",
   "eventType": "Music & Concerts",
-  "long_description": "The Rogue's regular Sunday afternoon jazz. Funky, jazzy, soulful jazz. Beer, hangs, and jazz, on a Sunday, perfect!\n\nThis week featuring local saxophonist Alex Trask and his quartet\n\nJoin us as we explore some new interpretations of familiar melodies and unheard compositions! The quartet will play songs from Alex's various projects, including a recent recording, his first album, and the recent EP 'The Lighthouse Trio'. Expect mysterious ballads, soulful blues, and exhilarating bop.\n\nAlex Trask - Saxophone\nDuncan Haynes - piano\nJacob Hurst - bass\nAbey Baillie - drums\n\nPhoto by Oscar Laven",
-  "description": "The Rogue's regular Sunday afternoon jazz.\nFunky, jazzy, soulful jazz.\nBeer, hangs, and jazz, on a Sunday, perfect!\nThis week featuring local saxophonist Alex Trask and his quartet Join us as we explore some new interpretations of familiar melodies and unheard compositions!\nThe quartet will play songs from Alex's various projects, including a recent recording, his first album, and the recent EP 'The Lighthouse Trio'.",
+  "long_description": "The Cubans are back and they have invited a couple of friends and their strings along for the ride this time.\n\nFeaturing:\n- Rafael Ferrer Noel on congas and vocals\n- Roberto Rodriguez Bofill on guitar and vocals\n- Seth Boy on double bass\n- Tristan Carter on violin\n\n***\nFormed 2007, Madera Fina is a Duo Cubano Cubano. Featuring Roberto Rodriguez Bofill on guitar and Rafael Ferrer Noel on percussion, the Wellington-based duo play authentic, traditional Cuban music: trova, son, guaracha, chachacha.\n\nMusic from 9:30 - FREE ENTRY - Koha for the band encouraged!",
+  "description": "The Cubans are back and they have invited a couple of friends and their strings along for the ride this time.\nFeaturing: - Rafael Ferrer Noel on congas and vocals - Roberto Rodriguez Bofill on guitar and vocals - Seth Boy on double bass - Tristan Carter on violin *** Formed 2007, Madera Fina is a Duo Cubano Cubano.\nFeaturing Roberto Rodriguez Bofill on guitar and Rafael Ferrer Noel on percussion, the Wellington-based duo play authentic, traditional Cuban music: trova, son, guaracha, chachacha.\nMusic from 9:30 - FREE ENTRY - Koha for the band encouraged!",
+  "labels": []
+},
+{
+  "id": "Oscar Lav\u00ebn's Elegant Calamity Orchestra-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Oscar Lav\u00ebn's Elegant Calamity Orchestra",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104953-218419.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-10-08-21:00"
+  ],
+  "displayDate": "Thu 08 Oct",
+  "url": "http://www.undertheradar.co.nz/gig/104953/Oscar-Lavns-Elegant-Calamity-Orchestra.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "You could drop the needle on any spot and find satisfying, thoroughly involving music. - London Jazz News\n\nAn effusive endorsement of New Zealand\u2019s music scene - The List UK\n\nThis is a coming together which should be repeated on a regular basis, featuring music deserving of a wide audience. - Jazz Journal\n\nAfter releasing their recent album 'Elegant Calamity' to a warm international reception and playing to several sold-out crowds, the Elegant Calamity Orchestra makes its return to the Rogue and Vagabond! Led by flamboyant saxophonist Oscar Lav\u00ebn, the Elegant Calamity Orchestra drawing together a vibrant collection of all-star musicians from various backgrounds under one roof, drawing influence from early American swing, blues, classical music, french cinema, spiritual jazz and 50\u2019s bar-walking rock and roll saxophone.\nPrepare to be swept into a surreal, cinematic world by the Elegant Calamity Orchestra; strings, woodwinds, brass, virtuosic percussionists and a deep-digging rhythm section, combining kaleidoscopic orchestral colours with the dangerous spontaneity of a small group. A momentous performance not to be missed.\n\n9pm Downbeat.\nTickets $20",
+  "description": "You could drop the needle on any spot and find satisfying, thoroughly involving music.\n- London Jazz News An effusive endorsement of New Zealand\u2019s music scene - The List UK This is a coming together which should be repeated on a regular basis, featuring music deserving of a wide audience.\n- Jazz Journal After releasing their recent album 'Elegant Calamity' to a warm international reception and playing to several sold-out crowds, the Elegant Calamity Orchestra makes its return to the Rogue and Vagabond!\nLed by flamboyant saxophonist Oscar Lav\u00ebn, the Elegant Calamity Orchestra drawing together a vibrant collection of all-star musicians from various backgrounds under one roof, drawing influence from early American swing, blues, classical music, french cinema, spiritual jazz and 50\u2019s bar-walking rock and roll saxophone.\nPrepare to be swept into a surreal, cinematic world by the Elegant Calamity Orchestra; strings, woodwinds, brass, virtuosic percussionists and a deep-digging rhythm section, combining kaleidoscopic orchestral colours with the dangerous spontaneity of a small group.",
+  "labels": []
+},
+{
+  "id": "Samba Independente-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Samba Independente",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104996-77151.jpg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-10-01-20:00"
+  ],
+  "displayDate": "Thu 01 Oct",
+  "url": "http://www.undertheradar.co.nz/gig/104996/Samba-Independente.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "October at The Rogue and Vagabond kicks off vibrant, with Samba Independente back on stage \u2014 this time joined by a special guest, superb flautist Annalisa Powell, all the way from Australia, adding a fresh new voice and promising some unforgettable musical interplay.\nExpect the full spectrum of samba \u2014 from roots samba and samba rock to samba-can\u00e7\u00e3o, samba paulista, and samba de breque \u2014 delivered with the infectious energy Samba Independente is known for. Come catch the band's signature blend of rhythm and groove, this time with a special guest twist.\n\nThis time we are: Alda Rezende (vocals), Adriana Gimenes (percussion), Felicien Houet (guitar), Julie Bevan (cavaquinho), Matheus Peres (percussion, vocals), Nikkie Rich (percussion, vocals), Tomas Souza (percussion), and our special guest Annalisa Powell on flute.\n\nCome move to the unmistakable pulse of samba.\n\nMusic from 8pm, FREE ENTRY",
+  "description": "October at The Rogue and Vagabond kicks off vibrant, with Samba Independente back on stage \u2014 this time joined by a special guest, superb flautist Annalisa Powell, all the way from Australia, adding a fresh new voice and promising some unforgettable musical interplay.\nExpect the full spectrum of samba \u2014 from roots samba and samba rock to samba-can\u00e7\u00e3o, samba paulista, and samba de breque \u2014 delivered with the infectious energy Samba Independente is known for.\nCome catch the band's signature blend of rhythm and groove, this time with a special guest twist.\nThis time we are: Alda Rezende (vocals), Adriana Gimenes (percussion), Felicien Houet (guitar), Julie Bevan (cavaquinho), Matheus Peres (percussion, vocals), Nikkie Rich (percussion, vocals), Tomas Souza (percussion), and our special guest Annalisa Powell on flute.\nCome move to the unmistakable pulse of samba.",
   "labels": []
 },
 ]

@@ -1,50 +1,66 @@
 [
 [
-  "https://www.ticketmaster.co.nz/tawa-goes-to-town-wellington-21-09-2026/event/2400650B96751E39",
+  "https://www.ticketmaster.co.nz/matilda-the-musical-nz-wellington-30-09-2026/event/240062FDB13A1361",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/tagatamoana-wellington-primary-and-intermediate-festival-wellington-21-10-2026/event/2400653190222F0F",
+  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E3C3533515",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E6AF3D1A4E",
+  "https://www.ticketmaster.co.nz/the-great-opera-house-halloween-hunt-wellington-31-10-2026/event/2400653581631596",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/flight-of-the-conchords-new-zealand-wellington-10-11-2026/event/240065279812308E",
-  "SportsEvent"
+  "https://www.ticketmaster.co.nz/after-dark-the-opera-house-r18-wellington-31-10-2026/event/240065359B172114",
+  "Other"
 ],
 [
-  "https://www.ticketmaster.co.nz/wellington-phoenix-doubleheader-christchurch-06-02-2027/event/24006530330971D7",
+  "https://www.moshtix.co.nz/v2/event/insideout-wellington/200458",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/eric-idle-an-evening-of-idle-wellington-29-11-2026/event/24006531D7EA61B6",
+  "MusicEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/casey-rocket-as-above-so-down-under-the-return-from-the-riff-gulag/200474",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/john-craigie-i-swam-here-tour/200803",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/inspiral-carpets-uk-the-singles-tour/200754",
   "TheaterEvent"
 ],
 [
   "https://www.ticketweb.com/event/tractor-presents-tray-wellington-band-tractor-tickets/14280824",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketweb.com/event/starlily-falling-into-light-dingbatz-tickets/14303294?REFERRAL_ID=tmfeed",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-newcastle-31-10-2026/event/13006519E6FE6318",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-car-newcastle-31-10-2026/event/1300651994F81DBA",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/202627-ws-wanderers-a-league-season-parramatta-13-12-2026/event/2500651388D01BAE",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/perth-glory-v-wellington-phoenix-fc-perth-30-04-2027/event/13006512DA8B65DD",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/202627-aleague-sydney-fc-v-wellington-sydney-07-05-2027/event/250064FFCB019769",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 ]

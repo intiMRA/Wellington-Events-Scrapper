@@ -1,65 +1,5 @@
 [
 {
-  "id": "The Beatniks with Molipane and Lucy Dibble-San Fran, Wellington-San Fran",
-  "name": "The Beatniks with Molipane and Lucy Dibble",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/w/v/g/51f0b17e-34f5-4382-81ed-aefbe00462e6.jpeg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-24-00:00"
-  ],
-  "displayDate": "Thu 24 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/the-beatniks-with-molipane-and-lucy-dibble-tickets-ae1695342",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "KITA-San Fran, Wellington-San Fran",
-  "name": "KITA",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/d/o/c/d736de6b-319b-4295-b94a-0188b3c6039f.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-25-00:00"
-  ],
-  "displayDate": "Fri 25 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/kita-tickets-ae1415326",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Wet Denim Water For Dogs EP Release Tour-San Fran, Wellington-San Fran",
-  "name": "Wet Denim Water For Dogs EP Release Tour",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/s/j/v/0d2fa5ae-80e8-433d-b330-b7ae3b404aa2.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-09-26-00:00"
-  ],
-  "displayDate": "Sat 26 Sep",
-  "url": "https://www.sanfran.co.nz/all-events/wet-denim-tickets-ae1514198",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
   "id": "DIGI Hyperpop Digicore Cloud Rap Club Night-San Fran, Wellington-San Fran",
   "name": "DIGI Hyperpop Digicore Cloud Rap Club Night",
   "imageUrl": "https://networksites.livenationinternational.com/networksites/33obx3xa/banner.png",
@@ -232,7 +172,7 @@
     "2026-10-17-00:00"
   ],
   "displayDate": "Sat 17 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/shake-em-on-downers-tickets-ae1694380",
+  "url": "https://www.sanfran.co.nz/all-events/shake-em-on-downers-wellington-jazz-festival-tickets-ae1694380",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -252,7 +192,7 @@
     "2026-10-18-00:00"
   ],
   "displayDate": "Sun 18 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/avatar-earth-wind-and-fire-tribute-tickets-ae1690409",
+  "url": "https://www.sanfran.co.nz/all-events/avatar-earth-wind-and-fire-tribute-wellington-jazz-festival-tickets-ae1690409",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -280,6 +220,26 @@
   "labels": []
 },
 {
+  "id": "Dillon Jo-San Fran, Wellington-San Fran",
+  "name": "Dillon Jo",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/u/m/k/ec0a26e4-ab90-4219-af50-ed2c1c206b4f.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-29-00:00"
+  ],
+  "displayDate": "Thu 29 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/dillon-jo-tickets-ae1631010",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Sleeping Village FOUR Album Release Show-San Fran, Wellington-San Fran",
   "name": "Sleeping Village FOUR Album Release Show",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/j/b/p/c8ab35a5-cb9f-4cba-9cbe-e8017ae6c21d.jpg",
@@ -293,6 +253,26 @@
   ],
   "displayDate": "Fri 30 Oct",
   "url": "https://www.sanfran.co.nz/all-events/sleeping-village-tickets-ae1529071",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Twisted Frequency Bass Taste Fundraiser-San Fran, Wellington-San Fran",
+  "name": "Twisted Frequency Bass Taste Fundraiser",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/m/m/t/da7ba88e-3457-4e26-b357-34ca664e4395.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-30-00:00"
+  ],
+  "displayDate": "Fri 30 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/twisted-frequency-tickets-ae1699433",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -360,6 +340,26 @@
   "labels": []
 },
 {
+  "id": "Money For Old Rope-San Fran, Wellington-San Fran",
+  "name": "Money For Old Rope",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/v/a/t/75e3eab1-8ea1-4c7a-824b-58a8ee807d00.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-11-08-00:00"
+  ],
+  "displayDate": "Sun 08 Nov",
+  "url": "https://www.sanfran.co.nz/all-events/money-for-old-rope-tickets-ae1700182",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Flyte-San Fran, Wellington-San Fran",
   "name": "Flyte",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/x/m/e/20ee267f-9429-45b7-9cdb-77e0dac1763f.png",
@@ -420,6 +420,26 @@
   "labels": []
 },
 {
+  "id": "Same Name Confusion-San Fran, Wellington-San Fran",
+  "name": "Same Name Confusion",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/h/f/q/54ac05a3-17a2-488f-8032-fe6f27fd1f1a.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-11-21-00:00"
+  ],
+  "displayDate": "Sat 21 Nov",
+  "url": "https://www.sanfran.co.nz/all-events/same-name-confusion-tickets-ae1699084",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Goodnight Nurse The Always and Never Again Tour-San Fran, Wellington-San Fran",
   "name": "Goodnight Nurse The Always and Never Again Tour",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/x/v/u/442e97b3-386e-469f-b944-7fa07e033ea0.jpg",
@@ -433,26 +453,6 @@
   ],
   "displayDate": "Sun 22 Nov",
   "url": "https://www.sanfran.co.nz/all-events/goodnight-nurse-tickets-ae1693784",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "PRINS-San Fran, Wellington-San Fran",
-  "name": "PRINS",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/q/z/m/caa8b5ac-b214-4585-9555-719eacbaf068.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-11-26-00:00"
-  ],
-  "displayDate": "Thu 26 Nov",
-  "url": "https://www.sanfran.co.nz/all-events/prins-tickets-ae1541224",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -580,6 +580,26 @@
   "labels": []
 },
 {
+  "id": "Casey Rocket-San Fran, Wellington-San Fran",
+  "name": "Casey Rocket",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/c/u/d/811d6284-a64f-4fe7-9128-dd61c387c075.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-01-27-00:00"
+  ],
+  "displayDate": "Wed 27 Jan",
+  "url": "https://www.sanfran.co.nz/all-events/casey-rocket-tickets-ae1570087",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Steve Hofstetter-San Fran, Wellington-San Fran",
   "name": "Steve Hofstetter",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/h/g/q/c82a3abd-4d8d-4c2c-9d64-a7a900302040.jpg",
@@ -602,7 +622,7 @@
 {
   "id": "The Smyths UK perform The Very Best of The Smith-San Fran, Wellington-San Fran",
   "name": "The Smyths UK perform The Very Best of The Smith",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/f/l/w/6d98f505-5a9a-431e-a09c-a8ce0184d3d5.jpg",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/y/e/z/3833eeb4-71e8-48f6-ac3a-e8ef32ea0356.jpg",
   "venue": "San Fran, Wellington",
   "coordinates": {
     "lat": -41.2941512,
@@ -653,6 +673,46 @@
   ],
   "displayDate": "Sun 21 Mar",
   "url": "https://www.sanfran.co.nz/all-events/the-early-november-hellogoodbye-tickets-ae1696222",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "John Craigie I Swam Here Tour-San Fran, Wellington-San Fran",
+  "name": "John Craigie I Swam Here Tour",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/d/e/x/ad4b6c85-9aa1-44f3-bb4f-98118ef5b639.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-04-15-00:00"
+  ],
+  "displayDate": "Thu 15 Apr",
+  "url": "https://www.sanfran.co.nz/all-events/john-craigie-tickets-ae1369072",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Inspiral Carpets-San Fran, Wellington-San Fran",
+  "name": "Inspiral Carpets",
+  "imageUrl": "https://networksites.livenationinternational.com/networksites/cmmge1d0/inspiral-carpets-2027_sanfran_1255x500.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-05-12-00:00"
+  ],
+  "displayDate": "Wed 12 May",
+  "url": "https://www.sanfran.co.nz/all-events/inspiral-carpets-tickets-ae268668",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
