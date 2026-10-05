@@ -7,7 +7,7 @@ from model.EventInfo import EventInfo
 import re
 from datetime import datetime
 from dateutil import parser
-from typing import List, Optional, Set, Tuple, TextIO
+from typing import Any, Collection, List, Optional, Set, Tuple, TextIO
 import json
 from playwright.sync_api import sync_playwright, Page
 from util.PlaywrightUtils import goto_with_retry, launch_stealth, stealth_page, wait_for_items
@@ -110,8 +110,8 @@ class HumanitixScrapper:
         sleep(1)
         categories_button.click()
         wait_for_items(page.locator("[data-dropdown-option='true']"))
-        categories = page.locator("[data-dropdown-option='true']").all()
-        categories = [(HumanitixScrapper.format_input(category.inner_text()), category.inner_text()) for category in categories]
+        category_locators = page.locator("[data-dropdown-option='true']").all()
+        categories = [(HumanitixScrapper.format_input(category.inner_text()), category.inner_text()) for category in category_locators]
         event_urls: Set[Tuple[str, str, bool]] = set()
         for category, categoryName in categories:
             if category == "allCategories":
@@ -157,7 +157,7 @@ class HumanitixScrapper:
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         fetch_urls = False
-        event_urls = set()
+        event_urls: Collection[Any] = set()
         if not fetch_urls:
             event_urls = FileUtils.load_from_files(ScraperName.HUMANITIX)[1]
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.HUMANITIX)

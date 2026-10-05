@@ -209,7 +209,7 @@ class WoapScrapper:
         filter_response = requests.post(filters_url, headers=headers, data=json.dumps(data)).json()
         ids = filter_response["ids"]
         batches = []
-        batch = []
+        batch: List[str] = []
         for i in range(0, len(ids)):
             if i != 0 and i % 20 == 0:
                 batches.append(batch)
@@ -351,7 +351,7 @@ class WoapScrapper:
         filter_response = requests.post(filters_url, headers=headers, data=json.dumps(data)).json()
         ids = filter_response["ids"]
         batches = []
-        batch = []
+        batch: List[str] = []
         for i in range(0, len(ids)):
             if i != 0 and i % 20 == 0:
                 batches.append(batch)

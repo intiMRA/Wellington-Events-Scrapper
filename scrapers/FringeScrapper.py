@@ -28,7 +28,7 @@ class FringeScrapper:
         venue = page.locator("[class*='addres-pin']").first.inner_text()
         schedule: Locator = page.locator(".schedule")
         schedule_elements = schedule.locator("li").all()
-        dates = schedule_elements[2].inner_text()
+        date_string = schedule_elements[2].inner_text()
         time = None
         for element in schedule_elements:
             m = re.findall(r"\d{1,2}:\d{1,2}", element.inner_text())
@@ -36,12 +36,12 @@ class FringeScrapper:
                 time = m[0]
         if not time:
             time = "1:01AM"
-        date_text = dates.split(" ")
+        date_text = date_string.split(" ")
         Logger.debug(f"{time} time")
-        Logger.debug(f"{dates} dates")
+        Logger.debug(f"{date_string} dates")
         Logger.debug(f"{date_text} date text")
         if len(date_text) > 3:
-            start_date_obj, end_date_obj = dates.split("-")
+            start_date_obj, end_date_obj = date_string.split("-")
             start_date, end_date = parser.parse(start_date_obj + " " + time), parser.parse(end_date_obj + " " + time)
             dates = list(DateFormatting.create_range(start_date, end_date))
         else:
@@ -52,7 +52,7 @@ class FringeScrapper:
                 start_date, end_date = parser.parse(start_day + " " + month + " " + time), parser.parse(end_day + " " + month + " " + time)
                 dates = list(DateFormatting.create_range(start_date, end_date))
             else:
-                dates = [parser.parse(dates + " " + time)]
+                dates = [parser.parse(date_string + " " + time)]
         content: Locator = page.locator("[class*='content']")
         paragraphs = content.locator("p").all()
         description = ""

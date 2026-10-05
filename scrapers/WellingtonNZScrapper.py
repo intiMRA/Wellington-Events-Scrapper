@@ -120,11 +120,11 @@ class WellingtonNZScrapper:
         button.click()
         sleep(1)
         wait_for_items(page.locator(".search-button-filter"))
-        categories = page.locator(".search-button-filter").all()
-        new_categories = []
-        for cat in categories:
-            if len(cat.inner_text().split("\n")) > 1:
-                new_categories.append((cat.inner_text().replace("&", "+%26+").replace(" ", "").split("\n")[0], cat.inner_text().split("\n")[1]))
+        category_buttons = page.locator(".search-button-filter").all()
+        new_categories: List[Tuple[str, str]] = []
+        for button in category_buttons:
+            if len(button.inner_text().split("\n")) > 1:
+                new_categories.append((button.inner_text().replace("&", "+%26+").replace(" ", "").split("\n")[0], button.inner_text().split("\n")[1]))
         categories = new_categories
         count_locator = page.locator(".pagination__position").first
         number_of_events = re.findall(r"\d+", count_locator.text_content() or "")
@@ -164,7 +164,7 @@ class WellingtonNZScrapper:
             browser = playwright.chromium.launch(headless=True)
             context = new_context(browser)
             page = context.new_page()
-            events = []
+            events: List[EventInfo] = []
             urls = WellingtonNZScrapper.get_urls(page, previous_urls, urls_file)
             out_file.write("[\n")
             for part in urls:

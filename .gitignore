@@ -19,13 +19,43 @@ data/training/ga_output.json
 data/training/ga_test.json
 data/training/ga_balanced_individual.json
 data/training/small_training_data_kid_friendly.json
+# The curation the GA warm-starts from, and the rotated previous one. The *combined* files
+# (champion + val + test, what TextClassifier(use_ga=True) trains on) stay TRACKED.
+data/training/ga_output_backup.json
+# Working copies of curations: holdout-refiltered, set operations, and snapshots taken before a deploy
+# rotation evicts a slot. All regenerable from the pool; kept on disk, out of git.
+data/training/ga_output_clean*.json
+data/training/ga_output_backup_clean*.json
+data/training/ga_output_prior_*.json
+data/training/ga_output_combined_prior_*.json
+data/training/ga_output_union.json
+data/training/ga_output_intersection*.json
+# Canonical split — rebuild with `python -m classification.Dataset --rebuild`. The assignment
+# manifest makes the rebuild deterministic, so the split files themselves need not be in git.
+data/training/splits/
+# SAGA run artifacts: champion mask/rows, per-generation archive checkpoint, results payloads.
+data/training/saga_*
+# Labelling-pass working files (review queue + carry-over/classifier proposals) — regenerate per batch.
+data/training/review_queue.json
+data/training/carry_over_proposals.json
+data/training/classifier_proposals.json
+# Eval harness outputs (cnn_eval_subset.py) and the curation head-to-head.
+data/training/cnn_eval_*.json
+data/training/compare_curations_results.json
+# Run logs from the GA, the eval harness and retraining.
+saga*.log
+cnn_eval_*.log
+retrain*.log
+align_measure.log
 # Python build artifacts
 *.egg-info/
 build/
 dist/
 
-# local backups
+# local backups — model artifacts are rewritten in place by a retrain, so the previous set is snapshotted
+# next to them before deploying. Regenerable by retraining from the matching combined file.
 *.bak.json
+models_backup_*/
 
 # working logs
 data/logs/*.txt

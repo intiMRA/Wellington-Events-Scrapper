@@ -12,7 +12,7 @@ A comprehensive event aggregation and classification system for Wellington, New 
 - [Web Scraping](#web-scraping)
 - [Data Generation](#data-generation-generatedatapy)
 - [Text Classifier](#text-classifier-textclassifierpy)
-- [Genetic Algorithm Optimization](#genetic-algorithm-optimization-datacreatorpy)
+- [Training-Set Curation: SAGA](#training-set-curation-saga-run_sagapy)
 - [Project Structure](#project-structure)
 - [Data Formats](#data-formats)
 - [Configuration](#configuration)
@@ -129,7 +129,7 @@ labels = predict_from_file("generated_data.json", update_labels=True)
 │                    └───────┬────────┘                                   │
 │                            ▼                                            │
 │                 ┌─────────────────┐                                     │
-│                 │  DataCreator    │ (Optional GA Optimization)          │
+│                 │    run_saga     │ (GA training-set curation)          │
 │                 └────────┬────────┘                                     │
 │                          ▼                                              │
 │                 ┌─────────────────┐                                     │
@@ -246,10 +246,15 @@ Dense (16 units, Softmax) → Category Prediction
 | Parameter | Value |
 |-----------|-------|
 | Max Sequence Length | 1500 tokens |
-| Vocabulary Size | 2000 words |
+| Vocabulary Size | 20000 words |
 | Embedding Dimension | 400 |
 | Batch Size | 32 |
 | Early Stopping Patience | 5 epochs |
+| Class weighting | per-sample inverse frequency |
+
+These must stay in step with `cnn_eval_subset.py` (`CNN_EVAL_VOCAB`, `CNN_EVAL_CLASS_WEIGHT`) and the
+SAGA defaults. Subsets are selected under the eval configuration, so if it differs from what is
+deployed, the per-class recall floors the GA enforces protect a model that never ships.
 
 ### Training (`train_from_manual_training_files()`)
 
@@ -286,31 +291,72 @@ train_from_manual_training_files()
 labels = predict_from_file("generated_data.json", update_labels=True)
 ```
 
-## Genetic Algorithm Optimization (`DataCreator.py`)
+## Training-Set Curation: SAGA (`run_saga.py`)
 
-Uses a genetic algorithm (via PyGAD) to find the optimal subset of training data that maximizes model accuracy.
+SAGA (surrogate-assisted genetic algorithm) searches for the subset of labelled rows that the CNN
+trains best on, without regressing any single class. It is the one GA in the repo; the older
+PyGAD `DataCreator.py` and the standalone `tribes_ga` runner were removed in Sep 2026.
 
 ### How It Works
 
-1. **Data Preparation**: Splits all labeled data into training pool and test set
-2. **Fitness Function**: Trains a model on selected subset and evaluates on test set
-3. **Evolution**: GA optimizes which training samples to include
-4. **Output**: Best training subset saved to `ga_output_combined.json`
+1. **Split** (`classification/Dataset.py`): one canonical, group-aware, append-stable
+   train / validation / test split. Near-duplicate rows are clustered and kept in one split, and
+   held-out rows never migrate as the pool grows. Rebuild after labelling with
+   `python -m classification.Dataset --rebuild`.
+2. **Warm start**: the deployed subset (`ga_output.json`) *and* the one before it
+   (`ga_output_backup.json`) are mapped onto the pool and injected into every tribe's starting
+   population, and both are forced into the final re-check, so each run can only improve on the last.
+3. **Tribes** (`tribes_ga/`): one diploid population per class (cooperative coevolution). A fast
+   class-weighted linear surrogate scores candidates with a shaped fitness: balanced accuracy minus a
+   penalty for any class whose recall drops below the **previous-best floor**, the per-class max over
+   the prior curations (deployed + backup). The full pool is not tracked as a reference; it is only the
+   tribes' starting genome, and the fallback floor on a first run with nothing deployed.
+4. **CNN in the loop**: each generation the stitched champion plus a few alternates are trained
+   with a short CNN run. Candidates are scored with the same gate on the CNN side: balanced validation
+   accuracy minus a penalty for any class whose CNN recall falls below the prior curations' recall
+   (`SAGA_CNN_FLOOR_TOL`, default 0.03 ≈ one validation example). The archive keeps the best gated score.
+5. **Final pick**: top archive entries plus the prior curations are re-checked with the full CNN across
+   3 seeds and ranked by mean gated score; the winner is tested once and persisted as
+   `saga_champion_rows.json` + `saga_champion_mask.npy`. If nothing beats the deployed curation,
+   the champion *is* the deployed curation and deploy is a no-op.
+6. **Deploy** (`deploy_champion.py`, run automatically at the end unless `SAGA_DEPLOY=0`): rotates the
+   current `ga_output.json` / `ga_output_combined.json` to `*_backup.json`, then writes the champion as
+   `ga_output.json` (next warm start) and `ga_output_combined.json` (champion + validation + test, what
+   `TextClassifier` trains on).
 
-### GA Parameters
+### Running it
 
-| Parameter | Value |
-|-----------|-------|
-| Population Size | 100 |
-| Generations | 100 |
-| Parent Selection | Steady-State Selection |
-| Crossover | Scattered |
-| Mutation Rate | 20% of genes |
+```bash
+cd Wellington-Events-Scrapper
+python -m classification.Dataset --rebuild
+nohup caffeinate -i -m ./run_saga.sh > saga_run.log 2>&1 &
+# ~18h later the log prints "SAGA DONE" and ga_output*.json already hold the new champion.
+# Then retrain the CNN (TextClassifier, use_ga=True) on ga_output_combined.json.
+```
 
-### Model Options
+`run_saga.sh` sets the parameters below and documents why each is what it is; override any of them by
+exporting the env var before calling it. Progress is checkpointed every generation to
+`data/training/saga_archive_ckpt.npz` (top-10 masks), which is how a crashed run still leaves a
+materialisable subset behind.
 
-- `NN` - Neural network with embedding + pooling
-- `LR` - Logistic Regression with TF-IDF (faster for GA iterations)
+Before deploying or believing any champion, confirm it with `./run_cnn_eval.sh`: SAGA's end-of-run
+`TEST=` is a SINGLE measurement, and its finalist ordering is a shortlist, not a result.
+
+### SAGA Parameters (env vars)
+
+| Variable | Default | Description |
+|-----------|---------|-------------|
+| `SAGA_POP` | 40 | Population per class tribe |
+| `SAGA_GEN` | 30 | Generations |
+| `SAGA_FOLDS` | 3 | Surrogate CV folds |
+| `SAGA_CNN_EPOCHS` | 10 | In-loop steering CNN epochs |
+| `SAGA_FINAL_EPOCHS` / `SAGA_FINAL_SEEDS` | 100 / 42,7,123 | Final re-check |
+| `SAGA_VOCAB` | 20000 | CNN vocabulary |
+| `SAGA_WARMSTART_FROM` | `ga_output,ga_output_backup` | Prior subsets to inject, comma list (`none` to disable) |
+| `SAGA_DEPLOY` | 1 | Run `deploy_champion.py` at the end (`0` to only persist the champion files) |
+| `SAGA_CNN_FLOOR_TOL` / `SAGA_CNN_FLOOR_PEN` | 0.03 / 2.0 | CNN-side per-class recall gate vs prior curations |
+| `SAGA_PREFIX` | `saga` | Artifact filename prefix (use another value for test runs) |
+| `RICH_FEATURES` | 1 | Set `0` for the fast word-2000 surrogate |
 
 ## Project Structure
 
@@ -349,8 +395,15 @@ Wellington-Events-Scrapper/
 │   ├── TextClassifier.py        # CNN event-type classifier (train/predict)
 │   ├── KidFriendlyClassifier.py # Kid-friendly binary classifier
 │   ├── GenerateData.py          # Build/clean training + unclassified datasets
-│   ├── DataCreator.py           # Genetic-algorithm training-set optimisation
+│   ├── Dataset.py               # Canonical group-aware train/val/test split
 │   └── LabelEvents.py           # Label events with the trained model
+│
+├── run_saga.py                  # SAGA: CNN-in-the-loop GA training-set curation
+├── run_saga.sh                  # One curation cycle, with the rationale for each setting
+├── deploy_champion.py           # Champion rows -> ga_output*.json
+├── cnn_eval_subset.py           # Multi-seed CNN score of a subset on the clean holdout
+├── run_cnn_eval.sh              # Run that eval over several subsets, with how to read it
+├── tribes_ga/                   # GA library used by SAGA (genome, engine, fitness, stitch)
 │
 ├── util/                        # Shared helpers and I/O
 │   ├── paths.py                 # Central data/ & models/ path resolution
@@ -429,19 +482,11 @@ Wellington-Events-Scrapper/
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `max_sequence_length` | 1500 | Maximum tokens per input |
-| `num_words` | 2000 | Vocabulary size |
+| `num_words` | 20000 | Vocabulary size (must match `CNN_EVAL_VOCAB`) |
 | `embedding_dim` | 400 | Embedding vector dimensions |
 | `batch_size` | 32 | Training batch size |
 | `patience` | 5 | Early stopping patience |
-
-### DataCreator Parameters
-
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `MODEL_CHOICE` | 'LR' | 'LR' (Logistic Regression) or 'NN' (Neural Network) |
-| `pop_size` | 100 | GA population size |
-| `num_generations` | 100 | GA generations to run |
-| `mutation_percent_genes` | 20 | Mutation rate (%) |
+| class weighting | on | Per-sample inverse frequency (must match `CNN_EVAL_CLASS_WEIGHT`) |
 
 ### GenerateData Parameters
 
@@ -468,9 +513,11 @@ Wellington-Events-Scrapper/
 └─────────────────────────────┬───────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│ STEP 3: (OPTIONAL) OPTIMIZE TRAINING SET                        │
-│ $ python DataCreator.py                                         │
-│ Output: ga_output_combined.json                                 │
+│ STEP 3: CURATE TRAINING SET (SAGA)                              │
+│ $ python -m classification.Dataset --rebuild                    │
+│ $ ./run_saga.sh       (see "Training-Set Curation")             │
+│ $ python deploy_champion.py                                     │
+│ Output: ga_output.json, ga_output_combined.json                 │
 └─────────────────────────────┬───────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
@@ -499,10 +546,9 @@ Wellington-Events-Scrapper/
 
 ### Common Issues
 
-**"Test file not found" when running DataCreator:**
-```
-Run generate_files() first before calling run()
-```
+**SAGA / Dataset import errors:**
+Run from the repo root (or set `PYTHONPATH` to it) and rebuild the split first with
+`python -m classification.Dataset --rebuild`.
 
 **Low classifier accuracy:**
 - Check category balance with `count_categories()` in GenerateData

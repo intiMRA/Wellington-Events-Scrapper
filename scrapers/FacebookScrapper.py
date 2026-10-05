@@ -12,7 +12,7 @@ import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from dateutil.relativedelta import relativedelta
-from typing import List, Optional, Set, Tuple, TextIO
+from typing import Any, Collection, List, Optional, Set, Tuple, TextIO
 from playwright.sync_api import sync_playwright, Page
 from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay, stealth_page
 from util.Logger import Logger
@@ -52,7 +52,7 @@ class FacebookScrapper:
         today = datetime.now()
         hour = " 1:01AM"
         if re.findall(r"\d{1,2}:\d{1,2}", date):
-            hour: str = re.findall(r"\d{1,2}:\d{1,2}", date)[0]
+            hour = re.findall(r"\d{1,2}:\d{1,2}", date)[0]
         today_string = today.strftime("%d %b")
         today = parser.parse(f"{today_string} {hour}")
         if verbose:
@@ -205,7 +205,7 @@ class FacebookScrapper:
         end_date = start_date + relativedelta(days=15)
         end_date_string = end_date.strftime("%Y-%m-%d") + "T05%3A00%3A00.000Z"
         fetch_urls = True
-        category_urls = set()
+        category_urls: Collection[Any] = set()
         if not fetch_urls:
             category_urls = FileUtils.load_from_files(ScraperName.FACEBOOK)[1]
         events = []
@@ -217,7 +217,7 @@ class FacebookScrapper:
             page.set_default_timeout(15000)
             if fetch_urls:
                 category_urls = FacebookScrapper.get_urls(urls_file, page, start_date_string, end_date_string,
-                                                          previous_urls, category_urls)
+                                                          previous_urls, set(category_urls))
             else:
                 json.dump(list(category_urls), urls_file, indent=2)
             num_events = len(category_urls)

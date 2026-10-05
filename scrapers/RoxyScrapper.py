@@ -145,12 +145,12 @@ class RoxyScrapper:
 
     @staticmethod
     def get_festivals(festivals: List[Dict[str, str]], page: Page):
-        for festivals in festivals:
-            festival_name = festivals['name']
+        for festival in festivals:
+            festival_name = festival['name']
             festival_name = festival_name.lower()
             festival_name = festival_name.title()
             file_festival_name = festival_name.lower().replace(" ", "-")
-            festival_url = festivals['url']
+            festival_url = festival['url']
             Logger.info(f"festival: {festival_name}")
             CurrentFestivals.CURRENT_FESTIVALS.append("RoxyFestival")
             CurrentFestivals.CURRENT_FESTIVALS_DETAILS.append({

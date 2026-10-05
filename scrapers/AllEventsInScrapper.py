@@ -5,7 +5,7 @@ from util import FileUtils
 from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
 from dateutil import parser
-from typing import List, Set, Optional, Tuple, TextIO
+from typing import Any, Collection, List, Set, Optional, Tuple, TextIO
 import json
 from datetime import timedelta
 from playwright.sync_api import sync_playwright, Page, Locator
@@ -58,12 +58,12 @@ class AllEventsInScrapper:
                          url=url,
                          venue=venue,
                          source=ScraperName.ALL_EVENTS_IN,
-                         event_type=category,
+                         event_type=category if category else "Other",
                          description=description)
 
     @staticmethod
     def get_urls_for_category(category_url: str, page: Page, previous_urls: Set[str], previous_titles: Set[str], category_name: str, urls_file: TextIO) -> Set[Tuple[str, str]]:
-        event_urls = set()
+        event_urls: Set[Tuple[str, str]] = set()
         goto_with_retry(page, category_url)
         sleep(random.uniform(2, 3))
         if page.locator(".cat-not-found-section").all():
@@ -83,7 +83,7 @@ class AllEventsInScrapper:
             scrolled_amount += 400
             sleep(1)
             if page.locator("[class*='eventlist-container']").all():
-                container: Locator = page.locator("[class*='eventlist-container']").first
+                container = page.locator("[class*='eventlist-container']").first
                 height = container.evaluate("document.body.scrollHeight")
             more_buttons = page.locator("#show_more_events").count()
             if more_buttons and more_buttons > tapped_more:
@@ -93,13 +93,13 @@ class AllEventsInScrapper:
                 except Exception as e:
                     Logger.warning(f"Error scrolling more_events {e}")
                     tapped_more += 1
-                container: Locator = page.locator("[class*='eventlist-container']").first
+                container = page.locator("[class*='eventlist-container']").first
                 height = container.evaluate("document.body.scrollHeight")
                 sleep(2)
                 more_count += 1
                 Logger.info("loaded more")
         sleep(2)
-        container: Locator = page.locator("[class*='eventlist-container']").first
+        container = page.locator("[class*='eventlist-container']").first
         wait_for_items(container.locator("[class*='link']"))
         events = container.locator("[class*='link']").all()
         Logger.info(f"event count: {len(events)}")
@@ -119,7 +119,7 @@ class AllEventsInScrapper:
         return event_urls
     @staticmethod
     def get_urls(city_url: str, previous_urls: Set[str], previous_titles: Set[str], categories: Set[Tuple[str, str]], urls_file, page: Page) -> Set[Tuple[str, str]]:
-        event_urls = set()
+        event_urls: Set[Tuple[str, str]] = set()
         cat_count = len(categories)
         current_cat = 1
         for category in sorted(categories):
@@ -169,11 +169,12 @@ class AllEventsInScrapper:
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         with sync_playwright() as playwright:
             fetch_urls = True
-            event_urls = set()
+            event_urls: Collection[Any] = set()
             if not fetch_urls:
                 event_urls = FileUtils.load_from_files(ScraperName.ALL_EVENTS_IN)[1]
             out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.ALL_EVENTS_IN)
             previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.ALL_EVENTS_IN)))
+            previous_titles = previous_titles or set()
             city_urls = [
                 "https://allevents.in/wellington",
                 "https://allevents.in/lower-hutt",
@@ -189,8 +190,8 @@ class AllEventsInScrapper:
                 urls_file.write("[\n")
                 for city_url in city_urls:
                     categories = AllEventsInScrapper.get_categories(city_url, page)
-                    event_urls = event_urls.union(
-                        AllEventsInScrapper.get_urls(city_url, previous_urls, previous_titles, categories, urls_file, page))
+                    event_urls = set(event_urls) | AllEventsInScrapper.get_urls(
+                        city_url, previous_urls, previous_titles, categories, urls_file, page)
                     # Reset the session between cities (a user_data_dir can only be held by one
                     # context at a time), mirroring the old driver.close() + reopen.
                     context.close()

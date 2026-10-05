@@ -61,13 +61,12 @@ def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
     if "Other" in event_types:
         event_types.remove("Other")
     sources = set([event.source for event in data])
-    data = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
-    data = sorted(data, key=lambda k: k["name"])
-    data = sorted(data, key=lambda k: parser.parse(k["dates"][0]))
-    event_types = sorted(list(event_types))
+    event_dicts = list(map(lambda x: x.to_dict(), sorted(data, key=lambda k: k.name.strip())))
+    event_dicts = sorted(event_dicts, key=lambda k: k["name"])
+    event_dicts = sorted(event_dicts, key=lambda k: parser.parse(k["dates"][0]))
     filters = {
         "sources": sorted(list(sources)),
-        "eventTypes": event_types,
+        "eventTypes": sorted(list(event_types)),
     }
     if file == FileNames.EVENTS:
         with open(FileNames.EVENTS, "r") as f:
@@ -79,7 +78,7 @@ def write_to_events_file(data: List[EventInfo], file: str = FileNames.EVENTS):
         json.dump(CurrentFestivals.CURRENT_FESTIVALS_DETAILS, f, indent=2)
     with open(file, "w") as write:
         write.write('{ "events":')
-        json.dump(data, write, indent=2)
+        json.dump(event_dicts, write, indent=2)
         write.write(',')
         write.write('"filters":')
         json.dump(filters, write, indent=2)

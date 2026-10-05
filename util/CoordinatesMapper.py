@@ -5,7 +5,7 @@ import re
 
 class CoordinatesMapper:
     @staticmethod
-    def get_coordinates(address: str) -> Optional[Dict[str, str]]:
+    def get_coordinates(address: str) -> Optional[Dict[str, float]]:
         clean_ups = [
             " - Mana"
         ]

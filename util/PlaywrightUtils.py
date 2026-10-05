@@ -1,6 +1,7 @@
 import random
 import re
 from pathlib import Path
+from typing import Literal
 
 from playwright.sync_api import Browser, BrowserContext, Page, Playwright, Error as PlaywrightError, Locator
 
@@ -141,7 +142,8 @@ def normalize_text(text: str) -> str:
     return _UNICODE_SPACES.sub(" ", text)
 
 
-def goto_with_retry(page: Page, url: str, attempts: int = 3, wait_ms: int = 2000, wait_until: str = "domcontentloaded") -> None:
+def goto_with_retry(page: Page, url: str, attempts: int = 3, wait_ms: int = 2000,
+                    wait_until: Literal["commit", "domcontentloaded", "load", "networkidle"] = "domcontentloaded") -> None:
     # Retries transient navigation failures (e.g. net::ERR_NETWORK_CHANGED from a
     # Wi-Fi/VPN blip) so one hiccup doesn't abort a whole scrape run.
     # Defaults to "domcontentloaded" (HTML parsed) rather than "load" (all images/ads/trackers):

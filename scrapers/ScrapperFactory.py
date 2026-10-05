@@ -1,4 +1,4 @@
-from typing import List, Set, Optional, Tuple
+from typing import List, Set, Optional, Tuple, Protocol
 
 from scrapers.EventFinderScrapper import EventFinderScrapper
 from scrapers.EventbriteScrapper import EventbriteScrapper
@@ -21,7 +21,12 @@ from scrapers.MangaroaScrapper import MangaroaScrapper
 from model.EventInfo import EventInfo
 from scrapers.ScrapperNames import ScraperName
 
-_SCRAPERS: dict[ScraperName, type] = {
+class Scraper(Protocol):
+    @staticmethod
+    def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]: ...
+
+
+_SCRAPERS: dict[ScraperName, type[Scraper]] = {
     ScraperName.WELLINGTON_NZ: WellingtonNZScrapper,
     ScraperName.WELLINGTON_HIGH_SCHOOL: WellingtonHighschoolScrapper,
     ScraperName.VALHALLA: ValhallaScrapper,
@@ -43,7 +48,7 @@ _SCRAPERS: dict[ScraperName, type] = {
 }
 
 
-def get_event_scrapper(scrapper_name: ScraperName) -> type:
+def get_event_scrapper(scrapper_name: ScraperName) -> type[Scraper]:
     try:
         return _SCRAPERS[scrapper_name]
     except KeyError:
