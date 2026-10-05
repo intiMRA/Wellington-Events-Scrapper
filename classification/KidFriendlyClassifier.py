@@ -156,7 +156,8 @@ if should_train:
     loss, accuracy = model.evaluate(X_test, Y_test)
     print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
 
-    model.save(paths.model_path('trained_model_kid_friendly'))
+    # include_optimizer=False — see the note in TextClassifier.train_model. 16.6 MB -> 5.5 MB here.
+    model.save(paths.model_path('trained_model_kid_friendly'), include_optimizer=False)
     tokenizer_json = tokenizer.to_json()
     with open(paths.model_path('tokenizer_config_kid_friendly.json'), 'w', encoding='utf-8') as f:
         f.write(json.dumps(tokenizer_json, ensure_ascii=False))

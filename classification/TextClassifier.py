@@ -91,7 +91,11 @@ def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_enc
     print(f"Test Loss: {loss:.4f}, Test Accuracy: {accuracy:.4f}")
     if not label_encoder and not tokenizer:
         return accuracy
-    model.save(paths.model_path('trained_model'))
+    # include_optimizer=False: Adam's m/v moment tensors are two extra copies of every trainable
+    # weight (66 of 99 MB at 20k vocab) and are only needed to RESUME training. Nothing here does —
+    # every retrain builds a fresh model, and load_model() is prediction-only. Keeping them tripled
+    # the deployed artifact for nothing.
+    model.save(paths.model_path('trained_model'), include_optimizer=False)
     tokenizer_json = tokenizer.to_json()
     with open(paths.model_path('tokenizer_config.json'), 'w', encoding='utf-8') as f:
         f.write(json.dumps(tokenizer_json, ensure_ascii=False))
