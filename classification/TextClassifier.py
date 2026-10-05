@@ -2,6 +2,7 @@ import numpy as np
 from keras.preprocessing.text import tokenizer_from_json
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
+from sklearn.utils.class_weight import compute_class_weight
 from keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences, to_categorical,set_random_seed
 import json
@@ -18,7 +19,12 @@ from util import paths
 from model.EventInfo import EventInfo
 
 max_sequence_length = 1500
-num_words = 2000
+# MUST match cnn_eval_subset.py (CNN_EVAL_VOCAB / CNN_EVAL_CLASS_WEIGHT) and the SAGA defaults.
+# These three are the configuration every subset is selected under, so when they drift from what is
+# deployed, the GA's per-class recall floors protect a model that is never shipped. Raised from 2,000
+# on 5 Oct 2026 for exactly that reason: a 2,000-word cap truncates the venue, artist and te reo tokens
+# that separate the minority classes, leaving mostly the generic vocabulary the categories share.
+num_words = 20000
 embedding_dim = 400
 def train_from_manual_training_files():
     use_ga = True
@@ -58,12 +64,26 @@ def train(num_classes, X_train, Y_train, X_val, Y_val, X_test, Y_test, label_enc
         min_delta=0.0001
     )
 
+    # Per-sample inverse-frequency weights. The class distribution is heavily skewed (the scarcest
+    # class has ~115 pool rows against thousands for the largest), and without this the loss is
+    # dominated by the majority classes, so the minority ones are never learned well. Reweighting
+    # rather than undersampling is deliberate: this CNN is data-hungry, and cutting the majority
+    # classes down to balance measured WORSE (0.737) than weighting all the data (0.752).
+    # Validation is deliberately left unweighted so val_loss — what EarlyStopping monitors — keeps
+    # meaning plain held-out loss, matching the eval harness.
+    y_int = Y_train.argmax(axis=1)
+    present = np.unique(y_int)
+    weight_for = dict(zip(present.tolist(),
+                          compute_class_weight("balanced", classes=present, y=y_int).tolist()))
+    sample_weight = np.array([weight_for[int(c)] for c in y_int], dtype="float32")
+
     model.fit(
         X_train, Y_train,
         epochs=epochs,
         batch_size=32,
         validation_data=(X_val, Y_val),
         callbacks=[early_stopping_callback],
+        sample_weight=sample_weight,
         verbose=verbose
     )
 

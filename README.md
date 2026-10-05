@@ -246,10 +246,15 @@ Dense (16 units, Softmax) → Category Prediction
 | Parameter | Value |
 |-----------|-------|
 | Max Sequence Length | 1500 tokens |
-| Vocabulary Size | 2000 words |
+| Vocabulary Size | 20000 words |
 | Embedding Dimension | 400 |
 | Batch Size | 32 |
 | Early Stopping Patience | 5 epochs |
+| Class weighting | per-sample inverse frequency |
+
+These must stay in step with `cnn_eval_subset.py` (`CNN_EVAL_VOCAB`, `CNN_EVAL_CLASS_WEIGHT`) and the
+SAGA defaults. Subsets are selected under the eval configuration, so if it differs from what is
+deployed, the per-class recall floors the GA enforces protect a model that never ships.
 
 ### Training (`train_from_manual_training_files()`)
 
@@ -477,10 +482,11 @@ Wellington-Events-Scrapper/
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `max_sequence_length` | 1500 | Maximum tokens per input |
-| `num_words` | 2000 | Vocabulary size |
+| `num_words` | 20000 | Vocabulary size (must match `CNN_EVAL_VOCAB`) |
 | `embedding_dim` | 400 | Embedding vector dimensions |
 | `batch_size` | 32 | Training batch size |
 | `patience` | 5 | Early stopping patience |
+| class weighting | on | Per-sample inverse frequency (must match `CNN_EVAL_CLASS_WEIGHT`) |
 
 ### GenerateData Parameters
 

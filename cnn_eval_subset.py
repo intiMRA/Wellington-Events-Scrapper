@@ -1,5 +1,6 @@
-"""CNN-check a curated subset on the clean holdout: num_words=20000 + class-weighted loss
-(per-sample inverse-freq), trained once per seed on the subset and evaluated on val/test.
+"""CNN-check a curated subset on the clean holdout: trained once per seed on the subset, evaluated
+on val/test. Defaults to num_words=20000 with a class-weighted loss (per-sample inverse-frequency);
+set CNN_EVAL_VOCAB / CNN_EVAL_CLASS_WEIGHT to emulate a different deployed configuration.
 
 Reports BOTH a single-model per-seed mean (what production ships — judge subsets on this) and a
 probability-averaged ensemble over the seeds (kept because ensembling is a real lever, but it
@@ -22,7 +23,15 @@ from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense
 from classification import Dataset as ds
 from util import paths
 
-NW, MAXLEN, EMB, NC = 20000, 1500, 400, ds.num_classes
+# Vocabulary and class weighting are configurable so this harness can emulate ANY deployed
+# configuration, not just its own defaults. They exist because production and this harness drifted
+# apart unnoticed: production shipped num_words=2000 with no class weighting while every subset was
+# being selected here at 20,000 with inverse-frequency weights — so the per-class recall floors the GA
+# was protecting described a model that was never deployed. Keep the two in step, and when they must
+# differ, measure the gap with these rather than arguing about it.
+NW = int(os.environ.get("CNN_EVAL_VOCAB", "20000"))
+CLASS_WEIGHT = os.environ.get("CNN_EVAL_CLASS_WEIGHT", "1") == "1"
+MAXLEN, EMB, NC = 1500, 400, ds.num_classes
 # CNN_EVAL_SEEDS: comma list, default = the 3 seeds used for every result up to 14 Sep. CNN_EVAL_OUT_SUFFIX: appended to
 # the output file name so a 5-seed run never overwrites a 3-seed result (e.g. "_5seed").
 SEEDS = [int(s) for s in os.environ.get("CNN_EVAL_SEEDS", "13453379,42,7").split(",")]
@@ -57,13 +66,14 @@ if _n_te or _n_va:
 sub_x = [r["description"] for r in rows]
 ytr = ds._label_encoder.transform([r["label"] for r in rows])
 print(f"[cnn-eval] subset={subset_path.split('/')[-1]} rows={len(sub_x)} classes={len(set(ytr.tolist()))} "
-      f"holdout_leak=(test {_n_te}, val {_n_va})", flush=True)
+      f"vocab={NW} class_weight={CLASS_WEIGHT} holdout_leak=(test {_n_te}, val {_n_va})", flush=True)
 
 tok = Tokenizer(num_words=NW, oov_token="<unk>"); tok.fit_on_texts(sub_x)
 pad = lambda xs: np.array(pad_sequences(tok.texts_to_sequences(xs), maxlen=MAXLEN, padding="post"))
 Xtr, Xva, Xte = pad(sub_x), pad(ds._val_desc), pad(ds._test_desc)
 Ytr, Yva = to_categorical(ytr, NC), to_categorical(ds.val_labels, NC)
-sw = compute_class_weight("balanced", classes=np.arange(NC), y=ytr)[ytr].astype("float32")
+sw = (compute_class_weight("balanced", classes=np.arange(NC), y=ytr)[ytr].astype("float32")
+      if CLASS_WEIGHT else None)
 
 def build():
     m = Sequential([Embedding(NW, EMB, input_length=MAXLEN), Conv1D(512, 3, activation='relu'),
@@ -105,6 +115,9 @@ res = {"subset": os.path.basename(subset_path), "rows": len(sub_x), "seeds": SEE
        # Recorded on every result so a contaminated number can never be mistaken for a clean one later.
        # (0, 0) is the only value a comparable result may have; anything else means CNN_EVAL_ALLOW_LEAK was set.
        "holdout_leak": {"test_rows": _n_te, "val_rows": _n_va},
+       # The training configuration this number describes. A result is only comparable to another
+       # with the SAME vocab and class_weight — that drift is what this field exists to catch.
+       "config": {"vocab": NW, "class_weight": CLASS_WEIGHT, "maxlen": MAXLEN, "embedding_dim": EMB},
        "per_seed_test_acc": per_seed_test,
        "per_seed_test_mean": float(np.mean(per_seed_test)), "per_seed_test_std": float(np.std(per_seed_test)),
        # Single-model per-class recall, one value per seed — the per-class figures that may be compared

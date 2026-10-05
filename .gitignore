@@ -46,6 +46,7 @@ data/training/compare_curations_results.json
 saga*.log
 cnn_eval_*.log
 retrain*.log
+align_measure.log
 # Python build artifacts
 *.egg-info/
 build/
