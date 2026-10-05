@@ -11,7 +11,7 @@ from dateutil.relativedelta import relativedelta
 from dateutil import parser
 import json
 from time import sleep
-from typing import List, Tuple, Set, Optional, TextIO
+from typing import Any, Collection, List, Tuple, Set, Optional, TextIO
 from playwright.sync_api import sync_playwright, Page, Error as PlaywrightError
 
 from util.PlaywrightUtils import goto_with_retry, new_context, normalize_text, wait_for_items
@@ -214,9 +214,9 @@ class EventbriteScrapper:
                     sleep(1)
                     pagination = page.locator("[data-testid='pagination-parent']").first
                     first_page, last_page = pagination.inner_text().split(" of ")
-                    first_page = int(first_page)
-                    last_page = int(last_page)
-                    if first_page > last_page:
+                    first_page_num = int(first_page)
+                    last_page_num = int(last_page)
+                    if first_page_num > last_page_num:
                         break
                 except Exception as e:
                     Logger.info(f"error finding pagination: {e}")
@@ -265,7 +265,7 @@ class EventbriteScrapper:
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         with sync_playwright() as playwright:
             fetch_urls = True
-            categories = set()
+            categories: Collection[Any] = set()
             if not fetch_urls:
                 categories = FileUtils.load_from_files(ScraperName.EVENT_BRITE)[1]
             events = []

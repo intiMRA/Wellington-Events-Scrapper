@@ -13,7 +13,7 @@ nz_tz = pytz.timezone("Pacific/Auckland")
 
 
 class EventInfo:
-    locationsCache: Dict[str, Optional[Dict[str, str]]] = {}
+    locationsCache: Dict[str, Optional[Dict[str, float]]] = {}
 
     id: str
     name: str
@@ -30,7 +30,7 @@ class EventInfo:
     labels: List[str]
 
     def __init__(
-            self: str,
+            self,
             name: str,
             image: str,
             venue: str,
@@ -147,7 +147,7 @@ class EventInfo:
             return None
 
     @staticmethod
-    def get_location(venue: str) -> Optional[Dict[str, str]]:
+    def get_location(venue: str) -> Optional[Dict[str, float]]:
         if venue in EventInfo.locationsCache.keys():
             return EventInfo.locationsCache[venue]
         else:

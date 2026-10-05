@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from util.DateFormatting import DateFormatting
 from dateutil import parser
 from dateutil.relativedelta import relativedelta
-from typing import List, Set, Optional, Tuple, TextIO
+from typing import Any, Collection, List, Set, Optional, Tuple, TextIO
 import json
 from playwright.sync_api import sync_playwright, Page, Locator
 from util.PlaywrightUtils import goto_with_retry, new_context
@@ -128,7 +128,7 @@ class EventFinderScrapper:
 
     @staticmethod
     def get_urls(page: Page, previous_urls: Set[str], urls_file: TextIO) -> Set[Tuple[str, str]]:
-        urls = set()
+        urls: Set[Tuple[str, str]] = set()
         start_date = datetime.now()
         end_date = start_date + relativedelta(days=30)
 
@@ -182,7 +182,7 @@ class EventFinderScrapper:
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         with sync_playwright() as playwright:
             fetch_urls = False
-            urls = set()
+            urls: Collection[Any] = set()
             if not fetch_urls:
                 urls = FileUtils.load_from_files(ScraperName.EVENT_FINDER)[1]
             out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.EVENT_FINDER)

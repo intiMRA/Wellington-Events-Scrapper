@@ -11,6 +11,7 @@ from tensorflow.config.experimental import enable_op_determinism
 from keras.callbacks import EarlyStopping
 from tensorflow.keras.models import load_model
 import joblib
+import sys
 from typing import List
 
 from util import paths
@@ -135,7 +136,7 @@ def _predict_label_lists(classification_model, loaded_tokenizer, loaded_label_en
         indecies = indecies[np.argsort(-predictions_array[indecies])]
 
         if predictions_array[indecies[1]] < predictions_array[indecies[0]] * 0.5:
-            indecies = [indecies[0]]
+            indecies = indecies[:1]
 
         label_lists.append([str(label) for label in loaded_label_encoder.inverse_transform(indecies)])
     return label_lists
@@ -251,14 +252,15 @@ def load_models_from_file():
     return classification_model, loaded_tokenizer, loaded_label_encoder
 
 if __name__ == "__main__":
-    should_train = True
-
-    if should_train:
+    # `train` retrains from data/training/ga_output_combined.json (the deployed curation plus the
+    # validation and test rows) and OVERWRITES models/. `predict` only reads the deployed model.
+    #     .venv/bin/python -m classification.TextClassifier [train|predict] [file.json]
+    # Default target is generated_data.json; pass ga_output_combined.json to re-score training rows,
+    # remembering that the deployed model was fitted on them, so that measures memorisation.
+    mode = sys.argv[1] if len(sys.argv) > 1 else "predict"
+    if mode not in ("train", "predict"):
+        raise SystemExit(f"usage: {sys.argv[0]} [train|predict] [file.json]")
+    if mode == "train":
         train_from_manual_training_files()
-
-    ga_output_combined = paths.data_path("training/ga_output_combined.json")
-    generated_data = paths.data_path("training/ga_output_combined.json")
-    labels_out = predict_from_file(
-        generated_data,
-        False
-    )
+    target = sys.argv[2] if len(sys.argv) > 2 else paths.data_path("training/generated_data.json")
+    labels_out = predict_from_file(target, False)

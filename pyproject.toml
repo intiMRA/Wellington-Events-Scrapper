@@ -24,3 +24,9 @@ dependencies = { file = ["requirements.txt"] }
 
 [tool.black]
 target-version = ["py311"]
+
+[tool.mypy]
+python_version = "3.11"
+# Third-party deps (playwright, sklearn, keras, tensorflow, pygad, bs4, …) ship no
+# type stubs; silence the unresolved-import noise and check our own code.
+ignore_missing_imports = true

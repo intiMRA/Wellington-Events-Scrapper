@@ -18,7 +18,7 @@ class Burger:
     url: str
 
     def __init__(
-            self: str,
+            self,
             id: str,
             name: str,
             image: str,

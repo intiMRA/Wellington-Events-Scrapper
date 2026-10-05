@@ -133,7 +133,7 @@ class TicketmasterScrapper:
             Logger.debug("ticketmaster.co.nz")
             if not info_button:
                 Logger.warning(f"no info button for: {url}")
-                return []
+                return None
             deets_count = 0
             while True:
                 # "More Info" is often covered by an overlay/sticky bar (Playwright reports the
@@ -149,7 +149,7 @@ class TicketmasterScrapper:
                     event_details = deets[0]
                     break
                 if deets_count >= 3:
-                    return []
+                    return None
                 deets_count += 1
             divs = event_details.locator("div").all()
             title = None
@@ -176,8 +176,8 @@ class TicketmasterScrapper:
                                 Logger.debug("no parts")
                                 Logger.debug(part)
                         venue = parts[-1]
-                    Logger.debug(venue)
-                    Logger.debug(dates)
+                    Logger.debug(str(venue))
+                    Logger.debug(str(dates))
                     break
             if not title or not venue:
                 Logger.warning("no title")
@@ -189,17 +189,17 @@ class TicketmasterScrapper:
                              url=url,
                              source=ScraperName.TICKET_MASTER,
                              event_type=category,
-                             description=description)
+                             description=description or "")
         elif "universe.com" in url:
             Logger.debug("universe.com")
             content = page.locator("[class*='content']").first
             title = content.locator("[class*='heading']").first.inner_text()
             image_url = page.locator("[class*='heroImage']").first.evaluate("a => a.style.cssText")
             image_url = re.findall(r'url\("([^"]+)"\)', image_url)[0]
-            date_string, venue = content.locator("[class*='location']").all()
-            venue = venue.inner_text()
+            date_string_locator, venue_locator = content.locator("[class*='location']").all()
+            venue = venue_locator.inner_text()
             description = page.locator("[id*='escription']").first.inner_text()
-            date_string = date_string.inner_text()
+            date_string = date_string_locator.inner_text()
             dates = []
             if "Multiple" in date_string:
                 page.evaluate("window.scrollBy(0, 1000)")
@@ -208,6 +208,8 @@ class TicketmasterScrapper:
                 days = frame.locator("[aria-disabled='false']").all()
                 for day in days:
                     ds = day.get_attribute("aria-label")
+                    if not ds:
+                        continue
                     parts = ds.split(",")
                     ds = f"{parts[1]} {parts[2]} 1:01AM"
                     dates.append(parser.parse(ds))
@@ -265,7 +267,7 @@ class TicketmasterScrapper:
         class PossibleKeys(str, Enum):
             id = 'id'
             total = 'total'
-            title = 'title'
+            title = 'title'  # type: ignore[assignment]  # Enum member shadows str.title
             discoveryId = 'discoveryId'
             dates = 'dates'
             presaleDates = 'presaleDates'
@@ -369,6 +371,7 @@ class TicketmasterScrapper:
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.TICKET_MASTER)
         previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.TICKET_MASTER)))
+        previous_titles = previous_titles or set()
         events: List[EventInfo] = []
         # get_urls is the requests-based Ticketmaster API — no browser needed for it.
         event_urls = TicketmasterScrapper.get_urls(previous_urls, previous_titles, False, urls_file)

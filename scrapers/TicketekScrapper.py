@@ -8,7 +8,7 @@ from scrapers.ScrapperNames import ScraperName
 from model.EventInfo import EventInfo
 import re
 from dateutil import parser
-from typing import List, Optional, Set, Tuple, TextIO
+from typing import Collection, List, Optional, Set, Tuple, TextIO, Any
 from playwright.sync_api import sync_playwright, Page, BrowserContext
 from util.PlaywrightUtils import goto_with_retry, launch_stealth, human_delay, stealth_page, wait_for_items
 from util.Logger import Logger
@@ -104,8 +104,8 @@ class TicketekScrapper:
     def get_urls(page: Page, previous_urls: Set[str], urls_file: TextIO) -> Set[Tuple[str, str]]:
         goto_with_retry(page, "https://premier.ticketek.co.nz/search/SearchResults.aspx?k=wellington")
         wait_for_items(page.locator(".cat-nav-item"))
-        cats = page.locator(".cat-nav-item").all()
-        cats = [(cat.inner_text(), cat.evaluate("a => a.href").split("c=")[-1]) for cat in cats if
+        cat_locators = page.locator(".cat-nav-item").all()
+        cats = [(cat.inner_text(), cat.evaluate("a => a.href").split("c=")[-1]) for cat in cat_locators if
                 len(cat.evaluate("a => a.href").split("c=")) > 1 and len(cat.inner_text()) > 0]
         cats.append(("Other", "Other"))
         event_urls: Set[Tuple[str, str]] = set()
@@ -141,7 +141,7 @@ class TicketekScrapper:
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         fetch_urls = True
-        event_urls = set()
+        event_urls: Collection[Any] = set()
         if not fetch_urls:
             event_urls = FileUtils.load_from_files(ScraperName.TICKETEK)[1]
         out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.TICKETEK)

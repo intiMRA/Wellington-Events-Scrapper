@@ -39,11 +39,11 @@ class WellingtonHighschoolScrapper:
                 continue
             date_day = matches.group(1)
             date_month = matches.group(2)
-            matches = re.findall(r"\d{1,2}:\d{1,2}\s*[aAmMpP]{2}", event_text)
-            if not matches:
+            time_matches = re.findall(r"\d{1,2}:\d{1,2}\s*[aAmMpP]{2}", event_text)
+            if not time_matches:
                 Logger.debug(event_text)
                 continue
-            hour = matches[0]
+            hour = time_matches[0]
             dates.append(parser.parse(f"{date_day} {date_month} {hour}"))
             Logger.debug(f"day: {date_day} month: {date_month} hour: {hour}")
 
@@ -60,7 +60,7 @@ class WellingtonHighschoolScrapper:
         image_url = image_matches[0] if image_matches else "no image"
         dates = WellingtonHighschoolScrapper.get_all_event_dates(page)
         description: str = page.locator(".content-field-text").first.inner_text()
-        Logger.debug(dates)
+        Logger.debug(str(dates))
         return EventInfo(name=title,
                          image=image_url,
                          venue="Wellington High School, 249 Taranaki Street, Te Aro, Wellington",
