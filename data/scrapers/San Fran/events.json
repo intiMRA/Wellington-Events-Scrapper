@@ -1,145 +1,5 @@
 [
 {
-  "id": "DIGI Hyperpop Digicore Cloud Rap Club Night-San Fran, Wellington-San Fran",
-  "name": "DIGI Hyperpop Digicore Cloud Rap Club Night",
-  "imageUrl": "https://networksites.livenationinternational.com/networksites/33obx3xa/banner.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-02-00:00"
-  ],
-  "displayDate": "Fri 02 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/digi-hyperpop-digicore-cloud-rap-club-night-tickets-ae1693849",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Oots AUS-San Fran, Wellington-San Fran",
-  "name": "Oots AUS",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/j/i/n/66dd08f3-1a4d-45ef-b3a3-6d7d29380254.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-03-00:00"
-  ],
-  "displayDate": "Sat 03 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/oots-tickets-ae1687693",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "August Burns Red-San Fran, Wellington-San Fran",
-  "name": "August Burns Red",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/l/v/i/b1d87d59-5522-4622-9a79-81112920dbeb.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-07-00:00"
-  ],
-  "displayDate": "Wed 07 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/august-burns-red-tickets-ae2148",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Mountain Boy-San Fran, Wellington-San Fran",
-  "name": "Mountain Boy",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/t/e/s/cb46bae3-1954-4bf3-b512-4e6e13c14504.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-08-00:00"
-  ],
-  "displayDate": "Thu 08 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/mountain-boy-tickets-ae1629242",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "BRODERBEATS Presents INTUITION Vol 3-San Fran, Wellington-San Fran",
-  "name": "BRODERBEATS Presents INTUITION Vol 3",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/f/w/p/145d166d-01eb-42ff-b69d-b9c751c8950e.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-09-00:00"
-  ],
-  "displayDate": "Fri 09 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/broderbeats-tickets-ae1613836",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Where s Jai-San Fran, Wellington-San Fran",
-  "name": "Where s Jai",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/g/h/x/5c7f073a-2be7-40c1-a0e0-27bc47985156.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-10-00:00"
-  ],
-  "displayDate": "Sat 10 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/where-s-jai-tickets-ae1603030",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "La Latina-San Fran, Wellington-San Fran",
-  "name": "La Latina",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/k/k/y/3732da3e-8044-465f-bc28-a7c344e82206.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-10-10-00:00"
-  ],
-  "displayDate": "Sat 10 Oct",
-  "url": "https://www.sanfran.co.nz/all-events/la-latina-tickets-ae1695058",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
   "id": "Star Time Wellington Jazz Festival-San Fran, Wellington-San Fran",
   "name": "Star Time Wellington Jazz Festival",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/p/g/l/eadb54f9-25be-45e8-b25c-4969942100cc.jpg",
@@ -193,6 +53,66 @@
   ],
   "displayDate": "Sun 18 Oct",
   "url": "https://www.sanfran.co.nz/all-events/avatar-earth-wind-and-fire-tribute-wellington-jazz-festival-tickets-ae1690409",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Ani Saafa-San Fran, Wellington-San Fran",
+  "name": "Ani Saafa",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/a/f/v/ee15ef00-3437-4038-a8c9-37eb02e1db7a.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-22-00:00"
+  ],
+  "displayDate": "Thu 22 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/ani-saafa-tickets-ae1658427",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Mini SLACK-San Fran, Wellington-San Fran",
+  "name": "Mini SLACK",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/x/d/p/3cdf6b17-afd0-4769-8c78-f2aa297f6369.jpeg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-23-00:00"
+  ],
+  "displayDate": "Fri 23 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/mini-slack-tickets-ae1702436",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Atomic-San Fran, Wellington-San Fran",
+  "name": "Atomic",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/q/u/i/2f8a7cac-7bcf-4540-95f4-ad58a3d562de.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-10-24-00:00"
+  ],
+  "displayDate": "Sat 24 Oct",
+  "url": "https://www.sanfran.co.nz/all-events/atomic-tickets-ae1417603",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -333,6 +253,26 @@
   ],
   "displayDate": "Sat 07 Nov",
   "url": "https://www.sanfran.co.nz/all-events/myshaan-tickets-ae1693142",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "BAILE INoLVIDABLE Bad Bunny Appreciation Party Wellington-San Fran, Wellington-San Fran",
+  "name": "BAILE INoLVIDABLE Bad Bunny Appreciation Party Wellington",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/s/e/l/4c25ee12-d07c-432e-8a86-3272a3df0226.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-11-07-00:00"
+  ],
+  "displayDate": "Sat 07 Nov",
+  "url": "https://www.sanfran.co.nz/all-events/baile-inolvidable-bad-bunny-appreciation-party-tickets-ae1652989",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -520,6 +460,46 @@
   "labels": []
 },
 {
+  "id": "Allegra Krieger-San Fran, Wellington-San Fran",
+  "name": "Allegra Krieger",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/t/e/h/0f55ee2d-4290-4088-b71e-a6d335dc2b91.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-12-03-00:00"
+  ],
+  "displayDate": "Thu 03 Dec",
+  "url": "https://www.sanfran.co.nz/all-events/allegra-krieger-tickets-ae1702802",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Park Rd-San Fran, Wellington-San Fran",
+  "name": "Park Rd",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/a/g/e/391e889c-4abb-4819-a9b4-fc82e3f2b6ef.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-12-04-00:00"
+  ],
+  "displayDate": "Fri 04 Dec",
+  "url": "https://www.sanfran.co.nz/all-events/park-rd-tickets-ae1339523",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "The Reytons-San Fran, Wellington-San Fran",
   "name": "The Reytons",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/d/g/x/85cd06d3-7d79-44c1-a3f5-e2e37dc01e6a.jpg",
@@ -533,6 +513,26 @@
   ],
   "displayDate": "Mon 07 Dec",
   "url": "https://www.sanfran.co.nz/all-events/the-reytons-tickets-ae1078519",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Show Me The Body-San Fran, Wellington-San Fran",
+  "name": "Show Me The Body",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/g/i/l/2b8da488-08de-412d-b51a-1da230d3472b.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-12-08-00:00"
+  ],
+  "displayDate": "Tue 08 Dec",
+  "url": "https://www.sanfran.co.nz/all-events/show-me-the-body-tickets-ae965134",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -580,6 +580,26 @@
   "labels": []
 },
 {
+  "id": "Pachyman The Lahaar-San Fran, Wellington-San Fran",
+  "name": "Pachyman The Lahaar",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/z/b/j/1aa569cf-581a-405e-9325-3d48f56efc93.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-01-24-00:00"
+  ],
+  "displayDate": "Sun 24 Jan",
+  "url": "https://www.sanfran.co.nz/all-events/pachyman-the-lahaar-tickets-ae1703385",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Casey Rocket-San Fran, Wellington-San Fran",
   "name": "Casey Rocket",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/c/u/d/811d6284-a64f-4fe7-9128-dd61c387c075.jpg",
@@ -597,6 +617,26 @@
   "eventType": "Music & Concerts",
   "long_description": "",
   "description": "",
+  "labels": []
+},
+{
+  "id": "Alex Cameron-San Fran, Wellington-San Fran",
+  "name": "Alex Cameron",
+  "imageUrl": "https://networksites.livenationinternational.com/networksites/fhljvjny/cinematic-portrait-in-the-hollywood-hills.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-01-30-00:00"
+  ],
+  "displayDate": "Sat 30 Jan",
+  "url": "https://www.sanfran.co.nz/all-events/alex-cameron-tickets-ae842362",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "<p>Alex Cameron is heading to Aotearoa January 2027!</p>",
+  "description": "Alex Cameron is heading to Aotearoa January 2027!",
   "labels": []
 },
 {
@@ -633,6 +673,26 @@
   ],
   "displayDate": "Sat 13 Feb",
   "url": "https://www.sanfran.co.nz/all-events/the-smyths-tickets-ae68979",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Quicksand-San Fran, Wellington-San Fran",
+  "name": "Quicksand",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/b/g/o/b190201b-6839-4c4e-93d3-2fca23097c24.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-02-20-00:00"
+  ],
+  "displayDate": "Sat 20 Feb",
+  "url": "https://www.sanfran.co.nz/all-events/quicksand-tickets-ae510314",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
