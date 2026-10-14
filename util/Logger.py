@@ -3,7 +3,7 @@ import os
 import sys
 import time as _time
 from contextlib import contextmanager
-from typing import Iterator
+from typing import Iterator, Sequence
 
 _DIVIDER = "-" * 100
 _LEVELS = {"DEBUG": logging.DEBUG, "INFO": logging.INFO, "WARNING": logging.WARNING, "ERROR": logging.ERROR}
@@ -54,6 +54,7 @@ class Logger:
         Logger.set_source("Eventbrite") prefix every line with "[Eventbrite] "
         Logger.progress(3, 15, "page")  -> "[3/15] page"
         Logger.divider()                the "----" separator
+        Logger.table(headers, rows)     an aligned text table
         with Logger.timed("scrape"):    logs how long the block took
 
     Set LOG_FILE=<path> to also write logs to a file.
@@ -98,6 +99,15 @@ class Logger:
     @classmethod
     def divider(cls) -> None:
         cls._logger.info(_DIVIDER)
+
+    @classmethod
+    def table(cls, headers: Sequence[str], rows: Sequence[Sequence[object]]) -> None:
+        cells = [[str(value) for value in row] for row in rows]
+        widths = [max([len(header), *(len(row[i]) for row in cells)]) for i, header in enumerate(headers)]
+        cls.info(" | ".join(header.ljust(width) for header, width in zip(headers, widths)).rstrip())
+        cls.info("-+-".join("-" * width for width in widths))
+        for row in cells:
+            cls.info(" | ".join(value.ljust(width) for value, width in zip(row, widths)).rstrip())
 
     @classmethod
     @contextmanager
