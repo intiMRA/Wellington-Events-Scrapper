@@ -740,6 +740,46 @@
   "labels": []
 },
 {
+  "id": "Slow Pilot Belgium Performing the songs of Jeff Buckley-San Fran, Wellington-San Fran",
+  "name": "Slow Pilot Belgium Performing the songs of Jeff Buckley",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/g/g/b/4b1ba2f0-24cc-48d3-89b0-85a284612a7e.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-03-24-00:00"
+  ],
+  "displayDate": "Wed 24 Mar",
+  "url": "https://www.sanfran.co.nz/all-events/slow-pilot-belgium--tickets-ae1704325",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "The Relatives-San Fran, Wellington-San Fran",
+  "name": "The Relatives",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/l/q/p/502944c1-382d-4b73-84c7-fdb1fb3da0aa.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-04-10-00:00"
+  ],
+  "displayDate": "Sat 10 Apr",
+  "url": "https://www.sanfran.co.nz/all-events/the-relatives-tickets-ae1704329",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "John Craigie I Swam Here Tour-San Fran, Wellington-San Fran",
   "name": "John Craigie I Swam Here Tour",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/d/e/x/ad4b6c85-9aa1-44f3-bb4f-98118ef5b639.jpg",

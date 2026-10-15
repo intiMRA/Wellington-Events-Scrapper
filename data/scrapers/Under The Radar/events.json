@@ -1,269 +1,169 @@
 [
 {
-  "id": "Moon Jam Nite-MOON, Wellington -Under The Radar",
-  "name": "Moon Jam Nite",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104476-895093.jpg",
-  "venue": "MOON, Wellington ",
-  "coordinates": {
-    "lat": -41.3132459,
-    "long": 174.7798505
-  },
-  "dates": [
-    "2026-10-13-19:30"
-  ],
-  "displayDate": "Tue 13 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/104476/Moon-Jam-Nite.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Get your 15 minutes of fame at Newtown's famous Moon Jam Nite, every Tuesday from 7.30pm\n\nThe evening starts off as a regular open mic, and transforms into a full on jam towards the end.\n\nPut your moniker into the sign up sheet, and own your time slot. You can call upon the many talented muso's available to help you play your slot.\n\nA full stage with electric guitar, bass, keyboard, drums, mics, lights and full support from our sound tech.\n\nBring your own songs, poems, and friends (and make some new ones too)\n\n",
-  "description": "Get your 15 minutes of fame at Newtown's famous Moon Jam Nite, every Tuesday from 7.30pm The evening starts off as a regular open mic, and transforms into a full on jam towards the end.\nPut your moniker into the sign up sheet, and own your time slot.\nYou can call upon the many talented muso's available to help you play your slot.\nA full stage with electric guitar, bass, keyboard, drums, mics, lights and full support from our sound tech.\nBring your own songs, poems, and friends (and make some new ones too)",
-  "labels": []
-},
-{
-  "id": "The Matthew Sutton Jazz Hop Trio-Havana Bar, Wellington -Under The Radar",
-  "name": "The Matthew Sutton Jazz Hop Trio",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104584-521439.jpg",
-  "venue": "Havana Bar, Wellington ",
-  "coordinates": {
-    "lat": -41.2958494,
-    "long": 174.7751211
-  },
-  "dates": [
-    "2026-10-14-22:00"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/104584/The-Matthew-Sutton-Jazz-Hop-Trio.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "The Matthew Sutton Jazz-Hop Trio is playing the Wellington Jazz Festival for the second year, blending Jazz with the pulse of Hip Hop and Funk, delivering smooth grooves and free-flowing improvisation. They transform both originals and covers into fresh, jazz-hop-infused sounds, making every performance unique whilst pushing rhythmic and melodic boundaries.\nTicket Link Below \u2193",
-  "description": "The Matthew Sutton Jazz-Hop Trio is playing the Wellington Jazz Festival for the second year, blending Jazz with the pulse of Hip Hop and Funk, delivering smooth grooves and free-flowing improvisation.\nThey transform both originals and covers into fresh, jazz-hop-infused sounds, making every performance unique whilst pushing rhythmic and melodic boundaries.\nTicket Link Below \u2193",
-  "labels": []
-},
-{
-  "id": "Jazz Festival: Tribute To Paul Desmond And Chet Baker-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: Tribute To Paul Desmond And Chet Baker",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103906-97066.jpeg",
-  "venue": "The Undercurrent, Wellington ",
+  "id": "Rogue Classic Albums Live | Night Train-Bedlam And Squalor, Wellington -Under The Radar",
+  "name": "Rogue Classic Albums Live | Night Train",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104238-867138.jpg",
+  "venue": "Bedlam And Squalor, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-10-14-18:30"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103906/Jazz-Festival-Tribute-To-Paul-Desmond-And-Chet-Baker.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents a Tribute to Paul Desmond & Chet Baker!\n\nEnter a world of entrancingly elegant Jazz. Leave your worries behind as you listen to the mastery of Paul Desmond and Chet Baker being played through Cameron and Sylvester and hear the sweet tones of Jim Hall come to life via the ever incredible Sascha Huny. Supported by the incredible Jago Watson on bass and Aaron McDaniel on Drums, you are in for an evening of a beautiful mix of classic jazz tunes (with a twist) and some lesser known bangers. Come along, relax at the Undercurrent and enjoy the music.\n\nWednesday Oct 14\nDoors 6pm\nMusic 6:30pm\n$15 ($10 students)\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents a Tribute to Paul Desmond & Chet Baker!\nEnter a world of entrancingly elegant Jazz.\nLeave your worries behind as you listen to the mastery of Paul Desmond and Chet Baker being played through Cameron and Sylvester and hear the sweet tones of Jim Hall come to life via the ever incredible Sascha Huny.\nSupported by the incredible Jago Watson on bass and Aaron McDaniel on Drums, you are in for an evening of a beautiful mix of classic jazz tunes (with a twist) and some lesser known bangers.\nCome along, relax at the Undercurrent and enjoy the music.",
-  "labels": []
-},
-{
-  "id": "Jazz Festival: The Noah Bryn Ensemble-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: The Noah Bryn Ensemble",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103915-410445.jpeg",
-  "venue": "The Undercurrent, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-10-14-21:30"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103915/Jazz-Festival-The-Noah-Bryn-Ensemble.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents The Noah Bryn Ensemble!\n\nPlaying a mix of classics and original tunes, combining influences from jazz, rock and folk singer/songwriter music. This ensemble is made up of Simon Langham who will be tinkling away at the keys, Matt Mclaggan whacking the kit, Noah Bryn twangling on the guitar and occasionally the vocal cords and Jamie Daniels plunking away at the bass.\n\nWednesday Oct 14\nDoors 9pm\nMusic 9:30pm\n$15 ($10 unwaged)\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents The Noah Bryn Ensemble!\nPlaying a mix of classics and original tunes, combining influences from jazz, rock and folk singer/songwriter music.\nThis ensemble is made up of Simon Langham who will be tinkling away at the keys, Matt Mclaggan whacking the kit, Noah Bryn twangling on the guitar and occasionally the vocal cords and Jamie Daniels plunking away at the bass.\nWednesday Oct 14 Doors 9pm Music 9:30pm $15 ($10 unwaged) Tickets available online and at the door!\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!",
-  "labels": []
-},
-{
-  "id": "Jazz Festival: Hupstein Eng And Friends-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: Hupstein Eng And Friends",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103917-893759.jpeg",
-  "venue": "The Undercurrent, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-10-14-17:00"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103917/Jazz-Festival-Hupstein-Eng-And-Friends.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents Hupstein Eng and Friends!\n\nJoin Upper Hutt guitarist and vocalist Hupstein Eng and an all-star band for an evening of swinging vocal jazz inspired by the timeless music of Frank Sinatra, Nat King Cole, and Chet Baker. Featuring Freddy Sayer (piano), Jacob Meikle (bass), Aaron McDaniel (drums), and special guests, the group brings the Great American Songbook to life with bouncy swing, lyrical improvisation, and playful musical interaction. Expect fresh takes on beloved jazz standards, plenty of spontaneity, and an intimate performance that celebrates the joy of live jazz.\n\nWednesday Oct 14\nDoors 4:30pm\nMusic 5pm\n$20 ($15 unwaged)\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents Hupstein Eng and Friends!\nJoin Upper Hutt guitarist and vocalist Hupstein Eng and an all-star band for an evening of swinging vocal jazz inspired by the timeless music of Frank Sinatra, Nat King Cole, and Chet Baker.\nFeaturing Freddy Sayer (piano), Jacob Meikle (bass), Aaron McDaniel (drums), and special guests, the group brings the Great American Songbook to life with bouncy swing, lyrical improvisation, and playful musical interaction.\nExpect fresh takes on beloved jazz standards, plenty of spontaneity, and an intimate performance that celebrates the joy of live jazz.\nWednesday Oct 14 Doors 4:30pm Music 5pm $20 ($15 unwaged) Tickets available online and at the door!",
-  "labels": []
-},
-{
-  "id": "Jazz Festival: The David Fromont Quintet-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: The David Fromont Quintet",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103959-67722.jpeg",
-  "venue": "The Undercurrent, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-10-14-20:00"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103959/Jazz-Festival-The-David-Fromont-Quintet.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents The David Fromont Quintet!\n\nComing down from Auckland, it's the David Fromont Quintet!\n\nDavid Fromont is a young trombonist from the city of sails making his Wellington Jazz Festival debut this year with his jazz quintet. Having an ear for everything, David will be putting on original compositions and classic jazz arrangements while mixing experimental trombone explorations and true-to-tradition jazz quintet playing. Featuring in his band is Samuel Voyle on the saxophone, Ryan Tomov on the piano, Finn McNeill on the drums, and Minjoon Kim on the bass.\n\nExpect the unexpected (and a little of the expected as well!) with the David Fromont Quintet at Undercurrent.\n\nWednesday Oct 14\nDoors 7:30pm\nMusic 8pm\n$15\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents The David Fromont Quintet!\nDavid Fromont is a young trombonist from the city of sails making his Wellington Jazz Festival debut this year with his jazz quintet.\nHaving an ear for everything, David will be putting on original compositions and classic jazz arrangements while mixing experimental trombone explorations and true-to-tradition jazz quintet playing.\nFeaturing in his band is Samuel Voyle on the saxophone, Ryan Tomov on the piano, Finn McNeill on the drums, and Minjoon Kim on the bass.\nwith the David Fromont Quintet at Undercurrent.",
-  "labels": []
-},
-{
-  "id": "Rivering: Original Compositions By Lily Rose Atu-Thistle Hall, Wellington -Under The Radar",
-  "name": "Rivering: Original Compositions By Lily Rose Atu",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104405-776372.jpg",
-  "venue": "Thistle Hall, Wellington ",
-  "coordinates": {
-    "lat": -41.2973612,
-    "long": 174.7736646
-  },
-  "dates": [
-    "2026-10-14-21:00"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/104405/Rivering-Original-Compositions-By-Lily-Rose-Atu.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "Lily Rose Atu recently finished studying Jazz at the NZ School of Music, and is excited to share her original works. This collection of music is an observation that we are in constant motion, occupying different spaces throughout time, moving, transforming and streaming, as a river would. This collection has been developed over the past few years, inspired by her love for jazz and neo-soul. This is the last album fundraising gig before the band goes into recording in late October of this year! Your support would be so incredible!\n\nThis music will be brought to life by the magical and marvelous: Jono Ben Zur on bass, Paulina Hernandez on piano, Ranu Wijesuriya on drums, Elisa Bird on baritone, Frank Paton on trumpet, Victoria Ferry on vocals, and Lily Rose Atu on saxophone and vocals.\n\nDoors: 8:30pm\n* Alcohol free event\n* Wheelchair accessible venue",
-  "description": "Lily Rose Atu recently finished studying Jazz at the NZ School of Music, and is excited to share her original works.\nThis collection of music is an observation that we are in constant motion, occupying different spaces throughout time, moving, transforming and streaming, as a river would.\nThis collection has been developed over the past few years, inspired by her love for jazz and neo-soul.\nThis is the last album fundraising gig before the band goes into recording in late October of this year!\nYour support would be so incredible!",
-  "labels": []
-},
-{
-  "id": "Louis TM (Jazz Festival)-MOON, Wellington -Under The Radar",
-  "name": "Louis TM (Jazz Festival)",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104488-795020.jpeg",
-  "venue": "MOON, Wellington ",
-  "coordinates": {
-    "lat": -41.3132459,
-    "long": 174.7798505
-  },
-  "dates": [
-    "2026-10-14-20:30"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/104488/Louis-TM-Jazz-Festival.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "The good reverend of R&B and soothsayer of soul LOUIS TM presents an intimate festival performance celebrating the enduring connection between soul, jazz and gospel. Having joined the cast of Aotearoa supergroup FLY MY PRETTIES and years of backing some of the country's leading artists, he brings his unique style of soul to the stage.\n\nSoul music has always shared its roots with jazz\u2014born from improvisation, storytelling and raw emotion. In this special Wellington Jazz Festival performance, he brings those traditions together in an intimate evening of original music and timeless soul classics - a night not to be missed!\n\nLouis TM is a force to be reckoned with on Aotearoa's incredible soul scene - Muzic.net.nz\n\nIt\u2019s as if the whole crowd exhaled at once... Louis transported us to a space of hope and togetherness - bFM review.",
-  "description": "The good reverend of R&B and soothsayer of soul LOUIS TM presents an intimate festival performance celebrating the enduring connection between soul, jazz and gospel.\nHaving joined the cast of Aotearoa supergroup FLY MY PRETTIES and years of backing some of the country's leading artists, he brings his unique style of soul to the stage.\nSoul music has always shared its roots with jazz\u2014born from improvisation, storytelling and raw emotion.\nIn this special Wellington Jazz Festival performance, he brings those traditions together in an intimate evening of original music and timeless soul classics - a night not to be missed!\nLouis TM is a force to be reckoned with on Aotearoa's incredible soul scene - Muzic.net.nz It\u2019s as if the whole crowd exhaled at once... Louis transported us to a space of hope and togetherness - bFM review.",
-  "labels": []
-},
-{
-  "id": "Mark Lockett Trio-Cable Top Eatery, Wellington -Under The Radar",
-  "name": "Mark Lockett Trio",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/105030-977507.jpg",
-  "venue": "Cable Top Eatery, Wellington ",
-  "coordinates": {
-    "lat": -41.2856291,
-    "long": 174.7676135
-  },
-  "dates": [
-    "2026-10-14-17:30"
-  ],
-  "displayDate": "Wed 14 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/105030/Mark-Lockett-Trio.utr",
-  "source": "Under The Radar",
-  "eventType": "Music & Concerts",
-  "long_description": "The Mark Lockett Trio brings together three of New Zealand\u2019s most exciting jazz voices. With Mark Lockett on drums, Daniel Yeabsley on bass and Dan Hayles on piano, this trio reimagines standards from the Great American Songbook with energy, playfulness, and heart.\n\nEach musician is a standout artist in their own right, and their weekly residency over the past three years means this is anything but thrown together.\n\nCome up, check it out.",
-  "description": "The Mark Lockett Trio brings together three of New Zealand\u2019s most exciting jazz voices.\nWith Mark Lockett on drums, Daniel Yeabsley on bass and Dan Hayles on piano, this trio reimagines standards from the Great American Songbook with energy, playfulness, and heart.\nEach musician is a standout artist in their own right, and their weekly residency over the past three years means this is anything but thrown together.\nCome up, check it out.",
-  "labels": []
-},
-{
-  "id": "Jazz Festival: Soul Trader-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: Soul Trader",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103904-174702.jpeg",
-  "venue": "The Undercurrent, Wellington ",
-  "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
-  },
-  "dates": [
-    "2026-10-15-17:00"
+    "2026-10-15-17:30"
   ],
   "displayDate": "Thu 15 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103904/Jazz-Festival-Soul-Trader.utr",
+  "url": "https://www.undertheradar.co.nz/gig/104238/Rogue-Classic-Albums-Live--Night-Train.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents Soul Trader!\n\nWe are a seven piece soul band covering songs from some of the greatest voices of the 20th century including Aretha Franklin, Nina Simone and Roberta Flack. We explore sounds of gospel music and rhythm and blues with rich vocals backed by triple horns and a grooving rhythm section.\n\nThursday Oct 15\nDoors 4:30pm\nMusic 5pm\n$10 ($5 students)\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents Soul Trader!\nWe are a seven piece soul band covering songs from some of the greatest voices of the 20th century including Aretha Franklin, Nina Simone and Roberta Flack.\nWe explore sounds of gospel music and rhythm and blues with rich vocals backed by triple horns and a grooving rhythm section.\nThursday Oct 15 Doors 4:30pm Music 5pm $10 ($5 students) Tickets available online and at the door!\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!",
+  "long_description": "Join Ayrton Foote, Dan Yeabsley & Mark Lockett as they pay tribute to the great Oscar Peterson with their take on the classic 1963 album Night Train in the cosy surrounds of Bedlam & Squalor\n\n$10 online $15 on the door\n\nPart of the Wellington Jazz Festival 2026",
+  "description": "Join Ayrton Foote, Dan Yeabsley & Mark Lockett as they pay tribute to the great Oscar Peterson with their take on the classic 1963 album Night Train in the cosy surrounds of Bedlam & Squalor $10 online $15 on the door Part of the Wellington Jazz Festival 2026",
   "labels": []
 },
 {
-  "id": "Jazz Festival: B.R.O.A.T. Quartet (An Evening Of Clowncore)-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: B.R.O.A.T. Quartet (An Evening Of Clowncore)",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103948-569906.jpeg",
-  "venue": "The Undercurrent, Wellington ",
+  "id": "The Lily Shaw Quartet-Bedlam And Squalor, Wellington -Under The Radar",
+  "name": "The Lily Shaw Quartet",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104239-666399.jpg",
+  "venue": "Bedlam And Squalor, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
+  },
+  "dates": [
+    "2026-10-15-20:30"
+  ],
+  "displayDate": "Thu 15 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/104239/The-Lily-Shaw-Quartet.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Fresh from three years of touring worldwide with Grammy-nominated band The Teskey Brothers, saxophonist and vocalist Lily Rose Shaw will be presenting a programme of original vocal jazz compositions, joined on stage by Hector McLachlan on keys, Hikurangi Schaverien-Kaa on drums and Seth Boy on bass.\n\nLily's music has a strong foundation in jazz, and\u00a0takes inspiration from a lifetime of eclectic musical interests, from classical to soul. Lily will be debuting new music for this special one-off, Jazz Festival performance in her hometown.\n\n$15 online, $20 on the door\n\n\nPart of the Wellington Jazz Festival 2026\n",
+  "description": "Fresh from three years of touring worldwide with Grammy-nominated band The Teskey Brothers, saxophonist and vocalist Lily Rose Shaw will be presenting a programme of original vocal jazz compositions, joined on stage by Hector McLachlan on keys, Hikurangi Schaverien-Kaa on drums and Seth Boy on bass.\nLily's music has a strong foundation in jazz, and\u00a0takes inspiration from a lifetime of eclectic musical interests, from classical to soul.\nLily will be debuting new music for this special one-off, Jazz Festival performance in her hometown.\n$15 online, $20 on the door Part of the Wellington Jazz Festival 2026",
+  "labels": []
+},
+{
+  "id": "Tim Honiss Quartet - Wellington Jazz Festival-Vogelmorn Upstairs, Wellington -Under The Radar",
+  "name": "Tim Honiss Quartet - Wellington Jazz Festival",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104401-330721.jpeg",
+  "venue": "Vogelmorn Upstairs, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-10-15-18:00"
+  ],
+  "displayDate": "Thu 15 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/104401/Tim-Honiss-Quartet---Wellington-Jazz-Festival.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Presenting the Tim Honiss Quartet - featuring the trumpet talents of Sylvester Green! Playing a new set of originals from pianist Tim Honiss (soon to be heard on an upcoming album), along with select standards and other compositions heard on Tim's previous two albums. Also featured in this talented ensemble, Jacob Hurst (bass) and Ranu Wijesuriya (drums).\n\nPLEASE NOTE:\nVogelmorn Upstairs is not a wheelchair accessible building. There is an accessible\nbathroom in the space. This is an all ages venue but those under the age of 16 must be\naccompanied by a designated adult after 8pm. The Vogelmorn Precinct is a community\nspace located in a residential area. With that in mind, the team ask that you be kind to\nothers' and that when you leave the gig, you do so quietly to avoid disturbing our\nneighbours.\n\n",
+  "description": "Presenting the Tim Honiss Quartet - featuring the trumpet talents of Sylvester Green!\nPlaying a new set of originals from pianist Tim Honiss (soon to be heard on an upcoming album), along with select standards and other compositions heard on Tim's previous two albums.\nAlso featured in this talented ensemble, Jacob Hurst (bass) and Ranu Wijesuriya (drums).\nVogelmorn Upstairs is not a wheelchair accessible building.\nThere is an accessible bathroom in the space.",
+  "labels": []
+},
+{
+  "id": "Disco T, A Masayoshi Takanaka Tribute-Glou Glou, Wellington -Under The Radar",
+  "name": "Disco T, A Masayoshi Takanaka Tribute",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104486-458378.jpg",
+  "venue": "Glou Glou, Wellington ",
+  "coordinates": {
+    "lat": -41.2928835,
+    "long": 174.782662
+  },
+  "dates": [
+    "2026-10-15-21:00"
+  ],
+  "displayDate": "Thu 15 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/104486/Disco-T-A-Masayoshi-Takanaka-Tribute.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "Inspired by Masayoshi Takanaka's recent visit to Auckland, Disco T is covering Takanakas best work, from a variety of albums, focusing on the grooviest funkiest tunes in his whole discography. Featuring Sam Glover on bass, Max Horn on guitar, Jono Weston on keys, Eric Sebastian on drums, and Hayden Lam on percussion, this is not a gig to miss!",
+  "description": "Inspired by Masayoshi Takanaka's recent visit to Auckland, Disco T is covering Takanakas best work, from a variety of albums, focusing on the grooviest funkiest tunes in his whole discography.\nFeaturing Sam Glover on bass, Max Horn on guitar, Jono Weston on keys, Eric Sebastian on drums, and Hayden Lam on percussion, this is not a gig to miss!",
+  "labels": []
+},
+{
+  "id": "Loose Parts (Jazz Festival)-MOON, Wellington -Under The Radar",
+  "name": "Loose Parts (Jazz Festival)",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104487-482368.jpeg",
+  "venue": "MOON, Wellington ",
+  "coordinates": {
+    "lat": -41.3132459,
+    "long": 174.7798505
   },
   "dates": [
     "2026-10-15-21:30"
   ],
   "displayDate": "Thu 15 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103948/Jazz-Festival-BROAT--Quartet-An-Evening-Of-Clowncore.utr",
+  "url": "https://www.undertheradar.co.nz/gig/104487/Loose-Parts-Jazz-Festival.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents B.R.O.A.T. Quartet: An Evening of Clowncore!\n\nB.R.O.A.T. is a quartet with a focus on expansive, rock and pop infused jazz music. For one evening only, we are bringing you a selection of music written by the mysterious duo known as Clowncore and arranged by saxophonist Finn Grieve. Joining Finn is Julia Ramsay on keys, Max Stopyra on bass and Ned Rainey on the drums. Expect danceable grooves, driving energy and a healthy amount of swing thrown in with the chaotic beats and abrasive textures of Clowncore's delightful musical body of work. A night of familiar antics complete with a new face of makeup.\n\nThursday Oct 15\nDoors 9pm\nMusic 9:30pm\n$15 ($10 unwaged)\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents B.R.O.A.T.\nQuartet: An Evening of Clowncore!\nis a quartet with a focus on expansive, rock and pop infused jazz music.\nFor one evening only, we are bringing you a selection of music written by the mysterious duo known as Clowncore and arranged by saxophonist Finn Grieve.\nExpect danceable grooves, driving energy and a healthy amount of swing thrown in with the chaotic beats and abrasive textures of Clowncore's delightful musical body of work.",
+  "long_description": "Loose Parts is an all new live dance-music project who will be performing original improvised music inspired by live electronic, broken beats, jungle and liquid funk music. Taking inspiration from classic dance floor rhythms and sounds, they will be putting their own spin on club and DJ music via the form of an entirely live band, steeped in jazz and improvisation.",
+  "description": "Loose Parts is an all new live dance-music project who will be performing original improvised music inspired by live electronic, broken beats, jungle and liquid funk music.\nTaking inspiration from classic dance floor rhythms and sounds, they will be putting their own spin on club and DJ music via the form of an entirely live band, steeped in jazz and improvisation.",
   "labels": []
 },
 {
-  "id": "Jazz Festival: Cranberry Trio At Undercurrent Books-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: Cranberry Trio At Undercurrent Books",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103958-451730.jpeg",
-  "venue": "The Undercurrent, Wellington ",
+  "id": "Oscar Lav\u00ebn: The Music Of Django Reinhardt-Saint Michael's Anglican Church, Wellington -Under The Radar",
+  "name": "Oscar Lav\u00ebn: The Music Of Django Reinhardt",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104505-508071.JPG",
+  "venue": "Saint Michael's Anglican Church, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-10-15-18:30"
+    "2026-10-15-18:00"
   ],
   "displayDate": "Thu 15 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103958/Jazz-Festival-Cranberry-Trio-At-Undercurrent-Books.utr",
+  "url": "https://www.undertheradar.co.nz/gig/104505/Oscar-Lavn-The-Music-Of-Django-Reinhardt.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents Cranberry Trio!\n\nCranberry Trio are a T\u0101maki Makaurau/Auckland based trio made up of Iggy Nama Ruci (alto saxophone), Ryan Tomov (upright bass), and Finn McNeill (drums).\u00a0\n\nThe group have an exciting and original style shaped by their years of playing together, their shared musical influences and philosophies and an interest in exploring collective improvisation, rhythmic complexity and melodic interplay. Influenced by the sounds and theories of Ornette Coleman (most notably his theory of harmolodics), Anthony Braxton, John & Alice Coltrane and Derek Bailey - The Cranberry Trio will present a set entirely made up of their original compositions, some unearthed for the first time for curious ears to discover - at Undercurrent Books this Wellington Jazz Festival!\u00a0\n\nThursday Oct 15\nDoors 6pm\nMusic 6:30pm\n$20 ($10 students)\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents Cranberry Trio!\nCranberry Trio are a T\u0101maki Makaurau/Auckland based trio made up of Iggy Nama Ruci (alto saxophone), Ryan Tomov (upright bass), and Finn McNeill (drums).\nThe group have an exciting and original style shaped by their years of playing together, their shared musical influences and philosophies and an interest in exploring collective improvisation, rhythmic complexity and melodic interplay.\nInfluenced by the sounds and theories of Ornette Coleman (most notably his theory of harmolodics), Anthony Braxton, John & Alice Coltrane and Derek Bailey - The Cranberry Trio will present a set entirely made up of their original compositions, some unearthed for the first time for curious ears to discover - at Undercurrent Books this Wellington Jazz Festival!\nThursday Oct 15 Doors 6pm Music 6:30pm $20 ($10 students) Tickets available online and at the door!",
+  "long_description": "Oscar Lav\u00ebn and Les Tripes (French for 'The Guts') Present:\n\nThe Music of Django Reinhardt\nDynamic woodwind virtuoso Oscar Lav\u00ebn joins forces with swing guitarist specialists Adrian Jensen & James Quick, and double bass raconteur Robert Henderson to present a homage to the unique music of guitarist Django Reinhardt and violinist Stephane Grapelli. Together they will create hard-working interpretations of the infectious, foot-stomping, film noir music known in 1940s Paris as Hot Club. This time, they're performing in the beautiful historic Saint Michael's Church.\n6pm downbeat.",
+  "description": "Oscar Lav\u00ebn and Les Tripes (French for 'The Guts') Present: The Music of Django Reinhardt Dynamic woodwind virtuoso Oscar Lav\u00ebn joins forces with swing guitarist specialists Adrian Jensen & James Quick, and double bass raconteur Robert Henderson to present a homage to the unique music of guitarist Django Reinhardt and violinist Stephane Grapelli.\nTogether they will create hard-working interpretations of the infectious, foot-stomping, film noir music known in 1940s Paris as Hot Club.\nThis time, they're performing in the beautiful historic Saint Michael's Church.\n6pm downbeat.",
   "labels": []
 },
 {
-  "id": "Jazz Festival: John Rae's BOP-IT!-The Undercurrent, Wellington -Under The Radar",
-  "name": "Jazz Festival: John Rae's BOP-IT!",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103998-690821.jpeg",
-  "venue": "The Undercurrent, Wellington ",
+  "id": "The Lowkeys Live-Gibbons Hotel, Wellington -Under The Radar",
+  "name": "The Lowkeys Live",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104404-579466.jpg",
+  "venue": "Gibbons Hotel, Wellington ",
   "coordinates": {
-    "lat": -41.2887953,
-    "long": 174.7772114
+    "lat": -41.2924971,
+    "long": 174.7784044
   },
   "dates": [
-    "2026-10-15-20:00"
+    "2026-10-15-20:30"
   ],
   "displayDate": "Thu 15 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/103998/Jazz-Festival-John-Raes-BOP-IT!.utr",
+  "url": "https://www.undertheradar.co.nz/gig/104404/The-Lowkeys-Live.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents John Rae\u2019s BOP-IT!\n\nJohn Rae\u2019s BOP-IT! returns to the festival after last year's sell-out concert that had the crowd going wild.\n\nFeaturing a stellar lineup of Aotearoa\u2019s finest jazz musicians, John Rae\u2019s BOP-IT! delivers a high-energy celebration of the hard bop era. Rooted in the rich traditions of 1950s and 60s jazz, BOP-IT! brings new life to classic repertoire while exploring the bold, boundary-pushing spirit of post-bop.\n\nWith virtuosic solos, driving rhythms, and deep grooves, this will be one of the most exhilarating performances of the festival. Hard bop has always challenged both audiences and musicians alike\u2014and BOP-IT! takes it to the next level.\n\nThursday Oct 15\nDoors 7:30pm\nMusic 8pm\n$30\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
-  "description": "As part of Wellington Jazz Festival, The Undercurrent presents John Rae\u2019s BOP-IT!\nreturns to the festival after last year's sell-out concert that had the crowd going wild.\ndelivers a high-energy celebration of the hard bop era.\nbrings new life to classic repertoire while exploring the bold, boundary-pushing spirit of post-bop.\nWith virtuosic solos, driving rhythms, and deep grooves, this will be one of the most exhilarating performances of the festival.",
+  "long_description": "Soul Session #4 is on!\n\nThe Lowkeys are back, taking on Angie Stone, Donny Hathaway, D\u2019Angelo, Frank Ocean, Amy Winehouse, Durand Bernarr and more...\n\nSoul at the core, with a fresh take on songs that never get old.\n\nCome hear the songs you know, done the Lowkeys way.",
+  "description": "Soul Session #4 is on!\nThe Lowkeys are back, taking on Angie Stone, Donny Hathaway, D\u2019Angelo, Frank Ocean, Amy Winehouse, Durand Bernarr and more...\nSoul at the core, with a fresh take on songs that never get old.\nCome hear the songs you know, done the Lowkeys way.",
   "labels": []
 },
 {
-  "id": "Rogue Classic Albums Live | Mingus 'Changes One'-Rogue and Vagabond, Wellington -Under The Radar",
-  "name": "Rogue Classic Albums Live | Mingus 'Changes One'",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104222-845950.jpg",
-  "venue": "Rogue and Vagabond, Wellington ",
+  "id": "East Side Jive-Thistle Inn, Wellington -Under The Radar",
+  "name": "East Side Jive",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104690-883702.jpg",
+  "venue": "Thistle Inn, Wellington ",
+  "coordinates": {
+    "lat": -41.2776965,
+    "long": 174.7796332
+  },
+  "dates": [
+    "2026-10-15-19:30"
+  ],
+  "displayDate": "Thu 15 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/104690/East-Side-Jive.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "East Side Jive takes great songs and plays them in different ways, bringing jazz, blues, jive, and swing feels to classic rock and pop tunes, such as hits from Nat King Cole, Radiohead, Bruno Mars, Doris Day, the Bee Gees, and more. Featuring Carrie Green on vocals, East Side Jive also includes Jeremy Winter on piano, Murray Costello on bass, and Sean Barker on drums.\n\nBook a table at The Thistle Inn for a great night of music, food, and drinks!",
+  "description": "East Side Jive takes great songs and plays them in different ways, bringing jazz, blues, jive, and swing feels to classic rock and pop tunes, such as hits from Nat King Cole, Radiohead, Bruno Mars, Doris Day, the Bee Gees, and more.\nFeaturing Carrie Green on vocals, East Side Jive also includes Jeremy Winter on piano, Murray Costello on bass, and Sean Barker on drums.\nBook a table at The Thistle Inn for a great night of music, food, and drinks!",
+  "labels": []
+},
+{
+  "id": "Li'l Chuck The One Man Skiffle Machine Wellington Capital Blues-Lynotts Irish Pub, Wellington -Under The Radar",
+  "name": "Li'l Chuck The One Man Skiffle Machine Wellington Capital Blues",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104852-190037.jpg",
+  "venue": "Lynotts Irish Pub, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
@@ -272,31 +172,111 @@
     "2026-10-15-19:00"
   ],
   "displayDate": "Thu 15 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/104222/Rogue-Classic-Albums-Live--Mingus-Changes-One.utr",
+  "url": "https://www.undertheradar.co.nz/gig/104852/Lil-Chuck-The-One-Man-Skiffle-Machine-Wellington-Capital-Blues.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "Join Seth Boy and his band as they recreate Charles Mingus\u2019 1956 classic, \u2018Changes One\u2019\n\nSeth Boy (bass) presents the music of visionary composer and bassist Charles Mingus' album Changes One. Joining him are Michael Costeloe (trumpet), Blair Latham (saxophone), Duncan Haynes (piano), Mark Lockett (drum set), and special guest vocalist Zoe Moon.\n\n$15 presales, $20 on the door\n\n\nPart of the Wellington Jazz Festival 2026\n",
-  "description": "Join Seth Boy and his band as they recreate Charles Mingus\u2019 1956 classic, \u2018Changes One\u2019 Seth Boy (bass) presents the music of visionary composer and bassist Charles Mingus' album Changes One.\nJoining him are Michael Costeloe (trumpet), Blair Latham (saxophone), Duncan Haynes (piano), Mark Lockett (drum set), and special guest vocalist Zoe Moon.\n$15 presales, $20 on the door Part of the Wellington Jazz Festival 2026",
+  "long_description": "Official capital Blues info here\nhttps://www.capitalblues.co.nz/.../lil-chuck-the-one-man.../\nOfficial Jazz Festival info here https://www.jazzfestival.nz/.../lil-chuck-the-one-man.../\nLi'l Chuck The One man Skiffle Machine is an authentic one man band performing \u201cgood time music with old time style\u201d\nHaving spent a lifetime rummaging through the drawers of 1930's - 50's music, Chuck\u2019s songs are inspired by the sounds of the era - Blues, Early Jazz, Western Swing, Ragtime etc. and are uniquely presented in the style of street performers from those glory days. Sticking to the traditional one man band format, Chuck plays all the instruments simultaneously.\nCaptivating storytelling intertwines effortlessly with heart stopping harmonica. Multiple guitar styles are underpinned by his left and right feet frantically pounding the kick and hi hat. The listener is left simply wondering, How the hell does he do that?\nOriginally hailing from the UK, Li\u2019l Chuck has been stomping his music in NZ since 2003.\nStunning vocal stunning harmonica and acoustic guitar that needs no window dressing\nBlues matters magazine (UK) May 2019\nA true multi-instrumentalist & multi-tasker in addition to a talented artist.\nNo depression magazine USA. March 2017\nLi'l Chuck combines almost every element of pure joy. 4 1/2 stars (out of 5)\nNZlListener. March 2017.\nSublime harp and heartfelt vocals leave the listener wanting more\nBlues matters magazine (UK) June 2017",
+  "description": "Official capital Blues info here https://www.capitalblues.co.nz/.../lil-chuck-the-one-man.../ Official Jazz Festival info here https://www.jazzfestival.nz/.../lil-chuck-the-one-man.../ Li'l Chuck The One man Skiffle Machine is an authentic one man band performing \u201cgood time music with old time style\u201d Having spent a lifetime rummaging through the drawers of 1930's - 50's music, Chuck\u2019s songs are inspired by the sounds of the era - Blues, Early Jazz, Western Swing, Ragtime etc.\nCaptivating storytelling intertwines effortlessly with heart stopping harmonica.\nOriginally hailing from the UK, Li\u2019l Chuck has been stomping his music in NZ since 2003.\nStunning vocal stunning harmonica and acoustic guitar that needs no window dressing Blues matters magazine (UK) May 2019 A true multi-instrumentalist & multi-tasker in addition to a talented artist.\nMarch 2017 Li'l Chuck combines almost every element of pure joy.",
   "labels": []
 },
 {
-  "id": "Album Release | Oscar Lav\u00ebn 'Flamingovision'-Rogue and Vagabond, Wellington -Under The Radar",
-  "name": "Album Release | Oscar Lav\u00ebn 'Flamingovision'",
-  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104223-391135.jpeg",
-  "venue": "Rogue and Vagabond, Wellington ",
+  "id": "[offsite] New Jazz For The New Era-Pyramid Club, Wellington -Under The Radar",
+  "name": "[offsite] New Jazz For The New Era",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/104973-62740.jpg",
+  "venue": "Pyramid Club, Wellington ",
   "coordinates": {
     "lat": -41.2887953,
     "long": 174.7772114
   },
   "dates": [
-    "2026-10-15-22:00"
+    "2026-10-15-19:00"
   ],
   "displayDate": "Thu 15 Oct",
-  "url": "https://www.undertheradar.co.nz/gig/104223/Album-Release--Oscar-Lavn-Flamingovision.utr",
+  "url": "https://www.undertheradar.co.nz/gig/104973/offsite-New-Jazz-For-The-New-Era.utr",
   "source": "Under The Radar",
   "eventType": "Music & Concerts",
-  "long_description": "His improvisations consistently reveal an immersion in the tradition balanced with a fearless, joyful and searching personality of his own.\u201d - UK Jazz News\n\nAfter releasing his last album 'Elegant Calamity' to a sold-out crowd at last Wellington Jazz Festival, flamboyant saxophonist Oscar Lav\u00ebn makes his return to the Rogue and Vagabond this festival to release a brand new album, 'Flamingovision'.\n\nOscar Lav\u00ebn has played with many notable artists such as John Beasley's MONKestra, Steve Gadd, James Carter, Dave Weckl, Peter Erskine, Lalah Hathaway, Clay Jenkins and more. His effervescent style draws on an eclectic musical background of early swing music, New Orleans traditional, straight-ahead, spiritual jazz, classical music, blues, and 50s bar-walking rock and roll sax.\n\nPrepare for a colourful, kaleidoscopic performance featuring Duncan Haynes (piano), John Rae (drums), Michael Taylor (trumpet) and Patrick Bleakley (double bass) as they play through the album live in an exciting release of new original New Zealand music.\n\n$15 online, $20 on the door\n\nPart of the Wellington Jazz Festival 2026\n\n",
-  "description": "His improvisations consistently reveal an immersion in the tradition balanced with a fearless, joyful and searching personality of his own.\u201d - UK Jazz News After releasing his last album 'Elegant Calamity' to a sold-out crowd at last Wellington Jazz Festival, flamboyant saxophonist Oscar Lav\u00ebn makes his return to the Rogue and Vagabond this festival to release a brand new album, 'Flamingovision'.\nOscar Lav\u00ebn has played with many notable artists such as John Beasley's MONKestra, Steve Gadd, James Carter, Dave Weckl, Peter Erskine, Lalah Hathaway, Clay Jenkins and more.\nHis effervescent style draws on an eclectic musical background of early swing music, New Orleans traditional, straight-ahead, spiritual jazz, classical music, blues, and 50s bar-walking rock and roll sax.\nPrepare for a colourful, kaleidoscopic performance featuring Duncan Haynes (piano), John Rae (drums), Michael Taylor (trumpet) and Patrick Bleakley (double bass) as they play through the album live in an exciting release of new original New Zealand music.\n$15 online, $20 on the door Part of the Wellington Jazz Festival 2026",
+  "long_description": "As part of the Wellington Jazz Festival, Pyramid Club presents three of Wellington's most creative and extraordinary contemporary jazz ensembles at Meow.\n\nThe Bridget Kelly Quintet features Bridget Kelly on reeds and harp, three double bassists (Tom Callwood, Isaac Smith and Patrick Bleakley) and drummer John Rae. Spirit Level is a new, interstellar duo of Daniel Beban (guitar) and Andy Wright (drums). And, led by free jazz luminary Anthony Donaldson, the Ghosts of Mount Kodak features Anton Wuts (saxophone), Kaito Walley (trombone), Dayle Jellyman (synths), Tom Callwood (bass) and Jonny Marks (voice and electronics).\n\nContemporary jazz at its best!\n\nMore info and tickets via the Jazz Festival Website.",
+  "description": "As part of the Wellington Jazz Festival, Pyramid Club presents three of Wellington's most creative and extraordinary contemporary jazz ensembles at Meow.\nThe Bridget Kelly Quintet features Bridget Kelly on reeds and harp, three double bassists (Tom Callwood, Isaac Smith and Patrick Bleakley) and drummer John Rae.\nSpirit Level is a new, interstellar duo of Daniel Beban (guitar) and Andy Wright (drums).\nAnd, led by free jazz luminary Anthony Donaldson, the Ghosts of Mount Kodak features Anton Wuts (saxophone), Kaito Walley (trombone), Dayle Jellyman (synths), Tom Callwood (bass) and Jonny Marks (voice and electronics).\nContemporary jazz at its best!",
+  "labels": []
+},
+{
+  "id": "Jazz Festival: April Phillips And Quintet-The Roxy Cinema, Wellington -Under The Radar",
+  "name": "Jazz Festival: April Phillips And Quintet",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/105042-88598.jpg",
+  "venue": "The Roxy Cinema, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-10-15-20:00"
+  ],
+  "displayDate": "Thu 15 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/105042/Jazz-Festival-April-Phillips-And-Quintet.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "I Can't Give You Anything But Love\nExperience the epitome of NZ's capital jazz as this ensemble brings their sophisticated, sultry sound to the Wellington Jazz Festival stage in the gorgeous Art Deco ambience of The Roxy Cinema.\n\nFronted by the captivating April Phillips\u2014 with her rich & smooth tone, accompanied by a powerhouse five-piece band delivers an unforgettable evening of classic jazz, swing, and blues standards.\n\nThe band features award-winning pianist Anita Schwabe, Zak Dikvert on guitar, Russell Henderson on saxophone, Rory Macartney on bass, and Greg Crayford on drums, the band channels the cool, effortless vibe of a classic mid-century lounge, creating the ultimate, high-end festival experience.\n\nAnd why not book a pre-dinner at The Roxy's fabulous COCO restaurant for an evening of the best jazz music.",
+  "description": "I Can't Give You Anything But Love Experience the epitome of NZ's capital jazz as this ensemble brings their sophisticated, sultry sound to the Wellington Jazz Festival stage in the gorgeous Art Deco ambience of The Roxy Cinema.\nFronted by the captivating April Phillips\u2014 with her rich & smooth tone, accompanied by a powerhouse five-piece band delivers an unforgettable evening of classic jazz, swing, and blues standards.\nThe band features award-winning pianist Anita Schwabe, Zak Dikvert on guitar, Russell Henderson on saxophone, Rory Macartney on bass, and Greg Crayford on drums, the band channels the cool, effortless vibe of a classic mid-century lounge, creating the ultimate, high-end festival experience.\nAnd why not book a pre-dinner at The Roxy's fabulous COCO restaurant for an evening of the best jazz music.",
+  "labels": []
+},
+{
+  "id": "P\u014dneke La Pompe-Superfina, Wellington -Under The Radar",
+  "name": "P\u014dneke La Pompe",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/105247-880083.jpeg",
+  "venue": "Superfina, Wellington ",
+  "coordinates": {
+    "lat": -41.2959458,
+    "long": 174.7740316
+  },
+  "dates": [
+    "2026-10-15-19:00"
+  ],
+  "displayDate": "Thu 15 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/105247/Pneke-La-Pompe.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "P\u014dneke La Pompe is Wellington\u2019s answer to a smoky Parisian side street, 1930s edition, minus the smoke, plus a bit more Cuba Street chaos.\n\nNamed for P\u014dneke, one of the city\u2019s M\u0101ori names, fused with \u201cla pompe\u201d (the relentless rhythm-guitar heartbeat of jazz manouche), the quartet steals shamelessly from Django Reinhardt and St\u00e9phane Grappelli and gets away with it. Violinist Ana Henderson and clarinettist Josh Buckler duel it out on the melodies while guitarists Mike Kingston and David Harris hold the whole thing together with hands fast enough to set the strings on fire. Expect hot club standards, a few originals, and the kind of swing that makes sitting still very difficult.\n\nKoha is welcomed :)",
+  "description": "P\u014dneke La Pompe is Wellington\u2019s answer to a smoky Parisian side street, 1930s edition, minus the smoke, plus a bit more Cuba Street chaos.\nNamed for P\u014dneke, one of the city\u2019s M\u0101ori names, fused with \u201cla pompe\u201d (the relentless rhythm-guitar heartbeat of jazz manouche), the quartet steals shamelessly from Django Reinhardt and St\u00e9phane Grappelli and gets away with it.\nViolinist Ana Henderson and clarinettist Josh Buckler duel it out on the melodies while guitarists Mike Kingston and David Harris hold the whole thing together with hands fast enough to set the strings on fire.\nExpect hot club standards, a few originals, and the kind of swing that makes sitting still very difficult.\nKoha is welcomed :)",
+  "labels": []
+},
+{
+  "id": "Jazz Festival: Song For Iqbal, Song For Pat - Miro Holland Group-The Undercurrent, Wellington -Under The Radar",
+  "name": "Jazz Festival: Song For Iqbal, Song For Pat - Miro Holland Group",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103972-614984.jpeg",
+  "venue": "The Undercurrent, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-10-16-17:00"
+  ],
+  "displayDate": "Fri 16 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/103972/Jazz-Festival-Song-For-Iqbal-Song-For-Pat---Miro-Holland-Group.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents Song For Iqbal, Song For Pat - Miro Holland Group!\n\nAfter a stellar year, an album release and Aus/Aotearoa tour, Miro Holland Group returns to the Festival with special guests. The band grew up learning to play together, and have continued. Miro's compositional theory is an attempt at highlighting that history.\u00a0\n\n'Song For Iqbal, Song for Pat' is a dedication to both the philosopher Muhammad Iqbal -a major creative and moral influence for Miro- and to Miro's Great Aunt Pat, whose life was lived entirely in the service of others. Both figures are moral influences for Miro, though at different points in his development.\u00a0\n\nTonight, the group will feature two very special guests:\n\nLucas Kewell, an internationally acclaimed pianist fresh from completing studies at the renowned JAZZCAMPUS in Basel, Switzerland.\nPatrick Bleakley, who has appeared on many internationally acclaimed albums, and had a legendary stint in the infamous Aotearoa group BLERTA.\n\nAlso featuring:\nAteo Buhne - Drums\nIggy Nama Ruci - Saxophone\nMiro Holland - Trumpet & Composition\nTheo Thompson - Guitar\u00a0\n\nCome and hear the new music from P\u014dneke.\n\nFriday Oct 16\nDoors 4:30pm\nMusic 5pm\n$15\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
+  "description": "As part of Wellington Jazz Festival, The Undercurrent presents Song For Iqbal, Song For Pat - Miro Holland Group!\nAfter a stellar year, an album release and Aus/Aotearoa tour, Miro Holland Group returns to the Festival with special guests.\nThe band grew up learning to play together, and have continued.\nMiro's compositional theory is an attempt at highlighting that history.\n'Song For Iqbal, Song for Pat' is a dedication to both the philosopher Muhammad Iqbal -a major creative and moral influence for Miro- and to Miro's Great Aunt Pat, whose life was lived entirely in the service of others.",
+  "labels": []
+},
+{
+  "id": "Jazz Festival: Liam George Does Fred Wesley-The Undercurrent, Wellington -Under The Radar",
+  "name": "Jazz Festival: Liam George Does Fred Wesley",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/103971-639030.jpeg",
+  "venue": "The Undercurrent, Wellington ",
+  "coordinates": {
+    "lat": -41.2887953,
+    "long": 174.7772114
+  },
+  "dates": [
+    "2026-10-16-15:30"
+  ],
+  "displayDate": "Fri 16 Oct",
+  "url": "https://www.undertheradar.co.nz/gig/103971/Jazz-Festival-Liam-George-Does-Fred-Wesley.utr",
+  "source": "Under The Radar",
+  "eventType": "Music & Concerts",
+  "long_description": "As part of Wellington Jazz Festival, The Undercurrent presents Liam George Does Fred Wesley!\n\nGet ready for an afternoon of high energy funk and jazz.\n\nLiam George Does Fred Wesley is a powerhouse tribute to one of the greatest architects of funk. Backed by an all-star lineup of top local musicians, Liam George brings the unmistakable grooves, fiery horn lines, and deep soul of Fred Wesley to life.\n\nFrom the legendary James Brown years to his adventures with Count Basie, this is music that demands to be felt as much as heard. Expect killer solos, unstoppable rhythms, and the kind of high-energy performance that keeps you moving from the first note to the last.\n\nIf you love funk, soul, jazz, or simply incredible live music, don't miss this celebration of one of the true masters.\n\nFriday Oct 16\nDoors 3pm\nMusic 3:30pm\n$15\n\nTickets available online and at the door!\n\nSnacks, a range of refreshing drinks, tea & coffee, and of course...books available for purchase!\n\nWe\u2019ll see you there \u2606",
+  "description": "As part of Wellington Jazz Festival, The Undercurrent presents Liam George Does Fred Wesley!\nGet ready for an afternoon of high energy funk and jazz.\nLiam George Does Fred Wesley is a powerhouse tribute to one of the greatest architects of funk.\nBacked by an all-star lineup of top local musicians, Liam George brings the unmistakable grooves, fiery horn lines, and deep soul of Fred Wesley to life.\nFrom the legendary James Brown years to his adventures with Count Basie, this is music that demands to be felt as much as heard.",
   "labels": []
 },
 ]

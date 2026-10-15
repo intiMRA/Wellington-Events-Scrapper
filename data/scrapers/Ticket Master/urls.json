@@ -1,102 +1,66 @@
 [
 [
-  "https://www.moshtix.co.nz/v2/event/where-s-jai-aus-nz-tour/197982",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/matilda-the-musical-nz-wellington-11-10-2026/event/240062FDB3E7149B",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-11-10-2026/event/24006459D3DC35A4",
-  "MusicEvent"
-],
-[
-  "https://www.moshtix.co.nz/v2/event/ray-o-leary-i-can-see-o-leary-now-the-ray-has-gone/195155",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/che-fu-the-kratez-25-years-wellington-11-10-2026/event/240064DEE65D351F",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E6AF3D1A4E",
+  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-15-10-2026/event/24006459D3DC35B1",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/an-evening-with-mary-beard-wellington-17-11-2026/event/2400653EBA5B30F3",
+  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E3C3533515",
   "TheaterEvent"
 ],
 [
-  "https://www.moshtix.co.nz/v2/event/allegra-krieger/201068",
+  "https://www.ticketmaster.co.nz/journey-to-oz-wellington-14-11-2026/event/24006548D4F144C6",
   "TheaterEvent"
 ],
 [
-  "https://www.moshtix.co.nz/v2/event/park-rd-boyhood-album-release-tour/201018",
+  "https://www.ticketmaster.co.nz/the-guilty-feminist-podcast-live-wellington-05-02-2027/event/2400653E7DC012BE",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/come-together-big-end-of-year-wellington-04-12-2026/event/240065397E041EA0",
+  "https://www.ticketmaster.co.nz/the-ten-tenors-2027-nz-tour-wellington-02-03-2027/event/2400653D94561B09",
   "TheaterEvent"
 ],
 [
-  "https://www.moshtix.co.nz/v2/event/show-me-the-body/201010",
+  "https://www.ticketmaster.co.nz/the-curious-case-of-benjamin-button-wellington-14-05-2027/event/240065417E001544",
   "TheaterEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/an-evening-with-guenther-steiner-wellington-10-12-2026/event/2400653ECFB43A6F",
-  "TheaterEvent"
-],
-[
-  "https://www.moshtix.co.nz/v2/event/alex-cameron/200873",
-  "TheaterEvent"
-],
-[
-  "https://www.moshtix.co.nz/v2/event/k-motionz-crowd-control-wellington/201015",
-  "MusicEvent"
-],
-[
-  "https://www.moshtix.co.nz/v2/event/quicksand-usa-/200965",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/the-michael-jackson-history-show-wellington-27-11-2027/event/24006536E62A5D13",
-  "MusicEvent"
 ],
 [
   "https://www.ticketweb.com/event/tractor-presents-tray-wellington-band-tractor-tickets/14280824",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketweb.com/event/falling-into-light-wait-dingbatz-tickets/14303294?REFERRAL_ID=tmfeed",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-newcastle-31-10-2026/event/13006519E6FE6318",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-car-newcastle-31-10-2026/event/1300651994F81DBA",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.ca/wellington-dukes-vs-trenton-golden-hawks-belleville-ontario-11-13-2026/event/31006546BD3D7B83",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/202627-ws-wanderers-a-league-season-parramatta-13-12-2026/event/2500651388D01BAE",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/sydney-fc-202627-ninja-aleague-women-wollongong-20-02-2027/event/1300651BE0A56CB5",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/perth-glory-v-wellington-phoenix-fc-perth-30-04-2027/event/13006512DA8B65DD",
-  "MusicEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/202627-aleague-sydney-fc-v-wellington-sydney-07-05-2027/event/250064FFCB019769",
-  "MusicEvent"
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
+  "TheaterEvent"
 ],
 ]
