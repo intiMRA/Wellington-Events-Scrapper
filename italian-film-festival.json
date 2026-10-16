@@ -56,11 +56,10 @@
         "long": 174.8162766
       },
       "dates": [
-        "2026-10-15-20:30",
-        "2026-10-30-20:30",
-        "2026-11-12-20:30"
+        "2026-10-30-10:30",
+        "2026-11-12-10:30"
       ],
-      "displayDate": "Thu 15 Oct + more",
+      "displayDate": "Fri 30 Oct + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-diva-futura",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -253,12 +252,11 @@
         "long": 174.8162766
       },
       "dates": [
-        "2026-10-15-18:00",
-        "2026-10-25-18:00",
-        "2026-11-06-18:00",
-        "2026-11-14-18:00"
+        "2026-10-25-10:30",
+        "2026-11-06-10:30",
+        "2026-11-14-10:30"
       ],
-      "displayDate": "Thu 15 Oct + more",
+      "displayDate": "Sun 25 Oct + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-napoli-new-york",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -496,11 +494,10 @@
         "long": 174.8162766
       },
       "dates": [
-        "2026-10-15-10:30",
-        "2026-10-25-10:30",
-        "2026-11-11-10:30"
+        "2026-10-25-13:00",
+        "2026-11-11-13:00"
       ],
-      "displayDate": "Thu 15 Oct + more",
+      "displayDate": "Sun 25 Oct + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-trifole",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",
@@ -540,11 +537,10 @@
         "long": 174.8162766
       },
       "dates": [
-        "2026-10-15-12:45",
         "2026-11-06-12:45",
         "2026-11-15-12:45"
       ],
-      "displayDate": "Thu 15 Oct + more",
+      "displayDate": "Fri 06 Nov + more",
       "url": "https://www.roxycinema.co.nz/movie/iff-vittoria",
       "source": "Roxy Cinema",
       "eventType": "Film & Media",

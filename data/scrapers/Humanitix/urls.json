@@ -1,7 +1,1432 @@
 [
-  [
-    "https://events.humanitix.com/ipff-2026-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Atravel-and-outdoor%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
-    "Travel & Outdoor",
-    false
-  ]
+[
+  "https://events.humanitix.com/wlg-morning-people-feat-bontempo?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/nympho23wlg?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/eclipse-halloween-rave?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/lux-a-wellington-youth-choir-concert?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/dance-therapy-session-15-flatmate-all-night-long-3sjf4pxa?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/sapphic-session?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/chapel-of-sound-2?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/daniel-hayles-trio-featuring-lauren-nottingham?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-sergent-berties?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/dollys-country-party?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/jazz-industry-networking-session?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/bog-moon-newtown?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/moon-daughter-plays-the-shed?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-king-oyster-at-wjf?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/call-centre-double-single-release-with-hominid-and-health-and-education?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/miss-raven-raves-1?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/wlg-morning-people-feat-bontempo?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/nympho23wlg?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/eclipse-halloween-rave?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/lux-a-wellington-youth-choir-concert?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/dance-therapy-session-15-flatmate-all-night-long-3sjf4pxa?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/sapphic-session?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/chapel-of-sound-2?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-luka-van-rensburg?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Crpos%3A3%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/roland-rockshop-present-beatlab-in-partnership-with-aotearoa-dj-academy?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/sound-stage-berna-and-moana?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/freedom-within-night-2-wahine-in-jazz-wjf?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/jazz-industry-networking-session?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Amusic%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/wlg-morning-people-feat-bontempo?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/nympho23wlg?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/eclipse-halloween-rave?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/lux-a-wellington-youth-choir-concert?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/dance-therapy-session-15-flatmate-all-night-long-3sjf4pxa?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/sapphic-session?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/chapel-of-sound-2?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-luka-van-rensburg?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/frisky-rave-cave-ii?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A9%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/tnt-te-reo-maori-project-feat-lisa-tomlins?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A10%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/daniel-hayles-trio-featuring-lauren-nottingham?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A11%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/bog-moon-newtown?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A12%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/shaun-kirk-live-vogelmorn-bowling-club-brooklyn-nz?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A13%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/iskra-superfina-for-wellington-jazz-festival?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A14%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/moon-daughter-plays-the-shed?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A15%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/frisky-halloween-wgn?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A16%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/korimako-in-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A17%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/submarine-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A18%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/the-velvet-glove-plays-the-songs-of-the-velvet-underground?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A19%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/bollywoodatmartini?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A20%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/shaun-kirk-live-petone-depot-petone-nz?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A21%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/jazz-and-beyond-workshops-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A22%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/theo-thompsons-mantle-live-at-st-peters-wellington-jazz-fest?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A23%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/wraz-and-hypho-nokturnal-sounds-001?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A24%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-crayford-granville-jensen?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A25%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-sergent-berties?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A26%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-frank-talbot-quintet?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A27%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-mat-enright-jazz-band?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A28%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-battleska-galactica?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A29%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-king-oyster-at-wjf?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A30%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-tom-tom-and-the-groove-daddies?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A31%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-10-degrees-of-jazz?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A32%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-house-rockers-blues-band?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A33%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/backroom-audio-freaky-friday?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A34%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/darren-watson-plays-the-shed-f2lflhvb?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A35%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/mark-moroney-and-david-shanhun-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A36%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/roland-rockshop-present-beatlab-in-partnership-with-aotearoa-dj-academy?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A37%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/3-cities-3-nights-wlg?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A38%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/sound-stage-berna-and-moana?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A39%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/bvrbwyre-all-night-long?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A40%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/call-centre-double-single-release-with-hominid-and-health-and-education?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A41%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/elysian-undertones-jfqxrrd9?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A42%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/noscrubs-day-party?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A43%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/dollys-country-party?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A44%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/that-80s-day-party?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A45%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/miss-raven-raves-1?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A46%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/the-rocky-horror-picture-show-halloween-80-s-day-party?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A47%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-city-big-band-back-at-seatoun?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A48%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/innermost-gardening-music?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A49%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/sorry-mum-on-tour-p-neke-vibes?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A50%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/doxing-ur-mum?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A51%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/capital-blues-presents-doggy-bags?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A52%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/https-events-humanitix-com-sound-stage-jeep-road-trio-tickets?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A53%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/hohohos-christmas-day-party?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A54%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/freedom-within-night-2-wahine-in-jazz-wjf?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A55%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/jazz-industry-networking-session?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Amusic%7Ccpos%3A56%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Music",
+  false
+],
+[
+  "https://events.humanitix.com/uwwponekewellingtonspring2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/halloween-bar-crawl-2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/riedel-wine-glass-experience-at-shed-5-wellington?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/public-free-coffee-cupping-fswpqjd3?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/public-free-coffee-cupping-fswpqjd3?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/uwwponekewellingtonspring2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/halloween-bar-crawl-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/riedel-wine-glass-experience-at-shed-5-wellington?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Crpos%3A2%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/public-free-coffee-cupping-fswpqjd3?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Crpos%3A2%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/palliser-wine-dinner-part-of-taste-of-wairarapa?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Crpos%3A2%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/forged-in-fire-book-signing-and-presentation-in-wellington?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Crpos%3A2%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/public-free-coffee-cupping-fswpqjd3?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afood-drink%7Cprice%3Afree%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Food & Drink",
+  false
+],
+[
+  "https://events.humanitix.com/the-lady-s-not-for-burning?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/cluedunnit-or-murder-at-the-manor-murder-mystery-dinner-the-intercontinental-wellington-nz?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/stories-you-cant-trust?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/0four-fundraising-showcase?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/the-lady-s-not-for-burning?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/aperture-and-attitude-writing-through-the-lens?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/whakakai-adornment-workshop?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/verb-josh-silver-fruit-fly?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/the-lady-s-not-for-burning?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/cluedunnit-or-murder-at-the-manor-murder-mystery-dinner-the-intercontinental-wellington-nz?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/stories-you-cant-trust?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/0four-fundraising-showcase?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/tonight-s-guest-rove-mcmanus-tales-from-the-talk-show-trenches-xfbn3vlj?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/tones-of-silence-futuna-chapel-in-b-and-w-public-talks-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/tukutuku-workshop?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/aperture-and-attitude-writing-through-the-lens?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Crpos%3A3%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/tones-of-silence-futuna-chapel-in-b-and-w-public-talks-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/whakakai-adornment-workshop?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/paypa-annual-hui-2026-xb496kng?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aperforming-and-visual-arts%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Performing & Visual Arts",
+  false
+],
+[
+  "https://events.humanitix.com/https-www-wellingtonboxing-com?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Asports-and-fitness%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Sports & Fitness",
+  false
+],
+[
+  "https://events.humanitix.com/https-www-wellingtonboxing-com?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Asports-and-fitness%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Sports & Fitness",
+  false
+],
+[
+  "https://events.humanitix.com/your-skills-your-board-potential-translating-experience-into-governance?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-thurs-empower-her-networking-beyond-lead-magnets?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/global-changelabs-breakfast-w-banny-banerjee-and-co-wlg?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/doodle-cafe-poneke-november?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/nz-species-edit-a-thon-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/growing-a-pakihi-with-tech?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/being-a-good-treasurer-hamilton-central?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/hum-with-purpose-morning-research-launch-morning?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/sharepoint-online-2019-for-end-users-2-day-training-course-in-wellington?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  true
+],
+[
+  "https://events.humanitix.com/understanding-your-portfolio-the-next-steps-workshop?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/secrets-of-successful-cross-sectoral-collaborations-seen-through-the-project-management-lens?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/your-skills-your-board-potential-translating-experience-into-governance?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-thurs-empower-her-networking-beyond-lead-magnets?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/global-changelabs-breakfast-w-banny-banerjee-and-co-wlg?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/doodle-cafe-poneke-november?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/indigenoustechsummit?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/being-a-good-treasurer-hamilton-central?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/good-drinks-wellington-october-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/nz-species-edit-a-thon-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Crpos%3A3%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/your-skills-your-board-potential-translating-experience-into-governance?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/doodle-cafe-poneke-november?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/growing-a-pakihi-with-tech?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/being-a-good-treasurer-hamilton-central?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/the-trajectory-of-the-indian-economy-over-the-past-four-decades?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/good-drinks-wellington-october-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/hum-with-purpose-morning-research-launch-morning?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/october-networking-wyp?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/your-skills-your-board-potential-translating-experience-into-governance?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-thurs-empower-her-networking-beyond-lead-magnets?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/global-changelabs-breakfast-w-banny-banerjee-and-co-wlg?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/doodle-cafe-poneke-november?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/indigenoustechsummit?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/growing-a-pakihi-with-tech?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/being-a-good-treasurer-hamilton-central?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/mon-wellington-empower-her-networking-beyond-lead-magnets?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-regional-finals?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A9%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/the-trajectory-of-the-indian-economy-over-the-past-four-decades?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A10%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/good-drinks-wellington-october-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A11%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/nz-species-edit-a-thon-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A12%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/young-enterprise-scheme-national-awards-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A13%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/the-effective-speaker-wellington-20-21-october-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A14%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/hum-with-purpose-morning-research-launch-morning?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A15%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/october-networking-wyp?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A16%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/lead-through-the-noise-live?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A17%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/women-in-healthtech-wellington-christmas-event?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A18%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/edtechnz-community-connect-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A19%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/nz-photographers-of-cultural-collections-forum-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A20%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/good-drinks-wellington-november-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A21%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/good-drinks-wellington-december-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A22%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/sharepoint-online-2019-for-end-users-2-day-training-course-in-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A23%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  true
+],
+[
+  "https://events.humanitix.com/saasmas-party-wellington-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A24%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/python-essentials-for-data-science-1-day-session-in-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A25%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/understanding-your-portfolio-the-next-steps-workshop?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A26%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/global-virtual-networking-empower-her-community-women-in-business-nov?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A27%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/yes-national-pitches-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A28%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/secrets-of-successful-cross-sectoral-collaborations-seen-through-the-project-management-lens?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A29%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/innovation-in-life-and-health-insurance?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A30%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/site-visit-mental-health-centre?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A31%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/tuputoa-networking-event-2026-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A32%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/the-workplace-rituals-deck-facilitator-masterclass-wellington-nov26?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A33%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/linergame-open-wellington-sept-2026?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A34%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/bpa-sustainable-solutions-symposium-2027?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A35%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/sharepoint-online-2019-for-site-owners-2-day-training-course-in-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A36%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  true
+],
+[
+  "https://events.humanitix.com/sharepoint-online-2019-for-power-users-4-day-training-course-in-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A37%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  true
+],
+[
+  "https://events.humanitix.com/python-essentials-for-data-analysts-1-day-course-in-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A38%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/python-ml-and-ai-bootcamp-1-day-practical-workshop-in-wellington?hxref=srf%3Agrid%7Cmodel%3Ablend%7Ccat%3Abusiness-professional%7Ccpos%3A39%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Business & Professional",
+  false
+],
+[
+  "https://events.humanitix.com/9d-welly?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/well-ahead?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/omb-retreat?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/twhsoundandbreath?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/twhsoundandbreath?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  true
+],
+[
+  "https://events.humanitix.com/yeu-ban-than-chu-dong-tam-soat?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/diabetes-nz-wellington-youth-bowling-ages-8-12?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/twhsoundandbreath?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  true
+],
+[
+  "https://events.humanitix.com/wdb-dance?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  true
+],
+[
+  "https://events.humanitix.com/yeu-ban-than-chu-dong-tam-soat?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/gong-bath-with-hammocks?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/diabetes-nz-wellington-youth-bowling-ages-8-12?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/9d-welly?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/well-ahead?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/omb-retreat?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/twhsoundandbreath?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  true
+],
+[
+  "https://events.humanitix.com/yoga-voice-classes?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  true
+],
+[
+  "https://events.humanitix.com/awakening-the-subtle-body-with-joan-hyman?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/wdb-dance?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  true
+],
+[
+  "https://events.humanitix.com/yeu-ban-than-chu-dong-tam-soat?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Crpos%3A3%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/yeu-ban-than-chu-dong-tam-soat?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahealth-wellness%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Health & Wellness",
+  false
+],
+[
+  "https://events.humanitix.com/voice-of-aroha-gala-dinner-2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/klara-and-the-sun-blue-dragon-children-s-trust-nz-s-movie-night-fundraiser?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/school-strike-4-climate-dj-fundraiser-show?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/cult-awareness-and-recovery-evening-with-rachel-bernstein-wellington?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/school-strike-4-climate-dj-fundraiser-show?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/comfy-concert-and-cd-launch-the-chamber-pot-pourri-ensemble-to-benefit-kaibosh?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/safe-dorms-brighter-futures?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/wrc-quiz-night?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/voice-of-aroha-gala-dinner-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/klara-and-the-sun-blue-dragon-children-s-trust-nz-s-movie-night-fundraiser?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/school-strike-4-climate-dj-fundraiser-show?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/cult-awareness-and-recovery-evening-with-rachel-bernstein-wellington?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/comfy-concert-and-cd-launch-the-chamber-pot-pourri-ensemble-to-benefit-kaibosh?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/safe-dorms-brighter-futures?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/diabetes-nz-wellington-youth-annual-quiz-night-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/labour-day-with-unions-wellington?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Crpos%3A2%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/safe-dorms-brighter-futures?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Cprice%3Afree%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/labour-day-with-unions-wellington?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Cprice%3Afree%7Crpos%3A3%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-family-fun-day-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Cprice%3Afree%7Crpos%3A3%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/homage-to-te-raukura-the-power-of-peaceful-resistance?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Acharity-and-causes%7Cprice%3Afree%7Crpos%3A3%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Charity & Causes",
+  false
+],
+[
+  "https://events.humanitix.com/glow-party-2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/fa-atupu-giving-new-life-to-old-words?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/mum-club-mum-s-and-bub-s-october?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/hutt-valley-family-fun-day-2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/glow-party-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/fa-atupu-giving-new-life-to-old-words?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/mum-club-mum-s-and-bub-s-october?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Crpos%3A1%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/hutt-valley-family-fun-day-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Crpos%3A1%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/glow-party-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Cprice%3Afree%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/fa-atupu-giving-new-life-to-old-words?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Cprice%3Afree%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/hutt-valley-family-fun-day-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afamily-and-education%7Cprice%3Afree%7Crpos%3A2%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Family & Education",
+  false
+],
+[
+  "https://events.humanitix.com/welcome-space-brothers-the-extraordinary-true-story-of-the-unarius-academy-of-science?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/copy-of-teq-talks-or-wellington-thursday-29th-october?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/twinpeaksnovember?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/hungary-1956-2026-70-years-on-an-evening-of-conversation-film-and-hungarian-hospitality?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/hungary-1956-2026-70-years-on-an-evening-of-conversation-film-and-hungarian-hospitality?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/understanding-the-archive?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/puskas?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Ctime%3Anext-week%7Crpos%3A1%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/welcome-space-brothers-the-extraordinary-true-story-of-the-unarius-academy-of-science?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/copy-of-teq-talks-or-wellington-thursday-29th-october?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/twinpeaksnovember?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/hungary-1956-2026-70-years-on-an-evening-of-conversation-film-and-hungarian-hospitality?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/understanding-the-archive?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/klara-and-the-sun-movie-fundraiser?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A6%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/red-cross-movie-fundraiser-pressure?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A7%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/puskas?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Afilm-media-and-entertainment%7Crpos%3A2%7Ccpos%3A8%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Film, Media & Entertainment",
+  false
+],
+[
+  "https://events.humanitix.com/america-after-trump-what-will-it-mean-for-asia-and-the-world?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-education-political-panel?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/general-election-meet-the-wellington-north-candidates-speed-dating-style?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/day-of-action-tba?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/poneke-table-talk?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-education-political-panel?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/general-election-meet-the-wellington-north-candidates-speed-dating-style?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Ctime%3Anext-week%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/america-after-trump-what-will-it-mean-for-asia-and-the-world?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-education-political-panel?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Crpos%3A3%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/general-election-meet-the-wellington-north-candidates-speed-dating-style?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Crpos%3A3%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/day-of-action-tba?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Crpos%3A3%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/poneke-table-talk?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Crpos%3A3%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/america-after-trump-what-will-it-mean-for-asia-and-the-world?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/wellington-education-political-panel?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/general-election-meet-the-wellington-north-candidates-speed-dating-style?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/day-of-action-tba?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A4%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/poneke-table-talk?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Agovernment-and-politics%7Cprice%3Afree%7Crpos%3A4%7Ccpos%3A5%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Government & Politics",
+  false
+],
+[
+  "https://events.humanitix.com/electrifythecapital?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Ahome-and-lifestyle%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Home & Lifestyle",
+  false
+],
+[
+  "https://events.humanitix.com/power-up-central-hutt?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Ahome-and-lifestyle%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Home & Lifestyle",
+  false
+],
+[
+  "https://events.humanitix.com/electrifythecapital?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahome-and-lifestyle%7Ctime%3Athis-weekend%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Home & Lifestyle",
+  false
+],
+[
+  "https://events.humanitix.com/electrifythecapital?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahome-and-lifestyle%7Crpos%3A2%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Home & Lifestyle",
+  false
+],
+[
+  "https://events.humanitix.com/power-up-central-hutt?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahome-and-lifestyle%7Crpos%3A2%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Home & Lifestyle",
+  false
+],
+[
+  "https://events.humanitix.com/electrifythecapital?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahome-and-lifestyle%7Cprice%3Afree%7Crpos%3A3%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Home & Lifestyle",
+  false
+],
+[
+  "https://events.humanitix.com/power-up-central-hutt?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Ahome-and-lifestyle%7Cprice%3Afree%7Crpos%3A3%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Home & Lifestyle",
+  false
+],
+[
+  "https://events.humanitix.com/restoringsonsanddaughters?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Areligion-and-spirituality%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Religion & Spirituality",
+  false
+],
+[
+  "https://events.humanitix.com/david-the-medium-s-the-way-back-home-tour-or-wellington?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Areligion-and-spirituality%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Religion & Spirituality",
+  false
+],
+[
+  "https://events.humanitix.com/sacred-sound-journey-64t6tfy3?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Areligion-and-spirituality%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Religion & Spirituality",
+  false
+],
+[
+  "https://events.humanitix.com/restoringsonsanddaughters?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Areligion-and-spirituality%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Religion & Spirituality",
+  false
+],
+[
+  "https://events.humanitix.com/david-the-medium-s-the-way-back-home-tour-or-wellington?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Areligion-and-spirituality%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Religion & Spirituality",
+  false
+],
+[
+  "https://events.humanitix.com/sacred-sound-journey-64t6tfy3?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Areligion-and-spirituality%7Crpos%3A1%7Ccpos%3A3%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Religion & Spirituality",
+  false
+],
+[
+  "https://events.humanitix.com/kkc-2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Aschool-activities%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "School Activities",
+  false
+],
+[
+  "https://events.humanitix.com/kkc-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aschool-activities%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "School Activities",
+  false
+],
+[
+  "https://events.humanitix.com/the-other-side-halloween-2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Aseasonal-and-holiday%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Seasonal & Holiday",
+  false
+],
+[
+  "https://events.humanitix.com/joy-to-the-world-2026?hxref=srf%3Aside%7Cmodel%3Ablend%7Ccat%3Aseasonal-and-holiday%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Seasonal & Holiday",
+  false
+],
+[
+  "https://events.humanitix.com/the-other-side-halloween-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aseasonal-and-holiday%7Crpos%3A1%7Ccpos%3A1%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Seasonal & Holiday",
+  false
+],
+[
+  "https://events.humanitix.com/joy-to-the-world-2026?hxref=srf%3Arow%7Cmodel%3Ablend%7Ccat%3Aseasonal-and-holiday%7Crpos%3A1%7Ccpos%3A2%7Cgeo%3Anz--wellington-region--wellington&hxchl=mkt-cat",
+  "Seasonal & Holiday",
+  true
+],
 ]

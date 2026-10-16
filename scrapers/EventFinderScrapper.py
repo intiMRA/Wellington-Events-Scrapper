@@ -181,7 +181,7 @@ class EventFinderScrapper:
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
         with sync_playwright() as playwright:
-            fetch_urls = False
+            fetch_urls = True
             urls: Collection[Any] = set()
             if not fetch_urls:
                 urls = FileUtils.load_from_files(ScraperName.EVENT_FINDER)[1]

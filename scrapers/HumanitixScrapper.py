@@ -156,7 +156,7 @@ class HumanitixScrapper:
 
     @staticmethod
     def fetch_events(previous_urls: Set[str], previous_titles: Optional[Set[str]]) -> List[EventInfo]:
-        fetch_urls = False
+        fetch_urls = True
         event_urls: Collection[Any] = set()
         if not fetch_urls:
             event_urls = FileUtils.load_from_files(ScraperName.HUMANITIX)[1]

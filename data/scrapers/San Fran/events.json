@@ -220,6 +220,26 @@
   "labels": []
 },
 {
+  "id": "Boyband Single Release Party-San Fran, Wellington-San Fran",
+  "name": "Boyband Single Release Party",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/n/d/n/c027edf7-69ce-43c6-a988-f8a63d72666c.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-11-05-00:00"
+  ],
+  "displayDate": "Thu 05 Nov",
+  "url": "https://www.sanfran.co.nz/all-events/boyband-tickets-ae1705152",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Old Mervs-San Fran, Wellington-San Fran",
   "name": "Old Mervs",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/s/s/y/56b46094-3397-461f-a77c-49f74b0eb920.jpg",

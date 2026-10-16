@@ -1,2 +1,22 @@
 [
+{
+  "id": "The Dandy Warhols tickets-Meow Nui, Wellington, New Zealand-Ticketek",
+  "name": "The Dandy Warhols tickets",
+  "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx102076.jpg",
+  "venue": "Meow Nui, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2954948,
+    "long": 174.7779739
+  },
+  "dates": [
+    "2026-11-28-20:00"
+  ],
+  "displayDate": "Sat 28 Nov",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=DANDYWAR26",
+  "source": "Ticketek",
+  "eventType": "Music & Concerts",
+  "long_description": "Presented by: SBM Presents\n\nThe Dandy Warhols return to Australia and New Zealand this November and December for The Dandy Warhols Australia / NZ Tour 2026, in support of their new covers album, Pin Ups. Nearly three decades into their career, the cult alt-rock icons remain one of the most distinctive and adventurous live bands around, blending psych-rock, shoegaze, synth-pop and their trademark swagger.\n\n\u201cOz tour is right around the corner, and we are getting very pumped about it. This one starts in Tasmania with the Symphony there. That will be a mind, expanding trip. Then we hit all our favorite cities, or most of them, including New Zealand shows. Then we end at Meredith festival, which we are told repeatedly is the coolest. There\u2019s going to be a lot of amazing music, food, wine, and even wineries. We have always loved it down under which is why it\u2019s been The Dandy Warhols second home for almost 3 decades.\u201d - Courtney",
+  "description": "Nearly three decades into their career, the cult alt-rock icons remain one of the most distinctive and adventurous live bands around, blending psych-rock, shoegaze, synth-pop and their trademark swagger.\n\u201cOz tour is right around the corner, and we are getting very pumped about it.\nThis one starts in Tasmania with the Symphony there.\nThat will be a mind, expanding trip.\nWe have always loved it down under which is why it\u2019s been The Dandy Warhols second home for almost 3 decades.\u201d - Courtney",
+  "labels": []
+},
 ]

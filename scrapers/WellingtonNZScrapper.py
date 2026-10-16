@@ -2,7 +2,7 @@ from datetime import datetime
 from time import sleep
 
 from util import FileUtils
-from util.PlaywrightUtils import new_context, goto_with_retry, wait_for_items
+from util.PlaywrightUtils import new_context, goto_with_retry, wait_for_items, launch_stealth, stealth_page
 from util.Logger import Logger
 from scrapers.ScrapperNames import ScraperName
 from util.DateFormatting import DateFormatting
@@ -112,6 +112,7 @@ class WellingtonNZScrapper:
     @staticmethod
     def get_urls(page: Page, previous_urls: Set[str], urls_file: TextIO) -> Set[Tuple[str, str]]:
         goto_with_retry(page, "https://www.wellingtonnz.com/visit/events?mode=list")
+        sleep(2)
         page.locator(".pagination__position").first.wait_for(state="attached")
         sleep(1)
         page.evaluate("window.scrollBy(0, 1500)")
@@ -138,8 +139,16 @@ class WellingtonNZScrapper:
             page_num = 1
             while number_of_events[0] != number_of_events[1]:
                 goto_with_retry(page, f"https://www.wellingtonnz.com/visit/events?mode=list&page={page_num}&categories={category}")
+                sleep(2)
                 count_locator = page.locator(".pagination__position").first
+                sleep(1)
                 count_locator.wait_for(state="attached")
+                sleep(1)
+                page.evaluate(f"window.scrollBy(0, {500})")
+                sleep(1)
+                page.evaluate(f"window.scrollBy(0, {500})")
+                sleep(1)
+                page.evaluate(f"window.scrollBy(0, {500})")
                 number_of_events = re.findall(r"\d+", count_locator.text_content() or "")
                 page_num += 1
             number_of_events = [0, 1]
@@ -161,9 +170,8 @@ class WellingtonNZScrapper:
         with sync_playwright() as playwright:
             out_file, urls_file, banned_file = FileUtils.get_files_for_scrapper(ScraperName.WELLINGTON_NZ)
             previous_urls = previous_urls.union(set(FileUtils.load_banned(ScraperName.WELLINGTON_NZ)))
-            browser = playwright.chromium.launch(headless=True)
-            context = new_context(browser)
-            page = context.new_page()
+            context = launch_stealth(playwright, headless=False)
+            page = stealth_page(context)
             events: List[EventInfo] = []
             urls = WellingtonNZScrapper.get_urls(page, previous_urls, urls_file)
             out_file.write("[\n")
