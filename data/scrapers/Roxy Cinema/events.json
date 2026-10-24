@@ -1,2 +1,22 @@
 [
+{
+  "id": "The Craft-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+  "name": "The Craft",
+  "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_4ebb839d-94e6-439d-a2bc-2aea22c38ad1.jpg",
+  "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+  "coordinates": {
+    "lat": -41.3158511,
+    "long": 174.816259
+  },
+  "dates": [
+    "2026-11-15-19:30"
+  ],
+  "displayDate": "Sun 15 Nov",
+  "url": "https://www.roxycinema.co.nz/movie/the-craft",
+  "source": "Roxy Cinema",
+  "eventType": "Film & Media",
+  "long_description": "Details\n\nDirected by Andrew Fleming\n\nStarring Neve Campbell, Skeet Ulrich, Robin Tunney, Fairuza Balk, Rachel True\n\n30th Anniversary\n\n---\u00a0A Catholic school newcomer falls in with a clique of teen witches who wield their powers against all who dare to cross them \u2013 be they teachers, rivals or meddlesome\u00a0parents. ---\n\nUpgrade your ticket to the FEAST YOUR EYES (FYE) experience which includes themed drink and dessert.\n\nAt Feast Your Eyes, cinephiles and foodies will be treated to a movie and food experience in the cinema at the perfect after dinner event!\n\nAdmit only tickets are $15, but you can upgrade to a Feast Your Eyes tickets for $45. All Feast Your Eyes tickets include a themed dessert* and cocktail to enjoy during the film.\n\nThe upstairs bar will open at 7:00pm for cocktail and dessert collection. The pre-show kicks off at 7:25pm and the feature begins at 7:35pm.\n\n*No dietaries catered for.\n\nPresented in 4K",
+  "description": "Details Directed by Andrew Fleming Starring Neve Campbell, Skeet Ulrich, Robin Tunney, Fairuza Balk, Rachel True 30th Anniversary ---\u00a0A Catholic school newcomer falls in with a clique of teen witches who wield their powers against all who dare to cross them \u2013 be they teachers, rivals or meddlesome\u00a0parents.\n--- Upgrade your ticket to the FEAST YOUR EYES (FYE) experience which includes themed drink and dessert.\nAt Feast Your Eyes, cinephiles and foodies will be treated to a movie and food experience in the cinema at the perfect after dinner event!\nAll Feast Your Eyes tickets include a themed dessert* and cocktail to enjoy during the film.\nThe upstairs bar will open at 7:00pm for cocktail and dessert collection.",
+  "labels": []
+},
 ]

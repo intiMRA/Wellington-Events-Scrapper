@@ -267,7 +267,7 @@ def predict_from_file(file_name, update_labels=True):
     return predicted_labels
 
 def load_models_from_file():
-    classification_model = load_model(paths.model_path("trained_model"))
+    classification_model = load_model(paths.model_path("trained_model"), compile=False)
     with open(paths.model_path('tokenizer_config.json'), 'r', encoding='utf-8') as f:
         tokenizer_config_string = json.loads(f.read())
     loaded_tokenizer = tokenizer_from_json(tokenizer_config_string)

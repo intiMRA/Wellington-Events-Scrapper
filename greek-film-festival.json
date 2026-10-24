@@ -1,33 +1,13 @@
 {
   "events": [
     {
-      "id": "GFF - America America-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "GFF - America America",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_6a5b4e54-73e8-421a-9700-b60eeb8e0633.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158392,
-        "long": 174.8162766
-      },
-      "dates": [
-        "2026-10-20-19:00"
-      ],
-      "displayDate": "Tue 20 Oct",
-      "url": "https://www.roxycinema.co.nz/movie/gff-america-america",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nDirected by Elia Kazan\n\nA young Anatolian Greek, entrusted with his family\u2019s fortune, loses it en route to Istanbul and dreams of going to America.\n\n$2.00 Booking Fee per ticket applies to online & in house box office sales",
-      "description": "Details Directed by Elia Kazan A young Anatolian Greek, entrusted with his family\u2019s fortune, loses it en route to Istanbul and dreams of going to America.\n$2.00 Booking Fee per ticket applies to online & in house box office sales",
-      "labels": []
-    },
-    {
       "id": "GFF - My Name Is Eftihia-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "GFF - My Name Is Eftihia",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_610bb5ba-5913-475e-aee1-a857a58e7603.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158392,
-        "long": 174.8162766
+        "lat": -41.3158511,
+        "long": 174.816259
       },
       "dates": [
         "2026-10-27-19:00"
@@ -46,8 +26,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7913bc7d-e042-4982-83ed-74cec75aada1.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158392,
-        "long": 174.8162766
+        "lat": -41.3158511,
+        "long": 174.816259
       },
       "dates": [
         "2026-11-03-19:00"

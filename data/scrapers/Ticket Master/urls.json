@@ -1,26 +1,54 @@
 [
 [
-  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-15-10-2026/event/24006459D3DC35B1",
+  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-24-10-2026/event/24006459D3DD35C7",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-late-night-wellington-15-10-2026/event/24006458FFD73E8D",
+  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E6AF3D1A4E",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/macy-gray-live-wellington-15-10-2026/event/240064BAAA131DB5",
+  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-late-night-wellington-29-10-2026/event/24006459C9D131E6",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/set-fire-to-the-brass-wellington-15-10-2026/event/240064F7857116E3",
+  "https://www.ticketmaster.co.nz/love-actually-in-concert-wellington-11-12-2026/event/240064F69AA91B88",
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/the-snow-fairy-wellington-18-01-2027/event/2400654EAF393EBD",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E3C3533515",
+  "https://www.moshtix.co.nz/v2/event/pachyman-the-lahaar/201248",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/the-curious-case-of-benjamin-button-wellington-15-05-2027/event/24006542B037340F",
+  "https://www.ticketmaster.co.nz/beth-orton-wellington-central-12-03-2027/event/24006553A35E34DB",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/bryan-adams-bare-bones-wellington-central-15-03-2027/event/2400654FB2033F87",
+  "TheaterEvent"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/slow-pilot-belgium-performing-the-songs-of-jeff-buckley/201382",
+  "Other"
+],
+[
+  "https://www.moshtix.co.nz/v2/event/the-relatives-present-the-killers-hot-fuss-/201379",
+  "Other"
+],
+[
+  "https://www.ticketmaster.co.nz/blueys-big-play-the-stage-show-wellington-15-04-2027/event/2400654FEFF15DCB",
+  "Other"
+],
+[
+  "https://www.ticketmaster.co.nz/the-curious-case-of-benjamin-button-wellington-15-05-2027/event/24006542B1543479",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/queen-its-a-kinda-magic-wellington-30-10-2027/event/2400654F9FA43356",
   "TheaterEvent"
 ],
 [
@@ -37,26 +65,26 @@
 ],
 [
   "https://www.ticketmaster.ca/wellington-dukes-vs-trenton-golden-hawks-belleville-ontario-11-13-2026/event/31006546BD3D7B83",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 [
-  "https://www.ticketmaster.com.au/202627-ws-wanderers-a-league-season-parramatta-13-12-2026/event/2500651388D01BAE",
-  "TheaterEvent"
+  "https://www.ticketmaster.com.au/202627-aleague-season-western-sydney-wanderers-parramatta-13-12-2026/event/2500651388D01BAE",
+  "SportsEvent"
 ],
 [
   "https://www.ticketmaster.com.au/sydney-fc-202627-ninja-aleague-women-wollongong-20-02-2027/event/1300651BE0A56CB5",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 [
   "https://www.ticketmaster.com.au/perth-glory-v-wellington-phoenix-fc-perth-30-04-2027/event/13006512DA8B65DD",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 [
   "https://www.ticketmaster.com.au/202627-aleague-sydney-fc-v-wellington-sydney-07-05-2027/event/250064FFCB019769",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 [
   "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
-  "TheaterEvent"
+  "SportsEvent"
 ],
 ]
