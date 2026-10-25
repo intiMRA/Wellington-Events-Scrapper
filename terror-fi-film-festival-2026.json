@@ -6,8 +6,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7214d00f-967e-4f8f-ab2c-f7527bb2742a.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-30-18:30"
@@ -26,8 +26,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_1e50022c-bdc2-4ac2-a2cb-86b03cc2eea6.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-31-20:30"
@@ -46,8 +46,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b9212b9b-4ebf-49f9-98d1-3d2a2c7fbccb.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-28-20:15"
@@ -66,8 +66,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_cb915256-8127-4dc5-ab09-624ea7624ae6.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-11-01-16:15"
@@ -86,8 +86,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_e9c90ef2-46ac-49ca-842a-f35048a119d2.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-31-18:00"
@@ -106,8 +106,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_c68a3f1d-0bb2-4b4e-aa74-c64b13e8283d.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-11-01-20:15"
@@ -126,8 +126,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_563b17ae-db46-43ce-8928-81095f8627a3.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-31-16:00"
@@ -146,8 +146,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_c07c50e2-a869-4cb7-a423-2a2ed726e101.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-31-14:00"
@@ -166,8 +166,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_2563de07-dc34-4f1b-afa3-6b67c1bbed59.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-11-01-11:45"
@@ -186,8 +186,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b5595fad-e82a-4f5f-8149-5adaf8887f76.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-11-01-18:15"
@@ -201,13 +201,33 @@
       "labels": []
     },
     {
+      "id": "TFi - Terror-Find My Tribe 2026-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+      "name": "TFi - Terror-Find My Tribe 2026",
+      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_c5479cd1-3203-42cf-8438-e6b4a5fa90a9.jpg",
+      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+      "coordinates": {
+        "lat": -41.3123759,
+        "long": 174.820036
+      },
+      "dates": [
+        "2026-10-31-11:45"
+      ],
+      "displayDate": "Sat 31 Oct",
+      "url": "https://www.roxycinema.co.nz/movie/tfi-terror-find-my-tribe-2026",
+      "source": "Roxy Cinema",
+      "eventType": "Film & Media",
+      "long_description": "Details\n\nTerror-Fi Film Festival and Screen Wellington are thrilled to bring you the TERROR-FIND MY TRIBE Filmmaking Competition.\n\nEmerging filmmakers and crew from the Greater Wellington Region were bought together into diverse teams to create short films for Terror-Fi using the theme \u2026 Urban Legend!\n\nCome see these World Premiere shorts!",
+      "description": "Details Terror-Fi Film Festival and Screen Wellington are thrilled to bring you the TERROR-FIND MY TRIBE Filmmaking Competition.\nEmerging filmmakers and crew from the Greater Wellington Region were bought together into diverse teams to create short films for Terror-Fi using the theme \u2026 Urban Legend!\nCome see these World Premiere shorts!",
+      "labels": []
+    },
+    {
       "id": "TFi - The Host-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "TFi - The Host",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_2b174133-6cb2-4fff-bd05-6048f3cededf.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-11-01-14:00"
@@ -226,8 +246,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_79848ec1-0ae4-4cf1-92ce-2cf4a4230fa1.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-30-22:45"
@@ -246,8 +266,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7285614d-bf71-48a6-91e1-f03bea7bcfc2.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-29-18:30"
@@ -266,8 +286,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_6b89f649-60a2-4add-ae53-c5493403e452.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-29-20:45"
@@ -286,8 +306,8 @@
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_fc5de149-9f49-4588-87f4-11123dc320bd.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3123759,
+        "long": 174.820036
       },
       "dates": [
         "2026-10-30-20:30"
