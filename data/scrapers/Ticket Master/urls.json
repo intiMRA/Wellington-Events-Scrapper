@@ -1,14 +1,34 @@
 [
 [
-  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-25-10-2026/event/240064E3C3533515",
-  "Other"
+  "https://www.moshtix.co.nz/v2/event/sleeping-village-four-album-release-show/199834",
+  "MusicEvent"
 ],
 [
-  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-25-10-2026/event/24006459D3DD35CB",
-  "Other"
+  "https://www.ticketmaster.co.nz/royal-new-zealand-ballet-presents-the-wellington-31-10-2026/event/2400636BDA0A45A6",
+  "MusicEvent"
 ],
 [
-  "https://www.ticketweb.com/event/falling-into-light-wait-dingbatz-tickets/14303294?REFERRAL_ID=tmfeed",
+  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-31-10-2026/event/24006459D78E36F1",
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-late-night-wellington-05-11-2026/event/24006459C9D131EA",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-08-11-2026/event/240064E6B0BF1AC7",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/enzo-celebrates-wellington-central-27-02-2027/event/2400655771B217DE",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/cirque-nouvelle-a-new-evolution-of-wellington-18-04-2027/event/24006557794F1D9F",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/bat-out-of-hell-the-musical-wellington-06-08-2027/event/24006555D74960B9",
   "TheaterEvent"
 ],
 [
@@ -24,7 +44,15 @@
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.com.au/202627-aleague-season-western-sydney-wanderers-parramatta-13-12-2026/event/2500651388D01BAE",
+  "https://www.ticketmaster.com.au/aleagues-mwsw-v-adelaide-united-w-parramatta-20-11-2026/event/25006512DEC652B1",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.com.au/aleague-men-western-sydney-wanderers-v-parramatta-13-12-2026/event/2500651388D01BAE",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketweb.com/event/tray-wellington-tip-top-deluxe-bar-tickets/14407194",
   "TheaterEvent"
 ],
 [
@@ -33,14 +61,14 @@
 ],
 [
   "https://www.ticketmaster.com.au/perth-glory-v-wellington-phoenix-fc-perth-30-04-2027/event/13006512DA8B65DD",
-  "SportsEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/202627-aleague-sydney-fc-v-wellington-sydney-07-05-2027/event/250064FFCB019769",
-  "SportsEvent"
+  "TheaterEvent"
 ],
 [
   "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
-  "SportsEvent"
+  "TheaterEvent"
 ],
 ]

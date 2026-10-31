@@ -1,2 +1,22 @@
 [
+{
+  "id": "Seconds-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+  "name": "Seconds",
+  "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_4221980c-0699-4d01-8928-5bb3def66754.jpg",
+  "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+  "coordinates": {
+    "lat": -41.3158511,
+    "long": 174.816259
+  },
+  "dates": [
+    "2026-11-08-19:45"
+  ],
+  "displayDate": "Sun 08 Nov",
+  "url": "https://www.roxycinema.co.nz/movie/seconds",
+  "source": "Roxy Cinema",
+  "eventType": "Film & Media",
+  "long_description": "Details\n\nDirected by John Frankenheimer\n\nStarring Rock Hudson, Frances Reid, John Randolph, Frank Campanella\n\n60th\u00a0Anniversary\n\n\n---\u00a0An unhappy middle-aged banker agrees to a procedure that will fake his death and give him a completely new look and identity; one that comes with its own\u00a0price. ---",
+  "description": "Details Directed by John Frankenheimer Starring Rock Hudson, Frances Reid, John Randolph, Frank Campanella 60th\u00a0Anniversary ---\u00a0An unhappy middle-aged banker agrees to a procedure that will fake his death and give him a completely new look and identity; one that comes with its own\u00a0price.\n---",
+  "labels": []
+},
 ]

@@ -1,2 +1,42 @@
 [
+{
+  "id": "Son & Water tickets-Mercury Baypark Stadium Lounge, Mt Maunganui, Bay of Plenty-Ticketek",
+  "name": "Son & Water tickets",
+  "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx102603.png",
+  "venue": "Mercury Baypark Stadium Lounge, Mt Maunganui, Bay of Plenty",
+  "coordinates": {
+    "lat": -37.6380218,
+    "long": 176.1838841
+  },
+  "dates": [
+    "2026-11-20-19:00"
+  ],
+  "displayDate": "Fri 20 Nov",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=BURNING26",
+  "source": "Ticketek",
+  "eventType": "Music & Concerts",
+  "long_description": "Passing the torch from one generation to the next, Son & Water are keeping the musical flame alight with their debut album, Still Burning, out October 9.\n\nFollowing a powerful year on the charts, with \u2018SAW\u2019, \u2018Hotel California\u2019 and \u2018Drop It Down\u2019 lighting up airwaves across Aotearoa, the nine-track album marks a new chapter in their journey.\n\nTo celebrate, Son & Water will embark on their first nationwide tour, bringing their captivating live energy and unique flavour of Aotearoa Reggae music to audiences across the country.\n\nReal music, real connection, and good vibes only. Don't miss your chance to catch Son & Water live this November!\n\nMade possible with the support of NZOA.",
+  "description": "Passing the torch from one generation to the next, Son & Water are keeping the musical flame alight with their debut album, Still Burning, out October 9.\nFollowing a powerful year on the charts, with \u2018SAW\u2019, \u2018Hotel California\u2019 and \u2018Drop It Down\u2019 lighting up airwaves across Aotearoa, the nine-track album marks a new chapter in their journey.\nTo celebrate, Son & Water will embark on their first nationwide tour, bringing their captivating live energy and unique flavour of Aotearoa Reggae music to audiences across the country.\nReal music, real connection, and good vibes only.\nDon't miss your chance to catch Son & Water live this November!",
+  "labels": []
+},
+{
+  "id": "Josh Wolf - Touring Hard tickets-Meow Nui, Wellington, New Zealand-Ticketek",
+  "name": "Josh Wolf - Touring Hard tickets",
+  "imageUrl": "https://d19py84rdi4j91.cloudfront.net/dbimages/sfx102724.jpg",
+  "venue": "Meow Nui, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2954948,
+    "long": 174.7779739
+  },
+  "dates": [
+    "2027-02-04-18:30"
+  ],
+  "displayDate": "Thu 04 Feb",
+  "url": "https://premier.ticketek.co.nz/shows/show.aspx?sh=JOSHWOLF27",
+  "source": "Ticketek",
+  "eventType": "Arts & Theatre",
+  "long_description": "Presented by: Events Innovated\n\nUS comedy legend, Josh Wolf, returns to NZ with his brand-new show, Touring Hard!\n\nHis fourth time touring Aotearoa, Josh will be bringing his hilarious stories and unbelievable yarns to Wellington\u2019s Meow Nui this February for one-night-only! Promising a night of absolute mayhem and non-stop laughter, Josh will be accompanied by his son, Jacob \u2013 with the two delivering their latest show that will entertain the sweaty summer pants off you!\n\nJosh\u2019s Wellington shows always sell out. Don\u2019t miss a comedic master at work \u2013 book now!\n\nA stand-up comedian for more than three decades, Josh Wolf is also a heralded writer, actor, and New York Times best-selling author. His comedy roots trace back to Boston and Seattle, eventually leading him to open for the likes of industry pillars such as Larry the Cable Guy and Chelsea Handler. After years of touring, writing, and performing, Josh has established himself as one of the most respected comedians in the industry, continuing to headline sold-out theaters across North America, Australia, New Zealand, and Europe.\n\nFresh off the heels of his \u201cHigh On Life Tour\u201d, Josh rolled out his most recent special, \u201cThe Campfire Special\u201d which blends music and comedy and features an array of special guests. The special marked his fourth in the past six years, further solidifying his prolific career and rabid fanbase. Josh\u2019s brand-new show now sees him touring internationally through 2026 & 2027, hitting the US, Canada, Europe, UK and now Australia and NZ. In addition to touring, Wolf has a weekly residency at Jimmy Kimmel\u2019s Comedy Club in Las Vegas where he performs every Sunday and Monday night to a packed house.\n\nWith over 7.4 million followers across social platforms, and more than 280 million views on his YouTube channel alone, Josh continues to further expand his reach and deepen his connection with fans.",
+  "description": "His fourth time touring Aotearoa, Josh will be bringing his hilarious stories and unbelievable yarns to Wellington\u2019s Meow Nui this February for one-night-only!\nA stand-up comedian for more than three decades, Josh Wolf is also a heralded writer, actor, and New York Times best-selling author.\nHis comedy roots trace back to Boston and Seattle, eventually leading him to open for the likes of industry pillars such as Larry the Cable Guy and Chelsea Handler.\nAfter years of touring, writing, and performing, Josh has established himself as one of the most respected comedians in the industry, continuing to headline sold-out theaters across North America, Australia, New Zealand, and Europe.\nJosh\u2019s brand-new show now sees him touring internationally through 2026 & 2027, hitting the US, Canada, Europe, UK and now Australia and NZ.",
+  "labels": []
+},
 ]
