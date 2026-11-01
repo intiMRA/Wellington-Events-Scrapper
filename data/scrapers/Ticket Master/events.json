@@ -1,66 +1,5 @@
 [
 {
-  "id": "Royal New Zealand Ballet presents The Sleeping Beauty-St James Theatre Wellington, Wellington, NZ-Ticket Master",
-  "name": "Royal New Zealand Ballet presents The Sleeping Beauty",
-  "imageUrl": "https://s1.ticketm.net/dam/e/0f5/713356b5-1375-407f-94de-9e90a63090f5_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "St James Theatre Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2933004,
-    "long": 174.7797564
-  },
-  "dates": [
-    "2026-10-31-13:30",
-    "2026-10-31-13:30"
-  ],
-  "displayDate": "Sat 31 Oct + more",
-  "url": "https://www.ticketmaster.co.nz/royal-new-zealand-ballet-presents-the-wellington-31-10-2026/event/2400636BDA0A45A6",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket ",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket",
-  "labels": []
-},
-{
-  "id": "Cornelia Parker Exhibition-City Gallery Wellington, Wellington, NZ-Ticket Master",
-  "name": "Cornelia Parker Exhibition",
-  "imageUrl": "https://s1.ticketm.net/dam/a/28c/efb39d62-35e0-4e5f-827d-823c1343028c_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "City Gallery Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2884394,
-    "long": 174.7772493
-  },
-  "dates": [
-    "2026-10-31-16:00"
-  ],
-  "displayDate": "Sat 31 Oct",
-  "url": "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-31-10-2026/event/24006459D78E36F1",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: Children 4 years and under will be admitted free. General admission for ages 5-13 years will need a Child Ticket ($2)\r\n\r\nCornelia Parker is one of contemporary art's great alchemists-a master of metamorphosis and transformation; a maker of objects and encounters full of awe and wonder.\r\n\r\nThe exhibition brings Parker's recent projects into dialogue with her iconic works. It offers a rare opportunity to encounter the full scope of her practice: poetic, political, and relentlessly inventive. For more info click here(Opens in new tab)",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nGeneral admission for ages 5-13 years will need a Child Ticket ($2) Cornelia Parker is one of contemporary art's great alchemists-a master of metamorphosis and transformation; a maker of objects and encounters full of awe and wonder.\nThe exhibition brings Parker's recent projects into dialogue with her iconic works.\nFor more info click here(Opens in new tab)",
-  "labels": []
-},
-{
-  "id": "Cornelia Parker Exhibition Late Night-City Gallery Wellington, Wellington, NZ-Ticket Master",
-  "name": "Cornelia Parker Exhibition Late Night",
-  "imageUrl": "https://s1.ticketm.net/dam/a/28c/efb39d62-35e0-4e5f-827d-823c1343028c_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "City Gallery Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2884394,
-    "long": 174.7772493
-  },
-  "dates": [
-    "2026-11-05-19:30"
-  ],
-  "displayDate": "Thu 05 Nov",
-  "url": "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-late-night-wellington-05-11-2026/event/24006459C9D131EA",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: Children 4 years and under will be admitted free. General admission for ages 5-13 years will need a Child Ticket ($2)\r\n\r\nCornelia Parker is one of contemporary art's great alchemists-a master of metamorphosis and transformation; a maker of objects and encounters full of awe and wonder.\r\n\r\nThe exhibition brings Parker's recent projects into dialogue with her iconic works. It offers a rare opportunity to encounter the full scope of her practice: poetic, political, and relentlessly inventive. For more info click here(Opens in new tab)",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nGeneral admission for ages 5-13 years will need a Child Ticket ($2) Cornelia Parker is one of contemporary art's great alchemists-a master of metamorphosis and transformation; a maker of objects and encounters full of awe and wonder.\nThe exhibition brings Parker's recent projects into dialogue with her iconic works.\nFor more info click here(Opens in new tab)",
-  "labels": []
-},
-{
   "id": "s Wellington Heritage Tours-The Opera House Wellington, Wellington, NZ-Ticket Master",
   "name": "s Wellington Heritage Tours",
   "imageUrl": "https://s1.ticketm.net/dam/a/750/3a4826e2-182c-41d8-a460-0bcb30a58750_EVENT_DETAIL_PAGE_16_9.jpg",
@@ -70,78 +9,15 @@
     "long": 174.7779946
   },
   "dates": [
-    "2026-11-08-10:00",
-    "2026-11-08-10:00"
+    "2026-11-08-14:00",
+    "2026-11-08-14:00"
   ],
   "displayDate": "Sun 08 Nov + more",
-  "url": "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-08-11-2026/event/240064E6B0BF1AC7",
+  "url": "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-08-11-2026/event/240064E6B1451AD7",
   "source": "Ticket Master",
   "eventType": "Arts & Theatre",
   "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nJoin us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House. Discover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces. Led by expert guides, this tour takes you on a journey through over a century of theatre magic. Tread the boards in the footsteps of legendary performers. Uncover the secrets of stagecraft and marvel at the breathtaking details of these heritage-listed buildings. From opulent foyers and ornate auditoriums to backstage corridors brimming with history, you'll see the theatres as you've never seen them before. ",
   "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Join us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House.\nDiscover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces.\nLed by expert guides, this tour takes you on a journey through over a century of theatre magic.\nTread the boards in the footsteps of legendary performers.",
-  "labels": []
-},
-{
-  "id": "ENZO Celebrates-Te Whare Whakarauika Wellington Town Hall, Wellington Central, NZ-Ticket Master",
-  "name": "ENZO Celebrates",
-  "imageUrl": "https://s1.ticketm.net/dam/e/dd1/87d3ab70-2815-4238-b3bf-638a6a235dd1_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Te Whare Whakarauika Wellington Town Hall, Wellington Central, NZ",
-  "coordinates": {
-    "lat": -41.2821003,
-    "long": 174.7759494
-  },
-  "dates": [
-    "2027-02-27-20:00",
-    "2027-02-27-20:00"
-  ],
-  "displayDate": "Sat 27 Feb + more",
-  "url": "https://www.ticketmaster.co.nz/enzo-celebrates-wellington-central-27-02-2027/event/2400655771B217DE",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: All patrons must hold a ticket for entry. ",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: All patrons must hold a ticket for entry.",
-  "labels": []
-},
-{
-  "id": "Sun, 18 Apr 2027, 2:00 pmSun, 18 Apr 2027, 2:00 pm-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "Sun, 18 Apr 2027, 2:00 pmSun, 18 Apr 2027, 2:00 pm",
-  "imageUrl": "https://s1.ticketm.net/tm/en-nz/dam/a/e52/2fa39dfc-e328-4ec8-b849-83f3c0371e52_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2027-04-18-14:00",
-    "2027-04-18-14:00"
-  ],
-  "displayDate": "Sun 18 Apr + more",
-  "url": "https://www.ticketmaster.co.nz/cirque-nouvelle-a-new-evolution-of-wellington-18-04-2027/event/24006557794F1D9F",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nPlease note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs. The Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo. For further information, please contact us on 04 916 1205.\r\n\r\nContent Warning: Use of smoke, haze and flashing lights.\r\n\r\nChild Policy: This event is recommended 3+ years. Children under 3 years of age will be admitted free of charge provided they do not occupy a seat. ",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Please note: There is no elevator in the Opera House and access to the Dress Circle and Gallery are via stairs.\nThe Gallery may be unsuitable for patrons with accessibility requirements or experience vertigo.\nContent Warning: Use of smoke, haze and flashing lights.",
-  "labels": []
-},
-{
-  "id": "BAT OUT OF HELL - The Musical. 50th Anniversary-Michael Fowler Centre, Wellington, NZ-Ticket Master",
-  "name": "BAT OUT OF HELL - The Musical. 50th Anniversary",
-  "imageUrl": "https://s1.ticketm.net/dam/a/f0d/4e94b096-2752-43c1-b81d-73fb3ca87f0d_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "Michael Fowler Centre, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2895258,
-    "long": 174.7780167
-  },
-  "dates": [
-    "2027-08-06-19:30",
-    "2027-08-06-19:30"
-  ],
-  "displayDate": "Fri 06 Aug + more",
-  "url": "https://www.ticketmaster.co.nz/bat-out-of-hell-the-musical-wellington-06-08-2027/event/24006555D74960B9",
-  "source": "Ticket Master",
-  "eventType": "Arts & Theatre",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: This show is recommended for ages 13+. All patrons require a ticket for entry.\r\n\r\nContent Warning: This production contains mature language and adult themes, haze, smoke, strobe effects and loud music.\r\n\r\nBAT OUT OF HELL - THE MUSICAL, the award-winning, jaw-dropping rock spectacle featuring the legendary music of Jim Steinman and Meat Loaf, is ready to blow you away!\r\n\r\nGet ready to turn up the volume as some of the biggest rock anthems of all time explode onto the stage in an electrifying production packed with powerhouse vocals, spectacular staging and pure rock 'n' roll energy. ",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nAll patrons require a ticket for entry.\nContent Warning: This production contains mature language and adult themes, haze, smoke, strobe effects and loud music.\nBAT OUT OF HELL - THE MUSICAL, the award-winning, jaw-dropping rock spectacle featuring the legendary music of Jim Steinman and Meat Loaf, is ready to blow you away!",
   "labels": []
 },
 ]

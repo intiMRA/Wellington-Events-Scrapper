@@ -74,7 +74,12 @@ class HumanitixScrapper:
     def get_event(url: str, category: str, multiple_dates: bool, page: Page) -> Optional[EventInfo]:
         goto_with_retry(page, url)
         title: str = page.locator(".titlewrapper").first.inner_text().split("\n")[0]
-        image_url: str = page.locator(".banner").first.locator("img").evaluate('img => img.src') or ""
+        banner = page.locator(".banner")
+        image_url = ""
+        if banner:
+            image = banner.first.locator("img")
+            if image.count():
+                image_url = image.evaluate('img => img.src') or ""
         address = page.locator(".EventLocation").first.locator(".address")
         if not address.count():
             address = page.locator(".address")

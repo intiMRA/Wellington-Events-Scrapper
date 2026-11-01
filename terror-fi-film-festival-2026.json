@@ -1,113 +1,13 @@
 {
   "events": [
     {
-      "id": "TFi - Godmother-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - Godmother",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_cb915256-8127-4dc5-ab09-624ea7624ae6.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2026-11-01-16:15"
-      ],
-      "displayDate": "Sun 01 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-godmother",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nDirected by John Vernon\n\nStarring Dee Wallace, Bruce Davidson, Riley Dandy, Paige Evans, Cameron Cuffe\n\nOne of this year's hidden gems, be the first to see GODMOTHER at the New Zealand Premiere!\n\n93% on Rotten Tomatoes, this wild ride of twists and turns in the Arizona desert might just put you off booking a holiday ever again!\n\nThis will be your only chance to see GODMOTHER in cinemas.\n\n--- Theo and her boyfriend Colby travel to the High Desert for a romantic weekend. Their plans are disrupted by two seemingly friendly retirees, who have sinister intentions for Theo. ---\n\nFestivals: Fantastic Fest 26",
-      "description": "Details Directed by John Vernon Starring Dee Wallace, Bruce Davidson, Riley Dandy, Paige Evans, Cameron Cuffe One of this year's hidden gems, be the first to see GODMOTHER at the New Zealand Premiere!\n93% on Rotten Tomatoes, this wild ride of twists and turns in the Arizona desert might just put you off booking a holiday ever again!\nThis will be your only chance to see GODMOTHER in cinemas.\n--- Theo and her boyfriend Colby travel to the High Desert for a romantic weekend.\nTheir plans are disrupted by two seemingly friendly retirees, who have sinister intentions for Theo.",
-      "labels": []
-    },
-    {
-      "id": "TFi - It Ends-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - It Ends",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_c68a3f1d-0bb2-4b4e-aa74-c64b13e8283d.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2026-11-01-20:15"
-      ],
-      "displayDate": "Sun 01 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-it-ends",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nDirected by Alexander Ullom\n\nStarring Akira Jackson, Phinehas Yoon, Noah Toth, Mitchell Cole\n\nNZ Premiere\n\nBe the first to see the stunning existential road trip thriller IT ENDS at the New Zealand Premiere!\n\n93% on Rotten Tomatoes \u2026 this will be your only chance to see this film (from the producers of \u2018Backrooms\u2019) in a cinema.\n\n--- A group of recent grads head out on a late-night drive for grub, hoping to enjoy one final hangout before their paths diverge. Instead, they accidentally turn onto a never-ending, two lane hellscape surrounded by untold horrors and cosmic forces beyond their understanding. ---",
-      "description": "Details Directed by Alexander Ullom Starring Akira Jackson, Phinehas Yoon, Noah Toth, Mitchell Cole NZ Premiere Be the first to see the stunning existential road trip thriller IT ENDS at the New Zealand Premiere!\n93% on Rotten Tomatoes \u2026 this will be your only chance to see this film (from the producers of \u2018Backrooms\u2019) in a cinema.\n--- A group of recent grads head out on a late-night drive for grub, hoping to enjoy one final hangout before their paths diverge.\nInstead, they accidentally turn onto a never-ending, two lane hellscape surrounded by untold horrors and cosmic forces beyond their understanding.\n---",
-      "labels": []
-    },
-    {
-      "id": "TFi - Short Film Showcase 2026-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - Short Film Showcase 2026",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_2563de07-dc34-4f1b-afa3-6b67c1bbed59.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2026-11-01-11:45"
-      ],
-      "displayDate": "Sun 01 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-short-film-showcase-2026",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nCome see an incredible range of genre shorts from New Zealand and around the World!\n\nThis signature Terror-Fi event is carefully curated to showcase a range of new talent across a wide mix of genres.... filmmakers and films to look out for in the future!\u202f",
-      "description": "Details Come see an incredible range of genre shorts from New Zealand and around the World!\nThis signature Terror-Fi event is carefully curated to showcase a range of new talent across a wide mix of genres.... filmmakers and films to look out for in the future!",
-      "labels": []
-    },
-    {
-      "id": "TFi - Species-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - Species",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_b5595fad-e82a-4f5f-8149-5adaf8887f76.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2026-11-01-18:15"
-      ],
-      "displayDate": "Sun 01 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-species",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nDirected by Marion Le Corroller\n\nStarring Mara Taquin, Karin Viard, Kim Higelin\n\nSANGUINE\n\nAfter wowing the crowds at Cannes, Bucheon, and Sitges be the first to see the brilliant body horror SPECIES at the New Zealand Premiere!\n\nFor fans of films like 'The Substance', SPECIES features a stunning lead performance and some gloriously gory practical effects.\n\nThis will be your only chance to see SPECIES in cinemas.\n\n--- Margot dreams of becoming a life-saving doctor. But as an intern at the most competitive ER in the country, she has trouble keeping up. Soon, young burnt out patients come to her with unusual symptoms, just as she starts developing a strange metamorphosis\u2026 ---\n\nFestivals: Cannes 26, Bucheon 26, Fright Fest 26, Sitges 26",
-      "description": "Details Directed by Marion Le Corroller Starring Mara Taquin, Karin Viard, Kim Higelin\nAfter wowing the crowds at Cannes, Bucheon, and Sitges be the first to see the brilliant body horror SPECIES at the New Zealand Premiere!\nFor fans of films like 'The Substance', SPECIES features a stunning lead performance and some gloriously gory practical effects.\nThis will be your only chance to see SPECIES in cinemas.\n--- Margot dreams of becoming a life-saving doctor.",
-      "labels": []
-    },
-    {
-      "id": "TFi - The Host-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - The Host",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_2b174133-6cb2-4fff-bd05-6048f3cededf.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
-      },
-      "dates": [
-        "2026-11-01-14:00"
-      ],
-      "displayDate": "Sun 01 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-the-host",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nDirected by Bong Joon Ho\n\nStarring Song Kang-ho, Byun Hee-Bong, Park Hae-il\n\nA defining moment in Korean genre comes back to the big screen in 4K for its 20th Anniversary!\n\n93% on Rotten Tomatoes from 155 reviews! If you've not had the chance to see this in a cinema before ... you must at Terror-Fi!\n\nThis might well be your only chance to see THE HOST 4K in the on the big screen.\n\n--- Careless American military personnel dump chemicals into South Korea's Han River. Several years later, a creature emerges from the tainted waters and sinks its ravenous jaws into local residents. When the creature abducts their daughter, a vendor and his family decide that they are the only ones who can save her. ---",
-      "description": "93% on Rotten Tomatoes from 155 reviews!\nThis might well be your only chance to see THE HOST 4K in the on the big screen.\n--- Careless American military personnel dump chemicals into South Korea's Han River.\nSeveral years later, a creature emerges from the tainted waters and sinks its ravenous jaws into local residents.\nWhen the creature abducts their daughter, a vendor and his family decide that they are the only ones who can save her.",
-      "labels": []
-    },
-    {
       "id": "TFi - Victorian Psycho-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
       "name": "TFi - Victorian Psycho",
       "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_6b89f649-60a2-4add-ae53-c5493403e452.jpg",
       "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
       "coordinates": {
-        "lat": -41.3158511,
-        "long": 174.816259
+        "lat": -41.3158392,
+        "long": 174.8162766
       },
       "dates": [
         "2026-11-06-20:30"
