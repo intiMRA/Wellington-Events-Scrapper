@@ -1,2 +1,22 @@
 [
+{
+  "id": "Emerald Hours - Soul, Funk, Disco, Boogie And More-The Rogue & Vagabond-Rogue & Vagabond",
+  "name": "Emerald Hours - Soul, Funk, Disco, Boogie And More",
+  "imageUrl": "https://www.undertheradar.co.nz/images/showImages/105719-236244.jpeg",
+  "venue": "The Rogue & Vagabond",
+  "coordinates": {
+    "lat": -41.29336,
+    "long": 174.7745002
+  },
+  "dates": [
+    "2026-11-27-20:00"
+  ],
+  "displayDate": "Fri 27 Nov",
+  "url": "http://www.undertheradar.co.nz/gig/105719/Emerald-Hours---Soul-Funk-Disco-Boogie-And-More.utr",
+  "source": "Rogue & Vagabond",
+  "eventType": "Music & Concerts",
+  "long_description": "Emerald Hours returns with your soulful deejays.\n\nAll vinyl, all night.\nFor the dancers!\n\nBedlam & Squalor\nLevel 1/18 Garrett Street, Te Aro\n8pm till late\nFree entry",
+  "description": "Emerald Hours returns with your soulful deejays.\nAll vinyl, all night.\nFor the dancers!\nBedlam & Squalor Level 1/18 Garrett Street, Te Aro 8pm till late Free entry",
+  "labels": []
+},
 ]

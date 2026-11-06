@@ -1,24 +1,3 @@
 {
-  "events": [
-    {
-      "id": "TFi - Victorian Psycho-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "TFi - Victorian Psycho",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_6b89f649-60a2-4add-ae53-c5493403e452.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158392,
-        "long": 174.8162766
-      },
-      "dates": [
-        "2026-11-06-20:30"
-      ],
-      "displayDate": "Fri 06 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/tfi-victorian-psycho",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nDirected by Zachary Wigon\n\nStarring Jason Isaacs, Thomasin McKenzie, Maika Monroe, Jacobi Jupe, Evie Templeton\n\nNZ Premiere\n\nBe the first to see the twisted period horror/thriller VICTORIAN PSYCHO at the New Zealand Premiere!\n\nAfter wowing the crowds at Cannes, the film hits our shores \u2013 with a delightfully unhinged performance from Maika Monroe and our own Thomasin McKenzie in support.\n\n--- In the Year of our Lord 1858, an unusual governess named Winifred Notty arrives at the gothic manor known as Ensor House. Winifred's responsibilities include teaching the children table manners and educating them about their family history -- all whilst hiding her own psychopathic tendencies. But as staff members begin disappearing, the owners of the estate start to wonder if there may be something amiss with their new governess... Victorian Psycho invites us into the mind of a psychopath -- trapped in a world she cannot control, living on the border between insurrection and madness. ---",
-      "description": "Details Directed by Zachary Wigon Starring Jason Isaacs, Thomasin McKenzie, Maika Monroe, Jacobi Jupe, Evie Templeton NZ Premiere Be the first to see the twisted period horror/thriller VICTORIAN PSYCHO at the New Zealand Premiere!\nAfter wowing the crowds at Cannes, the film hits our shores \u2013 with a delightfully unhinged performance from Maika Monroe and our own Thomasin McKenzie in support.\n--- In the Year of our Lord 1858, an unusual governess named Winifred Notty arrives at the gothic manor known as Ensor House.\nWinifred's responsibilities include teaching the children table manners and educating them about their family history -- all whilst hiding her own psychopathic tendencies.\nBut as staff members begin disappearing, the owners of the estate start to wonder if there may be something amiss with their new governess... Victorian Psycho invites us into the mind of a psychopath -- trapped in a world she cannot control, living on the border between insurrection and madness.",
-      "labels": []
-    }
-  ]
+  "events": []
 }

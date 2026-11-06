@@ -1,24 +1,3 @@
 {
-  "events": [
-    {
-      "id": "GFF - Zorba the Greek-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-      "name": "GFF - Zorba the Greek",
-      "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7913bc7d-e042-4982-83ed-74cec75aada1.jpg",
-      "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
-      "coordinates": {
-        "lat": -41.3158392,
-        "long": 174.8162766
-      },
-      "dates": [
-        "2026-11-03-19:00"
-      ],
-      "displayDate": "Tue 03 Nov",
-      "url": "https://www.roxycinema.co.nz/movie/gff-zorba-the-greek",
-      "source": "Roxy Cinema",
-      "eventType": "Film & Media",
-      "long_description": "Details\n\nDirected by Mihalis Kakogiannis\n\n\u0391\u03bb\u03ad\u03be\u03b7\u03c2 \u0396\u03bf\u03c1\u03bc\u03c0\u03ac\u03c2\n\nAn uptight English writer traveling to Crete on a matter of business finds his life changed forever when he meets the gregarious Alexis Zorba.\n\n$2.00 Booking Fee per ticket applies to online & in house box office sales",
-      "description": "Details Directed by Mihalis Kakogiannis \u0391\u03bb\u03ad\u03be\u03b7\u03c2 \u0396\u03bf\u03c1\u03bc\u03c0\u03ac\u03c2 An uptight English writer traveling to Crete on a matter of business finds his life changed forever when he meets the gregarious Alexis Zorba.\n$2.00 Booking Fee per ticket applies to online & in house box office sales",
-      "labels": []
-    }
-  ]
+  "events": []
 }

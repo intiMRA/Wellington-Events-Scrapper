@@ -1,30 +1,50 @@
 [
 [
-  "https://www.ticketmaster.co.nz/the-great-opera-house-halloween-hunt-wellington-31-10-2026/event/2400653581631596",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/royal-new-zealand-ballet-presents-the-wellington-31-10-2026/event/2400636BDA0A45A6",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-31-10-2026/event/24006459D78E36F1",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/after-dark-the-opera-house-r18-wellington-31-10-2026/event/240065359B172114",
-  "MusicEvent"
-],
-[
-  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-08-11-2026/event/240064E6B1451AD7",
+  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-06-11-2026/event/24006459C44A2F3D",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-newcastle-31-10-2026/event/13006519E6FE6318",
+  "https://www.ticketmaster.co.nz/royal-new-zealand-ballet-presents-the-wellington-06-11-2026/event/2400636BD98F4576",
   "TheaterEvent"
 ],
 [
-  "https://www.ticketmaster.com.au/newcastle-jets-v-wellington-phoenix-car-newcastle-31-10-2026/event/1300651994F81DBA",
+  "https://www.moshtix.co.nz/v2/event/old-mervs-carparks-au-nz-tour/198109",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-08-11-2026/event/240064E6B0BF1AC7",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-late-night-wellington-12-11-2026/event/24006459C9D131EC",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/welly-wonderland-wellington-13-12-2026/event/2400655CB6912D8E",
+  "SportsEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/enzso-celebrates-wellington-central-27-02-2027/event/2400655771B217DE",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/baby-popsa-musical-zoo-wellington-central-14-03-2027/event/2400655E8B7C20EC",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/drum-tao-wellington-16-03-2027/event/2400655BD41B3AC4",
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/wellington-international-ukulele-orchestra-wellington-central-20-03-2027/event/2400655EE8BD4BAE",
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/teeks-lovers-comet-live-in-aotearoa-wellington-central-24-03-2027/event/2400655A933D3D67",
+  "MusicEvent"
+],
+[
+  "https://www.ticketmaster.co.nz/bron-lewis-brutal-wellington-29-05-2027/event/2400655EA8C630FC",
   "TheaterEvent"
 ],
 [
@@ -41,6 +61,10 @@
 ],
 [
   "https://www.ticketweb.com/event/tray-wellington-tip-top-deluxe-bar-tickets/14407194",
+  "TheaterEvent"
+],
+[
+  "https://www.ticketweb.com/event/tray-wellington-band-and-jared-space-tickets/14409144",
   "TheaterEvent"
 ],
 [
