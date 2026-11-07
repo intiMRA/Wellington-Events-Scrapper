@@ -21,21 +21,26 @@ class SanFranScrapper:
         while True:
             headers = {
                 "accept": "*/*",
-                "cache-control": "no-cache",
-                "pragma": "no-cache",
+                "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
                 "priority": "u=1, i",
                 "referer": "https://www.sanfran.co.nz/whats-on",
-                "sec-ch-ua": '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
-                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
-                "x-culture": "en-NZ",
-                "x-site": "www.sanfran.co.nz"
+                "sec-ch-ua": '"Not:A-Brand";v="8", "Chromium";v="156", "Google Chrome";v="156"',
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": '"macOS"',
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin",
+                "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
             }
-            api_url = f'https://www.sanfran.co.nz/api/search/events?Url=%2Fwhats-on&Page={page}&PageSize=20'
+
+            api_url = f'https://www.sanfran.co.nz/__api/search/events?Url=%2Fwhats-on&PageSize=20&Page={page}&culture=en-NZ'
 
             # sending get request and saving the response as response object
             r = requests.get(url=api_url, headers=headers)
             # extracting data in json format
             if r.status_code != 200:
+                if page == 1 and not events:
+                    print("[SanFran] failed to retrieve events")
                 out_file.close()
                 banned_file.close()
                 urls_file.close()
@@ -71,4 +76,4 @@ class SanFranScrapper:
                 print("-" * 100)
             page += 1
 
-# events = list(map(lambda x: x.to_dict(), sorted(SanFranScrapper.fetch_events(), key=lambda k: k.name.strip())))
+# events = list(map(lambda x: x.to_dict(), sorted(SanFranScrapper.fetch_events(set(), set()), key=lambda k: k.name.strip())))
