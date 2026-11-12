@@ -1,2 +1,22 @@
 [
+{
+  "id": "Friday the 13th: Part III - 3D-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+  "name": "Friday the 13th: Part III - 3D",
+  "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7782bbca-c5ad-4454-880f-ef731cd7b04a.jpg",
+  "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+  "coordinates": {
+    "lat": -41.3123759,
+    "long": 174.820036
+  },
+  "dates": [
+    "2026-11-13-20:30"
+  ],
+  "displayDate": "Fri 13 Nov",
+  "url": "https://www.roxycinema.co.nz/movie/friday-the-13th-part-iii-3d",
+  "source": "Roxy Cinema",
+  "eventType": "Film & Media",
+  "long_description": "Details\n\nDirected by Steve Miner\n\nStarring Dana Kimmell, Richard Brooker, Larry Zerner, Paul Kratka, Tracie Savage\n\n---\u00a0A carefree summer becomes a deadly nightmare for another group of na\u00efve counselors who choose to ignore Camp Crystal Lake\u2019s gruesome legacy. They find themselves in a bloody game of cat-and-mouse with the maniacal Jason who stalks their every move\u2026and ruthlessly\nkills them off one-by-one. ---\n\nPresented in 3D\n\nAll tickets $15 and include 3D glasses.",
+  "description": "Details Directed by Steve Miner Starring Dana Kimmell, Richard Brooker, Larry Zerner, Paul Kratka, Tracie Savage ---\u00a0A carefree summer becomes a deadly nightmare for another group of na\u00efve counselors who choose to ignore Camp Crystal Lake\u2019s gruesome legacy.\nThey find themselves in a bloody game of cat-and-mouse with the maniacal Jason who stalks their every move\u2026and ruthlessly kills them off one-by-one.\n--- Presented in 3D All tickets $15 and include 3D glasses.",
+  "labels": []
+},
 ]

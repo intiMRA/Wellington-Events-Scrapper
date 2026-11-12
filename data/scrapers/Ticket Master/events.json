@@ -1,64 +1,86 @@
 [
 {
-  "id": "Royal New Zealand Ballet presents The Sleeping Beauty-St James Theatre Wellington, Wellington, NZ-Ticket Master",
-  "name": "Royal New Zealand Ballet presents The Sleeping Beauty",
-  "imageUrl": "https://s1.ticketm.net/dam/e/f6b/fbc7291a-89ac-49f3-9a4f-cf20466aef6b_EVENT_DETAIL_PAGE_16_9.jpg",
+  "id": "Flight of the Conchords New Zealand Tour 2026-Michael Fowler Centre, Wellington, NZ-Ticket Master",
+  "name": "Flight of the Conchords New Zealand Tour 2026",
+  "imageUrl": "https://s1.ticketm.net/dam/a/173/2802eb3f-03c0-4416-937d-1fc304fdb173_EVENT_DETAIL_PAGE_16_9.jpg",
+  "venue": "Michael Fowler Centre, Wellington, NZ",
+  "coordinates": {
+    "lat": -41.2895258,
+    "long": 174.7780167
+  },
+  "dates": [
+    "2026-11-14-20:00",
+    "2026-11-14-20:00"
+  ],
+  "displayDate": "Sat 14 Nov + more",
+  "url": "https://www.ticketmaster.co.nz/flight-of-the-conchords-new-zealand-wellington-14-11-2026/event/24006529A2222C80",
+  "source": "Ticket Master",
+  "eventType": "Arts & Theatre",
+  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket For more info click here(Opens in new tab)",
+  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket For more info click here(Opens in new tab)",
+  "labels": []
+},
+{
+  "id": "Sat, 6 Mar 2027, 7:00 pmSat, 6 Mar 2027, 7:00 pm-Te Whare Whakarauika Wellington Town Hall, Wellington Central, NZ-Ticket Master",
+  "name": "Sat, 6 Mar 2027, 7:00 pmSat, 6 Mar 2027, 7:00 pm",
+  "imageUrl": "https://s1.ticketm.net/dam/c/71a/8ec88564-616d-465d-979a-53eae342571a_106151_EVENT_DETAIL_PAGE_16_9.jpg",
+  "venue": "Te Whare Whakarauika Wellington Town Hall, Wellington Central, NZ",
+  "coordinates": {
+    "lat": -41.2821003,
+    "long": 174.7759494
+  },
+  "dates": [
+    "2027-03-06-19:00",
+    "2027-03-06-19:00"
+  ],
+  "displayDate": "Sat 06 Mar + more",
+  "url": "https://www.ticketmaster.co.nz/signature-choir-present-under-the-influence-wellington-central-06-03-2027/event/24006566CC2C4B99",
+  "source": "Ticket Master",
+  "eventType": "Arts & Theatre",
+  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: Children under 2 years will be admitted free providing they do not occupy a seat (Sit On Lap Policy).\r\n\r\nEvery sound has a story. Under the Influence is Signature Choir's newest production, exploring the music, people, cultures and experiences that have shaped their journey. Spanning genres, generations and musical worlds, this uplifting performance celebrates the influences behind the choir's distinctive sound and shares the stories that continue to inspire them. For more info click here(Opens in new tab)",
+  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: Children under 2 years will be admitted free providing they do not occupy a seat (Sit On Lap Policy).\nEvery sound has a story.\nUnder the Influence is Signature Choir's newest production, exploring the music, people, cultures and experiences that have shaped their journey.\nSpanning genres, generations and musical worlds, this uplifting performance celebrates the influences behind the choir's distinctive sound and shares the stories that continue to inspire them.",
+  "labels": []
+},
+{
+  "id": "Sat, 17 Apr 2027, 7:00 pmSat, 17 Apr 2027, 7:00 pm-Te Whare Whakarauika Wellington Town Hall, Wellington Central, NZ-Ticket Master",
+  "name": "Sat, 17 Apr 2027, 7:00 pmSat, 17 Apr 2027, 7:00 pm",
+  "imageUrl": "https://s1.ticketm.net/tm/en-nz/dam/a/e8d/55536dcb-ea09-4a78-a634-14e748b84e8d_EVENT_DETAIL_PAGE_16_9.jpg",
+  "venue": "Te Whare Whakarauika Wellington Town Hall, Wellington Central, NZ",
+  "coordinates": {
+    "lat": -41.2821003,
+    "long": 174.7759494
+  },
+  "dates": [
+    "2027-04-17-19:00",
+    "2027-04-17-19:00"
+  ],
+  "displayDate": "Sat 17 Apr + more",
+  "url": "https://www.ticketmaster.co.nz/dragon-50-years-of-april-sun-wellington-central-17-04-2027/event/24006562B85228A2",
+  "source": "Ticket Master",
+  "eventType": "Arts & Theatre",
+  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: All patrons require a ticket for entry. ",
+  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: All patrons require a ticket for entry.",
+  "labels": []
+},
+{
+  "id": "My Fair Lady-St James Theatre Wellington, Wellington, NZ-Ticket Master",
+  "name": "My Fair Lady",
+  "imageUrl": "https://s1.ticketm.net/dam/a/c50/5ba64fd4-89da-43f0-997a-31e49c3dfc50_EVENT_DETAIL_PAGE_16_9.jpg",
   "venue": "St James Theatre Wellington, Wellington, NZ",
   "coordinates": {
     "lat": -41.2933004,
     "long": 174.7797564
   },
   "dates": [
-    "2026-11-07-13:30",
-    "2026-11-07-13:30"
+    "2027-08-13-19:00",
+    "2027-08-13-19:00"
   ],
-  "displayDate": "Sat 07 Nov + more",
-  "url": "https://www.ticketmaster.co.nz/royal-new-zealand-ballet-presents-the-wellington-07-11-2026/event/2400636BDA0B45AA",
+  "displayDate": "Fri 13 Aug + more",
+  "url": "https://www.ticketmaster.co.nz/my-fair-lady-wellington-13-08-2027/event/2400653D09D44C5A",
   "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket ",
-  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nFor more information visit Ticketmaster.co.nz/mobileticket",
-  "labels": []
-},
-{
-  "id": "Cornelia Parker Exhibition-City Gallery Wellington, Wellington, NZ-Ticket Master",
-  "name": "Cornelia Parker Exhibition",
-  "imageUrl": "https://s1.ticketm.net/dam/a/28c/efb39d62-35e0-4e5f-827d-823c1343028c_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "City Gallery Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2884394,
-    "long": 174.7772493
-  },
-  "dates": [
-    "2026-11-07-16:00"
-  ],
-  "displayDate": "Sat 07 Nov",
-  "url": "https://www.ticketmaster.co.nz/cornelia-parker-exhibition-wellington-07-11-2026/event/24006459D78E36F5",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: Children 4 years and under will be admitted free. General admission for ages 5-13 years will need a Child Ticket ($2)\r\n\r\nCornelia Parker is one of contemporary art's great alchemists-a master of metamorphosis and transformation; a maker of objects and encounters full of awe and wonder.\r\n\r\nThe exhibition brings Parker's recent projects into dialogue with her iconic works. It offers a rare opportunity to encounter the full scope of her practice: poetic, political, and relentlessly inventive. For more info click here(Opens in new tab)",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nIt is the easiest way to access tickets to your events.\nGeneral admission for ages 5-13 years will need a Child Ticket ($2) Cornelia Parker is one of contemporary art's great alchemists-a master of metamorphosis and transformation; a maker of objects and encounters full of awe and wonder.\nThe exhibition brings Parker's recent projects into dialogue with her iconic works.\nFor more info click here(Opens in new tab)",
-  "labels": []
-},
-{
-  "id": "s Wellington Heritage Tours-The Opera House Wellington, Wellington, NZ-Ticket Master",
-  "name": "s Wellington Heritage Tours",
-  "imageUrl": "https://s1.ticketm.net/dam/a/750/3a4826e2-182c-41d8-a460-0bcb30a58750_EVENT_DETAIL_PAGE_16_9.jpg",
-  "venue": "The Opera House Wellington, Wellington, NZ",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2026-11-08-14:00",
-    "2026-11-08-14:00"
-  ],
-  "displayDate": "Sun 08 Nov + more",
-  "url": "https://www.ticketmaster.co.nz/venues-wellington-heritage-tours-wellington-08-11-2026/event/240064E6B1451AD7",
-  "source": "Ticket Master",
-  "eventType": "Music & Concerts",
-  "long_description": "General Admission OnlyAll Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nJoin us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House. Discover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces. Led by expert guides, this tour takes you on a journey through over a century of theatre magic. Tread the boards in the footsteps of legendary performers. Uncover the secrets of stagecraft and marvel at the breathtaking details of these heritage-listed buildings. From opulent foyers and ornate auditoriums to backstage corridors brimming with history, you'll see the theatres as you've never seen them before. ",
-  "description": "Mobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Join us for a behind-the-scenes tour of Wellington's iconic St James Theatre and The Opera House.\nDiscover hidden stories, architectural splendour, and rich theatrical history as you step behind the velvet curtain and explore two of the city's most beloved performance spaces.\nLed by expert guides, this tour takes you on a journey through over a century of theatre magic.\nTread the boards in the footsteps of legendary performers.",
+  "eventType": "Arts & Theatre",
+  "long_description": "All Tickets are Mobile Ticket Only. \r\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone. It is the easiest way to access tickets to your events. For more information visit Ticketmaster.co.nz/mobileticket\r\n\r\nChild Policy: Recommended 8+. All patrons must hold a valid ticket for entry regardless of age. No babes in arms.\r\n\r\nLerner and Loewe's beloved My Fair Lady comes to Wellington in August 2027. Follow Eliza Doolittle's extraordinary journey from Cockney flower seller to elegant lady in this timeless story of identity, transformation and independence. Featuring unforgettable songs including I Could Have Danced All Night and The Rain in Spain, with Orchestra Wellington. Click Here for more information(Opens in new tab)",
+  "description": "All Tickets are Mobile Ticket Only.\nMobile Tickets are like Print-at-Home tickets but instead of having to print off the tickets yourself, you can just show the barcode on your mobile phone.\nFor more information visit Ticketmaster.co.nz/mobileticket Child Policy: Recommended 8+.\nNo babes in arms.\nLerner and Loewe's beloved My Fair Lady comes to Wellington in August 2027.",
   "labels": []
 },
 ]

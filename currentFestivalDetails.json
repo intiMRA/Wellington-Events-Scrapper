@@ -7,20 +7,8 @@
   },
   {
     "id": "RoxyFestival",
-    "name": "Greek Film Festival",
-    "icon": "movie",
-    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/greek-film-festival.json"
-  },
-  {
-    "id": "RoxyFestival",
     "name": "Italian Film Festival",
     "icon": "movie",
     "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/italian-film-festival.json"
-  },
-  {
-    "id": "RoxyFestival",
-    "name": "Terror-Fi Film Festival 2026",
-    "icon": "movie",
-    "url": "https://raw.githubusercontent.com/intiMRA/Wellington-Events-Scrapper/refs/heads/main/terror-fi-film-festival-2026.json"
   }
 ]
