@@ -1,5 +1,45 @@
 [
 {
+  "id": "Bron Lewis: Brutal-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "Bron Lewis: Brutal",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/b17acf9e-870a-49d2-b844-914f00b7317e/Bron-Lewis?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2027-05-29-01:01"
+  ],
+  "displayDate": "Sat 29 May",
+  "url": "https://www.wellingtonnz.com/visit/events/bron-lewis",
+  "source": "Wellington NZ",
+  "eventType": "Arts & Theatre",
+  "long_description": "Life is getting brutal for Bron Lewis. Her house is chaotic, her kids are growing in size and sass, and every social interaction feels increasingly gruelling. She might have to bite her tongue in everyday life, but on stage, nothing is held back.\u00a0\n\nFollowing sold-out national and international tours, the Australian comedian is bringing her brand-new show, Brutal, to Wellington\u2019s Opera House. Expect sharp observations, relatable chaos, and the kind of honesty you may be thinking but wouldn\u2019t dare say aloud.\n\nSince leaving teaching for comedy in 2020, Bron Lewis has quickly risen through Australia\u2019s comedy scene. Her show Probably was nominated for Best Newcomer at the 2023 Melbourne International Comedy Festival, while her 2026 show Chaos received the inaugural VicScreen Greenlight Award.\u00a0She has also appeared on Guy Montgomery\u2019s Guy Mont Spelling Bee, Thank God You\u2019re Here and Have You Been Paying Attention?\n\nSee just how brutal she can be when Bron Lewis takes the stage in Wellington.",
+  "description": "Life is getting brutal for Bron Lewis.\nHer house is chaotic, her kids are growing in size and sass, and every social interaction feels increasingly gruelling.\nFollowing sold-out national and international tours, the Australian comedian is bringing her brand-new show, Brutal, to Wellington\u2019s Opera House.\nExpect sharp observations, relatable chaos, and the kind of honesty you may be thinking but wouldn\u2019t dare say aloud.\nHer show Probably was nominated for Best Newcomer at the 2023 Melbourne International Comedy Festival, while her 2026 show Chaos received the inaugural VicScreen Greenlight Award.",
+  "labels": []
+},
+{
+  "id": "Drum Tao-The Opera House, Wellington, New Zealand-Wellington NZ",
+  "name": "Drum Tao",
+  "imageUrl": "https://wellingtonnz.bynder.com/transform/ed3be9c1-37a6-44bf-a94b-a4358a96a508/Drum-Tao?quality=80&io=transform:fill,width:576,height:450",
+  "venue": "The Opera House, Wellington, New Zealand",
+  "coordinates": {
+    "lat": -41.2913572,
+    "long": 174.7779946
+  },
+  "dates": [
+    "2027-03-16-01:01"
+  ],
+  "displayDate": "Tue 16 Mar",
+  "url": "https://www.wellingtonnz.com/visit/events/drum-tao",
+  "source": "Wellington NZ",
+  "eventType": "Music & Concerts",
+  "long_description": "The rhythm is going to get you when you experience the tremendous appeal of Japan\u2019s Drum Tao. After captivating more than 10 million people worldwide, the breathtaking drumming production returns to New Zealand. It fuses the power of taiko drumming with martial arts athleticism, choreography, and cinematic staging. Drum Tao transcends borders and redefines live performance. This is not just a concert \u2014 it delivers artistry, intensity, and passion that will leave you exhilarated and inspired.\n\nWith its spectacle, energy, and universal appeal, Drum Tao is a thrilling experience for audiences of all ages.",
+  "description": "The rhythm is going to get you when you experience the tremendous appeal of Japan\u2019s Drum Tao.\nAfter captivating more than 10 million people worldwide, the breathtaking drumming production returns to New Zealand.\nIt fuses the power of taiko drumming with martial arts athleticism, choreography, and cinematic staging.\nDrum Tao transcends borders and redefines live performance.\nThis is not just a concert \u2014 it delivers artistry, intensity, and passion that will leave you exhilarated and inspired.",
+  "labels": []
+},
+{
   "id": "My Fair Lady-St James Theatre, Wellington, New Zealand-Wellington NZ",
   "name": "My Fair Lady",
   "imageUrl": "https://wellingtonnz.bynder.com/transform/b6b51fd1-1f3c-4dd2-97f7-f963bdeb563e/My-Fair-Lady?quality=80&io=transform:fill,width:576,height:450",
@@ -33,26 +73,6 @@
   "eventType": "Music & Concerts",
   "long_description": "Experience the wit, romance, and timeless music of Lerner and Loewe. Written in the 1950s, the musical \u2018My Fair Lady\u2019 continues to prove popular with audiences today. This spectacular production brings together some of New Zealand\u2019s leading musical theatre talent, backed by Orchestra Wellington.\u00a0\n\nBased on George Bernard Shaw\u2019s \u2018Pygmalion\u2019, the story follows spirited flower seller Eliza Doolittle as she crosses paths with the formidable linguistic expert Professor Henry Higgins. Their encounter sets off a journey that\u2019s as heartwarming as it is hilarious. The show includes beloved songs such as Wouldn\u2019t It Be Loverly, The Rain in Spain, and I Could Have Danced All Night.\u00a0\n\nPresented by the team that\u2019s brought local smash hits Matilda, Mamma Mia, and Wicked (Capital Theatre Trust and G&T Productions) this loverly production promises to have you dancing all night.",
   "description": "Experience the wit, romance, and timeless music of Lerner and Loewe.\nWritten in the 1950s, the musical \u2018My Fair Lady\u2019 continues to prove popular with audiences today.\nBased on George Bernard Shaw\u2019s \u2018Pygmalion\u2019, the story follows spirited flower seller Eliza Doolittle as she crosses paths with the formidable linguistic expert Professor Henry Higgins.\nTheir encounter sets off a journey that\u2019s as heartwarming as it is hilarious.\nPresented by the team that\u2019s brought local smash hits Matilda, Mamma Mia, and Wicked (Capital Theatre Trust and G&T Productions) this loverly production promises to have you dancing all night.",
-  "labels": []
-},
-{
-  "id": "Bron Lewis: Brutal-The Opera House, Wellington, New Zealand-Wellington NZ",
-  "name": "Bron Lewis: Brutal",
-  "imageUrl": "https://wellingtonnz.bynder.com/transform/b17acf9e-870a-49d2-b844-914f00b7317e/Bron-Lewis?quality=80&io=transform:fill,width:576,height:450",
-  "venue": "The Opera House, Wellington, New Zealand",
-  "coordinates": {
-    "lat": -41.2913572,
-    "long": 174.7779946
-  },
-  "dates": [
-    "2027-05-29-01:01"
-  ],
-  "displayDate": "Sat 29 May",
-  "url": "https://www.wellingtonnz.com/visit/events/bron-lewis",
-  "source": "Wellington NZ",
-  "eventType": "Arts & Theatre",
-  "long_description": "Life is getting brutal for Bron Lewis. Her house is chaotic, her kids are growing in size and sass, and every social interaction feels increasingly gruelling. She might have to bite her tongue in everyday life, but on stage, nothing is held back.\u00a0\n\nFollowing sold-out national and international tours, the Australian comedian is bringing her brand-new show, Brutal, to Wellington\u2019s Opera House. Expect sharp observations, relatable chaos, and the kind of honesty you may be thinking but wouldn\u2019t dare say aloud.\n\nSince leaving teaching for comedy in 2020, Bron Lewis has quickly risen through Australia\u2019s comedy scene. Her show Probably was nominated for Best Newcomer at the 2023 Melbourne International Comedy Festival, while her 2026 show Chaos received the inaugural VicScreen Greenlight Award.\u00a0She has also appeared on Guy Montgomery\u2019s Guy Mont Spelling Bee, Thank God You\u2019re Here and Have You Been Paying Attention?\n\nSee just how brutal she can be when Bron Lewis takes the stage in Wellington.",
-  "description": "Life is getting brutal for Bron Lewis.\nHer house is chaotic, her kids are growing in size and sass, and every social interaction feels increasingly gruelling.\nFollowing sold-out national and international tours, the Australian comedian is bringing her brand-new show, Brutal, to Wellington\u2019s Opera House.\nExpect sharp observations, relatable chaos, and the kind of honesty you may be thinking but wouldn\u2019t dare say aloud.\nHer show Probably was nominated for Best Newcomer at the 2023 Melbourne International Comedy Festival, while her 2026 show Chaos received the inaugural VicScreen Greenlight Award.",
   "labels": []
 },
 ]

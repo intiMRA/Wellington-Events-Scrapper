@@ -1,2 +1,83 @@
 [
+{
+  "id": "BLOODBATH (SWE) + NERVOCHAOS (BRA) - WELLINGTON-Valhalla, Wellington-Valhalla",
+  "name": "BLOODBATH (SWE) + NERVOCHAOS (BRA) - WELLINGTON",
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/63f596f677f85103b235f1c7/1794534701120-B3BPXC1LHSHA96PHUAOR/NZ+poster.jpg",
+  "venue": "Valhalla, Wellington",
+  "coordinates": {
+    "lat": -41.2948002,
+    "long": 174.7753363
+  },
+  "dates": [
+    "2027-03-10-19:30",
+    "2027-03-11-23:30"
+  ],
+  "displayDate": "Wed 10 Mar + more",
+  "url": "https://www.valhallatavern.com/events-1/bloodbath-swe-nervochaos-bra-auckland-85xjs",
+  "source": "Valhalla",
+  "eventType": "Music & Concerts",
+  "long_description": "Two of the world's most respected names in extreme metal are joining forces for an unmissable New Zealand invasion. Swedish death metal icons Bloodbath are coming to New Zealand in 2027, bringing Brazilian extreme metal veterans NervoChaos as their main support.\n\nBLOODBATH\nSWEDISH DEATH METAL\nFounded in 1998, Bloodbath has become one of the defining names in modern death metal. Originally formed by members of Opeth, Katatonia and Paradise Lost, the band has built a formidable reputation through landmark releases including Resurrection Through Carnage, Nightmares Made Flesh, The Fathomless Mastery, Grand Morbid Funeral and Survival of the Sickest. Renowned for their uncompromising sound, crushing HM-2 guitar tone and devastating live performances, Bloodbath remain one of Sweden's most celebrated exports in extreme music.\n\nNERVOCHAOS\nBRAZILIAN EXTREME METAL DESTRUCTION\nFormed in S\u00e3o Paulo in 1996, NervoChaos have spent more than three decades forging a reputation as one of South America's most relentless extreme metal forces. With an extensive catalogue of acclaimed releases and countless tours across Europe, Asia, North and South America, the Brazilians have earned worldwide respect for their ferocious live performances and unwavering dedication to the underground. Fusing old-school death metal with blackened aggression and thrash intensity, NervoChaos have continued to evolve while maintaining the raw, uncompromising attitude that has defined the band since its formation.\n\nWith Bloodbath and NervoChaos teaming up for a double headline tour this is a rare opportunity to witness two international extreme metal forces on the same bill.\n\nTickets here",
+  "description": "Two of the world's most respected names in extreme metal are joining forces for an unmissable New Zealand invasion.\nOriginally formed by members of Opeth, Katatonia and Paradise Lost, the band has built a formidable reputation through landmark releases including Resurrection Through Carnage, Nightmares Made Flesh, The Fathomless Mastery, Grand Morbid Funeral and Survival of the Sickest.\nRenowned for their uncompromising sound, crushing HM-2 guitar tone and devastating live performances, Bloodbath remain one of Sweden's most celebrated exports in extreme music.\nFormed in S\u00e3o Paulo in 1996, NervoChaos have spent more than three decades forging a reputation as one of South America's most relentless extreme metal forces.\nWith an extensive catalogue of acclaimed releases and countless tours across Europe, Asia, North and South America, the Brazilians have earned worldwide respect for their ferocious live performances and unwavering dedication to the underground.",
+  "labels": []
+},
+{
+  "id": "CONVERGE AOTEAROA 2027 - AUCKLAND POWERSTATION-Valhalla, Wellington-Valhalla",
+  "name": "CONVERGE AOTEAROA 2027 - AUCKLAND POWERSTATION",
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/63f596f677f85103b235f1c7/1794533779484-DK7EURWDU56UK2TXQHEB/Updated+Auckland_9x16.jpg",
+  "venue": "Valhalla, Wellington",
+  "coordinates": {
+    "lat": -41.2948002,
+    "long": 174.7753363
+  },
+  "dates": [
+    "2027-03-21-19:00"
+  ],
+  "displayDate": "Sun 21 Mar",
+  "url": "https://www.valhallatavern.com/events-1/converge-aotearoa-2027-wellington-meow-nui-2dpha",
+  "source": "Valhalla",
+  "eventType": "Music & Concerts",
+  "long_description": "For more than three decades, CONVERGE has delivered musical and emotional catharsis, putting purpose before perception and intent before interpretation. Whether it\u2019s their 2001 landmark recording Jane Doe or their 2021 Bloodmoon: I collaboration with CHELSEA WOLFE, they have created some of the most compelling music, lyrics, and visual art of the 21st century. During that time, fewer bands have had a greater impact on the underground imagination.\n\nIt seems unlikely that anyone who has been making music for this long would create one of their best works for their eleventh album, in their 35th year as a band. And yet: Love is Not Enough may have been the apotheosis of CONVERGE\u2019s decades-long journey through the Punk, Hardcore and Metal microcosm. What vocalist/ lyricist Jacob Bannon, guitarist/producer Kurt Ballou, bassist/ vocalist Nate Newton and drummer Ben Koller have created is a strident artistic statement on the turmoil of living that hones their collective strengths to a razor\u2019s edge.\n\nTickets here",
+  "description": "For more than three decades, CONVERGE has delivered musical and emotional catharsis, putting purpose before perception and intent before interpretation.\nWhether it\u2019s their 2001 landmark recording Jane Doe or their 2021 Bloodmoon: I collaboration with CHELSEA WOLFE, they have created some of the most compelling music, lyrics, and visual art of the 21st century.\nDuring that time, fewer bands have had a greater impact on the underground imagination.\nIt seems unlikely that anyone who has been making music for this long would create one of their best works for their eleventh album, in their 35th year as a band.\nAnd yet: Love is Not Enough may have been the apotheosis of CONVERGE\u2019s decades-long journey through the Punk, Hardcore and Metal microcosm.",
+  "labels": []
+},
+{
+  "id": "BLOODBATH (SWE) + NERVOCHAOS (BRA) - AUCKLAND-Valhalla, Wellington-Valhalla",
+  "name": "BLOODBATH (SWE) + NERVOCHAOS (BRA) - AUCKLAND",
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/63f596f677f85103b235f1c7/1794534701120-B3BPXC1LHSHA96PHUAOR/NZ+poster.jpg",
+  "venue": "Valhalla, Wellington",
+  "coordinates": {
+    "lat": -41.2948002,
+    "long": 174.7753363
+  },
+  "dates": [
+    "2027-03-11-19:30"
+  ],
+  "displayDate": "Thu 11 Mar",
+  "url": "https://www.valhallatavern.com/events-1/bloodbath-swe-nervochaos-bra-auckland",
+  "source": "Valhalla",
+  "eventType": "Music & Concerts",
+  "long_description": "Two of the world's most respected names in extreme metal are joining forces for an unmissable New Zealand invasion. Swedish death metal icons Bloodbath are coming to New Zealand in 2027, bringing Brazilian extreme metal veterans NervoChaos as their main support.\n\nBLOODBATH\nSWEDISH DEATH METAL\nFounded in 1998, Bloodbath has become one of the defining names in modern death metal. Originally formed by members of Opeth, Katatonia and Paradise Lost, the band has built a formidable reputation through landmark releases including Resurrection Through Carnage, Nightmares Made Flesh, The Fathomless Mastery, Grand Morbid Funeral and Survival of the Sickest. Renowned for their uncompromising sound, crushing HM-2 guitar tone and devastating live performances, Bloodbath remain one of Sweden's most celebrated exports in extreme music.\n\nNERVOCHAOS\nBRAZILIAN EXTREME METAL DESTRUCTION\nFormed in S\u00e3o Paulo in 1996, NervoChaos have spent more than three decades forging a reputation as one of South America's most relentless extreme metal forces. With an extensive catalogue of acclaimed releases and countless tours across Europe, Asia, North and South America, the Brazilians have earned worldwide respect for their ferocious live performances and unwavering dedication to the underground. Fusing old-school death metal with blackened aggression and thrash intensity, NervoChaos have continued to evolve while maintaining the raw, uncompromising attitude that has defined the band since its formation.\n\nWith Bloodbath and NervoChaos teaming up for a double headline tour this is a rare opportunity to witness two international extreme metal forces on the same bill.\n\nTickets here",
+  "description": "Two of the world's most respected names in extreme metal are joining forces for an unmissable New Zealand invasion.\nOriginally formed by members of Opeth, Katatonia and Paradise Lost, the band has built a formidable reputation through landmark releases including Resurrection Through Carnage, Nightmares Made Flesh, The Fathomless Mastery, Grand Morbid Funeral and Survival of the Sickest.\nRenowned for their uncompromising sound, crushing HM-2 guitar tone and devastating live performances, Bloodbath remain one of Sweden's most celebrated exports in extreme music.\nFormed in S\u00e3o Paulo in 1996, NervoChaos have spent more than three decades forging a reputation as one of South America's most relentless extreme metal forces.\nWith an extensive catalogue of acclaimed releases and countless tours across Europe, Asia, North and South America, the Brazilians have earned worldwide respect for their ferocious live performances and unwavering dedication to the underground.",
+  "labels": []
+},
+{
+  "id": "CONVERGE AOTEAROA 2027 - WELLINGTON MEOW NUI-Valhalla, Wellington-Valhalla",
+  "name": "CONVERGE AOTEAROA 2027 - WELLINGTON MEOW NUI",
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/63f596f677f85103b235f1c7/1794533611082-N8UYN6WUB1GN2POJEYYN/Converge+1340+x+1900.jpg",
+  "venue": "Valhalla, Wellington",
+  "coordinates": {
+    "lat": -41.2948002,
+    "long": 174.7753363
+  },
+  "dates": [
+    "2027-03-20-19:00"
+  ],
+  "displayDate": "Sat 20 Mar",
+  "url": "https://www.valhallatavern.com/events-1/converge-aotearoa-2027-wellington-meow-nui",
+  "source": "Valhalla",
+  "eventType": "Music & Concerts",
+  "long_description": "For more than three decades, CONVERGE has delivered musical and emotional catharsis, putting purpose before perception and intent before interpretation. Whether it\u2019s their 2001 landmark recording Jane Doe or their 2021 Bloodmoon: I collaboration with CHELSEA WOLFE, they have created some of the most compelling music, lyrics, and visual art of the 21st century. During that time, fewer bands have had a greater impact on the underground imagination.\n\nIt seems unlikely that anyone who has been making music for this long would create one of their best works for their eleventh album, in their 35th year as a band. And yet: Love is Not Enough may have been the apotheosis of CONVERGE\u2019s decades-long journey through the Punk, Hardcore and Metal microcosm. What vocalist/ lyricist Jacob Bannon, guitarist/producer Kurt Ballou, bassist/ vocalist Nate Newton and drummer Ben Koller have created is a strident artistic statement on the turmoil of living that hones their collective strengths to a razor\u2019s edge.\n\nTickets here",
+  "description": "For more than three decades, CONVERGE has delivered musical and emotional catharsis, putting purpose before perception and intent before interpretation.\nWhether it\u2019s their 2001 landmark recording Jane Doe or their 2021 Bloodmoon: I collaboration with CHELSEA WOLFE, they have created some of the most compelling music, lyrics, and visual art of the 21st century.\nDuring that time, fewer bands have had a greater impact on the underground imagination.\nIt seems unlikely that anyone who has been making music for this long would create one of their best works for their eleventh album, in their 35th year as a band.\nAnd yet: Love is Not Enough may have been the apotheosis of CONVERGE\u2019s decades-long journey through the Punk, Hardcore and Metal microcosm.",
+  "labels": []
+},
 ]

@@ -1,22 +1,42 @@
 [
 {
-  "id": "Friday the 13th: Part III - 3D-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
-  "name": "Friday the 13th: Part III - 3D",
-  "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_7782bbca-c5ad-4454-880f-ef731cd7b04a.jpg",
+  "id": "Gremlins 2: The New Batch-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+  "name": "Gremlins 2: The New Batch",
+  "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_9838ffb8-81e6-466c-bed0-f7c85e938f74.jpg",
   "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
   "coordinates": {
-    "lat": -41.3123759,
-    "long": 174.820036
+    "lat": -41.3158511,
+    "long": 174.816259
   },
   "dates": [
-    "2026-11-13-20:30"
+    "2026-12-06-19:45"
   ],
-  "displayDate": "Fri 13 Nov",
-  "url": "https://www.roxycinema.co.nz/movie/friday-the-13th-part-iii-3d",
+  "displayDate": "Sun 06 Dec",
+  "url": "https://www.roxycinema.co.nz/movie/gremlins-2-the-new-batch",
   "source": "Roxy Cinema",
   "eventType": "Film & Media",
-  "long_description": "Details\n\nDirected by Steve Miner\n\nStarring Dana Kimmell, Richard Brooker, Larry Zerner, Paul Kratka, Tracie Savage\n\n---\u00a0A carefree summer becomes a deadly nightmare for another group of na\u00efve counselors who choose to ignore Camp Crystal Lake\u2019s gruesome legacy. They find themselves in a bloody game of cat-and-mouse with the maniacal Jason who stalks their every move\u2026and ruthlessly\nkills them off one-by-one. ---\n\nPresented in 3D\n\nAll tickets $15 and include 3D glasses.",
-  "description": "Details Directed by Steve Miner Starring Dana Kimmell, Richard Brooker, Larry Zerner, Paul Kratka, Tracie Savage ---\u00a0A carefree summer becomes a deadly nightmare for another group of na\u00efve counselors who choose to ignore Camp Crystal Lake\u2019s gruesome legacy.\nThey find themselves in a bloody game of cat-and-mouse with the maniacal Jason who stalks their every move\u2026and ruthlessly kills them off one-by-one.\n--- Presented in 3D All tickets $15 and include 3D glasses.",
+  "long_description": "Details\n\nDirected by Joe Dante\n\nStarring Christopher Lee, Zach Galligan, Phoebe Cates, Robert Prosky, Howie Mandel, John Glover, Robert Picardo\n\nHere they grow\u00a0again.\n\n--- Young sweethearts Billy and Kate move to the Big Apple, land jobs in a high-tech office park and soon reunite with the friendly and lovable Gizmo. But a series of accidents creates a whole new generation of Gremlins. The situation worsens when the devilish green creatures invade a top-secret laboratory and develop genetically altered powers, making them even harder to\u00a0destroy! ---\n\nUpgrade your ticket to the FEAST YOUR EYES (FYE) experience which includes themed drink and dessert.\n\nAt Feast Your Eyes, cinephiles and foodies will be treated to a movie and food experience in the cinema at the perfect after dinner event!\n\nAdmit only tickets are $15, but you can upgrade to a Feast Your Eyes tickets for $45. All Feast Your Eyes tickets include a themed dessert* and cocktail to enjoy during the film.\n\nThe upstairs bar will open at 7:15pm for cocktail and dessert collection. The pre-show kicks off at 7:40pm and the feature begins at 7:50pm.\n\n*No dietaries catered for.",
+  "description": "Details Directed by Joe Dante Starring Christopher Lee, Zach Galligan, Phoebe Cates, Robert Prosky, Howie Mandel, John Glover, Robert Picardo Here they grow\u00a0again.\n--- Upgrade your ticket to the FEAST YOUR EYES (FYE) experience which includes themed drink and dessert.\nAt Feast Your Eyes, cinephiles and foodies will be treated to a movie and food experience in the cinema at the perfect after dinner event!\nAll Feast Your Eyes tickets include a themed dessert* and cocktail to enjoy during the film.\nThe upstairs bar will open at 7:15pm for cocktail and dessert collection.",
+  "labels": []
+},
+{
+  "id": "Green Room-The Roxy Cinema, 5 Park Road, Miramar, Wellington-Roxy Cinema",
+  "name": "Green Room",
+  "imageUrl": "https://img.vwassets.com/roxycinema.co.nz/vertical_e6b11c92-95f9-4eed-90cc-fb151cec4db5.jpg",
+  "venue": "The Roxy Cinema, 5 Park Road, Miramar, Wellington",
+  "coordinates": {
+    "lat": -41.3158511,
+    "long": 174.816259
+  },
+  "dates": [
+    "2026-11-20-21:00"
+  ],
+  "displayDate": "Fri 20 Nov",
+  "url": "https://www.roxycinema.co.nz/movie/green-room",
+  "source": "Roxy Cinema",
+  "eventType": "Film & Media",
+  "long_description": "Details\n\nDirected by Jeremy Saulnier\n\nStarring Patrick Stewart, Alia Shawkat, Macon Blair, Anton Yelchin, Imogen Poots, Callum Turner\n\nPatrick Stewart Tribute Screening\n\n\nOne way in. No way\u00a0out.\n\n--- A punk rock band is forced to fight for survival after witnessing an act of violence at a skinhead\u00a0bar. ---",
+  "description": "Details Directed by Jeremy Saulnier Starring Patrick Stewart, Alia Shawkat, Macon Blair, Anton Yelchin, Imogen Poots, Callum Turner Patrick Stewart Tribute Screening One way in.\nNo way\u00a0out.\n--- A punk rock band is forced to fight for survival after witnessing an act of violence at a skinhead\u00a0bar.\n---",
   "labels": []
 },
 ]
