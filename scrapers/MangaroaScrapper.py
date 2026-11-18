@@ -8,6 +8,7 @@ from model.EventInfo import EventInfo
 from dateutil import parser
 from typing import List, Set, Optional, TextIO
 import json
+from datetime import datetime
 
 
 class MangaroaScrapper:
@@ -21,6 +22,9 @@ class MangaroaScrapper:
         date_string, time_string = title_texts[1].split(" | ")
         hour = time_string.split("-")[0]
         date = parser.parse(date_string + " " + hour)
+        now = datetime.now()
+        if date <= now and date.month < now.month:
+            date = date.replace(year=date.year + 1)
         img = page.locator(".product__media-gallery img").first
         image_url = img.evaluate("img => img.currentSrc || img.src")
         if image_url.startswith("//"):
