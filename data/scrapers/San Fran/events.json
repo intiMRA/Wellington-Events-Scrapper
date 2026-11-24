@@ -1,105 +1,5 @@
 [
 {
-  "id": "INSIDEOUT-San Fran, Wellington-San Fran",
-  "name": "INSIDEOUT",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/y/m/v/8897f6e8-e994-47de-897c-c87153298bd2.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-11-19-00:00"
-  ],
-  "displayDate": "Thu 19 Nov",
-  "url": "https://www.sanfran.co.nz/all-events/insideout-tickets-ae1698137",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Goodnight Nurse The Always and Never Again Tour-San Fran, Wellington-San Fran",
-  "name": "Goodnight Nurse The Always and Never Again Tour",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/x/v/u/442e97b3-386e-469f-b944-7fa07e033ea0.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-11-20-00:00"
-  ],
-  "displayDate": "Fri 20 Nov",
-  "url": "https://www.sanfran.co.nz/all-events/goodnight-nurse-tickets-ae1693784",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Same Name Confusion-San Fran, Wellington-San Fran",
-  "name": "Same Name Confusion",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/h/f/q/54ac05a3-17a2-488f-8032-fe6f27fd1f1a.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-11-21-00:00"
-  ],
-  "displayDate": "Sat 21 Nov",
-  "url": "https://www.sanfran.co.nz/all-events/same-name-confusion-tickets-ae1699084",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "La Latina-San Fran, Wellington-San Fran",
-  "name": "La Latina",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/m/v/k/fbdab1c2-e89a-4643-ae6f-309a18e96698.png",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-11-21-00:00"
-  ],
-  "displayDate": "Sat 21 Nov",
-  "url": "https://www.sanfran.co.nz/all-events/la-latina-tickets-ae1695058",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
-  "id": "Goodnight Nurse The Always and Never Again Tour-San Fran, Wellington-San Fran",
-  "name": "Goodnight Nurse The Always and Never Again Tour",
-  "imageUrl": "https://dynamicmedia.livenationinternational.com/x/v/u/442e97b3-386e-469f-b944-7fa07e033ea0.jpg",
-  "venue": "San Fran, Wellington",
-  "coordinates": {
-    "lat": -41.2941512,
-    "long": 174.7755614
-  },
-  "dates": [
-    "2026-11-22-00:00"
-  ],
-  "displayDate": "Sun 22 Nov",
-  "url": "https://www.sanfran.co.nz/all-events/goodnight-nurse-tickets-ae1693784",
-  "source": "San Fran",
-  "eventType": "Music & Concerts",
-  "long_description": "",
-  "description": "",
-  "labels": []
-},
-{
   "id": "Birdfest-San Fran, Wellington-San Fran",
   "name": "Birdfest",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/q/j/s/0bae57fa-fee9-4583-bcac-488087503be7.png",
@@ -233,6 +133,26 @@
   ],
   "displayDate": "Fri 04 Dec",
   "url": "https://www.sanfran.co.nz/all-events/park-rd-tickets-ae1339523",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
+  "id": "Chop Shop-San Fran, Wellington-San Fran",
+  "name": "Chop Shop",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/m/r/a/3d0093f6-9402-48f1-9ce6-f50f2e84acd4.png",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2026-12-04-00:00"
+  ],
+  "displayDate": "Fri 04 Dec",
+  "url": "https://www.sanfran.co.nz/all-events/chop-shop-tickets-ae1714897",
   "source": "San Fran",
   "eventType": "Music & Concerts",
   "long_description": "",
@@ -380,6 +300,26 @@
   "labels": []
 },
 {
+  "id": "TULUA-San Fran, Wellington-San Fran",
+  "name": "TULUA",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/i/q/c/e4ecaca4-a05c-4105-8ae9-0101a18e84e0.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-01-23-00:00"
+  ],
+  "displayDate": "Sat 23 Jan",
+  "url": "https://www.sanfran.co.nz/all-events/tulua-tickets-ae1715189",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
+  "labels": []
+},
+{
   "id": "Pachyman The Lahaar-San Fran, Wellington-San Fran",
   "name": "Pachyman The Lahaar",
   "imageUrl": "https://dynamicmedia.livenationinternational.com/z/b/j/1aa569cf-581a-405e-9325-3d48f56efc93.jpg",
@@ -437,6 +377,26 @@
   "eventType": "Music & Concerts",
   "long_description": "<p>Alex Cameron is heading to Aotearoa January 2027!</p>",
   "description": "Alex Cameron is heading to Aotearoa January 2027!",
+  "labels": []
+},
+{
+  "id": "Molly Payton Aotearoa Summer Dates Wellington-San Fran, Wellington-San Fran",
+  "name": "Molly Payton Aotearoa Summer Dates Wellington",
+  "imageUrl": "https://dynamicmedia.livenationinternational.com/s/n/f/5eef8fe2-0077-460f-829a-86abd327ed10.jpg",
+  "venue": "San Fran, Wellington",
+  "coordinates": {
+    "lat": -41.2941512,
+    "long": 174.7755614
+  },
+  "dates": [
+    "2027-02-05-00:00"
+  ],
+  "displayDate": "Fri 05 Feb",
+  "url": "https://www.sanfran.co.nz/all-events/molly-payton-tickets-ae1282418",
+  "source": "San Fran",
+  "eventType": "Music & Concerts",
+  "long_description": "",
+  "description": "",
   "labels": []
 },
 {

@@ -1,2 +1,42 @@
 [
+{
+  "id": "Summer Holiday Market-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
+  "name": "Summer Holiday Market",
+  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/dcf9c361-e42f-4828-9401-bbd3ff043e40.png?v=1795003948&width=493",
+  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
+  "coordinates": {
+    "lat": -41.1452704,
+    "long": 175.090018
+  },
+  "dates": [
+    "2026-12-12-09:00"
+  ],
+  "displayDate": "Sat 12 Dec",
+  "url": "https://store.mangaroa.org/products/summer-holiday-market-sat-12th-december",
+  "source": "Mangaroa",
+  "eventType": "Music & Concerts",
+  "long_description": "Join Mangaroa Farms for our very first holiday market. We're celebrating the gift of summer by connecting our local community around food, gardening and artisan goods. We'll also be relaunching Pick Your Own as the summer veges spring up, and our coffee cart will be open. Come down for a day in the sun with family and friends.\n\nFeaturing\n- Goods from local makers, growers and vendors\n- Mangaroa Coffee Cart, open from 9am-1pm\n- Crop & seedling swap\n- Pick Your Own Veges\n\nPlease park on the paddock to the right of the regular Farm Shop carpark.\n\nPlease email events@mangaroa.org for more information, or if you'd like to participate.",
+  "description": "Join Mangaroa Farms for our very first holiday market.\nWe're celebrating the gift of summer by connecting our local community around food, gardening and artisan goods.\nWe'll also be relaunching Pick Your Own as the summer veges spring up, and our coffee cart will be open.\nCome down for a day in the sun with family and friends.\nFeaturing - Goods from local makers, growers and vendors - Mangaroa Coffee Cart, open from 9am-1pm - Crop & seedling swap - Pick Your Own Veges Please park on the paddock to the right of the regular Farm Shop carpark.",
+  "labels": []
+},
+{
+  "id": "Mangaroa Farms Harvest Festival-Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt-Mangaroa",
+  "name": "Mangaroa Farms Harvest Festival",
+  "imageUrl": "https://store.mangaroa.org/cdn/shop/files/A1Poster-Harvest_SpringFestival.png?v=1793495286&width=1946",
+  "venue": "Mangaroa Farm, 98 Whitemans Valley Road, Te Awa Kairangi, Upper Hutt",
+  "coordinates": {
+    "lat": -41.1452704,
+    "long": 175.090018
+  },
+  "dates": [
+    "2027-04-10-10:00"
+  ],
+  "displayDate": "Sat 10 Apr",
+  "url": "https://store.mangaroa.org/products/mangaroa-harvest-festival-2027-sat-10th-april",
+  "source": "Mangaroa",
+  "eventType": "Music & Concerts",
+  "long_description": "Join us on Saturday 10 April from 10am\u20133pm for our Harvest Festival \u2014 celebrating Upper Hutt Food Week (3\u201311 April) with a day of farm charm. Expect local kai, garden and orchard tours, a kids zone, market stalls, coffee, live music, educational workshops, sheep shearing and dog demos, our pumpkin competition, the local walking trail and more.\n\nMore details to come - we look forward to seeing you in autumn.",
+  "description": "Join us on Saturday 10 April from 10am\u20133pm for our Harvest Festival \u2014 celebrating Upper Hutt Food Week (3\u201311 April) with a day of farm charm.\nExpect local kai, garden and orchard tours, a kids zone, market stalls, coffee, live music, educational workshops, sheep shearing and dog demos, our pumpkin competition, the local walking trail and more.\nMore details to come - we look forward to seeing you in autumn.",
+  "labels": []
+},
 ]
